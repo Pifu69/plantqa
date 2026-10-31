@@ -49,7 +49,7 @@ function summarySlide() {
   const s = content(`Összefoglalva: az összevont gráfon a vegyes kérdések megválaszolhatók, de a router pontosabb volt. GLM-mel az M2 ${corrOf("M2", "glm")}, az M3 ${corrOf("M3", "glm")}, az M1 ${corrOf("M1", "glm")} helyes választ adott a 40-ből; az M1 elmaradása mindkettőtől szignifikáns. Az M1 a legdrágább, az M3 a legolcsóbb, de ez a kis rajzon igaz. A különbség az adatlapi és vegyes kérdéseken jön ki, és egyik módszer sem hallucinált.`);
   title(s, "Összefoglalás");
   const rows = [["RQ1", `Router (M2) a legjobb: GLM-mel ${pct(accOf("M2", "glm"))}, M1 ${pct(accOf("M1", "glm"))} (M1−M2 ${hu(d1.diff, 3)} [${hu(d1.ci_low, 3)}; ${hu(d1.ci_high, 3)}], M1−M3 ${hu(d3.diff, 3)})`],
-    ["RQ2", "M1 a legdrágább, M2 kb. fele, M3 a legolcsóbb (a kis rajzon)"],
+    ["RQ2", "M1 a legdrágább; M2 GLM-mel kb. fele, Lunával 0,4-szerese; M3 a legolcsóbb (a kis rajzon)"],
     ["RQ3", "Rajz- és „nincs benne” kérdés: mind erős; adatlapi és vegyes kérdésen nyílik szét"]];
   rows.forEach(([k, t], i) => {
     s.addShape(pres.shapes.OVAL, { x: 0.6, y: 1.25 + i * 1.2, w: 0.8, h: 0.8, fill: { color: NAVY }, line: { color: NAVY } });

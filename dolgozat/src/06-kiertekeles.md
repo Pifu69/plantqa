@@ -9,8 +9,7 @@ szám a megadott mérésből származik (`docs/eredmenyek.md`).
 Mindhárom módszert mindkét kérdés-válaszoló modellel futtattuk: `z-ai/glm-5.3-flash` és
 `openai/gpt-6-luna`, OpenRouteren át, Benedek rögzített paramétereivel. A Luna-pinek Benedek
 pin-fájljai, a GLM-hez az ő `pin_low` beállítását és annak magas gondolkodású változatát
-használtuk. Minden hívás cache-elt és naplózott; a teljes projekt költsége jóval a 20 USD-s keret
-alatt maradt (a pontos összeget az összefoglalás adja). A pontosság a helyes válaszok aránya; a
+használtuk. Minden hívás cache-elt és naplózott; a teljes projekt fizetős költése 1,6342 USD volt a 20 USD-s keretből (EXP-050). A pontosság a helyes válaszok aránya; a
 konfidenciaintervallum 10 000 ismétléses, seedelt percentilis-bootstrap, a módszerpárok
 különbségét ugyanazokon a kérdéseken, párosítva számoltuk.
 
@@ -69,8 +68,7 @@ Táblázat: Költség, késleltetés és tokenhasználat kérdésenként a végs
 ![Kérdésenkénti költség és medián késleltetés (EXP-020); két külön panel, mert a két mennyiség skálája eltér.](../../figures/test_cost_latency.png)
 
 A legdrágább az M1: a kaszkád első szintje a teljes kétrétegű sémát kapja promptban, és ha nem
-fogadják el a válaszát, az ágens is lefut, amely tagenként külön adatlap-hívásokat indít. Az M2
-körülbelül feleannyiba kerül, mert csak a szükséges eszközt hívja. Az M3 a legolcsóbb, és
+fogadják el a válaszát, az ágens is lefut, amely tagenként külön adatlap-hívásokat indít. Az M2 GLM-mel körülbelül feleannyiba kerül (0,00234 vs. 0,00453 USD), Lunával 40%-ába (0,00213 vs. 0,00539 USD), mert csak a szükséges eszközt hívja. Az M3 a legolcsóbb, és
 Lunával a leggyorsabb is: egyetlen hívás, de a teljes rajzot és tizenkét adatlap-darabot viszi
 magával. Ez a példaüzemen olcsó, mert a rajz kicsi (36 csúcs); Benedek mérései szerint a
 ContextRAG költsége a lapszámmal meredeken nő (a plantgraph README-je szerint), ezért az M3
@@ -124,7 +122,7 @@ szivattyú 266 psi-s burkolatnyomása megvolt, a 100 °F-ig érvényes 250 psi-s
 elfogadási szabály a rajzi kérdésekre készült, ahol a nem üres sorhalmaz jó jelzés; adatlapi
 kérdésnél a hiányos sor is nem üres.
 
-**A rajzi kérdések közös hibái.** A teszt (a) családjában három kérdést több módszer is elrontott.
+**A rajzi kérdések közös hibái.** A teszt (a) családjában három kérdést több párosítás is elrontott.
 Az izolációs kérdésnél („To isolate P-1-5 from all upstream equipment, which valves must be
 closed?”) a gold válasz egyetlen szelep, a módszerek többsége a felfelé eső összes szelepet
 felsorolta. A szabályozókörös kérdésnél („Which control loops act on valves directly connected to
@@ -132,8 +130,7 @@ P-2-1?”) az M2 mindkét modellel a szelepet (PV-2-1) adta meg a kör (PIC-2-1)
 rajzeszköznek szabad szöveges kérdést ad, és a válasz alakja ott elcsúszott. A P-2-1-ből lefelé
 eső elemek halmazánál az M1 GLM-mel és az M3 Lunával hiányos listát adott.
 
-**Megválaszolhatatlan kérdések.** Mindegyik módszer jól kezelte: a nem létező tagekre és a
-dokumentumban nem szereplő tényekre „nincs benne” válasz jött, egyetlen hallucináció nélkül.
+**Megválaszolhatatlan kérdések.** GLM-mel mindhárom módszer mind a 10 kérdést felismerte, Lunával 9-et; hallucináció nem volt. A három Luna-hiba: az M3 egy nem létező tagre (P-2-4) utat adott meg, az M2 egy nem létező tagre (FV-2-3) üres listát adott a „nincs benne” jelzés nélkül, az M1 pedig egy adatlapban nem szereplő tényre jelzés nélkül válaszolt (részben helyes).
 
 **A referencia korlátja.** A (b)–(d) család referenciaválaszait egy modell írta a PDF-ből, és
 ember nem ellenőrizte őket; a bíráló ugyanazt a referenciát látta minden módszernél, ezért az

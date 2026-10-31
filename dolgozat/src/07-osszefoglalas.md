@@ -16,8 +16,7 @@ párosítás, és GLM-mel az M1 elmaradása mind az M2-től, mind a gráf nélk�
 is kimutatható. Lunával a három módszer különbsége nem szignifikáns. A gráf nélküli baseline
 ezen a kis üzemen versenyképes volt.
 
-**RQ2.** Kérdésenként az M1 volt a legdrágább (GLM-mel 0,00453, Lunával 0,00539 USD), az M2
-körülbelül fele ennyi, az M3 a legolcsóbb (GLM-mel 0,00029 USD); a medián késleltetés 4 és 18 s
+**RQ2.** Kérdésenként az M1 volt a legdrágább (GLM-mel 0,00453, Lunával 0,00539 USD), az M2 GLM-mel körülbelül fele, Lunával 0,4-szerese ennyi (0,00234, illetve 0,00213 USD), az M3 a legolcsóbb (GLM-mel 0,00029 USD); a medián késleltetés 4 és 18 s
 között volt (EXP-020). A kis rajz miatt az M3 olcsó; Benedek mérései szerint a teljes rajzot
 promptba tevő megközelítés költsége a lapszámmal meredeken nő.
 

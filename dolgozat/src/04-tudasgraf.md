@@ -323,7 +323,7 @@ A betöltés egy paranccsal újrafuttatható (`python -m plantqa.graph.load`). S
 adatbázis törlése és a neosemantics beállítása, az eszközgráfok betöltése és névtérbe sorolása,
 az üzemi réteg betöltése Benedek betöltőjével (amely csak a saját korpuszát törli), a
 `DESCRIBED_BY` élek, végül a plantdocs A2 vektoros kereséséhez szükséges beágyazások. A teljes
-betöltés 243,2 s; ennek nagy része (222,4 s) a 14 489 beágyazás tárolása és indexelése, az üzemi
+betöltés 243,2 s; ennek nagy része (222,4 s) a 14 489 beágyazás előállítása, tárolása és indexelése, az üzemi
 réteg 3,6 s alatt töltődik be (EXP-005). A helyi Neo4j Community kiadás csak egy felhasználói
 adatbázist enged, ezért a betöltő minden futáskor az egész adatbázist újraépíti.
 

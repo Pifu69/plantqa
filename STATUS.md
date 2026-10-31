@@ -32,3 +32,37 @@
 - **Következő:** bírálat → végső táblázat és ábrák; demó-képernyőképek; 6–7. fejezet, kivonat;
   előadás.
 - **Költés eddig:** spent 0.7411 USD / 20 USD.
+
+## 2026-10-31 13:36 — KÉSZ: minden fázis lezárva
+
+- **Dolgozat:** `dolgozat/dolgozat.pdf` (50 oldal; forrás: `dolgozat/src/*.md`, építés:
+  `node dolgozat/build/build.js` + `dolgozat/build/to_pdf.ps1`); számellenőrzés lefutott
+  (`docs/szamellenorzes.md`: 209 OK, 9 probléma, mind javítva).
+- **Előadás:** `eloadas/eloadas.pptx` (17 dia: 13 fő + 4 tartalék, előadói jegyzettel, natív
+  diagramok az eredmény-CSV-kből; validálva), `eloadas/eloadas.pdf`.
+- **Demó:** `uv run python -m plantqa.app` (http://127.0.0.1:8010), alapértelmezés M2 + GLM (a
+  teszten legjobb, EXP-020: 31/40); 6 kérdés minden családból képernyőképpel (`figures/demo/`,
+  EXP-040).
+- **Mérések:** dev EXP-010–013, végső teszt EXP-020 (6 párosítás), kiegészítő (e) család EXP-030;
+  minden sor a `docs/eredmenyek.md`-ben; ábrák: `uv run python -m plantqa.figures`.
+- **Ellenőrzések:** pytest (18), ruff, ruff format, mypy zöld.
+- **Költés:** 1,6342 USD / 20 USD (EXP-050).
+
+### Ami kimaradt vagy eltér a tervtől, és miért
+- **Tartály-, szint- és hőmérséklet-távadó-adatlap nincs:** a v1 generátor üzemét szivattyú,
+  hőcserélő, globe-, gömb- és visszacsapó szelep, valamint P/F távadó alkotja; ehhez 3 új adatlap
+  elég volt (`dontesek.md`).
+- **A szabályozófunkciókhoz (FIC/PIC) nincs adatlap:** DCS-funkciók, gyártói adatlapjuk nem
+  létezik (`data/plant/tags.json`).
+- **Az adatlapok LLM-lépéseit Opus végezte, nem GLM:** a felhasználó kérése (a PROMPT 4. szabálya
+  helyett); a meglévő eszközöknél az Opus-gráfok.
+- **A POSC Caesar régi SPARQL-végpontja nem volt elérhető:** az új adatlapgráfokban csak az rds-
+  és CFIHOS-illesztések szerepelnek.
+- **(b)/(c) kérdés csak a 4 korábbi eszközről:** a gold pároknak a PROMPT szerint a plantdocs
+  EXP-0026/0039-ből kell jönniük; a 3 új adatlapot az (e) család kérdezi (EXP-008/009/030).
+- **LaTeX helyett docx → PDF:** a gépen nincs LaTeX, a PROMPT ilyenkor a docx utat írja elő.
+- **Ember nem ellenőrizte** a referenciaválaszokat és a bírálatot (modell, vak subagent); ezt a
+  dolgozat korlátként kimondja.
+- **Futás közbeni javítások** (mind naplózva a `dontesek.md`-ben, a mérések újrapontozva): a
+  jelzés + magyarázat megjelenítése és bírálói exportja; a TAG_PATH pontozás gold élei; egy
+  hálózati hiba miatti újrapróbálás az M2/M3-ban.

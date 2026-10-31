@@ -58,8 +58,7 @@ teszi a gráfcsúcsok címkéjébe [Alimin2026], [Alimin2025]; Benedek generáto
 ### A gyártói adatlap
 
 A rajz csak a kapcsolatokat mutatja; az egyes eszközök műszaki jellemzőit (nyomás- és
-hőmérséklethatár, anyag, méret, opciók) a gyártói adatlapok tartalmazzák. Egy adatlap tipikusan
-több tíz oldalas PDF, táblázatokkal, lábjegyzetekkel, feltételekhez kötött értékekkel és
+hőmérséklethatár, anyag, méret, opciók) a gyártói adatlapok tartalmazzák. Egy adatlap néhány oldalastól több mint száz oldalasig terjedő PDF (a példaüzem adatlapjai 2 és 114 oldal között vannak, EXP-007), táblázatokkal, lábjegyzetekkel, feltételekhez kötött értékekkel és
 diagramokkal; a példaüzem adatlapjai 2 és 114 oldal közöttiek (EXP-007).
 
 Az adatlapi tény ritkán egyetlen szám. Egy szabályozószelep adatlapján egy hőmérsékleti határ

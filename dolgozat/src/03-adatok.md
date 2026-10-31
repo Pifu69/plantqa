@@ -30,7 +30,7 @@ szelep a GF 165 mágnesszelep (kétutas, globe kialakítású nyitó-záró szel
 szabályozófunkcióhoz (FIC, PIC) nem rendeltünk adatlapot, mert ezek a folyamatirányító
 rendszer funkciói, gyártói adatlapjuk nincs.
 
-Táblázat: Elemosztályok és adatlapok a példaüzemben (EXP-002, EXP-006)
+Táblázat: Elemosztályok és adatlapok a példaüzemben (EXP-002, EXP-006, EXP-007)
 | DEXPI-osztály (szerep) | Tagek | Adatlap | Oldal |
 |---|---|---|---|
 | CentrifugalPump | P-1-1 … P-2-3 (8 db) | Gorman-Rupp VGH (0700286) | 6 |

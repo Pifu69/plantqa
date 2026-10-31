@@ -1,6 +1,6 @@
 # Bevezetés
 
-Egy ipari üzemet több ezer oldalnyi, sokféle dokumentum ír le. A csővezeték- és műszerezési
+Egy ipari üzemet sokféle dokumentum ír le. A csővezeték- és műszerezési
 rajzok (P&ID) megmutatják, hogyan kapcsolódnak egymáshoz a berendezések, szelepek és műszerek; a
 gyártói adatlapok megadják, mire képes az egyes eszköz. Egy üzemeltető vagy tervező mérnök
 kérdései gyakran mindkét dokumentumfajtát érintik. „Mekkora a megengedett legnagyobb nyomás
@@ -40,7 +40,7 @@ Cypher-rel. Ez a dolgozat a két munka összevonásáról és annak mérésérő
 3. Három kérdés-válaszoló módszer a meglévő kódra építve: a kaszkád kiegészítése az
    adatlapréteggel és egy új adatlap-primitívvel (M1), egy router a két rendszer fölött (M2) és
    egy gráf nélküli baseline (M3).
-4. Egy 60 kérdéses, négy családra bontott kérdéssor programmal előállított referenciaválaszokkal,
+4. Egy 60 kérdéses, négy családra bontott kérdéssor részben programmal, részben modellel előállított referenciaválaszokkal,
    befagyasztott teszthalmazzal, és ezen a három módszer mért összehasonlítása két modellel.
 5. Egy webes demó, amely bármely módszerrel válaszol, és megmutatja az útvonalat, a
    lekérdezéseket és az adatlapi forrásoldalakat.
@@ -54,7 +54,7 @@ módszert, a mérést és a demót közösen készítettük. Mindkét egyéni mu
 mesterséges intelligenciával támogatott munkafolyamatban készült: a kódot, a méréseket és a szöveg
 első változatát Claude Code (Anthropic) ügynök készítette a megadott feladatleírás alapján, a
 döntéseket és a mért számokat a projekt naplói rögzítik (`docs/dontesek.md`,
-`docs/eredmenyek.md`). A dolgozat minden száma egy ténylegesen lefutott mérésből származik.
+`docs/eredmenyek.md`). A dolgozat minden száma egy ténylegesen lefutott mérésből vagy megjelölt forrásból (a két repó eredménynaplója, irodalmi jegyzetek) származik.
 
 ## A dolgozat felépítése
 

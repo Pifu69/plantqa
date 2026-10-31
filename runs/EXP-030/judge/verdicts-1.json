@@ -1,0 +1,242 @@
+[
+ {
+  "item": "5ae9849866",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Claims pump values are not in the documents and gives only the 6000 psig family maximum for the check valves."
+ },
+ {
+  "item": "27d9eac05d",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "P-2-2 value and lowest are right; BV-2-1 is given only as the PEEK-seat 315 C, without the seat-dependent values (Delrin 80 C etc.)."
+ },
+ {
+  "item": "6837f7457b",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Wrongly identifies the transmitter as GV-2-2, omits FT-2-2 and makes no comparison."
+ },
+ {
+  "item": "cbc471f04d",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Pump values are right, but the brass 12C/16C value is wrong (1300 vs 1500 psig) and it gives a definite lowest where gold says it cannot be decided."
+ },
+ {
+  "item": "2dcf306247",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Lowest E-1-1 at 150 psig is right, but the PED 232 psig and pump casing values are missing and the check valves are given a single 2000 psig."
+ },
+ {
+  "item": "86b31f987a",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "No answer (timed out)."
+ },
+ {
+  "item": "188be6fa78",
+  "verdict": "hallucinated",
+  "cites_page": false,
+  "reason": "Invents a 1500 maximum temperature for an unnamed third item; the values have no units and the construction dependence is missing."
+ },
+ {
+  "item": "77338ef775",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Says no values are available, although gold has the P-2-1 250/266 psi and FV-2-2 pressure classes."
+ },
+ {
+  "item": "8a1a82f94b",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "P-2-3 160 F and lowest are right; PT-2-1 is given as 401 F instead of the required construction-dependent values."
+ },
+ {
+  "item": "7c22811581",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "P-2-2 values are right and 'cannot be determined' matches, but the BV-2-1 chart values are missing and the PV-2-1 classes (PN16-PN100) don't match gold."
+ },
+ {
+  "item": "7bb5a686dd",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "GV-1-2, the pumps and the lowest are right, but it claims CHV-1-1 has no stated maximum fluid temperature."
+ },
+ {
+  "item": "dba787c62a",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Gives an unsupported 1500 psig packing limit for FV-2-2 and a definite lowest, where gold says it cannot be decided."
+ },
+ {
+  "item": "6765b10284",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Says the values are not provided, although gold has them."
+ },
+ {
+  "item": "e9d27120b7",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Lowest E-2-1 with 150/232 psig is right; the P-1-2 266 psi casing pressure is missing."
+ },
+ {
+  "item": "07f98327cd",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Says P-1-1, CHV-1-1 and P-1-2 values are not stated and that the lowest cannot be determined."
+ },
+ {
+  "item": "af6fa55d33",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Pump values are right and the comparison is hedged, but the check valves get only the 6000 psig family maximum, without construction values."
+ },
+ {
+  "item": "f9dd3ca610",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Wrong downstream item (P-2-2 instead of P-2-3); gives no value and no comparison."
+ },
+ {
+  "item": "1a2633c574",
+  "verdict": "wrong",
+  "cites_page": true,
+  "reason": "Says the GV-1-1 datasheet is missing (gold: PN 6 bar) and gives CHV-1-2 only as 6000 psig."
+ },
+ {
+  "item": "937a5fa500",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Says the GV-1-1 maximum pressure is not stated (gold: 6 bar); no lowest given."
+ },
+ {
+  "item": "205661d49e",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Pump values are right, but the check valves get a single 6000 psig and it gives a definite lowest where gold says it cannot be decided."
+ },
+ {
+  "item": "820a4fb56b",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Lowest GV-1-2 at 50 C is right, but it claims the P-1-1, CHV-1-1 and P-1-2 values are not stated."
+ },
+ {
+  "item": "21c610f4db",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Lowest E-2-1 with 150/232 psig is right; the P-1-2 266 psi casing pressure is missing."
+ },
+ {
+  "item": "2d7f36ec3f",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Says the E-1-1 and pump values are not present; the lowest (E-1-1) is not identified."
+ },
+ {
+  "item": "eab44628ce",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "No answer (parse failure)."
+ },
+ {
+  "item": "eb2d7a6eb8",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Gives an unsupported 13.7 bar lowest for CHV-1-2, omits the pumps and claims there is no BV-2-1 data."
+ },
+ {
+  "item": "a986a84637",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "GV-1-1 50 C and lowest are right, but the brass check valve is given as 100 F/37 C instead of 250 F/121 C."
+ },
+ {
+  "item": "7fa895fa2b",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "No answer (step limit)."
+ },
+ {
+  "item": "affaec1748",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Lowest GV-2-2 at 50 C is right; FT-2-2 is given a single 121 C without the construction dependence."
+ },
+ {
+  "item": "079d797a03",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Lowest GV-2-2 at 50 C is right; FT-2-2 is given no required values (only a 205 C maximum)."
+ },
+ {
+  "item": "d4ba2394e8",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Gives a definite lowest at 266 psi, claims no BV-2-1 value and gives the check valve a single 6000 psig."
+ },
+ {
+  "item": "6c50a31e36",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "All values (P-1-2 250/266 psi, E-2-1 150/232 psig) and lowest E-2-1 are correct."
+ },
+ {
+  "item": "c2f3475906",
+  "verdict": "partial",
+  "cites_page": true,
+  "reason": "P-2-3 160 F and lowest are right; for PT-2-1 it gives a range with an unsupported 130 F vacuum value instead of the required values."
+ },
+ {
+  "item": "3d13177adc",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "No answer (step limit)."
+ },
+ {
+  "item": "8947772724",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correct item identification, all values and lowest E-2-1."
+ },
+ {
+  "item": "b29af269d5",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Construction-dependent ranges for BV-2-1 and PV-2-1, P-2-2 160 F and lowest P-2-2 are all correct."
+ },
+ {
+  "item": "b820b007a6",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Says the pump maximum pressures are not stated; gives the check valves only as 6000 psig."
+ },
+ {
+  "item": "49f4899020",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "GV-1-1 6 bar, construction-dependent CHV-1-2 values and lowest GV-1-1 are correct (despite a misleading 'Not in the documents' opener)."
+ },
+ {
+  "item": "1cf9dced0b",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Says there is no data for P-2-2 or BV-2-1 and that no lowest can be identified."
+ },
+ {
+  "item": "46deb852e5",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Says the E-1-1 and pump values are not stated; the lowest is not identified."
+ },
+ {
+  "item": "50611b7abf",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Says the BV-2-1 and P-2-2 values are not stated and that no lowest can be determined."
+ }
+]

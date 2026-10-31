@@ -85,6 +85,36 @@ mindkettőt kérdezte; Lunával 14, 13 és 13.
 
 ![Az M1 és az M2 útvonalai a végső teszten (EXP-020).](../../figures/test_routes.png)
 
+## Összetett, több adatlapos kérdések
+
+A végső teszt után egy kiegészítő mérést is végeztünk 12 olyan kérdésen, amelyekhez a rajzon egy
+utat, egy elemhalmazt vagy két topológiai lépést kell bejárni, és két-három különböző adatlapot
+kell összevetni (például „Along the process flow path from E-1-1 to CHV-2-1, which item has the
+lowest maximum allowable pressure according to its datasheet?”). A referenciát program rakta
+össze a gold gráfból és egy vak Opus-agent által a PDF-ekből gyűjtött tényekből (EXP-008,
+EXP-009); négy kérdésnél a helyes válasz az, hogy a rajz nem mondja meg a beépített változatot,
+ezért a legkisebb érték nem dönthető el. A kérdéseket futtatás előtt befagyasztottuk, és a
+módszereken semmit nem változtattunk.
+
+Táblázat: Az összetett, több adatlapos kérdések eredménye (12 kérdés, EXP-030)
+| Módszer | Modell | Helyes | Részben | Rossz | Hallucinált | Költség / 12 kérdés (USD) | Medián késleltetés (s) |
+|---|---|---|---|---|---|---|---|
+| M1 | GLM-5.3 Flash | 0 | 5 | 6 | 1 | 0,0636 | 61,9 |
+| M2 | GLM-5.3 Flash | 3 | 6 | 3 | 0 | 0,0537 | 34,3 |
+| M3 | GLM-5.3 Flash | 0 | 2 | 10 | 0 | 0,0046 | 25,6 |
+| M1 | GPT-6 Luna | 0 | 6 | 6 | 0 | 0,0880 | 28,2 |
+| M2 | GPT-6 Luna | 1 | 9 | 2 | 0 | 0,1280 | 38,6 |
+| M3 | GPT-6 Luna | 0 | 0 | 12 | 0 | 0,0276 | 13,6 |
+
+Ezek a kérdések mindegyik módszernek nehezek: teljesen helyes választ csak a router adott (GLM-mel
+3, Lunával 1 kérdésre), a bíráló pedig „részben helyes” ítéletet adott, ha egy elemnél a második
+érték vagy a feltétel hiányzott. Ha a részben helyes válaszokat is számítjuk, a router GLM-mel 9,
+Lunával 10 kérdésnél adott legalább részben jó választ, az M1 5, illetve 6, a gráf nélküli
+baseline 2, illetve 0 kérdésnél. A különbség itt a legnagyobb: több adatlap összevetéséhez a
+rajzon kell bejárni az elemeket, majd mindegyik adatlapját külön lekérdezni, és ezt a router
+eszközhívásai természetesen leképezik, az egyetlen lekérdezés (M1) és az egyetlen prompt (M3)
+viszont nem.
+
 ## Hibaelemzés
 
 **Az M1 egyetlen lekérdezése.** Az M1 hibáinak nagy része „részben helyes” válasz: a Cypher-szint

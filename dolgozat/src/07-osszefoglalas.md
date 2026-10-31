@@ -24,7 +24,10 @@ promptba tevő megközelítés költsége a lapszámmal meredeken nő.
 **RQ3.** A rajzi (a) és a megválaszolhatatlan (d) kérdéseken mindhárom módszer erős, a
 különbség az adatlapi (b) és az összetett (c) kérdéseken jön ki. Az M1 jellemző hibája a hiányos
 egylekérdezéses válasz: a kaszkád elfogadási szabálya a rajzi kérdésekre készült, és egy nem üres,
-de hiányos adatlapi sort is elfogad. Egyik módszer sem hallucinált a teszten.
+de hiányos adatlapi sort is elfogad. Egyik módszer sem hallucinált a teszten. A kiegészítő, több
+adatlapos kérdéseken (EXP-030) a különbség még nagyobb: teljesen helyes választ csak a router adott
+(GLM-mel 3, Lunával 1 a 12-ből), legalább részben jót GLM-mel 9, Lunával 10 kérdésre, a gráf
+nélküli baseline 2, illetve 0 kérdésre.
 
 ## Korlátok
 

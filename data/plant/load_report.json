@@ -2,54 +2,64 @@
   "documents_loaded": [
     "alfalaval-m3",
     "fisher-et-d100022x012",
-    "gfps-165-solenoid-valve",
-    "gorman-rupp-0700286"
-  ],
-  "documents_missing_graph": [
     "flowserve-worcester-f51-f52",
-    "rosemount-3051-00813-0100-4001",
+    "gfps-165-solenoid-valve",
+    "gorman-rupp-0700286",
     "swagelok-ms-01-176"
   ],
-  "described_by_edges": 17,
+  "documents_missing_graph": [
+    "rosemount-3051-00813-0100-4001"
+  ],
+  "described_by_edges": 22,
   "vectors": {
     "alfalaval-m3": 109,
     "fisher-et-d100022x012": 1704,
+    "flowserve-worcester-f51-f52": 1221,
     "gfps-165-solenoid-valve": 329,
-    "gorman-rupp-0700286": 1689
+    "gorman-rupp-0700286": 1689,
+    "swagelok-ms-01-176": 4753
   },
   "seconds": {
-    "reset": 2.7263422000105493,
-    "plant_layer": 3.1316907000145875,
-    "vectors": 14.901447499985807,
-    "total": 22.614398400008213
+    "reset": 3.1278653000481427,
+    "plant_layer": 3.8443153999978676,
+    "vectors": 141.37085459998343,
+    "total": 153.12053110002307
   },
   "device_seconds": {
     "alfalaval-m3": {
-      "seconds": 0.055320899991784245,
+      "seconds": 0.055377200013026595,
       "nodes": 135
     },
     "fisher-et-d100022x012": {
-      "seconds": 0.713604899996426,
+      "seconds": 0.8258549000020139,
       "nodes": 3324
     },
+    "flowserve-worcester-f51-f52": {
+      "seconds": 0.35779229999752715,
+      "nodes": 1627
+    },
     "gfps-165-solenoid-valve": {
-      "seconds": 0.13060560001758859,
+      "seconds": 0.13463899999624118,
       "nodes": 599
     },
     "gorman-rupp-0700286": {
-      "seconds": 0.5989702999941073,
+      "seconds": 0.8459077999577858,
       "nodes": 2629
+    },
+    "swagelok-ms-01-176": {
+      "seconds": 1.7114582000067458,
+      "nodes": 8373
     }
   },
   "counts": {
     "plant_nodes": 36,
     "plant_relationships": 116,
-    "device_nodes": 6687,
-    "shared_vocabulary_nodes": 122,
-    "device_relationships": 25658,
-    "described_by": 17,
-    "all_nodes": 6847,
-    "all_relationships": 25791,
+    "device_nodes": 16687,
+    "shared_vocabulary_nodes": 144,
+    "device_relationships": 63937,
+    "described_by": 22,
+    "all_nodes": 16869,
+    "all_relationships": 64075,
     "per_document": [
       {
         "doc": "alfalaval-m3",
@@ -62,6 +72,11 @@
         "relationships": 13932
       },
       {
+        "doc": "flowserve-worcester-f51-f52",
+        "nodes": 1627,
+        "relationships": 7704
+      },
+      {
         "doc": "gfps-165-solenoid-valve",
         "nodes": 599,
         "relationships": 2278
@@ -70,6 +85,11 @@
         "doc": "gorman-rupp-0700286",
         "nodes": 2629,
         "relationships": 9029
+      },
+      {
+        "doc": "swagelok-ms-01-176",
+        "nodes": 8373,
+        "relationships": 30573
       }
     ]
   }

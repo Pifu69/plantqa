@@ -1,0 +1,46 @@
+# Irodalomjegyzék
+
+A hivatkozott művek a két forrásrepó irodalmi jegyzeteiből (`plantdocs/docs/private/10-literature/`, `Thesis/docs/`) származnak, az ott rögzített adatokkal.
+
+- [AIChE2010a] AIChE ChEnected (2010): „P&ID Part 3 – Symbology Primer”.
+- [AIChE2010b] AIChE ChEnected (2010): „P&ID Part 4: Codes, Tags and Labels”.
+- [Alimin2025] Alimin, Goldstein, Schulze Balhorn, Schweidtmann (2025): *Talking like Piping and Instrumentation Diagrams (P&IDs)*. arXiv 2502.18928.
+- [Alimin2026] Alimin & Schweidtmann (2026): *GraphRAG for Engineering Diagrams: ChatP&ID Enables LLM Interaction with P&IDs*. arXiv 2603.22528; a folyóiratváltozat: AIChE Journal, doi 10.1002/aic.70540
+- [ArrowheadHandbook] POSC Caesar Association: Arrowhead fPVN Handbook és Use Cases (`docs.posccaesar.org/libraries-and-standards/arrowhead-handbook/`).
+- [CFIHOS] IOGP JIP36: CFIHOS (Capital Facilities Information Handover Specification), „Version 2.0”.
+- [Christensen2020] B. A. Christensen (2020): *Preparation of Process Flow Diagrams and Piping and Instrumentation Diagrams*, HNF-64103 Rev. 0. Mission Support Alliance, US DOE (Hanford).
+- [DEXPI2025] DEXPI e.V.: DEXPI Specification 2.0 (benne a DEXPI P&ID Specification 1.4), 2025. október.
+- [DEXPI2026news] DEXPI e.V. hír, 2026-03-23: a TotalEnergies a DEXPI szemantikus (BFO- és IDO-igazított) változatán dolgozik.
+- [Fan2026] Fan et al. (2026): GraphRAG-Router. arXiv 2604.16401.
+- [Gadekar2026] Gadekar, Sakhinana, Runkana (2026): *Grounded and Faithful P&ID Reasoning: Constraining Vision-Language Models with Recovered Evidence Graphs*. arXiv 2609.05880v1.
+- [GoldenRetriever2024] szerzők a jegyzetben nincsenek (2024, az arXiv-azonosító szerint): Golden-Retriever. arXiv 2408.00798.
+- [GraphCoT2024] szerzők a jegyzetben nincsenek: Graph-CoT. arXiv 2404.07103.
+- [Hirtreiter2022] Hirtreiter, Schulze Balhorn, Schweidtmann (2022): *Towards automatic generation of P&IDs with AI*. arXiv 2211.05583; a jegyzet szerint AIChE J. 70(1) e18259.
+- [HyperGraphRAG2025] szerzők a jegyzetben nincsenek (2025): HyperGraphRAG. arXiv 2503.21322, NeurIPS 2025.
+- [HyperRAG2026] szerzők a jegyzetben nincsenek (2026): HyperRAG. arXiv 2602.14470, WWW 2026.
+- [IDO] IDO (Industrial Data Ontology), korábban ISO/TR 15926-14, most ISO 23726-3 (ISO DIS / FDIS 23726-3; „IDO v4.2 (FDIS, April 2026)”).
+- [IOF] Industrial Ontologies Foundry: IOF, release 202603 (BFO-alapú, MIT).
+- [ISO10628-1] ISO 10628-1:2014 (folyamatábrák és P&ID-k), hivatalos előnézet, 1–5.4.3. fejezet.
+- [KBQAAgent2024] szerzők a jegyzetben nincsenek: Middleware / KBQA-Agent. arXiv 2402.14672.
+- [KGAgent2024] szerzők a jegyzetben nincsenek: KG-Agent. arXiv 2402.11163.
+- [Knollmeyer2025] Knollmeyer, Caymazer, Grossmann (2025): Document GraphRAG. Electronics 2025, 14(11):2102.
+- [Kochanski2026] Kochański et al. (2026): „How Everllence Scaled P&ID Intelligence…”. AWS Industries blog, 2026-05-27.
+- [Kumar2026] Kumar, Motiyani, Kasturi, Seefried, Movva, Ghosal (2026): *Enginuity: A Dataset and Benchmark for Vision-Language Understanding of Engineering Diagrams*. arXiv 2606.03410.
+- [Lopomo2026] Lopomo et al. (2026): *Leveraging LLMs and Object Detection for Automated KG Generation from Industrial Schematics*. Big Data Cogn. Comput. 10(7):210, doi 10.3390/bdcc10070210.
+- [MCPNeo4j] Neo4j `mcp-neo4j-cypher` (neo4j-contrib/mcp-neo4j), szoftver.
+- [Mani2020] Mani, Haddad, Constantini, Douhard, Li, Poirier (C3.ai) (2020): *Automatic Digitization of Engineering Diagrams Using Deep Learning and Graph Search*. CVPRW 2020.
+- [OPC30250] OPC Foundation: OPC UA for DEXPI (OPC 30250 v1.0).
+- [OPEN100] Energy Impact Center: OPEN 100 atomerőmű-terv P&ID-jei (www.open-100.com).
+- [OntoCAPE] RWTH Aachen AVT: OntoCAPE 2.0 (62 OWL-fájl, GPL).
+- [PCARDL] POSC Caesar Association Reference Data Library: a régi `data.posccaesar.org/rdl/RDS…` és az új `rds.posccaesar.org/ontology/plm/rdl/` (equipment modul 0.9.1, CC BY-SA 4.0).
+- [PID2Graph2025] Stürmer, Graumann, Koch (DLR) (2025): PID2Graph adatkészlet. Zenodo, doi 10.5281/zenodo.14803338, CC BY-SA 4.0.
+- [PidGraphAgent2026] GitHub `shaaz1000/pid-graph-agent` (2026), szoftver, nem lektorált.
+- [QUDT] QUDT (qudt.org), Release 2.1, CC BY 4.0.
+- [SOSASSN2017] W3C: SOSA/SSN, W3C Recommendation, 2017. október 19.
+- [SchemaOrg] schema.org, V30.0 (2026-03-19).
+- [SchulzeBalhorn2025] Schulze Balhorn, Seijsener, Dao, Kim, Goldstein, Driessen, Schweidtmann (2025): *Rule-based autocorrection of Piping and Instrumentation Diagrams (P&IDs) on graphs*. arXiv 2502.18493.
+- [StarE2020] szerzők a jegyzetben nincsenek (2020, az arXiv-azonosító szerint): StarE. arXiv 2009.10847.
+- [Sturmer2024] Stürmer, Graumann, Koch (DLR) (2024): *From Engineering Diagrams to Graphs: Digitizing P&IDs with Transformers*. arXiv 2411.13929, IEEE DSAA 2025.
+- [Toghraei2019] M. Toghraei (2019): *Piping and Instrumentation Diagram Development*. Wiley/AIChE (2. kiadás: ISBN 9781394368587).
+- [Xiang2025] Xiang et al. (2025, az arXiv-azonosító szerint): GraphRAG-Bench, „When to use Graphs in RAG”. arXiv 2506.05690v3.
+- [pyDEXPI] process-intelligence-research/pyDEXPI, szoftver (AGPL-3.0).

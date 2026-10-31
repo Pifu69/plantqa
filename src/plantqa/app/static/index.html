@@ -12,7 +12,9 @@
   main { display: grid; grid-template-columns: 58% 42%; height: calc(100vh - 38px); }
   #left { border-right: 1px solid #c8d1dc; display: flex; flex-direction: column; }
   #left .bar { padding: 6px 10px; background: #eef2f6; font-size: 12px; display: flex; gap: 10px; align-items: center; }
-  iframe { border: 0; width: 100%; flex: 1; }
+  #viewer { flex: 1; overflow: auto; background: #f4f6f8; text-align: center; }
+  #viewer img { max-width: 100%; margin: 8px auto; box-shadow: 0 1px 4px rgba(0,0,0,.15); background: #fff; }
+  .sheet { padding: 2px 8px; font-size: 12px; cursor: pointer; }
   #right { padding: 12px 14px; overflow-y: auto; }
   textarea { width: 100%; height: 70px; font: inherit; padding: 6px; }
   .row { display: flex; gap: 8px; align-items: center; margin: 6px 0; flex-wrap: wrap; }
@@ -32,9 +34,12 @@
 <header><h1>plantqa</h1><span>Ask anything about the example plant: the P&amp;ID (left) and the datasheet of every tagged item.</span></header>
 <main>
   <section id="left">
-    <div class="bar"><b>P&amp;ID</b> 4 sheets, corpus PQA (generated with plantgraph, seed 6)
-      <a id="back" href="#" style="display:none">back to the drawing</a></div>
-    <iframe id="viewer" src="/api/drawing"></iframe>
+    <div class="bar"><b>P&amp;ID</b> corpus PQA (plantgraph, seed 6) · sheet
+      <button class="sheet" data-s="1">1</button><button class="sheet" data-s="2">2</button>
+      <button class="sheet" data-s="3">3</button><button class="sheet" data-s="4">4</button>
+      <a href="/api/drawing" target="_blank">PDF</a>
+      <span id="where"></span></div>
+    <div id="viewer"><img id="pic" src="/api/drawing/1.png" alt="P&amp;ID sheet"></div>
   </section>
   <section id="right">
     <textarea id="q" placeholder="e.g. What is the maximum casing pressure of P-1-3?"></textarea>
@@ -62,11 +67,12 @@ let config = null;
 
 function esc(s) { return String(s).replace(/[&<>]/g, c => ({"&": "&amp;", "<": "&lt;", ">": "&gt;"}[c])); }
 
+function showSheet(n) { $("pic").src = `/api/drawing/${n}.png`; $("where").textContent = ""; }
 function showPage(doc, page) {
-  $("viewer").src = `/api/datasheets/${doc}/pdf#page=${page}`;
-  $("back").style.display = "inline";
+  $("pic").src = `/api/datasheets/${doc}/page/${page}.png`;
+  $("where").innerHTML = ` · showing ${esc(doc)} p. ${page} (<a href="/api/datasheets/${doc}/pdf#page=${page}" target="_blank">PDF</a>)`;
 }
-$("back").onclick = (e) => { e.preventDefault(); $("viewer").src = "/api/drawing"; $("back").style.display = "none"; };
+document.querySelectorAll(".sheet").forEach(b => b.onclick = () => showSheet(+b.dataset.s));
 
 function sources(list) {
   if (!list.length) return "";
@@ -110,6 +116,17 @@ async function init() {
   $("examples").querySelectorAll("button").forEach(b => b.onclick = () => {
     const q = ex[+b.dataset.i]; $("q").value = q.text; $("atype").value = q.answer_type;
   });
+  // ?q=...&method=...&model=...&type=...&page=doc:N : a kérdés betöltéskor (képernyőképekhez)
+  const params = new URLSearchParams(location.search);
+  if (params.get("q")) {
+    $("q").value = params.get("q");
+    if (params.get("method")) $("method").value = params.get("method");
+    if (params.get("model")) $("model").value = params.get("model");
+    if (params.get("type")) $("atype").value = params.get("type");
+    await ask();
+    const page = params.get("page");
+    if (page) { const [doc, n] = page.split(":"); showPage(doc, +n); }
+  }
 }
 init();
 </script>

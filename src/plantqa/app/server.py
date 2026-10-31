@@ -10,7 +10,7 @@ from pathlib import Path
 from typing import Any
 
 from fastapi import FastAPI, HTTPException
-from fastapi.responses import FileResponse
+from fastapi.responses import FileResponse, Response
 from pydantic import BaseModel
 
 from plantqa.graph.load import tag_mapping
@@ -80,6 +80,30 @@ def datasheet_pdf(document_id: str) -> FileResponse:
     if document_id not in set(tag_mapping().values()):
         raise HTTPException(404, f"unknown document {document_id!r}")
     return FileResponse(pdf_path(document_id), media_type="application/pdf")
+
+
+def page_png(pdf: Path, page: int, dpi: int) -> bytes:
+    """Egy PDF-oldal PNG-ként (a fej nélküli böngésző a PDF-beépülőt nem jeleníti meg)."""
+    import pymupdf
+
+    doc: Any = pymupdf.open(pdf)  # type: ignore[no-untyped-call]
+    if not 1 <= page <= int(doc.page_count):
+        raise HTTPException(404, f"page {page} out of range")
+    return bytes(doc[page - 1].get_pixmap(dpi=dpi).tobytes("png"))
+
+
+@app.get("/api/drawing/{sheet}.png")
+def drawing_sheet(sheet: int) -> Response:
+    """A rajz egy lapja képként (1-től számozva)."""
+    return Response(page_png(DRAWING, sheet, 110), media_type="image/png")
+
+
+@app.get("/api/datasheets/{document_id}/page/{page}.png")
+def datasheet_page(document_id: str, page: int) -> Response:
+    """Egy adatlapoldal képként (a forrásoldal megjelenítéséhez)."""
+    if document_id not in set(tag_mapping().values()):
+        raise HTTPException(404, f"unknown document {document_id!r}")
+    return Response(page_png(pdf_path(document_id), page, 110), media_type="image/png")
 
 
 @app.get("/api/examples")

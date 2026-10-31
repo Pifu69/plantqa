@@ -1,5 +1,7 @@
 # plantqa
 
+**Documents (Hungarian):** thesis [`dolgozat/dolgozat.pdf`](dolgozat/dolgozat.pdf) (first version: [`dolgozat/v1/dolgozat-v1.pdf`](dolgozat/v1/dolgozat-v1.pdf)) · slides [`eloadas/eloadas.pdf`](eloadas/eloadas.pdf) / [`eloadas/eloadas.pptx`](eloadas/eloadas.pptx)
+
 Joint question answering over a P&ID **and** the vendor datasheets of its tagged items. It merges two
 thesis codebases without modifying them (both are imported as uv path dependencies):
 

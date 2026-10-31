@@ -1,0 +1,242 @@
+[
+ {
+  "item": "b9725ea2d7",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Concludes FT-27-4 is lowest, but the gold says the comparison depends on construction and cannot be decided."
+ },
+ {
+  "item": "5d91a9456f",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "No answer (step limit)."
+ },
+ {
+  "item": "24adcb1482",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Gives construction-dependent ranges for both valves and correctly says the lowest cannot be determined."
+ },
+ {
+  "item": "00a03e2027",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Correct conclusion (P-10-4, 160F) but the CHV-10-1 construction values partly disagree with the gold (CH series 250F claim)."
+ },
+ {
+  "item": "1beeb44bc7",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Claims neither maximum pressure is stated although the gold gives values for both."
+ },
+ {
+  "item": "d237be6b81",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Gives P-10-4 250/266 psi, CHV-10-1 construction-dependent up to 6000 psig, and correctly picks P-10-4."
+ },
+ {
+  "item": "f4fc51c4e6",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Correctly picks GV-50-1 at 6 bar but gives no values for FV-50-1/BV-50-2 and hedges the conclusion."
+ },
+ {
+  "item": "6d0b0fae06",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Construction-dependent values for both valves and correctly says the lowest cannot be determined."
+ },
+ {
+  "item": "3d0b0be375",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Picks FT-27-4 as lower (205 vs 315 C) despite the caveat, whereas the gold says it cannot be decided."
+ },
+ {
+  "item": "6807d99e28",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "No answer (step limit)."
+ },
+ {
+  "item": "25368e9fec",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly picks E-29-1 with 10.3/16.0 barg and notes BV-14-2 depends on class/material with chart values."
+ },
+ {
+  "item": "cd777de986",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Misidentifies an item (BV-20-1) and claims no pressure values are stated."
+ },
+ {
+  "item": "9dddfddcfc",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Claims PV-22-3 is the only rated item and the lowest; the gold gives values for all items and says it is undecidable."
+ },
+ {
+  "item": "658e44a719",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "No answer (step limit)."
+ },
+ {
+  "item": "112347a371",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Names E-50-1/E-50-2 as lowest although its own GV-50-1 value of 6 bar is lower, contradicting the gold."
+ },
+ {
+  "item": "39773b076b",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Picks FT-27-4 as lower, whereas the gold says the comparison cannot be decided."
+ },
+ {
+  "item": "87f371e356",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "P-2-2 at 160F is lowest and FV-33-1 is seat-dependent with a minimum of 80 C, matching the gold."
+ },
+ {
+  "item": "738a19bcb3",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Claims no maximum temperatures are stated although the gold gives them."
+ },
+ {
+  "item": "79035b761a",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Picks CHV-49-1 (13.7 bar back pressure) as lowest, contradicting the gold (P-49-2)."
+ },
+ {
+  "item": "92bde696a9",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "No answer (step limit)."
+ },
+ {
+  "item": "68165c8423",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Correctly says the comparison cannot be determined but claims LV-45-2's values are not in the documents."
+ },
+ {
+  "item": "b613e74814",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Correctly says it cannot be decided and that both depend on construction, but gives no rating values."
+ },
+ {
+  "item": "25be0253da",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Fails to identify BV-14-2 and claims E-29-1's pressure is not stated."
+ },
+ {
+  "item": "3372755ff8",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Correctly picks P-49-2 but gives only the 266 psi casing pressure and no construction dependence for CHV-49-1."
+ },
+ {
+  "item": "d7e6e511cc",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Correctly picks P-10-4 at 160F but gives CHV-10-1 a single 400F value without the construction dependence."
+ },
+ {
+  "item": "4504076c79",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Says the two cannot be compared, whereas the gold says E-29-1 is lowest for every construction."
+ },
+ {
+  "item": "08e1972052",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "P-2-2 at 160F is lowest, and FV-33-1 is seat-dependent (about 80 to 300 C), consistent with the gold."
+ },
+ {
+  "item": "d84aa5dc24",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Correctly says it is undecidable but omits P-23-3's 266 psi casing pressure and FV-12-1's class ratings."
+ },
+ {
+  "item": "e72cc29b0a",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "No answer (step limit)."
+ },
+ {
+  "item": "b889335c08",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Claims P-49-2's pressure is not stated and that the lowest cannot be determined."
+ },
+ {
+  "item": "0b221b1ce7",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Gives P-23-3 250/266 psi, notes FV-12-1 has no single rating, and correctly says the comparison cannot be made."
+ },
+ {
+  "item": "deff465862",
+  "verdict": "wrong",
+  "cites_page": true,
+  "reason": "Claims P-10-4's rating is not available and picks CHV-10-1, contradicting the gold."
+ },
+ {
+  "item": "da3b2b34f2",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Gives BV-20-2 class-dependent ratings and PV-20-1 class dependence, and correctly says the lowest cannot be determined."
+ },
+ {
+  "item": "53c3490129",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Correctly picks GV-50-1 at 6 bar but says the heat exchanger and ball valve values are not stated."
+ },
+ {
+  "item": "b46503c578",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Claims neither value is stated although the gold gives both."
+ },
+ {
+  "item": "540d31ad70",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Correctly picks GV-50-1 at 50 C but gives no values for the other items on the path."
+ },
+ {
+  "item": "50e565cd0d",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "No answer (step limit)."
+ },
+ {
+  "item": "99d8b118ba",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Conclusion that the lowest cannot be stated matches, but it claims BV-20-2's limits are not in the documents."
+ },
+ {
+  "item": "5e52c059b3",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Correctly picks GV-50-1 at +50 C, but the CHV values come from the wrong datasheet (Fisher packing limits)."
+ },
+ {
+  "item": "0f5cd23aa2",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Picks GV-54-1 at 6 bar as lowest, whereas the gold says the comparison cannot be decided; other values missing."
+ }
+]

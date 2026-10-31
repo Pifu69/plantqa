@@ -296,14 +296,17 @@ def main() -> None:
     methods_overview()
     graph_layers(plan)
     dev_progress(plan)
-    small, large = plan["test"], plan["scale"]["large"]["exp"]
+    small = plan["test"]
     test_by_family(small, "test", "test_by_family", "Kis üzem, teszt (40 kérdés, családonként 10)")
     test_cost_latency(small, "test", "test_cost_latency", "Kis üzem: költség és késleltetés")
     routes_figure(small, "test_routes", "Útvonalak a kis üzem tesztjén")
-    title = "Nagy üzem (27 lap), 60 kérdés, családonként 15"
-    test_by_family(large, "dev+test", "large_by_family", title)
-    test_cost_latency(large, "dev+test", "large_cost_latency", "Nagy üzem: költség és késleltetés")
-    routes_figure(large, "large_routes", "Útvonalak a nagy üzemen")
+    for item in plan["large"]:
+        exp, name, label = item["exp"], item["name"], item["label"]
+        test_by_family(exp, "dev+test", f"{name}_by_family", f"{label}, 60 kérdés, családonként 15")
+        test_cost_latency(
+            exp, "dev+test", f"{name}_cost_latency", f"{label}: költség és késleltetés"
+        )
+        routes_figure(exp, f"{name}_routes", f"Útvonalak, {label}")
     print(f"figures written to {FIGURES}")
 
 

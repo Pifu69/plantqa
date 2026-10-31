@@ -22,15 +22,26 @@
   "complex": "EXP-030",
   "scale": {
     "small": {
-      "exp": "EXP-020",
-      "split": "test",
-      "label": "kis üzem (4 lap)"
-    },
-    "large": {
       "exp": "EXP-060",
       "split": "dev+test",
-      "label": "nagy üzem (27 lap)"
+      "label": "27 lap"
+    },
+    "large": {
+      "exp": "EXP-070",
+      "split": "dev+test",
+      "label": "98 lap"
     }
   },
-  "complex_large": "EXP-061"
+  "large": [
+    {
+      "exp": "EXP-060",
+      "label": "27 lapos üzem",
+      "name": "pqb"
+    },
+    {
+      "exp": "EXP-070",
+      "label": "98 lapos üzem",
+      "name": "pqc"
+    }
+  ]
 }

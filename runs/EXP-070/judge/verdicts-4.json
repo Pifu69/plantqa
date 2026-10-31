@@ -1,0 +1,242 @@
+[
+ {
+  "item": "d62a41a405",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Gives wrong overall dimensions (69.9 mm x 14 mm) and claims it easily fits; only weight is right."
+ },
+ {
+  "item": "b3e952afb8",
+  "verdict": "hallucinated",
+  "cites_page": false,
+  "reason": "Gold says no troubleshooting is in the document but candidate supplies an inspection procedure for leak diagnosis."
+ },
+ {
+  "item": "f91073665a",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Net weight right but wrongly says overall dimensions are not given."
+ },
+ {
+  "item": "abb4e20149",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly states casing filling before first start is not stated."
+ },
+ {
+  "item": "61169ce5d6",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Flanged available with ratings, plus buttweld, socket weld and screwed."
+ },
+ {
+  "item": "f2cbb70e1a",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Suction 4 in and discharge 2 1/2 in given but raised face flanges omitted (only optional NPT mentioned)."
+ },
+ {
+  "item": "ee48a8f35f",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Gives 356 mm instead of 368 mm RF / 384 mm RTJ."
+ },
+ {
+  "item": "79e079b321",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Hedges that suction/discharge are not identified, though it notes 2.50 discharge and 4.00 suction companion flanges."
+ },
+ {
+  "item": "a88a002be4",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly states gas mounting position relative to taps is not specified."
+ },
+ {
+  "item": "8651ef1c3d",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Flanged, butt-weld and screwed available, but socket weld omitted and answer is hedged."
+ },
+ {
+  "item": "861baeffc2",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "1/4-18 NPT and factory manifolds right but misses 2 1/8 in centers, DF adapters and S5/S6 option mapping."
+ },
+ {
+  "item": "37af1097f2",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly states bonnet removal safety procedure is not in the documents."
+ },
+ {
+  "item": "f6625342ba",
+  "verdict": "correct",
+  "cites_page": true,
+  "reason": "Correctly says newer model fit cannot be determined."
+ },
+ {
+  "item": "47cd298170",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "<+/-0.1% URL per IEC 60770-1:1999 high vibration, 10-60 Hz 0.21 mm / 60-2000 Hz 3g."
+ },
+ {
+  "item": "a5cb5d3790",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Ductile iron casing, gray iron 40 impeller, pH 5 suitability not stated."
+ },
+ {
+  "item": "b225605fe4",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Says max casing pressure is not stated although gold gives 266 psi."
+ },
+ {
+  "item": "5f1accdc76",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "PVC body and EPDM/FKM seals right but does not recommend choosing FKM."
+ },
+ {
+  "item": "2e31e57814",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Describes a Fisher steel-bodied valve instead of PVC body with EPDM/FKM seals."
+ },
+ {
+  "item": "341273f553",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Says maximum liquid temperature is not stated although gold gives 160 F (71 C)."
+ },
+ {
+  "item": "8eb741eff1",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly says compatibility with a newer model is not stated."
+ },
+ {
+  "item": "931222c28a",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Whisper/WhisperFlo for noise is right but says no trim for high pressure drop, missing Cavitrol III role."
+ },
+ {
+  "item": "ffe2538223",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly states the documents do not identify the leaking component or how to check."
+ },
+ {
+  "item": "a73be76375",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Ductile iron casing, gray iron impeller, pH 5 suitability not stated."
+ },
+ {
+  "item": "a6bdf965ef",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Gives Fisher NPS sizes instead of DN 15-50 with d32 = DN 25."
+ },
+ {
+  "item": "2edabfdd90",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Stainless CF8M/CF3M available but omits cast iron, WCC, LCC, WC9."
+ },
+ {
+  "item": "c887e01bad",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "PVC body and EPDM/FKM right but asserts EPDM is used and does not recommend FKM."
+ },
+ {
+  "item": "28c78e7fd1",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "All three with standard cages; Whisper/WhisperFlo/Cavitrol linear only."
+ },
+ {
+  "item": "f54cab7579",
+  "verdict": "correct",
+  "cites_page": true,
+  "reason": "<+/-0.1% URL per IEC 60770-1:1999 high vibration with the test levels."
+ },
+ {
+  "item": "a505f01d38",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "No answer (timed out)."
+ },
+ {
+  "item": "c1a708d2b4",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Flanged yes with ratings, but does not list screwed, butt weld and socket weld as options."
+ },
+ {
+  "item": "9b1ac55d87",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly states bolt torque is not available."
+ },
+ {
+  "item": "6b717b4884",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Lists flanged, buttweld and screwed as possible but omits socket weld and does not clearly answer."
+ },
+ {
+  "item": "8214676333",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly states the bonnet removal precaution is not specified."
+ },
+ {
+  "item": "af7bf01c1a",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Whisper Trim III/NXG/WhisperFlo for noise in gas, Cavitrol III for cavitation at high pressure drop."
+ },
+ {
+  "item": "45dabc9cc2",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "1/4-18 NPT on 2 1/8 in centers and S5/S6 manifolds right but misses DF adapters and 3051T S5 306, and opens with 'Not in the documents'."
+ },
+ {
+  "item": "3824c16a19",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly states casing filling before first start is not stated."
+ },
+ {
+  "item": "5708b14d7f",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Yes, manual override exists."
+ },
+ {
+  "item": "9a8445a48d",
+  "verdict": "correct",
+  "cites_page": true,
+  "reason": "Standard centrifugal pump, basic pedestal, 4 x 2 1/2 in, model code not explained."
+ },
+ {
+  "item": "ecbdb1f292",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Kv per DN 83/100/233/267/500/600 l/min with water +20 C, 1 bar inlet, free outlet."
+ },
+ {
+  "item": "5481485d43",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Gives 59.7 with right conditions but attributes it to ED/ETR among several values, not the ET."
+ }
+]

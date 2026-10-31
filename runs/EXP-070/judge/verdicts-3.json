@@ -1,0 +1,242 @@
+[
+ {
+  "item": "7bcd2068c6",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Says separate seal kit/coil availability is not stated (and treats it as a Fisher valve) although gold lists coil set and wear part set."
+ },
+ {
+  "item": "c87aa5eeb9",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Gives 24 V DC, 230 V and 115 V variants and says 24 V DC works only with the 24 V DC coil variant."
+ },
+ {
+  "item": "5614eda3d5",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly states that the leak diagnosis/check procedure is not in the documents without inventing one."
+ },
+ {
+  "item": "e8b836502e",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Says no Kv value can be determined although gold gives Kv per DN."
+ },
+ {
+  "item": "ecca94d3e6",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Mentions a manual override exists but hedges that it is unclear whether it opens the valve without power."
+ },
+ {
+  "item": "d67b56bf05",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Lists trims and correctly assigns Whisper/WhisperFlo to noise and Cavitrol III to cavitation."
+ },
+ {
+  "item": "66e9119d02",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Standard centrifugal pump, 4 x 2 1/2 in, model code meaning not explained."
+ },
+ {
+  "item": "a47a671871",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "24 V DC and 230 V AC versions exist; 24 V DC works only with the 24 V DC coil."
+ },
+ {
+  "item": "ce1b3e9d37",
+  "verdict": "correct",
+  "cites_page": true,
+  "reason": "Suction 4 in, discharge 2 1/2 in, raised face flanges, with bolt patterns."
+ },
+ {
+  "item": "a62a47af7d",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Says it cannot tell which size is suction or discharge, so the main answer is missing."
+ },
+ {
+  "item": "6a438ebb6e",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Claims it is a hand-operated valve needing no power, contradicting the solenoid voltage variants in gold."
+ },
+ {
+  "item": "8bbe32baa9",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Correctly says cavitation diagnosis is not established but wrongly says NPSHr is not given."
+ },
+ {
+  "item": "bbac9a09af",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Only mentions equal percentage and says linear/quick-opening availability is not stated."
+ },
+ {
+  "item": "069b8de484",
+  "verdict": "partial",
+  "cites_page": true,
+  "reason": "Gives 59.7 with the right conditions but attributes it to ED/ETR and says ET is not listed for 2 in."
+ },
+ {
+  "item": "3083e46da8",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "States the documents do not say whether seat ring or plug seal is responsible or how to check."
+ },
+ {
+  "item": "49ece8bebb",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Flanged available, plus screwed, socketweld and BW options listed."
+ },
+ {
+  "item": "fcbd7e3bac",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly states no inspection or seal-change interval is given."
+ },
+ {
+  "item": "c9aba72576",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "No; only Plugged Impulse Line diagnostic with low-power output."
+ },
+ {
+  "item": "540ea98a62",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Gives +/-1.95% of flow rate but omits the 8:1 flow turndown condition."
+ },
+ {
+  "item": "d7a1f529d0",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly states maximum altitude is not stated."
+ },
+ {
+  "item": "1bf2d7627e",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Gives IEC 60770-1 test levels but omits the <+/-0.1% of URL vibration effect."
+ },
+ {
+  "item": "1e81efe52a",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Correctly says coil set and wear part sets are orderable but gives no codes."
+ },
+ {
+  "item": "cc35b332b7",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly states part numbers are not in the documents, only materials."
+ },
+ {
+  "item": "5d86ecb812",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Standard centrifugal pump is right but misses the 4 x 2 1/2 size and that the model code is not explained."
+ },
+ {
+  "item": "8e6fe3ef4f",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Net weight right but wrongly says overall dimensions are not stated."
+ },
+ {
+  "item": "ee2cda33c1",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Only CE listed; no drinking water or Ex approval stated."
+ },
+ {
+  "item": "482b7841a2",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Yes, service-friendly robust manual override (item 10)."
+ },
+ {
+  "item": "7baa1841eb",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Lists cast iron, WCC, LCC, WC9, CF8M, CF3M and confirms stainless available."
+ },
+ {
+  "item": "bd4e984253",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Gives 100 F (37 C) instead of the 160 F (71 C) maximum liquid temperature."
+ },
+ {
+  "item": "32a2498778",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly states priming requirement is not stated."
+ },
+ {
+  "item": "5b8b83eb17",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly says replacement-model compatibility cannot be determined from the documents."
+ },
+ {
+  "item": "dc7dc17cee",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Only Plugged Impulse Line diagnostic with low-power output, not Loop Integrity."
+ },
+ {
+  "item": "dcaefd9012",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "High/low selectable by jumper/switch is right but default high, alarm levels and output M details are missing."
+ },
+ {
+  "item": "cfc8fc6be5",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly states bolt torque is not stated."
+ },
+ {
+  "item": "5654e051fd",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Correctly says cavitation is not established but wrongly says NPSHr is not given."
+ },
+ {
+  "item": "7525c2951e",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "24 V DC and 230 V AC variants exist; depends on which variant was ordered."
+ },
+ {
+  "item": "dea5448ed7",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "PVC body, EPDM or FKM seals, FKM as the alternative."
+ },
+ {
+  "item": "4298f929af",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly states mounting position relative to taps is not specified."
+ },
+ {
+  "item": "6ec4b93df4",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Lists 59.7 among several values for other variants without the trim/cage/flow conditions."
+ },
+ {
+  "item": "2809169c6c",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly says newer model fit cannot be determined."
+ }
+]

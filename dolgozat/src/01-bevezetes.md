@@ -34,7 +34,7 @@ A munka két részből épül fel, mindkettő az egyik szerző egyéni munkája.
 Ebben a dolgozatban a két részt összekapcsoljuk: a rajzi gráf elemeit a tagjük alapján az
 adatlapgráfokhoz kötjük, és megmérjük, mennyire jól válaszolnak a rendszerek a két
 dokumentumfajtát együtt igénylő kérdésekre. A módszereket egy kis, négylapos üzemen fejlesztettük,
-majd változtatás nélkül egy hétszer nagyobb, 27 lapos üzemen mértük meg.
+majd változtatás nélkül egy 27 lapos és egy 98 lapos üzemen mértük meg.
 
 ## Kutatási kérdések
 
@@ -42,14 +42,14 @@ majd változtatás nélkül egy hétszer nagyobb, 27 lapos üzemen mértük meg.
   tudásgráfon (M1), és hogyan viszonyul ennek pontossága egy olyan irányítóéhoz (router, M2),
   amely a két rész meglévő rendszerét külön hívja, illetve egy gráf nélküli alapmódszeréhez
   (baseline, M3)?
-- **RQ2.** Hogyan változik a módszerek pontossága és költsége, ha a négylapos üzemről a 27
-  laposra lépünk, a módszerek változtatása nélkül?
+- **RQ2.** Hogyan változik a módszerek pontossága és költsége, ha az üzem mérete nő (27 és 98
+  lap), a módszerek változtatása nélkül?
 - **RQ3.** Mely kérdéscsaládokon segít a gráf, és milyen hibák jellemzők az egyes módszerekre?
 
 ## Hozzájárulások
 
-1. Két közös példaüzem: egy négylapos, 26 tagelt elemes és egy 27 lapos, 190 tagelt elemes P&ID
-   ugyanazzal a generátorral, amelyek elemeihez program rendeli hozzá hét eszköz gyártói
+1. Három közös példaüzem ugyanazzal a generátorral: egy négylapos (26 tagelt elem), egy 27
+   lapos (190) és egy 98 lapos (765), amelyek elemeihez program rendeli hozzá hét eszköz gyártói
    adatlapját.
 2. Az összevont tudásgráf: a rajzi üzemi réteg és hét eszköz adatlapgráfja egy
    Neo4j-adatbázisban, egy tagalapú kapcsolattal összekötve, egy paranccsal újratölthetően.
@@ -58,7 +58,7 @@ majd változtatás nélkül egy hétszer nagyobb, 27 lapos üzemen mértük meg.
    fölött (M2) és egy gráf nélküli alapmódszer (M3).
 4. Üzemenként egy 60 kérdéses, négy családra bontott kérdéssor és 12 több adatlapot összevető
    kérdés, részben programmal, részben modellel előállított referenciaválaszokkal; a három módszer
-   mért összehasonlítása két modellel mindkét üzemen.
+   mért összehasonlítása két modellel mindhárom üzemen.
 5. Egy webes demó, amely bármely módszerrel válaszol, és megmutatja az útvonalat, a
    lekérdezéseket és az adatlapi forrásoldalakat.
 
@@ -73,8 +73,8 @@ naplói rögzítik (`docs/dontesek.md`, `docs/eredmenyek.md`).
 ## A dolgozat felépítése
 
 A 2. fejezet a hátteret és a kapcsolódó munkákat foglalja össze. A 3. fejezet bemutatja a
-két példaüzemet, az adatlapokat és a kérdéssort, a 4. fejezet az összevont tudásgráfot, az 5. fejezet a
-három módszert. A 6. fejezet a nagy üzemen mért eredményeket, a 7. fejezet a demót és egy esettanulmányt, a 8. fejezet a következtetéseket és a
+három példaüzemet, az adatlapokat és a kérdéssort, a 4. fejezet az összevont tudásgráfot, az 5. fejezet a
+három módszert. A 6. fejezet a két nagy üzemen mért eredményeket, a 7. fejezet a demót és egy esettanulmányt, a 8. fejezet a következtetéseket és a
 korlátokat tárgyalja. A Függelék a példakérdéseket (A), a két módszer promptjainak részleteit (B, C),
 a két forrásfolyamat részletes leírását (D), a módszerek lépéseinek részleteit (E), további
 demó-képernyőképeket (F) és a kis üzemen végzett mérések teljes leírását (G) tartalmazza.

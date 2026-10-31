@@ -1,0 +1,14 @@
+[
+ {
+  "item": "3907c1d377",
+  "verdict": "wrong",
+  "cites_page": true,
+  "reason": "Gives the correct weight but says the overall dimensions are not stated, although the gold gives them; the dimensions are the main ask."
+ },
+ {
+  "item": "5821f2d3f8",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Standard centrifugal pump, 4 x 2 1/2 in, and model code not explained, matching the gold."
+ }
+]

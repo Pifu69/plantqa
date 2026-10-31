@@ -1,0 +1,140 @@
+[
+ {
+  "item": "ae57f239c6",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Correctly picks GV-50-1 at +50 C but claims no other item's maximum temperature is stated."
+ },
+ {
+  "item": "77a0345a06",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Correctly picks P-2-2 at 160F but gives FV-33-1 only 315 C (PEEK) without the seat-dependent range."
+ },
+ {
+  "item": "e6d9d90a7c",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "CHV-10-1 is seal-dependent (250/300/400F), P-10-4 is 160F, and P-10-4 is correctly picked as lowest."
+ },
+ {
+  "item": "0d8706a03a",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Gives only the CHV values and says the lowest is not stated, whereas the gold says GV-50-1."
+ },
+ {
+  "item": "ceff4f131f",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Says the values are not provided, although the gold gives both."
+ },
+ {
+  "item": "2c108372e0",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Ignores P-10-4 and names CHV-10-1 as lowest, contradicting the gold."
+ },
+ {
+  "item": "35014467cb",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Gives P-10-4 250/266 psi and CHV-10-1 6000 psig subject to limits, and correctly picks P-10-4."
+ },
+ {
+  "item": "81d4f09c53",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Gives the right values but says the lowest cannot be determined, whereas the gold says P-49-2 is lowest for every construction."
+ },
+ {
+  "item": "c4e62d2672",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Correctly says it cannot be determined, but gives BV-20-2 only the 315 C PEEK value as if fixed."
+ },
+ {
+  "item": "0060607a41",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Names CHV-1-2 at 413 bar as lowest, contradicting the gold."
+ },
+ {
+  "item": "e014cf4797",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Names PV-20-1 (260 C) as lowest, whereas the gold says it cannot be decided."
+ },
+ {
+  "item": "03f4e0a824",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Says the temperatures are not provided, although the gold gives them."
+ },
+ {
+  "item": "c0b16b08ab",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Picks FT-27-4 (205 C) as lowest despite the caveat, whereas the gold says it cannot be decided."
+ },
+ {
+  "item": "4b7fc87f43",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Says neither maximum temperature is stated, although the gold gives both."
+ },
+ {
+  "item": "984b7220ff",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Notes CHV-10-1 depends on configuration (catalog 6000 psig), gives P-10-4 250/266 psi, and correctly picks P-10-4."
+ },
+ {
+  "item": "9a6feb86d0",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Names 37 C items (check valves and pumps) as lowest by misreading the data; the gold says GV-50-1 at 50 C."
+ },
+ {
+  "item": "7efe9ff3a5",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Gives correct values for both items but leans to P-23-3 before admitting the comparison is not fully determinable."
+ },
+ {
+  "item": "ecaecd04de",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Correctly picks P-10-4 with construction-dependent CHV values but omits the 266 psi casing pressure."
+ },
+ {
+  "item": "200c066c2a",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Gives P-49-2 250/266 psi and CHV-49-1 series-dependent ratings, and correctly picks P-49-2."
+ },
+ {
+  "item": "7439e898e9",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "No answer (parse failure)."
+ },
+ {
+  "item": "859d8f8d39",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Claims P-49-2 has no value and names CHV-49-1 as lowest, contradicting the gold."
+ },
+ {
+  "item": "ff4a06aa1b",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Gives no pressure values for either item."
+ },
+ {
+  "item": "1785f0c177",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Correctly picks P-2-2 but gives a wrong value (37 C instead of 71 C / 160F)."
+ }
+]

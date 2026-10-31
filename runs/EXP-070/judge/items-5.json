@@ -1,0 +1,36 @@
+[
+ {
+  "item": "3907c1d377",
+  "gold": {
+   "answer": "Bare pump (no motor): length 25.95 in. (659 mm), height 18.88 in. (480 mm), width 14.20 in. (361 mm); net weight 194 lb (88 kg), shipping 204 lb (93 kg). The pump alone fits on 1 m × 0.6 m; with a motor and coupling it cannot be said from the document.",
+   "answerable": "partial",
+   "category": "conditional",
+   "must": [
+    "659 × 361 × 480 mm (approx.)",
+    "88 kg net",
+    "motor not included"
+   ],
+   "relation": "upstream",
+   "via_tag": "P-14-1",
+   "question": "Consider the item directly upstream of BV-14-2 in the process flow. What are the overall dimensions and weight? Will it fit on a 1 m by 0.6 m base?"
+  },
+  "candidate": "Not in the documents. The item directly upstream of BV-14-2 is pump P-14-1 (Gorman-Rupp, datasheet gorman-rupp-0700286). Its weight is stated: 194 lbs (88 kg) net, 204 lbs (93 kg) shipping weight, with an export crate size of 5.6 cu ft (0.16 m³). The overall length, width and height are not given as numeric values in the datasheet — they are only shown on the outline dimension drawing on page 2, which is not available. Therefore it cannot be confirmed whether it fits on a 1 m × 0.6 m base; the overall dimensions are not stated in the available documents."
+ },
+ {
+  "item": "5821f2d3f8",
+  "gold": {
+   "answer": "A standard centrifugal pump on a basic pedestal (bare shaft), size 4\" x 2 1/2\". The meaning of the model code is not explained.",
+   "answerable": "partial",
+   "category": "value",
+   "must": [
+    "standard centrifugal pump (pedestal)",
+    "4\" x 2 1/2\"",
+    "model code not explained"
+   ],
+   "relation": "upstream",
+   "via_tag": "P-14-1",
+   "question": "Consider the item directly upstream of BV-14-1 in the process flow. What kind of pump is a VGH2 1/2C31-B, and what does the model code tell me?"
+  },
+  "candidate": "The item directly upstream of BV-14-1 is P-14-1, a Gorman-Rupp standard centrifugal pump, model VGH2 1/2C31-B, size 4\" x 2 1/2\" (102 mm x 64 mm). As for the model code: the datasheet does not provide a breakdown of what \"VGH2\", \"1/2\", \"C\", \"31\" or \"B\" individually stand for — there is no legend explaining the code components. What the datasheet does explain is the trailing curve number (e.g. \"-1\", \"-5\", \"-7\"): that is the performance curve number, each tied to specific conditions (e.g. curve VGH2 1/2C-B-1 = water, 60 Hz, full 10.20\" impeller, 3450–1150 RPM; curve -5 = water, 50 Hz, trimmed impeller, 1450 RPM; curve -7 = petroleum with specific gravity 0.80, 60 Hz, trimmed impeller, 3450 RPM). The performance charts use the shorter designation VGH2 1/2C-B with volute 26821-756 and impeller 26821-472."
+ }
+]

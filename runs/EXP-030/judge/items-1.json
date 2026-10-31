@@ -1,0 +1,3821 @@
+[
+ {
+  "item": "5ae9849866",
+  "gold": {
+   "answer": "CHV-1-2 (swagelok-ms-01-176): depends on the construction (C (2C, 4C, 6C, 8C), CA, CP, CPA series, 316 SS or brass, -10 to 100 °F: 3000 psig (206 bar); C series 12C and 16C, 316 SS, -10 to 100 °F: 2000 psig (137 bar); C series 12C and 16C, brass, -10 to 100 °F: 1500 psig (103 bar); CH4, CH8 series, 316 SS, 10 to 100 °F: 6000 psig (413 bar)) (p. 3) P-1-3 (gorman-rupp-0700286): depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa)) (p. 1) P-2-1 (gorman-rupp-0700286): depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa)) (p. 1) P-2-2 (gorman-rupp-0700286): depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa)) (p. 1) CHV-2-1 (swagelok-ms-01-176): depends on the construction (C (2C, 4C, 6C, 8C), CA, CP, CPA series, 316 SS or brass, -10 to 100 °F: 3000 psig (206 bar); C series 12C and 16C, 316 SS, -10 to 100 °F: 2000 psig (137 bar); C series 12C and 16C, brass, -10 to 100 °F: 1500 psig (103 bar); CH4, CH8 series, 316 SS, 10 to 100 °F: 6000 psig (413 bar)) (p. 3) Which one is the lowest cannot be decided from the datasheets alone.",
+   "answerable": "yes",
+   "must": [
+    "CHV-1-2: depends on the construction (C (2C, 4C, 6C, 8C), CA, CP, CPA series, 316 SS or brass, -10 to 100 °F: 3000 psig (206 bar); C series 12C and 16C, 316 SS, -10 to 100 °F: 2000 psig (137 bar); C series 12C and 16C, brass, -10 to 100 °F: 1500 psig (103 bar); CH4, CH8 series, 316 SS, 10 to 100 °F: 6000 psig (413 bar))",
+    "P-1-3: depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa))",
+    "P-2-1: depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa))",
+    "P-2-2: depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa))",
+    "CHV-2-1: depends on the construction (C (2C, 4C, 6C, 8C), CA, CP, CPA series, 316 SS or brass, -10 to 100 °F: 3000 psig (206 bar); C series 12C and 16C, 316 SS, -10 to 100 °F: 2000 psig (137 bar); C series 12C and 16C, brass, -10 to 100 °F: 1500 psig (103 bar); CH4, CH8 series, 316 SS, 10 to 100 °F: 6000 psig (413 bar))",
+    "says the comparison depends on the construction (not decidable as asked)"
+   ],
+   "per_tag": {
+    "CHV-1-2": {
+     "note": "Cover (p1) summarizes 'working pressures up to 6000 psig (413 bar)'; ratings decrease with temperature and may be limited by the end connection (CH ratings per connection on p12).",
+     "page": 3,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "C (2C, 4C, 6C, 8C), CA, CP, CPA series, 316 SS or brass, -10 to 100 °F",
+       "unit": "psig",
+       "value": 3000,
+       "value_text": "3000 psig (206 bar)"
+      },
+      {
+       "condition": "C series 12C and 16C, 316 SS, -10 to 100 °F",
+       "unit": "psig",
+       "value": 2000,
+       "value_text": "2000 psig (137 bar)"
+      },
+      {
+       "condition": "C series 12C and 16C, brass, -10 to 100 °F",
+       "unit": "psig",
+       "value": 1500,
+       "value_text": "1500 psig (103 bar)"
+      },
+      {
+       "condition": "CH4, CH8 series, 316 SS, 10 to 100 °F",
+       "unit": "psig",
+       "value": 6000,
+       "value_text": "6000 psig (413 bar)"
+      },
+      {
+       "condition": "CH16 series, 316 SS, 10 to 100 °F",
+       "unit": "psig",
+       "value": 5000,
+       "value_text": "5000 psig (344 bar)"
+      }
+     ]
+    },
+    "CHV-2-1": {
+     "note": "Cover (p1) summarizes 'working pressures up to 6000 psig (413 bar)'; ratings decrease with temperature and may be limited by the end connection (CH ratings per connection on p12).",
+     "page": 3,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "C (2C, 4C, 6C, 8C), CA, CP, CPA series, 316 SS or brass, -10 to 100 °F",
+       "unit": "psig",
+       "value": 3000,
+       "value_text": "3000 psig (206 bar)"
+      },
+      {
+       "condition": "C series 12C and 16C, 316 SS, -10 to 100 °F",
+       "unit": "psig",
+       "value": 2000,
+       "value_text": "2000 psig (137 bar)"
+      },
+      {
+       "condition": "C series 12C and 16C, brass, -10 to 100 °F",
+       "unit": "psig",
+       "value": 1500,
+       "value_text": "1500 psig (103 bar)"
+      },
+      {
+       "condition": "CH4, CH8 series, 316 SS, 10 to 100 °F",
+       "unit": "psig",
+       "value": 6000,
+       "value_text": "6000 psig (413 bar)"
+      },
+      {
+       "condition": "CH16 series, 316 SS, 10 to 100 °F",
+       "unit": "psig",
+       "value": 5000,
+       "value_text": "5000 psig (344 bar)"
+      }
+     ]
+    },
+    "P-1-3": {
+     "note": "Two distinct limits printed for the single model (casing vs. operating/system); consult factory for applications exceeding them.",
+     "page": 1,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Maximum casing pressure",
+       "unit": "psi",
+       "value": 266,
+       "value_text": "266 psi (1834 kPa)"
+      },
+      {
+       "condition": "Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations",
+       "unit": "psi",
+       "value": 250,
+       "value_text": "250 psi (1723 kPa)"
+      }
+     ]
+    },
+    "P-2-1": {
+     "note": "Two distinct limits printed for the single model (casing vs. operating/system); consult factory for applications exceeding them.",
+     "page": 1,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Maximum casing pressure",
+       "unit": "psi",
+       "value": 266,
+       "value_text": "266 psi (1834 kPa)"
+      },
+      {
+       "condition": "Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations",
+       "unit": "psi",
+       "value": 250,
+       "value_text": "250 psi (1723 kPa)"
+      }
+     ]
+    },
+    "P-2-2": {
+     "note": "Two distinct limits printed for the single model (casing vs. operating/system); consult factory for applications exceeding them.",
+     "page": 1,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Maximum casing pressure",
+       "unit": "psi",
+       "value": 266,
+       "value_text": "266 psi (1834 kPa)"
+      },
+      {
+       "condition": "Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations",
+       "unit": "psi",
+       "value": 250,
+       "value_text": "250 psi (1723 kPa)"
+      }
+     ]
+    }
+   },
+   "question": "Along the process flow path from CHV-1-2 to CHV-2-1, which item has the lowest maximum allowable pressure according to its datasheet? Give the value for every item on the path that has a datasheet."
+  },
+  "candidate": "The process flow path from CHV-1-2 runs via the PG-3 off-page connector to pump P-1-3, then via the PG-11 off-page connector to pump P-2-1, then via line PG-7 to pump P-2-2 (same tagged item as the P-2-2 on sheet 3), which feeds CHV-2-1 via line PG-8. Of these items, only the two check valves have datasheet excerpts provided: CHV-1-2 and CHV-2-1 are covered by the Swagelok check valve datasheet (swagelok-ms-01-176), which states working pressures up to 6000 psig (413 bar) for the C/CA/CH/CP/CPA series. The pumps on the path (P-1-3, P-2-1, P-2-2) belong to the Gorman-Rupp datasheet, but no excerpts of that datasheet are included in the provided documents, so their maximum allowable pressures are not stated. Therefore the item with the lowest maximum allowable pressure cannot be determined from the documents given; only the check valve values (6000 psig / 413 bar each) are stated."
+ },
+ {
+  "item": "27d9eac05d",
+  "gold": {
+   "answer": "BV-2-1 (flowserve-worcester-f51-f52): depends on the construction (Delrin seat: 80°C (180°F); UHMWPE seat: 90°C (200°F); Virgin PTFE seat: 230°C (450°F); Reinforced PTFE seat: 230°C (450°F)) (p. 7) P-2-2 (gorman-rupp-0700286): 160F (71C) (p. 1) PV-2-1 (fisher-et-d100022x012): depends on the construction (Cast iron body/bonnet (most trims): 232 °C (450 °F); WCC, LCC, WC9, CF8M or CF3M body with PEEK anti-extrusion rings and spring-loaded seal ring (trims 1, 27, 316L HF etc.), non-oxidizing service: 316 °C (600 °F); Same constructions, oxidizing service: 260 °C (500 °F); Standard PTFE seal construction (without PEEK anti-extrusion rings): 232 °C (450 °F)) (p. 21) Lowest: P-2-2 (for every listed construction).",
+   "answerable": "yes",
+   "must": [
+    "BV-2-1: depends on the construction (Delrin seat: 80°C (180°F); UHMWPE seat: 90°C (200°F); Virgin PTFE seat: 230°C (450°F); Reinforced PTFE seat: 230°C (450°F))",
+    "P-2-2: 160F (71C)",
+    "PV-2-1: depends on the construction (Cast iron body/bonnet (most trims): 232 °C (450 °F); WCC, LCC, WC9, CF8M or CF3M body with PEEK anti-extrusion rings and spring-loaded seal ring (trims 1, 27, 316L HF etc.), non-oxidizing service: 316 °C (600 °F); Same constructions, oxidizing service: 260 °C (500 °F); Standard PTFE seal construction (without PEEK anti-extrusion rings): 232 °C (450 °F))",
+    "lowest: P-2-2"
+   ],
+   "per_tag": {
+    "BV-2-1": {
+     "note": "Maximum seat temperature ratings; the p6 P-T chart axis only extends to 300 °C (572 °F).",
+     "page": 7,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Delrin seat",
+       "unit": "°C",
+       "value": 80,
+       "value_text": "80°C (180°F)"
+      },
+      {
+       "condition": "UHMWPE seat",
+       "unit": "°C",
+       "value": 90,
+       "value_text": "90°C (200°F)"
+      },
+      {
+       "condition": "Virgin PTFE seat",
+       "unit": "°C",
+       "value": 230,
+       "value_text": "230°C (450°F)"
+      },
+      {
+       "condition": "Reinforced PTFE seat",
+       "unit": "°C",
+       "value": 230,
+       "value_text": "230°C (450°F)"
+      },
+      {
+       "condition": "Fluorofill/Polyfill seat",
+       "unit": "°C",
+       "value": 260,
+       "value_text": "260°C (500°F)"
+      },
+      {
+       "condition": "PEEK seat",
+       "unit": "°C",
+       "value": 315,
+       "value_text": "315°C (600°F)"
+      },
+      {
+       "condition": "Metal seat (A or G)",
+       "unit": "°C",
+       "value": 315,
+       "value_text": "315°C (600°F)"
+      }
+     ]
+    },
+    "P-2-2": {
+     "note": "Stated as 'Maximum Temperature of Liquid Pumped' in the seal detail (seal-limited); 250 psi operating pressure is only rated up to 100F (37C); consult factory above.",
+     "page": 1,
+     "single_value": true,
+     "unit": "°F",
+     "value": 160,
+     "value_text": "160F (71C)"
+    },
+    "PV-2-1": {
+     "note": "Table 15 (p21-22) body/trim temperature capabilities depend on body material and trim (some trims only 149 °C / 300 °F or 210 °C / 410 °F); 232 °C / 450 °F limit and its extension are also stated on p2.",
+     "page": 21,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Cast iron body/bonnet (most trims)",
+       "unit": "°C",
+       "value": 232,
+       "value_text": "232 °C (450 °F)"
+      },
+      {
+       "condition": "WCC, LCC, WC9, CF8M or CF3M body with PEEK anti-extrusion rings and spring-loaded seal ring (trims 1, 27, 316L HF etc.), non-oxidizing service",
+       "unit": "°C",
+       "value": 316,
+       "value_text": "316 °C (600 °F)"
+      },
+      {
+       "condition": "Same constructions, oxidizing service",
+       "unit": "°C",
+       "value": 260,
+       "value_text": "260 °C (500 °F)"
+      },
+      {
+       "condition": "Standard PTFE seal construction (without PEEK anti-extrusion rings)",
+       "unit": "°C",
+       "value": 232,
+       "value_text": "232 °C (450 °F)"
+      }
+     ]
+    }
+   },
+   "question": "For each item that receives flow directly from P-2-1, what is its maximum fluid temperature according to its datasheet, and which of them has the lowest?"
+  },
+  "candidate": "BV-2-1: 315 °C (600 °F) with a PEEK seat; P-2-2: 71 °C (160 °F); PV-2-1: 316 °C (600 °F) in non-oxidizing service or 260 °C (500 °F) in oxidizing service. P-2-2 has the lowest stated maximum temperature."
+ },
+ {
+  "item": "6837f7457b",
+  "gold": {
+   "answer": "FT-2-2 (rosemount-3051-00813-0100-4001): depends on the construction (3051CD/CG/CF/CA silicone fill, coplanar flange: +250 °F (+121 °C); 3051CD/CG/CF/CA silicone fill, traditional flange, level flange or 305 integral manifold: +300 °F (+149 °C); 3051C inert fill sensor: +185 °F (+85 °C); 3051T silicone or inert fill: +250 °F (+121 °C)) (p. 90) GV-2-2 (gfps-165-solenoid-valve): +50 °C (media temperature, PVC housing 0 to +50 °C) (p. 2) Lowest: GV-2-2 (for every listed construction).",
+   "answerable": "yes",
+   "must": [
+    "FT-2-2: depends on the construction (3051CD/CG/CF/CA silicone fill, coplanar flange: +250 °F (+121 °C); 3051CD/CG/CF/CA silicone fill, traditional flange, level flange or 305 integral manifold: +300 °F (+149 °C); 3051C inert fill sensor: +185 °F (+85 °C); 3051T silicone or inert fill: +250 °F (+121 °C))",
+    "GV-2-2: +50 °C (media temperature, PVC housing 0 to +50 °C)",
+    "lowest: GV-2-2"
+   ],
+   "per_tag": {
+    "FT-2-2": {
+     "note": "Table 6 process connection temperature limits; lower limits in vacuum service (+220 °F / +104 °C); 3051CD0 limited to +212 °F (+100 °C); ambient limit separately -40 to +185 °F (p89).",
+     "page": 90,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "3051CD/CG/CF/CA silicone fill, coplanar flange",
+       "unit": "°F",
+       "value": 250,
+       "value_text": "+250 °F (+121 °C)"
+      },
+      {
+       "condition": "3051CD/CG/CF/CA silicone fill, traditional flange, level flange or 305 integral manifold",
+       "unit": "°F",
+       "value": 300,
+       "value_text": "+300 °F (+149 °C)"
+      },
+      {
+       "condition": "3051C inert fill sensor",
+       "unit": "°F",
+       "value": 185,
+       "value_text": "+185 °F (+85 °C)"
+      },
+      {
+       "condition": "3051T silicone or inert fill",
+       "unit": "°F",
+       "value": 250,
+       "value_text": "+250 °F (+121 °C)"
+      },
+      {
+       "condition": "3051L high side, Silicone 704, Silicone 200 or Neobee M-20 fill",
+       "unit": "°F",
+       "value": 401,
+       "value_text": "+401 °F (+205 °C)"
+      },
+      {
+       "condition": "3051L high side, SYLTHERM XLT",
+       "unit": "°F",
+       "value": 293,
+       "value_text": "+293 °F (+145 °C)"
+      }
+     ]
+    },
+    "GV-2-2": {
+     "note": "Ambient limit is separately 0 to +40 °C.",
+     "page": 2,
+     "single_value": true,
+     "unit": "°C",
+     "value": 50,
+     "value_text": "+50 °C (media temperature, PVC housing 0 to +50 °C)"
+    }
+   },
+   "question": "Compare the transmitter that feeds controller FIC-2-2 and the item directly upstream of E-2-3 in the process flow: which of the two has the lowest maximum fluid temperature according to its datasheet, and what are the two values?"
+  },
+  "candidate": "Both items are actually the same item: the transmitter feeding FIC-2-2 is GV-2-2, and GV-2-2 is also directly upstream of E-2-3. Its datasheet gives a maximum fluid (media) temperature of +50 °C (for the PVC housing version). Since it is one item, there is only one value, +50 °C, and no comparison between two different items is possible."
+ },
+ {
+  "item": "cbc471f04d",
+  "gold": {
+   "answer": "CHV-1-2 (swagelok-ms-01-176): depends on the construction (C (2C, 4C, 6C, 8C), CA, CP, CPA series, 316 SS or brass, -10 to 100 °F: 3000 psig (206 bar); C series 12C and 16C, 316 SS, -10 to 100 °F: 2000 psig (137 bar); C series 12C and 16C, brass, -10 to 100 °F: 1500 psig (103 bar); CH4, CH8 series, 316 SS, 10 to 100 °F: 6000 psig (413 bar)) (p. 3) P-1-3 (gorman-rupp-0700286): depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa)) (p. 1) P-2-1 (gorman-rupp-0700286): depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa)) (p. 1) P-2-2 (gorman-rupp-0700286): depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa)) (p. 1) CHV-2-1 (swagelok-ms-01-176): depends on the construction (C (2C, 4C, 6C, 8C), CA, CP, CPA series, 316 SS or brass, -10 to 100 °F: 3000 psig (206 bar); C series 12C and 16C, 316 SS, -10 to 100 °F: 2000 psig (137 bar); C series 12C and 16C, brass, -10 to 100 °F: 1500 psig (103 bar); CH4, CH8 series, 316 SS, 10 to 100 °F: 6000 psig (413 bar)) (p. 3) Which one is the lowest cannot be decided from the datasheets alone.",
+   "answerable": "yes",
+   "must": [
+    "CHV-1-2: depends on the construction (C (2C, 4C, 6C, 8C), CA, CP, CPA series, 316 SS or brass, -10 to 100 °F: 3000 psig (206 bar); C series 12C and 16C, 316 SS, -10 to 100 °F: 2000 psig (137 bar); C series 12C and 16C, brass, -10 to 100 °F: 1500 psig (103 bar); CH4, CH8 series, 316 SS, 10 to 100 °F: 6000 psig (413 bar))",
+    "P-1-3: depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa))",
+    "P-2-1: depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa))",
+    "P-2-2: depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa))",
+    "CHV-2-1: depends on the construction (C (2C, 4C, 6C, 8C), CA, CP, CPA series, 316 SS or brass, -10 to 100 °F: 3000 psig (206 bar); C series 12C and 16C, 316 SS, -10 to 100 °F: 2000 psig (137 bar); C series 12C and 16C, brass, -10 to 100 °F: 1500 psig (103 bar); CH4, CH8 series, 316 SS, 10 to 100 °F: 6000 psig (413 bar))",
+    "says the comparison depends on the construction (not decidable as asked)"
+   ],
+   "per_tag": {
+    "CHV-1-2": {
+     "note": "Cover (p1) summarizes 'working pressures up to 6000 psig (413 bar)'; ratings decrease with temperature and may be limited by the end connection (CH ratings per connection on p12).",
+     "page": 3,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "C (2C, 4C, 6C, 8C), CA, CP, CPA series, 316 SS or brass, -10 to 100 °F",
+       "unit": "psig",
+       "value": 3000,
+       "value_text": "3000 psig (206 bar)"
+      },
+      {
+       "condition": "C series 12C and 16C, 316 SS, -10 to 100 °F",
+       "unit": "psig",
+       "value": 2000,
+       "value_text": "2000 psig (137 bar)"
+      },
+      {
+       "condition": "C series 12C and 16C, brass, -10 to 100 °F",
+       "unit": "psig",
+       "value": 1500,
+       "value_text": "1500 psig (103 bar)"
+      },
+      {
+       "condition": "CH4, CH8 series, 316 SS, 10 to 100 °F",
+       "unit": "psig",
+       "value": 6000,
+       "value_text": "6000 psig (413 bar)"
+      },
+      {
+       "condition": "CH16 series, 316 SS, 10 to 100 °F",
+       "unit": "psig",
+       "value": 5000,
+       "value_text": "5000 psig (344 bar)"
+      }
+     ]
+    },
+    "CHV-2-1": {
+     "note": "Cover (p1) summarizes 'working pressures up to 6000 psig (413 bar)'; ratings decrease with temperature and may be limited by the end connection (CH ratings per connection on p12).",
+     "page": 3,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "C (2C, 4C, 6C, 8C), CA, CP, CPA series, 316 SS or brass, -10 to 100 °F",
+       "unit": "psig",
+       "value": 3000,
+       "value_text": "3000 psig (206 bar)"
+      },
+      {
+       "condition": "C series 12C and 16C, 316 SS, -10 to 100 °F",
+       "unit": "psig",
+       "value": 2000,
+       "value_text": "2000 psig (137 bar)"
+      },
+      {
+       "condition": "C series 12C and 16C, brass, -10 to 100 °F",
+       "unit": "psig",
+       "value": 1500,
+       "value_text": "1500 psig (103 bar)"
+      },
+      {
+       "condition": "CH4, CH8 series, 316 SS, 10 to 100 °F",
+       "unit": "psig",
+       "value": 6000,
+       "value_text": "6000 psig (413 bar)"
+      },
+      {
+       "condition": "CH16 series, 316 SS, 10 to 100 °F",
+       "unit": "psig",
+       "value": 5000,
+       "value_text": "5000 psig (344 bar)"
+      }
+     ]
+    },
+    "P-1-3": {
+     "note": "Two distinct limits printed for the single model (casing vs. operating/system); consult factory for applications exceeding them.",
+     "page": 1,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Maximum casing pressure",
+       "unit": "psi",
+       "value": 266,
+       "value_text": "266 psi (1834 kPa)"
+      },
+      {
+       "condition": "Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations",
+       "unit": "psi",
+       "value": 250,
+       "value_text": "250 psi (1723 kPa)"
+      }
+     ]
+    },
+    "P-2-1": {
+     "note": "Two distinct limits printed for the single model (casing vs. operating/system); consult factory for applications exceeding them.",
+     "page": 1,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Maximum casing pressure",
+       "unit": "psi",
+       "value": 266,
+       "value_text": "266 psi (1834 kPa)"
+      },
+      {
+       "condition": "Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations",
+       "unit": "psi",
+       "value": 250,
+       "value_text": "250 psi (1723 kPa)"
+      }
+     ]
+    },
+    "P-2-2": {
+     "note": "Two distinct limits printed for the single model (casing vs. operating/system); consult factory for applications exceeding them.",
+     "page": 1,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Maximum casing pressure",
+       "unit": "psi",
+       "value": 266,
+       "value_text": "266 psi (1834 kPa)"
+      },
+      {
+       "condition": "Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations",
+       "unit": "psi",
+       "value": 250,
+       "value_text": "250 psi (1723 kPa)"
+      }
+     ]
+    }
+   },
+   "question": "Along the process flow path from CHV-1-2 to CHV-2-1, which item has the lowest maximum allowable pressure according to its datasheet? Give the value for every item on the path that has a datasheet."
+  },
+  "candidate": "On the path CHV-1-2 → P-1-3 → P-2-1 → P-2-2 → CHV-2-1, the datasheets give: CHV-1-2 and CHV-2-1 (Swagelok check valves): up to 6000 psig (413 bar) for CH4/CH8 316 SS at 10–100°F, though the rating varies by series/material/temperature (e.g. 3000 psig for 2C–8C/CA/CP/CPA, 1300 psig for brass 12C/16C). P-1-3, P-2-1 and P-2-2 (Gorman-Rupp pumps): maximum operating pressure 250 psi (1723 kPa) at up to 100°F, with maximum casing pressure 266 psi (1834 kPa). The lowest maximum allowable pressure is therefore 250 psi (1723 kPa), shared by the pumps P-1-3, P-2-1 and P-2-2. Note: the check valve datasheets do not give a single rating for all variants, so the exact figure for CHV-1-2/CHV-2-1 depends on the specific series."
+ },
+ {
+  "item": "2dcf306247",
+  "gold": {
+   "answer": "E-1-1 (alfalaval-m3): depends on the construction (Frame FG, ASME pressure vessel code: 10.3 barg / 150 psig; Frame FG, PED pressure vessel code: 16.0 barg / 232 psig) (p. 2) CHV-1-2 (swagelok-ms-01-176): depends on the construction (C (2C, 4C, 6C, 8C), CA, CP, CPA series, 316 SS or brass, -10 to 100 °F: 3000 psig (206 bar); C series 12C and 16C, 316 SS, -10 to 100 °F: 2000 psig (137 bar); C series 12C and 16C, brass, -10 to 100 °F: 1500 psig (103 bar); CH4, CH8 series, 316 SS, 10 to 100 °F: 6000 psig (413 bar)) (p. 3) P-1-3 (gorman-rupp-0700286): depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa)) (p. 1) P-2-1 (gorman-rupp-0700286): depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa)) (p. 1) P-2-2 (gorman-rupp-0700286): depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa)) (p. 1) CHV-2-1 (swagelok-ms-01-176): depends on the construction (C (2C, 4C, 6C, 8C), CA, CP, CPA series, 316 SS or brass, -10 to 100 °F: 3000 psig (206 bar); C series 12C and 16C, 316 SS, -10 to 100 °F: 2000 psig (137 bar); C series 12C and 16C, brass, -10 to 100 °F: 1500 psig (103 bar); CH4, CH8 series, 316 SS, 10 to 100 °F: 6000 psig (413 bar)) (p. 3) Lowest: E-1-1 (for every listed construction).",
+   "answerable": "yes",
+   "must": [
+    "E-1-1: depends on the construction (Frame FG, ASME pressure vessel code: 10.3 barg / 150 psig; Frame FG, PED pressure vessel code: 16.0 barg / 232 psig)",
+    "CHV-1-2: depends on the construction (C (2C, 4C, 6C, 8C), CA, CP, CPA series, 316 SS or brass, -10 to 100 °F: 3000 psig (206 bar); C series 12C and 16C, 316 SS, -10 to 100 °F: 2000 psig (137 bar); C series 12C and 16C, brass, -10 to 100 °F: 1500 psig (103 bar); CH4, CH8 series, 316 SS, 10 to 100 °F: 6000 psig (413 bar))",
+    "P-1-3: depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa))",
+    "P-2-1: depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa))",
+    "P-2-2: depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa))",
+    "CHV-2-1: depends on the construction (C (2C, 4C, 6C, 8C), CA, CP, CPA series, 316 SS or brass, -10 to 100 °F: 3000 psig (206 bar); C series 12C and 16C, 316 SS, -10 to 100 °F: 2000 psig (137 bar); C series 12C and 16C, brass, -10 to 100 °F: 1500 psig (103 bar); CH4, CH8 series, 316 SS, 10 to 100 °F: 6000 psig (413 bar))",
+    "lowest: E-1-1"
+   ],
+   "per_tag": {
+    "CHV-1-2": {
+     "note": "Cover (p1) summarizes 'working pressures up to 6000 psig (413 bar)'; ratings decrease with temperature and may be limited by the end connection (CH ratings per connection on p12).",
+     "page": 3,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "C (2C, 4C, 6C, 8C), CA, CP, CPA series, 316 SS or brass, -10 to 100 °F",
+       "unit": "psig",
+       "value": 3000,
+       "value_text": "3000 psig (206 bar)"
+      },
+      {
+       "condition": "C series 12C and 16C, 316 SS, -10 to 100 °F",
+       "unit": "psig",
+       "value": 2000,
+       "value_text": "2000 psig (137 bar)"
+      },
+      {
+       "condition": "C series 12C and 16C, brass, -10 to 100 °F",
+       "unit": "psig",
+       "value": 1500,
+       "value_text": "1500 psig (103 bar)"
+      },
+      {
+       "condition": "CH4, CH8 series, 316 SS, 10 to 100 °F",
+       "unit": "psig",
+       "value": 6000,
+       "value_text": "6000 psig (413 bar)"
+      },
+      {
+       "condition": "CH16 series, 316 SS, 10 to 100 °F",
+       "unit": "psig",
+       "value": 5000,
+       "value_text": "5000 psig (344 bar)"
+      }
+     ]
+    },
+    "CHV-2-1": {
+     "note": "Cover (p1) summarizes 'working pressures up to 6000 psig (413 bar)'; ratings decrease with temperature and may be limited by the end connection (CH ratings per connection on p12).",
+     "page": 3,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "C (2C, 4C, 6C, 8C), CA, CP, CPA series, 316 SS or brass, -10 to 100 °F",
+       "unit": "psig",
+       "value": 3000,
+       "value_text": "3000 psig (206 bar)"
+      },
+      {
+       "condition": "C series 12C and 16C, 316 SS, -10 to 100 °F",
+       "unit": "psig",
+       "value": 2000,
+       "value_text": "2000 psig (137 bar)"
+      },
+      {
+       "condition": "C series 12C and 16C, brass, -10 to 100 °F",
+       "unit": "psig",
+       "value": 1500,
+       "value_text": "1500 psig (103 bar)"
+      },
+      {
+       "condition": "CH4, CH8 series, 316 SS, 10 to 100 °F",
+       "unit": "psig",
+       "value": 6000,
+       "value_text": "6000 psig (413 bar)"
+      },
+      {
+       "condition": "CH16 series, 316 SS, 10 to 100 °F",
+       "unit": "psig",
+       "value": 5000,
+       "value_text": "5000 psig (344 bar)"
+      }
+     ]
+    },
+    "E-1-1": {
+     "note": "Max. design pressure; extended pressure and temperature rating may be available on request.",
+     "page": 2,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Frame FG, ASME pressure vessel code",
+       "unit": "barg",
+       "value": 10.3,
+       "value_text": "10.3 barg / 150 psig"
+      },
+      {
+       "condition": "Frame FG, PED pressure vessel code",
+       "unit": "barg",
+       "value": 16.0,
+       "value_text": "16.0 barg / 232 psig"
+      }
+     ]
+    },
+    "P-1-3": {
+     "note": "Two distinct limits printed for the single model (casing vs. operating/system); consult factory for applications exceeding them.",
+     "page": 1,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Maximum casing pressure",
+       "unit": "psi",
+       "value": 266,
+       "value_text": "266 psi (1834 kPa)"
+      },
+      {
+       "condition": "Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations",
+       "unit": "psi",
+       "value": 250,
+       "value_text": "250 psi (1723 kPa)"
+      }
+     ]
+    },
+    "P-2-1": {
+     "note": "Two distinct limits printed for the single model (casing vs. operating/system); consult factory for applications exceeding them.",
+     "page": 1,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Maximum casing pressure",
+       "unit": "psi",
+       "value": 266,
+       "value_text": "266 psi (1834 kPa)"
+      },
+      {
+       "condition": "Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations",
+       "unit": "psi",
+       "value": 250,
+       "value_text": "250 psi (1723 kPa)"
+      }
+     ]
+    },
+    "P-2-2": {
+     "note": "Two distinct limits printed for the single model (casing vs. operating/system); consult factory for applications exceeding them.",
+     "page": 1,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Maximum casing pressure",
+       "unit": "psi",
+       "value": 266,
+       "value_text": "266 psi (1834 kPa)"
+      },
+      {
+       "condition": "Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations",
+       "unit": "psi",
+       "value": 250,
+       "value_text": "250 psi (1723 kPa)"
+      }
+     ]
+    }
+   },
+   "question": "Along the process flow path from E-1-1 to CHV-2-1, which item has the lowest maximum allowable pressure according to its datasheet? Give the value for every item on the path that has a datasheet."
+  },
+  "candidate": "The item with the lowest maximum allowable pressure is E-1-1, with 150 psig (ASME code). The maximum allowable pressures for the other items on the path are: CHV-1-2 (2000 psig), P-1-3 (250 psi), P-2-1 (250 psi), P-2-2 (250 psi), and CHV-2-1 (2000 psig)."
+ },
+ {
+  "item": "86b31f987a",
+  "gold": {
+   "answer": "P-2-3 (gorman-rupp-0700286): 160F (71C) (p. 1) PT-2-1 (rosemount-3051-00813-0100-4001): depends on the construction (3051CD/CG/CF/CA silicone fill, coplanar flange: +250 °F (+121 °C); 3051CD/CG/CF/CA silicone fill, traditional flange, level flange or 305 integral manifold: +300 °F (+149 °C); 3051C inert fill sensor: +185 °F (+85 °C); 3051T silicone or inert fill: +250 °F (+121 °C)) (p. 90) Lowest: P-2-3 (for every listed construction).",
+   "answerable": "yes",
+   "must": [
+    "P-2-3: 160F (71C)",
+    "PT-2-1: depends on the construction (3051CD/CG/CF/CA silicone fill, coplanar flange: +250 °F (+121 °C); 3051CD/CG/CF/CA silicone fill, traditional flange, level flange or 305 integral manifold: +300 °F (+149 °C); 3051C inert fill sensor: +185 °F (+85 °C); 3051T silicone or inert fill: +250 °F (+121 °C))",
+    "lowest: P-2-3"
+   ],
+   "per_tag": {
+    "P-2-3": {
+     "note": "Stated as 'Maximum Temperature of Liquid Pumped' in the seal detail (seal-limited); 250 psi operating pressure is only rated up to 100F (37C); consult factory above.",
+     "page": 1,
+     "single_value": true,
+     "unit": "°F",
+     "value": 160,
+     "value_text": "160F (71C)"
+    },
+    "PT-2-1": {
+     "note": "Table 6 process connection temperature limits; lower limits in vacuum service (+220 °F / +104 °C); 3051CD0 limited to +212 °F (+100 °C); ambient limit separately -40 to +185 °F (p89).",
+     "page": 90,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "3051CD/CG/CF/CA silicone fill, coplanar flange",
+       "unit": "°F",
+       "value": 250,
+       "value_text": "+250 °F (+121 °C)"
+      },
+      {
+       "condition": "3051CD/CG/CF/CA silicone fill, traditional flange, level flange or 305 integral manifold",
+       "unit": "°F",
+       "value": 300,
+       "value_text": "+300 °F (+149 °C)"
+      },
+      {
+       "condition": "3051C inert fill sensor",
+       "unit": "°F",
+       "value": 185,
+       "value_text": "+185 °F (+85 °C)"
+      },
+      {
+       "condition": "3051T silicone or inert fill",
+       "unit": "°F",
+       "value": 250,
+       "value_text": "+250 °F (+121 °C)"
+      },
+      {
+       "condition": "3051L high side, Silicone 704, Silicone 200 or Neobee M-20 fill",
+       "unit": "°F",
+       "value": 401,
+       "value_text": "+401 °F (+205 °C)"
+      },
+      {
+       "condition": "3051L high side, SYLTHERM XLT",
+       "unit": "°F",
+       "value": 293,
+       "value_text": "+293 °F (+145 °C)"
+      }
+     ]
+    }
+   },
+   "question": "Compare the item directly downstream of CHV-2-2 in the process flow and the transmitter that feeds controller PIC-2-1: which of the two has the lowest maximum fluid temperature according to its datasheet, and what are the two values?"
+  },
+  "candidate": "(no answer: TIMED_OUT)"
+ },
+ {
+  "item": "188be6fa78",
+  "gold": {
+   "answer": "BV-2-1 (flowserve-worcester-f51-f52): depends on the construction (Delrin seat: 80°C (180°F); UHMWPE seat: 90°C (200°F); Virgin PTFE seat: 230°C (450°F); Reinforced PTFE seat: 230°C (450°F)) (p. 7) P-2-2 (gorman-rupp-0700286): 160F (71C) (p. 1) PV-2-1 (fisher-et-d100022x012): depends on the construction (Cast iron body/bonnet (most trims): 232 °C (450 °F); WCC, LCC, WC9, CF8M or CF3M body with PEEK anti-extrusion rings and spring-loaded seal ring (trims 1, 27, 316L HF etc.), non-oxidizing service: 316 °C (600 °F); Same constructions, oxidizing service: 260 °C (500 °F); Standard PTFE seal construction (without PEEK anti-extrusion rings): 232 °C (450 °F)) (p. 21) Lowest: P-2-2 (for every listed construction).",
+   "answerable": "yes",
+   "must": [
+    "BV-2-1: depends on the construction (Delrin seat: 80°C (180°F); UHMWPE seat: 90°C (200°F); Virgin PTFE seat: 230°C (450°F); Reinforced PTFE seat: 230°C (450°F))",
+    "P-2-2: 160F (71C)",
+    "PV-2-1: depends on the construction (Cast iron body/bonnet (most trims): 232 °C (450 °F); WCC, LCC, WC9, CF8M or CF3M body with PEEK anti-extrusion rings and spring-loaded seal ring (trims 1, 27, 316L HF etc.), non-oxidizing service: 316 °C (600 °F); Same constructions, oxidizing service: 260 °C (500 °F); Standard PTFE seal construction (without PEEK anti-extrusion rings): 232 °C (450 °F))",
+    "lowest: P-2-2"
+   ],
+   "per_tag": {
+    "BV-2-1": {
+     "note": "Maximum seat temperature ratings; the p6 P-T chart axis only extends to 300 °C (572 °F).",
+     "page": 7,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Delrin seat",
+       "unit": "°C",
+       "value": 80,
+       "value_text": "80°C (180°F)"
+      },
+      {
+       "condition": "UHMWPE seat",
+       "unit": "°C",
+       "value": 90,
+       "value_text": "90°C (200°F)"
+      },
+      {
+       "condition": "Virgin PTFE seat",
+       "unit": "°C",
+       "value": 230,
+       "value_text": "230°C (450°F)"
+      },
+      {
+       "condition": "Reinforced PTFE seat",
+       "unit": "°C",
+       "value": 230,
+       "value_text": "230°C (450°F)"
+      },
+      {
+       "condition": "Fluorofill/Polyfill seat",
+       "unit": "°C",
+       "value": 260,
+       "value_text": "260°C (500°F)"
+      },
+      {
+       "condition": "PEEK seat",
+       "unit": "°C",
+       "value": 315,
+       "value_text": "315°C (600°F)"
+      },
+      {
+       "condition": "Metal seat (A or G)",
+       "unit": "°C",
+       "value": 315,
+       "value_text": "315°C (600°F)"
+      }
+     ]
+    },
+    "P-2-2": {
+     "note": "Stated as 'Maximum Temperature of Liquid Pumped' in the seal detail (seal-limited); 250 psi operating pressure is only rated up to 100F (37C); consult factory above.",
+     "page": 1,
+     "single_value": true,
+     "unit": "°F",
+     "value": 160,
+     "value_text": "160F (71C)"
+    },
+    "PV-2-1": {
+     "note": "Table 15 (p21-22) body/trim temperature capabilities depend on body material and trim (some trims only 149 °C / 300 °F or 210 °C / 410 °F); 232 °C / 450 °F limit and its extension are also stated on p2.",
+     "page": 21,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Cast iron body/bonnet (most trims)",
+       "unit": "°C",
+       "value": 232,
+       "value_text": "232 °C (450 °F)"
+      },
+      {
+       "condition": "WCC, LCC, WC9, CF8M or CF3M body with PEEK anti-extrusion rings and spring-loaded seal ring (trims 1, 27, 316L HF etc.), non-oxidizing service",
+       "unit": "°C",
+       "value": 316,
+       "value_text": "316 °C (600 °F)"
+      },
+      {
+       "condition": "Same constructions, oxidizing service",
+       "unit": "°C",
+       "value": 260,
+       "value_text": "260 °C (500 °F)"
+      },
+      {
+       "condition": "Standard PTFE seal construction (without PEEK anti-extrusion rings)",
+       "unit": "°C",
+       "value": 232,
+       "value_text": "232 °C (450 °F)"
+      }
+     ]
+    }
+   },
+   "question": "For each item that receives flow directly from P-2-1, what is its maximum fluid temperature according to its datasheet, and which of them has the lowest?"
+  },
+  "candidate": "The items receiving flow directly from P-2-1 are P-2-2, BV-2-1, and a third item. P-2-2 has a maximum fluid temperature of 160.0, BV-2-1 has a maximum fluid temperature of 600.0, and the third item has a maximum fluid temperature of 1500.0. P-2-2 has the lowest maximum fluid temperature."
+ },
+ {
+  "item": "77338ef775",
+  "gold": {
+   "answer": "FV-2-2 (fisher-et-d100022x012): depends on the construction (Cast iron body, flanged: Consistent with CL125B or 250B per ASME B16.1; Steel and stainless steel body, flanged: Consistent with CL150, 300 and 600 per ASME B16.34; Steel and stainless steel body, screwed or welding ends: Consistent with flanged CL600 per ASME B16.34) (p. 3) P-2-1 (gorman-rupp-0700286): depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa)) (p. 1) Which one is the lowest cannot be decided from the datasheets alone.",
+   "answerable": "yes",
+   "must": [
+    "FV-2-2: depends on the construction (Cast iron body, flanged: Consistent with CL125B or 250B per ASME B16.1; Steel and stainless steel body, flanged: Consistent with CL150, 300 and 600 per ASME B16.34; Steel and stainless steel body, screwed or welding ends: Consistent with flanged CL600 per ASME B16.34)",
+    "P-2-1: depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa))",
+    "says the comparison depends on the construction (not decidable as asked)"
+   ],
+   "per_tag": {
+    "FV-2-2": {
+     "note": "Maximum inlet pressure is given only as pressure classes, no numeric psig/bar value; also limited by maximum pressure drop and material temperature capabilities.",
+     "page": 3,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Cast iron body, flanged",
+       "unit": "",
+       "value": null,
+       "value_text": "Consistent with CL125B or 250B per ASME B16.1"
+      },
+      {
+       "condition": "Steel and stainless steel body, flanged",
+       "unit": "",
+       "value": null,
+       "value_text": "Consistent with CL150, 300 and 600 per ASME B16.34"
+      },
+      {
+       "condition": "Steel and stainless steel body, screwed or welding ends",
+       "unit": "",
+       "value": null,
+       "value_text": "Consistent with flanged CL600 per ASME B16.34"
+      }
+     ]
+    },
+    "P-2-1": {
+     "note": "Two distinct limits printed for the single model (casing vs. operating/system); consult factory for applications exceeding them.",
+     "page": 1,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Maximum casing pressure",
+       "unit": "psi",
+       "value": 266,
+       "value_text": "266 psi (1834 kPa)"
+      },
+      {
+       "condition": "Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations",
+       "unit": "psi",
+       "value": 250,
+       "value_text": "250 psi (1723 kPa)"
+      }
+     ]
+    }
+   },
+   "question": "Compare the valve operated by control loop FIC-2-2 and the item directly upstream of P-2-2 in the process flow: which of the two has the lowest maximum allowable pressure according to its datasheet, and what are the two values?"
+  },
+  "candidate": "The datasheet information provided does not give maximum allowable pressure values for both items, so I cannot determine which is lower or state the two values."
+ },
+ {
+  "item": "8a1a82f94b",
+  "gold": {
+   "answer": "P-2-3 (gorman-rupp-0700286): 160F (71C) (p. 1) PT-2-1 (rosemount-3051-00813-0100-4001): depends on the construction (3051CD/CG/CF/CA silicone fill, coplanar flange: +250 °F (+121 °C); 3051CD/CG/CF/CA silicone fill, traditional flange, level flange or 305 integral manifold: +300 °F (+149 °C); 3051C inert fill sensor: +185 °F (+85 °C); 3051T silicone or inert fill: +250 °F (+121 °C)) (p. 90) Lowest: P-2-3 (for every listed construction).",
+   "answerable": "yes",
+   "must": [
+    "P-2-3: 160F (71C)",
+    "PT-2-1: depends on the construction (3051CD/CG/CF/CA silicone fill, coplanar flange: +250 °F (+121 °C); 3051CD/CG/CF/CA silicone fill, traditional flange, level flange or 305 integral manifold: +300 °F (+149 °C); 3051C inert fill sensor: +185 °F (+85 °C); 3051T silicone or inert fill: +250 °F (+121 °C))",
+    "lowest: P-2-3"
+   ],
+   "per_tag": {
+    "P-2-3": {
+     "note": "Stated as 'Maximum Temperature of Liquid Pumped' in the seal detail (seal-limited); 250 psi operating pressure is only rated up to 100F (37C); consult factory above.",
+     "page": 1,
+     "single_value": true,
+     "unit": "°F",
+     "value": 160,
+     "value_text": "160F (71C)"
+    },
+    "PT-2-1": {
+     "note": "Table 6 process connection temperature limits; lower limits in vacuum service (+220 °F / +104 °C); 3051CD0 limited to +212 °F (+100 °C); ambient limit separately -40 to +185 °F (p89).",
+     "page": 90,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "3051CD/CG/CF/CA silicone fill, coplanar flange",
+       "unit": "°F",
+       "value": 250,
+       "value_text": "+250 °F (+121 °C)"
+      },
+      {
+       "condition": "3051CD/CG/CF/CA silicone fill, traditional flange, level flange or 305 integral manifold",
+       "unit": "°F",
+       "value": 300,
+       "value_text": "+300 °F (+149 °C)"
+      },
+      {
+       "condition": "3051C inert fill sensor",
+       "unit": "°F",
+       "value": 185,
+       "value_text": "+185 °F (+85 °C)"
+      },
+      {
+       "condition": "3051T silicone or inert fill",
+       "unit": "°F",
+       "value": 250,
+       "value_text": "+250 °F (+121 °C)"
+      },
+      {
+       "condition": "3051L high side, Silicone 704, Silicone 200 or Neobee M-20 fill",
+       "unit": "°F",
+       "value": 401,
+       "value_text": "+401 °F (+205 °C)"
+      },
+      {
+       "condition": "3051L high side, SYLTHERM XLT",
+       "unit": "°F",
+       "value": 293,
+       "value_text": "+293 °F (+145 °C)"
+      }
+     ]
+    }
+   },
+   "question": "Compare the item directly downstream of CHV-2-2 in the process flow and the transmitter that feeds controller PIC-2-1: which of the two has the lowest maximum fluid temperature according to its datasheet, and what are the two values?"
+  },
+  "candidate": "P-2-3 has the lower maximum fluid temperature: 160°F (71°C), compared with PT-2-1 at +401°F (+205°C). The PT-2-1 maximum depends on model and fill fluid."
+ },
+ {
+  "item": "7c22811581",
+  "gold": {
+   "answer": "BV-2-1 (flowserve-worcester-f51-f52): depends on the construction (F52 (Class 300), Group 1.2 body (WCB/WCC, LCB/LCC), at low temperature: approx. 52 bar (read from P-T chart); F52 (Class 300), Group 2.2 body (CF8M), at low temperature: approx. 50 bar (read from P-T chart); F51 (Class 150), Group 1.2 body, at low temperature: approx. 20 bar (read from P-T chart); F51 (Class 150), Group 2.2 body (CF8M), at low temperature: approx. 19 bar (read from P-T chart)) (p. 6) P-2-2 (gorman-rupp-0700286): depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa)) (p. 1) PV-2-1 (fisher-et-d100022x012): depends on the construction (Cast iron body, flanged: Consistent with CL125B or 250B per ASME B16.1; Steel and stainless steel body, flanged: Consistent with CL150, 300 and 600 per ASME B16.34; Steel and stainless steel body, screwed or welding ends: Consistent with flanged CL600 per ASME B16.34) (p. 3) Which one is the lowest cannot be decided from the datasheets alone.",
+   "answerable": "yes",
+   "must": [
+    "BV-2-1: depends on the construction (F52 (Class 300), Group 1.2 body (WCB/WCC, LCB/LCC), at low temperature: approx. 52 bar (read from P-T chart); F52 (Class 300), Group 2.2 body (CF8M), at low temperature: approx. 50 bar (read from P-T chart); F51 (Class 150), Group 1.2 body, at low temperature: approx. 20 bar (read from P-T chart); F51 (Class 150), Group 2.2 body (CF8M), at low temperature: approx. 19 bar (read from P-T chart))",
+    "P-2-2: depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa))",
+    "PV-2-1: depends on the construction (Cast iron body, flanged: Consistent with CL125B or 250B per ASME B16.1; Steel and stainless steel body, flanged: Consistent with CL150, 300 and 600 per ASME B16.34; Steel and stainless steel body, screwed or welding ends: Consistent with flanged CL600 per ASME B16.34)",
+    "says the comparison depends on the construction (not decidable as asked)"
+   ],
+   "per_tag": {
+    "BV-2-1": {
+     "note": "No numeric pressure is printed; ratings are ASME B16.34 curves shown only graphically, decreasing with temperature and further limited by seat material.",
+     "page": 6,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "F52 (Class 300), Group 1.2 body (WCB/WCC, LCB/LCC), at low temperature",
+       "unit": "bar",
+       "value": 52,
+       "value_text": "approx. 52 bar (read from P-T chart)"
+      },
+      {
+       "condition": "F52 (Class 300), Group 2.2 body (CF8M), at low temperature",
+       "unit": "bar",
+       "value": 50,
+       "value_text": "approx. 50 bar (read from P-T chart)"
+      },
+      {
+       "condition": "F51 (Class 150), Group 1.2 body, at low temperature",
+       "unit": "bar",
+       "value": 20,
+       "value_text": "approx. 20 bar (read from P-T chart)"
+      },
+      {
+       "condition": "F51 (Class 150), Group 2.2 body (CF8M), at low temperature",
+       "unit": "bar",
+       "value": 19,
+       "value_text": "approx. 19 bar (read from P-T chart)"
+      }
+     ]
+    },
+    "P-2-2": {
+     "note": "Two distinct limits printed for the single model (casing vs. operating/system); consult factory for applications exceeding them.",
+     "page": 1,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Maximum casing pressure",
+       "unit": "psi",
+       "value": 266,
+       "value_text": "266 psi (1834 kPa)"
+      },
+      {
+       "condition": "Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations",
+       "unit": "psi",
+       "value": 250,
+       "value_text": "250 psi (1723 kPa)"
+      }
+     ]
+    },
+    "PV-2-1": {
+     "note": "Maximum inlet pressure is given only as pressure classes, no numeric psig/bar value; also limited by maximum pressure drop and material temperature capabilities.",
+     "page": 3,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Cast iron body, flanged",
+       "unit": "",
+       "value": null,
+       "value_text": "Consistent with CL125B or 250B per ASME B16.1"
+      },
+      {
+       "condition": "Steel and stainless steel body, flanged",
+       "unit": "",
+       "value": null,
+       "value_text": "Consistent with CL150, 300 and 600 per ASME B16.34"
+      },
+      {
+       "condition": "Steel and stainless steel body, screwed or welding ends",
+       "unit": "",
+       "value": null,
+       "value_text": "Consistent with flanged CL600 per ASME B16.34"
+      }
+     ]
+    }
+   },
+   "question": "For each item that receives flow directly from P-2-1, what is its maximum allowable pressure according to its datasheet, and which of them has the lowest?"
+  },
+  "candidate": "Not in the documents. Of the three items fed directly from P-2-1 (BV-2-1, P-2-2, PV-2-1), only P-2-2 has a numeric maximum pressure in its datasheet: maximum operating pressure 250 psi (1723 kPa) at up to 100 °F, with a maximum casing pressure of 266 psi (1834 kPa). For BV-2-1 and PV-2-1 the datasheets give no single numeric maximum allowable pressure — their ratings depend on body material, pressure class (Class 150/300 for BV-2-1; PN16–PN100 for PV-2-1) and temperature, and the actual pressure values are not filled in (they follow ASME B16.34 charts). Therefore the lowest cannot be determined from the documents; only P-2-2's 250 psi operating limit is stated."
+ },
+ {
+  "item": "7bb5a686dd",
+  "gold": {
+   "answer": "GV-1-2 (gfps-165-solenoid-valve): +50 °C (media temperature, PVC housing 0 to +50 °C) (p. 2) P-1-1 (gorman-rupp-0700286): 160F (71C) (p. 1) CHV-1-1 (swagelok-ms-01-176): depends on the construction (316 SS valves, C/CA/CP/CPA series (FKM O-rings): 375 °F (190 °C); Brass valves (Buna N O-rings): 250 °F (121 °C); CH series, 316 SS (FKM seals): 400 °F (204 °C)) (p. 3) P-1-2 (gorman-rupp-0700286): 160F (71C) (p. 1) Lowest: GV-1-2 (for every listed construction).",
+   "answerable": "yes",
+   "must": [
+    "GV-1-2: +50 °C (media temperature, PVC housing 0 to +50 °C)",
+    "P-1-1: 160F (71C)",
+    "CHV-1-1: depends on the construction (316 SS valves, C/CA/CP/CPA series (FKM O-rings): 375 °F (190 °C); Brass valves (Buna N O-rings): 250 °F (121 °C); CH series, 316 SS (FKM seals): 400 °F (204 °C))",
+    "P-1-2: 160F (71C)",
+    "lowest: GV-1-2"
+   ],
+   "per_tag": {
+    "CHV-1-1": {
+     "note": "Seal-dependent; p14 seal table: Buna N to 250 °F, EP to 300 °F, FKM to 375 °F (400 °F for CH), neoprene to 250 °F.",
+     "page": 3,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "316 SS valves, C/CA/CP/CPA series (FKM O-rings)",
+       "unit": "°F",
+       "value": 375,
+       "value_text": "375 °F (190 °C)"
+      },
+      {
+       "condition": "Brass valves (Buna N O-rings)",
+       "unit": "°F",
+       "value": 250,
+       "value_text": "250 °F (121 °C)"
+      },
+      {
+       "condition": "CH series, 316 SS (FKM seals)",
+       "unit": "°F",
+       "value": 400,
+       "value_text": "400 °F (204 °C)"
+      }
+     ]
+    },
+    "GV-1-2": {
+     "note": "Ambient limit is separately 0 to +40 °C.",
+     "page": 2,
+     "single_value": true,
+     "unit": "°C",
+     "value": 50,
+     "value_text": "+50 °C (media temperature, PVC housing 0 to +50 °C)"
+    },
+    "P-1-1": {
+     "note": "Stated as 'Maximum Temperature of Liquid Pumped' in the seal detail (seal-limited); 250 psi operating pressure is only rated up to 100F (37C); consult factory above.",
+     "page": 1,
+     "single_value": true,
+     "unit": "°F",
+     "value": 160,
+     "value_text": "160F (71C)"
+    },
+    "P-1-2": {
+     "note": "Stated as 'Maximum Temperature of Liquid Pumped' in the seal detail (seal-limited); 250 psi operating pressure is only rated up to 100F (37C); consult factory above.",
+     "page": 1,
+     "single_value": true,
+     "unit": "°F",
+     "value": 160,
+     "value_text": "160F (71C)"
+    }
+   },
+   "question": "Along the process flow path from GV-1-2 to P-1-2, which item has the lowest maximum fluid temperature according to its datasheet? Give the value for every item on the path that has a datasheet."
+  },
+  "candidate": "Among path items with datasheets, the stated maximum fluid temperatures are: GV-1-2: 50 °C; P-1-1: 71 °C; CHV-1-1: no separate maximum fluid temperature is stated (the datasheet gives design-temperature ratings instead); P-1-2: 71 °C. GV-1-2 has the lowest stated maximum fluid temperature: 50 °C."
+ },
+ {
+  "item": "dba787c62a",
+  "gold": {
+   "answer": "FV-2-2 (fisher-et-d100022x012): depends on the construction (Cast iron body, flanged: Consistent with CL125B or 250B per ASME B16.1; Steel and stainless steel body, flanged: Consistent with CL150, 300 and 600 per ASME B16.34; Steel and stainless steel body, screwed or welding ends: Consistent with flanged CL600 per ASME B16.34) (p. 3) P-2-1 (gorman-rupp-0700286): depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa)) (p. 1) Which one is the lowest cannot be decided from the datasheets alone.",
+   "answerable": "yes",
+   "must": [
+    "FV-2-2: depends on the construction (Cast iron body, flanged: Consistent with CL125B or 250B per ASME B16.1; Steel and stainless steel body, flanged: Consistent with CL150, 300 and 600 per ASME B16.34; Steel and stainless steel body, screwed or welding ends: Consistent with flanged CL600 per ASME B16.34)",
+    "P-2-1: depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa))",
+    "says the comparison depends on the construction (not decidable as asked)"
+   ],
+   "per_tag": {
+    "FV-2-2": {
+     "note": "Maximum inlet pressure is given only as pressure classes, no numeric psig/bar value; also limited by maximum pressure drop and material temperature capabilities.",
+     "page": 3,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Cast iron body, flanged",
+       "unit": "",
+       "value": null,
+       "value_text": "Consistent with CL125B or 250B per ASME B16.1"
+      },
+      {
+       "condition": "Steel and stainless steel body, flanged",
+       "unit": "",
+       "value": null,
+       "value_text": "Consistent with CL150, 300 and 600 per ASME B16.34"
+      },
+      {
+       "condition": "Steel and stainless steel body, screwed or welding ends",
+       "unit": "",
+       "value": null,
+       "value_text": "Consistent with flanged CL600 per ASME B16.34"
+      }
+     ]
+    },
+    "P-2-1": {
+     "note": "Two distinct limits printed for the single model (casing vs. operating/system); consult factory for applications exceeding them.",
+     "page": 1,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Maximum casing pressure",
+       "unit": "psi",
+       "value": 266,
+       "value_text": "266 psi (1834 kPa)"
+      },
+      {
+       "condition": "Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations",
+       "unit": "psi",
+       "value": 250,
+       "value_text": "250 psi (1723 kPa)"
+      }
+     ]
+    }
+   },
+   "question": "Compare the valve operated by control loop FIC-2-2 and the item directly upstream of P-2-2 in the process flow: which of the two has the lowest maximum allowable pressure according to its datasheet, and what are the two values?"
+  },
+  "candidate": "P-2-1 has the lower stated maximum allowable operating pressure: 250 psi (1723 kPa), compared with FV-2-2’s 1500 psig (104 bar) limit for its ENVIRO-SEAL Graphite ULF packing system. The FV-2-2 value is a packing-system limit, not a general valve pressure rating; its datasheet gives no single maximum pressure for every valve version. P-2-1 also lists a maximum casing pressure of 266 psi (1834 kPa)."
+ },
+ {
+  "item": "6765b10284",
+  "gold": {
+   "answer": "CHV-1-2 (swagelok-ms-01-176): depends on the construction (316 SS valves, C/CA/CP/CPA series (FKM O-rings): 375 °F (190 °C); Brass valves (Buna N O-rings): 250 °F (121 °C); CH series, 316 SS (FKM seals): 400 °F (204 °C)) (p. 3) GV-1-1 (gfps-165-solenoid-valve): +50 °C (media temperature, PVC housing 0 to +50 °C) (p. 2) Lowest: GV-1-1 (for every listed construction).",
+   "answerable": "yes",
+   "must": [
+    "CHV-1-2: depends on the construction (316 SS valves, C/CA/CP/CPA series (FKM O-rings): 375 °F (190 °C); Brass valves (Buna N O-rings): 250 °F (121 °C); CH series, 316 SS (FKM seals): 400 °F (204 °C))",
+    "GV-1-1: +50 °C (media temperature, PVC housing 0 to +50 °C)",
+    "lowest: GV-1-1"
+   ],
+   "per_tag": {
+    "CHV-1-2": {
+     "note": "Seal-dependent; p14 seal table: Buna N to 250 °F, EP to 300 °F, FKM to 375 °F (400 °F for CH), neoprene to 250 °F.",
+     "page": 3,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "316 SS valves, C/CA/CP/CPA series (FKM O-rings)",
+       "unit": "°F",
+       "value": 375,
+       "value_text": "375 °F (190 °C)"
+      },
+      {
+       "condition": "Brass valves (Buna N O-rings)",
+       "unit": "°F",
+       "value": 250,
+       "value_text": "250 °F (121 °C)"
+      },
+      {
+       "condition": "CH series, 316 SS (FKM seals)",
+       "unit": "°F",
+       "value": 400,
+       "value_text": "400 °F (204 °C)"
+      }
+     ]
+    },
+    "GV-1-1": {
+     "note": "Ambient limit is separately 0 to +40 °C.",
+     "page": 2,
+     "single_value": true,
+     "unit": "°C",
+     "value": 50,
+     "value_text": "+50 °C (media temperature, PVC housing 0 to +50 °C)"
+    }
+   },
+   "question": "For each item that receives flow directly from E-1-1, what is its maximum fluid temperature according to its datasheet, and which of them has the lowest?"
+  },
+  "candidate": "The description does not provide the maximum fluid temperature for the items receiving flow directly from E-1-1, so I cannot identify which has the lowest."
+ },
+ {
+  "item": "e9d27120b7",
+  "gold": {
+   "answer": "P-1-2 (gorman-rupp-0700286): depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa)) (p. 1) E-2-1 (alfalaval-m3): depends on the construction (Frame FG, ASME pressure vessel code: 10.3 barg / 150 psig; Frame FG, PED pressure vessel code: 16.0 barg / 232 psig) (p. 2) Lowest: E-2-1 (for every listed construction).",
+   "answerable": "yes",
+   "must": [
+    "P-1-2: depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa))",
+    "E-2-1: depends on the construction (Frame FG, ASME pressure vessel code: 10.3 barg / 150 psig; Frame FG, PED pressure vessel code: 16.0 barg / 232 psig)",
+    "lowest: E-2-1"
+   ],
+   "per_tag": {
+    "E-2-1": {
+     "note": "Max. design pressure; extended pressure and temperature rating may be available on request.",
+     "page": 2,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Frame FG, ASME pressure vessel code",
+       "unit": "barg",
+       "value": 10.3,
+       "value_text": "10.3 barg / 150 psig"
+      },
+      {
+       "condition": "Frame FG, PED pressure vessel code",
+       "unit": "barg",
+       "value": 16.0,
+       "value_text": "16.0 barg / 232 psig"
+      }
+     ]
+    },
+    "P-1-2": {
+     "note": "Two distinct limits printed for the single model (casing vs. operating/system); consult factory for applications exceeding them.",
+     "page": 1,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Maximum casing pressure",
+       "unit": "psi",
+       "value": 266,
+       "value_text": "266 psi (1834 kPa)"
+      },
+      {
+       "condition": "Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations",
+       "unit": "psi",
+       "value": 250,
+       "value_text": "250 psi (1723 kPa)"
+      }
+     ]
+    }
+   },
+   "question": "Compare the item directly upstream of P-1-5 in the process flow and the item directly downstream of BV-2-1 in the process flow: which of the two has the lowest maximum allowable pressure according to its datasheet, and what are the two values?"
+  },
+  "candidate": "E-2-1 (the heat exchanger) has the lower pressure rating: 232 psig maximum design pressure under PED, compared with P-1-2’s 250 psi maximum allowable operating pressure. E-2-1’s datasheet also lists 150 psig under ASME."
+ },
+ {
+  "item": "07f98327cd",
+  "gold": {
+   "answer": "GV-1-2 (gfps-165-solenoid-valve): +50 °C (media temperature, PVC housing 0 to +50 °C) (p. 2) P-1-1 (gorman-rupp-0700286): 160F (71C) (p. 1) CHV-1-1 (swagelok-ms-01-176): depends on the construction (316 SS valves, C/CA/CP/CPA series (FKM O-rings): 375 °F (190 °C); Brass valves (Buna N O-rings): 250 °F (121 °C); CH series, 316 SS (FKM seals): 400 °F (204 °C)) (p. 3) P-1-2 (gorman-rupp-0700286): 160F (71C) (p. 1) Lowest: GV-1-2 (for every listed construction).",
+   "answerable": "yes",
+   "must": [
+    "GV-1-2: +50 °C (media temperature, PVC housing 0 to +50 °C)",
+    "P-1-1: 160F (71C)",
+    "CHV-1-1: depends on the construction (316 SS valves, C/CA/CP/CPA series (FKM O-rings): 375 °F (190 °C); Brass valves (Buna N O-rings): 250 °F (121 °C); CH series, 316 SS (FKM seals): 400 °F (204 °C))",
+    "P-1-2: 160F (71C)",
+    "lowest: GV-1-2"
+   ],
+   "per_tag": {
+    "CHV-1-1": {
+     "note": "Seal-dependent; p14 seal table: Buna N to 250 °F, EP to 300 °F, FKM to 375 °F (400 °F for CH), neoprene to 250 °F.",
+     "page": 3,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "316 SS valves, C/CA/CP/CPA series (FKM O-rings)",
+       "unit": "°F",
+       "value": 375,
+       "value_text": "375 °F (190 °C)"
+      },
+      {
+       "condition": "Brass valves (Buna N O-rings)",
+       "unit": "°F",
+       "value": 250,
+       "value_text": "250 °F (121 °C)"
+      },
+      {
+       "condition": "CH series, 316 SS (FKM seals)",
+       "unit": "°F",
+       "value": 400,
+       "value_text": "400 °F (204 °C)"
+      }
+     ]
+    },
+    "GV-1-2": {
+     "note": "Ambient limit is separately 0 to +40 °C.",
+     "page": 2,
+     "single_value": true,
+     "unit": "°C",
+     "value": 50,
+     "value_text": "+50 °C (media temperature, PVC housing 0 to +50 °C)"
+    },
+    "P-1-1": {
+     "note": "Stated as 'Maximum Temperature of Liquid Pumped' in the seal detail (seal-limited); 250 psi operating pressure is only rated up to 100F (37C); consult factory above.",
+     "page": 1,
+     "single_value": true,
+     "unit": "°F",
+     "value": 160,
+     "value_text": "160F (71C)"
+    },
+    "P-1-2": {
+     "note": "Stated as 'Maximum Temperature of Liquid Pumped' in the seal detail (seal-limited); 250 psi operating pressure is only rated up to 100F (37C); consult factory above.",
+     "page": 1,
+     "single_value": true,
+     "unit": "°F",
+     "value": 160,
+     "value_text": "160F (71C)"
+    }
+   },
+   "question": "Along the process flow path from GV-1-2 to P-1-2, which item has the lowest maximum fluid temperature according to its datasheet? Give the value for every item on the path that has a datasheet."
+  },
+  "candidate": "The only stated maximum fluid temperature on this path is GV-1-2: 50 °C (GFPS Type 165, PVC). Maximum temperatures for P-1-1, CHV-1-1, and P-1-2 are not stated in the provided excerpts, so the lowest across the full path cannot be determined."
+ },
+ {
+  "item": "af6fa55d33",
+  "gold": {
+   "answer": "CHV-1-2 (swagelok-ms-01-176): depends on the construction (C (2C, 4C, 6C, 8C), CA, CP, CPA series, 316 SS or brass, -10 to 100 °F: 3000 psig (206 bar); C series 12C and 16C, 316 SS, -10 to 100 °F: 2000 psig (137 bar); C series 12C and 16C, brass, -10 to 100 °F: 1500 psig (103 bar); CH4, CH8 series, 316 SS, 10 to 100 °F: 6000 psig (413 bar)) (p. 3) P-1-3 (gorman-rupp-0700286): depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa)) (p. 1) P-2-1 (gorman-rupp-0700286): depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa)) (p. 1) P-2-2 (gorman-rupp-0700286): depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa)) (p. 1) CHV-2-1 (swagelok-ms-01-176): depends on the construction (C (2C, 4C, 6C, 8C), CA, CP, CPA series, 316 SS or brass, -10 to 100 °F: 3000 psig (206 bar); C series 12C and 16C, 316 SS, -10 to 100 °F: 2000 psig (137 bar); C series 12C and 16C, brass, -10 to 100 °F: 1500 psig (103 bar); CH4, CH8 series, 316 SS, 10 to 100 °F: 6000 psig (413 bar)) (p. 3) Which one is the lowest cannot be decided from the datasheets alone.",
+   "answerable": "yes",
+   "must": [
+    "CHV-1-2: depends on the construction (C (2C, 4C, 6C, 8C), CA, CP, CPA series, 316 SS or brass, -10 to 100 °F: 3000 psig (206 bar); C series 12C and 16C, 316 SS, -10 to 100 °F: 2000 psig (137 bar); C series 12C and 16C, brass, -10 to 100 °F: 1500 psig (103 bar); CH4, CH8 series, 316 SS, 10 to 100 °F: 6000 psig (413 bar))",
+    "P-1-3: depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa))",
+    "P-2-1: depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa))",
+    "P-2-2: depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa))",
+    "CHV-2-1: depends on the construction (C (2C, 4C, 6C, 8C), CA, CP, CPA series, 316 SS or brass, -10 to 100 °F: 3000 psig (206 bar); C series 12C and 16C, 316 SS, -10 to 100 °F: 2000 psig (137 bar); C series 12C and 16C, brass, -10 to 100 °F: 1500 psig (103 bar); CH4, CH8 series, 316 SS, 10 to 100 °F: 6000 psig (413 bar))",
+    "says the comparison depends on the construction (not decidable as asked)"
+   ],
+   "per_tag": {
+    "CHV-1-2": {
+     "note": "Cover (p1) summarizes 'working pressures up to 6000 psig (413 bar)'; ratings decrease with temperature and may be limited by the end connection (CH ratings per connection on p12).",
+     "page": 3,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "C (2C, 4C, 6C, 8C), CA, CP, CPA series, 316 SS or brass, -10 to 100 °F",
+       "unit": "psig",
+       "value": 3000,
+       "value_text": "3000 psig (206 bar)"
+      },
+      {
+       "condition": "C series 12C and 16C, 316 SS, -10 to 100 °F",
+       "unit": "psig",
+       "value": 2000,
+       "value_text": "2000 psig (137 bar)"
+      },
+      {
+       "condition": "C series 12C and 16C, brass, -10 to 100 °F",
+       "unit": "psig",
+       "value": 1500,
+       "value_text": "1500 psig (103 bar)"
+      },
+      {
+       "condition": "CH4, CH8 series, 316 SS, 10 to 100 °F",
+       "unit": "psig",
+       "value": 6000,
+       "value_text": "6000 psig (413 bar)"
+      },
+      {
+       "condition": "CH16 series, 316 SS, 10 to 100 °F",
+       "unit": "psig",
+       "value": 5000,
+       "value_text": "5000 psig (344 bar)"
+      }
+     ]
+    },
+    "CHV-2-1": {
+     "note": "Cover (p1) summarizes 'working pressures up to 6000 psig (413 bar)'; ratings decrease with temperature and may be limited by the end connection (CH ratings per connection on p12).",
+     "page": 3,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "C (2C, 4C, 6C, 8C), CA, CP, CPA series, 316 SS or brass, -10 to 100 °F",
+       "unit": "psig",
+       "value": 3000,
+       "value_text": "3000 psig (206 bar)"
+      },
+      {
+       "condition": "C series 12C and 16C, 316 SS, -10 to 100 °F",
+       "unit": "psig",
+       "value": 2000,
+       "value_text": "2000 psig (137 bar)"
+      },
+      {
+       "condition": "C series 12C and 16C, brass, -10 to 100 °F",
+       "unit": "psig",
+       "value": 1500,
+       "value_text": "1500 psig (103 bar)"
+      },
+      {
+       "condition": "CH4, CH8 series, 316 SS, 10 to 100 °F",
+       "unit": "psig",
+       "value": 6000,
+       "value_text": "6000 psig (413 bar)"
+      },
+      {
+       "condition": "CH16 series, 316 SS, 10 to 100 °F",
+       "unit": "psig",
+       "value": 5000,
+       "value_text": "5000 psig (344 bar)"
+      }
+     ]
+    },
+    "P-1-3": {
+     "note": "Two distinct limits printed for the single model (casing vs. operating/system); consult factory for applications exceeding them.",
+     "page": 1,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Maximum casing pressure",
+       "unit": "psi",
+       "value": 266,
+       "value_text": "266 psi (1834 kPa)"
+      },
+      {
+       "condition": "Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations",
+       "unit": "psi",
+       "value": 250,
+       "value_text": "250 psi (1723 kPa)"
+      }
+     ]
+    },
+    "P-2-1": {
+     "note": "Two distinct limits printed for the single model (casing vs. operating/system); consult factory for applications exceeding them.",
+     "page": 1,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Maximum casing pressure",
+       "unit": "psi",
+       "value": 266,
+       "value_text": "266 psi (1834 kPa)"
+      },
+      {
+       "condition": "Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations",
+       "unit": "psi",
+       "value": 250,
+       "value_text": "250 psi (1723 kPa)"
+      }
+     ]
+    },
+    "P-2-2": {
+     "note": "Two distinct limits printed for the single model (casing vs. operating/system); consult factory for applications exceeding them.",
+     "page": 1,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Maximum casing pressure",
+       "unit": "psi",
+       "value": 266,
+       "value_text": "266 psi (1834 kPa)"
+      },
+      {
+       "condition": "Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations",
+       "unit": "psi",
+       "value": 250,
+       "value_text": "250 psi (1723 kPa)"
+      }
+     ]
+    }
+   },
+   "question": "Along the process flow path from CHV-1-2 to CHV-2-1, which item has the lowest maximum allowable pressure according to its datasheet? Give the value for every item on the path that has a datasheet."
+  },
+  "candidate": "The path is CHV-1-2 → P-1-3 → P-2-1 → P-2-2 → CHV-2-1. For CHV-1-2 and CHV-2-1, the datasheets provide a family maximum working pressure of 6,000 psig (413 bar), but do not identify the applicable allowable pressure for the specific valves. P-1-3, P-2-1, and P-2-2 each have a maximum allowable operating pressure of 250 psi (1723 kPa) up to 100°F (37°C) (their maximum casing pressure is 266 psi / 1834 kPa). Therefore, among the specified operating-pressure ratings, the pumps tie for the lowest at 250 psi (1723 kPa); a definitive comparison against the two valves’ specific allowable pressures is not stated."
+ },
+ {
+  "item": "f9dd3ca610",
+  "gold": {
+   "answer": "P-2-3 (gorman-rupp-0700286): 160F (71C) (p. 1) PT-2-1 (rosemount-3051-00813-0100-4001): depends on the construction (3051CD/CG/CF/CA silicone fill, coplanar flange: +250 °F (+121 °C); 3051CD/CG/CF/CA silicone fill, traditional flange, level flange or 305 integral manifold: +300 °F (+149 °C); 3051C inert fill sensor: +185 °F (+85 °C); 3051T silicone or inert fill: +250 °F (+121 °C)) (p. 90) Lowest: P-2-3 (for every listed construction).",
+   "answerable": "yes",
+   "must": [
+    "P-2-3: 160F (71C)",
+    "PT-2-1: depends on the construction (3051CD/CG/CF/CA silicone fill, coplanar flange: +250 °F (+121 °C); 3051CD/CG/CF/CA silicone fill, traditional flange, level flange or 305 integral manifold: +300 °F (+149 °C); 3051C inert fill sensor: +185 °F (+85 °C); 3051T silicone or inert fill: +250 °F (+121 °C))",
+    "lowest: P-2-3"
+   ],
+   "per_tag": {
+    "P-2-3": {
+     "note": "Stated as 'Maximum Temperature of Liquid Pumped' in the seal detail (seal-limited); 250 psi operating pressure is only rated up to 100F (37C); consult factory above.",
+     "page": 1,
+     "single_value": true,
+     "unit": "°F",
+     "value": 160,
+     "value_text": "160F (71C)"
+    },
+    "PT-2-1": {
+     "note": "Table 6 process connection temperature limits; lower limits in vacuum service (+220 °F / +104 °C); 3051CD0 limited to +212 °F (+100 °C); ambient limit separately -40 to +185 °F (p89).",
+     "page": 90,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "3051CD/CG/CF/CA silicone fill, coplanar flange",
+       "unit": "°F",
+       "value": 250,
+       "value_text": "+250 °F (+121 °C)"
+      },
+      {
+       "condition": "3051CD/CG/CF/CA silicone fill, traditional flange, level flange or 305 integral manifold",
+       "unit": "°F",
+       "value": 300,
+       "value_text": "+300 °F (+149 °C)"
+      },
+      {
+       "condition": "3051C inert fill sensor",
+       "unit": "°F",
+       "value": 185,
+       "value_text": "+185 °F (+85 °C)"
+      },
+      {
+       "condition": "3051T silicone or inert fill",
+       "unit": "°F",
+       "value": 250,
+       "value_text": "+250 °F (+121 °C)"
+      },
+      {
+       "condition": "3051L high side, Silicone 704, Silicone 200 or Neobee M-20 fill",
+       "unit": "°F",
+       "value": 401,
+       "value_text": "+401 °F (+205 °C)"
+      },
+      {
+       "condition": "3051L high side, SYLTHERM XLT",
+       "unit": "°F",
+       "value": 293,
+       "value_text": "+293 °F (+145 °C)"
+      }
+     ]
+    }
+   },
+   "question": "Compare the item directly downstream of CHV-2-2 in the process flow and the transmitter that feeds controller PIC-2-1: which of the two has the lowest maximum fluid temperature according to its datasheet, and what are the two values?"
+  },
+  "candidate": "The item directly downstream of CHV-2-2 is pump P-2-2, but its Gorman-Rupp datasheet’s maximum fluid temperature is not stated in the supplied excerpts, so the lower-temperature item cannot be determined. For transmitter PT-2-1, the Rosemount excerpt gives configuration-dependent maximum process temperatures: 250°F (121°C) with a coplanar flange and 300°F (149°C) with a traditional or level flange; the exact configured value is not stated."
+ },
+ {
+  "item": "1a2633c574",
+  "gold": {
+   "answer": "CHV-1-2 (swagelok-ms-01-176): depends on the construction (C (2C, 4C, 6C, 8C), CA, CP, CPA series, 316 SS or brass, -10 to 100 °F: 3000 psig (206 bar); C series 12C and 16C, 316 SS, -10 to 100 °F: 2000 psig (137 bar); C series 12C and 16C, brass, -10 to 100 °F: 1500 psig (103 bar); CH4, CH8 series, 316 SS, 10 to 100 °F: 6000 psig (413 bar)) (p. 3) GV-1-1 (gfps-165-solenoid-valve): PN 6 bar (pressure range 0.5 - 6 bar) (p. 2) Lowest: GV-1-1 (for every listed construction).",
+   "answerable": "yes",
+   "must": [
+    "CHV-1-2: depends on the construction (C (2C, 4C, 6C, 8C), CA, CP, CPA series, 316 SS or brass, -10 to 100 °F: 3000 psig (206 bar); C series 12C and 16C, 316 SS, -10 to 100 °F: 2000 psig (137 bar); C series 12C and 16C, brass, -10 to 100 °F: 1500 psig (103 bar); CH4, CH8 series, 316 SS, 10 to 100 °F: 6000 psig (413 bar))",
+    "GV-1-1: PN 6 bar (pressure range 0.5 - 6 bar)",
+    "lowest: GV-1-1"
+   ],
+   "per_tag": {
+    "CHV-1-2": {
+     "note": "Cover (p1) summarizes 'working pressures up to 6000 psig (413 bar)'; ratings decrease with temperature and may be limited by the end connection (CH ratings per connection on p12).",
+     "page": 3,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "C (2C, 4C, 6C, 8C), CA, CP, CPA series, 316 SS or brass, -10 to 100 °F",
+       "unit": "psig",
+       "value": 3000,
+       "value_text": "3000 psig (206 bar)"
+      },
+      {
+       "condition": "C series 12C and 16C, 316 SS, -10 to 100 °F",
+       "unit": "psig",
+       "value": 2000,
+       "value_text": "2000 psig (137 bar)"
+      },
+      {
+       "condition": "C series 12C and 16C, brass, -10 to 100 °F",
+       "unit": "psig",
+       "value": 1500,
+       "value_text": "1500 psig (103 bar)"
+      },
+      {
+       "condition": "CH4, CH8 series, 316 SS, 10 to 100 °F",
+       "unit": "psig",
+       "value": 6000,
+       "value_text": "6000 psig (413 bar)"
+      },
+      {
+       "condition": "CH16 series, 316 SS, 10 to 100 °F",
+       "unit": "psig",
+       "value": 5000,
+       "value_text": "5000 psig (344 bar)"
+      }
+     ]
+    },
+    "GV-1-1": {
+     "note": "Same for all sizes DN15-DN50 (PN 6 on p5); p3 P-T diagram derates above 40 °C to about 3.6 bar at 50 °C; minimum differential pressure 0.5 bar required to operate.",
+     "page": 2,
+     "single_value": true,
+     "unit": "bar",
+     "value": 6,
+     "value_text": "PN 6 bar (pressure range 0.5 - 6 bar)"
+    }
+   },
+   "question": "For each item that receives flow directly from E-1-1, what is its maximum allowable pressure according to its datasheet, and which of them has the lowest?"
+  },
+  "candidate": "E-1-1 feeds GV-1-1 and CHV-1-2. CHV-1-2's datasheet (swagelok-ms-01-176, p. 1) gives a maximum working pressure of 6000 psig (413 bar). The datasheet for GV-1-1 (gfps-165-solenoid-valve) is not present in the provided excerpts, so its maximum allowable pressure is not stated, and the item with the lowest maximum allowable pressure cannot be determined."
+ },
+ {
+  "item": "937a5fa500",
+  "gold": {
+   "answer": "CHV-1-2 (swagelok-ms-01-176): depends on the construction (C (2C, 4C, 6C, 8C), CA, CP, CPA series, 316 SS or brass, -10 to 100 °F: 3000 psig (206 bar); C series 12C and 16C, 316 SS, -10 to 100 °F: 2000 psig (137 bar); C series 12C and 16C, brass, -10 to 100 °F: 1500 psig (103 bar); CH4, CH8 series, 316 SS, 10 to 100 °F: 6000 psig (413 bar)) (p. 3) GV-1-1 (gfps-165-solenoid-valve): PN 6 bar (pressure range 0.5 - 6 bar) (p. 2) Lowest: GV-1-1 (for every listed construction).",
+   "answerable": "yes",
+   "must": [
+    "CHV-1-2: depends on the construction (C (2C, 4C, 6C, 8C), CA, CP, CPA series, 316 SS or brass, -10 to 100 °F: 3000 psig (206 bar); C series 12C and 16C, 316 SS, -10 to 100 °F: 2000 psig (137 bar); C series 12C and 16C, brass, -10 to 100 °F: 1500 psig (103 bar); CH4, CH8 series, 316 SS, 10 to 100 °F: 6000 psig (413 bar))",
+    "GV-1-1: PN 6 bar (pressure range 0.5 - 6 bar)",
+    "lowest: GV-1-1"
+   ],
+   "per_tag": {
+    "CHV-1-2": {
+     "note": "Cover (p1) summarizes 'working pressures up to 6000 psig (413 bar)'; ratings decrease with temperature and may be limited by the end connection (CH ratings per connection on p12).",
+     "page": 3,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "C (2C, 4C, 6C, 8C), CA, CP, CPA series, 316 SS or brass, -10 to 100 °F",
+       "unit": "psig",
+       "value": 3000,
+       "value_text": "3000 psig (206 bar)"
+      },
+      {
+       "condition": "C series 12C and 16C, 316 SS, -10 to 100 °F",
+       "unit": "psig",
+       "value": 2000,
+       "value_text": "2000 psig (137 bar)"
+      },
+      {
+       "condition": "C series 12C and 16C, brass, -10 to 100 °F",
+       "unit": "psig",
+       "value": 1500,
+       "value_text": "1500 psig (103 bar)"
+      },
+      {
+       "condition": "CH4, CH8 series, 316 SS, 10 to 100 °F",
+       "unit": "psig",
+       "value": 6000,
+       "value_text": "6000 psig (413 bar)"
+      },
+      {
+       "condition": "CH16 series, 316 SS, 10 to 100 °F",
+       "unit": "psig",
+       "value": 5000,
+       "value_text": "5000 psig (344 bar)"
+      }
+     ]
+    },
+    "GV-1-1": {
+     "note": "Same for all sizes DN15-DN50 (PN 6 on p5); p3 P-T diagram derates above 40 °C to about 3.6 bar at 50 °C; minimum differential pressure 0.5 bar required to operate.",
+     "page": 2,
+     "single_value": true,
+     "unit": "bar",
+     "value": 6,
+     "value_text": "PN 6 bar (pressure range 0.5 - 6 bar)"
+    }
+   },
+   "question": "For each item that receives flow directly from E-1-1, what is its maximum allowable pressure according to its datasheet, and which of them has the lowest?"
+  },
+  "candidate": "CHV-1-2 (Swagelok) has a stated working pressure up to 6000 psig. The maximum pressure for GV-1-1 is not stated in the provided datasheet excerpt, so which item has the lower pressure cannot be determined."
+ },
+ {
+  "item": "205661d49e",
+  "gold": {
+   "answer": "CHV-1-2 (swagelok-ms-01-176): depends on the construction (C (2C, 4C, 6C, 8C), CA, CP, CPA series, 316 SS or brass, -10 to 100 °F: 3000 psig (206 bar); C series 12C and 16C, 316 SS, -10 to 100 °F: 2000 psig (137 bar); C series 12C and 16C, brass, -10 to 100 °F: 1500 psig (103 bar); CH4, CH8 series, 316 SS, 10 to 100 °F: 6000 psig (413 bar)) (p. 3) P-1-3 (gorman-rupp-0700286): depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa)) (p. 1) P-2-1 (gorman-rupp-0700286): depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa)) (p. 1) P-2-2 (gorman-rupp-0700286): depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa)) (p. 1) CHV-2-1 (swagelok-ms-01-176): depends on the construction (C (2C, 4C, 6C, 8C), CA, CP, CPA series, 316 SS or brass, -10 to 100 °F: 3000 psig (206 bar); C series 12C and 16C, 316 SS, -10 to 100 °F: 2000 psig (137 bar); C series 12C and 16C, brass, -10 to 100 °F: 1500 psig (103 bar); CH4, CH8 series, 316 SS, 10 to 100 °F: 6000 psig (413 bar)) (p. 3) Which one is the lowest cannot be decided from the datasheets alone.",
+   "answerable": "yes",
+   "must": [
+    "CHV-1-2: depends on the construction (C (2C, 4C, 6C, 8C), CA, CP, CPA series, 316 SS or brass, -10 to 100 °F: 3000 psig (206 bar); C series 12C and 16C, 316 SS, -10 to 100 °F: 2000 psig (137 bar); C series 12C and 16C, brass, -10 to 100 °F: 1500 psig (103 bar); CH4, CH8 series, 316 SS, 10 to 100 °F: 6000 psig (413 bar))",
+    "P-1-3: depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa))",
+    "P-2-1: depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa))",
+    "P-2-2: depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa))",
+    "CHV-2-1: depends on the construction (C (2C, 4C, 6C, 8C), CA, CP, CPA series, 316 SS or brass, -10 to 100 °F: 3000 psig (206 bar); C series 12C and 16C, 316 SS, -10 to 100 °F: 2000 psig (137 bar); C series 12C and 16C, brass, -10 to 100 °F: 1500 psig (103 bar); CH4, CH8 series, 316 SS, 10 to 100 °F: 6000 psig (413 bar))",
+    "says the comparison depends on the construction (not decidable as asked)"
+   ],
+   "per_tag": {
+    "CHV-1-2": {
+     "note": "Cover (p1) summarizes 'working pressures up to 6000 psig (413 bar)'; ratings decrease with temperature and may be limited by the end connection (CH ratings per connection on p12).",
+     "page": 3,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "C (2C, 4C, 6C, 8C), CA, CP, CPA series, 316 SS or brass, -10 to 100 °F",
+       "unit": "psig",
+       "value": 3000,
+       "value_text": "3000 psig (206 bar)"
+      },
+      {
+       "condition": "C series 12C and 16C, 316 SS, -10 to 100 °F",
+       "unit": "psig",
+       "value": 2000,
+       "value_text": "2000 psig (137 bar)"
+      },
+      {
+       "condition": "C series 12C and 16C, brass, -10 to 100 °F",
+       "unit": "psig",
+       "value": 1500,
+       "value_text": "1500 psig (103 bar)"
+      },
+      {
+       "condition": "CH4, CH8 series, 316 SS, 10 to 100 °F",
+       "unit": "psig",
+       "value": 6000,
+       "value_text": "6000 psig (413 bar)"
+      },
+      {
+       "condition": "CH16 series, 316 SS, 10 to 100 °F",
+       "unit": "psig",
+       "value": 5000,
+       "value_text": "5000 psig (344 bar)"
+      }
+     ]
+    },
+    "CHV-2-1": {
+     "note": "Cover (p1) summarizes 'working pressures up to 6000 psig (413 bar)'; ratings decrease with temperature and may be limited by the end connection (CH ratings per connection on p12).",
+     "page": 3,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "C (2C, 4C, 6C, 8C), CA, CP, CPA series, 316 SS or brass, -10 to 100 °F",
+       "unit": "psig",
+       "value": 3000,
+       "value_text": "3000 psig (206 bar)"
+      },
+      {
+       "condition": "C series 12C and 16C, 316 SS, -10 to 100 °F",
+       "unit": "psig",
+       "value": 2000,
+       "value_text": "2000 psig (137 bar)"
+      },
+      {
+       "condition": "C series 12C and 16C, brass, -10 to 100 °F",
+       "unit": "psig",
+       "value": 1500,
+       "value_text": "1500 psig (103 bar)"
+      },
+      {
+       "condition": "CH4, CH8 series, 316 SS, 10 to 100 °F",
+       "unit": "psig",
+       "value": 6000,
+       "value_text": "6000 psig (413 bar)"
+      },
+      {
+       "condition": "CH16 series, 316 SS, 10 to 100 °F",
+       "unit": "psig",
+       "value": 5000,
+       "value_text": "5000 psig (344 bar)"
+      }
+     ]
+    },
+    "P-1-3": {
+     "note": "Two distinct limits printed for the single model (casing vs. operating/system); consult factory for applications exceeding them.",
+     "page": 1,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Maximum casing pressure",
+       "unit": "psi",
+       "value": 266,
+       "value_text": "266 psi (1834 kPa)"
+      },
+      {
+       "condition": "Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations",
+       "unit": "psi",
+       "value": 250,
+       "value_text": "250 psi (1723 kPa)"
+      }
+     ]
+    },
+    "P-2-1": {
+     "note": "Two distinct limits printed for the single model (casing vs. operating/system); consult factory for applications exceeding them.",
+     "page": 1,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Maximum casing pressure",
+       "unit": "psi",
+       "value": 266,
+       "value_text": "266 psi (1834 kPa)"
+      },
+      {
+       "condition": "Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations",
+       "unit": "psi",
+       "value": 250,
+       "value_text": "250 psi (1723 kPa)"
+      }
+     ]
+    },
+    "P-2-2": {
+     "note": "Two distinct limits printed for the single model (casing vs. operating/system); consult factory for applications exceeding them.",
+     "page": 1,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Maximum casing pressure",
+       "unit": "psi",
+       "value": 266,
+       "value_text": "266 psi (1834 kPa)"
+      },
+      {
+       "condition": "Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations",
+       "unit": "psi",
+       "value": 250,
+       "value_text": "250 psi (1723 kPa)"
+      }
+     ]
+    }
+   },
+   "question": "Along the process flow path from CHV-1-2 to CHV-2-1, which item has the lowest maximum allowable pressure according to its datasheet? Give the value for every item on the path that has a datasheet."
+  },
+  "candidate": "The items on the path from CHV-1-2 to CHV-2-1 that have datasheets are the check valves CHV-1-2 and CHV-2-1 and the pumps P-1-3, P-2-1 and P-2-2. The check valves have a maximum working pressure of 6000 psig (413 bar) and series-dependent maximum back pressures up to 6000 psig (413 bar). The pumps P-1-3, P-2-1 and P-2-2 each have a maximum operating pressure of 250 psi (1723 kPa) at 100 F (37°C) and a maximum casing pressure of 266 psi (1834 kPa). The lowest maximum allowable pressure on the path therefore belongs to the pumps P-1-3, P-2-1 and P-2-2, at 250 psi (1723 kPa) maximum operating pressure."
+ },
+ {
+  "item": "820a4fb56b",
+  "gold": {
+   "answer": "GV-1-2 (gfps-165-solenoid-valve): +50 °C (media temperature, PVC housing 0 to +50 °C) (p. 2) P-1-1 (gorman-rupp-0700286): 160F (71C) (p. 1) CHV-1-1 (swagelok-ms-01-176): depends on the construction (316 SS valves, C/CA/CP/CPA series (FKM O-rings): 375 °F (190 °C); Brass valves (Buna N O-rings): 250 °F (121 °C); CH series, 316 SS (FKM seals): 400 °F (204 °C)) (p. 3) P-1-2 (gorman-rupp-0700286): 160F (71C) (p. 1) Lowest: GV-1-2 (for every listed construction).",
+   "answerable": "yes",
+   "must": [
+    "GV-1-2: +50 °C (media temperature, PVC housing 0 to +50 °C)",
+    "P-1-1: 160F (71C)",
+    "CHV-1-1: depends on the construction (316 SS valves, C/CA/CP/CPA series (FKM O-rings): 375 °F (190 °C); Brass valves (Buna N O-rings): 250 °F (121 °C); CH series, 316 SS (FKM seals): 400 °F (204 °C))",
+    "P-1-2: 160F (71C)",
+    "lowest: GV-1-2"
+   ],
+   "per_tag": {
+    "CHV-1-1": {
+     "note": "Seal-dependent; p14 seal table: Buna N to 250 °F, EP to 300 °F, FKM to 375 °F (400 °F for CH), neoprene to 250 °F.",
+     "page": 3,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "316 SS valves, C/CA/CP/CPA series (FKM O-rings)",
+       "unit": "°F",
+       "value": 375,
+       "value_text": "375 °F (190 °C)"
+      },
+      {
+       "condition": "Brass valves (Buna N O-rings)",
+       "unit": "°F",
+       "value": 250,
+       "value_text": "250 °F (121 °C)"
+      },
+      {
+       "condition": "CH series, 316 SS (FKM seals)",
+       "unit": "°F",
+       "value": 400,
+       "value_text": "400 °F (204 °C)"
+      }
+     ]
+    },
+    "GV-1-2": {
+     "note": "Ambient limit is separately 0 to +40 °C.",
+     "page": 2,
+     "single_value": true,
+     "unit": "°C",
+     "value": 50,
+     "value_text": "+50 °C (media temperature, PVC housing 0 to +50 °C)"
+    },
+    "P-1-1": {
+     "note": "Stated as 'Maximum Temperature of Liquid Pumped' in the seal detail (seal-limited); 250 psi operating pressure is only rated up to 100F (37C); consult factory above.",
+     "page": 1,
+     "single_value": true,
+     "unit": "°F",
+     "value": 160,
+     "value_text": "160F (71C)"
+    },
+    "P-1-2": {
+     "note": "Stated as 'Maximum Temperature of Liquid Pumped' in the seal detail (seal-limited); 250 psi operating pressure is only rated up to 100F (37C); consult factory above.",
+     "page": 1,
+     "single_value": true,
+     "unit": "°F",
+     "value": 160,
+     "value_text": "160F (71C)"
+    }
+   },
+   "question": "Along the process flow path from GV-1-2 to P-1-2, which item has the lowest maximum fluid temperature according to its datasheet? Give the value for every item on the path that has a datasheet."
+  },
+  "candidate": "The process flow path from GV-1-2 to P-1-2 is GV-1-2 → P-1-1 → CHV-1-1 → P-1-2. Of these items, only GV-1-2 has a datasheet excerpt provided (gfps-165-solenoid-valve, Type 165 2/2-way Solenoid Valve), which states a media temperature of 0 to +50 °C for the PVC housing (and an ambient temperature of 0 to +40 °C). Thus GV-1-2 has the lowest maximum fluid temperature among items on the path with datasheets, at +50 °C. The datasheets for P-1-1 (gorman-rupp) and CHV-1-1 (swagelok) are not included in the provided excerpts, so their maximum fluid temperatures are not stated."
+ },
+ {
+  "item": "21c610f4db",
+  "gold": {
+   "answer": "P-1-2 (gorman-rupp-0700286): depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa)) (p. 1) E-2-1 (alfalaval-m3): depends on the construction (Frame FG, ASME pressure vessel code: 10.3 barg / 150 psig; Frame FG, PED pressure vessel code: 16.0 barg / 232 psig) (p. 2) Lowest: E-2-1 (for every listed construction).",
+   "answerable": "yes",
+   "must": [
+    "P-1-2: depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa))",
+    "E-2-1: depends on the construction (Frame FG, ASME pressure vessel code: 10.3 barg / 150 psig; Frame FG, PED pressure vessel code: 16.0 barg / 232 psig)",
+    "lowest: E-2-1"
+   ],
+   "per_tag": {
+    "E-2-1": {
+     "note": "Max. design pressure; extended pressure and temperature rating may be available on request.",
+     "page": 2,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Frame FG, ASME pressure vessel code",
+       "unit": "barg",
+       "value": 10.3,
+       "value_text": "10.3 barg / 150 psig"
+      },
+      {
+       "condition": "Frame FG, PED pressure vessel code",
+       "unit": "barg",
+       "value": 16.0,
+       "value_text": "16.0 barg / 232 psig"
+      }
+     ]
+    },
+    "P-1-2": {
+     "note": "Two distinct limits printed for the single model (casing vs. operating/system); consult factory for applications exceeding them.",
+     "page": 1,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Maximum casing pressure",
+       "unit": "psi",
+       "value": 266,
+       "value_text": "266 psi (1834 kPa)"
+      },
+      {
+       "condition": "Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations",
+       "unit": "psi",
+       "value": 250,
+       "value_text": "250 psi (1723 kPa)"
+      }
+     ]
+    }
+   },
+   "question": "Compare the item directly upstream of P-1-5 in the process flow and the item directly downstream of BV-2-1 in the process flow: which of the two has the lowest maximum allowable pressure according to its datasheet, and what are the two values?"
+  },
+  "candidate": "The item directly downstream of BV-2-1, which is E-2-1, has the lowest maximum allowable pressure. P-1-2 has a maximum operating pressure of 250 psi, while E-2-1 has maximum allowable pressures of 150 psig (ASME code) and 232 psig (PED code)."
+ },
+ {
+  "item": "2d7f36ec3f",
+  "gold": {
+   "answer": "E-1-1 (alfalaval-m3): depends on the construction (Frame FG, ASME pressure vessel code: 10.3 barg / 150 psig; Frame FG, PED pressure vessel code: 16.0 barg / 232 psig) (p. 2) CHV-1-2 (swagelok-ms-01-176): depends on the construction (C (2C, 4C, 6C, 8C), CA, CP, CPA series, 316 SS or brass, -10 to 100 °F: 3000 psig (206 bar); C series 12C and 16C, 316 SS, -10 to 100 °F: 2000 psig (137 bar); C series 12C and 16C, brass, -10 to 100 °F: 1500 psig (103 bar); CH4, CH8 series, 316 SS, 10 to 100 °F: 6000 psig (413 bar)) (p. 3) P-1-3 (gorman-rupp-0700286): depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa)) (p. 1) P-2-1 (gorman-rupp-0700286): depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa)) (p. 1) P-2-2 (gorman-rupp-0700286): depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa)) (p. 1) CHV-2-1 (swagelok-ms-01-176): depends on the construction (C (2C, 4C, 6C, 8C), CA, CP, CPA series, 316 SS or brass, -10 to 100 °F: 3000 psig (206 bar); C series 12C and 16C, 316 SS, -10 to 100 °F: 2000 psig (137 bar); C series 12C and 16C, brass, -10 to 100 °F: 1500 psig (103 bar); CH4, CH8 series, 316 SS, 10 to 100 °F: 6000 psig (413 bar)) (p. 3) Lowest: E-1-1 (for every listed construction).",
+   "answerable": "yes",
+   "must": [
+    "E-1-1: depends on the construction (Frame FG, ASME pressure vessel code: 10.3 barg / 150 psig; Frame FG, PED pressure vessel code: 16.0 barg / 232 psig)",
+    "CHV-1-2: depends on the construction (C (2C, 4C, 6C, 8C), CA, CP, CPA series, 316 SS or brass, -10 to 100 °F: 3000 psig (206 bar); C series 12C and 16C, 316 SS, -10 to 100 °F: 2000 psig (137 bar); C series 12C and 16C, brass, -10 to 100 °F: 1500 psig (103 bar); CH4, CH8 series, 316 SS, 10 to 100 °F: 6000 psig (413 bar))",
+    "P-1-3: depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa))",
+    "P-2-1: depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa))",
+    "P-2-2: depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa))",
+    "CHV-2-1: depends on the construction (C (2C, 4C, 6C, 8C), CA, CP, CPA series, 316 SS or brass, -10 to 100 °F: 3000 psig (206 bar); C series 12C and 16C, 316 SS, -10 to 100 °F: 2000 psig (137 bar); C series 12C and 16C, brass, -10 to 100 °F: 1500 psig (103 bar); CH4, CH8 series, 316 SS, 10 to 100 °F: 6000 psig (413 bar))",
+    "lowest: E-1-1"
+   ],
+   "per_tag": {
+    "CHV-1-2": {
+     "note": "Cover (p1) summarizes 'working pressures up to 6000 psig (413 bar)'; ratings decrease with temperature and may be limited by the end connection (CH ratings per connection on p12).",
+     "page": 3,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "C (2C, 4C, 6C, 8C), CA, CP, CPA series, 316 SS or brass, -10 to 100 °F",
+       "unit": "psig",
+       "value": 3000,
+       "value_text": "3000 psig (206 bar)"
+      },
+      {
+       "condition": "C series 12C and 16C, 316 SS, -10 to 100 °F",
+       "unit": "psig",
+       "value": 2000,
+       "value_text": "2000 psig (137 bar)"
+      },
+      {
+       "condition": "C series 12C and 16C, brass, -10 to 100 °F",
+       "unit": "psig",
+       "value": 1500,
+       "value_text": "1500 psig (103 bar)"
+      },
+      {
+       "condition": "CH4, CH8 series, 316 SS, 10 to 100 °F",
+       "unit": "psig",
+       "value": 6000,
+       "value_text": "6000 psig (413 bar)"
+      },
+      {
+       "condition": "CH16 series, 316 SS, 10 to 100 °F",
+       "unit": "psig",
+       "value": 5000,
+       "value_text": "5000 psig (344 bar)"
+      }
+     ]
+    },
+    "CHV-2-1": {
+     "note": "Cover (p1) summarizes 'working pressures up to 6000 psig (413 bar)'; ratings decrease with temperature and may be limited by the end connection (CH ratings per connection on p12).",
+     "page": 3,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "C (2C, 4C, 6C, 8C), CA, CP, CPA series, 316 SS or brass, -10 to 100 °F",
+       "unit": "psig",
+       "value": 3000,
+       "value_text": "3000 psig (206 bar)"
+      },
+      {
+       "condition": "C series 12C and 16C, 316 SS, -10 to 100 °F",
+       "unit": "psig",
+       "value": 2000,
+       "value_text": "2000 psig (137 bar)"
+      },
+      {
+       "condition": "C series 12C and 16C, brass, -10 to 100 °F",
+       "unit": "psig",
+       "value": 1500,
+       "value_text": "1500 psig (103 bar)"
+      },
+      {
+       "condition": "CH4, CH8 series, 316 SS, 10 to 100 °F",
+       "unit": "psig",
+       "value": 6000,
+       "value_text": "6000 psig (413 bar)"
+      },
+      {
+       "condition": "CH16 series, 316 SS, 10 to 100 °F",
+       "unit": "psig",
+       "value": 5000,
+       "value_text": "5000 psig (344 bar)"
+      }
+     ]
+    },
+    "E-1-1": {
+     "note": "Max. design pressure; extended pressure and temperature rating may be available on request.",
+     "page": 2,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Frame FG, ASME pressure vessel code",
+       "unit": "barg",
+       "value": 10.3,
+       "value_text": "10.3 barg / 150 psig"
+      },
+      {
+       "condition": "Frame FG, PED pressure vessel code",
+       "unit": "barg",
+       "value": 16.0,
+       "value_text": "16.0 barg / 232 psig"
+      }
+     ]
+    },
+    "P-1-3": {
+     "note": "Two distinct limits printed for the single model (casing vs. operating/system); consult factory for applications exceeding them.",
+     "page": 1,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Maximum casing pressure",
+       "unit": "psi",
+       "value": 266,
+       "value_text": "266 psi (1834 kPa)"
+      },
+      {
+       "condition": "Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations",
+       "unit": "psi",
+       "value": 250,
+       "value_text": "250 psi (1723 kPa)"
+      }
+     ]
+    },
+    "P-2-1": {
+     "note": "Two distinct limits printed for the single model (casing vs. operating/system); consult factory for applications exceeding them.",
+     "page": 1,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Maximum casing pressure",
+       "unit": "psi",
+       "value": 266,
+       "value_text": "266 psi (1834 kPa)"
+      },
+      {
+       "condition": "Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations",
+       "unit": "psi",
+       "value": 250,
+       "value_text": "250 psi (1723 kPa)"
+      }
+     ]
+    },
+    "P-2-2": {
+     "note": "Two distinct limits printed for the single model (casing vs. operating/system); consult factory for applications exceeding them.",
+     "page": 1,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Maximum casing pressure",
+       "unit": "psi",
+       "value": 266,
+       "value_text": "266 psi (1834 kPa)"
+      },
+      {
+       "condition": "Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations",
+       "unit": "psi",
+       "value": 250,
+       "value_text": "250 psi (1723 kPa)"
+      }
+     ]
+    }
+   },
+   "question": "Along the process flow path from E-1-1 to CHV-2-1, which item has the lowest maximum allowable pressure according to its datasheet? Give the value for every item on the path that has a datasheet."
+  },
+  "candidate": "The unique process flow path from E-1-1 to CHV-2-1 is: E-1-1 → CHV-1-2 (line PG-3, via off-page connector to sheet 1) → P-1-3 (line PG-11, via off-page connector to sheet 2) → P-2-1 (line PG-7) → P-2-2 (line PG-8, via off-page connector to sheet 3) → CHV-2-1. Of these items, datasheet excerpts are present only for CHV-1-2 and CHV-2-1, both covered by the Swagelok C/CH series check valve datasheet (swagelok-ms-01-176), which states working pressures up to 6000 psig (413 bar) for the CH series. Both therefore have the same stated maximum (6000 psig / 413 bar), so no single item has a lower maximum than the other among the items with datasheets. The datasheets for E-1-1 (alfalaval-m3) and the pumps P-1-3, P-2-1 and P-2-2 (gorman-rupp-0700286) are not present in the provided excerpts, so their maximum allowable pressures are not stated."
+ },
+ {
+  "item": "eab44628ce",
+  "gold": {
+   "answer": "FT-2-2 (rosemount-3051-00813-0100-4001): depends on the construction (3051CD/CG/CF/CA silicone fill, coplanar flange: +250 °F (+121 °C); 3051CD/CG/CF/CA silicone fill, traditional flange, level flange or 305 integral manifold: +300 °F (+149 °C); 3051C inert fill sensor: +185 °F (+85 °C); 3051T silicone or inert fill: +250 °F (+121 °C)) (p. 90) GV-2-2 (gfps-165-solenoid-valve): +50 °C (media temperature, PVC housing 0 to +50 °C) (p. 2) Lowest: GV-2-2 (for every listed construction).",
+   "answerable": "yes",
+   "must": [
+    "FT-2-2: depends on the construction (3051CD/CG/CF/CA silicone fill, coplanar flange: +250 °F (+121 °C); 3051CD/CG/CF/CA silicone fill, traditional flange, level flange or 305 integral manifold: +300 °F (+149 °C); 3051C inert fill sensor: +185 °F (+85 °C); 3051T silicone or inert fill: +250 °F (+121 °C))",
+    "GV-2-2: +50 °C (media temperature, PVC housing 0 to +50 °C)",
+    "lowest: GV-2-2"
+   ],
+   "per_tag": {
+    "FT-2-2": {
+     "note": "Table 6 process connection temperature limits; lower limits in vacuum service (+220 °F / +104 °C); 3051CD0 limited to +212 °F (+100 °C); ambient limit separately -40 to +185 °F (p89).",
+     "page": 90,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "3051CD/CG/CF/CA silicone fill, coplanar flange",
+       "unit": "°F",
+       "value": 250,
+       "value_text": "+250 °F (+121 °C)"
+      },
+      {
+       "condition": "3051CD/CG/CF/CA silicone fill, traditional flange, level flange or 305 integral manifold",
+       "unit": "°F",
+       "value": 300,
+       "value_text": "+300 °F (+149 °C)"
+      },
+      {
+       "condition": "3051C inert fill sensor",
+       "unit": "°F",
+       "value": 185,
+       "value_text": "+185 °F (+85 °C)"
+      },
+      {
+       "condition": "3051T silicone or inert fill",
+       "unit": "°F",
+       "value": 250,
+       "value_text": "+250 °F (+121 °C)"
+      },
+      {
+       "condition": "3051L high side, Silicone 704, Silicone 200 or Neobee M-20 fill",
+       "unit": "°F",
+       "value": 401,
+       "value_text": "+401 °F (+205 °C)"
+      },
+      {
+       "condition": "3051L high side, SYLTHERM XLT",
+       "unit": "°F",
+       "value": 293,
+       "value_text": "+293 °F (+145 °C)"
+      }
+     ]
+    },
+    "GV-2-2": {
+     "note": "Ambient limit is separately 0 to +40 °C.",
+     "page": 2,
+     "single_value": true,
+     "unit": "°C",
+     "value": 50,
+     "value_text": "+50 °C (media temperature, PVC housing 0 to +50 °C)"
+    }
+   },
+   "question": "Compare the transmitter that feeds controller FIC-2-2 and the item directly upstream of E-2-3 in the process flow: which of the two has the lowest maximum fluid temperature according to its datasheet, and what are the two values?"
+  },
+  "candidate": "(no answer: PARSE_FAILURE)"
+ },
+ {
+  "item": "eb2d7a6eb8",
+  "gold": {
+   "answer": "CHV-1-2 (swagelok-ms-01-176): depends on the construction (C (2C, 4C, 6C, 8C), CA, CP, CPA series, 316 SS or brass, -10 to 100 °F: 3000 psig (206 bar); C series 12C and 16C, 316 SS, -10 to 100 °F: 2000 psig (137 bar); C series 12C and 16C, brass, -10 to 100 °F: 1500 psig (103 bar); CH4, CH8 series, 316 SS, 10 to 100 °F: 6000 psig (413 bar)) (p. 3) P-1-3 (gorman-rupp-0700286): depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa)) (p. 1) P-2-1 (gorman-rupp-0700286): depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa)) (p. 1) BV-2-1 (flowserve-worcester-f51-f52): depends on the construction (F52 (Class 300), Group 1.2 body (WCB/WCC, LCB/LCC), at low temperature: approx. 52 bar (read from P-T chart); F52 (Class 300), Group 2.2 body (CF8M), at low temperature: approx. 50 bar (read from P-T chart); F51 (Class 150), Group 1.2 body, at low temperature: approx. 20 bar (read from P-T chart); F51 (Class 150), Group 2.2 body (CF8M), at low temperature: approx. 19 bar (read from P-T chart)) (p. 6) Which one is the lowest cannot be decided from the datasheets alone.",
+   "answerable": "yes",
+   "must": [
+    "CHV-1-2: depends on the construction (C (2C, 4C, 6C, 8C), CA, CP, CPA series, 316 SS or brass, -10 to 100 °F: 3000 psig (206 bar); C series 12C and 16C, 316 SS, -10 to 100 °F: 2000 psig (137 bar); C series 12C and 16C, brass, -10 to 100 °F: 1500 psig (103 bar); CH4, CH8 series, 316 SS, 10 to 100 °F: 6000 psig (413 bar))",
+    "P-1-3: depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa))",
+    "P-2-1: depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa))",
+    "BV-2-1: depends on the construction (F52 (Class 300), Group 1.2 body (WCB/WCC, LCB/LCC), at low temperature: approx. 52 bar (read from P-T chart); F52 (Class 300), Group 2.2 body (CF8M), at low temperature: approx. 50 bar (read from P-T chart); F51 (Class 150), Group 1.2 body, at low temperature: approx. 20 bar (read from P-T chart); F51 (Class 150), Group 2.2 body (CF8M), at low temperature: approx. 19 bar (read from P-T chart))",
+    "says the comparison depends on the construction (not decidable as asked)"
+   ],
+   "per_tag": {
+    "BV-2-1": {
+     "note": "No numeric pressure is printed; ratings are ASME B16.34 curves shown only graphically, decreasing with temperature and further limited by seat material.",
+     "page": 6,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "F52 (Class 300), Group 1.2 body (WCB/WCC, LCB/LCC), at low temperature",
+       "unit": "bar",
+       "value": 52,
+       "value_text": "approx. 52 bar (read from P-T chart)"
+      },
+      {
+       "condition": "F52 (Class 300), Group 2.2 body (CF8M), at low temperature",
+       "unit": "bar",
+       "value": 50,
+       "value_text": "approx. 50 bar (read from P-T chart)"
+      },
+      {
+       "condition": "F51 (Class 150), Group 1.2 body, at low temperature",
+       "unit": "bar",
+       "value": 20,
+       "value_text": "approx. 20 bar (read from P-T chart)"
+      },
+      {
+       "condition": "F51 (Class 150), Group 2.2 body (CF8M), at low temperature",
+       "unit": "bar",
+       "value": 19,
+       "value_text": "approx. 19 bar (read from P-T chart)"
+      }
+     ]
+    },
+    "CHV-1-2": {
+     "note": "Cover (p1) summarizes 'working pressures up to 6000 psig (413 bar)'; ratings decrease with temperature and may be limited by the end connection (CH ratings per connection on p12).",
+     "page": 3,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "C (2C, 4C, 6C, 8C), CA, CP, CPA series, 316 SS or brass, -10 to 100 °F",
+       "unit": "psig",
+       "value": 3000,
+       "value_text": "3000 psig (206 bar)"
+      },
+      {
+       "condition": "C series 12C and 16C, 316 SS, -10 to 100 °F",
+       "unit": "psig",
+       "value": 2000,
+       "value_text": "2000 psig (137 bar)"
+      },
+      {
+       "condition": "C series 12C and 16C, brass, -10 to 100 °F",
+       "unit": "psig",
+       "value": 1500,
+       "value_text": "1500 psig (103 bar)"
+      },
+      {
+       "condition": "CH4, CH8 series, 316 SS, 10 to 100 °F",
+       "unit": "psig",
+       "value": 6000,
+       "value_text": "6000 psig (413 bar)"
+      },
+      {
+       "condition": "CH16 series, 316 SS, 10 to 100 °F",
+       "unit": "psig",
+       "value": 5000,
+       "value_text": "5000 psig (344 bar)"
+      }
+     ]
+    },
+    "P-1-3": {
+     "note": "Two distinct limits printed for the single model (casing vs. operating/system); consult factory for applications exceeding them.",
+     "page": 1,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Maximum casing pressure",
+       "unit": "psi",
+       "value": 266,
+       "value_text": "266 psi (1834 kPa)"
+      },
+      {
+       "condition": "Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations",
+       "unit": "psi",
+       "value": 250,
+       "value_text": "250 psi (1723 kPa)"
+      }
+     ]
+    },
+    "P-2-1": {
+     "note": "Two distinct limits printed for the single model (casing vs. operating/system); consult factory for applications exceeding them.",
+     "page": 1,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Maximum casing pressure",
+       "unit": "psi",
+       "value": 266,
+       "value_text": "266 psi (1834 kPa)"
+      },
+      {
+       "condition": "Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations",
+       "unit": "psi",
+       "value": 250,
+       "value_text": "250 psi (1723 kPa)"
+      }
+     ]
+    }
+   },
+   "question": "Along the process flow path from CHV-1-2 to BV-2-1, which item has the lowest maximum allowable pressure according to its datasheet? Give the value for every item on the path that has a datasheet."
+  },
+  "candidate": "The only item on the path from CHV-1-2 to BV-2-1 with a datasheet is CHV-1-2 (a check valve). Its datasheet lists many pressure ratings depending on variant, material, temperature and end connection; the lowest maximum allowable pressure value given is 13.7 bar (maximum back pressure at 70°F for the fixed-cracking 6C/8C variants). Other values range up to 413 bar. BV-2-1 has no datasheet data in the description, so no value can be given for it, and it cannot be compared."
+ },
+ {
+  "item": "a986a84637",
+  "gold": {
+   "answer": "CHV-1-2 (swagelok-ms-01-176): depends on the construction (316 SS valves, C/CA/CP/CPA series (FKM O-rings): 375 °F (190 °C); Brass valves (Buna N O-rings): 250 °F (121 °C); CH series, 316 SS (FKM seals): 400 °F (204 °C)) (p. 3) GV-1-1 (gfps-165-solenoid-valve): +50 °C (media temperature, PVC housing 0 to +50 °C) (p. 2) Lowest: GV-1-1 (for every listed construction).",
+   "answerable": "yes",
+   "must": [
+    "CHV-1-2: depends on the construction (316 SS valves, C/CA/CP/CPA series (FKM O-rings): 375 °F (190 °C); Brass valves (Buna N O-rings): 250 °F (121 °C); CH series, 316 SS (FKM seals): 400 °F (204 °C))",
+    "GV-1-1: +50 °C (media temperature, PVC housing 0 to +50 °C)",
+    "lowest: GV-1-1"
+   ],
+   "per_tag": {
+    "CHV-1-2": {
+     "note": "Seal-dependent; p14 seal table: Buna N to 250 °F, EP to 300 °F, FKM to 375 °F (400 °F for CH), neoprene to 250 °F.",
+     "page": 3,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "316 SS valves, C/CA/CP/CPA series (FKM O-rings)",
+       "unit": "°F",
+       "value": 375,
+       "value_text": "375 °F (190 °C)"
+      },
+      {
+       "condition": "Brass valves (Buna N O-rings)",
+       "unit": "°F",
+       "value": 250,
+       "value_text": "250 °F (121 °C)"
+      },
+      {
+       "condition": "CH series, 316 SS (FKM seals)",
+       "unit": "°F",
+       "value": 400,
+       "value_text": "400 °F (204 °C)"
+      }
+     ]
+    },
+    "GV-1-1": {
+     "note": "Ambient limit is separately 0 to +40 °C.",
+     "page": 2,
+     "single_value": true,
+     "unit": "°C",
+     "value": 50,
+     "value_text": "+50 °C (media temperature, PVC housing 0 to +50 °C)"
+    }
+   },
+   "question": "For each item that receives flow directly from E-1-1, what is its maximum fluid temperature according to its datasheet, and which of them has the lowest?"
+  },
+  "candidate": "Two items receive flow directly from E-1-1: CHV-1-2 and GV-1-1. CHV-1-2 has a maximum fluid temperature of 400°F (204°C) for the CH series with FKM seal (375°F/190°C for other series; brass bodies limited to 100°F/37°C). GV-1-1 has a maximum media temperature of +50°C (PVC housing version). The lowest maximum is GV-1-1 at +50°C."
+ },
+ {
+  "item": "7fa895fa2b",
+  "gold": {
+   "answer": "E-1-1 (alfalaval-m3): depends on the construction (Frame FG, ASME pressure vessel code: 10.3 barg / 150 psig; Frame FG, PED pressure vessel code: 16.0 barg / 232 psig) (p. 2) CHV-1-2 (swagelok-ms-01-176): depends on the construction (C (2C, 4C, 6C, 8C), CA, CP, CPA series, 316 SS or brass, -10 to 100 °F: 3000 psig (206 bar); C series 12C and 16C, 316 SS, -10 to 100 °F: 2000 psig (137 bar); C series 12C and 16C, brass, -10 to 100 °F: 1500 psig (103 bar); CH4, CH8 series, 316 SS, 10 to 100 °F: 6000 psig (413 bar)) (p. 3) P-1-3 (gorman-rupp-0700286): depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa)) (p. 1) P-2-1 (gorman-rupp-0700286): depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa)) (p. 1) P-2-2 (gorman-rupp-0700286): depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa)) (p. 1) CHV-2-1 (swagelok-ms-01-176): depends on the construction (C (2C, 4C, 6C, 8C), CA, CP, CPA series, 316 SS or brass, -10 to 100 °F: 3000 psig (206 bar); C series 12C and 16C, 316 SS, -10 to 100 °F: 2000 psig (137 bar); C series 12C and 16C, brass, -10 to 100 °F: 1500 psig (103 bar); CH4, CH8 series, 316 SS, 10 to 100 °F: 6000 psig (413 bar)) (p. 3) Lowest: E-1-1 (for every listed construction).",
+   "answerable": "yes",
+   "must": [
+    "E-1-1: depends on the construction (Frame FG, ASME pressure vessel code: 10.3 barg / 150 psig; Frame FG, PED pressure vessel code: 16.0 barg / 232 psig)",
+    "CHV-1-2: depends on the construction (C (2C, 4C, 6C, 8C), CA, CP, CPA series, 316 SS or brass, -10 to 100 °F: 3000 psig (206 bar); C series 12C and 16C, 316 SS, -10 to 100 °F: 2000 psig (137 bar); C series 12C and 16C, brass, -10 to 100 °F: 1500 psig (103 bar); CH4, CH8 series, 316 SS, 10 to 100 °F: 6000 psig (413 bar))",
+    "P-1-3: depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa))",
+    "P-2-1: depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa))",
+    "P-2-2: depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa))",
+    "CHV-2-1: depends on the construction (C (2C, 4C, 6C, 8C), CA, CP, CPA series, 316 SS or brass, -10 to 100 °F: 3000 psig (206 bar); C series 12C and 16C, 316 SS, -10 to 100 °F: 2000 psig (137 bar); C series 12C and 16C, brass, -10 to 100 °F: 1500 psig (103 bar); CH4, CH8 series, 316 SS, 10 to 100 °F: 6000 psig (413 bar))",
+    "lowest: E-1-1"
+   ],
+   "per_tag": {
+    "CHV-1-2": {
+     "note": "Cover (p1) summarizes 'working pressures up to 6000 psig (413 bar)'; ratings decrease with temperature and may be limited by the end connection (CH ratings per connection on p12).",
+     "page": 3,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "C (2C, 4C, 6C, 8C), CA, CP, CPA series, 316 SS or brass, -10 to 100 °F",
+       "unit": "psig",
+       "value": 3000,
+       "value_text": "3000 psig (206 bar)"
+      },
+      {
+       "condition": "C series 12C and 16C, 316 SS, -10 to 100 °F",
+       "unit": "psig",
+       "value": 2000,
+       "value_text": "2000 psig (137 bar)"
+      },
+      {
+       "condition": "C series 12C and 16C, brass, -10 to 100 °F",
+       "unit": "psig",
+       "value": 1500,
+       "value_text": "1500 psig (103 bar)"
+      },
+      {
+       "condition": "CH4, CH8 series, 316 SS, 10 to 100 °F",
+       "unit": "psig",
+       "value": 6000,
+       "value_text": "6000 psig (413 bar)"
+      },
+      {
+       "condition": "CH16 series, 316 SS, 10 to 100 °F",
+       "unit": "psig",
+       "value": 5000,
+       "value_text": "5000 psig (344 bar)"
+      }
+     ]
+    },
+    "CHV-2-1": {
+     "note": "Cover (p1) summarizes 'working pressures up to 6000 psig (413 bar)'; ratings decrease with temperature and may be limited by the end connection (CH ratings per connection on p12).",
+     "page": 3,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "C (2C, 4C, 6C, 8C), CA, CP, CPA series, 316 SS or brass, -10 to 100 °F",
+       "unit": "psig",
+       "value": 3000,
+       "value_text": "3000 psig (206 bar)"
+      },
+      {
+       "condition": "C series 12C and 16C, 316 SS, -10 to 100 °F",
+       "unit": "psig",
+       "value": 2000,
+       "value_text": "2000 psig (137 bar)"
+      },
+      {
+       "condition": "C series 12C and 16C, brass, -10 to 100 °F",
+       "unit": "psig",
+       "value": 1500,
+       "value_text": "1500 psig (103 bar)"
+      },
+      {
+       "condition": "CH4, CH8 series, 316 SS, 10 to 100 °F",
+       "unit": "psig",
+       "value": 6000,
+       "value_text": "6000 psig (413 bar)"
+      },
+      {
+       "condition": "CH16 series, 316 SS, 10 to 100 °F",
+       "unit": "psig",
+       "value": 5000,
+       "value_text": "5000 psig (344 bar)"
+      }
+     ]
+    },
+    "E-1-1": {
+     "note": "Max. design pressure; extended pressure and temperature rating may be available on request.",
+     "page": 2,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Frame FG, ASME pressure vessel code",
+       "unit": "barg",
+       "value": 10.3,
+       "value_text": "10.3 barg / 150 psig"
+      },
+      {
+       "condition": "Frame FG, PED pressure vessel code",
+       "unit": "barg",
+       "value": 16.0,
+       "value_text": "16.0 barg / 232 psig"
+      }
+     ]
+    },
+    "P-1-3": {
+     "note": "Two distinct limits printed for the single model (casing vs. operating/system); consult factory for applications exceeding them.",
+     "page": 1,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Maximum casing pressure",
+       "unit": "psi",
+       "value": 266,
+       "value_text": "266 psi (1834 kPa)"
+      },
+      {
+       "condition": "Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations",
+       "unit": "psi",
+       "value": 250,
+       "value_text": "250 psi (1723 kPa)"
+      }
+     ]
+    },
+    "P-2-1": {
+     "note": "Two distinct limits printed for the single model (casing vs. operating/system); consult factory for applications exceeding them.",
+     "page": 1,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Maximum casing pressure",
+       "unit": "psi",
+       "value": 266,
+       "value_text": "266 psi (1834 kPa)"
+      },
+      {
+       "condition": "Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations",
+       "unit": "psi",
+       "value": 250,
+       "value_text": "250 psi (1723 kPa)"
+      }
+     ]
+    },
+    "P-2-2": {
+     "note": "Two distinct limits printed for the single model (casing vs. operating/system); consult factory for applications exceeding them.",
+     "page": 1,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Maximum casing pressure",
+       "unit": "psi",
+       "value": 266,
+       "value_text": "266 psi (1834 kPa)"
+      },
+      {
+       "condition": "Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations",
+       "unit": "psi",
+       "value": 250,
+       "value_text": "250 psi (1723 kPa)"
+      }
+     ]
+    }
+   },
+   "question": "Along the process flow path from E-1-1 to CHV-2-1, which item has the lowest maximum allowable pressure according to its datasheet? Give the value for every item on the path that has a datasheet."
+  },
+  "candidate": "(no answer: STEP_LIMIT)"
+ },
+ {
+  "item": "affaec1748",
+  "gold": {
+   "answer": "FT-2-2 (rosemount-3051-00813-0100-4001): depends on the construction (3051CD/CG/CF/CA silicone fill, coplanar flange: +250 °F (+121 °C); 3051CD/CG/CF/CA silicone fill, traditional flange, level flange or 305 integral manifold: +300 °F (+149 °C); 3051C inert fill sensor: +185 °F (+85 °C); 3051T silicone or inert fill: +250 °F (+121 °C)) (p. 90) GV-2-2 (gfps-165-solenoid-valve): +50 °C (media temperature, PVC housing 0 to +50 °C) (p. 2) Lowest: GV-2-2 (for every listed construction).",
+   "answerable": "yes",
+   "must": [
+    "FT-2-2: depends on the construction (3051CD/CG/CF/CA silicone fill, coplanar flange: +250 °F (+121 °C); 3051CD/CG/CF/CA silicone fill, traditional flange, level flange or 305 integral manifold: +300 °F (+149 °C); 3051C inert fill sensor: +185 °F (+85 °C); 3051T silicone or inert fill: +250 °F (+121 °C))",
+    "GV-2-2: +50 °C (media temperature, PVC housing 0 to +50 °C)",
+    "lowest: GV-2-2"
+   ],
+   "per_tag": {
+    "FT-2-2": {
+     "note": "Table 6 process connection temperature limits; lower limits in vacuum service (+220 °F / +104 °C); 3051CD0 limited to +212 °F (+100 °C); ambient limit separately -40 to +185 °F (p89).",
+     "page": 90,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "3051CD/CG/CF/CA silicone fill, coplanar flange",
+       "unit": "°F",
+       "value": 250,
+       "value_text": "+250 °F (+121 °C)"
+      },
+      {
+       "condition": "3051CD/CG/CF/CA silicone fill, traditional flange, level flange or 305 integral manifold",
+       "unit": "°F",
+       "value": 300,
+       "value_text": "+300 °F (+149 °C)"
+      },
+      {
+       "condition": "3051C inert fill sensor",
+       "unit": "°F",
+       "value": 185,
+       "value_text": "+185 °F (+85 °C)"
+      },
+      {
+       "condition": "3051T silicone or inert fill",
+       "unit": "°F",
+       "value": 250,
+       "value_text": "+250 °F (+121 °C)"
+      },
+      {
+       "condition": "3051L high side, Silicone 704, Silicone 200 or Neobee M-20 fill",
+       "unit": "°F",
+       "value": 401,
+       "value_text": "+401 °F (+205 °C)"
+      },
+      {
+       "condition": "3051L high side, SYLTHERM XLT",
+       "unit": "°F",
+       "value": 293,
+       "value_text": "+293 °F (+145 °C)"
+      }
+     ]
+    },
+    "GV-2-2": {
+     "note": "Ambient limit is separately 0 to +40 °C.",
+     "page": 2,
+     "single_value": true,
+     "unit": "°C",
+     "value": 50,
+     "value_text": "+50 °C (media temperature, PVC housing 0 to +50 °C)"
+    }
+   },
+   "question": "Compare the transmitter that feeds controller FIC-2-2 and the item directly upstream of E-2-3 in the process flow: which of the two has the lowest maximum fluid temperature according to its datasheet, and what are the two values?"
+  },
+  "candidate": "GV-2-2, the item upstream of E-2-3, has the lower maximum fluid temperature: 50 °C, compared with 121 °C for transmitter FT-2-2."
+ },
+ {
+  "item": "079d797a03",
+  "gold": {
+   "answer": "FT-2-2 (rosemount-3051-00813-0100-4001): depends on the construction (3051CD/CG/CF/CA silicone fill, coplanar flange: +250 °F (+121 °C); 3051CD/CG/CF/CA silicone fill, traditional flange, level flange or 305 integral manifold: +300 °F (+149 °C); 3051C inert fill sensor: +185 °F (+85 °C); 3051T silicone or inert fill: +250 °F (+121 °C)) (p. 90) GV-2-2 (gfps-165-solenoid-valve): +50 °C (media temperature, PVC housing 0 to +50 °C) (p. 2) Lowest: GV-2-2 (for every listed construction).",
+   "answerable": "yes",
+   "must": [
+    "FT-2-2: depends on the construction (3051CD/CG/CF/CA silicone fill, coplanar flange: +250 °F (+121 °C); 3051CD/CG/CF/CA silicone fill, traditional flange, level flange or 305 integral manifold: +300 °F (+149 °C); 3051C inert fill sensor: +185 °F (+85 °C); 3051T silicone or inert fill: +250 °F (+121 °C))",
+    "GV-2-2: +50 °C (media temperature, PVC housing 0 to +50 °C)",
+    "lowest: GV-2-2"
+   ],
+   "per_tag": {
+    "FT-2-2": {
+     "note": "Table 6 process connection temperature limits; lower limits in vacuum service (+220 °F / +104 °C); 3051CD0 limited to +212 °F (+100 °C); ambient limit separately -40 to +185 °F (p89).",
+     "page": 90,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "3051CD/CG/CF/CA silicone fill, coplanar flange",
+       "unit": "°F",
+       "value": 250,
+       "value_text": "+250 °F (+121 °C)"
+      },
+      {
+       "condition": "3051CD/CG/CF/CA silicone fill, traditional flange, level flange or 305 integral manifold",
+       "unit": "°F",
+       "value": 300,
+       "value_text": "+300 °F (+149 °C)"
+      },
+      {
+       "condition": "3051C inert fill sensor",
+       "unit": "°F",
+       "value": 185,
+       "value_text": "+185 °F (+85 °C)"
+      },
+      {
+       "condition": "3051T silicone or inert fill",
+       "unit": "°F",
+       "value": 250,
+       "value_text": "+250 °F (+121 °C)"
+      },
+      {
+       "condition": "3051L high side, Silicone 704, Silicone 200 or Neobee M-20 fill",
+       "unit": "°F",
+       "value": 401,
+       "value_text": "+401 °F (+205 °C)"
+      },
+      {
+       "condition": "3051L high side, SYLTHERM XLT",
+       "unit": "°F",
+       "value": 293,
+       "value_text": "+293 °F (+145 °C)"
+      }
+     ]
+    },
+    "GV-2-2": {
+     "note": "Ambient limit is separately 0 to +40 °C.",
+     "page": 2,
+     "single_value": true,
+     "unit": "°C",
+     "value": 50,
+     "value_text": "+50 °C (media temperature, PVC housing 0 to +50 °C)"
+    }
+   },
+   "question": "Compare the transmitter that feeds controller FIC-2-2 and the item directly upstream of E-2-3 in the process flow: which of the two has the lowest maximum fluid temperature according to its datasheet, and what are the two values?"
+  },
+  "candidate": "GV-2-2 has the lower stated maximum fluid temperature: +50 °C. FT-2-2’s maximum depends on its configuration and fill fluid; the highest limit in its datasheet is +205 °C, but the applicable limit for this device is not identified."
+ },
+ {
+  "item": "d4ba2394e8",
+  "gold": {
+   "answer": "CHV-1-2 (swagelok-ms-01-176): depends on the construction (C (2C, 4C, 6C, 8C), CA, CP, CPA series, 316 SS or brass, -10 to 100 °F: 3000 psig (206 bar); C series 12C and 16C, 316 SS, -10 to 100 °F: 2000 psig (137 bar); C series 12C and 16C, brass, -10 to 100 °F: 1500 psig (103 bar); CH4, CH8 series, 316 SS, 10 to 100 °F: 6000 psig (413 bar)) (p. 3) P-1-3 (gorman-rupp-0700286): depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa)) (p. 1) P-2-1 (gorman-rupp-0700286): depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa)) (p. 1) BV-2-1 (flowserve-worcester-f51-f52): depends on the construction (F52 (Class 300), Group 1.2 body (WCB/WCC, LCB/LCC), at low temperature: approx. 52 bar (read from P-T chart); F52 (Class 300), Group 2.2 body (CF8M), at low temperature: approx. 50 bar (read from P-T chart); F51 (Class 150), Group 1.2 body, at low temperature: approx. 20 bar (read from P-T chart); F51 (Class 150), Group 2.2 body (CF8M), at low temperature: approx. 19 bar (read from P-T chart)) (p. 6) Which one is the lowest cannot be decided from the datasheets alone.",
+   "answerable": "yes",
+   "must": [
+    "CHV-1-2: depends on the construction (C (2C, 4C, 6C, 8C), CA, CP, CPA series, 316 SS or brass, -10 to 100 °F: 3000 psig (206 bar); C series 12C and 16C, 316 SS, -10 to 100 °F: 2000 psig (137 bar); C series 12C and 16C, brass, -10 to 100 °F: 1500 psig (103 bar); CH4, CH8 series, 316 SS, 10 to 100 °F: 6000 psig (413 bar))",
+    "P-1-3: depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa))",
+    "P-2-1: depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa))",
+    "BV-2-1: depends on the construction (F52 (Class 300), Group 1.2 body (WCB/WCC, LCB/LCC), at low temperature: approx. 52 bar (read from P-T chart); F52 (Class 300), Group 2.2 body (CF8M), at low temperature: approx. 50 bar (read from P-T chart); F51 (Class 150), Group 1.2 body, at low temperature: approx. 20 bar (read from P-T chart); F51 (Class 150), Group 2.2 body (CF8M), at low temperature: approx. 19 bar (read from P-T chart))",
+    "says the comparison depends on the construction (not decidable as asked)"
+   ],
+   "per_tag": {
+    "BV-2-1": {
+     "note": "No numeric pressure is printed; ratings are ASME B16.34 curves shown only graphically, decreasing with temperature and further limited by seat material.",
+     "page": 6,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "F52 (Class 300), Group 1.2 body (WCB/WCC, LCB/LCC), at low temperature",
+       "unit": "bar",
+       "value": 52,
+       "value_text": "approx. 52 bar (read from P-T chart)"
+      },
+      {
+       "condition": "F52 (Class 300), Group 2.2 body (CF8M), at low temperature",
+       "unit": "bar",
+       "value": 50,
+       "value_text": "approx. 50 bar (read from P-T chart)"
+      },
+      {
+       "condition": "F51 (Class 150), Group 1.2 body, at low temperature",
+       "unit": "bar",
+       "value": 20,
+       "value_text": "approx. 20 bar (read from P-T chart)"
+      },
+      {
+       "condition": "F51 (Class 150), Group 2.2 body (CF8M), at low temperature",
+       "unit": "bar",
+       "value": 19,
+       "value_text": "approx. 19 bar (read from P-T chart)"
+      }
+     ]
+    },
+    "CHV-1-2": {
+     "note": "Cover (p1) summarizes 'working pressures up to 6000 psig (413 bar)'; ratings decrease with temperature and may be limited by the end connection (CH ratings per connection on p12).",
+     "page": 3,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "C (2C, 4C, 6C, 8C), CA, CP, CPA series, 316 SS or brass, -10 to 100 °F",
+       "unit": "psig",
+       "value": 3000,
+       "value_text": "3000 psig (206 bar)"
+      },
+      {
+       "condition": "C series 12C and 16C, 316 SS, -10 to 100 °F",
+       "unit": "psig",
+       "value": 2000,
+       "value_text": "2000 psig (137 bar)"
+      },
+      {
+       "condition": "C series 12C and 16C, brass, -10 to 100 °F",
+       "unit": "psig",
+       "value": 1500,
+       "value_text": "1500 psig (103 bar)"
+      },
+      {
+       "condition": "CH4, CH8 series, 316 SS, 10 to 100 °F",
+       "unit": "psig",
+       "value": 6000,
+       "value_text": "6000 psig (413 bar)"
+      },
+      {
+       "condition": "CH16 series, 316 SS, 10 to 100 °F",
+       "unit": "psig",
+       "value": 5000,
+       "value_text": "5000 psig (344 bar)"
+      }
+     ]
+    },
+    "P-1-3": {
+     "note": "Two distinct limits printed for the single model (casing vs. operating/system); consult factory for applications exceeding them.",
+     "page": 1,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Maximum casing pressure",
+       "unit": "psi",
+       "value": 266,
+       "value_text": "266 psi (1834 kPa)"
+      },
+      {
+       "condition": "Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations",
+       "unit": "psi",
+       "value": 250,
+       "value_text": "250 psi (1723 kPa)"
+      }
+     ]
+    },
+    "P-2-1": {
+     "note": "Two distinct limits printed for the single model (casing vs. operating/system); consult factory for applications exceeding them.",
+     "page": 1,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Maximum casing pressure",
+       "unit": "psi",
+       "value": 266,
+       "value_text": "266 psi (1834 kPa)"
+      },
+      {
+       "condition": "Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations",
+       "unit": "psi",
+       "value": 250,
+       "value_text": "250 psi (1723 kPa)"
+      }
+     ]
+    }
+   },
+   "question": "Along the process flow path from CHV-1-2 to BV-2-1, which item has the lowest maximum allowable pressure according to its datasheet? Give the value for every item on the path that has a datasheet."
+  },
+  "candidate": "The lowest stated maximum pressure is 266 psi for P-1-3 and P-2-1 (maximum casing pressure; each also lists a 250 psi maximum operating pressure). CHV-1-2 lists a maximum working pressure of 6000 psig. The description provides no datasheet pressure value for BV-2-1."
+ },
+ {
+  "item": "6c50a31e36",
+  "gold": {
+   "answer": "P-1-2 (gorman-rupp-0700286): depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa)) (p. 1) E-2-1 (alfalaval-m3): depends on the construction (Frame FG, ASME pressure vessel code: 10.3 barg / 150 psig; Frame FG, PED pressure vessel code: 16.0 barg / 232 psig) (p. 2) Lowest: E-2-1 (for every listed construction).",
+   "answerable": "yes",
+   "must": [
+    "P-1-2: depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa))",
+    "E-2-1: depends on the construction (Frame FG, ASME pressure vessel code: 10.3 barg / 150 psig; Frame FG, PED pressure vessel code: 16.0 barg / 232 psig)",
+    "lowest: E-2-1"
+   ],
+   "per_tag": {
+    "E-2-1": {
+     "note": "Max. design pressure; extended pressure and temperature rating may be available on request.",
+     "page": 2,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Frame FG, ASME pressure vessel code",
+       "unit": "barg",
+       "value": 10.3,
+       "value_text": "10.3 barg / 150 psig"
+      },
+      {
+       "condition": "Frame FG, PED pressure vessel code",
+       "unit": "barg",
+       "value": 16.0,
+       "value_text": "16.0 barg / 232 psig"
+      }
+     ]
+    },
+    "P-1-2": {
+     "note": "Two distinct limits printed for the single model (casing vs. operating/system); consult factory for applications exceeding them.",
+     "page": 1,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Maximum casing pressure",
+       "unit": "psi",
+       "value": 266,
+       "value_text": "266 psi (1834 kPa)"
+      },
+      {
+       "condition": "Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations",
+       "unit": "psi",
+       "value": 250,
+       "value_text": "250 psi (1723 kPa)"
+      }
+     ]
+    }
+   },
+   "question": "Compare the item directly upstream of P-1-5 in the process flow and the item directly downstream of BV-2-1 in the process flow: which of the two has the lowest maximum allowable pressure according to its datasheet, and what are the two values?"
+  },
+  "candidate": "P-1-2 has a maximum allowable operating pressure of 250 psi (1723 kPa); its maximum casing pressure is separately listed as 266 psi (1834 kPa). E-2-1 lists a maximum design pressure of 16.0 barg (232 psig) under PED, or 10.3 barg (150 psig) under ASME. Comparing the listed ratings, E-2-1 has the lower maximum pressure: 232 psig (PED) or 150 psig (ASME), versus P-1-2’s 250 psi operating-pressure limit. The datasheets use different pressure-limit descriptions and codes."
+ },
+ {
+  "item": "c2f3475906",
+  "gold": {
+   "answer": "P-2-3 (gorman-rupp-0700286): 160F (71C) (p. 1) PT-2-1 (rosemount-3051-00813-0100-4001): depends on the construction (3051CD/CG/CF/CA silicone fill, coplanar flange: +250 °F (+121 °C); 3051CD/CG/CF/CA silicone fill, traditional flange, level flange or 305 integral manifold: +300 °F (+149 °C); 3051C inert fill sensor: +185 °F (+85 °C); 3051T silicone or inert fill: +250 °F (+121 °C)) (p. 90) Lowest: P-2-3 (for every listed construction).",
+   "answerable": "yes",
+   "must": [
+    "P-2-3: 160F (71C)",
+    "PT-2-1: depends on the construction (3051CD/CG/CF/CA silicone fill, coplanar flange: +250 °F (+121 °C); 3051CD/CG/CF/CA silicone fill, traditional flange, level flange or 305 integral manifold: +300 °F (+149 °C); 3051C inert fill sensor: +185 °F (+85 °C); 3051T silicone or inert fill: +250 °F (+121 °C))",
+    "lowest: P-2-3"
+   ],
+   "per_tag": {
+    "P-2-3": {
+     "note": "Stated as 'Maximum Temperature of Liquid Pumped' in the seal detail (seal-limited); 250 psi operating pressure is only rated up to 100F (37C); consult factory above.",
+     "page": 1,
+     "single_value": true,
+     "unit": "°F",
+     "value": 160,
+     "value_text": "160F (71C)"
+    },
+    "PT-2-1": {
+     "note": "Table 6 process connection temperature limits; lower limits in vacuum service (+220 °F / +104 °C); 3051CD0 limited to +212 °F (+100 °C); ambient limit separately -40 to +185 °F (p89).",
+     "page": 90,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "3051CD/CG/CF/CA silicone fill, coplanar flange",
+       "unit": "°F",
+       "value": 250,
+       "value_text": "+250 °F (+121 °C)"
+      },
+      {
+       "condition": "3051CD/CG/CF/CA silicone fill, traditional flange, level flange or 305 integral manifold",
+       "unit": "°F",
+       "value": 300,
+       "value_text": "+300 °F (+149 °C)"
+      },
+      {
+       "condition": "3051C inert fill sensor",
+       "unit": "°F",
+       "value": 185,
+       "value_text": "+185 °F (+85 °C)"
+      },
+      {
+       "condition": "3051T silicone or inert fill",
+       "unit": "°F",
+       "value": 250,
+       "value_text": "+250 °F (+121 °C)"
+      },
+      {
+       "condition": "3051L high side, Silicone 704, Silicone 200 or Neobee M-20 fill",
+       "unit": "°F",
+       "value": 401,
+       "value_text": "+401 °F (+205 °C)"
+      },
+      {
+       "condition": "3051L high side, SYLTHERM XLT",
+       "unit": "°F",
+       "value": 293,
+       "value_text": "+293 °F (+145 °C)"
+      }
+     ]
+    }
+   },
+   "question": "Compare the item directly downstream of CHV-2-2 in the process flow and the transmitter that feeds controller PIC-2-1: which of the two has the lowest maximum fluid temperature according to its datasheet, and what are the two values?"
+  },
+  "candidate": "The pump P-2-3 (directly downstream of CHV-2-2) has the lowest clearly stated maximum fluid temperature: 160 °F (71 °C), per the seal detail on page 1 of its datasheet. The transmitter PT-2-1 (which feeds PIC-2-1) does not have a single maximum fluid temperature — its limit depends on model and fill fluid, ranging from +130 °F (+54 °C) in vacuum service up to +401 °F (+205 °C) for the 3051L with Silicone 704 fill (Table 6, p. 90). So the pump's 160 °F (71 °C) is the lowest single stated value; the PT-2-1's exact limit cannot be determined without knowing its configuration."
+ },
+ {
+  "item": "3d13177adc",
+  "gold": {
+   "answer": "E-1-1 (alfalaval-m3): depends on the construction (Frame FG, ASME pressure vessel code: 10.3 barg / 150 psig; Frame FG, PED pressure vessel code: 16.0 barg / 232 psig) (p. 2) CHV-1-2 (swagelok-ms-01-176): depends on the construction (C (2C, 4C, 6C, 8C), CA, CP, CPA series, 316 SS or brass, -10 to 100 °F: 3000 psig (206 bar); C series 12C and 16C, 316 SS, -10 to 100 °F: 2000 psig (137 bar); C series 12C and 16C, brass, -10 to 100 °F: 1500 psig (103 bar); CH4, CH8 series, 316 SS, 10 to 100 °F: 6000 psig (413 bar)) (p. 3) P-1-3 (gorman-rupp-0700286): depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa)) (p. 1) P-2-1 (gorman-rupp-0700286): depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa)) (p. 1) P-2-2 (gorman-rupp-0700286): depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa)) (p. 1) CHV-2-1 (swagelok-ms-01-176): depends on the construction (C (2C, 4C, 6C, 8C), CA, CP, CPA series, 316 SS or brass, -10 to 100 °F: 3000 psig (206 bar); C series 12C and 16C, 316 SS, -10 to 100 °F: 2000 psig (137 bar); C series 12C and 16C, brass, -10 to 100 °F: 1500 psig (103 bar); CH4, CH8 series, 316 SS, 10 to 100 °F: 6000 psig (413 bar)) (p. 3) Lowest: E-1-1 (for every listed construction).",
+   "answerable": "yes",
+   "must": [
+    "E-1-1: depends on the construction (Frame FG, ASME pressure vessel code: 10.3 barg / 150 psig; Frame FG, PED pressure vessel code: 16.0 barg / 232 psig)",
+    "CHV-1-2: depends on the construction (C (2C, 4C, 6C, 8C), CA, CP, CPA series, 316 SS or brass, -10 to 100 °F: 3000 psig (206 bar); C series 12C and 16C, 316 SS, -10 to 100 °F: 2000 psig (137 bar); C series 12C and 16C, brass, -10 to 100 °F: 1500 psig (103 bar); CH4, CH8 series, 316 SS, 10 to 100 °F: 6000 psig (413 bar))",
+    "P-1-3: depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa))",
+    "P-2-1: depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa))",
+    "P-2-2: depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa))",
+    "CHV-2-1: depends on the construction (C (2C, 4C, 6C, 8C), CA, CP, CPA series, 316 SS or brass, -10 to 100 °F: 3000 psig (206 bar); C series 12C and 16C, 316 SS, -10 to 100 °F: 2000 psig (137 bar); C series 12C and 16C, brass, -10 to 100 °F: 1500 psig (103 bar); CH4, CH8 series, 316 SS, 10 to 100 °F: 6000 psig (413 bar))",
+    "lowest: E-1-1"
+   ],
+   "per_tag": {
+    "CHV-1-2": {
+     "note": "Cover (p1) summarizes 'working pressures up to 6000 psig (413 bar)'; ratings decrease with temperature and may be limited by the end connection (CH ratings per connection on p12).",
+     "page": 3,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "C (2C, 4C, 6C, 8C), CA, CP, CPA series, 316 SS or brass, -10 to 100 °F",
+       "unit": "psig",
+       "value": 3000,
+       "value_text": "3000 psig (206 bar)"
+      },
+      {
+       "condition": "C series 12C and 16C, 316 SS, -10 to 100 °F",
+       "unit": "psig",
+       "value": 2000,
+       "value_text": "2000 psig (137 bar)"
+      },
+      {
+       "condition": "C series 12C and 16C, brass, -10 to 100 °F",
+       "unit": "psig",
+       "value": 1500,
+       "value_text": "1500 psig (103 bar)"
+      },
+      {
+       "condition": "CH4, CH8 series, 316 SS, 10 to 100 °F",
+       "unit": "psig",
+       "value": 6000,
+       "value_text": "6000 psig (413 bar)"
+      },
+      {
+       "condition": "CH16 series, 316 SS, 10 to 100 °F",
+       "unit": "psig",
+       "value": 5000,
+       "value_text": "5000 psig (344 bar)"
+      }
+     ]
+    },
+    "CHV-2-1": {
+     "note": "Cover (p1) summarizes 'working pressures up to 6000 psig (413 bar)'; ratings decrease with temperature and may be limited by the end connection (CH ratings per connection on p12).",
+     "page": 3,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "C (2C, 4C, 6C, 8C), CA, CP, CPA series, 316 SS or brass, -10 to 100 °F",
+       "unit": "psig",
+       "value": 3000,
+       "value_text": "3000 psig (206 bar)"
+      },
+      {
+       "condition": "C series 12C and 16C, 316 SS, -10 to 100 °F",
+       "unit": "psig",
+       "value": 2000,
+       "value_text": "2000 psig (137 bar)"
+      },
+      {
+       "condition": "C series 12C and 16C, brass, -10 to 100 °F",
+       "unit": "psig",
+       "value": 1500,
+       "value_text": "1500 psig (103 bar)"
+      },
+      {
+       "condition": "CH4, CH8 series, 316 SS, 10 to 100 °F",
+       "unit": "psig",
+       "value": 6000,
+       "value_text": "6000 psig (413 bar)"
+      },
+      {
+       "condition": "CH16 series, 316 SS, 10 to 100 °F",
+       "unit": "psig",
+       "value": 5000,
+       "value_text": "5000 psig (344 bar)"
+      }
+     ]
+    },
+    "E-1-1": {
+     "note": "Max. design pressure; extended pressure and temperature rating may be available on request.",
+     "page": 2,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Frame FG, ASME pressure vessel code",
+       "unit": "barg",
+       "value": 10.3,
+       "value_text": "10.3 barg / 150 psig"
+      },
+      {
+       "condition": "Frame FG, PED pressure vessel code",
+       "unit": "barg",
+       "value": 16.0,
+       "value_text": "16.0 barg / 232 psig"
+      }
+     ]
+    },
+    "P-1-3": {
+     "note": "Two distinct limits printed for the single model (casing vs. operating/system); consult factory for applications exceeding them.",
+     "page": 1,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Maximum casing pressure",
+       "unit": "psi",
+       "value": 266,
+       "value_text": "266 psi (1834 kPa)"
+      },
+      {
+       "condition": "Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations",
+       "unit": "psi",
+       "value": 250,
+       "value_text": "250 psi (1723 kPa)"
+      }
+     ]
+    },
+    "P-2-1": {
+     "note": "Two distinct limits printed for the single model (casing vs. operating/system); consult factory for applications exceeding them.",
+     "page": 1,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Maximum casing pressure",
+       "unit": "psi",
+       "value": 266,
+       "value_text": "266 psi (1834 kPa)"
+      },
+      {
+       "condition": "Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations",
+       "unit": "psi",
+       "value": 250,
+       "value_text": "250 psi (1723 kPa)"
+      }
+     ]
+    },
+    "P-2-2": {
+     "note": "Two distinct limits printed for the single model (casing vs. operating/system); consult factory for applications exceeding them.",
+     "page": 1,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Maximum casing pressure",
+       "unit": "psi",
+       "value": 266,
+       "value_text": "266 psi (1834 kPa)"
+      },
+      {
+       "condition": "Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations",
+       "unit": "psi",
+       "value": 250,
+       "value_text": "250 psi (1723 kPa)"
+      }
+     ]
+    }
+   },
+   "question": "Along the process flow path from E-1-1 to CHV-2-1, which item has the lowest maximum allowable pressure according to its datasheet? Give the value for every item on the path that has a datasheet."
+  },
+  "candidate": "(no answer: STEP_LIMIT)"
+ },
+ {
+  "item": "8947772724",
+  "gold": {
+   "answer": "P-1-2 (gorman-rupp-0700286): depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa)) (p. 1) E-2-1 (alfalaval-m3): depends on the construction (Frame FG, ASME pressure vessel code: 10.3 barg / 150 psig; Frame FG, PED pressure vessel code: 16.0 barg / 232 psig) (p. 2) Lowest: E-2-1 (for every listed construction).",
+   "answerable": "yes",
+   "must": [
+    "P-1-2: depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa))",
+    "E-2-1: depends on the construction (Frame FG, ASME pressure vessel code: 10.3 barg / 150 psig; Frame FG, PED pressure vessel code: 16.0 barg / 232 psig)",
+    "lowest: E-2-1"
+   ],
+   "per_tag": {
+    "E-2-1": {
+     "note": "Max. design pressure; extended pressure and temperature rating may be available on request.",
+     "page": 2,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Frame FG, ASME pressure vessel code",
+       "unit": "barg",
+       "value": 10.3,
+       "value_text": "10.3 barg / 150 psig"
+      },
+      {
+       "condition": "Frame FG, PED pressure vessel code",
+       "unit": "barg",
+       "value": 16.0,
+       "value_text": "16.0 barg / 232 psig"
+      }
+     ]
+    },
+    "P-1-2": {
+     "note": "Two distinct limits printed for the single model (casing vs. operating/system); consult factory for applications exceeding them.",
+     "page": 1,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Maximum casing pressure",
+       "unit": "psi",
+       "value": 266,
+       "value_text": "266 psi (1834 kPa)"
+      },
+      {
+       "condition": "Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations",
+       "unit": "psi",
+       "value": 250,
+       "value_text": "250 psi (1723 kPa)"
+      }
+     ]
+    }
+   },
+   "question": "Compare the item directly upstream of P-1-5 in the process flow and the item directly downstream of BV-2-1 in the process flow: which of the two has the lowest maximum allowable pressure according to its datasheet, and what are the two values?"
+  },
+  "candidate": "The item directly upstream of P-1-5 is pump P-1-2; the item directly downstream of BV-2-1 is heat exchanger E-2-1. E-2-1 has the lowest maximum allowable pressure: its datasheet gives a maximum design pressure of 10.3 barg (150 psig) under the ASME code, or 16.0 barg (232 psig) under the PED code. P-1-2's datasheet gives a maximum operating pressure of 250 psi (1723 kPa) and a maximum casing pressure of 266 psi (1834 kPa). Even at its higher PED rating, E-2-1's limit (232 psig) is below P-1-2's 250 psi limit."
+ },
+ {
+  "item": "b29af269d5",
+  "gold": {
+   "answer": "BV-2-1 (flowserve-worcester-f51-f52): depends on the construction (Delrin seat: 80°C (180°F); UHMWPE seat: 90°C (200°F); Virgin PTFE seat: 230°C (450°F); Reinforced PTFE seat: 230°C (450°F)) (p. 7) P-2-2 (gorman-rupp-0700286): 160F (71C) (p. 1) PV-2-1 (fisher-et-d100022x012): depends on the construction (Cast iron body/bonnet (most trims): 232 °C (450 °F); WCC, LCC, WC9, CF8M or CF3M body with PEEK anti-extrusion rings and spring-loaded seal ring (trims 1, 27, 316L HF etc.), non-oxidizing service: 316 °C (600 °F); Same constructions, oxidizing service: 260 °C (500 °F); Standard PTFE seal construction (without PEEK anti-extrusion rings): 232 °C (450 °F)) (p. 21) Lowest: P-2-2 (for every listed construction).",
+   "answerable": "yes",
+   "must": [
+    "BV-2-1: depends on the construction (Delrin seat: 80°C (180°F); UHMWPE seat: 90°C (200°F); Virgin PTFE seat: 230°C (450°F); Reinforced PTFE seat: 230°C (450°F))",
+    "P-2-2: 160F (71C)",
+    "PV-2-1: depends on the construction (Cast iron body/bonnet (most trims): 232 °C (450 °F); WCC, LCC, WC9, CF8M or CF3M body with PEEK anti-extrusion rings and spring-loaded seal ring (trims 1, 27, 316L HF etc.), non-oxidizing service: 316 °C (600 °F); Same constructions, oxidizing service: 260 °C (500 °F); Standard PTFE seal construction (without PEEK anti-extrusion rings): 232 °C (450 °F))",
+    "lowest: P-2-2"
+   ],
+   "per_tag": {
+    "BV-2-1": {
+     "note": "Maximum seat temperature ratings; the p6 P-T chart axis only extends to 300 °C (572 °F).",
+     "page": 7,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Delrin seat",
+       "unit": "°C",
+       "value": 80,
+       "value_text": "80°C (180°F)"
+      },
+      {
+       "condition": "UHMWPE seat",
+       "unit": "°C",
+       "value": 90,
+       "value_text": "90°C (200°F)"
+      },
+      {
+       "condition": "Virgin PTFE seat",
+       "unit": "°C",
+       "value": 230,
+       "value_text": "230°C (450°F)"
+      },
+      {
+       "condition": "Reinforced PTFE seat",
+       "unit": "°C",
+       "value": 230,
+       "value_text": "230°C (450°F)"
+      },
+      {
+       "condition": "Fluorofill/Polyfill seat",
+       "unit": "°C",
+       "value": 260,
+       "value_text": "260°C (500°F)"
+      },
+      {
+       "condition": "PEEK seat",
+       "unit": "°C",
+       "value": 315,
+       "value_text": "315°C (600°F)"
+      },
+      {
+       "condition": "Metal seat (A or G)",
+       "unit": "°C",
+       "value": 315,
+       "value_text": "315°C (600°F)"
+      }
+     ]
+    },
+    "P-2-2": {
+     "note": "Stated as 'Maximum Temperature of Liquid Pumped' in the seal detail (seal-limited); 250 psi operating pressure is only rated up to 100F (37C); consult factory above.",
+     "page": 1,
+     "single_value": true,
+     "unit": "°F",
+     "value": 160,
+     "value_text": "160F (71C)"
+    },
+    "PV-2-1": {
+     "note": "Table 15 (p21-22) body/trim temperature capabilities depend on body material and trim (some trims only 149 °C / 300 °F or 210 °C / 410 °F); 232 °C / 450 °F limit and its extension are also stated on p2.",
+     "page": 21,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Cast iron body/bonnet (most trims)",
+       "unit": "°C",
+       "value": 232,
+       "value_text": "232 °C (450 °F)"
+      },
+      {
+       "condition": "WCC, LCC, WC9, CF8M or CF3M body with PEEK anti-extrusion rings and spring-loaded seal ring (trims 1, 27, 316L HF etc.), non-oxidizing service",
+       "unit": "°C",
+       "value": 316,
+       "value_text": "316 °C (600 °F)"
+      },
+      {
+       "condition": "Same constructions, oxidizing service",
+       "unit": "°C",
+       "value": 260,
+       "value_text": "260 °C (500 °F)"
+      },
+      {
+       "condition": "Standard PTFE seal construction (without PEEK anti-extrusion rings)",
+       "unit": "°C",
+       "value": 232,
+       "value_text": "232 °C (450 °F)"
+      }
+     ]
+    }
+   },
+   "question": "For each item that receives flow directly from P-2-1, what is its maximum fluid temperature according to its datasheet, and which of them has the lowest?"
+  },
+  "candidate": "The items directly downstream of P-2-1 are BV-2-1 (ball valve), P-2-2 (centrifugal pump) and PV-2-1 (globe valve). Their maximum fluid temperatures per datasheet: BV-2-1 has no single overall limit — it depends on seat material, ranging from 80 °C (Delrin) up to 315 °C/600 °F (PEEK or metal seats). P-2-2 has a maximum fluid (pumped liquid) temperature of 160 °F (71 °C), limited by the mechanical seal. PV-2-1 also has no single overall limit — it depends on body material/trim and packing, ranging from 149 °C/300 °F up to 316 °C/600 °F. The lowest is therefore P-2-2 at 71 °C (160 °F). Note that BV-2-1 and PV-2-1 do not have a single stated maximum fluid temperature independent of material/trim configuration."
+ },
+ {
+  "item": "b820b007a6",
+  "gold": {
+   "answer": "CHV-1-2 (swagelok-ms-01-176): depends on the construction (C (2C, 4C, 6C, 8C), CA, CP, CPA series, 316 SS or brass, -10 to 100 °F: 3000 psig (206 bar); C series 12C and 16C, 316 SS, -10 to 100 °F: 2000 psig (137 bar); C series 12C and 16C, brass, -10 to 100 °F: 1500 psig (103 bar); CH4, CH8 series, 316 SS, 10 to 100 °F: 6000 psig (413 bar)) (p. 3) P-1-3 (gorman-rupp-0700286): depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa)) (p. 1) P-2-1 (gorman-rupp-0700286): depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa)) (p. 1) P-2-2 (gorman-rupp-0700286): depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa)) (p. 1) CHV-2-1 (swagelok-ms-01-176): depends on the construction (C (2C, 4C, 6C, 8C), CA, CP, CPA series, 316 SS or brass, -10 to 100 °F: 3000 psig (206 bar); C series 12C and 16C, 316 SS, -10 to 100 °F: 2000 psig (137 bar); C series 12C and 16C, brass, -10 to 100 °F: 1500 psig (103 bar); CH4, CH8 series, 316 SS, 10 to 100 °F: 6000 psig (413 bar)) (p. 3) Which one is the lowest cannot be decided from the datasheets alone.",
+   "answerable": "yes",
+   "must": [
+    "CHV-1-2: depends on the construction (C (2C, 4C, 6C, 8C), CA, CP, CPA series, 316 SS or brass, -10 to 100 °F: 3000 psig (206 bar); C series 12C and 16C, 316 SS, -10 to 100 °F: 2000 psig (137 bar); C series 12C and 16C, brass, -10 to 100 °F: 1500 psig (103 bar); CH4, CH8 series, 316 SS, 10 to 100 °F: 6000 psig (413 bar))",
+    "P-1-3: depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa))",
+    "P-2-1: depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa))",
+    "P-2-2: depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa))",
+    "CHV-2-1: depends on the construction (C (2C, 4C, 6C, 8C), CA, CP, CPA series, 316 SS or brass, -10 to 100 °F: 3000 psig (206 bar); C series 12C and 16C, 316 SS, -10 to 100 °F: 2000 psig (137 bar); C series 12C and 16C, brass, -10 to 100 °F: 1500 psig (103 bar); CH4, CH8 series, 316 SS, 10 to 100 °F: 6000 psig (413 bar))",
+    "says the comparison depends on the construction (not decidable as asked)"
+   ],
+   "per_tag": {
+    "CHV-1-2": {
+     "note": "Cover (p1) summarizes 'working pressures up to 6000 psig (413 bar)'; ratings decrease with temperature and may be limited by the end connection (CH ratings per connection on p12).",
+     "page": 3,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "C (2C, 4C, 6C, 8C), CA, CP, CPA series, 316 SS or brass, -10 to 100 °F",
+       "unit": "psig",
+       "value": 3000,
+       "value_text": "3000 psig (206 bar)"
+      },
+      {
+       "condition": "C series 12C and 16C, 316 SS, -10 to 100 °F",
+       "unit": "psig",
+       "value": 2000,
+       "value_text": "2000 psig (137 bar)"
+      },
+      {
+       "condition": "C series 12C and 16C, brass, -10 to 100 °F",
+       "unit": "psig",
+       "value": 1500,
+       "value_text": "1500 psig (103 bar)"
+      },
+      {
+       "condition": "CH4, CH8 series, 316 SS, 10 to 100 °F",
+       "unit": "psig",
+       "value": 6000,
+       "value_text": "6000 psig (413 bar)"
+      },
+      {
+       "condition": "CH16 series, 316 SS, 10 to 100 °F",
+       "unit": "psig",
+       "value": 5000,
+       "value_text": "5000 psig (344 bar)"
+      }
+     ]
+    },
+    "CHV-2-1": {
+     "note": "Cover (p1) summarizes 'working pressures up to 6000 psig (413 bar)'; ratings decrease with temperature and may be limited by the end connection (CH ratings per connection on p12).",
+     "page": 3,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "C (2C, 4C, 6C, 8C), CA, CP, CPA series, 316 SS or brass, -10 to 100 °F",
+       "unit": "psig",
+       "value": 3000,
+       "value_text": "3000 psig (206 bar)"
+      },
+      {
+       "condition": "C series 12C and 16C, 316 SS, -10 to 100 °F",
+       "unit": "psig",
+       "value": 2000,
+       "value_text": "2000 psig (137 bar)"
+      },
+      {
+       "condition": "C series 12C and 16C, brass, -10 to 100 °F",
+       "unit": "psig",
+       "value": 1500,
+       "value_text": "1500 psig (103 bar)"
+      },
+      {
+       "condition": "CH4, CH8 series, 316 SS, 10 to 100 °F",
+       "unit": "psig",
+       "value": 6000,
+       "value_text": "6000 psig (413 bar)"
+      },
+      {
+       "condition": "CH16 series, 316 SS, 10 to 100 °F",
+       "unit": "psig",
+       "value": 5000,
+       "value_text": "5000 psig (344 bar)"
+      }
+     ]
+    },
+    "P-1-3": {
+     "note": "Two distinct limits printed for the single model (casing vs. operating/system); consult factory for applications exceeding them.",
+     "page": 1,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Maximum casing pressure",
+       "unit": "psi",
+       "value": 266,
+       "value_text": "266 psi (1834 kPa)"
+      },
+      {
+       "condition": "Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations",
+       "unit": "psi",
+       "value": 250,
+       "value_text": "250 psi (1723 kPa)"
+      }
+     ]
+    },
+    "P-2-1": {
+     "note": "Two distinct limits printed for the single model (casing vs. operating/system); consult factory for applications exceeding them.",
+     "page": 1,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Maximum casing pressure",
+       "unit": "psi",
+       "value": 266,
+       "value_text": "266 psi (1834 kPa)"
+      },
+      {
+       "condition": "Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations",
+       "unit": "psi",
+       "value": 250,
+       "value_text": "250 psi (1723 kPa)"
+      }
+     ]
+    },
+    "P-2-2": {
+     "note": "Two distinct limits printed for the single model (casing vs. operating/system); consult factory for applications exceeding them.",
+     "page": 1,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Maximum casing pressure",
+       "unit": "psi",
+       "value": 266,
+       "value_text": "266 psi (1834 kPa)"
+      },
+      {
+       "condition": "Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations",
+       "unit": "psi",
+       "value": 250,
+       "value_text": "250 psi (1723 kPa)"
+      }
+     ]
+    }
+   },
+   "question": "Along the process flow path from CHV-1-2 to CHV-2-1, which item has the lowest maximum allowable pressure according to its datasheet? Give the value for every item on the path that has a datasheet."
+  },
+  "candidate": "The excerpts do not establish the lowest maximum allowable pressure for the full path. They state that CHV-1-2 and CHV-2-1 (Swagelok check valves) have working pressures up to 6,000 psig (413 bar); maximum allowable pressures for P-1-3, P-2-1, and P-2-2 are not stated."
+ },
+ {
+  "item": "49f4899020",
+  "gold": {
+   "answer": "CHV-1-2 (swagelok-ms-01-176): depends on the construction (C (2C, 4C, 6C, 8C), CA, CP, CPA series, 316 SS or brass, -10 to 100 °F: 3000 psig (206 bar); C series 12C and 16C, 316 SS, -10 to 100 °F: 2000 psig (137 bar); C series 12C and 16C, brass, -10 to 100 °F: 1500 psig (103 bar); CH4, CH8 series, 316 SS, 10 to 100 °F: 6000 psig (413 bar)) (p. 3) GV-1-1 (gfps-165-solenoid-valve): PN 6 bar (pressure range 0.5 - 6 bar) (p. 2) Lowest: GV-1-1 (for every listed construction).",
+   "answerable": "yes",
+   "must": [
+    "CHV-1-2: depends on the construction (C (2C, 4C, 6C, 8C), CA, CP, CPA series, 316 SS or brass, -10 to 100 °F: 3000 psig (206 bar); C series 12C and 16C, 316 SS, -10 to 100 °F: 2000 psig (137 bar); C series 12C and 16C, brass, -10 to 100 °F: 1500 psig (103 bar); CH4, CH8 series, 316 SS, 10 to 100 °F: 6000 psig (413 bar))",
+    "GV-1-1: PN 6 bar (pressure range 0.5 - 6 bar)",
+    "lowest: GV-1-1"
+   ],
+   "per_tag": {
+    "CHV-1-2": {
+     "note": "Cover (p1) summarizes 'working pressures up to 6000 psig (413 bar)'; ratings decrease with temperature and may be limited by the end connection (CH ratings per connection on p12).",
+     "page": 3,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "C (2C, 4C, 6C, 8C), CA, CP, CPA series, 316 SS or brass, -10 to 100 °F",
+       "unit": "psig",
+       "value": 3000,
+       "value_text": "3000 psig (206 bar)"
+      },
+      {
+       "condition": "C series 12C and 16C, 316 SS, -10 to 100 °F",
+       "unit": "psig",
+       "value": 2000,
+       "value_text": "2000 psig (137 bar)"
+      },
+      {
+       "condition": "C series 12C and 16C, brass, -10 to 100 °F",
+       "unit": "psig",
+       "value": 1500,
+       "value_text": "1500 psig (103 bar)"
+      },
+      {
+       "condition": "CH4, CH8 series, 316 SS, 10 to 100 °F",
+       "unit": "psig",
+       "value": 6000,
+       "value_text": "6000 psig (413 bar)"
+      },
+      {
+       "condition": "CH16 series, 316 SS, 10 to 100 °F",
+       "unit": "psig",
+       "value": 5000,
+       "value_text": "5000 psig (344 bar)"
+      }
+     ]
+    },
+    "GV-1-1": {
+     "note": "Same for all sizes DN15-DN50 (PN 6 on p5); p3 P-T diagram derates above 40 °C to about 3.6 bar at 50 °C; minimum differential pressure 0.5 bar required to operate.",
+     "page": 2,
+     "single_value": true,
+     "unit": "bar",
+     "value": 6,
+     "value_text": "PN 6 bar (pressure range 0.5 - 6 bar)"
+    }
+   },
+   "question": "For each item that receives flow directly from E-1-1, what is its maximum allowable pressure according to its datasheet, and which of them has the lowest?"
+  },
+  "candidate": "Not in the documents. E-1-1 feeds two items directly: CHV-1-2 and GV-1-1. GV-1-1's datasheet gives a clear maximum allowable pressure of 6 bar (gauge), valid up to 40 °C. For CHV-1-2, the datasheet does not state a single maximum allowable pressure — it gives working pressure ratings that vary by valve series, body material, and temperature (e.g., 6000 psig for CH4/CH8 in 316 SS, 3000 psig for C series, 2000 psig for 12C/16C), so the exact value for this valve is not stated. Among the values given, GV-1-1 has the lowest maximum allowable pressure (6 bar)."
+ },
+ {
+  "item": "1cf9dced0b",
+  "gold": {
+   "answer": "BV-2-1 (flowserve-worcester-f51-f52): depends on the construction (Delrin seat: 80°C (180°F); UHMWPE seat: 90°C (200°F); Virgin PTFE seat: 230°C (450°F); Reinforced PTFE seat: 230°C (450°F)) (p. 7) P-2-2 (gorman-rupp-0700286): 160F (71C) (p. 1) PV-2-1 (fisher-et-d100022x012): depends on the construction (Cast iron body/bonnet (most trims): 232 °C (450 °F); WCC, LCC, WC9, CF8M or CF3M body with PEEK anti-extrusion rings and spring-loaded seal ring (trims 1, 27, 316L HF etc.), non-oxidizing service: 316 °C (600 °F); Same constructions, oxidizing service: 260 °C (500 °F); Standard PTFE seal construction (without PEEK anti-extrusion rings): 232 °C (450 °F)) (p. 21) Lowest: P-2-2 (for every listed construction).",
+   "answerable": "yes",
+   "must": [
+    "BV-2-1: depends on the construction (Delrin seat: 80°C (180°F); UHMWPE seat: 90°C (200°F); Virgin PTFE seat: 230°C (450°F); Reinforced PTFE seat: 230°C (450°F))",
+    "P-2-2: 160F (71C)",
+    "PV-2-1: depends on the construction (Cast iron body/bonnet (most trims): 232 °C (450 °F); WCC, LCC, WC9, CF8M or CF3M body with PEEK anti-extrusion rings and spring-loaded seal ring (trims 1, 27, 316L HF etc.), non-oxidizing service: 316 °C (600 °F); Same constructions, oxidizing service: 260 °C (500 °F); Standard PTFE seal construction (without PEEK anti-extrusion rings): 232 °C (450 °F))",
+    "lowest: P-2-2"
+   ],
+   "per_tag": {
+    "BV-2-1": {
+     "note": "Maximum seat temperature ratings; the p6 P-T chart axis only extends to 300 °C (572 °F).",
+     "page": 7,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Delrin seat",
+       "unit": "°C",
+       "value": 80,
+       "value_text": "80°C (180°F)"
+      },
+      {
+       "condition": "UHMWPE seat",
+       "unit": "°C",
+       "value": 90,
+       "value_text": "90°C (200°F)"
+      },
+      {
+       "condition": "Virgin PTFE seat",
+       "unit": "°C",
+       "value": 230,
+       "value_text": "230°C (450°F)"
+      },
+      {
+       "condition": "Reinforced PTFE seat",
+       "unit": "°C",
+       "value": 230,
+       "value_text": "230°C (450°F)"
+      },
+      {
+       "condition": "Fluorofill/Polyfill seat",
+       "unit": "°C",
+       "value": 260,
+       "value_text": "260°C (500°F)"
+      },
+      {
+       "condition": "PEEK seat",
+       "unit": "°C",
+       "value": 315,
+       "value_text": "315°C (600°F)"
+      },
+      {
+       "condition": "Metal seat (A or G)",
+       "unit": "°C",
+       "value": 315,
+       "value_text": "315°C (600°F)"
+      }
+     ]
+    },
+    "P-2-2": {
+     "note": "Stated as 'Maximum Temperature of Liquid Pumped' in the seal detail (seal-limited); 250 psi operating pressure is only rated up to 100F (37C); consult factory above.",
+     "page": 1,
+     "single_value": true,
+     "unit": "°F",
+     "value": 160,
+     "value_text": "160F (71C)"
+    },
+    "PV-2-1": {
+     "note": "Table 15 (p21-22) body/trim temperature capabilities depend on body material and trim (some trims only 149 °C / 300 °F or 210 °C / 410 °F); 232 °C / 450 °F limit and its extension are also stated on p2.",
+     "page": 21,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Cast iron body/bonnet (most trims)",
+       "unit": "°C",
+       "value": 232,
+       "value_text": "232 °C (450 °F)"
+      },
+      {
+       "condition": "WCC, LCC, WC9, CF8M or CF3M body with PEEK anti-extrusion rings and spring-loaded seal ring (trims 1, 27, 316L HF etc.), non-oxidizing service",
+       "unit": "°C",
+       "value": 316,
+       "value_text": "316 °C (600 °F)"
+      },
+      {
+       "condition": "Same constructions, oxidizing service",
+       "unit": "°C",
+       "value": 260,
+       "value_text": "260 °C (500 °F)"
+      },
+      {
+       "condition": "Standard PTFE seal construction (without PEEK anti-extrusion rings)",
+       "unit": "°C",
+       "value": 232,
+       "value_text": "232 °C (450 °F)"
+      }
+     ]
+    }
+   },
+   "question": "For each item that receives flow directly from P-2-1, what is its maximum fluid temperature according to its datasheet, and which of them has the lowest?"
+  },
+  "candidate": "According to the P&ID, the items that receive flow directly from P-2-1 are PV-2-1 (line PL-9), P-2-2 (line PG-7), and BV-2-1 (line PG-6). However, the provided excerpts contain no datasheet content for P-2-2 (Gorman-Rupp) or BV-2-1 (Flowserve Worcester), so their maximum fluid temperatures are not stated. For PV-2-1, the Fisher ET excerpts give only material- and trim-dependent temperature capabilities (e.g., maxima ranging from 149 °C/300 °F up to 316 °C/600 °F depending on body/trim materials) and do not state which configuration applies to PV-2-1, so a single maximum fluid temperature for PV-2-1 cannot be determined either. Therefore, no per-item maximum fluid temperatures can be stated, and the item with the lowest maximum cannot be identified."
+ },
+ {
+  "item": "46deb852e5",
+  "gold": {
+   "answer": "E-1-1 (alfalaval-m3): depends on the construction (Frame FG, ASME pressure vessel code: 10.3 barg / 150 psig; Frame FG, PED pressure vessel code: 16.0 barg / 232 psig) (p. 2) CHV-1-2 (swagelok-ms-01-176): depends on the construction (C (2C, 4C, 6C, 8C), CA, CP, CPA series, 316 SS or brass, -10 to 100 °F: 3000 psig (206 bar); C series 12C and 16C, 316 SS, -10 to 100 °F: 2000 psig (137 bar); C series 12C and 16C, brass, -10 to 100 °F: 1500 psig (103 bar); CH4, CH8 series, 316 SS, 10 to 100 °F: 6000 psig (413 bar)) (p. 3) P-1-3 (gorman-rupp-0700286): depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa)) (p. 1) P-2-1 (gorman-rupp-0700286): depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa)) (p. 1) P-2-2 (gorman-rupp-0700286): depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa)) (p. 1) CHV-2-1 (swagelok-ms-01-176): depends on the construction (C (2C, 4C, 6C, 8C), CA, CP, CPA series, 316 SS or brass, -10 to 100 °F: 3000 psig (206 bar); C series 12C and 16C, 316 SS, -10 to 100 °F: 2000 psig (137 bar); C series 12C and 16C, brass, -10 to 100 °F: 1500 psig (103 bar); CH4, CH8 series, 316 SS, 10 to 100 °F: 6000 psig (413 bar)) (p. 3) Lowest: E-1-1 (for every listed construction).",
+   "answerable": "yes",
+   "must": [
+    "E-1-1: depends on the construction (Frame FG, ASME pressure vessel code: 10.3 barg / 150 psig; Frame FG, PED pressure vessel code: 16.0 barg / 232 psig)",
+    "CHV-1-2: depends on the construction (C (2C, 4C, 6C, 8C), CA, CP, CPA series, 316 SS or brass, -10 to 100 °F: 3000 psig (206 bar); C series 12C and 16C, 316 SS, -10 to 100 °F: 2000 psig (137 bar); C series 12C and 16C, brass, -10 to 100 °F: 1500 psig (103 bar); CH4, CH8 series, 316 SS, 10 to 100 °F: 6000 psig (413 bar))",
+    "P-1-3: depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa))",
+    "P-2-1: depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa))",
+    "P-2-2: depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa))",
+    "CHV-2-1: depends on the construction (C (2C, 4C, 6C, 8C), CA, CP, CPA series, 316 SS or brass, -10 to 100 °F: 3000 psig (206 bar); C series 12C and 16C, 316 SS, -10 to 100 °F: 2000 psig (137 bar); C series 12C and 16C, brass, -10 to 100 °F: 1500 psig (103 bar); CH4, CH8 series, 316 SS, 10 to 100 °F: 6000 psig (413 bar))",
+    "lowest: E-1-1"
+   ],
+   "per_tag": {
+    "CHV-1-2": {
+     "note": "Cover (p1) summarizes 'working pressures up to 6000 psig (413 bar)'; ratings decrease with temperature and may be limited by the end connection (CH ratings per connection on p12).",
+     "page": 3,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "C (2C, 4C, 6C, 8C), CA, CP, CPA series, 316 SS or brass, -10 to 100 °F",
+       "unit": "psig",
+       "value": 3000,
+       "value_text": "3000 psig (206 bar)"
+      },
+      {
+       "condition": "C series 12C and 16C, 316 SS, -10 to 100 °F",
+       "unit": "psig",
+       "value": 2000,
+       "value_text": "2000 psig (137 bar)"
+      },
+      {
+       "condition": "C series 12C and 16C, brass, -10 to 100 °F",
+       "unit": "psig",
+       "value": 1500,
+       "value_text": "1500 psig (103 bar)"
+      },
+      {
+       "condition": "CH4, CH8 series, 316 SS, 10 to 100 °F",
+       "unit": "psig",
+       "value": 6000,
+       "value_text": "6000 psig (413 bar)"
+      },
+      {
+       "condition": "CH16 series, 316 SS, 10 to 100 °F",
+       "unit": "psig",
+       "value": 5000,
+       "value_text": "5000 psig (344 bar)"
+      }
+     ]
+    },
+    "CHV-2-1": {
+     "note": "Cover (p1) summarizes 'working pressures up to 6000 psig (413 bar)'; ratings decrease with temperature and may be limited by the end connection (CH ratings per connection on p12).",
+     "page": 3,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "C (2C, 4C, 6C, 8C), CA, CP, CPA series, 316 SS or brass, -10 to 100 °F",
+       "unit": "psig",
+       "value": 3000,
+       "value_text": "3000 psig (206 bar)"
+      },
+      {
+       "condition": "C series 12C and 16C, 316 SS, -10 to 100 °F",
+       "unit": "psig",
+       "value": 2000,
+       "value_text": "2000 psig (137 bar)"
+      },
+      {
+       "condition": "C series 12C and 16C, brass, -10 to 100 °F",
+       "unit": "psig",
+       "value": 1500,
+       "value_text": "1500 psig (103 bar)"
+      },
+      {
+       "condition": "CH4, CH8 series, 316 SS, 10 to 100 °F",
+       "unit": "psig",
+       "value": 6000,
+       "value_text": "6000 psig (413 bar)"
+      },
+      {
+       "condition": "CH16 series, 316 SS, 10 to 100 °F",
+       "unit": "psig",
+       "value": 5000,
+       "value_text": "5000 psig (344 bar)"
+      }
+     ]
+    },
+    "E-1-1": {
+     "note": "Max. design pressure; extended pressure and temperature rating may be available on request.",
+     "page": 2,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Frame FG, ASME pressure vessel code",
+       "unit": "barg",
+       "value": 10.3,
+       "value_text": "10.3 barg / 150 psig"
+      },
+      {
+       "condition": "Frame FG, PED pressure vessel code",
+       "unit": "barg",
+       "value": 16.0,
+       "value_text": "16.0 barg / 232 psig"
+      }
+     ]
+    },
+    "P-1-3": {
+     "note": "Two distinct limits printed for the single model (casing vs. operating/system); consult factory for applications exceeding them.",
+     "page": 1,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Maximum casing pressure",
+       "unit": "psi",
+       "value": 266,
+       "value_text": "266 psi (1834 kPa)"
+      },
+      {
+       "condition": "Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations",
+       "unit": "psi",
+       "value": 250,
+       "value_text": "250 psi (1723 kPa)"
+      }
+     ]
+    },
+    "P-2-1": {
+     "note": "Two distinct limits printed for the single model (casing vs. operating/system); consult factory for applications exceeding them.",
+     "page": 1,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Maximum casing pressure",
+       "unit": "psi",
+       "value": 266,
+       "value_text": "266 psi (1834 kPa)"
+      },
+      {
+       "condition": "Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations",
+       "unit": "psi",
+       "value": 250,
+       "value_text": "250 psi (1723 kPa)"
+      }
+     ]
+    },
+    "P-2-2": {
+     "note": "Two distinct limits printed for the single model (casing vs. operating/system); consult factory for applications exceeding them.",
+     "page": 1,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Maximum casing pressure",
+       "unit": "psi",
+       "value": 266,
+       "value_text": "266 psi (1834 kPa)"
+      },
+      {
+       "condition": "Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations",
+       "unit": "psi",
+       "value": 250,
+       "value_text": "250 psi (1723 kPa)"
+      }
+     ]
+    }
+   },
+   "question": "Along the process flow path from E-1-1 to CHV-2-1, which item has the lowest maximum allowable pressure according to its datasheet? Give the value for every item on the path that has a datasheet."
+  },
+  "candidate": "Along the directed path E-1-1 → CHV-1-2 → P-1-3 → P-2-1 → P-2-2 → CHV-2-1, the excerpts state only that the Swagelok check-valve family (CHV-1-2 and CHV-2-1) has working pressures up to 6000 psig (413 bar); the exact ratings for those tags are not stated. Maximum allowable pressures for E-1-1 (Alfa Laval) and P-1-3, P-2-1, and P-2-2 (Gorman-Rupp) are not stated in the provided excerpts, so the lowest-pressure item cannot be determined."
+ },
+ {
+  "item": "50611b7abf",
+  "gold": {
+   "answer": "BV-2-1 (flowserve-worcester-f51-f52): depends on the construction (Delrin seat: 80°C (180°F); UHMWPE seat: 90°C (200°F); Virgin PTFE seat: 230°C (450°F); Reinforced PTFE seat: 230°C (450°F)) (p. 7) P-2-2 (gorman-rupp-0700286): 160F (71C) (p. 1) PV-2-1 (fisher-et-d100022x012): depends on the construction (Cast iron body/bonnet (most trims): 232 °C (450 °F); WCC, LCC, WC9, CF8M or CF3M body with PEEK anti-extrusion rings and spring-loaded seal ring (trims 1, 27, 316L HF etc.), non-oxidizing service: 316 °C (600 °F); Same constructions, oxidizing service: 260 °C (500 °F); Standard PTFE seal construction (without PEEK anti-extrusion rings): 232 °C (450 °F)) (p. 21) Lowest: P-2-2 (for every listed construction).",
+   "answerable": "yes",
+   "must": [
+    "BV-2-1: depends on the construction (Delrin seat: 80°C (180°F); UHMWPE seat: 90°C (200°F); Virgin PTFE seat: 230°C (450°F); Reinforced PTFE seat: 230°C (450°F))",
+    "P-2-2: 160F (71C)",
+    "PV-2-1: depends on the construction (Cast iron body/bonnet (most trims): 232 °C (450 °F); WCC, LCC, WC9, CF8M or CF3M body with PEEK anti-extrusion rings and spring-loaded seal ring (trims 1, 27, 316L HF etc.), non-oxidizing service: 316 °C (600 °F); Same constructions, oxidizing service: 260 °C (500 °F); Standard PTFE seal construction (without PEEK anti-extrusion rings): 232 °C (450 °F))",
+    "lowest: P-2-2"
+   ],
+   "per_tag": {
+    "BV-2-1": {
+     "note": "Maximum seat temperature ratings; the p6 P-T chart axis only extends to 300 °C (572 °F).",
+     "page": 7,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Delrin seat",
+       "unit": "°C",
+       "value": 80,
+       "value_text": "80°C (180°F)"
+      },
+      {
+       "condition": "UHMWPE seat",
+       "unit": "°C",
+       "value": 90,
+       "value_text": "90°C (200°F)"
+      },
+      {
+       "condition": "Virgin PTFE seat",
+       "unit": "°C",
+       "value": 230,
+       "value_text": "230°C (450°F)"
+      },
+      {
+       "condition": "Reinforced PTFE seat",
+       "unit": "°C",
+       "value": 230,
+       "value_text": "230°C (450°F)"
+      },
+      {
+       "condition": "Fluorofill/Polyfill seat",
+       "unit": "°C",
+       "value": 260,
+       "value_text": "260°C (500°F)"
+      },
+      {
+       "condition": "PEEK seat",
+       "unit": "°C",
+       "value": 315,
+       "value_text": "315°C (600°F)"
+      },
+      {
+       "condition": "Metal seat (A or G)",
+       "unit": "°C",
+       "value": 315,
+       "value_text": "315°C (600°F)"
+      }
+     ]
+    },
+    "P-2-2": {
+     "note": "Stated as 'Maximum Temperature of Liquid Pumped' in the seal detail (seal-limited); 250 psi operating pressure is only rated up to 100F (37C); consult factory above.",
+     "page": 1,
+     "single_value": true,
+     "unit": "°F",
+     "value": 160,
+     "value_text": "160F (71C)"
+    },
+    "PV-2-1": {
+     "note": "Table 15 (p21-22) body/trim temperature capabilities depend on body material and trim (some trims only 149 °C / 300 °F or 210 °C / 410 °F); 232 °C / 450 °F limit and its extension are also stated on p2.",
+     "page": 21,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Cast iron body/bonnet (most trims)",
+       "unit": "°C",
+       "value": 232,
+       "value_text": "232 °C (450 °F)"
+      },
+      {
+       "condition": "WCC, LCC, WC9, CF8M or CF3M body with PEEK anti-extrusion rings and spring-loaded seal ring (trims 1, 27, 316L HF etc.), non-oxidizing service",
+       "unit": "°C",
+       "value": 316,
+       "value_text": "316 °C (600 °F)"
+      },
+      {
+       "condition": "Same constructions, oxidizing service",
+       "unit": "°C",
+       "value": 260,
+       "value_text": "260 °C (500 °F)"
+      },
+      {
+       "condition": "Standard PTFE seal construction (without PEEK anti-extrusion rings)",
+       "unit": "°C",
+       "value": 232,
+       "value_text": "232 °C (450 °F)"
+      }
+     ]
+    }
+   },
+   "question": "For each item that receives flow directly from P-2-1, what is its maximum fluid temperature according to its datasheet, and which of them has the lowest?"
+  },
+  "candidate": "P-2-1 sends flow directly to PV-2-1, BV-2-1, and P-2-2. The Fisher ET excerpt for PV-2-1 lists temperature capabilities up to 316 °C, depending on configuration. The supplied excerpts do not state maximum temperatures for BV-2-1 or P-2-2, so which item has the lowest cannot be determined."
+ }
+]

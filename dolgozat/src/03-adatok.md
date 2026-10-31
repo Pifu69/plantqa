@@ -23,7 +23,7 @@ Neo4j-ben tárolt üzemi rétegben (EXP-002). A visszaépítési ellenőrzés (a
 
 ## Adatlapok
 
-A tagelt elemek osztálya és szerepe határozza meg az adatlapot (1. táblázat). A hozzárendelést
+A tagelt elemek osztálya és szerepe határozza meg az adatlapot (lásd az alábbi táblázatot). A hozzárendelést
 program állítja elő a generátor kimenetéből (`data/plant/tag_to_datasheet.json`), nem kézzel. A
 szabályozókör által működtetett globe szelep a Fisher ET szabályozószelep, a kör nélküli globe
 szelep a GF 165 mágnesszelep (kétutas, globe kialakítású nyitó-záró szelep). A két
@@ -54,7 +54,7 @@ plantdocs saját jelentése szerint). A három új adatlap gráfja 1102, 16 281 
 
 ## A kérdéssor
 
-A kérdéssor 60 kérdésből áll, négy családban (2. táblázat). Családonként 5 kérdés a fejlesztési
+A kérdéssor 60 kérdésből áll, négy családban (lásd a második táblázatot ebben a fejezetben). Családonként 5 kérdés a fejlesztési
 (dev) halmazba, 10 a teszthalmazba került; a teszthalmazt a módszerek fejlesztése előtt
 befagyasztottuk (sha256-tal rögzítve, EXP-004), és csak a végső mérésnél futtattuk.
 

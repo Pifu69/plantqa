@@ -10,7 +10,7 @@ Mindhárom módszert mindkét kérdés-válaszoló modellel futtattuk: `z-ai/glm
 `openai/gpt-6-luna`, OpenRouteren át, Benedek rögzített paramétereivel. A Luna-pinek Benedek
 pin-fájljai, a GLM-hez az ő `pin_low` beállítását és annak magas gondolkodású változatát
 használtuk. Minden hívás cache-elt és naplózott; a teljes projekt költsége jóval a 20 USD-s keret
-alatt maradt (a pontos összeget a 7. fejezet adja). A pontosság a helyes válaszok aránya; a
+alatt maradt (a pontos összeget az összefoglalás adja). A pontosság a helyes válaszok aránya; a
 konfidenciaintervallum 10 000 ismétléses, seedelt percentilis-bootstrap, a módszerpárok
 különbségét ugyanazokon a kérdéseken, párosítva számoltuk.
 

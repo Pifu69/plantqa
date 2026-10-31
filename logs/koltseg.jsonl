@@ -2323,3 +2323,22 @@
 {"time": "2026-10-31T11:31:31+00:00", "source": "plantdocs-chat", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 15213, "completion_tokens": 526, "cost_usd": 0.0003257673}
 {"time": "2026-10-31T11:31:34+00:00", "source": "plantdocs-chat", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 4317, "completion_tokens": 435, "cost_usd": 0.0006487875}
 {"time": "2026-10-31T11:31:42+00:00", "source": "plantgraph", "tag": "M1-glm/e10/agent_step", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 5504, "completion_tokens": 631, "cost_usd": 0.0001100178}
+{"time": "2026-10-31T11:31:47+00:00", "source": "plantgraph", "tag": "M1-glm/e10/answer", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 3777, "completion_tokens": 747, "cost_usd": 9.14829e-05}
+{"time": "2026-10-31T11:31:59+00:00", "source": "plantgraph", "tag": "M1-glm/e11/cypher", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 3280, "completion_tokens": 785, "cost_usd": 0.000298184}
+{"time": "2026-10-31T11:32:01+00:00", "source": "plantgraph", "tag": "M1-glm/e11/cypher", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 3866, "completion_tokens": 429, "cost_usd": 0.00025264}
+{"time": "2026-10-31T11:32:04+00:00", "source": "plantgraph", "tag": "M1-glm/e11/answer", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 2676, "completion_tokens": 376, "cost_usd": 5.93752e-05}
+{"time": "2026-10-31T11:32:06+00:00", "source": "plantgraph", "tag": "M1-glm/e11/agent_step", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 2254, "completion_tokens": 248, "cost_usd": 4.75728e-05}
+{"time": "2026-10-31T11:32:10+00:00", "source": "plantgraph", "tag": "M1-glm/e11/agent_step", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 2363, "completion_tokens": 391, "cost_usd": 5.45241e-05}
+{"time": "2026-10-31T11:32:12+00:00", "source": "plantgraph", "tag": "M1-glm/e11/agent_step", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 2468, "completion_tokens": 226, "cost_usd": 4.69626e-05}
+{"time": "2026-10-31T11:32:17+00:00", "source": "plantgraph", "tag": "M1-glm/e11/agent_step", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 2809, "completion_tokens": 721, "cost_usd": 7.03943e-05}
+{"time": "2026-10-31T11:32:21+00:00", "source": "plantgraph", "tag": "M1-glm/e11/agent_step", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 3021, "completion_tokens": 578, "cost_usd": 6.85637e-05}
+{"time": "2026-10-31T11:32:27+00:00", "source": "plantgraph", "tag": "M1-glm/e11/answer", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 1450, "completion_tokens": 1022, "cost_usd": 6.1221e-05}
+{"time": "2026-10-31T11:32:36+00:00", "source": "plantgraph", "tag": "M1-glm/e12/cypher", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 3277, "completion_tokens": 1489, "cost_usd": 0.000438852}
+{"time": "2026-10-31T11:32:39+00:00", "source": "plantgraph", "tag": "M1-glm/e12/answer", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 1325, "completion_tokens": 464, "cost_usd": 3.9262e-05}
+{"time": "2026-10-31T11:32:41+00:00", "source": "plantgraph", "tag": "M1-glm/e12/agent_step", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 2232, "completion_tokens": 58, "cost_usd": 0.000105708}
+{"time": "2026-10-31T11:32:42+00:00", "source": "plantgraph", "tag": "M1-glm/e12/agent_step", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 2298, "completion_tokens": 62, "cost_usd": 0.000114236}
+{"time": "2026-10-31T11:32:43+00:00", "source": "plantgraph", "tag": "M1-glm/e12/agent_step", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 2399, "completion_tokens": 50, "cost_usd": 0.000120944}
+{"time": "2026-10-31T11:32:44+00:00", "source": "plantgraph", "tag": "M1-glm/e12/agent_step", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 2497, "completion_tokens": 38, "cost_usd": 0.000107872}
+{"time": "2026-10-31T11:33:04+00:00", "source": "plantdocs-chat", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 75871, "completion_tokens": 3051, "cost_usd": 0.0013351432}
+{"time": "2026-10-31T11:33:12+00:00", "source": "plantdocs-chat", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 76258, "completion_tokens": 696, "cost_usd": 0.0012581971}
+{"time": "2026-10-31T11:33:17+00:00", "source": "plantdocs-chat", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 8504, "completion_tokens": 684, "cost_usd": 0.0012132}

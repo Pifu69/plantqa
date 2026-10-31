@@ -18,9 +18,13 @@ import hashlib
 import json
 import random
 import re
+from functools import cache
 from pathlib import Path
 from typing import Any
 
+from plantgraph.qa.corpus import load_corpus_artifacts
+from plantgraph.qa.graph_view import NetworkxGraphView
+from plantgraph.qa.harness.gold import GoldScoring, build_gold_scoring
 from plantgraph.qa.models import FinalAnswer, Outcome
 from plantgraph.qa.models import Question as PgQuestion
 from plantgraph.qa.scoring import score_answer
@@ -53,13 +57,33 @@ def numeric_match(must: list[str], answer: str) -> bool | None:
     return True
 
 
+@cache
+def gold_scoring() -> GoldScoring:
+    """Benedek harnessének útvonal-pontozási bemenete: a gold `send_to` élek és a csatlakozók."""
+    from plantqa.graph.load import INGEST_JSON
+    from plantqa.plant.search import try_seed
+    from plantqa.plant.spec import CORPUS_ID
+    from plantqa.questions.build import _plant_seed
+
+    a = load_corpus_artifacts(CORPUS_ID, INGEST_JSON)
+    view = NetworkxGraphView(CORPUS_ID, a.localized_sheets, a.resolution)
+    return build_gold_scoring(try_seed(_plant_seed()).corpus.plant, view)
+
+
 def _drawing_score(question: dict[str, Any], answer: dict[str, Any]) -> dict[str, Any]:
     pg = PgQuestion.model_validate(question["source"]["pg"])
     final = answer.get("final")
     outcome = Outcome.ANSWERED if final else Outcome.PARSE_FAILURE
     parsed = FinalAnswer.model_validate(final) if final else None
     try:
-        scored = score_answer(pg, outcome, parsed)
+        gold = gold_scoring()
+        scored = score_answer(
+            pg,
+            outcome,
+            parsed,
+            connector_tags=gold.connector_tags,
+            valid_edges=gold.valid_edges,
+        )
     except (ValueError, TypeError) as error:
         return {"source": "program", "verdict": "wrong", "detail": f"unscorable: {error}"}
     return {"source": "program", "verdict": "correct" if scored.correct else "wrong"}

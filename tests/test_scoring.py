@@ -63,3 +63,15 @@ def test_candidate_text_keeps_the_explanation_next_to_the_flag() -> None:
         candidate_text({"final": {"answer": None, "not_present": True}}) == "Not in the documents."
     )
     assert candidate_text({"final": {"answer": ["P-1-1"], "not_present": False}}) == "P-1-1"
+
+
+def test_gold_path_scores_correct() -> None:
+    import json
+
+    from plantqa.eval.score import program_score
+    from plantqa.questions.build import OUT_DIR
+
+    rows = [json.loads(x) for x in (OUT_DIR / "test.jsonl").read_text("utf-8").splitlines()]
+    path_q = next(r for r in rows if r["answer_type"] == "TAG_PATH" and r["gold"]["answer"])
+    answer = {"final": {"answer": path_q["gold"]["answer"], "not_present": False}}
+    assert program_score(path_q, answer) == {"source": "program", "verdict": "correct"}

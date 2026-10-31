@@ -1,0 +1,22 @@
+[
+ {"item": "8297c38390", "verdict": "correct", "cites_page": false, "reason": "Names cylindrical roller and double row ball bearings, SAE 30 oil not grease, and says no interval is given."},
+ {"item": "0459f7fb48", "verdict": "correct", "cites_page": false, "reason": "Lists 24 V DC and 230 V AC versions and says to confirm the fitted coil version via marking/ordering code."},
+ {"item": "5122b8a212", "verdict": "correct", "cites_page": true, "reason": "Gives <±0.1% URL, IEC 60770-1:1999 high vibration level and the 10-60 Hz / 60-2000 Hz test levels."},
+ {"item": "cc3eef53f2", "verdict": "partial", "cites_page": true, "reason": "Weight 88 kg net is right but dimensions are claimed not stated and the motor-not-included caveat is missing."},
+ {"item": "1e293f5ffa", "verdict": "partial", "cites_page": true, "reason": "Correctly says diagnosis is not stated but gives no NPSHr values although the curve provides them."},
+ {"item": "8a785e92c2", "verdict": "correct", "cites_page": false, "reason": "Correctly says maximum altitude is not stated."},
+ {"item": "9c6d220d21", "verdict": "partial", "cites_page": false, "reason": "Suction 4 in and discharge 2 1/2 in are right but raised face flanges are not mentioned."},
+ {"item": "ece6048521", "verdict": "wrong", "cites_page": true, "reason": "Says the 4 in CL300 face-to-face is not stated although gold gives 368 mm RF / 384 mm RTJ."},
+ {"item": "dbea71e328", "verdict": "correct", "cites_page": false, "reason": "Correctly says no bonnet-removal safety procedure is stated."},
+ {"item": "794daf8cc7", "verdict": "correct", "cites_page": false, "reason": "Correctly says RTD element type and class are not stated."},
+ {"item": "4cf742cf12", "verdict": "correct", "cites_page": false, "reason": "Identifies Whisper/WhisperFlo trims for noise and Cavitrol III for high pressure drop/cavitation."},
+ {"item": "680ae0a7d4", "verdict": "correct", "cites_page": false, "reason": "Standard centrifugal pump on basic pedestal, 4 x 2 1/2 in, and says model code meaning is not explained."},
+ {"item": "86b7551639", "verdict": "correct", "cites_page": false, "reason": "Ductile iron casing, gray iron 40 impeller, and pH suitability not stated."},
+ {"item": "d4f951c60f", "verdict": "correct", "cites_page": false, "reason": "Correctly says cover-opening rules under power are not stated."},
+ {"item": "26da401c5a", "verdict": "correct", "cites_page": true, "reason": "Confirms flanged ends plus buttweld, screwed and socket weld options."},
+ {"item": "d5ffae6c44", "verdict": "correct", "cites_page": false, "reason": "Says only CE is listed and neither drinking-water nor Ex approval is stated."},
+ {"item": "c29bbd7daf", "verdict": "correct", "cites_page": false, "reason": "Correctly says no bonnet bolt torque is stated."},
+ {"item": "6807dd8c52", "verdict": "partial", "cites_page": false, "reason": "PVC body and EPDM/FKM seals are right but it does not advise choosing the FKM version."},
+ {"item": "9a25a6ad94", "verdict": "partial", "cites_page": false, "reason": "1/4 NPT and 1/2-14 NPT adapter and manifold availability are right, but 2 1/8 in centers are missing and the S5/S6 manifold-to-model mapping is muddled."},
+ {"item": "ac425624e8", "verdict": "partial", "cites_page": true, "reason": "Gives 59.7 with the right conditions but assigns it to ED/ETR variants instead of the NPS 2 ET, hedging among values."}
+]

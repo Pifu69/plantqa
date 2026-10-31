@@ -2187,3 +2187,41 @@
 {"time": "2026-10-31T11:18:56+00:00", "source": "plantdocs-chat", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 75895, "completion_tokens": 3695, "cost_usd": 0.001358418}
 {"time": "2026-10-31T11:19:01+00:00", "source": "plantdocs-chat", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 10290, "completion_tokens": 593, "cost_usd": 0.00138}
 {"time": "2026-10-31T11:19:05+00:00", "source": "plantgraph", "tag": "M2-glm/d15/route", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 1242, "completion_tokens": 363, "cost_usd": 3.34584e-05}
+{"time": "2026-10-31T11:19:49+00:00", "source": "plantgraph", "tag": "M1-glm/e01/cypher", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 3274, "completion_tokens": 976, "cost_usd": 0.000339256}
+{"time": "2026-10-31T11:19:52+00:00", "source": "plantgraph", "tag": "M1-glm/e01/cypher", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 4007, "completion_tokens": 409, "cost_usd": 0.000254844}
+{"time": "2026-10-31T11:19:55+00:00", "source": "plantgraph", "tag": "M1-glm/e01/answer", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 1575, "completion_tokens": 491, "cost_usd": 4.45205e-05}
+{"time": "2026-10-31T11:19:57+00:00", "source": "plantgraph", "tag": "M1-glm/e01/agent_step", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 2248, "completion_tokens": 263, "cost_usd": 4.80021e-05}
+{"time": "2026-10-31T11:20:01+00:00", "source": "plantgraph", "tag": "M1-glm/e01/agent_step", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 2568, "completion_tokens": 412, "cost_usd": 5.87956e-05}
+{"time": "2026-10-31T11:20:04+00:00", "source": "plantdocs-chat", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 3698, "completion_tokens": 216, "cost_usd": 9.22238e-05}
+{"time": "2026-10-31T11:20:06+00:00", "source": "plantdocs-chat", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 1370, "completion_tokens": 141, "cost_usd": 0.000207}
+{"time": "2026-10-31T11:20:08+00:00", "source": "plantgraph", "tag": "M1-glm/e01/agent_step", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 2780, "completion_tokens": 301, "cost_usd": 5.4996e-05}
+{"time": "2026-10-31T11:20:16+00:00", "source": "plantdocs-chat", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 20382, "completion_tokens": 359, "cost_usd": 0.0003853227}
+{"time": "2026-10-31T11:20:19+00:00", "source": "plantdocs-chat", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 14814, "completion_tokens": 474, "cost_usd": 0.001844325}
+{"time": "2026-10-31T11:20:22+00:00", "source": "plantgraph", "tag": "M1-glm/e01/agent_step", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 3352, "completion_tokens": 291, "cost_usd": 6.40864e-05}
+{"time": "2026-10-31T11:20:31+00:00", "source": "plantdocs-chat", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 10533, "completion_tokens": 267, "cost_usd": 0.0002111772}
+{"time": "2026-10-31T11:20:34+00:00", "source": "plantdocs-chat", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 2423, "completion_tokens": 260, "cost_usd": 0.0003700875}
+{"time": "2026-10-31T11:20:37+00:00", "source": "plantgraph", "tag": "M1-glm/e01/agent_step", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 3693, "completion_tokens": 272, "cost_usd": 6.84911e-05}
+{"time": "2026-10-31T11:20:45+00:00", "source": "plantgraph", "tag": "M1-glm/e01/agent_step", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 4034, "completion_tokens": 640, "cost_usd": 8.66328e-05}
+{"time": "2026-10-31T11:20:47+00:00", "source": "plantgraph", "tag": "M1-glm/e01/agent_step", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 4374, "completion_tokens": 225, "cost_usd": 7.73538e-05}
+{"time": "2026-10-31T11:20:49+00:00", "source": "plantgraph", "tag": "M1-glm/e01/agent_step", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 4945, "completion_tokens": 244, "cost_usd": 8.74595e-05}
+{"time": "2026-10-31T11:20:56+00:00", "source": "plantgraph", "tag": "M1-glm/e01/answer", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 3294, "completion_tokens": 1257, "cost_usd": 0.0001012803}
+{"time": "2026-10-31T11:21:15+00:00", "source": "plantgraph", "tag": "M1-glm/e02/cypher", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 3275, "completion_tokens": 1038, "cost_usd": 0.0003517}
+{"time": "2026-10-31T11:21:35+00:00", "source": "plantgraph", "tag": "M1-glm/e02/answer", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 25587, "completion_tokens": 2914, "cost_usd": 0.0005435434}
+{"time": "2026-10-31T11:21:44+00:00", "source": "plantgraph", "tag": "M1-glm/e03/cypher", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 3273, "completion_tokens": 939, "cost_usd": 0.000328676}
+{"time": "2026-10-31T11:21:58+00:00", "source": "plantgraph", "tag": "M1-glm/e03/answer", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 14300, "completion_tokens": 1957, "cost_usd": 0.0003154335}
+{"time": "2026-10-31T11:22:05+00:00", "source": "plantgraph", "tag": "M1-glm/e04/cypher", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 3274, "completion_tokens": 899, "cost_usd": 0.00032072}
+{"time": "2026-10-31T11:22:44+00:00", "source": "plantgraph", "tag": "M1-glm/e04/answer", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 37263, "completion_tokens": 661, "cost_usd": 0.0006441976}
+{"time": "2026-10-31T11:22:59+00:00", "source": "plantgraph", "tag": "M1-glm/e05/cypher", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 3260, "completion_tokens": 530, "cost_usd": 0.000248032}
+{"time": "2026-10-31T11:23:03+00:00", "source": "plantgraph", "tag": "M1-glm/e05/cypher", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 3934, "completion_tokens": 496, "cost_usd": 0.000272296}
+{"time": "2026-10-31T11:23:14+00:00", "source": "plantgraph", "tag": "M1-glm/e05/agent_step", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 2234, "completion_tokens": 200, "cost_usd": 4.55248e-05}
+{"time": "2026-10-31T11:23:19+00:00", "source": "plantgraph", "tag": "M1-glm/e05/agent_step", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 2426, "completion_tokens": 535, "cost_usd": 6.07197e-05}
+{"time": "2026-10-31T11:23:23+00:00", "source": "plantgraph", "tag": "M1-glm/e05/agent_step", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 3038, "completion_tokens": 335, "cost_usd": 6.06466e-05}
+{"time": "2026-10-31T11:23:26+00:00", "source": "plantgraph", "tag": "M1-glm/e05/agent_step", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 3379, "completion_tokens": 209, "cost_usd": 6.12528e-05}
+{"time": "2026-10-31T11:23:32+00:00", "source": "plantgraph", "tag": "M1-glm/e05/agent_step", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 4062, "completion_tokens": 509, "cost_usd": 8.28719e-05}
+{"time": "2026-10-31T11:23:33+00:00", "source": "plantdocs-embed", "model": "qwen/qwen3-embedding-8b", "prompt_tokens": 14, "completion_tokens": 0, "cost_usd": 1.4e-07}
+{"time": "2026-10-31T11:23:38+00:00", "source": "plantdocs-chat", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 8976, "completion_tokens": 518, "cost_usd": 0.000222921}
+{"time": "2026-10-31T11:23:41+00:00", "source": "plantdocs-chat", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 8728, "completion_tokens": 310, "cost_usd": 0.00109815}
+{"time": "2026-10-31T11:23:46+00:00", "source": "plantgraph", "tag": "M1-glm/e05/agent_step", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 4460, "completion_tokens": 332, "cost_usd": 8.2651e-05}
+{"time": "2026-10-31T11:23:51+00:00", "source": "plantgraph", "tag": "M1-glm/e05/answer", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 2865, "completion_tokens": 896, "cost_usd": 8.1086e-05}
+{"time": "2026-10-31T11:23:54+00:00", "source": "plantgraph", "tag": "M1-glm/e06/cypher", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 3260, "completion_tokens": 610, "cost_usd": 0.00026544}
+{"time": "2026-10-31T11:23:56+00:00", "source": "plantgraph", "tag": "M1-glm/e06/cypher", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 3653, "completion_tokens": 240, "cost_usd": 0.000205596}

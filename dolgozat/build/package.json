@@ -1,0 +1,8 @@
+{
+  "name": "plantqa-dolgozat",
+  "private": true,
+  "description": "Builds dolgozat.docx with docx-js",
+  "dependencies": {
+    "docx": "^9.15.0"
+  }
+}

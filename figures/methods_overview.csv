@@ -1,0 +1,7 @@
+method,steps
+M1,"kérdés -> Cypher-szint
+(üzem + adatlap séma) -> ágens + datasheet_fact -> összevont Neo4j-gráf"
+M2,"kérdés -> router-ágens -> drawing: cascade_v4_iso
+datasheet: plantdocs A2 -> összevont Neo4j-gráf"
+M3,"kérdés -> egy LLM-hívás -> egész rajz (ContextRAG)
++ 12 adatlap-darab -> PDF-szöveg + vektorok"

@@ -1,0 +1,4741 @@
+{
+ "document": "rosemount-3051-00813-0100-4001",
+ "device_class": {
+  "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100004123",
+  "label": "Transmitter",
+  "method": "longest PCA class label contained in the device name"
+ },
+ "properties": {
+  "10_year_stability": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "20_ma": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "related"
+   }
+  },
+  "4_ma": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "related"
+   }
+  },
+  "a": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003585",
+   "label": "length",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "a_required_model_components": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "acceleration": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003561",
+   "label": "acceleration",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "access": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "accessible_information": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "accuracy_over_range_of_use": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "related"
+   }
+  },
+  "additional_options": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "additional_uncertainty": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "related"
+   }
+  },
+  "additional_weight": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003589",
+   "label": "mass",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "additional_zero_shift": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "ai_block": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "ai_block_only": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "alarm": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "related"
+   }
+  },
+  "alarm_level_configurations": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "related"
+   }
+  },
+  "alarm_levels": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "related"
+   }
+  },
+  "alarm_selection": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "related"
+   }
+  },
+  "alert": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "alloy_400_availability": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "alternate_flange": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "related"
+   }
+  },
+  "alternate_transmitter_diaphragm_material": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/MaterialCompositionQuality",
+   "label": "MaterialCompositionQuality",
+   "match": "broad",
+   "source": "PCA RDL",
+   "value_classes": {
+    "Tantalum": {
+     "iri": "http://purl.obolibrary.org/obo/CHEBI_33348",
+     "label": "tantalum (ChEBI concept)",
+     "match": "exact",
+     "source": "PCA RDL"
+    }
+   }
+  },
+  "ambient_temperature_effect": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "ambient_temperature_limit": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003601",
+   "label": "thermodynamic temperature",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "analog_output_response_to_a_step_input_change_one_time_constant_user_enterable": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003603",
+   "label": "time",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "annubar_type": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "antenna_and_smartpower": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "related",
+    "cfihos": "related"
+   }
+  },
+  "applicability": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "application": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "application_specific_configuration": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "applications": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "related"
+   }
+  },
+  "approvals_and_certifications": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "area_b": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "assemble_to_items": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "assembly": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "assembly_and_testing": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "asset_tag": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "availability": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "availability_restriction": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "available_line_sizes": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003585",
+   "label": "length",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "available_pressure_ranges": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "available_transmitter_outputs": {
+   "iri": "http://w3id.org/readi/rdl/CFIHOS-40000598",
+   "label": "output signal type",
+   "match": "exact",
+   "source": "CFIHOS"
+  },
+  "available_unit_of_measure": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "related",
+    "cfihos": "none"
+   }
+  },
+  "axis_a": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "axis_c": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "b": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003585",
+   "label": "length",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "b_additional_options": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "b_d_bore_diameter": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003585",
+   "label": "length",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "back_lit_graphical_display_with_local_language_capability": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "related",
+    "cfihos": "related"
+   }
+  },
+  "backlight": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "backup_las_function": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "basis": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "basis_of_specification_conformance": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "benefit": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "benefits": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "best_performance_line_sizes": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003585",
+   "label": "length",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "bluetooth": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "related"
+   }
+  },
+  "bluetooth_code_ble": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "related"
+   }
+  },
+  "bluetooth_configuration_and_maintenance_efficient_reliable_and_safe": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "bluetooth_connectivity": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "related"
+   }
+  },
+  "bolt_circle_diameter_g": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003585",
+   "label": "length",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "bolt_hole_diameter": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003585",
+   "label": "length",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "bolt_material_option": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/MaterialCompositionQuality",
+   "label": "MaterialCompositionQuality",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "bolting_material": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/MaterialCompositionQuality",
+   "label": "MaterialCompositionQuality",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "bore_size_option": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003585",
+   "label": "length",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "built_dimensions": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "burst_pressure": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003596",
+   "label": "pressure",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "c": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003585",
+   "label": "length",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "calibration_certificate": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "related",
+    "cfihos": "none"
+   },
+   "value_classes": {
+    "Calibration certificate": {
+     "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100006114",
+     "label": "Calibration certificate",
+     "match": "exact",
+     "source": "PCA RDL"
+    }
+   }
+  },
+  "calibration_certification": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "related",
+    "cfihos": "none"
+   },
+   "value_classes": {
+    "Calibration certificate": {
+     "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100006114",
+     "label": "Calibration certificate",
+     "match": "exact",
+     "source": "PCA RDL"
+    }
+   }
+  },
+  "callout_1": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "callout_2": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "capabilities": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "channels": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003593",
+   "label": "number",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "chemistry": {
+   "iri": "http://w3id.org/readi/rdl/CFIHOS-40000224",
+   "label": "material in galvanic cells",
+   "match": "exact",
+   "source": "CFIHOS"
+  },
+  "cleaning_process_area": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "related"
+   }
+  },
+  "code_conformance": {
+   "iri": "http://w3id.org/readi/rdl/CFIHOS-40000708",
+   "label": "code of construction",
+   "match": "exact",
+   "source": "CFIHOS"
+  },
+  "code_portion": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "cold_temperature": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003601",
+   "label": "thermodynamic temperature",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "cold_temperature_operation": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003601",
+   "label": "thermodynamic temperature",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "commissioning": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "commissioning_tag": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "compliance": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "related"
+   }
+  },
+  "composition": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "conduit_electrical_connector": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "related"
+   }
+  },
+  "conduit_entries": {
+   "iri": "http://w3id.org/readi/rdl/CFIHOS-40001155",
+   "label": "thread specification",
+   "match": "broad",
+   "source": "CFIHOS"
+  },
+  "conduit_entry_size": {
+   "iri": "http://w3id.org/readi/rdl/CFIHOS-40001155",
+   "label": "thread specification",
+   "match": "broad",
+   "source": "CFIHOS"
+  },
+  "conduit_plug": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "configuration": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "configuration_buttons": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "configuration_reference": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "configuration_service_and_troubleshooting_speed": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "configuration_tool": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "configuration_wizard": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "configurator_function": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "connectivity": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "construction": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "content": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "coplanar_platform": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "cost_reduction_by_eliminating_wiring": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "country_certification": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "related",
+    "cfihos": "none"
+   }
+  },
+  "crest": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "crest_current": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003574",
+   "label": "electric current",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "crest_voltage": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003594",
+   "label": "potential difference",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "cs_rating": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003596",
+   "label": "pressure",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "current": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003574",
+   "label": "electric current",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "current_draw": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003574",
+   "label": "electric current",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "custody_transfer": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "customer_specifiable_data": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "d": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003585",
+   "label": "length",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "damping": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003603",
+   "label": "time",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "dead_time_td": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003603",
+   "label": "time",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "decimal_digit_precision": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "decimal_separator": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "decimal_settings": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "default": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "default_output": {
+   "iri": "http://w3id.org/readi/rdl/CFIHOS-40000598",
+   "label": "output signal type",
+   "match": "broad",
+   "source": "CFIHOS"
+  },
+  "delivery_condition": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "deployment_time_reduction": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "description": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "design": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "detected_conditions": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "detection_method": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "determined_by": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "diagnostic_log": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "diagnostics_code_da1": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "diaphragm_material": {
+   "iri": "http://w3id.org/readi/rdl/CFIHOS-40000223",
+   "label": "material",
+   "match": "broad",
+   "source": "CFIHOS"
+  },
+  "diaphragm_seal_assemblies": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "related"
+   }
+  },
+  "differential_pressure_range": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003596",
+   "label": "pressure",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "digital_communication": {
+   "iri": "http://w3id.org/readi/rdl/CFIHOS-40000599",
+   "label": "communication protocol",
+   "match": "broad",
+   "source": "CFIHOS"
+  },
+  "digital_process_variable": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "related"
+   }
+  },
+  "dimension_units": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "displacement_peak_amplitude": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003585",
+   "label": "length",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "display": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "related",
+    "cfihos": "none"
+   }
+  },
+  "display_and_interface_options": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "related",
+    "cfihos": "none"
+   }
+  },
+  "display_code_m6": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "related",
+    "cfihos": "none"
+   }
+  },
+  "display_option": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "related",
+    "cfihos": "none"
+   }
+  },
+  "display_parameters": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   },
+   "value_classes": {
+    "Pressure": {
+     "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003596",
+     "label": "pressure",
+     "match": "exact",
+     "source": "PCA RDL"
+    }
+   }
+  },
+  "display_type": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "related",
+    "cfihos": "none"
+   }
+  },
+  "display_update": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "displayable_information": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "drain_vent": {
+   "iri": "http://w3id.org/readi/rdl/CFIHOS-40000223",
+   "label": "material",
+   "match": "broad",
+   "source": "CFIHOS"
+  },
+  "drinking_water_approval": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "enclosure_material": {
+   "iri": "http://w3id.org/readi/rdl/CFIHOS-40000223",
+   "label": "material",
+   "match": "broad",
+   "source": "CFIHOS"
+  },
+  "enclosure_rating": {
+   "iri": "http://w3id.org/readi/rdl/CFIHOS-40000173",
+   "label": "ingress protection",
+   "match": "exact",
+   "source": "CFIHOS"
+  },
+  "enclosure_type": {
+   "iri": "http://w3id.org/readi/rdl/CFIHOS-40000173",
+   "label": "ingress protection",
+   "match": "exact",
+   "source": "CFIHOS"
+  },
+  "engineering_units": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "related",
+    "cfihos": "none"
+   },
+   "value_classes": {
+    "inH2O at 68 ºF (Range 0, 1, 2, and 3)": {
+     "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100005363",
+     "label": "inch of water",
+     "match": "exact",
+     "source": "PCA RDL"
+    },
+    "psi (all ranges)": {
+     "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100005368",
+     "label": "pound per square inch",
+     "match": "exact",
+     "source": "PCA RDL"
+    }
+   }
+  },
+  "enhanced_safety": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "enhanced_software": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "environmental_limits": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "equation": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "exact_specifications": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "example_model_code": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "exclusions": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "execution_time": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003603",
+   "label": "time",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "extended_product_warranty": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "extension_diameter_c": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003585",
+   "label": "length",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "extension_length": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003585",
+   "label": "length",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "external_buttons": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "related"
+   }
+  },
+  "external_ground_screw_assembly_included": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "external_power_supply": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "factory_configuration": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "factory_preparation": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "failure_mode_selection": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "related"
+   }
+  },
+  "failure_response": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "related"
+   }
+  },
+  "feature": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "features": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "field_functions": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "figure_10_rosemount_3051c_coplanar_flange_with_rosemount_305rc3_3_valve_coplanar_integral_manifold_dimension_units": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "figure_11_coplanar_flange_mounting_configurations_with_optional_bracket_b4_for_2_in_pipe_or_panel_mounting_dimension_units": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "figure_11_coplanar_flange_mounting_configurations_with_optional_bracket_b4_for_2_in_pipe_or_panel_mounting_legend_b": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "figure_11_coplanar_flange_mounting_configurations_with_optional_bracket_b4_for_2_in_pipe_or_panel_mounting_legend_d": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "figure_12_rosemount_3051c_coplanar_with_traditional_flange_dimension_units": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "figure_13_rosemount_3051c_coplanar_with_rosemount_305rt3_3_valve_traditional_integral_manifold_dimension_units": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "figure_13_rosemount_3051c_coplanar_with_rosemount_305rt3_3_valve_traditional_integral_manifold_legend_a": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "figure_14_traditional_flange_mounting_configurations_with_optional_brackets_for_2_in_pipe_or_panel_mounting_dimension_units": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "figure_14_traditional_flange_mounting_configurations_with_optional_brackets_for_2_in_pipe_or_panel_mounting_panel_mounting_bracket_options": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "figure_14_traditional_flange_mounting_configurations_with_optional_brackets_for_2_in_pipe_or_panel_mounting_pipe_mounting_bracket_options": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "figure_15_rosemount_3051t_dimension_units": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "figure_16_rosemount_3051t_wireless_housing_dimension_units": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "figure_17_rosemount_3051t_in_line_range_6_dimension_units": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "figure_18_rosemount_3051t_with_rosemount_306_2_valve_integral_manifold_dimension_units": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "figure_19_rosemount_3051t_typical_mounting_configurations_with_optional_mounting_bracket_dimension_units": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "figure_19_rosemount_3051t_typical_mounting_configurations_with_optional_mounting_bracket_view_shown": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "figure_20_rosemount_3051cfa_pak_lok_annubar_flow_meter_note_pak_lok_annubar_model_asme_b16_5_class_600_100_f_maximum_pressure": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003596",
+   "label": "pressure",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "figure_20_rosemount_3051cfa_pak_lok_annubar_flow_meter_note_pak_lok_annubar_model_asme_b16_5_class_600_38_maximum_pressure": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003596",
+   "label": "pressure",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "figure_20_rosemount_3051cfa_pak_lok_annubar_flow_meter_note_pak_lok_annubar_model_maximum_flange_rating": {
+   "iri": "http://w3id.org/readi/rdl/CFIHOS-40000591",
+   "label": "pressure rating",
+   "match": "broad",
+   "source": "CFIHOS"
+  },
+  "figure_20_rosemount_3051cfa_pak_lok_annubar_flow_meter_note_pak_lok_annubar_model_maximum_rating": {
+   "iri": "http://w3id.org/readi/rdl/CFIHOS-40000591",
+   "label": "pressure rating",
+   "match": "broad",
+   "source": "CFIHOS"
+  },
+  "figure_20_rosemount_3051cfa_pak_lok_annubar_flow_meter_view_shown": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "figure_23_rosemount_3051l_configurations_2_inch_flange_configuration_mounting": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "related"
+   }
+  },
+  "figure_23_rosemount_3051l_configurations_view_shown": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "figure_8_rosemount_3051c_coplanar_flange_dimension_units": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "figure_9_rosemount_3051_wireless_housing_with_coplanar_flange_dimension_units": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "fill_fluid": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "related"
+   }
+  },
+  "fisco_product_certifications": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "flange_adapter": {
+   "iri": "http://w3id.org/readi/rdl/CFIHOS-40000223",
+   "label": "material",
+   "match": "broad",
+   "source": "CFIHOS"
+  },
+  "flange_adapters": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "flange_material": {
+   "iri": "http://w3id.org/readi/rdl/CFIHOS-40000223",
+   "label": "material",
+   "match": "broad",
+   "source": "CFIHOS"
+  },
+  "flange_thickness_a": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003585",
+   "label": "length",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "flange_type": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "related"
+   }
+  },
+  "flo_tap": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "flow_calibration": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "flow_profile": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "flow_rate_accuracy": {
+   "iri": "http://w3id.org/readi/rdl/CFIHOS-40001301",
+   "label": "measuring device accuracy",
+   "match": "broad",
+   "source": "CFIHOS"
+  },
+  "flow_reference_accuracy": {
+   "iri": "http://w3id.org/readi/rdl/CFIHOS-40001301",
+   "label": "measuring device accuracy",
+   "match": "broad",
+   "source": "CFIHOS"
+  },
+  "flow_turndown": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003597",
+   "label": "ratio",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "fluid_type": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/PhaseQuality",
+   "label": "PhaseQuality",
+   "match": "broad",
+   "source": "PCA RDL",
+   "value_classes": {
+    "Steam": {
+     "iri": "http://purl.obolibrary.org/obo/CHEBI_15377",
+     "label": "water (ChEBI concept)",
+     "match": "broad",
+     "source": "PCA RDL"
+    }
+   }
+  },
+  "frequency": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003580",
+   "label": "frequency",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "function": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "related",
+    "cfihos": "none"
+   }
+  },
+  "gauge_pressure_calibration": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "gold_plating_thickness": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003585",
+   "label": "length",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "gp_ap_unit_label": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "ground_screw": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "hart_interface_connections": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "high_alarm": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003574",
+   "label": "electric current",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "high_alarm_signal": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003575",
+   "label": "electric potential",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "high_temperature": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003601",
+   "label": "thermodynamic temperature",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "high_temperature_application": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "housing_material": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/MaterialCompositionQuality",
+   "label": "MaterialCompositionQuality",
+   "match": "broad",
+   "source": "PCA RDL",
+   "value_classes": {
+    "Aluminum": {
+     "iri": "http://purl.obolibrary.org/obo/CHEBI_28984",
+     "label": "aluminium (ChEBI concept)",
+     "match": "exact",
+     "source": "PCA RDL"
+    },
+    "Aluminum, ultra low copper": {
+     "iri": "http://purl.obolibrary.org/obo/CHEBI_28984",
+     "label": "aluminium (ChEBI concept)",
+     "match": "broad",
+     "source": "PCA RDL"
+    }
+   }
+  },
+  "housing_material_included_in_transmitter_weight": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "housing_requirement": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "icons": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "included_in_reference_accuracy_equations": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "included_with_t1_and_some_product_certifications": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "indication": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "related",
+    "cfihos": "none"
+   },
+   "value_classes": {
+    "Optional two-line LCD display": {
+     "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100005899",
+     "label": "Display",
+     "match": "broad",
+     "source": "PCA RDL"
+    },
+    "Optional five-digit LCD display": {
+     "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100005899",
+     "label": "Display",
+     "match": "broad",
+     "source": "PCA RDL"
+    }
+   }
+  },
+  "installation": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "installation_accessories": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "installed_base": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "installed_in_flanged_pipe_spool_section": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "installed_total_performance": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "related"
+   }
+  },
+  "instrument_connections_for_remote_mount_options": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   },
+   "value_classes": {
+    "Needle valves, SST": {
+     "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100005958",
+     "label": "Needle Valve",
+     "match": "broad",
+     "source": "PCA RDL"
+    },
+    "OS&Y gate valves, SST": {
+     "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100005929",
+     "label": "Gate Valve",
+     "match": "broad",
+     "source": "PCA RDL"
+    },
+    "Needle valves, CS": {
+     "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100005958",
+     "label": "Needle Valve",
+     "match": "broad",
+     "source": "PCA RDL"
+    },
+    "Needle valves, alloy C-276": {
+     "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100005958",
+     "label": "Needle Valve",
+     "match": "broad",
+     "source": "PCA RDL"
+    },
+    "OS&Y gate valves, CS": {
+     "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100005929",
+     "label": "Gate Valve",
+     "match": "broad",
+     "source": "PCA RDL"
+    },
+    "OS&Y gate valves, alloy C-276": {
+     "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100005929",
+     "label": "Gate Valve",
+     "match": "broad",
+     "source": "PCA RDL"
+    }
+   }
+  },
+  "integral_assembly": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   },
+   "value_classes": {
+    "Assemble to Rosemount 306 Integral Manifold": {
+     "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100005953",
+     "label": "Manifold",
+     "match": "broad",
+     "source": "PCA RDL"
+    }
+   }
+  },
+  "integral_mount_primary_element": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   },
+   "value_classes": {
+    "Assemble to Rosemount 405 Compact Orifice Plate": {
+     "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100004080",
+     "label": "Flow Orifice",
+     "match": "broad",
+     "source": "PCA RDL"
+    }
+   }
+  },
+  "integrated_solutions": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "isolating_diaphragm": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/MaterialCompositionQuality",
+   "label": "MaterialCompositionQuality",
+   "match": "broad",
+   "source": "PCA RDL",
+   "value_classes": {
+    "Tantalum (available on Rosemount 3051CD and CG, ranges 2-5 only; not available on Rosemount 3051CA)": {
+     "iri": "http://purl.obolibrary.org/obo/CHEBI_33348",
+     "label": "tantalum (ChEBI concept)",
+     "match": "exact",
+     "source": "PCA RDL"
+    }
+   }
+  },
+  "isolating_diaphragm_material_availability": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "isolation_valve_for_flo_tap_models": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   },
+   "value_classes": {
+    "Gate valve, CS": {
+     "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100005929",
+     "label": "Gate Valve",
+     "match": "broad",
+     "source": "PCA RDL"
+    },
+    "Gate valve, SST": {
+     "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100005929",
+     "label": "Gate Valve",
+     "match": "broad",
+     "source": "PCA RDL"
+    },
+    "Ball valve, CS": {
+     "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100005871",
+     "label": "Ball Valve",
+     "match": "broad",
+     "source": "PCA RDL"
+    },
+    "Ball valve, SST": {
+     "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100005871",
+     "label": "Ball Valve",
+     "match": "broad",
+     "source": "PCA RDL"
+    }
+   }
+  },
+  "j5_option_transmitter_diaphragms": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "j_beveled_threaded_pipe_ends": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003585",
+   "label": "length",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "j_rf_class_150_weld_neck": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003585",
+   "label": "length",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "j_rf_class_300_weld_neck": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003585",
+   "label": "length",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "j_rf_class_600_weld_neck": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003585",
+   "label": "length",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "j_rf_slip_on_rtj_slip_on_rf_din_slip_on": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003585",
+   "label": "length",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "k_beveled_threaded_pipe_ends": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003585",
+   "label": "length",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "k_rf_class_150_weld_neck": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003585",
+   "label": "length",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "k_rf_class_300_weld_neck": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003585",
+   "label": "length",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "k_rf_class_600_weld_neck": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003585",
+   "label": "length",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "k_rf_slip_on_rtj_slip_on_rf_din_slip_on": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003585",
+   "label": "length",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "language": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "languages": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "life": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003603",
+   "label": "time",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "limitation": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "line_pressure": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003596",
+   "label": "pressure",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "line_pressure_effect": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "line_size": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003585",
+   "label": "length",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "line_size_codes": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "line_sizes": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003585",
+   "label": "length",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "linkable_inputs_or_outputs": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "links": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003593",
+   "label": "number",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "local_configuration_buttons": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   },
+   "value_classes": {
+    "quick service buttons": {
+     "iri": "http://w3id.org/readi/rdl/CFIHOS-30000459",
+     "label": "push button",
+     "match": "broad",
+     "source": "CFIHOS"
+    }
+   }
+  },
+  "local_wireless_device_access": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "location": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "loi": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "long_term_stability": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "loop_integrity_and_plugged_impulse_line_diagnostics": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "loop_integrity_and_plugged_impulse_line_diagnostics_detect_issues_that_might_compromise_the_integrity_of_the_output_signal": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "low_alarm": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003574",
+   "label": "electric current",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "low_alarm_signal": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003575",
+   "label": "electric potential",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "lower_housing_f": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003585",
+   "label": "length",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "lower_housing_flushing_connection_options": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "lower_housing_intermediate_gasket_material": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/MaterialCompositionQuality",
+   "label": "MaterialCompositionQuality",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "lower_lrl": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003596",
+   "label": "pressure",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "lower_lrl_absolute": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003596",
+   "label": "pressure",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "lower_lrl_gage": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003596",
+   "label": "pressure",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "manifold_assembly": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   },
+   "value_classes": {
+    "Assemble to Rosemount 305 Integral Manifold": {
+     "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100005953",
+     "label": "Manifold",
+     "match": "broad",
+     "source": "PCA RDL"
+    }
+   }
+  },
+  "manifold_for_remote_mount_option": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   },
+   "value_classes": {
+    "3-valve manifold, SST": {
+     "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100005953",
+     "label": "Manifold",
+     "match": "broad",
+     "source": "PCA RDL"
+    },
+    "5-valve manifold, SST": {
+     "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100005953",
+     "label": "Manifold",
+     "match": "broad",
+     "source": "PCA RDL"
+    },
+    "3-valve manifold, alloy C-276": {
+     "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100005953",
+     "label": "Manifold",
+     "match": "broad",
+     "source": "PCA RDL"
+    },
+    "5-valve manifold, alloy C-276": {
+     "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100005953",
+     "label": "Manifold",
+     "match": "broad",
+     "source": "PCA RDL"
+    }
+   }
+  },
+  "material": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/MaterialCompositionQuality",
+   "label": "MaterialCompositionQuality",
+   "match": "broad",
+   "source": "PCA RDL",
+   "value_classes": {
+    "Tantalum": {
+     "iri": "http://purl.obolibrary.org/obo/CHEBI_33348",
+     "label": "tantalum (ChEBI concept)",
+     "match": "exact",
+     "source": "PCA RDL"
+    },
+    "Aluminum": {
+     "iri": "http://purl.obolibrary.org/obo/CHEBI_28984",
+     "label": "aluminium (ChEBI concept)",
+     "match": "exact",
+     "source": "PCA RDL"
+    },
+    "Aluminum, ultra low copper": {
+     "iri": "http://purl.obolibrary.org/obo/CHEBI_28984",
+     "label": "aluminium (ChEBI concept)",
+     "match": "broad",
+     "source": "PCA RDL"
+    }
+   }
+  },
+  "material_costs": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "material_examination": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "related"
+   }
+  },
+  "material_option": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/MaterialCompositionQuality",
+   "label": "MaterialCompositionQuality",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "material_options": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "material_testing": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "related"
+   }
+  },
+  "material_traceability_certification": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "material_type": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/MaterialCompositionQuality",
+   "label": "MaterialCompositionQuality",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "material_type_and_body": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "related",
+    "cfihos": "related"
+   }
+  },
+  "materials_conformance": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "materials_of_construction": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "maximum": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "maximum_characters": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003593",
+   "label": "number",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "maximum_communication_range": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003585",
+   "label": "length",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "maximum_deviation": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "maximum_number_of_input_values": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003593",
+   "label": "number",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "maximum_number_of_inputs": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003593",
+   "label": "number",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "maximum_number_of_x_y_coordinates": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003593",
+   "label": "number",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "maximum_offset_adjustment": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "maximum_power_supply": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003575",
+   "label": "electric potential",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "maximum_static_line_pressure": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003596",
+   "label": "pressure",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "maximum_temperature_tmax": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003601",
+   "label": "thermodynamic temperature",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "maximum_zero_shift": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003596",
+   "label": "pressure",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "meaning": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "measurement_type": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   },
+   "value_classes": {
+    "Differential": {
+     "iri": "http://w3id.org/readi/rdl/CFIHOS-30000418",
+     "label": "differential pressure transmitter",
+     "match": "exact",
+     "source": "CFIHOS"
+    },
+    "Gage": {
+     "iri": "http://w3id.org/readi/rdl/CFIHOS-30000208",
+     "label": "relative pressure transmitter",
+     "match": "exact",
+     "source": "CFIHOS"
+    },
+    "Absolute": {
+     "iri": "http://w3id.org/readi/rdl/CFIHOS-30000395",
+     "label": "absolute pressure transmitter",
+     "match": "exact",
+     "source": "CFIHOS"
+    },
+    "Differential pressure": {
+     "iri": "http://w3id.org/readi/rdl/CFIHOS-30000418",
+     "label": "differential pressure transmitter",
+     "match": "exact",
+     "source": "CFIHOS"
+    }
+   }
+  },
+  "measurement_types": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "minimum_load_impedance": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003576",
+   "label": "electrical resistance",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "minimum_loop_resistance": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003576",
+   "label": "electrical resistance",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "minimum_span": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003596",
+   "label": "pressure",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "minimum_static_line_pressure": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003596",
+   "label": "pressure",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "model": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   },
+   "value_classes": {
+    "Coplanar pressure transmitter": {
+     "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100004123",
+     "label": "Transmitter",
+     "match": "broad",
+     "source": "PCA RDL"
+    },
+    "In-Line Pressure Transmitter": {
+     "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100004123",
+     "label": "Transmitter",
+     "match": "broad",
+     "source": "PCA RDL"
+    },
+    "Annubar™ Flow Meter": {
+     "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100005898",
+     "label": "Differential Pressure Flow Meter",
+     "match": "broad",
+     "source": "PCA RDL"
+    },
+    "Compact flow meter": {
+     "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100005898",
+     "label": "Differential Pressure Flow Meter",
+     "match": "broad",
+     "source": "PCA RDL"
+    },
+    "Integral Orifice Flow Meter": {
+     "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100005898",
+     "label": "Differential Pressure Flow Meter",
+     "match": "broad",
+     "source": "PCA RDL"
+    },
+    "Level transmitter": {
+     "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100004087",
+     "label": "Level Transmitter",
+     "match": "exact",
+     "source": "PCA RDL"
+    }
+   }
+  },
+  "model_code_content": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "model_code_example": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "model_code_variation": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "model_codes": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "modulation": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "mounting_bracket": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "related"
+   }
+  },
+  "mounting_type": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "related"
+   }
+  },
+  "nace_certificate": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "related",
+    "cfihos": "none"
+   }
+  },
+  "nace_compliance": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "related",
+    "cfihos": "none"
+   }
+  },
+  "nace_mr0103": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "related",
+    "cfihos": "none"
+   }
+  },
+  "nace_mr0103_conformance": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "related",
+    "cfihos": "none"
+   }
+  },
+  "nace_mr0175_iso_15156": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "related",
+    "cfihos": "none"
+   }
+  },
+  "nace_mr0175_iso_compliance": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "related",
+    "cfihos": "none"
+   }
+  },
+  "namur_ne_21_applicability": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "non_starred_offerings": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "not_available_with": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "not_valid_with": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "note": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "notification": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "number": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003593",
+   "label": "number",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "number_of_arithmetic_functions": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003593",
+   "label": "number",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "number_of_bolts": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003593",
+   "label": "number",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "number_of_control_outputs_driven_from_a_single_input": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003593",
+   "label": "number",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "number_of_selectable_inputs": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003593",
+   "label": "number",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "number_of_tagging_options": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003593",
+   "label": "number",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "number_of_totalizing_options": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003593",
+   "label": "number",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "number_of_trip_outputs": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003593",
+   "label": "number",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "o_d_gasket_surface_d": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003585",
+   "label": "length",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "o_ring": {
+   "iri": "http://w3id.org/readi/rdl/CFIHOS-40000223",
+   "label": "material",
+   "match": "broad",
+   "source": "CFIHOS"
+  },
+  "o_ring_material": {
+   "iri": "http://w3id.org/readi/rdl/CFIHOS-40000223",
+   "label": "material",
+   "match": "broad",
+   "source": "CFIHOS"
+  },
+  "offering": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "online_configurability": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "online_configuration": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "only_available_with": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "operating_conditions": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "operating_frequency": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003580",
+   "label": "frequency",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "operating_range_statement": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003596",
+   "label": "pressure",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "operating_voltage": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003575",
+   "label": "electric potential",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "opposite_side_support_or_packing_gland": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "option": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   },
+   "value_classes": {
+    "Traditional flange": {
+     "iri": "http://w3id.org/readi/rdl/CFIHOS-30000304",
+     "label": "flange",
+     "match": "broad",
+     "source": "CFIHOS"
+    },
+    "Level flange - 3 inch, 150": {
+     "iri": "http://w3id.org/readi/rdl/CFIHOS-30000304",
+     "label": "flange",
+     "match": "broad",
+     "source": "CFIHOS"
+    },
+    "Level flange - 3 inch, 300": {
+     "iri": "http://w3id.org/readi/rdl/CFIHOS-30000304",
+     "label": "flange",
+     "match": "broad",
+     "source": "CFIHOS"
+    },
+    "Level flange - 2 inch, 150": {
+     "iri": "http://w3id.org/readi/rdl/CFIHOS-30000304",
+     "label": "flange",
+     "match": "broad",
+     "source": "CFIHOS"
+    },
+    "Level flange - 2 inch, 300": {
+     "iri": "http://w3id.org/readi/rdl/CFIHOS-30000304",
+     "label": "flange",
+     "match": "broad",
+     "source": "CFIHOS"
+    },
+    "DIN level flange, SST, DN 50, PN 40": {
+     "iri": "http://w3id.org/readi/rdl/CFIHOS-30000304",
+     "label": "flange",
+     "match": "broad",
+     "source": "CFIHOS"
+    },
+    "DIN level flange, SST, DN 80, PN 40": {
+     "iri": "http://w3id.org/readi/rdl/CFIHOS-30000304",
+     "label": "flange",
+     "match": "broad",
+     "source": "CFIHOS"
+    },
+    "Power module (701PGNKF)": {
+     "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100004071",
+     "label": "Electric Battery",
+     "match": "broad",
+     "source": "PCA RDL"
+    }
+   }
+  },
+  "option_code": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "option_codes": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "option_do": {
+   "iri": "http://w3id.org/readi/rdl/CFIHOS-40000223",
+   "label": "material",
+   "match": "broad",
+   "source": "CFIHOS"
+  },
+  "option_l4": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "related"
+   }
+  },
+  "option_l5": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "related"
+   }
+  },
+  "option_l6": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "related"
+   }
+  },
+  "optional_connection": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "related"
+   }
+  },
+  "ordering": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "ordering_instruction": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "ordering_option_code": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "ordering_requirement": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "orifice_plate_design": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "orifice_plate_material": {
+   "iri": "http://w3id.org/readi/rdl/CFIHOS-40000223",
+   "label": "material",
+   "match": "broad",
+   "source": "CFIHOS"
+  },
+  "output": {
+   "iri": "http://w3id.org/readi/rdl/CFIHOS-40000598",
+   "label": "output signal type",
+   "match": "broad",
+   "source": "CFIHOS"
+  },
+  "output_characteristic": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "output_configuration": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "output_range_points": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "output_signal": {
+   "iri": "http://w3id.org/readi/rdl/CFIHOS-40000598",
+   "label": "output signal type",
+   "match": "exact",
+   "source": "CFIHOS"
+  },
+  "output_transfer_function": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "output_update_rate": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003580",
+   "label": "frequency",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "outside_diameter_j": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003585",
+   "label": "length",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "overpressure_limit": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003596",
+   "label": "pressure",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "packing_gland_material": {
+   "iri": "http://w3id.org/readi/rdl/CFIHOS-40000223",
+   "label": "material",
+   "match": "broad",
+   "source": "CFIHOS"
+  },
+  "packing_material": {
+   "iri": "http://w3id.org/readi/rdl/CFIHOS-40000223",
+   "label": "material",
+   "match": "broad",
+   "source": "CFIHOS"
+  },
+  "panel_mounting_bolts": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "parameters_typically_configured_by_instrument_personnel": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "parameters_typically_configured_by_the_control_systems_configuration_engineer": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "part_1": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "part_1_meaning": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "part_2": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "part_2_meaning": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "permanent_pressure_loss_compared_to_traditional_orifice_plate_installations": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "related"
+   }
+  },
+  "permanent_pressure_loss_reduction_compared_to_traditional_orifice_plate_installations": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003597",
+   "label": "ratio",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "pipe_compatibility": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "related"
+   }
+  },
+  "pipe_id_range": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003585",
+   "label": "length",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "pipe_material_mounting_assembly_material": {
+   "iri": "http://w3id.org/readi/rdl/CFIHOS-40000223",
+   "label": "material",
+   "match": "broad",
+   "source": "CFIHOS"
+  },
+  "pipe_section": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "piping_orientation": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "related"
+   }
+  },
+  "plantweb_control_functionality": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "plantweb_diagnostic_functionality": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "positive_material_identification_pmi": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "related"
+   }
+  },
+  "power_consumption": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003595",
+   "label": "power",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "power_module": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "related",
+    "cfihos": "related"
+   }
+  },
+  "power_supply_effect": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "pressure_measurement_types": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "pressure_range": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003596",
+   "label": "pressure",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "pressure_testing": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "related"
+   }
+  },
+  "pressure_type": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   },
+   "value_classes": {
+    "Gage": {
+     "iri": "http://w3id.org/readi/rdl/CFIHOS-30000208",
+     "label": "relative pressure transmitter",
+     "match": "exact",
+     "source": "CFIHOS"
+    },
+    "Absolute": {
+     "iri": "http://w3id.org/readi/rdl/CFIHOS-30000395",
+     "label": "absolute pressure transmitter",
+     "match": "exact",
+     "source": "CFIHOS"
+    }
+   }
+  },
+  "primary_element_technology": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "related",
+    "cfihos": "related"
+   },
+   "value_classes": {
+    "Conditioning orifice plate": {
+     "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100004080",
+     "label": "Flow Orifice",
+     "match": "broad",
+     "source": "PCA RDL"
+    },
+    "Orifice plate": {
+     "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100004080",
+     "label": "Flow Orifice",
+     "match": "exact",
+     "source": "PCA RDL"
+    }
+   }
+  },
+  "primary_element_type": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003597",
+   "label": "ratio",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "primary_element_type_code_c": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "related",
+    "cfihos": "related"
+   },
+   "value_classes": {
+    "Conditioning orifice plate": {
+     "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100004080",
+     "label": "Flow Orifice",
+     "match": "broad",
+     "source": "PCA RDL"
+    }
+   }
+  },
+  "primary_element_type_code_p": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "related",
+    "cfihos": "related"
+   },
+   "value_classes": {
+    "Compact orifice plate": {
+     "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100004080",
+     "label": "Flow Orifice",
+     "match": "broad",
+     "source": "PCA RDL"
+    }
+   }
+  },
+  "primary_elements": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "related",
+    "cfihos": "related"
+   }
+  },
+  "process_connection": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "related"
+   }
+  },
+  "process_connection_offering": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "process_connection_reference": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "process_connection_size": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003585",
+   "label": "length",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "process_connection_style": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "related"
+   }
+  },
+  "process_connection_wetted_parts_material": {
+   "iri": "http://w3id.org/readi/rdl/CFIHOS-40000223",
+   "label": "material",
+   "match": "broad",
+   "source": "CFIHOS"
+  },
+  "process_fill_fluid_options": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "process_side_h": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003585",
+   "label": "length",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "process_temperature_limit": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003601",
+   "label": "thermodynamic temperature",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "product_approval_information": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "product_certification": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "related",
+    "cfihos": "related"
+   }
+  },
+  "product_description": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "profile_version": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "related"
+   }
+  },
+  "purchaser_must_specify_and_select": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "purchaser_responsibility": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "quality_certification_for_safety": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "related",
+    "cfihos": "related"
+   }
+  },
+  "qz_option": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "range_availability": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "rated_conditions": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "rating": {
+   "iri": "http://w3id.org/readi/rdl/CFIHOS-40000591",
+   "label": "pressure rating",
+   "match": "exact",
+   "source": "CFIHOS"
+  },
+  "rating_reference_temperature_rating_decreases_with_increasing_temperature_per_ansi_asme_b16_5": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003601",
+   "label": "thermodynamic temperature",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "rating_reference_temperature_rating_decreases_with_increasing_temperature_per_din_2401": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003601",
+   "label": "thermodynamic temperature",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "rating_temperature_note": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "rc1_4_rc1_2_process_connection": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "related"
+   }
+  },
+  "reduction_of_specified_life": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "related"
+   }
+  },
+  "reference": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "reference_accuracy": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "related"
+   }
+  },
+  "reference_document": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "relation_to_sensor_module_response_time": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "relation_to_t1_option": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "relative_humidity": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "related",
+    "cfihos": "related"
+   }
+  },
+  "remote_adapters": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "remote_seal_diaphragm_coating": {
+   "iri": "http://w3id.org/readi/rdl/CFIHOS-40000041",
+   "label": "coating specification",
+   "match": "broad",
+   "source": "CFIHOS"
+  },
+  "required_housing_code": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "required_model_components": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "required_sensor_fill_fluid": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "related"
+   }
+  },
+  "required_transmitter_output_code": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "requirement": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "requirement_wireless_options": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "response_time": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003603",
+   "label": "time",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "ring_material": {
+   "iri": "http://w3id.org/readi/rdl/CFIHOS-40000223",
+   "label": "material",
+   "match": "broad",
+   "source": "CFIHOS"
+  },
+  "rod_material": {
+   "iri": "http://w3id.org/readi/rdl/CFIHOS-40000223",
+   "label": "material",
+   "match": "broad",
+   "source": "CFIHOS"
+  },
+  "rosemount_3051_wireless_transmitter": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "rotation": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "related",
+    "cfihos": "none"
+   }
+  },
+  "safety_certification": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "related",
+    "cfihos": "related"
+   }
+  },
+  "safety_certification_and_proof_testing": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "savings_compared_to_a_traditional_orifice_plate_installation": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "scope": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "seal_assemblies": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "selectable_functions": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "selection": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "sensor_design": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "sensor_fill_fluid": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "related"
+   }
+  },
+  "sensor_fill_fluid_and_o_ring_options": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "sensor_fluid": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "related"
+   }
+  },
+  "sensor_material": {
+   "iri": "http://w3id.org/readi/rdl/CFIHOS-40000223",
+   "label": "material",
+   "match": "broad",
+   "source": "CFIHOS"
+  },
+  "sensor_size": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "related"
+   }
+  },
+  "shipboard_approvals": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "related",
+    "cfihos": "related"
+   }
+  },
+  "simplified_flow_configuration_code_m6_ble_d1_da1_t9_or_rk": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "simplified_flow_configuration_with_clearly_displayed_flow_rate_and_added_totalizer": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "simultaneously_processed_analog_input_signals": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/CFIHOS-45000037",
+   "label": "Count (CFIHOS concept)",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "size": {
+   "iri": "http://w3id.org/readi/rdl/CFIHOS-40000247",
+   "label": "nominal size",
+   "match": "exact",
+   "source": "CFIHOS"
+  },
+  "size_npt": {
+   "iri": "http://w3id.org/readi/rdl/CFIHOS-40001155",
+   "label": "thread specification",
+   "match": "broad",
+   "source": "CFIHOS"
+  },
+  "sizing_tool": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "sizing_tool_functions": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "small_line_size_measurement_error_sources": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "software_configuration": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "software_tag": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "span_basis": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "span_effect": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "special_cleaning": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "related"
+   }
+  },
+  "special_dimensions": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "special_inspection": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "related"
+   }
+  },
+  "special_shipment": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "specific_gravity": {
+   "iri": "http://w3id.org/readi/rdl/CFIHOS-40000780",
+   "label": "rated relative density",
+   "match": "exact",
+   "source": "CFIHOS"
+  },
+  "specification_conformance": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "spool_section_lengths_and_schedules": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "sst_rating": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003596",
+   "label": "pressure",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "sst_sensor_module": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "sst_tagging": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "stability": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "standard_material": {
+   "iri": "http://w3id.org/readi/rdl/CFIHOS-40000223",
+   "label": "material",
+   "match": "broad",
+   "source": "CFIHOS"
+  },
+  "standard_sensor_module_material": {
+   "iri": "http://w3id.org/readi/rdl/CFIHOS-40000223",
+   "label": "material",
+   "match": "broad",
+   "source": "CFIHOS"
+  },
+  "starred_offering": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "starred_offerings": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "static_pressure_limit": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003596",
+   "label": "pressure",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "storage_temperature_above_which_a_sensor_trim_is_required_prior_to_installation": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003601",
+   "label": "thermodynamic temperature",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "storage_temperature_limit": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003601",
+   "label": "thermodynamic temperature",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "straight_run_requirement_conditioning_orifice": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "surface_finish": {
+   "iri": "http://w3id.org/readi/rdl/CFIHOS-40001352",
+   "label": "surface finish",
+   "match": "exact",
+   "source": "CFIHOS"
+  },
+  "t1_option": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "tag_character_height": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003585",
+   "label": "length",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "tag_content": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "tc": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003603",
+   "label": "time",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "td": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003603",
+   "label": "time",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "technology": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "temperature_limits_ambient_temperature_of_70_f_21_c": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003601",
+   "label": "thermodynamic temperature",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "temperature_measurement": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   },
+   "value_classes": {
+    "Integral RTD": {
+     "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100004119",
+     "label": "Temperature Element",
+     "match": "broad",
+     "source": "PCA RDL"
+    }
+   }
+  },
+  "temperature_sensor": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "test_standard": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "the_purchaser_of_the_equipment_must_specify_and_select": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "thermowell_material": {
+   "iri": "http://w3id.org/readi/rdl/CFIHOS-40000223",
+   "label": "material",
+   "match": "broad",
+   "source": "CFIHOS"
+  },
+  "time_constant_tc_reference_level": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "time_to_performance_within_specifications_after_power_is_applied_to_the_transmitter": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003603",
+   "label": "time",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "toolkit_total_system_performance_reports": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "total_performance": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "related"
+   }
+  },
+  "total_response_time_td_tc": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003603",
+   "label": "time",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "total_system_performance_reports": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "transducer_block": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "transient_protection": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "related"
+   },
+   "value_classes": {
+    "Transient protection terminal block": {
+     "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100006000",
+     "label": "Terminal Block",
+     "match": "broad",
+     "source": "PCA RDL"
+    },
+    "Transient terminal block": {
+     "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100006000",
+     "label": "Terminal Block",
+     "match": "broad",
+     "source": "PCA RDL"
+    }
+   }
+  },
+  "transient_protection_included_in_fisco_codes": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "transmission": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003595",
+   "label": "power",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "transmitter_body_bolt_material": {
+   "iri": "http://w3id.org/readi/rdl/CFIHOS-40000223",
+   "label": "material",
+   "match": "broad",
+   "source": "CFIHOS"
+  },
+  "transmitter_calibration_certification": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "related",
+    "cfihos": "none"
+   },
+   "value_classes": {
+    "Calibration certificate for transmitter": {
+     "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100006114",
+     "label": "Calibration certificate",
+     "match": "exact",
+     "source": "PCA RDL"
+    }
+   }
+  },
+  "transmitter_connection_platform": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "related",
+    "cfihos": "related"
+   },
+   "value_classes": {
+    "Direct-mount, integral 3-valve manifold- not available with flanged model greater than Class 600": {
+     "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100005953",
+     "label": "Manifold",
+     "match": "broad",
+     "source": "PCA RDL"
+    },
+    "Direct-mount, 5-valve manifold - not available with flanged model greater than Class 600": {
+     "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100005953",
+     "label": "Manifold",
+     "match": "broad",
+     "source": "PCA RDL"
+    },
+    "Direct-mount, high temperature 5-valve manifold - not available with flanged model greater than Class 600": {
+     "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100005953",
+     "label": "Manifold",
+     "match": "broad",
+     "source": "PCA RDL"
+    },
+    "Direct-mount, integral 3-valve manifold": {
+     "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100005953",
+     "label": "Manifold",
+     "match": "broad",
+     "source": "PCA RDL"
+    },
+    "Direct-mount, 3-valve manifold, SST": {
+     "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100005953",
+     "label": "Manifold",
+     "match": "broad",
+     "source": "PCA RDL"
+    },
+    "Direct-mount, 5-valve manifold, SST": {
+     "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100005953",
+     "label": "Manifold",
+     "match": "broad",
+     "source": "PCA RDL"
+    },
+    "Remote-mount, 3-valve manifold, SST": {
+     "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100005953",
+     "label": "Manifold",
+     "match": "broad",
+     "source": "PCA RDL"
+    },
+    "Remote-mount, 5-valve manifold, SST": {
+     "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100005953",
+     "label": "Manifold",
+     "match": "broad",
+     "source": "PCA RDL"
+    },
+    "Direct-mount, 3-valve manifold, alloy C-276": {
+     "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100005953",
+     "label": "Manifold",
+     "match": "broad",
+     "source": "PCA RDL"
+    },
+    "Direct-mount, 5-valve manifold, alloy C-276": {
+     "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100005953",
+     "label": "Manifold",
+     "match": "broad",
+     "source": "PCA RDL"
+    },
+    "Remote-mount, 3-valve manifold, alloy C-276": {
+     "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100005953",
+     "label": "Manifold",
+     "match": "broad",
+     "source": "PCA RDL"
+    },
+    "Remote-mount, 5-valve manifold, alloy C-276": {
+     "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100005953",
+     "label": "Manifold",
+     "match": "broad",
+     "source": "PCA RDL"
+    }
+   }
+  },
+  "transmitter_diaphragm_material": {
+   "iri": "http://w3id.org/readi/rdl/CFIHOS-40000223",
+   "label": "material",
+   "match": "broad",
+   "source": "CFIHOS"
+  },
+  "transmitter_flange_type": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "related"
+   }
+  },
+  "transmitter_height": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003585",
+   "label": "length",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "transmitter_output": {
+   "iri": "http://w3id.org/readi/rdl/CFIHOS-40000598",
+   "label": "output signal type",
+   "match": "exact",
+   "source": "CFIHOS"
+  },
+  "transmitter_performance_class": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "related"
+   }
+  },
+  "transmitter_terminal_voltage": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003594",
+   "label": "potential difference",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "tuned_system_assemblies": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "typical_3051cfa_model_code": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "typical_3051cfc_model_code": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "typical_3051cfp_model_code": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "typical_model_code": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "typical_range": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003585",
+   "label": "length",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "typical_reading": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "typical_use": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "uncertainty_compared_to_traditional_orifice_plate_installation": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "uncertainty_reduction_compared_to_traditional_orifice_plate_installation": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "unit_labels": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "update_rate": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003580",
+   "label": "frequency",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "upper_url": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003596",
+   "label": "pressure",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "upstream_and_downstream": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003585",
+   "label": "length",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "vacuum_applications_below": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003596",
+   "label": "pressure",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "variation": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "vent_drain_valves": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "related"
+   }
+  },
+  "vibration_effect": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "view_shown": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "virtual_communications_relationship_vcr": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "volumetric_displacement": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003605",
+   "label": "volume",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "volumetric_flow_accuracy": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "related"
+   }
+  },
+  "weight_without_options": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003589",
+   "label": "mass",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "wetted_materials_requirement": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "where_to_configure": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "where_to_start": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "wireless_sensor_module": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "wireless_standard": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "related",
+    "cfihos": "related"
+   }
+  },
+  "wireless_transmit_rate_operating_frequency_and_protocol": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "related",
+    "cfihos": "related"
+   }
+  },
+  "zero_shift_correction": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  }
+ },
+ "conditions": {
+  "alarm setting": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "beta ratio": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003597",
+   "label": "ratio",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "bolt material": {
+   "iri": "http://w3id.org/readi/rdl/CFIHOS-40000223",
+   "label": "material",
+   "match": "broad",
+   "source": "CFIHOS"
+  },
+  "button option": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "calibration": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "component": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "configuration": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "connection": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "diaphragm material": {
+   "iri": "http://w3id.org/readi/rdl/CFIHOS-40000223",
+   "label": "material",
+   "match": "broad",
+   "source": "CFIHOS"
+  },
+  "display": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "related",
+    "cfihos": "none"
+   }
+  },
+  "display option": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "related",
+    "cfihos": "none"
+   }
+  },
+  "error type": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "extension length": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003585",
+   "label": "length",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "feature": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "figure": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "fill fluid": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "flange class": {
+   "iri": "http://w3id.org/readi/rdl/CFIHOS-40000591",
+   "label": "pressure rating",
+   "match": "exact",
+   "source": "CFIHOS"
+  },
+  "flange material": {
+   "iri": "http://w3id.org/readi/rdl/CFIHOS-40000223",
+   "label": "material",
+   "match": "broad",
+   "source": "CFIHOS"
+  },
+  "flange rating": {
+   "iri": "http://w3id.org/readi/rdl/CFIHOS-40000591",
+   "label": "pressure rating",
+   "match": "exact",
+   "source": "CFIHOS"
+  },
+  "flange size and rating": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "related"
+   }
+  },
+  "flange standard": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "related",
+    "cfihos": "none"
+   }
+  },
+  "frequency range": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003580",
+   "label": "frequency",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "function block": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "housing": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "related",
+    "cfihos": "related"
+   }
+  },
+  "line pressure": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003596",
+   "label": "pressure",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "line size": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003585",
+   "label": "length",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "load aspect": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "load condition": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "measurement type": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "model": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "model code part": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "mounting component": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "mounting orientation": {
+   "iri": "http://w3id.org/readi/rdl/CFIHOS-40000561",
+   "label": "orientation",
+   "match": "exact",
+   "source": "CFIHOS"
+  },
+  "note": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "operating condition": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "option code": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "option group": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "output protocol": {
+   "iri": "http://w3id.org/readi/rdl/CFIHOS-40000599",
+   "label": "communication protocol",
+   "match": "exact",
+   "source": "CFIHOS"
+  },
+  "part group": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "pipe size": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003585",
+   "label": "length",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "primary element type": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "related",
+    "cfihos": "related"
+   }
+  },
+  "process connection": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "process connection side": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "range": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "related"
+   }
+  },
+  "range condition": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "reference condition": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "sensor module type": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "sensor size": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "supply configuration": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "tag type": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "test condition": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "test standard": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "related",
+    "cfihos": "none"
+   }
+  },
+  "test waveform": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "time period": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003603",
+   "label": "time",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "turndown": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003597",
+   "label": "ratio",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "unit category": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   },
+   "value_classes": {
+    "Pressure": {
+     "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003596",
+     "label": "pressure",
+     "match": "exact",
+     "source": "PCA RDL"
+    },
+    "Volume": {
+     "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003605",
+     "label": "volume",
+     "match": "exact",
+     "source": "PCA RDL"
+    }
+   }
+  },
+  "valve position": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "wiring": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  }
+ },
+ "source": "C:/Users/Zsombi/plantqa/data/datasheets/rosemount-3051-00813-0100-4001/09-szokeszlet/vocab-check.json"
+}

@@ -5,61 +5,65 @@
     "flowserve-worcester-f51-f52",
     "gfps-165-solenoid-valve",
     "gorman-rupp-0700286",
+    "rosemount-3051-00813-0100-4001",
     "swagelok-ms-01-176"
   ],
-  "documents_missing_graph": [
-    "rosemount-3051-00813-0100-4001"
-  ],
-  "described_by_edges": 22,
+  "documents_missing_graph": [],
+  "described_by_edges": 24,
   "vectors": {
     "alfalaval-m3": 109,
     "fisher-et-d100022x012": 1704,
     "flowserve-worcester-f51-f52": 1221,
     "gfps-165-solenoid-valve": 329,
     "gorman-rupp-0700286": 1689,
+    "rosemount-3051-00813-0100-4001": 4684,
     "swagelok-ms-01-176": 4753
   },
   "seconds": {
-    "reset": 3.1278653000481427,
-    "plant_layer": 3.8443153999978676,
-    "vectors": 141.37085459998343,
-    "total": 153.12053110002307
+    "reset": 7.893049000005703,
+    "plant_layer": 3.63839989999542,
+    "vectors": 222.3577369999839,
+    "total": 243.1835573000135
   },
   "device_seconds": {
     "alfalaval-m3": {
-      "seconds": 0.055377200013026595,
+      "seconds": 0.27953159995377064,
       "nodes": 135
     },
     "fisher-et-d100022x012": {
-      "seconds": 0.8258549000020139,
+      "seconds": 1.6712051999638788,
       "nodes": 3324
     },
     "flowserve-worcester-f51-f52": {
-      "seconds": 0.35779229999752715,
+      "seconds": 0.6492310999892652,
       "nodes": 1627
     },
     "gfps-165-solenoid-valve": {
-      "seconds": 0.13463899999624118,
+      "seconds": 0.2580292000202462,
       "nodes": 599
     },
     "gorman-rupp-0700286": {
-      "seconds": 0.8459077999577858,
+      "seconds": 0.8241419999976642,
       "nodes": 2629
     },
+    "rosemount-3051-00813-0100-4001": {
+      "seconds": 2.9571497999713756,
+      "nodes": 10928
+    },
     "swagelok-ms-01-176": {
-      "seconds": 1.7114582000067458,
+      "seconds": 2.0090234999661334,
       "nodes": 8373
     }
   },
   "counts": {
     "plant_nodes": 36,
     "plant_relationships": 116,
-    "device_nodes": 16687,
-    "shared_vocabulary_nodes": 144,
-    "device_relationships": 63937,
-    "described_by": 22,
-    "all_nodes": 16869,
-    "all_relationships": 64075,
+    "device_nodes": 27615,
+    "shared_vocabulary_nodes": 221,
+    "device_relationships": 103366,
+    "described_by": 24,
+    "all_nodes": 27874,
+    "all_relationships": 103506,
     "per_document": [
       {
         "doc": "alfalaval-m3",
@@ -85,6 +89,11 @@
         "doc": "gorman-rupp-0700286",
         "nodes": 2629,
         "relationships": 9029
+      },
+      {
+        "doc": "rosemount-3051-00813-0100-4001",
+        "nodes": 10928,
+        "relationships": 39412
       },
       {
         "doc": "swagelok-ms-01-176",

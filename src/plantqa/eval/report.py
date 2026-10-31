@@ -10,6 +10,7 @@ from __future__ import annotations
 import argparse
 import csv
 import json
+import random
 import statistics
 from collections import Counter, defaultdict
 from pathlib import Path
@@ -18,6 +19,8 @@ from typing import Any
 from plantqa.eval.run import RUNS
 
 VERDICTS = ("correct", "partial", "wrong", "hallucinated", "pending")
+BOOTSTRAP = 10000
+BOOTSTRAP_SEED = 20261031
 FIELDS = [
     "exp",
     "method",
@@ -27,6 +30,8 @@ FIELDS = [
     "n",
     *VERDICTS,
     "accuracy",
+    "ci_low",
+    "ci_high",
     "prompt_tokens",
     "completion_tokens",
     "cost_usd",
@@ -52,6 +57,8 @@ def summarize(exp: str, rows: list[dict[str, Any]]) -> dict[str, Any]:
     out |= {"split": first["split"], "n": len(rows)}
     out |= {v: verdicts.get(v, 0) for v in VERDICTS}
     out["accuracy"] = round(verdicts.get("correct", 0) / len(rows), 4)
+    low, high = bootstrap_ci([int(r["score"]["verdict"] == "correct") for r in rows])
+    out["ci_low"], out["ci_high"] = round(low, 4), round(high, 4)
     for key in ("prompt_tokens", "completion_tokens"):
         out[key] = sum(int(u.get(key, 0)) for u in usage)
     for key in ("cost_usd", "spent_usd"):
@@ -59,6 +66,41 @@ def summarize(exp: str, rows: list[dict[str, Any]]) -> dict[str, Any]:
     out["latency_median_s"] = round(statistics.median(latency), 2)
     out["latency_mean_s"] = round(statistics.fmean(latency), 2)
     return out
+
+
+def bootstrap_ci(values: list[int]) -> tuple[float, float]:
+    """A 0/1 értékek átlagának 95%-os percentilis-bootstrap intervalluma (seedelt)."""
+    rng = random.Random(BOOTSTRAP_SEED)
+    n = len(values)
+    means = sorted(sum(rng.choices(values, k=n)) / n for _ in range(BOOTSTRAP))
+    return means[int(0.025 * BOOTSTRAP)], means[int(0.975 * BOOTSTRAP) - 1]
+
+
+def paired_differences(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """Módszerpárok pontosságkülönbsége ugyanazon kérdéseken, bootstrap-intervallummal."""
+    correct: dict[tuple[str, str, str], dict[str, int]] = defaultdict(dict)
+    for r in rows:
+        key = (r["model"], r["split"], r["method"])
+        correct[key][r["qid"]] = int(r["score"]["verdict"] == "correct")
+    out = []
+    for (model, split, a), qa in sorted(correct.items()):
+        for (model2, split2, b), qb in sorted(correct.items()):
+            if (model2, split2) != (model, split) or a >= b:
+                continue
+            shared = sorted(set(qa) & set(qb))
+            diffs = [qa[q] - qb[q] for q in shared]
+            low, high = _diff_ci(diffs)
+            mean = round(sum(diffs) / len(diffs), 4)
+            row = {"model": model, "split": split, "a": a, "b": b, "n": len(diffs)}
+            out.append({**row, "diff": mean, "ci_low": round(low, 4), "ci_high": round(high, 4)})
+    return out
+
+
+def _diff_ci(diffs: list[int]) -> tuple[float, float]:
+    rng = random.Random(BOOTSTRAP_SEED)
+    n = len(diffs)
+    means = sorted(sum(rng.choices(diffs, k=n)) / n for _ in range(BOOTSTRAP))
+    return means[int(0.025 * BOOTSTRAP)], means[int(0.975 * BOOTSTRAP) - 1]
 
 
 def table(exp: str, rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
@@ -111,6 +153,9 @@ def main() -> None:
     folder = RUNS / exp
     write_csv(folder / "summary.csv", summary, FIELDS)
     write_csv(folder / "routes.csv", routes(rows), ["method", "model", "route", "n"])
+    pairs = paired_differences(rows)
+    fields = ["model", "split", "a", "b", "n", "diff", "ci_low", "ci_high"]
+    write_csv(folder / "pairs.csv", pairs, fields)
     (folder / "summary.md").write_text(markdown(summary), encoding="utf-8")
     print(markdown([r for r in summary if r["family"] == "all"]))
 

@@ -1,0 +1,8 @@
+{
+  "load": "EXP-005",
+  "dev": [
+    {"exp": "EXP-010", "label": "kiindulás\n(Rosemount nélkül)"},
+    {"exp": "EXP-011", "label": "M1: A2-szabályok\nM2/M3: válaszszabály"}
+  ],
+  "test": "EXP-020"
+}

@@ -243,10 +243,57 @@ def graph_layers(plan: dict[str, Any]) -> None:
     save(fig, "graph_layers")
 
 
+def pid_sheet() -> None:
+    """A P&ID első lapja a rajzexport PDF-jéből (Benedek `demo.drawing`, EXP-003)."""
+    import pymupdf
+
+    doc: Any = pymupdf.open(ROOT / "data/plant/drawings/PQA/drawings.pdf")  # type: ignore[no-untyped-call]
+    doc[0].get_pixmap(dpi=170).save(str(FIGURES / "pid_sheet0.png"))
+    write_csv("pid_sheet0", [{"source": "data/plant/drawings/PQA/drawings.pdf", "page": 1}])
+
+
+def _box(ax: Any, x: float, y: float, text: str, color: str, w: float = 2.6) -> None:
+    ax.add_patch(Rectangle((x - w / 2, y - 0.32), w, 0.64, facecolor=color, edgecolor="none"))
+    ax.text(x, y, text, ha="center", va="center", fontsize=7, color="white")
+
+
+def _arrow(ax: Any, start: tuple[float, float], end: tuple[float, float]) -> None:
+    ax.annotate("", xy=end, xytext=start, arrowprops={"arrowstyle": "->", "color": MUTED})
+
+
+def methods_overview() -> None:
+    """A három módszer sematikus felépítése (adat nélküli ábra)."""
+    fig, ax = plt.subplots(figsize=(8.6, 3.6))
+    columns = {
+        "M1": ["kérdés", "Cypher-szint\n(üzem + adatlap séma)", "ágens + datasheet_fact",
+               "összevont Neo4j-gráf"],
+        "M2": ["kérdés", "router-ágens", "drawing: cascade_v4_iso\ndatasheet: plantdocs A2",
+               "összevont Neo4j-gráf"],
+        "M3": ["kérdés", "egy LLM-hívás", "egész rajz (ContextRAG)\n+ 12 adatlap-darab",
+               "PDF-szöveg + vektorok"],
+    }  # fmt: skip
+    for i, (method, labels) in enumerate(columns.items()):
+        x = 1.6 + i * 3.4
+        ax.text(x, 4.05, method, ha="center", fontsize=10, fontweight="bold", color=TEXT)
+        for k, label in enumerate(labels):
+            _box(ax, x, 3.3 - k * 0.95, label, METHOD_COLORS[method] if k else MUTED)
+            if k:
+                _arrow(ax, (x, 3.3 - (k - 1) * 0.95 - 0.33), (x, 3.3 - k * 0.95 + 0.33))
+    ax.set_xlim(0, 10.2)
+    ax.set_ylim(0, 4.4)
+    ax.axis("off")
+    write_csv(
+        "methods_overview", [{"method": m, "steps": " -> ".join(v)} for m, v in columns.items()]
+    )
+    save(fig, "methods_overview")
+
+
 def main() -> None:
     """Minden ábra újragenerálása."""
     FIGURES.mkdir(exist_ok=True)
     plan = json.loads((FIGURES / "plan.json").read_text(encoding="utf-8"))
+    pid_sheet()
+    methods_overview()
     graph_layers(plan)
     dev_progress(plan)
     test_by_family(plan)

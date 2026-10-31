@@ -1,0 +1,379 @@
+[
+ {
+  "item": "195232c06e",
+  "gold": {
+   "answer": "A sliding-stem, single-port globe-style control valve (body) with cage guiding, balanced valve plug and push-down-to-close plug action, for throttling or on-off control of liquids and gases (part of the easy-e family; EAT = angle version, ETR = push-down-to-open). It is combined with an actuator, e.g. 667.",
+   "answerable": "yes",
+   "category": "value",
+   "must": [
+    "globe-style control valve (sliding stem)",
+    "cage-guided, balanced plug"
+   ],
+   "relation": "upstream",
+   "via_tag": "FV-2-2",
+   "question": "Consider the item directly upstream of CHV-2-2 in the process flow. What is a Fisher ET? Is it the valve body, and what kind of valve is it?"
+  },
+  "candidate": "The item directly upstream of CHV-2-2 is FV-2-2, whose datasheet covers the Fisher ET. The Fisher ET is a valve body: a single-port, globe-style control valve with cage guiding, a balanced valve plug and push-down-to-close plug action. It belongs to the Fisher ET/EAT/ETR family (EAT is an angle version; ETR has push-down-to-open action). Sizes range from NPS 1 to NPS 8 depending on end connection style."
+ },
+ {
+  "item": "671d0b87f4",
+  "gold": {
+   "answer": "HART 4-20 mA: if self-diagnostics detect a sensor or microprocessor failure, the output is driven high or low; the direction is user-selectable with a jumper/switch on the transmitter. Factory default is High alarm unless specified (CT = Rosemount standard low alarm, CN = NAMUR low, C4 = NAMUR high). Levels: default high >= 21.75 mA (>= 22.5 mA with M6, DA1, T9, RK), low <= 3.75 mA; NAMUR >= 22.5 / <= 3.6 mA; custom 20.2-23.0 / 3.6-3.8 mA. Output M: below 0.94 V or above 5.4 V, selectable by internal jumper. F, W, X: failure passed as alert and status.",
+   "answerable": "yes",
+   "category": "conditional",
+   "must": [
+    "high or low, user-selectable by jumper/switch",
+    "default high",
+    "alarm values per standard/NAMUR/custom",
+    "output M internal jumper"
+   ],
+   "relation": "fed_by_transmitter",
+   "via_tag": "FT-2-2",
+   "question": "Consider the transmitter that feeds controller FIC-2-2. When the transmitter fails, does the output go high or low, and how do I change that alarm direction?"
+  },
+  "candidate": "The failure mode of the transmitter depends on its output protocol. For HART 4-20 mA, the high or low failure mode is user-selectable with a jumper or switch on the transmitter. For Output code M, the failure mode (below 0.94 V or above 5.4 V) is selectable by an internal jumper."
+ },
+ {
+  "item": "b784989b24",
+  "gold": {
+   "answer": "Not in the document (no troubleshooting).",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated"
+   ],
+   "question": "Regarding P-1-1 on the P&ID: It won't prime anymore, it used to. What should I check first?"
+  },
+  "candidate": "Not in the documents."
+ },
+ {
+  "item": "821a7648b1",
+  "gold": {
+   "answer": "Standard cages: quick-opening, linear or equal percentage. Whisper Trim, WhisperFlo and Cavitrol cages: linear only.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "all three with standard cage",
+    "special cages linear only"
+   ],
+   "question": "Regarding FV-2-2 on the P&ID: What flow characteristics can I get: equal percentage, linear, quick opening?"
+  },
+  "candidate": "The Fisher ET/EAT/ETR control valve datasheet (fisher-et-d100022x012), which covers FV-2-2, explicitly mentions an equal percentage cage: Table 17 gives maximum flow coefficients for full-sized trim with equal percentage cage and normal flow direction. The excerpts do not state whether linear or quick opening flow characteristics are available for this valve, so those two options are not confirmed by the documents."
+ },
+ {
+  "item": "dad5a9d795",
+  "gold": {
+   "answer": "Not in the document (no troubleshooting).",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated"
+   ],
+   "question": "Regarding PV-2-1 on the P&ID: The valve leaks through when shut. Is it the seat ring or the plug seal, and how do I check?"
+  },
+  "candidate": "Not in the documents."
+ },
+ {
+  "item": "a515ccb814",
+  "gold": {
+   "answer": "A sliding-stem, single-port globe-style control valve (body) with cage guiding, balanced valve plug and push-down-to-close plug action, for throttling or on-off control of liquids and gases (part of the easy-e family; EAT = angle version, ETR = push-down-to-open). It is combined with an actuator, e.g. 667.",
+   "answerable": "yes",
+   "category": "value",
+   "must": [
+    "globe-style control valve (sliding stem)",
+    "cage-guided, balanced plug"
+   ],
+   "relation": "upstream",
+   "via_tag": "FV-2-2",
+   "question": "Consider the item directly upstream of CHV-2-2 in the process flow. What is a Fisher ET? Is it the valve body, and what kind of valve is it?"
+  },
+  "candidate": "The item directly upstream of CHV-2-2 is FV-2-2, which is controlled by the FIC-2-2 loop. According to the Fisher datasheet (fisher-et-d100022x012), the Fisher ET is a single-port, globe-style control valve with cage guiding, a balanced valve plug, and push-down-to-close valve plug action. So yes, it is the valve body of a globe-style (sliding-stem) control valve, part of the Fisher easy-e family, used for throttling or on-off control of liquids and gases."
+ },
+ {
+  "item": "d5cb097427",
+  "gold": {
+   "answer": "HART 4-20 mA: if self-diagnostics detect a sensor or microprocessor failure, the output is driven high or low; the direction is user-selectable with a jumper/switch on the transmitter. Factory default is High alarm unless specified (CT = Rosemount standard low alarm, CN = NAMUR low, C4 = NAMUR high). Levels: default high >= 21.75 mA (>= 22.5 mA with M6, DA1, T9, RK), low <= 3.75 mA; NAMUR >= 22.5 / <= 3.6 mA; custom 20.2-23.0 / 3.6-3.8 mA. Output M: below 0.94 V or above 5.4 V, selectable by internal jumper. F, W, X: failure passed as alert and status.",
+   "answerable": "yes",
+   "category": "conditional",
+   "must": [
+    "high or low, user-selectable by jumper/switch",
+    "default high",
+    "alarm values per standard/NAMUR/custom",
+    "output M internal jumper"
+   ],
+   "relation": "fed_by_transmitter",
+   "via_tag": "FT-2-2",
+   "question": "Consider the transmitter that feeds controller FIC-2-2. When the transmitter fails, does the output go high or low, and how do I change that alarm direction?"
+  },
+  "candidate": "The transmitter feeding FIC-2-2 is FT-2-2 (a Rosemount 3051). It has no fixed fail direction: on a detected sensor or microprocessor failure the 4–20 mA output is driven either high or low, and the direction is user-selectable via a jumper/switch inside the transmitter. Default factory setting is high alarm (≥ 21.75 mA; ≥ 22.5 mA for some option codes); NAMUR-compliant settings are high ≥ 22.5 mA or low ≤ 3.6 mA, and custom levels are also possible (high 20.2–23.0 mA, low 3.6–3.8 mA). You can change the direction either with the internal jumper/switch or by ordering the desired alarm-levels option code from the factory (C4 = NAMUR high, CN = NAMUR low, CR/CS = custom high/low, CT = Rosemount standard low); these options apply only to the HART 4–20 mA output. Note: the datasheet does not state the current jumper position of this specific unit, so which direction it fails today is not stated."
+ },
+ {
+  "item": "b5c22d2991",
+  "gold": {
+   "answer": "Mechanical, self-lubricated seal: silicon carbide rotating and stationary faces, fluorocarbon (Viton or equivalent) elastomers, 316 stainless shaft sleeve and spring. No part number is given.",
+   "answerable": "partial",
+   "category": "value",
+   "must": [
+    "mechanical self-lubricated seal",
+    "part number not given"
+   ],
+   "relation": "upstream",
+   "via_tag": "P-2-2",
+   "question": "Consider the item directly upstream of CHV-2-1 in the process flow. What kind of shaft seal does it have, and what's the part number for a replacement seal?"
+  },
+  "candidate": "The pump P-2-2 has a mechanical, self-lubricated shaft seal. The datasheet does not provide a specific part number for a replacement seal, stating that one must consult the factory."
+ },
+ {
+  "item": "b0fa3dfa84",
+  "gold": {
+   "answer": "A sliding-stem, single-port globe-style control valve (body) with cage guiding, balanced valve plug and push-down-to-close plug action, for throttling or on-off control of liquids and gases (part of the easy-e family; EAT = angle version, ETR = push-down-to-open). It is combined with an actuator, e.g. 667.",
+   "answerable": "yes",
+   "category": "value",
+   "must": [
+    "globe-style control valve (sliding stem)",
+    "cage-guided, balanced plug"
+   ],
+   "relation": "upstream",
+   "via_tag": "FV-2-2",
+   "question": "Consider the item directly upstream of CHV-2-2 in the process flow. What is a Fisher ET? Is it the valve body, and what kind of valve is it?"
+  },
+  "candidate": "The item directly upstream of CHV-2-2 is FV-2-2, which is described by the Fisher ET product bulletin. A Fisher ET is a single-port, globe-style control valve with cage guiding, a balanced valve plug and push-down-to-close valve plug action; it is part of the Fisher easy-e valve family and is used for throttling or on-off control of liquids and gases. So yes, ET refers to the valve body/style — a globe-style control valve body — not a separate valve type."
+ },
+ {
+  "item": "9dc96d308a",
+  "gold": {
+   "answer": "Standard cages: quick-opening, linear or equal percentage. Whisper Trim, WhisperFlo and Cavitrol cages: linear only.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "all three with standard cage",
+    "special cages linear only"
+   ],
+   "question": "Regarding FV-2-2 on the P&ID: What flow characteristics can I get: equal percentage, linear, quick opening?"
+  },
+  "candidate": "Based on the provided information, the FV-2-2 valve can have several flow characteristics, including equal percentage, linear, and quick opening."
+ },
+ {
+  "item": "a133bec201",
+  "gold": {
+   "answer": "Yes, a service-friendly, robust manual override (part 10).",
+   "answerable": "yes",
+   "category": "value",
+   "must": [
+    "yes, manual override"
+   ],
+   "question": "Regarding GV-1-2 on the P&ID: Is there a manual override so I can open it without power?"
+  },
+  "candidate": "Yes — the GV-1-2 datasheet lists a manual override as a design feature: \"Service-friendly, robust manual override\" (p. 1). However, the datasheet does not state whether it is a handwheel or how it is operated, so that detail is not available in the documents."
+ },
+ {
+  "item": "295205d5da",
+  "gold": {
+   "answer": "No troubleshooting in the datasheet. Related facts only: it needs at least 0.5 bar differential pressure to open; voltage must match the type plate (±10 %). The installation manual (www.gfps.com/is-manuals-valves) is referred to.",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "no troubleshooting information in the document"
+   ],
+   "question": "Regarding GV-1-2 on the P&ID: It hums but won't open. What could be wrong?"
+  },
+  "candidate": "The documents do not explain a humming symptom, but the GF Type 165 solenoid valve datasheet (which covers GV-1-2) states that this servo-controlled 2/2-way diaphragm valve requires a minimum differential pressure of 0.5 bar to open and close. If the differential pressure across the valve is below 0.5 bar, the valve will not open. Whether the humming is caused by this or anything else is not stated in the documents."
+ },
+ {
+  "item": "e528f2be57",
+  "gold": {
+   "answer": "Not in the document.",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated"
+   ],
+   "relation": "downstream",
+   "via_tag": "P-1-3",
+   "question": "Consider the item directly downstream of CHV-1-2 in the process flow. How do I get into the pump to clear a blockage without taking the pipes off?"
+  },
+  "candidate": "Not in the documents."
+ },
+ {
+  "item": "86634ed892",
+  "gold": {
+   "answer": "Yes, a service-friendly, robust manual override (part 10).",
+   "answerable": "yes",
+   "category": "value",
+   "must": [
+    "yes, manual override"
+   ],
+   "question": "Regarding GV-1-2 on the P&ID: Is there a manual override so I can open it without power?"
+  },
+  "candidate": "Yes. According to the Georg Fischer Type 165 2/2-way Solenoid Valve datasheet (which covers GV-1-1, GV-1-2 and GV-2-2), the valve is equipped with a 'service-friendly, robust manual override' (datasheet p. 1), and the product description on p. 3 shows the manual override as component 10 of the valve. The datasheet does not state any limitations on using the manual override without power, only that it is a servo-controlled 2/2-way diaphragm valve requiring a minimum differential pressure of 0.5 bar to open and close."
+ },
+ {
+  "item": "6e40c13d0d",
+  "gold": {
+   "answer": "Standard cages: quick-opening, linear or equal percentage. Whisper Trim, WhisperFlo and Cavitrol cages: linear only.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "all three with standard cage",
+    "special cages linear only"
+   ],
+   "question": "Regarding FV-2-2 on the P&ID: What flow characteristics can I get: equal percentage, linear, quick opening?"
+  },
+  "candidate": "FV-2-2 (an Fisher easy-e ET valve) is available with quick-opening, linear, and equal percentage flow characteristics when fitted with standard cages. Note: with Whisper Trim, WhisperFlo, or Cavitrol cages only linear is available, and the Trim Cartridge option comes only with equal percentage or linear."
+ },
+ {
+  "item": "94b6585823",
+  "gold": {
+   "answer": "Not in the document (no troubleshooting).",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated"
+   ],
+   "question": "Regarding PV-2-1 on the P&ID: The valve leaks through when shut. Is it the seat ring or the plug seal, and how do I check?"
+  },
+  "candidate": "Not in the documents."
+ },
+ {
+  "item": "e0c0f46083",
+  "gold": {
+   "answer": "No motor is specified (basic pedestal pump; curves for 1150-3450 rpm). The 50 Hz 1450 rpm curve exists; over its operating range the power stays at or below the 7.5 BHP (5.6 kW) line, so a 7.5 kW 1450 rpm motor is enough for that speed.",
+   "answerable": "partial",
+   "category": "chart",
+   "must": [
+    "no motor specified",
+    "1450 rpm curve exists",
+    "power ≤ ~5.6 kW at 1450 rpm"
+   ],
+   "relation": "upstream",
+   "via_tag": "P-1-1",
+   "question": "Consider the item directly upstream of CHV-1-1 in the process flow. What motor size and speed is it meant to run at? We have a 7.5 kW 1450 rpm motor in stock."
+  },
+  "candidate": "Not in the documents."
+ },
+ {
+  "item": "af264fd67d",
+  "gold": {
+   "answer": "HART 4-20 mA: if self-diagnostics detect a sensor or microprocessor failure, the output is driven high or low; the direction is user-selectable with a jumper/switch on the transmitter. Factory default is High alarm unless specified (CT = Rosemount standard low alarm, CN = NAMUR low, C4 = NAMUR high). Levels: default high >= 21.75 mA (>= 22.5 mA with M6, DA1, T9, RK), low <= 3.75 mA; NAMUR >= 22.5 / <= 3.6 mA; custom 20.2-23.0 / 3.6-3.8 mA. Output M: below 0.94 V or above 5.4 V, selectable by internal jumper. F, W, X: failure passed as alert and status.",
+   "answerable": "yes",
+   "category": "conditional",
+   "must": [
+    "high or low, user-selectable by jumper/switch",
+    "default high",
+    "alarm values per standard/NAMUR/custom",
+    "output M internal jumper"
+   ],
+   "relation": "fed_by_transmitter",
+   "via_tag": "FT-2-2",
+   "question": "Consider the transmitter that feeds controller FIC-2-2. When the transmitter fails, does the output go high or low, and how do I change that alarm direction?"
+  },
+  "candidate": "The transmitter feeding FIC-2-2 is FT-2-2, whose datasheet is the Rosemount 3051 (rosemount-3051-00813-0100-4001). Per that datasheet (p. 88), when self-diagnostics detect a sensor or microprocessor failure, the analog signal is driven either high or low to alert the user; the direction is user-selectable with a jumper/switch on the transmitter. The default is NAMUR compliant: high alarm ≥ 21.75 mA and low alarm ≤ 3.75 mA. The alarm direction/levels can also be configured via option codes: C4 (NAMUR alarm high), CN (NAMUR alarm low), CR/CS (custom high/low alarm levels, requiring option code C1), and CT (Rosemount standard low alarm); these alarm-level options are only available with the HART 4-20 mA output (code A)."
+ },
+ {
+  "item": "cf02bd1d9d",
+  "gold": {
+   "answer": "No motor is specified (basic pedestal pump; curves for 1150-3450 rpm). The 50 Hz 1450 rpm curve exists; over its operating range the power stays at or below the 7.5 BHP (5.6 kW) line, so a 7.5 kW 1450 rpm motor is enough for that speed.",
+   "answerable": "partial",
+   "category": "chart",
+   "must": [
+    "no motor specified",
+    "1450 rpm curve exists",
+    "power ≤ ~5.6 kW at 1450 rpm"
+   ],
+   "relation": "upstream",
+   "via_tag": "P-1-1",
+   "question": "Consider the item directly upstream of CHV-1-1 in the process flow. What motor size and speed is it meant to run at? We have a 7.5 kW 1450 rpm motor in stock."
+  },
+  "candidate": "The datasheet for pump P-1-1 does not specify a single required motor size or nominal operating speed. Instead, it provides performance curves indicating that the pump can operate at various speeds, including 1150, 1450, 1750, 2200, 2600, 2900, 3200, and 3450 RPM, with corresponding power demands ranging from 2.2 kW up to 55.9 kW."
+ },
+ {
+  "item": "f255f405cc",
+  "gold": {
+   "answer": "Maximum casing pressure 266 psi (1834 kPa); maximum operating pressure 250 psi (1723 kPa) at temperatures up to 100 °F (37 °C), based on system component limitations; consult the factory for higher.",
+   "answerable": "yes",
+   "category": "footnote",
+   "must": [
+    "266 psi (1834 kPa) casing",
+    "250 psi operating up to 37 °C"
+   ],
+   "question": "Regarding P-1-1 on the P&ID: What's the max allowable pressure in the casing? We might have a pressurized inlet."
+  },
+  "candidate": "The maximum casing pressure for P-1-1 is 266 psi (1834 kPa)."
+ },
+ {
+  "item": "1339475856",
+  "gold": {
+   "answer": "No troubleshooting in the datasheet. Related facts only: it needs at least 0.5 bar differential pressure to open; voltage must match the type plate (±10 %). The installation manual (www.gfps.com/is-manuals-valves) is referred to.",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "no troubleshooting information in the document"
+   ],
+   "question": "Regarding GV-1-2 on the P&ID: It hums but won't open. What could be wrong?"
+  },
+  "candidate": "Not in the documents."
+ },
+ {
+  "item": "029eab35df",
+  "gold": {
+   "answer": "Yes, a service-friendly, robust manual override (part 10).",
+   "answerable": "yes",
+   "category": "value",
+   "must": [
+    "yes, manual override"
+   ],
+   "question": "Regarding GV-1-2 on the P&ID: Is there a manual override so I can open it without power?"
+  },
+  "candidate": "Yes, the Type 165 2/2-way Solenoid Valve GV-1-2 features a service-friendly and robust manual override."
+ },
+ {
+  "item": "8d380419e8",
+  "gold": {
+   "answer": "Mechanical, self-lubricated seal: silicon carbide rotating and stationary faces, fluorocarbon (Viton or equivalent) elastomers, 316 stainless shaft sleeve and spring. No part number is given.",
+   "answerable": "partial",
+   "category": "value",
+   "must": [
+    "mechanical self-lubricated seal",
+    "part number not given"
+   ],
+   "relation": "upstream",
+   "via_tag": "P-2-2",
+   "question": "Consider the item directly upstream of CHV-2-1 in the process flow. What kind of shaft seal does it have, and what's the part number for a replacement seal?"
+  },
+  "candidate": "The item directly upstream of CHV-2-1 is pump P-2-2. It has a mechanical, self-lubricated shaft seal: silicon carbide rotating and stationary faces, fluorocarbon (DuPont Viton® or equivalent) elastomers, and a stainless steel 316 shaft sleeve and spring, with a maximum pumped-liquid temperature of 160 °F (71 °C). The datasheet does not give a part number for a replacement seal; for optional seals it only states \"Consult Factory\", so a replacement part number is not stated in the documents."
+ },
+ {
+  "item": "9f6aa94647",
+  "gold": {
+   "answer": "No troubleshooting in the datasheet. Related facts only: it needs at least 0.5 bar differential pressure to open; voltage must match the type plate (±10 %). The installation manual (www.gfps.com/is-manuals-valves) is referred to.",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "no troubleshooting information in the document"
+   ],
+   "question": "Regarding GV-1-2 on the P&ID: It hums but won't open. What could be wrong?"
+  },
+  "candidate": "The datasheet does not mention humming as a symptom. However, the valve is servo-controlled and requires a minimum differential pressure of 0.5 bar to open and close; if the pressure difference across the valve is below this threshold, it may not open properly."
+ },
+ {
+  "item": "be264cf0ca",
+  "gold": {
+   "answer": "Not in the document (no troubleshooting).",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated"
+   ],
+   "question": "Regarding P-1-1 on the P&ID: It won't prime anymore, it used to. What should I check first?"
+  },
+  "candidate": "Check the upstream components, specifically the valves GV-1-1 and GV-1-2, and the suction line, as the pump specifications reference NPT Suction and Discharge Flanges."
+ }
+]

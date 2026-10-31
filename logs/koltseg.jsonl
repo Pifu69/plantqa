@@ -703,3 +703,32 @@
 {"time": "2026-10-31T09:31:21+00:00", "source": "plantgraph", "tag": "M2-drawing-glm/c03/d1/answer", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 835, "completion_tokens": 18, "cost_usd": 1.5001e-05}
 {"time": "2026-10-31T09:31:26+00:00", "source": "plantgraph", "tag": "M2-glm/c03/route", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 1291, "completion_tokens": 445, "cost_usd": 3.64232e-05}
 {"time": "2026-10-31T09:31:30+00:00", "source": "plantdocs-chat", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 19156, "completion_tokens": 663, "cost_usd": 0.002403675}
+{"time": "2026-10-31T09:31:35+00:00", "source": "plantgraph", "tag": "M2-glm/c04/route", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 1263, "completion_tokens": 560, "cost_usd": 4.08131e-05}
+{"time": "2026-10-31T09:31:38+00:00", "source": "plantgraph", "tag": "M2-glm/c04/route", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 1459, "completion_tokens": 458, "cost_usd": 3.97698e-05}
+{"time": "2026-10-31T09:31:40+00:00", "source": "plantgraph", "tag": "M2-glm/c05/route", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 1485, "completion_tokens": 413, "cost_usd": 0.0001473}
+{"time": "2026-10-31T09:31:49+00:00", "source": "plantgraph", "tag": "M2-glm/c05/route", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 1902, "completion_tokens": 397, "cost_usd": 0.000162384}
+{"time": "2026-10-31T09:31:52+00:00", "source": "plantdocs-chat", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 4332, "completion_tokens": 613, "cost_usd": 0.000717225}
+{"time": "2026-10-31T09:31:54+00:00", "source": "plantgraph", "tag": "M2-glm/d02/route", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 1236, "completion_tokens": 240, "cost_usd": 2.93877e-05}
+{"time": "2026-10-31T09:31:55+00:00", "source": "plantdocs-embed", "model": "qwen/qwen3-embedding-8b", "prompt_tokens": 47, "completion_tokens": 0, "cost_usd": 4.7e-07}
+{"time": "2026-10-31T09:31:58+00:00", "source": "plantdocs-chat", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 15235, "completion_tokens": 450, "cost_usd": 0.0019992}
+{"time": "2026-10-31T09:32:04+00:00", "source": "plantdocs-chat", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 15891, "completion_tokens": 995, "cost_usd": 0.0021608625}
+{"time": "2026-10-31T09:32:13+00:00", "source": "plantgraph", "tag": "M2-glm/d02/route", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 2248, "completion_tokens": 1409, "cost_usd": 8.82951e-05}
+{"time": "2026-10-31T09:32:16+00:00", "source": "plantdocs-chat", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 5322, "completion_tokens": 282, "cost_usd": 0.000704475}
+{"time": "2026-10-31T09:32:19+00:00", "source": "plantgraph", "tag": "M2-glm/d05/route", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 991, "completion_tokens": 415, "cost_usd": 3.09812e-05}
+{"time": "2026-10-31T09:33:12+00:00", "source": "plantgraph", "tag": "M1-luna/a01/cypher", "model": "openai/gpt-6-luna", "prompt_tokens": 3192, "completion_tokens": 55, "cost_usd": 0.000426425}
+{"time": "2026-10-31T09:33:14+00:00", "source": "plantgraph", "tag": "M1-luna/a01/answer", "model": "openai/gpt-6-luna", "prompt_tokens": 834, "completion_tokens": 17, "cost_usd": 9.19e-05}
+{"time": "2026-10-31T09:33:18+00:00", "source": "plantgraph", "tag": "M1-luna/a02/cypher", "model": "openai/gpt-6-luna", "prompt_tokens": 3190, "completion_tokens": 288, "cost_usd": 0.000542675}
+{"time": "2026-10-31T09:33:19+00:00", "source": "plantgraph", "tag": "M1-luna/a02/answer", "model": "openai/gpt-6-luna", "prompt_tokens": 843, "completion_tokens": 21, "cost_usd": 9.48e-05}
+{"time": "2026-10-31T09:33:20+00:00", "source": "plantgraph", "tag": "M1-luna/a03/cypher", "model": "openai/gpt-6-luna", "prompt_tokens": 3187, "completion_tokens": 50, "cost_usd": 0.0004233}
+{"time": "2026-10-31T09:33:21+00:00", "source": "plantgraph", "tag": "M1-luna/a03/answer", "model": "openai/gpt-6-luna", "prompt_tokens": 858, "completion_tokens": 20, "cost_usd": 9.58e-05}
+{"time": "2026-10-31T09:33:24+00:00", "source": "plantgraph", "tag": "M1-luna/a04/cypher", "model": "openai/gpt-6-luna", "prompt_tokens": 3185, "completion_tokens": 164, "cost_usd": 0.00048005}
+{"time": "2026-10-31T09:33:25+00:00", "source": "plantgraph", "tag": "M1-luna/a04/answer", "model": "openai/gpt-6-luna", "prompt_tokens": 821, "completion_tokens": 22, "cost_usd": 9.31e-05}
+{"time": "2026-10-31T09:33:29+00:00", "source": "plantgraph", "tag": "M1-luna/a05/cypher", "model": "openai/gpt-6-luna", "prompt_tokens": 3186, "completion_tokens": 211, "cost_usd": 0.000503675}
+{"time": "2026-10-31T09:33:30+00:00", "source": "plantgraph", "tag": "M1-luna/a05/answer", "model": "openai/gpt-6-luna", "prompt_tokens": 804, "completion_tokens": 32, "cost_usd": 9.64e-05}
+{"time": "2026-10-31T09:33:39+00:00", "source": "plantgraph", "tag": "M1-luna/b01/cypher", "model": "openai/gpt-6-luna", "prompt_tokens": 3198, "completion_tokens": 1083, "cost_usd": 0.000941175}
+{"time": "2026-10-31T09:33:41+00:00", "source": "plantgraph", "tag": "M1-luna/b01/answer", "model": "openai/gpt-6-luna", "prompt_tokens": 8388, "completion_tokens": 30, "cost_usd": 0.001063425}
+{"time": "2026-10-31T09:33:49+00:00", "source": "plantgraph", "tag": "M1-luna/b02/cypher", "model": "openai/gpt-6-luna", "prompt_tokens": 3203, "completion_tokens": 1016, "cost_usd": 0.0009083}
+{"time": "2026-10-31T09:33:51+00:00", "source": "plantgraph", "tag": "M1-luna/b02/answer", "model": "openai/gpt-6-luna", "prompt_tokens": 9326, "completion_tokens": 34, "cost_usd": 0.001182675}
+{"time": "2026-10-31T09:34:03+00:00", "source": "plantgraph", "tag": "M1-luna/b03/cypher", "model": "openai/gpt-6-luna", "prompt_tokens": 3205, "completion_tokens": 1257, "cost_usd": 0.00102905}
+{"time": "2026-10-31T09:34:10+00:00", "source": "plantgraph", "tag": "M1-luna/b03/cypher", "model": "openai/gpt-6-luna", "prompt_tokens": 4134, "completion_tokens": 944, "cost_usd": 0.000988675}
+{"time": "2026-10-31T09:34:12+00:00", "source": "plantgraph", "tag": "M1-luna/b03/answer", "model": "openai/gpt-6-luna", "prompt_tokens": 8582, "completion_tokens": 36, "cost_usd": 0.001090675}

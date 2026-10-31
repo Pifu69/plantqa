@@ -1,0 +1,8 @@
+{
+  "name": "plantqa-eloadas",
+  "private": true,
+  "description": "Builds eloadas.pptx with pptxgenjs",
+  "dependencies": {
+    "pptxgenjs": "^3.12.0"
+  }
+}

@@ -70,62 +70,27 @@ tokenhasználatot nem méri; a stratégiák és a promptok ugyanazok.
 
 ### Az ágens primitívjei
 
-Benedek ágense hat általános, egymással komponálható primitívet hív (ADR-0034). A primitívek a
-feloldó kimenetéből a memóriában épített elemgráfon futnak, amelyben a lapközi csatlakozók és a
-többszörösen felrajzolt elemek már össze vannak vonva; ez a gráf a betöltött üzemi réteggel
-egyezik. Az ágens tehát nem látja a laphatárokat, csak az üzemet.
-
-Táblázat: Az üzemi primitívek (Benedek ADR-0034-e alapján)
-| Primitív | Mit ad vissza |
-|---|---|
-| `find` | a szűrőnek megfelelő elemek (osztálycímke, osztály, egység, lap, tag, fajta szerint) |
-| `neighbours` | egy elem közvetlen szomszédai egy relációcsoport mentén |
-| `traverse` | bejárás egy kiinduló elemtől, megállási és szűkítő feltétellel |
-| `path` | út két elem között |
-| `filter` | egy korábbi eredmény szűkítése a közös szűrőnyelvvel |
-| `aggregate` | egy korábbi eredmény csoportosítása vagy összesítése |
-
-A primitívek eredményei hivatkozást (handle) kapnak, így egy korábbi lépés eredménye a következő
-bemenete lehet. A szűrőnyelv mind a hat primitívnél ugyanaz, és ugyanazokat a címkeneveket
-használja, mint a Cypher-szint sémaszövege; a V2T ezt az elem fajtájával és a vonalnézet
-relációcsoportjával bővítette. A tervezési döntés lényege, hogy az eszközök száma a gráfsémából következik, nem a
-kérdéstípusokból: a hat primitív a séma szókincsén értelmezett szokásos gráfműveletek
-(kiválasztás, kiterjesztés, lezárás, legrövidebb út, szűkítés, csoportosítás), ezért egy új
-kérdéstípus egy új kompozíció, nem egy új eszköz. Az egyszerű JSON-akciók minden modellen
-ugyanúgy működnek, és a gyorsítótár változtatás nélkül vissza tudja játszani őket.
+Benedek ágense hat általános, egymással komponálható primitívet hív (ADR-0034): a szűrőnek
+megfelelő elemek keresését (`find`), a szomszédokat (`neighbours`), a bejárást (`traverse`), az
+utat két elem között (`path`), egy korábbi eredmény szűkítését (`filter`) és összesítését
+(`aggregate`). A primitívek a feloldó kimenetéből a memóriában épített, a betöltött üzemi
+réteggel egyező elemgráfon futnak, ezért az ágens nem látja a laphatárokat, csak az üzemet; az
+eredmények hivatkozást kapnak, így egy korábbi lépés eredménye a következő bemenete lehet. A
+tervezési döntés lényege, hogy az eszközök száma a gráfsémából következik, nem a
+kérdéstípusokból: egy új kérdéstípus egy új kompozíció, nem egy új eszköz (részletesen:
+Függelék E).
 
 ### Az adatlapoldali A2
 
-A plantdocs A2-módszere egy eszköz egy kérdésére a következő lépésekben válaszol.
-
-1. **Kontextus.** A rendszerüzenet a plantdocs gráfmodelljének leírását (a 4. fejezetben bemutatott
-   adatpont-, eset-, szakasz- és lábjegyzetcsúcsokat az előtagos neveikkel), az eszköz gráfjának
-   leltárát (az eszköz és alkatrészei, a leggyakoribb adatpontcímkék, a források oldallal) és a forrásszakaszok
-   katalógusát tartalmazza; a katalógus soronként egy táblázat, ábra, diagram vagy szövegrész a
-   címével, típusával, oldalával, sorainak számával és a 08. lépésben írt leírásával.
-2. **Lekérdezésírás.** Egy LLM alacsony gondolkodási szinttel egyetlen csak olvasó
-   Cypher-lekérdezést ír, és mellette legfeljebb három forrásszakaszt választ, amelynek a teljes
-   tartalmára a válasznak valószínűleg szüksége lesz. A lekérdezési szabályok széles keresést
-   kérnek: a kérdés egy szava a címkében, a nyomtatott értékben, az eset címkéjében (a
-   feltételekben) vagy egy forrásszakasz címében és leírásában is lehet; a lekérdezésnek mindig
-   vissza kell adnia a nyomtatott értéket, a címkét, az esetet, a lábjegyzetet, a forrást és az
-   oldalt.
-3. **Futtatás és javítás.** Ha a lekérdezés hibát ad, üres, vagy túl sok sort ad vissza, a modell
-   egy javítókörben megkapja a problémát („javítsd vagy bővítsd”, illetve „szűkítsd a
-   legjellemzőbb szavakra”). Ha a választott szakaszokból jött sor, javítókör nincs; ha a javítás
-   üres eredményt ad, az első, nem üres eredmény marad.
-4. **Teljes szakaszok.** A kiválasztott szakaszok minden sora a lekérdezés sorai mellé kerül;
-   ez azt az esetet fedi le, amikor a táblázat fejlécei nem a kérdés szavait használják.
-5. **Vektoros keresés.** A lekérdezésírással párhuzamosan a kérdés beágyazásvektorához
-   legközelebbi 30 adatpont kerül elő a gráf vektorindexéből, mindegyik az esetével, a
-   lábjegyzetével, az oldalával és a forrásszakaszával. Mivel párhuzamosan fut, a késleltetéshez
-   nem ad hozzá.
-6. **Válaszírás.** A válaszíró csak a megtalált tényekből fogalmaz: előbb egy-két mondatban a
-   közvetlen választ, utána az értékeket az egységükkel és azokkal a feltételekkel, amelyek mellett
-   érvényesek, oldalhivatkozással. A kérdést abban az értelemben kell olvasnia, ahogy az adatlap
-   használja a szavait; egy szakkifejezést néhány szóval megmagyarázhat, de új tényt, értéket vagy
-   eljárást nem tehet hozzá; ha a kérdés egy része nincs a tények között, ezt kimondja. A
-   forrásoldalakat a program a felhasznált sorokból gyűjti össze.
+A plantdocs A2-módszere egy eszköz egy kérdésére a következőképpen válaszol. A rendszerüzenet a
+plantdocs gráfmodelljének leírását, az eszköz gráfjának leltárát és a forrásszakaszok katalógusát
+tartalmazza. Egy LLM egyetlen csak olvasó, széles keresésű Cypher-lekérdezést ír, és legfeljebb
+három forrásszakaszt választ, amelyek minden sora a lekérdezés sorai mellé kerül; hibás, üres vagy
+túl sok sort adó lekérdezésnél egy javítókör következik. Ezzel párhuzamosan a kérdés
+beágyazásvektorához legközelebbi 30 adatpont kerül elő a gráf vektorindexéből. A válaszíró csak a
+megtalált tényekből fogalmaz: a közvetlen válasz után az értékeket az egységükkel, a
+feltételeikkel és oldalhivatkozással adja meg, új tényt, értéket vagy eljárást nem tehet hozzá
+(részletesen: Függelék E).
 
 Az összevont gráfban több eszköz gráfja van egyszerre, ezért néhány illesztésre volt szükség,
 a plantdocs kódjának módosítása nélkül. A leltár elé egy sor kerül, amely közli, hogy a
@@ -135,12 +100,6 @@ semmilyen írást nem enged. A vektoros keresés egy nagyobb jelöltkészletből
 csúcsait tartja meg. A másik lehetőség az lett volna, hogy kérdésenként újratöltjük az
 adatbázist a kérdezett eszköz gráfjával, ahogy a plantdocs alkalmazása teszi; ez az összevont
 gráfot tönkretenné, és az M1 számára értelmetlenné tenné az egész összevonást.
-
-### Az összevont gráf
-
-Egy Neo4j-adatbázisban van Benedek üzemi rétege és mind a hét eszköz gráfja, a tagen alapuló
-`(:PlantItem {tag})-[:DESCRIBED_BY]->(eszköz)` kapcsolattal összekötve, `document_id` szerinti
-névterekkel (4. fejezet). A betöltés egy paranccsal újrafuttatható (`python -m plantqa.graph.load`).
 
 ## M1 — egy gráf, egy lekérdezés
 
@@ -156,11 +115,8 @@ MATCH (d) WHERE d.document_id = dev.document_id AND d:plm__PCA_100029511
 RETURN d.plm__PCA_100029521 AS label, d.plm__PCA_100029522 AS value, d.schema__pageStart AS page
 ```
 
-A sémakiegészítés első része az összekötést írja le (a `DESCRIBED_BY` nélküli elemnek, például
-egy szabályozófunkciónak nincs adatlapja; minden adatlapcsúcsnak van `document_id` tulajdonsága;
-egy tag tényei a fenti mintával érhetők el). Ezt követi a plantdocs A2-promptjának gráfmodell-része
-szó szerint, a dokumentumok és tagjeik listája, végül a plantdocs lekérdezési szabályai, amelyek a
-második fejlesztési iterációban kerültek be (EXP-011).
+A sémakiegészítés felépítését a Függelék E, elejét a Függelék C mutatja; a plantdocs lekérdezési
+szabályai a második fejlesztési iterációban kerültek be (EXP-011).
 
 Az ágens egy új primitívet kap: a `datasheet_fact(tag, question)` a tagből feloldja az eszközt,
 és a plantdocs A2-logikájával kérdezi meg az adatlapját. A primitív Benedek eszközregiszterébe
@@ -186,15 +142,10 @@ egy JSON-objektumot ír (eszközhívást vagy végső választ), legfeljebb hat 
 kérdés egy elemet a helyével vagy szerepével nevez meg, előbb a rajzeszközt kérdezi meg a tagről,
 utána az adatlapot.
 
-**A protokoll.** A rendszerüzenet leírja a két eszközt, felsorolja az adatlappal rendelkező
-tageket, megadja a három megengedett JSON-alakot (rajzeszköz-hívás, adatlap-hívás, végső válasz a
-„nincs benne” jelzővel) és a válaszalakot. A router minden lépésben pontosan egy JSON-objektumot
-ír; a program végrehajtja a hívást, és az eredményt egy új üzenetben („Tool result:”) adja vissza.
-Érvénytelen akcióra a router javító üzenetet kap; ha a lépéskeret elfogy, a kérdés
-lépéskorlát-eredménnyel zárul. Szolgáltatói hibánál (például
-hálózati hibánál) a hívás egyszer újrapróbálkozik, ahogy Benedek kaszkádja is; ha ez is hibás, a
-kérdés szolgáltatói hibával zárul, és rossznak számít. A router alacsony gondolkodási szinttel
-fut.
+**A protokoll.** A router minden lépésben pontosan egy JSON-objektumot ír (rajzeszköz-hívás,
+adatlap-hívás vagy végső válasz a „nincs benne” jelzővel); a program végrehajtja a hívást, és az
+eredményt egy új üzenetben adja vissza. A router alacsony gondolkodási szinttel fut; a
+rendszerüzenetet a Függelék B, a hibakezelést a Függelék E írja le.
 
 **A válaszszabály.** A második fejlesztési iterációtól (EXP-011) az M2 és az M3 egy közös
 válaszszabályt kap: ha a dokumentumok a kérdésnek csak egy részére adnak választ, a módszer ezt a

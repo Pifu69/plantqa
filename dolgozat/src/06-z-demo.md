@@ -2,7 +2,8 @@
 
 A mért számok azt mutatják meg, milyen gyakran helyes egy módszer, azt nem, hogyan jut el a
 válaszig. Ebben a fejezetben bemutatjuk a webes demót (a dolgozat ötödik hozzájárulását), majd
-négy képernyőképen végigkövetünk négy kérdést. A képek a demó próbáján készültek (EXP-040): hat
+két képernyőképen végigkövetünk két kérdést; a próba további négy kérdését a Függelék F
+mutatja be. A képek a demó próbáján készültek (EXP-040): hat
 kérdést tettünk fel a futó demón, az (a), (a), (b), (c), (d) és (e) családból, az M1, M2 és M3
 módszerrel, GLM-mel; mind a hat kérdésre érdemi válasz jött. A próba nem pontossági mérés, a
 válaszokat nem pontoztuk.
@@ -41,7 +42,7 @@ A képernyőképeket egy program készítette: minden kérdést előbb az API-n 
 nélküli böngészővel lefényképezte az oldalt. Ezért a képeken látható késleltetés a gyorsítótárból
 kiszolgált válaszé; a valódi késleltetést a 6. fejezet adja.
 
-## Négy kérdés végigkövetve
+## Két kérdés végigkövetve
 
 ### Összetett kérdés a routerrel
 
@@ -64,24 +65,9 @@ környezetre vonatkozó opció feltételeit írja le. A router tehát a tagot a 
 az adatlapi kérdést már a tagre teszi fel, ahogy a rendszerüzenete előírja; a rajzeszköz
 ismételt hívása viszont a késleltetést növeli.
 
-### Rajzi útvonal egyetlen lekérdezéssel
-
-A második kérdés a rajzi (a) családból való, rendezett út válaszalakkal: „Trace the process flow
-path from CHV-1-2 to CHV-2-1. List every equipment item and valve in order.” Az M1-gyel feltéve a
-kaszkád a Cypher-szinten zárult (útvonal: `cypher-v2t`), egyetlen lekérdezéssel, és a válasz egy
-tagsorozat: „CHV-1-2, P-1-3, P-2-1, P-2-2, CHV-2-1” (EXP-040).
-
-![Rajzi útvonal az M1-gyel (EXP-040): a Cypher-szint egyetlen lekérdezéssel adja a rendezett utat; a bal oldalon a P&ID egyik lapja, a jobb szélén a lapközi csatlakozóval.](../../figures/demo/02-a-M1.png)
-
-A bal oldalon a rajz egyik lapja látszik. A CHV-1-2 szelepből induló vezeték a lap jobb szélén egy
-lapközi csatlakozóban végződik, vagyis az út egy másik lapon folytatódik. A rajzon ezt az olvasónak
-kell követnie; az üzemi rétegben viszont a laphatár átlépése egyetlen él (4. fejezet), ezért a
-Cypher-szint egyetlen lekérdezéssel megtalálta a teljes utat, és a kaszkád az
-elfogadási szabálya szerint (válaszolt, nem tartózkodott, van sor, nem csonka) elfogadta.
-
 ### Megválaszolhatatlan kérdés és a részletes „nincs benne”
 
-A harmadik kérdés a (d) családból való, amelynek kérdéseire a dokumentumok nem adnak választ:
+A második kérdés a (d) családból való, amelynek kérdéseire a dokumentumok nem adnak választ:
 „Regarding GV-1-1 on the P&ID: Is it approved for drinking water, or for use in an explosive (Ex)
 area?” A kérdés tagot nevez meg, ezért az M2 routere a rajzeszköz nélkül, közvetlenül a GV-1-1
 adatlapját kérdezte (útvonal: `datasheet:GV-1-1`).
@@ -98,36 +84,6 @@ mellette írt magyarázatot. A hibát kijavítottuk, az érintett dev-tételeket
 újrabíráltattuk, és a végső teszt exportja már a javított kóddal készült (`docs/dontesek.md`). A
 demó tehát nemcsak bemutató, hanem ellenőrző eszköz is volt: olyan hibát talált meg, amely a
 pontozást is érintette.
-
-### Több adatlapos kérdés
-
-A negyedik kérdés a külön mért, több adatlapos (e) családból való (EXP-009): „For each item that
-receives flow directly from P-2-1, what is its maximum allowable pressure according to its
-datasheet, and which of them has the lowest?” A kérdés egy halmazt kér a rajzból (mi kap
-közvetlenül áramot a P-2-1-ből?), majd a halmaz minden elemére egy adatlapi értéket, végül egy
-összevetést.
-
-![Több adatlapos kérdés az M2-vel (EXP-040): egy rajzi hívás után három adatlapi hívás; a bal oldalon a Worcester gömbcsap adatlapjának nyomás–hőmérséklet diagramja.](../../figures/demo/05-e-M2.png)
-
-Az M2 útvonala (EXP-040): egy rajzeszköz-hívás, amely a Cypher-szinten zárult, majd három
-adatlap-hívás a BV-2-1, a P-2-2 és a PV-2-1 tagre, vagyis egy gömbcsap, egy szivattyú és egy
-szabályozószelep adatlapjára. A válasz „nincs benne” jelzésű részválasz: „Of the three items fed
-directly from P-2-1 (BV-2-1, P-2-2, PV-2-1), only P-2-2 has a numeric maximum pressure in its
-datasheet…” A folytatás szerint a másik két elem adatlapja nem ad egyetlen számszerű határt, mert a
-névleges nyomás a testanyagtól, a nyomásosztálytól és a hőmérséklettől függ, ezért a legkisebb érték
-a dokumentumokból nem dönthető el. A bal oldali nyomás–hőmérséklet diagram éppen ezt a
-függést mutatja.
-
-Ez a válasz az 5. fejezetben leírt válaszszabály működését mutatja: a módszer a meglévő részt
-adja, és megnevezi a hiányzót, ahelyett hogy egy értéket találna ki. Hogy a válasz helyes-e, azt a
-próba nem pontozta.
-
-### A további két kérdés
-
-A próba másik két kérdése képpel nem szerepel itt. Az adatlapi (b) kérdésre („Regarding P-1-3 on
-the P&ID: What's the max allowable pressure in the casing? …”) az M1 a Cypher-szinten, egyetlen
-lekérdezéssel válaszolt; a rajzi (a) kérdésre („Which instruments measure E-2-1?”) az M3 egyetlen
-hívással az FT-2-2 tagot adta (EXP-040).
 
 ## Tanulságok
 

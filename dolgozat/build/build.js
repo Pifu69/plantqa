@@ -4,6 +4,7 @@
 // Az ábrák és táblázatok számozása automatikus ("3. ábra:", "2. táblázat:").
 // Futtatás: node dolgozat/build/build.js
 const fs = require("fs");
+let listInstance = 0;
 const path = require("path");
 const {
   AlignmentType, Document, Footer, HeadingLevel, ImageRun, LevelFormat, Packer,
@@ -120,7 +121,7 @@ const BLOCK_START = /^(#|- |\d+\. |\||!\[|```|Táblázat: )/;
 function chapter(md) {
   const out = [];
   const lines = md.replace(/\r/g, "").split("\n");
-  let i = 0, pendingTable = "", first = true;
+  let i = 0, pendingTable = "", first = true, prevNumbered = false;
   while (i < lines.length) {
     const line = lines[i];
     if (line.startsWith("# ")) { out.push(heading(HeadingLevel.HEADING_1, numbered(1, line.slice(2)), true)); first = false; i += 1; continue; }
@@ -135,8 +136,19 @@ function chapter(md) {
     const img = line.match(/^!\[(.*)\]\((.*)\)\s*$/);
     if (img) { out.push(...image(img[2], img[1])); i += 1; continue; }
     if (line.startsWith("```")) { const [code, next] = codeBlock(lines, i); out.push(...code); i = next; continue; }
-    if (/^- /.test(line)) { out.push(new Paragraph({ numbering: { reference: "bullets", level: 0 }, children: runs(line.slice(2)), spacing: { after: 60 } })); i += 1; continue; }
-    if (/^\d+\. /.test(line)) { out.push(new Paragraph({ numbering: { reference: "numbers", level: 0 }, children: runs(line.replace(/^\d+\. /, "")), spacing: { after: 60 } })); i += 1; continue; }
+    if (/^(- |\d+\. )/.test(line)) {
+      // Listaelem: a behúzott folytatósorok ugyanahhoz az elemhez tartoznak.
+      let text = line.replace(/^(- |\d+\. )/, "");
+      let j = i + 1;
+      while (j < lines.length && /^\s{2,}\S/.test(lines[j])) text += " " + lines[j++].trim();
+      const numberedItem = /^\d+\. /.test(line);
+      // Minden új számozott lista 1-től indul: külön számozási példányt kap.
+      if (numberedItem && !prevNumbered) listInstance += 1;
+      const ref = numberedItem ? { reference: "numbers", level: 0, instance: listInstance } : { reference: "bullets", level: 0 };
+      out.push(new Paragraph({ numbering: ref, children: runs(text), spacing: { after: 60 } }));
+      prevNumbered = numberedItem; i = j; continue;
+    }
+    prevNumbered = false;
     if (!line.trim()) { i += 1; continue; }
     const parts = [line];
     while (i + 1 < lines.length && lines[i + 1].trim() && !BLOCK_START.test(lines[i + 1])) parts.push(lines[++i]);

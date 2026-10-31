@@ -53,3 +53,364 @@ Ask the vendor datasheet of the item with this tag (pump, valve, transmitter, he
 ```
 
 A sémakiegészítés ezután a plantdocs A2 `qa-cypher` promptjának GRAPH MODEL és RULES részét és a tagek dokumentumonkénti listáját tartalmazza (`src/plantqa/methods/m1.py`, `datasheet_schema`).
+
+## D. A két forrásfolyamat részletei
+
+Ez a függelék a 4. fejezetben összefoglalt két forrásfolyamatot írja le olyan részletességgel,
+amennyi a gráfok szerkezetének megértéséhez kell. A két folyamat kódját nem módosítottuk; amit
+leírunk, az a két forrásrepó tervezési jegyzeteiből és kódjából származik.
+
+### A plantgraph üzemgenerátora
+
+Benedek rendszerében a generátor egy teljes üzemet épít, a lapokra bontó (splitter) lapokra
+vágja, a feloldó (resolver) a lapokból megoldókulcs nélkül visszaépíti az üzemet, végül a betöltő
+Neo4j-be tölti. Mivel a bontást a rendszer maga végzi, pontosan tudható, melyik lapközi csatlakozó
+melyikkel alkot párt, és ehhez mérhető a feloldó.
+
+A generátor minden véletlen döntést egyetlen seedelt véletlenszám-generátoron át hoz meg, ezért
+ugyanaz a seed ugyanazt az üzemet adja; a kimenet valódi pyDEXPI-modell. Az üzem egységekből
+(unit) áll. Egy egységen belül a berendezéseket sorban veszi fel, és mindegyik új berendezés
+véletlenszerűen választ szülőt a már meglévők közül, amelytől anyagáram fut hozzá (véletlen
+rekurzív fa); így elágazó, nem lánc alakú topológia jön létre. Ezt három, valószínűséggel
+vezérelt kiegészítés teszi valószerűbbé: egy későbbi berendezésből visszaforgató ág futhat egy
+korábbiba, minden új egység egy korábbi egység egyik berendezéséből kap bemenő áramot, és egy
+korábbi egységből kereszt-kapcsolat is futhat egy későbbi egység belsejébe.
+
+Az áramokra szelepek kerülnek, a berendezésekhez pedig adott valószínűséggel szabályozókör
+tartozik: mérő (távadó), szabályozó, működtető és a szabályozott szelep. A tagek a szokásos
+betűket követik: a kör változója F, L, P vagy T, a távadó `FT-…`, a szabályozó `FIC-…`, a
+szabályozott szelep `FV-…`. A generátor terve kifejezetten elveti a véletlen címkéjű véletlen
+gráfot: a berendezések az áramok végén állnak, a szelepek az áramokon ülnek, a szabályozókörök a
+berendezésekhez tartoznak, és csak ettől lesz értelme egy „mi táplálja ezt a szivattyút?”
+kérdésnek. Benedek két generátort készített; a mi példaüzemünk a v1 generátorral készült, mert a
+valósághűbb folyamatmintákat (oszlop, reaktor, biztonsági szelep) adó v2 generátor
+berendezésosztályai nem szűkíthetők az adatlappal rendelkező osztályokra (`docs/felmeres.md`).
+
+A generátor minden mezőt megjelöl aszerint, hogy látható-e a vizsgált rendszer számára: látható a
+tag, az osztály, a vezetékszám és a csatlakozó felirata, rejtett a belső azonosító és az áram
+fajtája, mert ilyen jelölés egy valódi rajzon nincs. Ha egy több lapon felrajzolt berendezés minden
+előfordulása ugyanazt a belső azonosítót viselné, a feloldónak nem kellene semmit kitalálnia, ezért
+minden előfordulás átlátszatlan azonosítót kap.
+
+### A plantgraph lapokra bontója és a lapközi csatlakozók
+
+A lapokra bontó egy teljes üzemgráfot vág lapokra egy lapkeret szerint, és minden elvágott élre
+egy lapközi csatlakozópárt illeszt: a forrás lapján egy kimenő, a cél lapján egy bejövő
+csatlakozót, amelyek felirata megnevezi a partner lapot és csatlakozót. A bontás
+stratégiája egy közös felület mögött cserélhető: az alapértelmezett a folyamat irányát követi, és
+a lapot a keretéig tölti; más stratégiák egységek szerint vagy közösségkereséssel vágnak, illetve
+a segédközegeket külön lapokra teszik; egy véletlen stratégia pedig kontrollként szolgál. A bontó csak
+lapgráfokat állít elő; a rajzexport külön komponens.
+
+A laphatár kétféle kapcsolatot vághat el, és a bontó mindkettőt előállítja (lásd az alábbi
+táblázatot). A megoldókulcsot (csatlakozópárok, azonossági csoportok) külön fájlba írja, amely a
+vizsgált adatbázisba nem kerül be; a lapokból és a megoldókulcsból pontosan az eredeti gráfnak
+kell visszaállnia.
+
+Táblázat: A két lapközi mechanizmus (Benedek lapokra bontó tervjegyzete alapján)
+| | Lapközi csatlakozó | Tag-azonosság |
+|---|---|---|
+| Mi vágódik el | egy cső: egy él két részre | egy elem: egy csúcs két lapon |
+| Visszaállítás | az elvágott él újraösszekötése | a duplikált csúcsok összevonása |
+| Jel a rajzon | a csatlakozó felirata a partner lappal | az elem tagje |
+| Ha elmarad | a gráf szétesik, a hiba látható | a gráf épnek látszik, a válaszok hiányosak |
+
+A példaüzem 4 lapja között 4 lapközi csatlakozópár van (EXP-002); a rajzexportban mind a 8
+lapközi jel összekötött (EXP-003).
+
+### A plantgraph feloldója
+
+A feloldó bemenete csak a lapok sorozata; a megoldókulcsot nem látja. A csatlakozók
+feliratából két csatlakozó akkor lesz pár, ha kölcsönösen egymásra hivatkoznak (mindkettő a másik
+lapját és csatlakozószámát nevezi meg); a maradékot a vezetékszám és a közegkód szerint
+csoportosítja, és csak akkor párosít, ha egy csoportban pontosan egy kimenő és egy bejövő
+csatlakozó van. Minden más feloldatlan marad, megnevezett okkal; a feloldó nem találgat.
+
+Az azonossági csoportokat a (tag, osztály) kulcs adja: ha egy ilyen kulcs két vagy több lapon
+fordul elő, az előfordulások egy elemet jelentenek. Alapértelmezésben csak berendezéseket von
+össze, és csak pontos egyezéssel. Végül az összefésülés minden csoportot a legtöbb tulajdonságot
+hordozó előfordulásával helyettesít, a csatlakozópárokon át újraköti az elvágott éleket, a
+párosítatlan csatlakozókat pedig meghagyja, hogy a hiány a kapuellenőrzésben látsszon. A legfőbb
+kapu az egyezés: a feloldott üzemnek az eredeti üzem látható nézetével kell megegyeznie; egy
+átnevezési próba pedig azt ellenőrzi, hogy az eredmény nem függ az átlátszatlan azonosítóktól. A
+példaüzemen a visszaépítési ellenőrzés hibátlan volt (EXP-002).
+
+### A plantdocs folyamatának lépései
+
+A plantdocs egy gyártói adatlap PDF-jéből tíz számozott lépésben jut el az ontológia szerinti
+RDF-gráfig. A lépések felváltva programok és nyelvi modellek; minden nyelvimodell-lépésnek
+verziózott promptja van, és a kimenete csak akkor mehet tovább, ha átmegy a lépés szerződésén (egy
+programmal ellenőrzött formai és tartalmi feltételrendszeren). A programlépéseket egy
+visszamenőleges teszt újrafuttatja és összeveti a tárolt kimenettel. A lépéseket az alábbi
+táblázat foglalja össze.
+
+Táblázat: A plantdocs folyamatának lépései (a plantdocs 0007-es tervezési jegyzete alapján)
+| # | Ki végzi | Mit csinál |
+|---|---|---|
+| 01 | Azure Document Intelligence | oldalelrendezés, táblázatok és ábrák felismerése |
+| 02 | nyelvi modell | rekordok: paraméter, érték, egység, a táblázatbeli útvonal |
+| 03 | program, nyelvi modell, program | ábrák kivágása és osztályozása, a betű- és számjelek feloldása |
+| 04 | program, nyelvi modell, program | diagramoldalak, leolvasás, vektoros ellenőrzés |
+| 05 | program | a rekordok ellenőrzése a PDF szövegével |
+| 06 | nyelvi modell, program | célformátum: tények, feltételek, lábjegyzetek, diagramok |
+| 07 | program | az ábrákhoz tartozó lábjegyzetek |
+| 08 | program, nyelvi modell, program | forrásleltár és forrásleírások, a végső célformátum |
+| 09 | program, nyelvi modell, program | szókészlet: illesztés, hálózati ellenőrzés, szókészlet-térkép |
+| 10 | program | RDF: IDO és POSC Caesar adatlap-ontológia |
+
+Az **01.** lépés az Azure Document Intelligence elrendezés-elemzése (bekezdések, táblázatok,
+ábrák); a plantdocs ezt adott eszköznek tekinti, nem kutatási hozzájárulásnak (plantdocs README).
+A **02.** lépésben egy nyelvi modell rekordokat ír: paraméter, érték, egység és a táblázatbeli
+útvonal (táblázatcím, sor- és oszlopfejlécek) a lábjegyzetjelekkel. Ezek még lapos szövegek.
+
+A **03.** lépés az ábrákat kivágja és osztályozza (fénykép, metszeti rajz, méretrajz, diagram),
+és a rajzokon a betű- és számjeleket alkatrésznevekhez vagy táblázatfejlécekhez köti; amit nem tud
+feloldani, azt feloldatlanként megtartja. A **04.** lépés a diagramokat olvassa le: egy
+szelepdiagram üzemi tartományok sokszögeiből, egy görbediagram pontsorozatokból áll; ahol lehet, a
+leolvasást a PDF vektoros vonalaival ellenőrzi, és a diagram fölötti címsorok feltételeit a
+diagramhoz rendeli. Az **05.** lépés minden rekord számát megkeresi a hivatkozott PDF-oldal
+szövegében.
+
+A **06.** lépés hozza létre a célformátumot (lásd alább). Ehhez a plantdocs hibrid módszert
+használ: a program a rekordok útvonalát szegmensekre bontja, egy nyelvi modell táblázatonként
+egyszer megadja, melyik szegmens az alany, melyik a feltétel és melyik a tulajdonság (táblázatséma),
+és egy determinisztikus lépés ezt minden rekordra alkalmazza. Ez olcsóbb, mint rekordonként
+kérdezni, és egy táblázaton belül következetes. A **07.** lépés az ábrák lábjegyzeteit köti be, a
+**08.** lépés minden forrásról rövid leírást írat; ezek a lekérdezésnél a szakaszkatalógus sorai
+lesznek.
+
+A **09.** lépés a szókészlet-illesztés. Egy nyelvi modell minden eszköztulajdonsághoz és
+feltétel-dimenzióhoz szabványos fogalmat keres, a program minden javasolt azonosítót újra
+lekérdez a hálózaton, és csak az ellenőrzött illesztés kerül a szókészlet-térképbe. A sorrend
+rögzített: előbb a POSC Caesar könyvtár pontos vagy tágabb fogalma, ha nincs, a CFIHOS-é; modell-
+vagy változatkódnál a könyvtár azonosítási osztálya; különben az IDO legáltalánosabb
+tulajdonság-osztálya (`Quality`) mint gyűjtő, ahol a pontos jelentést a nyomtatott címke
+hordozza. A gyűjtőbe kerülő tények aránya az illesztés minőségének jelzője. Az illesztés
+lefedettségét a plantdocs egy előzetes mérése vizsgálta: négy dokumentum eszköztulajdonságai és
+feltétel-dimenziói közül 88/133-hoz adott a POSC Caesar könyvtár pontos vagy tágabb fogalmat, a
+CFIHOS-szal együtt 101/133-hoz (a plantdocs `_results.md` szerint, EXP-0022; előzetes, kézi
+ellenőrzésre váró eredmény). A mi feldolgozásunkban a POSC Caesar régi SPARQL-végpontja
+HTTP 404-et adott, ezért a régi könyvtárral nem, csak az új végponttal és a CFIHOS-szal
+illesztettünk (EXP-006). Végül a **10.** lépés program: a végső célformátumot és a
+szókészlet-térképet RDF-gráffá alakítja, és jelentést ír a tények szintek szerinti eloszlásáról.
+
+Az általunk feldolgozott négy adatlapon mind a 24 nyelvimodell-kimenet elsőre átment a plantdocs
+szerződésein (EXP-006).
+
+### A plantdocs célformátuma
+
+A célformátum a kinyerés és a gráfépítés között álló, ontológiafüggetlen rekordformátum. Öt elvre
+épül (a plantdocs 0003-as tervezési jegyzete szerint):
+
+1. Egy rekord egy tény, nem egy nyomtatott cella: ugyanannak a ténynek a két mértékegységben
+   nyomtatott cellája egy rekord két nyomtatott értékkel.
+2. A feltételek elsőrendű elemek, egy lista, nem egy név része. Egy tény a feltételei nélkül nem
+   hiányos, hanem hibás.
+3. Semmit nem javít csendben: a nyomtatott forma megmarad, a gyanús elírás jelzőt kap, és nem
+   íródik felül.
+4. Minden visszakövethető a forrásrekordokig és a PDF-oldalig.
+5. A mutató nem érték: a kereszthivatkozás és a lábjegyzetjel típusos, hogy a gráfban él
+   lehessen belőle.
+
+Egy tényrekord vázlata a következő (a mezőnevek a plantdocs formátumáé, az értékek helyén
+leírás áll):
+
+```
+{
+  "subject":    {"label": "<az alany, ahogy nyomtatva van>", "kind": "<alkatrész fajtája>"},
+  "property":   {"label": "<a tulajdonság nyomtatott neve>", "key": "<rövid kulcs>"},
+  "value_type": "quantity | code | text | reference | not_limiting | expression",
+  "values":     [{"value": "<szám>", "unit": "<egység>", "printed": "<ahogy nyomtatva van>"}],
+  "conditions": [{"dimension": "<feltétel-dimenzió>", "any_of": ["<megengedett értékek>"]}],
+  "footnotes":  ["<lábjegyzetrekordok azonosítói>"],
+  "flags":      ["<például gyanús elírás, a mértékegység-pár nem egyezik>"],
+  "source":     {"document": "<dokumentum>", "page": "<PDF-oldal>", "table": "<táblázat>"}
+}
+```
+
+Az értéktípus megkülönbözteti a mennyiséget (erre illeszkedik a QUDT), a kódot (anyagjel,
+nyomásosztály), a szabad szöveget, a hivatkozást (egy másik táblázatra mutat, értéke nincs), a
+„nem korlátozó” jelölést (ami információ, nem hiány) és a képletet. A kimeneti fájl hat listát
+tartalmaz: tények, lábjegyzetek, ábrák, ábra–alkatrész kapcsolatok, diagramok és indoklással
+kihagyott rekordok; minden bemeneti rekord pontosan egy helyre kerül, semmi nem veszhet el
+csendben. A lábjegyzetben kimondott tények önálló tények, amelyek a lábjegyzetükre is
+visszamutatnak.
+
+### A plantdocs RDF-modellje
+
+A plantdocs ontológiai döntése (ADR-0005) az ISO 15926 vonal: az IDO a felső ontológia, a POSC
+Caesar könyvtára az eszköz- és referenciaszótár, a mértékegység QUDT. A döntés mellett szólt,
+hogy szabványos és nyílt, és hogy a DEXPI is innen indul; ellene a tanulási görbe, és hogy a
+könyvtár eszközmodulja nem ad teljes tulajdonságkatalógust. A legfontosabb megkötés az, hogy
+saját, kézzel írt szókészlet nem lehet: minden osztály és tulajdonság szabványos azonosító, ami
+pedig a dokumentumból jön (címke, érték, feltétel), az adat, nem szókészlet. Ha nincs pontos
+szabványos fogalom, a legközelebbi tágabb kerül a gráfba, a pontos jelentést a dokumentum
+szövege hordozza. A rétegeket az alábbi táblázat mutatja.
+
+Táblázat: Az adatlapgráf rétegei (a plantdocs 0006-os tervezési jegyzete alapján)
+| Réteg | Szabvány | Mire |
+|---|---|---|
+| Nyelvtan | IDO, `lis:` előtag | fizikai tárgy, rész–egész, információs tárgy, érték és egység |
+| Adatlap-szerkezet | POSC Caesar adatlap-ontológia | adatlap, bejegyzés (datum), alany, attribútum, eset, szakasz |
+| Eszközosztály | POSC Caesar könyvtár | például szolenoidszelep, centrifugálszivattyú |
+| Tulajdonság, feltétel-dimenzió | POSC Caesar könyvtár, ahol nincs: CFIHOS | például névleges átmérő |
+| Mértékegység | POSC Caesar egységmodul és QUDT | azonosító, illetve mennyiségfajta és átváltás |
+| Egyéb | Dublin Core, SKOS, schema.org | leírás, jelölés, oldalszám |
+
+A leképezés a célformátumból a gráfba a következő. Az eszköz egy `lis:PhysicalObject` csúcs a
+POSC Caesar eszközosztályával; az alkatrészek szintén fizikai tárgyak, `lis:partOf` kapcsolattal
+az eszközre. Egy mennyiségi tény mennyiségi adatpont (Quantity Datum) a számmal, a mértékegységgel
+és tartomány esetén alsó és felső határral; egy szöveges vagy kód jellegű tény attribútum-adatpont
+(Attribute Datum); ha az érték maga szabványos osztály (például egy anyag), osztályozó adatpont
+(Classification Datum). Minden adatpont hordozza a nyomtatott címkét és értéket, a PDF-oldalt,
+az alanyát és, ha van, a szabványos attribútumát.
+
+A feltételek együttese egy esetcsúcs (Case), amelyet a POSC Caesar úgy határoz meg, mint egy
+helyzetet, amelyen belül bizonyos attribútumértékek érvényesek. A tény egy kapcsolattal az esetre
+mutat, az eset címkéje felsorolja a feltételeket, és minden egyes feltétel maga is adatpont, amely
+ugyanerre az esetre mutat, a dimenzió szabványos attribútumával. A forrás (táblázat, ábra,
+diagram, szövegrész) szakaszcsúcs (Section Datum) a címmel, a 08. lépés leírásával és az
+oldalszámmal; a lábjegyzet külön adatpont, amelyre a tény kapcsolattal mutat. A diagramok
+pontjai pontonként egy-egy esetbe kerülnek.
+
+Miért eset, és nem valami más? A feltételes tény n-áris, ezért kell egy csúcs, amely a feltételeket
+összefogja (2. fejezet). A plantdocs megvizsgált egy saját tény-csúcsot is, de a POSC Caesar
+adatlap-mintája ugyanezt szabványosan tudja, a saját szókészlet pedig ki volt zárva. Mérlegelte az
+IDO áram-mintáját is, amely az üzemi környezetet (nyomás, hőmérséklet, közeg) egy áramként
+modellezi, amelynek a szelep résztvevője; ez azonban egy üzemi helyre vonatkozó előírást ír le,
+nem egy gyártói adatlap feltételeit. A döntés végül az egységesség volt: minden
+feltétel-kombináció eset. Ennek ára, hogy az „eset” szót a szabvány elsősorban feltételezett
+helyzetekre használja, a plantdocs pedig termékváltozatokra és üzemi feltételekre is.
+
+## E. A módszerek részletei
+
+Ez a függelék az 5. fejezetben leírt módszerek egyes lépéseit részletezi.
+
+### Az ágens primitívjei
+
+Benedek ágense hat általános, egymással komponálható primitívet hív (ADR-0034). A primitívek a
+feloldó kimenetéből a memóriában épített elemgráfon futnak, amelyben a lapközi csatlakozók és a
+többszörösen felrajzolt elemek már össze vannak vonva; ez a gráf a betöltött üzemi réteggel
+egyezik. Az ágens tehát nem látja a laphatárokat, csak az üzemet.
+
+Táblázat: Az üzemi primitívek (Benedek ADR-0034-e alapján)
+| Primitív | Mit ad vissza |
+|---|---|
+| `find` | a szűrőnek megfelelő elemek (osztálycímke, osztály, egység, lap, tag, fajta szerint) |
+| `neighbours` | egy elem közvetlen szomszédai egy relációcsoport mentén |
+| `traverse` | bejárás egy kiinduló elemtől, megállási és szűkítő feltétellel |
+| `path` | út két elem között |
+| `filter` | egy korábbi eredmény szűkítése a közös szűrőnyelvvel |
+| `aggregate` | egy korábbi eredmény csoportosítása vagy összesítése |
+
+A primitívek eredményei hivatkozást (handle) kapnak, így egy korábbi lépés eredménye a következő
+bemenete lehet. A szűrőnyelv mind a hat primitívnél ugyanaz, és ugyanazokat a címkeneveket
+használja, mint a Cypher-szint sémaszövege; a V2T ezt az elem fajtájával és a vonalnézet
+relációcsoportjával bővítette. A tervezési döntés lényege, hogy az eszközök száma a gráfsémából következik, nem a
+kérdéstípusokból: a hat primitív a séma szókincsén értelmezett szokásos gráfműveletek
+(kiválasztás, kiterjesztés, lezárás, legrövidebb út, szűkítés, csoportosítás), ezért egy új
+kérdéstípus egy új kompozíció, nem egy új eszköz. Az egyszerű JSON-akciók minden modellen
+ugyanúgy működnek, és a gyorsítótár változtatás nélkül vissza tudja játszani őket.
+
+### Az adatlapoldali A2 lépései
+
+A plantdocs A2-módszere egy eszköz egy kérdésére a következő lépésekben válaszol.
+
+1. **Kontextus.** A rendszerüzenet a plantdocs gráfmodelljének leírását (a 4. fejezetben bemutatott
+   adatpont-, eset-, szakasz- és lábjegyzetcsúcsokat az előtagos neveikkel), az eszköz gráfjának
+   leltárát (az eszköz és alkatrészei, a leggyakoribb adatpontcímkék, a források oldallal) és a forrásszakaszok
+   katalógusát tartalmazza; a katalógus soronként egy táblázat, ábra, diagram vagy szövegrész a
+   címével, típusával, oldalával, sorainak számával és a 08. lépésben írt leírásával.
+2. **Lekérdezésírás.** Egy LLM alacsony gondolkodási szinttel egyetlen csak olvasó
+   Cypher-lekérdezést ír, és mellette legfeljebb három forrásszakaszt választ, amelynek a teljes
+   tartalmára a válasznak valószínűleg szüksége lesz. A lekérdezési szabályok széles keresést
+   kérnek: a kérdés egy szava a címkében, a nyomtatott értékben, az eset címkéjében (a
+   feltételekben) vagy egy forrásszakasz címében és leírásában is lehet; a lekérdezésnek mindig
+   vissza kell adnia a nyomtatott értéket, a címkét, az esetet, a lábjegyzetet, a forrást és az
+   oldalt.
+3. **Futtatás és javítás.** Ha a lekérdezés hibát ad, üres, vagy túl sok sort ad vissza, a modell
+   egy javítókörben megkapja a problémát („javítsd vagy bővítsd”, illetve „szűkítsd a
+   legjellemzőbb szavakra”). Ha a választott szakaszokból jött sor, javítókör nincs; ha a javítás
+   üres eredményt ad, az első, nem üres eredmény marad.
+4. **Teljes szakaszok.** A kiválasztott szakaszok minden sora a lekérdezés sorai mellé kerül;
+   ez azt az esetet fedi le, amikor a táblázat fejlécei nem a kérdés szavait használják.
+5. **Vektoros keresés.** A lekérdezésírással párhuzamosan a kérdés beágyazásvektorához
+   legközelebbi 30 adatpont kerül elő a gráf vektorindexéből, mindegyik az esetével, a
+   lábjegyzetével, az oldalával és a forrásszakaszával. Mivel párhuzamosan fut, a késleltetéshez
+   nem ad hozzá.
+6. **Válaszírás.** A válaszíró csak a megtalált tényekből fogalmaz: előbb egy-két mondatban a
+   közvetlen választ, utána az értékeket az egységükkel és azokkal a feltételekkel, amelyek mellett
+   érvényesek, oldalhivatkozással. A kérdést abban az értelemben kell olvasnia, ahogy az adatlap
+   használja a szavait; egy szakkifejezést néhány szóval megmagyarázhat, de új tényt, értéket vagy
+   eljárást nem tehet hozzá; ha a kérdés egy része nincs a tények között, ezt kimondja. A
+   forrásoldalakat a program a felhasznált sorokból gyűjti össze.
+
+### Az M1 sémakiegészítésének felépítése
+
+A sémakiegészítés első része az összekötést írja le (a `DESCRIBED_BY` nélküli elemnek, például
+egy szabályozófunkciónak nincs adatlapja; minden adatlapcsúcsnak van `document_id` tulajdonsága;
+egy tag tényei a fenti mintával érhetők el). Ezt követi a plantdocs A2-promptjának gráfmodell-része
+szó szerint, a dokumentumok és tagjeik listája, végül a plantdocs lekérdezési szabályai, amelyek a
+második fejlesztési iterációban kerültek be (EXP-011). A sémakiegészítés elejét a Függelék C mutatja.
+
+### Az M2 router protokollja
+
+A rendszerüzenet leírja a két eszközt, felsorolja az adatlappal rendelkező
+tageket, megadja a három megengedett JSON-alakot (rajzeszköz-hívás, adatlap-hívás, végső válasz a
+„nincs benne” jelzővel) és a válaszalakot. A router minden lépésben pontosan egy JSON-objektumot
+ír; a program végrehajtja a hívást, és az eredményt egy új üzenetben („Tool result:”) adja vissza.
+Érvénytelen akcióra a router javító üzenetet kap; ha a lépéskeret elfogy, a kérdés
+lépéskorlát-eredménnyel zárul. Szolgáltatói hibánál (például
+hálózati hibánál) a hívás egyszer újrapróbálkozik, ahogy Benedek kaszkádja is; ha ez is hibás, a
+kérdés szolgáltatói hibával zárul, és rossznak számít. A router alacsony gondolkodási szinttel
+fut. A rendszerüzenet teljes szövegét a Függelék B tartalmazza.
+
+## F. További demó-képernyőképek
+
+A 7. fejezetben bemutatott demópróba (EXP-040) további kérdései közül kettőt képernyőképpel,
+kettőt képernyőkép nélkül követünk végig.
+
+### Rajzi útvonal egyetlen lekérdezéssel (M1)
+
+A demó próbájának egy további kérdése a rajzi (a) családból való, rendezett út válaszalakkal: „Trace the process flow
+path from CHV-1-2 to CHV-2-1. List every equipment item and valve in order.” Az M1-gyel feltéve a
+kaszkád a Cypher-szinten zárult (útvonal: `cypher-v2t`), egyetlen lekérdezéssel, és a válasz egy
+tagsorozat: „CHV-1-2, P-1-3, P-2-1, P-2-2, CHV-2-1” (EXP-040).
+
+![Rajzi útvonal az M1-gyel (EXP-040): a Cypher-szint egyetlen lekérdezéssel adja a rendezett utat; a bal oldalon a P&ID egyik lapja, a jobb szélén a lapközi csatlakozóval.](../../figures/demo/02-a-M1.png)
+
+A bal oldalon a rajz egyik lapja látszik. A CHV-1-2 szelepből induló vezeték a lap jobb szélén egy
+lapközi csatlakozóban végződik, vagyis az út egy másik lapon folytatódik. A rajzon ezt az olvasónak
+kell követnie; az üzemi rétegben viszont a laphatár átlépése egyetlen él (4. fejezet), ezért a
+Cypher-szint egyetlen lekérdezéssel megtalálta a teljes utat, és a kaszkád az
+elfogadási szabálya szerint (válaszolt, nem tartózkodott, van sor, nem csonka) elfogadta.
+
+### Több adatlapos kérdés (M2)
+
+Egy másik kérdés a külön mért, több adatlapos (e) családból való (EXP-009): „For each item that
+receives flow directly from P-2-1, what is its maximum allowable pressure according to its
+datasheet, and which of them has the lowest?” A kérdés egy halmazt kér a rajzból (mi kap
+közvetlenül áramot a P-2-1-ből?), majd a halmaz minden elemére egy adatlapi értéket, végül egy
+összevetést.
+
+![Több adatlapos kérdés az M2-vel (EXP-040): egy rajzi hívás után három adatlapi hívás; a bal oldalon a Worcester gömbcsap adatlapjának nyomás–hőmérséklet diagramja.](../../figures/demo/05-e-M2.png)
+
+Az M2 útvonala (EXP-040): egy rajzeszköz-hívás, amely a Cypher-szinten zárult, majd három
+adatlap-hívás a BV-2-1, a P-2-2 és a PV-2-1 tagre, vagyis egy gömbcsap, egy szivattyú és egy
+szabályozószelep adatlapjára. A válasz „nincs benne” jelzésű részválasz: „Of the three items fed
+directly from P-2-1 (BV-2-1, P-2-2, PV-2-1), only P-2-2 has a numeric maximum pressure in its
+datasheet…” A folytatás szerint a másik két elem adatlapja nem ad egyetlen számszerű határt, mert a
+névleges nyomás a testanyagtól, a nyomásosztálytól és a hőmérséklettől függ, ezért a legkisebb érték
+a dokumentumokból nem dönthető el. A bal oldali nyomás–hőmérséklet diagram éppen ezt a
+függést mutatja.
+
+Ez a válasz az 5. fejezetben leírt válaszszabály működését mutatja: a módszer a meglévő részt
+adja, és megnevezi a hiányzót, ahelyett hogy egy értéket találna ki. Hogy a válasz helyes-e, azt a
+próba nem pontozta.
+
+### Két további kérdés képernyőkép nélkül
+
+Az adatlapi (b) kérdésre („Regarding P-1-3 on
+the P&ID: What's the max allowable pressure in the casing? …”) az M1 a Cypher-szinten, egyetlen
+lekérdezéssel válaszolt; a rajzi (a) kérdésre („Which instruments measure E-2-1?”) az M3 egyetlen
+hívással az FT-2-2 tagot adta (EXP-040).

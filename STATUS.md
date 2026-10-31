@@ -66,3 +66,13 @@
 - **Futás közbeni javítások** (mind naplózva a `dontesek.md`-ben, a mérések újrapontozva): a
   jelzés + magyarázat megjelenítése és bírálói exportja; a TAG_PATH pontozás gold élei; egy
   hálózati hiba miatti újrapróbálás az M2/M3-ban.
+
+## 2026-10-31 14:06 — v2: a főszöveg 31 oldal
+- A BME VIK GYIK szerint a TDK-dolgozat „tipikus terjedelme 30–35 oldal + szükség esetén
+  melléklet”. A főszöveg (Bevezetés → Összefoglalás) 40 oldalról 31-re csökkent; a részletek a
+  Függelékbe kerültek: D. a két forrásfolyamat, E. a módszerek részletei, F. további
+  demóképek. Szám nem változott, tartalom nem veszett el. Összesen 50 oldal.
+- Az első változat: `dolgozat/v1/` (pdf, docx, forrás, előadás).
+- Az MI-munkafolyamatról szóló mondat kikerült a dolgozatból és az előadásból.
+- Építési javítás: a számozott listák mindig 1-től indulnak, és a többsoros listaelemek egy
+  bekezdésben maradnak.

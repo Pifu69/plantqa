@@ -2,7 +2,7 @@
 // Minden szám és diagram futáskor az eredményfájlokból jön (runs/<EXP>/summary.csv, pairs.csv,
 // data/plant/load_report.json, figures/plan.json); az ábrák a figures/ mappából és a demó
 // képernyőképei a figures/demo/ mappából. A szöveg a dolgozattal egyező forrásokra épül.
-// A 10. diától a build_rest.js folytatja.
+// A 10. diától a build_rest.js folytatja. A közös mérés a két nagy üzemen (figures/plan.json „large”).
 const fs = require("fs");
 const path = require("path");
 const pptxgen = require("pptxgenjs");
@@ -23,12 +23,22 @@ function csv(file) {
 }
 
 const plan = JSON.parse(fs.readFileSync(path.join(FIG, "plan.json"), "utf8"));
-const TEST = plan.test;
-const summary = csv(path.join(ROOT, "runs", TEST, "summary.csv"));
-const pairs = csv(path.join(ROOT, "runs", TEST, "pairs.csv"));
-const load = JSON.parse(fs.readFileSync(path.join(ROOT, "data", "plant", "load_report.json"), "utf8"));
-const all = summary.filter((r) => r.family === "all");
+// A közös mérés a két nagy üzemen (plan.large); a kis üzem (plan.test) a fejlesztés terepe.
+const LARGE = plan.large.map((item) => {
+  const rows = csv(path.join(ROOT, "runs", item.exp, "summary.csv")).filter((r) => r.split === "dev+test");
+  const plant = item.name === "pqb" ? "plant-pqb" : "plant-pqc";
+  return { ...item, rows, all: rows.filter((r) => r.family === "all"),
+    pairs: csv(path.join(ROOT, "runs", item.exp, "pairs.csv")),
+    load: JSON.parse(fs.readFileSync(path.join(ROOT, "data", plant, "load_report.json"), "utf8")),
+    tags: JSON.parse(fs.readFileSync(path.join(ROOT, "data", plant, "tags.json"), "utf8")).length };
+});
+const TEST = LARGE.map((l) => l.exp).join(", ");
+const summary = LARGE[0].rows;
+const pairs = LARGE[0].pairs;
+const all = LARGE[0].all;
 const best = [...all].sort((a, b) => b.accuracy - a.accuracy || a.cost_usd - b.cost_usd)[0];
+const KEYS = [["M1", "glm"], ["M2", "glm"], ["M3", "glm"], ["M1", "luna"], ["M2", "luna"], ["M3", "luna"]];
+const rowOf = (l, m, mo, f = "all") => l.rows.find((r) => r.method === m && r.model === mo && r.family === f) || {};
 const pct = (x) => `${Math.round(Number(x) * 100)}%`;
 const hu = (x, d = 2) => Number(x).toFixed(d).replace(".", ",");
 
@@ -76,7 +86,7 @@ function titleSlide() {
   s.addText("Tudásgráf-építés műszaki rajzokból és adatlapokból skálázható Q&A rendszerhez", { x: 0.6, y: 1.2, w: 8.8, h: 1.6, fontFace: "Cambria", fontSize: 32, bold: true, color: WHITE, isTextBox: true });
   s.addText("Szabó Zsombor István · Kiszely Benedek", { x: 0.6, y: 3.1, w: 8.8, h: 0.4, fontSize: 18, color: WHITE, isTextBox: true });
   s.addText("Témavezető: [TÉMAVEZETŐ] · BME VIK TMIT · TDK 2026", { x: 0.6, y: 3.55, w: 8.8, h: 0.4, fontSize: 14, color: "CADCFC", isTextBox: true });
-  s.addNotes("Jó napot kívánunk. Szabó Zsombor és Kiszely Benedek vagyunk. A dolgozatunk két egyéni munkát köt össze: egy P&ID-rajzokból épített üzemi gráfot és gyártói adatlapokból épített eszközgráfokat, és azt méri, hogyan lehet a kettőn együtt kérdezni.");
+  s.addNotes("Jó napot kívánunk. Szabó Zsombor és Kiszely Benedek vagyunk. A munkánk két részből áll: Benedek a rajzokból épít az egész üzemet leíró tudásgráfot, én a gyártói adatlapokból eszközönként. A dolgozatban a kettőt összekötjük, és megmérjük, hogyan lehet a kettőn együtt kérdezni egyre nagyobb üzemeken.");
 }
 
 function motivation() {
@@ -94,10 +104,10 @@ function motivation() {
 }
 
 function questions() {
-  const s = content("Három kérdést tettünk fel. Először: megválaszolhatók-e az ilyen kérdések egyetlen összevont gráfon, és ez hogyan viszonyul egy routerhez, illetve egy gráf nélküli baseline-hoz. Másodszor: mennyibe kerül ez tokenben, pénzben és időben. Harmadszor: melyik kérdéstípuson segít a gráf, és hol hibáznak a módszerek.");
+  const s = content("Három kérdést tettünk fel. Először: megválaszolhatók-e az ilyen kérdések egyetlen összevont gráfon, és ez hogyan viszonyul egy irányítóhoz, illetve egy gráf nélküli alapmódszerhez. Másodszor: hogyan változik a pontosság és a költség, ha nő az üzem, a módszerek változtatása nélkül. Harmadszor: melyik kérdéstípuson segít a gráf, és hol hibáznak a módszerek.");
   title(s, "Kutatási kérdések");
   const rq = [["RQ1", "Egy összevont gráf (M1) vs. router (M2) vs. gráf nélküli baseline (M3): pontosság"],
-    ["RQ2", "Költség: token, USD, késleltetés, két modellel"], ["RQ3", "Mely kérdéscsaládokon segít a gráf, és milyen hibák jellemzők?"]];
+    ["RQ2", "Skálázódás: pontosság és költség 27 és 98 lapos üzemen, változatlan módszerekkel"], ["RQ3", "Mely kérdéscsaládokon segít a gráf, és milyen hibák jellemzők?"]];
   rq.forEach(([k, t], i) => {
     s.addShape(pres.shapes.OVAL, { x: 0.6, y: 1.25 + i * 1.2, w: 0.8, h: 0.8, fill: { color: NAVY }, line: { color: NAVY } });
     s.addText(k, { x: 0.6, y: 1.25 + i * 1.2, w: 0.8, h: 0.8, fontSize: 14, bold: true, color: WHITE, align: "center", isTextBox: true });
@@ -106,16 +116,16 @@ function questions() {
 }
 
 function graphSlide() {
-  const c = load.counts;
-  const s = content(`A példaüzemet Benedek generátora állította elő, seedelve: négy lap, 26 tagelt elem. Minden tagelt fizikai elemhez tartozik gyártói adatlap, hét különböző adatlap. Az összevont gráfban az üzemi réteg ${c.plant_nodes} csúcs, a hét adatlapgráf együtt ${c.device_nodes} csúcs, és a kettőt ${c.described_by} DESCRIBED_BY él köti össze a tag alapján.`);
-  title(s, "Egy adatbázis, két réteg");
-  stat(s, 0.5, String(c.plant_nodes), "üzemi csúcs (4 lap, 26 tag)");
-  stat(s, 2.8, c.device_nodes.toLocaleString("hu-HU"), "adatlapcsúcs (7 adatlap)");
-  stat(s, 5.1, String(c.described_by), "DESCRIBED_BY él (tag → adatlap)");
-  stat(s, 7.4, `${Math.round(load.seconds.total)} s`, "teljes betöltés egy paranccsal");
+  const [b, c] = LARGE;
+  const s = content(`Három üzemet generáltunk Benedek generátorával: egy négylaposat a fejlesztéshez, és két nagyot a méréshez, ${b.tags} és ${c.tags} tagelt elemmel. Mindegyikhez ugyanaz a hét gyártói adatlap tartozik, a hozzárendelést program végzi. A nagyobbik üzemen ${c.load.counts.described_by} DESCRIBED_BY él köti össze a rajz elemeit az adatlapgráfokkal.`);
+  title(s, "Egy adatbázis, két réteg, három üzem");
+  stat(s, 0.5, "4 · 27 · 98", "lap (fejlesztés · mérés · mérés)");
+  stat(s, 2.8, `${b.tags} · ${c.tags}`, "tagelt elem a két nagy üzemen");
+  stat(s, 5.1, c.load.counts.device_nodes.toLocaleString("hu-HU"), "adatlapcsúcs (7 adatlap)");
+  stat(s, 7.4, String(c.load.counts.described_by), "DESCRIBED_BY él (98 lap)");
   s.addText("(:PlantItem {tag:'P-1-3'}) -[:DESCRIBED_BY]-> (eszköz) <-[alany]- (adatpont: érték, feltétel, oldal)", { x: 0.5, y: 3.0, w: 9, h: 0.5, fontSize: 13, fontFace: "Consolas", color: NAVY, isTextBox: true });
-  body(s, ["Rajz: Benedek generátora és betöltője (változtatás nélkül)", "Adatlap: plantdocs ISO 15926 / QUDT gráf, Opus-feldolgozás"], { x: 0.5, y: 3.6, w: 9, h: 1.3 });
-  s.addText(`Forrás: ${plan.load}`, { x: 6.5, y: 5.0, w: 3.2, h: 0.25, fontSize: 9, color: MUTED, align: "right", isTextBox: true });
+  body(s, ["Rajz: Benedek generátora és betöltője (változtatás nélkül)", "Adatlap: plantdocs ISO 15926 / QUDT gráf, tag szerint összekötve"], { x: 0.5, y: 3.6, w: 9, h: 1.3 });
+  s.addText("Forrás: EXP-053, EXP-066", { x: 6.5, y: 5.0, w: 3.2, h: 0.25, fontSize: 9, color: MUTED, align: "right", isTextBox: true });
 }
 
 function methodsSlide() {
@@ -133,8 +143,8 @@ function demoSlide() {
 }
 
 function evalSlide() {
-  const s = content("A kérdéssor 60 kérdésből áll, négy családban: csak rajz, csak adatlap tagen át, összetett, és megválaszolhatatlan. Húsz kérdés a fejlesztéshez kellett, negyvenet befagyasztottunk és csak a végén futtattuk. Ahol lehetett, programmal pontoztunk, a többit vak bíráló értékelte, aki nem látta, melyik módszer válaszolt.");
-  title(s, "Kiértékelés: 60 kérdés, négy család");
+  const s = content("Üzemenként 60 kérdés, négy családban: csak rajz, csak adatlap tagen át, összetett, és megválaszolhatatlan, plusz 12 több adatlapot összevető kérdés. A módszereket a kis üzemen fejlesztettük és befagyasztottuk; a két nagy üzemen semmit nem változtattunk, ott minden kérdés teszt. Ahol lehetett, programmal pontoztunk, a többit vak bíráló értékelte.");
+  title(s, "Kiértékelés: üzemenként 60 kérdés");
   const rows = [["Család", "Példa", "Referencia"],
     ["(a) rajz", "Which instruments measure E-2-1?", "Benedek generátora"],
     ["(b) adatlap", "Regarding P-1-3: max casing pressure?", "plantdocs gold párok"],
@@ -142,7 +152,7 @@ function evalSlide() {
     ["(d) nincs benne", "Regarding PV-2-1: how to take the bonnet off safely?", "„Not in the documents”"]];
   s.addTable(rows.map((r, i) => r.map((t) => ({ text: t, options: { bold: i === 0, fill: { color: i === 0 ? LIGHT : WHITE }, fontSize: 12, color: INK } }))),
     { x: 0.5, y: 1.1, w: 9, colW: [1.7, 4.6, 2.7], border: { type: "solid", color: "D5DDE6", pt: 0.75 } });
-  body(s, ["Dev 20 kérdés (iterációk), teszt 40 (befagyasztva, sha256)", "Programos pontozás + vak bíráló (plantdocs EXP-0029 prompt)"], { x: 0.5, y: 3.75, w: 9, h: 1.2 });
+  body(s, ["Fejlesztés a 4 lapos üzemen, mérés a 27 és 98 lapos üzemen (befagyasztott módszerek)", "Programos pontozás + vak bíráló (plantdocs EXP-0029 prompt)"], { x: 0.5, y: 3.75, w: 9, h: 1.2 });
 }
 
 function chartAxes() {
@@ -151,31 +161,29 @@ function chartAxes() {
 }
 
 function resultSlide() {
-  const fams = ["a", "b", "c", "d", "all"];
-  const keys = all.map((r) => [r.method, r.model]);
-  const find = (m, mo, f) => summary.find((r) => r.method === m && r.model === mo && r.family === f) || {};
-  const data = keys.map(([m, mo]) => ({ name: `${m} · ${MODEL[mo]}`, labels: fams.map((f) => FAMILY[f]),
-    values: fams.map((f) => Number(find(m, mo, f).accuracy || 0)) }));
-  const s = content(`A befagyasztott teszten a legjobb párosítás a(z) ${best.method} volt ${MODEL[best.model]} modellel, ${pct(best.accuracy)} pontossággal. Az ábra családonként mutatja a hat párosítást; a halványabb oszlopok a GPT-6 Luna.`);
-  title(s, `Végső teszt (40 kérdés) — ${TEST}`);
+  const labels = KEYS.map(([m, mo]) => `${m} ${mo === "glm" ? "GLM" : "Luna"}`);
+  const data = LARGE.map((l) => ({ name: l.label, labels, values: KEYS.map(([m, mo]) => Number(rowOf(l, m, mo).accuracy || 0)) }));
+  const [b, c] = LARGE;
+  const s = content(`Mindkét nagy üzemen az irányító volt a legjobb a GLM modellel: ${rowOf(b, "M2", "glm").correct}, illetve ${rowOf(c, "M2", "glm").correct} helyes válasz a 60-ból. A gráfos módszerek pontossága a két méret között alig változott, a gráf nélküli módszeré modellenként ellentétes irányba mozdult.`);
+  title(s, `Pontosság a két nagy üzemen — ${TEST}`);
   s.addChart(pres.charts.BAR, data, { x: 0.4, y: 1.0, w: 9.2, h: 4.1, barDir: "col", barGrouping: "clustered",
-    chartColors: keys.map(([m, mo]) => (mo === "glm" ? METHOD[m] : METHOD_LIGHT[m])),
-    valAxisMinVal: 0, valAxisMaxVal: 1, valAxisLabelFormatCode: "0%", showLegend: true, legendPos: "b", legendFontSize: 10,
-    legendFontFace: "+mn-lt", catAxisLabelFontSize: 11, valAxisLabelFontSize: 10, ...chartAxes() });
+    chartColors: ["9FB6D0", NAVY], showValue: true, dataLabelPosition: "outEnd", dataLabelFormatCode: "0%", dataLabelFontSize: 9,
+    dataLabelColor: INK, valAxisMinVal: 0, valAxisMaxVal: 1, valAxisLabelFormatCode: "0%", showLegend: true, legendPos: "b",
+    legendFontSize: 10, legendFontFace: "+mn-lt", catAxisLabelFontSize: 11, valAxisLabelFontSize: 10, ...chartAxes() });
 }
 
 function costSlide() {
-  const labels = all.map((r) => `${r.method} ${r.model === "glm" ? "GLM" : "Luna"}`);
-  const cost = all.map((r) => Number(r.cost_usd) / Number(r.n));
-  const lat = all.map((r) => Number(r.latency_median_s));
-  const s = content("Bal oldalon a kérdésenkénti költség, jobb oldalon a medián válaszidő. A költség a szolgáltató által jelentett ár, a cache-ből érkező hívásnál is az eredeti hívásé. Két külön diagram, mert a két mennyiség skálája eltér.");
-  title(s, "Költség és késleltetés");
-  const opts = (t, fmt) => ({ barDir: "col", showTitle: true, title: t, titleFontSize: 12, titleColor: INK, showLegend: false,
-    chartColors: all.map((r) => (r.model === "glm" ? METHOD[r.method] : METHOD_LIGHT[r.method])), showValue: true,
-    dataLabelPosition: "outEnd", dataLabelFormatCode: fmt, dataLabelFontSize: 9, dataLabelColor: INK,
-    catAxisLabelFontSize: 9, valAxisLabelFontSize: 9, ...chartAxes() });
-  s.addChart(pres.charts.BAR, [{ name: "USD / kérdés", labels, values: cost }], { x: 0.4, y: 1.0, w: 4.5, h: 4.0, ...opts("Költség / kérdés (USD)", "0.0000") });
-  s.addChart(pres.charts.BAR, [{ name: "s", labels, values: lat }], { x: 5.1, y: 1.0, w: 4.5, h: 4.0, ...opts("Medián késleltetés (s)", "0.0") });
+  const labels = KEYS.map(([m, mo]) => `${m} ${mo === "glm" ? "GLM" : "Luna"}`);
+  const data = LARGE.map((l) => ({ name: l.label, labels,
+    values: KEYS.map(([m, mo]) => { const r = rowOf(l, m, mo); return Number(r.cost_usd) / Number(r.n); }) }));
+  const [b, c] = LARGE;
+  const m3 = (l) => Number(rowOf(l, "M3", "luna").cost_usd) / Number(rowOf(l, "M3", "luna").n);
+  const s = content(`A kérdésenkénti költség. A gráfos módszereké a két méret között gyakorlatilag nem változik, mert a modellhez csak a lekérdezés eredménye jut el. A gráf nélküli módszer viszont az egész rajzot viszi magával: Lunával ${hu(m3(b), 5)}-ról ${hu(m3(c), 5)} dollárra nőtt a költsége kérdésenként.`);
+  title(s, "Költség / kérdés: a gráf nélküli módszer drágul");
+  s.addChart(pres.charts.BAR, data, { x: 0.4, y: 1.0, w: 9.2, h: 4.1, barDir: "col", barGrouping: "clustered",
+    chartColors: ["9FB6D0", NAVY], showValue: true, dataLabelPosition: "outEnd", dataLabelFormatCode: "0.000", dataLabelFontSize: 9,
+    dataLabelColor: INK, showLegend: true, legendPos: "b", legendFontSize: 10, legendFontFace: "+mn-lt",
+    catAxisLabelFontSize: 11, valAxisLabelFontSize: 10, valAxisLabelFormatCode: "0.000", ...chartAxes() });
 }
 
 titleSlide();
@@ -189,5 +197,5 @@ resultSlide();
 costSlide();
 
 module.exports = { pres, content, title, body, image, csv, summary, pairs, all, best, pct, hu, plan, ROOT, FIG,
-  MODEL, FAMILY, METHOD, TEST, OUT, NAVY, WHITE, LIGHT, INK, MUTED };
+  MODEL, FAMILY, METHOD, TEST, OUT, NAVY, WHITE, LIGHT, INK, MUTED, LARGE, KEYS, rowOf };
 require("./build_rest.js");

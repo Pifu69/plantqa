@@ -381,3 +381,4 @@
 {"time": "2026-10-31T09:01:23+00:00", "source": "plantgraph", "tag": "M3-glm/d04/answer", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 9389, "completion_tokens": 67, "cost_usd": 0.00043534}
 {"time": "2026-10-31T09:01:23+00:00", "source": "plantdocs-embed", "model": "qwen/qwen3-embedding-8b", "prompt_tokens": 36, "completion_tokens": 0, "cost_usd": 3.6e-07}
 {"time": "2026-10-31T09:01:25+00:00", "source": "plantgraph", "tag": "M3-glm/d05/answer", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 12877, "completion_tokens": 221, "cost_usd": 0.00091242}
+{"time": "2026-10-31T09:06:18+00:00", "source": "plantgraph", "tag": "M3-glm/app-9adca52eb6/answer", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 11773, "completion_tokens": 1699, "cost_usd": 0.0002628101}

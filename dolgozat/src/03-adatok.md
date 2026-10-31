@@ -39,8 +39,8 @@ ahogy egy valódi üzemben is ugyanaz a típus több helyen beépül.
 Ugyanígy, 55 egységgel egy kb. 100 lapos üzemet is generáltunk (elfogadási határ 500–1500 tagelt
 elem és 90–115 lap). Az első elfogadott seed (1) üzeme 98 lapos, 765 tagelt elemmel, amelyek közül
 640-hez tartozik adatlap; adatlap nélkül marad 83 szabályozófunkció és 42 szint- vagy
-hőmérséklet-távadó (EXP-064). A két nagy üzem így körülbelül 7-szer, illetve 25-ször nagyobb a
-kis üzemnél.
+hőmérséklet-távadó (EXP-064). A két nagy üzem így lapszámban körülbelül 7-szer, illetve 25-ször, a
+tagelt elemek számában 7-szer, illetve 29-szer nagyobb a kis üzemnél.
 
 ## Adatlapok
 

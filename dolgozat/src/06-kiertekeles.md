@@ -22,8 +22,8 @@ A kis üzem 20 kérdéses fejlesztési halmazán négy iterációt mértünk (EX
 hozták az M1 Cypher-szintjének lekérdezési szabályait, az M2 és az M3 válaszszabályát (részválasznál
 a meglévő és a hiányzó rész megnevezése, a dokumentumon túli tanács tilalma) és a Rosemount 3051
 adatlapgráfját; utána a módszereket befagyasztottuk. A kis üzem befagyasztott, 40 kérdéses
-teszthalmazán a legjobb az M2 volt GLM-mel (31 helyes), a gráf nélküli M3 30, az M1 25 helyes
-választ adott (EXP-020). A kis üzem méréseit a Függelék G írja le részletesen; a továbbiakban csak
+teszthalmazán a legjobb az M2 volt GLM-mel (31 helyes), GLM-mel a gráf nélküli M3 30, az M1 25
+helyes választ adott (EXP-020). A kis üzem méréseit a Függelék G írja le részletesen; a továbbiakban csak
 a két nagy üzemmel foglalkozunk.
 
 ## Eredmény a két nagy üzemen
@@ -56,10 +56,10 @@ lapos üzemen GLM-mel az M2 szignifikánsan jobb a gráf nélküli M3-nál (pár
 az M2 szignifikánsan jobb az M1-nél (−0,183; −0,317 és −0,050 között), az M3-nál pedig a határon
 (+0,117; 0,000 és +0,233 között); Lunával mindkét gráfos módszer szignifikánsan jobb az M3-nál (az
 M1-é +0,217, 95% CI +0,100 és +0,333 között, az M2-é +0,200, +0,050 és +0,350 között; EXP-070). A
-gráfos módszerek pontossága a két méret között alig változott (az M2 GLM-mel 51-ről 49-re, Lunával
-41-ről 42-re, az M1 Lunával 43 maradt), a gráf nélküli M3-é viszont modellenként ellentétes
-irányba mozdult: GLM-mel 35-ről 42-re nőtt, Lunával 39-ről 30-ra esett. A 720 válaszból három
-hallucinált.
+gráfos módszerek pontossága a két méret között kevéssé változott (az M2 GLM-mel 51-ről 49-re,
+Lunával 41-ről 42-re, az M1 GLM-mel 42-ről 38-ra, Lunával 43 maradt), a gráf nélküli M3-é viszont
+modellenként ellentétes irányba mozdult: GLM-mel 35-ről 42-re nőtt, Lunával 39-ről 30-ra esett. A
+60 kérdéses sorok 720 válaszából három hallucinált.
 
 ## A gráf szerepe a nagy rajzon
 
@@ -69,7 +69,7 @@ elemeket látja. Ennek két következménye látszik. Az első a megbízhatósá
 GLM-mel a rajzi kérdések közül csak 6-ot oldott meg a 15-ből, és a 9 nem helyes válaszból 8 téves
 „nincs benne” jelzés volt; a kis üzemen egyetlen ilyen eset sem fordult elő (EXP-062). A 98 lapos
 üzemen ugyanez a párosítás 11 rajzi kérdést oldott meg, téves „nincs benne” nélkül, a Luna viszont
-12-ről 8-ra esett (EXP-067). A gráf nélküli módszer viselkedése tehát a rajz méretével
+12-ről 8-ra esett (EXP-060, EXP-070; a hibafajták: EXP-062, EXP-067). A gráf nélküli módszer viselkedése tehát a rajz méretével
 kiszámíthatatlanul változik, a gráfos módszereké stabil. A második következmény a költség (lásd
 alább). Mindkettő egybevág Benedek mérésével, amely szerint a teljes rajz promptba tétele a
 lapszámmal romlik és drágul (2. fejezet).
@@ -88,9 +88,9 @@ Táblázat: Költség és medián késleltetés kérdésenként a két nagy üze
 
 ![Kérdésenkénti költség a 27 lapos (halvány oszlop) és a 98 lapos üzemen (telt oszlop) (EXP-060, EXP-070).](../../figures/scale_cost.png)
 
-A gráfos módszerek kérdésenkénti költsége a 27 és a 98 lap között gyakorlatilag nem változott (az
-M2 GLM-mel 0,00344 és 0,00355 USD, Lunával 0,00227 és 0,00220 USD), mert a modellhez mindig csak a
-lekérdezés eredménye jut el. Az M3 költsége a rajz méretével nőtt: GLM-mel 0,00133-ról 0,00844
+A gráfos módszerek kérdésenkénti költsége a 27 és a 98 lap között nem nőtt (az M2 GLM-mel 0,00344
+és 0,00355 USD, Lunával 0,00227 és 0,00220 USD; az M1 GLM-mel 0,00335 és 0,00345 USD, Lunával
+0,01027 és 0,00649 USD), mert a modellhez mindig csak a lekérdezés eredménye jut el. Az M3 költsége a rajz méretével nőtt: GLM-mel 0,00133-ról 0,00844
 USD-re, Lunával 0,00680-ról 0,02409 USD-re (EXP-060, EXP-070). A 98 lapos üzemen így a gráf nélküli
 módszer Lunával több mint tízszer drágább kérdésenként, mint az M2, és kevesebb helyes választ ad. Az M1
 Lunával a 98 lapos üzemen olcsóbb volt, mert több kérdést zárt le már a Cypher-szinten (lásd az
@@ -108,9 +108,9 @@ kérdéscsaládok megoszlásával egyezik.
 ## Több adatlapos kérdések
 
 Mindkét nagy üzemen lefuttattuk a 12 kérdéses (e) családot is, amelyben a rajzon egy utat, egy
-elemhalmazt vagy két topológiai lépést kell bejárni, és két-három különböző adatlapot kell
-összevetni (például „Along the process flow path from E-1-1 to CHV-2-1, which item has the lowest
-maximum allowable pressure according to its datasheet?”). A referenciát program rakta össze a gold
+elemhalmazt vagy két topológiai lépést kell bejárni, és két–hat különböző adatlapot kell
+összevetni (például a 27 lapos üzemen „Along the process flow path from P-1-1 to P-10-2, which
+item has the lowest maximum allowable pressure according to its datasheet?”, öt adatlappal). A referenciát program rakta össze a gold
 gráfból és a PDF-ekből gyűjtött tényekből (EXP-008, EXP-052, EXP-065).
 
 Táblázat: A több adatlapos kérdések eredménye a két nagy üzemen (12-12 kérdés; 27 lap: EXP-061, 98 lap: EXP-071)
@@ -129,8 +129,9 @@ modellel +0,5 (95% CI +0,25 és +0,75 között), szignifikánsan (EXP-061). A 98
 kérdések minden párosításnak nehezebbek lettek: teljesen helyes választ csak az M2 GLM-mel adott
 nagyobb számban (6 kérdés), szignifikánsan többet, mint az M3 (+0,5; +0,25 és +0,75 között); a többi
 párosítás 0–3 kérdést oldott meg (EXP-071). A hosszabb utakon és nagyobb elemhalmazokon több
-elemet kell bejárni és több adatlapot lekérdezni, és a lépés- és időkorlát itt hamarabb elfogy:
-az M2 mindkét modellel 3-3 kérdésnél üres választ adott mindkét méretnél (EXP-062, EXP-067).
+elemet kell bejárni és több adatlapot lekérdezni; az M2 mindkét modellel és mindkét méretnél 3-3
+kérdésnél üres választ adott (lépéskorlát vagy feldolgozási hiba, EXP-062, EXP-067), vagyis az
+üres válaszok száma a mérettel nem nőtt, a visszaesés a rossz tartalmú válaszokból jön.
 
 ## Hibaelemzés
 

@@ -15,8 +15,8 @@ pontosabb volt: GLM-mel mindkét méretnél ez lett a legjobb párosítás (51, 
 mindkét méretnél szignifikánsan megelőzte az M1-et. A gráf nélküli M3-mal szemben az M2 előnye a
 27 lapos üzemen GLM-mel, mindkét gráfos módszeré a 98 lapos üzemen Lunával szignifikáns.
 
-**RQ2.** A gráfos módszerek pontossága és kérdésenkénti költsége a 27 és a 98 lap között alig
-változott (az M2 GLM-mel 0,00344 és 0,00355 USD), a gráf nélküli M3 költsége viszont a rajz
+**RQ2.** A gráfos módszerek kérdésenkénti költsége a 27 és a 98 lap között nem nőtt (az M2
+GLM-mel 0,00344 és 0,00355 USD), a pontosságuk kevéssé változott, a gráf nélküli M3 költsége viszont a rajz
 méretével nőtt (Lunával 0,00680-ról 0,02409 USD-re), a pontossága pedig modellenként ellentétes
 irányba mozdult (GLM-mel 35-ről 42-re nőtt, Lunával 39-ről 30-ra esett; EXP-060, EXP-070). A kis
 üzemen versenyképes gráf nélküli módszer tehát a nagy rajzon drágább és kiszámíthatatlanabb lett;
@@ -25,11 +25,12 @@ drágul.
 
 **RQ3.** A rajzi (a) és a megválaszolhatatlan (d) kérdéseken a gráfos módszerek erősek, a
 különbség az adatlapi (b), az összetett (c) és a több adatlapos (e) kérdéseken jön ki. A több
-adatlapos kérdések felét a 27 lapos üzemen a két gráfos módszer teljesen megoldotta, a gráf
+adatlapos kérdések közel felét (5–6-ot a 12-ből) a 27 lapos üzemen a két gráfos módszer teljesen
+megoldotta, a gráf
 nélküli egyet sem; a 98 lapos üzemen ezek a kérdések minden párosításnak nehezebbek lettek, ott
 csak az M2 GLM-mel oldott meg hatot (EXP-061, EXP-071). Az M1 jellemző hibája a hiányos
-egylekérdezéses válasz, a gráf nélküli módszeré a téves „nincs benne” jelzés. A 720 válaszból
-három volt hallucinált.
+egylekérdezéses válasz, a gráf nélküli módszeré a téves „nincs benne” jelzés. A 60 kérdéses
+sorok 720 válaszából három volt hallucinált.
 
 ## Korlátok
 

@@ -76,3 +76,16 @@
 - Az MI-munkafolyamatról szóló mondat kikerült a dolgozatból és az előadásból.
 - Építési javítás: a számozott listák mindig 1-től indulnak, és a többsoros listaelemek egy
   bekezdésben maradnak.
+
+## 2026-10-31 22:16 — v4: közös kiértékelés két nagy üzemen
+- A felhasználó és a konzulens kérésére a közös mérés nagyobb üzemeken is lefutott: 27 lap (PQB,
+  EXP-051..063) és 98 lap (PQC, EXP-064..071), ugyanazzal a generátorral és hét adatlappal, a kis
+  üzemen befagyasztott módszerekkel. A 6. fejezet a két nagy üzemet skálázási sorként mutatja be,
+  a kis üzem a Függelék G-be került. Fő eredmény: mindkét méretnél az M2 GLM a legjobb (51 és 49 /
+  60); a gráf nélküli M3 költsége a rajzzal nő (Lunával 0,00680 → 0,02409 USD/kérdés), a gráfos
+  módszereké nem.
+- Bevezetés, kivonat és abstract átírva (két rész, definiálatlan szakszavak nélkül); a v1, v2
+  változat megmaradt (`dolgozat/v1`, `dolgozat/v2`).
+- Számellenőrzés: `docs/szamellenorzes-v4.md` (119 OK, 8 probléma, mind javítva).
+- Dolgozat: 59 oldal, ebből a főszöveg 34; előadás: 17 dia, validálva.
+- Költés: 6,8879 USD / 20 USD (EXP-068). Tesztek, ruff, mypy zöld.

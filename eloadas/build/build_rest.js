@@ -17,7 +17,7 @@ function complexSlide() {
   const find = (c, m, mo) => c.rows.find((r) => r.method === m && r.model === mo) || {};
   const data = COMPLEX.map((c) => ({ name: c.label, labels, values: KEYS.map(([m, mo]) => Number(find(c, m, mo).correct || 0)) }));
   const notes = COMPLEX.map((c) => `${c.label}: ` + KEYS.map(([m, mo]) => `${m} ${MODEL[mo]} ${find(c, m, mo).correct}`).join(", ")).join("; ");
-  const s = content(`Külön 12 olyan kérdést is feltettünk, amelyekhez a rajzon egy utat vagy elemhalmazt kell bejárni, és két-három adatlapot kell összevetni. A teljesen helyes válaszok száma: ${notes}. A 27 lapos üzemen a gráfos módszerek a felét megoldották, a gráf nélküli egyet sem; a 98 lapos üzemen ezek a kérdések mindenkinek nehezebbek lettek, ott csak az irányító GLM-mel tartotta a szintjét.`);
+  const s = content(`Külön 12 olyan kérdést is feltettünk, amelyekhez a rajzon egy utat vagy elemhalmazt kell bejárni, és két-három adatlapot kell összevetni. A teljesen helyes válaszok száma: ${notes}. A 27 lapos üzemen a gráfos módszerek közel a felét megoldották, a gráf nélküli egyet sem; a 98 lapos üzemen ezek a kérdések mindenkinek nehezebbek lettek, ott csak az irányító GLM-mel tartotta a szintjét.`);
   title(s, "Több adatlapos kérdések — EXP-061, EXP-071");
   s.addChart(pres.charts.BAR, data, { x: 0.4, y: 1.0, w: 5.8, h: 4.0, barDir: "col", barGrouping: "clustered",
     chartColors: ["9FB6D0", NAVY], showValue: true, dataLabelPosition: "outEnd", dataLabelFormatCode: "0",
@@ -46,7 +46,7 @@ function errorSlide() {
 function summarySlide() {
   const [b, c] = LARGE;
   const cost = (l, m, mo) => Number(rowOf(l, m, mo).cost_usd) / Number(rowOf(l, m, mo).n);
-  const s = content(`Összefoglalva: a két rész összekötve működik, és a nagy üzemeken az irányító a legjobb a GLM modellel (${rowOf(b, "M2", "glm").correct} és ${rowOf(c, "M2", "glm").correct} helyes a 60-ból). A gráfos módszerek pontossága és költsége a 27 és a 98 lap között alig változik, a gráf nélküli módszer viszont drágul és kiszámíthatatlanná válik. A több adatlapos kérdéseken a gráf a döntő.`);
+  const s = content(`Összefoglalva: a két rész összekötve működik, és a nagy üzemeken az irányító a legjobb a GLM modellel (${rowOf(b, "M2", "glm").correct} és ${rowOf(c, "M2", "glm").correct} helyes a 60-ból). A gráfos módszerek költsége a 27 és a 98 lap között nem nő, a pontosságuk kevéssé változik, a gráf nélküli módszer viszont drágul és kiszámíthatatlanná válik. A több adatlapos kérdéseken a gráf a döntő.`);
   title(s, "Összefoglalás");
   const rows = [["RQ1", `Irányító (M2) a legjobb GLM-mel: ${pct(rowOf(b, "M2", "glm").accuracy)} (27 lap) és ${pct(rowOf(c, "M2", "glm").accuracy)} (98 lap); M1 ${pct(rowOf(b, "M1", "glm").accuracy)} és ${pct(rowOf(c, "M1", "glm").accuracy)}`],
     ["RQ2", `Gráfos módszerek: költség ~állandó (M2 GLM ${hu(cost(b, "M2", "glm"), 4)} → ${hu(cost(c, "M2", "glm"), 4)} USD); gráf nélküli Lunával ${hu(cost(b, "M3", "luna"), 4)} → ${hu(cost(c, "M3", "luna"), 4)} USD`],

@@ -164,7 +164,7 @@ function resultSlide() {
   const labels = KEYS.map(([m, mo]) => `${m} ${mo === "glm" ? "GLM" : "Luna"}`);
   const data = LARGE.map((l) => ({ name: l.label, labels, values: KEYS.map(([m, mo]) => Number(rowOf(l, m, mo).accuracy || 0)) }));
   const [b, c] = LARGE;
-  const s = content(`Mindkét nagy üzemen az irányító volt a legjobb a GLM modellel: ${rowOf(b, "M2", "glm").correct}, illetve ${rowOf(c, "M2", "glm").correct} helyes válasz a 60-ból. A gráfos módszerek pontossága a két méret között alig változott, a gráf nélküli módszeré modellenként ellentétes irányba mozdult.`);
+  const s = content(`Mindkét nagy üzemen az irányító volt a legjobb a GLM modellel: ${rowOf(b, "M2", "glm").correct}, illetve ${rowOf(c, "M2", "glm").correct} helyes válasz a 60-ból. A gráfos módszerek pontossága a két méret között kevéssé változott, a gráf nélküli módszeré modellenként ellentétes irányba mozdult.`);
   title(s, `Pontosság a két nagy üzemen — ${TEST}`);
   s.addChart(pres.charts.BAR, data, { x: 0.4, y: 1.0, w: 9.2, h: 4.1, barDir: "col", barGrouping: "clustered",
     chartColors: ["9FB6D0", NAVY], showValue: true, dataLabelPosition: "outEnd", dataLabelFormatCode: "0%", dataLabelFontSize: 9,
@@ -178,7 +178,7 @@ function costSlide() {
     values: KEYS.map(([m, mo]) => { const r = rowOf(l, m, mo); return Number(r.cost_usd) / Number(r.n); }) }));
   const [b, c] = LARGE;
   const m3 = (l) => Number(rowOf(l, "M3", "luna").cost_usd) / Number(rowOf(l, "M3", "luna").n);
-  const s = content(`A kérdésenkénti költség. A gráfos módszereké a két méret között gyakorlatilag nem változik, mert a modellhez csak a lekérdezés eredménye jut el. A gráf nélküli módszer viszont az egész rajzot viszi magával: Lunával ${hu(m3(b), 5)}-ról ${hu(m3(c), 5)} dollárra nőtt a költsége kérdésenként.`);
+  const s = content(`A kérdésenkénti költség. A gráfos módszereké a két méret között nem nő, mert a modellhez csak a lekérdezés eredménye jut el. A gráf nélküli módszer viszont az egész rajzot viszi magával: Lunával ${hu(m3(b), 5)}-ról ${hu(m3(c), 5)} dollárra nőtt a költsége kérdésenként.`);
   title(s, "Költség / kérdés: a gráf nélküli módszer drágul");
   s.addChart(pres.charts.BAR, data, { x: 0.4, y: 1.0, w: 9.2, h: 4.1, barDir: "col", barGrouping: "clustered",
     chartColors: ["9FB6D0", NAVY], showValue: true, dataLabelPosition: "outEnd", dataLabelFormatCode: "0.000", dataLabelFontSize: 9,

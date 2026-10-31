@@ -110,11 +110,14 @@ def dev_progress(plan: dict[str, Any]) -> None:
     fig, ax = plt.subplots(figsize=(7.2, 3.8))
     for method, model in _keys(rows):
         pts = [r for r in rows if r["method"] == method and r["model"] == model]
-        xs, ys = [int(p["step"]) for p in pts], [float(p["accuracy"]) for p in pts]
+        shift = {"M1": -0.06, "M2": 0.0, "M3": 0.06}[method]  # egybeeső pontok szétválasztása
+        xs = [int(p["step"]) + shift for p in pts]
+        ys = [float(p["accuracy"]) for p in pts]
         dash = "-" if model == "glm" else "--"
         ax.plot(xs, ys, dash, color=METHOD_COLORS[method], linewidth=2, marker="o", markersize=6)
         label = f"{method} {MODEL_NAMES[model]}"
-        ax.annotate(label, (xs[-1], ys[-1]), xytext=(6, 0), textcoords="offset points",
+        lift = {"M1": 7, "M2": 0, "M3": -7}[method]
+        ax.annotate(label, (xs[-1], ys[-1]), xytext=(8, lift), textcoords="offset points",
                     va="center", fontsize=8, color=TEXT)  # fmt: skip
     ax.set_xticks([i + 1 for i in range(len(plan["dev"]))])
     ax.set_xticklabels([f"{d['exp']}\n{d['label']}" for d in plan["dev"]], fontsize=7)

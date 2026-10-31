@@ -26,6 +26,7 @@ from plantgraph.qa.models import Question as PgQuestion
 from plantgraph.qa.scoring import score_answer
 
 from plantqa.eval.run import RUNS, load_questions
+from plantqa.methods.base import answer_text
 
 NUMBER = re.compile(r"(?<![\w.])[-+]?\d+(?:[.,]\d+)*(?:\s*/\s*\d+)?")
 UNIT_AFTER = re.compile(r"[-+]?\d+(?:[.,]\d+)*(?:\s*/\s*\d+)?\s*([A-Za-z%°µ\"]+[A-Za-z/²³]*)")
@@ -87,9 +88,7 @@ def candidate_text(answer: dict[str, Any]) -> str:
     final = answer.get("final")
     if not final:
         return f"(no answer: {answer.get('outcome')})"
-    if final.get("not_present"):
-        return "Not in the documents."
-    return str(final.get("answer"))
+    return answer_text(final)
 
 
 def load_answers(folder: Path) -> list[dict[str, Any]]:
@@ -138,6 +137,31 @@ def export_judge(exp: str) -> int:
     return len(items)
 
 
+def export_rejudge(exp: str) -> int:
+    """Újrabírálat: a „nincs benne” + szöveg tételek, amelyeket a régi exportszöveg elrejtett.
+
+    A régi `candidate_text` ilyenkor csak „Not in the documents.”-t mutatott a bírálónak; a
+    tételek a javított szöveggel `judge/items-r1.json`-ba kerülnek, az új ítéletek
+    (`verdicts-r1.json`) a betűrend miatt felülírják a régieket az összefésülésnél.
+    """
+    questions = {q["qid"]: q for split in ("dev", "test") for q in load_questions(split)}
+    folder = RUNS / exp / "judge"
+    key = json.loads((folder / "key.json").read_text(encoding="utf-8"))
+    by_row = {(v["file"], v["qid"]): ident for ident, v in key.items()}
+    items = []
+    for row in load_answers(RUNS / exp):
+        final = row["answer"].get("final") or {}
+        ident = by_row.get((row["file"], row["qid"]))
+        if ident is None or not final.get("not_present") or not str(final.get("answer") or ""):
+            continue
+        gold = {**questions[row["qid"]]["gold"], "question": questions[row["qid"]]["text"]}
+        items.append({"item": ident, "gold": gold, "candidate": candidate_text(row["answer"])})
+    random.Random(SEED).shuffle(items)
+    text = json.dumps(items, indent=1, ensure_ascii=False)
+    (folder / "items-r1.json").write_text(text, encoding="utf-8")
+    return len(items)
+
+
 def merged(exp: str) -> list[dict[str, Any]]:
     """Programos és bírálói ítéletek együtt (a hiányzó bírálat `pending`)."""
     folder = RUNS / exp / "judge"
@@ -155,13 +179,16 @@ def merged(exp: str) -> list[dict[str, Any]]:
 
 
 def main() -> None:
-    """`export` (bírálati csomag) vagy `merge` (összefésült ítéletek: `scored.jsonl`)."""
+    """`export` (bírálati csomag), `rejudge` (újrabírálat) vagy `merge` (`scored.jsonl`)."""
     parser = argparse.ArgumentParser(description="Score a measurement")
-    parser.add_argument("command", choices=["export", "merge"])
+    parser.add_argument("command", choices=["export", "rejudge", "merge"])
     parser.add_argument("--exp", required=True)
     args = parser.parse_args()
     if args.command == "export":
         print(f"{export_judge(args.exp)} items to judge")
+        return
+    if args.command == "rejudge":
+        print(f"{export_rejudge(args.exp)} items to re-judge")
         return
     rows = merged(args.exp)
     out = RUNS / args.exp / "scored.jsonl"

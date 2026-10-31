@@ -52,3 +52,14 @@ def test_flagged_answer_with_text_goes_to_judge() -> None:
         }
     }
     assert program_score(_free("partial", ["mechanical seal"]), answer) is None
+
+
+def test_candidate_text_keeps_the_explanation_next_to_the_flag() -> None:
+    from plantqa.eval.score import candidate_text
+
+    flagged = {"final": {"answer": "BV-2-1 and PV-2-1; class not stated.", "not_present": True}}
+    assert candidate_text(flagged) == "Not in the documents. BV-2-1 and PV-2-1; class not stated."
+    assert (
+        candidate_text({"final": {"answer": None, "not_present": True}}) == "Not in the documents."
+    )
+    assert candidate_text({"final": {"answer": ["P-1-1"], "not_present": False}}) == "P-1-1"

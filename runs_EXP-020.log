@@ -1,0 +1,193 @@
+a06 ANSWERED '2'
+a07 ANSWERED 'E-1-1'
+a08 ANSWERED 'E-2-1'
+a09 ANSWERED '2'
+a10 ANSWERED 'P-1-2'
+a11 ANSWERED 'CHV-1-2, P-1-3, P-2-1, P-2-2, CHV-2-1'
+a12 ANSWERED 'PIC-2-1'
+a13 ANSWERED 'CHV-1-1, GV-1-1, GV-1-2'
+a14 ANSWERED 'BallValve'
+a15 ANSWERED 'BV-2-1, PV-2-1, P-2-2, E-2-1, GV-2-2, CHV-2-1, E-2-2, E-2-3'
+b06 ANSWERED 'The documentation for FV-2-2 (a Fisher ET/EAT/ETR control valve) lists several a'
+b07 ANSWERED 'The flow rate (Kv value) of GV-1-1 depends on its nominal diameter (DN). While t'
+b08 ANSWERED 'The graphite valve packing option for the Rosemount 3051CFC has a maximum temper'
+b09 ANSWERED 'The maximum flow coefficient (Cv) at full open for a 2 inch valve PV-2-1 depends'
+b10 ANSWERED 'GV-2-2 requires power, as indicated by its electrical connection and power consu'
+b11 ANSWERED 'The P&ID documentation for P-1-4 includes performance curves for the VGH2 1/2C-B'
+b12 ANSWERED 'The solenoid valve GV-1-1 is designed for continuous operation, as its nominal m'
+b13 ANSWERED 'The valve PV-2-1 can be supplied with flanged ends, as well as butt weld and scr'
+b14 ANSWERED 'The suction and discharge connections for P-1-3 are NPT flanges, and the size is'
+b15 ANSWERED 'PT-2-1 is tested per IEC60770-1: 1999. For the frequency range of 10-60 Hz, the '
+c06 ANSWERED 'The item directly downstream of CHV-2-2 is P-2-3, which contains radial and thru'
+c07 ANSWERED 'The valve body of GV-1-2 is made of PVC. Since the fluid attacks EPDM, the seals'
+c08 ANSWERED 'The item directly upstream of BV-2-1 is a pump (P-1-3 / P-2-1), and its specific'
+c09 ANSWERED 'The differential pressure range for the transmitter PT-2-1, which feeds controll'
+c10 ANSWERED 'The transmitter measuring P-2-1 is PT-2-1 (a Rosemount 3051-series pressure tran'
+c11 ANSWERED 'The lowest operating temperature listed for the BR6 cold temperature option is -'
+c12 ANSWERED 'The item directly downstream of CHV-1-1 is P-1-2. Its casing is made of Ductile '
+c13 ANSWERED 'The available trim options for the valve operated by control loop PIC-2-1 (PV-2-'
+c14 TIMED_OUT ''
+c15 ANSWERED 'The item directly downstream of CHV-1-2 is P-1-3. Its overall dimensions include'
+d06 ANSWERED 'Not in the documents.'
+d07 ANSWERED 'Not in the documents.'
+d08 ANSWERED 'Based on the datasheet for GV-1-1, only CE approval is listed. The available fac'
+d09 ANSWERED 'Not in the documents.'
+d10 ANSWERED 'Not in the documents.'
+d11 ANSWERED 'Not in the documents.'
+d12 ANSWERED 'Not in the documents.'
+d13 ANSWERED 'Not in the documents.'
+d14 ANSWERED 'Not in the documents.'
+d15 ANSWERED 'Not in the documents.'
+C:\Users\Zsombi\plantqa\runs\EXP-020\M1-glm-test.jsonl
+spent 0.9214 USD, remaining 19.0786 USD of 20.0
+a06 ANSWERED '2'
+a07 ANSWERED 'E-1-1'
+a08 ANSWERED 'E-2-1'
+a09 ANSWERED 'Unit 2'
+a10 ANSWERED 'P-1-2'
+a11 ANSWERED 'CHV-1-2, P-1-3, P-2-1, P-2-2, CHV-2-1'
+a12 ANSWERED 'PV-2-1'
+a13 ANSWERED 'CHV-1-1, GV-1-1, GV-1-2'
+a14 ANSWERED 'BallValve'
+a15 ANSWERED 'BV-2-1, P-2-2, PV-2-1, CHV-2-1, E-2-1, GV-2-2, E-2-2, E-2-3, FV-2-2, CHV-2-2, P-'
+b06 ANSWERED 'According to the FV-2-2 datasheet (Fisher ET/EAT/ETR), the valve body, bonnet an'
+b07 ANSWERED 'The GV-1-1 datasheet (solenoid valve type 165) does specify Kv values, but the v'
+Retrying route call after a transport error (attempt 1/5, waiting 1.00s)
+Retrying route call after a transport error (attempt 2/5, waiting 2.00s)
+Retrying route call after a transport error (attempt 3/5, waiting 4.00s)
+Retrying route call after a transport error (attempt 4/5, waiting 8.00s)
+Retrying route call after a transport error (attempt 5/5, waiting 16.00s)
+Traceback (most recent call last):
+  File "C:\Users\Zsombi\plantqa\.venv\Lib\site-packages\httpx2\_transports\default.py", line 98, in map_httpcore_exceptions
+    yield
+  File "C:\Users\Zsombi\plantqa\.venv\Lib\site-packages\httpx2\_transports\default.py", line 245, in handle_request
+    resp = self._pool.handle_request(req)
+  File "C:\Users\Zsombi\plantqa\.venv\Lib\site-packages\httpcore2\_sync\connection_pool.py", line 242, in handle_request
+    raise exc from None
+  File "C:\Users\Zsombi\plantqa\.venv\Lib\site-packages\httpcore2\_sync\connection_pool.py", line 224, in handle_request
+    response = connection.handle_request(pool_request.request)
+  File "C:\Users\Zsombi\plantqa\.venv\Lib\site-packages\httpcore2\_sync\connection.py", line 94, in handle_request
+    raise exc
+  File "C:\Users\Zsombi\plantqa\.venv\Lib\site-packages\httpcore2\_sync\connection.py", line 74, in handle_request
+    stream = self._connect(request)
+  File "C:\Users\Zsombi\plantqa\.venv\Lib\site-packages\httpcore2\_sync\connection.py", line 117, in _connect
+    stream = self._network_backend.connect_tcp(**kwargs)
+  File "C:\Users\Zsombi\plantqa\.venv\Lib\site-packages\httpcore2\_backends\sync.py", line 203, in connect_tcp
+    with map_exceptions(exc_map):
+         ~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Zsombi\AppData\Roaming\uv\python\cpython-3.13-windows-x86_64-none\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\Zsombi\plantqa\.venv\Lib\site-packages\httpcore2\_exceptions.py", line 17, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore2.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Zsombi\plantqa\.venv\Lib\site-packages\openai\_base_client.py", line 1183, in request
+    response = self._send_request(
+        request,
+        stream=stream or self._should_stream_response_body(request=request),
+        **kwargs,
+    )
+  File "C:\Users\Zsombi\plantqa\.venv\Lib\site-packages\openai\_client.py", line 211, in _send_request
+    return sync_send_request(self, request, stream=stream, **kwargs)
+  File "C:\Users\Zsombi\plantqa\.venv\Lib\site-packages\openai\lib\_client_auth.py", line 317, in sync_send_request
+    response = self._send_with_auth_retry(request, stream=stream, **kwargs)
+  File "C:\Users\Zsombi\plantqa\.venv\Lib\site-packages\openai\_client.py", line 197, in _send_with_auth_retry
+    return sync_send_with_auth_retry(
+        _runtime_cast(_RuntimeAny, super()).__thisclass__, self, request, stream=stream, retried=retried, **kwargs
+    )
+  File "C:\Users\Zsombi\plantqa\.venv\Lib\site-packages\openai\lib\_client_auth.py", line 302, in sync_send_with_auth_retry
+    response = super(_owner, self)._send_request(request, stream=stream, **kwargs)
+  File "C:\Users\Zsombi\plantqa\.venv\Lib\site-packages\openai\_base_client.py", line 1104, in _send_request
+    return self._client.send(request, stream=stream, **kwargs)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Zsombi\plantqa\.venv\Lib\site-packages\httpx2\_client.py", line 979, in send
+    response = self._send_handling_auth(
+        request,
+    ...<2 lines>...
+        history=[],
+    )
+  File "C:\Users\Zsombi\plantqa\.venv\Lib\site-packages\httpx2\_client.py", line 1007, in _send_handling_auth
+    response = self._send_handling_redirects(
+        request,
+        follow_redirects=follow_redirects,
+        history=history,
+    )
+  File "C:\Users\Zsombi\plantqa\.venv\Lib\site-packages\httpx2\_client.py", line 1042, in _send_handling_redirects
+    response = self._send_single_request(request)
+  File "C:\Users\Zsombi\plantqa\.venv\Lib\site-packages\httpx2\_client.py", line 1075, in _send_single_request
+    response = transport.handle_request(request)
+  File "C:\Users\Zsombi\plantqa\.venv\Lib\site-packages\httpx2\_transports\default.py", line 244, in handle_request
+    with map_httpcore_exceptions():
+         ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Zsombi\AppData\Roaming\uv\python\cpython-3.13-windows-x86_64-none\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\Zsombi\plantqa\.venv\Lib\site-packages\httpx2\_transports\default.py", line 115, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx2.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Zsombi\Thesis\src\plantgraph\llm\client.py", line 327, in _call_with_retries
+    return self._call_once(request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Zsombi\Thesis\src\plantgraph\llm\client.py", line 355, in _call_once
+    completion = self._sdk_client.chat.completions.create(**kwargs)
+  File "C:\Users\Zsombi\plantqa\.venv\Lib\site-packages\openai\_utils\_utils.py", line 298, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Zsombi\plantqa\.venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1611, in create
+    return self._post(
+           ~~~~~~~~~~^
+        "/chat/completions",
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<53 lines>...
+        stream_cls=Stream[ChatCompletionChunk],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Zsombi\plantqa\.venv\Lib\site-packages\openai\_base_client.py", line 1474, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Zsombi\plantqa\.venv\Lib\site-packages\openai\_base_client.py", line 1218, in request
+    raise APIConnectionError(request=request) from err
+openai.APIConnectionError: Connection error.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 203, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\Zsombi\plantqa\src\plantqa\eval\run.py", line 115, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\Zsombi\plantqa\src\plantqa\eval\run.py", line 111, in main
+    print(run(parser.parse_args()))
+          ~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Zsombi\plantqa\src\plantqa\eval\run.py", line 93, in run
+    answer = method.ask(as_question(row))
+  File "C:\Users\Zsombi\plantqa\src\plantqa\methods\m2.py", line 139, in ask
+    reply = self.router.step(messages, question.qid)
+  File "C:\Users\Zsombi\plantqa\src\plantqa\methods\m2.py", line 61, in step
+    return self.client.complete(request, run_id=self.run_id, question_id=qid).text
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Zsombi\plantqa\src\plantqa\llm\clients.py", line 61, in complete
+    response = super().complete(
+        request, run_id=run_id, question_id=question_id, strategy=strategy, timeout_s=timeout_s
+    )
+  File "C:\Users\Zsombi\Thesis\src\plantgraph\llm\client.py", line 209, in complete
+    return self._complete(request, origin, timeout_s)
+           ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Zsombi\Thesis\src\plantgraph\llm\client.py", line 236, in _complete
+    response = self._live_call(request, origin, timeout_s)
+  File "C:\Users\Zsombi\Thesis\src\plantgraph\llm\client.py", line 277, in _live_call
+    return self._call_with_retries(request)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Zsombi\Thesis\src\plantgraph\llm\client.py", line 336, in _call_with_retries
+    raise ProviderError(redact(str(exc), self._api_key)) from exc
+plantgraph.llm.models.ProviderError: Connection error.
+spent 0.9312 USD, remaining 19.0688 USD of 20.0

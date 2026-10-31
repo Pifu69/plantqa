@@ -1,0 +1,113 @@
+[
+ {
+  "item": "e1e17ed48c",
+  "gold": {
+   "answer": "Not in the document (no troubleshooting).",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated"
+   ],
+   "question": "Regarding PV-2-1 on the P&ID: The valve leaks through when shut. Is it the seat ring or the plug seal, and how do I check?"
+  },
+  "candidate": "Not in the documents. PV-2-1 is a globe-style control valve (Fisher ET/EAT type per its datasheet). In this design the shutoff when closed is made at the seat: for metal-seat construction the plug closes against the seat ring, and for the standard PTFE (soft) seat construction the seal is a PTFE disk/disk-seat assembly at the seat; the valve plug seal is a separate seal that bears against the cage (balancing the plug) and is not the primary shutoff element — except on TSO (tight shutoff) trim, where the protected soft seat plus plug seal provide Class V shutoff. So a leak-through when shut is most likely at the seat ring/soft seat (e.g., worn PTFE disk, damaged seat surface, or insufficient seat load), not the plug seal. The datasheet does not contain a field inspection/leak-check procedure — the only leakage check mentioned is the factory test (TSO trim: no leakage at shipment, water as test medium; shutoff classes per ANSI/FCI 70-2 / IEC 60534-4, Class IV standard for metal seat, Class V/VI optional). To check, you would isolate the valve, pressurize upstream, and observe downstream leakage, then inspect the seat ring/PTFE disk and plug seal ring at overhaul — but the specific step-by-step procedure is not in the documents."
+ },
+ {
+  "item": "9f85ea6828",
+  "gold": {
+   "answer": "No motor is specified (basic pedestal pump; curves for 1150-3450 rpm). The 50 Hz 1450 rpm curve exists; over its operating range the power stays at or below the 7.5 BHP (5.6 kW) line, so a 7.5 kW 1450 rpm motor is enough for that speed.",
+   "answerable": "partial",
+   "category": "chart",
+   "must": [
+    "no motor specified",
+    "1450 rpm curve exists",
+    "power ≤ ~5.6 kW at 1450 rpm"
+   ],
+   "relation": "upstream",
+   "via_tag": "P-1-1",
+   "question": "Consider the item directly upstream of CHV-1-1 in the process flow. What motor size and speed is it meant to run at? We have a 7.5 kW 1450 rpm motor in stock."
+  },
+  "candidate": "Not in the documents. The item directly upstream of CHV-1-1 is P-1-1, a Gorman-Rupp VGH2 1/2C-B centrifugal pump. However, its datasheet does not specify a motor power rating in kW or a fixed motor speed — it only provides performance curves showing pump power requirements (BHP) and a range of operating speeds (1150–3450 RPM, with 1450 RPM among the curve speeds). Whether a 7.5 kW 1450 rpm motor is suitable cannot be confirmed from the documents."
+ },
+ {
+  "item": "c2d07b99ed",
+  "gold": {
+   "answer": "Not in the document.",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated"
+   ],
+   "relation": "downstream",
+   "via_tag": "P-1-3",
+   "question": "Consider the item directly downstream of CHV-1-2 in the process flow. How do I get into the pump to clear a blockage without taking the pipes off?"
+  },
+  "candidate": "Not in the documents. The item directly downstream of CHV-1-2 is pump P-1-3 (a Gorman-Rupp pump). Unfortunately, its datasheet does not contain any maintenance or service procedures for clearing a blockage without removing the piping — no access ports, cleanout features, or back pullout design are described. The only possibly relevant feature is that the pump includes \"Bypass Flush Piping\" as a standard feature, which might help flush a blockage, but the datasheet does not explain how to use it for that purpose. So the documents do not contain a definitive answer."
+ },
+ {
+  "item": "cf9cc8c368",
+  "gold": {
+   "answer": "Not in the document (no troubleshooting).",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated"
+   ],
+   "question": "Regarding PV-2-1 on the P&ID: The valve leaks through when shut. Is it the seat ring or the plug seal, and how do I check?"
+  },
+  "candidate": "Not in the documents. The provided datasheet facts do not contain a maintenance or in-service procedure for inspecting or replacing the seat ring or the plug seal, nor is there any guidance available to determine whether closed-position leakage originates from the seat ring or the plug seal."
+ },
+ {
+  "item": "93abe1c943",
+  "gold": {
+   "answer": "HART 4-20 mA: if self-diagnostics detect a sensor or microprocessor failure, the output is driven high or low; the direction is user-selectable with a jumper/switch on the transmitter. Factory default is High alarm unless specified (CT = Rosemount standard low alarm, CN = NAMUR low, C4 = NAMUR high). Levels: default high >= 21.75 mA (>= 22.5 mA with M6, DA1, T9, RK), low <= 3.75 mA; NAMUR >= 22.5 / <= 3.6 mA; custom 20.2-23.0 / 3.6-3.8 mA. Output M: below 0.94 V or above 5.4 V, selectable by internal jumper. F, W, X: failure passed as alert and status.",
+   "answerable": "yes",
+   "category": "conditional",
+   "must": [
+    "high or low, user-selectable by jumper/switch",
+    "default high",
+    "alarm values per standard/NAMUR/custom",
+    "output M internal jumper"
+   ],
+   "relation": "fed_by_transmitter",
+   "via_tag": "FT-2-2",
+   "question": "Consider the transmitter that feeds controller FIC-2-2. When the transmitter fails, does the output go high or low, and how do I change that alarm direction?"
+  },
+  "candidate": "Not in the documents. The transmitter feeding FIC-2-2 is FT-2-2 (a Rosemount 3051). However, its datasheet content is not available in the documents, so I cannot determine whether the output fails high or low or how to change the alarm direction. not_present: true"
+ },
+ {
+  "item": "a4dc074030",
+  "gold": {
+   "answer": "Not in the document.",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated"
+   ],
+   "relation": "downstream",
+   "via_tag": "P-1-3",
+   "question": "Consider the item directly downstream of CHV-1-2 in the process flow. How do I get into the pump to clear a blockage without taking the pipes off?"
+  },
+  "candidate": "Not in the documents. The provided datasheet does not contain information regarding how the pump casing is opened for cleaning or blockage removal, nor does it specify if it is a back pull-out design or describe any procedure for accessing the impeller or casing without disconnecting the piping."
+ },
+ {
+  "item": "90639c6c52",
+  "gold": {
+   "answer": "Mechanical, self-lubricated seal: silicon carbide rotating and stationary faces, fluorocarbon (Viton or equivalent) elastomers, 316 stainless shaft sleeve and spring. No part number is given.",
+   "answerable": "partial",
+   "category": "value",
+   "must": [
+    "mechanical self-lubricated seal",
+    "part number not given"
+   ],
+   "relation": "upstream",
+   "via_tag": "P-2-2",
+   "question": "Consider the item directly upstream of CHV-2-1 in the process flow. What kind of shaft seal does it have, and what's the part number for a replacement seal?"
+  },
+  "candidate": "Not in the documents. The item directly upstream of CHV-2-1 is pump P-2-2. It has a mechanical, self-lubricated shaft seal (silicon carbide faces, Viton/fluorocarbon elastomers, 316 stainless steel sleeve and spring). The datasheet lists the seal as replaceable but does not provide a part number for a replacement seal — for seal options it says 'Optional Seals: Consult Factory', so you must contact the manufacturer."
+ }
+]

@@ -1,0 +1,91 @@
+[
+ {
+  "item": "b784989b24",
+  "gold": {
+   "answer": "Not in the document (no troubleshooting).",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated"
+   ],
+   "question": "Regarding P-1-1 on the P&ID: It won't prime anymore, it used to. What should I check first?"
+  },
+  "candidate": "Not in the documents. The documents don't contain troubleshooting or diagnostic information, so I can't tell you what to check first for a priming problem. What the P&ID does show is that P-1-1's suction line contains two valves, GV-1-1 and GV-1-2 (with E-1-1 also upstream), which would be the relevant items in its suction path — but their datasheets only give specifications, not operating status or troubleshooting guidance."
+ },
+ {
+  "item": "e528f2be57",
+  "gold": {
+   "answer": "Not in the document.",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated"
+   ],
+   "relation": "downstream",
+   "via_tag": "P-1-3",
+   "question": "Consider the item directly downstream of CHV-1-2 in the process flow. How do I get into the pump to clear a blockage without taking the pipes off?"
+  },
+  "candidate": "Not in the documents. The item directly downstream of CHV-1-2 is pump P-1-3 (a centrifugal pump). However, the datasheet does not describe any maintenance access method — it contains nothing about removable covers, cleanout ports, back pull-out service, or servicing without disconnecting piping, so I cannot tell you how to get into the pump to clear a blockage. The only related information given is that the pump has 4\" x 2 1/2\" raised face flanges (with optional NPT flanges) for suction and discharge, and a sectional drawing labeling the casing, suction, discharge, seal plate and seal flange."
+ },
+ {
+  "item": "dad5a9d795",
+  "gold": {
+   "answer": "Not in the document (no troubleshooting).",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated"
+   ],
+   "question": "Regarding PV-2-1 on the P&ID: The valve leaks through when shut. Is it the seat ring or the plug seal, and how do I check?"
+  },
+  "candidate": "Not in the documents. The datasheet confirms that PV-2-1 has both a metal seat ring and a valve plug seal. While the design distinguishes between the two leakage paths (the seal ring against the cage/plug seal versus the seat interface), the provided facts do not contain a specific test or inspection procedure for checking seat leakage separately from leakage past the plug seal."
+ },
+ {
+  "item": "94b6585823",
+  "gold": {
+   "answer": "Not in the document (no troubleshooting).",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated"
+   ],
+   "question": "Regarding PV-2-1 on the P&ID: The valve leaks through when shut. Is it the seat ring or the plug seal, and how do I check?"
+  },
+  "candidate": "Not in the documents. The documents cannot tell you which sealing element is leaking on your PV-2-1. The datasheet is a Fisher ET catalog: it lists the possible constructions (metal-to-metal seating, metal-to-PTFE soft seating, spring-loaded seal ring construction, TSO trim with a replaceable protected soft seat) and shutoff classes (standard Class IV; optional Class V/VI; TSO factory-tested to no leakage), but it does not record which seating construction, trim, or shutoff class was actually ordered for this valve — that would be in the order documents. It also contains no diagnostic or inspection procedure for locating a leak between the seat ring and the plug seal. So neither the seat-ring-vs-plug-seal question nor a check method can be answered from these documents."
+ },
+ {
+  "item": "e0c0f46083",
+  "gold": {
+   "answer": "No motor is specified (basic pedestal pump; curves for 1150-3450 rpm). The 50 Hz 1450 rpm curve exists; over its operating range the power stays at or below the 7.5 BHP (5.6 kW) line, so a 7.5 kW 1450 rpm motor is enough for that speed.",
+   "answerable": "partial",
+   "category": "chart",
+   "must": [
+    "no motor specified",
+    "1450 rpm curve exists",
+    "power ≤ ~5.6 kW at 1450 rpm"
+   ],
+   "relation": "upstream",
+   "via_tag": "P-1-1",
+   "question": "Consider the item directly upstream of CHV-1-1 in the process flow. What motor size and speed is it meant to run at? We have a 7.5 kW 1450 rpm motor in stock."
+  },
+  "candidate": "Not in the documents. The item directly upstream of CHV-1-1 is pump P-1-1. Its datasheet does not state a single intended motor size or speed — it provides performance curves at multiple speeds (1150–3450 RPM), with required power depending on speed, impeller trim and fluid. For the 1450 RPM curve (50 Hz, water, curve VGH2 1/2C-B-5), the required power is 5–7.5 BHP (3.7–5.6 kW), so a 7.5 kW motor at 1450 rpm would exceed that curve's requirement. However, the datasheet does not confirm 1450 rpm as the intended operating speed for this installation, so which speed/motor size the pump is actually meant to run at is not stated."
+ },
+ {
+  "item": "1339475856",
+  "gold": {
+   "answer": "No troubleshooting in the datasheet. Related facts only: it needs at least 0.5 bar differential pressure to open; voltage must match the type plate (±10 %). The installation manual (www.gfps.com/is-manuals-valves) is referred to.",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "no troubleshooting information in the document"
+   ],
+   "question": "Regarding GV-1-2 on the P&ID: It hums but won't open. What could be wrong?"
+  },
+  "candidate": "Not in the documents. The documents do not contain a troubleshooting section or fault explanations, so the datasheet cannot say specifically why GV-1-2 hums but won't open. Relevant operating requirements it does state: it is a servo-controlled (pilot-operated) diaphragm solenoid valve needing a minimum differential pressure of 0.5 bar to open and close; the supply voltage must be within ±10% of the rated value on the type plate (available as 24 V DC, 230 V or 115 V AC); it is rated for continuous operation (100% ED) with media 0–+50 °C, ambient 0–+40 °C, clean liquids without solids, viscosity max. 21 mm²/s. If any of these conditions are not met, the valve may not open; otherwise the cause is not stated in the documents. The valve also has a manual override for hand operation."
+ }
+]

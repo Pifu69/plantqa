@@ -1,0 +1,154 @@
+[
+ {
+  "item": "9f76901a08",
+  "gold": {
+   "answer": "Not in the document.",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated"
+   ],
+   "relation": "downstream",
+   "via_tag": "P-1-3",
+   "question": "Consider the item directly downstream of CHV-1-2 in the process flow. How do I get into the pump to clear a blockage without taking the pipes off?"
+  },
+  "candidate": "Not in the documents. The provided datasheet does not contain information regarding how the pump casing is opened for cleaning or blockage removal, nor does it specify if it is a back pull-out design or describe any procedure for accessing the impeller or casing without disconnecting the piping."
+ },
+ {
+  "item": "cc598bd421",
+  "gold": {
+   "answer": "Not in the document (no troubleshooting).",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated"
+   ],
+   "question": "Regarding P-1-1 on the P&ID: It won't prime anymore, it used to. What should I check first?"
+  },
+  "candidate": "Not in the documents. The documents don't contain troubleshooting or diagnostic information, so I can't tell you what to check first for a priming problem. What the P&ID does show is that P-1-1's suction line contains two valves, GV-1-1 and GV-1-2 (with E-1-1 also upstream), which would be the relevant items in its suction path — but their datasheets only give specifications, not operating status or troubleshooting guidance."
+ },
+ {
+  "item": "c0b6e509de",
+  "gold": {
+   "answer": "No motor is specified (basic pedestal pump; curves for 1150-3450 rpm). The 50 Hz 1450 rpm curve exists; over its operating range the power stays at or below the 7.5 BHP (5.6 kW) line, so a 7.5 kW 1450 rpm motor is enough for that speed.",
+   "answerable": "partial",
+   "category": "chart",
+   "must": [
+    "no motor specified",
+    "1450 rpm curve exists",
+    "power ≤ ~5.6 kW at 1450 rpm"
+   ],
+   "relation": "upstream",
+   "via_tag": "P-1-1",
+   "question": "Consider the item directly upstream of CHV-1-1 in the process flow. What motor size and speed is it meant to run at? We have a 7.5 kW 1450 rpm motor in stock."
+  },
+  "candidate": "Not in the documents. The item directly upstream of CHV-1-1 is pump P-1-1 (Gorman-Rupp VGH2 1/2C-B, 4\" x 2.5\"). Its datasheet does not state a single recommended motor size or speed — it only provides performance curves across a range of speeds (3450 down to 1150 rpm at 60 Hz; 2900, 1750 and 1450 rpm at 50 Hz) and power ratings (roughly 2.2–55.9 kW depending on duty point). 1450 rpm is among the covered speeds, but the datasheet does not specify a 7.5 kW motor rating for this pump, so whether your 7.5 kW / 1450 rpm motor is suitable depends on the required flow and head, which the documents do not state. The exact intended motor size and speed are not present in the datasheet."
+ },
+ {
+  "item": "b4270d4624",
+  "gold": {
+   "answer": "Not in the document (no troubleshooting).",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated"
+   ],
+   "question": "Regarding PV-2-1 on the P&ID: The valve leaks through when shut. Is it the seat ring or the plug seal, and how do I check?"
+  },
+  "candidate": "Not in the documents. The provided datasheet facts do not contain a maintenance or in-service procedure for inspecting or replacing the seat ring or the plug seal, nor is there any guidance available to determine whether closed-position leakage originates from the seat ring or the plug seal."
+ },
+ {
+  "item": "761ebea493",
+  "gold": {
+   "answer": "Not in the document (no troubleshooting).",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated"
+   ],
+   "question": "Regarding PV-2-1 on the P&ID: The valve leaks through when shut. Is it the seat ring or the plug seal, and how do I check?"
+  },
+  "candidate": "Not in the documents. The documents don't identify which part is leaking or provide a diagnostic/checking procedure, so that part of the question is not stated. What the PV-2-1 datasheet (Fisher ET) does say: the valve's shutoff is achieved by the valve plug seal ring being forced (by a backup ring or spring-loading) against the cage, with seat rings as the seating parts. Shutoff is rated per ANSI/FCI 70-2 / IEC 60534-4: Class IV is standard with metal seating, Class V/VI are optional (Class V requires spring-loaded seal ring, radius-seat plug and wide-bevel seat ring), and TSO trim is factory tested to no leakage at shipment (shutoff class V, water test medium). If the valve was ordered with TSO or Class V/VI trim, leakage when shut would indicate those sealing parts (plug seal ring and/or seat ring) are not performing to that rating, but the datasheet does not say how to determine which one is at fault."
+ },
+ {
+  "item": "4d54ea3b8e",
+  "gold": {
+   "answer": "Not in the document.",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated"
+   ],
+   "relation": "downstream",
+   "via_tag": "P-1-3",
+   "question": "Consider the item directly downstream of CHV-1-2 in the process flow. How do I get into the pump to clear a blockage without taking the pipes off?"
+  },
+  "candidate": "Not in the documents. The item directly downstream of CHV-1-2 is pump P-1-3 (a Gorman-Rupp centrifugal pump). The datasheet does not state how to access the pump for clearing a blockage — it contains no information about removable covers, cleanout ports, or whether the pump can be serviced without disconnecting the piping. What it does show: the pump has a ductile iron casing with 4\" x 2½\" raised face flanges on suction and discharge, replaceable wear rings, and standard bypass flush piping (which feeds liquid back into the pump and handles 15/32\" spherical solids). The part of your question about maintenance access without removing pipes is not stated in the documents."
+ },
+ {
+  "item": "bf5f522a91",
+  "gold": {
+   "answer": "No motor is specified (basic pedestal pump; curves for 1150-3450 rpm). The 50 Hz 1450 rpm curve exists; over its operating range the power stays at or below the 7.5 BHP (5.6 kW) line, so a 7.5 kW 1450 rpm motor is enough for that speed.",
+   "answerable": "partial",
+   "category": "chart",
+   "must": [
+    "no motor specified",
+    "1450 rpm curve exists",
+    "power ≤ ~5.6 kW at 1450 rpm"
+   ],
+   "relation": "upstream",
+   "via_tag": "P-1-1",
+   "question": "Consider the item directly upstream of CHV-1-1 in the process flow. What motor size and speed is it meant to run at? We have a 7.5 kW 1450 rpm motor in stock."
+  },
+  "candidate": "Not in the documents. The datasheet does not specify a single fixed motor size or operating speed for the pump P-1-1. Instead, the required motor size and speed depend on the specific performance curve, fluid, and impeller trim used for the application, providing only operating ranges."
+ },
+ {
+  "item": "faebf77035",
+  "gold": {
+   "answer": "No troubleshooting in the datasheet. Related facts only: it needs at least 0.5 bar differential pressure to open; voltage must match the type plate (±10 %). The installation manual (www.gfps.com/is-manuals-valves) is referred to.",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "no troubleshooting information in the document"
+   ],
+   "question": "Regarding GV-1-2 on the P&ID: It hums but won't open. What could be wrong?"
+  },
+  "candidate": "Not in the documents. The documents do not contain a troubleshooting section or fault explanations, so the datasheet cannot say specifically why GV-1-2 hums but won't open. Relevant operating requirements it does state: it is a servo-controlled (pilot-operated) diaphragm solenoid valve needing a minimum differential pressure of 0.5 bar to open and close; the supply voltage must be within ±10% of the rated value on the type plate (available as 24 V DC, 230 V or 115 V AC); it is rated for continuous operation (100% ED) with media 0–+50 °C, ambient 0–+40 °C, clean liquids without solids, viscosity max. 21 mm²/s. If any of these conditions are not met, the valve may not open; otherwise the cause is not stated in the documents. The valve also has a manual override for hand operation."
+ },
+ {
+  "item": "9bda17bf50",
+  "gold": {
+   "answer": "±1.95% of flow rate at 8:1 flow turndown.",
+   "answerable": "yes",
+   "category": "multi_condition",
+   "must": [
+    "±1.95% of flow rate",
+    "8:1 flow turndown"
+   ],
+   "question": "Regarding FT-2-2 on the P&ID: What flow accuracy can I expect from a 3051CFC compact orifice meter with conditioning option C, range 2, with a beta ratio of 0.50?"
+  },
+  "candidate": "Not in the documents. The datasheet for FT-2-2 (Rosemount 3051CFC) contains a Flow Reference Accuracy table on page 77 covering the 3051CFC with conditioning orifice (option C), ranges 2–3, by beta ratio, expressed as % of flow rate at 8:1 turndown. However, the specific value for option C, range 2, beta ratio 0.50 was not retrievable from the document facts. What can be said is that across the listed types and beta ratios, the accuracy values fall between ±1.75% and ±3.00% of flow rate. The exact figure for your combination is not stated in the retrieved information."
+ },
+ {
+  "item": "7c62939fdd",
+  "gold": {
+   "answer": "Mechanical, self-lubricated seal: silicon carbide rotating and stationary faces, fluorocarbon (Viton or equivalent) elastomers, 316 stainless shaft sleeve and spring. No part number is given.",
+   "answerable": "partial",
+   "category": "value",
+   "must": [
+    "mechanical self-lubricated seal",
+    "part number not given"
+   ],
+   "relation": "upstream",
+   "via_tag": "P-2-2",
+   "question": "Consider the item directly upstream of CHV-2-1 in the process flow. What kind of shaft seal does it have, and what's the part number for a replacement seal?"
+  },
+  "candidate": "Not in the documents. The item directly upstream of CHV-2-1 is pump P-2-2. Its shaft seal is a mechanical, self-lubricated seal: silicon carbide rotating/stationary faces, fluorocarbon (Viton® or equivalent) elastomers, and a stainless steel 316 shaft sleeve and spring; the seal is listed as replaceable. However, the datasheet does not state a part number for a replacement seal — it only notes 'Optional Seals: Consult Factory', so no replacement seal part number is given in the documents."
+ }
+]

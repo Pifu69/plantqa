@@ -43,10 +43,16 @@ class MethodAnswer:
         """A válasz olvasható szövege (lista esetén vesszővel)."""
         if not self.final:
             return ""
-        if self.final.get("not_present"):
-            return "Not in the documents."
-        value = self.final.get("answer")
-        return ", ".join(map(str, value)) if isinstance(value, list) else str(value)
+        return answer_text(self.final)
+
+
+def answer_text(final: dict[str, Any]) -> str:
+    """A végső válasz szövege; a „nincs benne” jelzés mellett írt magyarázatot is megtartja."""
+    value = final.get("answer")
+    text = ", ".join(map(str, value)) if isinstance(value, list) else str(value or "").strip()
+    if not final.get("not_present"):
+        return text
+    return f"Not in the documents. {text}".strip() if text else "Not in the documents."
 
 
 class Method(Protocol):

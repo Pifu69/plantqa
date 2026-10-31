@@ -159,6 +159,21 @@ mért kaszkád a README szerint a lezárt teszten (460 kérdés, a fejlesztés s
 pontossága 1-ről 30 lapra 0,824-ről 0,658-ra csökkent, miközben a kaszkádé 0,941-ről 0,947-re
 változott, a ContextRAG relatív költsége a kaszkádéhoz képest 1,8-szorosról 41,5-szeresre nőtt, és a
 szerializált rajz körülbelül 143 lap fölött már nem fér el a promptban (Kiszely, plantgraph README).
+
+A valósághűbb v2 generátor üzemein a befagyasztott v1 rendszer gyengébb, ezért Benedek egy külön
+megjelölt, hangolt rendszert (V2T) épített és fagyasztott be. Két, a hangolás során nem látott v2
+üzemen (kb. 100 és kb. 1000 lap, egyenként 163 kérdés) a V2T kaszkádja 154, illetve 156 helyes
+választ adott, a v1 rendszer 145, illetve 144-et (plantgraph EXP-0007-V2T-VAL). A létramérésen
+(R4, regisztrált tesztseedek) a kaszkád pontossága 1, 3, 11 és 30 lapon 0,957 / 0,885 / 0,909 /
+0,924 volt, a ContextRAG-é 1, 3 és 11 lapon 0,686 / 0,654 / 0,614. A ContextRAG kérdésenkénti
+költsége 1 lapon a kaszkád 3,79-szerese, 11 lapon 21,57-szerese, és a szerializált rajz kb. 62 lap
+fölött már nem fér el a promptban (plantgraph EXP-0007-R4). A lezárt v2-teszten (R5, regisztrált
+tesztseedek, 440 kérdés üzemenként) a V2T kaszkádja kb. 100 lapon 401 (0,911), kb. 1000 lapon 392
+(0,891) helyes választ adott; a változás (−0,020, 95% CI −0,059 és +0,018 között) nem szignifikáns,
+a kérdésenkénti költség 0,00137, illetve 0,00148 USD, a medián késleltetés 7,1, illetve 7,5 s. A
+hangolás során nem látott kérdéscsaládokon (100 kérdés) a pontosság 0,770, illetve 0,740, a
+különbség szinte teljesen a lefelé izolációs (DOWNSTREAM_ISOLATION) kérdésekből jön, ahol a 20-ból
+mindkét méretnél 2 volt helyes (plantgraph EXP-0007-R5).
 Ezek a számok háttérként szerepelnek; jelen munka nem méri őket újra, de a 6. fejezetben ezekre
 támaszkodunk, amikor a gráf nélküli módszer skálázódásáról beszélünk.
 

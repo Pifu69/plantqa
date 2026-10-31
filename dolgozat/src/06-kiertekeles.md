@@ -71,7 +71,7 @@ A legdrágább az M1: a kaszkád első szintje a teljes kétrétegű sémát kap
 fogadják el a válaszát, az ágens is lefut, amely tagenként külön adatlap-hívásokat indít. Az M2 GLM-mel körülbelül feleannyiba kerül (0,00234 vs. 0,00453 USD), Lunával 40%-ába (0,00213 vs. 0,00539 USD), mert csak a szükséges eszközt hívja. Az M3 a legolcsóbb, és
 Lunával a leggyorsabb is: egyetlen hívás, de a teljes rajzot és tizenkét adatlap-darabot viszi
 magával. Ez a példaüzemen olcsó, mert a rajz kicsi (36 csúcs); Benedek mérései szerint a
-ContextRAG költsége a lapszámmal meredeken nő (a plantgraph README-je szerint), ezért az M3
+ContextRAG költsége a lapszámmal meredeken nő (a v2 üzemeken 1 lapon a kaszkád 3,79-szerese, 11 lapon 21,57-szerese, és kb. 62 lap fölött a rajz már nem fér a promptba; plantgraph EXP-0007-R4), ezért az M3
 előnye nagyobb üzemen nem várható.
 
 ## Útvonalak

@@ -1,0 +1,27 @@
+{
+  "started_utc": "2026-10-31T08:00:31+00:00",
+  "endpoint_host": "plantdocs-docint-zsombi.cognitiveservices.azure.com",
+  "sdk_version": "1.0.2",
+  "settings": {
+    "features": [
+      "keyValuePairs"
+    ],
+    "output_content_format": "markdown",
+    "string_index_type": "unicodeCodePoint"
+  },
+  "pdf": "flowserve-worcester-f51-f52.pdf",
+  "pdf_sha256": "9b06c3d13722fac191ab9dd4d468c28b25a00a80a44b6dc3140e42b45542c7a8",
+  "note": "plantqa",
+  "ranges": [
+    {
+      "pages": "all",
+      "file": "raw-all.json",
+      "api_version": "2024-11-30",
+      "model_id": "prebuilt-layout",
+      "pages_returned": 12,
+      "tables": 10,
+      "paragraphs": 1239,
+      "key_value_pairs": 39
+    }
+  ]
+}

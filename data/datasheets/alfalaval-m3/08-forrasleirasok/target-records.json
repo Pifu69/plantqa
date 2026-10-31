@@ -1,0 +1,3397 @@
+{
+  "document": "alfalaval-m3",
+  "format": "docs/private/40-design/0003-target-record-format.md",
+  "facts": [
+    {
+      "id": "alm3/fact/0001",
+      "table": null,
+      "subject": {
+        "label": "document",
+        "kind": "document"
+      },
+      "property": {
+        "label": "Alfa Laval M3 | Product type",
+        "key": "alfa_laval_m3_product_type"
+      },
+      "value_type": "text",
+      "values": [
+        {
+          "value": "Gasketed plate-and-frame heat exchanger for a wide range of applications",
+          "unit": null,
+          "printed": "Gasketed plate-and-frame heat exchanger for a wide range of applications"
+        }
+      ],
+      "conditions": [],
+      "flags": [],
+      "source": {
+        "page": 1,
+        "exp0010_index": [
+          1
+        ],
+        "raw": [
+          {
+            "parameter": "Alfa Laval M3 | Product type",
+            "value": "Gasketed plate-and-frame heat exchanger for a wide range of applications",
+            "unit": null,
+            "source_page": 1
+          }
+        ]
+      },
+      "footnotes": [],
+      "footnote_texts": []
+    },
+    {
+      "id": "alm3/fact/0002",
+      "table": null,
+      "subject": {
+        "label": "document",
+        "kind": "document"
+      },
+      "property": {
+        "label": "Alfa Laval M3 | Product line",
+        "key": "alfa_laval_m3_product_line"
+      },
+      "value_type": "text",
+      "values": [
+        {
+          "value": "Alfa Laval Industrial line",
+          "unit": null,
+          "printed": "Alfa Laval Industrial line"
+        }
+      ],
+      "conditions": [],
+      "flags": [],
+      "source": {
+        "page": 1,
+        "exp0010_index": [
+          2
+        ],
+        "raw": [
+          {
+            "parameter": "Alfa Laval M3 | Product line",
+            "value": "Alfa Laval Industrial line",
+            "unit": null,
+            "source_page": 1
+          }
+        ]
+      },
+      "footnotes": [],
+      "footnote_texts": []
+    },
+    {
+      "id": "alm3/fact/0003",
+      "table": null,
+      "subject": {
+        "label": "document",
+        "kind": "document"
+      },
+      "property": {
+        "label": "Alfa Laval M3 | Plate and gasket types",
+        "key": "alfa_laval_m3_plate_and_gasket_types"
+      },
+      "value_type": "text",
+      "values": [
+        {
+          "value": "available with a large selection of plate and gasket types",
+          "unit": null,
+          "printed": "available with a large selection of plate and gasket types"
+        }
+      ],
+      "conditions": [],
+      "flags": [],
+      "source": {
+        "page": 1,
+        "exp0010_index": [
+          3
+        ],
+        "raw": [
+          {
+            "parameter": "Alfa Laval M3 | Plate and gasket types",
+            "value": "available with a large selection of plate and gasket types",
+            "unit": null,
+            "source_page": 1
+          }
+        ]
+      },
+      "footnotes": [],
+      "footnote_texts": []
+    },
+    {
+      "id": "alm3/fact/0004",
+      "table": null,
+      "subject": {
+        "label": "document",
+        "kind": "document"
+      },
+      "property": {
+        "label": "Alfa Laval M3 | Plate configuration",
+        "key": "alfa_laval_m3_plate_configuration"
+      },
+      "value_type": "text",
+      "values": [
+        {
+          "value": "normal single plate configuration",
+          "unit": null,
+          "printed": "normal single plate configuration"
+        }
+      ],
+      "conditions": [],
+      "flags": [],
+      "source": {
+        "page": 1,
+        "exp0010_index": [
+          4
+        ],
+        "raw": [
+          {
+            "parameter": "Alfa Laval M3 | Plate configuration",
+            "value": "normal single plate configuration",
+            "unit": null,
+            "source_page": 1
+          }
+        ]
+      },
+      "footnotes": [],
+      "footnote_texts": []
+    },
+    {
+      "id": "alm3/fact/0005",
+      "table": null,
+      "subject": {
+        "label": "document",
+        "kind": "document"
+      },
+      "property": {
+        "label": "Alfa Laval M3 | Plate configuration",
+        "key": "alfa_laval_m3_plate_configuration"
+      },
+      "value_type": "text",
+      "values": [
+        {
+          "value": "double wall plates",
+          "unit": null,
+          "printed": "double wall plates"
+        }
+      ],
+      "conditions": [],
+      "flags": [],
+      "source": {
+        "page": 1,
+        "exp0010_index": [
+          5
+        ],
+        "raw": [
+          {
+            "parameter": "Alfa Laval M3 | Plate configuration",
+            "value": "double wall plates",
+            "unit": null,
+            "source_page": 1
+          }
+        ]
+      },
+      "footnotes": [],
+      "footnote_texts": []
+    },
+    {
+      "id": "alm3/fact/0006",
+      "table": null,
+      "subject": {
+        "label": "document",
+        "kind": "document"
+      },
+      "property": {
+        "label": "Alfa Laval M3 | Double wall plates | Purpose",
+        "key": "alfa_laval_m3_double_wall_plates_purpose"
+      },
+      "value_type": "text",
+      "values": [
+        {
+          "value": "extra precaution to avoid intermixing of fluids",
+          "unit": null,
+          "printed": "extra precaution to avoid intermixing of fluids"
+        }
+      ],
+      "conditions": [],
+      "flags": [],
+      "source": {
+        "page": 1,
+        "exp0010_index": [
+          6
+        ],
+        "raw": [
+          {
+            "parameter": "Alfa Laval M3 | Double wall plates | Purpose",
+            "value": "extra precaution to avoid intermixing of fluids",
+            "unit": null,
+            "source_page": 1
+          }
+        ]
+      },
+      "footnotes": [],
+      "footnote_texts": []
+    },
+    {
+      "id": "alm3/fact/0007",
+      "table": null,
+      "subject": {
+        "label": "document",
+        "kind": "document"
+      },
+      "property": {
+        "label": "Applications | Application",
+        "key": "applications_application"
+      },
+      "value_type": "text",
+      "values": [
+        {
+          "value": "Biotech and Pharmaceutical",
+          "unit": null,
+          "printed": "Biotech and Pharmaceutical"
+        }
+      ],
+      "conditions": [],
+      "flags": [],
+      "source": {
+        "page": 1,
+        "exp0010_index": [
+          7
+        ],
+        "raw": [
+          {
+            "parameter": "Applications | Application",
+            "value": "Biotech and Pharmaceutical",
+            "unit": null,
+            "source_page": 1
+          }
+        ]
+      },
+      "footnotes": [],
+      "footnote_texts": []
+    },
+    {
+      "id": "alm3/fact/0008",
+      "table": null,
+      "subject": {
+        "label": "document",
+        "kind": "document"
+      },
+      "property": {
+        "label": "Applications | Application",
+        "key": "applications_application"
+      },
+      "value_type": "text",
+      "values": [
+        {
+          "value": "Chemicals",
+          "unit": null,
+          "printed": "Chemicals"
+        }
+      ],
+      "conditions": [],
+      "flags": [],
+      "source": {
+        "page": 1,
+        "exp0010_index": [
+          8
+        ],
+        "raw": [
+          {
+            "parameter": "Applications | Application",
+            "value": "Chemicals",
+            "unit": null,
+            "source_page": 1
+          }
+        ]
+      },
+      "footnotes": [],
+      "footnote_texts": []
+    },
+    {
+      "id": "alm3/fact/0009",
+      "table": null,
+      "subject": {
+        "label": "document",
+        "kind": "document"
+      },
+      "property": {
+        "label": "Applications | Application",
+        "key": "applications_application"
+      },
+      "value_type": "text",
+      "values": [
+        {
+          "value": "Energy and Utilities",
+          "unit": null,
+          "printed": "Energy and Utilities"
+        }
+      ],
+      "conditions": [],
+      "flags": [],
+      "source": {
+        "page": 1,
+        "exp0010_index": [
+          9
+        ],
+        "raw": [
+          {
+            "parameter": "Applications | Application",
+            "value": "Energy and Utilities",
+            "unit": null,
+            "source_page": 1
+          }
+        ]
+      },
+      "footnotes": [],
+      "footnote_texts": []
+    },
+    {
+      "id": "alm3/fact/0010",
+      "table": null,
+      "subject": {
+        "label": "document",
+        "kind": "document"
+      },
+      "property": {
+        "label": "Applications | Application",
+        "key": "applications_application"
+      },
+      "value_type": "text",
+      "values": [
+        {
+          "value": "Food and Beverages",
+          "unit": null,
+          "printed": "Food and Beverages"
+        }
+      ],
+      "conditions": [],
+      "flags": [],
+      "source": {
+        "page": 1,
+        "exp0010_index": [
+          10
+        ],
+        "raw": [
+          {
+            "parameter": "Applications | Application",
+            "value": "Food and Beverages",
+            "unit": null,
+            "source_page": 1
+          }
+        ]
+      },
+      "footnotes": [],
+      "footnote_texts": []
+    },
+    {
+      "id": "alm3/fact/0011",
+      "table": null,
+      "subject": {
+        "label": "document",
+        "kind": "document"
+      },
+      "property": {
+        "label": "Applications | Application",
+        "key": "applications_application"
+      },
+      "value_type": "text",
+      "values": [
+        {
+          "value": "Home and Personal care",
+          "unit": null,
+          "printed": "Home and Personal care"
+        }
+      ],
+      "conditions": [],
+      "flags": [],
+      "source": {
+        "page": 1,
+        "exp0010_index": [
+          11
+        ],
+        "raw": [
+          {
+            "parameter": "Applications | Application",
+            "value": "Home and Personal care",
+            "unit": null,
+            "source_page": 1
+          }
+        ]
+      },
+      "footnotes": [],
+      "footnote_texts": []
+    },
+    {
+      "id": "alm3/fact/0012",
+      "table": null,
+      "subject": {
+        "label": "document",
+        "kind": "document"
+      },
+      "property": {
+        "label": "Applications | Application",
+        "key": "applications_application"
+      },
+      "value_type": "text",
+      "values": [
+        {
+          "value": "HVAC and Refrigeration",
+          "unit": null,
+          "printed": "HVAC and Refrigeration"
+        }
+      ],
+      "conditions": [],
+      "flags": [],
+      "source": {
+        "page": 1,
+        "exp0010_index": [
+          12
+        ],
+        "raw": [
+          {
+            "parameter": "Applications | Application",
+            "value": "HVAC and Refrigeration",
+            "unit": null,
+            "source_page": 1
+          }
+        ]
+      },
+      "footnotes": [],
+      "footnote_texts": []
+    },
+    {
+      "id": "alm3/fact/0013",
+      "table": null,
+      "subject": {
+        "label": "document",
+        "kind": "document"
+      },
+      "property": {
+        "label": "Applications | Application",
+        "key": "applications_application"
+      },
+      "value_type": "text",
+      "values": [
+        {
+          "value": "Machinery and Manufacturing",
+          "unit": null,
+          "printed": "Machinery and Manufacturing"
+        }
+      ],
+      "conditions": [],
+      "flags": [],
+      "source": {
+        "page": 1,
+        "exp0010_index": [
+          13
+        ],
+        "raw": [
+          {
+            "parameter": "Applications | Application",
+            "value": "Machinery and Manufacturing",
+            "unit": null,
+            "source_page": 1
+          }
+        ]
+      },
+      "footnotes": [],
+      "footnote_texts": []
+    },
+    {
+      "id": "alm3/fact/0014",
+      "table": null,
+      "subject": {
+        "label": "document",
+        "kind": "document"
+      },
+      "property": {
+        "label": "Applications | Application",
+        "key": "applications_application"
+      },
+      "value_type": "text",
+      "values": [
+        {
+          "value": "Marine and Transportation",
+          "unit": null,
+          "printed": "Marine and Transportation"
+        }
+      ],
+      "conditions": [],
+      "flags": [],
+      "source": {
+        "page": 1,
+        "exp0010_index": [
+          14
+        ],
+        "raw": [
+          {
+            "parameter": "Applications | Application",
+            "value": "Marine and Transportation",
+            "unit": null,
+            "source_page": 1
+          }
+        ]
+      },
+      "footnotes": [],
+      "footnote_texts": []
+    },
+    {
+      "id": "alm3/fact/0015",
+      "table": null,
+      "subject": {
+        "label": "document",
+        "kind": "document"
+      },
+      "property": {
+        "label": "Applications | Application",
+        "key": "applications_application"
+      },
+      "value_type": "text",
+      "values": [
+        {
+          "value": "Mining, Minerals and Pigments",
+          "unit": null,
+          "printed": "Mining, Minerals and Pigments"
+        }
+      ],
+      "conditions": [],
+      "flags": [],
+      "source": {
+        "page": 1,
+        "exp0010_index": [
+          15
+        ],
+        "raw": [
+          {
+            "parameter": "Applications | Application",
+            "value": "Mining, Minerals and Pigments",
+            "unit": null,
+            "source_page": 1
+          }
+        ]
+      },
+      "footnotes": [],
+      "footnote_texts": []
+    },
+    {
+      "id": "alm3/fact/0016",
+      "table": null,
+      "subject": {
+        "label": "document",
+        "kind": "document"
+      },
+      "property": {
+        "label": "Applications | Application",
+        "key": "applications_application"
+      },
+      "value_type": "text",
+      "values": [
+        {
+          "value": "Pulp and Paper",
+          "unit": null,
+          "printed": "Pulp and Paper"
+        }
+      ],
+      "conditions": [],
+      "flags": [],
+      "source": {
+        "page": 1,
+        "exp0010_index": [
+          16
+        ],
+        "raw": [
+          {
+            "parameter": "Applications | Application",
+            "value": "Pulp and Paper",
+            "unit": null,
+            "source_page": 1
+          }
+        ]
+      },
+      "footnotes": [],
+      "footnote_texts": []
+    },
+    {
+      "id": "alm3/fact/0017",
+      "table": null,
+      "subject": {
+        "label": "document",
+        "kind": "document"
+      },
+      "property": {
+        "label": "Applications | Application",
+        "key": "applications_application"
+      },
+      "value_type": "text",
+      "values": [
+        {
+          "value": "Semiconductor and Electronics",
+          "unit": null,
+          "printed": "Semiconductor and Electronics"
+        }
+      ],
+      "conditions": [],
+      "flags": [],
+      "source": {
+        "page": 1,
+        "exp0010_index": [
+          17
+        ],
+        "raw": [
+          {
+            "parameter": "Applications | Application",
+            "value": "Semiconductor and Electronics",
+            "unit": null,
+            "source_page": 1
+          }
+        ]
+      },
+      "footnotes": [],
+      "footnote_texts": []
+    },
+    {
+      "id": "alm3/fact/0018",
+      "table": null,
+      "subject": {
+        "label": "document",
+        "kind": "document"
+      },
+      "property": {
+        "label": "Applications | Application",
+        "key": "applications_application"
+      },
+      "value_type": "text",
+      "values": [
+        {
+          "value": "Steel",
+          "unit": null,
+          "printed": "Steel"
+        }
+      ],
+      "conditions": [],
+      "flags": [],
+      "source": {
+        "page": 1,
+        "exp0010_index": [
+          18
+        ],
+        "raw": [
+          {
+            "parameter": "Applications | Application",
+            "value": "Steel",
+            "unit": null,
+            "source_page": 1
+          }
+        ]
+      },
+      "footnotes": [],
+      "footnote_texts": []
+    },
+    {
+      "id": "alm3/fact/0019",
+      "table": null,
+      "subject": {
+        "label": "document",
+        "kind": "document"
+      },
+      "property": {
+        "label": "Applications | Application",
+        "key": "applications_application"
+      },
+      "value_type": "text",
+      "values": [
+        {
+          "value": "Water and Waste treatment",
+          "unit": null,
+          "printed": "Water and Waste treatment"
+        }
+      ],
+      "conditions": [],
+      "flags": [],
+      "source": {
+        "page": 1,
+        "exp0010_index": [
+          19
+        ],
+        "raw": [
+          {
+            "parameter": "Applications | Application",
+            "value": "Water and Waste treatment",
+            "unit": null,
+            "source_page": 1
+          }
+        ]
+      },
+      "footnotes": [],
+      "footnote_texts": []
+    },
+    {
+      "id": "alm3/fact/0020",
+      "table": null,
+      "subject": {
+        "label": "document",
+        "kind": "document"
+      },
+      "property": {
+        "label": "Benefits | Benefit",
+        "key": "benefits_benefit"
+      },
+      "value_type": "text",
+      "values": [
+        {
+          "value": "High energy efficiency - low operating cost",
+          "unit": null,
+          "printed": "High energy efficiency - low operating cost"
+        }
+      ],
+      "conditions": [],
+      "flags": [],
+      "source": {
+        "page": 1,
+        "exp0010_index": [
+          20
+        ],
+        "raw": [
+          {
+            "parameter": "Benefits | Benefit",
+            "value": "High energy efficiency - low operating cost",
+            "unit": null,
+            "source_page": 1
+          }
+        ]
+      },
+      "footnotes": [],
+      "footnote_texts": []
+    },
+    {
+      "id": "alm3/fact/0021",
+      "table": null,
+      "subject": {
+        "label": "document",
+        "kind": "document"
+      },
+      "property": {
+        "label": "Benefits | Benefit",
+        "key": "benefits_benefit"
+      },
+      "value_type": "text",
+      "values": [
+        {
+          "value": "Flexible configuration - heat transfer area can be modified",
+          "unit": null,
+          "printed": "Flexible configuration - heat transfer area can be modified"
+        }
+      ],
+      "conditions": [],
+      "flags": [],
+      "source": {
+        "page": 1,
+        "exp0010_index": [
+          21
+        ],
+        "raw": [
+          {
+            "parameter": "Benefits | Benefit",
+            "value": "Flexible configuration - heat transfer area can be modified",
+            "unit": null,
+            "source_page": 1
+          }
+        ]
+      },
+      "footnotes": [],
+      "footnote_texts": []
+    },
+    {
+      "id": "alm3/fact/0022",
+      "table": null,
+      "subject": {
+        "label": "document",
+        "kind": "document"
+      },
+      "property": {
+        "label": "Benefits | Benefit",
+        "key": "benefits_benefit"
+      },
+      "value_type": "text",
+      "values": [
+        {
+          "value": "Easy to install - compact design",
+          "unit": null,
+          "printed": "Easy to install - compact design"
+        }
+      ],
+      "conditions": [],
+      "flags": [],
+      "source": {
+        "page": 1,
+        "exp0010_index": [
+          22
+        ],
+        "raw": [
+          {
+            "parameter": "Benefits | Benefit",
+            "value": "Easy to install - compact design",
+            "unit": null,
+            "source_page": 1
+          }
+        ]
+      },
+      "footnotes": [],
+      "footnote_texts": []
+    },
+    {
+      "id": "alm3/fact/0023",
+      "table": null,
+      "subject": {
+        "label": "document",
+        "kind": "document"
+      },
+      "property": {
+        "label": "Benefits | Benefit",
+        "key": "benefits_benefit"
+      },
+      "value_type": "text",
+      "values": [
+        {
+          "value": "High serviceability - easy to open for inspection and cleaning and easy to clean by CIP",
+          "unit": null,
+          "printed": "High serviceability - easy to open for inspection and cleaning and easy to clean by CIP"
+        }
+      ],
+      "conditions": [],
+      "flags": [],
+      "source": {
+        "page": 1,
+        "exp0010_index": [
+          23
+        ],
+        "raw": [
+          {
+            "parameter": "Benefits | Benefit",
+            "value": "High serviceability - easy to open for inspection and cleaning and easy to clean by CIP",
+            "unit": null,
+            "source_page": 1
+          }
+        ]
+      },
+      "footnotes": [],
+      "footnote_texts": []
+    },
+    {
+      "id": "alm3/fact/0024",
+      "table": null,
+      "subject": {
+        "label": "document",
+        "kind": "document"
+      },
+      "property": {
+        "label": "Benefits | Benefit",
+        "key": "benefits_benefit"
+      },
+      "value_type": "text",
+      "values": [
+        {
+          "value": "Access to Alfa Laval's global service network",
+          "unit": null,
+          "printed": "Access to Alfa Laval's global service network"
+        }
+      ],
+      "conditions": [],
+      "flags": [],
+      "source": {
+        "page": 1,
+        "exp0010_index": [
+          24
+        ],
+        "raw": [
+          {
+            "parameter": "Benefits | Benefit",
+            "value": "Access to Alfa Laval's global service network",
+            "unit": null,
+            "source_page": 1
+          }
+        ]
+      },
+      "footnotes": [],
+      "footnote_texts": []
+    },
+    {
+      "id": "alm3/fact/0025",
+      "table": null,
+      "subject": {
+        "label": "document",
+        "kind": "document"
+      },
+      "property": {
+        "label": "Features | Available feature",
+        "key": "features_available_feature"
+      },
+      "value_type": "text",
+      "values": [
+        {
+          "value": "Glued gasket",
+          "unit": null,
+          "printed": "Glued gasket"
+        }
+      ],
+      "conditions": [],
+      "flags": [],
+      "source": {
+        "page": 1,
+        "exp0010_index": [
+          25
+        ],
+        "raw": [
+          {
+            "parameter": "Features | Available feature",
+            "value": "Glued gasket",
+            "unit": null,
+            "source_page": 1
+          }
+        ]
+      },
+      "footnotes": [],
+      "footnote_texts": []
+    },
+    {
+      "id": "alm3/fact/0026",
+      "table": null,
+      "subject": {
+        "label": "document",
+        "kind": "document"
+      },
+      "property": {
+        "label": "Features | Available feature",
+        "key": "features_available_feature"
+      },
+      "value_type": "text",
+      "values": [
+        {
+          "value": "Clip-on gasket",
+          "unit": null,
+          "printed": "Clip-on gasket"
+        }
+      ],
+      "conditions": [],
+      "flags": [],
+      "source": {
+        "page": 1,
+        "exp0010_index": [
+          26
+        ],
+        "raw": [
+          {
+            "parameter": "Features | Available feature",
+            "value": "Clip-on gasket",
+            "unit": null,
+            "source_page": 1
+          }
+        ]
+      },
+      "footnotes": [],
+      "footnote_texts": []
+    },
+    {
+      "id": "alm3/fact/0027",
+      "table": null,
+      "subject": {
+        "label": "document",
+        "kind": "document"
+      },
+      "property": {
+        "label": "Features | Available feature",
+        "key": "features_available_feature"
+      },
+      "value_type": "text",
+      "values": [
+        {
+          "value": "Leak chamber",
+          "unit": null,
+          "printed": "Leak chamber"
+        }
+      ],
+      "conditions": [],
+      "flags": [],
+      "source": {
+        "page": 1,
+        "exp0010_index": [
+          27
+        ],
+        "raw": [
+          {
+            "parameter": "Features | Available feature",
+            "value": "Leak chamber",
+            "unit": null,
+            "source_page": 1
+          }
+        ]
+      },
+      "footnotes": [],
+      "footnote_texts": []
+    },
+    {
+      "id": "alm3/fact/0028",
+      "table": null,
+      "subject": {
+        "label": "document",
+        "kind": "document"
+      },
+      "property": {
+        "label": "Features | Available feature",
+        "key": "features_available_feature"
+      },
+      "value_type": "text",
+      "values": [
+        {
+          "value": "Fixed bolt head",
+          "unit": null,
+          "printed": "Fixed bolt head"
+        }
+      ],
+      "conditions": [],
+      "flags": [],
+      "source": {
+        "page": 1,
+        "exp0010_index": [
+          28
+        ],
+        "raw": [
+          {
+            "parameter": "Features | Available feature",
+            "value": "Fixed bolt head",
+            "unit": null,
+            "source_page": 1
+          }
+        ]
+      },
+      "footnotes": [],
+      "footnote_texts": []
+    },
+    {
+      "id": "alm3/fact/0029",
+      "table": null,
+      "subject": {
+        "label": "document",
+        "kind": "document"
+      },
+      "property": {
+        "label": "Features | Available feature",
+        "key": "features_available_feature"
+      },
+      "value_type": "text",
+      "values": [
+        {
+          "value": "Key hole bolt opening",
+          "unit": null,
+          "printed": "Key hole bolt opening"
+        }
+      ],
+      "conditions": [],
+      "flags": [],
+      "source": {
+        "page": 1,
+        "exp0010_index": [
+          29
+        ],
+        "raw": [
+          {
+            "parameter": "Features | Available feature",
+            "value": "Key hole bolt opening",
+            "unit": null,
+            "source_page": 1
+          }
+        ]
+      },
+      "footnotes": [],
+      "footnote_texts": []
+    },
+    {
+      "id": "alm3/fact/0030",
+      "table": null,
+      "subject": {
+        "label": "document",
+        "kind": "document"
+      },
+      "property": {
+        "label": "Features | Available feature",
+        "key": "features_available_feature"
+      },
+      "value_type": "text",
+      "values": [
+        {
+          "value": "Lifting lug",
+          "unit": null,
+          "printed": "Lifting lug"
+        }
+      ],
+      "conditions": [],
+      "flags": [],
+      "source": {
+        "page": 1,
+        "exp0010_index": [
+          30
+        ],
+        "raw": [
+          {
+            "parameter": "Features | Available feature",
+            "value": "Lifting lug",
+            "unit": null,
+            "source_page": 1
+          }
+        ]
+      },
+      "footnotes": [],
+      "footnote_texts": []
+    },
+    {
+      "id": "alm3/fact/0031",
+      "table": null,
+      "subject": {
+        "label": "document",
+        "kind": "document"
+      },
+      "property": {
+        "label": "Features | Available feature",
+        "key": "features_available_feature"
+      },
+      "value_type": "text",
+      "values": [
+        {
+          "value": "Lining",
+          "unit": null,
+          "printed": "Lining"
+        }
+      ],
+      "conditions": [],
+      "flags": [],
+      "source": {
+        "page": 1,
+        "exp0010_index": [
+          31
+        ],
+        "raw": [
+          {
+            "parameter": "Features | Available feature",
+            "value": "Lining",
+            "unit": null,
+            "source_page": 1
+          }
+        ]
+      },
+      "footnotes": [],
+      "footnote_texts": []
+    },
+    {
+      "id": "alm3/fact/0032",
+      "table": null,
+      "subject": {
+        "label": "document",
+        "kind": "document"
+      },
+      "property": {
+        "label": "Features | Available feature",
+        "key": "features_available_feature"
+      },
+      "value_type": "text",
+      "values": [
+        {
+          "value": "Lock washer",
+          "unit": null,
+          "printed": "Lock washer"
+        }
+      ],
+      "conditions": [],
+      "flags": [],
+      "source": {
+        "page": 1,
+        "exp0010_index": [
+          32
+        ],
+        "raw": [
+          {
+            "parameter": "Features | Available feature",
+            "value": "Lock washer",
+            "unit": null,
+            "source_page": 1
+          }
+        ]
+      },
+      "footnotes": [],
+      "footnote_texts": []
+    },
+    {
+      "id": "alm3/fact/0033",
+      "table": null,
+      "subject": {
+        "label": "document",
+        "kind": "document"
+      },
+      "property": {
+        "label": "Features | Available feature",
+        "key": "features_available_feature"
+      },
+      "value_type": "text",
+      "values": [
+        {
+          "value": "Tightening bolt cover",
+          "unit": null,
+          "printed": "Tightening bolt cover"
+        }
+      ],
+      "conditions": [],
+      "flags": [],
+      "source": {
+        "page": 1,
+        "exp0010_index": [
+          33
+        ],
+        "raw": [
+          {
+            "parameter": "Features | Available feature",
+            "value": "Tightening bolt cover",
+            "unit": null,
+            "source_page": 1
+          }
+        ]
+      },
+      "footnotes": [],
+      "footnote_texts": []
+    },
+    {
+      "id": "alm3/fact/0034",
+      "table": null,
+      "subject": {
+        "label": "document",
+        "kind": "document"
+      },
+      "property": {
+        "label": "Extending performance with Alfa Laval 360° Service Portfolio | Service",
+        "key": "extending_performance_with_alfa_laval_360_service_portfolio_service"
+      },
+      "value_type": "text",
+      "values": [
+        {
+          "value": "Installation",
+          "unit": null,
+          "printed": "Installation"
+        }
+      ],
+      "conditions": [],
+      "flags": [],
+      "source": {
+        "page": 1,
+        "exp0010_index": [
+          34
+        ],
+        "raw": [
+          {
+            "parameter": "Extending performance with Alfa Laval 360° Service Portfolio | Service",
+            "value": "Installation",
+            "unit": null,
+            "source_page": 1
+          }
+        ]
+      },
+      "footnotes": [],
+      "footnote_texts": []
+    },
+    {
+      "id": "alm3/fact/0035",
+      "table": null,
+      "subject": {
+        "label": "document",
+        "kind": "document"
+      },
+      "property": {
+        "label": "Extending performance with Alfa Laval 360° Service Portfolio | Service",
+        "key": "extending_performance_with_alfa_laval_360_service_portfolio_service"
+      },
+      "value_type": "text",
+      "values": [
+        {
+          "value": "Exclusive Stock",
+          "unit": null,
+          "printed": "Exclusive Stock"
+        }
+      ],
+      "conditions": [],
+      "flags": [],
+      "source": {
+        "page": 1,
+        "exp0010_index": [
+          35
+        ],
+        "raw": [
+          {
+            "parameter": "Extending performance with Alfa Laval 360° Service Portfolio | Service",
+            "value": "Exclusive Stock",
+            "unit": null,
+            "source_page": 1
+          }
+        ]
+      },
+      "footnotes": [],
+      "footnote_texts": []
+    },
+    {
+      "id": "alm3/fact/0036",
+      "table": null,
+      "subject": {
+        "label": "document",
+        "kind": "document"
+      },
+      "property": {
+        "label": "Extending performance with Alfa Laval 360° Service Portfolio | Service",
+        "key": "extending_performance_with_alfa_laval_360_service_portfolio_service"
+      },
+      "value_type": "text",
+      "values": [
+        {
+          "value": "Installation Supervision",
+          "unit": null,
+          "printed": "Installation Supervision"
+        }
+      ],
+      "conditions": [],
+      "flags": [],
+      "source": {
+        "page": 1,
+        "exp0010_index": [
+          36
+        ],
+        "raw": [
+          {
+            "parameter": "Extending performance with Alfa Laval 360° Service Portfolio | Service",
+            "value": "Installation Supervision",
+            "unit": null,
+            "source_page": 1
+          }
+        ]
+      },
+      "footnotes": [],
+      "footnote_texts": []
+    },
+    {
+      "id": "alm3/fact/0037",
+      "table": null,
+      "subject": {
+        "label": "document",
+        "kind": "document"
+      },
+      "property": {
+        "label": "Extending performance with Alfa Laval 360° Service Portfolio | Service",
+        "key": "extending_performance_with_alfa_laval_360_service_portfolio_service"
+      },
+      "value_type": "text",
+      "values": [
+        {
+          "value": "Technical Documentation",
+          "unit": null,
+          "printed": "Technical Documentation"
+        }
+      ],
+      "conditions": [],
+      "flags": [],
+      "source": {
+        "page": 1,
+        "exp0010_index": [
+          37
+        ],
+        "raw": [
+          {
+            "parameter": "Extending performance with Alfa Laval 360° Service Portfolio | Service",
+            "value": "Technical Documentation",
+            "unit": null,
+            "source_page": 1
+          }
+        ]
+      },
+      "footnotes": [],
+      "footnote_texts": []
+    },
+    {
+      "id": "alm3/fact/0038",
+      "table": null,
+      "subject": {
+        "label": "document",
+        "kind": "document"
+      },
+      "property": {
+        "label": "Extending performance with Alfa Laval 360° Service Portfolio | Service",
+        "key": "extending_performance_with_alfa_laval_360_service_portfolio_service"
+      },
+      "value_type": "text",
+      "values": [
+        {
+          "value": "Commissioning",
+          "unit": null,
+          "printed": "Commissioning"
+        }
+      ],
+      "conditions": [],
+      "flags": [],
+      "source": {
+        "page": 1,
+        "exp0010_index": [
+          38
+        ],
+        "raw": [
+          {
+            "parameter": "Extending performance with Alfa Laval 360° Service Portfolio | Service",
+            "value": "Commissioning",
+            "unit": null,
+            "source_page": 1
+          }
+        ]
+      },
+      "footnotes": [],
+      "footnote_texts": []
+    },
+    {
+      "id": "alm3/fact/0039",
+      "table": null,
+      "subject": {
+        "label": "document",
+        "kind": "document"
+      },
+      "property": {
+        "label": "Extending performance with Alfa Laval 360° Service Portfolio | Service",
+        "key": "extending_performance_with_alfa_laval_360_service_portfolio_service"
+      },
+      "value_type": "text",
+      "values": [
+        {
+          "value": "Telephone Support",
+          "unit": null,
+          "printed": "Telephone Support"
+        }
+      ],
+      "conditions": [],
+      "flags": [],
+      "source": {
+        "page": 1,
+        "exp0010_index": [
+          39
+        ],
+        "raw": [
+          {
+            "parameter": "Extending performance with Alfa Laval 360° Service Portfolio | Service",
+            "value": "Telephone Support",
+            "unit": null,
+            "source_page": 1
+          }
+        ]
+      },
+      "footnotes": [],
+      "footnote_texts": []
+    },
+    {
+      "id": "alm3/fact/0040",
+      "table": null,
+      "subject": {
+        "label": "document",
+        "kind": "document"
+      },
+      "property": {
+        "label": "Extending performance with Alfa Laval 360° Service Portfolio | Service",
+        "key": "extending_performance_with_alfa_laval_360_service_portfolio_service"
+      },
+      "value_type": "text",
+      "values": [
+        {
+          "value": "Training",
+          "unit": null,
+          "printed": "Training"
+        }
+      ],
+      "conditions": [],
+      "flags": [],
+      "source": {
+        "page": 1,
+        "exp0010_index": [
+          40
+        ],
+        "raw": [
+          {
+            "parameter": "Extending performance with Alfa Laval 360° Service Portfolio | Service",
+            "value": "Training",
+            "unit": null,
+            "source_page": 1
+          }
+        ]
+      },
+      "footnotes": [],
+      "footnote_texts": []
+    },
+    {
+      "id": "alm3/fact/0041",
+      "table": null,
+      "subject": {
+        "label": "document",
+        "kind": "document"
+      },
+      "property": {
+        "label": "Extending performance with Alfa Laval 360° Service Portfolio | Service",
+        "key": "extending_performance_with_alfa_laval_360_service_portfolio_service"
+      },
+      "value_type": "text",
+      "values": [
+        {
+          "value": "Troubleshooting",
+          "unit": null,
+          "printed": "Troubleshooting"
+        }
+      ],
+      "conditions": [],
+      "flags": [],
+      "source": {
+        "page": 1,
+        "exp0010_index": [
+          41
+        ],
+        "raw": [
+          {
+            "parameter": "Extending performance with Alfa Laval 360° Service Portfolio | Service",
+            "value": "Troubleshooting",
+            "unit": null,
+            "source_page": 1
+          }
+        ]
+      },
+      "footnotes": [],
+      "footnote_texts": []
+    },
+    {
+      "id": "alm3/fact/0042",
+      "table": null,
+      "subject": {
+        "label": "document",
+        "kind": "document"
+      },
+      "property": {
+        "label": "Extending performance with Alfa Laval 360° Service Portfolio | Service",
+        "key": "extending_performance_with_alfa_laval_360_service_portfolio_service"
+      },
+      "value_type": "text",
+      "values": [
+        {
+          "value": "Cleaning Services",
+          "unit": null,
+          "printed": "Cleaning Services"
+        }
+      ],
+      "conditions": [],
+      "flags": [],
+      "source": {
+        "page": 1,
+        "exp0010_index": [
+          42
+        ],
+        "raw": [
+          {
+            "parameter": "Extending performance with Alfa Laval 360° Service Portfolio | Service",
+            "value": "Cleaning Services",
+            "unit": null,
+            "source_page": 1
+          }
+        ]
+      },
+      "footnotes": [],
+      "footnote_texts": []
+    },
+    {
+      "id": "alm3/fact/0043",
+      "table": null,
+      "subject": {
+        "label": "document",
+        "kind": "document"
+      },
+      "property": {
+        "label": "Extending performance with Alfa Laval 360° Service Portfolio | Service",
+        "key": "extending_performance_with_alfa_laval_360_service_portfolio_service"
+      },
+      "value_type": "text",
+      "values": [
+        {
+          "value": "Reconditioning",
+          "unit": null,
+          "printed": "Reconditioning"
+        }
+      ],
+      "conditions": [],
+      "flags": [],
+      "source": {
+        "page": 1,
+        "exp0010_index": [
+          43
+        ],
+        "raw": [
+          {
+            "parameter": "Extending performance with Alfa Laval 360° Service Portfolio | Service",
+            "value": "Reconditioning",
+            "unit": null,
+            "source_page": 1
+          }
+        ]
+      },
+      "footnotes": [],
+      "footnote_texts": []
+    },
+    {
+      "id": "alm3/fact/0044",
+      "table": null,
+      "subject": {
+        "label": "document",
+        "kind": "document"
+      },
+      "property": {
+        "label": "Extending performance with Alfa Laval 360° Service Portfolio | Service",
+        "key": "extending_performance_with_alfa_laval_360_service_portfolio_service"
+      },
+      "value_type": "text",
+      "values": [
+        {
+          "value": "Repair",
+          "unit": null,
+          "printed": "Repair"
+        }
+      ],
+      "conditions": [],
+      "flags": [],
+      "source": {
+        "page": 1,
+        "exp0010_index": [
+          44
+        ],
+        "raw": [
+          {
+            "parameter": "Extending performance with Alfa Laval 360° Service Portfolio | Service",
+            "value": "Repair",
+            "unit": null,
+            "source_page": 1
+          }
+        ]
+      },
+      "footnotes": [],
+      "footnote_texts": []
+    },
+    {
+      "id": "alm3/fact/0045",
+      "table": null,
+      "subject": {
+        "label": "document",
+        "kind": "document"
+      },
+      "property": {
+        "label": "Extending performance with Alfa Laval 360° Service Portfolio | Service",
+        "key": "extending_performance_with_alfa_laval_360_service_portfolio_service"
+      },
+      "value_type": "text",
+      "values": [
+        {
+          "value": "Equipment Upgrades",
+          "unit": null,
+          "printed": "Equipment Upgrades"
+        }
+      ],
+      "conditions": [],
+      "flags": [],
+      "source": {
+        "page": 1,
+        "exp0010_index": [
+          45
+        ],
+        "raw": [
+          {
+            "parameter": "Extending performance with Alfa Laval 360° Service Portfolio | Service",
+            "value": "Equipment Upgrades",
+            "unit": null,
+            "source_page": 1
+          }
+        ]
+      },
+      "footnotes": [],
+      "footnote_texts": []
+    },
+    {
+      "id": "alm3/fact/0046",
+      "table": null,
+      "subject": {
+        "label": "document",
+        "kind": "document"
+      },
+      "property": {
+        "label": "Extending performance with Alfa Laval 360° Service Portfolio | Service",
+        "key": "extending_performance_with_alfa_laval_360_service_portfolio_service"
+      },
+      "value_type": "text",
+      "values": [
+        {
+          "value": "Service Tools",
+          "unit": null,
+          "printed": "Service Tools"
+        }
+      ],
+      "conditions": [],
+      "flags": [],
+      "source": {
+        "page": 1,
+        "exp0010_index": [
+          46
+        ],
+        "raw": [
+          {
+            "parameter": "Extending performance with Alfa Laval 360° Service Portfolio | Service",
+            "value": "Service Tools",
+            "unit": null,
+            "source_page": 1
+          }
+        ]
+      },
+      "footnotes": [],
+      "footnote_texts": []
+    },
+    {
+      "id": "alm3/fact/0047",
+      "table": null,
+      "subject": {
+        "label": "document",
+        "kind": "document"
+      },
+      "property": {
+        "label": "Extending performance with Alfa Laval 360° Service Portfolio | Service",
+        "key": "extending_performance_with_alfa_laval_360_service_portfolio_service"
+      },
+      "value_type": "text",
+      "values": [
+        {
+          "value": "Redesign",
+          "unit": null,
+          "printed": "Redesign"
+        }
+      ],
+      "conditions": [],
+      "flags": [],
+      "source": {
+        "page": 1,
+        "exp0010_index": [
+          47
+        ],
+        "raw": [
+          {
+            "parameter": "Extending performance with Alfa Laval 360° Service Portfolio | Service",
+            "value": "Redesign",
+            "unit": null,
+            "source_page": 1
+          }
+        ]
+      },
+      "footnotes": [],
+      "footnote_texts": []
+    },
+    {
+      "id": "alm3/fact/0048",
+      "table": null,
+      "subject": {
+        "label": "document",
+        "kind": "document"
+      },
+      "property": {
+        "label": "Extending performance with Alfa Laval 360° Service Portfolio | Service",
+        "key": "extending_performance_with_alfa_laval_360_service_portfolio_service"
+      },
+      "value_type": "text",
+      "values": [
+        {
+          "value": "Spare Parts",
+          "unit": null,
+          "printed": "Spare Parts"
+        }
+      ],
+      "conditions": [],
+      "flags": [],
+      "source": {
+        "page": 1,
+        "exp0010_index": [
+          48
+        ],
+        "raw": [
+          {
+            "parameter": "Extending performance with Alfa Laval 360° Service Portfolio | Service",
+            "value": "Spare Parts",
+            "unit": null,
+            "source_page": 1
+          }
+        ]
+      },
+      "footnotes": [],
+      "footnote_texts": []
+    },
+    {
+      "id": "alm3/fact/0049",
+      "table": null,
+      "subject": {
+        "label": "document",
+        "kind": "document"
+      },
+      "property": {
+        "label": "Extending performance with Alfa Laval 360° Service Portfolio | Service",
+        "key": "extending_performance_with_alfa_laval_360_service_portfolio_service"
+      },
+      "value_type": "text",
+      "values": [
+        {
+          "value": "Replacement and Retrofit",
+          "unit": null,
+          "printed": "Replacement and Retrofit"
+        }
+      ],
+      "conditions": [],
+      "flags": [],
+      "source": {
+        "page": 1,
+        "exp0010_index": [
+          49
+        ],
+        "raw": [
+          {
+            "parameter": "Extending performance with Alfa Laval 360° Service Portfolio | Service",
+            "value": "Replacement and Retrofit",
+            "unit": null,
+            "source_page": 1
+          }
+        ]
+      },
+      "footnotes": [],
+      "footnote_texts": []
+    },
+    {
+      "id": "alm3/fact/0050",
+      "table": null,
+      "subject": {
+        "label": "document",
+        "kind": "document"
+      },
+      "property": {
+        "label": "Extending performance with Alfa Laval 360° Service Portfolio | Service",
+        "key": "extending_performance_with_alfa_laval_360_service_portfolio_service"
+      },
+      "value_type": "text",
+      "values": [
+        {
+          "value": "Condition Audit",
+          "unit": null,
+          "printed": "Condition Audit"
+        }
+      ],
+      "conditions": [],
+      "flags": [],
+      "source": {
+        "page": 1,
+        "exp0010_index": [
+          50
+        ],
+        "raw": [
+          {
+            "parameter": "Extending performance with Alfa Laval 360° Service Portfolio | Service",
+            "value": "Condition Audit",
+            "unit": null,
+            "source_page": 1
+          }
+        ]
+      },
+      "footnotes": [],
+      "footnote_texts": []
+    },
+    {
+      "id": "alm3/fact/0051",
+      "table": null,
+      "subject": {
+        "label": "document",
+        "kind": "document"
+      },
+      "property": {
+        "label": "Extending performance with Alfa Laval 360° Service Portfolio | Service",
+        "key": "extending_performance_with_alfa_laval_360_service_portfolio_service"
+      },
+      "value_type": "text",
+      "values": [
+        {
+          "value": "Performance Audit",
+          "unit": null,
+          "printed": "Performance Audit"
+        }
+      ],
+      "conditions": [],
+      "flags": [],
+      "source": {
+        "page": 1,
+        "exp0010_index": [
+          51
+        ],
+        "raw": [
+          {
+            "parameter": "Extending performance with Alfa Laval 360° Service Portfolio | Service",
+            "value": "Performance Audit",
+            "unit": null,
+            "source_page": 1
+          }
+        ]
+      },
+      "footnotes": [],
+      "footnote_texts": []
+    },
+    {
+      "id": "alm3/fact/0052",
+      "table": null,
+      "subject": {
+        "label": "document",
+        "kind": "document"
+      },
+      "property": {
+        "label": "Dimensional drawing Measurements mm (inches) | Note on tightening bolts",
+        "key": "dimensional_drawing_measurements_mm_inches_note_on_tightening_bolts"
+      },
+      "value_type": "text",
+      "values": [
+        {
+          "value": "The number of tightening bolts may vary depending on pressure rating.",
+          "unit": null,
+          "printed": "The number of tightening bolts may vary depending on pressure rating."
+        }
+      ],
+      "conditions": [],
+      "flags": [],
+      "source": {
+        "page": 2,
+        "exp0010_index": [
+          52
+        ],
+        "raw": [
+          {
+            "parameter": "Dimensional drawing Measurements mm (inches) | Note on tightening bolts",
+            "value": "The number of tightening bolts may vary depending on pressure rating.",
+            "unit": null,
+            "source_page": 2
+          }
+        ]
+      },
+      "footnotes": [],
+      "footnote_texts": []
+    },
+    {
+      "id": "alm3/fact/0053",
+      "table": 1,
+      "subject": {
+        "label": "Alfa Laval M3 gasketed plate heat exchanger",
+        "kind": "heat exchanger"
+      },
+      "property": {
+        "label": "Plate type",
+        "key": "plate_type"
+      },
+      "value_type": "text",
+      "values": [
+        {
+          "value": "Single plate",
+          "unit": null,
+          "printed": "Single plate"
+        }
+      ],
+      "conditions": [
+        {
+          "dimension": "plate variant",
+          "value": "M3",
+          "printed": "M3"
+        }
+      ],
+      "flags": [],
+      "source": {
+        "page": 2,
+        "exp0010_index": [
+          53
+        ],
+        "raw": [
+          {
+            "parameter": "Plates | M3 | Type",
+            "value": "Single plate",
+            "unit": null,
+            "source_page": 2
+          }
+        ]
+      },
+      "footnotes": [],
+      "footnote_texts": []
+    },
+    {
+      "id": "alm3/fact/0054",
+      "table": 1,
+      "subject": {
+        "label": "Alfa Laval M3 gasketed plate heat exchanger",
+        "kind": "heat exchanger"
+      },
+      "property": {
+        "label": "Free channel",
+        "key": "free_channel"
+      },
+      "value_type": "quantity",
+      "values": [
+        {
+          "value": 0.095,
+          "unit": "in",
+          "printed": "0.095 in"
+        },
+        {
+          "value": 2.4,
+          "unit": "mm",
+          "printed": "2.4 mm"
+        }
+      ],
+      "conditions": [
+        {
+          "dimension": "plate variant",
+          "value": "M3",
+          "printed": "M3"
+        }
+      ],
+      "flags": [],
+      "source": {
+        "page": 2,
+        "exp0010_index": [
+          55,
+          54
+        ],
+        "raw": [
+          {
+            "parameter": "Plates | M3 | Free channel",
+            "value": "0.095",
+            "unit": "in",
+            "source_page": 2
+          },
+          {
+            "parameter": "Plates | M3 | Free channel",
+            "value": "2.4",
+            "unit": "mm",
+            "source_page": 2
+          }
+        ]
+      },
+      "footnotes": [],
+      "footnote_texts": []
+    },
+    {
+      "id": "alm3/fact/0055",
+      "table": 1,
+      "subject": {
+        "label": "Alfa Laval M3 gasketed plate heat exchanger",
+        "kind": "heat exchanger"
+      },
+      "property": {
+        "label": "Plate type",
+        "key": "plate_type"
+      },
+      "value_type": "text",
+      "values": [
+        {
+          "value": "Double wall plate",
+          "unit": null,
+          "printed": "Double wall plate"
+        }
+      ],
+      "conditions": [
+        {
+          "dimension": "plate variant",
+          "value": "M3-D",
+          "printed": "M3-D"
+        }
+      ],
+      "flags": [],
+      "source": {
+        "page": 2,
+        "exp0010_index": [
+          56
+        ],
+        "raw": [
+          {
+            "parameter": "Plates | M3-D | Type",
+            "value": "Double wall plate",
+            "unit": null,
+            "source_page": 2
+          }
+        ]
+      },
+      "footnotes": [],
+      "footnote_texts": []
+    },
+    {
+      "id": "alm3/fact/0056",
+      "table": 1,
+      "subject": {
+        "label": "Alfa Laval M3 gasketed plate heat exchanger",
+        "kind": "heat exchanger"
+      },
+      "property": {
+        "label": "Free channel",
+        "key": "free_channel"
+      },
+      "value_type": "quantity",
+      "values": [
+        {
+          "value": 0.095,
+          "unit": "in",
+          "printed": "0.095 in"
+        },
+        {
+          "value": 2.4,
+          "unit": "mm",
+          "printed": "2.4 mm"
+        }
+      ],
+      "conditions": [
+        {
+          "dimension": "plate variant",
+          "value": "M3-D",
+          "printed": "M3-D"
+        }
+      ],
+      "flags": [],
+      "source": {
+        "page": 2,
+        "exp0010_index": [
+          58,
+          57
+        ],
+        "raw": [
+          {
+            "parameter": "Plates | M3-D | Free channel",
+            "value": "0.095",
+            "unit": "in",
+            "source_page": 2
+          },
+          {
+            "parameter": "Plates | M3-D | Free channel",
+            "value": "2.4",
+            "unit": "mm",
+            "source_page": 2
+          }
+        ]
+      },
+      "footnotes": [],
+      "footnote_texts": []
+    },
+    {
+      "id": "alm3/fact/0057",
+      "table": 1,
+      "subject": {
+        "label": "Alfa Laval M3 gasketed plate heat exchanger",
+        "kind": "heat exchanger"
+      },
+      "property": {
+        "label": "Plate type",
+        "key": "plate_type"
+      },
+      "value_type": "text",
+      "values": [
+        {
+          "value": "Gemini (hygienic) Double wall",
+          "unit": null,
+          "printed": "Gemini (hygienic) Double wall"
+        }
+      ],
+      "conditions": [
+        {
+          "dimension": "plate variant",
+          "value": "M3-G",
+          "printed": "M3-G"
+        }
+      ],
+      "flags": [],
+      "source": {
+        "page": 2,
+        "exp0010_index": [
+          59
+        ],
+        "raw": [
+          {
+            "parameter": "Plates | M3-G | Type",
+            "value": "Gemini (hygienic) Double wall",
+            "unit": null,
+            "source_page": 2
+          }
+        ]
+      },
+      "footnotes": [],
+      "footnote_texts": []
+    },
+    {
+      "id": "alm3/fact/0058",
+      "table": 1,
+      "subject": {
+        "label": "Alfa Laval M3 gasketed plate heat exchanger",
+        "kind": "heat exchanger"
+      },
+      "property": {
+        "label": "Free channel",
+        "key": "free_channel"
+      },
+      "value_type": "quantity",
+      "values": [
+        {
+          "value": 0.095,
+          "unit": "in",
+          "printed": "0.095 in"
+        },
+        {
+          "value": 2.4,
+          "unit": "mm",
+          "printed": "2.4 mm"
+        }
+      ],
+      "conditions": [
+        {
+          "dimension": "plate variant",
+          "value": "M3-G",
+          "printed": "M3-G"
+        }
+      ],
+      "flags": [],
+      "source": {
+        "page": 2,
+        "exp0010_index": [
+          61,
+          60
+        ],
+        "raw": [
+          {
+            "parameter": "Plates | M3-G | Free channel",
+            "value": "0.095",
+            "unit": "in",
+            "source_page": 2
+          },
+          {
+            "parameter": "Plates | M3-G | Free channel",
+            "value": "2.4",
+            "unit": "mm",
+            "source_page": 2
+          }
+        ]
+      },
+      "footnotes": [],
+      "footnote_texts": []
+    },
+    {
+      "id": "alm3/fact/0059",
+      "table": 1,
+      "subject": {
+        "label": "Alfa Laval M3 gasketed plate heat exchanger",
+        "kind": "heat exchanger"
+      },
+      "property": {
+        "label": "Plate type",
+        "key": "plate_type"
+      },
+      "value_type": "text",
+      "values": [
+        {
+          "value": "Single plate Diagonal flow",
+          "unit": null,
+          "printed": "Single plate Diagonal flow"
+        }
+      ],
+      "conditions": [
+        {
+          "dimension": "plate variant",
+          "value": "M3-X",
+          "printed": "M3-X"
+        }
+      ],
+      "flags": [],
+      "source": {
+        "page": 2,
+        "exp0010_index": [
+          62
+        ],
+        "raw": [
+          {
+            "parameter": "Plates | M3-X | Type",
+            "value": "Single plate Diagonal flow",
+            "unit": null,
+            "source_page": 2
+          }
+        ]
+      },
+      "footnotes": [],
+      "footnote_texts": []
+    },
+    {
+      "id": "alm3/fact/0060",
+      "table": 1,
+      "subject": {
+        "label": "Alfa Laval M3 gasketed plate heat exchanger",
+        "kind": "heat exchanger"
+      },
+      "property": {
+        "label": "Free channel",
+        "key": "free_channel"
+      },
+      "value_type": "quantity",
+      "values": [
+        {
+          "value": 0.095,
+          "unit": "in",
+          "printed": "0.095 in"
+        },
+        {
+          "value": 2.4,
+          "unit": "mm",
+          "printed": "2.4 mm"
+        }
+      ],
+      "conditions": [
+        {
+          "dimension": "plate variant",
+          "value": "M3-X",
+          "printed": "M3-X"
+        }
+      ],
+      "flags": [],
+      "source": {
+        "page": 2,
+        "exp0010_index": [
+          64,
+          63
+        ],
+        "raw": [
+          {
+            "parameter": "Plates | M3-X | Free channel",
+            "value": "0.095",
+            "unit": "in",
+            "source_page": 2
+          },
+          {
+            "parameter": "Plates | M3-X | Free channel",
+            "value": "2.4",
+            "unit": "mm",
+            "source_page": 2
+          }
+        ]
+      },
+      "footnotes": [],
+      "footnote_texts": []
+    },
+    {
+      "id": "alm3/fact/0061",
+      "table": 2,
+      "subject": {
+        "label": "Alfa Laval M3 gasketed plate heat exchanger",
+        "kind": "heat exchanger"
+      },
+      "property": {
+        "label": "Heat transfer plates material",
+        "key": "heat_transfer_plates_material",
+        "part": "Heat transfer plates"
+      },
+      "value_type": "text",
+      "values": [
+        {
+          "value": "316/316L, C-276, Ti, TiPd",
+          "unit": null,
+          "printed": "316/316L, C-276, Ti, TiPd"
+        }
+      ],
+      "conditions": [],
+      "flags": [],
+      "source": {
+        "page": 2,
+        "exp0010_index": [
+          65
+        ],
+        "raw": [
+          {
+            "parameter": "Materials | Heat transfer plates",
+            "value": "316/316L, C-276, Ti, TiPd",
+            "unit": null,
+            "source_page": 2
+          }
+        ]
+      },
+      "footnotes": [],
+      "footnote_texts": []
+    },
+    {
+      "id": "alm3/fact/0062",
+      "table": 2,
+      "subject": {
+        "label": "Alfa Laval M3 gasketed plate heat exchanger",
+        "kind": "heat exchanger"
+      },
+      "property": {
+        "label": "Field gaskets material",
+        "key": "field_gaskets_material",
+        "part": "Field gaskets"
+      },
+      "value_type": "text",
+      "values": [
+        {
+          "value": "NBR, EPDM, FKM",
+          "unit": null,
+          "printed": "NBR, EPDM, FKM"
+        }
+      ],
+      "conditions": [],
+      "flags": [],
+      "source": {
+        "page": 2,
+        "exp0010_index": [
+          66
+        ],
+        "raw": [
+          {
+            "parameter": "Materials | Field gaskets",
+            "value": "NBR, EPDM, FKM",
+            "unit": null,
+            "source_page": 2
+          }
+        ]
+      },
+      "footnotes": [],
+      "footnote_texts": []
+    },
+    {
+      "id": "alm3/fact/0063",
+      "table": 2,
+      "subject": {
+        "label": "Alfa Laval M3 gasketed plate heat exchanger",
+        "kind": "heat exchanger"
+      },
+      "property": {
+        "label": "Flange connections material",
+        "key": "flange_connections_material",
+        "part": "Flange connections"
+      },
+      "value_type": "text",
+      "values": [
+        {
+          "value": "Carbon steel",
+          "unit": null,
+          "printed": "Carbon steel"
+        }
+      ],
+      "conditions": [],
+      "flags": [],
+      "source": {
+        "page": 2,
+        "exp0010_index": [
+          67
+        ],
+        "raw": [
+          {
+            "parameter": "Materials | Flange connections",
+            "value": "Carbon steel",
+            "unit": null,
+            "source_page": 2
+          }
+        ]
+      },
+      "footnotes": [],
+      "footnote_texts": []
+    },
+    {
+      "id": "alm3/fact/0064",
+      "table": 2,
+      "subject": {
+        "label": "Alfa Laval M3 gasketed plate heat exchanger",
+        "kind": "heat exchanger"
+      },
+      "property": {
+        "label": "Pipe connections material",
+        "key": "pipe_connections_material",
+        "part": "Pipe connections"
+      },
+      "value_type": "text",
+      "values": [
+        {
+          "value": "Stainless steel, titanium",
+          "unit": null,
+          "printed": "Stainless steel, titanium"
+        }
+      ],
+      "conditions": [],
+      "flags": [],
+      "source": {
+        "page": 2,
+        "exp0010_index": [
+          68
+        ],
+        "raw": [
+          {
+            "parameter": "Materials | Pipe connections",
+            "value": "Stainless steel, titanium",
+            "unit": null,
+            "source_page": 2
+          }
+        ]
+      },
+      "footnotes": [],
+      "footnote_texts": []
+    },
+    {
+      "id": "alm3/fact/0065",
+      "table": 2,
+      "subject": {
+        "label": "Alfa Laval M3 gasketed plate heat exchanger",
+        "kind": "heat exchanger"
+      },
+      "property": {
+        "label": "Frame and pressure plate material",
+        "key": "frame_and_pressure_plate_material",
+        "part": "Frame and pressure plate"
+      },
+      "value_type": "text",
+      "values": [
+        {
+          "value": "Carbon steel, epoxy painted",
+          "unit": null,
+          "printed": "Carbon steel, epoxy painted"
+        }
+      ],
+      "conditions": [],
+      "flags": [],
+      "source": {
+        "page": 2,
+        "exp0010_index": [
+          69
+        ],
+        "raw": [
+          {
+            "parameter": "Materials | Frame and pressure plate",
+            "value": "Carbon steel, epoxy painted",
+            "unit": null,
+            "source_page": 2
+          }
+        ]
+      },
+      "footnotes": [],
+      "footnote_texts": []
+    },
+    {
+      "id": "alm3/fact/0066",
+      "table": null,
+      "subject": {
+        "label": "document",
+        "kind": "document"
+      },
+      "property": {
+        "label": "Technical data | Note on materials",
+        "key": "technical_data_note_on_materials"
+      },
+      "value_type": "text",
+      "values": [
+        {
+          "value": "Other materials may be available on request.",
+          "unit": null,
+          "printed": "Other materials may be available on request."
+        }
+      ],
+      "conditions": [],
+      "flags": [],
+      "source": {
+        "page": 2,
+        "exp0010_index": [
+          70
+        ],
+        "raw": [
+          {
+            "parameter": "Technical data | Note on materials",
+            "value": "Other materials may be available on request.",
+            "unit": null,
+            "source_page": 2
+          }
+        ]
+      },
+      "footnotes": [],
+      "footnote_texts": []
+    },
+    {
+      "id": "alm3/fact/0067",
+      "table": null,
+      "subject": {
+        "label": "document",
+        "kind": "document"
+      },
+      "property": {
+        "label": "Technical data | Note on options",
+        "key": "technical_data_note_on_options"
+      },
+      "value_type": "text",
+      "values": [
+        {
+          "value": "All option combinations may not be configurable.",
+          "unit": null,
+          "printed": "All option combinations may not be configurable."
+        }
+      ],
+      "conditions": [],
+      "flags": [],
+      "source": {
+        "page": 2,
+        "exp0010_index": [
+          71
+        ],
+        "raw": [
+          {
+            "parameter": "Technical data | Note on options",
+            "value": "All option combinations may not be configurable.",
+            "unit": null,
+            "source_page": 2
+          }
+        ]
+      },
+      "footnotes": [],
+      "footnote_texts": []
+    },
+    {
+      "id": "alm3/fact/0068",
+      "table": 3,
+      "subject": {
+        "label": "Alfa Laval M3 gasketed plate heat exchanger",
+        "kind": "heat exchanger"
+      },
+      "property": {
+        "label": "Max. design pressure",
+        "key": "max_design_pressure"
+      },
+      "value_type": "quantity",
+      "values": [
+        {
+          "value": 10.3,
+          "unit": "barg",
+          "printed": "10.3 barg"
+        }
+      ],
+      "conditions": [
+        {
+          "dimension": "frame",
+          "value": "FG",
+          "printed": "FG"
+        },
+        {
+          "dimension": "pressure vessel code",
+          "value": "ASME",
+          "printed": "ASME"
+        }
+      ],
+      "flags": [],
+      "source": {
+        "page": 2,
+        "exp0010_index": [
+          72
+        ],
+        "raw": [
+          {
+            "parameter": "Operational data | Frame FG | PV-code ASME | Max. design pressure",
+            "value": "10.3",
+            "unit": "barg",
+            "source_page": 2
+          }
+        ]
+      },
+      "footnotes": [],
+      "footnote_texts": []
+    },
+    {
+      "id": "alm3/fact/0069",
+      "table": 3,
+      "subject": {
+        "label": "Alfa Laval M3 gasketed plate heat exchanger",
+        "kind": "heat exchanger"
+      },
+      "property": {
+        "label": "Max. design pressure",
+        "key": "max_design_pressure"
+      },
+      "value_type": "quantity",
+      "values": [
+        {
+          "value": 150.0,
+          "unit": "psig",
+          "printed": "150 psig"
+        }
+      ],
+      "conditions": [
+        {
+          "dimension": "frame",
+          "value": "FG",
+          "printed": "FG"
+        },
+        {
+          "dimension": "pressure vessel code",
+          "value": "ASME",
+          "printed": "ASME"
+        }
+      ],
+      "flags": [],
+      "source": {
+        "page": 2,
+        "exp0010_index": [
+          73
+        ],
+        "raw": [
+          {
+            "parameter": "Operational data | Frame FG | PV-code ASME | Max. design pressure",
+            "value": "150",
+            "unit": "psig",
+            "source_page": 2
+          }
+        ]
+      },
+      "footnotes": [],
+      "footnote_texts": []
+    },
+    {
+      "id": "alm3/fact/0070",
+      "table": 3,
+      "subject": {
+        "label": "Alfa Laval M3 gasketed plate heat exchanger",
+        "kind": "heat exchanger"
+      },
+      "property": {
+        "label": "Max. design temperature",
+        "key": "max_design_temperature"
+      },
+      "value_type": "quantity",
+      "values": [
+        {
+          "value": 177.0,
+          "unit": "°C",
+          "printed": "177 °C"
+        },
+        {
+          "value": 350.0,
+          "unit": "°F",
+          "printed": "350 °F"
+        }
+      ],
+      "conditions": [
+        {
+          "dimension": "frame",
+          "value": "FG",
+          "printed": "FG"
+        },
+        {
+          "dimension": "pressure vessel code",
+          "value": "ASME",
+          "printed": "ASME"
+        }
+      ],
+      "flags": [],
+      "source": {
+        "page": 2,
+        "exp0010_index": [
+          74,
+          75
+        ],
+        "raw": [
+          {
+            "parameter": "Operational data | Frame FG | PV-code ASME | Max. design temperature",
+            "value": "177",
+            "unit": "°C",
+            "source_page": 2
+          },
+          {
+            "parameter": "Operational data | Frame FG | PV-code ASME | Max. design temperature",
+            "value": "350",
+            "unit": "°F",
+            "source_page": 2
+          }
+        ]
+      },
+      "footnotes": [],
+      "footnote_texts": []
+    },
+    {
+      "id": "alm3/fact/0071",
+      "table": 3,
+      "subject": {
+        "label": "Alfa Laval M3 gasketed plate heat exchanger",
+        "kind": "heat exchanger"
+      },
+      "property": {
+        "label": "Max. design pressure",
+        "key": "max_design_pressure"
+      },
+      "value_type": "quantity",
+      "values": [
+        {
+          "value": 16.0,
+          "unit": "barg",
+          "printed": "16.0 barg"
+        }
+      ],
+      "conditions": [
+        {
+          "dimension": "frame",
+          "value": "FG",
+          "printed": "FG"
+        },
+        {
+          "dimension": "pressure vessel code",
+          "value": "PED",
+          "printed": "PED"
+        }
+      ],
+      "flags": [],
+      "source": {
+        "page": 2,
+        "exp0010_index": [
+          76
+        ],
+        "raw": [
+          {
+            "parameter": "Operational data | Frame FG | PV-code PED | Max. design pressure",
+            "value": "16.0",
+            "unit": "barg",
+            "source_page": 2
+          }
+        ]
+      },
+      "footnotes": [],
+      "footnote_texts": []
+    },
+    {
+      "id": "alm3/fact/0072",
+      "table": 3,
+      "subject": {
+        "label": "Alfa Laval M3 gasketed plate heat exchanger",
+        "kind": "heat exchanger"
+      },
+      "property": {
+        "label": "Max. design pressure",
+        "key": "max_design_pressure"
+      },
+      "value_type": "quantity",
+      "values": [
+        {
+          "value": 232.0,
+          "unit": "psig",
+          "printed": "232 psig"
+        }
+      ],
+      "conditions": [
+        {
+          "dimension": "frame",
+          "value": "FG",
+          "printed": "FG"
+        },
+        {
+          "dimension": "pressure vessel code",
+          "value": "PED",
+          "printed": "PED"
+        }
+      ],
+      "flags": [],
+      "source": {
+        "page": 2,
+        "exp0010_index": [
+          77
+        ],
+        "raw": [
+          {
+            "parameter": "Operational data | Frame FG | PV-code PED | Max. design pressure",
+            "value": "232",
+            "unit": "psig",
+            "source_page": 2
+          }
+        ]
+      },
+      "footnotes": [],
+      "footnote_texts": []
+    },
+    {
+      "id": "alm3/fact/0073",
+      "table": 3,
+      "subject": {
+        "label": "Alfa Laval M3 gasketed plate heat exchanger",
+        "kind": "heat exchanger"
+      },
+      "property": {
+        "label": "Max. design temperature",
+        "key": "max_design_temperature"
+      },
+      "value_type": "quantity",
+      "values": [
+        {
+          "value": 180.0,
+          "unit": "°C",
+          "printed": "180 °C"
+        },
+        {
+          "value": 356.0,
+          "unit": "°F",
+          "printed": "356 °F"
+        }
+      ],
+      "conditions": [
+        {
+          "dimension": "frame",
+          "value": "FG",
+          "printed": "FG"
+        },
+        {
+          "dimension": "pressure vessel code",
+          "value": "PED",
+          "printed": "PED"
+        }
+      ],
+      "flags": [],
+      "source": {
+        "page": 2,
+        "exp0010_index": [
+          78,
+          79
+        ],
+        "raw": [
+          {
+            "parameter": "Operational data | Frame FG | PV-code PED | Max. design temperature",
+            "value": "180",
+            "unit": "°C",
+            "source_page": 2
+          },
+          {
+            "parameter": "Operational data | Frame FG | PV-code PED | Max. design temperature",
+            "value": "356",
+            "unit": "°F",
+            "source_page": 2
+          }
+        ]
+      },
+      "footnotes": [],
+      "footnote_texts": []
+    },
+    {
+      "id": "alm3/fact/0074",
+      "table": 3,
+      "subject": {
+        "label": "Alfa Laval M3 gasketed plate heat exchanger",
+        "kind": "heat exchanger"
+      },
+      "property": {
+        "label": "Note on ratings",
+        "key": "note_on_ratings"
+      },
+      "value_type": "text",
+      "values": [
+        {
+          "value": "Extended pressure and temperature rating may be available on request.",
+          "unit": null,
+          "printed": "Extended pressure and temperature rating may be available on request."
+        }
+      ],
+      "conditions": [],
+      "flags": [],
+      "source": {
+        "page": 2,
+        "exp0010_index": [
+          80
+        ],
+        "raw": [
+          {
+            "parameter": "Operational data | Note on ratings",
+            "value": "Extended pressure and temperature rating may be available on request.",
+            "unit": null,
+            "source_page": 2
+          }
+        ]
+      },
+      "footnotes": [],
+      "footnote_texts": []
+    },
+    {
+      "id": "alm3/fact/0075",
+      "table": 4,
+      "subject": {
+        "label": "Alfa Laval M3 gasketed plate heat exchanger",
+        "kind": "heat exchanger"
+      },
+      "property": {
+        "label": "Threaded port",
+        "key": "threaded_port"
+      },
+      "value_type": "code",
+      "values": [
+        {
+          "value": "ISO 228 - G 1 1/4",
+          "unit": null,
+          "printed": "ISO 228 - G 1 1/4"
+        }
+      ],
+      "conditions": [],
+      "flags": [],
+      "source": {
+        "page": 2,
+        "exp0010_index": [
+          81
+        ],
+        "raw": [
+          {
+            "parameter": "Pipe connections | Threaded port",
+            "value": "ISO 228 - G 1 1/4",
+            "unit": null,
+            "source_page": 2
+          }
+        ]
+      },
+      "footnotes": [],
+      "footnote_texts": []
+    },
+    {
+      "id": "alm3/fact/0076",
+      "table": 4,
+      "subject": {
+        "label": "Alfa Laval M3 gasketed plate heat exchanger",
+        "kind": "heat exchanger"
+      },
+      "property": {
+        "label": "Internal parallel threaded",
+        "key": "internal_parallel_threaded"
+      },
+      "value_type": "code",
+      "values": [
+        {
+          "value": "ISO 228 - G 1",
+          "unit": null,
+          "printed": "ISO 228 - G 1"
+        }
+      ],
+      "conditions": [],
+      "flags": [],
+      "source": {
+        "page": 2,
+        "exp0010_index": [
+          82
+        ],
+        "raw": [
+          {
+            "parameter": "Pipe connections | Internal parallel threaded",
+            "value": "ISO 228 - G 1",
+            "unit": null,
+            "source_page": 2
+          }
+        ]
+      },
+      "footnotes": [],
+      "footnote_texts": []
+    },
+    {
+      "id": "alm3/fact/0077",
+      "table": 4,
+      "subject": {
+        "label": "Alfa Laval M3 gasketed plate heat exchanger",
+        "kind": "heat exchanger"
+      },
+      "property": {
+        "label": "External parallel threaded",
+        "key": "external_parallel_threaded"
+      },
+      "value_type": "code",
+      "values": [
+        {
+          "value": "ISO 228 - G 1 1/4 B",
+          "unit": null,
+          "printed": "ISO 228 - G 1 1/4 B"
+        }
+      ],
+      "conditions": [],
+      "flags": [],
+      "source": {
+        "page": 2,
+        "exp0010_index": [
+          83
+        ],
+        "raw": [
+          {
+            "parameter": "Pipe connections | External parallel threaded",
+            "value": "ISO 228 - G 1 1/4 B",
+            "unit": null,
+            "source_page": 2
+          }
+        ]
+      },
+      "footnotes": [],
+      "footnote_texts": []
+    },
+    {
+      "id": "alm3/fact/0078",
+      "table": 4,
+      "subject": {
+        "label": "Alfa Laval M3 gasketed plate heat exchanger",
+        "kind": "heat exchanger"
+      },
+      "property": {
+        "label": "External tapered threaded",
+        "key": "external_tapered_threaded"
+      },
+      "value_type": "code",
+      "values": [
+        {
+          "value": "ISO 7 - R 1 1/4",
+          "unit": null,
+          "printed": "ISO 7 - R 1 1/4"
+        }
+      ],
+      "conditions": [],
+      "flags": [],
+      "source": {
+        "page": 2,
+        "exp0010_index": [
+          84
+        ],
+        "raw": [
+          {
+            "parameter": "Pipe connections | External tapered threaded",
+            "value": "ISO 7 - R 1 1/4",
+            "unit": null,
+            "source_page": 2
+          }
+        ]
+      },
+      "footnotes": [],
+      "footnote_texts": []
+    },
+    {
+      "id": "alm3/fact/0079",
+      "table": 4,
+      "subject": {
+        "label": "Alfa Laval M3 gasketed plate heat exchanger",
+        "kind": "heat exchanger"
+      },
+      "property": {
+        "label": "External tapered threaded",
+        "key": "external_tapered_threaded"
+      },
+      "value_type": "code",
+      "values": [
+        {
+          "value": "1 1/4 - 11.5 NPT",
+          "unit": null,
+          "printed": "1 1/4 - 11.5 NPT"
+        }
+      ],
+      "conditions": [],
+      "flags": [],
+      "source": {
+        "page": 2,
+        "exp0010_index": [
+          85
+        ],
+        "raw": [
+          {
+            "parameter": "Pipe connections | External tapered threaded",
+            "value": "1 1/4 - 11.5 NPT",
+            "unit": null,
+            "source_page": 2
+          }
+        ]
+      },
+      "footnotes": [],
+      "footnote_texts": []
+    },
+    {
+      "id": "alm3/fact/0080",
+      "table": 4,
+      "subject": {
+        "label": "Alfa Laval M3 gasketed plate heat exchanger",
+        "kind": "heat exchanger"
+      },
+      "property": {
+        "label": "Note on connection types",
+        "key": "note_on_connection_types"
+      },
+      "value_type": "text",
+      "values": [
+        {
+          "value": "Other connection types may be available on request.",
+          "unit": null,
+          "printed": "Other connection types may be available on request."
+        }
+      ],
+      "conditions": [],
+      "flags": [],
+      "source": {
+        "page": 2,
+        "exp0010_index": [
+          86
+        ],
+        "raw": [
+          {
+            "parameter": "Pipe connections | Note on connection types",
+            "value": "Other connection types may be available on request.",
+            "unit": null,
+            "source_page": 2
+          }
+        ]
+      },
+      "footnotes": [],
+      "footnote_texts": []
+    },
+    {
+      "id": "alm3/fact/0081",
+      "table": null,
+      "subject": {
+        "label": "document",
+        "kind": "document"
+      },
+      "property": {
+        "label": "Alfa Laval M3 | Document code (page footer)",
+        "key": "alfa_laval_m3_document_code_page_footer"
+      },
+      "value_type": "code",
+      "values": [
+        {
+          "value": "CHE00070EN 2016-04",
+          "unit": null,
+          "printed": "CHE00070EN 2016-04"
+        }
+      ],
+      "conditions": [],
+      "flags": [],
+      "source": {
+        "page": 2,
+        "exp0010_index": [
+          87
+        ],
+        "raw": [
+          {
+            "parameter": "Alfa Laval M3 | Document code (page footer)",
+            "value": "CHE00070EN 2016-04",
+            "unit": null,
+            "source_page": 2
+          }
+        ]
+      },
+      "footnotes": [],
+      "footnote_texts": []
+    }
+  ],
+  "footnotes": [],
+  "figures": [
+    {
+      "id": "alfalaval-m3/fig-1.1",
+      "document": "alfalaval-m3",
+      "page": 1,
+      "bbox_pt": [
+        312.3,
+        200.6,
+        553.3,
+        467.8
+      ],
+      "crop": "data/figures/alfalaval-m3/fig-1.1.png",
+      "kind": "photo_illustration",
+      "decorative": false,
+      "caption": null,
+      "source": "azure_figure",
+      "footnote_refs": [],
+      "footnote_texts": []
+    },
+    {
+      "id": "alfalaval-m3/fig-1.2",
+      "document": "alfalaval-m3",
+      "page": 1,
+      "bbox_pt": [
+        311.3,
+        554.9,
+        536.0,
+        698.5
+      ],
+      "crop": "data/figures/alfalaval-m3/fig-1.2.png",
+      "kind": "text_image",
+      "decorative": false,
+      "caption": null,
+      "source": "azure_figure",
+      "footnote_refs": [],
+      "footnote_texts": []
+    },
+    {
+      "id": "alfalaval-m3/fig-2.1",
+      "document": "alfalaval-m3",
+      "page": 2,
+      "bbox_pt": [
+        64.0,
+        77.5,
+        289.6,
+        252.1
+      ],
+      "crop": "data/figures/alfalaval-m3/fig-2.1.png",
+      "kind": "dimension_drawing",
+      "decorative": false,
+      "caption": null,
+      "source": "azure_figure",
+      "footnote_refs": [],
+      "footnote_texts": []
+    }
+  ],
+  "links": [
+    {
+      "type": "depicts",
+      "figure": "alfalaval-m3/fig-2.1",
+      "part": "part/s4",
+      "part_label": "S4",
+      "label": "S4",
+      "label_bbox_pt": [
+        109.2,
+        126.9,
+        117.6,
+        133.1
+      ],
+      "flags": []
+    },
+    {
+      "type": "depicts",
+      "figure": "alfalaval-m3/fig-2.1",
+      "part": "part/s1",
+      "part_label": "S1",
+      "label": "S1",
+      "label_bbox_pt": [
+        125.0,
+        126.9,
+        132.5,
+        133.1
+      ],
+      "flags": []
+    },
+    {
+      "type": "depicts",
+      "figure": "alfalaval-m3/fig-2.1",
+      "part": "part/s3",
+      "part_label": "S3",
+      "label": "S3",
+      "label_bbox_pt": [
+        109.2,
+        197.2,
+        117.2,
+        203.5
+      ],
+      "flags": []
+    },
+    {
+      "type": "depicts",
+      "figure": "alfalaval-m3/fig-2.1",
+      "part": "part/s2",
+      "part_label": "S2",
+      "label": "S2",
+      "label_bbox_pt": [
+        125.1,
+        197.2,
+        133.2,
+        203.7
+      ],
+      "flags": []
+    }
+  ],
+  "charts": [],
+  "skipped": [
+    {
+      "exp0010_index": 0,
+      "reason": "extraction_note_metadata"
+    }
+  ]
+}

@@ -1,0 +1,2494 @@
+{
+  "summary": {
+    "figures": 68,
+    "kinds": {
+      "photo_illustration": 20,
+      "logo": 4,
+      "text_image": 13,
+      "chart": 2,
+      "sectional_exploded": 1,
+      "dimension_drawing": 28
+    },
+    "letters": {
+      "legend": 51,
+      "table": 14
+    },
+    "letters_matching_several_tables": 28,
+    "dimensions": 75,
+    "dimensions_unit_consistent": 60,
+    "dimensions_numbers_in_azure_text": 75,
+    "part_labels": 114,
+    "part_labels_only_in_figure": 13,
+    "formulas": 0,
+    "formulas_all_constants_kept": 0,
+    "formulas_plus_minus_kept": 0,
+    "formulas_url_and_span_kept": 0
+  },
+  "figures": [
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-1.1",
+      "kind": "photo_illustration",
+      "letters": [],
+      "legend": {},
+      "dimensions": [],
+      "labels_elsewhere": {},
+      "formula": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-1.2",
+      "kind": "logo",
+      "letters": [],
+      "legend": {},
+      "dimensions": [],
+      "labels_elsewhere": {
+        "EMERSON": 132
+      },
+      "formula": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-2.1",
+      "kind": "photo_illustration",
+      "letters": [],
+      "legend": {},
+      "dimensions": [],
+      "labels_elsewhere": {},
+      "formula": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-3.1",
+      "kind": "photo_illustration",
+      "letters": [],
+      "legend": {},
+      "dimensions": [],
+      "labels_elsewhere": {},
+      "formula": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-3.2",
+      "kind": "photo_illustration",
+      "letters": [],
+      "legend": {},
+      "dimensions": [],
+      "labels_elsewhere": {},
+      "formula": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-3.3",
+      "kind": "photo_illustration",
+      "letters": [],
+      "legend": {},
+      "dimensions": [],
+      "labels_elsewhere": {},
+      "formula": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-3.4",
+      "kind": "photo_illustration",
+      "letters": [],
+      "legend": {},
+      "dimensions": [],
+      "labels_elsewhere": {},
+      "formula": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-4.1",
+      "kind": "photo_illustration",
+      "letters": [],
+      "legend": {},
+      "dimensions": [],
+      "labels_elsewhere": {},
+      "formula": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-4.2",
+      "kind": "photo_illustration",
+      "letters": [],
+      "legend": {},
+      "dimensions": [],
+      "labels_elsewhere": {},
+      "formula": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-4.3",
+      "kind": "photo_illustration",
+      "letters": [],
+      "legend": {},
+      "dimensions": [],
+      "labels_elsewhere": {},
+      "formula": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-5.1",
+      "kind": "photo_illustration",
+      "letters": [],
+      "legend": {},
+      "dimensions": [],
+      "labels_elsewhere": {},
+      "formula": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-5.2",
+      "kind": "photo_illustration",
+      "letters": [],
+      "legend": {},
+      "dimensions": [],
+      "labels_elsewhere": {},
+      "formula": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-6.1",
+      "kind": "text_image",
+      "letters": [
+        {
+          "letter": "1",
+          "resolved_by": "legend",
+          "legend": [
+            "Required model components (choices available on most)"
+          ],
+          "position_name": null,
+          "tables": [
+            2,
+            7
+          ],
+          "example_headers": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "letter": "2",
+          "resolved_by": "legend",
+          "legend": [
+            "Additional options (variety of features and functions that may be added to products)"
+          ],
+          "position_name": null,
+          "tables": [
+            2,
+            4
+          ],
+          "example_headers": [
+            "2",
+            "2"
+          ]
+        }
+      ],
+      "legend": {
+        "1": {
+          "name": "Required model components (choices available on most)",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "2": {
+          "name": "Additional options (variety of features and functions that may be added to products)",
+          "source": "llm",
+          "in_page_text": true
+        }
+      },
+      "dimensions": [],
+      "labels_elsewhere": {
+        "3051CD3A22A1A": 0,
+        "WR5M6BLEDA1": 5,
+        "1": 2617,
+        "2": 1771
+      },
+      "formula": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-18.1",
+      "kind": "photo_illustration",
+      "letters": [],
+      "legend": {},
+      "dimensions": [],
+      "labels_elsewhere": {},
+      "formula": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-28.1",
+      "kind": "photo_illustration",
+      "letters": [],
+      "legend": {},
+      "dimensions": [],
+      "labels_elsewhere": {},
+      "formula": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-28.2",
+      "kind": "photo_illustration",
+      "letters": [],
+      "legend": {},
+      "dimensions": [],
+      "labels_elsewhere": {},
+      "formula": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-28.3",
+      "kind": "photo_illustration",
+      "letters": [],
+      "legend": {},
+      "dimensions": [],
+      "labels_elsewhere": {},
+      "formula": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-29.1",
+      "kind": "photo_illustration",
+      "letters": [],
+      "legend": {},
+      "dimensions": [],
+      "labels_elsewhere": {},
+      "formula": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-43.1",
+      "kind": "photo_illustration",
+      "letters": [],
+      "legend": {},
+      "dimensions": [],
+      "labels_elsewhere": {},
+      "formula": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-53.1",
+      "kind": "photo_illustration",
+      "letters": [],
+      "legend": {},
+      "dimensions": [],
+      "labels_elsewhere": {},
+      "formula": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-64.1",
+      "kind": "photo_illustration",
+      "letters": [],
+      "legend": {},
+      "dimensions": [],
+      "labels_elsewhere": {},
+      "formula": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-82.1",
+      "kind": "chart",
+      "letters": [
+        {
+          "letter": "A",
+          "resolved_by": "legend",
+          "legend": [
+            "Load (Ωs)"
+          ],
+          "position_name": null,
+          "tables": [],
+          "example_headers": []
+        },
+        {
+          "letter": "B",
+          "resolved_by": "legend",
+          "legend": [
+            "Operating region"
+          ],
+          "position_name": null,
+          "tables": [],
+          "example_headers": []
+        },
+        {
+          "letter": "C",
+          "resolved_by": "legend",
+          "legend": [
+            "Voltage (Vdc)"
+          ],
+          "position_name": null,
+          "tables": [],
+          "example_headers": []
+        }
+      ],
+      "legend": {
+        "A": {
+          "name": "Load (Ωs)",
+          "source": "llm",
+          "in_page_text": false
+        },
+        "B": {
+          "name": "Operating region",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "C": {
+          "name": "Voltage (Vdc)",
+          "source": "llm",
+          "in_page_text": true
+        }
+      },
+      "dimensions": [],
+      "labels_elsewhere": {
+        "1387": 0,
+        "1000": 21,
+        "A": 10553,
+        "500": 20,
+        "B": 2476,
+        "0": 3128,
+        "10.5": 3,
+        "20": 335,
+        "30": 319,
+        "42.4": 2,
+        "C": 5415
+      },
+      "formula": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-96.1",
+      "kind": "sectional_exploded",
+      "letters": [
+        {
+          "letter": "A",
+          "resolved_by": "legend",
+          "legend": [
+            "Cover"
+          ],
+          "position_name": null,
+          "tables": [],
+          "example_headers": []
+        },
+        {
+          "letter": "B",
+          "resolved_by": "legend",
+          "legend": [
+            "Cover O-ring"
+          ],
+          "position_name": null,
+          "tables": [],
+          "example_headers": []
+        },
+        {
+          "letter": "C",
+          "resolved_by": "legend",
+          "legend": [
+            "Terminal block"
+          ],
+          "position_name": null,
+          "tables": [],
+          "example_headers": []
+        },
+        {
+          "letter": "D",
+          "resolved_by": "legend",
+          "legend": [
+            "Electronics housing"
+          ],
+          "position_name": null,
+          "tables": [],
+          "example_headers": []
+        },
+        {
+          "letter": "E",
+          "resolved_by": "legend",
+          "legend": [
+            "Configuration buttons cover"
+          ],
+          "position_name": null,
+          "tables": [],
+          "example_headers": []
+        },
+        {
+          "letter": "F",
+          "resolved_by": "legend",
+          "legend": [
+            "Local configuration buttons"
+          ],
+          "position_name": null,
+          "tables": [],
+          "example_headers": []
+        },
+        {
+          "letter": "G",
+          "resolved_by": "legend",
+          "legend": [
+            "Electronics board"
+          ],
+          "position_name": null,
+          "tables": [],
+          "example_headers": []
+        },
+        {
+          "letter": "H",
+          "resolved_by": "legend",
+          "legend": [
+            "Name plate"
+          ],
+          "position_name": null,
+          "tables": [],
+          "example_headers": []
+        },
+        {
+          "letter": "I",
+          "resolved_by": "legend",
+          "legend": [
+            "Housing rotation set screw (180 degree maximum rotation without further disassembly)"
+          ],
+          "position_name": null,
+          "tables": [],
+          "example_headers": []
+        },
+        {
+          "letter": "J",
+          "resolved_by": "legend",
+          "legend": [
+            "Sensor module"
+          ],
+          "position_name": null,
+          "tables": [],
+          "example_headers": []
+        },
+        {
+          "letter": "K",
+          "resolved_by": "legend",
+          "legend": [
+            "Coplanar flange"
+          ],
+          "position_name": null,
+          "tables": [],
+          "example_headers": []
+        },
+        {
+          "letter": "L",
+          "resolved_by": "legend",
+          "legend": [
+            "Drain/vent valve"
+          ],
+          "position_name": null,
+          "tables": [],
+          "example_headers": []
+        },
+        {
+          "letter": "M",
+          "resolved_by": "legend",
+          "legend": [
+            "Flange adapters"
+          ],
+          "position_name": null,
+          "tables": [],
+          "example_headers": []
+        },
+        {
+          "letter": "N",
+          "resolved_by": "legend",
+          "legend": [
+            "Process O-ring"
+          ],
+          "position_name": null,
+          "tables": [],
+          "example_headers": []
+        },
+        {
+          "letter": "O",
+          "resolved_by": "legend",
+          "legend": [
+            "Flange adapter O-ring"
+          ],
+          "position_name": null,
+          "tables": [],
+          "example_headers": []
+        },
+        {
+          "letter": "P",
+          "resolved_by": "legend",
+          "legend": [
+            "Flange alignment screw (not pressure retaining)"
+          ],
+          "position_name": null,
+          "tables": [],
+          "example_headers": []
+        },
+        {
+          "letter": "Q",
+          "resolved_by": "legend",
+          "legend": [
+            "Flange bolts"
+          ],
+          "position_name": null,
+          "tables": [],
+          "example_headers": []
+        }
+      ],
+      "legend": {
+        "A": {
+          "name": "Cover",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "B": {
+          "name": "Cover O-ring",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "C": {
+          "name": "Terminal block",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "D": {
+          "name": "Electronics housing",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "E": {
+          "name": "Configuration buttons cover",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "F": {
+          "name": "Local configuration buttons",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "G": {
+          "name": "Electronics board",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "H": {
+          "name": "Name plate",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "I": {
+          "name": "Housing rotation set screw (180 degree maximum rotation without further disassembly)",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "J": {
+          "name": "Sensor module",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "K": {
+          "name": "Coplanar flange",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "L": {
+          "name": "Drain/vent valve",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "M": {
+          "name": "Flange adapters",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "N": {
+          "name": "Process O-ring",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "O": {
+          "name": "Flange adapter O-ring",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "P": {
+          "name": "Flange alignment screw (not pressure retaining)",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "Q": {
+          "name": "Flange bolts",
+          "source": "llm",
+          "in_page_text": true
+        }
+      },
+      "dimensions": [],
+      "labels_elsewhere": {
+        "A": 10530,
+        "B": 2472,
+        "C": 5401,
+        "D": 12715,
+        "E": 13205,
+        "F": 3116,
+        "G": 2549,
+        "H": 3930,
+        "I": 9868,
+        "J": 196,
+        "K": 609,
+        "L": 6668,
+        "M": 3627,
+        "N": 8790,
+        "O": 9711,
+        "P": 4673,
+        "Q": 218
+      },
+      "formula": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-97.1",
+      "kind": "dimension_drawing",
+      "letters": [],
+      "legend": {},
+      "dimensions": [
+        {
+          "printed": "4.09 (104)",
+          "parsed": true,
+          "difference_mm": 0.114,
+          "consistent": true,
+          "in_azure_text": true
+        },
+        {
+          "printed": "7.12 (181)",
+          "parsed": true,
+          "difference_mm": 0.152,
+          "consistent": true,
+          "in_azure_text": true
+        }
+      ],
+      "labels_elsewhere": {},
+      "formula": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-97.2",
+      "kind": "dimension_drawing",
+      "letters": [],
+      "legend": {},
+      "dimensions": [
+        {
+          "printed": "4.29 (109)",
+          "parsed": true,
+          "difference_mm": 0.034,
+          "consistent": true,
+          "in_azure_text": true
+        },
+        {
+          "printed": "6.55 (166)",
+          "parsed": true,
+          "difference_mm": 0.37,
+          "consistent": true,
+          "in_azure_text": true
+        }
+      ],
+      "labels_elsewhere": {},
+      "formula": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-97.3",
+      "kind": "dimension_drawing",
+      "letters": [],
+      "legend": {},
+      "dimensions": [
+        {
+          "printed": "4.196 (106.6)",
+          "parsed": true,
+          "difference_mm": 0.022,
+          "consistent": true,
+          "in_azure_text": true
+        }
+      ],
+      "labels_elsewhere": {},
+      "formula": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-97.4",
+      "kind": "dimension_drawing",
+      "letters": [],
+      "legend": {},
+      "dimensions": [
+        {
+          "printed": "5.49 (139)",
+          "parsed": true,
+          "difference_mm": 0.446,
+          "consistent": true,
+          "in_azure_text": true
+        },
+        {
+          "printed": "7.41 (188)",
+          "parsed": true,
+          "difference_mm": 0.214,
+          "consistent": true,
+          "in_azure_text": true
+        }
+      ],
+      "labels_elsewhere": {},
+      "formula": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-98.1",
+      "kind": "dimension_drawing",
+      "letters": [],
+      "legend": {},
+      "dimensions": [
+        {
+          "printed": "6.75 (171)",
+          "parsed": true,
+          "difference_mm": 0.45,
+          "consistent": true,
+          "in_azure_text": true
+        },
+        {
+          "printed": "5.50 (140) Maximum open",
+          "parsed": false,
+          "in_azure_text": true
+        }
+      ],
+      "labels_elsewhere": {
+        "Maximum open": 1
+      },
+      "formula": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-98.2",
+      "kind": "dimension_drawing",
+      "letters": [],
+      "legend": {},
+      "dimensions": [
+        {
+          "printed": "9.20 (234) Maximum Open",
+          "parsed": false,
+          "in_azure_text": true
+        }
+      ],
+      "labels_elsewhere": {
+        "Maximum Open": 1
+      },
+      "formula": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-99.1",
+      "kind": "dimension_drawing",
+      "letters": [
+        {
+          "letter": "A",
+          "resolved_by": "legend",
+          "legend": [
+            "5/16-18 bolts (not supplied)"
+          ],
+          "position_name": null,
+          "tables": [],
+          "example_headers": []
+        },
+        {
+          "letter": "B",
+          "resolved_by": "legend",
+          "legend": [
+            "⅜-16 bolts"
+          ],
+          "position_name": null,
+          "tables": [],
+          "example_headers": []
+        },
+        {
+          "letter": "C",
+          "resolved_by": "legend",
+          "legend": [
+            "2-in. U-bolt"
+          ],
+          "position_name": null,
+          "tables": [],
+          "example_headers": []
+        },
+        {
+          "letter": "D",
+          "resolved_by": "legend",
+          "legend": [
+            "⅜-16 bolts"
+          ],
+          "position_name": null,
+          "tables": [],
+          "example_headers": []
+        }
+      ],
+      "legend": {
+        "A": {
+          "name": "5/16-18 bolts (not supplied)",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "B": {
+          "name": "⅜-16 bolts",
+          "source": "llm",
+          "in_page_text": false
+        },
+        "C": {
+          "name": "2-in. U-bolt",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "D": {
+          "name": "⅜-16 bolts",
+          "source": "llm",
+          "in_page_text": false
+        }
+      },
+      "dimensions": [
+        {
+          "printed": "6.20 (157)",
+          "parsed": true,
+          "difference_mm": 0.48,
+          "consistent": true,
+          "in_azure_text": true
+        },
+        {
+          "printed": "2.81 (71)",
+          "parsed": true,
+          "difference_mm": 0.374,
+          "consistent": true,
+          "in_azure_text": true
+        },
+        {
+          "printed": "4.73 (120)",
+          "parsed": true,
+          "difference_mm": 0.142,
+          "consistent": true,
+          "in_azure_text": true
+        },
+        {
+          "printed": "2.81 (71)",
+          "parsed": true,
+          "difference_mm": 0.374,
+          "consistent": true,
+          "in_azure_text": true
+        },
+        {
+          "printed": "3.35 (85)",
+          "parsed": true,
+          "difference_mm": 0.09,
+          "consistent": true,
+          "in_azure_text": true
+        },
+        {
+          "printed": "6.25 (159)",
+          "parsed": true,
+          "difference_mm": 0.25,
+          "consistent": true,
+          "in_azure_text": true
+        },
+        {
+          "printed": "3.35 (85)",
+          "parsed": true,
+          "difference_mm": 0.09,
+          "consistent": true,
+          "in_azure_text": true
+        },
+        {
+          "printed": "3.50 (89)",
+          "parsed": true,
+          "difference_mm": 0.1,
+          "consistent": true,
+          "in_azure_text": true
+        }
+      ],
+      "labels_elsewhere": {
+        "Panel mounting": 8,
+        "A": 10542,
+        "B": 2474,
+        "Pipe mounting": 5,
+        "C": 5410,
+        "D": 12722
+      },
+      "formula": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-100.1",
+      "kind": "dimension_drawing",
+      "letters": [
+        {
+          "letter": "A",
+          "resolved_by": "legend",
+          "legend": [
+            "Flange adapters (optional)"
+          ],
+          "position_name": null,
+          "tables": [],
+          "example_headers": []
+        }
+      ],
+      "legend": {
+        "A": {
+          "name": "Flange adapters (optional)",
+          "source": "llm",
+          "in_page_text": true
+        }
+      },
+      "dimensions": [
+        {
+          "printed": "4.09 (104)",
+          "parsed": true,
+          "difference_mm": 0.114,
+          "consistent": true,
+          "in_azure_text": true
+        },
+        {
+          "printed": "1.16 (29)",
+          "parsed": true,
+          "difference_mm": 0.464,
+          "consistent": true,
+          "in_azure_text": true
+        },
+        {
+          "printed": "3.40 (86)",
+          "parsed": true,
+          "difference_mm": 0.36,
+          "consistent": true,
+          "in_azure_text": true
+        },
+        {
+          "printed": "1.10 (28)",
+          "parsed": true,
+          "difference_mm": 0.06,
+          "consistent": true,
+          "in_azure_text": true
+        }
+      ],
+      "labels_elsewhere": {
+        "A": 10545
+      },
+      "formula": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-100.2",
+      "kind": "dimension_drawing",
+      "letters": [],
+      "legend": {},
+      "dimensions": [
+        {
+          "printed": "1.63 (41)",
+          "parsed": true,
+          "difference_mm": 0.402,
+          "consistent": true,
+          "in_azure_text": true
+        },
+        {
+          "printed": "2.13 (54)",
+          "parsed": true,
+          "difference_mm": 0.102,
+          "consistent": true,
+          "in_azure_text": true
+        }
+      ],
+      "labels_elsewhere": {},
+      "formula": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-100.3",
+      "kind": "dimension_drawing",
+      "letters": [
+        {
+          "letter": "A",
+          "resolved_by": "legend",
+          "legend": [
+            "½-14 NPT flange adapter (optional)"
+          ],
+          "position_name": null,
+          "tables": [],
+          "example_headers": []
+        }
+      ],
+      "legend": {
+        "A": {
+          "name": "½-14 NPT flange adapter (optional)",
+          "source": "llm",
+          "in_page_text": false
+        }
+      },
+      "dimensions": [
+        {
+          "printed": "6.28 (159)",
+          "parsed": true,
+          "difference_mm": 0.512,
+          "consistent": true,
+          "in_azure_text": true
+        },
+        {
+          "printed": "3.63 (92)",
+          "parsed": true,
+          "difference_mm": 0.202,
+          "consistent": true,
+          "in_azure_text": true
+        },
+        {
+          "printed": "0.91 (23)",
+          "parsed": true,
+          "difference_mm": 0.114,
+          "consistent": true,
+          "in_azure_text": true
+        },
+        {
+          "printed": "3.50 (89)",
+          "parsed": true,
+          "difference_mm": 0.1,
+          "consistent": true,
+          "in_azure_text": true
+        },
+        {
+          "printed": "1.10 (28)",
+          "parsed": true,
+          "difference_mm": 0.06,
+          "consistent": true,
+          "in_azure_text": true
+        }
+      ],
+      "labels_elsewhere": {
+        "A": 10543
+      },
+      "formula": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-100.4",
+      "kind": "dimension_drawing",
+      "letters": [],
+      "legend": {},
+      "dimensions": [
+        {
+          "printed": "2.13 (54)",
+          "parsed": true,
+          "difference_mm": 0.102,
+          "consistent": true,
+          "in_azure_text": true
+        },
+        {
+          "printed": "6.38 (162)",
+          "parsed": true,
+          "difference_mm": 0.052,
+          "consistent": true,
+          "in_azure_text": true
+        },
+        {
+          "printed": "2.52 (64)",
+          "parsed": true,
+          "difference_mm": 0.008,
+          "consistent": true,
+          "in_azure_text": true
+        }
+      ],
+      "labels_elsewhere": {},
+      "formula": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-101.1",
+      "kind": "dimension_drawing",
+      "letters": [
+        {
+          "letter": "A",
+          "resolved_by": "legend",
+          "legend": [
+            "5/16-18 bolts (not supplied)"
+          ],
+          "position_name": null,
+          "tables": [
+            305
+          ],
+          "example_headers": [
+            "A"
+          ]
+        }
+      ],
+      "legend": {
+        "A": {
+          "name": "5/16-18 bolts (not supplied)",
+          "source": "llm",
+          "in_page_text": true
+        }
+      },
+      "dimensions": [
+        {
+          "printed": "9.27 (235)",
+          "parsed": true,
+          "difference_mm": 0.458,
+          "consistent": true,
+          "in_azure_text": true
+        },
+        {
+          "printed": "2.62 (67)",
+          "parsed": true,
+          "difference_mm": 0.452,
+          "consistent": true,
+          "in_azure_text": true
+        },
+        {
+          "printed": "2.81 (71)",
+          "parsed": true,
+          "difference_mm": 0.374,
+          "consistent": true,
+          "in_azure_text": true
+        },
+        {
+          "printed": "2.62 (67)",
+          "parsed": true,
+          "difference_mm": 0.452,
+          "consistent": true,
+          "in_azure_text": true
+        },
+        {
+          "printed": "6.65 (169)",
+          "parsed": true,
+          "difference_mm": 0.09,
+          "consistent": true,
+          "in_azure_text": true
+        },
+        {
+          "printed": "0.93 (24)",
+          "parsed": true,
+          "difference_mm": 0.378,
+          "consistent": true,
+          "in_azure_text": true
+        },
+        {
+          "printed": "4.12 (105)",
+          "parsed": true,
+          "difference_mm": 0.352,
+          "consistent": true,
+          "in_azure_text": true
+        },
+        {
+          "printed": "6.65 (169)",
+          "parsed": true,
+          "difference_mm": 0.09,
+          "consistent": true,
+          "in_azure_text": true
+        },
+        {
+          "printed": "4.85 (123)",
+          "parsed": true,
+          "difference_mm": 0.19,
+          "consistent": true,
+          "in_azure_text": true
+        },
+        {
+          "printed": "1.10 (28)",
+          "parsed": true,
+          "difference_mm": 0.06,
+          "consistent": true,
+          "in_azure_text": true
+        },
+        {
+          "printed": "3.40 (86)",
+          "parsed": true,
+          "difference_mm": 0.36,
+          "consistent": true,
+          "in_azure_text": true
+        },
+        {
+          "printed": "1.75 (44)",
+          "parsed": true,
+          "difference_mm": 0.45,
+          "consistent": true,
+          "in_azure_text": true
+        }
+      ],
+      "labels_elsewhere": {
+        "A": 10539,
+        "Pipe mounting bracket (option B3/B9/BC)": 0
+      },
+      "formula": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-102.1",
+      "kind": "dimension_drawing",
+      "letters": [],
+      "legend": {},
+      "dimensions": [
+        {
+          "printed": "4.09 (104)",
+          "parsed": true,
+          "difference_mm": 0.114,
+          "consistent": true,
+          "in_azure_text": true
+        },
+        {
+          "printed": "R1-4: 7.22 (183)",
+          "parsed": false,
+          "in_azure_text": true
+        },
+        {
+          "printed": "R5: 7.32 (186)",
+          "parsed": false,
+          "in_azure_text": true
+        }
+      ],
+      "labels_elsewhere": {},
+      "formula": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-102.2",
+      "kind": "dimension_drawing",
+      "letters": [],
+      "legend": {},
+      "dimensions": [
+        {
+          "printed": "4.29 (109)",
+          "parsed": true,
+          "difference_mm": 0.034,
+          "consistent": true,
+          "in_azure_text": true
+        }
+      ],
+      "labels_elsewhere": {},
+      "formula": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-102.3",
+      "kind": "dimension_drawing",
+      "letters": [
+        {
+          "letter": "A",
+          "resolved_by": "legend",
+          "legend": [
+            "U-Bolt bracket"
+          ],
+          "position_name": null,
+          "tables": [
+            305,
+            306,
+            307
+          ],
+          "example_headers": [
+            "A",
+            "A",
+            "A"
+          ]
+        }
+      ],
+      "legend": {
+        "A": {
+          "name": "U-Bolt bracket",
+          "source": "llm",
+          "in_page_text": true
+        }
+      },
+      "dimensions": [
+        {
+          "printed": "4.20 (107)",
+          "parsed": true,
+          "difference_mm": 0.32,
+          "consistent": true,
+          "in_azure_text": true
+        }
+      ],
+      "labels_elsewhere": {
+        "A": 10552
+      },
+      "formula": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-102.4",
+      "kind": "dimension_drawing",
+      "letters": [],
+      "legend": {},
+      "dimensions": [
+        {
+          "printed": "5.49 (139)",
+          "parsed": true,
+          "difference_mm": 0.446,
+          "consistent": true,
+          "in_azure_text": true
+        },
+        {
+          "printed": "R1-4: 7.56 (192)",
+          "parsed": false,
+          "in_azure_text": true
+        },
+        {
+          "printed": "R5: 7.66 (195)",
+          "parsed": false,
+          "in_azure_text": true
+        }
+      ],
+      "labels_elsewhere": {},
+      "formula": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-103.1",
+      "kind": "dimension_drawing",
+      "letters": [
+        {
+          "letter": "A",
+          "resolved_by": "legend",
+          "legend": [
+            "Autoclave type F-250-C"
+          ],
+          "position_name": null,
+          "tables": [
+            305,
+            306,
+            307
+          ],
+          "example_headers": [
+            "A",
+            "A",
+            "A"
+          ]
+        }
+      ],
+      "legend": {
+        "A": {
+          "name": "Autoclave type F-250-C",
+          "source": "llm",
+          "in_page_text": true
+        }
+      },
+      "dimensions": [
+        {
+          "printed": "7.86 (199,5)",
+          "parsed": false,
+          "in_azure_text": true
+        }
+      ],
+      "labels_elsewhere": {
+        "In-line": 8,
+        "A": 10549
+      },
+      "formula": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-103.2",
+      "kind": "dimension_drawing",
+      "letters": [],
+      "legend": {},
+      "dimensions": [
+        {
+          "printed": "8.13 (206,6)",
+          "parsed": false,
+          "in_azure_text": true
+        }
+      ],
+      "labels_elsewhere": {
+        "Wireless in-line": 0
+      },
+      "formula": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-103.3",
+      "kind": "dimension_drawing",
+      "letters": [],
+      "legend": {},
+      "dimensions": [
+        {
+          "printed": "4.13 (105)",
+          "parsed": true,
+          "difference_mm": 0.098,
+          "consistent": true,
+          "in_azure_text": true
+        }
+      ],
+      "labels_elsewhere": {},
+      "formula": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-103.4",
+      "kind": "dimension_drawing",
+      "letters": [],
+      "legend": {},
+      "dimensions": [
+        {
+          "printed": "4.88 (124)",
+          "parsed": true,
+          "difference_mm": 0.048,
+          "consistent": true,
+          "in_azure_text": true
+        },
+        {
+          "printed": "6.25 (159) max open",
+          "parsed": false,
+          "in_azure_text": true
+        }
+      ],
+      "labels_elsewhere": {},
+      "formula": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-104.1",
+      "kind": "dimension_drawing",
+      "letters": [],
+      "legend": {},
+      "dimensions": [
+        {
+          "printed": "3.49 (89)",
+          "parsed": true,
+          "difference_mm": 0.354,
+          "consistent": true,
+          "in_azure_text": true
+        },
+        {
+          "printed": "6.15 (156)",
+          "parsed": true,
+          "difference_mm": 0.21,
+          "consistent": true,
+          "in_azure_text": true
+        },
+        {
+          "printed": "6.15 (156)",
+          "parsed": true,
+          "difference_mm": 0.21,
+          "consistent": true,
+          "in_azure_text": true
+        },
+        {
+          "printed": "2.81 (71)",
+          "parsed": true,
+          "difference_mm": 0.374,
+          "consistent": true,
+          "in_azure_text": true
+        },
+        {
+          "printed": "4.78 (121)",
+          "parsed": true,
+          "difference_mm": 0.412,
+          "consistent": true,
+          "in_azure_text": true
+        }
+      ],
+      "labels_elsewhere": {},
+      "formula": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-104.2",
+      "kind": "dimension_drawing",
+      "letters": [
+        {
+          "letter": "B",
+          "resolved_by": "table",
+          "legend": [],
+          "position_name": null,
+          "tables": [
+            305,
+            306,
+            307,
+            309
+          ],
+          "example_headers": [
+            "B",
+            "B",
+            "B"
+          ]
+        },
+        {
+          "letter": "A",
+          "resolved_by": "table",
+          "legend": [],
+          "position_name": null,
+          "tables": [
+            305,
+            306,
+            307,
+            309
+          ],
+          "example_headers": [
+            "A",
+            "A",
+            "A"
+          ]
+        }
+      ],
+      "legend": {},
+      "dimensions": [],
+      "labels_elsewhere": {
+        "B": 2476,
+        "A": 10552
+      },
+      "formula": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-105.1",
+      "kind": "dimension_drawing",
+      "letters": [
+        {
+          "letter": "A",
+          "resolved_by": "table",
+          "legend": [],
+          "position_name": null,
+          "tables": [
+            305,
+            306,
+            307,
+            309,
+            310
+          ],
+          "example_headers": [
+            "A",
+            "A",
+            "A"
+          ]
+        },
+        {
+          "letter": "B",
+          "resolved_by": "table",
+          "legend": [],
+          "position_name": null,
+          "tables": [
+            305,
+            306,
+            307,
+            309
+          ],
+          "example_headers": [
+            "B",
+            "B",
+            "B"
+          ]
+        },
+        {
+          "letter": "C",
+          "resolved_by": "table",
+          "legend": [],
+          "position_name": null,
+          "tables": [
+            305,
+            306,
+            307
+          ],
+          "example_headers": [
+            "C",
+            "C",
+            "C"
+          ]
+        },
+        {
+          "letter": "D",
+          "resolved_by": "table",
+          "legend": [],
+          "position_name": null,
+          "tables": [
+            305,
+            306,
+            307,
+            309
+          ],
+          "example_headers": [
+            "D",
+            "D",
+            "D"
+          ]
+        }
+      ],
+      "legend": {},
+      "dimensions": [],
+      "labels_elsewhere": {
+        "Orifice plate side view": 0,
+        "Orifice plate front view": 0,
+        "Orifice plate top view": 0,
+        "D": 12717,
+        "Compact orifice plate (primary element type code P)": 0,
+        "B": 2474,
+        "A": 10540,
+        "C": 5396,
+        "Conditioning orifice plate (primary element type code C)": 0
+      },
+      "formula": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-106.1",
+      "kind": "dimension_drawing",
+      "letters": [
+        {
+          "letter": "A",
+          "resolved_by": "legend",
+          "legend": [
+            "B.D. (bore diameter)"
+          ],
+          "position_name": null,
+          "tables": [
+            305,
+            306,
+            307,
+            309,
+            310
+          ],
+          "example_headers": [
+            "A",
+            "A",
+            "A"
+          ]
+        },
+        {
+          "letter": "K",
+          "resolved_by": "table",
+          "legend": [],
+          "position_name": null,
+          "tables": [
+            308
+          ],
+          "example_headers": [
+            "K (Beveled/threaded pipe ends)",
+            "K (RF slip-on, RTJ slip-on, RF-DIN slip on) (1)",
+            "K (RF Class 150, weld neck)"
+          ]
+        },
+        {
+          "letter": "J",
+          "resolved_by": "table",
+          "legend": [],
+          "position_name": null,
+          "tables": [
+            308,
+            310
+          ],
+          "example_headers": [
+            "J (Beveled/threaded pipe ends)",
+            "J (RF slip-on, RTJ slip-on, RF-DIN slip on)",
+            "J (RF Class 150, weld neck)"
+          ]
+        }
+      ],
+      "legend": {
+        "A": {
+          "name": "B.D. (bore diameter)",
+          "source": "llm",
+          "in_page_text": true
+        }
+      },
+      "dimensions": [
+        {
+          "printed": "8.80 (223.46)",
+          "parsed": true,
+          "difference_mm": 0.06,
+          "consistent": false,
+          "in_azure_text": true
+        },
+        {
+          "printed": "10.30 (261.81)",
+          "parsed": true,
+          "difference_mm": 0.19,
+          "consistent": false,
+          "in_azure_text": true
+        },
+        {
+          "printed": "6.30 (160.55)",
+          "parsed": true,
+          "difference_mm": 0.53,
+          "consistent": false,
+          "in_azure_text": true
+        },
+        {
+          "printed": "5.30 (134.51)",
+          "parsed": true,
+          "difference_mm": 0.11,
+          "consistent": false,
+          "in_azure_text": true
+        },
+        {
+          "printed": "K",
+          "parsed": false,
+          "in_azure_text": true
+        },
+        {
+          "printed": "J",
+          "parsed": false,
+          "in_azure_text": true
+        }
+      ],
+      "labels_elsewhere": {
+        "Bottom view": 0,
+        "Front view": 2,
+        "A": 10550,
+        "K": 611,
+        "Downstream": 2,
+        "J": 196,
+        "Upstream": 1
+      },
+      "formula": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-107.1",
+      "kind": "dimension_drawing",
+      "letters": [
+        {
+          "letter": "A",
+          "resolved_by": "legend",
+          "legend": [
+            "Flange thickness"
+          ],
+          "position_name": null,
+          "tables": [
+            305,
+            306,
+            307,
+            309,
+            310
+          ],
+          "example_headers": [
+            "A",
+            "A",
+            "A"
+          ]
+        },
+        {
+          "letter": "B",
+          "resolved_by": "table",
+          "legend": [],
+          "position_name": null,
+          "tables": [
+            305,
+            306,
+            307,
+            309
+          ],
+          "example_headers": [
+            "B",
+            "B",
+            "B"
+          ]
+        },
+        {
+          "letter": "C",
+          "resolved_by": "legend",
+          "legend": [
+            "Extension diameter"
+          ],
+          "position_name": null,
+          "tables": [
+            305,
+            306,
+            307
+          ],
+          "example_headers": [
+            "C",
+            "C",
+            "C"
+          ]
+        },
+        {
+          "letter": "D",
+          "resolved_by": "legend",
+          "legend": [
+            "O.D. gasket surface"
+          ],
+          "position_name": null,
+          "tables": [
+            305,
+            306,
+            307,
+            309
+          ],
+          "example_headers": [
+            "D",
+            "D",
+            "D"
+          ]
+        },
+        {
+          "letter": "E",
+          "resolved_by": "legend",
+          "legend": [
+            "2-, 4-, or 6-in. extension (only available with 3- and 4-in., DN80, and DN100 flange configurations)"
+          ],
+          "position_name": null,
+          "tables": [],
+          "example_headers": []
+        }
+      ],
+      "legend": {
+        "E": {
+          "name": "2-, 4-, or 6-in. extension (only available with 3- and 4-in., DN80, and DN100 flange configurations)",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "A": {
+          "name": "Flange thickness",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "C": {
+          "name": "Extension diameter",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "D": {
+          "name": "O.D. gasket surface",
+          "source": "llm",
+          "in_page_text": true
+        }
+      },
+      "dimensions": [
+        {
+          "printed": "4.09 (104)",
+          "parsed": true,
+          "difference_mm": 0.114,
+          "consistent": true,
+          "in_azure_text": true
+        },
+        {
+          "printed": "4.09 (104)",
+          "parsed": true,
+          "difference_mm": 0.114,
+          "consistent": true,
+          "in_azure_text": true
+        },
+        {
+          "printed": "5.13 (130)",
+          "parsed": true,
+          "difference_mm": 0.302,
+          "consistent": true,
+          "in_azure_text": true
+        },
+        {
+          "printed": "4.29 (109)",
+          "parsed": true,
+          "difference_mm": 0.034,
+          "consistent": true,
+          "in_azure_text": true
+        },
+        {
+          "printed": "6.80 (173)",
+          "parsed": true,
+          "difference_mm": 0.28,
+          "consistent": true,
+          "in_azure_text": true
+        },
+        {
+          "printed": "7.10 (181)",
+          "parsed": true,
+          "difference_mm": 0.66,
+          "consistent": true,
+          "in_azure_text": true
+        },
+        {
+          "printed": "8.20 (209)",
+          "parsed": true,
+          "difference_mm": 0.72,
+          "consistent": true,
+          "in_azure_text": true
+        }
+      ],
+      "labels_elsewhere": {
+        "A": 10551,
+        "B": 2475,
+        "D": 12722,
+        "C": 5415,
+        "E": 13236
+      },
+      "formula": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-108.1",
+      "kind": "dimension_drawing",
+      "letters": [
+        {
+          "letter": "A",
+          "resolved_by": "table",
+          "legend": [],
+          "position_name": null,
+          "tables": [
+            306,
+            307,
+            309,
+            310
+          ],
+          "example_headers": [
+            "A",
+            "A",
+            "Flange thickness A"
+          ]
+        },
+        {
+          "letter": "H",
+          "resolved_by": "legend",
+          "legend": [
+            "Process side"
+          ],
+          "position_name": null,
+          "tables": [
+            310
+          ],
+          "example_headers": [
+            "Process side H"
+          ]
+        },
+        {
+          "letter": "J",
+          "resolved_by": "legend",
+          "legend": [
+            "Outside diameter"
+          ],
+          "position_name": null,
+          "tables": [
+            308,
+            310
+          ],
+          "example_headers": [
+            "J (Beveled/threaded pipe ends)",
+            "J (RF slip-on, RTJ slip-on, RF-DIN slip on)",
+            "J (RF Class 150, weld neck)"
+          ]
+        },
+        {
+          "letter": "F",
+          "resolved_by": "legend",
+          "legend": [
+            "Lower housing"
+          ],
+          "position_name": null,
+          "tables": [
+            310
+          ],
+          "example_headers": [
+            "Lower housing F"
+          ]
+        }
+      ],
+      "legend": {
+        "F": {
+          "name": "Lower housing",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "G": {
+          "name": "Bolt circle diameter",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "H": {
+          "name": "Process side",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "J": {
+          "name": "Outside diameter",
+          "source": "llm",
+          "in_page_text": true
+        }
+      },
+      "dimensions": [],
+      "labels_elsewhere": {
+        "A": 10549,
+        "H": 3932,
+        "J": 197,
+        "F": 3121
+      },
+      "formula": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-108.2",
+      "kind": "dimension_drawing",
+      "letters": [
+        {
+          "letter": "G",
+          "resolved_by": "legend",
+          "legend": [
+            "Bolt circle diameter"
+          ],
+          "position_name": null,
+          "tables": [
+            310
+          ],
+          "example_headers": [
+            "Bolt circle diameter G"
+          ]
+        },
+        {
+          "letter": "J",
+          "resolved_by": "legend",
+          "legend": [
+            "Outside diameter"
+          ],
+          "position_name": null,
+          "tables": [
+            308,
+            310
+          ],
+          "example_headers": [
+            "J (Beveled/threaded pipe ends)",
+            "J (RF slip-on, RTJ slip-on, RF-DIN slip on)",
+            "J (RF Class 150, weld neck)"
+          ]
+        }
+      ],
+      "legend": {
+        "G": {
+          "name": "Bolt circle diameter",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "J": {
+          "name": "Outside diameter",
+          "source": "llm",
+          "in_page_text": true
+        }
+      },
+      "dimensions": [],
+      "labels_elsewhere": {
+        "G": 2565,
+        "J": 197
+      },
+      "formula": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-114.1",
+      "kind": "logo",
+      "letters": [],
+      "legend": {},
+      "dimensions": [],
+      "labels_elsewhere": {},
+      "formula": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-pdf-1-1",
+      "kind": "logo",
+      "letters": [],
+      "legend": {},
+      "dimensions": [],
+      "labels_elsewhere": {
+        "ROSEMOUNT": 225
+      },
+      "formula": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-pdf-18-2",
+      "kind": "text_image",
+      "letters": [
+        {
+          "letter": "1",
+          "resolved_by": "legend",
+          "legend": [
+            "Required model components (choices available on most)"
+          ],
+          "position_name": null,
+          "tables": [
+            54,
+            58
+          ],
+          "example_headers": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "letter": "2",
+          "resolved_by": "legend",
+          "legend": [
+            "Additional options (variety of features and functions that may be added to products)"
+          ],
+          "position_name": null,
+          "tables": [
+            54,
+            57
+          ],
+          "example_headers": [
+            "2",
+            "2"
+          ]
+        }
+      ],
+      "legend": {
+        "1": {
+          "name": "Required model components (choices available on most)",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "2": {
+          "name": "Additional options (variety of features and functions that may be added to products)",
+          "source": "llm",
+          "in_page_text": true
+        }
+      },
+      "dimensions": [],
+      "labels_elsewhere": {
+        "3051TG3A2B21A": 1,
+        "WR5M6BLEDA1": 6,
+        "1": 2621,
+        "2": 1774
+      },
+      "formula": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-pdf-30-3",
+      "kind": "text_image",
+      "letters": [
+        {
+          "letter": "1",
+          "resolved_by": "legend",
+          "legend": [
+            "Required model components"
+          ],
+          "position_name": null,
+          "tables": [
+            105
+          ],
+          "example_headers": [
+            "1"
+          ]
+        },
+        {
+          "letter": "2",
+          "resolved_by": "legend",
+          "legend": [
+            "Additional options"
+          ],
+          "position_name": null,
+          "tables": [
+            105
+          ],
+          "example_headers": [
+            "2"
+          ]
+        }
+      ],
+      "legend": {
+        "1": {
+          "name": "Required model components",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "2": {
+          "name": "Additional options",
+          "source": "llm",
+          "in_page_text": true
+        }
+      },
+      "dimensions": [],
+      "labels_elsewhere": {
+        "3051CFADL060ZSHPS1T100072AA1": 2,
+        "WR5M6BLEDA1RK": 4,
+        "1": 2621,
+        "2": 1774
+      },
+      "formula": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-pdf-44-4",
+      "kind": "text_image",
+      "letters": [
+        {
+          "letter": "1",
+          "resolved_by": "legend",
+          "legend": [
+            "Required model components"
+          ],
+          "position_name": null,
+          "tables": [
+            161,
+            164
+          ],
+          "example_headers": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "letter": "2",
+          "resolved_by": "legend",
+          "legend": [
+            "Additional options"
+          ],
+          "position_name": null,
+          "tables": [
+            161
+          ],
+          "example_headers": [
+            "2"
+          ]
+        }
+      ],
+      "legend": {
+        "1": {
+          "name": "Required model components",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "2": {
+          "name": "Additional options",
+          "source": "llm",
+          "in_page_text": true
+        }
+      },
+      "dimensions": [],
+      "labels_elsewhere": {
+        "3051CFCDL060ZSHPS1T100072AA1": 1,
+        "WR5M6BLEDA1RK": 4,
+        "1": 2621,
+        "2": 1774
+      },
+      "formula": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-pdf-53-5",
+      "kind": "photo_illustration",
+      "letters": [],
+      "legend": {},
+      "dimensions": [],
+      "labels_elsewhere": {},
+      "formula": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-pdf-54-6",
+      "kind": "text_image",
+      "letters": [
+        {
+          "letter": "1",
+          "resolved_by": "legend",
+          "legend": [
+            "Required model components"
+          ],
+          "position_name": null,
+          "tables": [
+            205,
+            208
+          ],
+          "example_headers": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "letter": "2",
+          "resolved_by": "legend",
+          "legend": [
+            "Additional options"
+          ],
+          "position_name": null,
+          "tables": [
+            205
+          ],
+          "example_headers": [
+            "2"
+          ]
+        }
+      ],
+      "legend": {
+        "1": {
+          "name": "Required model components",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "2": {
+          "name": "Additional options",
+          "source": "llm",
+          "in_page_text": true
+        }
+      },
+      "dimensions": [],
+      "labels_elsewhere": {
+        "3051CFADL060ZSHPS1T100072AA1": 2,
+        "WR5M6BLEDA1RK": 4,
+        "1": 2621,
+        "2": 1774
+      },
+      "formula": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-pdf-64-7",
+      "kind": "text_image",
+      "letters": [
+        {
+          "letter": "1",
+          "resolved_by": "legend",
+          "legend": [
+            "Required model components (choices available on most)"
+          ],
+          "position_name": null,
+          "tables": [
+            246
+          ],
+          "example_headers": [
+            "1"
+          ]
+        },
+        {
+          "letter": "2",
+          "resolved_by": "legend",
+          "legend": [
+            "Additional options (variety of features and functions that may be added to products)"
+          ],
+          "position_name": null,
+          "tables": [
+            243,
+            246
+          ],
+          "example_headers": [
+            "2",
+            "2"
+          ]
+        }
+      ],
+      "legend": {
+        "1": {
+          "name": "Required model components (choices available on most)",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "2": {
+          "name": "Additional options (variety of features and functions that may be added to products)",
+          "source": "llm",
+          "in_page_text": true
+        }
+      },
+      "dimensions": [],
+      "labels_elsewhere": {
+        "3051L3AA01D11AA": 1,
+        "WR5M6BLEDA1RK": 4,
+        "1": 2621,
+        "2": 1774
+      },
+      "formula": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-pdf-76-8",
+      "kind": "text_image",
+      "letters": [],
+      "legend": {},
+      "dimensions": [],
+      "labels_elsewhere": {},
+      "formula": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-pdf-76-9",
+      "kind": "text_image",
+      "letters": [],
+      "legend": {},
+      "dimensions": [],
+      "labels_elsewhere": {},
+      "formula": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-pdf-76-10",
+      "kind": "text_image",
+      "letters": [],
+      "legend": {},
+      "dimensions": [],
+      "labels_elsewhere": {},
+      "formula": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-pdf-76-11",
+      "kind": "text_image",
+      "letters": [],
+      "legend": {},
+      "dimensions": [],
+      "labels_elsewhere": {},
+      "formula": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-pdf-76-12",
+      "kind": "text_image",
+      "letters": [],
+      "legend": {},
+      "dimensions": [],
+      "labels_elsewhere": {},
+      "formula": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-pdf-76-13",
+      "kind": "text_image",
+      "letters": [],
+      "legend": {},
+      "dimensions": [],
+      "labels_elsewhere": {},
+      "formula": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-pdf-77-14",
+      "kind": "text_image",
+      "letters": [],
+      "legend": {},
+      "dimensions": [],
+      "labels_elsewhere": {},
+      "formula": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-pdf-79-15",
+      "kind": "chart",
+      "letters": [],
+      "legend": {},
+      "dimensions": [],
+      "labels_elsewhere": {
+        "Pressure released": 1,
+        "Td= Dead time": 0,
+        "Tc= Time constant": 0,
+        "Td": 8099,
+        "Tc": 6,
+        "100%": 1,
+        "Response time = Td + Tc": 0,
+        "36.8%": 1,
+        "63.2% of total step change": 1,
+        "0%": 10,
+        "Time": 46
+      },
+      "formula": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-pdf-104-16",
+      "kind": "dimension_drawing",
+      "letters": [
+        {
+          "letter": "A",
+          "resolved_by": "table",
+          "legend": [],
+          "position_name": null,
+          "tables": [
+            305,
+            306,
+            307,
+            309
+          ],
+          "example_headers": [
+            "A",
+            "A",
+            "A"
+          ]
+        },
+        {
+          "letter": "B",
+          "resolved_by": "table",
+          "legend": [],
+          "position_name": null,
+          "tables": [
+            305,
+            306,
+            307,
+            309
+          ],
+          "example_headers": [
+            "B",
+            "B",
+            "B"
+          ]
+        },
+        {
+          "letter": "C",
+          "resolved_by": "table",
+          "legend": [],
+          "position_name": null,
+          "tables": [
+            305,
+            306,
+            307
+          ],
+          "example_headers": [
+            "C",
+            "C",
+            "C"
+          ]
+        },
+        {
+          "letter": "D",
+          "resolved_by": "table",
+          "legend": [],
+          "position_name": null,
+          "tables": [
+            305,
+            306,
+            307,
+            309
+          ],
+          "example_headers": [
+            "D",
+            "D",
+            "D"
+          ]
+        }
+      ],
+      "legend": {},
+      "dimensions": [],
+      "labels_elsewhere": {
+        "B": 2477,
+        "A": 10553,
+        "D": 12723,
+        "C": 5416
+      },
+      "formula": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-pdf-114-17",
+      "kind": "logo",
+      "letters": [],
+      "legend": {},
+      "dimensions": [],
+      "labels_elsewhere": {},
+      "formula": null
+    }
+  ]
+}

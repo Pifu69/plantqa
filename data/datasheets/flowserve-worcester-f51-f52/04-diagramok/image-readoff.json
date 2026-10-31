@@ -1,0 +1,481 @@
+{
+ "reader": "claude-opus-5-5, 2026-10-31, source image: 04-diagramok/renders/page-6.png (250 dpi); Claude Code subagent, no API call",
+ "method": "Visual reading of the render plus pixel analysis of the PNG (PIL/numpy): gridlines located by grey pixel columns/rows, curves followed by their RGB colour (body curves (113,105,101), seat colours sampled from the legend swatches), line centres converted with the gridline scale. No PDF vector paths, no PDF text.",
+ "charts": [
+  {
+   "figure_id": "flowserve-worcester-f51-f52/fig-6.1",
+   "page": 6,
+   "position": "full page width, row 1 (under the page heading)",
+   "clip_pt": [
+    66.2,
+    138.1,
+    554.0,
+    500.0
+   ],
+   "heading_path": [
+    "Pressure/temperature ratings"
+   ],
+   "title": "Pressure/temperature ratings",
+   "conditions": [],
+   "x_axis": {
+    "quantity": "Temperature",
+    "unit": "°C"
+   },
+   "y_axis": {
+    "quantity": "Pressure",
+    "unit": "bar"
+   },
+   "points": [
+    {
+     "series": "Group 1.2 Class 300",
+     "x": -30,
+     "y": 51.8,
+     "type": "curve",
+     "quantity": "maximum allowable pressure",
+     "axis": "y"
+    },
+    {
+     "series": "Group 1.2 Class 300",
+     "x": 0,
+     "y": 51.8,
+     "type": "curve",
+     "quantity": "maximum allowable pressure",
+     "axis": "y"
+    },
+    {
+     "series": "Group 1.2 Class 300",
+     "x": 50,
+     "y": 51.7,
+     "type": "curve",
+     "quantity": "maximum allowable pressure",
+     "axis": "y"
+    },
+    {
+     "series": "Group 1.2 Class 300",
+     "x": 100,
+     "y": 51.6,
+     "type": "curve",
+     "quantity": "maximum allowable pressure",
+     "axis": "y"
+    },
+    {
+     "series": "Group 1.2 Class 300",
+     "x": 150,
+     "y": 50.2,
+     "type": "curve",
+     "quantity": "maximum allowable pressure",
+     "axis": "y"
+    },
+    {
+     "series": "Group 1.2 Class 300",
+     "x": 200,
+     "y": 48.6,
+     "type": "curve",
+     "quantity": "maximum allowable pressure",
+     "axis": "y"
+    },
+    {
+     "series": "Group 1.2 Class 300",
+     "x": 250,
+     "y": 46.4,
+     "type": "curve",
+     "quantity": "maximum allowable pressure",
+     "axis": "y"
+    },
+    {
+     "series": "Group 1.2 Class 300",
+     "x": 300,
+     "y": 42.9,
+     "type": "curve",
+     "quantity": "maximum allowable pressure",
+     "axis": "y"
+    },
+    {
+     "series": "Group 2.2 Class 300",
+     "x": -30,
+     "y": 49.7,
+     "type": "curve",
+     "quantity": "maximum allowable pressure",
+     "axis": "y"
+    },
+    {
+     "series": "Group 2.2 Class 300",
+     "x": 0,
+     "y": 49.7,
+     "type": "curve",
+     "quantity": "maximum allowable pressure",
+     "axis": "y"
+    },
+    {
+     "series": "Group 2.2 Class 300",
+     "x": 38,
+     "y": 49.5,
+     "type": "curve",
+     "quantity": "maximum allowable pressure",
+     "axis": "y"
+    },
+    {
+     "series": "Group 2.2 Class 300",
+     "x": 50,
+     "y": 48.1,
+     "type": "curve",
+     "quantity": "maximum allowable pressure",
+     "axis": "y"
+    },
+    {
+     "series": "Group 2.2 Class 300",
+     "x": 100,
+     "y": 42.2,
+     "type": "curve",
+     "quantity": "maximum allowable pressure",
+     "axis": "y"
+    },
+    {
+     "series": "Group 2.2 Class 300",
+     "x": 150,
+     "y": 38.5,
+     "type": "curve",
+     "quantity": "maximum allowable pressure",
+     "axis": "y"
+    },
+    {
+     "series": "Group 2.2 Class 300",
+     "x": 200,
+     "y": 35.7,
+     "type": "curve",
+     "quantity": "maximum allowable pressure",
+     "axis": "y"
+    },
+    {
+     "series": "Group 2.2 Class 300",
+     "x": 250,
+     "y": 33.4,
+     "type": "curve",
+     "quantity": "maximum allowable pressure",
+     "axis": "y"
+    },
+    {
+     "series": "Group 2.2 Class 300",
+     "x": 300,
+     "y": 31.6,
+     "type": "curve",
+     "quantity": "maximum allowable pressure",
+     "axis": "y"
+    },
+    {
+     "series": "Group 1.2 Class 150",
+     "x": -30,
+     "y": 19.8,
+     "type": "curve",
+     "quantity": "maximum allowable pressure",
+     "axis": "y"
+    },
+    {
+     "series": "Group 1.2 Class 150",
+     "x": 0,
+     "y": 19.8,
+     "type": "curve",
+     "quantity": "maximum allowable pressure",
+     "axis": "y"
+    },
+    {
+     "series": "Group 1.2 Class 150",
+     "x": 40,
+     "y": 19.8,
+     "type": "curve",
+     "quantity": "maximum allowable pressure",
+     "axis": "y"
+    },
+    {
+     "series": "Group 1.2 Class 150",
+     "x": 50,
+     "y": 19.4,
+     "type": "curve",
+     "quantity": "maximum allowable pressure",
+     "axis": "y"
+    },
+    {
+     "series": "Group 1.2 Class 150",
+     "x": 100,
+     "y": 17.6,
+     "type": "curve",
+     "quantity": "maximum allowable pressure",
+     "axis": "y"
+    },
+    {
+     "series": "Group 1.2 Class 150",
+     "x": 150,
+     "y": 15.8,
+     "type": "curve",
+     "quantity": "maximum allowable pressure",
+     "axis": "y"
+    },
+    {
+     "series": "Group 1.2 Class 150",
+     "x": 200,
+     "y": 13.7,
+     "type": "curve",
+     "quantity": "maximum allowable pressure",
+     "axis": "y"
+    },
+    {
+     "series": "Group 1.2 Class 150",
+     "x": 250,
+     "y": 12.0,
+     "type": "curve",
+     "quantity": "maximum allowable pressure",
+     "axis": "y"
+    },
+    {
+     "series": "Group 1.2 Class 150",
+     "x": 300,
+     "y": 10.2,
+     "type": "curve",
+     "quantity": "maximum allowable pressure",
+     "axis": "y"
+    },
+    {
+     "series": "Group 2.2 Class 150",
+     "x": -30,
+     "y": 18.9,
+     "type": "curve",
+     "quantity": "maximum allowable pressure",
+     "axis": "y"
+    },
+    {
+     "series": "Group 2.2 Class 150",
+     "x": 0,
+     "y": 18.9,
+     "type": "curve",
+     "quantity": "maximum allowable pressure",
+     "axis": "y"
+    },
+    {
+     "series": "Group 2.2 Class 150",
+     "x": 38,
+     "y": 18.9,
+     "type": "curve",
+     "quantity": "maximum allowable pressure",
+     "axis": "y"
+    },
+    {
+     "series": "Group 2.2 Class 150",
+     "x": 50,
+     "y": 18.3,
+     "type": "curve",
+     "quantity": "maximum allowable pressure",
+     "axis": "y"
+    },
+    {
+     "series": "Group 2.2 Class 150",
+     "x": 100,
+     "y": 16.1,
+     "type": "curve",
+     "quantity": "maximum allowable pressure",
+     "axis": "y"
+    },
+    {
+     "series": "Group 2.2 Class 150",
+     "x": 150,
+     "y": 14.8,
+     "type": "curve",
+     "quantity": "maximum allowable pressure",
+     "axis": "y"
+    },
+    {
+     "series": "Group 2.2 Class 150",
+     "x": 200,
+     "y": 13.7,
+     "type": "curve",
+     "quantity": "maximum allowable pressure",
+     "axis": "y"
+    },
+    {
+     "series": "Delrin",
+     "x": 79.5,
+     "y": 51.7,
+     "type": "curve",
+     "quantity": "maximum allowable pressure",
+     "axis": "y"
+    },
+    {
+     "series": "Delrin",
+     "x": 79.5,
+     "y": 0.0,
+     "type": "curve",
+     "quantity": "maximum allowable pressure",
+     "axis": "y"
+    },
+    {
+     "series": "UHMWPE",
+     "x": 83.1,
+     "y": 51.6,
+     "type": "curve",
+     "quantity": "maximum allowable pressure",
+     "axis": "y"
+    },
+    {
+     "series": "UHMWPE",
+     "x": 90.6,
+     "y": 0.0,
+     "type": "curve",
+     "quantity": "maximum allowable pressure",
+     "axis": "y"
+    },
+    {
+     "series": "Virgin PTFE",
+     "x": 88.3,
+     "y": 51.7,
+     "type": "curve",
+     "quantity": "maximum allowable pressure",
+     "axis": "y"
+    },
+    {
+     "series": "Virgin PTFE",
+     "x": 100,
+     "y": 47.0,
+     "type": "curve",
+     "quantity": "maximum allowable pressure",
+     "axis": "y"
+    },
+    {
+     "series": "Virgin PTFE",
+     "x": 150,
+     "y": 28.8,
+     "type": "curve",
+     "quantity": "maximum allowable pressure",
+     "axis": "y"
+    },
+    {
+     "series": "Virgin PTFE",
+     "x": 200,
+     "y": 10.5,
+     "type": "curve",
+     "quantity": "maximum allowable pressure",
+     "axis": "y"
+    },
+    {
+     "series": "Virgin PTFE",
+     "x": 228.4,
+     "y": 0.0,
+     "type": "curve",
+     "quantity": "maximum allowable pressure",
+     "axis": "y"
+    },
+    {
+     "series": "Reinforced PTFE",
+     "x": 136.9,
+     "y": 50.6,
+     "type": "curve",
+     "quantity": "maximum allowable pressure",
+     "axis": "y"
+    },
+    {
+     "series": "Reinforced PTFE",
+     "x": 150,
+     "y": 43.2,
+     "type": "curve",
+     "quantity": "maximum allowable pressure",
+     "axis": "y"
+    },
+    {
+     "series": "Reinforced PTFE",
+     "x": 200,
+     "y": 16.0,
+     "type": "curve",
+     "quantity": "maximum allowable pressure",
+     "axis": "y"
+    },
+    {
+     "series": "Reinforced PTFE",
+     "x": 229.4,
+     "y": 0.0,
+     "type": "curve",
+     "quantity": "maximum allowable pressure",
+     "axis": "y"
+    },
+    {
+     "series": "Fluorofill",
+     "x": 188.2,
+     "y": 49.0,
+     "type": "curve",
+     "quantity": "maximum allowable pressure",
+     "axis": "y"
+    },
+    {
+     "series": "Fluorofill",
+     "x": 200,
+     "y": 41.5,
+     "type": "curve",
+     "quantity": "maximum allowable pressure",
+     "axis": "y"
+    },
+    {
+     "series": "Fluorofill",
+     "x": 250,
+     "y": 11.5,
+     "type": "curve",
+     "quantity": "maximum allowable pressure",
+     "axis": "y"
+    },
+    {
+     "series": "Fluorofill",
+     "x": 259.6,
+     "y": 6.0,
+     "type": "curve",
+     "quantity": "maximum allowable pressure",
+     "axis": "y"
+    },
+    {
+     "series": "Fluorofill",
+     "x": 259.6,
+     "y": 0.0,
+     "type": "curve",
+     "quantity": "maximum allowable pressure",
+     "axis": "y"
+    },
+    {
+     "series": "PEEK",
+     "x": 228.8,
+     "y": 47.3,
+     "type": "curve",
+     "quantity": "maximum allowable pressure",
+     "axis": "y"
+    },
+    {
+     "series": "PEEK",
+     "x": 250,
+     "y": 32.8,
+     "type": "curve",
+     "quantity": "maximum allowable pressure",
+     "axis": "y"
+    },
+    {
+     "series": "PEEK",
+     "x": 299.8,
+     "y": 0.0,
+     "type": "curve",
+     "quantity": "maximum allowable pressure",
+     "axis": "y"
+    },
+    {
+     "series": "Metals A and G",
+     "x": 300,
+     "y": 42.8,
+     "type": "curve",
+     "quantity": "maximum allowable pressure",
+     "axis": "y"
+    },
+    {
+     "series": "Metals A and G",
+     "x": 300,
+     "y": 0.0,
+     "type": "curve",
+     "quantity": "maximum allowable pressure",
+     "axis": "y"
+    }
+   ],
+   "note": "Dual-unit axes: x printed '°C (°F)', y printed 'bar (psi)'; values read on the primary metric scale (x: -30 °C at px 382.5, 0 °C at px 518, 50 °C steps of 226 px; y: 0 bar at py 1634, 10 bar steps of 189.7 px; 1 px = 0.22 °C / 0.053 bar). Four grey body-rating curves (Group 1.2/2.2 x Class 150/300, labelled in grey boxes; printed notes: ratings from ASME B16.34, Group 1.2 = LCB/LCC and WCB/WCC, Group 2.2 = CF8M) and seven coloured seat-material limit lines identified by the colour legend below the plot. Each seat line starts on the top (Group 1.2 Class 300) curve and falls to 0 bar; its points are the start, the crossings of labelled x gridlines and the end. Knees: Group 2.2 curves leave the flat part at about 38 °C, Group 1.2 Class 150 at about 40 °C; Fluorofill turns vertical at about 259.6 °C / 6.0 bar. Above about 200 °C the two Class 150 curves coincide (only one line visible), so Group 2.2 Class 150 is given only up to 200 °C. At 250 °C the grey curves are hidden by the Fluorofill/PEEK lines; values there are interpolated between 245 and 255 °C."
+  }
+ ]
+}

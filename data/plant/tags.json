@@ -1,0 +1,160 @@
+[
+  {
+    "tag": "BV-2-1",
+    "node_class": "BallValve",
+    "node_id": "pqa-u2-va1",
+    "document_id": "flowserve-worcester-f51-f52"
+  },
+  {
+    "tag": "CHV-1-1",
+    "node_class": "CheckValve",
+    "node_id": "pqa-u1-va3",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-1-2",
+    "node_class": "CheckValve",
+    "node_id": "pqa-u1-va4",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-2-1",
+    "node_class": "CheckValve",
+    "node_id": "pqa-u2-va2",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-2-2",
+    "node_class": "CheckValve",
+    "node_id": "pqa-u2-va6",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "E-1-1",
+    "node_class": "HeatExchanger",
+    "node_id": "pqa-u1-eq1",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-2-1",
+    "node_class": "HeatExchanger",
+    "node_id": "pqa-u2-eq2",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-2-2",
+    "node_class": "HeatExchanger",
+    "node_id": "pqa-u2-eq4",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-2-3",
+    "node_class": "HeatExchanger",
+    "node_id": "pqa-u2-eq5",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "FIC-2-2",
+    "node_class": "ProcessInstrumentationFunction",
+    "node_id": "pqa-u2-in5",
+    "document_id": null,
+    "no_datasheet_reason": "control function in the DCS (shared display/control); no vendor datasheet exists for it"
+  },
+  {
+    "tag": "FT-2-2",
+    "node_class": "ProcessSignalGeneratingFunction",
+    "node_id": "pqa-u2-in4",
+    "document_id": "rosemount-3051-00813-0100-4001"
+  },
+  {
+    "tag": "FV-2-2",
+    "node_class": "GlobeValve",
+    "node_id": "pqa-u2-va5",
+    "document_id": "fisher-et-d100022x012"
+  },
+  {
+    "tag": "GV-1-1",
+    "node_class": "GlobeValve",
+    "node_id": "pqa-u1-va1",
+    "document_id": "gfps-165-solenoid-valve"
+  },
+  {
+    "tag": "GV-1-2",
+    "node_class": "GlobeValve",
+    "node_id": "pqa-u1-va2",
+    "document_id": "gfps-165-solenoid-valve"
+  },
+  {
+    "tag": "GV-2-2",
+    "node_class": "GlobeValve",
+    "node_id": "pqa-u2-va4",
+    "document_id": "gfps-165-solenoid-valve"
+  },
+  {
+    "tag": "P-1-1",
+    "node_class": "CentrifugalPump",
+    "node_id": "pqa-u1-eq2",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-1-2",
+    "node_class": "CentrifugalPump",
+    "node_id": "pqa-u1-eq3",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-1-3",
+    "node_class": "CentrifugalPump",
+    "node_id": "pqa-u1-eq4",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-1-4",
+    "node_class": "CentrifugalPump",
+    "node_id": "pqa-u1-eq5",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-1-5",
+    "node_class": "CentrifugalPump",
+    "node_id": "pqa-u1-eq6",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-2-1",
+    "node_class": "CentrifugalPump",
+    "node_id": "pqa-u2-eq1",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-2-2",
+    "node_class": "CentrifugalPump",
+    "node_id": "pqa-u2-eq3",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-2-3",
+    "node_class": "CentrifugalPump",
+    "node_id": "pqa-u2-eq6",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "PIC-2-1",
+    "node_class": "ProcessInstrumentationFunction",
+    "node_id": "pqa-u2-in2",
+    "document_id": null,
+    "no_datasheet_reason": "control function in the DCS (shared display/control); no vendor datasheet exists for it"
+  },
+  {
+    "tag": "PT-2-1",
+    "node_class": "ProcessSignalGeneratingFunction",
+    "node_id": "pqa-u2-in1",
+    "document_id": "rosemount-3051-00813-0100-4001"
+  },
+  {
+    "tag": "PV-2-1",
+    "node_class": "GlobeValve",
+    "node_id": "pqa-u2-va3",
+    "document_id": "fisher-et-d100022x012"
+  }
+]

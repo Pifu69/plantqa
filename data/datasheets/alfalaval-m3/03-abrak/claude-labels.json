@@ -1,0 +1,60 @@
+{
+ "labeller": "claude-opus-5-5, 2026-10-31, prompt figure-labels/4; done by hand in a Claude Code session (no API): every crop viewed with the Read tool plus the 80 dpi page overviews (pymupdf), figures.json as input",
+ "kinds": {
+  "photo_illustration": "photo or photorealistic rendering of the product, no data",
+  "dimension_drawing": "technical drawing carrying dimension letters or values",
+  "sectional_exploded": "sectional or exploded view with position callouts, no dimensions",
+  "table_icon": "small product image placed beside or inside a table",
+  "chart": "plotted curve(s) on axes",
+  "text_image": "text rendered as an image (or a text block Azure returned as a figure)",
+  "schematic_diagram": "symbolic diagram (circuit/switching symbol)",
+  "annotated_ui_illustration": "screenshot or UI illustration with annotations",
+  "logo": "logo, badge or icon carrying no data"
+ },
+ "figures": {
+  "alfalaval-m3/fig-1.1": {
+   "kind": "photo_illustration",
+   "decorative": false,
+   "description": "Rendering of the Alfa Laval M3 gasketed plate-and-frame heat exchanger: blue frame and pressure plate, plate pack, tightening bolts, four threaded pipe connections, carrying bar and lifting lug.",
+   "labels": [],
+   "letters": [],
+   "dimensions": [],
+   "sub_captions": [],
+   "notes": "Azure gave no caption. The small nameplate on the frame plate carries a logo only, nothing legible. Azure did not detect the Alfa Laval logo at the top left of page 1 as a figure (its OCR 'LAVAL' appears as text in the export)."
+  },
+  "alfalaval-m3/fig-1.2": {
+   "kind": "text_image",
+   "decorative": false,
+   "description": "Two-column list of the Alfa Laval 360° Service Portfolio services, grouped under Start-up, Support, Maintenance, Improvements and Monitoring.",
+   "labels": [],
+   "letters": [],
+   "dimensions": [],
+   "sub_captions": ["Start-up", "Support", "Maintenance", "Improvements", "Monitoring"],
+   "transcription": "Start-up: Installation; Installation Supervision; Commissioning. Support: Exclusive Stock; Technical Documentation; Telephone Support; Training; Troubleshooting. Maintenance: Cleaning Services; Reconditioning; Repair; Service Tools; Spare Parts. Improvements: Equipment Upgrades; Redesign; Replacement and Retrofit. Monitoring: Condition Audit; Performance Audit.",
+   "notes": "This is ordinary page text (vector text, two columns) under the heading 'Extending performance with Alfa Laval 360° Service Portfolio', which Azure returned as a figure. Azure's azure_text reads the two columns interleaved (e.g. 'Troubleshooting' placed under Maintenance and 'Repair' under Improvements); the crop shows Troubleshooting under Support and Repair under Maintenance. The transcription follows the crop."
+  },
+  "alfalaval-m3/fig-2.1": {
+   "kind": "dimension_drawing",
+   "decorative": false,
+   "description": "Dimensional drawing of the M3: front view of the frame plate with the four ports S1-S4, and side view of the assembled unit with plate pack, tightening bolts and pipe connections; dimensions in mm with inches in parentheses.",
+   "labels": ["180 (7.09\")", "60 (2.4\")", "S4", "S1", "480 (18.9\")", "357 (14.1\")", "S3", "S2", "62 (2.4\")", "173 (6.8\")", "40 (1.6\")", "420-620 (16.5\"-24.4\")"],
+   "letters": [],
+   "dimensions": [
+    {"printed": "180 (7.09\")", "what": "overall width of the frame plate (front view, top)"},
+    {"printed": "60 (2.4\")", "what": "horizontal distance between the port centres S4 and S1"},
+    {"printed": "480 (18.9\")", "what": "overall height of the frame plate"},
+    {"printed": "357 (14.1\")", "what": "vertical distance between the upper and lower port centres"},
+    {"printed": "62 (2.4\")", "what": "distance from the bottom edge of the frame plate to the lower port centre line"},
+    {"printed": "173 (6.8\")", "what": "width of the frame plate at its foot (front view, bottom)"},
+    {"printed": "40 (1.6\")", "what": null},
+    {"printed": "420-620 (16.5\"-24.4\")", "what": "overall length of the unit (side view), a range depending on the plate pack"}
+   ],
+   "callout_views": {
+    "front_view": ["180 (7.09\")", "60 (2.4\")", "S4", "S1", "480 (18.9\")", "357 (14.1\")", "S3", "S2", "62 (2.4\")", "173 (6.8\")"],
+    "side_view": ["40 (1.6\")", "420-620 (16.5\"-24.4\")"]
+   },
+   "sub_captions": [],
+   "notes": "Azure gave no caption; the heading 'Dimensional drawing / Measurements mm (inches)' is above the crop and the note 'The number of tightening bolts may vary depending on pressure rating.' below it. Azure read '62 (2.4\")' as '62 (2.47' (truncated quote read as 7); the crop prints '62 (2.4\")' rotated vertically. S1-S4 are port designations; no printed legend or table explains them, so no legend and no letters. The 'what' entries are my interpretations of the extension lines; what 40 (1.6\") measures in the side view (a small offset at the bottom right near the pressure plate / lifting lug) is not clear."
+  }
+ }
+}

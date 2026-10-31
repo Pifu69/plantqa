@@ -1,0 +1,123 @@
+{
+  "model": "claude-opus-5-5 (2026-10-31, prompt descriptions/3, by hand in a Claude Code session, no API; inventory.json, the three figure crops and the 90 dpi page overviews viewed)",
+  "language": "en",
+  "descriptions": {
+    "alfalaval-m3/table-azure-0": {
+      "description": "Two tables under 'Technical data' merged into one source: the Plates table (plate names M3, M3-D, M3-G, M3-X with their type - single plate, double wall plate, Gemini (hygienic) double wall, single plate diagonal flow - and a free channel of 2.4 mm (0.095 in) for all) and the Materials table (heat transfer plates 316/316L, C-276, Ti, TiPd; field gaskets NBR, EPDM, FKM; flange connections carbon steel; pipe connections stainless steel, titanium; frame and pressure plate carbon steel, epoxy painted).",
+      "use_for": "Use it to find the available plate variants of the M3 with their plate type and free channel, and the materials of the plates, gaskets, connections and frame.",
+      "structure": "Plates: rows: plate name (M3, M3-D, M3-G, M3-X); columns: type, free channel mm (inches) -> text and length values. Materials: rows: part; column: material -> text values",
+      "uncertain": "Azure split the page content into two tables (the second, 'Materials', has no caption and was attached here as a continuation), so this source holds two different tables. In the Materials table the heat transfer plate materials are printed on three lines (316/316L, C-276, Ti, TiPd); Azure joined them into '316/316L C-276 Ti, TiPd'.",
+      "footnotes": []
+    },
+    "alfalaval-m3/table-azure-2": {
+      "description": "Operational data table: maximum design pressure (barg/psig) and maximum design temperature (°C/°F) for frame FG under two pressure vessel codes - ASME 10.3 barg / 150 psig and 177 °C / 350 °F, PED 16.0 barg / 232 psig and 180 °C / 356 °F.",
+      "use_for": "Use it to find the maximum design pressure and temperature of the M3 for the FG frame under the ASME or PED pressure vessel code.",
+      "structure": "rows: frame, PV-code (FG, ASME; FG, PED); columns: max. design pressure (barg/psig), max. design temperature (°C/°F) -> paired values in two units",
+      "footnotes": []
+    },
+    "alfalaval-m3/table-azure-3": {
+      "description": "Pipe connections table: the connection types with their thread standard designation - threaded port ISO 228 - G 1 1/4, internal parallel threaded ISO 228 - G 1, external parallel threaded ISO 228 - G 1 1/4 B, external tapered threaded ISO 7 - R 1 1/4 or 1 1/4 - 11.5 NPT.",
+      "use_for": "Use it to find which threaded pipe connection types the M3 has and their thread standard and size.",
+      "structure": "rows: connection type; column: thread standard designation -> codes",
+      "uncertain": "The external tapered threaded row is printed on two lines (ISO 7 - R 1 1/4 and 1 1/4 - 11.5 NPT); Azure joined them into one cell.",
+      "footnotes": []
+    },
+    "alfalaval-m3/fig-1.1": {
+      "description": "Product rendering of the Alfa Laval M3 gasketed plate-and-frame heat exchanger: blue frame and pressure plate, plate pack, tightening bolts, four threaded pipe connections, carrying bar and lifting lug.",
+      "use_for": "Answers what the M3 looks like; it carries no printed data.",
+      "footnotes": []
+    },
+    "alfalaval-m3/fig-1.2": {
+      "description": "Two-column list of the Alfa Laval 360° Service Portfolio: Start-up (Installation, Installation Supervision, Commissioning), Support (Exclusive Stock, Technical Documentation, Telephone Support, Training, Troubleshooting), Maintenance (Cleaning Services, Reconditioning, Repair, Service Tools, Spare Parts), Improvements (Equipment Upgrades, Redesign, Replacement and Retrofit) and Monitoring (Condition Audit, Performance Audit).",
+      "use_for": "Use it to find which services Alfa Laval offers for the equipment, grouped by service stage.",
+      "uncertain": "This is page text that Azure returned as a figure; Azure's own text sections (section-9 to section-12) read the two columns interleaved, so their grouping differs from the printed one shown here.",
+      "footnotes": []
+    },
+    "alfalaval-m3/fig-2.1": {
+      "description": "Dimensional drawing of the M3 in mm (inches): front view of the frame plate with ports S1-S4 (180 (7.09\") wide, 480 (18.9\") high, 173 (6.8\") at the foot, ports 60 (2.4\") apart horizontally and 357 (14.1\") vertically, 62 (2.4\") from the bottom edge) and side view with overall length 420-620 (16.5\"-24.4\") and a 40 (1.6\") offset.",
+      "use_for": "Use it to find the main outer dimensions of the M3, the port positions S1-S4 and the range of the overall length.",
+      "uncertain": "What each dimension measures is read from the extension lines, not printed; what the 40 (1.6\") dimension in the side view measures is unclear. Azure read '62 (2.4\")' as '62 (2.47'.",
+      "footnotes": []
+    },
+    "alfalaval-m3/section-1": {
+      "description": "Only the OCR text 'LAVAL' of the Alfa Laval logo at the top of page 1.",
+      "use_for": "Answers nothing on its own; see alfalaval-m3/section-3.",
+      "uncertain": "Logo OCR, not a real text section.",
+      "footnotes": []
+    },
+    "alfalaval-m3/section-3": {
+      "description": "Product introduction under the subtitle 'Gasketed plate-and-frame heat exchanger for a wide range of applications': the M3 belongs to the Alfa Laval Industrial line, is available with a large selection of plate and gasket types, and besides the normal single plate configuration also with double wall plates, which are used to avoid intermixing of fluids.",
+      "use_for": "Use it to find what kind of equipment the M3 is, which product line it belongs to and why double wall plates are offered.",
+      "footnotes": []
+    },
+    "alfalaval-m3/section-4": {
+      "description": "Bulleted list of 13 application areas, from Biotech and Pharmaceutical, Chemicals and Energy and Utilities to HVAC and Refrigeration, Marine and Transportation, Pulp and Paper and Water and Waste treatment.",
+      "use_for": "Use it to find the industries and application areas the M3 is intended for.",
+      "footnotes": []
+    },
+    "alfalaval-m3/section-5": {
+      "description": "Bulleted list of five benefits: high energy efficiency (low operating cost), flexible configuration (heat transfer area can be modified), easy installation (compact design), high serviceability (easy to open, easy to clean by CIP) and access to Alfa Laval's global service network.",
+      "use_for": "Use it to find the claimed benefits of the M3, e.g. whether its heat transfer area can be modified or whether it can be cleaned by CIP.",
+      "footnotes": []
+    },
+    "alfalaval-m3/section-6": {
+      "description": "Short introduction and a bulleted list of nine available features: glued gasket, clip-on gasket, leak chamber, fixed bolt head, key hole bolt opening, lifting lug, lining, lock washer and tightening bolt cover.",
+      "use_for": "Use it to find which optional design features are available for the M3.",
+      "footnotes": []
+    },
+    "alfalaval-m3/section-7": {
+      "description": "Introductory paragraph of the Alfa Laval 360° Service Portfolio: the services are meant to keep the equipment at top performance throughout its life cycle.",
+      "use_for": "Answers nothing on its own; see alfalaval-m3/fig-1.2 for the list of services.",
+      "footnotes": []
+    },
+    "alfalaval-m3/section-9": {
+      "description": "Service list under the headings Start-up and Support: Installation, Exclusive Stock, Installation Supervision, Technical Documentation, Commissioning, Telephone Support, Training.",
+      "use_for": "Use it to find start-up and support services offered by Alfa Laval.",
+      "uncertain": "Azure merged the Start-up and Support columns and interleaved their items; the printed grouping is in alfalaval-m3/fig-1.2.",
+      "footnotes": []
+    },
+    "alfalaval-m3/section-10": {
+      "description": "Service list under Maintenance as read by Azure: Troubleshooting, Cleaning Services, Reconditioning.",
+      "use_for": "Use it to find maintenance services offered by Alfa Laval.",
+      "uncertain": "Two-column text read interleaved: on the page Troubleshooting belongs to Support and Maintenance also lists Repair, Service Tools and Spare Parts; see alfalaval-m3/fig-1.2.",
+      "footnotes": []
+    },
+    "alfalaval-m3/section-11": {
+      "description": "Service list under Improvements as read by Azure: Repair, Equipment Upgrades, Service Tools, Redesign, Spare Parts, Replacement and Retrofit.",
+      "use_for": "Use it to find improvement services offered by Alfa Laval.",
+      "uncertain": "Two-column text read interleaved: on the page Repair, Service Tools and Spare Parts belong to Maintenance; see alfalaval-m3/fig-1.2.",
+      "footnotes": []
+    },
+    "alfalaval-m3/section-12": {
+      "description": "Service list under Monitoring: Condition Audit and Performance Audit.",
+      "use_for": "Use it to find monitoring services offered by Alfa Laval.",
+      "footnotes": []
+    },
+    "alfalaval-m3/section-13": {
+      "description": "Heading 'Dimensional drawing, Measurements mm (inches)' with the note that the number of tightening bolts may vary depending on pressure rating.",
+      "use_for": "Answers whether the number of tightening bolts is fixed; the dimensions themselves are in alfalaval-m3/fig-2.1.",
+      "footnotes": []
+    },
+    "alfalaval-m3/section-15": {
+      "description": "Two notes printed under the Plates and Materials tables: other materials may be available on request, and not all option combinations may be configurable.",
+      "use_for": "Answers whether materials other than those listed may be available and whether every option combination can be configured.",
+      "uncertain": "Azure placed the notes under the heading 'Plates', but on the page they follow the Materials table.",
+      "footnotes": []
+    },
+    "alfalaval-m3/section-16": {
+      "description": "Note under the Operational data table: extended pressure and temperature rating may be available on request.",
+      "use_for": "Answers whether higher pressure and temperature ratings than those in alfalaval-m3/table-azure-2 may be available.",
+      "footnotes": []
+    },
+    "alfalaval-m3/section-17": {
+      "description": "Note under the Pipe connections table: other connection types may be available on request.",
+      "use_for": "Answers whether connection types other than those in alfalaval-m3/table-azure-3 may be available.",
+      "footnotes": []
+    },
+    "alfalaval-m3/section-18": {
+      "description": "Contact note: contact details for all countries are on the Alfa Laval website, www.alfalaval.com.",
+      "use_for": "Use it to find where to get Alfa Laval contact details.",
+      "footnotes": []
+    }
+  }
+}

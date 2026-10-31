@@ -1,0 +1,78 @@
+{
+ "model": "claude-opus-5-5, 2026-10-31 (by hand in a Claude Code session, no API)",
+ "notes": [
+  "Prompt: table-schema/3. Input: 02-rekordok/output.json (88 records); build.py, apply.py, paths.py, 0003-target-record-format.md.",
+  "Four printed tables, numbered in document order (Azure <table> order): 1 Plates, 2 Materials, 3 Operational data, 4 Pipe connections.",
+  "Subject everywhere is the heat exchanger (default_subject). Plates: the plate name (M3, M3-D, M3-G, M3-X) is a 'plate variant' condition, not a separate subject, so the facts stay attached to the device. Materials: part_material, property = '<part> material'. Operational data: frame (FG) and pressure vessel code (ASME, PED) are conditions. Pipe connections: the connection type is the property, the value is the standard designation.",
+  "The notes printed under the tables ('Extended pressure and temperature rating may be available on request.', 'Other connection types may be available on request.') share the table's first segment and become table facts of the device; the notes under 'Technical data', 'Applications', 'Benefits', 'Features', the service portfolio list and the product description are outside tables and become 'document' statements by program design.",
+  "No charts in the document: skip_properties is empty.",
+  "Trial build (plantdocs.target.build): 88 records in, 81 facts, missing_records 0, records_without_path_separator 0, 6 dual-unit pairs merged (4 free channel mm/in, 2 max. design temperature C/F). The barg/psig pressure pairs stay two facts each: the program has no unit family for barg (only bar/psig); the schema cannot express that, the units are kept as printed.",
+  "Segments falling back to context: none in tables 1-4."
+ ],
+ "default_subject": {
+  "label": "Alfa Laval M3 gasketed plate heat exchanger",
+  "kind": "heat exchanger"
+ },
+ "table_titles": {
+  "Plates": 1,
+  "Materials": 2,
+  "Operational data": 3,
+  "Pipe connections": 4
+ },
+ "global_rules": [
+  {
+   "match": "^(?P<v>M3(?:-[DGX])?)$",
+   "role": "condition",
+   "dimension": "plate variant"
+  },
+  {
+   "match": "^Frame (?P<v>\\S+)$",
+   "role": "condition",
+   "dimension": "frame"
+  },
+  {
+   "match": "^PV-code (?P<v>.+)$",
+   "role": "condition",
+   "dimension": "pressure vessel code"
+  }
+ ],
+ "property_keys": [
+  {
+   "match": "^Type$",
+   "key": "plate_type",
+   "label": "Plate type"
+  },
+  {
+   "match": "^Free channel$",
+   "key": "free_channel",
+   "label": "Free channel"
+  },
+  {
+   "match": "^Max\\. design pressure$",
+   "key": "max_design_pressure",
+   "label": "Max. design pressure"
+  },
+  {
+   "match": "^Max\\. design temperature$",
+   "key": "max_design_temperature",
+   "label": "Max. design temperature"
+  }
+ ],
+ "value_aliases": {},
+ "skip_properties": [],
+ "tables": {
+  "1": {
+   "rules": []
+  },
+  "2": {
+   "rules": [],
+   "part_material": true
+  },
+  "3": {
+   "rules": []
+  },
+  "4": {
+   "rules": []
+  }
+ }
+}

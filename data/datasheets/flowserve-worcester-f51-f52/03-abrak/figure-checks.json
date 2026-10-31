@@ -1,0 +1,1897 @@
+{
+  "summary": {
+    "figures": 14,
+    "kinds": {
+      "logo": 3,
+      "photo_illustration": 4,
+      "sectional_exploded": 4,
+      "chart": 1,
+      "dimension_drawing": 2
+    },
+    "letters": {
+      "legend": 62,
+      "table": 22
+    },
+    "letters_matching_several_tables": 75,
+    "dimensions": 0,
+    "dimensions_unit_consistent": 0,
+    "dimensions_numbers_in_azure_text": 0,
+    "part_labels": 120,
+    "part_labels_only_in_figure": 35,
+    "formulas": 0,
+    "formulas_all_constants_kept": 0,
+    "formulas_plus_minus_kept": 0,
+    "formulas_url_and_span_kept": 0
+  },
+  "figures": [
+    {
+      "id": "flowserve-worcester-f51-f52/fig-1.1",
+      "kind": "logo",
+      "letters": [],
+      "legend": {},
+      "dimensions": [],
+      "labels_elsewhere": {},
+      "formula": null
+    },
+    {
+      "id": "flowserve-worcester-f51-f52/fig-1.2",
+      "kind": "photo_illustration",
+      "letters": [],
+      "legend": {},
+      "dimensions": [],
+      "labels_elsewhere": {
+        "FLOWSERVE": 35,
+        "CL150": 1
+      },
+      "formula": null
+    },
+    {
+      "id": "flowserve-worcester-f51-f52/fig-2.1",
+      "kind": "photo_illustration",
+      "letters": [],
+      "legend": {},
+      "dimensions": [],
+      "labels_elsewhere": {
+        "DN50/40": 0
+      },
+      "formula": null
+    },
+    {
+      "id": "flowserve-worcester-f51-f52/fig-3.1",
+      "kind": "sectional_exploded",
+      "letters": [
+        {
+          "letter": "9",
+          "resolved_by": "legend",
+          "legend": [
+            "Locking wrench"
+          ],
+          "position_name": null,
+          "tables": [
+            1,
+            2
+          ],
+          "example_headers": [
+            "9",
+            "9"
+          ]
+        },
+        {
+          "letter": "1",
+          "resolved_by": "legend",
+          "legend": [
+            "Actuator mounting"
+          ],
+          "position_name": null,
+          "tables": [
+            1,
+            2
+          ],
+          "example_headers": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "letter": "2",
+          "resolved_by": "legend",
+          "legend": [
+            "Standard anti-blowout, duplex stainless steel stem"
+          ],
+          "position_name": null,
+          "tables": [
+            1,
+            2
+          ],
+          "example_headers": [
+            "2",
+            "2"
+          ]
+        },
+        {
+          "letter": "5",
+          "resolved_by": "legend",
+          "legend": [
+            "Seat design"
+          ],
+          "position_name": null,
+          "tables": [
+            1,
+            2
+          ],
+          "example_headers": [
+            "5",
+            "5"
+          ]
+        },
+        {
+          "letter": "6",
+          "resolved_by": "legend",
+          "legend": [
+            "Body seals"
+          ],
+          "position_name": null,
+          "tables": [
+            1,
+            2
+          ],
+          "example_headers": [
+            "6",
+            "6"
+          ]
+        },
+        {
+          "letter": "8",
+          "resolved_by": "legend",
+          "legend": [
+            "Threaded insert"
+          ],
+          "position_name": null,
+          "tables": [
+            1,
+            2
+          ],
+          "example_headers": [
+            "8",
+            "8"
+          ]
+        }
+      ],
+      "legend": {
+        "1": {
+          "name": "Actuator mounting",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "2": {
+          "name": "Standard anti-blowout, duplex stainless steel stem",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "5": {
+          "name": "Seat design",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "6": {
+          "name": "Body seals",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "8": {
+          "name": "Threaded insert",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "9": {
+          "name": "Locking wrench",
+          "source": "llm",
+          "in_page_text": true
+        }
+      },
+      "dimensions": [],
+      "labels_elsewhere": {
+        "9": 286,
+        "1": 668,
+        "2": 685,
+        "5": 439,
+        "6": 339,
+        "8": 237
+      },
+      "formula": null
+    },
+    {
+      "id": "flowserve-worcester-f51-f52/fig-3.2",
+      "kind": "sectional_exploded",
+      "letters": [
+        {
+          "letter": "3",
+          "resolved_by": "legend",
+          "legend": [
+            "Locking clip"
+          ],
+          "position_name": null,
+          "tables": [
+            1,
+            2
+          ],
+          "example_headers": [
+            "3",
+            "3"
+          ]
+        },
+        {
+          "letter": "4",
+          "resolved_by": "legend",
+          "legend": [
+            "Live-loaded packing"
+          ],
+          "position_name": null,
+          "tables": [
+            1,
+            2
+          ],
+          "example_headers": [
+            "4",
+            "4"
+          ]
+        },
+        {
+          "letter": "7",
+          "resolved_by": "legend",
+          "legend": [
+            "Anti-static design"
+          ],
+          "position_name": null,
+          "tables": [
+            1,
+            2
+          ],
+          "example_headers": [
+            "7",
+            "7"
+          ]
+        }
+      ],
+      "legend": {
+        "3": {
+          "name": "Locking clip",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "4": {
+          "name": "Live-loaded packing",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "7": {
+          "name": "Anti-static design",
+          "source": "llm",
+          "in_page_text": true
+        }
+      },
+      "dimensions": [],
+      "labels_elsewhere": {
+        "3": 317,
+        "4": 332,
+        "7": 269
+      },
+      "formula": null
+    },
+    {
+      "id": "flowserve-worcester-f51-f52/fig-4.1",
+      "kind": "sectional_exploded",
+      "letters": [
+        {
+          "letter": "1",
+          "resolved_by": "legend",
+          "legend": [
+            "Body"
+          ],
+          "position_name": null,
+          "tables": [
+            1,
+            2
+          ],
+          "example_headers": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "letter": "2",
+          "resolved_by": "legend",
+          "legend": [
+            "Insert"
+          ],
+          "position_name": null,
+          "tables": [
+            1,
+            2
+          ],
+          "example_headers": [
+            "2",
+            "2"
+          ]
+        },
+        {
+          "letter": "3",
+          "resolved_by": "legend",
+          "legend": [
+            "Ball"
+          ],
+          "position_name": null,
+          "tables": [
+            1,
+            2
+          ],
+          "example_headers": [
+            "3",
+            "3"
+          ]
+        },
+        {
+          "letter": "4",
+          "resolved_by": "legend",
+          "legend": [
+            "Stem"
+          ],
+          "position_name": null,
+          "tables": [
+            1,
+            2
+          ],
+          "example_headers": [
+            "4",
+            "4"
+          ]
+        },
+        {
+          "letter": "5",
+          "resolved_by": "legend",
+          "legend": [
+            "Seat"
+          ],
+          "position_name": null,
+          "tables": [
+            1,
+            2
+          ],
+          "example_headers": [
+            "5",
+            "5"
+          ]
+        },
+        {
+          "letter": "6",
+          "resolved_by": "legend",
+          "legend": [
+            "Body Seal"
+          ],
+          "position_name": null,
+          "tables": [
+            1,
+            2
+          ],
+          "example_headers": [
+            "6",
+            "6"
+          ]
+        },
+        {
+          "letter": "7",
+          "resolved_by": "legend",
+          "legend": [
+            "Stem Thrust Seal"
+          ],
+          "position_name": null,
+          "tables": [
+            1,
+            2
+          ],
+          "example_headers": [
+            "7",
+            "7"
+          ]
+        },
+        {
+          "letter": "8",
+          "resolved_by": "legend",
+          "legend": [
+            "Gland Packing"
+          ],
+          "position_name": null,
+          "tables": [
+            1,
+            2
+          ],
+          "example_headers": [
+            "8",
+            "8"
+          ]
+        },
+        {
+          "letter": "9",
+          "resolved_by": "legend",
+          "legend": [
+            "Bearing Washer"
+          ],
+          "position_name": null,
+          "tables": [
+            1,
+            2
+          ],
+          "example_headers": [
+            "9",
+            "9"
+          ]
+        },
+        {
+          "letter": "10",
+          "resolved_by": "legend",
+          "legend": [
+            "Gland"
+          ],
+          "position_name": null,
+          "tables": [
+            1,
+            2
+          ],
+          "example_headers": [
+            "10",
+            "10"
+          ]
+        },
+        {
+          "letter": "11",
+          "resolved_by": "legend",
+          "legend": [
+            "Belleville Washer"
+          ],
+          "position_name": null,
+          "tables": [
+            1,
+            2
+          ],
+          "example_headers": [
+            "11",
+            "11"
+          ]
+        },
+        {
+          "letter": "12",
+          "resolved_by": "legend",
+          "legend": [
+            "Gland Nut"
+          ],
+          "position_name": null,
+          "tables": [
+            1,
+            2
+          ],
+          "example_headers": [
+            "12",
+            "12"
+          ]
+        },
+        {
+          "letter": "13",
+          "resolved_by": "legend",
+          "legend": [
+            "Gland Nut Locking Clip"
+          ],
+          "position_name": null,
+          "tables": [
+            1,
+            2
+          ],
+          "example_headers": [
+            "13",
+            "13"
+          ]
+        },
+        {
+          "letter": "14",
+          "resolved_by": "legend",
+          "legend": [
+            "Locking Wrench"
+          ],
+          "position_name": null,
+          "tables": [
+            1,
+            2
+          ],
+          "example_headers": [
+            "14",
+            "14"
+          ]
+        },
+        {
+          "letter": "15",
+          "resolved_by": "legend",
+          "legend": [
+            "Wrench Sleeve"
+          ],
+          "position_name": null,
+          "tables": [
+            1,
+            2
+          ],
+          "example_headers": [
+            "15",
+            "15"
+          ]
+        },
+        {
+          "letter": "16",
+          "resolved_by": "legend",
+          "legend": [
+            "Wrench Nut"
+          ],
+          "position_name": null,
+          "tables": [
+            1,
+            2
+          ],
+          "example_headers": [
+            "16",
+            "16"
+          ]
+        },
+        {
+          "letter": "17",
+          "resolved_by": "legend",
+          "legend": [
+            "Stop Pin"
+          ],
+          "position_name": null,
+          "tables": [
+            1,
+            2
+          ],
+          "example_headers": [
+            "17",
+            "17"
+          ]
+        },
+        {
+          "letter": "18",
+          "resolved_by": "legend",
+          "legend": [
+            "Locking Plate"
+          ],
+          "position_name": null,
+          "tables": [
+            1,
+            2
+          ],
+          "example_headers": [
+            "18",
+            "18"
+          ]
+        },
+        {
+          "letter": "19",
+          "resolved_by": "legend",
+          "legend": [
+            "Washers"
+          ],
+          "position_name": null,
+          "tables": [
+            1,
+            2
+          ],
+          "example_headers": [
+            "19",
+            "19"
+          ]
+        },
+        {
+          "letter": "20",
+          "resolved_by": "legend",
+          "legend": [
+            "Hex Head Screws"
+          ],
+          "position_name": null,
+          "tables": [
+            1,
+            2
+          ],
+          "example_headers": [
+            "20",
+            "20"
+          ]
+        },
+        {
+          "letter": "21",
+          "resolved_by": "legend",
+          "legend": [
+            "Anti-static Ball"
+          ],
+          "position_name": null,
+          "tables": [
+            1,
+            2
+          ],
+          "example_headers": [
+            "21",
+            "21"
+          ]
+        },
+        {
+          "letter": "22",
+          "resolved_by": "legend",
+          "legend": [
+            "Anti-static Spring"
+          ],
+          "position_name": null,
+          "tables": [
+            1,
+            2
+          ],
+          "example_headers": [
+            "22",
+            "22"
+          ]
+        },
+        {
+          "letter": "23",
+          "resolved_by": "legend",
+          "legend": [
+            "Identification Plate"
+          ],
+          "position_name": null,
+          "tables": [
+            1,
+            2
+          ],
+          "example_headers": [
+            "23",
+            "23"
+          ]
+        }
+      ],
+      "legend": {
+        "1": {
+          "name": "Body",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "2": {
+          "name": "Insert",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "3": {
+          "name": "Ball",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "4": {
+          "name": "Stem",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "5": {
+          "name": "Seat",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "6": {
+          "name": "Body Seal",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "7": {
+          "name": "Stem Thrust Seal",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "8": {
+          "name": "Gland Packing",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "9": {
+          "name": "Bearing Washer",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "10": {
+          "name": "Gland",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "11": {
+          "name": "Belleville Washer",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "12": {
+          "name": "Gland Nut",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "13": {
+          "name": "Gland Nut Locking Clip",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "14": {
+          "name": "Locking Wrench",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "15": {
+          "name": "Wrench Sleeve",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "16": {
+          "name": "Wrench Nut",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "17": {
+          "name": "Stop Pin",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "18": {
+          "name": "Locking Plate",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "19": {
+          "name": "Washers",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "20": {
+          "name": "Hex Head Screws",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "21": {
+          "name": "Anti-static Ball",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "22": {
+          "name": "Anti-static Spring",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "23": {
+          "name": "Identification Plate",
+          "source": "llm",
+          "in_page_text": true
+        }
+      },
+      "dimensions": [],
+      "labels_elsewhere": {
+        "16": 35,
+        "14": 33,
+        "15": 55,
+        "13": 23,
+        "12": 38,
+        "11": 39,
+        "10": 66,
+        "9": 285,
+        "8": 236,
+        "20": 52,
+        "17": 31,
+        "19": 27,
+        "18": 19,
+        "5": 437,
+        "23": 17,
+        "1": 657,
+        "7": 271,
+        "4": 333,
+        "21": 25,
+        "22": 26,
+        "2": 678,
+        "6": 338,
+        "3": 314
+      },
+      "formula": null
+    },
+    {
+      "id": "flowserve-worcester-f51-f52/fig-5.1",
+      "kind": "sectional_exploded",
+      "letters": [
+        {
+          "letter": "1",
+          "resolved_by": "legend",
+          "legend": [
+            "Body"
+          ],
+          "position_name": null,
+          "tables": [
+            1,
+            2
+          ],
+          "example_headers": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "letter": "2",
+          "resolved_by": "legend",
+          "legend": [
+            "Insert"
+          ],
+          "position_name": null,
+          "tables": [
+            1,
+            2
+          ],
+          "example_headers": [
+            "2",
+            "2"
+          ]
+        },
+        {
+          "letter": "3",
+          "resolved_by": "legend",
+          "legend": [
+            "Ball"
+          ],
+          "position_name": null,
+          "tables": [
+            1,
+            2
+          ],
+          "example_headers": [
+            "3",
+            "3"
+          ]
+        },
+        {
+          "letter": "4",
+          "resolved_by": "legend",
+          "legend": [
+            "Stem"
+          ],
+          "position_name": null,
+          "tables": [
+            1,
+            2
+          ],
+          "example_headers": [
+            "4",
+            "4"
+          ]
+        },
+        {
+          "letter": "5",
+          "resolved_by": "legend",
+          "legend": [
+            "Seat"
+          ],
+          "position_name": null,
+          "tables": [
+            1,
+            2
+          ],
+          "example_headers": [
+            "5",
+            "5"
+          ]
+        },
+        {
+          "letter": "6",
+          "resolved_by": "legend",
+          "legend": [
+            "Body Seal"
+          ],
+          "position_name": null,
+          "tables": [
+            1,
+            2
+          ],
+          "example_headers": [
+            "6",
+            "6"
+          ]
+        },
+        {
+          "letter": "7",
+          "resolved_by": "legend",
+          "legend": [
+            "Stem Thrust Seal"
+          ],
+          "position_name": null,
+          "tables": [
+            1,
+            2
+          ],
+          "example_headers": [
+            "7",
+            "7"
+          ]
+        },
+        {
+          "letter": "8",
+          "resolved_by": "legend",
+          "legend": [
+            "Secondary Stem Seal"
+          ],
+          "position_name": null,
+          "tables": [
+            1,
+            2
+          ],
+          "example_headers": [
+            "8",
+            "8"
+          ]
+        },
+        {
+          "letter": "9",
+          "resolved_by": "legend",
+          "legend": [
+            "Stem Location Ring"
+          ],
+          "position_name": null,
+          "tables": [
+            1,
+            2
+          ],
+          "example_headers": [
+            "9",
+            "9"
+          ]
+        },
+        {
+          "letter": "10",
+          "resolved_by": "legend",
+          "legend": [
+            "Gland Packing"
+          ],
+          "position_name": null,
+          "tables": [
+            1,
+            2
+          ],
+          "example_headers": [
+            "10",
+            "10"
+          ]
+        },
+        {
+          "letter": "11",
+          "resolved_by": "legend",
+          "legend": [
+            "Bearing Washer"
+          ],
+          "position_name": null,
+          "tables": [
+            1,
+            2
+          ],
+          "example_headers": [
+            "11",
+            "11"
+          ]
+        },
+        {
+          "letter": "12",
+          "resolved_by": "legend",
+          "legend": [
+            "Gland"
+          ],
+          "position_name": null,
+          "tables": [
+            1,
+            2
+          ],
+          "example_headers": [
+            "12",
+            "12"
+          ]
+        },
+        {
+          "letter": "13",
+          "resolved_by": "legend",
+          "legend": [
+            "Belleville Washer"
+          ],
+          "position_name": null,
+          "tables": [
+            1,
+            2
+          ],
+          "example_headers": [
+            "13",
+            "13"
+          ]
+        },
+        {
+          "letter": "14",
+          "resolved_by": "legend",
+          "legend": [
+            "Gland Nut"
+          ],
+          "position_name": null,
+          "tables": [
+            1,
+            2
+          ],
+          "example_headers": [
+            "14",
+            "14"
+          ]
+        },
+        {
+          "letter": "15",
+          "resolved_by": "legend",
+          "legend": [
+            "Gland Nut Locking Clip"
+          ],
+          "position_name": null,
+          "tables": [
+            1,
+            2,
+            3
+          ],
+          "example_headers": [
+            "15",
+            "15",
+            "15"
+          ]
+        },
+        {
+          "letter": "16",
+          "resolved_by": "legend",
+          "legend": [
+            "Stop Plate"
+          ],
+          "position_name": null,
+          "tables": [
+            1,
+            2
+          ],
+          "example_headers": [
+            "16",
+            "16"
+          ]
+        },
+        {
+          "letter": "17",
+          "resolved_by": "legend",
+          "legend": [
+            "Wrench Head"
+          ],
+          "position_name": null,
+          "tables": [
+            1,
+            2
+          ],
+          "example_headers": [
+            "17",
+            "17"
+          ]
+        },
+        {
+          "letter": "18",
+          "resolved_by": "legend",
+          "legend": [
+            "Wrench Handle"
+          ],
+          "position_name": null,
+          "tables": [
+            1,
+            2
+          ],
+          "example_headers": [
+            "18",
+            "18"
+          ]
+        },
+        {
+          "letter": "19",
+          "resolved_by": "legend",
+          "legend": [
+            "Hexagon Headed Bolt"
+          ],
+          "position_name": null,
+          "tables": [
+            1,
+            2
+          ],
+          "example_headers": [
+            "19",
+            "19"
+          ]
+        },
+        {
+          "letter": "20",
+          "resolved_by": "legend",
+          "legend": [
+            "Stop Pin"
+          ],
+          "position_name": null,
+          "tables": [
+            1,
+            2,
+            3
+          ],
+          "example_headers": [
+            "20",
+            "20",
+            "20"
+          ]
+        },
+        {
+          "letter": "21",
+          "resolved_by": "legend",
+          "legend": [
+            "Moving Plate"
+          ],
+          "position_name": null,
+          "tables": [
+            1,
+            2
+          ],
+          "example_headers": [
+            "21",
+            "21"
+          ]
+        },
+        {
+          "letter": "22",
+          "resolved_by": "legend",
+          "legend": [
+            "Fixed Plate"
+          ],
+          "position_name": null,
+          "tables": [
+            1,
+            2
+          ],
+          "example_headers": [
+            "22",
+            "22"
+          ]
+        },
+        {
+          "letter": "23",
+          "resolved_by": "legend",
+          "legend": [
+            "Anti-static Ball"
+          ],
+          "position_name": null,
+          "tables": [
+            1,
+            2
+          ],
+          "example_headers": [
+            "23",
+            "23"
+          ]
+        },
+        {
+          "letter": "24",
+          "resolved_by": "legend",
+          "legend": [
+            "Anti-static Spring"
+          ],
+          "position_name": null,
+          "tables": [
+            2
+          ],
+          "example_headers": [
+            "24"
+          ]
+        },
+        {
+          "letter": "25",
+          "resolved_by": "legend",
+          "legend": [
+            "Identification Plate"
+          ],
+          "position_name": null,
+          "tables": [
+            2,
+            3
+          ],
+          "example_headers": [
+            "25",
+            "25"
+          ]
+        }
+      ],
+      "legend": {
+        "1": {
+          "name": "Body",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "2": {
+          "name": "Insert",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "3": {
+          "name": "Ball",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "4": {
+          "name": "Stem",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "5": {
+          "name": "Seat",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "6": {
+          "name": "Body Seal",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "7": {
+          "name": "Stem Thrust Seal",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "8": {
+          "name": "Secondary Stem Seal",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "9": {
+          "name": "Stem Location Ring",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "10": {
+          "name": "Gland Packing",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "11": {
+          "name": "Bearing Washer",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "12": {
+          "name": "Gland",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "13": {
+          "name": "Belleville Washer",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "14": {
+          "name": "Gland Nut",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "15": {
+          "name": "Gland Nut Locking Clip",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "16": {
+          "name": "Stop Plate",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "17": {
+          "name": "Wrench Head",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "18": {
+          "name": "Wrench Handle",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "19": {
+          "name": "Hexagon Headed Bolt",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "20": {
+          "name": "Stop Pin",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "21": {
+          "name": "Moving Plate",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "22": {
+          "name": "Fixed Plate",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "23": {
+          "name": "Anti-static Ball",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "24": {
+          "name": "Anti-static Spring",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "25": {
+          "name": "Identification Plate",
+          "source": "llm",
+          "in_page_text": true
+        }
+      },
+      "dimensions": [],
+      "labels_elsewhere": {
+        "19": 27,
+        "17": 31,
+        "16": 35,
+        "18": 19,
+        "21": 25,
+        "22": 26,
+        "15": 56,
+        "14": 33,
+        "13": 23,
+        "12": 38,
+        "11": 39,
+        "10": 66,
+        "9": 285,
+        "8": 234,
+        "20": 51,
+        "1": 659,
+        "5": 438,
+        "25": 55,
+        "7": 271,
+        "4": 332,
+        "24": 15,
+        "23": 17,
+        "2": 677,
+        "6": 338,
+        "3": 313
+      },
+      "formula": null
+    },
+    {
+      "id": "flowserve-worcester-f51-f52/fig-6.1",
+      "kind": "chart",
+      "letters": [],
+      "legend": {},
+      "dimensions": [],
+      "labels_elsewhere": {
+        "60 (870)": 0,
+        "50 (725)": 0,
+        "40 (580)": 0,
+        "30 (435)": 0,
+        "20 (290)": 0,
+        "10 (145)": 0,
+        "0": 666,
+        "Pressure, bar (psi)": 0,
+        "Group 1.2 Class 300": 0,
+        "Group 2.2 Class 300": 0,
+        "Group 1.2 Class 150": 0,
+        "Group 2.2 Class 150": 0,
+        "-30 (-22)": 0,
+        "0 (32)": 0,
+        "50 (122)": 0,
+        "100 (212)": 0,
+        "150 (302)": 0,
+        "200 (392)": 0,
+        "250 (482)": 0,
+        "300 (572)": 0,
+        "Temperature, °C (°F)": 0,
+        "Delrin": 3,
+        "UHMWPE": 3,
+        "Virgin PTFE": 8,
+        "Reinforced PTFE": 2,
+        "Fluorofill": 5,
+        "PEEK®": 0,
+        "Metals A and G": 0
+      },
+      "formula": null
+    },
+    {
+      "id": "flowserve-worcester-f51-f52/fig-8.1",
+      "kind": "dimension_drawing",
+      "letters": [
+        {
+          "letter": "A",
+          "resolved_by": "table",
+          "legend": [],
+          "position_name": null,
+          "tables": [
+            3,
+            4
+          ],
+          "example_headers": [
+            "A",
+            "A"
+          ]
+        },
+        {
+          "letter": "B",
+          "resolved_by": "table",
+          "legend": [],
+          "position_name": null,
+          "tables": [
+            3,
+            4
+          ],
+          "example_headers": [
+            "B",
+            "B"
+          ]
+        },
+        {
+          "letter": "C",
+          "resolved_by": "table",
+          "legend": [],
+          "position_name": null,
+          "tables": [
+            3,
+            4
+          ],
+          "example_headers": [
+            "C(1)",
+            "C(1)"
+          ]
+        },
+        {
+          "letter": "D",
+          "resolved_by": "table",
+          "legend": [],
+          "position_name": null,
+          "tables": [
+            3,
+            4
+          ],
+          "example_headers": [
+            "D(1)",
+            "D(1)"
+          ]
+        },
+        {
+          "letter": "E",
+          "resolved_by": "table",
+          "legend": [],
+          "position_name": null,
+          "tables": [
+            3,
+            4
+          ],
+          "example_headers": [
+            "E Min.",
+            "E1 Min.",
+            "E2 Min."
+          ]
+        },
+        {
+          "letter": "F",
+          "resolved_by": "legend",
+          "legend": [
+            "Across flats"
+          ],
+          "position_name": null,
+          "tables": [
+            3,
+            4,
+            8
+          ],
+          "example_headers": [
+            "F(1)",
+            "F(1)",
+            "F"
+          ]
+        },
+        {
+          "letter": "G",
+          "resolved_by": "legend",
+          "legend": [
+            "Thread diameter"
+          ],
+          "position_name": null,
+          "tables": [
+            3,
+            4
+          ],
+          "example_headers": [
+            "G Thread",
+            "GØ"
+          ]
+        },
+        {
+          "letter": "J",
+          "resolved_by": "table",
+          "legend": [],
+          "position_name": null,
+          "tables": [
+            3,
+            4
+          ],
+          "example_headers": [
+            "J",
+            "J"
+          ]
+        },
+        {
+          "letter": "K",
+          "resolved_by": "table",
+          "legend": [],
+          "position_name": null,
+          "tables": [
+            3,
+            4
+          ],
+          "example_headers": [
+            "K",
+            "K"
+          ]
+        },
+        {
+          "letter": "L",
+          "resolved_by": "table",
+          "legend": [],
+          "position_name": null,
+          "tables": [
+            3
+          ],
+          "example_headers": [
+            "L Thread and Depth"
+          ]
+        },
+        {
+          "letter": "M",
+          "resolved_by": "table",
+          "legend": [],
+          "position_name": null,
+          "tables": [
+            3
+          ],
+          "example_headers": [
+            "M"
+          ]
+        },
+        {
+          "letter": "S",
+          "resolved_by": "table",
+          "legend": [],
+          "position_name": null,
+          "tables": [
+            3,
+            4
+          ],
+          "example_headers": [
+            "S Ø",
+            "S Ø"
+          ]
+        },
+        {
+          "letter": "T1",
+          "resolved_by": "table",
+          "legend": [],
+          "position_name": null,
+          "tables": [
+            3
+          ],
+          "example_headers": [
+            "T1"
+          ]
+        },
+        {
+          "letter": "T2",
+          "resolved_by": "table",
+          "legend": [],
+          "position_name": null,
+          "tables": [
+            3
+          ],
+          "example_headers": [
+            "T2"
+          ]
+        }
+      ],
+      "legend": {
+        "F": {
+          "name": "Across flats",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "G": {
+          "name": "Thread diameter",
+          "source": "llm",
+          "in_page_text": true
+        }
+      },
+      "dimensions": [],
+      "labels_elsewhere": {
+        "Sizes DN15 to DN50 (NPS ½ to 2)": 0,
+        "K": 65,
+        "90° clockwise to close": 0,
+        "Mounting platform drilling/location to BS EN ISO 5211": 0,
+        "2 holes “L” diameter and depth": 0,
+        "J": 6,
+        "E": 1728,
+        "D": 2083,
+        "M": 419,
+        "T2": 1,
+        "C": 497,
+        "ØS": 0,
+        "Port diameter": 1,
+        "T1": 1,
+        "B": 199,
+        "A": 1244,
+        "Stem: “F” Across flats “G” Thread diameter": 0
+      },
+      "formula": null
+    },
+    {
+      "id": "flowserve-worcester-f51-f52/fig-9.1",
+      "kind": "dimension_drawing",
+      "letters": [
+        {
+          "letter": "A",
+          "resolved_by": "table",
+          "legend": [],
+          "position_name": null,
+          "tables": [
+            3,
+            4
+          ],
+          "example_headers": [
+            "A",
+            "A"
+          ]
+        },
+        {
+          "letter": "B",
+          "resolved_by": "table",
+          "legend": [],
+          "position_name": null,
+          "tables": [
+            3,
+            4
+          ],
+          "example_headers": [
+            "B",
+            "B"
+          ]
+        },
+        {
+          "letter": "C",
+          "resolved_by": "table",
+          "legend": [],
+          "position_name": null,
+          "tables": [
+            3,
+            4
+          ],
+          "example_headers": [
+            "C(1)",
+            "C(1)"
+          ]
+        },
+        {
+          "letter": "D",
+          "resolved_by": "table",
+          "legend": [],
+          "position_name": null,
+          "tables": [
+            3,
+            4
+          ],
+          "example_headers": [
+            "D(1)",
+            "D(1)"
+          ]
+        },
+        {
+          "letter": "E1",
+          "resolved_by": "table",
+          "legend": [],
+          "position_name": null,
+          "tables": [
+            4
+          ],
+          "example_headers": [
+            "E1 Min."
+          ]
+        },
+        {
+          "letter": "E2",
+          "resolved_by": "table",
+          "legend": [],
+          "position_name": null,
+          "tables": [
+            4
+          ],
+          "example_headers": [
+            "E2 Min."
+          ]
+        },
+        {
+          "letter": "F",
+          "resolved_by": "legend",
+          "legend": [
+            "across flats"
+          ],
+          "position_name": null,
+          "tables": [
+            3,
+            4,
+            8
+          ],
+          "example_headers": [
+            "F(1)",
+            "F(1)",
+            "F"
+          ]
+        },
+        {
+          "letter": "G",
+          "resolved_by": "legend",
+          "legend": [
+            "diameter"
+          ],
+          "position_name": null,
+          "tables": [
+            3,
+            4
+          ],
+          "example_headers": [
+            "G Thread",
+            "GØ"
+          ]
+        },
+        {
+          "letter": "H",
+          "resolved_by": "legend",
+          "legend": [
+            "thread"
+          ],
+          "position_name": null,
+          "tables": [
+            4
+          ],
+          "example_headers": [
+            "Approx. Weight kg (lb) H",
+            "H Thread"
+          ]
+        },
+        {
+          "letter": "J",
+          "resolved_by": "table",
+          "legend": [],
+          "position_name": null,
+          "tables": [
+            3,
+            4
+          ],
+          "example_headers": [
+            "J",
+            "J"
+          ]
+        },
+        {
+          "letter": "K",
+          "resolved_by": "table",
+          "legend": [],
+          "position_name": null,
+          "tables": [
+            3,
+            4
+          ],
+          "example_headers": [
+            "K",
+            "K"
+          ]
+        },
+        {
+          "letter": "R",
+          "resolved_by": "table",
+          "legend": [],
+          "position_name": null,
+          "tables": [
+            4
+          ],
+          "example_headers": [
+            "Thread and Depth R"
+          ]
+        },
+        {
+          "letter": "S",
+          "resolved_by": "table",
+          "legend": [],
+          "position_name": null,
+          "tables": [
+            3,
+            4
+          ],
+          "example_headers": [
+            "S Ø",
+            "S Ø"
+          ]
+        }
+      ],
+      "legend": {
+        "F": {
+          "name": "across flats",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "G": {
+          "name": "diameter",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "H": {
+          "name": "thread",
+          "source": "llm",
+          "in_page_text": true
+        }
+      },
+      "dimensions": [],
+      "labels_elsewhere": {
+        "K": 65,
+        "Sizes DN80 to DN200 (NPS 3 to 8)": 1,
+        "90° clockwise to close": 0,
+        "Mounting platform drilling/location to BS EN ISO 5211": 0,
+        "1 hole tapped “R” diameter and depth": 0,
+        "Stem: “F” across flats “G” diameter “H” thread": 0,
+        "J": 6,
+        "C": 496,
+        "ØS": 0,
+        "Port diameter": 0,
+        "B": 197,
+        "A": 1242,
+        "E1": 1,
+        "E2": 1,
+        "D": 2081
+      },
+      "formula": null
+    },
+    {
+      "id": "flowserve-worcester-f51-f52/fig-12.1",
+      "kind": "logo",
+      "letters": [],
+      "legend": {},
+      "dimensions": [],
+      "labels_elsewhere": {},
+      "formula": null
+    },
+    {
+      "id": "flowserve-worcester-f51-f52/fig-12.2",
+      "kind": "logo",
+      "letters": [],
+      "legend": {},
+      "dimensions": [],
+      "labels_elsewhere": {},
+      "formula": null
+    },
+    {
+      "id": "flowserve-worcester-f51-f52/fig-pdf-8-1",
+      "kind": "photo_illustration",
+      "letters": [],
+      "legend": {},
+      "dimensions": [],
+      "labels_elsewhere": {},
+      "formula": null
+    },
+    {
+      "id": "flowserve-worcester-f51-f52/fig-pdf-8-2",
+      "kind": "photo_illustration",
+      "letters": [],
+      "legend": {},
+      "dimensions": [],
+      "labels_elsewhere": {},
+      "formula": null
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "corpus_id": "PQA",
+  "config": {
+    "generator": {
+      "plant_id": "pqa",
+      "seed": 6,
+      "n_units": 2,
+      "equipment_per_unit_min": 4,
+      "equipment_per_unit_max": 6,
+      "p_recycle": 0.2,
+      "p_cross_link": 0.2,
+      "valves_per_stream_max": 2,
+      "p_control_loop": 0.7,
+      "equipment_weights": {
+        "CentrifugalPump": 2.0,
+        "HeatExchanger": 1.0
+      },
+      "fluid_codes": [
+        "PL",
+        "PG"
+      ]
+    },
+    "split": {
+      "strategy": "by_unit",
+      "sheet_equipment_budget": 4,
+      "seed": 6,
+      "duplication_rate": 0.25,
+      "equipment_classes": [
+        "ProcessColumn",
+        "CentrifugalPump",
+        "PressureVessel",
+        "HeatExchanger",
+        "Tank",
+        "Compressor"
+      ],
+      "numbering_scheme": "sequential",
+      "use_grid_reference": false,
+      "exact_match_tags": true,
+      "connector_label_detail": "drawing_only"
+    }
+  },
+  "counts": {
+    "n_sheets": 4,
+    "n_nodes": 36,
+    "n_relationships": 116,
+    "n_connector_pairs_predicted": 4,
+    "n_unresolved": 0
+  },
+  "store_profile": "plant_lines",
+  "layer_counts": {
+    "n_occurrences": 0,
+    "n_plant_items": 28,
+    "n_structure_nodes": 8,
+    "n_drawn_as": 0,
+    "n_invariants": 5
+  },
+  "stage_seconds": {
+    "generate": 0.019925400032661855,
+    "split": 0.0009218000341206789,
+    "localize": 0.0004124999977648258,
+    "resolve": 0.0005590000073425472,
+    "check": 0.0005505000008270144,
+    "plan": 0.0012750999885611236
+  },
+  "resolution": {
+    "n_sheets": 4,
+    "n_occurrences": 38,
+    "n_connectors": 8,
+    "pairs_by_rule": {
+      "line_number": 4
+    },
+    "unresolved_by_reason": {},
+    "n_identity_groups": 2,
+    "ambiguous_tag_keys": 0,
+    "edge_attribute_conflicts": 0
+  },
+  "import_report": null,
+  "load_report": null,
+  "gate_equal": true,
+  "gate_differences": [],
+  "resolution_score": {
+    "connector_pairs": {
+      "true_positives": 4,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "identity": {
+      "true_positives": 2,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "pair_precision_by_rule": {
+      "line_number": 1.0
+    }
+  },
+  "neo4j_version": null,
+  "environment": null,
+  "store_footprint": null
+}

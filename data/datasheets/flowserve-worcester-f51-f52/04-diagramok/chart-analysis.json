@@ -1,0 +1,827 @@
+{
+  "summary": {
+    "chart_figures": 1,
+    "charts_found": 1,
+    "charts_with_axes": 1,
+    "readoff_entries": 1,
+    "readoff_entries_unassigned": 0,
+    "read_points_compared": 56,
+    "within_tolerance": 36
+  },
+  "figures": [
+    {
+      "figure": "flowserve-worcester-f51-f52/page-6",
+      "page": 6,
+      "figure_box_pt": [
+        -12.0,
+        -12.0,
+        624.0,
+        804.0
+      ],
+      "charts_found": 1,
+      "charts": [
+        {
+          "clip_pt": [
+            58.2,
+            130.1,
+            562.0,
+            508.0
+          ],
+          "status": "ok",
+          "axes": {
+            "left": {
+              "slope": -0.18398,
+              "intercept": 86.417,
+              "labels_used": 14,
+              "labels_dropped": 0,
+              "max_residual": 0.172
+            },
+            "right": {
+              "slope": 0.0,
+              "intercept": 1.2,
+              "labels_used": 3,
+              "labels_dropped": 7,
+              "max_residual": 0.0
+            },
+            "bottom": {
+              "slope": 0.76894,
+              "intercept": -108.923,
+              "labels_used": 16,
+              "labels_dropped": 0,
+              "max_residual": 1.071
+            }
+          },
+          "axis_labels": {
+            "left": [
+              10.0,
+              60.0,
+              30.0,
+              50.0,
+              20.0,
+              40.0,
+              10.0,
+              20.0,
+              30.0,
+              40.0,
+              50.0,
+              60.0,
+              0.0,
+              0.0
+            ],
+            "right": [
+              150.0,
+              150.0,
+              2.2,
+              2.2,
+              1.2,
+              2.2,
+              2.2,
+              1.2,
+              1.2,
+              1.2
+            ],
+            "top": [],
+            "bottom": [
+              -30.0,
+              0.0,
+              50.0,
+              100.0,
+              150.0,
+              200.0,
+              300.0,
+              250.0,
+              300.0,
+              -30.0,
+              50.0,
+              100.0,
+              0.0,
+              250.0,
+              150.0,
+              200.0
+            ]
+          },
+          "axis_spans": {
+            "bottom": 330.0,
+            "left": 60.0
+          },
+          "dual_scale": null,
+          "vector_vertices": [
+            [
+              -23.1,
+              18.8
+            ],
+            [
+              -23.1,
+              19.7
+            ],
+            [
+              -23.1,
+              49.7
+            ],
+            [
+              -23.1,
+              51.9
+            ],
+            [
+              42.4,
+              49.7
+            ],
+            [
+              43.2,
+              18.8
+            ],
+            [
+              45.5,
+              19.7
+            ],
+            [
+              85.4,
+              44.6
+            ],
+            [
+              85.5,
+              0.0
+            ],
+            [
+              85.5,
+              51.8
+            ],
+            [
+              89.1,
+              51.7
+            ],
+            [
+              93.9,
+              51.7
+            ],
+            [
+              96.7,
+              0.0
+            ],
+            [
+              105.4,
+              51.7
+            ],
+            [
+              105.7,
+              16.0
+            ],
+            [
+              105.7,
+              42.2
+            ],
+            [
+              142.9,
+              50.6
+            ],
+            [
+              155.9,
+              15.7
+            ],
+            [
+              155.9,
+              38.5
+            ],
+            [
+              162.7,
+              50.1
+            ],
+            [
+              194.1,
+              49.1
+            ],
+            [
+              205.5,
+              13.6
+            ],
+            [
+              205.9,
+              48.7
+            ],
+            [
+              206.0,
+              35.7
+            ],
+            [
+              234.8,
+              47.3
+            ],
+            [
+              235.3,
+              0.0
+            ],
+            [
+              255.5,
+              46.4
+            ],
+            [
+              255.7,
+              11.8
+            ],
+            [
+              256.0,
+              33.4
+            ],
+            [
+              265.7,
+              5.9
+            ],
+            [
+              265.9,
+              0.0
+            ],
+            [
+              295.7,
+              31.9
+            ],
+            [
+              305.3,
+              10.0
+            ],
+            [
+              306.1,
+              0.0
+            ],
+            [
+              306.1,
+              31.5
+            ],
+            [
+              306.1,
+              42.9
+            ]
+          ],
+          "comparison": [
+            {
+              "read": [
+                -30.0,
+                51.8
+              ],
+              "type": "curve",
+              "distance_pct": 2.09,
+              "within_tolerance": false,
+              "series": "Group 1.2 Class 300"
+            },
+            {
+              "read": [
+                0.0,
+                51.8
+              ],
+              "type": "curve",
+              "distance_pct": 0.04,
+              "within_tolerance": true,
+              "series": "Group 1.2 Class 300"
+            },
+            {
+              "read": [
+                50.0,
+                51.7
+              ],
+              "type": "curve",
+              "distance_pct": 0.09,
+              "within_tolerance": true,
+              "series": "Group 1.2 Class 300"
+            },
+            {
+              "read": [
+                100.0,
+                51.6
+              ],
+              "type": "curve",
+              "distance_pct": 0.15,
+              "within_tolerance": true,
+              "series": "Group 1.2 Class 300"
+            },
+            {
+              "read": [
+                150.0,
+                50.2
+              ],
+              "type": "curve",
+              "distance_pct": 0.4,
+              "within_tolerance": true,
+              "series": "Group 1.2 Class 300"
+            },
+            {
+              "read": [
+                200.0,
+                48.6
+              ],
+              "type": "curve",
+              "distance_pct": 0.41,
+              "within_tolerance": true,
+              "series": "Group 1.2 Class 300"
+            },
+            {
+              "read": [
+                250.0,
+                46.4
+              ],
+              "type": "curve",
+              "distance_pct": 0.47,
+              "within_tolerance": true,
+              "series": "Group 1.2 Class 300"
+            },
+            {
+              "read": [
+                300.0,
+                42.9
+              ],
+              "type": "curve",
+              "distance_pct": 0.65,
+              "within_tolerance": true,
+              "series": "Group 1.2 Class 300"
+            },
+            {
+              "read": [
+                -30.0,
+                49.7
+              ],
+              "type": "curve",
+              "distance_pct": 2.08,
+              "within_tolerance": false,
+              "series": "Group 2.2 Class 300"
+            },
+            {
+              "read": [
+                0.0,
+                49.7
+              ],
+              "type": "curve",
+              "distance_pct": 0.08,
+              "within_tolerance": true,
+              "series": "Group 2.2 Class 300"
+            },
+            {
+              "read": [
+                38.0,
+                49.5
+              ],
+              "type": "curve",
+              "distance_pct": 0.41,
+              "within_tolerance": true,
+              "series": "Group 2.2 Class 300"
+            },
+            {
+              "read": [
+                50.0,
+                48.1
+              ],
+              "type": "curve",
+              "distance_pct": 1.03,
+              "within_tolerance": false,
+              "series": "Group 2.2 Class 300"
+            },
+            {
+              "read": [
+                100.0,
+                42.2
+              ],
+              "type": "curve",
+              "distance_pct": 0.94,
+              "within_tolerance": true,
+              "series": "Group 2.2 Class 300"
+            },
+            {
+              "read": [
+                150.0,
+                38.5
+              ],
+              "type": "curve",
+              "distance_pct": 0.67,
+              "within_tolerance": true,
+              "series": "Group 2.2 Class 300"
+            },
+            {
+              "read": [
+                200.0,
+                35.7
+              ],
+              "type": "curve",
+              "distance_pct": 0.56,
+              "within_tolerance": true,
+              "series": "Group 2.2 Class 300"
+            },
+            {
+              "read": [
+                250.0,
+                33.4
+              ],
+              "type": "curve",
+              "distance_pct": 0.41,
+              "within_tolerance": true,
+              "series": "Group 2.2 Class 300"
+            },
+            {
+              "read": [
+                300.0,
+                31.6
+              ],
+              "type": "curve",
+              "distance_pct": 0.28,
+              "within_tolerance": true,
+              "series": "Group 2.2 Class 300"
+            },
+            {
+              "read": [
+                -30.0,
+                19.8
+              ],
+              "type": "curve",
+              "distance_pct": 2.1,
+              "within_tolerance": false,
+              "series": "Group 1.2 Class 150"
+            },
+            {
+              "read": [
+                0.0,
+                19.8
+              ],
+              "type": "curve",
+              "distance_pct": 0.13,
+              "within_tolerance": true,
+              "series": "Group 1.2 Class 150"
+            },
+            {
+              "read": [
+                40.0,
+                19.8
+              ],
+              "type": "curve",
+              "distance_pct": 0.13,
+              "within_tolerance": true,
+              "series": "Group 1.2 Class 150"
+            },
+            {
+              "read": [
+                50.0,
+                19.4
+              ],
+              "type": "curve",
+              "distance_pct": 0.26,
+              "within_tolerance": true,
+              "series": "Group 1.2 Class 150"
+            },
+            {
+              "read": [
+                100.0,
+                17.6
+              ],
+              "type": "curve",
+              "distance_pct": 0.21,
+              "within_tolerance": true,
+              "series": "Group 1.2 Class 150"
+            },
+            {
+              "read": [
+                150.0,
+                15.8
+              ],
+              "type": "curve",
+              "distance_pct": 0.15,
+              "within_tolerance": true,
+              "series": "Group 1.2 Class 150"
+            },
+            {
+              "read": [
+                200.0,
+                13.7
+              ],
+              "type": "curve",
+              "distance_pct": 0.12,
+              "within_tolerance": true,
+              "series": "Group 1.2 Class 150"
+            },
+            {
+              "read": [
+                250.0,
+                12.0
+              ],
+              "type": "curve",
+              "distance_pct": 0.06,
+              "within_tolerance": true,
+              "series": "Group 1.2 Class 150"
+            },
+            {
+              "read": [
+                300.0,
+                10.2
+              ],
+              "type": "curve",
+              "distance_pct": 0.02,
+              "within_tolerance": true,
+              "series": "Group 1.2 Class 150"
+            },
+            {
+              "read": [
+                -30.0,
+                18.9
+              ],
+              "type": "curve",
+              "distance_pct": 2.1,
+              "within_tolerance": false,
+              "series": "Group 2.2 Class 150"
+            },
+            {
+              "read": [
+                0.0,
+                18.9
+              ],
+              "type": "curve",
+              "distance_pct": 0.14,
+              "within_tolerance": true,
+              "series": "Group 2.2 Class 150"
+            },
+            {
+              "read": [
+                38.0,
+                18.9
+              ],
+              "type": "curve",
+              "distance_pct": 0.14,
+              "within_tolerance": true,
+              "series": "Group 2.2 Class 150"
+            },
+            {
+              "read": [
+                50.0,
+                18.3
+              ],
+              "type": "curve",
+              "distance_pct": 0.35,
+              "within_tolerance": true,
+              "series": "Group 2.2 Class 150"
+            },
+            {
+              "read": [
+                100.0,
+                16.1
+              ],
+              "type": "curve",
+              "distance_pct": 0.29,
+              "within_tolerance": true,
+              "series": "Group 2.2 Class 150"
+            },
+            {
+              "read": [
+                150.0,
+                14.8
+              ],
+              "type": "curve",
+              "distance_pct": 0.16,
+              "within_tolerance": true,
+              "series": "Group 2.2 Class 150"
+            },
+            {
+              "read": [
+                200.0,
+                13.7
+              ],
+              "type": "curve",
+              "distance_pct": 0.12,
+              "within_tolerance": true,
+              "series": "Group 2.2 Class 150"
+            },
+            {
+              "read": [
+                79.5,
+                51.7
+              ],
+              "type": "curve",
+              "distance_pct": 0.03,
+              "within_tolerance": true,
+              "series": "Delrin"
+            },
+            {
+              "read": [
+                79.5,
+                0.0
+              ],
+              "type": "curve",
+              "distance_pct": 1.82,
+              "within_tolerance": false,
+              "series": "Delrin"
+            },
+            {
+              "read": [
+                83.1,
+                51.6
+              ],
+              "type": "curve",
+              "distance_pct": 0.19,
+              "within_tolerance": true,
+              "series": "UHMWPE"
+            },
+            {
+              "read": [
+                90.6,
+                0.0
+              ],
+              "type": "curve",
+              "distance_pct": 1.55,
+              "within_tolerance": false,
+              "series": "UHMWPE"
+            },
+            {
+              "read": [
+                88.3,
+                51.7
+              ],
+              "type": "curve",
+              "distance_pct": 0.01,
+              "within_tolerance": true,
+              "series": "Virgin PTFE"
+            },
+            {
+              "read": [
+                100.0,
+                47.0
+              ],
+              "type": "curve",
+              "distance_pct": 1.81,
+              "within_tolerance": false,
+              "series": "Virgin PTFE"
+            },
+            {
+              "read": [
+                150.0,
+                28.8
+              ],
+              "type": "curve",
+              "distance_pct": 1.71,
+              "within_tolerance": false,
+              "series": "Virgin PTFE"
+            },
+            {
+              "read": [
+                200.0,
+                10.5
+              ],
+              "type": "curve",
+              "distance_pct": 1.69,
+              "within_tolerance": false,
+              "series": "Virgin PTFE"
+            },
+            {
+              "read": [
+                228.4,
+                0.0
+              ],
+              "type": "curve",
+              "distance_pct": 1.76,
+              "within_tolerance": false,
+              "series": "Virgin PTFE"
+            },
+            {
+              "read": [
+                136.9,
+                50.6
+              ],
+              "type": "curve",
+              "distance_pct": 0.34,
+              "within_tolerance": true,
+              "series": "Reinforced PTFE"
+            },
+            {
+              "read": [
+                150.0,
+                43.2
+              ],
+              "type": "curve",
+              "distance_pct": 1.86,
+              "within_tolerance": false,
+              "series": "Reinforced PTFE"
+            },
+            {
+              "read": [
+                200.0,
+                16.0
+              ],
+              "type": "curve",
+              "distance_pct": 1.8,
+              "within_tolerance": false,
+              "series": "Reinforced PTFE"
+            },
+            {
+              "read": [
+                229.4,
+                0.0
+              ],
+              "type": "curve",
+              "distance_pct": 1.49,
+              "within_tolerance": false,
+              "series": "Reinforced PTFE"
+            },
+            {
+              "read": [
+                188.2,
+                49.0
+              ],
+              "type": "curve",
+              "distance_pct": 0.4,
+              "within_tolerance": true,
+              "series": "Fluorofill"
+            },
+            {
+              "read": [
+                200.0,
+                41.5
+              ],
+              "type": "curve",
+              "distance_pct": 1.91,
+              "within_tolerance": false,
+              "series": "Fluorofill"
+            },
+            {
+              "read": [
+                250.0,
+                11.5
+              ],
+              "type": "curve",
+              "distance_pct": 0.88,
+              "within_tolerance": true,
+              "series": "Fluorofill"
+            },
+            {
+              "read": [
+                259.6,
+                6.0
+              ],
+              "type": "curve",
+              "distance_pct": 1.71,
+              "within_tolerance": false,
+              "series": "Fluorofill"
+            },
+            {
+              "read": [
+                259.6,
+                0.0
+              ],
+              "type": "curve",
+              "distance_pct": 1.9,
+              "within_tolerance": false,
+              "series": "Fluorofill"
+            },
+            {
+              "read": [
+                228.8,
+                47.3
+              ],
+              "type": "curve",
+              "distance_pct": 0.54,
+              "within_tolerance": true,
+              "series": "PEEK"
+            },
+            {
+              "read": [
+                250.0,
+                32.8
+              ],
+              "type": "curve",
+              "distance_pct": 1.38,
+              "within_tolerance": false,
+              "series": "PEEK"
+            },
+            {
+              "read": [
+                299.8,
+                0.0
+              ],
+              "type": "curve",
+              "distance_pct": 1.78,
+              "within_tolerance": false,
+              "series": "PEEK"
+            },
+            {
+              "read": [
+                300.0,
+                42.8
+              ],
+              "type": "curve",
+              "distance_pct": 0.8,
+              "within_tolerance": true,
+              "series": "Metals A and G"
+            },
+            {
+              "read": [
+                300.0,
+                0.0
+              ],
+              "type": "curve",
+              "distance_pct": 1.72,
+              "within_tolerance": false,
+              "series": "Metals A and G"
+            }
+          ],
+          "read_points": 56,
+          "read_points_within_tolerance": 36,
+          "readoff_title": "Pressure/temperature ratings"
+        }
+      ],
+      "grid_charts_found": 1,
+      "regions_from": "readoff",
+      "readoff_entries": 1,
+      "readoff_entries_unassigned": 0
+    }
+  ]
+}

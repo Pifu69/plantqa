@@ -1,0 +1,320 @@
+{
+ "document": "alfalaval-m3",
+ "items": [
+  {
+   "id": "alfalaval-m3/property/external_parallel_threaded",
+   "document": "alfalaval-m3",
+   "kind": "property",
+   "label": "External parallel threaded",
+   "subjects": [
+    "Alfa Laval M3 gasketed plate heat exchanger"
+   ],
+   "units": [],
+   "examples": [
+    "ISO 228 - G 1 1/4 B"
+   ],
+   "values": [
+    "ISO 228 - G 1 1/4 B"
+   ],
+   "facts": 1
+  },
+  {
+   "id": "alfalaval-m3/property/external_tapered_threaded",
+   "document": "alfalaval-m3",
+   "kind": "property",
+   "label": "External tapered threaded",
+   "subjects": [
+    "Alfa Laval M3 gasketed plate heat exchanger"
+   ],
+   "units": [],
+   "examples": [
+    "ISO 7 - R 1 1/4",
+    "1 1/4 - 11.5 NPT"
+   ],
+   "values": [
+    "ISO 7 - R 1 1/4",
+    "1 1/4 - 11.5 NPT"
+   ],
+   "facts": 2
+  },
+  {
+   "id": "alfalaval-m3/property/field_gaskets_material",
+   "document": "alfalaval-m3",
+   "kind": "property",
+   "label": "Field gaskets material",
+   "subjects": [
+    "Alfa Laval M3 gasketed plate heat exchanger"
+   ],
+   "units": [],
+   "examples": [
+    "NBR, EPDM, FKM"
+   ],
+   "values": [
+    "NBR, EPDM, FKM"
+   ],
+   "facts": 1
+  },
+  {
+   "id": "alfalaval-m3/property/flange_connections_material",
+   "document": "alfalaval-m3",
+   "kind": "property",
+   "label": "Flange connections material",
+   "subjects": [
+    "Alfa Laval M3 gasketed plate heat exchanger"
+   ],
+   "units": [],
+   "examples": [
+    "Carbon steel"
+   ],
+   "values": [
+    "Carbon steel"
+   ],
+   "facts": 1
+  },
+  {
+   "id": "alfalaval-m3/property/frame_and_pressure_plate_material",
+   "document": "alfalaval-m3",
+   "kind": "property",
+   "label": "Frame and pressure plate material",
+   "subjects": [
+    "Alfa Laval M3 gasketed plate heat exchanger"
+   ],
+   "units": [],
+   "examples": [
+    "Carbon steel, epoxy painted"
+   ],
+   "values": [
+    "Carbon steel, epoxy painted"
+   ],
+   "facts": 1
+  },
+  {
+   "id": "alfalaval-m3/property/free_channel",
+   "document": "alfalaval-m3",
+   "kind": "property",
+   "label": "Free channel",
+   "subjects": [
+    "Alfa Laval M3 gasketed plate heat exchanger"
+   ],
+   "units": [
+    "in",
+    "mm"
+   ],
+   "examples": [
+    "0.095 in",
+    "2.4 mm"
+   ],
+   "values": [],
+   "facts": 4
+  },
+  {
+   "id": "alfalaval-m3/property/heat_transfer_plates_material",
+   "document": "alfalaval-m3",
+   "kind": "property",
+   "label": "Heat transfer plates material",
+   "subjects": [
+    "Alfa Laval M3 gasketed plate heat exchanger"
+   ],
+   "units": [],
+   "examples": [
+    "316/316L, C-276, Ti, TiPd"
+   ],
+   "values": [
+    "316/316L, C-276, Ti, TiPd"
+   ],
+   "facts": 1
+  },
+  {
+   "id": "alfalaval-m3/property/internal_parallel_threaded",
+   "document": "alfalaval-m3",
+   "kind": "property",
+   "label": "Internal parallel threaded",
+   "subjects": [
+    "Alfa Laval M3 gasketed plate heat exchanger"
+   ],
+   "units": [],
+   "examples": [
+    "ISO 228 - G 1"
+   ],
+   "values": [
+    "ISO 228 - G 1"
+   ],
+   "facts": 1
+  },
+  {
+   "id": "alfalaval-m3/property/max_design_pressure",
+   "document": "alfalaval-m3",
+   "kind": "property",
+   "label": "Max. design pressure",
+   "subjects": [
+    "Alfa Laval M3 gasketed plate heat exchanger"
+   ],
+   "units": [
+    "barg",
+    "psig"
+   ],
+   "examples": [
+    "10.3 barg",
+    "150 psig",
+    "16.0 barg",
+    "232 psig"
+   ],
+   "values": [],
+   "facts": 4
+  },
+  {
+   "id": "alfalaval-m3/property/max_design_temperature",
+   "document": "alfalaval-m3",
+   "kind": "property",
+   "label": "Max. design temperature",
+   "subjects": [
+    "Alfa Laval M3 gasketed plate heat exchanger"
+   ],
+   "units": [
+    "°C",
+    "°F"
+   ],
+   "examples": [
+    "177 °C",
+    "350 °F",
+    "180 °C",
+    "356 °F"
+   ],
+   "values": [],
+   "facts": 2
+  },
+  {
+   "id": "alfalaval-m3/property/note_on_connection_types",
+   "document": "alfalaval-m3",
+   "kind": "property",
+   "label": "Note on connection types",
+   "subjects": [
+    "Alfa Laval M3 gasketed plate heat exchanger"
+   ],
+   "units": [],
+   "examples": [
+    "Other connection types may be available on request."
+   ],
+   "values": [
+    "Other connection types may be available on request."
+   ],
+   "facts": 1
+  },
+  {
+   "id": "alfalaval-m3/property/note_on_ratings",
+   "document": "alfalaval-m3",
+   "kind": "property",
+   "label": "Note on ratings",
+   "subjects": [
+    "Alfa Laval M3 gasketed plate heat exchanger"
+   ],
+   "units": [],
+   "examples": [
+    "Extended pressure and temperature rating may be available on request."
+   ],
+   "values": [
+    "Extended pressure and temperature rating may be available on request."
+   ],
+   "facts": 1
+  },
+  {
+   "id": "alfalaval-m3/property/pipe_connections_material",
+   "document": "alfalaval-m3",
+   "kind": "property",
+   "label": "Pipe connections material",
+   "subjects": [
+    "Alfa Laval M3 gasketed plate heat exchanger"
+   ],
+   "units": [],
+   "examples": [
+    "Stainless steel, titanium"
+   ],
+   "values": [
+    "Stainless steel, titanium"
+   ],
+   "facts": 1
+  },
+  {
+   "id": "alfalaval-m3/property/plate_type",
+   "document": "alfalaval-m3",
+   "kind": "property",
+   "label": "Plate type",
+   "subjects": [
+    "Alfa Laval M3 gasketed plate heat exchanger"
+   ],
+   "units": [],
+   "examples": [
+    "Single plate",
+    "Double wall plate",
+    "Gemini (hygienic) Double wall",
+    "Single plate Diagonal flow"
+   ],
+   "values": [
+    "Single plate",
+    "Double wall plate",
+    "Gemini (hygienic) Double wall",
+    "Single plate Diagonal flow"
+   ],
+   "facts": 4
+  },
+  {
+   "id": "alfalaval-m3/property/threaded_port",
+   "document": "alfalaval-m3",
+   "kind": "property",
+   "label": "Threaded port",
+   "subjects": [
+    "Alfa Laval M3 gasketed plate heat exchanger"
+   ],
+   "units": [],
+   "examples": [
+    "ISO 228 - G 1 1/4"
+   ],
+   "values": [
+    "ISO 228 - G 1 1/4"
+   ],
+   "facts": 1
+  },
+  {
+   "id": "alfalaval-m3/condition/frame",
+   "document": "alfalaval-m3",
+   "kind": "condition",
+   "label": "frame",
+   "examples": [
+    "FG"
+   ],
+   "values": [
+    "FG"
+   ],
+   "facts": 6
+  },
+  {
+   "id": "alfalaval-m3/condition/plate variant",
+   "document": "alfalaval-m3",
+   "kind": "condition",
+   "label": "plate variant",
+   "examples": [
+    "M3",
+    "M3-D",
+    "M3-G",
+    "M3-X"
+   ],
+   "values": [],
+   "facts": 8
+  },
+  {
+   "id": "alfalaval-m3/condition/pressure vessel code",
+   "document": "alfalaval-m3",
+   "kind": "condition",
+   "label": "pressure vessel code",
+   "examples": [
+    "ASME",
+    "PED"
+   ],
+   "values": [
+    "ASME",
+    "PED"
+   ],
+   "facts": 6
+  }
+ ]
+}

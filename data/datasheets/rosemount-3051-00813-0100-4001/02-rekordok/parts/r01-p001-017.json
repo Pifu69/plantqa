@@ -1,0 +1,2954 @@
+[
+ {
+  "parameter": "EXTRACTION NOTE",
+  "value": "Coverage: pages 1-17 of the Rosemount 3051 Product Data Sheet (00813-0100-4001 Rev. WH). pp. 1-5 (overview/marketing): document number/revision once, the stated parameters of the overview sections (accuracy 0.04 % of span, installed total performance 0.14 % of span, 10-year stability 0.2 % of URL, SIL 2/3 IEC 61508, Bluetooth, diagnostics, enhanced software, quick service buttons, WirelessHART IEC 62591, integrated DP flow meters 1.65 % at 8:1 turndown, DP level, instrument manifolds, QR asset tags); pure marketing sentences without a parameter skipped. pp. 5-17: the complete Rosemount 3051C ordering information section (first segments suffixed ' (Rosemount 3051C ordering information)', second segment 'Rosemount 3051C'): intro bullets with option codes, online configurator, Specifications and options, Model codes / Figure 1 model code example, Optimizing lead time, and every ordering table row (Model, Measurement type, Pressure range, Transmitter output, Materials of construction, Isolating diaphragm, O-ring, Sensor fill fluid, Housing material, Wireless options tables, Local wireless device access, Extended product warranty, Plantweb control and diagnostic functionality, Alternate flange, Manifold assembly, Integral mount primary element, Seal assemblies, Mounting bracket, Product certifications (pp. 12-13, one table), Drinking water, Shipboard approvals, SST tagging, Custody transfer, Bolting material, Display and interface options, Calibration certificate, Material traceability, PMI, Quality certification for safety, Enhanced safety, Configuration buttons, Transient protection, Software configuration, Gauge pressure calibration, Alarm levels, Pressure testing, Cleaning process area, Flange adapters, Vent drain valves, Conduit plug, RC1/4 RC1/2 process connection, Maximum static line pressure, Ground screw, Surface finish, Total system performance reports, Conduit electrical connector, NACE certificate, Enhanced software, Cold temperature) with star records, all footnotes and all requirement/limitation sentences. Skipped: OCR text of photos/logos inside figures (pp. 1, 3, 4, 5), 'CONFIGURE >' / 'VIEW PRODUCT >' buttons, page headers/footers, OCR junk '☒'. Observations: garbled codes corrected from the page renders (p.7 pressure range code '(1)' -> '0 [fn 1]' with Gage cell N/A; 'w'/'x' -> W/X; p.9 'p' -> P; p.10 'DAO' -> DA0; p.11 '52' -> S2; p.12 '11'/'15' -> I1/I5; p.13 'SL' -> SLL, footnote '11, 17' -> I1, I7, 'UNDATION' -> FOUNDATION); p.7 absolute range code 3 printed '(0 to 55.2 bar' without closing parenthesis; p.14 display table code column header printed as 'M5' (treated as the Code column); p.16 conduit plug code printed 'DO' (kept as printed); p.17 cold temperature units printed as 'ºF' and '℃' (kept).",
+  "unit": null,
+  "source_page": null
+ },
+ {
+  "parameter": "Rosemount™ 3051 Pressure Transmitter | Document type",
+  "value": "Product Data Sheet",
+  "unit": null,
+  "source_page": 1
+ },
+ {
+  "parameter": "Rosemount™ 3051 Pressure Transmitter | Document number",
+  "value": "00813-0100-4001",
+  "unit": null,
+  "source_page": 1
+ },
+ {
+  "parameter": "Rosemount™ 3051 Pressure Transmitter | Revision",
+  "value": "Rev. WH",
+  "unit": null,
+  "source_page": 1
+ },
+ {
+  "parameter": "Rosemount™ 3051 Pressure Transmitter | Publication date",
+  "value": "July 2026",
+  "unit": null,
+  "source_page": 1
+ },
+ {
+  "parameter": "Rosemount™ 3051 Pressure Transmitter | Applications",
+  "value": "one device across a number of pressure, level, and flow applications",
+  "unit": null,
+  "source_page": 1
+ },
+ {
+  "parameter": "Rosemount™ 3051 Pressure Transmitter | Diagnostic capability",
+  "value": "access information to diagnose, correct, and even prevent issues",
+  "unit": null,
+  "source_page": 1
+ },
+ {
+  "parameter": "Setting the standard for pressure measurement Proven best-in-class performance, reliability, and safety | Installed base",
+  "value": "More than ten million installed",
+  "unit": null,
+  "source_page": 2
+ },
+ {
+  "parameter": "Setting the standard for pressure measurement Proven best-in-class performance, reliability, and safety | Reference accuracy",
+  "value": "0.04",
+  "unit": "percent of span",
+  "source_page": 2
+ },
+ {
+  "parameter": "Setting the standard for pressure measurement Proven best-in-class performance, reliability, and safety | Installed total performance",
+  "value": "0.14",
+  "unit": "percent of span",
+  "source_page": 2
+ },
+ {
+  "parameter": "Setting the standard for pressure measurement Proven best-in-class performance, reliability, and safety | 10-year stability",
+  "value": "0.2",
+  "unit": "percent of URL",
+  "source_page": 2
+ },
+ {
+  "parameter": "Setting the standard for pressure measurement Proven best-in-class performance, reliability, and safety | Safety certification",
+  "value": "SIL 2/3 certified (IEC 61508)",
+  "unit": null,
+  "source_page": 2
+ },
+ {
+  "parameter": "Maximize installation and application flexibility with the Coplanar™ platform | Integrated solutions",
+  "value": "integrated DP Flow meters, DP Level solutions, and integral manifolds",
+  "unit": null,
+  "source_page": 2
+ },
+ {
+  "parameter": "Maximize installation and application flexibility with the Coplanar™ platform | Delivery condition",
+  "value": "all solutions fully assembled, leak-tested, and calibrated",
+  "unit": null,
+  "source_page": 2
+ },
+ {
+  "parameter": "Bluetooth® technology - Advanced functionality | Benefit",
+  "value": "No hot work permit needed. No climbing tanks or building scaffolding.",
+  "unit": null,
+  "source_page": 3
+ },
+ {
+  "parameter": "Bluetooth® technology - Advanced functionality | Access",
+  "value": "access to all devices near the technician",
+  "unit": null,
+  "source_page": 3
+ },
+ {
+  "parameter": "Bluetooth® technology - Advanced functionality | Configuration, service and troubleshooting speed",
+  "value": "up to 10 times faster than traditional HART® connections",
+  "unit": null,
+  "source_page": 3
+ },
+ {
+  "parameter": "Diagnostics - Advanced functionality | Loop Integrity diagnostic | Function",
+  "value": "continuously monitors the electrical loop to detect issues that affect the communication signal",
+  "unit": null,
+  "source_page": 3
+ },
+ {
+  "parameter": "Diagnostics - Advanced functionality | Loop Integrity diagnostic | Detected conditions",
+  "value": "corrosion, water in the housing, or an unstable power supply",
+  "unit": null,
+  "source_page": 3
+ },
+ {
+  "parameter": "Diagnostics - Advanced functionality | Plugged Impulse Line diagnostic | Function",
+  "value": "continuously monitors for plugged impulse lines and alerts you to abnormal conditions",
+  "unit": null,
+  "source_page": 3
+ },
+ {
+  "parameter": "Diagnostics - Advanced functionality | Diagnostic log",
+  "value": "Diagnostic events are tracked in the built-in diagnostic log which allows you to see the device status at all times.",
+  "unit": null,
+  "source_page": 3
+ },
+ {
+  "parameter": "Diagnostics - Advanced functionality | Safety certification",
+  "value": "These capabilities are safety certified for your most critical applications.",
+  "unit": null,
+  "source_page": 3
+ },
+ {
+  "parameter": "Enhanced software - Advanced functionality | Application specific configuration",
+  "value": "transform your pressure transmitter into a flow meter with a totalizer or a level transmitter with volume calculations",
+  "unit": null,
+  "source_page": 3
+ },
+ {
+  "parameter": "Enhanced software - Advanced functionality | Process alerts | Configuration",
+  "value": "Configured for any dynamic variable",
+  "unit": null,
+  "source_page": 3
+ },
+ {
+  "parameter": "Enhanced software - Advanced functionality | Process alerts | Configuration",
+  "value": "Given a custom name",
+  "unit": null,
+  "source_page": 3
+ },
+ {
+  "parameter": "Enhanced software - Advanced functionality | Process alerts | Configuration",
+  "value": "Assigned target thresholds",
+  "unit": null,
+  "source_page": 3
+ },
+ {
+  "parameter": "Enhanced software - Advanced functionality | Process alerts | Notification",
+  "value": "via HART alert or analog output alarm",
+  "unit": null,
+  "source_page": 3
+ },
+ {
+  "parameter": "Quick service buttons - Advanced functionality | Commissioning",
+  "value": "Straightforward menus and built-in configuration buttons allow you to quickly commission the device.",
+  "unit": null,
+  "source_page": 3
+ },
+ {
+  "parameter": "Quick service buttons - Advanced functionality | External buttons",
+  "value": "Configure in hazardous-area locations without removing the transmitter cover using external buttons.",
+  "unit": null,
+  "source_page": 3
+ },
+ {
+  "parameter": "Industry leading capabilities extended to IEC 62591 (WirelessHART®) | Wireless standard",
+  "value": "IEC 62591 (WirelessHART®)",
+  "unit": null,
+  "source_page": 4
+ },
+ {
+  "parameter": "Industry leading capabilities extended to IEC 62591 (WirelessHART®) | Power module",
+  "value": "the industry's only intrinsically safe power module",
+  "unit": null,
+  "source_page": 4
+ },
+ {
+  "parameter": "Industry leading capabilities extended to IEC 62591 (WirelessHART®) | Cost reduction by eliminating wiring",
+  "value": "40 to 60",
+  "unit": "percent",
+  "source_page": 4
+ },
+ {
+  "parameter": "Industry leading capabilities extended to IEC 62591 (WirelessHART®) | Deployment time reduction",
+  "value": "70",
+  "unit": "percent",
+  "source_page": 4
+ },
+ {
+  "parameter": "Innovative integrated DP flow meters | Delivery condition",
+  "value": "Fully assembled and leak tested for out-of-the-box installation.",
+  "unit": null,
+  "source_page": 4
+ },
+ {
+  "parameter": "Innovative integrated DP flow meters | Factory configuration",
+  "value": "flow rate and totalized flow",
+  "unit": null,
+  "source_page": 4
+ },
+ {
+  "parameter": "Innovative integrated DP flow meters | Benefits",
+  "value": "Reduce straight pipe requirements, lower permanent pressure loss, and achieve accurate measurement in small line sizes.",
+  "unit": null,
+  "source_page": 4
+ },
+ {
+  "parameter": "Innovative integrated DP flow meters | 8:1 turndown | Volumetric flow accuracy",
+  "value": "Up to 1.65",
+  "unit": "percent",
+  "source_page": 4
+ },
+ {
+  "parameter": "Proven, reliable, and innovative DP Level technologies | Process connection offering",
+  "value": "comprehensive offering of process connections, fill fluids, direct mount, or capillary connections and materials",
+  "unit": null,
+  "source_page": 4
+ },
+ {
+  "parameter": "Proven, reliable, and innovative DP Level technologies | Configuration wizard",
+  "value": "guides you through complex level applications and enables volume measurement",
+  "unit": null,
+  "source_page": 4
+ },
+ {
+  "parameter": "Proven, reliable, and innovative DP Level technologies | QZ option",
+  "value": "Quantify and optimize total system performance",
+  "unit": null,
+  "source_page": 4
+ },
+ {
+  "parameter": "Proven, reliable, and innovative DP Level technologies | Operating conditions",
+  "value": "Operate at higher temperature and in vacuum applications.",
+  "unit": null,
+  "source_page": 4
+ },
+ {
+  "parameter": "Proven, reliable, and innovative DP Level technologies | Tuned-System assemblies",
+  "value": "cost efficient Rosemount Tuned-System™ assemblies",
+  "unit": null,
+  "source_page": 4
+ },
+ {
+  "parameter": "Instrument manifolds - high quality, convenient, and easy | Design",
+  "value": "Designed and engineered for optimal performance with Rosemount transmitters.",
+  "unit": null,
+  "source_page": 5
+ },
+ {
+  "parameter": "Instrument manifolds - high quality, convenient, and easy | Assembly",
+  "value": "factory assembly",
+  "unit": null,
+  "source_page": 5
+ },
+ {
+  "parameter": "Instrument manifolds - high quality, convenient, and easy | Offering",
+  "value": "a variety of styles, materials, and configurations",
+  "unit": null,
+  "source_page": 5
+ },
+ {
+  "parameter": "Access information when you need it with asset tags | Asset tag",
+  "value": "Newly shipped devices include a unique QR code asset tag that enables you to access serialized information directly from the device.",
+  "unit": null,
+  "source_page": 5
+ },
+ {
+  "parameter": "Access information when you need it with asset tags | Accessible information",
+  "value": "device drawings, diagrams, technical documentation, and troubleshooting information in your MyEmerson account",
+  "unit": null,
+  "source_page": 5
+ },
+ {
+  "parameter": "Rosemount 3051C Coplanar Pressure Transmitter ordering information (Rosemount 3051C ordering information) | Rosemount 3051C | Measurement types",
+  "value": "industry standard for differential, gage, and absolute pressure measurement",
+  "unit": null,
+  "source_page": 5
+ },
+ {
+  "parameter": "Rosemount 3051C Coplanar Pressure Transmitter ordering information (Rosemount 3051C ordering information) | Rosemount 3051C | Coplanar platform",
+  "value": "enables seamless integration with manifolds, flow, and level solutions",
+  "unit": null,
+  "source_page": 5
+ },
+ {
+  "parameter": "Rosemount 3051C Coplanar Pressure Transmitter ordering information (Rosemount 3051C ordering information) | Rosemount 3051C | Loop Integrity and Plugged Impulse Line Diagnostics",
+  "value": "detect issues that might compromise the integrity of the output signal",
+  "unit": null,
+  "source_page": 5
+ },
+ {
+  "parameter": "Rosemount 3051C Coplanar Pressure Transmitter ordering information (Rosemount 3051C ordering information) | Rosemount 3051C | Loop Integrity and Plugged Impulse Line Diagnostics | Option code",
+  "value": "DA1",
+  "unit": null,
+  "source_page": 5
+ },
+ {
+  "parameter": "Rosemount 3051C Coplanar Pressure Transmitter ordering information (Rosemount 3051C ordering information) | Rosemount 3051C | Bluetooth® connectivity",
+  "value": "enables efficient, reliable, and safe configuration and maintenance",
+  "unit": null,
+  "source_page": 5
+ },
+ {
+  "parameter": "Rosemount 3051C Coplanar Pressure Transmitter ordering information (Rosemount 3051C ordering information) | Rosemount 3051C | Bluetooth® connectivity | Option code",
+  "value": "BLE",
+  "unit": null,
+  "source_page": 5
+ },
+ {
+  "parameter": "Rosemount 3051C Coplanar Pressure Transmitter ordering information (Rosemount 3051C ordering information) | Rosemount 3051C | Back-lit graphical display with local language capability | Option code",
+  "value": "M6",
+  "unit": null,
+  "source_page": 5
+ },
+ {
+  "parameter": "Rosemount 3051C Coplanar Pressure Transmitter ordering information (Rosemount 3051C ordering information) | Rosemount 3051C | Safety certification and proof testing | Option code",
+  "value": "QT and T9",
+  "unit": null,
+  "source_page": 5
+ },
+ {
+  "parameter": "Online product configurator (Rosemount 3051C ordering information) | Rosemount 3051C | Availability",
+  "value": "Many products are configurable online using our product configurator.",
+  "unit": null,
+  "source_page": 5
+ },
+ {
+  "parameter": "Online product configurator (Rosemount 3051C ordering information) | Rosemount 3051C | Location",
+  "value": "Visit Emerson.com to start.",
+  "unit": null,
+  "source_page": 5
+ },
+ {
+  "parameter": "Online product configurator (Rosemount 3051C ordering information) | Rosemount 3051C | Features",
+  "value": "built-in logic and continuous validation",
+  "unit": null,
+  "source_page": 5
+ },
+ {
+  "parameter": "Specifications and options (Rosemount 3051C ordering information) | Rosemount 3051C | The purchaser of the equipment must specify and select",
+  "value": "Product materials",
+  "unit": null,
+  "source_page": 6
+ },
+ {
+  "parameter": "Specifications and options (Rosemount 3051C ordering information) | Rosemount 3051C | The purchaser of the equipment must specify and select",
+  "value": "Options",
+  "unit": null,
+  "source_page": 6
+ },
+ {
+  "parameter": "Specifications and options (Rosemount 3051C ordering information) | Rosemount 3051C | The purchaser of the equipment must specify and select",
+  "value": "Components",
+  "unit": null,
+  "source_page": 6
+ },
+ {
+  "parameter": "Model codes (Rosemount 3051C ordering information) | Rosemount 3051C | Content",
+  "value": "Model codes contain the details related to each product.",
+  "unit": null,
+  "source_page": 6
+ },
+ {
+  "parameter": "Model codes (Rosemount 3051C ordering information) | Rosemount 3051C | Variation",
+  "value": "Exact model codes will vary; an example of a typical model code is shown in Figure 1.",
+  "unit": null,
+  "source_page": 6
+ },
+ {
+  "parameter": "Figure 1: Model Code Example (Rosemount 3051C ordering information) | Rosemount 3051C | Example model code",
+  "value": "3051CD3A22A1A WR5M6BLEDA1",
+  "unit": null,
+  "source_page": 6
+ },
+ {
+  "parameter": "Figure 1: Model Code Example (Rosemount 3051C ordering information) | Rosemount 3051C | Callout 1",
+  "value": "Required model components (choices available on most)",
+  "unit": null,
+  "source_page": 6
+ },
+ {
+  "parameter": "Figure 1: Model Code Example (Rosemount 3051C ordering information) | Rosemount 3051C | Callout 2",
+  "value": "Additional options (variety of features and functions that may be added to products)",
+  "unit": null,
+  "source_page": 6
+ },
+ {
+  "parameter": "Optimizing lead time (Rosemount 3051C ordering information) | Rosemount 3051C | Starred offerings",
+  "value": "The starred offerings (*) represent the most common options and should be selected for the fastest delivery. The non-starred offerings are subject to additional delivery lead time.",
+  "unit": null,
+  "source_page": 6
+ },
+ {
+  "parameter": "Model (Rosemount 3051C ordering information) | Rosemount 3051C | Code 3051C | Model",
+  "value": "Coplanar pressure transmitter",
+  "unit": null,
+  "source_page": 6
+ },
+ {
+  "parameter": "Model (Rosemount 3051C ordering information) | Rosemount 3051C | Code 3051C | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 6
+ },
+ {
+  "parameter": "Measurement type (Rosemount 3051C ordering information) | Rosemount 3051C | Code D | Measurement type",
+  "value": "Differential",
+  "unit": null,
+  "source_page": 6
+ },
+ {
+  "parameter": "Measurement type (Rosemount 3051C ordering information) | Rosemount 3051C | Code D | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 6
+ },
+ {
+  "parameter": "Measurement type (Rosemount 3051C ordering information) | Rosemount 3051C | Code G | Measurement type",
+  "value": "Gage",
+  "unit": null,
+  "source_page": 6
+ },
+ {
+  "parameter": "Measurement type (Rosemount 3051C ordering information) | Rosemount 3051C | Code G | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 6
+ },
+ {
+  "parameter": "Measurement type (Rosemount 3051C ordering information) | Rosemount 3051C | Code A [fn 1] | Measurement type",
+  "value": "Absolute",
+  "unit": null,
+  "source_page": 6
+ },
+ {
+  "parameter": "Measurement type (Rosemount 3051C ordering information) | footnote 1",
+  "value": "If ordered with wireless output (code X), only available with 316L stainless steel (SST) diaphragm material (code 2), and silicone fill fluid (code 1).",
+  "unit": null,
+  "source_page": 6
+ },
+ {
+  "parameter": "Pressure range (Rosemount 3051C ordering information) | Rosemount 3051C | Code 0 [fn 1] | Differential (Rosemount 3051CD) | Pressure range",
+  "value": "-3 to +3",
+  "unit": "inH2O",
+  "source_page": 7
+ },
+ {
+  "parameter": "Pressure range (Rosemount 3051C ordering information) | Rosemount 3051C | Code 0 [fn 1] | Differential (Rosemount 3051CD) | Pressure range",
+  "value": "-7.46 to +7.46",
+  "unit": "mbar",
+  "source_page": 7
+ },
+ {
+  "parameter": "Pressure range (Rosemount 3051C ordering information) | Rosemount 3051C | Code 0 [fn 1] | Gage (Rosemount 3051CG) | Pressure range",
+  "value": "N/A",
+  "unit": null,
+  "source_page": 7
+ },
+ {
+  "parameter": "Pressure range (Rosemount 3051C ordering information) | Rosemount 3051C | Code 0 [fn 1] | Absolute (Rosemount 3051CA) | Pressure range",
+  "value": "N/A",
+  "unit": null,
+  "source_page": 7
+ },
+ {
+  "parameter": "Pressure range (Rosemount 3051C ordering information) | Rosemount 3051C | Code 1 | Differential (Rosemount 3051CD) | Pressure range",
+  "value": "-25 to +25",
+  "unit": "inH2O",
+  "source_page": 7
+ },
+ {
+  "parameter": "Pressure range (Rosemount 3051C ordering information) | Rosemount 3051C | Code 1 | Differential (Rosemount 3051CD) | Pressure range",
+  "value": "-62.2 to +62.2",
+  "unit": "mbar",
+  "source_page": 7
+ },
+ {
+  "parameter": "Pressure range (Rosemount 3051C ordering information) | Rosemount 3051C | Code 1 | Gage (Rosemount 3051CG) | Pressure range",
+  "value": "-25 to +25",
+  "unit": "inH2O",
+  "source_page": 7
+ },
+ {
+  "parameter": "Pressure range (Rosemount 3051C ordering information) | Rosemount 3051C | Code 1 | Gage (Rosemount 3051CG) | Pressure range",
+  "value": "-62.2 to +62.2",
+  "unit": "mbar",
+  "source_page": 7
+ },
+ {
+  "parameter": "Pressure range (Rosemount 3051C ordering information) | Rosemount 3051C | Code 1 | Absolute (Rosemount 3051CA) | Pressure range",
+  "value": "0 to 30",
+  "unit": "psia",
+  "source_page": 7
+ },
+ {
+  "parameter": "Pressure range (Rosemount 3051C ordering information) | Rosemount 3051C | Code 1 | Absolute (Rosemount 3051CA) | Pressure range",
+  "value": "0 to 2.1",
+  "unit": "bar",
+  "source_page": 7
+ },
+ {
+  "parameter": "Pressure range (Rosemount 3051C ordering information) | Rosemount 3051C | Code 1 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 7
+ },
+ {
+  "parameter": "Pressure range (Rosemount 3051C ordering information) | Rosemount 3051C | Code 2 | Differential (Rosemount 3051CD) | Pressure range",
+  "value": "-250 to +250",
+  "unit": "inH2O",
+  "source_page": 7
+ },
+ {
+  "parameter": "Pressure range (Rosemount 3051C ordering information) | Rosemount 3051C | Code 2 | Differential (Rosemount 3051CD) | Pressure range",
+  "value": "-622 to +622",
+  "unit": "mbar",
+  "source_page": 7
+ },
+ {
+  "parameter": "Pressure range (Rosemount 3051C ordering information) | Rosemount 3051C | Code 2 | Gage (Rosemount 3051CG) | Pressure range",
+  "value": "-250 to +250",
+  "unit": "inH2O",
+  "source_page": 7
+ },
+ {
+  "parameter": "Pressure range (Rosemount 3051C ordering information) | Rosemount 3051C | Code 2 | Gage (Rosemount 3051CG) | Pressure range",
+  "value": "-622 to +622",
+  "unit": "mbar",
+  "source_page": 7
+ },
+ {
+  "parameter": "Pressure range (Rosemount 3051C ordering information) | Rosemount 3051C | Code 2 | Absolute (Rosemount 3051CA) | Pressure range",
+  "value": "0 to 150",
+  "unit": "psia",
+  "source_page": 7
+ },
+ {
+  "parameter": "Pressure range (Rosemount 3051C ordering information) | Rosemount 3051C | Code 2 | Absolute (Rosemount 3051CA) | Pressure range",
+  "value": "0 to 10.3",
+  "unit": "bar",
+  "source_page": 7
+ },
+ {
+  "parameter": "Pressure range (Rosemount 3051C ordering information) | Rosemount 3051C | Code 2 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 7
+ },
+ {
+  "parameter": "Pressure range (Rosemount 3051C ordering information) | Rosemount 3051C | Code 3 | Differential (Rosemount 3051CD) | Pressure range",
+  "value": "-1000 to +1000",
+  "unit": "inH2O",
+  "source_page": 7
+ },
+ {
+  "parameter": "Pressure range (Rosemount 3051C ordering information) | Rosemount 3051C | Code 3 | Differential (Rosemount 3051CD) | Pressure range",
+  "value": "-2.5 to +2.5",
+  "unit": "bar",
+  "source_page": 7
+ },
+ {
+  "parameter": "Pressure range (Rosemount 3051C ordering information) | Rosemount 3051C | Code 3 | Gage (Rosemount 3051CG) | Pressure range",
+  "value": "-393 to +1000",
+  "unit": "inH2O",
+  "source_page": 7
+ },
+ {
+  "parameter": "Pressure range (Rosemount 3051C ordering information) | Rosemount 3051C | Code 3 | Gage (Rosemount 3051CG) | Pressure range",
+  "value": "-0.97 to +2.5",
+  "unit": "bar",
+  "source_page": 7
+ },
+ {
+  "parameter": "Pressure range (Rosemount 3051C ordering information) | Rosemount 3051C | Code 3 | Absolute (Rosemount 3051CA) | Pressure range",
+  "value": "0 to 800",
+  "unit": "psia",
+  "source_page": 7
+ },
+ {
+  "parameter": "Pressure range (Rosemount 3051C ordering information) | Rosemount 3051C | Code 3 | Absolute (Rosemount 3051CA) | Pressure range",
+  "value": "0 to 55.2",
+  "unit": "bar",
+  "source_page": 7
+ },
+ {
+  "parameter": "Pressure range (Rosemount 3051C ordering information) | Rosemount 3051C | Code 3 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 7
+ },
+ {
+  "parameter": "Pressure range (Rosemount 3051C ordering information) | Rosemount 3051C | Code 4 | Differential (Rosemount 3051CD) | Pressure range",
+  "value": "-300 to +300",
+  "unit": "psi",
+  "source_page": 7
+ },
+ {
+  "parameter": "Pressure range (Rosemount 3051C ordering information) | Rosemount 3051C | Code 4 | Differential (Rosemount 3051CD) | Pressure range",
+  "value": "-20.7 to +20.7",
+  "unit": "bar",
+  "source_page": 7
+ },
+ {
+  "parameter": "Pressure range (Rosemount 3051C ordering information) | Rosemount 3051C | Code 4 | Gage (Rosemount 3051CG) | Pressure range",
+  "value": "-14.2 to +300",
+  "unit": "psi",
+  "source_page": 7
+ },
+ {
+  "parameter": "Pressure range (Rosemount 3051C ordering information) | Rosemount 3051C | Code 4 | Gage (Rosemount 3051CG) | Pressure range",
+  "value": "-0.97 to +20.7",
+  "unit": "bar",
+  "source_page": 7
+ },
+ {
+  "parameter": "Pressure range (Rosemount 3051C ordering information) | Rosemount 3051C | Code 4 | Absolute (Rosemount 3051CA) | Pressure range",
+  "value": "0 to 4000",
+  "unit": "psia",
+  "source_page": 7
+ },
+ {
+  "parameter": "Pressure range (Rosemount 3051C ordering information) | Rosemount 3051C | Code 4 | Absolute (Rosemount 3051CA) | Pressure range",
+  "value": "0 to 275.8",
+  "unit": "bar",
+  "source_page": 7
+ },
+ {
+  "parameter": "Pressure range (Rosemount 3051C ordering information) | Rosemount 3051C | Code 4 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 7
+ },
+ {
+  "parameter": "Pressure range (Rosemount 3051C ordering information) | Rosemount 3051C | Code 5 | Differential (Rosemount 3051CD) | Pressure range",
+  "value": "-2000 to +2000",
+  "unit": "psi",
+  "source_page": 7
+ },
+ {
+  "parameter": "Pressure range (Rosemount 3051C ordering information) | Rosemount 3051C | Code 5 | Differential (Rosemount 3051CD) | Pressure range",
+  "value": "-137.9 to +137.9",
+  "unit": "bar",
+  "source_page": 7
+ },
+ {
+  "parameter": "Pressure range (Rosemount 3051C ordering information) | Rosemount 3051C | Code 5 | Gage (Rosemount 3051CG) | Pressure range",
+  "value": "-14.2 to +2000",
+  "unit": "psi",
+  "source_page": 7
+ },
+ {
+  "parameter": "Pressure range (Rosemount 3051C ordering information) | Rosemount 3051C | Code 5 | Gage (Rosemount 3051CG) | Pressure range",
+  "value": "-0.97 to +137.9",
+  "unit": "bar",
+  "source_page": 7
+ },
+ {
+  "parameter": "Pressure range (Rosemount 3051C ordering information) | Rosemount 3051C | Code 5 | Absolute (Rosemount 3051CA) | Pressure range",
+  "value": "N/A",
+  "unit": null,
+  "source_page": 7
+ },
+ {
+  "parameter": "Pressure range (Rosemount 3051C ordering information) | Rosemount 3051C | Code 5 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 7
+ },
+ {
+  "parameter": "Pressure range (Rosemount 3051C ordering information) | footnote 1",
+  "value": "Rosemount 3051CD0 is only available with 4-20 mA HART ® or WirelessHART ® outputs (code A and code X). For 4-20 mA HART output (code A), only transmitter flange code 0 (Alternate flange H2, H7, HJ, or HK), isolating diaphragm code 2, O-ring code A, and bolting option L4 are available. For wireless output (code X), only transmitter flange code 0 (Alternate flange H2), isolating diaphragm code 2, O-ring code A, and bolting option L4 are available.",
+  "unit": null,
+  "source_page": 7
+ },
+ {
+  "parameter": "Transmitter output (Rosemount 3051C ordering information) | Rosemount 3051C | Code A | Transmitter output",
+  "value": "4-20 mA with digital signal based on HART® Protocol",
+  "unit": null,
+  "source_page": 7
+ },
+ {
+  "parameter": "Transmitter output (Rosemount 3051C ordering information) | Rosemount 3051C | Code A | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 7
+ },
+ {
+  "parameter": "Transmitter output (Rosemount 3051C ordering information) | Rosemount 3051C | Code F | Transmitter output",
+  "value": "FOUNDATION™ Fieldbus Protocol",
+  "unit": null,
+  "source_page": 7
+ },
+ {
+  "parameter": "Transmitter output (Rosemount 3051C ordering information) | Rosemount 3051C | Code F | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 7
+ },
+ {
+  "parameter": "Transmitter output (Rosemount 3051C ordering information) | Rosemount 3051C | Code W [fn 1] | Transmitter output",
+  "value": "PROFIBUS® PA Protocol",
+  "unit": null,
+  "source_page": 7
+ },
+ {
+  "parameter": "Transmitter output (Rosemount 3051C ordering information) | Rosemount 3051C | Code W [fn 1] | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 7
+ },
+ {
+  "parameter": "Transmitter output (Rosemount 3051C ordering information) | Rosemount 3051C | Code X [fn 2] | Transmitter output",
+  "value": "Wireless (requires wireless options and engineered polymer housing)",
+  "unit": null,
+  "source_page": 7
+ },
+ {
+  "parameter": "Transmitter output (Rosemount 3051C ordering information) | Rosemount 3051C | Code X [fn 2] | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 7
+ },
+ {
+  "parameter": "Transmitter output (Rosemount 3051C ordering information) | Rosemount 3051C | Code M [fn 3] | Transmitter output",
+  "value": "Low-power, 1-5 Vdc with digital signal based on HART Protocol",
+  "unit": null,
+  "source_page": 7
+ },
+ {
+  "parameter": "Transmitter output (Rosemount 3051C ordering information) | footnote 1",
+  "value": "For local addressing and configuration, M4 (LOI) is required. Not available with product certification codes EM, IM, KM, KL, and KS.",
+  "unit": null,
+  "source_page": 7
+ },
+ {
+  "parameter": "Transmitter output (Rosemount 3051C ordering information) | footnote 2",
+  "value": "This option is only available with intrinsically safe approvals.",
+  "unit": null,
+  "source_page": 7
+ },
+ {
+  "parameter": "Transmitter output (Rosemount 3051C ordering information) | footnote 3",
+  "value": "Only available with C6, E2, E5, I5, K5, KB, EM, IM, KM, EP, and E8 product certifications.",
+  "unit": null,
+  "source_page": 7
+ },
+ {
+  "parameter": "Materials of construction (Rosemount 3051C ordering information) | Rosemount 3051C | Code 2 | Transmitter flange type",
+  "value": "Coplanar",
+  "unit": null,
+  "source_page": 8
+ },
+ {
+  "parameter": "Materials of construction (Rosemount 3051C ordering information) | Rosemount 3051C | Code 2 | Flange material",
+  "value": "SST",
+  "unit": null,
+  "source_page": 8
+ },
+ {
+  "parameter": "Materials of construction (Rosemount 3051C ordering information) | Rosemount 3051C | Code 2 | Drain/vent",
+  "value": "SST",
+  "unit": null,
+  "source_page": 8
+ },
+ {
+  "parameter": "Materials of construction (Rosemount 3051C ordering information) | Rosemount 3051C | Code 2 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 8
+ },
+ {
+  "parameter": "Materials of construction (Rosemount 3051C ordering information) | Rosemount 3051C | Code 3 [fn 1] | Transmitter flange type",
+  "value": "Coplanar",
+  "unit": null,
+  "source_page": 8
+ },
+ {
+  "parameter": "Materials of construction (Rosemount 3051C ordering information) | Rosemount 3051C | Code 3 [fn 1] | Flange material",
+  "value": "Cast C-276",
+  "unit": null,
+  "source_page": 8
+ },
+ {
+  "parameter": "Materials of construction (Rosemount 3051C ordering information) | Rosemount 3051C | Code 3 [fn 1] | Drain/vent",
+  "value": "Alloy C-276",
+  "unit": null,
+  "source_page": 8
+ },
+ {
+  "parameter": "Materials of construction (Rosemount 3051C ordering information) | Rosemount 3051C | Code 3 [fn 1] | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 8
+ },
+ {
+  "parameter": "Materials of construction (Rosemount 3051C ordering information) | Rosemount 3051C | Code 4 | Transmitter flange type",
+  "value": "Coplanar",
+  "unit": null,
+  "source_page": 8
+ },
+ {
+  "parameter": "Materials of construction (Rosemount 3051C ordering information) | Rosemount 3051C | Code 4 | Flange material",
+  "value": "Alloy 400",
+  "unit": null,
+  "source_page": 8
+ },
+ {
+  "parameter": "Materials of construction (Rosemount 3051C ordering information) | Rosemount 3051C | Code 4 | Drain/vent",
+  "value": "Alloy 400/K-500",
+  "unit": null,
+  "source_page": 8
+ },
+ {
+  "parameter": "Materials of construction (Rosemount 3051C ordering information) | Rosemount 3051C | Code 4 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 8
+ },
+ {
+  "parameter": "Materials of construction (Rosemount 3051C ordering information) | Rosemount 3051C | Code 5 | Transmitter flange type",
+  "value": "Coplanar",
+  "unit": null,
+  "source_page": 8
+ },
+ {
+  "parameter": "Materials of construction (Rosemount 3051C ordering information) | Rosemount 3051C | Code 5 | Flange material",
+  "value": "Plated CS",
+  "unit": null,
+  "source_page": 8
+ },
+ {
+  "parameter": "Materials of construction (Rosemount 3051C ordering information) | Rosemount 3051C | Code 5 | Drain/vent",
+  "value": "SST",
+  "unit": null,
+  "source_page": 8
+ },
+ {
+  "parameter": "Materials of construction (Rosemount 3051C ordering information) | Rosemount 3051C | Code 5 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 8
+ },
+ {
+  "parameter": "Materials of construction (Rosemount 3051C ordering information) | Rosemount 3051C | Code 7 [fn 1] | Transmitter flange type",
+  "value": "Coplanar",
+  "unit": null,
+  "source_page": 8
+ },
+ {
+  "parameter": "Materials of construction (Rosemount 3051C ordering information) | Rosemount 3051C | Code 7 [fn 1] | Flange material",
+  "value": "SST",
+  "unit": null,
+  "source_page": 8
+ },
+ {
+  "parameter": "Materials of construction (Rosemount 3051C ordering information) | Rosemount 3051C | Code 7 [fn 1] | Drain/vent",
+  "value": "Alloy C-276",
+  "unit": null,
+  "source_page": 8
+ },
+ {
+  "parameter": "Materials of construction (Rosemount 3051C ordering information) | Rosemount 3051C | Code 7 [fn 1] | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 8
+ },
+ {
+  "parameter": "Materials of construction (Rosemount 3051C ordering information) | Rosemount 3051C | Code 8 [fn 1] | Transmitter flange type",
+  "value": "Coplanar",
+  "unit": null,
+  "source_page": 8
+ },
+ {
+  "parameter": "Materials of construction (Rosemount 3051C ordering information) | Rosemount 3051C | Code 8 [fn 1] | Flange material",
+  "value": "Plated CS",
+  "unit": null,
+  "source_page": 8
+ },
+ {
+  "parameter": "Materials of construction (Rosemount 3051C ordering information) | Rosemount 3051C | Code 8 [fn 1] | Drain/vent",
+  "value": "Alloy C-276",
+  "unit": null,
+  "source_page": 8
+ },
+ {
+  "parameter": "Materials of construction (Rosemount 3051C ordering information) | Rosemount 3051C | Code 8 [fn 1] | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 8
+ },
+ {
+  "parameter": "Materials of construction (Rosemount 3051C ordering information) | Rosemount 3051C | Code 0 | Transmitter flange type",
+  "value": "Alternate process connection",
+  "unit": null,
+  "source_page": 8
+ },
+ {
+  "parameter": "Materials of construction (Rosemount 3051C ordering information) | Rosemount 3051C | Code 0 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 8
+ },
+ {
+  "parameter": "Materials of construction (Rosemount 3051C ordering information) | footnote 1",
+  "value": "Materials of construction comply with recommendations per NACE MR0175/ISO 15156 for sour oil field production environments. Environmental limits apply to certain materials. Consult latest standard for details. Selected materials also conform to NACE MR0103 for sour refining environments.",
+  "unit": null,
+  "source_page": 8
+ },
+ {
+  "parameter": "Isolating diaphragm (Rosemount 3051C ordering information) | Rosemount 3051C | Code 2 [fn 1] | Isolating diaphragm",
+  "value": "316L SST",
+  "unit": null,
+  "source_page": 8
+ },
+ {
+  "parameter": "Isolating diaphragm (Rosemount 3051C ordering information) | Rosemount 3051C | Code 2 [fn 1] | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 8
+ },
+ {
+  "parameter": "Isolating diaphragm (Rosemount 3051C ordering information) | Rosemount 3051C | Code 3 [fn 1] | Isolating diaphragm",
+  "value": "Alloy C-276",
+  "unit": null,
+  "source_page": 8
+ },
+ {
+  "parameter": "Isolating diaphragm (Rosemount 3051C ordering information) | Rosemount 3051C | Code 3 [fn 1] | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 8
+ },
+ {
+  "parameter": "Isolating diaphragm (Rosemount 3051C ordering information) | Rosemount 3051C | Code 4 [fn 2] | Isolating diaphragm",
+  "value": "Alloy 400",
+  "unit": null,
+  "source_page": 8
+ },
+ {
+  "parameter": "Isolating diaphragm (Rosemount 3051C ordering information) | Rosemount 3051C | Code 5 [fn 2] | Isolating diaphragm",
+  "value": "Tantalum (available on Rosemount 3051CD and CG, ranges 2-5 only; not available on Rosemount 3051CA)",
+  "unit": null,
+  "source_page": 8
+ },
+ {
+  "parameter": "Isolating diaphragm (Rosemount 3051C ordering information) | Rosemount 3051C | Code 6 [fn 2] | Isolating diaphragm",
+  "value": "Gold-plated alloy 400 (use in combination with O-ring option code B)",
+  "unit": null,
+  "source_page": 8
+ },
+ {
+  "parameter": "Isolating diaphragm (Rosemount 3051C ordering information) | Rosemount 3051C | Code 7 [fn 2] | Isolating diaphragm",
+  "value": "Gold-plated 316 SST",
+  "unit": null,
+  "source_page": 8
+ },
+ {
+  "parameter": "Isolating diaphragm (Rosemount 3051C ordering information) | footnote 1",
+  "value": "Materials of construction comply with recommendations per NACE MR0175/ISO 15156 for sour oil field production environments. Environmental limits apply to certain materials. Consult latest standard for details. Selected materials also conform to NACE MR0103 for sour refining environments.",
+  "unit": null,
+  "source_page": 8
+ },
+ {
+  "parameter": "Isolating diaphragm (Rosemount 3051C ordering information) | footnote 2",
+  "value": "Not available with wireless output (code X).",
+  "unit": null,
+  "source_page": 8
+ },
+ {
+  "parameter": "O-ring (Rosemount 3051C ordering information) | Rosemount 3051C | Code A | O-ring",
+  "value": "Glass-filled PTFE",
+  "unit": null,
+  "source_page": 8
+ },
+ {
+  "parameter": "O-ring (Rosemount 3051C ordering information) | Rosemount 3051C | Code A | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 8
+ },
+ {
+  "parameter": "O-ring (Rosemount 3051C ordering information) | Rosemount 3051C | Code B | O-ring",
+  "value": "Graphite-filled PTFE",
+  "unit": null,
+  "source_page": 8
+ },
+ {
+  "parameter": "O-ring (Rosemount 3051C ordering information) | Rosemount 3051C | Code B | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 8
+ },
+ {
+  "parameter": "Sensor fill fluid (Rosemount 3051C ordering information) | Rosemount 3051C | Code 1 | Sensor fill fluid",
+  "value": "Silicone",
+  "unit": null,
+  "source_page": 8
+ },
+ {
+  "parameter": "Sensor fill fluid (Rosemount 3051C ordering information) | Rosemount 3051C | Code 1 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 8
+ },
+ {
+  "parameter": "Sensor fill fluid (Rosemount 3051C ordering information) | Rosemount 3051C | Code 2 [fn 1] | Sensor fill fluid",
+  "value": "Inert (differential and gage only)",
+  "unit": null,
+  "source_page": 8
+ },
+ {
+  "parameter": "Sensor fill fluid (Rosemount 3051C ordering information) | Rosemount 3051C | Code 2 [fn 1] | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 8
+ },
+ {
+  "parameter": "Sensor fill fluid (Rosemount 3051C ordering information) | footnote 1",
+  "value": "Not available with wireless output (code X).",
+  "unit": null,
+  "source_page": 8
+ },
+ {
+  "parameter": "Housing material (Rosemount 3051C ordering information) | Rosemount 3051C | Code A | Housing material",
+  "value": "Aluminum",
+  "unit": null,
+  "source_page": 9
+ },
+ {
+  "parameter": "Housing material (Rosemount 3051C ordering information) | Rosemount 3051C | Code A | Conduit entry size",
+  "value": "1/2-14 NPT",
+  "unit": null,
+  "source_page": 9
+ },
+ {
+  "parameter": "Housing material (Rosemount 3051C ordering information) | Rosemount 3051C | Code A | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 9
+ },
+ {
+  "parameter": "Housing material (Rosemount 3051C ordering information) | Rosemount 3051C | Code B | Housing material",
+  "value": "Aluminum",
+  "unit": null,
+  "source_page": 9
+ },
+ {
+  "parameter": "Housing material (Rosemount 3051C ordering information) | Rosemount 3051C | Code B | Conduit entry size",
+  "value": "M20 x 1.5",
+  "unit": null,
+  "source_page": 9
+ },
+ {
+  "parameter": "Housing material (Rosemount 3051C ordering information) | Rosemount 3051C | Code B | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 9
+ },
+ {
+  "parameter": "Housing material (Rosemount 3051C ordering information) | Rosemount 3051C | Code J | Housing material",
+  "value": "SST",
+  "unit": null,
+  "source_page": 9
+ },
+ {
+  "parameter": "Housing material (Rosemount 3051C ordering information) | Rosemount 3051C | Code J | Conduit entry size",
+  "value": "1/2-14 NPT",
+  "unit": null,
+  "source_page": 9
+ },
+ {
+  "parameter": "Housing material (Rosemount 3051C ordering information) | Rosemount 3051C | Code J | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 9
+ },
+ {
+  "parameter": "Housing material (Rosemount 3051C ordering information) | Rosemount 3051C | Code K | Housing material",
+  "value": "SST",
+  "unit": null,
+  "source_page": 9
+ },
+ {
+  "parameter": "Housing material (Rosemount 3051C ordering information) | Rosemount 3051C | Code K | Conduit entry size",
+  "value": "M20 x 1.5",
+  "unit": null,
+  "source_page": 9
+ },
+ {
+  "parameter": "Housing material (Rosemount 3051C ordering information) | Rosemount 3051C | Code K | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 9
+ },
+ {
+  "parameter": "Housing material (Rosemount 3051C ordering information) | Rosemount 3051C | Code P [fn 1] | Housing material",
+  "value": "Engineered polymer",
+  "unit": null,
+  "source_page": 9
+ },
+ {
+  "parameter": "Housing material (Rosemount 3051C ordering information) | Rosemount 3051C | Code P [fn 1] | Conduit entry size",
+  "value": "No conduit entries",
+  "unit": null,
+  "source_page": 9
+ },
+ {
+  "parameter": "Housing material (Rosemount 3051C ordering information) | Rosemount 3051C | Code P [fn 1] | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 9
+ },
+ {
+  "parameter": "Housing material (Rosemount 3051C ordering information) | Rosemount 3051C | Code D [fn 2] | Housing material",
+  "value": "Aluminum",
+  "unit": null,
+  "source_page": 9
+ },
+ {
+  "parameter": "Housing material (Rosemount 3051C ordering information) | Rosemount 3051C | Code D [fn 2] | Conduit entry size",
+  "value": "G1/2",
+  "unit": null,
+  "source_page": 9
+ },
+ {
+  "parameter": "Housing material (Rosemount 3051C ordering information) | Rosemount 3051C | Code M [fn 2] | Housing material",
+  "value": "SST",
+  "unit": null,
+  "source_page": 9
+ },
+ {
+  "parameter": "Housing material (Rosemount 3051C ordering information) | Rosemount 3051C | Code M [fn 2] | Conduit entry size",
+  "value": "G1/2",
+  "unit": null,
+  "source_page": 9
+ },
+ {
+  "parameter": "Housing material (Rosemount 3051C ordering information) | footnote 1",
+  "value": "Only available with wireless output (code X).",
+  "unit": null,
+  "source_page": 9
+ },
+ {
+  "parameter": "Housing material (Rosemount 3051C ordering information) | footnote 2",
+  "value": "Transmitter conduit entry will be 1/2 NPT and a 1/2 NPT to G1/2 thread adapter will be provided. These options are only available with product certifications option I1. Product certifications option IG are available with aluminum only (option D).",
+  "unit": null,
+  "source_page": 9
+ },
+ {
+  "parameter": "Wireless options (Rosemount 3051C ordering information) | Rosemount 3051C | Requirement",
+  "value": "Requires wireless output (code X) and engineered polymer housing (code P).",
+  "unit": null,
+  "source_page": 9
+ },
+ {
+  "parameter": "Wireless transmit rate, operating frequency, and protocol (Rosemount 3051C ordering information) | Rosemount 3051C | Wireless options | Code WA3 | Wireless transmit rate, operating frequency, and protocol",
+  "value": "User configurable transmit rate, 2.4 GHz WirelessHART®",
+  "unit": null,
+  "source_page": 9
+ },
+ {
+  "parameter": "Wireless transmit rate, operating frequency, and protocol (Rosemount 3051C ordering information) | Rosemount 3051C | Wireless options | Code WA3 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 9
+ },
+ {
+  "parameter": "Antenna and SmartPower™ (Rosemount 3051C ordering information) | Rosemount 3051C | Wireless options | Code WP5 | Antenna and SmartPower™",
+  "value": "Internal antenna, compatible with Green Power Module (I.S. Power Module sold separately)",
+  "unit": null,
+  "source_page": 9
+ },
+ {
+  "parameter": "Antenna and SmartPower™ (Rosemount 3051C ordering information) | Rosemount 3051C | Wireless options | Code WP5 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 9
+ },
+ {
+  "parameter": "Local wireless device access (Rosemount 3051C ordering information) | Rosemount 3051C | Code BLE [fn 1] | Local wireless device access",
+  "value": "Bluetooth® configuration and maintenance",
+  "unit": null,
+  "source_page": 9
+ },
+ {
+  "parameter": "Local wireless device access (Rosemount 3051C ordering information) | Rosemount 3051C | Code BLE [fn 1] | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 9
+ },
+ {
+  "parameter": "Local wireless device access (Rosemount 3051C ordering information) | footnote 1",
+  "value": "Requires the Graphical LCD display (code M6).",
+  "unit": null,
+  "source_page": 9
+ },
+ {
+  "parameter": "Extended product warranty (Rosemount 3051C ordering information) | Rosemount 3051C | Code WR3 | Extended product warranty",
+  "value": "3-year limited warranty",
+  "unit": null,
+  "source_page": 9
+ },
+ {
+  "parameter": "Extended product warranty (Rosemount 3051C ordering information) | Rosemount 3051C | Code WR3 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 9
+ },
+ {
+  "parameter": "Extended product warranty (Rosemount 3051C ordering information) | Rosemount 3051C | Code WR5 | Extended product warranty",
+  "value": "5-year limited warranty",
+  "unit": null,
+  "source_page": 9
+ },
+ {
+  "parameter": "Extended product warranty (Rosemount 3051C ordering information) | Rosemount 3051C | Code WR5 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 9
+ },
+ {
+  "parameter": "Plantweb™ control functionality (Rosemount 3051C ordering information) | Rosemount 3051C | Code A01 | Plantweb™ control functionality",
+  "value": "FOUNDATION™ Fieldbus control function block suite",
+  "unit": null,
+  "source_page": 9
+ },
+ {
+  "parameter": "Plantweb™ control functionality (Rosemount 3051C ordering information) | Rosemount 3051C | Code A01 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 9
+ },
+ {
+  "parameter": "Plantweb™ diagnostic functionality (Rosemount 3051C ordering information) | Rosemount 3051C | Code DA0 [fn 1] | Plantweb™ diagnostic functionality",
+  "value": "Loop Integrity diagnostic",
+  "unit": null,
+  "source_page": 10
+ },
+ {
+  "parameter": "Plantweb™ diagnostic functionality (Rosemount 3051C ordering information) | Rosemount 3051C | Code DA0 [fn 1] | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 10
+ },
+ {
+  "parameter": "Plantweb™ diagnostic functionality (Rosemount 3051C ordering information) | Rosemount 3051C | Code DA1 [fn 2] | Plantweb™ diagnostic functionality",
+  "value": "Loop Integrity and Plugged Impulse Line diagnostics",
+  "unit": null,
+  "source_page": 10
+ },
+ {
+  "parameter": "Plantweb™ diagnostic functionality (Rosemount 3051C ordering information) | Rosemount 3051C | Code DA1 [fn 2] | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 10
+ },
+ {
+  "parameter": "Plantweb™ diagnostic functionality (Rosemount 3051C ordering information) | Rosemount 3051C | Code D01 | Plantweb™ diagnostic functionality",
+  "value": "FOUNDATION™ Fieldbus Diagnostics Suite",
+  "unit": null,
+  "source_page": 10
+ },
+ {
+  "parameter": "Plantweb™ diagnostic functionality (Rosemount 3051C ordering information) | Rosemount 3051C | Code D01 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 10
+ },
+ {
+  "parameter": "Plantweb™ diagnostic functionality (Rosemount 3051C ordering information) | footnote 1",
+  "value": "Only available with 4-20 mA HART® protocol (code A).",
+  "unit": null,
+  "source_page": 10
+ },
+ {
+  "parameter": "Plantweb™ diagnostic functionality (Rosemount 3051C ordering information) | footnote 2",
+  "value": "Only available with 4-20 mA HART (code A) and low power (code M) output codes. With low power output code, only the Plugged Impulse Line Diagnostic is included.",
+  "unit": null,
+  "source_page": 10
+ },
+ {
+  "parameter": "Alternate flange (Rosemount 3051C ordering information) | Rosemount 3051C | Requirement",
+  "value": "The alternate flange option requires the 0 code in materials of construction for alternate process connection.",
+  "unit": null,
+  "source_page": 10
+ },
+ {
+  "parameter": "Alternate flange (Rosemount 3051C ordering information) | Rosemount 3051C | Code H2 | Alternate flange",
+  "value": "Traditional flange, 316 SST, SST drain/vent",
+  "unit": null,
+  "source_page": 10
+ },
+ {
+  "parameter": "Alternate flange (Rosemount 3051C ordering information) | Rosemount 3051C | Code H2 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 10
+ },
+ {
+  "parameter": "Alternate flange (Rosemount 3051C ordering information) | Rosemount 3051C | Code H3 [fn 1] | Alternate flange",
+  "value": "Traditional flange, alloy C, alloy C-276 drain/vent",
+  "unit": null,
+  "source_page": 10
+ },
+ {
+  "parameter": "Alternate flange (Rosemount 3051C ordering information) | Rosemount 3051C | Code H3 [fn 1] | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 10
+ },
+ {
+  "parameter": "Alternate flange (Rosemount 3051C ordering information) | Rosemount 3051C | Code H4 | Alternate flange",
+  "value": "Traditional flange, cast alloy 400, alloy 400/K-500 drain/vent",
+  "unit": null,
+  "source_page": 10
+ },
+ {
+  "parameter": "Alternate flange (Rosemount 3051C ordering information) | Rosemount 3051C | Code H4 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 10
+ },
+ {
+  "parameter": "Alternate flange (Rosemount 3051C ordering information) | Rosemount 3051C | Code H7 [fn 1] | Alternate flange",
+  "value": "Traditional flange, 316 SST, alloy C-276 drain/vent",
+  "unit": null,
+  "source_page": 10
+ },
+ {
+  "parameter": "Alternate flange (Rosemount 3051C ordering information) | Rosemount 3051C | Code H7 [fn 1] | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 10
+ },
+ {
+  "parameter": "Alternate flange (Rosemount 3051C ordering information) | Rosemount 3051C | Code HJ | Alternate flange",
+  "value": "DIN-compliant traditional flange, SST, 7/16-in. (10 mm) adapter/manifold bolting",
+  "unit": null,
+  "source_page": 10
+ },
+ {
+  "parameter": "Alternate flange (Rosemount 3051C ordering information) | Rosemount 3051C | Code HJ | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 10
+ },
+ {
+  "parameter": "Alternate flange (Rosemount 3051C ordering information) | Rosemount 3051C | Code FA | Alternate flange",
+  "value": "Level flange, SST, 2-in. (51 mm), ANSI Class 150, vertical mount 316 SST drain/vent",
+  "unit": null,
+  "source_page": 10
+ },
+ {
+  "parameter": "Alternate flange (Rosemount 3051C ordering information) | Rosemount 3051C | Code FA | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 10
+ },
+ {
+  "parameter": "Alternate flange (Rosemount 3051C ordering information) | Rosemount 3051C | Code FB | Alternate flange",
+  "value": "Level flange, SST, 2-in. (51 mm), ANSI Class 300, vertical mount 316 SST drain/vent",
+  "unit": null,
+  "source_page": 10
+ },
+ {
+  "parameter": "Alternate flange (Rosemount 3051C ordering information) | Rosemount 3051C | Code FB | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 10
+ },
+ {
+  "parameter": "Alternate flange (Rosemount 3051C ordering information) | Rosemount 3051C | Code FC | Alternate flange",
+  "value": "Level flange, SST, 3-in. (76 mm), ANSI Class 150, vertical mount 316 SST drain/vent",
+  "unit": null,
+  "source_page": 10
+ },
+ {
+  "parameter": "Alternate flange (Rosemount 3051C ordering information) | Rosemount 3051C | Code FC | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 10
+ },
+ {
+  "parameter": "Alternate flange (Rosemount 3051C ordering information) | Rosemount 3051C | Code FD | Alternate flange",
+  "value": "Level flange, SST, 3-in. (76 mm), ANSI Class 300, vertical mount 316 SST drain/vent",
+  "unit": null,
+  "source_page": 10
+ },
+ {
+  "parameter": "Alternate flange (Rosemount 3051C ordering information) | Rosemount 3051C | Code FD | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 10
+ },
+ {
+  "parameter": "Alternate flange (Rosemount 3051C ordering information) | Rosemount 3051C | Code FP | Alternate flange",
+  "value": "DIN level flange, SST, DN 50, PN 40, vertical mount 316 SST drain/vent",
+  "unit": null,
+  "source_page": 10
+ },
+ {
+  "parameter": "Alternate flange (Rosemount 3051C ordering information) | Rosemount 3051C | Code FP | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 10
+ },
+ {
+  "parameter": "Alternate flange (Rosemount 3051C ordering information) | Rosemount 3051C | Code FQ | Alternate flange",
+  "value": "DIN level flange, SST, DN 80, PN 40, vertical mount 316 SST drain/vent",
+  "unit": null,
+  "source_page": 10
+ },
+ {
+  "parameter": "Alternate flange (Rosemount 3051C ordering information) | Rosemount 3051C | Code FQ | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 10
+ },
+ {
+  "parameter": "Alternate flange (Rosemount 3051C ordering information) | Rosemount 3051C | Code HK [fn 2] | Alternate flange",
+  "value": "DIN compliant traditional flange, SST, 0.40-in. (10 mm) adapter/manifold bolting 316 SST",
+  "unit": null,
+  "source_page": 10
+ },
+ {
+  "parameter": "Alternate flange (Rosemount 3051C ordering information) | Rosemount 3051C | Code HL | Alternate flange",
+  "value": "DIN compliant traditional flange, SST, 0.50-in. (12 mm) adapter/manifold bolting 316 SST",
+  "unit": null,
+  "source_page": 10
+ },
+ {
+  "parameter": "Alternate flange (Rosemount 3051C ordering information) | footnote 1",
+  "value": "Materials of construction comply with recommendations per NACE MR0175/ISO 15156 for sour oil field production environments. Environmental limits apply to certain materials. Consult latest standard for details. Selected materials also conform to NACE MR0103 for sour refining environments.",
+  "unit": null,
+  "source_page": 10
+ },
+ {
+  "parameter": "Alternate flange (Rosemount 3051C ordering information) | footnote 2",
+  "value": "Not valid with option code P9 for 4500 static pressure.",
+  "unit": null,
+  "source_page": 10
+ },
+ {
+  "parameter": "Manifold assembly (Rosemount 3051C ordering information) | Rosemount 3051C | Requirement",
+  "value": "\"Assemble-to\" items are specified separately and require a completed model number.",
+  "unit": null,
+  "source_page": 10
+ },
+ {
+  "parameter": "Manifold assembly (Rosemount 3051C ordering information) | Rosemount 3051C | Code S5 | Manifold assembly",
+  "value": "Assemble to Rosemount 305 Integral Manifold",
+  "unit": null,
+  "source_page": 10
+ },
+ {
+  "parameter": "Manifold assembly (Rosemount 3051C ordering information) | Rosemount 3051C | Code S5 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 10
+ },
+ {
+  "parameter": "Manifold assembly (Rosemount 3051C ordering information) | Rosemount 3051C | Code S6 | Manifold assembly",
+  "value": "Assemble to Rosemount 304 Manifold or Connection System",
+  "unit": null,
+  "source_page": 10
+ },
+ {
+  "parameter": "Manifold assembly (Rosemount 3051C ordering information) | Rosemount 3051C | Code S6 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 10
+ },
+ {
+  "parameter": "Integral mount primary element (Rosemount 3051C ordering information) | Rosemount 3051C | Limitation",
+  "value": "Not valid with option code P9 for 4500 static pressure.",
+  "unit": null,
+  "source_page": 11
+ },
+ {
+  "parameter": "Integral mount primary element (Rosemount 3051C ordering information) | Rosemount 3051C | Requirement",
+  "value": "\"Assemble-to\" items are specified separately and require a completed model number.",
+  "unit": null,
+  "source_page": 11
+ },
+ {
+  "parameter": "Integral mount primary element (Rosemount 3051C ordering information) | Rosemount 3051C | Code S3 | Integral mount primary element",
+  "value": "Assemble to Rosemount 405 Compact Orifice Plate",
+  "unit": null,
+  "source_page": 11
+ },
+ {
+  "parameter": "Integral mount primary element (Rosemount 3051C ordering information) | Rosemount 3051C | Code S3 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 11
+ },
+ {
+  "parameter": "Integral mount primary element (Rosemount 3051C ordering information) | Rosemount 3051C | Code S4 [fn 1] | Integral mount primary element",
+  "value": "Assemble to Rosemount Annubar™ or Rosemount 1195 Integral Orifice",
+  "unit": null,
+  "source_page": 11
+ },
+ {
+  "parameter": "Integral mount primary element (Rosemount 3051C ordering information) | Rosemount 3051C | Code S4 [fn 1] | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 11
+ },
+ {
+  "parameter": "Integral mount primary element (Rosemount 3051C ordering information) | footnote 1",
+  "value": "Transmitter flange limited to coplanar (option codes 2, 3, 5, 7, or 8) or traditional (option codes H2, H3, or H7).",
+  "unit": null,
+  "source_page": 11
+ },
+ {
+  "parameter": "Seal assemblies (Rosemount 3051C ordering information) | Rosemount 3051C | Requirement",
+  "value": "\"Assemble-to\" items are specified separately and require a completed model number.",
+  "unit": null,
+  "source_page": 11
+ },
+ {
+  "parameter": "Seal assemblies (Rosemount 3051C ordering information) | Rosemount 3051C | Code S1 [fn 1] | Seal assemblies",
+  "value": "Assemble to one Rosemount seal",
+  "unit": null,
+  "source_page": 11
+ },
+ {
+  "parameter": "Seal assemblies (Rosemount 3051C ordering information) | Rosemount 3051C | Code S1 [fn 1] | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 11
+ },
+ {
+  "parameter": "Seal assemblies (Rosemount 3051C ordering information) | Rosemount 3051C | Code S2 [fn 2] | Seal assemblies",
+  "value": "Assemble to two Rosemount seals",
+  "unit": null,
+  "source_page": 11
+ },
+ {
+  "parameter": "Seal assemblies (Rosemount 3051C ordering information) | Rosemount 3051C | Code S2 [fn 2] | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 11
+ },
+ {
+  "parameter": "Seal assemblies (Rosemount 3051C ordering information) | footnote 1",
+  "value": "Not valid with option code D9 for RC1/2 adapters.",
+  "unit": null,
+  "source_page": 11
+ },
+ {
+  "parameter": "Seal assemblies (Rosemount 3051C ordering information) | footnote 2",
+  "value": "Not valid for option codes DF and D9 for adapters.",
+  "unit": null,
+  "source_page": 11
+ },
+ {
+  "parameter": "Mounting bracket (Rosemount 3051C ordering information) | Rosemount 3051C | Note",
+  "value": "Panel mounting bolts are not supplied.",
+  "unit": null,
+  "source_page": 11
+ },
+ {
+  "parameter": "Mounting bracket (Rosemount 3051C ordering information) | Rosemount 3051C | Code B4 | Mounting bracket",
+  "value": "Coplanar flange bracket, all SST, 2-in. (51 mm) pipe and panel",
+  "unit": null,
+  "source_page": 11
+ },
+ {
+  "parameter": "Mounting bracket (Rosemount 3051C ordering information) | Rosemount 3051C | Code B4 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 11
+ },
+ {
+  "parameter": "Mounting bracket (Rosemount 3051C ordering information) | Rosemount 3051C | Code B1 | Mounting bracket",
+  "value": "Traditional flange bracket, CS, 2-in. (51 mm) pipe",
+  "unit": null,
+  "source_page": 11
+ },
+ {
+  "parameter": "Mounting bracket (Rosemount 3051C ordering information) | Rosemount 3051C | Code B1 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 11
+ },
+ {
+  "parameter": "Mounting bracket (Rosemount 3051C ordering information) | Rosemount 3051C | Code B2 | Mounting bracket",
+  "value": "Traditional flange bracket, CS, panel",
+  "unit": null,
+  "source_page": 11
+ },
+ {
+  "parameter": "Mounting bracket (Rosemount 3051C ordering information) | Rosemount 3051C | Code B2 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 11
+ },
+ {
+  "parameter": "Mounting bracket (Rosemount 3051C ordering information) | Rosemount 3051C | Code B3 | Mounting bracket",
+  "value": "Traditional flange flat bracket, CS, 2-in. (51 mm) pipe",
+  "unit": null,
+  "source_page": 11
+ },
+ {
+  "parameter": "Mounting bracket (Rosemount 3051C ordering information) | Rosemount 3051C | Code B3 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 11
+ },
+ {
+  "parameter": "Mounting bracket (Rosemount 3051C ordering information) | Rosemount 3051C | Code B7 | Mounting bracket",
+  "value": "Traditional flange bracket, B1 with SST bolts",
+  "unit": null,
+  "source_page": 11
+ },
+ {
+  "parameter": "Mounting bracket (Rosemount 3051C ordering information) | Rosemount 3051C | Code B7 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 11
+ },
+ {
+  "parameter": "Mounting bracket (Rosemount 3051C ordering information) | Rosemount 3051C | Code B8 | Mounting bracket",
+  "value": "Traditional flange bracket, B2 with SST bolts",
+  "unit": null,
+  "source_page": 11
+ },
+ {
+  "parameter": "Mounting bracket (Rosemount 3051C ordering information) | Rosemount 3051C | Code B8 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 11
+ },
+ {
+  "parameter": "Mounting bracket (Rosemount 3051C ordering information) | Rosemount 3051C | Code B9 | Mounting bracket",
+  "value": "Traditional flange bracket, B3 with SST bolts",
+  "unit": null,
+  "source_page": 11
+ },
+ {
+  "parameter": "Mounting bracket (Rosemount 3051C ordering information) | Rosemount 3051C | Code B9 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 11
+ },
+ {
+  "parameter": "Mounting bracket (Rosemount 3051C ordering information) | Rosemount 3051C | Code BA | Mounting bracket",
+  "value": "Traditional flange bracket, B1, all SST",
+  "unit": null,
+  "source_page": 11
+ },
+ {
+  "parameter": "Mounting bracket (Rosemount 3051C ordering information) | Rosemount 3051C | Code BA | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 11
+ },
+ {
+  "parameter": "Mounting bracket (Rosemount 3051C ordering information) | Rosemount 3051C | Code BC | Mounting bracket",
+  "value": "Traditional flange bracket, B3, all SST",
+  "unit": null,
+  "source_page": 11
+ },
+ {
+  "parameter": "Mounting bracket (Rosemount 3051C ordering information) | Rosemount 3051C | Code BC | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 11
+ },
+ {
+  "parameter": "Mounting bracket (Rosemount 3051C ordering information) | Rosemount 3051C | Code BE | Mounting bracket",
+  "value": "316SST B4 bracket with 316SST bolts",
+  "unit": null,
+  "source_page": 11
+ },
+ {
+  "parameter": "Product certifications (Rosemount 3051C ordering information) | Rosemount 3051C | Code E8 | Product certifications",
+  "value": "ATEX Flameproof",
+  "unit": null,
+  "source_page": 12
+ },
+ {
+  "parameter": "Product certifications (Rosemount 3051C ordering information) | Rosemount 3051C | Code E8 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 12
+ },
+ {
+  "parameter": "Product certifications (Rosemount 3051C ordering information) | Rosemount 3051C | Code I1 [fn 1] | Product certifications",
+  "value": "ATEX Intrinsic Safety",
+  "unit": null,
+  "source_page": 12
+ },
+ {
+  "parameter": "Product certifications (Rosemount 3051C ordering information) | Rosemount 3051C | Code I1 [fn 1] | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 12
+ },
+ {
+  "parameter": "Product certifications (Rosemount 3051C ordering information) | Rosemount 3051C | Code IA | Product certifications",
+  "value": "ATEX FISCO Intrinsic Safety; for FOUNDATION™ Fieldbus or PROFIBUS® PA Protocol only",
+  "unit": null,
+  "source_page": 12
+ },
+ {
+  "parameter": "Product certifications (Rosemount 3051C ordering information) | Rosemount 3051C | Code IA | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 12
+ },
+ {
+  "parameter": "Product certifications (Rosemount 3051C ordering information) | Rosemount 3051C | Code N1 | Product certifications",
+  "value": "ATEX Type n Certification",
+  "unit": null,
+  "source_page": 12
+ },
+ {
+  "parameter": "Product certifications (Rosemount 3051C ordering information) | Rosemount 3051C | Code N1 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 12
+ },
+ {
+  "parameter": "Product certifications (Rosemount 3051C ordering information) | Rosemount 3051C | Code K8 | Product certifications",
+  "value": "ATEX Flameproof, Intrinsic Safety, Type n, Dust (combination of E8, I1, and N1)",
+  "unit": null,
+  "source_page": 12
+ },
+ {
+  "parameter": "Product certifications (Rosemount 3051C ordering information) | Rosemount 3051C | Code K8 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 12
+ },
+ {
+  "parameter": "Product certifications (Rosemount 3051C ordering information) | Rosemount 3051C | Code E4 [fn 2] | Product certifications",
+  "value": "Japan Flameproof",
+  "unit": null,
+  "source_page": 12
+ },
+ {
+  "parameter": "Product certifications (Rosemount 3051C ordering information) | Rosemount 3051C | Code E4 [fn 2] | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 12
+ },
+ {
+  "parameter": "Product certifications (Rosemount 3051C ordering information) | Rosemount 3051C | Code E5 | Product certifications",
+  "value": "USA Explosion-proof, Dust Ignition-proof",
+  "unit": null,
+  "source_page": 12
+ },
+ {
+  "parameter": "Product certifications (Rosemount 3051C ordering information) | Rosemount 3051C | Code E5 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 12
+ },
+ {
+  "parameter": "Product certifications (Rosemount 3051C ordering information) | Rosemount 3051C | Code I5 [fn 3] | Product certifications",
+  "value": "USA Intrinsically Safe, Non-incendive",
+  "unit": null,
+  "source_page": 12
+ },
+ {
+  "parameter": "Product certifications (Rosemount 3051C ordering information) | Rosemount 3051C | Code I5 [fn 3] | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 12
+ },
+ {
+  "parameter": "Product certifications (Rosemount 3051C ordering information) | Rosemount 3051C | Code K5 | Product certifications",
+  "value": "USA Explosion-proof, Dust Ignition-proof, Intrinsically Safe, and Division 2",
+  "unit": null,
+  "source_page": 12
+ },
+ {
+  "parameter": "Product certifications (Rosemount 3051C ordering information) | Rosemount 3051C | Code K5 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 12
+ },
+ {
+  "parameter": "Product certifications (Rosemount 3051C ordering information) | Rosemount 3051C | Code E6 | Product certifications",
+  "value": "Canada Explosion-proof, Dust Ignition-proof, Division 2",
+  "unit": null,
+  "source_page": 12
+ },
+ {
+  "parameter": "Product certifications (Rosemount 3051C ordering information) | Rosemount 3051C | Code E6 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 12
+ },
+ {
+  "parameter": "Product certifications (Rosemount 3051C ordering information) | Rosemount 3051C | Code I6 | Product certifications",
+  "value": "Canada Intrinsic Safety",
+  "unit": null,
+  "source_page": 12
+ },
+ {
+  "parameter": "Product certifications (Rosemount 3051C ordering information) | Rosemount 3051C | Code I6 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 12
+ },
+ {
+  "parameter": "Product certifications (Rosemount 3051C ordering information) | Rosemount 3051C | Code C6 | Product certifications",
+  "value": "Canada Explosion-proof, Dust Ignition-proof, Intrinsically Safe, and Division 2",
+  "unit": null,
+  "source_page": 12
+ },
+ {
+  "parameter": "Product certifications (Rosemount 3051C ordering information) | Rosemount 3051C | Code C6 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 12
+ },
+ {
+  "parameter": "Product certifications (Rosemount 3051C ordering information) | Rosemount 3051C | Code K6 | Product certifications",
+  "value": "Canada and ATEX Explosion-proof, Intrinsically Safe, and Division 2 (combination of C6, E8, and I1)",
+  "unit": null,
+  "source_page": 12
+ },
+ {
+  "parameter": "Product certifications (Rosemount 3051C ordering information) | Rosemount 3051C | Code K6 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 12
+ },
+ {
+  "parameter": "Product certifications (Rosemount 3051C ordering information) | Rosemount 3051C | Code E7 | Product certifications",
+  "value": "IECEx Flameproof",
+  "unit": null,
+  "source_page": 12
+ },
+ {
+  "parameter": "Product certifications (Rosemount 3051C ordering information) | Rosemount 3051C | Code E7 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 12
+ },
+ {
+  "parameter": "Product certifications (Rosemount 3051C ordering information) | Rosemount 3051C | Code I7 | Product certifications",
+  "value": "IECEx Intrinsic Safety",
+  "unit": null,
+  "source_page": 12
+ },
+ {
+  "parameter": "Product certifications (Rosemount 3051C ordering information) | Rosemount 3051C | Code I7 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 12
+ },
+ {
+  "parameter": "Product certifications (Rosemount 3051C ordering information) | Rosemount 3051C | Code N7 | Product certifications",
+  "value": "IECEx Type n Certification",
+  "unit": null,
+  "source_page": 12
+ },
+ {
+  "parameter": "Product certifications (Rosemount 3051C ordering information) | Rosemount 3051C | Code N7 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 12
+ },
+ {
+  "parameter": "Product certifications (Rosemount 3051C ordering information) | Rosemount 3051C | Code K7 | Product certifications",
+  "value": "IECEx Flameproof, Dust Ignition-proof, Intrinsic Safety, and Type n (combination of I7, N7, and E7)",
+  "unit": null,
+  "source_page": 12
+ },
+ {
+  "parameter": "Product certifications (Rosemount 3051C ordering information) | Rosemount 3051C | Code K7 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 12
+ },
+ {
+  "parameter": "Product certifications (Rosemount 3051C ordering information) | Rosemount 3051C | Code IG | Product certifications",
+  "value": "IECEx FISCO Intrinsically Safe; for FOUNDATION Fieldbus or PROFIBUS PA Protocols only",
+  "unit": null,
+  "source_page": 12
+ },
+ {
+  "parameter": "Product certifications (Rosemount 3051C ordering information) | Rosemount 3051C | Code IG | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 12
+ },
+ {
+  "parameter": "Product certifications (Rosemount 3051C ordering information) | Rosemount 3051C | Code E2 | Product certifications",
+  "value": "Brazil Flameproof",
+  "unit": null,
+  "source_page": 12
+ },
+ {
+  "parameter": "Product certifications (Rosemount 3051C ordering information) | Rosemount 3051C | Code E2 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 12
+ },
+ {
+  "parameter": "Product certifications (Rosemount 3051C ordering information) | Rosemount 3051C | Code I2 | Product certifications",
+  "value": "Brazil Intrinsic Safety",
+  "unit": null,
+  "source_page": 12
+ },
+ {
+  "parameter": "Product certifications (Rosemount 3051C ordering information) | Rosemount 3051C | Code I2 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 12
+ },
+ {
+  "parameter": "Product certifications (Rosemount 3051C ordering information) | Rosemount 3051C | Code IB | Product certifications",
+  "value": "Brazil FISCO Intrinsically Safe; for FOUNDATION Fieldbus or PROFIBUS PA Protocols only",
+  "unit": null,
+  "source_page": 12
+ },
+ {
+  "parameter": "Product certifications (Rosemount 3051C ordering information) | Rosemount 3051C | Code IB | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 12
+ },
+ {
+  "parameter": "Product certifications (Rosemount 3051C ordering information) | Rosemount 3051C | Code K2 | Product certifications",
+  "value": "Brazil Flameproof, Intrinsic Safety",
+  "unit": null,
+  "source_page": 12
+ },
+ {
+  "parameter": "Product certifications (Rosemount 3051C ordering information) | Rosemount 3051C | Code K2 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 12
+ },
+ {
+  "parameter": "Product certifications (Rosemount 3051C ordering information) | Rosemount 3051C | Code E3 | Product certifications",
+  "value": "China Flameproof",
+  "unit": null,
+  "source_page": 12
+ },
+ {
+  "parameter": "Product certifications (Rosemount 3051C ordering information) | Rosemount 3051C | Code E3 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 12
+ },
+ {
+  "parameter": "Product certifications (Rosemount 3051C ordering information) | Rosemount 3051C | Code I3 | Product certifications",
+  "value": "China Intrinsic Safety",
+  "unit": null,
+  "source_page": 12
+ },
+ {
+  "parameter": "Product certifications (Rosemount 3051C ordering information) | Rosemount 3051C | Code I3 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 12
+ },
+ {
+  "parameter": "Product certifications (Rosemount 3051C ordering information) | Rosemount 3051C | Code EM | Product certifications",
+  "value": "Technical Regulations Customs Union (EAC) Flameproof",
+  "unit": null,
+  "source_page": 12
+ },
+ {
+  "parameter": "Product certifications (Rosemount 3051C ordering information) | Rosemount 3051C | Code EM | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 12
+ },
+ {
+  "parameter": "Product certifications (Rosemount 3051C ordering information) | Rosemount 3051C | Code IM | Product certifications",
+  "value": "Technical Regulations Customs Union (EAC) Intrinsic Safety",
+  "unit": null,
+  "source_page": 12
+ },
+ {
+  "parameter": "Product certifications (Rosemount 3051C ordering information) | Rosemount 3051C | Code IM | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 12
+ },
+ {
+  "parameter": "Product certifications (Rosemount 3051C ordering information) | Rosemount 3051C | Code KM | Product certifications",
+  "value": "Technical Regulations Customs Union (EAC) Flameproof and Intrinsic Safety",
+  "unit": null,
+  "source_page": 12
+ },
+ {
+  "parameter": "Product certifications (Rosemount 3051C ordering information) | Rosemount 3051C | Code KM | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 12
+ },
+ {
+  "parameter": "Product certifications (Rosemount 3051C ordering information) | Rosemount 3051C | Code KB | Product certifications",
+  "value": "USA and Canada Explosion-proof, Dust Ignition-proof, Intrinsically Safe, and Division 2 (combination of K5 and C6)",
+  "unit": null,
+  "source_page": 12
+ },
+ {
+  "parameter": "Product certifications (Rosemount 3051C ordering information) | Rosemount 3051C | Code KB | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 12
+ },
+ {
+  "parameter": "Product certifications (Rosemount 3051C ordering information) | Rosemount 3051C | Code KD | Product certifications",
+  "value": "USA, Canada, and ATEX Explosion-proof, Intrinsically Safe (combination of K5, C6, I1, and E8)",
+  "unit": null,
+  "source_page": 12
+ },
+ {
+  "parameter": "Product certifications (Rosemount 3051C ordering information) | Rosemount 3051C | Code KD | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 12
+ },
+ {
+  "parameter": "Product certifications (Rosemount 3051C ordering information) | Rosemount 3051C | Code KL [fn 4] | Product certifications",
+  "value": "USA, Canada, IECEx, ATEX Intrinsic Safety Combination",
+  "unit": null,
+  "source_page": 12
+ },
+ {
+  "parameter": "Product certifications (Rosemount 3051C ordering information) | Rosemount 3051C | Code KL [fn 4] | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 12
+ },
+ {
+  "parameter": "Product certifications (Rosemount 3051C ordering information) | Rosemount 3051C | Code KS | Product certifications",
+  "value": "USA, Canada, IECEx, ATEX Explosion-proof, Intrinsically Safe, Dust, Non-incendive, Type N, Division 2",
+  "unit": null,
+  "source_page": 12
+ },
+ {
+  "parameter": "Product certifications (Rosemount 3051C ordering information) | Rosemount 3051C | Code KS | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 12
+ },
+ {
+  "parameter": "Product certifications (Rosemount 3051C ordering information) | Rosemount 3051C | Code EP | Product certifications",
+  "value": "Republic of Korea Flameproof",
+  "unit": null,
+  "source_page": 12
+ },
+ {
+  "parameter": "Product certifications (Rosemount 3051C ordering information) | Rosemount 3051C | Code EP | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 12
+ },
+ {
+  "parameter": "Product certifications (Rosemount 3051C ordering information) | Rosemount 3051C | Code IP | Product certifications",
+  "value": "Republic of Korea Intrinsic Safety",
+  "unit": null,
+  "source_page": 12
+ },
+ {
+  "parameter": "Product certifications (Rosemount 3051C ordering information) | Rosemount 3051C | Code IP | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 12
+ },
+ {
+  "parameter": "Product certifications (Rosemount 3051C ordering information) | Rosemount 3051C | Code KP | Product certifications",
+  "value": "Republic of Korea Flameproof, Intrinsic Safety",
+  "unit": null,
+  "source_page": 12
+ },
+ {
+  "parameter": "Product certifications (Rosemount 3051C ordering information) | Rosemount 3051C | Code KP | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 12
+ },
+ {
+  "parameter": "Product certifications (Rosemount 3051C ordering information) | Rosemount 3051C | Code EW | Product certifications",
+  "value": "India Flameproof Approval",
+  "unit": null,
+  "source_page": 12
+ },
+ {
+  "parameter": "Product certifications (Rosemount 3051C ordering information) | Rosemount 3051C | Code EW | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 12
+ },
+ {
+  "parameter": "Product certifications (Rosemount 3051C ordering information) | Rosemount 3051C | Code IW | Product certifications",
+  "value": "India Intrinsic Safety",
+  "unit": null,
+  "source_page": 12
+ },
+ {
+  "parameter": "Product certifications (Rosemount 3051C ordering information) | Rosemount 3051C | Code IW | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 12
+ },
+ {
+  "parameter": "Product certifications (Rosemount 3051C ordering information) | Rosemount 3051C | Code KW | Product certifications",
+  "value": "India Flameproof and Intrinsically Safety",
+  "unit": null,
+  "source_page": 12
+ },
+ {
+  "parameter": "Product certifications (Rosemount 3051C ordering information) | Rosemount 3051C | Code KW | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 12
+ },
+ {
+  "parameter": "Product certifications (Rosemount 3051C ordering information) | Rosemount 3051C | Code IZ | Product certifications",
+  "value": "India FISCO Intrinsic Safety",
+  "unit": null,
+  "source_page": 13
+ },
+ {
+  "parameter": "Product certifications (Rosemount 3051C ordering information) | Rosemount 3051C | Code IZ | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 13
+ },
+ {
+  "parameter": "Product certifications (Rosemount 3051C ordering information) | footnote 1",
+  "value": "Dust approval not applicable to wireless (output code X). For wireless approvals, see the Certifications section of the Rosemount 3051 Wireless Pressure Transmitters Reference Manual.",
+  "unit": null,
+  "source_page": 13
+ },
+ {
+  "parameter": "Product certifications (Rosemount 3051C ordering information) | footnote 2",
+  "value": "Only available with 4-20 mA HART® (output code A), FOUNDATION Fieldbus (output code F), or PROFIBUS PA (output code W). Only available with aluminum housing and 1/2 NPT conduit entry size (housing material code A).",
+  "unit": null,
+  "source_page": 13
+ },
+ {
+  "parameter": "Product certifications (Rosemount 3051C ordering information) | footnote 3",
+  "value": "Non-incendive certification not provided with wireless (output code X).",
+  "unit": null,
+  "source_page": 13
+ },
+ {
+  "parameter": "Product certifications (Rosemount 3051C ordering information) | footnote 4",
+  "value": "Only available with wireless (output code X).",
+  "unit": null,
+  "source_page": 13
+ },
+ {
+  "parameter": "Drinking water approval (Rosemount 3051C ordering information) | Rosemount 3051C | Limitation",
+  "value": "This approval is not available with Alloy C-276 isolator (code 3), tantalum isolator (code 5), all cast C-276 flanges, all plated carbon steel flanges, all DIN flanges, all level flanges, assemble-to manifolds (option codes S5 and S6), assemble-to seals (option codes S1 and S2), assemble-to primary elements (option codes S3 and S4), surface finish certification (option code Q16), and remote seal system report (code QZ).",
+  "unit": null,
+  "source_page": 13
+ },
+ {
+  "parameter": "Drinking water approval (Rosemount 3051C ordering information) | Rosemount 3051C | Code DW | Drinking water approval",
+  "value": "NSF drinking water approval",
+  "unit": null,
+  "source_page": 13
+ },
+ {
+  "parameter": "Drinking water approval (Rosemount 3051C ordering information) | Rosemount 3051C | Code DW | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 13
+ },
+ {
+  "parameter": "Shipboard approvals (Rosemount 3051C ordering information) | Rosemount 3051C | Limitation",
+  "value": "Not available with wireless output (code X).",
+  "unit": null,
+  "source_page": 13
+ },
+ {
+  "parameter": "Shipboard approvals (Rosemount 3051C ordering information) | Rosemount 3051C | Code SBS | Shipboard approvals",
+  "value": "American Bureau of Shipping",
+  "unit": null,
+  "source_page": 13
+ },
+ {
+  "parameter": "Shipboard approvals (Rosemount 3051C ordering information) | Rosemount 3051C | Code SBS | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 13
+ },
+ {
+  "parameter": "Shipboard approvals (Rosemount 3051C ordering information) | Rosemount 3051C | Code SBV [fn 1] | Shipboard approvals",
+  "value": "Bureau Veritas (BV)",
+  "unit": null,
+  "source_page": 13
+ },
+ {
+  "parameter": "Shipboard approvals (Rosemount 3051C ordering information) | Rosemount 3051C | Code SBV [fn 1] | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 13
+ },
+ {
+  "parameter": "Shipboard approvals (Rosemount 3051C ordering information) | Rosemount 3051C | Code SDN | Shipboard approvals",
+  "value": "Det Norske Veritas",
+  "unit": null,
+  "source_page": 13
+ },
+ {
+  "parameter": "Shipboard approvals (Rosemount 3051C ordering information) | Rosemount 3051C | Code SDN | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 13
+ },
+ {
+  "parameter": "Shipboard approvals (Rosemount 3051C ordering information) | Rosemount 3051C | Code SLL [fn 1] | Shipboard approvals",
+  "value": "Lloyds Register (LR)",
+  "unit": null,
+  "source_page": 13
+ },
+ {
+  "parameter": "Shipboard approvals (Rosemount 3051C ordering information) | Rosemount 3051C | Code SLL [fn 1] | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 13
+ },
+ {
+  "parameter": "Shipboard approvals (Rosemount 3051C ordering information) | footnote 1",
+  "value": "Only available with product certification options E7, E8, I1, I7, IA, K7, K8, KD, N1, and N7.",
+  "unit": null,
+  "source_page": 13
+ },
+ {
+  "parameter": "SST tagging (Rosemount 3051C ordering information) | Rosemount 3051C | Code Y2 | SST tagging",
+  "value": "316 SST nameplate, top tag, wire-on tag, and fasteners",
+  "unit": null,
+  "source_page": 13
+ },
+ {
+  "parameter": "Custody transfer (Rosemount 3051C ordering information) | Rosemount 3051C | Requirement",
+  "value": "The custody transfer option is only available with HART® 4-20 mA output (code A).",
+  "unit": null,
+  "source_page": 13
+ },
+ {
+  "parameter": "Custody transfer (Rosemount 3051C ordering information) | Rosemount 3051C | Code C5 | Custody transfer",
+  "value": "Measurement Canada Accuracy Approval (limited availability depending on transmitter type and range; contact an Emerson representative).",
+  "unit": null,
+  "source_page": 13
+ },
+ {
+  "parameter": "Custody transfer (Rosemount 3051C ordering information) | Rosemount 3051C | Code C5 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 13
+ },
+ {
+  "parameter": "Bolting material (Rosemount 3051C ordering information) | Rosemount 3051C | Code L4 | Bolting material",
+  "value": "Austenitic 316 SST bolts",
+  "unit": null,
+  "source_page": 13
+ },
+ {
+  "parameter": "Bolting material (Rosemount 3051C ordering information) | Rosemount 3051C | Code L4 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 13
+ },
+ {
+  "parameter": "Bolting material (Rosemount 3051C ordering information) | Rosemount 3051C | Code L5 | Bolting material",
+  "value": "ASTM A 193, grade B7M bolts",
+  "unit": null,
+  "source_page": 13
+ },
+ {
+  "parameter": "Bolting material (Rosemount 3051C ordering information) | Rosemount 3051C | Code L5 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 13
+ },
+ {
+  "parameter": "Bolting material (Rosemount 3051C ordering information) | Rosemount 3051C | Code L6 | Bolting material",
+  "value": "Alloy K-500 bolts",
+  "unit": null,
+  "source_page": 13
+ },
+ {
+  "parameter": "Bolting material (Rosemount 3051C ordering information) | Rosemount 3051C | Code L6 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 13
+ },
+ {
+  "parameter": "Display and interface options (Rosemount 3051C ordering information) | Rosemount 3051C | Code M6 [fn 1] | Display and interface options",
+  "value": "Graphical LCD display",
+  "unit": null,
+  "source_page": 14
+ },
+ {
+  "parameter": "Display and interface options (Rosemount 3051C ordering information) | Rosemount 3051C | Code M6 [fn 1] | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 14
+ },
+ {
+  "parameter": "Display and interface options (Rosemount 3051C ordering information) | Rosemount 3051C | Code M5 | Display and interface options",
+  "value": "LCD display",
+  "unit": null,
+  "source_page": 14
+ },
+ {
+  "parameter": "Display and interface options (Rosemount 3051C ordering information) | Rosemount 3051C | Code M5 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 14
+ },
+ {
+  "parameter": "Display and interface options (Rosemount 3051C ordering information) | Rosemount 3051C | Code M4 [fn 2] | Display and interface options",
+  "value": "LCD display with LOI",
+  "unit": null,
+  "source_page": 14
+ },
+ {
+  "parameter": "Display and interface options (Rosemount 3051C ordering information) | Rosemount 3051C | Code M4 [fn 2] | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 14
+ },
+ {
+  "parameter": "Display and interface options (Rosemount 3051C ordering information) | footnote 1",
+  "value": "Only available with 4-20 mA HART® output (code A).",
+  "unit": null,
+  "source_page": 14
+ },
+ {
+  "parameter": "Display and interface options (Rosemount 3051C ordering information) | footnote 2",
+  "value": "Only available with 4-20 mA HART® output (code A), Low Power (code M), and PROFIBUS®-PA (code W).",
+  "unit": null,
+  "source_page": 14
+ },
+ {
+  "parameter": "Calibration certificate (Rosemount 3051C ordering information) | Rosemount 3051C | Code Q4 | Calibration certificate",
+  "value": "Calibration certificate",
+  "unit": null,
+  "source_page": 14
+ },
+ {
+  "parameter": "Calibration certificate (Rosemount 3051C ordering information) | Rosemount 3051C | Code Q4 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 14
+ },
+ {
+  "parameter": "Calibration certificate (Rosemount 3051C ordering information) | Rosemount 3051C | Code QP | Calibration certificate",
+  "value": "Calibration certification and tamper evident seal",
+  "unit": null,
+  "source_page": 14
+ },
+ {
+  "parameter": "Calibration certificate (Rosemount 3051C ordering information) | Rosemount 3051C | Code QP | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 14
+ },
+ {
+  "parameter": "Material traceability certification (Rosemount 3051C ordering information) | Rosemount 3051C | Code Q8 | Material traceability certification",
+  "value": "Material traceability certification per EN 10204 3.1",
+  "unit": null,
+  "source_page": 14
+ },
+ {
+  "parameter": "Material traceability certification (Rosemount 3051C ordering information) | Rosemount 3051C | Code Q8 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 14
+ },
+ {
+  "parameter": "Positive material identification (PMI) (Rosemount 3051C ordering information) | Rosemount 3051C | Code Q76 | Positive material identification (PMI)",
+  "value": "PMI verification and certificate",
+  "unit": null,
+  "source_page": 14
+ },
+ {
+  "parameter": "Positive material identification (PMI) (Rosemount 3051C ordering information) | Rosemount 3051C | Code Q76 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 14
+ },
+ {
+  "parameter": "Quality certification for safety (Rosemount 3051C ordering information) | Rosemount 3051C | Requirement",
+  "value": "The quality certification for safety is only available with HART® 4-20 mA output (code A).",
+  "unit": null,
+  "source_page": 14
+ },
+ {
+  "parameter": "Quality certification for safety (Rosemount 3051C ordering information) | Rosemount 3051C | Code QT | Quality certification for safety",
+  "value": "Safety certified to IEC 61508 with certificate of FMEDA",
+  "unit": null,
+  "source_page": 14
+ },
+ {
+  "parameter": "Quality certification for safety (Rosemount 3051C ordering information) | Rosemount 3051C | Code QT | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 14
+ },
+ {
+  "parameter": "Enhanced safety (Rosemount 3051C ordering information) | Rosemount 3051C | Requirement",
+  "value": "Only available with HART® 4-20 mA output (Code A).",
+  "unit": null,
+  "source_page": 14
+ },
+ {
+  "parameter": "Enhanced safety (Rosemount 3051C ordering information) | Rosemount 3051C | Code T9 | Enhanced safety",
+  "value": "Enhanced SIS proof testing and logging",
+  "unit": null,
+  "source_page": 14
+ },
+ {
+  "parameter": "Enhanced safety (Rosemount 3051C ordering information) | Rosemount 3051C | Code T9 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 14
+ },
+ {
+  "parameter": "Configuration buttons (Rosemount 3051C ordering information) | Rosemount 3051C | Code D1 [fn 1] | Configuration buttons",
+  "value": "Quick service buttons",
+  "unit": null,
+  "source_page": 14
+ },
+ {
+  "parameter": "Configuration buttons (Rosemount 3051C ordering information) | Rosemount 3051C | Code D1 [fn 1] | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 14
+ },
+ {
+  "parameter": "Configuration buttons (Rosemount 3051C ordering information) | Rosemount 3051C | Code D4 [fn 2] | Configuration buttons",
+  "value": "Analog zero and span",
+  "unit": null,
+  "source_page": 14
+ },
+ {
+  "parameter": "Configuration buttons (Rosemount 3051C ordering information) | Rosemount 3051C | Code D4 [fn 2] | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 14
+ },
+ {
+  "parameter": "Configuration buttons (Rosemount 3051C ordering information) | Rosemount 3051C | Code DZ [fn 3] | Configuration buttons",
+  "value": "Digital zero trim",
+  "unit": null,
+  "source_page": 14
+ },
+ {
+  "parameter": "Configuration buttons (Rosemount 3051C ordering information) | Rosemount 3051C | Code DZ [fn 3] | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 14
+ },
+ {
+  "parameter": "Configuration buttons (Rosemount 3051C ordering information) | footnote 1",
+  "value": "Only available with Graphical LCD Display (code M6).",
+  "unit": null,
+  "source_page": 14
+ },
+ {
+  "parameter": "Configuration buttons (Rosemount 3051C ordering information) | footnote 2",
+  "value": "Only available with HART® 4-20 mA (output code A).",
+  "unit": null,
+  "source_page": 14
+ },
+ {
+  "parameter": "Configuration buttons (Rosemount 3051C ordering information) | footnote 3",
+  "value": "Only available with HART 4-20 mA (output code A) and wireless (output code X).",
+  "unit": null,
+  "source_page": 14
+ },
+ {
+  "parameter": "Transient protection (Rosemount 3051C ordering information) | Rosemount 3051C | Limitation",
+  "value": "The transient protection option is not available with wireless (option code X).",
+  "unit": null,
+  "source_page": 15
+ },
+ {
+  "parameter": "Transient protection (Rosemount 3051C ordering information) | Rosemount 3051C | FISCO product certifications",
+  "value": "The T1 option is not needed with FISCO Product Certifications; transient protection is included in the FISCO product certification codes IA, IB, and IE.",
+  "unit": null,
+  "source_page": 15
+ },
+ {
+  "parameter": "Transient protection (Rosemount 3051C ordering information) | Rosemount 3051C | Code T1 | Transient protection",
+  "value": "Transient protection terminal block",
+  "unit": null,
+  "source_page": 15
+ },
+ {
+  "parameter": "Transient protection (Rosemount 3051C ordering information) | Rosemount 3051C | Code T1 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 15
+ },
+ {
+  "parameter": "Software configuration (Rosemount 3051C ordering information) | Rosemount 3051C | Requirement",
+  "value": "The software configuration option is only available with HART® 4-20 mA (option code A) and wireless (option code X).",
+  "unit": null,
+  "source_page": 15
+ },
+ {
+  "parameter": "Software configuration (Rosemount 3051C ordering information) | Rosemount 3051C | Code C1 | Software configuration",
+  "value": "Custom software configuration (For wired, see the Rosemount 3051 Configuration Data Sheet. For wireless, see the Rosemount 3051 Wireless Configuration Data Sheet.)",
+  "unit": null,
+  "source_page": 15
+ },
+ {
+  "parameter": "Software configuration (Rosemount 3051C ordering information) | Rosemount 3051C | Code C1 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 15
+ },
+ {
+  "parameter": "Gauge pressure calibration (Rosemount 3051C ordering information) | Rosemount 3051C | Code C3 | Gauge pressure calibration",
+  "value": "Gauge calibration (Rosemount 3051CA only)",
+  "unit": null,
+  "source_page": 15
+ },
+ {
+  "parameter": "Gauge pressure calibration (Rosemount 3051C ordering information) | Rosemount 3051C | Code C3 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 15
+ },
+ {
+  "parameter": "Alarm levels (Rosemount 3051C ordering information) | Rosemount 3051C | Requirement",
+  "value": "The alarm levels option is only available with HART® 4-20 mA output (code A).",
+  "unit": null,
+  "source_page": 15
+ },
+ {
+  "parameter": "Alarm levels (Rosemount 3051C ordering information) | Rosemount 3051C | Code C4 | Alarm levels",
+  "value": "Analog output levels compliant with NAMUR recommendation NE 43, alarm high",
+  "unit": null,
+  "source_page": 15
+ },
+ {
+  "parameter": "Alarm levels (Rosemount 3051C ordering information) | Rosemount 3051C | Code C4 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 15
+ },
+ {
+  "parameter": "Alarm levels (Rosemount 3051C ordering information) | Rosemount 3051C | Code CN | Alarm levels",
+  "value": "Analog output levels compliant with NAMUR recommendation NE 43, alarm low",
+  "unit": null,
+  "source_page": 15
+ },
+ {
+  "parameter": "Alarm levels (Rosemount 3051C ordering information) | Rosemount 3051C | Code CN | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 15
+ },
+ {
+  "parameter": "Alarm levels (Rosemount 3051C ordering information) | Rosemount 3051C | Code CR | Alarm levels",
+  "value": "Custom alarm and saturation signal levels, high alarm (requires option code C1)",
+  "unit": null,
+  "source_page": 15
+ },
+ {
+  "parameter": "Alarm levels (Rosemount 3051C ordering information) | Rosemount 3051C | Code CR | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 15
+ },
+ {
+  "parameter": "Alarm levels (Rosemount 3051C ordering information) | Rosemount 3051C | Code CS | Alarm levels",
+  "value": "Custom alarm and saturation signal levels, low alarm (requires option code C1)",
+  "unit": null,
+  "source_page": 15
+ },
+ {
+  "parameter": "Alarm levels (Rosemount 3051C ordering information) | Rosemount 3051C | Code CS | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 15
+ },
+ {
+  "parameter": "Alarm levels (Rosemount 3051C ordering information) | Rosemount 3051C | Code CT | Alarm levels",
+  "value": "Rosemount standard low alarm",
+  "unit": null,
+  "source_page": 15
+ },
+ {
+  "parameter": "Alarm levels (Rosemount 3051C ordering information) | Rosemount 3051C | Code CT | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 15
+ },
+ {
+  "parameter": "Pressure testing (Rosemount 3051C ordering information) | Rosemount 3051C | Code P1 | Pressure testing",
+  "value": "Hydrostatic testing with certificate",
+  "unit": null,
+  "source_page": 15
+ },
+ {
+  "parameter": "Cleaning process area (Rosemount 3051C ordering information) | Rosemount 3051C | Code P2 | Cleaning process area",
+  "value": "Cleaning for special service",
+  "unit": null,
+  "source_page": 15
+ },
+ {
+  "parameter": "Cleaning process area (Rosemount 3051C ordering information) | Rosemount 3051C | Code P3 [fn 1] | Cleaning process area",
+  "value": "Cleaning for <1 ppm chlorine/fluorine",
+  "unit": null,
+  "source_page": 15
+ },
+ {
+  "parameter": "Cleaning process area (Rosemount 3051C ordering information) | footnote 1",
+  "value": "Not available with code S5.",
+  "unit": null,
+  "source_page": 15
+ },
+ {
+  "parameter": "Flange adapters (Rosemount 3051C ordering information) | Rosemount 3051C | Limitation",
+  "value": "This option is not valid with alternate process connection option codes S3, S4, S5, and S6.",
+  "unit": null,
+  "source_page": 15
+ },
+ {
+  "parameter": "Flange adapters (Rosemount 3051C ordering information) | Rosemount 3051C | Code DF | Flange adapters",
+  "value": "1/2-14 NPT flange adapter(s)",
+  "unit": null,
+  "source_page": 15
+ },
+ {
+  "parameter": "Flange adapters (Rosemount 3051C ordering information) | Rosemount 3051C | Code DF | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 15
+ },
+ {
+  "parameter": "Vent drain valves (Rosemount 3051C ordering information) | Rosemount 3051C | Code D7 | Vent drain valves",
+  "value": "Coplanar flange without drain/vent ports",
+  "unit": null,
+  "source_page": 16
+ },
+ {
+  "parameter": "Vent drain valves (Rosemount 3051C ordering information) | Rosemount 3051C | Code DC | Vent drain valves",
+  "value": "Ports left open - None",
+  "unit": null,
+  "source_page": 16
+ },
+ {
+  "parameter": "Conduit plug (Rosemount 3051C ordering information) | Rosemount 3051C | Limitation",
+  "value": "The conduit plug option is not available with wireless output (code X).",
+  "unit": null,
+  "source_page": 16
+ },
+ {
+  "parameter": "Conduit plug (Rosemount 3051C ordering information) | Rosemount 3051C | Code DO | Conduit plug",
+  "value": "316 SST conduit plug",
+  "unit": null,
+  "source_page": 16
+ },
+ {
+  "parameter": "Conduit plug (Rosemount 3051C ordering information) | Rosemount 3051C | Code DO | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 16
+ },
+ {
+  "parameter": "RC1/4 RC1/2 process connection (Rosemount 3051C ordering information) | Rosemount 3051C | Limitation",
+  "value": "This option is not available with alternate process connection, DIN flanges, and level flanges.",
+  "unit": null,
+  "source_page": 16
+ },
+ {
+  "parameter": "RC1/4 RC1/2 process connection (Rosemount 3051C ordering information) | Rosemount 3051C | Code D9 | RC1/4 RC1/2 process connection",
+  "value": "RC1/4 flange with RC1/2 flange adapter - SST",
+  "unit": null,
+  "source_page": 16
+ },
+ {
+  "parameter": "Maximum static line pressure (Rosemount 3051C ordering information) | Rosemount 3051C | Code P9 | Maximum static line pressure",
+  "value": "4500 psig (310.26 bar) static pressure limit (Rosemount 3051CD ranges 2-5 only)",
+  "unit": null,
+  "source_page": 16
+ },
+ {
+  "parameter": "Maximum static line pressure (Rosemount 3051C ordering information) | Rosemount 3051C | Code P9 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 16
+ },
+ {
+  "parameter": "Maximum static line pressure (Rosemount 3051C ordering information) | Rosemount 3051C | Code P9 | Static pressure limit",
+  "value": "4500",
+  "unit": "psig",
+  "source_page": 16
+ },
+ {
+  "parameter": "Maximum static line pressure (Rosemount 3051C ordering information) | Rosemount 3051C | Code P9 | Static pressure limit",
+  "value": "310.26",
+  "unit": "bar",
+  "source_page": 16
+ },
+ {
+  "parameter": "Maximum static line pressure (Rosemount 3051C ordering information) | Rosemount 3051C | Code P9 | Applicability",
+  "value": "Rosemount 3051CD ranges 2-5 only",
+  "unit": null,
+  "source_page": 16
+ },
+ {
+  "parameter": "Ground screw (Rosemount 3051C ordering information) | Rosemount 3051C | Limitation",
+  "value": "The ground screw option is not available with wireless output (code X).",
+  "unit": null,
+  "source_page": 16
+ },
+ {
+  "parameter": "Ground screw (Rosemount 3051C ordering information) | Rosemount 3051C | T1 option",
+  "value": "The V5 option is not needed with the T1 option; external ground screw assembly is included with the T1 option.",
+  "unit": null,
+  "source_page": 16
+ },
+ {
+  "parameter": "Ground screw (Rosemount 3051C ordering information) | Rosemount 3051C | Code V5 | Ground screw",
+  "value": "External ground screw assembly",
+  "unit": null,
+  "source_page": 16
+ },
+ {
+  "parameter": "Ground screw (Rosemount 3051C ordering information) | Rosemount 3051C | Code V5 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 16
+ },
+ {
+  "parameter": "Surface finish (Rosemount 3051C ordering information) | Rosemount 3051C | Code Q16 | Surface finish",
+  "value": "Surface finish certification for sanitary remote seals",
+  "unit": null,
+  "source_page": 16
+ },
+ {
+  "parameter": "Surface finish (Rosemount 3051C ordering information) | Rosemount 3051C | Code Q16 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 16
+ },
+ {
+  "parameter": "Total system performance reports (Rosemount 3051C ordering information) | Rosemount 3051C | Code QZ | Total system performance reports",
+  "value": "Remote seal system performance calculation report",
+  "unit": null,
+  "source_page": 16
+ },
+ {
+  "parameter": "Total system performance reports (Rosemount 3051C ordering information) | Rosemount 3051C | Code QZ | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 16
+ },
+ {
+  "parameter": "Conduit electrical connector (Rosemount 3051C ordering information) | Rosemount 3051C | Limitation",
+  "value": "The conduit electrical connector option is not available with wireless output (code X).",
+  "unit": null,
+  "source_page": 16
+ },
+ {
+  "parameter": "Conduit electrical connector (Rosemount 3051C ordering information) | Rosemount 3051C | Code GB | Conduit electrical connector",
+  "value": "ATEX Cable gland and plug, M20 x 1.5, polyamide, black",
+  "unit": null,
+  "source_page": 16
+ },
+ {
+  "parameter": "Conduit electrical connector (Rosemount 3051C ordering information) | Rosemount 3051C | Code GE | Conduit electrical connector",
+  "value": "M12, 4-pin, male connector (eurofast®)",
+  "unit": null,
+  "source_page": 16
+ },
+ {
+  "parameter": "Conduit electrical connector (Rosemount 3051C ordering information) | Rosemount 3051C | Code GE | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 16
+ },
+ {
+  "parameter": "Conduit electrical connector (Rosemount 3051C ordering information) | Rosemount 3051C | Code GM | Conduit electrical connector",
+  "value": "A size mini, 4-pin, male connector (minifast®)",
+  "unit": null,
+  "source_page": 16
+ },
+ {
+  "parameter": "Conduit electrical connector (Rosemount 3051C ordering information) | Rosemount 3051C | Code GM | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 16
+ },
+ {
+  "parameter": "NACE certificate (Rosemount 3051C ordering information) | Rosemount 3051C | Requirement",
+  "value": "Note that NACE®-compliant wetted materials are required.",
+  "unit": null,
+  "source_page": 17
+ },
+ {
+  "parameter": "NACE certificate (Rosemount 3051C ordering information) | Rosemount 3051C | Requirement",
+  "value": "Materials of construction must comply with recommendations per NACE MR0175/ISO 15156 for sour oil field production environments.",
+  "unit": null,
+  "source_page": 17
+ },
+ {
+  "parameter": "NACE certificate (Rosemount 3051C ordering information) | Rosemount 3051C | Environmental limits",
+  "value": "Environmental limits apply to certain materials. Consult the latest standard for details.",
+  "unit": null,
+  "source_page": 17
+ },
+ {
+  "parameter": "NACE certificate (Rosemount 3051C ordering information) | Rosemount 3051C | Requirement",
+  "value": "All selected materials must also conform to NACE MR0103 for sour refining environments.",
+  "unit": null,
+  "source_page": 17
+ },
+ {
+  "parameter": "NACE certificate (Rosemount 3051C ordering information) | Rosemount 3051C | Code Q15 | NACE certificate",
+  "value": "Certificate of Compliance to NACE MR0175/ISO 15156 for wetted materials",
+  "unit": null,
+  "source_page": 17
+ },
+ {
+  "parameter": "NACE certificate (Rosemount 3051C ordering information) | Rosemount 3051C | Code Q15 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 17
+ },
+ {
+  "parameter": "NACE certificate (Rosemount 3051C ordering information) | Rosemount 3051C | Code Q25 | NACE certificate",
+  "value": "Certificate of Compliance to NACE MR0103 for wetted materials",
+  "unit": null,
+  "source_page": 17
+ },
+ {
+  "parameter": "NACE certificate (Rosemount 3051C ordering information) | Rosemount 3051C | Code Q25 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 17
+ },
+ {
+  "parameter": "Enhanced software (Rosemount 3051C ordering information) | Rosemount 3051C | Function",
+  "value": "Enhanced software enables application specific configuration, expanded process alerts, and logging capabilities.",
+  "unit": null,
+  "source_page": 17
+ },
+ {
+  "parameter": "Enhanced software (Rosemount 3051C ordering information) | Rosemount 3051C | Code RK | Enhanced software",
+  "value": "Enhanced software",
+  "unit": null,
+  "source_page": 17
+ },
+ {
+  "parameter": "Enhanced software (Rosemount 3051C ordering information) | Rosemount 3051C | Code RK | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 17
+ },
+ {
+  "parameter": "Cold temperature (Rosemount 3051C ordering information) | Rosemount 3051C | Availability",
+  "value": "This option is only available for pressure ranges 1-5 with 4-20 mA HART® and FOUNDATION™ Fieldbus Protocol, and silicone sensor fill fluid.",
+  "unit": null,
+  "source_page": 17
+ },
+ {
+  "parameter": "Cold temperature (Rosemount 3051C ordering information) | Rosemount 3051C | Availability",
+  "value": "It is available with 316SST, C-276, gold plated SST isolating diaphragms, and with transmitter flange types 2, 7, and 0 (only for HJ, HK, and HL).",
+  "unit": null,
+  "source_page": 17
+ },
+ {
+  "parameter": "Cold temperature (Rosemount 3051C ordering information) | Rosemount 3051C | Limitation",
+  "value": "BR5 and BR6 are not available with the following options: DC, DF, D7, D9, GE, GM, L4, L5, L6, or P9.",
+  "unit": null,
+  "source_page": 17
+ },
+ {
+  "parameter": "Cold temperature (Rosemount 3051C ordering information) | Rosemount 3051C | Code BR5 [fn 1] | Cold temperature",
+  "value": "-58 ºF (-50 ℃) cold temperature operation",
+  "unit": null,
+  "source_page": 17
+ },
+ {
+  "parameter": "Cold temperature (Rosemount 3051C ordering information) | Rosemount 3051C | Code BR5 [fn 1] | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 17
+ },
+ {
+  "parameter": "Cold temperature (Rosemount 3051C ordering information) | Rosemount 3051C | Code BR6 [fn 2] | Cold temperature",
+  "value": "-76 °F (-60 ℃) cold temperature operation",
+  "unit": null,
+  "source_page": 17
+ },
+ {
+  "parameter": "Cold temperature (Rosemount 3051C ordering information) | Rosemount 3051C | Code BR6 [fn 2] | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 17
+ },
+ {
+  "parameter": "Cold temperature (Rosemount 3051C ordering information) | Rosemount 3051C | Code BR5 [fn 1] | Cold temperature operation",
+  "value": "-58",
+  "unit": "ºF",
+  "source_page": 17
+ },
+ {
+  "parameter": "Cold temperature (Rosemount 3051C ordering information) | Rosemount 3051C | Code BR5 [fn 1] | Cold temperature operation",
+  "value": "-50",
+  "unit": "℃",
+  "source_page": 17
+ },
+ {
+  "parameter": "Cold temperature (Rosemount 3051C ordering information) | Rosemount 3051C | Code BR6 [fn 2] | Cold temperature operation",
+  "value": "-76",
+  "unit": "°F",
+  "source_page": 17
+ },
+ {
+  "parameter": "Cold temperature (Rosemount 3051C ordering information) | Rosemount 3051C | Code BR6 [fn 2] | Cold temperature operation",
+  "value": "-60",
+  "unit": "℃",
+  "source_page": 17
+ },
+ {
+  "parameter": "Cold temperature (Rosemount 3051C ordering information) | footnote 1",
+  "value": "If Product Certification Options are required, the BR5 option is only available with approval codes C6, E2, E5, E6, E7, EM, I2, I3, I5, I6, I7, IA, IB, IM, IP, K2, K5, K7, KB, KM, and KP.",
+  "unit": null,
+  "source_page": 17
+ },
+ {
+  "parameter": "Cold temperature (Rosemount 3051C ordering information) | footnote 2",
+  "value": "If Product Certification Options are required, the BR6 option is only available with approval codes E2, E7, EM, I1, I2, I3, I6, I7, IB, IM, IP, K2, K7, and KM.",
+  "unit": null,
+  "source_page": 17
+ }
+]

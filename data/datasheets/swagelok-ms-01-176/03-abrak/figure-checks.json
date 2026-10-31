@@ -1,0 +1,1652 @@
+{
+  "summary": {
+    "figures": 38,
+    "kinds": {
+      "photo_illustration": 7,
+      "logo": 1,
+      "sectional_exploded": 14,
+      "chart": 12,
+      "dimension_drawing": 4
+    },
+    "letters": {
+      "legend": 48
+    },
+    "letters_matching_several_tables": 44,
+    "dimensions": 0,
+    "dimensions_unit_consistent": 0,
+    "dimensions_numbers_in_azure_text": 0,
+    "part_labels": 139,
+    "part_labels_only_in_figure": 22,
+    "formulas": 0,
+    "formulas_all_constants_kept": 0,
+    "formulas_plus_minus_kept": 0,
+    "formulas_url_and_span_kept": 0
+  },
+  "figures": [
+    {
+      "id": "swagelok-ms-01-176/fig-1.1",
+      "kind": "photo_illustration",
+      "letters": [],
+      "legend": {},
+      "dimensions": [],
+      "labels_elsewhere": {},
+      "formula": null
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-1.2",
+      "kind": "logo",
+      "letters": [],
+      "legend": {},
+      "dimensions": [],
+      "labels_elsewhere": {},
+      "formula": null
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-2.1",
+      "kind": "sectional_exploded",
+      "letters": [],
+      "legend": {},
+      "dimensions": [],
+      "labels_elsewhere": {
+        "O-ring seals body halves": 1,
+        "Poppet": 9,
+        "Spring": 20
+      },
+      "formula": null
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-2.2",
+      "kind": "sectional_exploded",
+      "letters": [],
+      "legend": {},
+      "dimensions": [],
+      "labels_elsewhere": {
+        "Poppet with bonded elastomer seal": 0,
+        "Poppet stop": 1,
+        "O-ring seals body halves": 0,
+        "Backup ring supports O-ring": 0
+      },
+      "formula": null
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-2.3",
+      "kind": "sectional_exploded",
+      "letters": [],
+      "legend": {},
+      "dimensions": [],
+      "labels_elsewhere": {
+        "Fully contained O-ring seal": 0
+      },
+      "formula": null
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-2.4",
+      "kind": "sectional_exploded",
+      "letters": [],
+      "legend": {},
+      "dimensions": [],
+      "labels_elsewhere": {
+        "CA Series": 16,
+        "Locking screw maintains settings": 0,
+        "Fully contained O-ring seal": 1,
+        "Adjustable spring": 0,
+        "Adjusting screw sets cracking pressure": 0
+      },
+      "formula": null
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-2.5",
+      "kind": "sectional_exploded",
+      "letters": [],
+      "legend": {},
+      "dimensions": [],
+      "labels_elsewhere": {
+        "Fully contained O-ring seal": 1,
+        "Adjustable spring": 0,
+        "Adjusting screw sets cracking pressure": 0,
+        "Locking screw maintains setting": 0
+      },
+      "formula": null
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-4.1",
+      "kind": "chart",
+      "letters": [],
+      "legend": {},
+      "dimensions": [],
+      "labels_elsewhere": {
+        "Cracking Pressure, bar": 0,
+        "Reseal Pressure, psi": 0,
+        "Reseal Pressure, bar": 0,
+        "Cracking Pressure, psi": 1,
+        "450": 2,
+        "390": 0,
+        "Back Pressure": 14
+      },
+      "formula": null
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-5.1",
+      "kind": "sectional_exploded",
+      "letters": [
+        {
+          "letter": "1",
+          "resolved_by": "legend",
+          "legend": [
+            "Inlet body"
+          ],
+          "position_name": "Inlet body",
+          "tables": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "example_headers": [
+            "1 (0.07)",
+            "1 (0.07)",
+            "1 (0.07)"
+          ]
+        },
+        {
+          "letter": "4",
+          "resolved_by": "legend",
+          "legend": [
+            "O-ring"
+          ],
+          "position_name": "O-ring",
+          "tables": [
+            8,
+            9,
+            10
+          ],
+          "example_headers": [
+            "4 O-ring",
+            "4 Spring",
+            "4 Poppet"
+          ]
+        },
+        {
+          "letter": "2",
+          "resolved_by": "legend",
+          "legend": [
+            "Inlet gasket"
+          ],
+          "position_name": "Inlet gasket (CA series)",
+          "tables": [
+            8,
+            9,
+            10
+          ],
+          "example_headers": [
+            "2 Inlet gasket (CA series)",
+            "2 Poppet",
+            "2 Insert"
+          ]
+        },
+        {
+          "letter": "5",
+          "resolved_by": "legend",
+          "legend": [
+            "Poppet"
+          ],
+          "position_name": "Poppet",
+          "tables": [
+            6,
+            8,
+            9,
+            10
+          ],
+          "example_headers": [
+            "5 (0.35)",
+            "5 Poppet",
+            "5 O-ring"
+          ]
+        },
+        {
+          "letter": "6",
+          "resolved_by": "legend",
+          "legend": [
+            "Spring"
+          ],
+          "position_name": "Spring",
+          "tables": [
+            8,
+            9,
+            10
+          ],
+          "example_headers": [
+            "6 Spring",
+            "6 Backup ring",
+            "6 Body"
+          ]
+        },
+        {
+          "letter": "11",
+          "resolved_by": "legend",
+          "legend": [
+            "Outlet body"
+          ],
+          "position_name": "Outlet body",
+          "tables": [
+            8
+          ],
+          "example_headers": [
+            "11 Outlet body"
+          ]
+        }
+      ],
+      "legend": {
+        "1": {
+          "name": "Inlet body",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "4": {
+          "name": "O-ring",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "2": {
+          "name": "Inlet gasket",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "5": {
+          "name": "Poppet",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "6": {
+          "name": "Spring",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "11": {
+          "name": "Outlet body",
+          "source": "llm",
+          "in_page_text": true
+        }
+      },
+      "dimensions": [],
+      "labels_elsewhere": {
+        "1": 860,
+        "4": 586,
+        "2": 645,
+        "5": 346,
+        "6": 390,
+        "11": 32
+      },
+      "formula": null
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-5.2",
+      "kind": "sectional_exploded",
+      "letters": [],
+      "legend": {},
+      "dimensions": [],
+      "labels_elsewhere": {},
+      "formula": null
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-5.3",
+      "kind": "sectional_exploded",
+      "letters": [],
+      "legend": {},
+      "dimensions": [],
+      "labels_elsewhere": {},
+      "formula": null
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-5.4",
+      "kind": "sectional_exploded",
+      "letters": [],
+      "legend": {},
+      "dimensions": [],
+      "labels_elsewhere": {},
+      "formula": null
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-5.5",
+      "kind": "sectional_exploded",
+      "letters": [
+        {
+          "letter": "1",
+          "resolved_by": "legend",
+          "legend": [
+            "Inlet body"
+          ],
+          "position_name": "Inlet body",
+          "tables": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "example_headers": [
+            "1 (0.07)",
+            "1 (0.07)",
+            "1 (0.07)"
+          ]
+        },
+        {
+          "letter": "2",
+          "resolved_by": "legend",
+          "legend": [
+            "Poppet"
+          ],
+          "position_name": "Inlet gasket (CA series)",
+          "tables": [
+            8,
+            9,
+            10
+          ],
+          "example_headers": [
+            "2 Inlet gasket (CA series)",
+            "2 Poppet",
+            "2 Insert"
+          ]
+        },
+        {
+          "letter": "3",
+          "resolved_by": "legend",
+          "legend": [
+            "Poppet stop"
+          ],
+          "position_name": "Insert (CA series)",
+          "tables": [
+            8,
+            9,
+            10
+          ],
+          "example_headers": [
+            "3 Insert (CA series)",
+            "3 Poppet stop",
+            "3 O-ring"
+          ]
+        },
+        {
+          "letter": "4",
+          "resolved_by": "legend",
+          "legend": [
+            "Spring"
+          ],
+          "position_name": "O-ring",
+          "tables": [
+            8,
+            9,
+            10
+          ],
+          "example_headers": [
+            "4 O-ring",
+            "4 Spring",
+            "4 Poppet"
+          ]
+        },
+        {
+          "letter": "5",
+          "resolved_by": "legend",
+          "legend": [
+            "O-ring"
+          ],
+          "position_name": "Poppet",
+          "tables": [
+            6,
+            8,
+            9,
+            10
+          ],
+          "example_headers": [
+            "5 (0.35)",
+            "5 Poppet",
+            "5 O-ring"
+          ]
+        },
+        {
+          "letter": "6",
+          "resolved_by": "legend",
+          "legend": [
+            "Backup ring"
+          ],
+          "position_name": "Spring",
+          "tables": [
+            8,
+            9,
+            10
+          ],
+          "example_headers": [
+            "6 Spring",
+            "6 Backup ring",
+            "6 Body"
+          ]
+        },
+        {
+          "letter": "7",
+          "resolved_by": "legend",
+          "legend": [
+            "Outlet body"
+          ],
+          "position_name": "Center body (CA series)",
+          "tables": [
+            8,
+            9,
+            10
+          ],
+          "example_headers": [
+            "7 Center body (CA series)",
+            "7 Outlet body",
+            "7 Adjusting screw (CPA series)"
+          ]
+        }
+      ],
+      "legend": {
+        "1": {
+          "name": "Inlet body",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "2": {
+          "name": "Poppet",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "3": {
+          "name": "Poppet stop",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "4": {
+          "name": "Spring",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "5": {
+          "name": "O-ring",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "6": {
+          "name": "Backup ring",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "7": {
+          "name": "Outlet body",
+          "source": "llm",
+          "in_page_text": true
+        }
+      },
+      "dimensions": [],
+      "labels_elsewhere": {
+        "6": 390,
+        "5": 346,
+        "7": 186,
+        "3": 461,
+        "4": 586,
+        "1": 862,
+        "2": 645
+      },
+      "formula": null
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-6.1",
+      "kind": "sectional_exploded",
+      "letters": [
+        {
+          "letter": "1",
+          "resolved_by": "legend",
+          "legend": [
+            "Insert lock screw"
+          ],
+          "position_name": "Inlet body",
+          "tables": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "example_headers": [
+            "1 (0.07)",
+            "1 (0.07)",
+            "1 (0.07)"
+          ]
+        },
+        {
+          "letter": "2",
+          "resolved_by": "legend",
+          "legend": [
+            "Insert"
+          ],
+          "position_name": "Inlet gasket (CA series)",
+          "tables": [
+            8,
+            9,
+            10
+          ],
+          "example_headers": [
+            "2 Inlet gasket (CA series)",
+            "2 Poppet",
+            "2 Insert"
+          ]
+        },
+        {
+          "letter": "3",
+          "resolved_by": "legend",
+          "legend": [
+            "O-ring"
+          ],
+          "position_name": "Insert (CA series)",
+          "tables": [
+            8,
+            9,
+            10
+          ],
+          "example_headers": [
+            "3 Insert (CA series)",
+            "3 Poppet stop",
+            "3 O-ring"
+          ]
+        },
+        {
+          "letter": "4",
+          "resolved_by": "legend",
+          "legend": [
+            "Poppet"
+          ],
+          "position_name": "O-ring",
+          "tables": [
+            8,
+            9,
+            10
+          ],
+          "example_headers": [
+            "4 O-ring",
+            "4 Spring",
+            "4 Poppet"
+          ]
+        },
+        {
+          "letter": "5",
+          "resolved_by": "legend",
+          "legend": [
+            "Spring"
+          ],
+          "position_name": "Poppet",
+          "tables": [
+            6,
+            8,
+            9,
+            10
+          ],
+          "example_headers": [
+            "5 (0.35)",
+            "5 Poppet",
+            "5 O-ring"
+          ]
+        },
+        {
+          "letter": "6",
+          "resolved_by": "legend",
+          "legend": [
+            "Body"
+          ],
+          "position_name": "Spring",
+          "tables": [
+            8,
+            9,
+            10
+          ],
+          "example_headers": [
+            "6 Spring",
+            "6 Backup ring",
+            "6 Body"
+          ]
+        }
+      ],
+      "legend": {
+        "1": {
+          "name": "Insert lock screw",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "2": {
+          "name": "Insert",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "3": {
+          "name": "O-ring",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "4": {
+          "name": "Poppet",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "5": {
+          "name": "Spring",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "6": {
+          "name": "Body",
+          "source": "llm",
+          "in_page_text": true
+        }
+      },
+      "dimensions": [],
+      "labels_elsewhere": {
+        "1": 862,
+        "2": 645,
+        "3": 461,
+        "4": 586,
+        "5": 346,
+        "6": 390
+      },
+      "formula": null
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-6.2",
+      "kind": "sectional_exploded",
+      "letters": [
+        {
+          "letter": "1",
+          "resolved_by": "legend",
+          "legend": [
+            "Insert lock screw"
+          ],
+          "position_name": "Inlet body",
+          "tables": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "example_headers": [
+            "1 (0.07)",
+            "1 (0.07)",
+            "1 (0.07)"
+          ]
+        },
+        {
+          "letter": "2",
+          "resolved_by": "legend",
+          "legend": [
+            "Insert"
+          ],
+          "position_name": "Inlet gasket (CA series)",
+          "tables": [
+            8,
+            9,
+            10
+          ],
+          "example_headers": [
+            "2 Inlet gasket (CA series)",
+            "2 Poppet",
+            "2 Insert"
+          ]
+        },
+        {
+          "letter": "3",
+          "resolved_by": "legend",
+          "legend": [
+            "O-ring"
+          ],
+          "position_name": "Insert (CA series)",
+          "tables": [
+            8,
+            9,
+            10
+          ],
+          "example_headers": [
+            "3 Insert (CA series)",
+            "3 Poppet stop",
+            "3 O-ring"
+          ]
+        },
+        {
+          "letter": "4",
+          "resolved_by": "legend",
+          "legend": [
+            "Poppet"
+          ],
+          "position_name": "O-ring",
+          "tables": [
+            8,
+            9,
+            10
+          ],
+          "example_headers": [
+            "4 O-ring",
+            "4 Spring",
+            "4 Poppet"
+          ]
+        },
+        {
+          "letter": "5",
+          "resolved_by": "legend",
+          "legend": [
+            "Spring"
+          ],
+          "position_name": "Poppet",
+          "tables": [
+            6,
+            8,
+            9,
+            10
+          ],
+          "example_headers": [
+            "5 (0.35)",
+            "5 Poppet",
+            "5 O-ring"
+          ]
+        },
+        {
+          "letter": "6",
+          "resolved_by": "legend",
+          "legend": [
+            "Body"
+          ],
+          "position_name": "Spring",
+          "tables": [
+            8,
+            9,
+            10
+          ],
+          "example_headers": [
+            "6 Spring",
+            "6 Backup ring",
+            "6 Body"
+          ]
+        },
+        {
+          "letter": "7",
+          "resolved_by": "legend",
+          "legend": [
+            "Adjusting screw"
+          ],
+          "position_name": "Center body (CA series)",
+          "tables": [
+            8,
+            9,
+            10
+          ],
+          "example_headers": [
+            "7 Center body (CA series)",
+            "7 Outlet body",
+            "7 Adjusting screw (CPA series)"
+          ]
+        },
+        {
+          "letter": "8",
+          "resolved_by": "legend",
+          "legend": [
+            "Locking screw"
+          ],
+          "position_name": "Adjusting screw (CA series)",
+          "tables": [
+            8,
+            10
+          ],
+          "example_headers": [
+            "8 Adjusting screw (CA series)",
+            "8 Locking screw (CPA series)"
+          ]
+        }
+      ],
+      "legend": {
+        "1": {
+          "name": "Insert lock screw",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "2": {
+          "name": "Insert",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "3": {
+          "name": "O-ring",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "4": {
+          "name": "Poppet",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "5": {
+          "name": "Spring",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "6": {
+          "name": "Body",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "7": {
+          "name": "Adjusting screw",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "8": {
+          "name": "Locking screw",
+          "source": "llm",
+          "in_page_text": true
+        }
+      },
+      "dimensions": [],
+      "labels_elsewhere": {
+        "1": 862,
+        "2": 645,
+        "3": 461,
+        "4": 586,
+        "6": 390,
+        "5": 346,
+        "7": 186,
+        "8": 313
+      },
+      "formula": null
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-7.1",
+      "kind": "chart",
+      "letters": [],
+      "legend": {},
+      "dimensions": [],
+      "labels_elsewhere": {
+        "Nominal Cracking Pressures": 4,
+        "2C, 6C, 12C, 16C Series": 0,
+        "4C, 8C Series": 0,
+        "1 psi (0.07 bar)": 2,
+        "10 psi (0.69 bar)": 2,
+        "25 psi (1.8 bar)": 3,
+        "Air": 19,
+        "Water": 19,
+        "2C Series": 1,
+        "4C Series": 3,
+        "6C Series": 2,
+        "8C Series": 8,
+        "Air Flow, std L/min": 8,
+        "Air Flow, std ft3/min": 8,
+        "Inlet Pressure, psig": 8,
+        "Inlet Pressure, bar": 8,
+        "Water Flow, L/min": 8,
+        "Water Flow, U.S. gal/min": 8,
+        "Pressure Drop, psi": 8,
+        "Pressure Drop, bar": 8
+      },
+      "formula": null
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-8.1",
+      "kind": "chart",
+      "letters": [],
+      "legend": {},
+      "dimensions": [],
+      "labels_elsewhere": {
+        "Air Flow, std L/min": 10,
+        "Air Flow, std ft3/min": 10,
+        "Inlet Pressure, psig": 10,
+        "Inlet Pressure, bar": 10
+      },
+      "formula": null
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-8.2",
+      "kind": "chart",
+      "letters": [],
+      "legend": {},
+      "dimensions": [],
+      "labels_elsewhere": {
+        "Air Flow, std L/min": 10,
+        "Air Flow, std ft3/min": 10,
+        "Inlet Pressure, psig": 10,
+        "Inlet Pressure, bar": 11
+      },
+      "formula": null
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-8.3",
+      "kind": "chart",
+      "letters": [],
+      "legend": {},
+      "dimensions": [],
+      "labels_elsewhere": {
+        "Water Flow, L/min": 10,
+        "Water Flow, U.S. gal/min": 10,
+        "Pressure Drop, psi": 10,
+        "Pressure Drop, bar": 10
+      },
+      "formula": null
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-8.4",
+      "kind": "chart",
+      "letters": [],
+      "legend": {},
+      "dimensions": [],
+      "labels_elsewhere": {
+        "Air Flow, std L/min": 11,
+        "Air Flow, std ft3/min": 10,
+        "Inlet Pressure, psig": 10,
+        "Inlet Pressure, bar": 10
+      },
+      "formula": null
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-8.5",
+      "kind": "chart",
+      "letters": [],
+      "legend": {},
+      "dimensions": [],
+      "labels_elsewhere": {
+        "Water Flow, L/min": 10,
+        "Water Flow, U.S. gal/min": 11,
+        "Pressure Drop, psi": 10,
+        "Pressure Drop, bar": 10
+      },
+      "formula": null
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-9.1",
+      "kind": "chart",
+      "letters": [],
+      "legend": {},
+      "dimensions": [],
+      "labels_elsewhere": {
+        "Nominal Cracking Pressures": 4,
+        "3 psi (0.21 bar)": 0,
+        "50 psi (3.5 bar)": 0,
+        "150 psi (10.4 bar)": 0,
+        "350 psi (24.2 bar)": 0,
+        "Air": 19,
+        "Water": 19,
+        "Air Flow, std L/min": 8,
+        "Air Flow, std ft3/min": 8,
+        "Inlet Pressure, psig": 8,
+        "Inlet Pressure, bar": 8,
+        "Water Flow, L/min": 8,
+        "Water Flow, U.S. gal/min": 8,
+        "Pressure Drop, psi": 8,
+        "Pressure Drop, bar": 8
+      },
+      "formula": null
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-10.1",
+      "kind": "chart",
+      "letters": [],
+      "legend": {},
+      "dimensions": [],
+      "labels_elsewhere": {
+        "Air Flow, std L/min": 11,
+        "Air Flow, std ft3/min": 10,
+        "Inlet Pressure, psig": 10,
+        "Inlet Pressure, bar": 10
+      },
+      "formula": null
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-10.2",
+      "kind": "chart",
+      "letters": [],
+      "legend": {},
+      "dimensions": [],
+      "labels_elsewhere": {
+        "Water Flow, L/min": 10,
+        "Water Flow, U.S. gal/min": 10,
+        "Pressure Drop, psi": 10,
+        "Pressure Drop, bar": 10
+      },
+      "formula": null
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-10.3",
+      "kind": "chart",
+      "letters": [],
+      "legend": {},
+      "dimensions": [],
+      "labels_elsewhere": {
+        "Air Flow, std L/min": 11,
+        "Air Flow, std ft3/min": 10,
+        "Inlet Pressure, psig": 10,
+        "Inlet Pressure, bar": 10
+      },
+      "formula": null
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-10.4",
+      "kind": "chart",
+      "letters": [],
+      "legend": {},
+      "dimensions": [],
+      "labels_elsewhere": {
+        "Water Flow, L/min": 11,
+        "Water Flow, U.S. gal/min": 10,
+        "Pressure Drop, psi": 10,
+        "Pressure Drop, bar": 10
+      },
+      "formula": null
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-11.1",
+      "kind": "dimension_drawing",
+      "letters": [
+        {
+          "letter": "A",
+          "resolved_by": "legend",
+          "legend": [
+            "Check valves are designed for directional flow control only. Swagelok check valves should never be used as code safety relief devices."
+          ],
+          "position_name": null,
+          "tables": [
+            11,
+            14,
+            16
+          ],
+          "example_headers": [
+            "A",
+            "A",
+            "A"
+          ]
+        },
+        {
+          "letter": "B",
+          "resolved_by": "legend",
+          "legend": [
+            "flat"
+          ],
+          "position_name": null,
+          "tables": [
+            11,
+            14
+          ],
+          "example_headers": [
+            "B",
+            "B"
+          ]
+        },
+        {
+          "letter": "C",
+          "resolved_by": "legend",
+          "legend": [
+            "flat"
+          ],
+          "position_name": null,
+          "tables": [
+            11,
+            20
+          ],
+          "example_headers": [
+            "C",
+            "2C, 4C Series",
+            "6C, 8C Series"
+          ]
+        }
+      ],
+      "legend": {
+        "A": {
+          "name": "Check valves are designed for directional flow control only. Swagelok check valves should never be used as code safety relief devices.",
+          "source": "page_text",
+          "in_page_text": true
+        },
+        "B": {
+          "name": "flat",
+          "source": "page_text",
+          "in_page_text": true
+        },
+        "C": {
+          "name": "flat",
+          "source": "page_text",
+          "in_page_text": true
+        }
+      },
+      "dimensions": [],
+      "labels_elsewhere": {
+        "A": 1847,
+        "B flat": 2,
+        "C flat": 1
+      },
+      "formula": null
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-11.2",
+      "kind": "dimension_drawing",
+      "letters": [
+        {
+          "letter": "A",
+          "resolved_by": "legend",
+          "legend": [
+            "Check valves are designed for directional flow control only. Swagelok check valves should never be used as code safety relief devices."
+          ],
+          "position_name": null,
+          "tables": [
+            11,
+            14,
+            16
+          ],
+          "example_headers": [
+            "A",
+            "A",
+            "A"
+          ]
+        },
+        {
+          "letter": "B",
+          "resolved_by": "legend",
+          "legend": [
+            "flat"
+          ],
+          "position_name": null,
+          "tables": [
+            11,
+            14
+          ],
+          "example_headers": [
+            "B",
+            "B"
+          ]
+        },
+        {
+          "letter": "C",
+          "resolved_by": "legend",
+          "legend": [
+            "flat"
+          ],
+          "position_name": null,
+          "tables": [
+            11,
+            20
+          ],
+          "example_headers": [
+            "C",
+            "2C, 4C Series",
+            "6C, 8C Series"
+          ]
+        }
+      ],
+      "legend": {
+        "A": {
+          "name": "Check valves are designed for directional flow control only. Swagelok check valves should never be used as code safety relief devices.",
+          "source": "page_text",
+          "in_page_text": true
+        },
+        "B": {
+          "name": "flat",
+          "source": "page_text",
+          "in_page_text": true
+        },
+        "C": {
+          "name": "flat",
+          "source": "page_text",
+          "in_page_text": true
+        }
+      },
+      "dimensions": [],
+      "labels_elsewhere": {
+        "A": 1847,
+        "B flat": 2,
+        "C flat": 1
+      },
+      "formula": null
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-12.1",
+      "kind": "dimension_drawing",
+      "letters": [
+        {
+          "letter": "A",
+          "resolved_by": "legend",
+          "legend": [
+            "Check valves are designed for directional flow control only. Swagelok check valves should never be used as code safety relief devices."
+          ],
+          "position_name": null,
+          "tables": [
+            11,
+            14,
+            16
+          ],
+          "example_headers": [
+            "A",
+            "A",
+            "A"
+          ]
+        },
+        {
+          "letter": "B",
+          "resolved_by": "legend",
+          "legend": [
+            "flat"
+          ],
+          "position_name": null,
+          "tables": [
+            11,
+            14
+          ],
+          "example_headers": [
+            "B",
+            "B"
+          ]
+        }
+      ],
+      "legend": {
+        "A": {
+          "name": "Check valves are designed for directional flow control only. Swagelok check valves should never be used as code safety relief devices.",
+          "source": "page_text",
+          "in_page_text": true
+        },
+        "B": {
+          "name": "flat",
+          "source": "page_text",
+          "in_page_text": true
+        }
+      },
+      "dimensions": [],
+      "labels_elsewhere": {
+        "A": 1849,
+        "B flat": 2
+      },
+      "formula": null
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-13.1",
+      "kind": "dimension_drawing",
+      "letters": [
+        {
+          "letter": "A",
+          "resolved_by": "legend",
+          "legend": [
+            "Check valves are designed for directional flow control only. Swagelok check valves should never be used as code safety relief devices."
+          ],
+          "position_name": null,
+          "tables": [
+            11,
+            14,
+            16
+          ],
+          "example_headers": [
+            "A",
+            "A",
+            "A"
+          ]
+        },
+        {
+          "letter": "D",
+          "resolved_by": "legend",
+          "legend": [
+            "flat"
+          ],
+          "position_name": null,
+          "tables": [
+            16
+          ],
+          "example_headers": [
+            "D"
+          ]
+        }
+      ],
+      "legend": {
+        "A": {
+          "name": "Check valves are designed for directional flow control only. Swagelok check valves should never be used as code safety relief devices.",
+          "source": "page_text",
+          "in_page_text": true
+        },
+        "D": {
+          "name": "flat",
+          "source": "page_text",
+          "in_page_text": true
+        }
+      },
+      "dimensions": [],
+      "labels_elsewhere": {
+        "A": 1850,
+        "D flat": 0
+      },
+      "formula": null
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-14.1",
+      "kind": "photo_illustration",
+      "letters": [],
+      "legend": {},
+      "dimensions": [],
+      "labels_elsewhere": {},
+      "formula": null
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-15.1",
+      "kind": "photo_illustration",
+      "letters": [],
+      "legend": {},
+      "dimensions": [],
+      "labels_elsewhere": {},
+      "formula": null
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-15.2",
+      "kind": "photo_illustration",
+      "letters": [],
+      "legend": {},
+      "dimensions": [],
+      "labels_elsewhere": {},
+      "formula": null
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-16.1",
+      "kind": "photo_illustration",
+      "letters": [],
+      "legend": {},
+      "dimensions": [],
+      "labels_elsewhere": {
+        "10 PSI": 4
+      },
+      "formula": null
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-16.2",
+      "kind": "photo_illustration",
+      "letters": [],
+      "legend": {},
+      "dimensions": [],
+      "labels_elsewhere": {
+        "1 PSI": 5
+      },
+      "formula": null
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-16.3",
+      "kind": "photo_illustration",
+      "letters": [],
+      "legend": {},
+      "dimensions": [],
+      "labels_elsewhere": {},
+      "formula": null
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-pdf-2-1",
+      "kind": "sectional_exploded",
+      "letters": [],
+      "legend": {},
+      "dimensions": [],
+      "labels_elsewhere": {
+        "O-ring seals body halves": 1,
+        "Poppet": 10,
+        "Spring": 21,
+        "Poppet with bonded elastomer seal": 0,
+        "Poppet stop": 2
+      },
+      "formula": null
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-pdf-5-2",
+      "kind": "sectional_exploded",
+      "letters": [
+        {
+          "letter": "1",
+          "resolved_by": "legend",
+          "legend": [
+            "Inlet body"
+          ],
+          "position_name": "Inlet body",
+          "tables": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "example_headers": [
+            "1 (0.07)",
+            "1 (0.07)",
+            "1 (0.07)"
+          ]
+        },
+        {
+          "letter": "2",
+          "resolved_by": "legend",
+          "legend": [
+            "Inlet gasket"
+          ],
+          "position_name": "Inlet gasket (CA series)",
+          "tables": [
+            8,
+            9,
+            10
+          ],
+          "example_headers": [
+            "2 Inlet gasket (CA series)",
+            "2 Poppet",
+            "2 Insert"
+          ]
+        },
+        {
+          "letter": "3",
+          "resolved_by": "legend",
+          "legend": [
+            "Insert"
+          ],
+          "position_name": "Insert (CA series)",
+          "tables": [
+            8,
+            9,
+            10
+          ],
+          "example_headers": [
+            "3 Insert (CA series)",
+            "3 Poppet stop",
+            "3 O-ring"
+          ]
+        },
+        {
+          "letter": "4",
+          "resolved_by": "legend",
+          "legend": [
+            "O-ring"
+          ],
+          "position_name": "O-ring",
+          "tables": [
+            8,
+            9,
+            10
+          ],
+          "example_headers": [
+            "4 O-ring",
+            "4 Spring",
+            "4 Poppet"
+          ]
+        },
+        {
+          "letter": "5",
+          "resolved_by": "legend",
+          "legend": [
+            "Poppet"
+          ],
+          "position_name": "Poppet",
+          "tables": [
+            6,
+            8,
+            9,
+            10
+          ],
+          "example_headers": [
+            "5 (0.35)",
+            "5 Poppet",
+            "5 O-ring"
+          ]
+        },
+        {
+          "letter": "6",
+          "resolved_by": "legend",
+          "legend": [
+            "Spring"
+          ],
+          "position_name": "Spring",
+          "tables": [
+            8,
+            9,
+            10
+          ],
+          "example_headers": [
+            "6 Spring",
+            "6 Backup ring",
+            "6 Body"
+          ]
+        },
+        {
+          "letter": "7",
+          "resolved_by": "legend",
+          "legend": [
+            "Center body"
+          ],
+          "position_name": "Center body (CA series)",
+          "tables": [
+            8,
+            9,
+            10
+          ],
+          "example_headers": [
+            "7 Center body (CA series)",
+            "7 Outlet body",
+            "7 Adjusting screw (CPA series)"
+          ]
+        },
+        {
+          "letter": "8",
+          "resolved_by": "legend",
+          "legend": [
+            "Adjusting screw"
+          ],
+          "position_name": "Adjusting screw (CA series)",
+          "tables": [
+            8,
+            10
+          ],
+          "example_headers": [
+            "8 Adjusting screw (CA series)",
+            "8 Locking screw (CPA series)"
+          ]
+        },
+        {
+          "letter": "9",
+          "resolved_by": "legend",
+          "legend": [
+            "Locking screw"
+          ],
+          "position_name": "Locking screw (CA series)",
+          "tables": [
+            8
+          ],
+          "example_headers": [
+            "9 Locking screw (CA series)"
+          ]
+        },
+        {
+          "letter": "10",
+          "resolved_by": "legend",
+          "legend": [
+            "Outlet gasket"
+          ],
+          "position_name": "Outlet gasket (CA series)",
+          "tables": [
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "example_headers": [
+            "10 (-12) to 100 (37)",
+            "10 (0.69)",
+            "10 (0.69)"
+          ]
+        },
+        {
+          "letter": "11",
+          "resolved_by": "legend",
+          "legend": [
+            "Outlet body"
+          ],
+          "position_name": "Outlet body",
+          "tables": [
+            8
+          ],
+          "example_headers": [
+            "11 Outlet body"
+          ]
+        }
+      ],
+      "legend": {
+        "1": {
+          "name": "Inlet body",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "2": {
+          "name": "Inlet gasket",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "3": {
+          "name": "Insert",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "4": {
+          "name": "O-ring",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "5": {
+          "name": "Poppet",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "6": {
+          "name": "Spring",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "7": {
+          "name": "Center body",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "8": {
+          "name": "Adjusting screw",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "9": {
+          "name": "Locking screw",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "10": {
+          "name": "Outlet gasket",
+          "source": "llm",
+          "in_page_text": true
+        },
+        "11": {
+          "name": "Outlet body",
+          "source": "llm",
+          "in_page_text": true
+        }
+      },
+      "dimensions": [],
+      "labels_elsewhere": {},
+      "formula": null
+    }
+  ]
+}

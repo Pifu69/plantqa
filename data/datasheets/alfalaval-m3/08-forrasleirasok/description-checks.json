@@ -1,0 +1,214 @@
+{
+  "summary": {
+    "sources": 21,
+    "missing": 0,
+    "extra_ids": [],
+    "description_over_2_sentences": 0,
+    "use_for_not_1_sentence": 1,
+    "with_ungrounded_numbers": 6,
+    "marked_uncertain": 9
+  },
+  "sources": [
+    {
+      "id": "alfalaval-m3/table-azure-0",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "Azure split the page content into two tables (the second, 'Materials', has no caption and was attached here as a continuation), so this source holds two different tables. In the Materials table the heat transfer plate materials are printed on three lines (316/316L, C-276, Ti, TiPd); Azure joined them into '316/316L C-276 Ti, TiPd'."
+    },
+    {
+      "id": "alfalaval-m3/table-azure-2",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "alfalaval-m3/table-azure-3",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "The external tapered threaded row is printed on two lines (ISO 7 - R 1 1/4 and 1 1/4 - 11.5 NPT); Azure joined them into one cell."
+    },
+    {
+      "id": "alfalaval-m3/fig-1.1",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "alfalaval-m3/fig-1.2",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "360"
+      ],
+      "uncertain": "This is page text that Azure returned as a figure; Azure's own text sections (section-9 to section-12) read the two columns interleaved, so their grouping differs from the printed one shown here."
+    },
+    {
+      "id": "alfalaval-m3/fig-2.1",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "What each dimension measures is read from the extension lines, not printed; what the 40 (1.6\") dimension in the side view measures is unclear. Azure read '62 (2.4\")' as '62 (2.47'."
+    },
+    {
+      "id": "alfalaval-m3/section-1",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "3"
+      ],
+      "uncertain": "Logo OCR, not a real text section."
+    },
+    {
+      "id": "alfalaval-m3/section-3",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "alfalaval-m3/section-4",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "13"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "alfalaval-m3/section-5",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 2,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "alfalaval-m3/section-6",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "alfalaval-m3/section-7",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "1.2"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "alfalaval-m3/section-9",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "Azure merged the Start-up and Support columns and interleaved their items; the printed grouping is in alfalaval-m3/fig-1.2."
+    },
+    {
+      "id": "alfalaval-m3/section-10",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "Two-column text read interleaved: on the page Troubleshooting belongs to Support and Maintenance also lists Repair, Service Tools and Spare Parts; see alfalaval-m3/fig-1.2."
+    },
+    {
+      "id": "alfalaval-m3/section-11",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "Two-column text read interleaved: on the page Repair, Service Tools and Spare Parts belong to Maintenance; see alfalaval-m3/fig-1.2."
+    },
+    {
+      "id": "alfalaval-m3/section-12",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "alfalaval-m3/section-13",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "2.1"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "alfalaval-m3/section-15",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "Azure placed the notes under the heading 'Plates', but on the page they follow the Materials table."
+    },
+    {
+      "id": "alfalaval-m3/section-16",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "alfalaval-m3/section-17",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "3"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "alfalaval-m3/section-18",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    }
+  ]
+}

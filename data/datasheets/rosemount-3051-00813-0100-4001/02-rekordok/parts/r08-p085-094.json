@@ -1,0 +1,2582 @@
+[
+ {
+  "parameter": "EXTRACTION NOTE",
+  "value": "Batch r08-p085-094 (pp. 85-94, Specifications: rest of Functional specifications and Physical specifications). Covered: FOUNDATION Fieldbus function blocks (option A01) table, Backup LAS, FF Diagnostics Suite (D01); PROFIBUS PA (output code W): profile version, power supply, current draw, output update rate, standard function block, note, indication, LOI; Wireless (output code X): output, wireless radio, local display, digital zero trim, update rate, wireless sensor module, power module + footnote 7, note; 1-5 Vdc HART low power (output code M): output, power consumption, minimum load impedance, indication; overpressure limits; Table 4 (3051L and level flange rating limits, incl. ANSI/DIN rating-temperature rows); static pressure limit; burst pressure limits; failure mode alarm text + Table 5 with footnotes 1-3; temperature limits (ambient with footnotes 1-3, storage, process) and Table 6 row by row with footnotes 1-6 (°F and °C as separate records); humidity limits; turn-on time; volumetric displacement; damping; Physical specifications: material selection, electrical connections, process connections, transmitter process-wetted parts (drain/vent valves, flanges and adapters, wetted O-rings, process isolating diaphragms table), Rosemount 3051L process wetted parts, non-wetted parts (electronics housing, coplanar sensor housing module, bolts, sensor module fill fluid, process fill fluid, paint, cover O-rings, power module); shipping weights note, Table 7, Table 8, Table 9 (p. 94 part; Table 9 continues on p. 95, not in this batch). Skipped: page headers/footers, the marketing first sentence of 'Material selection'. No figures/charts on these pages.",
+  "unit": null,
+  "source_page": null
+ },
+ {
+  "parameter": "FOUNDATION Fieldbus function blocks (option A01) | FOUNDATION™ Fieldbus (output code F) | Resource block | Description",
+  "value": "The resource block contains diagnostic, hardware, and electronics information. There are no linkable inputs or outputs to the resource block.",
+  "unit": null,
+  "source_page": 85
+ },
+ {
+  "parameter": "FOUNDATION Fieldbus function blocks (option A01) | FOUNDATION™ Fieldbus (output code F) | Sensor transducer block | Description",
+  "value": "The sensor transducer block contains sensor information and the ability to calibrate the pressure sensor or recall factory calibration.",
+  "unit": null,
+  "source_page": 85
+ },
+ {
+  "parameter": "FOUNDATION Fieldbus function blocks (option A01) | FOUNDATION™ Fieldbus (output code F) | LCD transducer block | Description",
+  "value": "The LCD display transducer block is used to configure the LCD display meter.",
+  "unit": null,
+  "source_page": 85
+ },
+ {
+  "parameter": "FOUNDATION Fieldbus function blocks (option A01) | FOUNDATION™ Fieldbus (output code F) | Analog input block | Description",
+  "value": "The Analog Input (AI) function block processes the measurements from the sensor and makes them available to other function blocks. The output value from the AI block is in engineering units and contains a status indicating the quality of the measurement. The AI block is widely used for scaling functionality.",
+  "unit": null,
+  "source_page": 85
+ },
+ {
+  "parameter": "FOUNDATION Fieldbus function blocks (option A01) | FOUNDATION™ Fieldbus (output code F) | Input selector block | Description",
+  "value": "The Input Selector (ISEL) function block can be used to select the first good, hot backup, maximum, minimum, or average of as many as eight input values and place it at the output. The block supports signal status propagation.",
+  "unit": null,
+  "source_page": 85
+ },
+ {
+  "parameter": "FOUNDATION Fieldbus function blocks (option A01) | FOUNDATION™ Fieldbus (output code F) | Integrator block | Description",
+  "value": "The Integrator (INT) function block integrates one or two variables over time. The block compares the integrated or accumulated value to pre-trip and trip limits and generates discrete output signals when the limits are reached. The INT function block is used as a totalizer. This block will accept up to two inputs, has six options how to totalize the inputs, and two trip outputs.",
+  "unit": null,
+  "source_page": 85
+ },
+ {
+  "parameter": "FOUNDATION Fieldbus function blocks (option A01) | FOUNDATION™ Fieldbus (output code F) | Arithmetic block | Description",
+  "value": "The Arithmetic (ARTH) function block provides the ability to configure a range extension function for a primary input. It can also be used to compute nine different arithmetic functions including flow with partial density compensation, electronic remote seals, hydrostatic tank gaging, ratio control, and others.",
+  "unit": null,
+  "source_page": 85
+ },
+ {
+  "parameter": "FOUNDATION Fieldbus function blocks (option A01) | FOUNDATION™ Fieldbus (output code F) | Signal characterizer block | Description",
+  "value": "The Signal Characterizer (SGCR) function block characterizes or approximates any function that defines an input/output relationship. The function is defined by configuring as many as 20 X,Y coordinates. The block interpolates an output value for a given input value using the curve defined by the configured coordinates. Two separate analog input signals can be processed simultaneously to give two corresponding separate output values using the same defined curve.",
+  "unit": null,
+  "source_page": 85
+ },
+ {
+  "parameter": "FOUNDATION Fieldbus function blocks (option A01) | FOUNDATION™ Fieldbus (output code F) | PID block | Description",
+  "value": "The PID function block combines all of the necessary logic to perform proportional/integral/ derivative PID control. The block supports mode control, signal scaling and limiting, feed forward control, override tracking, alarm limit detection, and signal status propagation.",
+  "unit": null,
+  "source_page": 85
+ },
+ {
+  "parameter": "FOUNDATION Fieldbus function blocks (option A01) | FOUNDATION™ Fieldbus (output code F) | Control selector block | Description",
+  "value": "The control selector function block selects one of two or three inputs to be the output. The inputs are normally connected to the outputs of PID or other function blocks. One of the inputs would be considered normal and the other two overrides.",
+  "unit": null,
+  "source_page": 85
+ },
+ {
+  "parameter": "FOUNDATION Fieldbus function blocks (option A01) | FOUNDATION™ Fieldbus (output code F) | Output splitter block | Description",
+  "value": "The output splitter function block provides the capability to drive two control outputs from a single input. It takes the output of one PID or other control block to control two valves or other actuators.",
+  "unit": null,
+  "source_page": 85
+ },
+ {
+  "parameter": "FOUNDATION Fieldbus function blocks (option A01) | FOUNDATION™ Fieldbus (output code F) | Resource block | Linkable inputs or outputs",
+  "value": "None (there are no linkable inputs or outputs to the resource block)",
+  "unit": null,
+  "source_page": 85
+ },
+ {
+  "parameter": "FOUNDATION Fieldbus function blocks (option A01) | FOUNDATION™ Fieldbus (output code F) | Input selector block | Selectable functions",
+  "value": "first good, hot backup, maximum, minimum, or average",
+  "unit": null,
+  "source_page": 85
+ },
+ {
+  "parameter": "FOUNDATION Fieldbus function blocks (option A01) | FOUNDATION™ Fieldbus (output code F) | Input selector block | Maximum number of input values",
+  "value": "eight",
+  "unit": null,
+  "source_page": 85
+ },
+ {
+  "parameter": "FOUNDATION Fieldbus function blocks (option A01) | FOUNDATION™ Fieldbus (output code F) | Integrator block | Maximum number of inputs",
+  "value": "two",
+  "unit": null,
+  "source_page": 85
+ },
+ {
+  "parameter": "FOUNDATION Fieldbus function blocks (option A01) | FOUNDATION™ Fieldbus (output code F) | Integrator block | Number of totalizing options",
+  "value": "six",
+  "unit": null,
+  "source_page": 85
+ },
+ {
+  "parameter": "FOUNDATION Fieldbus function blocks (option A01) | FOUNDATION™ Fieldbus (output code F) | Integrator block | Number of trip outputs",
+  "value": "two",
+  "unit": null,
+  "source_page": 85
+ },
+ {
+  "parameter": "FOUNDATION Fieldbus function blocks (option A01) | FOUNDATION™ Fieldbus (output code F) | Integrator block | Typical use",
+  "value": "totalizer",
+  "unit": null,
+  "source_page": 85
+ },
+ {
+  "parameter": "FOUNDATION Fieldbus function blocks (option A01) | FOUNDATION™ Fieldbus (output code F) | Arithmetic block | Number of arithmetic functions",
+  "value": "nine",
+  "unit": null,
+  "source_page": 85
+ },
+ {
+  "parameter": "FOUNDATION Fieldbus function blocks (option A01) | FOUNDATION™ Fieldbus (output code F) | Signal characterizer block | Maximum number of X,Y coordinates",
+  "value": "20",
+  "unit": null,
+  "source_page": 85
+ },
+ {
+  "parameter": "FOUNDATION Fieldbus function blocks (option A01) | FOUNDATION™ Fieldbus (output code F) | Signal characterizer block | Simultaneously processed analog input signals",
+  "value": "two",
+  "unit": null,
+  "source_page": 85
+ },
+ {
+  "parameter": "FOUNDATION Fieldbus function blocks (option A01) | FOUNDATION™ Fieldbus (output code F) | Control selector block | Number of selectable inputs",
+  "value": "two or three",
+  "unit": null,
+  "source_page": 85
+ },
+ {
+  "parameter": "FOUNDATION Fieldbus function blocks (option A01) | FOUNDATION™ Fieldbus (output code F) | Output splitter block | Number of control outputs driven from a single input",
+  "value": "two",
+  "unit": null,
+  "source_page": 85
+ },
+ {
+  "parameter": "Backup Link Active Scheduler (LAS) | FOUNDATION™ Fieldbus (output code F) | Backup LAS function",
+  "value": "The transmitter can function as an LAS if the current link master device fails or is removed from the segment.",
+  "unit": null,
+  "source_page": 85
+ },
+ {
+  "parameter": "FOUNDATION Fieldbus Diagnostics Suite (option code D01) | FOUNDATION™ Fieldbus (output code F) | Description",
+  "value": "The Rosemount 3051C FOUNDATION Fieldbus Diagnostics Suite features SPM technology to detect changes in the process, process equipment, or installation conditions (such as plugged impulse lines) of the transmitter. This is done by modeling the process noise signature (using the statistical values of mean and standard deviation) under normal conditions and then comparing the baseline values to current values over time. If a significant change in the current values is detected, the transmitter can generate an alert.",
+  "unit": null,
+  "source_page": 85
+ },
+ {
+  "parameter": "FOUNDATION Fieldbus Diagnostics Suite (option code D01) | FOUNDATION™ Fieldbus (output code F) | Technology",
+  "value": "SPM",
+  "unit": null,
+  "source_page": 85
+ },
+ {
+  "parameter": "FOUNDATION Fieldbus Diagnostics Suite (option code D01) | FOUNDATION™ Fieldbus (output code F) | Detected conditions",
+  "value": "changes in the process, process equipment, or installation conditions (such as plugged impulse lines) of the transmitter",
+  "unit": null,
+  "source_page": 85
+ },
+ {
+  "parameter": "FOUNDATION Fieldbus Diagnostics Suite (option code D01) | FOUNDATION™ Fieldbus (output code F) | Detection method",
+  "value": "modeling the process noise signature (using the statistical values of mean and standard deviation) under normal conditions and then comparing the baseline values to current values over time",
+  "unit": null,
+  "source_page": 85
+ },
+ {
+  "parameter": "FOUNDATION Fieldbus Diagnostics Suite (option code D01) | FOUNDATION™ Fieldbus (output code F) | Alert",
+  "value": "If a significant change in the current values is detected, the transmitter can generate an alert.",
+  "unit": null,
+  "source_page": 85
+ },
+ {
+  "parameter": "Profile version - PROFIBUS® PA (output code W) | PROFIBUS® PA (output code W) | Profile version",
+  "value": "3.02",
+  "unit": null,
+  "source_page": 85
+ },
+ {
+  "parameter": "Power supply - PROFIBUS® PA (output code W) | PROFIBUS® PA (output code W) | External power supply",
+  "value": "External power supply required",
+  "unit": null,
+  "source_page": 85
+ },
+ {
+  "parameter": "Power supply - PROFIBUS® PA (output code W) | PROFIBUS® PA (output code W) | Transmitter terminal voltage",
+  "value": "9.0 to 32.0",
+  "unit": "Vdc",
+  "source_page": 85
+ },
+ {
+  "parameter": "Power supply - PROFIBUS® PA (output code W) | PROFIBUS® PA (output code W) | FISCO transmitters | Transmitter terminal voltage",
+  "value": "9.0 to 17.5",
+  "unit": "Vdc",
+  "source_page": 85
+ },
+ {
+  "parameter": "Current draw - PROFIBUS® PA (output code W) | PROFIBUS® PA (output code W) | All configurations (including LCD display option) | Current draw",
+  "value": "17.5",
+  "unit": "mA",
+  "source_page": 85
+ },
+ {
+  "parameter": "Output update rate - PROFIBUS® PA (output code W) | PROFIBUS® PA (output code W) | Output update rate",
+  "value": "Four times per second",
+  "unit": null,
+  "source_page": 86
+ },
+ {
+  "parameter": "Standard function block - PROFIBUS® PA (output code W) | PROFIBUS® PA (output code W) | Analog input (AI block) | Description",
+  "value": "The AI function block processes the measurements and makes them available to the host device. The output value from the AI block is in engineering units and contains a status indicating the quality of the measurement. The AI block is widely used for scaling functionality.",
+  "unit": null,
+  "source_page": 86
+ },
+ {
+  "parameter": "Note - PROFIBUS® PA (output code W) | PROFIBUS® PA (output code W) | Standard function block | Note",
+  "value": "The channel, Set XD_Scale, Set L_Type, and sometimes Set Out_Scale are typically configured by instrument personnel. Other AI block parameters, block links, and schedule are typically configured by the control systems configuration engineer.",
+  "unit": null,
+  "source_page": 86
+ },
+ {
+  "parameter": "Note - PROFIBUS® PA (output code W) | PROFIBUS® PA (output code W) | Standard function block | Parameters typically configured by instrument personnel",
+  "value": "The channel, Set XD_Scale, Set L_Type, and sometimes Set Out_Scale",
+  "unit": null,
+  "source_page": 86
+ },
+ {
+  "parameter": "Note - PROFIBUS® PA (output code W) | PROFIBUS® PA (output code W) | Standard function block | Parameters typically configured by the control systems configuration engineer",
+  "value": "Other AI block parameters, block links, and schedule",
+  "unit": null,
+  "source_page": 86
+ },
+ {
+  "parameter": "Indication - PROFIBUS® PA (output code W) | PROFIBUS® PA (output code W) | Indication",
+  "value": "Optional two-line LCD display",
+  "unit": null,
+  "source_page": 86
+ },
+ {
+  "parameter": "LOI - PROFIBUS® PA (output code W) | PROFIBUS® PA (output code W) | LOI",
+  "value": "The LOI uses a two-button menu with external configuration buttons.",
+  "unit": null,
+  "source_page": 86
+ },
+ {
+  "parameter": "Output - Wireless (output code X) | Wireless (output code X) | Output",
+  "value": "IEC 62591 (WirelessHART®), 2.4 GHz DSSS",
+  "unit": null,
+  "source_page": 86
+ },
+ {
+  "parameter": "Wireless radio (internal antenna, WP5 option) | Wireless (output code X) | Frequency",
+  "value": "2.400 - 2.485",
+  "unit": "GHz",
+  "source_page": 86
+ },
+ {
+  "parameter": "Wireless radio (internal antenna, WP5 option) | Wireless (output code X) | Channels",
+  "value": "15",
+  "unit": null,
+  "source_page": 86
+ },
+ {
+  "parameter": "Wireless radio (internal antenna, WP5 option) | Wireless (output code X) | Modulation",
+  "value": "IEEE 802.15.4 compliant DSSS",
+  "unit": null,
+  "source_page": 86
+ },
+ {
+  "parameter": "Wireless radio (internal antenna, WP5 option) | Wireless (output code X) | Transmission",
+  "value": "Maximum of 10",
+  "unit": "dBm EIRP",
+  "source_page": 86
+ },
+ {
+  "parameter": "Local display - Wireless (output code X) | Wireless (output code X) | Description",
+  "value": "The optional three-line, seven-digit LCD display can display user-selectable information, such as primary variable in engineering units, scaled variable, percent of range, sensor module temperature, and electronics temperature. The display updates based on the wireless update rate.",
+  "unit": null,
+  "source_page": 86
+ },
+ {
+  "parameter": "Local display - Wireless (output code X) | Wireless (output code X) | Display type",
+  "value": "Optional three-line, seven-digit LCD display",
+  "unit": null,
+  "source_page": 86
+ },
+ {
+  "parameter": "Local display - Wireless (output code X) | Wireless (output code X) | Displayable information",
+  "value": "primary variable in engineering units, scaled variable, percent of range, sensor module temperature, and electronics temperature (user-selectable)",
+  "unit": null,
+  "source_page": 86
+ },
+ {
+  "parameter": "Local display - Wireless (output code X) | Wireless (output code X) | Display update",
+  "value": "The display updates based on the wireless update rate.",
+  "unit": null,
+  "source_page": 86
+ },
+ {
+  "parameter": "Digital zero trim - Wireless (output code X) | Wireless (output code X) | Option DZ | Description",
+  "value": "Digital zero trim (option DZ) is an offset adjustment to compensate for mounting position effects, up to 5 percent of URL.",
+  "unit": null,
+  "source_page": 86
+ },
+ {
+  "parameter": "Digital zero trim - Wireless (output code X) | Wireless (output code X) | Option DZ | Maximum offset adjustment",
+  "value": "up to 5",
+  "unit": "percent of URL",
+  "source_page": 86
+ },
+ {
+  "parameter": "Update rate - Wireless (output code X) | Wireless (output code X) | Update rate",
+  "value": "User selectable 1 second to 60 minute",
+  "unit": null,
+  "source_page": 86
+ },
+ {
+  "parameter": "Wireless sensor module for in-line transmitters | Wireless (output code X) | Housing requirement",
+  "value": "The Rosemount 3051 Wireless Transmitter requires the engineered polymer housing to be selected.",
+  "unit": null,
+  "source_page": 86
+ },
+ {
+  "parameter": "Wireless sensor module for in-line transmitters | Wireless (output code X) | Standard sensor module material",
+  "value": "aluminum",
+  "unit": null,
+  "source_page": 86
+ },
+ {
+  "parameter": "Wireless sensor module for in-line transmitters | Wireless (output code X) | SST sensor module",
+  "value": "If SST is required, you must select the option WSM.",
+  "unit": null,
+  "source_page": 86
+ },
+ {
+  "parameter": "Power module - Wireless (output code X) | Wireless (output code X) | Description",
+  "value": "Field replaceable, keyed connection eliminates the risk of incorrect installation, Intrinsically Safe Lithium-thionyl chloride Power Module with PBT/PC enclosure.",
+  "unit": null,
+  "source_page": 86
+ },
+ {
+  "parameter": "Power module - Wireless (output code X) | Wireless (output code X) | Installation",
+  "value": "Field replaceable, keyed connection eliminates the risk of incorrect installation",
+  "unit": null,
+  "source_page": 86
+ },
+ {
+  "parameter": "Power module - Wireless (output code X) | Wireless (output code X) | Chemistry",
+  "value": "Intrinsically Safe Lithium-thionyl chloride",
+  "unit": null,
+  "source_page": 86
+ },
+ {
+  "parameter": "Power module - Wireless (output code X) | Wireless (output code X) | Enclosure material",
+  "value": "PBT/PC",
+  "unit": null,
+  "source_page": 86
+ },
+ {
+  "parameter": "Power module - Wireless (output code X) | Wireless (output code X) | Life [fn 7]",
+  "value": "Ten-year life at one minute update rate",
+  "unit": null,
+  "source_page": 86
+ },
+ {
+  "parameter": "Power module - Wireless (output code X) | footnote 7",
+  "value": "Reference conditions are 70 °F (21 ℃), and routing data for three additional network devices.",
+  "unit": null,
+  "source_page": 86
+ },
+ {
+  "parameter": "Note - Wireless (output code X) | Wireless (output code X) | Power module | Note",
+  "value": "Continuous exposure to ambient temperature limits of -40 °F or 185 ºF (-40 ℃ or 85 ℃) may reduce specified life by less than 20 percent.",
+  "unit": null,
+  "source_page": 86
+ },
+ {
+  "parameter": "Note - Wireless (output code X) | Wireless (output code X) | Power module | Continuous exposure to ambient temperature limits | Reduction of specified life",
+  "value": "less than 20",
+  "unit": "percent",
+  "source_page": 86
+ },
+ {
+  "parameter": "Output - 1-5 Vdc HART® low power (output code M) | Low power output | 1-5 Vdc HART® low power (output code M) | Description",
+  "value": "The default three-wire 1-5 Vdc is a user-selectable output. Also user selectable for linear or square root output configuration. Digital process variable superimposed on voltage signal, available to any host conforming to the HART Protocol. Low-power transmitter operates on 6-12 Vdc with no load.",
+  "unit": null,
+  "source_page": 87
+ },
+ {
+  "parameter": "Output - 1-5 Vdc HART® low power (output code M) | Low power output | 1-5 Vdc HART® low power (output code M) | Default output",
+  "value": "three-wire 1-5 Vdc (user-selectable)",
+  "unit": null,
+  "source_page": 87
+ },
+ {
+  "parameter": "Output - 1-5 Vdc HART® low power (output code M) | Low power output | 1-5 Vdc HART® low power (output code M) | Output configuration",
+  "value": "user selectable for linear or square root output",
+  "unit": null,
+  "source_page": 87
+ },
+ {
+  "parameter": "Output - 1-5 Vdc HART® low power (output code M) | Low power output | 1-5 Vdc HART® low power (output code M) | Digital communication",
+  "value": "Digital process variable superimposed on voltage signal, available to any host conforming to the HART Protocol",
+  "unit": null,
+  "source_page": 87
+ },
+ {
+  "parameter": "Output - 1-5 Vdc HART® low power (output code M) | Low power output | 1-5 Vdc HART® low power (output code M) | No load | Operating voltage",
+  "value": "6-12",
+  "unit": "Vdc",
+  "source_page": 87
+ },
+ {
+  "parameter": "Power consumption - 1-5 Vdc HART® low power (output code M) | Low power output | 1-5 Vdc HART® low power (output code M) | Current",
+  "value": "3.0",
+  "unit": "mA",
+  "source_page": 87
+ },
+ {
+  "parameter": "Power consumption - 1-5 Vdc HART® low power (output code M) | Low power output | 1-5 Vdc HART® low power (output code M) | Power consumption",
+  "value": "18-36",
+  "unit": "mW",
+  "source_page": 87
+ },
+ {
+  "parameter": "Minimum load impedance - 1-5 Vdc HART® low power (output code M) | Low power output | 1-5 Vdc HART® low power (output code M) | Vout wiring | Minimum load impedance",
+  "value": "100",
+  "unit": "kΩ",
+  "source_page": 87
+ },
+ {
+  "parameter": "Indication - 1-5 Vdc HART® low power (output code M) | Low power output | 1-5 Vdc HART® low power (output code M) | Indication",
+  "value": "Optional five-digit LCD display",
+  "unit": null,
+  "source_page": 87
+ },
+ {
+  "parameter": "Overpressure limits | Rosemount 3051CD/CG/CF | Range 0 | Overpressure limit",
+  "value": "750",
+  "unit": "psi",
+  "source_page": 87
+ },
+ {
+  "parameter": "Overpressure limits | Rosemount 3051CD/CG/CF | Range 0 | Overpressure limit",
+  "value": "51.71",
+  "unit": "bar",
+  "source_page": 87
+ },
+ {
+  "parameter": "Overpressure limits | Rosemount 3051CD/CG/CF | Range 1 | Overpressure limit",
+  "value": "2,000",
+  "unit": "psig",
+  "source_page": 87
+ },
+ {
+  "parameter": "Overpressure limits | Rosemount 3051CD/CG/CF | Range 1 | Overpressure limit",
+  "value": "137.90",
+  "unit": "bar",
+  "source_page": 87
+ },
+ {
+  "parameter": "Overpressure limits | Rosemount 3051CD/CG/CF | Ranges 2-5 | Overpressure limit",
+  "value": "3,626",
+  "unit": "psig",
+  "source_page": 87
+ },
+ {
+  "parameter": "Overpressure limits | Rosemount 3051CD/CG/CF | Ranges 2-5 | Overpressure limit",
+  "value": "250.00",
+  "unit": "bar",
+  "source_page": 87
+ },
+ {
+  "parameter": "Overpressure limits | Rosemount 3051CD/CG/CF | Ranges 2-5 | Option code P9 | Overpressure limit",
+  "value": "4500",
+  "unit": "psig",
+  "source_page": 87
+ },
+ {
+  "parameter": "Overpressure limits | Rosemount 3051CD/CG/CF | Ranges 2-5 | Option code P9 | Overpressure limit",
+  "value": "310.26",
+  "unit": "bar",
+  "source_page": 87
+ },
+ {
+  "parameter": "Overpressure limits | Rosemount 3051CA | Range 1 | Overpressure limit",
+  "value": "750",
+  "unit": "psia",
+  "source_page": 87
+ },
+ {
+  "parameter": "Overpressure limits | Rosemount 3051CA | Range 1 | Overpressure limit",
+  "value": "51.71",
+  "unit": "bar",
+  "source_page": 87
+ },
+ {
+  "parameter": "Overpressure limits | Rosemount 3051CA | Range 2 | Overpressure limit",
+  "value": "1,500",
+  "unit": "psia",
+  "source_page": 87
+ },
+ {
+  "parameter": "Overpressure limits | Rosemount 3051CA | Range 2 | Overpressure limit",
+  "value": "103.42",
+  "unit": "bar",
+  "source_page": 87
+ },
+ {
+  "parameter": "Overpressure limits | Rosemount 3051CA | Range 3 | Overpressure limit",
+  "value": "1,600",
+  "unit": "psia",
+  "source_page": 87
+ },
+ {
+  "parameter": "Overpressure limits | Rosemount 3051CA | Range 3 | Overpressure limit",
+  "value": "110.32",
+  "unit": "bar",
+  "source_page": 87
+ },
+ {
+  "parameter": "Overpressure limits | Rosemount 3051CA | Range 4 | Overpressure limit",
+  "value": "6,000",
+  "unit": "psia",
+  "source_page": 87
+ },
+ {
+  "parameter": "Overpressure limits | Rosemount 3051CA | Range 4 | Overpressure limit",
+  "value": "413.69",
+  "unit": "bar",
+  "source_page": 87
+ },
+ {
+  "parameter": "Overpressure limits | Rosemount 3051TG/TA | Range 0 | Overpressure limit",
+  "value": "60",
+  "unit": "psi",
+  "source_page": 87
+ },
+ {
+  "parameter": "Overpressure limits | Rosemount 3051TG/TA | Range 0 | Overpressure limit",
+  "value": "4.14",
+  "unit": "bar",
+  "source_page": 87
+ },
+ {
+  "parameter": "Overpressure limits | Rosemount 3051TG/TA | Range 1 | Overpressure limit",
+  "value": "750",
+  "unit": "psi",
+  "source_page": 87
+ },
+ {
+  "parameter": "Overpressure limits | Rosemount 3051TG/TA | Range 1 | Overpressure limit",
+  "value": "51.71",
+  "unit": "bar",
+  "source_page": 87
+ },
+ {
+  "parameter": "Overpressure limits | Rosemount 3051TG/TA | Range 2 | Overpressure limit",
+  "value": "1,500",
+  "unit": "psi",
+  "source_page": 87
+ },
+ {
+  "parameter": "Overpressure limits | Rosemount 3051TG/TA | Range 2 | Overpressure limit",
+  "value": "103.42",
+  "unit": "bar",
+  "source_page": 87
+ },
+ {
+  "parameter": "Overpressure limits | Rosemount 3051TG/TA | Range 3 | Overpressure limit",
+  "value": "1,600",
+  "unit": "psi",
+  "source_page": 87
+ },
+ {
+  "parameter": "Overpressure limits | Rosemount 3051TG/TA | Range 3 | Overpressure limit",
+  "value": "110.32",
+  "unit": "bar",
+  "source_page": 87
+ },
+ {
+  "parameter": "Overpressure limits | Rosemount 3051TG/TA | Range 4 | Overpressure limit",
+  "value": "6,000",
+  "unit": "psi",
+  "source_page": 87
+ },
+ {
+  "parameter": "Overpressure limits | Rosemount 3051TG/TA | Range 4 | Overpressure limit",
+  "value": "413.69",
+  "unit": "bar",
+  "source_page": 87
+ },
+ {
+  "parameter": "Overpressure limits | Rosemount 3051TG/TA | Range 5 | Overpressure limit",
+  "value": "15,000",
+  "unit": "psi",
+  "source_page": 87
+ },
+ {
+  "parameter": "Overpressure limits | Rosemount 3051TG/TA | Range 5 | Overpressure limit",
+  "value": "1034.21",
+  "unit": "bar",
+  "source_page": 87
+ },
+ {
+  "parameter": "Overpressure limits | Rosemount 3051TG/TA | Range 6 | Overpressure limit",
+  "value": "24,000",
+  "unit": "psi",
+  "source_page": 87
+ },
+ {
+  "parameter": "Overpressure limits | Rosemount 3051TG/TA | Range 6 | Overpressure limit",
+  "value": "1654.74",
+  "unit": "bar",
+  "source_page": 87
+ },
+ {
+  "parameter": "Overpressure limits | Rosemount 3051L or level flange option codes FA, FB, FC, FD, FP, and FQ | Overpressure limit",
+  "value": "0 psia to the flange rating or sensor rating, whichever is lower",
+  "unit": null,
+  "source_page": 87
+ },
+ {
+  "parameter": "Table 4: Rosemount 3051L and Level Flange Rating Limits | ANSI/ASME | Class 150 | CS rating",
+  "value": "285",
+  "unit": "psig",
+  "source_page": 87
+ },
+ {
+  "parameter": "Table 4: Rosemount 3051L and Level Flange Rating Limits | ANSI/ASME | Class 150 | SST rating",
+  "value": "275",
+  "unit": "psig",
+  "source_page": 87
+ },
+ {
+  "parameter": "Table 4: Rosemount 3051L and Level Flange Rating Limits | ANSI/ASME | Class 300 | CS rating",
+  "value": "740",
+  "unit": "psig",
+  "source_page": 87
+ },
+ {
+  "parameter": "Table 4: Rosemount 3051L and Level Flange Rating Limits | ANSI/ASME | Class 300 | SST rating",
+  "value": "720",
+  "unit": "psig",
+  "source_page": 87
+ },
+ {
+  "parameter": "Table 4: Rosemount 3051L and Level Flange Rating Limits | ANSI/ASME | Class 600 | CS rating",
+  "value": "1,480",
+  "unit": "psig",
+  "source_page": 87
+ },
+ {
+  "parameter": "Table 4: Rosemount 3051L and Level Flange Rating Limits | ANSI/ASME | Class 600 | SST rating",
+  "value": "1,440",
+  "unit": "psig",
+  "source_page": 87
+ },
+ {
+  "parameter": "Table 4: Rosemount 3051L and Level Flange Rating Limits | ANSI/ASME | Rating temperature note",
+  "value": "At 100 °F (38 ℃), the rating decreases with increasing temperature, per ANSI/ASME B16.5.",
+  "unit": null,
+  "source_page": 87
+ },
+ {
+  "parameter": "Table 4: Rosemount 3051L and Level Flange Rating Limits | ANSI/ASME | Rating reference temperature (rating decreases with increasing temperature, per ANSI/ASME B16.5)",
+  "value": "100",
+  "unit": "°F",
+  "source_page": 87
+ },
+ {
+  "parameter": "Table 4: Rosemount 3051L and Level Flange Rating Limits | ANSI/ASME | Rating reference temperature (rating decreases with increasing temperature, per ANSI/ASME B16.5)",
+  "value": "38",
+  "unit": "°C",
+  "source_page": 87
+ },
+ {
+  "parameter": "Table 4: Rosemount 3051L and Level Flange Rating Limits | DIN | PN 10-40 | CS rating",
+  "value": "40",
+  "unit": "bar",
+  "source_page": 87
+ },
+ {
+  "parameter": "Table 4: Rosemount 3051L and Level Flange Rating Limits | DIN | PN 10-40 | SST rating",
+  "value": "40",
+  "unit": "bar",
+  "source_page": 87
+ },
+ {
+  "parameter": "Table 4: Rosemount 3051L and Level Flange Rating Limits | DIN | PN 10/16 | CS rating",
+  "value": "16",
+  "unit": "bar",
+  "source_page": 87
+ },
+ {
+  "parameter": "Table 4: Rosemount 3051L and Level Flange Rating Limits | DIN | PN 10/16 | SST rating",
+  "value": "16",
+  "unit": "bar",
+  "source_page": 87
+ },
+ {
+  "parameter": "Table 4: Rosemount 3051L and Level Flange Rating Limits | DIN | PN 25/40 | CS rating",
+  "value": "40",
+  "unit": "bar",
+  "source_page": 87
+ },
+ {
+  "parameter": "Table 4: Rosemount 3051L and Level Flange Rating Limits | DIN | PN 25/40 | SST rating",
+  "value": "40",
+  "unit": "bar",
+  "source_page": 87
+ },
+ {
+  "parameter": "Table 4: Rosemount 3051L and Level Flange Rating Limits | DIN | Rating temperature note",
+  "value": "At 248 °F (120 ℃), the rating decreases with increasing temperature, per DIN 2401.",
+  "unit": null,
+  "source_page": 87
+ },
+ {
+  "parameter": "Table 4: Rosemount 3051L and Level Flange Rating Limits | DIN | Rating reference temperature (rating decreases with increasing temperature, per DIN 2401)",
+  "value": "248",
+  "unit": "°F",
+  "source_page": 87
+ },
+ {
+  "parameter": "Table 4: Rosemount 3051L and Level Flange Rating Limits | DIN | Rating reference temperature (rating decreases with increasing temperature, per DIN 2401)",
+  "value": "120",
+  "unit": "°C",
+  "source_page": 87
+ },
+ {
+  "parameter": "Static pressure limit | Rosemount 3051CD only | Operating range statement",
+  "value": "Operates within specifications between static line pressures of 0.5 psia and 3,626 psig (4,500 psig (310.26 bar) for option code P9).",
+  "unit": null,
+  "source_page": 88
+ },
+ {
+  "parameter": "Static pressure limit | Rosemount 3051CD only | Minimum static line pressure",
+  "value": "0.5",
+  "unit": "psia",
+  "source_page": 88
+ },
+ {
+  "parameter": "Static pressure limit | Rosemount 3051CD only | Maximum static line pressure",
+  "value": "3,626",
+  "unit": "psig",
+  "source_page": 88
+ },
+ {
+  "parameter": "Static pressure limit | Rosemount 3051CD only | Option code P9 | Maximum static line pressure",
+  "value": "4,500",
+  "unit": "psig",
+  "source_page": 88
+ },
+ {
+  "parameter": "Static pressure limit | Rosemount 3051CD only | Option code P9 | Maximum static line pressure",
+  "value": "310.26",
+  "unit": "bar",
+  "source_page": 88
+ },
+ {
+  "parameter": "Static pressure limit | Rosemount 3051CD only | Range 0 | Minimum static line pressure",
+  "value": "0.5",
+  "unit": "psia",
+  "source_page": 88
+ },
+ {
+  "parameter": "Static pressure limit | Rosemount 3051CD only | Range 0 | Minimum static line pressure",
+  "value": "0.03",
+  "unit": "bar",
+  "source_page": 88
+ },
+ {
+  "parameter": "Static pressure limit | Rosemount 3051CD only | Range 0 | Maximum static line pressure",
+  "value": "750",
+  "unit": "psig",
+  "source_page": 88
+ },
+ {
+  "parameter": "Static pressure limit | Rosemount 3051CD only | Range 0 | Maximum static line pressure",
+  "value": "51.71",
+  "unit": "bar",
+  "source_page": 88
+ },
+ {
+  "parameter": "Static pressure limit | Rosemount 3051CD only | Range 1 | Minimum static line pressure",
+  "value": "0.5",
+  "unit": "psia",
+  "source_page": 88
+ },
+ {
+  "parameter": "Static pressure limit | Rosemount 3051CD only | Range 1 | Minimum static line pressure",
+  "value": "0.03",
+  "unit": "bar",
+  "source_page": 88
+ },
+ {
+  "parameter": "Static pressure limit | Rosemount 3051CD only | Range 1 | Maximum static line pressure",
+  "value": "2,000",
+  "unit": "psig",
+  "source_page": 88
+ },
+ {
+  "parameter": "Static pressure limit | Rosemount 3051CD only | Range 1 | Maximum static line pressure",
+  "value": "137.90",
+  "unit": "bar",
+  "source_page": 88
+ },
+ {
+  "parameter": "Burst pressure limits | Rosemount 3051C, 3051CF coplanar or traditional transmitter flange | Burst pressure",
+  "value": "10,081",
+  "unit": "psig",
+  "source_page": 88
+ },
+ {
+  "parameter": "Burst pressure limits | Rosemount 3051C, 3051CF coplanar or traditional transmitter flange | Burst pressure",
+  "value": "695,06",
+  "unit": "bar",
+  "source_page": 88
+ },
+ {
+  "parameter": "Burst pressure limits | Rosemount 3051T in-line | Ranges 0-4 | Burst pressure",
+  "value": "11,016",
+  "unit": "psi",
+  "source_page": 88
+ },
+ {
+  "parameter": "Burst pressure limits | Rosemount 3051T in-line | Ranges 0-4 | Burst pressure",
+  "value": "759.53",
+  "unit": "bar",
+  "source_page": 88
+ },
+ {
+  "parameter": "Burst pressure limits | Rosemount 3051T in-line | Range 5 | Burst pressure",
+  "value": "26,016",
+  "unit": "psig",
+  "source_page": 88
+ },
+ {
+  "parameter": "Burst pressure limits | Rosemount 3051T in-line | Range 5 | Burst pressure",
+  "value": "1,793.74",
+  "unit": "bar",
+  "source_page": 88
+ },
+ {
+  "parameter": "Burst pressure limits | Rosemount 3051T in-line | Range 6 | Burst pressure",
+  "value": "46,092",
+  "unit": "psi",
+  "source_page": 88
+ },
+ {
+  "parameter": "Burst pressure limits | Rosemount 3051T in-line | Range 6 | Burst pressure",
+  "value": "3,177.93",
+  "unit": "bar",
+  "source_page": 88
+ },
+ {
+  "parameter": "Failure mode alarm | HART® 4-20 mA (output option code A) | Failure response",
+  "value": "If self-diagnostics detect a sensor or microprocessor failure, the analog signal is driven either high or low to alert the user.",
+  "unit": null,
+  "source_page": 88
+ },
+ {
+  "parameter": "Failure mode alarm | HART® 4-20 mA (output option code A) | Failure mode selection",
+  "value": "High or low failure mode is user-selectable with a jumper/switch on the transmitter.",
+  "unit": null,
+  "source_page": 88
+ },
+ {
+  "parameter": "Failure mode alarm | HART® 4-20 mA (output option code A) | Alarm level configurations",
+  "value": "The values to which the transmitter drives its output in failure mode depend on whether it is configured to standard, NAMUR-compliant, or custom levels.",
+  "unit": null,
+  "source_page": 88
+ },
+ {
+  "parameter": "Table 5: Failure mode alarm | HART® 4-20 mA (output option code A) | Default | High alarm [fn 1]",
+  "value": "≥ 21.75",
+  "unit": "mA",
+  "source_page": 88
+ },
+ {
+  "parameter": "Table 5: Failure mode alarm | HART® 4-20 mA (output option code A) | Default | Low alarm",
+  "value": "≤ 3.75",
+  "unit": "mA",
+  "source_page": 88
+ },
+ {
+  "parameter": "Table 5: Failure mode alarm | HART® 4-20 mA (output option code A) | NAMUR compliant [fn 2] | High alarm",
+  "value": "≥ 22.5",
+  "unit": "mA",
+  "source_page": 88
+ },
+ {
+  "parameter": "Table 5: Failure mode alarm | HART® 4-20 mA (output option code A) | NAMUR compliant [fn 2] | Low alarm",
+  "value": "≤ 3.6",
+  "unit": "mA",
+  "source_page": 88
+ },
+ {
+  "parameter": "Table 5: Failure mode alarm | HART® 4-20 mA (output option code A) | Custom levels [fn 3] | High alarm",
+  "value": "20.2 - 23.0",
+  "unit": "mA",
+  "source_page": 88
+ },
+ {
+  "parameter": "Table 5: Failure mode alarm | HART® 4-20 mA (output option code A) | Custom levels [fn 3] | Low alarm",
+  "value": "3.6 - 3.8",
+  "unit": "mA",
+  "source_page": 88
+ },
+ {
+  "parameter": "Table 5: Failure mode alarm | footnote 1",
+  "value": "High Alarm default is ≥22.5 mA for some options (codes M6, DA1, T9, RK).",
+  "unit": null,
+  "source_page": 88
+ },
+ {
+  "parameter": "Table 5: Failure mode alarm | footnote 2",
+  "value": "See option codes C4 or CN.",
+  "unit": null,
+  "source_page": 88
+ },
+ {
+  "parameter": "Table 5: Failure mode alarm | footnote 3",
+  "value": "Low alarm must be 0.1 mA less than low saturation and high alarm must be 0.1 mA greater than high saturation.",
+  "unit": null,
+  "source_page": 88
+ },
+ {
+  "parameter": "Failure mode alarm | Output code M | Failure response",
+  "value": "If self-diagnostics detect a gross transmitter failure, the analog signal will be driven either below 0.94 V or above 5.4 V to alert the user.",
+  "unit": null,
+  "source_page": 88
+ },
+ {
+  "parameter": "Failure mode alarm | Output code M | Low alarm signal",
+  "value": "below 0.94",
+  "unit": "V",
+  "source_page": 88
+ },
+ {
+  "parameter": "Failure mode alarm | Output code M | High alarm signal",
+  "value": "above 5.4",
+  "unit": "V",
+  "source_page": 88
+ },
+ {
+  "parameter": "Failure mode alarm | Output code M | Alarm selection",
+  "value": "High or low alarm signal is user-selectable by internal jumper.",
+  "unit": null,
+  "source_page": 88
+ },
+ {
+  "parameter": "Failure mode alarm | Output code F, W, and X | Failure response",
+  "value": "If self-diagnostics detect a gross transmitter failure, that information gets passed as an alert and a status along with the process variable.",
+  "unit": null,
+  "source_page": 88
+ },
+ {
+  "parameter": "Ambient - Temperature limits | Temperature limits | Ambient temperature limit",
+  "value": "-40 - +185",
+  "unit": "°F",
+  "source_page": 89
+ },
+ {
+  "parameter": "Ambient - Temperature limits | Temperature limits | Ambient temperature limit",
+  "value": "-40 - +85",
+  "unit": "°C",
+  "source_page": 89
+ },
+ {
+  "parameter": "Ambient - Temperature limits | Temperature limits | With display [fn 1] [fn 2] [fn 3] | Ambient temperature limit",
+  "value": "-40 - +176",
+  "unit": "°F",
+  "source_page": 89
+ },
+ {
+  "parameter": "Ambient - Temperature limits | Temperature limits | With display [fn 1] [fn 2] [fn 3] | Ambient temperature limit",
+  "value": "-40 to +80",
+  "unit": "°C",
+  "source_page": 89
+ },
+ {
+  "parameter": "Ambient - Temperature limits | Temperature limits | With option code BR5 | Ambient temperature limit",
+  "value": "-58 - +185",
+  "unit": "°F",
+  "source_page": 89
+ },
+ {
+  "parameter": "Ambient - Temperature limits | Temperature limits | With option code BR5 | Ambient temperature limit",
+  "value": "-50 - +85",
+  "unit": "°C",
+  "source_page": 89
+ },
+ {
+  "parameter": "Ambient - Temperature limits | Temperature limits | With option code BR6 | Ambient temperature limit",
+  "value": "-76 - +185",
+  "unit": "°F",
+  "source_page": 89
+ },
+ {
+  "parameter": "Ambient - Temperature limits | Temperature limits | With option code BR6 | Ambient temperature limit",
+  "value": "-60 - +85",
+  "unit": "°C",
+  "source_page": 89
+ },
+ {
+  "parameter": "Ambient - Temperature limits | footnote 1",
+  "value": "LCD display may not be readable and LCD display updates will be slower at temperatures below -22 ºF (-30 ℃).",
+  "unit": null,
+  "source_page": 89
+ },
+ {
+  "parameter": "Ambient - Temperature limits | footnote 2",
+  "value": "Wireless LCD display may not be readable and LCD display updates will be slower at temperature below -4 ºF (-20 ℃).",
+  "unit": null,
+  "source_page": 89
+ },
+ {
+  "parameter": "Ambient - Temperature limits | footnote 3",
+  "value": "Graphical LCD display updates will be slower at temperatures below +32 ºF (0 ℃). Graphical LCD display may not be readable below -22 ºF (-30 ℃).",
+  "unit": null,
+  "source_page": 89
+ },
+ {
+  "parameter": "Storage - Temperature limits | Temperature limits | Note",
+  "value": "If storage temperature is above +185 °F (+85 ℃), perform a sensor trim prior to installation.",
+  "unit": null,
+  "source_page": 89
+ },
+ {
+  "parameter": "Storage - Temperature limits | Temperature limits | Storage temperature above which a sensor trim is required prior to installation",
+  "value": "+185",
+  "unit": "°F",
+  "source_page": 89
+ },
+ {
+  "parameter": "Storage - Temperature limits | Temperature limits | Storage temperature above which a sensor trim is required prior to installation",
+  "value": "+85",
+  "unit": "°C",
+  "source_page": 89
+ },
+ {
+  "parameter": "Storage - Temperature limits | Temperature limits | Storage temperature limit",
+  "value": "-76 - +230",
+  "unit": "°F",
+  "source_page": 89
+ },
+ {
+  "parameter": "Storage - Temperature limits | Temperature limits | Storage temperature limit",
+  "value": "-60 - +110",
+  "unit": "°C",
+  "source_page": 89
+ },
+ {
+  "parameter": "Storage - Temperature limits | Temperature limits | With display | Storage temperature limit",
+  "value": "-76 - +185",
+  "unit": "°F",
+  "source_page": 89
+ },
+ {
+  "parameter": "Storage - Temperature limits | Temperature limits | With display | Storage temperature limit",
+  "value": "-60 - +85",
+  "unit": "°C",
+  "source_page": 89
+ },
+ {
+  "parameter": "Storage - Temperature limits | Temperature limits | With wireless output | Storage temperature limit",
+  "value": "-40 - +185",
+  "unit": "°F",
+  "source_page": 89
+ },
+ {
+  "parameter": "Storage - Temperature limits | Temperature limits | With wireless output | Storage temperature limit",
+  "value": "-40 - +85",
+  "unit": "°C",
+  "source_page": 89
+ },
+ {
+  "parameter": "Process - Temperature limits | Temperature limits | Applicability",
+  "value": "At atmospheric pressures and above. See Table 6.",
+  "unit": null,
+  "source_page": 90
+ },
+ {
+  "parameter": "Table 6: Process Connection Temperature Limits | Rosemount 3051CD, 3051CG, 3051CF, 3051CA | Silicone fill sensor [fn 1] | Process temperature limit",
+  "value": "N/A",
+  "unit": null,
+  "source_page": 90
+ },
+ {
+  "parameter": "Table 6: Process Connection Temperature Limits | Rosemount 3051CD, 3051CG, 3051CF, 3051CA | Silicone fill sensor [fn 1] | With coplanar flange [fn 2] | Process temperature limit",
+  "value": "-40 - +250",
+  "unit": "°F",
+  "source_page": 90
+ },
+ {
+  "parameter": "Table 6: Process Connection Temperature Limits | Rosemount 3051CD, 3051CG, 3051CF, 3051CA | Silicone fill sensor [fn 1] | With coplanar flange [fn 2] | Process temperature limit",
+  "value": "-40 - +121",
+  "unit": "°C",
+  "source_page": 90
+ },
+ {
+  "parameter": "Table 6: Process Connection Temperature Limits | Rosemount 3051CD, 3051CG, 3051CF, 3051CA | Silicone fill sensor [fn 1] | With traditional flange [fn 2] [fn 3] | Process temperature limit",
+  "value": "-40 - +300",
+  "unit": "°F",
+  "source_page": 90
+ },
+ {
+  "parameter": "Table 6: Process Connection Temperature Limits | Rosemount 3051CD, 3051CG, 3051CF, 3051CA | Silicone fill sensor [fn 1] | With traditional flange [fn 2] [fn 3] | Process temperature limit",
+  "value": "-40 to +149",
+  "unit": "°C",
+  "source_page": 90
+ },
+ {
+  "parameter": "Table 6: Process Connection Temperature Limits | Rosemount 3051CD, 3051CG, 3051CF, 3051CA | Silicone fill sensor [fn 1] | With level flange [fn 2] | Process temperature limit",
+  "value": "-40 - +300",
+  "unit": "°F",
+  "source_page": 90
+ },
+ {
+  "parameter": "Table 6: Process Connection Temperature Limits | Rosemount 3051CD, 3051CG, 3051CF, 3051CA | Silicone fill sensor [fn 1] | With level flange [fn 2] | Process temperature limit",
+  "value": "-40 - +149",
+  "unit": "°C",
+  "source_page": 90
+ },
+ {
+  "parameter": "Table 6: Process Connection Temperature Limits | Rosemount 3051CD, 3051CG, 3051CF, 3051CA | Silicone fill sensor [fn 1] | With Rosemount 305 Integral Manifold [fn 2] | Process temperature limit",
+  "value": "-40 - +300",
+  "unit": "°F",
+  "source_page": 90
+ },
+ {
+  "parameter": "Table 6: Process Connection Temperature Limits | Rosemount 3051CD, 3051CG, 3051CF, 3051CA | Silicone fill sensor [fn 1] | With Rosemount 305 Integral Manifold [fn 2] | Process temperature limit",
+  "value": "-40 - +149",
+  "unit": "°C",
+  "source_page": 90
+ },
+ {
+  "parameter": "Table 6: Process Connection Temperature Limits | Rosemount 3051CD, 3051CG, 3051CF, 3051CA | Inert fill sensor [fn 1] [fn 4] [fn 5] [fn 6] | Process temperature limit",
+  "value": "-40 - +185",
+  "unit": "°F",
+  "source_page": 90
+ },
+ {
+  "parameter": "Table 6: Process Connection Temperature Limits | Rosemount 3051CD, 3051CG, 3051CF, 3051CA | Inert fill sensor [fn 1] [fn 4] [fn 5] [fn 6] | Process temperature limit",
+  "value": "-40 - +85",
+  "unit": "°C",
+  "source_page": 90
+ },
+ {
+  "parameter": "Table 6: Process Connection Temperature Limits | Rosemount 3051CD, 3051CG, 3051CF, 3051CA | With Option Code BR6, coplanar flange [fn 2] | Process temperature limit",
+  "value": "-76 - +250",
+  "unit": "°F",
+  "source_page": 90
+ },
+ {
+  "parameter": "Table 6: Process Connection Temperature Limits | Rosemount 3051CD, 3051CG, 3051CF, 3051CA | With Option Code BR6, coplanar flange [fn 2] | Process temperature limit",
+  "value": "-60 - +121",
+  "unit": "°C",
+  "source_page": 90
+ },
+ {
+  "parameter": "Table 6: Process Connection Temperature Limits | Rosemount 3051CD, 3051CG, 3051CF, 3051CA | With Option Code BR6, traditional flange [fn 2] | Process temperature limit",
+  "value": "-75 - +300",
+  "unit": "°F",
+  "source_page": 90
+ },
+ {
+  "parameter": "Table 6: Process Connection Temperature Limits | Rosemount 3051CD, 3051CG, 3051CF, 3051CA | With Option Code BR6, traditional flange [fn 2] | Process temperature limit",
+  "value": "-60 - +149",
+  "unit": "°C",
+  "source_page": 90
+ },
+ {
+  "parameter": "Table 6: Process Connection Temperature Limits | Rosemount 3051T (process fill fluid) | Silicone fill sensor [fn 1] [fn 2] | Process temperature limit",
+  "value": "-40 - +250",
+  "unit": "°F",
+  "source_page": 90
+ },
+ {
+  "parameter": "Table 6: Process Connection Temperature Limits | Rosemount 3051T (process fill fluid) | Silicone fill sensor [fn 1] [fn 2] | Process temperature limit",
+  "value": "-40 - +121",
+  "unit": "°C",
+  "source_page": 90
+ },
+ {
+  "parameter": "Table 6: Process Connection Temperature Limits | Rosemount 3051T (process fill fluid) | With Option Code BR6 [fn 2] | Process temperature limit",
+  "value": "-76 - +250",
+  "unit": "°F",
+  "source_page": 90
+ },
+ {
+  "parameter": "Table 6: Process Connection Temperature Limits | Rosemount 3051T (process fill fluid) | With Option Code BR6 [fn 2] | Process temperature limit",
+  "value": "-60 - +121",
+  "unit": "°C",
+  "source_page": 90
+ },
+ {
+  "parameter": "Table 6: Process Connection Temperature Limits | Rosemount 3051T (process fill fluid) | Inert fill sensor [fn 1] [fn 2] | Process temperature limit",
+  "value": "-22 - +250",
+  "unit": "°F",
+  "source_page": 90
+ },
+ {
+  "parameter": "Table 6: Process Connection Temperature Limits | Rosemount 3051T (process fill fluid) | Inert fill sensor [fn 1] [fn 2] | Process temperature limit",
+  "value": "-30 - +121",
+  "unit": "°C",
+  "source_page": 90
+ },
+ {
+  "parameter": "Table 6: Process Connection Temperature Limits | Rosemount 3051L low-side temperature limits | Silicone fill sensor [fn 1] [fn 2] | Process temperature limit",
+  "value": "-40 - +250",
+  "unit": "°F",
+  "source_page": 90
+ },
+ {
+  "parameter": "Table 6: Process Connection Temperature Limits | Rosemount 3051L low-side temperature limits | Silicone fill sensor [fn 1] [fn 2] | Process temperature limit",
+  "value": "-40 - +121",
+  "unit": "°C",
+  "source_page": 90
+ },
+ {
+  "parameter": "Table 6: Process Connection Temperature Limits | Rosemount 3051L low-side temperature limits | Inert fill sensor [fn 1] [fn 5] | Process temperature limit",
+  "value": "-40 - +185",
+  "unit": "°F",
+  "source_page": 90
+ },
+ {
+  "parameter": "Table 6: Process Connection Temperature Limits | Rosemount 3051L low-side temperature limits | Inert fill sensor [fn 1] [fn 5] | Process temperature limit",
+  "value": "-40 - +85",
+  "unit": "°C",
+  "source_page": 90
+ },
+ {
+  "parameter": "Table 6: Process Connection Temperature Limits | Rosemount 3051L high-side temperature limits (process fill fluid) | SYLTHERM XLT | Process temperature limit",
+  "value": "-157 - +293",
+  "unit": "°F",
+  "source_page": 90
+ },
+ {
+  "parameter": "Table 6: Process Connection Temperature Limits | Rosemount 3051L high-side temperature limits (process fill fluid) | SYLTHERM XLT | Process temperature limit",
+  "value": "-105 - +145",
+  "unit": "°C",
+  "source_page": 90
+ },
+ {
+  "parameter": "Table 6: Process Connection Temperature Limits | Rosemount 3051L high-side temperature limits (process fill fluid) | Silicone 704 | Process temperature limit",
+  "value": "+32 - +401",
+  "unit": "°F",
+  "source_page": 90
+ },
+ {
+  "parameter": "Table 6: Process Connection Temperature Limits | Rosemount 3051L high-side temperature limits (process fill fluid) | Silicone 704 | Process temperature limit",
+  "value": "0 - +205",
+  "unit": "°C",
+  "source_page": 90
+ },
+ {
+  "parameter": "Table 6: Process Connection Temperature Limits | Rosemount 3051L high-side temperature limits (process fill fluid) | Silicone 200 | Process temperature limit",
+  "value": "-49 - +401",
+  "unit": "°F",
+  "source_page": 90
+ },
+ {
+  "parameter": "Table 6: Process Connection Temperature Limits | Rosemount 3051L high-side temperature limits (process fill fluid) | Silicone 200 | Process temperature limit",
+  "value": "-45 - +205",
+  "unit": "°C",
+  "source_page": 90
+ },
+ {
+  "parameter": "Table 6: Process Connection Temperature Limits | Rosemount 3051L high-side temperature limits (process fill fluid) | Inert | Process temperature limit",
+  "value": "-49 - +320",
+  "unit": "°F",
+  "source_page": 90
+ },
+ {
+  "parameter": "Table 6: Process Connection Temperature Limits | Rosemount 3051L high-side temperature limits (process fill fluid) | Inert | Process temperature limit",
+  "value": "-45 - +160",
+  "unit": "°C",
+  "source_page": 90
+ },
+ {
+  "parameter": "Table 6: Process Connection Temperature Limits | Rosemount 3051L high-side temperature limits (process fill fluid) | Glycerin and water | Process temperature limit",
+  "value": "+5 - +203",
+  "unit": "°F",
+  "source_page": 90
+ },
+ {
+  "parameter": "Table 6: Process Connection Temperature Limits | Rosemount 3051L high-side temperature limits (process fill fluid) | Glycerin and water | Process temperature limit",
+  "value": "-15 - +95",
+  "unit": "°C",
+  "source_page": 90
+ },
+ {
+  "parameter": "Table 6: Process Connection Temperature Limits | Rosemount 3051L high-side temperature limits (process fill fluid) | Neobee M-20 | Process temperature limit",
+  "value": "+5 - +401",
+  "unit": "°F",
+  "source_page": 90
+ },
+ {
+  "parameter": "Table 6: Process Connection Temperature Limits | Rosemount 3051L high-side temperature limits (process fill fluid) | Neobee M-20 | Process temperature limit",
+  "value": "-15 - +205",
+  "unit": "°C",
+  "source_page": 90
+ },
+ {
+  "parameter": "Table 6: Process Connection Temperature Limits | Rosemount 3051L high-side temperature limits (process fill fluid) | Propylene glycol and water | Process temperature limit",
+  "value": "+5 - +203",
+  "unit": "°F",
+  "source_page": 90
+ },
+ {
+  "parameter": "Table 6: Process Connection Temperature Limits | Rosemount 3051L high-side temperature limits (process fill fluid) | Propylene glycol and water | Process temperature limit",
+  "value": "-15 - +95",
+  "unit": "°C",
+  "source_page": 90
+ },
+ {
+  "parameter": "Table 6: Process Connection Temperature Limits | footnote 1",
+  "value": "Process temperatures above +185 ºF (+85 ℃) require derating the ambient limits by a 1.5:1 ratio.",
+  "unit": null,
+  "source_page": 90
+ },
+ {
+  "parameter": "Table 6: Process Connection Temperature Limits | footnote 2",
+  "value": "+220 °F (+104 ℃) limit in vacuum service; +130 °F (+54 ℃) for pressures below 0.5 psia.",
+  "unit": null,
+  "source_page": 90
+ },
+ {
+  "parameter": "Table 6: Process Connection Temperature Limits | footnote 3",
+  "value": "Rosemount 3051CD0 process temperature limits are -40 - +212 ºF (-40 - +100 ℃).",
+  "unit": null,
+  "source_page": 90
+ },
+ {
+  "parameter": "Table 6: Process Connection Temperature Limits | footnote 4",
+  "value": "Inert fill with traditional flange on Range 0: limits are +32 - +185 °F (0 - +85 ℃).",
+  "unit": null,
+  "source_page": 90
+ },
+ {
+  "parameter": "Table 6: Process Connection Temperature Limits | footnote 5",
+  "value": "+160 °F (+71 ℃) limit in vacuum service.",
+  "unit": null,
+  "source_page": 90
+ },
+ {
+  "parameter": "Table 6: Process Connection Temperature Limits | footnote 6",
+  "value": "Not available for Rosemount 3051CA.",
+  "unit": null,
+  "source_page": 90
+ },
+ {
+  "parameter": "Humidity limits | Relative humidity",
+  "value": "0-100",
+  "unit": "percent relative humidity",
+  "source_page": 90
+ },
+ {
+  "parameter": "Turn-on time | Time to performance within specifications after power is applied to the transmitter",
+  "value": "less than 2.0",
+  "unit": "seconds",
+  "source_page": 90
+ },
+ {
+  "parameter": "Turn-on time | PROFIBUS® PA and FOUNDATION™ Fieldbus Protocols | Time to performance within specifications after power is applied to the transmitter",
+  "value": "20.0",
+  "unit": "seconds",
+  "source_page": 90
+ },
+ {
+  "parameter": "Turn-on time | Note",
+  "value": "Does not apply to wireless option code X.",
+  "unit": null,
+  "source_page": 90
+ },
+ {
+  "parameter": "Volumetric displacement | Volumetric displacement",
+  "value": "Less than 0.005",
+  "unit": "inch3",
+  "source_page": 91
+ },
+ {
+  "parameter": "Volumetric displacement | Volumetric displacement",
+  "value": "Less than 0.08",
+  "unit": "cm3",
+  "source_page": 91
+ },
+ {
+  "parameter": "Damping | 4-20 mA HART® | Description",
+  "value": "Analog output response to a step input change is user-enterable from 0.0 to 60 seconds for one time constant. This software damping is in addition to sensor module response time.",
+  "unit": null,
+  "source_page": 91
+ },
+ {
+  "parameter": "Damping | 4-20 mA HART® | Analog output response to a step input change (one time constant), user-enterable",
+  "value": "0.0 to 60",
+  "unit": "seconds",
+  "source_page": 91
+ },
+ {
+  "parameter": "Damping | 4-20 mA HART® | Relation to sensor module response time",
+  "value": "This software damping is in addition to sensor module response time.",
+  "unit": null,
+  "source_page": 91
+ },
+ {
+  "parameter": "Damping | FOUNDATION™ Fieldbus | Transducer block",
+  "value": "User configurable",
+  "unit": null,
+  "source_page": 91
+ },
+ {
+  "parameter": "Damping | FOUNDATION™ Fieldbus | AI Block",
+  "value": "User configurable",
+  "unit": null,
+  "source_page": 91
+ },
+ {
+  "parameter": "Damping | PROFIBUS® PA | AI Block only",
+  "value": "User configurable",
+  "unit": null,
+  "source_page": 91
+ },
+ {
+  "parameter": "Material selection | Purpose of product information",
+  "value": "The Rosemount product information presented is intended as a guide for the purchaser to make an appropriate selection for the application.",
+  "unit": null,
+  "source_page": 91
+ },
+ {
+  "parameter": "Material selection | Purchaser responsibility",
+  "value": "It is the purchaser's sole responsibility to make a careful analysis of all process parameters (such as all chemical components, temperature, pressure, flow rate, abrasives, contaminants, etc.), when specifying product materials, options, and components for the particular application.",
+  "unit": null,
+  "source_page": 91
+ },
+ {
+  "parameter": "Material selection | Compatibility evaluation",
+  "value": "Emerson is not in a position to evaluate or guarantee the compatibility of the process fluid or other process parameters with the product options, configuration, or materials of construction selected.",
+  "unit": null,
+  "source_page": 91
+ },
+ {
+  "parameter": "Electrical connections | Conduit entries",
+  "value": "1/2-14 NPT, G1/2, and M20 x 1.5 conduit",
+  "unit": null,
+  "source_page": 91
+ },
+ {
+  "parameter": "Electrical connections | Polymer housing (code P) | Conduit entries",
+  "value": "The polymer housing (code P) has no conduit entries.",
+  "unit": null,
+  "source_page": 91
+ },
+ {
+  "parameter": "Electrical connections | Output code A | HART® interface connections",
+  "value": "fixed to terminal block",
+  "unit": null,
+  "source_page": 91
+ },
+ {
+  "parameter": "Electrical connections | Output code X | HART® interface connections",
+  "value": "fixed to 701P Power Module",
+  "unit": null,
+  "source_page": 91
+ },
+ {
+  "parameter": "Process connections | Rosemount 3051C | 1/4-18 NPT | Process connection",
+  "value": "1/4-18 NPT on 2 1/8-inch centers",
+  "unit": null,
+  "source_page": 91
+ },
+ {
+  "parameter": "Process connections | Rosemount 3051C | 1/2-14 NPT | Process connection",
+  "value": "1/2-14 NPT on 2-, 2 1/8-, or 2 1/4-inch centers",
+  "unit": null,
+  "source_page": 91
+ },
+ {
+  "parameter": "Process connections | Rosemount 3051L | High pressure side | Process connection",
+  "value": "2-, 3-, or 4-inch, ASME B 16.5 (ANSI) Class 150, 300 or 600 flange; 50, 80, or 100 mm, PN 40 or 10/16 flange",
+  "unit": null,
+  "source_page": 91
+ },
+ {
+  "parameter": "Process connections | Rosemount 3051L | Low pressure side | Process connection",
+  "value": "1/4-18 NPT on flange 1/2-14 NPT on adapter",
+  "unit": null,
+  "source_page": 91
+ },
+ {
+  "parameter": "Process connections | Rosemount 3051T | 1/2-14 NPT female | Process connection",
+  "value": "1/2-14 NPT female",
+  "unit": null,
+  "source_page": 91
+ },
+ {
+  "parameter": "Process connections | Rosemount 3051T | G1/2 A DIN 16288 male | Process connection",
+  "value": "G1/2 A DIN 16288 male (range 1-4 only)",
+  "unit": null,
+  "source_page": 91
+ },
+ {
+  "parameter": "Process connections | Rosemount 3051T | G1/2 A DIN 16288 male | Range availability",
+  "value": "range 1-4 only",
+  "unit": null,
+  "source_page": 91
+ },
+ {
+  "parameter": "Process connections | Rosemount 3051T | Autoclave type F-250-C | Process connection",
+  "value": "Autoclave type F-250-C (pressure relieved 9/16-18 gland thread; 1/4 OD high pressure tube 60° cone; available for range 5-6 transmitters only).",
+  "unit": null,
+  "source_page": 91
+ },
+ {
+  "parameter": "Process connections | Rosemount 3051T | Autoclave type F-250-C | Range availability",
+  "value": "available for range 5-6 transmitters only",
+  "unit": null,
+  "source_page": 91
+ },
+ {
+  "parameter": "Process connections | Rosemount 3051T | Autoclave type F-250-C | Construction",
+  "value": "pressure relieved 9/16-18 gland thread; 1/4 OD high pressure tube 60° cone",
+  "unit": null,
+  "source_page": 91
+ },
+ {
+  "parameter": "Process connections | Rosemount 3051CF | Rosemount 3051CFA | Process connection reference",
+  "value": "see Rosemount DP Flow Meters and Primary Elements Product Data Sheet in the Rosemount 485 Annubar section",
+  "unit": null,
+  "source_page": 91
+ },
+ {
+  "parameter": "Process connections | Rosemount 3051CF | Rosemount 3051CFC | Process connection reference",
+  "value": "see Rosemount DP Flow Meters and Primary Elements Product Data Sheet in the Rosemount 405 Compact Orifice Plate section",
+  "unit": null,
+  "source_page": 91
+ },
+ {
+  "parameter": "Process connections | Rosemount 3051CF | Rosemount 3051CFP | Process connection reference",
+  "value": "see Rosemount DP Flow Meters and Primary Elements Product Data Sheet in the Rosemount 1195 Integral Orifice section",
+  "unit": null,
+  "source_page": 91
+ },
+ {
+  "parameter": "Drain/vent valves | Transmitter process-wetted parts | Material",
+  "value": "316 SST, alloy C-276, or alloy 400 material",
+  "unit": null,
+  "source_page": 92
+ },
+ {
+  "parameter": "Drain/vent valves | Transmitter process-wetted parts | Rosemount 3051L | Alloy 400 availability",
+  "value": "alloy 400 not available with Rosemount 3051L",
+  "unit": null,
+  "source_page": 92
+ },
+ {
+  "parameter": "Transmitter flanges and adapters | Transmitter process-wetted parts | Plated CS | Material option",
+  "value": "Plated CS",
+  "unit": null,
+  "source_page": 92
+ },
+ {
+  "parameter": "Transmitter flanges and adapters | Transmitter process-wetted parts | SST | Material option",
+  "value": "SST: CF-8M (Cast 316 SST) per ASTM A743",
+  "unit": null,
+  "source_page": 92
+ },
+ {
+  "parameter": "Transmitter flanges and adapters | Transmitter process-wetted parts | Cast C-276 | Material option",
+  "value": "Cast C-276: CW-12MW per ASTM A494",
+  "unit": null,
+  "source_page": 92
+ },
+ {
+  "parameter": "Transmitter flanges and adapters | Transmitter process-wetted parts | Cast Alloy 400 | Material option",
+  "value": "Cast Alloy 400: M-30C per ASTM A494",
+  "unit": null,
+  "source_page": 92
+ },
+ {
+  "parameter": "Transmitter flanges and adapters | Transmitter process-wetted parts | Cast Alloy 400 | Traditional Flange and Adapters | Material",
+  "value": "Cast Alloy 400: M-30C per ASTM A494",
+  "unit": null,
+  "source_page": 92
+ },
+ {
+  "parameter": "Transmitter flanges and adapters | Transmitter process-wetted parts | Cast Alloy 400 | Coplanar Flange | Material",
+  "value": "Alloy 400 or 405: ASTM B164 or ASTM B164 or ASTM B127 - N04400 or N04405",
+  "unit": null,
+  "source_page": 92
+ },
+ {
+  "parameter": "Wetted O-rings | Transmitter process-wetted parts | Material",
+  "value": "Glass-filled PTFE or graphite-filled PTFE",
+  "unit": null,
+  "source_page": 92
+ },
+ {
+  "parameter": "Process isolating diaphragms - table 1 | Transmitter process-wetted parts | 3051CD, 3051CG | 316L SST (UNS S31603) | Isolating diaphragm material availability",
+  "value": "Available",
+  "unit": null,
+  "source_page": 92
+ },
+ {
+  "parameter": "Process isolating diaphragms - table 1 | Transmitter process-wetted parts | 3051T | 316L SST (UNS S31603) | Isolating diaphragm material availability",
+  "value": "Available",
+  "unit": null,
+  "source_page": 92
+ },
+ {
+  "parameter": "Process isolating diaphragms - table 1 | Transmitter process-wetted parts | 3051CA | 316L SST (UNS S31603) | Isolating diaphragm material availability",
+  "value": "Available",
+  "unit": null,
+  "source_page": 92
+ },
+ {
+  "parameter": "Process isolating diaphragms - table 1 | Transmitter process-wetted parts | 3051CD, 3051CG | Alloy C-276 (UNS N10276) | Isolating diaphragm material availability",
+  "value": "Available",
+  "unit": null,
+  "source_page": 92
+ },
+ {
+  "parameter": "Process isolating diaphragms - table 1 | Transmitter process-wetted parts | 3051T | Alloy C-276 (UNS N10276) | Isolating diaphragm material availability",
+  "value": "Available",
+  "unit": null,
+  "source_page": 92
+ },
+ {
+  "parameter": "Process isolating diaphragms - table 1 | Transmitter process-wetted parts | 3051CA | Alloy C-276 (UNS N10276) | Isolating diaphragm material availability",
+  "value": "Available",
+  "unit": null,
+  "source_page": 92
+ },
+ {
+  "parameter": "Process isolating diaphragms - table 1 | Transmitter process-wetted parts | 3051CD, 3051CG | Alloy 400 (UNS N04400) | Isolating diaphragm material availability",
+  "value": "Available",
+  "unit": null,
+  "source_page": 92
+ },
+ {
+  "parameter": "Process isolating diaphragms - table 1 | Transmitter process-wetted parts | 3051T | Alloy 400 (UNS N04400) | Isolating diaphragm material availability",
+  "value": "N/A",
+  "unit": null,
+  "source_page": 92
+ },
+ {
+  "parameter": "Process isolating diaphragms - table 1 | Transmitter process-wetted parts | 3051CA | Alloy 400 (UNS N04400) | Isolating diaphragm material availability",
+  "value": "Available",
+  "unit": null,
+  "source_page": 92
+ },
+ {
+  "parameter": "Process isolating diaphragms - table 1 | Transmitter process-wetted parts | 3051CD, 3051CG | Tantalum (UNS R05440) | Isolating diaphragm material availability",
+  "value": "Available",
+  "unit": null,
+  "source_page": 92
+ },
+ {
+  "parameter": "Process isolating diaphragms - table 1 | Transmitter process-wetted parts | 3051T | Tantalum (UNS R05440) | Isolating diaphragm material availability",
+  "value": "N/A",
+  "unit": null,
+  "source_page": 92
+ },
+ {
+  "parameter": "Process isolating diaphragms - table 1 | Transmitter process-wetted parts | 3051CA | Tantalum (UNS R05440) | Isolating diaphragm material availability",
+  "value": "N/A",
+  "unit": null,
+  "source_page": 92
+ },
+ {
+  "parameter": "Process isolating diaphragms - table 1 | Transmitter process-wetted parts | 3051CD, 3051CG | Gold-plated alloy 400 (UNS N04400) | Isolating diaphragm material availability",
+  "value": "Available",
+  "unit": null,
+  "source_page": 92
+ },
+ {
+  "parameter": "Process isolating diaphragms - table 1 | Transmitter process-wetted parts | 3051T | Gold-plated alloy 400 (UNS N04400) | Isolating diaphragm material availability",
+  "value": "N/A",
+  "unit": null,
+  "source_page": 92
+ },
+ {
+  "parameter": "Process isolating diaphragms - table 1 | Transmitter process-wetted parts | 3051CA | Gold-plated alloy 400 (UNS N04400) | Isolating diaphragm material availability",
+  "value": "Available",
+  "unit": null,
+  "source_page": 92
+ },
+ {
+  "parameter": "Process isolating diaphragms - table 1 | Transmitter process-wetted parts | 3051CD, 3051CG | Gold-plated 316L SST | Isolating diaphragm material availability",
+  "value": "Available",
+  "unit": null,
+  "source_page": 92
+ },
+ {
+  "parameter": "Process isolating diaphragms - table 1 | Transmitter process-wetted parts | 3051T | Gold-plated 316L SST | Isolating diaphragm material availability",
+  "value": "Available",
+  "unit": null,
+  "source_page": 92
+ },
+ {
+  "parameter": "Process isolating diaphragms - table 1 | Transmitter process-wetted parts | 3051CA | Gold-plated 316L SST | Isolating diaphragm material availability",
+  "value": "Available",
+  "unit": null,
+  "source_page": 92
+ },
+ {
+  "parameter": "Rosemount 3051L process wetted parts | Flanged process connection (transmitter high side) | Process diaphragms, including process gasket surface | Material",
+  "value": "316L SST, Alloy C-276, or Tantalum",
+  "unit": null,
+  "source_page": 92
+ },
+ {
+  "parameter": "Rosemount 3051L process wetted parts | Flanged process connection (transmitter high side) | Extension | Material",
+  "value": "CF-3M (Cast version of 316L SST, material per ASTM-A743), or Alloy C-276",
+  "unit": null,
+  "source_page": 92
+ },
+ {
+  "parameter": "Rosemount 3051L process wetted parts | Flanged process connection (transmitter high side) | Extension | Pipe compatibility",
+  "value": "Fits schedule 40 and 80 pipe.",
+  "unit": null,
+  "source_page": 92
+ },
+ {
+  "parameter": "Rosemount 3051L process wetted parts | Flanged process connection (transmitter high side) | Mounting flange | Material",
+  "value": "Zinc-cobalt plated CS or SST",
+  "unit": null,
+  "source_page": 92
+ },
+ {
+  "parameter": "Rosemount 3051L process wetted parts | Reference process connection (transmitter low side) | Isolating diaphragms | Material",
+  "value": "316L SST or Alloy C-276",
+  "unit": null,
+  "source_page": 92
+ },
+ {
+  "parameter": "Rosemount 3051L process wetted parts | Reference process connection (transmitter low side) | Reference flange and adapter | Material",
+  "value": "CF-8M (cast version of 316 SST, material per ASTM-A743)",
+  "unit": null,
+  "source_page": 92
+ },
+ {
+  "parameter": "Electronics housing | Non-wetted parts | Material",
+  "value": "Low-copper aluminum or CF-8M (cast version of 316 SST)",
+  "unit": null,
+  "source_page": 92
+ },
+ {
+  "parameter": "Electronics housing | Non-wetted parts | Enclosure type",
+  "value": "4X, IP65, IP66, IP68",
+  "unit": null,
+  "source_page": 92
+ },
+ {
+  "parameter": "Electronics housing | Non-wetted parts | Housing material code P | Material",
+  "value": "PBT/PC",
+  "unit": null,
+  "source_page": 92
+ },
+ {
+  "parameter": "Electronics housing | Non-wetted parts | Housing material code P | Enclosure rating",
+  "value": "NEMA 4X and IP66/67/68",
+  "unit": null,
+  "source_page": 92
+ },
+ {
+  "parameter": "Coplanar sensor housing module | Non-wetted parts | Material",
+  "value": "SST: CF-3M (Cast 316L SST)",
+  "unit": null,
+  "source_page": 92
+ },
+ {
+  "parameter": "Bolts | Non-wetted parts | Plated CS | Bolt material option",
+  "value": "Plated CS per ASTM A449, Type 1",
+  "unit": null,
+  "source_page": 93
+ },
+ {
+  "parameter": "Bolts | Non-wetted parts | Austenitic 316 SST | Bolt material option",
+  "value": "Austenitic 316 SST per ASTM F593",
+  "unit": null,
+  "source_page": 93
+ },
+ {
+  "parameter": "Bolts | Non-wetted parts | ASTM A193, Grade B7M alloy steel | Bolt material option",
+  "value": "ASTM A193, Grade B7M alloy steel",
+  "unit": null,
+  "source_page": 93
+ },
+ {
+  "parameter": "Bolts | Non-wetted parts | Alloy K-500 | Bolt material option",
+  "value": "Alloy K-500",
+  "unit": null,
+  "source_page": 93
+ },
+ {
+  "parameter": "Sensor module fill fluid | Non-wetted parts | Coplanar | Fill fluid",
+  "value": "silicone or inert halocarbon",
+  "unit": null,
+  "source_page": 93
+ },
+ {
+  "parameter": "Sensor module fill fluid | Non-wetted parts | In-line | Fill fluid",
+  "value": "silicone or inert halocarbon",
+  "unit": null,
+  "source_page": 93
+ },
+ {
+  "parameter": "Process fill fluid (Rosemount 3051L only) | Non-wetted parts | Rosemount 3051L | Process fill fluid options",
+  "value": "Syltherm XLT, Silicone 704, Silicone 200, inert, glycerin and water, Neobee M-20, or propylene glycol and water",
+  "unit": null,
+  "source_page": 93
+ },
+ {
+  "parameter": "Paint | Non-wetted parts | Material",
+  "value": "Polyurethane",
+  "unit": null,
+  "source_page": 93
+ },
+ {
+  "parameter": "Cover O-rings | Non-wetted parts | Material",
+  "value": "Buna-N",
+  "unit": null,
+  "source_page": 93
+ },
+ {
+  "parameter": "Cover O-rings | Non-wetted parts | Wireless option code X | Material",
+  "value": "Silicone",
+  "unit": null,
+  "source_page": 93
+ },
+ {
+  "parameter": "Power module - Physical specifications | Physical specifications | Non-wetted parts | Description",
+  "value": "Field replaceable, keyed connection eliminates the risk of incorrect installation, Intrinsically Safe lithium-thionyl chloride power module with PBT enclosure.",
+  "unit": null,
+  "source_page": 93
+ },
+ {
+  "parameter": "Power module - Physical specifications | Physical specifications | Non-wetted parts | Installation",
+  "value": "Field replaceable, keyed connection eliminates the risk of incorrect installation",
+  "unit": null,
+  "source_page": 93
+ },
+ {
+  "parameter": "Power module - Physical specifications | Physical specifications | Non-wetted parts | Chemistry",
+  "value": "Intrinsically Safe lithium-thionyl chloride",
+  "unit": null,
+  "source_page": 93
+ },
+ {
+  "parameter": "Power module - Physical specifications | Physical specifications | Non-wetted parts | Enclosure material",
+  "value": "PBT",
+  "unit": null,
+  "source_page": 93
+ },
+ {
+  "parameter": "Shipping weights | Note",
+  "value": "Transmitter weights include the sensor module and housing only (aluminum for Rosemount 3051 and polymer for wireless).",
+  "unit": null,
+  "source_page": 94
+ },
+ {
+  "parameter": "Shipping weights | Rosemount 3051 | Housing material included in transmitter weight",
+  "value": "aluminum",
+  "unit": null,
+  "source_page": 94
+ },
+ {
+  "parameter": "Shipping weights | Wireless | Housing material included in transmitter weight",
+  "value": "polymer",
+  "unit": null,
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 7: Transmitter Weights without Options | 3051C | Rosemount 3051 | Weight without options",
+  "value": "6.0",
+  "unit": "lb",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 7: Transmitter Weights without Options | 3051C | Rosemount 3051 | Weight without options",
+  "value": "2.7",
+  "unit": "kg",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 7: Transmitter Weights without Options | 3051C | Wireless | Weight without options",
+  "value": "3.9",
+  "unit": "lb",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 7: Transmitter Weights without Options | 3051C | Wireless | Weight without options",
+  "value": "1.8",
+  "unit": "kg",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 7: Transmitter Weights without Options | 3051T | Rosemount 3051 | Weight without options",
+  "value": "3.0",
+  "unit": "lb",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 7: Transmitter Weights without Options | 3051T | Rosemount 3051 | Weight without options",
+  "value": "1.4",
+  "unit": "kg",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 7: Transmitter Weights without Options | 3051T | Wireless | Weight without options",
+  "value": "1.9",
+  "unit": "lb",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 7: Transmitter Weights without Options | 3051T | Wireless | Weight without options",
+  "value": "0.86",
+  "unit": "kg",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 7: Transmitter Weights without Options | 3051L | Rosemount 3051 | Weight without options",
+  "value": "Table 8",
+  "unit": null,
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 7: Transmitter Weights without Options | 3051L | Wireless | Weight without options",
+  "value": "Table 8",
+  "unit": null,
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 8: Rosemount 3051L Weights without Options | 2-inch, Class 150 | Flush | Weight without options",
+  "value": "12.5",
+  "unit": "lb",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 8: Rosemount 3051L Weights without Options | 2-inch, Class 150 | Flush | Weight without options",
+  "value": "5.7",
+  "unit": "kg",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 8: Rosemount 3051L Weights without Options | 2-inch, Class 150 | 2-in. extention | Weight without options",
+  "value": "N/A",
+  "unit": null,
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 8: Rosemount 3051L Weights without Options | 2-inch, Class 150 | 4-in. extension | Weight without options",
+  "value": "N/A",
+  "unit": null,
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 8: Rosemount 3051L Weights without Options | 2-inch, Class 150 | 6-in. extension | Weight without options",
+  "value": "N/A",
+  "unit": null,
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 8: Rosemount 3051L Weights without Options | 3-inch, Class 150 | Flush | Weight without options",
+  "value": "17.5",
+  "unit": "lb",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 8: Rosemount 3051L Weights without Options | 3-inch, Class 150 | Flush | Weight without options",
+  "value": "7.9",
+  "unit": "kg",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 8: Rosemount 3051L Weights without Options | 3-inch, Class 150 | 2-in. extention | Weight without options",
+  "value": "19.5",
+  "unit": "lb",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 8: Rosemount 3051L Weights without Options | 3-inch, Class 150 | 2-in. extention | Weight without options",
+  "value": "8.8",
+  "unit": "kg",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 8: Rosemount 3051L Weights without Options | 3-inch, Class 150 | 4-in. extension | Weight without options",
+  "value": "20.5",
+  "unit": "lb",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 8: Rosemount 3051L Weights without Options | 3-inch, Class 150 | 4-in. extension | Weight without options",
+  "value": "9.3",
+  "unit": "kg",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 8: Rosemount 3051L Weights without Options | 3-inch, Class 150 | 6-in. extension | Weight without options",
+  "value": "21.5",
+  "unit": "lb",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 8: Rosemount 3051L Weights without Options | 3-inch, Class 150 | 6-in. extension | Weight without options",
+  "value": "9.7",
+  "unit": "kg",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 8: Rosemount 3051L Weights without Options | 4-inch, Class 150 | Flush | Weight without options",
+  "value": "23.5",
+  "unit": "lb",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 8: Rosemount 3051L Weights without Options | 4-inch, Class 150 | Flush | Weight without options",
+  "value": "10.7",
+  "unit": "kg",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 8: Rosemount 3051L Weights without Options | 4-inch, Class 150 | 2-in. extention | Weight without options",
+  "value": "26.5",
+  "unit": "lb",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 8: Rosemount 3051L Weights without Options | 4-inch, Class 150 | 2-in. extention | Weight without options",
+  "value": "12.0",
+  "unit": "kg",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 8: Rosemount 3051L Weights without Options | 4-inch, Class 150 | 4-in. extension | Weight without options",
+  "value": "28.5",
+  "unit": "lb",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 8: Rosemount 3051L Weights without Options | 4-inch, Class 150 | 4-in. extension | Weight without options",
+  "value": "12.9",
+  "unit": "kg",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 8: Rosemount 3051L Weights without Options | 4-inch, Class 150 | 6-in. extension | Weight without options",
+  "value": "30.5",
+  "unit": "lb",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 8: Rosemount 3051L Weights without Options | 4-inch, Class 150 | 6-in. extension | Weight without options",
+  "value": "13.8",
+  "unit": "kg",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 8: Rosemount 3051L Weights without Options | 2-inch, Class 300 | Flush | Weight without options",
+  "value": "17.5",
+  "unit": "lb",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 8: Rosemount 3051L Weights without Options | 2-inch, Class 300 | Flush | Weight without options",
+  "value": "7.9",
+  "unit": "kg",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 8: Rosemount 3051L Weights without Options | 2-inch, Class 300 | 2-in. extention | Weight without options",
+  "value": "N/A",
+  "unit": null,
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 8: Rosemount 3051L Weights without Options | 2-inch, Class 300 | 4-in. extension | Weight without options",
+  "value": "N/A",
+  "unit": null,
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 8: Rosemount 3051L Weights without Options | 2-inch, Class 300 | 6-in. extension | Weight without options",
+  "value": "N/A",
+  "unit": null,
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 8: Rosemount 3051L Weights without Options | 3-inch, Class 300 | Flush | Weight without options",
+  "value": "22.5",
+  "unit": "lb",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 8: Rosemount 3051L Weights without Options | 3-inch, Class 300 | Flush | Weight without options",
+  "value": "10.2",
+  "unit": "kg",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 8: Rosemount 3051L Weights without Options | 3-inch, Class 300 | 2-in. extention | Weight without options",
+  "value": "24.5",
+  "unit": "lb",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 8: Rosemount 3051L Weights without Options | 3-inch, Class 300 | 2-in. extention | Weight without options",
+  "value": "11.1",
+  "unit": "kg",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 8: Rosemount 3051L Weights without Options | 3-inch, Class 300 | 4-in. extension | Weight without options",
+  "value": "25.5",
+  "unit": "lb",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 8: Rosemount 3051L Weights without Options | 3-inch, Class 300 | 4-in. extension | Weight without options",
+  "value": "11.6",
+  "unit": "kg",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 8: Rosemount 3051L Weights without Options | 3-inch, Class 300 | 6-in. extension | Weight without options",
+  "value": "26.5",
+  "unit": "lb",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 8: Rosemount 3051L Weights without Options | 3-inch, Class 300 | 6-in. extension | Weight without options",
+  "value": "12.0",
+  "unit": "kg",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 8: Rosemount 3051L Weights without Options | 4-inch, Class 300 | Flush | Weight without options",
+  "value": "32.5",
+  "unit": "lb",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 8: Rosemount 3051L Weights without Options | 4-inch, Class 300 | Flush | Weight without options",
+  "value": "14.7",
+  "unit": "kg",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 8: Rosemount 3051L Weights without Options | 4-inch, Class 300 | 2-in. extention | Weight without options",
+  "value": "35.5",
+  "unit": "lb",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 8: Rosemount 3051L Weights without Options | 4-inch, Class 300 | 2-in. extention | Weight without options",
+  "value": "16.1",
+  "unit": "kg",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 8: Rosemount 3051L Weights without Options | 4-inch, Class 300 | 4-in. extension | Weight without options",
+  "value": "37.5",
+  "unit": "lb",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 8: Rosemount 3051L Weights without Options | 4-inch, Class 300 | 4-in. extension | Weight without options",
+  "value": "17.0",
+  "unit": "kg",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 8: Rosemount 3051L Weights without Options | 4-inch, Class 300 | 6-in. extension | Weight without options",
+  "value": "39.5",
+  "unit": "lb",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 8: Rosemount 3051L Weights without Options | 4-inch, Class 300 | 6-in. extension | Weight without options",
+  "value": "17.9",
+  "unit": "kg",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 8: Rosemount 3051L Weights without Options | 2-inch, Class 600 | Flush | Weight without options",
+  "value": "15.3",
+  "unit": "lb",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 8: Rosemount 3051L Weights without Options | 2-inch, Class 600 | Flush | Weight without options",
+  "value": "6.9",
+  "unit": "kg",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 8: Rosemount 3051L Weights without Options | 2-inch, Class 600 | 2-in. extention | Weight without options",
+  "value": "N/A",
+  "unit": null,
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 8: Rosemount 3051L Weights without Options | 2-inch, Class 600 | 4-in. extension | Weight without options",
+  "value": "N/A",
+  "unit": null,
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 8: Rosemount 3051L Weights without Options | 2-inch, Class 600 | 6-in. extension | Weight without options",
+  "value": "N/A",
+  "unit": null,
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 8: Rosemount 3051L Weights without Options | 3-inch, Class 600 | Flush | Weight without options",
+  "value": "25.2",
+  "unit": "lb",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 8: Rosemount 3051L Weights without Options | 3-inch, Class 600 | Flush | Weight without options",
+  "value": "11.4",
+  "unit": "kg",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 8: Rosemount 3051L Weights without Options | 3-inch, Class 600 | 2-in. extention | Weight without options",
+  "value": "27.2",
+  "unit": "lb",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 8: Rosemount 3051L Weights without Options | 3-inch, Class 600 | 2-in. extention | Weight without options",
+  "value": "12.3",
+  "unit": "kg",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 8: Rosemount 3051L Weights without Options | 3-inch, Class 600 | 4-in. extension | Weight without options",
+  "value": "28.2",
+  "unit": "lb",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 8: Rosemount 3051L Weights without Options | 3-inch, Class 600 | 4-in. extension | Weight without options",
+  "value": "12.8",
+  "unit": "kg",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 8: Rosemount 3051L Weights without Options | 3-inch, Class 600 | 6-in. extension | Weight without options",
+  "value": "29.2",
+  "unit": "lb",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 8: Rosemount 3051L Weights without Options | 3-inch, Class 600 | 6-in. extension | Weight without options",
+  "value": "13.2",
+  "unit": "kg",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 8: Rosemount 3051L Weights without Options | DN 50/ PN 40 | Flush | Weight without options",
+  "value": "13.8",
+  "unit": "lb",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 8: Rosemount 3051L Weights without Options | DN 50/ PN 40 | Flush | Weight without options",
+  "value": "6.2",
+  "unit": "kg",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 8: Rosemount 3051L Weights without Options | DN 50/ PN 40 | 2-in. extention | Weight without options",
+  "value": "N/A",
+  "unit": null,
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 8: Rosemount 3051L Weights without Options | DN 50/ PN 40 | 4-in. extension | Weight without options",
+  "value": "N/A",
+  "unit": null,
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 8: Rosemount 3051L Weights without Options | DN 50/ PN 40 | 6-in. extension | Weight without options",
+  "value": "N/A",
+  "unit": null,
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 8: Rosemount 3051L Weights without Options | DN 80/ PN 40 | Flush | Weight without options",
+  "value": "19.5",
+  "unit": "lb",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 8: Rosemount 3051L Weights without Options | DN 80/ PN 40 | Flush | Weight without options",
+  "value": "8.8",
+  "unit": "kg",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 8: Rosemount 3051L Weights without Options | DN 80/ PN 40 | 2-in. extention | Weight without options",
+  "value": "21.5",
+  "unit": "lb",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 8: Rosemount 3051L Weights without Options | DN 80/ PN 40 | 2-in. extention | Weight without options",
+  "value": "9.7",
+  "unit": "kg",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 8: Rosemount 3051L Weights without Options | DN 80/ PN 40 | 4-in. extension | Weight without options",
+  "value": "22.5",
+  "unit": "lb",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 8: Rosemount 3051L Weights without Options | DN 80/ PN 40 | 4-in. extension | Weight without options",
+  "value": "10.2",
+  "unit": "kg",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 8: Rosemount 3051L Weights without Options | DN 80/ PN 40 | 6-in. extension | Weight without options",
+  "value": "23.5",
+  "unit": "lb",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 8: Rosemount 3051L Weights without Options | DN 80/ PN 40 | 6-in. extension | Weight without options",
+  "value": "10.6",
+  "unit": "kg",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 8: Rosemount 3051L Weights without Options | DN 100/ PN 10/16 | Flush | Weight without options",
+  "value": "17.8",
+  "unit": "lb",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 8: Rosemount 3051L Weights without Options | DN 100/ PN 10/16 | Flush | Weight without options",
+  "value": "8.1",
+  "unit": "kg",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 8: Rosemount 3051L Weights without Options | DN 100/ PN 10/16 | 2-in. extention | Weight without options",
+  "value": "19.8",
+  "unit": "lb",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 8: Rosemount 3051L Weights without Options | DN 100/ PN 10/16 | 2-in. extention | Weight without options",
+  "value": "9.0",
+  "unit": "kg",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 8: Rosemount 3051L Weights without Options | DN 100/ PN 10/16 | 4-in. extension | Weight without options",
+  "value": "20.8",
+  "unit": "lb",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 8: Rosemount 3051L Weights without Options | DN 100/ PN 10/16 | 4-in. extension | Weight without options",
+  "value": "9.5",
+  "unit": "kg",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 8: Rosemount 3051L Weights without Options | DN 100/ PN 10/16 | 6-in. extension | Weight without options",
+  "value": "21.8",
+  "unit": "lb",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 8: Rosemount 3051L Weights without Options | DN 100/ PN 10/16 | 6-in. extension | Weight without options",
+  "value": "9.9",
+  "unit": "kg",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 8: Rosemount 3051L Weights without Options | DN 100/ PN 40 | Flush | Weight without options",
+  "value": "23.2",
+  "unit": "lb",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 8: Rosemount 3051L Weights without Options | DN 100/ PN 40 | Flush | Weight without options",
+  "value": "10.5",
+  "unit": "kg",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 8: Rosemount 3051L Weights without Options | DN 100/ PN 40 | 2-in. extention | Weight without options",
+  "value": "25.2",
+  "unit": "lb",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 8: Rosemount 3051L Weights without Options | DN 100/ PN 40 | 2-in. extention | Weight without options",
+  "value": "11.5",
+  "unit": "kg",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 8: Rosemount 3051L Weights without Options | DN 100/ PN 40 | 4-in. extension | Weight without options",
+  "value": "26.2",
+  "unit": "lb",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 8: Rosemount 3051L Weights without Options | DN 100/ PN 40 | 4-in. extension | Weight without options",
+  "value": "11.9",
+  "unit": "kg",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 8: Rosemount 3051L Weights without Options | DN 100/ PN 40 | 6-in. extension | Weight without options",
+  "value": "27.2",
+  "unit": "lb",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 8: Rosemount 3051L Weights without Options | DN 100/ PN 40 | 6-in. extension | Weight without options",
+  "value": "12.3",
+  "unit": "kg",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 9: Transmitter Option Weights | Code J, K, L, M | SST housing (T) | Additional weight",
+  "value": "3.9",
+  "unit": "lb",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 9: Transmitter Option Weights | Code J, K, L, M | SST housing (T) | Additional weight",
+  "value": "1.8",
+  "unit": "kg",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 9: Transmitter Option Weights | Code J, K, L, M | SST housing (C, L, H, P) | Additional weight",
+  "value": "3.1",
+  "unit": "lb",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 9: Transmitter Option Weights | Code J, K, L, M | SST housing (C, L, H, P) | Additional weight",
+  "value": "1.4",
+  "unit": "kg",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 9: Transmitter Option Weights | Code M4/M5/M6 | Display for wired transmitter | Additional weight",
+  "value": "0.5",
+  "unit": "lb",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 9: Transmitter Option Weights | Code M4/M5/M6 | Display for wired transmitter | Additional weight",
+  "value": "0.2",
+  "unit": "kg",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 9: Transmitter Option Weights | Code M5 | LCD display for wireless output | Additional weight",
+  "value": "0.1",
+  "unit": "lb",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 9: Transmitter Option Weights | Code M5 | LCD display for wireless output | Additional weight",
+  "value": "0.04",
+  "unit": "kg",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 9: Transmitter Option Weights | Code B4, BE | SST mounting bracket for coplanar flange | Additional weight",
+  "value": "1.0",
+  "unit": "lb",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 9: Transmitter Option Weights | Code B4, BE | SST mounting bracket for coplanar flange | Additional weight",
+  "value": "0.5",
+  "unit": "kg",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 9: Transmitter Option Weights | Code B1, B2, B3 | Mounting bracket for traditional flange | Additional weight",
+  "value": "2.3",
+  "unit": "lb",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 9: Transmitter Option Weights | Code B1, B2, B3 | Mounting bracket for traditional flange | Additional weight",
+  "value": "1.0",
+  "unit": "kg",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 9: Transmitter Option Weights | Code B7, B8, B9 | Mounting bracket for traditional flange | Additional weight",
+  "value": "2.3",
+  "unit": "lb",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 9: Transmitter Option Weights | Code B7, B8, B9 | Mounting bracket for traditional flange | Additional weight",
+  "value": "1.0",
+  "unit": "kg",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 9: Transmitter Option Weights | Code BA, BC | SST bracket for traditional flange | Additional weight",
+  "value": "2.3",
+  "unit": "lb",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 9: Transmitter Option Weights | Code BA, BC | SST bracket for traditional flange | Additional weight",
+  "value": "1.0",
+  "unit": "kg",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 9: Transmitter Option Weights | Code H2 | Traditional flange | Additional weight",
+  "value": "2.4",
+  "unit": "lb",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 9: Transmitter Option Weights | Code H2 | Traditional flange | Additional weight",
+  "value": "1.1",
+  "unit": "kg",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 9: Transmitter Option Weights | Code H3 | Traditional flange | Additional weight",
+  "value": "2.7",
+  "unit": "lb",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 9: Transmitter Option Weights | Code H3 | Traditional flange | Additional weight",
+  "value": "1.2",
+  "unit": "kg",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 9: Transmitter Option Weights | Code H4 | Traditional flange | Additional weight",
+  "value": "2.6",
+  "unit": "lb",
+  "source_page": 94
+ },
+ {
+  "parameter": "Table 9: Transmitter Option Weights | Code H4 | Traditional flange | Additional weight",
+  "value": "1.2",
+  "unit": "kg",
+  "source_page": 94
+ }
+]

@@ -1,0 +1,530 @@
+[
+ {
+  "parameter": "EXTRACTION NOTE",
+  "value": "Coverage: exhaustive over the Azure layout export (pages 1-2): all 4 tables (Plates, Materials, Operational data, Pipe connections) and their notes, and all specification statements in text (product description, Applications, Benefits, Features, service portfolio list, drawing note, document code). Not extracted: the unlabelled dimension numbers and port labels S1-S4 inside the dimensional drawing figure (no parameter in the text; step 03), logo OCR 'LAVAL', legal footers, contact text, marketing sentences without parameter. Dual units (mm/inches, barg/psig, C/F) recorded as separate records; the printed unit word 'inches' is written with its symbol 'in', barg and psig as printed. Observations: (1) Materials table, 'Heat transfer plates' cell is exported as '316/316L C-276 Ti, TiPd' (line breaks lost); recorded as the three printed options separated by commas. (2) Pipe connections, 'External tapered threaded' cell is exported as 'ISO 7 - R 1 1/4 1 1/4 - 11.5 NPT'; recorded as two records (ISO 7 - R 1 1/4 and 1 1/4 - 11.5 NPT). (3) The service portfolio sub-lists (Start-up, Support, Maintenance, Improvements, Monitoring) are interleaved in the export (two-column layout), so items cannot be assigned reliably to sub-headings; recorded under the portfolio heading only. (4) Bullet characters in the export vary ('.' vs '·'); ignored. (5) Drawing label '62 (2.47' is garbled in the export (not extracted here).",
+  "unit": null,
+  "source_page": null
+ },
+ {
+  "parameter": "Alfa Laval M3 | Product type",
+  "value": "Gasketed plate-and-frame heat exchanger for a wide range of applications",
+  "unit": null,
+  "source_page": 1
+ },
+ {
+  "parameter": "Alfa Laval M3 | Product line",
+  "value": "Alfa Laval Industrial line",
+  "unit": null,
+  "source_page": 1
+ },
+ {
+  "parameter": "Alfa Laval M3 | Plate and gasket types",
+  "value": "available with a large selection of plate and gasket types",
+  "unit": null,
+  "source_page": 1
+ },
+ {
+  "parameter": "Alfa Laval M3 | Plate configuration",
+  "value": "normal single plate configuration",
+  "unit": null,
+  "source_page": 1
+ },
+ {
+  "parameter": "Alfa Laval M3 | Plate configuration",
+  "value": "double wall plates",
+  "unit": null,
+  "source_page": 1
+ },
+ {
+  "parameter": "Alfa Laval M3 | Double wall plates | Purpose",
+  "value": "extra precaution to avoid intermixing of fluids",
+  "unit": null,
+  "source_page": 1
+ },
+ {
+  "parameter": "Applications | Application",
+  "value": "Biotech and Pharmaceutical",
+  "unit": null,
+  "source_page": 1
+ },
+ {
+  "parameter": "Applications | Application",
+  "value": "Chemicals",
+  "unit": null,
+  "source_page": 1
+ },
+ {
+  "parameter": "Applications | Application",
+  "value": "Energy and Utilities",
+  "unit": null,
+  "source_page": 1
+ },
+ {
+  "parameter": "Applications | Application",
+  "value": "Food and Beverages",
+  "unit": null,
+  "source_page": 1
+ },
+ {
+  "parameter": "Applications | Application",
+  "value": "Home and Personal care",
+  "unit": null,
+  "source_page": 1
+ },
+ {
+  "parameter": "Applications | Application",
+  "value": "HVAC and Refrigeration",
+  "unit": null,
+  "source_page": 1
+ },
+ {
+  "parameter": "Applications | Application",
+  "value": "Machinery and Manufacturing",
+  "unit": null,
+  "source_page": 1
+ },
+ {
+  "parameter": "Applications | Application",
+  "value": "Marine and Transportation",
+  "unit": null,
+  "source_page": 1
+ },
+ {
+  "parameter": "Applications | Application",
+  "value": "Mining, Minerals and Pigments",
+  "unit": null,
+  "source_page": 1
+ },
+ {
+  "parameter": "Applications | Application",
+  "value": "Pulp and Paper",
+  "unit": null,
+  "source_page": 1
+ },
+ {
+  "parameter": "Applications | Application",
+  "value": "Semiconductor and Electronics",
+  "unit": null,
+  "source_page": 1
+ },
+ {
+  "parameter": "Applications | Application",
+  "value": "Steel",
+  "unit": null,
+  "source_page": 1
+ },
+ {
+  "parameter": "Applications | Application",
+  "value": "Water and Waste treatment",
+  "unit": null,
+  "source_page": 1
+ },
+ {
+  "parameter": "Benefits | Benefit",
+  "value": "High energy efficiency - low operating cost",
+  "unit": null,
+  "source_page": 1
+ },
+ {
+  "parameter": "Benefits | Benefit",
+  "value": "Flexible configuration - heat transfer area can be modified",
+  "unit": null,
+  "source_page": 1
+ },
+ {
+  "parameter": "Benefits | Benefit",
+  "value": "Easy to install - compact design",
+  "unit": null,
+  "source_page": 1
+ },
+ {
+  "parameter": "Benefits | Benefit",
+  "value": "High serviceability - easy to open for inspection and cleaning and easy to clean by CIP",
+  "unit": null,
+  "source_page": 1
+ },
+ {
+  "parameter": "Benefits | Benefit",
+  "value": "Access to Alfa Laval's global service network",
+  "unit": null,
+  "source_page": 1
+ },
+ {
+  "parameter": "Features | Available feature",
+  "value": "Glued gasket",
+  "unit": null,
+  "source_page": 1
+ },
+ {
+  "parameter": "Features | Available feature",
+  "value": "Clip-on gasket",
+  "unit": null,
+  "source_page": 1
+ },
+ {
+  "parameter": "Features | Available feature",
+  "value": "Leak chamber",
+  "unit": null,
+  "source_page": 1
+ },
+ {
+  "parameter": "Features | Available feature",
+  "value": "Fixed bolt head",
+  "unit": null,
+  "source_page": 1
+ },
+ {
+  "parameter": "Features | Available feature",
+  "value": "Key hole bolt opening",
+  "unit": null,
+  "source_page": 1
+ },
+ {
+  "parameter": "Features | Available feature",
+  "value": "Lifting lug",
+  "unit": null,
+  "source_page": 1
+ },
+ {
+  "parameter": "Features | Available feature",
+  "value": "Lining",
+  "unit": null,
+  "source_page": 1
+ },
+ {
+  "parameter": "Features | Available feature",
+  "value": "Lock washer",
+  "unit": null,
+  "source_page": 1
+ },
+ {
+  "parameter": "Features | Available feature",
+  "value": "Tightening bolt cover",
+  "unit": null,
+  "source_page": 1
+ },
+ {
+  "parameter": "Extending performance with Alfa Laval 360° Service Portfolio | Service",
+  "value": "Installation",
+  "unit": null,
+  "source_page": 1
+ },
+ {
+  "parameter": "Extending performance with Alfa Laval 360° Service Portfolio | Service",
+  "value": "Exclusive Stock",
+  "unit": null,
+  "source_page": 1
+ },
+ {
+  "parameter": "Extending performance with Alfa Laval 360° Service Portfolio | Service",
+  "value": "Installation Supervision",
+  "unit": null,
+  "source_page": 1
+ },
+ {
+  "parameter": "Extending performance with Alfa Laval 360° Service Portfolio | Service",
+  "value": "Technical Documentation",
+  "unit": null,
+  "source_page": 1
+ },
+ {
+  "parameter": "Extending performance with Alfa Laval 360° Service Portfolio | Service",
+  "value": "Commissioning",
+  "unit": null,
+  "source_page": 1
+ },
+ {
+  "parameter": "Extending performance with Alfa Laval 360° Service Portfolio | Service",
+  "value": "Telephone Support",
+  "unit": null,
+  "source_page": 1
+ },
+ {
+  "parameter": "Extending performance with Alfa Laval 360° Service Portfolio | Service",
+  "value": "Training",
+  "unit": null,
+  "source_page": 1
+ },
+ {
+  "parameter": "Extending performance with Alfa Laval 360° Service Portfolio | Service",
+  "value": "Troubleshooting",
+  "unit": null,
+  "source_page": 1
+ },
+ {
+  "parameter": "Extending performance with Alfa Laval 360° Service Portfolio | Service",
+  "value": "Cleaning Services",
+  "unit": null,
+  "source_page": 1
+ },
+ {
+  "parameter": "Extending performance with Alfa Laval 360° Service Portfolio | Service",
+  "value": "Reconditioning",
+  "unit": null,
+  "source_page": 1
+ },
+ {
+  "parameter": "Extending performance with Alfa Laval 360° Service Portfolio | Service",
+  "value": "Repair",
+  "unit": null,
+  "source_page": 1
+ },
+ {
+  "parameter": "Extending performance with Alfa Laval 360° Service Portfolio | Service",
+  "value": "Equipment Upgrades",
+  "unit": null,
+  "source_page": 1
+ },
+ {
+  "parameter": "Extending performance with Alfa Laval 360° Service Portfolio | Service",
+  "value": "Service Tools",
+  "unit": null,
+  "source_page": 1
+ },
+ {
+  "parameter": "Extending performance with Alfa Laval 360° Service Portfolio | Service",
+  "value": "Redesign",
+  "unit": null,
+  "source_page": 1
+ },
+ {
+  "parameter": "Extending performance with Alfa Laval 360° Service Portfolio | Service",
+  "value": "Spare Parts",
+  "unit": null,
+  "source_page": 1
+ },
+ {
+  "parameter": "Extending performance with Alfa Laval 360° Service Portfolio | Service",
+  "value": "Replacement and Retrofit",
+  "unit": null,
+  "source_page": 1
+ },
+ {
+  "parameter": "Extending performance with Alfa Laval 360° Service Portfolio | Service",
+  "value": "Condition Audit",
+  "unit": null,
+  "source_page": 1
+ },
+ {
+  "parameter": "Extending performance with Alfa Laval 360° Service Portfolio | Service",
+  "value": "Performance Audit",
+  "unit": null,
+  "source_page": 1
+ },
+ {
+  "parameter": "Dimensional drawing Measurements mm (inches) | Note on tightening bolts",
+  "value": "The number of tightening bolts may vary depending on pressure rating.",
+  "unit": null,
+  "source_page": 2
+ },
+ {
+  "parameter": "Plates | M3 | Type",
+  "value": "Single plate",
+  "unit": null,
+  "source_page": 2
+ },
+ {
+  "parameter": "Plates | M3 | Free channel",
+  "value": "2.4",
+  "unit": "mm",
+  "source_page": 2
+ },
+ {
+  "parameter": "Plates | M3 | Free channel",
+  "value": "0.095",
+  "unit": "in",
+  "source_page": 2
+ },
+ {
+  "parameter": "Plates | M3-D | Type",
+  "value": "Double wall plate",
+  "unit": null,
+  "source_page": 2
+ },
+ {
+  "parameter": "Plates | M3-D | Free channel",
+  "value": "2.4",
+  "unit": "mm",
+  "source_page": 2
+ },
+ {
+  "parameter": "Plates | M3-D | Free channel",
+  "value": "0.095",
+  "unit": "in",
+  "source_page": 2
+ },
+ {
+  "parameter": "Plates | M3-G | Type",
+  "value": "Gemini (hygienic) Double wall",
+  "unit": null,
+  "source_page": 2
+ },
+ {
+  "parameter": "Plates | M3-G | Free channel",
+  "value": "2.4",
+  "unit": "mm",
+  "source_page": 2
+ },
+ {
+  "parameter": "Plates | M3-G | Free channel",
+  "value": "0.095",
+  "unit": "in",
+  "source_page": 2
+ },
+ {
+  "parameter": "Plates | M3-X | Type",
+  "value": "Single plate Diagonal flow",
+  "unit": null,
+  "source_page": 2
+ },
+ {
+  "parameter": "Plates | M3-X | Free channel",
+  "value": "2.4",
+  "unit": "mm",
+  "source_page": 2
+ },
+ {
+  "parameter": "Plates | M3-X | Free channel",
+  "value": "0.095",
+  "unit": "in",
+  "source_page": 2
+ },
+ {
+  "parameter": "Materials | Heat transfer plates",
+  "value": "316/316L, C-276, Ti, TiPd",
+  "unit": null,
+  "source_page": 2
+ },
+ {
+  "parameter": "Materials | Field gaskets",
+  "value": "NBR, EPDM, FKM",
+  "unit": null,
+  "source_page": 2
+ },
+ {
+  "parameter": "Materials | Flange connections",
+  "value": "Carbon steel",
+  "unit": null,
+  "source_page": 2
+ },
+ {
+  "parameter": "Materials | Pipe connections",
+  "value": "Stainless steel, titanium",
+  "unit": null,
+  "source_page": 2
+ },
+ {
+  "parameter": "Materials | Frame and pressure plate",
+  "value": "Carbon steel, epoxy painted",
+  "unit": null,
+  "source_page": 2
+ },
+ {
+  "parameter": "Technical data | Note on materials",
+  "value": "Other materials may be available on request.",
+  "unit": null,
+  "source_page": 2
+ },
+ {
+  "parameter": "Technical data | Note on options",
+  "value": "All option combinations may not be configurable.",
+  "unit": null,
+  "source_page": 2
+ },
+ {
+  "parameter": "Operational data | Frame FG | PV-code ASME | Max. design pressure",
+  "value": "10.3",
+  "unit": "barg",
+  "source_page": 2
+ },
+ {
+  "parameter": "Operational data | Frame FG | PV-code ASME | Max. design pressure",
+  "value": "150",
+  "unit": "psig",
+  "source_page": 2
+ },
+ {
+  "parameter": "Operational data | Frame FG | PV-code ASME | Max. design temperature",
+  "value": "177",
+  "unit": "°C",
+  "source_page": 2
+ },
+ {
+  "parameter": "Operational data | Frame FG | PV-code ASME | Max. design temperature",
+  "value": "350",
+  "unit": "°F",
+  "source_page": 2
+ },
+ {
+  "parameter": "Operational data | Frame FG | PV-code PED | Max. design pressure",
+  "value": "16.0",
+  "unit": "barg",
+  "source_page": 2
+ },
+ {
+  "parameter": "Operational data | Frame FG | PV-code PED | Max. design pressure",
+  "value": "232",
+  "unit": "psig",
+  "source_page": 2
+ },
+ {
+  "parameter": "Operational data | Frame FG | PV-code PED | Max. design temperature",
+  "value": "180",
+  "unit": "°C",
+  "source_page": 2
+ },
+ {
+  "parameter": "Operational data | Frame FG | PV-code PED | Max. design temperature",
+  "value": "356",
+  "unit": "°F",
+  "source_page": 2
+ },
+ {
+  "parameter": "Operational data | Note on ratings",
+  "value": "Extended pressure and temperature rating may be available on request.",
+  "unit": null,
+  "source_page": 2
+ },
+ {
+  "parameter": "Pipe connections | Threaded port",
+  "value": "ISO 228 - G 1 1/4",
+  "unit": null,
+  "source_page": 2
+ },
+ {
+  "parameter": "Pipe connections | Internal parallel threaded",
+  "value": "ISO 228 - G 1",
+  "unit": null,
+  "source_page": 2
+ },
+ {
+  "parameter": "Pipe connections | External parallel threaded",
+  "value": "ISO 228 - G 1 1/4 B",
+  "unit": null,
+  "source_page": 2
+ },
+ {
+  "parameter": "Pipe connections | External tapered threaded",
+  "value": "ISO 7 - R 1 1/4",
+  "unit": null,
+  "source_page": 2
+ },
+ {
+  "parameter": "Pipe connections | External tapered threaded",
+  "value": "1 1/4 - 11.5 NPT",
+  "unit": null,
+  "source_page": 2
+ },
+ {
+  "parameter": "Pipe connections | Note on connection types",
+  "value": "Other connection types may be available on request.",
+  "unit": null,
+  "source_page": 2
+ },
+ {
+  "parameter": "Alfa Laval M3 | Document code (page footer)",
+  "value": "CHE00070EN 2016-04",
+  "unit": null,
+  "source_page": 2
+ }
+]

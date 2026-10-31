@@ -1,0 +1,590 @@
+{
+ "labeller": "claude-opus-5-5 (Claude Code session acting as the step-03 LLM by hand, 2026-10-31): every crop in 03-abrak/kivagasok and the page overviews viewed as images; prompt figure-labels.md; not human-verified",
+ "kinds": {
+  "photo_illustration": "product photo or rendering; carries no data",
+  "dimension_drawing": "drawing with dimension letters that point to a dimensions table",
+  "sectional_exploded": "sectional or exploded view; parts named by text callouts or numbered callouts explained by a materials table",
+  "chart": "chart with axes",
+  "logo": "logo or badge; decorative"
+ },
+ "figures": {
+  "swagelok-ms-01-176/fig-1.1": {
+   "kind": "photo_illustration",
+   "description": "Cover photo: six Swagelok check valves of different series and end connections.",
+   "decorative": false,
+   "notes": "azure_text ('Swagelok.', 'GELOK-') is OCR of the logo stamped on the valve bodies."
+  },
+  "swagelok-ms-01-176/fig-1.2": {
+   "kind": "logo",
+   "description": "Swagelok logo at the bottom of the cover.",
+   "decorative": true
+  },
+  "swagelok-ms-01-176/fig-2.1": {
+   "kind": "sectional_exploded",
+   "description": "Sectional view of a C series check valve with feature callouts.",
+   "labels": [
+    "O-ring seals body halves",
+    "Poppet",
+    "Spring"
+   ],
+   "sub_captions": [
+    "C Series"
+   ],
+   "notes": "Sub-caption 'C Series' is printed above the crop (Features, Fixed Cracking Pressures)."
+  },
+  "swagelok-ms-01-176/fig-2.2": {
+   "kind": "sectional_exploded",
+   "description": "Sectional view of a CH series check valve with the bonded poppet and poppet stop shown separately, with feature callouts.",
+   "labels": [
+    "Poppet with bonded elastomer seal",
+    "Poppet stop",
+    "O-ring seals body halves",
+    "Backup ring supports O-ring"
+   ],
+   "sub_captions": [
+    "CH Series"
+   ]
+  },
+  "swagelok-ms-01-176/fig-2.3": {
+   "kind": "sectional_exploded",
+   "description": "Sectional view of a CP series check valve (one-piece body) with a feature callout.",
+   "labels": [
+    "Fully contained O-ring seal"
+   ],
+   "sub_captions": [
+    "CP Series",
+    "Compact, one-piece body"
+   ],
+   "notes": "Azure caption 'Adjustable Cracking Pressures From 3 to 600 psi (0.21 to 41.4 bar)' is wrong: that is the right-column heading of page 2; this drawing is the CP Series view (Fixed Cracking Pressures column). 'Compact, one-piece body' is printed under the crop."
+  },
+  "swagelok-ms-01-176/fig-2.4": {
+   "kind": "sectional_exploded",
+   "description": "Sectional view of a CA series (adjustable cracking pressure) check valve with feature callouts.",
+   "labels": [
+    "CA Series",
+    "Locking screw maintains settings",
+    "Fully contained O-ring seal",
+    "Adjustable spring",
+    "Adjusting screw sets cracking pressure"
+   ],
+   "sub_captions": [
+    "CA Series"
+   ],
+   "notes": "Azure caption 'CPA Series' is wrong: the crop carries the sub-caption 'CA Series'; 'CPA Series' is the heading of the next drawing (fig-2.5)."
+  },
+  "swagelok-ms-01-176/fig-2.5": {
+   "kind": "sectional_exploded",
+   "description": "Sectional view of a CPA series check valve (one-piece body) with feature callouts.",
+   "labels": [
+    "Fully contained O-ring seal",
+    "Adjustable spring",
+    "Adjusting screw sets cracking pressure",
+    "Locking screw maintains setting"
+   ],
+   "sub_captions": [
+    "CPA Series",
+    "Compact, one-piece body"
+   ],
+   "notes": "Azure gave no caption; the heading 'CPA Series' is above the drawing and 'Compact, one-piece body' below it."
+  },
+  "swagelok-ms-01-176/fig-pdf-2-1": {
+   "kind": "sectional_exploded",
+   "description": "Raster region overlapping the lower part of the C series view and the upper part of the CH series view on page 2.",
+   "labels": [
+    "O-ring seals body halves",
+    "Poppet",
+    "Spring",
+    "Poppet with bonded elastomer seal",
+    "Poppet stop"
+   ],
+   "notes": "Not a separate figure: a partial duplicate of fig-2.1 and fig-2.2 (cut through both drawings)."
+  },
+  "swagelok-ms-01-176/fig-4.1": {
+   "kind": "chart",
+   "description": "CA and CPA series chart: reseal pressure versus cracking pressure as a band between two lines, with an example reading (cracking 450 psi -> reseal 390 to 450 psi).",
+   "labels": [
+    "Cracking Pressure, bar",
+    "Reseal Pressure, psi",
+    "Reseal Pressure, bar",
+    "Cracking Pressure, psi",
+    "450",
+    "390",
+    "Back Pressure"
+   ],
+   "sub_captions": [
+    "CA and CPA Series"
+   ],
+   "notes": "The title 'CA and CPA Series' is a heading above the crop; Azure merged it with the top axis caption. The dashed example lines at 450/390 are an illustration, not data. Region below 0 psi reseal is marked 'Back Pressure'."
+  },
+  "swagelok-ms-01-176/fig-5.1": {
+   "kind": "sectional_exploded",
+   "description": "Exploded view of a C series check valve (12C series shown) with numbered parts.",
+   "labels": [
+    "1",
+    "4",
+    "2",
+    "5",
+    "6",
+    "11"
+   ],
+   "letters": [
+    "1",
+    "4",
+    "2",
+    "5",
+    "6",
+    "11"
+   ],
+   "legend": {
+    "1": "Inlet body",
+    "4": "O-ring",
+    "2": "Inlet gasket",
+    "5": "Poppet",
+    "6": "Spring",
+    "11": "Outlet body"
+   },
+   "sub_captions": [
+    "12C Series shown"
+   ],
+   "notes": "Callout numbers are the row numbers of the 'C and CA Series' Materials of Construction table on the same page. 'SWAGELOK' text is the body stamp. '12C Series shown' is printed under the crop."
+  },
+  "swagelok-ms-01-176/fig-5.2": {
+   "kind": "sectional_exploded",
+   "description": "Fragment of the CA series exploded view: inlet body (top part).",
+   "notes": "Azure split the CA series exploded view into fig-5.2, 5.3 and 5.4; the full view is fig-pdf-5-2. No callout number inside this crop ('SWAGELOK' is the body stamp)."
+  },
+  "swagelok-ms-01-176/fig-5.3": {
+   "kind": "sectional_exploded",
+   "description": "Fragment of the CA series exploded view: center body.",
+   "notes": "Fragment of fig-pdf-5-2; 'U' in azure_text is OCR of the flow arrow."
+  },
+  "swagelok-ms-01-176/fig-5.4": {
+   "kind": "sectional_exploded",
+   "description": "Fragment of the CA series exploded view: outlet body (bottom part).",
+   "notes": "Fragment of fig-pdf-5-2; 'SWAGELCK' is OCR of the body stamp."
+  },
+  "swagelok-ms-01-176/fig-pdf-5-2": {
+   "kind": "sectional_exploded",
+   "description": "Complete exploded view of a CA series check valve (parts 1 to 11), raster missed by Azure.",
+   "sub_captions": [
+    "CA Series"
+   ],
+   "letters": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11"
+   ],
+   "legend": {
+    "1": "Inlet body",
+    "2": "Inlet gasket",
+    "3": "Insert",
+    "4": "O-ring",
+    "5": "Poppet",
+    "6": "Spring",
+    "7": "Center body",
+    "8": "Adjusting screw",
+    "9": "Locking screw",
+    "10": "Outlet gasket",
+    "11": "Outlet body"
+   },
+   "notes": "The callout numbers 1-11 are printed just left of this crop on the page (visible on the page overview); they are the row numbers of the 'C and CA Series' Materials of Construction table."
+  },
+  "swagelok-ms-01-176/fig-5.5": {
+   "kind": "sectional_exploded",
+   "description": "Exploded view of a CH series check valve with numbered parts.",
+   "labels": [
+    "6",
+    "5",
+    "7",
+    "3",
+    "4",
+    "1",
+    "2"
+   ],
+   "letters": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7"
+   ],
+   "legend": {
+    "1": "Inlet body",
+    "2": "Poppet",
+    "3": "Poppet stop",
+    "4": "Spring",
+    "5": "O-ring",
+    "6": "Backup ring",
+    "7": "Outlet body"
+   },
+   "notes": "Callouts are the row numbers of the CH Series Materials of Construction table on the same page."
+  },
+  "swagelok-ms-01-176/fig-6.1": {
+   "kind": "sectional_exploded",
+   "description": "Exploded view of a CP series check valve with numbered parts.",
+   "labels": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+   ],
+   "letters": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+   ],
+   "legend": {
+    "1": "Insert lock screw",
+    "2": "Insert",
+    "3": "O-ring",
+    "4": "Poppet",
+    "5": "Spring",
+    "6": "Body"
+   },
+   "sub_captions": [
+    "CP Series"
+   ],
+   "notes": "Callouts are the row numbers of the CP/CPA Materials of Construction table below."
+  },
+  "swagelok-ms-01-176/fig-6.2": {
+   "kind": "sectional_exploded",
+   "description": "Exploded view of a CPA series check valve with numbered parts.",
+   "labels": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "6",
+    "5",
+    "7",
+    "8"
+   ],
+   "letters": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8"
+   ],
+   "legend": {
+    "1": "Insert lock screw",
+    "2": "Insert",
+    "3": "O-ring",
+    "4": "Poppet",
+    "5": "Spring",
+    "6": "Body",
+    "7": "Adjusting screw",
+    "8": "Locking screw"
+   },
+   "sub_captions": [
+    "CPA Series"
+   ],
+   "notes": "':selected:' in azure_text is a checkbox artefact, not printed text."
+  },
+  "swagelok-ms-01-176/fig-7.1": {
+   "kind": "chart",
+   "description": "C series flow data: six charts (air: inlet pressure vs air flow; water: pressure drop vs water flow) with one shared legend of nominal cracking pressures.",
+   "labels": [
+    "Nominal Cracking Pressures",
+    "2C, 6C, 12C, 16C Series",
+    "4C, 8C Series",
+    "1 psi (0.07 bar)",
+    "10 psi (0.69 bar)",
+    "25 psi (1.8 bar)",
+    "Air",
+    "Water",
+    "2C Series",
+    "4C Series",
+    "6C Series",
+    "8C Series",
+    "Air Flow, std L/min",
+    "Air Flow, std ft3/min",
+    "Inlet Pressure, psig",
+    "Inlet Pressure, bar",
+    "Water Flow, L/min",
+    "Water Flow, U.S. gal/min",
+    "Pressure Drop, psi",
+    "Pressure Drop, bar"
+   ],
+   "subcharts": [
+    "Air - 2C, 4C Series",
+    "Water - 2C, 4C Series",
+    "Air - 6C, 8C Series",
+    "Water - 6C, 8C Series",
+    "Air - 12C, 16C Series",
+    "Water - 12C, 16C Series"
+   ],
+   "notes": "One Azure figure holds all six charts and the legend. Azure read the second legend entry as '-10 psi (0.69 bar)'; printed is '10 psi (0.69 bar)'. Legend colours: blue shades for 2C/6C/12C/16C, grey/black for 4C/8C."
+  },
+  "swagelok-ms-01-176/fig-8.1": {
+   "kind": "chart",
+   "description": "CH4 series air flow chart: inlet pressure vs air flow for three nominal cracking pressures.",
+   "labels": [
+    "Air Flow, std L/min",
+    "Air Flow, std ft3/min",
+    "Inlet Pressure, psig",
+    "Inlet Pressure, bar"
+   ],
+   "sub_captions": [
+    "CH4 Series"
+   ],
+   "notes": "Azure missed the CH4 water chart to the right (pressure drop vs water flow, 0-2.0 gal/min); its text appears as loose paragraphs on page 8. The legend (1, 10, 25 psi) is above the charts."
+  },
+  "swagelok-ms-01-176/fig-8.2": {
+   "kind": "chart",
+   "description": "CH8 series air flow chart: inlet pressure vs air flow.",
+   "labels": [
+    "Air Flow, std L/min",
+    "Air Flow, std ft3/min",
+    "Inlet Pressure, psig",
+    "Inlet Pressure, bar"
+   ],
+   "sub_captions": [
+    "CH8 Series"
+   ]
+  },
+  "swagelok-ms-01-176/fig-8.3": {
+   "kind": "chart",
+   "description": "CH8 series water flow chart: pressure drop vs water flow.",
+   "labels": [
+    "Water Flow, L/min",
+    "Water Flow, U.S. gal/min",
+    "Pressure Drop, psi",
+    "Pressure Drop, bar"
+   ],
+   "sub_captions": [
+    "CH8 Series"
+   ]
+  },
+  "swagelok-ms-01-176/fig-8.4": {
+   "kind": "chart",
+   "description": "CH16 series air flow chart: inlet pressure vs air flow.",
+   "labels": [
+    "Air Flow, std L/min",
+    "Air Flow, std ft3/min",
+    "Inlet Pressure, psig",
+    "Inlet Pressure, bar"
+   ],
+   "sub_captions": [
+    "CH16 Series"
+   ]
+  },
+  "swagelok-ms-01-176/fig-8.5": {
+   "kind": "chart",
+   "description": "CH16 series water flow chart: pressure drop vs water flow.",
+   "labels": [
+    "Water Flow, L/min",
+    "Water Flow, U.S. gal/min",
+    "Pressure Drop, psi",
+    "Pressure Drop, bar"
+   ],
+   "sub_captions": [
+    "CH16 Series"
+   ]
+  },
+  "swagelok-ms-01-176/fig-9.1": {
+   "kind": "chart",
+   "description": "CA and CPA series flow data: six charts (air and water for CA, 4CPA, 8CPA) with a legend of four nominal cracking pressures.",
+   "labels": [
+    "Nominal Cracking Pressures",
+    "3 psi (0.21 bar)",
+    "50 psi (3.5 bar)",
+    "150 psi (10.4 bar)",
+    "350 psi (24.2 bar)",
+    "Air",
+    "Water",
+    "Air Flow, std L/min",
+    "Air Flow, std ft3/min",
+    "Inlet Pressure, psig",
+    "Inlet Pressure, bar",
+    "Water Flow, L/min",
+    "Water Flow, U.S. gal/min",
+    "Pressure Drop, psi",
+    "Pressure Drop, bar"
+   ],
+   "subcharts": [
+    "Air - CA Series",
+    "Water - CA Series",
+    "Air - 4CPA Series",
+    "Water - 4CPA Series",
+    "Air - 8CPA Series",
+    "Water - 8CPA Series"
+   ],
+   "notes": "Azure read '350 psi (24.2) bar)'; printed is '350 psi (24.2 bar)'."
+  },
+  "swagelok-ms-01-176/fig-10.1": {
+   "kind": "chart",
+   "description": "4CP series air flow chart: inlet pressure vs air flow.",
+   "labels": [
+    "Air Flow, std L/min",
+    "Air Flow, std ft3/min",
+    "Inlet Pressure, psig",
+    "Inlet Pressure, bar"
+   ],
+   "sub_captions": [
+    "4CP Series"
+   ]
+  },
+  "swagelok-ms-01-176/fig-10.2": {
+   "kind": "chart",
+   "description": "4CP series water flow chart: pressure drop vs water flow.",
+   "labels": [
+    "Water Flow, L/min",
+    "Water Flow, U.S. gal/min",
+    "Pressure Drop, psi",
+    "Pressure Drop, bar"
+   ],
+   "sub_captions": [
+    "4CP Series"
+   ],
+   "notes": "Azure caption '8CP Series' is wrong: this is the 4CP Series water chart (top right, water flow 0-2.0 gal/min)."
+  },
+  "swagelok-ms-01-176/fig-10.3": {
+   "kind": "chart",
+   "description": "8CP series air flow chart: inlet pressure vs air flow.",
+   "labels": [
+    "Air Flow, std L/min",
+    "Air Flow, std ft3/min",
+    "Inlet Pressure, psig",
+    "Inlet Pressure, bar"
+   ],
+   "sub_captions": [
+    "8CP Series"
+   ]
+  },
+  "swagelok-ms-01-176/fig-10.4": {
+   "kind": "chart",
+   "description": "8CP series water flow chart: pressure drop vs water flow.",
+   "labels": [
+    "Water Flow, L/min",
+    "Water Flow, U.S. gal/min",
+    "Pressure Drop, psi",
+    "Pressure Drop, bar"
+   ],
+   "sub_captions": [
+    "8CP Series"
+   ],
+   "notes": "Azure gave no caption; the heading '8CP Series' is above the chart."
+  },
+  "swagelok-ms-01-176/fig-11.1": {
+   "kind": "dimension_drawing",
+   "description": "C series outline drawing with dimension letters.",
+   "labels": [
+    "A",
+    "B flat",
+    "C flat"
+   ],
+   "letters": [
+    "A",
+    "B",
+    "C"
+   ],
+   "sub_captions": [
+    "C Series"
+   ],
+   "notes": "Letters point to columns A, B, C of the Dimensions table on page 11. Interpretation: A = overall length, B = hex flat size of the body, C = hex flat size of the end connection nut."
+  },
+  "swagelok-ms-01-176/fig-11.2": {
+   "kind": "dimension_drawing",
+   "description": "CA series outline drawing with dimension letters.",
+   "labels": [
+    "A",
+    "B flat",
+    "C flat"
+   ],
+   "letters": [
+    "A",
+    "B",
+    "C"
+   ],
+   "sub_captions": [
+    "CA Series"
+   ],
+   "notes": "Letters point to columns A, B, C of the Dimensions table on page 11 (CA rows)."
+  },
+  "swagelok-ms-01-176/fig-12.1": {
+   "kind": "dimension_drawing",
+   "description": "CH series outline drawing with dimension letters.",
+   "labels": [
+    "A",
+    "B flat"
+   ],
+   "letters": [
+    "A",
+    "B"
+   ],
+   "sub_captions": [
+    "CH Series"
+   ],
+   "notes": "Letters point to columns A and B of the CH Dimensions table on page 12. '1 SWAGELOK 1' is the body stamp with the flow arrow."
+  },
+  "swagelok-ms-01-176/fig-13.1": {
+   "kind": "dimension_drawing",
+   "description": "CP and CPA series outline drawing with dimension letters.",
+   "labels": [
+    "A",
+    "D flat"
+   ],
+   "letters": [
+    "A",
+    "D"
+   ],
+   "sub_captions": [
+    "CP and CPA Series"
+   ],
+   "notes": "Letters point to columns A and D of the CP/CPA Dimensions table on page 13."
+  },
+  "swagelok-ms-01-176/fig-14.1": {
+   "kind": "photo_illustration",
+   "description": "Photo of a polyethylene deflector cap mounted on a male NPT valve end.",
+   "notes": "Illustrates 'Deflector Caps (4C, 8C, CP, and CPA Series)'."
+  },
+  "swagelok-ms-01-176/fig-15.1": {
+   "kind": "photo_illustration",
+   "description": "Photo of an O-ring (C, CP, CA, and CPA series seal kit)."
+  },
+  "swagelok-ms-01-176/fig-15.2": {
+   "kind": "photo_illustration",
+   "description": "Photo of CH series seal kit parts (O-ring, PTFE backup ring and bonded poppet)."
+  },
+  "swagelok-ms-01-176/fig-16.1": {
+   "kind": "photo_illustration",
+   "description": "Photo of a spring and a cracking pressure label (C, CP, CA, and CPA series spring kit).",
+   "labels": [
+    "10 PSI",
+    "10 PSI"
+   ],
+   "notes": "The label reads '10 PSI' twice (the kit has two cracking pressure labels)."
+  },
+  "swagelok-ms-01-176/fig-16.2": {
+   "kind": "photo_illustration",
+   "description": "Photo of a spring and a cracking pressure label (CH series spring kit).",
+   "labels": [
+    "1 PSI",
+    "1 PSI"
+   ]
+  },
+  "swagelok-ms-01-176/fig-16.3": {
+   "kind": "photo_illustration",
+   "description": "Photo of a deflector cap (deflector cap kit)."
+  }
+ }
+}

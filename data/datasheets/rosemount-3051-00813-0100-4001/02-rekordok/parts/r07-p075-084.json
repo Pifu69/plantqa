@@ -1,0 +1,2030 @@
+[
+ {
+  "parameter": "EXTRACTION NOTE",
+  "value": "Coverage pp. 75-84 (from the '# Specifications' heading on p. 75; the 3051L ordering tables above it on p. 75 belong to another batch): Conformance to specifications; Reference accuracy (text + table, footnotes 1-3); Flow Performance - Flow Reference Accuracy (note + table, footnote 1); Total performance (text + table, fn 1); Long term stability; Dynamic performance (table, chart legend definitions, footnotes 1-5); Line pressure effect (reference-manual bullets + Table 1); Ambient temperature effect; Mounting position effects; Vibration effect; Power supply effect; Electromagnetic compatibility (+ note); Transient protection (option code T1); Functional specifications Table 2 and Table 3 (Range and Sensor Limits, footnotes), Service; 4-20 mA HART (output code A): Power supply, Load limitations (+ load chart legend, CSA note), Indication, Optional configuration buttons, Output, Bluetooth Connectivity; FOUNDATION Fieldbus (output code F): Power supply, Current draw, Indication, block execution times, parameters. Dual units recorded as separate records. Generic titles made unique as '<title> - <governing heading>' with the governing heading also as segment 2. Skipped: page headers/footers, load chart axis tick numbers (1387, 1000, 500, 0, 10.5, 20, 30, 42.4) and response-time chart axis labels (chart data, step 04), duplicated FOUNDATION Fieldbus manual bullet (recorded once). Corrected from the page render (Azure garbled): ±3σ heading, reference-accuracy URL/Span formulas, ± signs printed as '+' by Azure (fn 3 of Reference accuracy, Range 5 formula, mounting position, power supply effect, ambient Ranges 2-5), β symbols in flow table, Tc subscript, µs, Ωs. Unclear: 'out' printed above 'Links: 25 max.' in FOUNDATION Fieldbus parameters (not recorded).",
+  "unit": null,
+  "source_page": null
+ },
+ {
+  "parameter": "Conformance to specifications (±3σ [Sigma]) | Specification conformance",
+  "value": "at least ±3σ",
+  "unit": null,
+  "source_page": 75
+ },
+ {
+  "parameter": "Conformance to specifications (±3σ [Sigma]) | Basis of specification conformance",
+  "value": "Technology leadership, advanced manufacturing techniques, and statistical process control",
+  "unit": null,
+  "source_page": 75
+ },
+ {
+  "parameter": "Reference accuracy | Included in reference accuracy equations",
+  "value": "terminal based linearity, hysteresis, and repeatability",
+  "unit": null,
+  "source_page": 76
+ },
+ {
+  "parameter": "Reference accuracy | Wireless, FOUNDATION™ Fieldbus, and PROFIBUS® PA devices | Span basis",
+  "value": "use calibrated range in place of span",
+  "unit": null,
+  "source_page": 76
+ },
+ {
+  "parameter": "Reference accuracy - table 1 | Rosemount 3051C [fn 1] | Range 5 | Rosemount 3051 and WirelessHART® | Reference accuracy",
+  "value": "±0.065",
+  "unit": "% of span",
+  "source_page": 76
+ },
+ {
+  "parameter": "Reference accuracy - table 1 | Rosemount 3051C [fn 1] | Range 5 | Rosemount 3051 and WirelessHART® | For spans less than 10:1 | Reference accuracy",
+  "value": "±[0,015 + 0,005 (URL/Span)]",
+  "unit": "% of Span",
+  "source_page": 76
+ },
+ {
+  "parameter": "Reference accuracy - table 1 | Rosemount 3051C [fn 1] | Ranges 2-4 | Rosemount 3051 and WirelessHART® | Reference accuracy",
+  "value": "±0.04",
+  "unit": "% of span",
+  "source_page": 76
+ },
+ {
+  "parameter": "Reference accuracy - table 1 | Rosemount 3051C [fn 1] | Ranges 2-4 | Rosemount 3051 and WirelessHART® | For spans less than 10:1 [fn 2] | Reference accuracy",
+  "value": "±[0,015 + 0,005 (URL/Span)]",
+  "unit": "% of Span",
+  "source_page": 76
+ },
+ {
+  "parameter": "Reference accuracy - table 1 | Rosemount 3051C [fn 1] | Range 1 | Rosemount 3051 and WirelessHART® | Reference accuracy",
+  "value": "±0.10",
+  "unit": "% of span",
+  "source_page": 76
+ },
+ {
+  "parameter": "Reference accuracy - table 1 | Rosemount 3051C [fn 1] | Range 1 | Rosemount 3051 and WirelessHART® | For spans less than 15:1 | Reference accuracy",
+  "value": "±[0,025 + 0,005 (URL/Span)]",
+  "unit": "% of Span",
+  "source_page": 76
+ },
+ {
+  "parameter": "Reference accuracy - table 1 | Rosemount 3051C [fn 1] | Range 0 (CD) | Rosemount 3051 and WirelessHART® | Reference accuracy",
+  "value": "±0.10",
+  "unit": "% of span",
+  "source_page": 76
+ },
+ {
+  "parameter": "Reference accuracy - table 1 | Rosemount 3051C [fn 1] | Range 0 (CD) | Rosemount 3051 and WirelessHART® | For spans less than 2:1 | Reference accuracy",
+  "value": "±0.05",
+  "unit": "% of URL",
+  "source_page": 76
+ },
+ {
+  "parameter": "Reference accuracy - table 1 | Rosemount 3051CA | Ranges 1-4 | Rosemount 3051 and WirelessHART® | Reference accuracy [fn 3]",
+  "value": "±0.04",
+  "unit": "% of span",
+  "source_page": 76
+ },
+ {
+  "parameter": "Reference accuracy - table 1 | Rosemount 3051CA | Ranges 1-4 | Rosemount 3051 and WirelessHART® | For spans less 10:1 | Reference accuracy",
+  "value": "±[0,0075 (URL/Span)]",
+  "unit": "% of Span",
+  "source_page": 76
+ },
+ {
+  "parameter": "Reference accuracy - table 1 | Rosemount 3051T [fn 1] | Range 0 | Rosemount 3051 and WirelessHART® | Reference accuracy [fn 3]",
+  "value": "±0.04",
+  "unit": "% of span",
+  "source_page": 76
+ },
+ {
+  "parameter": "Reference accuracy - table 1 | Rosemount 3051T [fn 1] | Range 0 | Rosemount 3051 and WirelessHART® | For spans less 5:1 to 20:1 | Reference accuracy",
+  "value": "±[0,05 + 0,01 (URL/Span)]",
+  "unit": "% of span",
+  "source_page": 76
+ },
+ {
+  "parameter": "Reference accuracy - table 1 | Rosemount 3051T [fn 1] | Ranges 1-4 | Rosemount 3051 and WirelessHART® | Reference accuracy [fn 3]",
+  "value": "±0.04",
+  "unit": "% of span",
+  "source_page": 76
+ },
+ {
+  "parameter": "Reference accuracy - table 1 | Rosemount 3051T [fn 1] | Ranges 1-4 | Rosemount 3051 and WirelessHART® | For spans less than 10:1 | Reference accuracy",
+  "value": "±[0,0075 (URL/Span)]",
+  "unit": "% of Span",
+  "source_page": 76
+ },
+ {
+  "parameter": "Reference accuracy - table 1 | Rosemount 3051T [fn 1] | Range 5-6 | Rosemount 3051 and WirelessHART® | Reference accuracy",
+  "value": "±0.075",
+  "unit": "% of span",
+  "source_page": 76
+ },
+ {
+  "parameter": "Reference accuracy - table 1 | Rosemount 3051L | Ranges 2-4 | Rosemount 3051 and WirelessHART® | Reference accuracy",
+  "value": "±0.075",
+  "unit": "% of span",
+  "source_page": 77
+ },
+ {
+  "parameter": "Reference accuracy - table 1 | Rosemount 3051L | Ranges 2-4 | Rosemount 3051 and WirelessHART® | For spans less than 10:1 | Reference accuracy",
+  "value": "±[0,025 + 0,005 (URL/Span)]",
+  "unit": "% of Span",
+  "source_page": 77
+ },
+ {
+  "parameter": "Reference accuracy - table 1 | footnote 1",
+  "value": "For Rosemount 3051C and 3051T with seal assemble to code S1, use 3051L specification.",
+  "unit": null,
+  "source_page": 77
+ },
+ {
+  "parameter": "Reference accuracy - table 1 | footnote 2",
+  "value": "For output code F, for span less than 5:1.",
+  "unit": null,
+  "source_page": 77
+ },
+ {
+  "parameter": "Reference accuracy - table 1 | footnote 3",
+  "value": "For output code M, ±0.065 percent span.",
+  "unit": null,
+  "source_page": 77
+ },
+ {
+  "parameter": "Flow Performance - Flow Reference Accuracy | Note | Accuracy over range of use",
+  "value": "always application dependent",
+  "unit": null,
+  "source_page": 77
+ },
+ {
+  "parameter": "Flow Performance - Flow Reference Accuracy | Note | Range 1 flow meters | Additional uncertainty",
+  "value": "up to 0.9",
+  "unit": "percent",
+  "source_page": 77
+ },
+ {
+  "parameter": "Flow Performance - Flow Reference Accuracy | Note | Exact specifications",
+  "value": "Consult your Emerson representative for exact specifications.",
+  "unit": null,
+  "source_page": 77
+ },
+ {
+  "parameter": "Flow Performance - Flow Reference Accuracy - table 1 | Rosemount 3051CFA Annubar™ Flow Meter | Ranges 2-3 | At 8:1 flow turndown | Flow reference accuracy",
+  "value": "±1.80",
+  "unit": "% of flow rate",
+  "source_page": 77
+ },
+ {
+  "parameter": "Flow Performance - Flow Reference Accuracy - table 1 | Rosemount 3051CFC_A Compact Annubar Flow Meter - Rosemount Annubar Option A | Ranges 2-3 | Standard | At 8:1 flow turndown | Flow reference accuracy",
+  "value": "±2.10",
+  "unit": "% of flow rate",
+  "source_page": 77
+ },
+ {
+  "parameter": "Flow Performance - Flow Reference Accuracy - table 1 | Rosemount 3051CFC_A Compact Annubar Flow Meter - Rosemount Annubar Option A | Ranges 2-3 | Calibrated | At 8:1 flow turndown | Flow reference accuracy",
+  "value": "±1.80",
+  "unit": "% of Flow Rate",
+  "source_page": 77
+ },
+ {
+  "parameter": "Flow Performance - Flow Reference Accuracy - table 1 | Rosemount 3051CFC_C Compact Orifice Flow Meter - Conditioning Option C | Ranges 2-3 | β = 0.4 | At 8:1 flow turndown | Flow reference accuracy",
+  "value": "±1.75",
+  "unit": "% of flow rate",
+  "source_page": 77
+ },
+ {
+  "parameter": "Flow Performance - Flow Reference Accuracy - table 1 | Rosemount 3051CFC_C Compact Orifice Flow Meter - Conditioning Option C | Ranges 2-3 | β = 0.50, 0.65 | At 8:1 flow turndown | Flow reference accuracy",
+  "value": "±1.95",
+  "unit": "% of flow rate",
+  "source_page": 77
+ },
+ {
+  "parameter": "Flow Performance - Flow Reference Accuracy - table 1 | Rosemount 3051CFC_P Compact Orifice Flow Meter - Orifice Type Option P [fn 1] | Ranges 2-3 | β= 0.4 | At 8:1 flow turndown | Flow reference accuracy",
+  "value": "±2.00",
+  "unit": "% of flow rate",
+  "source_page": 77
+ },
+ {
+  "parameter": "Flow Performance - Flow Reference Accuracy - table 1 | Rosemount 3051CFC_P Compact Orifice Flow Meter - Orifice Type Option P [fn 1] | Ranges 2-3 | β= 0.65 | At 8:1 flow turndown | Flow reference accuracy",
+  "value": "±2.00",
+  "unit": "% of flow rate",
+  "source_page": 77
+ },
+ {
+  "parameter": "Flow Performance - Flow Reference Accuracy - table 1 | Rosemount 3051CFP Integral Orifice Flow Meter | Ranges 2-3 | β<0.1 | At 8:1 flow turndown | Flow reference accuracy",
+  "value": "±3.00",
+  "unit": "% of flow rate",
+  "source_page": 77
+ },
+ {
+  "parameter": "Flow Performance - Flow Reference Accuracy - table 1 | Rosemount 3051CFP Integral Orifice Flow Meter | Ranges 2-3 | 0.1< β<0.2 | At 8:1 flow turndown | Flow reference accuracy",
+  "value": "±1.95",
+  "unit": "% of flow rate",
+  "source_page": 77
+ },
+ {
+  "parameter": "Flow Performance - Flow Reference Accuracy - table 1 | Rosemount 3051CFP Integral Orifice Flow Meter | Ranges 2-3 | 0.2< β<0.6 | At 8:1 flow turndown | Flow reference accuracy",
+  "value": "±1.75",
+  "unit": "% of flow rate",
+  "source_page": 77
+ },
+ {
+  "parameter": "Flow Performance - Flow Reference Accuracy - table 1 | Rosemount 3051CFP Integral Orifice Flow Meter | Ranges 2-3 | 0.6< β<0.8 | At 8:1 flow turndown | Flow reference accuracy",
+  "value": "±2.15",
+  "unit": "% of flow rate",
+  "source_page": 77
+ },
+ {
+  "parameter": "Flow Performance - Flow Reference Accuracy - table 1 | footnote 1",
+  "value": "Applicable to 2 - 12 inch line sizes. For smaller line sizes, see the Rosemount DP Flow Meters and Primary Elements Product Data Sheet.",
+  "unit": null,
+  "source_page": 77
+ },
+ {
+  "parameter": "Total performance | Basis",
+  "value": "combined errors of reference accuracy, ambient temperature effect, and static pressure effect at normal operating conditions",
+  "unit": null,
+  "source_page": 78
+ },
+ {
+  "parameter": "Total performance | Normal operating conditions | Typical reading",
+  "value": "70",
+  "unit": "percent of span",
+  "source_page": 78
+ },
+ {
+  "parameter": "Total performance | Normal operating conditions | Line pressure",
+  "value": "740",
+  "unit": "psi",
+  "source_page": 78
+ },
+ {
+  "parameter": "Total performance | Normal operating conditions | Line pressure",
+  "value": "51.02",
+  "unit": "bar",
+  "source_page": 78
+ },
+ {
+  "parameter": "Total performance | Rated conditions",
+  "value": "For +50 °F (+28 ℃) temperature changes; 0 - 100 percent relative humidity, from 1:1 to 5:1 rangedown",
+  "unit": null,
+  "source_page": 78
+ },
+ {
+  "parameter": "Total performance - table 1 | For +50 °F (+28 ℃) temperature changes; 0 - 100 percent relative humidity, from 1:1 to 5:1 rangedown | Rosemount 3051C | Ranges 2 - 5 | Total performance [fn 1]",
+  "value": "+0.14",
+  "unit": "% of span",
+  "source_page": 78
+ },
+ {
+  "parameter": "Total performance - table 1 | For +50 °F (+28 ℃) temperature changes; 0 - 100 percent relative humidity, from 1:1 to 5:1 rangedown | Rosemount 3051L | Ranges 2 - 4 | Total performance [fn 1]",
+  "value": "Use Instrument Toolkit or the QZ option to quantify the total performance of a remote seal assembly under operating conditions.",
+  "unit": null,
+  "source_page": 78
+ },
+ {
+  "parameter": "Total performance - table 1 | footnote 1",
+  "value": "For output code W, F, and M, total performance is +0.15 percent of span.",
+  "unit": null,
+  "source_page": 78
+ },
+ {
+  "parameter": "Long term stability - table 1 | Rosemount 3051C | Ranges 2-5 | For 10 years | Long term stability",
+  "value": "±0.2",
+  "unit": "% of URL",
+  "source_page": 78
+ },
+ {
+  "parameter": "Long term stability - table 1 | Rosemount 3051 CD, 3051CG Low/Draft Range Ranges 0-1, 3051TG Range 0 | For 1 year | Long term stability",
+  "value": "±0.2",
+  "unit": "% of URL",
+  "source_page": 78
+ },
+ {
+  "parameter": "Long term stability - table 1 | Rosemount 3051CA Low Range | Range 1 | For 10 years | Long term stability",
+  "value": "±0.2",
+  "unit": "% of URL",
+  "source_page": 78
+ },
+ {
+  "parameter": "Long term stability - table 1 | Rosemount 3051T | Ranges 1-4 | For 10 years | Long term stability",
+  "value": "±0.2",
+  "unit": "% of URL",
+  "source_page": 78
+ },
+ {
+  "parameter": "Long term stability - table 1 | Rosemount 3051L | Ranges 2-3 | For 1 year | Long term stability",
+  "value": "±0.1",
+  "unit": "% of URL",
+  "source_page": 78
+ },
+ {
+  "parameter": "Long term stability - table 1 | Rosemount 3051L | Ranges 4-5 | For 1 year | Long term stability",
+  "value": "±0.2",
+  "unit": "% of URL",
+  "source_page": 78
+ },
+ {
+  "parameter": "Dynamic performance - table 1 | Rosemount 3051C | Ranges 2-5 [fn 4] | 4 - 20 mA HART® [fn 1] | Total Response Time (Td + Tc) [fn 3]",
+  "value": "85",
+  "unit": "ms",
+  "source_page": 79
+ },
+ {
+  "parameter": "Dynamic performance - table 1 | Rosemount 3051C | Ranges 2-5 [fn 4] | FOUNDATION™ Fieldbus and PROFIBUS® PA Protocols [fn 2] | Total Response Time (Td + Tc) [fn 3]",
+  "value": "152",
+  "unit": "ms",
+  "source_page": 79
+ },
+ {
+  "parameter": "Dynamic performance - table 1 | Rosemount 3051C | Range 1 | 4 - 20 mA HART® [fn 1] | Total Response Time (Td + Tc) [fn 3]",
+  "value": "255",
+  "unit": "ms",
+  "source_page": 79
+ },
+ {
+  "parameter": "Dynamic performance - table 1 | Rosemount 3051C | Range 1 | FOUNDATION™ Fieldbus and PROFIBUS® PA Protocols [fn 2] | Total Response Time (Td + Tc) [fn 3]",
+  "value": "307",
+  "unit": "ms",
+  "source_page": 79
+ },
+ {
+  "parameter": "Dynamic performance - table 1 | Rosemount 3051C | Range 0 | 4 - 20 mA HART® [fn 1] | Total Response Time (Td + Tc) [fn 3]",
+  "value": "700",
+  "unit": "ms",
+  "source_page": 79
+ },
+ {
+  "parameter": "Dynamic performance - table 1 | Rosemount 3051C | Range 0 | FOUNDATION™ Fieldbus and PROFIBUS® PA Protocols [fn 2] | Total Response Time (Td + Tc) [fn 3]",
+  "value": "N/A",
+  "unit": null,
+  "source_page": 79
+ },
+ {
+  "parameter": "Dynamic performance - table 1 | Rosemount 3051T | 4 - 20 mA HART® [fn 1] | Total Response Time (Td + Tc) [fn 3]",
+  "value": "100",
+  "unit": "ms",
+  "source_page": 79
+ },
+ {
+  "parameter": "Dynamic performance - table 1 | Rosemount 3051T | FOUNDATION™ Fieldbus and PROFIBUS® PA Protocols [fn 2] | Total Response Time (Td + Tc) [fn 3]",
+  "value": "152",
+  "unit": "ms",
+  "source_page": 79
+ },
+ {
+  "parameter": "Dynamic performance - table 1 | Rosemount 3051L | 4 - 20 mA HART® [fn 1] | Total Response Time (Td + Tc) [fn 3]",
+  "value": "See Instrument Toolkit.",
+  "unit": null,
+  "source_page": 79
+ },
+ {
+  "parameter": "Dynamic performance - table 1 | Rosemount 3051L | FOUNDATION™ Fieldbus and PROFIBUS® PA Protocols [fn 2] | Total Response Time (Td + Tc) [fn 3]",
+  "value": "See Instrument Toolkit.",
+  "unit": null,
+  "source_page": 79
+ },
+ {
+  "parameter": "Dynamic performance - table 1 | 4 - 20 mA HART® [fn 1] | Dead time (Td)",
+  "value": "45 (nominal)",
+  "unit": "ms",
+  "source_page": 79
+ },
+ {
+  "parameter": "Dynamic performance - table 1 | FOUNDATION™ Fieldbus and PROFIBUS® PA Protocols [fn 2] | Dead time (Td)",
+  "value": "97",
+  "unit": "ms",
+  "source_page": 79
+ },
+ {
+  "parameter": "Dynamic performance - table 1 | 4 - 20 mA HART® [fn 1] | Update rate [fn 5]",
+  "value": "22",
+  "unit": "times per second",
+  "source_page": 79
+ },
+ {
+  "parameter": "Dynamic performance - table 1 | FOUNDATION™ Fieldbus and PROFIBUS® PA Protocols [fn 2] | Update rate [fn 5]",
+  "value": "22",
+  "unit": "times per second",
+  "source_page": 79
+ },
+ {
+  "parameter": "Dynamic performance - table 1 | Typical HART transmitter response time | Td",
+  "value": "Dead time",
+  "unit": null,
+  "source_page": 79
+ },
+ {
+  "parameter": "Dynamic performance - table 1 | Typical HART transmitter response time | Tc",
+  "value": "Time constant",
+  "unit": null,
+  "source_page": 79
+ },
+ {
+  "parameter": "Dynamic performance - table 1 | Typical HART transmitter response time | Response time",
+  "value": "Td + Tc",
+  "unit": null,
+  "source_page": 79
+ },
+ {
+  "parameter": "Dynamic performance - table 1 | Typical HART transmitter response time | Time constant (Tc) reference level",
+  "value": "63.2% of total step change",
+  "unit": null,
+  "source_page": 79
+ },
+ {
+  "parameter": "Dynamic performance - table 1 | footnote 1",
+  "value": "Dead time and update rate apply to all models and ranges; analog output only.",
+  "unit": null,
+  "source_page": 79
+ },
+ {
+  "parameter": "Dynamic performance - table 1 | footnote 2",
+  "value": "Transducer block response time, Analog Input block execution time not included.",
+  "unit": null,
+  "source_page": 79
+ },
+ {
+  "parameter": "Dynamic performance - table 1 | footnote 3",
+  "value": "Nominal total response time at 75 ºF (24 ℃) reference conditions.",
+  "unit": null,
+  "source_page": 79
+ },
+ {
+  "parameter": "Dynamic performance - table 1 | footnote 4",
+  "value": "With option codes M6, RK, T9, DA1, response time is 85 ms. All other options response time is 100 ms.",
+  "unit": null,
+  "source_page": 79
+ },
+ {
+  "parameter": "Dynamic performance - table 1 | footnote 5",
+  "value": "Does not apply to wireless output (code X). See Wireless (output code X) for wireless update rate.",
+  "unit": null,
+  "source_page": 79
+ },
+ {
+  "parameter": "Line pressure effect per 1000 psi (68.95 bar) | For line pressures above 2000 psi (137.90 bar) and Ranges 4-5 | HART® | Reference document",
+  "value": "Rosemount 3051 Pressure Transmitter with 4-20 mA HART Protocol Manual",
+  "unit": null,
+  "source_page": 79
+ },
+ {
+  "parameter": "Line pressure effect per 1000 psi (68.95 bar) | For line pressures above 2000 psi (137.90 bar) and Ranges 4-5 | WirelessHART | Reference document",
+  "value": "Rosemount 3051 Wireless Pressure Transmitters Reference Manual",
+  "unit": null,
+  "source_page": 79
+ },
+ {
+  "parameter": "Line pressure effect per 1000 psi (68.95 bar) | For line pressures above 2000 psi (137.90 bar) and Ranges 4-5 | FOUNDATION™ Fieldbus | Reference document",
+  "value": "Rosemount 3051 Pressure Transmitter with FOUNDATION™ Fieldbus Protocol Reference Manual",
+  "unit": null,
+  "source_page": 79
+ },
+ {
+  "parameter": "Line pressure effect per 1000 psi (68.95 bar) | For line pressures above 2000 psi (137.90 bar) and Ranges 4-5 | PROFIBUS® PA | Reference document",
+  "value": "Rosemount 3051 Pressure Transmitter with PROFIBUS PA Protocol Reference Manual",
+  "unit": null,
+  "source_page": 79
+ },
+ {
+  "parameter": "Table 1: Rosemount 3051CD and 3051CF Line Pressure Effect | Zero error | Ranges 2-3 | For line pressures from 0 to 2000 psi (0 to 137.90 bar) | Line pressure effect",
+  "value": "±0.05",
+  "unit": "% of URL/1000 psi",
+  "source_page": 79
+ },
+ {
+  "parameter": "Table 1: Rosemount 3051CD and 3051CF Line Pressure Effect | Zero error | Ranges 2-3 | For line pressures from 0 to 2000 psi (0 to 137.90 bar) | Line pressure effect",
+  "value": "±0.05",
+  "unit": "% of URL/68.95 bar",
+  "source_page": 79
+ },
+ {
+  "parameter": "Table 1: Rosemount 3051CD and 3051CF Line Pressure Effect | Zero error | Range 1 | For line pressures from 0 to 2000 psi (0 to 137.90 bar) | Line pressure effect",
+  "value": "±0.25",
+  "unit": "% of URL/1000 psi",
+  "source_page": 79
+ },
+ {
+  "parameter": "Table 1: Rosemount 3051CD and 3051CF Line Pressure Effect | Zero error | Range 1 | For line pressures from 0 to 2000 psi (0 to 137.90 bar) | Line pressure effect",
+  "value": "±0.25",
+  "unit": "% of URL/68.95 bar",
+  "source_page": 79
+ },
+ {
+  "parameter": "Table 1: Rosemount 3051CD and 3051CF Line Pressure Effect | Zero error | Range 0 | For line pressures from 0 to 750 psi (0 to 51.71 bar) | Line pressure effect",
+  "value": "±0.125",
+  "unit": "% of URL/100 psi",
+  "source_page": 79
+ },
+ {
+  "parameter": "Table 1: Rosemount 3051CD and 3051CF Line Pressure Effect | Zero error | Range 0 | For line pressures from 0 to 750 psi (0 to 51.71 bar) | Line pressure effect",
+  "value": "±0.125",
+  "unit": "% of URL/6.89 bar",
+  "source_page": 79
+ },
+ {
+  "parameter": "Table 1: Rosemount 3051CD and 3051CF Line Pressure Effect | Span error | Ranges 2-3 | Line pressure effect",
+  "value": "±0.1",
+  "unit": "% of reading/1000 psi",
+  "source_page": 79
+ },
+ {
+  "parameter": "Table 1: Rosemount 3051CD and 3051CF Line Pressure Effect | Span error | Ranges 2-3 | Line pressure effect",
+  "value": "±0.1",
+  "unit": "% of reading/68.95 bar",
+  "source_page": 79
+ },
+ {
+  "parameter": "Table 1: Rosemount 3051CD and 3051CF Line Pressure Effect | Span error | Range 1 | Line pressure effect",
+  "value": "±0.4",
+  "unit": "% of reading/1000 psi",
+  "source_page": 79
+ },
+ {
+  "parameter": "Table 1: Rosemount 3051CD and 3051CF Line Pressure Effect | Span error | Range 1 | Line pressure effect",
+  "value": "±0.4",
+  "unit": "% of reading/68.95 bar",
+  "source_page": 79
+ },
+ {
+  "parameter": "Table 1: Rosemount 3051CD and 3051CF Line Pressure Effect | Span error | Range 0 | Line pressure effect",
+  "value": "±0.15",
+  "unit": "% of reading/100 psi",
+  "source_page": 79
+ },
+ {
+  "parameter": "Table 1: Rosemount 3051CD and 3051CF Line Pressure Effect | Span error | Range 0 | Line pressure effect",
+  "value": "±0.15",
+  "unit": "% of reading/6.895 bar",
+  "source_page": 79
+ },
+ {
+  "parameter": "Ambient temperature effect per 50 °F (28 ℃) - table 1 | Rosemount 3051C | Range 0 | From 1:1 to 30:1 | Ambient temperature effect",
+  "value": "±(0.25% URL + 0.05% span)",
+  "unit": null,
+  "source_page": 80
+ },
+ {
+  "parameter": "Ambient temperature effect per 50 °F (28 ℃) - table 1 | Rosemount 3051C | Range 1 | From 1:1 to 30:1 | Ambient temperature effect",
+  "value": "±(0.1% URL + 0.25% span)",
+  "unit": null,
+  "source_page": 80
+ },
+ {
+  "parameter": "Ambient temperature effect per 50 °F (28 ℃) - table 1 | Rosemount 3051C | Range 1 | From 30:1 to 50:1 | Ambient temperature effect",
+  "value": "±(0.14% URL + 0.15% span)",
+  "unit": null,
+  "source_page": 80
+ },
+ {
+  "parameter": "Ambient temperature effect per 50 °F (28 ℃) - table 1 | Rosemount 3051C | Ranges 2-5 | From 1:1 to 5:1 | Ambient temperature effect",
+  "value": "±(0.0125% URL + 0.0625% span)",
+  "unit": null,
+  "source_page": 80
+ },
+ {
+  "parameter": "Ambient temperature effect per 50 °F (28 ℃) - table 1 | Rosemount 3051C | Ranges 2-5 | From 5:1 to 150:1 | Ambient temperature effect",
+  "value": "±(0.025% URL + 0.125% span)",
+  "unit": null,
+  "source_page": 80
+ },
+ {
+  "parameter": "Ambient temperature effect per 50 °F (28 ℃) - table 1 | Rosemount 3051CA | Ranges 1-4 | From 1:1 to 30:1 | Ambient temperature effect",
+  "value": "±(0.025% URL + 0.125% span)",
+  "unit": null,
+  "source_page": 80
+ },
+ {
+  "parameter": "Ambient temperature effect per 50 °F (28 ℃) - table 1 | Rosemount 3051CA | Ranges 1-4 | From 30:1 to 150:1 | Ambient temperature effect",
+  "value": "±(0.035% URL + 0.125% span)",
+  "unit": null,
+  "source_page": 80
+ },
+ {
+  "parameter": "Ambient temperature effect per 50 °F (28 ℃) - table 1 | Rosemount 3051T | Range 0 | From 1:1 to 20:1 | Ambient temperature effect",
+  "value": "±(0.15% URL + 0.075% span)",
+  "unit": null,
+  "source_page": 80
+ },
+ {
+  "parameter": "Ambient temperature effect per 50 °F (28 ℃) - table 1 | Rosemount 3051T | Range 1 | From 1:1 to 10:1 | Ambient temperature effect",
+  "value": "±(0.025% URL + 0.125% span)",
+  "unit": null,
+  "source_page": 80
+ },
+ {
+  "parameter": "Ambient temperature effect per 50 °F (28 ℃) - table 1 | Rosemount 3051T | Range 1 | From 10:1 to 100:1 | Ambient temperature effect",
+  "value": "±(0.05% URL + 0.125% span)",
+  "unit": null,
+  "source_page": 80
+ },
+ {
+  "parameter": "Ambient temperature effect per 50 °F (28 ℃) - table 1 | Rosemount 3051T | Range 2-4 | From 1:1 to 30:1 | Ambient temperature effect",
+  "value": "±(0.025% URL + 0.125% span)",
+  "unit": null,
+  "source_page": 80
+ },
+ {
+  "parameter": "Ambient temperature effect per 50 °F (28 ℃) - table 1 | Rosemount 3051T | Range 2-4 | From 30:1 to 150:1 | Ambient temperature effect",
+  "value": "±(0.035% URL + 0.125% span)",
+  "unit": null,
+  "source_page": 80
+ },
+ {
+  "parameter": "Ambient temperature effect per 50 °F (28 ℃) - table 1 | Rosemount 3051T | Range 5-6 | From 1:1 to 5:1 | Ambient temperature effect",
+  "value": "±(0.1% URL + 0.15% span)",
+  "unit": null,
+  "source_page": 80
+ },
+ {
+  "parameter": "Ambient temperature effect per 50 °F (28 ℃) - table 1 | Rosemount 3051L | Ambient temperature effect",
+  "value": "See Instrument Toolkit™ software.",
+  "unit": null,
+  "source_page": 80
+ },
+ {
+  "parameter": "Mounting position effects - table 1 | Rosemount 3051C | Maximum zero shift",
+  "value": "±1.25 in",
+  "unit": "H2O",
+  "source_page": 80
+ },
+ {
+  "parameter": "Mounting position effects - table 1 | Rosemount 3051C | Maximum zero shift",
+  "value": "3.11",
+  "unit": "mbar",
+  "source_page": 80
+ },
+ {
+  "parameter": "Mounting position effects - table 1 | Rosemount 3051C | Zero shift correction",
+  "value": "can be calibrated out",
+  "unit": null,
+  "source_page": 80
+ },
+ {
+  "parameter": "Mounting position effects - table 1 | Rosemount 3051C | Span effect",
+  "value": "No span effect",
+  "unit": null,
+  "source_page": 80
+ },
+ {
+  "parameter": "Mounting position effects - table 1 | Rosemount 3051CA, 3051T | Maximum zero shift",
+  "value": "±2.5 in",
+  "unit": "H2O",
+  "source_page": 80
+ },
+ {
+  "parameter": "Mounting position effects - table 1 | Rosemount 3051CA, 3051T | Maximum zero shift",
+  "value": "6.22",
+  "unit": "mbar",
+  "source_page": 80
+ },
+ {
+  "parameter": "Mounting position effects - table 1 | Rosemount 3051CA, 3051T | Zero shift correction",
+  "value": "can be calibrated out",
+  "unit": null,
+  "source_page": 80
+ },
+ {
+  "parameter": "Mounting position effects - table 1 | Rosemount 3051CA, 3051T | Span effect",
+  "value": "No span effect",
+  "unit": null,
+  "source_page": 80
+ },
+ {
+  "parameter": "Mounting position effects - table 1 | Rosemount 3051L | Liquid level diaphragm in vertical plane | Maximum zero shift",
+  "value": "±1 in",
+  "unit": "H2O",
+  "source_page": 80
+ },
+ {
+  "parameter": "Mounting position effects - table 1 | Rosemount 3051L | Liquid level diaphragm in vertical plane | Maximum zero shift",
+  "value": "2.49",
+  "unit": "mbar",
+  "source_page": 80
+ },
+ {
+  "parameter": "Mounting position effects - table 1 | Rosemount 3051L | Diaphragm in horizontal plane | Maximum zero shift",
+  "value": "±5 in",
+  "unit": "H2O",
+  "source_page": 80
+ },
+ {
+  "parameter": "Mounting position effects - table 1 | Rosemount 3051L | Diaphragm in horizontal plane | Maximum zero shift",
+  "value": "12.43",
+  "unit": "mbar",
+  "source_page": 80
+ },
+ {
+  "parameter": "Mounting position effects - table 1 | Rosemount 3051L | Diaphragm in horizontal plane | Additional zero shift",
+  "value": "plus extension length on extended units",
+  "unit": null,
+  "source_page": 80
+ },
+ {
+  "parameter": "Mounting position effects - table 1 | Rosemount 3051L | Zero shift correction",
+  "value": "All zero shifts can be calibrated out",
+  "unit": null,
+  "source_page": 80
+ },
+ {
+  "parameter": "Mounting position effects - table 1 | Rosemount 3051L | Span effect",
+  "value": "No span effect",
+  "unit": null,
+  "source_page": 80
+ },
+ {
+  "parameter": "Vibration effect | Tested per the requirements of IEC60770-1: 1999 field or pipeline with high vibration level (10-60 Hz 0.21 mm displacement peak amplitude/60-2000 Hz 3g) | Vibration effect",
+  "value": "Less than ±0.1",
+  "unit": "percent of URL",
+  "source_page": 80
+ },
+ {
+  "parameter": "Vibration effect | Test standard",
+  "value": "IEC60770-1: 1999 field or pipeline with high vibration level",
+  "unit": null,
+  "source_page": 80
+ },
+ {
+  "parameter": "Vibration effect | Test vibration level | 10-60 Hz | Displacement peak amplitude",
+  "value": "0.21",
+  "unit": "mm",
+  "source_page": 80
+ },
+ {
+  "parameter": "Vibration effect | Test vibration level | 60-2000 Hz | Acceleration",
+  "value": "3",
+  "unit": "g",
+  "source_page": 80
+ },
+ {
+  "parameter": "Power supply effect | Power supply effect",
+  "value": "Less than ±0.005",
+  "unit": "percent of calibrated span per volt change",
+  "source_page": 80
+ },
+ {
+  "parameter": "Electromagnetic compatibility | Compliance",
+  "value": "Meets all industrial environment requirements of EN61326 and NAMUR NE-21",
+  "unit": null,
+  "source_page": 80
+ },
+ {
+  "parameter": "Electromagnetic compatibility | During EMC disturbance | Maximum deviation",
+  "value": "<1",
+  "unit": "% span",
+  "source_page": 80
+ },
+ {
+  "parameter": "Electromagnetic compatibility | Note | NAMUR NE-21 applicability",
+  "value": "NAMUR NE-21 does not apply to Low-Power (transmitter output option code M) or Wireless (transmitter output code X).",
+  "unit": null,
+  "source_page": 80
+ },
+ {
+  "parameter": "Transient protection (option code T1) | Test standard",
+  "value": "IEEE C62.41.2-2002, location category B",
+  "unit": null,
+  "source_page": 81
+ },
+ {
+  "parameter": "Transient protection (option code T1) | Tested in accordance with IEEE C62.41.2-2002, location category B | Waveform 0.5 µs - 100 kHz | Crest voltage",
+  "value": "6",
+  "unit": "kV",
+  "source_page": 81
+ },
+ {
+  "parameter": "Transient protection (option code T1) | Tested in accordance with IEEE C62.41.2-2002, location category B | Waveform 8 x 20 µs | Crest current",
+  "value": "3",
+  "unit": "kA",
+  "source_page": 81
+ },
+ {
+  "parameter": "Transient protection (option code T1) | Tested in accordance with IEEE C62.41.2-2002, location category B | Waveform 1.2 x 50 µs | Crest voltage",
+  "value": "6",
+  "unit": "kV",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 2: Rosemount 3051CD, 3051CG, 3051CF, and 3051L Range and Sensor Limits | Range 0 [fn 1] | Rosemount 3051CD, 3051CG, 3051CF, 3051L | Minimum span",
+  "value": "0.10",
+  "unit": "inH2O",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 2: Rosemount 3051CD, 3051CG, 3051CF, and 3051L Range and Sensor Limits | Range 0 [fn 1] | Rosemount 3051CD, 3051CG, 3051CF, 3051L | Minimum span",
+  "value": "0.24",
+  "unit": "mbar",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 2: Rosemount 3051CD, 3051CG, 3051CF, and 3051L Range and Sensor Limits | Range 0 [fn 1] | Range and sensor limits | Upper (URL)",
+  "value": "3.00",
+  "unit": "inH2O",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 2: Rosemount 3051CD, 3051CG, 3051CF, and 3051L Range and Sensor Limits | Range 0 [fn 1] | Range and sensor limits | Upper (URL)",
+  "value": "7.45",
+  "unit": "mbar",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 2: Rosemount 3051CD, 3051CG, 3051CF, and 3051L Range and Sensor Limits | Range 0 [fn 1] | Range and sensor limits | Rosemount 3051CD Differential, 3051CF Flow Meters | Lower (LRL)",
+  "value": "-3.00",
+  "unit": "inH2O",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 2: Rosemount 3051CD, 3051CG, 3051CF, and 3051L Range and Sensor Limits | Range 0 [fn 1] | Range and sensor limits | Rosemount 3051CD Differential, 3051CF Flow Meters | Lower (LRL)",
+  "value": "-7.45",
+  "unit": "mbar",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 2: Rosemount 3051CD, 3051CG, 3051CF, and 3051L Range and Sensor Limits | Range 0 [fn 1] | Range and sensor limits | Rosemount 3051CG Gage | Lower (LRL)",
+  "value": "N/A",
+  "unit": null,
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 2: Rosemount 3051CD, 3051CG, 3051CF, and 3051L Range and Sensor Limits | Range 0 [fn 1] | Range and sensor limits | Rosemount 3051L Differential | Lower (LRL)",
+  "value": "N/A",
+  "unit": null,
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 2: Rosemount 3051CD, 3051CG, 3051CF, and 3051L Range and Sensor Limits | Range 0 [fn 1] | Range and sensor limits | Rosemount 3051L Gage | Lower (LRL)",
+  "value": "N/A",
+  "unit": null,
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 2: Rosemount 3051CD, 3051CG, 3051CF, and 3051L Range and Sensor Limits | Range 1 [fn 1] | Rosemount 3051CD, 3051CG, 3051CF, 3051L | Minimum span",
+  "value": "0.50",
+  "unit": "inH2O",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 2: Rosemount 3051CD, 3051CG, 3051CF, and 3051L Range and Sensor Limits | Range 1 [fn 1] | Rosemount 3051CD, 3051CG, 3051CF, 3051L | Minimum span",
+  "value": "1.24",
+  "unit": "mbar",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 2: Rosemount 3051CD, 3051CG, 3051CF, and 3051L Range and Sensor Limits | Range 1 [fn 1] | Range and sensor limits | Upper (URL)",
+  "value": "25.00",
+  "unit": "inH2O",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 2: Rosemount 3051CD, 3051CG, 3051CF, and 3051L Range and Sensor Limits | Range 1 [fn 1] | Range and sensor limits | Upper (URL)",
+  "value": "62.16",
+  "unit": "mbar",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 2: Rosemount 3051CD, 3051CG, 3051CF, and 3051L Range and Sensor Limits | Range 1 [fn 1] | Range and sensor limits | Rosemount 3051CD Differential, 3051CF Flow Meters | Lower (LRL)",
+  "value": "-25.00",
+  "unit": "inH2O",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 2: Rosemount 3051CD, 3051CG, 3051CF, and 3051L Range and Sensor Limits | Range 1 [fn 1] | Range and sensor limits | Rosemount 3051CD Differential, 3051CF Flow Meters | Lower (LRL)",
+  "value": "-62.16",
+  "unit": "mbar",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 2: Rosemount 3051CD, 3051CG, 3051CF, and 3051L Range and Sensor Limits | Range 1 [fn 1] | Range and sensor limits | Rosemount 3051CG Gage | Lower (LRL)",
+  "value": "-25.00",
+  "unit": "inH2O",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 2: Rosemount 3051CD, 3051CG, 3051CF, and 3051L Range and Sensor Limits | Range 1 [fn 1] | Range and sensor limits | Rosemount 3051CG Gage | Lower (LRL)",
+  "value": "-62.16",
+  "unit": "mbar",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 2: Rosemount 3051CD, 3051CG, 3051CF, and 3051L Range and Sensor Limits | Range 1 [fn 1] | Range and sensor limits | Rosemount 3051L Differential | Lower (LRL)",
+  "value": "N/A",
+  "unit": null,
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 2: Rosemount 3051CD, 3051CG, 3051CF, and 3051L Range and Sensor Limits | Range 1 [fn 1] | Range and sensor limits | Rosemount 3051L Gage | Lower (LRL)",
+  "value": "N/A",
+  "unit": null,
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 2: Rosemount 3051CD, 3051CG, 3051CF, and 3051L Range and Sensor Limits | Range 2 [fn 1] | Rosemount 3051CD, 3051CG, 3051CF, 3051L | Minimum span",
+  "value": "1.67",
+  "unit": "inH2O",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 2: Rosemount 3051CD, 3051CG, 3051CF, and 3051L Range and Sensor Limits | Range 2 [fn 1] | Rosemount 3051CD, 3051CG, 3051CF, 3051L | Minimum span",
+  "value": "4.15",
+  "unit": "mbar",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 2: Rosemount 3051CD, 3051CG, 3051CF, and 3051L Range and Sensor Limits | Range 2 [fn 1] | Range and sensor limits | Upper (URL)",
+  "value": "250.00",
+  "unit": "inH2O",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 2: Rosemount 3051CD, 3051CG, 3051CF, and 3051L Range and Sensor Limits | Range 2 [fn 1] | Range and sensor limits | Upper (URL)",
+  "value": "621.60",
+  "unit": "mbar",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 2: Rosemount 3051CD, 3051CG, 3051CF, and 3051L Range and Sensor Limits | Range 2 [fn 1] | Range and sensor limits | Rosemount 3051CD Differential, 3051CF Flow Meters | Lower (LRL)",
+  "value": "-250.00",
+  "unit": "inH2O",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 2: Rosemount 3051CD, 3051CG, 3051CF, and 3051L Range and Sensor Limits | Range 2 [fn 1] | Range and sensor limits | Rosemount 3051CD Differential, 3051CF Flow Meters | Lower (LRL)",
+  "value": "-621.60",
+  "unit": "mbar",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 2: Rosemount 3051CD, 3051CG, 3051CF, and 3051L Range and Sensor Limits | Range 2 [fn 1] | Range and sensor limits | Rosemount 3051CG Gage | Lower (LRL)",
+  "value": "-250.00",
+  "unit": "inH2O",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 2: Rosemount 3051CD, 3051CG, 3051CF, and 3051L Range and Sensor Limits | Range 2 [fn 1] | Range and sensor limits | Rosemount 3051CG Gage | Lower (LRL)",
+  "value": "-621.60",
+  "unit": "mbar",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 2: Rosemount 3051CD, 3051CG, 3051CF, and 3051L Range and Sensor Limits | Range 2 [fn 1] | Range and sensor limits | Rosemount 3051L Differential | Lower (LRL)",
+  "value": "-250.00",
+  "unit": "inH2O",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 2: Rosemount 3051CD, 3051CG, 3051CF, and 3051L Range and Sensor Limits | Range 2 [fn 1] | Range and sensor limits | Rosemount 3051L Differential | Lower (LRL)",
+  "value": "-621.60",
+  "unit": "mbar",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 2: Rosemount 3051CD, 3051CG, 3051CF, and 3051L Range and Sensor Limits | Range 2 [fn 1] | Range and sensor limits | Rosemount 3051L Gage | Lower (LRL)",
+  "value": "-250.00",
+  "unit": "inH2O",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 2: Rosemount 3051CD, 3051CG, 3051CF, and 3051L Range and Sensor Limits | Range 2 [fn 1] | Range and sensor limits | Rosemount 3051L Gage | Lower (LRL)",
+  "value": "-621.60",
+  "unit": "mbar",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 2: Rosemount 3051CD, 3051CG, 3051CF, and 3051L Range and Sensor Limits | Range 3 [fn 1] | Rosemount 3051CD, 3051CG, 3051CF, 3051L | Minimum span",
+  "value": "6.67",
+  "unit": "inH2O",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 2: Rosemount 3051CD, 3051CG, 3051CF, and 3051L Range and Sensor Limits | Range 3 [fn 1] | Rosemount 3051CD, 3051CG, 3051CF, 3051L | Minimum span",
+  "value": "16.58",
+  "unit": "mbar",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 2: Rosemount 3051CD, 3051CG, 3051CF, and 3051L Range and Sensor Limits | Range 3 [fn 1] | Range and sensor limits | Upper (URL)",
+  "value": "1000.00",
+  "unit": "inH2O",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 2: Rosemount 3051CD, 3051CG, 3051CF, and 3051L Range and Sensor Limits | Range 3 [fn 1] | Range and sensor limits | Upper (URL)",
+  "value": "2.48",
+  "unit": "bar",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 2: Rosemount 3051CD, 3051CG, 3051CF, and 3051L Range and Sensor Limits | Range 3 [fn 1] | Range and sensor limits | Rosemount 3051CD Differential, 3051CF Flow Meters | Lower (LRL)",
+  "value": "-1000.00",
+  "unit": "inH2O",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 2: Rosemount 3051CD, 3051CG, 3051CF, and 3051L Range and Sensor Limits | Range 3 [fn 1] | Range and sensor limits | Rosemount 3051CD Differential, 3051CF Flow Meters | Lower (LRL)",
+  "value": "-2.48",
+  "unit": "bar",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 2: Rosemount 3051CD, 3051CG, 3051CF, and 3051L Range and Sensor Limits | Range 3 [fn 1] | Range and sensor limits | Rosemount 3051CG Gage | Lower (LRL)",
+  "value": "0.50",
+  "unit": "psia",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 2: Rosemount 3051CD, 3051CG, 3051CF, and 3051L Range and Sensor Limits | Range 3 [fn 1] | Range and sensor limits | Rosemount 3051CG Gage | Lower (LRL)",
+  "value": "34.47",
+  "unit": "mbar",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 2: Rosemount 3051CD, 3051CG, 3051CF, and 3051L Range and Sensor Limits | Range 3 [fn 1] | Range and sensor limits | Rosemount 3051L Differential | Lower (LRL)",
+  "value": "-1000.00",
+  "unit": "inH2O",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 2: Rosemount 3051CD, 3051CG, 3051CF, and 3051L Range and Sensor Limits | Range 3 [fn 1] | Range and sensor limits | Rosemount 3051L Differential | Lower (LRL)",
+  "value": "-2.48",
+  "unit": "bar",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 2: Rosemount 3051CD, 3051CG, 3051CF, and 3051L Range and Sensor Limits | Range 3 [fn 1] | Range and sensor limits | Rosemount 3051L Gage | Lower (LRL)",
+  "value": "0.50",
+  "unit": "psia",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 2: Rosemount 3051CD, 3051CG, 3051CF, and 3051L Range and Sensor Limits | Range 3 [fn 1] | Range and sensor limits | Rosemount 3051L Gage | Lower (LRL)",
+  "value": "34.47",
+  "unit": "mbar",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 2: Rosemount 3051CD, 3051CG, 3051CF, and 3051L Range and Sensor Limits | Range 4 [fn 1] | Rosemount 3051CD, 3051CG, 3051CF, 3051L | Minimum span",
+  "value": "2.00",
+  "unit": "psi",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 2: Rosemount 3051CD, 3051CG, 3051CF, and 3051L Range and Sensor Limits | Range 4 [fn 1] | Rosemount 3051CD, 3051CG, 3051CF, 3051L | Minimum span",
+  "value": "137.89",
+  "unit": "mbar",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 2: Rosemount 3051CD, 3051CG, 3051CF, and 3051L Range and Sensor Limits | Range 4 [fn 1] | Range and sensor limits | Upper (URL)",
+  "value": "300.00",
+  "unit": "psi",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 2: Rosemount 3051CD, 3051CG, 3051CF, and 3051L Range and Sensor Limits | Range 4 [fn 1] | Range and sensor limits | Upper (URL)",
+  "value": "20.68",
+  "unit": "bar",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 2: Rosemount 3051CD, 3051CG, 3051CF, and 3051L Range and Sensor Limits | Range 4 [fn 1] | Range and sensor limits | Rosemount 3051CD Differential, 3051CF Flow Meters | Lower (LRL)",
+  "value": "-300.00",
+  "unit": "psi",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 2: Rosemount 3051CD, 3051CG, 3051CF, and 3051L Range and Sensor Limits | Range 4 [fn 1] | Range and sensor limits | Rosemount 3051CD Differential, 3051CF Flow Meters | Lower (LRL)",
+  "value": "-20.68",
+  "unit": "bar",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 2: Rosemount 3051CD, 3051CG, 3051CF, and 3051L Range and Sensor Limits | Range 4 [fn 1] | Range and sensor limits | Rosemount 3051CG Gage | Lower (LRL)",
+  "value": "0.50",
+  "unit": "psia",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 2: Rosemount 3051CD, 3051CG, 3051CF, and 3051L Range and Sensor Limits | Range 4 [fn 1] | Range and sensor limits | Rosemount 3051CG Gage | Lower (LRL)",
+  "value": "34.47",
+  "unit": "mbar",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 2: Rosemount 3051CD, 3051CG, 3051CF, and 3051L Range and Sensor Limits | Range 4 [fn 1] | Range and sensor limits | Rosemount 3051L Differential | Lower (LRL)",
+  "value": "-300.00",
+  "unit": "psi",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 2: Rosemount 3051CD, 3051CG, 3051CF, and 3051L Range and Sensor Limits | Range 4 [fn 1] | Range and sensor limits | Rosemount 3051L Differential | Lower (LRL)",
+  "value": "-20.68",
+  "unit": "bar",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 2: Rosemount 3051CD, 3051CG, 3051CF, and 3051L Range and Sensor Limits | Range 4 [fn 1] | Range and sensor limits | Rosemount 3051L Gage | Lower (LRL)",
+  "value": "0.50",
+  "unit": "psia",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 2: Rosemount 3051CD, 3051CG, 3051CF, and 3051L Range and Sensor Limits | Range 4 [fn 1] | Range and sensor limits | Rosemount 3051L Gage | Lower (LRL)",
+  "value": "34.47",
+  "unit": "mbar",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 2: Rosemount 3051CD, 3051CG, 3051CF, and 3051L Range and Sensor Limits | Range 5 [fn 1] | Rosemount 3051CD, 3051CG, 3051CF, 3051L | Minimum span",
+  "value": "13.33",
+  "unit": "psi",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 2: Rosemount 3051CD, 3051CG, 3051CF, and 3051L Range and Sensor Limits | Range 5 [fn 1] | Rosemount 3051CD, 3051CG, 3051CF, 3051L | Minimum span",
+  "value": "919.01",
+  "unit": "mbar",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 2: Rosemount 3051CD, 3051CG, 3051CF, and 3051L Range and Sensor Limits | Range 5 [fn 1] | Range and sensor limits | Upper (URL)",
+  "value": "2000.00",
+  "unit": "psi",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 2: Rosemount 3051CD, 3051CG, 3051CF, and 3051L Range and Sensor Limits | Range 5 [fn 1] | Range and sensor limits | Upper (URL)",
+  "value": "137.89",
+  "unit": "bar",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 2: Rosemount 3051CD, 3051CG, 3051CF, and 3051L Range and Sensor Limits | Range 5 [fn 1] | Range and sensor limits | Rosemount 3051CD Differential, 3051CF Flow Meters | Lower (LRL)",
+  "value": "-2000.00",
+  "unit": "psi",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 2: Rosemount 3051CD, 3051CG, 3051CF, and 3051L Range and Sensor Limits | Range 5 [fn 1] | Range and sensor limits | Rosemount 3051CD Differential, 3051CF Flow Meters | Lower (LRL)",
+  "value": "-137.89",
+  "unit": "bar",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 2: Rosemount 3051CD, 3051CG, 3051CF, and 3051L Range and Sensor Limits | Range 5 [fn 1] | Range and sensor limits | Rosemount 3051CG Gage | Lower (LRL)",
+  "value": "0.50",
+  "unit": "psia",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 2: Rosemount 3051CD, 3051CG, 3051CF, and 3051L Range and Sensor Limits | Range 5 [fn 1] | Range and sensor limits | Rosemount 3051CG Gage | Lower (LRL)",
+  "value": "34.47",
+  "unit": "mbar",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 2: Rosemount 3051CD, 3051CG, 3051CF, and 3051L Range and Sensor Limits | Range 5 [fn 1] | Range and sensor limits | Rosemount 3051L Differential | Lower (LRL)",
+  "value": "N/A",
+  "unit": null,
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 2: Rosemount 3051CD, 3051CG, 3051CF, and 3051L Range and Sensor Limits | Range 5 [fn 1] | Range and sensor limits | Rosemount 3051L Gage | Lower (LRL)",
+  "value": "N/A",
+  "unit": null,
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 2: Rosemount 3051CD, 3051CG, 3051CF, and 3051L Range and Sensor Limits | footnote 1",
+  "value": "inH2O referenced at 68 ºF (20 ℃). Range 0 only available with Rosemount 3051CD. Range 1 only available with 3051CD, 3051CG, or 3051CF.",
+  "unit": null,
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 3: Rosemount 3051CA and 3051T Range and Sensor Limits | Range 0 | Rosemount 3051CA | Minimum span",
+  "value": "N/A",
+  "unit": null,
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 3: Rosemount 3051CA and 3051T Range and Sensor Limits | Range 0 | Rosemount 3051CA | Upper (URL)",
+  "value": "N/A",
+  "unit": null,
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 3: Rosemount 3051CA and 3051T Range and Sensor Limits | Range 0 | Rosemount 3051CA | Lower (LRL)",
+  "value": "N/A",
+  "unit": null,
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 3: Rosemount 3051CA and 3051T Range and Sensor Limits | Range 0 | Rosemount 3051T | Minimum span",
+  "value": "0.25",
+  "unit": "psi",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 3: Rosemount 3051CA and 3051T Range and Sensor Limits | Range 0 | Rosemount 3051T | Minimum span",
+  "value": "17.24",
+  "unit": "mbar",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 3: Rosemount 3051CA and 3051T Range and Sensor Limits | Range 0 | Rosemount 3051T | Upper (URL)",
+  "value": "5",
+  "unit": "psi",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 3: Rosemount 3051CA and 3051T Range and Sensor Limits | Range 0 | Rosemount 3051T | Upper (URL)",
+  "value": "344.74",
+  "unit": "mbar",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 3: Rosemount 3051CA and 3051T Range and Sensor Limits | Range 0 | Rosemount 3051T | Lower (LRL) (absolute)",
+  "value": "N/A",
+  "unit": null,
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 3: Rosemount 3051CA and 3051T Range and Sensor Limits | Range 0 | Rosemount 3051T | Lower (LRL) (gage) [fn 1]",
+  "value": "-5",
+  "unit": "psi",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 3: Rosemount 3051CA and 3051T Range and Sensor Limits | Range 0 | Rosemount 3051T | Lower (LRL) (gage) [fn 1]",
+  "value": "-344.74",
+  "unit": "mbar",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 3: Rosemount 3051CA and 3051T Range and Sensor Limits | Range 1 | Rosemount 3051CA | Minimum span",
+  "value": "0.30",
+  "unit": "psi",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 3: Rosemount 3051CA and 3051T Range and Sensor Limits | Range 1 | Rosemount 3051CA | Minimum span",
+  "value": "20.68",
+  "unit": "mbar",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 3: Rosemount 3051CA and 3051T Range and Sensor Limits | Range 1 | Rosemount 3051CA | Upper (URL)",
+  "value": "30",
+  "unit": "psia",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 3: Rosemount 3051CA and 3051T Range and Sensor Limits | Range 1 | Rosemount 3051CA | Upper (URL)",
+  "value": "2.06",
+  "unit": "bar",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 3: Rosemount 3051CA and 3051T Range and Sensor Limits | Range 1 | Rosemount 3051CA | Lower (LRL)",
+  "value": "0",
+  "unit": "psia",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 3: Rosemount 3051CA and 3051T Range and Sensor Limits | Range 1 | Rosemount 3051CA | Lower (LRL)",
+  "value": "0",
+  "unit": "bar",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 3: Rosemount 3051CA and 3051T Range and Sensor Limits | Range 1 | Rosemount 3051T | Minimum span",
+  "value": "0.30",
+  "unit": "psi",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 3: Rosemount 3051CA and 3051T Range and Sensor Limits | Range 1 | Rosemount 3051T | Minimum span",
+  "value": "20.68",
+  "unit": "mbar",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 3: Rosemount 3051CA and 3051T Range and Sensor Limits | Range 1 | Rosemount 3051T | Upper (URL)",
+  "value": "30.00",
+  "unit": "psi",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 3: Rosemount 3051CA and 3051T Range and Sensor Limits | Range 1 | Rosemount 3051T | Upper (URL)",
+  "value": "2.06",
+  "unit": "bar",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 3: Rosemount 3051CA and 3051T Range and Sensor Limits | Range 1 | Rosemount 3051T | Lower (LRL) (absolute)",
+  "value": "0",
+  "unit": "psia",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 3: Rosemount 3051CA and 3051T Range and Sensor Limits | Range 1 | Rosemount 3051T | Lower (LRL) (absolute)",
+  "value": "0",
+  "unit": "bar",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 3: Rosemount 3051CA and 3051T Range and Sensor Limits | Range 1 | Rosemount 3051T | Lower (LRL) (gage) [fn 1]",
+  "value": "-14.70",
+  "unit": "psig",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 3: Rosemount 3051CA and 3051T Range and Sensor Limits | Range 1 | Rosemount 3051T | Lower (LRL) (gage) [fn 1]",
+  "value": "-1.01",
+  "unit": "bar",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 3: Rosemount 3051CA and 3051T Range and Sensor Limits | Range 2 | Rosemount 3051CA | Minimum span",
+  "value": "1.00",
+  "unit": "psi",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 3: Rosemount 3051CA and 3051T Range and Sensor Limits | Range 2 | Rosemount 3051CA | Minimum span",
+  "value": "68.94",
+  "unit": "mbar",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 3: Rosemount 3051CA and 3051T Range and Sensor Limits | Range 2 | Rosemount 3051CA | Upper (URL)",
+  "value": "150",
+  "unit": "psia",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 3: Rosemount 3051CA and 3051T Range and Sensor Limits | Range 2 | Rosemount 3051CA | Upper (URL)",
+  "value": "10.34",
+  "unit": "bar",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 3: Rosemount 3051CA and 3051T Range and Sensor Limits | Range 2 | Rosemount 3051CA | Lower (LRL)",
+  "value": "0",
+  "unit": "psia",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 3: Rosemount 3051CA and 3051T Range and Sensor Limits | Range 2 | Rosemount 3051CA | Lower (LRL)",
+  "value": "0",
+  "unit": "bar",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 3: Rosemount 3051CA and 3051T Range and Sensor Limits | Range 2 | Rosemount 3051T | Minimum span",
+  "value": "1.00",
+  "unit": "psi",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 3: Rosemount 3051CA and 3051T Range and Sensor Limits | Range 2 | Rosemount 3051T | Minimum span",
+  "value": "68.94",
+  "unit": "mbar",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 3: Rosemount 3051CA and 3051T Range and Sensor Limits | Range 2 | Rosemount 3051T | Upper (URL)",
+  "value": "150.00",
+  "unit": "psi",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 3: Rosemount 3051CA and 3051T Range and Sensor Limits | Range 2 | Rosemount 3051T | Upper (URL)",
+  "value": "10.34",
+  "unit": "bar",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 3: Rosemount 3051CA and 3051T Range and Sensor Limits | Range 2 | Rosemount 3051T | Lower (LRL) (absolute)",
+  "value": "0",
+  "unit": "psia",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 3: Rosemount 3051CA and 3051T Range and Sensor Limits | Range 2 | Rosemount 3051T | Lower (LRL) (absolute)",
+  "value": "0",
+  "unit": "bar",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 3: Rosemount 3051CA and 3051T Range and Sensor Limits | Range 2 | Rosemount 3051T | Lower (LRL) (gage) [fn 1]",
+  "value": "-14.70",
+  "unit": "psig",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 3: Rosemount 3051CA and 3051T Range and Sensor Limits | Range 2 | Rosemount 3051T | Lower (LRL) (gage) [fn 1]",
+  "value": "-1.01",
+  "unit": "bar",
+  "source_page": 81
+ },
+ {
+  "parameter": "Table 3: Rosemount 3051CA and 3051T Range and Sensor Limits | Range 3 | Rosemount 3051CA | Minimum span",
+  "value": "5.33",
+  "unit": "psi",
+  "source_page": 82
+ },
+ {
+  "parameter": "Table 3: Rosemount 3051CA and 3051T Range and Sensor Limits | Range 3 | Rosemount 3051CA | Minimum span",
+  "value": "367.49",
+  "unit": "mbar",
+  "source_page": 82
+ },
+ {
+  "parameter": "Table 3: Rosemount 3051CA and 3051T Range and Sensor Limits | Range 3 | Rosemount 3051CA | Upper (URL)",
+  "value": "800",
+  "unit": "psia",
+  "source_page": 82
+ },
+ {
+  "parameter": "Table 3: Rosemount 3051CA and 3051T Range and Sensor Limits | Range 3 | Rosemount 3051CA | Upper (URL)",
+  "value": "55.15",
+  "unit": "bar",
+  "source_page": 82
+ },
+ {
+  "parameter": "Table 3: Rosemount 3051CA and 3051T Range and Sensor Limits | Range 3 | Rosemount 3051CA | Lower (LRL)",
+  "value": "0",
+  "unit": "psia",
+  "source_page": 82
+ },
+ {
+  "parameter": "Table 3: Rosemount 3051CA and 3051T Range and Sensor Limits | Range 3 | Rosemount 3051CA | Lower (LRL)",
+  "value": "0",
+  "unit": "bar",
+  "source_page": 82
+ },
+ {
+  "parameter": "Table 3: Rosemount 3051CA and 3051T Range and Sensor Limits | Range 3 | Rosemount 3051T | Minimum span",
+  "value": "5.33",
+  "unit": "psi",
+  "source_page": 82
+ },
+ {
+  "parameter": "Table 3: Rosemount 3051CA and 3051T Range and Sensor Limits | Range 3 | Rosemount 3051T | Minimum span",
+  "value": "367.49",
+  "unit": "mbar",
+  "source_page": 82
+ },
+ {
+  "parameter": "Table 3: Rosemount 3051CA and 3051T Range and Sensor Limits | Range 3 | Rosemount 3051T | Upper (URL)",
+  "value": "800.00",
+  "unit": "psi",
+  "source_page": 82
+ },
+ {
+  "parameter": "Table 3: Rosemount 3051CA and 3051T Range and Sensor Limits | Range 3 | Rosemount 3051T | Upper (URL)",
+  "value": "55.15",
+  "unit": "bar",
+  "source_page": 82
+ },
+ {
+  "parameter": "Table 3: Rosemount 3051CA and 3051T Range and Sensor Limits | Range 3 | Rosemount 3051T | Lower (LRL) (absolute)",
+  "value": "0",
+  "unit": "psia",
+  "source_page": 82
+ },
+ {
+  "parameter": "Table 3: Rosemount 3051CA and 3051T Range and Sensor Limits | Range 3 | Rosemount 3051T | Lower (LRL) (absolute)",
+  "value": "0",
+  "unit": "bar",
+  "source_page": 82
+ },
+ {
+  "parameter": "Table 3: Rosemount 3051CA and 3051T Range and Sensor Limits | Range 3 | Rosemount 3051T | Lower (LRL) (gage) [fn 1]",
+  "value": "-14.70",
+  "unit": "psig",
+  "source_page": 82
+ },
+ {
+  "parameter": "Table 3: Rosemount 3051CA and 3051T Range and Sensor Limits | Range 3 | Rosemount 3051T | Lower (LRL) (gage) [fn 1]",
+  "value": "-1.01",
+  "unit": "bar",
+  "source_page": 82
+ },
+ {
+  "parameter": "Table 3: Rosemount 3051CA and 3051T Range and Sensor Limits | Range 4 | Rosemount 3051CA | Minimum span",
+  "value": "26.67",
+  "unit": "psi",
+  "source_page": 82
+ },
+ {
+  "parameter": "Table 3: Rosemount 3051CA and 3051T Range and Sensor Limits | Range 4 | Rosemount 3051CA | Minimum span",
+  "value": "1.83",
+  "unit": "bar",
+  "source_page": 82
+ },
+ {
+  "parameter": "Table 3: Rosemount 3051CA and 3051T Range and Sensor Limits | Range 4 | Rosemount 3051CA | Upper (URL)",
+  "value": "4000",
+  "unit": "psia",
+  "source_page": 82
+ },
+ {
+  "parameter": "Table 3: Rosemount 3051CA and 3051T Range and Sensor Limits | Range 4 | Rosemount 3051CA | Upper (URL)",
+  "value": "275.79",
+  "unit": "bar",
+  "source_page": 82
+ },
+ {
+  "parameter": "Table 3: Rosemount 3051CA and 3051T Range and Sensor Limits | Range 4 | Rosemount 3051CA | Lower (LRL)",
+  "value": "0",
+  "unit": "psia",
+  "source_page": 82
+ },
+ {
+  "parameter": "Table 3: Rosemount 3051CA and 3051T Range and Sensor Limits | Range 4 | Rosemount 3051CA | Lower (LRL)",
+  "value": "0",
+  "unit": "bar",
+  "source_page": 82
+ },
+ {
+  "parameter": "Table 3: Rosemount 3051CA and 3051T Range and Sensor Limits | Range 4 | Rosemount 3051T | Minimum span",
+  "value": "26.67",
+  "unit": "psi",
+  "source_page": 82
+ },
+ {
+  "parameter": "Table 3: Rosemount 3051CA and 3051T Range and Sensor Limits | Range 4 | Rosemount 3051T | Minimum span",
+  "value": "1.83",
+  "unit": "bar",
+  "source_page": 82
+ },
+ {
+  "parameter": "Table 3: Rosemount 3051CA and 3051T Range and Sensor Limits | Range 4 | Rosemount 3051T | Upper (URL)",
+  "value": "4000.00",
+  "unit": "psi",
+  "source_page": 82
+ },
+ {
+  "parameter": "Table 3: Rosemount 3051CA and 3051T Range and Sensor Limits | Range 4 | Rosemount 3051T | Upper (URL)",
+  "value": "275.79",
+  "unit": "bar",
+  "source_page": 82
+ },
+ {
+  "parameter": "Table 3: Rosemount 3051CA and 3051T Range and Sensor Limits | Range 4 | Rosemount 3051T | Lower (LRL) (absolute)",
+  "value": "0",
+  "unit": "psia",
+  "source_page": 82
+ },
+ {
+  "parameter": "Table 3: Rosemount 3051CA and 3051T Range and Sensor Limits | Range 4 | Rosemount 3051T | Lower (LRL) (absolute)",
+  "value": "0",
+  "unit": "bar",
+  "source_page": 82
+ },
+ {
+  "parameter": "Table 3: Rosemount 3051CA and 3051T Range and Sensor Limits | Range 4 | Rosemount 3051T | Lower (LRL) (gage) [fn 1]",
+  "value": "-14.70",
+  "unit": "psig",
+  "source_page": 82
+ },
+ {
+  "parameter": "Table 3: Rosemount 3051CA and 3051T Range and Sensor Limits | Range 4 | Rosemount 3051T | Lower (LRL) (gage) [fn 1]",
+  "value": "-1.01",
+  "unit": "bar",
+  "source_page": 82
+ },
+ {
+  "parameter": "Table 3: Rosemount 3051CA and 3051T Range and Sensor Limits | Range 5 | Rosemount 3051CA | Minimum span",
+  "value": "N/A",
+  "unit": null,
+  "source_page": 82
+ },
+ {
+  "parameter": "Table 3: Rosemount 3051CA and 3051T Range and Sensor Limits | Range 5 | Rosemount 3051CA | Upper (URL)",
+  "value": "N/A",
+  "unit": null,
+  "source_page": 82
+ },
+ {
+  "parameter": "Table 3: Rosemount 3051CA and 3051T Range and Sensor Limits | Range 5 | Rosemount 3051CA | Lower (LRL)",
+  "value": "N/A",
+  "unit": null,
+  "source_page": 82
+ },
+ {
+  "parameter": "Table 3: Rosemount 3051CA and 3051T Range and Sensor Limits | Range 5 | Rosemount 3051T | Minimum span",
+  "value": "2000",
+  "unit": "psi",
+  "source_page": 82
+ },
+ {
+  "parameter": "Table 3: Rosemount 3051CA and 3051T Range and Sensor Limits | Range 5 | Rosemount 3051T | Minimum span",
+  "value": "137.89",
+  "unit": "bar",
+  "source_page": 82
+ },
+ {
+  "parameter": "Table 3: Rosemount 3051CA and 3051T Range and Sensor Limits | Range 5 | Rosemount 3051T | Upper (URL)",
+  "value": "10000.00",
+  "unit": "psi",
+  "source_page": 82
+ },
+ {
+  "parameter": "Table 3: Rosemount 3051CA and 3051T Range and Sensor Limits | Range 5 | Rosemount 3051T | Upper (URL)",
+  "value": "689.47",
+  "unit": "bar",
+  "source_page": 82
+ },
+ {
+  "parameter": "Table 3: Rosemount 3051CA and 3051T Range and Sensor Limits | Range 5 | Rosemount 3051T | Lower (LRL) (absolute)",
+  "value": "0",
+  "unit": "psia",
+  "source_page": 82
+ },
+ {
+  "parameter": "Table 3: Rosemount 3051CA and 3051T Range and Sensor Limits | Range 5 | Rosemount 3051T | Lower (LRL) (absolute)",
+  "value": "0",
+  "unit": "bar",
+  "source_page": 82
+ },
+ {
+  "parameter": "Table 3: Rosemount 3051CA and 3051T Range and Sensor Limits | Range 5 | Rosemount 3051T | Lower (LRL) (gage) [fn 1]",
+  "value": "-14.70",
+  "unit": "psig",
+  "source_page": 82
+ },
+ {
+  "parameter": "Table 3: Rosemount 3051CA and 3051T Range and Sensor Limits | Range 5 | Rosemount 3051T | Lower (LRL) (gage) [fn 1]",
+  "value": "-1.01",
+  "unit": "bar",
+  "source_page": 82
+ },
+ {
+  "parameter": "Table 3: Rosemount 3051CA and 3051T Range and Sensor Limits | Range 6 | Rosemount 3051CA | Minimum span",
+  "value": "N/A",
+  "unit": null,
+  "source_page": 82
+ },
+ {
+  "parameter": "Table 3: Rosemount 3051CA and 3051T Range and Sensor Limits | Range 6 | Rosemount 3051CA | Upper (URL)",
+  "value": "N/A",
+  "unit": null,
+  "source_page": 82
+ },
+ {
+  "parameter": "Table 3: Rosemount 3051CA and 3051T Range and Sensor Limits | Range 6 | Rosemount 3051CA | Lower (LRL)",
+  "value": "N/A",
+  "unit": null,
+  "source_page": 82
+ },
+ {
+  "parameter": "Table 3: Rosemount 3051CA and 3051T Range and Sensor Limits | Range 6 | Rosemount 3051T | Minimum span",
+  "value": "4000",
+  "unit": "psi",
+  "source_page": 82
+ },
+ {
+  "parameter": "Table 3: Rosemount 3051CA and 3051T Range and Sensor Limits | Range 6 | Rosemount 3051T | Minimum span",
+  "value": "275.79",
+  "unit": "bar",
+  "source_page": 82
+ },
+ {
+  "parameter": "Table 3: Rosemount 3051CA and 3051T Range and Sensor Limits | Range 6 | Rosemount 3051T | Upper (URL)",
+  "value": "20000.00",
+  "unit": "psi",
+  "source_page": 82
+ },
+ {
+  "parameter": "Table 3: Rosemount 3051CA and 3051T Range and Sensor Limits | Range 6 | Rosemount 3051T | Upper (URL)",
+  "value": "1378.95",
+  "unit": "bar",
+  "source_page": 82
+ },
+ {
+  "parameter": "Table 3: Rosemount 3051CA and 3051T Range and Sensor Limits | Range 6 | Rosemount 3051T | Lower (LRL) (absolute)",
+  "value": "0",
+  "unit": "psia",
+  "source_page": 82
+ },
+ {
+  "parameter": "Table 3: Rosemount 3051CA and 3051T Range and Sensor Limits | Range 6 | Rosemount 3051T | Lower (LRL) (absolute)",
+  "value": "0",
+  "unit": "bar",
+  "source_page": 82
+ },
+ {
+  "parameter": "Table 3: Rosemount 3051CA and 3051T Range and Sensor Limits | Range 6 | Rosemount 3051T | Lower (LRL) (gage) [fn 1]",
+  "value": "-14.70",
+  "unit": "psig",
+  "source_page": 82
+ },
+ {
+  "parameter": "Table 3: Rosemount 3051CA and 3051T Range and Sensor Limits | Range 6 | Rosemount 3051T | Lower (LRL) (gage) [fn 1]",
+  "value": "-1.01",
+  "unit": "bar",
+  "source_page": 82
+ },
+ {
+  "parameter": "Table 3: Rosemount 3051CA and 3051T Range and Sensor Limits | footnote 1",
+  "value": "Assumes atmospheric pressure of 14.7 psig.",
+  "unit": null,
+  "source_page": 82
+ },
+ {
+  "parameter": "Service | Applications",
+  "value": "Liquid, gas, and vapor applications",
+  "unit": null,
+  "source_page": 82
+ },
+ {
+  "parameter": "Power supply - 4-20 mA HART® (output code A) | 4-20 mA HART® (output code A) | External power supply",
+  "value": "required",
+  "unit": null,
+  "source_page": 82
+ },
+ {
+  "parameter": "Power supply - 4-20 mA HART® (output code A) | 4-20 mA HART® (output code A) | Standard transmitter (4-20 mA) | No load | Operating voltage",
+  "value": "10.5-42.4",
+  "unit": "Vdc",
+  "source_page": 82
+ },
+ {
+  "parameter": "Load limitations - 4-20 mA HART® (output code A) | 4-20 mA HART® (output code A) | Maximum loop resistance | Determined by",
+  "value": "the voltage level of the external power supply",
+  "unit": null,
+  "source_page": 82
+ },
+ {
+  "parameter": "Load limitations - 4-20 mA HART® (output code A) | 4-20 mA HART® (output code A) | Maximum loop resistance | Equation",
+  "value": "Max. loop resistance = 43.5 (power supply voltage - 10.5)",
+  "unit": null,
+  "source_page": 82
+ },
+ {
+  "parameter": "Load limitations - 4-20 mA HART® (output code A) | 4-20 mA HART® (output code A) | Communication | Minimum loop resistance",
+  "value": "250",
+  "unit": "ohms",
+  "source_page": 82
+ },
+ {
+  "parameter": "Load limitations - 4-20 mA HART® (output code A) | 4-20 mA HART® (output code A) | Load chart | Axis A",
+  "value": "Load (Ωs)",
+  "unit": null,
+  "source_page": 82
+ },
+ {
+  "parameter": "Load limitations - 4-20 mA HART® (output code A) | 4-20 mA HART® (output code A) | Load chart | Area B",
+  "value": "Operating region",
+  "unit": null,
+  "source_page": 82
+ },
+ {
+  "parameter": "Load limitations - 4-20 mA HART® (output code A) | 4-20 mA HART® (output code A) | Load chart | Axis C",
+  "value": "Voltage (Vdc)",
+  "unit": null,
+  "source_page": 82
+ },
+ {
+  "parameter": "Load limitations - 4-20 mA HART® (output code A) | 4-20 mA HART® (output code A) | Note | CSA approval | Maximum power supply",
+  "value": "42.4",
+  "unit": "V",
+  "source_page": 82
+ },
+ {
+  "parameter": "Indication - 4-20 mA HART® (output code A) | 4-20 mA HART® (output code A) | Display option",
+  "value": "Optional 2-line LCD/LOI Display",
+  "unit": null,
+  "source_page": 83
+ },
+ {
+  "parameter": "Indication - 4-20 mA HART® (output code A) | 4-20 mA HART® (output code A) | Display option",
+  "value": "Optional 3-line Graphical Display with Backlight and Local Language",
+  "unit": null,
+  "source_page": 83
+ },
+ {
+  "parameter": "Indication - 4-20 mA HART® (output code A) | 4-20 mA HART® (output code A) | Optional 3-line Graphical Display with Backlight and Local Language | Language",
+  "value": "English",
+  "unit": null,
+  "source_page": 83
+ },
+ {
+  "parameter": "Indication - 4-20 mA HART® (output code A) | 4-20 mA HART® (output code A) | Optional 3-line Graphical Display with Backlight and Local Language | Language",
+  "value": "Chinese",
+  "unit": null,
+  "source_page": 83
+ },
+ {
+  "parameter": "Indication - 4-20 mA HART® (output code A) | 4-20 mA HART® (output code A) | Optional 3-line Graphical Display with Backlight and Local Language | Language",
+  "value": "French",
+  "unit": null,
+  "source_page": 83
+ },
+ {
+  "parameter": "Indication - 4-20 mA HART® (output code A) | 4-20 mA HART® (output code A) | Optional 3-line Graphical Display with Backlight and Local Language | Language",
+  "value": "German",
+  "unit": null,
+  "source_page": 83
+ },
+ {
+  "parameter": "Indication - 4-20 mA HART® (output code A) | 4-20 mA HART® (output code A) | Optional 3-line Graphical Display with Backlight and Local Language | Language",
+  "value": "Italian",
+  "unit": null,
+  "source_page": 83
+ },
+ {
+  "parameter": "Indication - 4-20 mA HART® (output code A) | 4-20 mA HART® (output code A) | Optional 3-line Graphical Display with Backlight and Local Language | Language",
+  "value": "Portuguese",
+  "unit": null,
+  "source_page": 83
+ },
+ {
+  "parameter": "Indication - 4-20 mA HART® (output code A) | 4-20 mA HART® (output code A) | Optional 3-line Graphical Display with Backlight and Local Language | Language",
+  "value": "Russian",
+  "unit": null,
+  "source_page": 83
+ },
+ {
+  "parameter": "Indication - 4-20 mA HART® (output code A) | 4-20 mA HART® (output code A) | Optional 3-line Graphical Display with Backlight and Local Language | Language",
+  "value": "Spanish",
+  "unit": null,
+  "source_page": 83
+ },
+ {
+  "parameter": "Optional configuration buttons - 4-20 mA HART® (output code A) | 4-20 mA HART® (output code A) | Ordering requirement",
+  "value": "Configuration buttons need to be specified",
+  "unit": null,
+  "source_page": 83
+ },
+ {
+  "parameter": "Optional configuration buttons - 4-20 mA HART® (output code A) | 4-20 mA HART® (output code A) | Quick service buttons (option D1) | Function",
+  "value": "allow for straightforward commissioning using a simple menu without needing to remove the housing cover",
+  "unit": null,
+  "source_page": 83
+ },
+ {
+  "parameter": "Optional configuration buttons - 4-20 mA HART® (output code A) | 4-20 mA HART® (output code A) | Quick service buttons (option D1) | Field functions",
+  "value": "zero, rerange their device, perform a loop test, view configuration, and flip the graphical LCD display screen in the field",
+  "unit": null,
+  "source_page": 83
+ },
+ {
+  "parameter": "Optional configuration buttons - 4-20 mA HART® (output code A) | 4-20 mA HART® (output code A) | Digital Zero trim (option code DZ) | Function",
+  "value": "changes digital value of the transmitter and is used for performing a sensor zero trim",
+  "unit": null,
+  "source_page": 83
+ },
+ {
+  "parameter": "Optional configuration buttons - 4-20 mA HART® (output code A) | 4-20 mA HART® (output code A) | Analog Zero and Span (option code D4) | Function",
+  "value": "changes analog value and can be used to rerange the transmitter with an applied pressure",
+  "unit": null,
+  "source_page": 83
+ },
+ {
+  "parameter": "Output - 4-20 mA HART® (output code A) | 4-20 mA HART® (output code A) | Output signal",
+  "value": "Two-wire 4-20 mA",
+  "unit": null,
+  "source_page": 83
+ },
+ {
+  "parameter": "Output - 4-20 mA HART® (output code A) | 4-20 mA HART® (output code A) | Output characteristic",
+  "value": "user selectable for linear or square root output",
+  "unit": null,
+  "source_page": 83
+ },
+ {
+  "parameter": "Output - 4-20 mA HART® (output code A) | 4-20 mA HART® (output code A) | Digital process variable",
+  "value": "superimposed on 4-20 mA signal, available to any host that conforms to HART Protocol",
+  "unit": null,
+  "source_page": 83
+ },
+ {
+  "parameter": "Bluetooth® Connectivity - 4-20 mA HART® (output code A) | 4-20 mA HART® (output code A) | Line of sight | Typical range",
+  "value": "At least 50",
+  "unit": "ft",
+  "source_page": 83
+ },
+ {
+  "parameter": "Bluetooth® Connectivity - 4-20 mA HART® (output code A) | 4-20 mA HART® (output code A) | Line of sight | Typical range",
+  "value": "At least 15",
+  "unit": "m",
+  "source_page": 83
+ },
+ {
+  "parameter": "Bluetooth® Connectivity - 4-20 mA HART® (output code A) | 4-20 mA HART® (output code A) | Maximum communication range",
+  "value": "will vary depending on orientation, obstacles (person, metal, wall, etc.), or electromagnetic environment",
+  "unit": null,
+  "source_page": 83
+ },
+ {
+  "parameter": "Power supply - FOUNDATION™ Fieldbus (output code F) | FOUNDATION™ Fieldbus (output code F) | External power supply",
+  "value": "required",
+  "unit": null,
+  "source_page": 83
+ },
+ {
+  "parameter": "Power supply - FOUNDATION™ Fieldbus (output code F) | FOUNDATION™ Fieldbus (output code F) | Transmitter terminal voltage | Operating voltage",
+  "value": "9.0 to 32.0",
+  "unit": "Vdc",
+  "source_page": 83
+ },
+ {
+  "parameter": "Power supply - FOUNDATION™ Fieldbus (output code F) | FOUNDATION™ Fieldbus (output code F) | FISCO transmitters | Operating voltage",
+  "value": "9.0 to 17.5",
+  "unit": "Vdc",
+  "source_page": 83
+ },
+ {
+  "parameter": "Current draw - FOUNDATION™ Fieldbus (output code F) | FOUNDATION™ Fieldbus (output code F) | All configurations (including display option) | Current draw",
+  "value": "17.5",
+  "unit": "mA",
+  "source_page": 83
+ },
+ {
+  "parameter": "Indication - FOUNDATION™ Fieldbus (output code F) | FOUNDATION™ Fieldbus (output code F) | Display option",
+  "value": "Optional two-line LCD display",
+  "unit": null,
+  "source_page": 83
+ },
+ {
+  "parameter": "FOUNDATION Fieldbus block execution times - table 1 | FOUNDATION™ Fieldbus (output code F) | Resource | Execution time",
+  "value": "N/A",
+  "unit": null,
+  "source_page": 84
+ },
+ {
+  "parameter": "FOUNDATION Fieldbus block execution times - table 1 | FOUNDATION™ Fieldbus (output code F) | Sensor and SPM transducer | Execution time",
+  "value": "N/A",
+  "unit": null,
+  "source_page": 84
+ },
+ {
+  "parameter": "FOUNDATION Fieldbus block execution times - table 1 | FOUNDATION™ Fieldbus (output code F) | LCD display | Execution time",
+  "value": "N/A",
+  "unit": null,
+  "source_page": 84
+ },
+ {
+  "parameter": "FOUNDATION Fieldbus block execution times - table 1 | FOUNDATION™ Fieldbus (output code F) | Analog input 1, 2 | Execution time",
+  "value": "20",
+  "unit": "milliseconds",
+  "source_page": 84
+ },
+ {
+  "parameter": "FOUNDATION Fieldbus block execution times - table 1 | FOUNDATION™ Fieldbus (output code F) | PID | Execution time",
+  "value": "25",
+  "unit": "milliseconds",
+  "source_page": 84
+ },
+ {
+  "parameter": "FOUNDATION Fieldbus block execution times - table 1 | FOUNDATION™ Fieldbus (output code F) | Input selector | Execution time",
+  "value": "20",
+  "unit": "milliseconds",
+  "source_page": 84
+ },
+ {
+  "parameter": "FOUNDATION Fieldbus block execution times - table 1 | FOUNDATION™ Fieldbus (output code F) | Arithmetic | Execution time",
+  "value": "20",
+  "unit": "milliseconds",
+  "source_page": 84
+ },
+ {
+  "parameter": "FOUNDATION Fieldbus block execution times - table 1 | FOUNDATION™ Fieldbus (output code F) | Signal characterizer | Execution time",
+  "value": "20",
+  "unit": "milliseconds",
+  "source_page": 84
+ },
+ {
+  "parameter": "FOUNDATION Fieldbus block execution times - table 1 | FOUNDATION™ Fieldbus (output code F) | Integrator | Execution time",
+  "value": "20",
+  "unit": "milliseconds",
+  "source_page": 84
+ },
+ {
+  "parameter": "FOUNDATION Fieldbus block execution times - table 1 | FOUNDATION™ Fieldbus (output code F) | Output splitter | Execution time",
+  "value": "20",
+  "unit": "milliseconds",
+  "source_page": 84
+ },
+ {
+  "parameter": "FOUNDATION Fieldbus block execution times - table 1 | FOUNDATION™ Fieldbus (output code F) | Control selector | Execution time",
+  "value": "20",
+  "unit": "milliseconds",
+  "source_page": 84
+ },
+ {
+  "parameter": "FOUNDATION Fieldbus parameters - table 1 | FOUNDATION™ Fieldbus (output code F) | Links",
+  "value": "25 max.",
+  "unit": null,
+  "source_page": 84
+ },
+ {
+  "parameter": "FOUNDATION Fieldbus parameters - table 1 | FOUNDATION™ Fieldbus (output code F) | Virtual communications relationship (VCR)",
+  "value": "20 max.",
+  "unit": null,
+  "source_page": 84
+ }
+]

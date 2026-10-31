@@ -1,0 +1,5 @@
+{
+ "reader": "claude-opus-5-5, 2026-10-31, by hand in a Claude Code session (no API); chart-pages.json selected no pages, so no renders were read",
+ "method": "No chart in the document: chart_pages found no chart pages (renders = []); the figure labels have no 'chart' kind and both PDF pages (viewed as overviews) contain no plotted curves. Empty charts list, as the API version returns for zero renders.",
+ "charts": []
+}

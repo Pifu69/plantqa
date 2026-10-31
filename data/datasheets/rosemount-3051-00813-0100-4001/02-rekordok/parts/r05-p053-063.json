@@ -1,0 +1,2564 @@
+[
+ {
+  "parameter": "EXTRACTION NOTE",
+  "value": "Batch r05-p053-063: pages 53-63, Rosemount 3051CFP Integral Orifice Flow Meter ordering information. Coverage: exhaustive - intro paragraph and feature bullets (p.53), typical model code, Online product configurator, Specifications and options, Sizing and selection (p.53), Model codes text, Figure 5 model code example with its footnotes 5 and 6, Optimizing lead time (p.54), and every row of all 45 ordering tables (Model, Measurement type, Material type and body, Line size, Process connection, Orifice plate material, Bore size option, Transmitter connection platform, Differential pressure range, Transmitter output, Housing material, Transmitter performance class, Wireless options tables, all Additional options tables up to Enhanced software on p.63) with every starred-offering mark, every footnote and every requirement/limitation sentence printed above tables. Dual units (in./mm, inH2O/mbar or bar, °F/℃) are recorded as separate records. Skipped: page headers/footers, the product photo, the CONFIGURE > / VIEW PRODUCT > buttons, the OCR junk symbol ☒ after the star marks. Observations: code cells corrected from the render: 'w (1 )'->W, 'x (2)'->X, 'p (1)'->P, '12 (1)'->J2, '11 (1)'->I1, '16 (3)'->I6, 'MG ( 1 )'->M6, 'DAO(1)'->DA0, '15'->I5 in Transmitter output footnote 4; Housing material row 'M r 3051 cfa ho using materi al.dita #NotA vailabl e' is code M followed by a broken cross-reference link (recorded as Code M, link text not recorded); '11/2' (1½) written as '1 1/2'; Optimizing lead time sentence lost '(★' in the export, recorded with '(★)' from the render; Figure 5 prints a 3051CFA model code example in the 3051CFP section (recorded as printed).",
+  "unit": null,
+  "source_page": null
+ },
+ {
+  "parameter": "Rosemount 3051CFP Integral Orifice Flow Meter ordering information (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Application",
+  "value": "Rosemount 3051CFP Integral Orifice Flow Meters enable highly accurate flow measurement in small line sizes.",
+  "unit": null,
+  "source_page": 53
+ },
+ {
+  "parameter": "Rosemount 3051CFP Integral Orifice Flow Meter ordering information (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Small line size measurement error sources",
+  "value": "Internal pipe diameter variation in combination with plate centering issues can greatly magnify flow measurement errors in small line sizes.",
+  "unit": null,
+  "source_page": 53
+ },
+ {
+  "parameter": "Rosemount 3051CFP Integral Orifice Flow Meter ordering information (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Design",
+  "value": "Integral Orifice Flow Meters use a precision honed pipe section to minimize internal pipe diameter variation along with a self-centering plate design to eliminate alignment errors.",
+  "unit": null,
+  "source_page": 53
+ },
+ {
+  "parameter": "Rosemount 3051CFP Integral Orifice Flow Meter ordering information (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Pipe section",
+  "value": "precision honed pipe section to minimize internal pipe diameter variation",
+  "unit": null,
+  "source_page": 53
+ },
+ {
+  "parameter": "Rosemount 3051CFP Integral Orifice Flow Meter ordering information (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Orifice plate design",
+  "value": "self-centering plate design to eliminate alignment errors",
+  "unit": null,
+  "source_page": 53
+ },
+ {
+  "parameter": "Rosemount 3051CFP Integral Orifice Flow Meter ordering information (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Flow rate accuracy",
+  "value": "Up to 1.75",
+  "unit": "percent of flow rate",
+  "source_page": 53
+ },
+ {
+  "parameter": "Rosemount 3051CFP Integral Orifice Flow Meter ordering information (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Line sizes",
+  "value": "1/2 - 1 1/2",
+  "unit": "in.",
+  "source_page": 53
+ },
+ {
+  "parameter": "Rosemount 3051CFP Integral Orifice Flow Meter ordering information (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Line sizes",
+  "value": "15 - 40",
+  "unit": "mm",
+  "source_page": 53
+ },
+ {
+  "parameter": "Rosemount 3051CFP Integral Orifice Flow Meter ordering information (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Delivery condition",
+  "value": "Fully assembled and leak tested for out-of-the-box installation.",
+  "unit": null,
+  "source_page": 53
+ },
+ {
+  "parameter": "Rosemount 3051CFP Integral Orifice Flow Meter ordering information (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Simplified flow configuration with clearly displayed flow rate and added totalizer | Option codes",
+  "value": "M6, BLE, D1, DA1, T9, or RK",
+  "unit": null,
+  "source_page": 53
+ },
+ {
+  "parameter": "Rosemount 3051CFP Integral Orifice Flow Meter ordering information (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Loop Integrity and Plugged Impulse Line Diagnostics | Function",
+  "value": "detect issues that might compromise the integrity of the output signal",
+  "unit": null,
+  "source_page": 53
+ },
+ {
+  "parameter": "Rosemount 3051CFP Integral Orifice Flow Meter ordering information (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Loop Integrity and Plugged Impulse Line Diagnostics | Option code",
+  "value": "DA1",
+  "unit": null,
+  "source_page": 53
+ },
+ {
+  "parameter": "Rosemount 3051CFP Integral Orifice Flow Meter ordering information (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Bluetooth® | Function",
+  "value": "enables efficient, reliable, and safe configuration and maintenance",
+  "unit": null,
+  "source_page": 53
+ },
+ {
+  "parameter": "Rosemount 3051CFP Integral Orifice Flow Meter ordering information (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Bluetooth® | Option code",
+  "value": "BLE",
+  "unit": null,
+  "source_page": 53
+ },
+ {
+  "parameter": "Rosemount 3051CFP Integral Orifice Flow Meter ordering information (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Back-lit Graphical Display with Local Language Capability | Option code",
+  "value": "M6",
+  "unit": null,
+  "source_page": 53
+ },
+ {
+  "parameter": "Rosemount 3051CFP Integral Orifice Flow Meter ordering information (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Safety certification and proof testing | Option codes",
+  "value": "QT and T9",
+  "unit": null,
+  "source_page": 53
+ },
+ {
+  "parameter": "Rosemount 3051CFP Integral Orifice Flow Meter ordering information (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Typical 3051CFP model code",
+  "value": "3051CFP D F010 W1 S 0500 D3 2 A A 1 E5 M5",
+  "unit": null,
+  "source_page": 53
+ },
+ {
+  "parameter": "Online product configurator (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Online configurability",
+  "value": "Many products are configurable online using our product configurator.",
+  "unit": null,
+  "source_page": 53
+ },
+ {
+  "parameter": "Online product configurator (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Access",
+  "value": "Visit Emerson.com to start.",
+  "unit": null,
+  "source_page": 53
+ },
+ {
+  "parameter": "Online product configurator (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Benefit",
+  "value": "With this tool's built-in logic and continuous validation, you can configure your products more quickly and accurately.",
+  "unit": null,
+  "source_page": 53
+ },
+ {
+  "parameter": "Specifications and options (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | The purchaser of the equipment must specify and select",
+  "value": "Product materials",
+  "unit": null,
+  "source_page": 53
+ },
+ {
+  "parameter": "Specifications and options (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | The purchaser of the equipment must specify and select",
+  "value": "Options",
+  "unit": null,
+  "source_page": 53
+ },
+ {
+  "parameter": "Specifications and options (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | The purchaser of the equipment must specify and select",
+  "value": "Components",
+  "unit": null,
+  "source_page": 53
+ },
+ {
+  "parameter": "Sizing and selection (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Sizing tool",
+  "value": "All Rosemount flow meters can be sized to meet your application specific requirements in the Differential pressure (DP) Flow sizing and selection tool.",
+  "unit": null,
+  "source_page": 53
+ },
+ {
+  "parameter": "Sizing and selection (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Sizing tool functions",
+  "value": "This tool will verify if a selected product meets your application requirements, provide a comparison between different primary elements, and generate a detailed accuracy comparison graph.",
+  "unit": null,
+  "source_page": 53
+ },
+ {
+  "parameter": "Sizing and selection (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Configuration tool",
+  "value": "Once a sizing is completed, the configuration tool will help create a complete and valid model code to match your requirements and include any additional options or approvals.",
+  "unit": null,
+  "source_page": 53
+ },
+ {
+  "parameter": "Model codes (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Content",
+  "value": "Model codes contain the details related to each product.",
+  "unit": null,
+  "source_page": 54
+ },
+ {
+  "parameter": "Model codes (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Variation",
+  "value": "Exact model codes will vary; an example of a typical model code is shown in Figure 5.",
+  "unit": null,
+  "source_page": 54
+ },
+ {
+  "parameter": "Figure 5: Model Code Example (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Model code example",
+  "value": "3051CFADL060ZSHPS1T100072AA1 WR5M6BLEDA1RK",
+  "unit": null,
+  "source_page": 54
+ },
+ {
+  "parameter": "Figure 5: Model Code Example (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Part 1 | A. Required model components [fn 5]",
+  "value": "3051CFADL060ZSHPS1T100072AA1",
+  "unit": null,
+  "source_page": 54
+ },
+ {
+  "parameter": "Figure 5: Model Code Example (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Part 2 | B. Additional options [fn 6]",
+  "value": "WR5M6BLEDA1RK",
+  "unit": null,
+  "source_page": 54
+ },
+ {
+  "parameter": "Figure 5: Model Code Example (Rosemount 3051CFP ordering information) | footnote 5",
+  "value": "Choices available on most.",
+  "unit": null,
+  "source_page": 54
+ },
+ {
+  "parameter": "Figure 5: Model Code Example (Rosemount 3051CFP ordering information) | footnote 6",
+  "value": "Variety of features and functions that may be added to products.",
+  "unit": null,
+  "source_page": 54
+ },
+ {
+  "parameter": "Optimizing lead time (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Starred offerings (★)",
+  "value": "The starred offerings (★) represent the most common options and should be selected for the fastest delivery.",
+  "unit": null,
+  "source_page": 54
+ },
+ {
+  "parameter": "Optimizing lead time (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Non-starred offerings",
+  "value": "The non-starred offerings are subject to additional delivery lead time.",
+  "unit": null,
+  "source_page": 54
+ },
+ {
+  "parameter": "Model (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 3051CFP | Model",
+  "value": "Integral Orifice Flow Meter",
+  "unit": null,
+  "source_page": 54
+ },
+ {
+  "parameter": "Model (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 3051CFP | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 54
+ },
+ {
+  "parameter": "Measurement type (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code D | Measurement type",
+  "value": "Differential pressure",
+  "unit": null,
+  "source_page": 54
+ },
+ {
+  "parameter": "Measurement type (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code D | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 54
+ },
+ {
+  "parameter": "Material type and body (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code F | Material type and body",
+  "value": "316 SST, enhanced support body",
+  "unit": null,
+  "source_page": 54
+ },
+ {
+  "parameter": "Material type and body (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code F | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 54
+ },
+ {
+  "parameter": "Line size (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 005 | Line size",
+  "value": "1/2",
+  "unit": "in.",
+  "source_page": 54
+ },
+ {
+  "parameter": "Line size (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 005 | Line size",
+  "value": "15",
+  "unit": "mm",
+  "source_page": 54
+ },
+ {
+  "parameter": "Line size (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 005 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 54
+ },
+ {
+  "parameter": "Line size (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 010 | Line size",
+  "value": "1",
+  "unit": "in.",
+  "source_page": 54
+ },
+ {
+  "parameter": "Line size (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 010 | Line size",
+  "value": "25",
+  "unit": "mm",
+  "source_page": 54
+ },
+ {
+  "parameter": "Line size (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 010 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 54
+ },
+ {
+  "parameter": "Line size (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 015 | Line size",
+  "value": "1 1/2",
+  "unit": "in.",
+  "source_page": 54
+ },
+ {
+  "parameter": "Line size (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 015 | Line size",
+  "value": "40",
+  "unit": "mm",
+  "source_page": 54
+ },
+ {
+  "parameter": "Line size (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 015 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 54
+ },
+ {
+  "parameter": "Process connection (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code T1 | Process connection",
+  "value": "NPT female body (not available with remote thermowell and RTD)",
+  "unit": null,
+  "source_page": 55
+ },
+ {
+  "parameter": "Process connection (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code T1 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 55
+ },
+ {
+  "parameter": "Process connection (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code S1 [fn 1] | Process connection",
+  "value": "Socket weld body (not available with remote thermowell and RTD)",
+  "unit": null,
+  "source_page": 55
+ },
+ {
+  "parameter": "Process connection (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code S1 [fn 1] | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 55
+ },
+ {
+  "parameter": "Process connection (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code P1 | Process connection",
+  "value": "Pipe ends: NPT threaded",
+  "unit": null,
+  "source_page": 55
+ },
+ {
+  "parameter": "Process connection (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code P1 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 55
+ },
+ {
+  "parameter": "Process connection (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code P2 | Process connection",
+  "value": "Pipe ends: beveled",
+  "unit": null,
+  "source_page": 55
+ },
+ {
+  "parameter": "Process connection (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code P2 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 55
+ },
+ {
+  "parameter": "Process connection (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code D1 | Process connection",
+  "value": "Pipe ends: flanged, PN16 EN-1092-1 RF, slip-on",
+  "unit": null,
+  "source_page": 55
+ },
+ {
+  "parameter": "Process connection (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code D1 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 55
+ },
+ {
+  "parameter": "Process connection (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code D2 | Process connection",
+  "value": "Pipe ends: flanged, PN40 EN-1092-1 RF, slip-on",
+  "unit": null,
+  "source_page": 55
+ },
+ {
+  "parameter": "Process connection (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code D2 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 55
+ },
+ {
+  "parameter": "Process connection (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code D3 | Process connection",
+  "value": "Pipe ends: flanged, PN100 EN-1092-1 RF, slip-on",
+  "unit": null,
+  "source_page": 55
+ },
+ {
+  "parameter": "Process connection (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code D3 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 55
+ },
+ {
+  "parameter": "Process connection (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code W1 | Process connection",
+  "value": "Pipe ends: flanged, Class 150 RF ASME B16.5, weld-neck",
+  "unit": null,
+  "source_page": 55
+ },
+ {
+  "parameter": "Process connection (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code W1 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 55
+ },
+ {
+  "parameter": "Process connection (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code W3 | Process connection",
+  "value": "Pipe ends: flanged, Class 300 RF ASME B16.5, weld-neck",
+  "unit": null,
+  "source_page": 55
+ },
+ {
+  "parameter": "Process connection (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code W3 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 55
+ },
+ {
+  "parameter": "Process connection (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code W6 | Process connection",
+  "value": "Pipe ends: flanged, Class 600 RF ASME B16.5, weld-neck",
+  "unit": null,
+  "source_page": 55
+ },
+ {
+  "parameter": "Process connection (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code W6 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 55
+ },
+ {
+  "parameter": "Process connection (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code W9 | Process connection",
+  "value": "Pipe ends: flanged, Class 900 RF ASME B16.5, weld-neck",
+  "unit": null,
+  "source_page": 55
+ },
+ {
+  "parameter": "Process connection (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code A1 | Process connection",
+  "value": "Pipe ends: flanged, Class 150 RF ASME B16.5, slip-on",
+  "unit": null,
+  "source_page": 55
+ },
+ {
+  "parameter": "Process connection (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code A3 | Process connection",
+  "value": "Pipe ends: flanged, Class 300 RF ASME B16.5, slip-on",
+  "unit": null,
+  "source_page": 55
+ },
+ {
+  "parameter": "Process connection (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code A6 | Process connection",
+  "value": "Pipe ends: flanged, Class 600 RF ASME B16.5, slip-on",
+  "unit": null,
+  "source_page": 55
+ },
+ {
+  "parameter": "Process connection (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code R1 | Process connection",
+  "value": "Pipe ends: flanged, Class 150 RTJ ASME B16.5, slip-on",
+  "unit": null,
+  "source_page": 55
+ },
+ {
+  "parameter": "Process connection (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code R3 | Process connection",
+  "value": "Pipe ends: flanged, Class 300 RTJ ASME B16.5, slip-on",
+  "unit": null,
+  "source_page": 55
+ },
+ {
+  "parameter": "Process connection (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code R6 | Process connection",
+  "value": "Pipe ends: flanged, Class 600 RTJ ASME B16.5, slip-on",
+  "unit": null,
+  "source_page": 55
+ },
+ {
+  "parameter": "Process connection (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code R9 | Process connection",
+  "value": "Pipe ends: flanged, Class 900 RTJ ASME B16.5, weld-neck",
+  "unit": null,
+  "source_page": 55
+ },
+ {
+  "parameter": "Process connection (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code T1 | Availability restriction",
+  "value": "Not available with remote thermowell and RTD",
+  "unit": null,
+  "source_page": 55
+ },
+ {
+  "parameter": "Process connection (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code S1 [fn 1] | Availability restriction",
+  "value": "Not available with remote thermowell and RTD",
+  "unit": null,
+  "source_page": 55
+ },
+ {
+  "parameter": "Process connection (Rosemount 3051CFP ordering information) | footnote 1",
+  "value": "To improve pipe perpendicularity for gasket sealing, socket diameter is smaller than standard pipe O.D.",
+  "unit": null,
+  "source_page": 55
+ },
+ {
+  "parameter": "Orifice plate material (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code S | Orifice plate material",
+  "value": "316 SST",
+  "unit": null,
+  "source_page": 55
+ },
+ {
+  "parameter": "Orifice plate material (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code S | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 55
+ },
+ {
+  "parameter": "Orifice plate material (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code H | Orifice plate material",
+  "value": "Alloy C-276",
+  "unit": null,
+  "source_page": 55
+ },
+ {
+  "parameter": "Orifice plate material (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code M | Orifice plate material",
+  "value": "Alloy 400",
+  "unit": null,
+  "source_page": 55
+ },
+ {
+  "parameter": "Bore size option (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 0010 | for 1/2 inch pipe | Bore size option",
+  "value": "0.010",
+  "unit": "in.",
+  "source_page": 56
+ },
+ {
+  "parameter": "Bore size option (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 0010 | for 1/2 inch pipe | Bore size option",
+  "value": "0.25",
+  "unit": "mm",
+  "source_page": 56
+ },
+ {
+  "parameter": "Bore size option (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 0010 | Line size",
+  "value": "1/2 inch pipe",
+  "unit": null,
+  "source_page": 56
+ },
+ {
+  "parameter": "Bore size option (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 0014 | for 1/2 inch pipe | Bore size option",
+  "value": "0.014",
+  "unit": "in.",
+  "source_page": 56
+ },
+ {
+  "parameter": "Bore size option (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 0014 | for 1/2 inch pipe | Bore size option",
+  "value": "0.36",
+  "unit": "mm",
+  "source_page": 56
+ },
+ {
+  "parameter": "Bore size option (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 0014 | Line size",
+  "value": "1/2 inch pipe",
+  "unit": null,
+  "source_page": 56
+ },
+ {
+  "parameter": "Bore size option (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 0020 | for 1/2 inch pipe | Bore size option",
+  "value": "0.020",
+  "unit": "in.",
+  "source_page": 56
+ },
+ {
+  "parameter": "Bore size option (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 0020 | for 1/2 inch pipe | Bore size option",
+  "value": "0.51",
+  "unit": "mm",
+  "source_page": 56
+ },
+ {
+  "parameter": "Bore size option (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 0020 | Line size",
+  "value": "1/2 inch pipe",
+  "unit": null,
+  "source_page": 56
+ },
+ {
+  "parameter": "Bore size option (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 0034 | for 1/2 inch pipe | Bore size option",
+  "value": "0.034",
+  "unit": "in.",
+  "source_page": 56
+ },
+ {
+  "parameter": "Bore size option (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 0034 | for 1/2 inch pipe | Bore size option",
+  "value": "0.86",
+  "unit": "mm",
+  "source_page": 56
+ },
+ {
+  "parameter": "Bore size option (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 0034 | Line size",
+  "value": "1/2 inch pipe",
+  "unit": null,
+  "source_page": 56
+ },
+ {
+  "parameter": "Bore size option (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 0066 | for 1/2 inch pipe | Bore size option",
+  "value": "0.066",
+  "unit": "in.",
+  "source_page": 56
+ },
+ {
+  "parameter": "Bore size option (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 0066 | for 1/2 inch pipe | Bore size option",
+  "value": "1.68",
+  "unit": "mm",
+  "source_page": 56
+ },
+ {
+  "parameter": "Bore size option (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 0066 | Line size",
+  "value": "1/2 inch pipe",
+  "unit": null,
+  "source_page": 56
+ },
+ {
+  "parameter": "Bore size option (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 0066 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 56
+ },
+ {
+  "parameter": "Bore size option (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 0109 | for 1/2 inch pipe | Bore size option",
+  "value": "0.109",
+  "unit": "in.",
+  "source_page": 56
+ },
+ {
+  "parameter": "Bore size option (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 0109 | for 1/2 inch pipe | Bore size option",
+  "value": "2.77",
+  "unit": "mm",
+  "source_page": 56
+ },
+ {
+  "parameter": "Bore size option (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 0109 | Line size",
+  "value": "1/2 inch pipe",
+  "unit": null,
+  "source_page": 56
+ },
+ {
+  "parameter": "Bore size option (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 0109 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 56
+ },
+ {
+  "parameter": "Bore size option (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 0160 | for 1/2 inch pipe | Bore size option",
+  "value": "0.160",
+  "unit": "in.",
+  "source_page": 56
+ },
+ {
+  "parameter": "Bore size option (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 0160 | for 1/2 inch pipe | Bore size option",
+  "value": "4.06",
+  "unit": "mm",
+  "source_page": 56
+ },
+ {
+  "parameter": "Bore size option (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 0160 | Line size",
+  "value": "1/2 inch pipe",
+  "unit": null,
+  "source_page": 56
+ },
+ {
+  "parameter": "Bore size option (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 0160 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 56
+ },
+ {
+  "parameter": "Bore size option (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 0196 | for 1/2 inch pipe | Bore size option",
+  "value": "0.196",
+  "unit": "in.",
+  "source_page": 56
+ },
+ {
+  "parameter": "Bore size option (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 0196 | for 1/2 inch pipe | Bore size option",
+  "value": "4.98",
+  "unit": "mm",
+  "source_page": 56
+ },
+ {
+  "parameter": "Bore size option (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 0196 | Line size",
+  "value": "1/2 inch pipe",
+  "unit": null,
+  "source_page": 56
+ },
+ {
+  "parameter": "Bore size option (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 0196 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 56
+ },
+ {
+  "parameter": "Bore size option (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 0260 | for 1/2 inch pipe | Bore size option",
+  "value": "0.260",
+  "unit": "in.",
+  "source_page": 56
+ },
+ {
+  "parameter": "Bore size option (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 0260 | for 1/2 inch pipe | Bore size option",
+  "value": "6.60",
+  "unit": "mm",
+  "source_page": 56
+ },
+ {
+  "parameter": "Bore size option (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 0260 | Line size",
+  "value": "1/2 inch pipe",
+  "unit": null,
+  "source_page": 56
+ },
+ {
+  "parameter": "Bore size option (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 0260 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 56
+ },
+ {
+  "parameter": "Bore size option (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 0340 | for 1/2 inch pipe | Bore size option",
+  "value": "0.340",
+  "unit": "in.",
+  "source_page": 56
+ },
+ {
+  "parameter": "Bore size option (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 0340 | for 1/2 inch pipe | Bore size option",
+  "value": "8.64",
+  "unit": "mm",
+  "source_page": 56
+ },
+ {
+  "parameter": "Bore size option (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 0340 | Line size",
+  "value": "1/2 inch pipe",
+  "unit": null,
+  "source_page": 56
+ },
+ {
+  "parameter": "Bore size option (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 0340 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 56
+ },
+ {
+  "parameter": "Bore size option (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 0150 | for 1 inch pipe | Bore size option",
+  "value": "0.150",
+  "unit": "in.",
+  "source_page": 56
+ },
+ {
+  "parameter": "Bore size option (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 0150 | for 1 inch pipe | Bore size option",
+  "value": "3.81",
+  "unit": "mm",
+  "source_page": 56
+ },
+ {
+  "parameter": "Bore size option (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 0150 | Line size",
+  "value": "1 inch pipe",
+  "unit": null,
+  "source_page": 56
+ },
+ {
+  "parameter": "Bore size option (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 0150 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 56
+ },
+ {
+  "parameter": "Bore size option (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 0250 | for 1 inch pipe | Bore size option",
+  "value": "0.250",
+  "unit": "in.",
+  "source_page": 56
+ },
+ {
+  "parameter": "Bore size option (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 0250 | for 1 inch pipe | Bore size option",
+  "value": "6.35",
+  "unit": "mm",
+  "source_page": 56
+ },
+ {
+  "parameter": "Bore size option (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 0250 | Line size",
+  "value": "1 inch pipe",
+  "unit": null,
+  "source_page": 56
+ },
+ {
+  "parameter": "Bore size option (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 0250 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 56
+ },
+ {
+  "parameter": "Bore size option (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 0345 | for 1 inch pipe | Bore size option",
+  "value": "0.345",
+  "unit": "in.",
+  "source_page": 56
+ },
+ {
+  "parameter": "Bore size option (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 0345 | for 1 inch pipe | Bore size option",
+  "value": "8.76",
+  "unit": "mm",
+  "source_page": 56
+ },
+ {
+  "parameter": "Bore size option (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 0345 | Line size",
+  "value": "1 inch pipe",
+  "unit": null,
+  "source_page": 56
+ },
+ {
+  "parameter": "Bore size option (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 0345 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 56
+ },
+ {
+  "parameter": "Bore size option (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 0500 | for 1 inch pipe | Bore size option",
+  "value": "0.500",
+  "unit": "in.",
+  "source_page": 56
+ },
+ {
+  "parameter": "Bore size option (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 0500 | for 1 inch pipe | Bore size option",
+  "value": "12.70",
+  "unit": "mm",
+  "source_page": 56
+ },
+ {
+  "parameter": "Bore size option (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 0500 | Line size",
+  "value": "1 inch pipe",
+  "unit": null,
+  "source_page": 56
+ },
+ {
+  "parameter": "Bore size option (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 0500 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 56
+ },
+ {
+  "parameter": "Bore size option (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 0630 | for 1 inch pipe | Bore size option",
+  "value": "0.630",
+  "unit": "in.",
+  "source_page": 56
+ },
+ {
+  "parameter": "Bore size option (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 0630 | for 1 inch pipe | Bore size option",
+  "value": "16.00",
+  "unit": "mm",
+  "source_page": 56
+ },
+ {
+  "parameter": "Bore size option (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 0630 | Line size",
+  "value": "1 inch pipe",
+  "unit": null,
+  "source_page": 56
+ },
+ {
+  "parameter": "Bore size option (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 0630 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 56
+ },
+ {
+  "parameter": "Bore size option (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 0800 | for 1 inch pipe | Bore size option",
+  "value": "0.800",
+  "unit": "in.",
+  "source_page": 56
+ },
+ {
+  "parameter": "Bore size option (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 0800 | for 1 inch pipe | Bore size option",
+  "value": "20.32",
+  "unit": "mm",
+  "source_page": 56
+ },
+ {
+  "parameter": "Bore size option (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 0800 | Line size",
+  "value": "1 inch pipe",
+  "unit": null,
+  "source_page": 56
+ },
+ {
+  "parameter": "Bore size option (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 0800 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 56
+ },
+ {
+  "parameter": "Bore size option (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 0295 | for 1 1/2 inch pipe | Bore size option",
+  "value": "0.295",
+  "unit": "in.",
+  "source_page": 56
+ },
+ {
+  "parameter": "Bore size option (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 0295 | for 1 1/2 inch pipe | Bore size option",
+  "value": "7.49",
+  "unit": "mm",
+  "source_page": 56
+ },
+ {
+  "parameter": "Bore size option (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 0295 | Line size",
+  "value": "1 1/2 inch pipe",
+  "unit": null,
+  "source_page": 56
+ },
+ {
+  "parameter": "Bore size option (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 0295 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 56
+ },
+ {
+  "parameter": "Bore size option (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 0376 | for 1 1/2 inch pipe | Bore size option",
+  "value": "0.376",
+  "unit": "in.",
+  "source_page": 56
+ },
+ {
+  "parameter": "Bore size option (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 0376 | for 1 1/2 inch pipe | Bore size option",
+  "value": "9.55",
+  "unit": "mm",
+  "source_page": 56
+ },
+ {
+  "parameter": "Bore size option (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 0376 | Line size",
+  "value": "1 1/2 inch pipe",
+  "unit": null,
+  "source_page": 56
+ },
+ {
+  "parameter": "Bore size option (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 0376 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 56
+ },
+ {
+  "parameter": "Bore size option (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 0512 | for 1 1/2 inch pipe | Bore size option",
+  "value": "0.512",
+  "unit": "in.",
+  "source_page": 56
+ },
+ {
+  "parameter": "Bore size option (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 0512 | for 1 1/2 inch pipe | Bore size option",
+  "value": "13.00",
+  "unit": "mm",
+  "source_page": 56
+ },
+ {
+  "parameter": "Bore size option (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 0512 | Line size",
+  "value": "1 1/2 inch pipe",
+  "unit": null,
+  "source_page": 56
+ },
+ {
+  "parameter": "Bore size option (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 0512 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 56
+ },
+ {
+  "parameter": "Bore size option (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 0748 | for 1 1/2 inch pipe | Bore size option",
+  "value": "0.748",
+  "unit": "in.",
+  "source_page": 56
+ },
+ {
+  "parameter": "Bore size option (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 0748 | for 1 1/2 inch pipe | Bore size option",
+  "value": "19.00",
+  "unit": "mm",
+  "source_page": 56
+ },
+ {
+  "parameter": "Bore size option (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 0748 | Line size",
+  "value": "1 1/2 inch pipe",
+  "unit": null,
+  "source_page": 56
+ },
+ {
+  "parameter": "Bore size option (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 0748 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 56
+ },
+ {
+  "parameter": "Bore size option (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 1022 | for 1 1/2 inch pipe | Bore size option",
+  "value": "1.022",
+  "unit": "in.",
+  "source_page": 56
+ },
+ {
+  "parameter": "Bore size option (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 1022 | for 1 1/2 inch pipe | Bore size option",
+  "value": "25.96",
+  "unit": "mm",
+  "source_page": 56
+ },
+ {
+  "parameter": "Bore size option (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 1022 | Line size",
+  "value": "1 1/2 inch pipe",
+  "unit": null,
+  "source_page": 56
+ },
+ {
+  "parameter": "Bore size option (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 1022 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 56
+ },
+ {
+  "parameter": "Bore size option (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 1184 | for 1 1/2 inch pipe | Bore size option",
+  "value": "1.184",
+  "unit": "in.",
+  "source_page": 56
+ },
+ {
+  "parameter": "Bore size option (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 1184 | for 1 1/2 inch pipe | Bore size option",
+  "value": "30.07",
+  "unit": "mm",
+  "source_page": 56
+ },
+ {
+  "parameter": "Bore size option (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 1184 | Line size",
+  "value": "1 1/2 inch pipe",
+  "unit": null,
+  "source_page": 56
+ },
+ {
+  "parameter": "Bore size option (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 1184 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 56
+ },
+ {
+  "parameter": "Bore size option (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code XXXX | Bore size option",
+  "value": "Special bore size (X.XXX in.)",
+  "unit": null,
+  "source_page": 56
+ },
+ {
+  "parameter": "Transmitter connection platform (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code D3 | Transmitter connection platform",
+  "value": "Direct-mount, 3-valve manifold, SST",
+  "unit": null,
+  "source_page": 56
+ },
+ {
+  "parameter": "Transmitter connection platform (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code D3 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 56
+ },
+ {
+  "parameter": "Transmitter connection platform (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code D5 | Transmitter connection platform",
+  "value": "Direct-mount, 5-valve manifold, SST",
+  "unit": null,
+  "source_page": 56
+ },
+ {
+  "parameter": "Transmitter connection platform (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code D5 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 56
+ },
+ {
+  "parameter": "Transmitter connection platform (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code R3 | Transmitter connection platform",
+  "value": "Remote-mount, 3-valve manifold, SST",
+  "unit": null,
+  "source_page": 56
+ },
+ {
+  "parameter": "Transmitter connection platform (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code R3 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 56
+ },
+ {
+  "parameter": "Transmitter connection platform (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code R5 | Transmitter connection platform",
+  "value": "Remote-mount, 5-valve manifold, SST",
+  "unit": null,
+  "source_page": 56
+ },
+ {
+  "parameter": "Transmitter connection platform (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code D4 [fn 1] | Transmitter connection platform",
+  "value": "Direct-mount, 3-valve manifold, alloy C-276",
+  "unit": null,
+  "source_page": 56
+ },
+ {
+  "parameter": "Transmitter connection platform (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code D6 [fn 1] | Transmitter connection platform",
+  "value": "Direct-mount, 5-valve manifold, alloy C-276",
+  "unit": null,
+  "source_page": 56
+ },
+ {
+  "parameter": "Transmitter connection platform (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code R4 | Transmitter connection platform",
+  "value": "Remote-mount, 3-valve manifold, alloy C-276",
+  "unit": null,
+  "source_page": 56
+ },
+ {
+  "parameter": "Transmitter connection platform (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code R6 | Transmitter connection platform",
+  "value": "Remote-mount, 5-valve manifold, alloy C-276",
+  "unit": null,
+  "source_page": 56
+ },
+ {
+  "parameter": "Transmitter connection platform (Rosemount 3051CFP ordering information) | footnote 1",
+  "value": "Changes the transmitter orientation of the assembly. For more information, refer to the D4, D6 option for C-276 manifold assembly in the product drawing.",
+  "unit": null,
+  "source_page": 56
+ },
+ {
+  "parameter": "Differential pressure range (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 1 | Differential pressure range",
+  "value": "0 - 25",
+  "unit": "inH2O",
+  "source_page": 57
+ },
+ {
+  "parameter": "Differential pressure range (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 1 | Differential pressure range",
+  "value": "0 to 62.16",
+  "unit": "mbar",
+  "source_page": 57
+ },
+ {
+  "parameter": "Differential pressure range (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 1 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 57
+ },
+ {
+  "parameter": "Differential pressure range (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 2 | Differential pressure range",
+  "value": "0 - 250",
+  "unit": "inH2O",
+  "source_page": 57
+ },
+ {
+  "parameter": "Differential pressure range (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 2 | Differential pressure range",
+  "value": "0 to 621.60",
+  "unit": "mbar",
+  "source_page": 57
+ },
+ {
+  "parameter": "Differential pressure range (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 2 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 57
+ },
+ {
+  "parameter": "Differential pressure range (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 3 | Differential pressure range",
+  "value": "0 - 1000",
+  "unit": "inH2O",
+  "source_page": 57
+ },
+ {
+  "parameter": "Differential pressure range (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 3 | Differential pressure range",
+  "value": "0 to 2.49",
+  "unit": "bar",
+  "source_page": 57
+ },
+ {
+  "parameter": "Differential pressure range (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 3 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 57
+ },
+ {
+  "parameter": "Transmitter output (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code A | Transmitter output",
+  "value": "4-20 mA with digital signal based on HART® Protocol",
+  "unit": null,
+  "source_page": 57
+ },
+ {
+  "parameter": "Transmitter output (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code A | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 57
+ },
+ {
+  "parameter": "Transmitter output (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code F | Transmitter output",
+  "value": "FOUNDATION™ Fieldbus Protocol",
+  "unit": null,
+  "source_page": 57
+ },
+ {
+  "parameter": "Transmitter output (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code F | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 57
+ },
+ {
+  "parameter": "Transmitter output (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code W [fn 1] | Transmitter output",
+  "value": "PROFIBUS® PA Protocol",
+  "unit": null,
+  "source_page": 57
+ },
+ {
+  "parameter": "Transmitter output (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code W [fn 1] | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 57
+ },
+ {
+  "parameter": "Transmitter output (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code X [fn 2] | Transmitter output [fn 3]",
+  "value": "Wireless",
+  "unit": null,
+  "source_page": 57
+ },
+ {
+  "parameter": "Transmitter output (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code X [fn 2] | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 57
+ },
+ {
+  "parameter": "Transmitter output (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code M [fn 4] | Transmitter output",
+  "value": "Low-power, 1-5 Vdc with digital signal based on HART Protocol",
+  "unit": null,
+  "source_page": 57
+ },
+ {
+  "parameter": "Transmitter output (Rosemount 3051CFP ordering information) | footnote 1",
+  "value": "For local addressing and configuration, M4 (LOI) is required. Not available with product certification codes EM, IM, KM, KL, and KS.",
+  "unit": null,
+  "source_page": 57
+ },
+ {
+  "parameter": "Transmitter output (Rosemount 3051CFP ordering information) | footnote 2",
+  "value": "This option is only available with intrinsically safe approvals.",
+  "unit": null,
+  "source_page": 57
+ },
+ {
+  "parameter": "Transmitter output (Rosemount 3051CFP ordering information) | footnote 3",
+  "value": "Requires wireless options and engineered polymer housing.",
+  "unit": null,
+  "source_page": 57
+ },
+ {
+  "parameter": "Transmitter output (Rosemount 3051CFP ordering information) | footnote 4",
+  "value": "Only available with C6, E2, E5, I5, K5, KB, EM, IM, KM, EP, and E8 product certifications.",
+  "unit": null,
+  "source_page": 57
+ },
+ {
+  "parameter": "Housing material (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code A | Housing material",
+  "value": "Aluminum",
+  "unit": null,
+  "source_page": 57
+ },
+ {
+  "parameter": "Housing material (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code A | Conduit entry size",
+  "value": "1/2-14 NPT",
+  "unit": null,
+  "source_page": 57
+ },
+ {
+  "parameter": "Housing material (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code A | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 57
+ },
+ {
+  "parameter": "Housing material (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code B | Housing material",
+  "value": "Aluminum",
+  "unit": null,
+  "source_page": 57
+ },
+ {
+  "parameter": "Housing material (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code B | Conduit entry size",
+  "value": "M20 x 1.5",
+  "unit": null,
+  "source_page": 57
+ },
+ {
+  "parameter": "Housing material (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code B | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 57
+ },
+ {
+  "parameter": "Housing material (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code J | Housing material",
+  "value": "SST",
+  "unit": null,
+  "source_page": 57
+ },
+ {
+  "parameter": "Housing material (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code J | Conduit entry size",
+  "value": "1/2-14 NPT",
+  "unit": null,
+  "source_page": 57
+ },
+ {
+  "parameter": "Housing material (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code J | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 57
+ },
+ {
+  "parameter": "Housing material (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code K | Housing material",
+  "value": "SST",
+  "unit": null,
+  "source_page": 57
+ },
+ {
+  "parameter": "Housing material (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code K | Conduit entry size",
+  "value": "M20 x 1.5",
+  "unit": null,
+  "source_page": 57
+ },
+ {
+  "parameter": "Housing material (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code K | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 57
+ },
+ {
+  "parameter": "Housing material (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code P [fn 1] | Housing material",
+  "value": "Engineered polymer",
+  "unit": null,
+  "source_page": 57
+ },
+ {
+  "parameter": "Housing material (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code P [fn 1] | Conduit entry size",
+  "value": "No conduit entries",
+  "unit": null,
+  "source_page": 57
+ },
+ {
+  "parameter": "Housing material (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code P [fn 1] | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 57
+ },
+ {
+  "parameter": "Housing material (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code D [fn 2] | Housing material",
+  "value": "Aluminum",
+  "unit": null,
+  "source_page": 57
+ },
+ {
+  "parameter": "Housing material (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code D [fn 2] | Conduit entry size",
+  "value": "G1/2",
+  "unit": null,
+  "source_page": 57
+ },
+ {
+  "parameter": "Housing material (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code M | Housing material",
+  "value": "SST",
+  "unit": null,
+  "source_page": 57
+ },
+ {
+  "parameter": "Housing material (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code M | Conduit entry size",
+  "value": "G1/2",
+  "unit": null,
+  "source_page": 57
+ },
+ {
+  "parameter": "Housing material (Rosemount 3051CFP ordering information) | footnote 1",
+  "value": "Only available with wireless output (code X).",
+  "unit": null,
+  "source_page": 57
+ },
+ {
+  "parameter": "Housing material (Rosemount 3051CFP ordering information) | footnote 2",
+  "value": "Transmitter conduit entry will be 1/2 NPT and a 1/2 NPT to G1/2 thread adapter will be provided. These options are only available with product certifications option I1. Product certifications option IG are available with aluminum only (option D).",
+  "unit": null,
+  "source_page": 57
+ },
+ {
+  "parameter": "Transmitter performance class (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 1 | Transmitter performance class",
+  "value": "Up to ±1.75% flow rate accuracy, 8:1 flow turndown, 5-year stability",
+  "unit": null,
+  "source_page": 57
+ },
+ {
+  "parameter": "Transmitter performance class (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 1 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 57
+ },
+ {
+  "parameter": "Transmitter performance class (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 1 | Flow rate accuracy",
+  "value": "Up to ±1.75",
+  "unit": "%",
+  "source_page": 57
+ },
+ {
+  "parameter": "Transmitter performance class (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 1 | Flow turndown",
+  "value": "8:1",
+  "unit": null,
+  "source_page": 57
+ },
+ {
+  "parameter": "Transmitter performance class (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code 1 | Stability",
+  "value": "5-year",
+  "unit": null,
+  "source_page": 57
+ },
+ {
+  "parameter": "Wireless options (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Requirement",
+  "value": "Requires wireless output (code X) and engineered polymer housing (code P).",
+  "unit": null,
+  "source_page": 58
+ },
+ {
+  "parameter": "Wireless transmit rate, operating frequency, and protocol (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code WA3 | Wireless transmit rate, operating frequency, and protocol",
+  "value": "User-configurable transmit rate, 2.4 GHz WirelessHART®",
+  "unit": null,
+  "source_page": 58
+ },
+ {
+  "parameter": "Wireless transmit rate, operating frequency, and protocol (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code WA3 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 58
+ },
+ {
+  "parameter": "Antenna and SmartPower™ (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code WP5 | Antenna and SmartPower™ [fn 1]",
+  "value": "Internal antenna, compatible with Green Power Module",
+  "unit": null,
+  "source_page": 58
+ },
+ {
+  "parameter": "Antenna and SmartPower™ (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code WP5 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 58
+ },
+ {
+  "parameter": "Antenna and SmartPower™ (Rosemount 3051CFP ordering information) | footnote 1",
+  "value": "Intrinsically Safe (IS) Power Module sold separately.",
+  "unit": null,
+  "source_page": 58
+ },
+ {
+  "parameter": "Local wireless device access (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code BLE [fn 1] | Local wireless device access",
+  "value": "Bluetooth® configuration and maintenance",
+  "unit": null,
+  "source_page": 58
+ },
+ {
+  "parameter": "Local wireless device access (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code BLE [fn 1] | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 58
+ },
+ {
+  "parameter": "Local wireless device access (Rosemount 3051CFP ordering information) | footnote 1",
+  "value": "Requires the Graphical LCD Display (code M6).",
+  "unit": null,
+  "source_page": 58
+ },
+ {
+  "parameter": "Extended product warranty (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code WR3 | Extended product warranty",
+  "value": "3-year limited warranty",
+  "unit": null,
+  "source_page": 58
+ },
+ {
+  "parameter": "Extended product warranty (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code WR3 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 58
+ },
+ {
+  "parameter": "Extended product warranty (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code WR5 | Extended product warranty",
+  "value": "5-year limited warranty",
+  "unit": null,
+  "source_page": 58
+ },
+ {
+  "parameter": "Extended product warranty (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code WR5 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 58
+ },
+ {
+  "parameter": "Alternate transmitter diaphragm material (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code ID2 | Alternate transmitter diaphragm material",
+  "value": "316 SST",
+  "unit": null,
+  "source_page": 58
+ },
+ {
+  "parameter": "Alternate transmitter diaphragm material (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code ID3 | Alternate transmitter diaphragm material",
+  "value": "Alloy C-276",
+  "unit": null,
+  "source_page": 58
+ },
+ {
+  "parameter": "Alternate transmitter diaphragm material (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code ID4 [fn 1] | Alternate transmitter diaphragm material",
+  "value": "Alloy 400",
+  "unit": null,
+  "source_page": 58
+ },
+ {
+  "parameter": "Alternate transmitter diaphragm material (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code ID5 [fn 1] | Alternate transmitter diaphragm material",
+  "value": "Tantalum",
+  "unit": null,
+  "source_page": 58
+ },
+ {
+  "parameter": "Alternate transmitter diaphragm material (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code ID6 [fn 1] | Alternate transmitter diaphragm material [fn 2]",
+  "value": "Gold-plated Alloy 400",
+  "unit": null,
+  "source_page": 58
+ },
+ {
+  "parameter": "Alternate transmitter diaphragm material (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code ID7 [fn 1] | Alternate transmitter diaphragm material",
+  "value": "Gold-plated SST",
+  "unit": null,
+  "source_page": 58
+ },
+ {
+  "parameter": "Alternate transmitter diaphragm material (Rosemount 3051CFP ordering information) | footnote 1",
+  "value": "Not available with wireless output (code X).",
+  "unit": null,
+  "source_page": 58
+ },
+ {
+  "parameter": "Alternate transmitter diaphragm material (Rosemount 3051CFP ordering information) | footnote 2",
+  "value": "Includes graphite-filled PTFE O-ring.",
+  "unit": null,
+  "source_page": 58
+ },
+ {
+  "parameter": "Transmitter body/bolt material (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code GT | Transmitter body/bolt material",
+  "value": "High temperature [850 °F (454 ℃)]",
+  "unit": null,
+  "source_page": 58
+ },
+ {
+  "parameter": "Transmitter body/bolt material (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code GT | High temperature",
+  "value": "850",
+  "unit": "°F",
+  "source_page": 58
+ },
+ {
+  "parameter": "Transmitter body/bolt material (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code GT | High temperature",
+  "value": "454",
+  "unit": "℃",
+  "source_page": 58
+ },
+ {
+  "parameter": "Temperature sensor (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Thermowell material",
+  "value": "Thermowell material is the same as the body material.",
+  "unit": null,
+  "source_page": 59
+ },
+ {
+  "parameter": "Temperature sensor (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code RT | Temperature sensor",
+  "value": "Thermowell and RTD",
+  "unit": null,
+  "source_page": 59
+ },
+ {
+  "parameter": "Temperature sensor (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code RT | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 59
+ },
+ {
+  "parameter": "Optional connection (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code G1 | Optional connection",
+  "value": "DIN 19213 transmitter connection",
+  "unit": null,
+  "source_page": 59
+ },
+ {
+  "parameter": "Pressure testing (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code P1 | Pressure testing [fn 1]",
+  "value": "Hydrostatic testing with certificate",
+  "unit": null,
+  "source_page": 59
+ },
+ {
+  "parameter": "Pressure testing (Rosemount 3051CFP ordering information) | footnote 1",
+  "value": "This option does not apply to process connection codes T1 and S1. Option P1 may not be ordered in combination with P2.",
+  "unit": null,
+  "source_page": 59
+ },
+ {
+  "parameter": "Special cleaning (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code P2 | Special cleaning",
+  "value": "Cleaning for special processes",
+  "unit": null,
+  "source_page": 59
+ },
+ {
+  "parameter": "Material testing (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code V1 | Material testing",
+  "value": "Dye penetrant exam",
+  "unit": null,
+  "source_page": 59
+ },
+ {
+  "parameter": "Material examination (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code V2 | Material examination",
+  "value": "Radiographic examination",
+  "unit": null,
+  "source_page": 59
+ },
+ {
+  "parameter": "Flow calibration (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code WD | Flow calibration [fn 1]",
+  "value": "Discharge coefficient verification",
+  "unit": null,
+  "source_page": 59
+ },
+ {
+  "parameter": "Flow calibration (Rosemount 3051CFP ordering information) | footnote 1",
+  "value": "This option is not available for bore sizes 0010, 0014, 0020, 0034, 0066, or 0109. This option does not apply to process connection codes T1 and S1.",
+  "unit": null,
+  "source_page": 59
+ },
+ {
+  "parameter": "Special inspection (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code QC1 | Special inspection",
+  "value": "Visual and dimensional inspection with certificate",
+  "unit": null,
+  "source_page": 59
+ },
+ {
+  "parameter": "Special inspection (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code QC1 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 59
+ },
+ {
+  "parameter": "Special inspection (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code QC7 | Special inspection",
+  "value": "Inspection and performance certificate",
+  "unit": null,
+  "source_page": 59
+ },
+ {
+  "parameter": "Special inspection (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code QC7 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 59
+ },
+ {
+  "parameter": "Material traceability certification (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code Q8 | Material traceability certification",
+  "value": "Material traceability certification per EN 10204: 2004 3.1",
+  "unit": null,
+  "source_page": 59
+ },
+ {
+  "parameter": "Material traceability certification (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code Q8 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 59
+ },
+ {
+  "parameter": "Positive material identification (PMI) (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code Q76 | Positive material identification (PMI)",
+  "value": "PMI verification and certificate",
+  "unit": null,
+  "source_page": 60
+ },
+ {
+  "parameter": "Positive material identification (PMI) (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code Q76 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 60
+ },
+ {
+  "parameter": "Code conformance (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Availability restriction",
+  "value": "This option is not available with DIN Process Connection codes D1, D2, or D3.",
+  "unit": null,
+  "source_page": 60
+ },
+ {
+  "parameter": "Code conformance (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code J2 [fn 1] | Code conformance",
+  "value": "ANSI/ASME B31.1",
+  "unit": null,
+  "source_page": 60
+ },
+ {
+  "parameter": "Code conformance (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code J3 [fn 1] | Code conformance",
+  "value": "ANSI/ASME B31.3",
+  "unit": null,
+  "source_page": 60
+ },
+ {
+  "parameter": "Code conformance (Rosemount 3051CFP ordering information) | footnote 1",
+  "value": "Changes the transmitter orientation of the assembly. Please refer to the J2, J3 options for B31 compliant assembly in the product drawing.",
+  "unit": null,
+  "source_page": 60
+ },
+ {
+  "parameter": "Materials conformance (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | NACE MR0175/ISO compliance",
+  "value": "Materials of Construction comply with metallurgical requirements within NACE MR0175/ISO for sour oil field production environments.",
+  "unit": null,
+  "source_page": 60
+ },
+ {
+  "parameter": "Materials conformance (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Environmental limits",
+  "value": "Environmental limits apply to certain materials. Consult latest standard for details.",
+  "unit": null,
+  "source_page": 60
+ },
+ {
+  "parameter": "Materials conformance (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | NACE MR0103 conformance",
+  "value": "Selected materials also conform to NACE MR0103 for sour refining environments.",
+  "unit": null,
+  "source_page": 60
+ },
+ {
+  "parameter": "Materials conformance (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | J5 option transmitter diaphragms",
+  "value": "Selecting J5 option will provide Alloy C-276 transmitter diaphragms.",
+  "unit": null,
+  "source_page": 60
+ },
+ {
+  "parameter": "Materials conformance (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code J5 | Materials conformance",
+  "value": "Certificate of Compliance to NACE MR0175/ISO 15156 for wetted materials",
+  "unit": null,
+  "source_page": 60
+ },
+ {
+  "parameter": "Materials conformance (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code J5 | Transmitter diaphragm material",
+  "value": "Alloy C-276",
+  "unit": null,
+  "source_page": 60
+ },
+ {
+  "parameter": "Country certification (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code J1 | Country certification",
+  "value": "Canadian Registration",
+  "unit": null,
+  "source_page": 60
+ },
+ {
+  "parameter": "Country certification (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code J1 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 60
+ },
+ {
+  "parameter": "Country certification (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code J6 | Country certification",
+  "value": "European Pressure Directive (PED)",
+  "unit": null,
+  "source_page": 60
+ },
+ {
+  "parameter": "Country certification (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code J6 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 60
+ },
+ {
+  "parameter": "Transmitter calibration certification (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code Q4 | Transmitter calibration certification",
+  "value": "Calibration certificate for transmitter",
+  "unit": null,
+  "source_page": 60
+ },
+ {
+  "parameter": "Transmitter calibration certification (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code Q4 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 60
+ },
+ {
+  "parameter": "Quality certification for safety (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code QT | Quality certification for safety [fn 1]",
+  "value": "Safety certified to IEC 61508 with certificate of FMEDA",
+  "unit": null,
+  "source_page": 60
+ },
+ {
+  "parameter": "Quality certification for safety (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code QT | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 60
+ },
+ {
+  "parameter": "Quality certification for safety (Rosemount 3051CFP ordering information) | footnote 1",
+  "value": "This option is only available with HART® 4-20 mA output (code A).",
+  "unit": null,
+  "source_page": 60
+ },
+ {
+  "parameter": "Product certification (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code E8 | Product certification",
+  "value": "ATEX Flameproof and Dust Certification",
+  "unit": null,
+  "source_page": 61
+ },
+ {
+  "parameter": "Product certification (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code E8 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 61
+ },
+ {
+  "parameter": "Product certification (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code I1 [fn 1] | Product certification",
+  "value": "ATEX Intrinsic Safety and Dust",
+  "unit": null,
+  "source_page": 61
+ },
+ {
+  "parameter": "Product certification (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code I1 [fn 1] | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 61
+ },
+ {
+  "parameter": "Product certification (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code IA | Product certification",
+  "value": "ATEX FISCO Intrinsic Safety; for FOUNDATION™ Fieldbus or PROFIBUS® PA Protocol only",
+  "unit": null,
+  "source_page": 61
+ },
+ {
+  "parameter": "Product certification (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code IA | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 61
+ },
+ {
+  "parameter": "Product certification (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code N1 | Product certification",
+  "value": "ATEX Type n Certification and Dust",
+  "unit": null,
+  "source_page": 61
+ },
+ {
+  "parameter": "Product certification (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code N1 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 61
+ },
+ {
+  "parameter": "Product certification (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code K8 | Product certification",
+  "value": "ATEX Flameproof, Intrinsic Safety, Type n, Dust (combination of E8, I1 and N1)",
+  "unit": null,
+  "source_page": 61
+ },
+ {
+  "parameter": "Product certification (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code K8 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 61
+ },
+ {
+  "parameter": "Product certification (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code E5 | Product certification",
+  "value": "USA Explosion-proof, Dust Ignition-Proof",
+  "unit": null,
+  "source_page": 61
+ },
+ {
+  "parameter": "Product certification (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code E5 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 61
+ },
+ {
+  "parameter": "Product certification (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code I5 [fn 2] | Product certification",
+  "value": "USA Intrinsically Safe, Nonincendive",
+  "unit": null,
+  "source_page": 61
+ },
+ {
+  "parameter": "Product certification (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code I5 [fn 2] | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 61
+ },
+ {
+  "parameter": "Product certification (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code K5 | Product certification",
+  "value": "USA Explosion-proof, Dust Ignition-Proof, Intrinsically Safe, and Division 2",
+  "unit": null,
+  "source_page": 61
+ },
+ {
+  "parameter": "Product certification (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code K5 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 61
+ },
+ {
+  "parameter": "Product certification (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code E6 | Product certification",
+  "value": "Canada Explosion-proof, Dust Ignition-proof, Division 2",
+  "unit": null,
+  "source_page": 61
+ },
+ {
+  "parameter": "Product certification (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code E6 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 61
+ },
+ {
+  "parameter": "Product certification (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code I6 [fn 3] | Product certification",
+  "value": "Canada Intrinsic Safety",
+  "unit": null,
+  "source_page": 61
+ },
+ {
+  "parameter": "Product certification (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code I6 [fn 3] | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 61
+ },
+ {
+  "parameter": "Product certification (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code C6 | Product certification",
+  "value": "Canada Explosion-proof, Dust Ignition-proof, Intrinsically Safe, and Division 2",
+  "unit": null,
+  "source_page": 61
+ },
+ {
+  "parameter": "Product certification (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code C6 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 61
+ },
+ {
+  "parameter": "Product certification (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code IE | Product certification",
+  "value": "USA FISCO Intrinsically Safe",
+  "unit": null,
+  "source_page": 61
+ },
+ {
+  "parameter": "Product certification (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code IE | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 61
+ },
+ {
+  "parameter": "Product certification (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code K6 | Product certification",
+  "value": "Canada and ATEX Explosion-proof, Intrinsically Safe, and Division 2 (combination of C6, E8, and I1)",
+  "unit": null,
+  "source_page": 61
+ },
+ {
+  "parameter": "Product certification (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code K6 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 61
+ },
+ {
+  "parameter": "Product certification (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code E7 | Product certification",
+  "value": "IECEx Flameproof, Dust Ignition-proof",
+  "unit": null,
+  "source_page": 61
+ },
+ {
+  "parameter": "Product certification (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code E7 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 61
+ },
+ {
+  "parameter": "Product certification (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code I7 | Product certification",
+  "value": "IECEx Intrinsic Safety",
+  "unit": null,
+  "source_page": 61
+ },
+ {
+  "parameter": "Product certification (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code I7 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 61
+ },
+ {
+  "parameter": "Product certification (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code IG | Product certification",
+  "value": "IECEx FISCO Intrinsically Safe; for FOUNDATION Fieldbus or PROFIBUS PA Protocols only",
+  "unit": null,
+  "source_page": 61
+ },
+ {
+  "parameter": "Product certification (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code N7 | Product certification",
+  "value": "IECEx Type n Certification",
+  "unit": null,
+  "source_page": 61
+ },
+ {
+  "parameter": "Product certification (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code N7 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 61
+ },
+ {
+  "parameter": "Product certification (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code K7 | Product certification",
+  "value": "IECEx Flame-proof, Dust Ignition-proof, Intrinsic Safety, and Type n (combination of I7, N7, and E7)",
+  "unit": null,
+  "source_page": 61
+ },
+ {
+  "parameter": "Product certification (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code K7 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 61
+ },
+ {
+  "parameter": "Product certification (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code E2 | Product certification",
+  "value": "Brazil Flameproof",
+  "unit": null,
+  "source_page": 61
+ },
+ {
+  "parameter": "Product certification (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code E2 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 61
+ },
+ {
+  "parameter": "Product certification (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code I2 | Product certification",
+  "value": "Brazil Intrinsic Safety",
+  "unit": null,
+  "source_page": 61
+ },
+ {
+  "parameter": "Product certification (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code I2 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 61
+ },
+ {
+  "parameter": "Product certification (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code IB | Product certification",
+  "value": "Brazil FISCO intrinsically safe; for FOUNDATION Fieldbus or PROFIBUS PA Protocols only",
+  "unit": null,
+  "source_page": 61
+ },
+ {
+  "parameter": "Product certification (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code IB | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 61
+ },
+ {
+  "parameter": "Product certification (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code K2 | Product certification",
+  "value": "Brazil Flameproof, Intrinsic Safety",
+  "unit": null,
+  "source_page": 61
+ },
+ {
+  "parameter": "Product certification (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code K2 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 61
+ },
+ {
+  "parameter": "Product certification (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code E3 | Product certification",
+  "value": "China Flameproof",
+  "unit": null,
+  "source_page": 61
+ },
+ {
+  "parameter": "Product certification (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code E3 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 61
+ },
+ {
+  "parameter": "Product certification (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code I3 | Product certification",
+  "value": "China Intrinsic Safety",
+  "unit": null,
+  "source_page": 61
+ },
+ {
+  "parameter": "Product certification (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code I3 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 61
+ },
+ {
+  "parameter": "Product certification (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code EP | Product certification",
+  "value": "Republic of Korea Flameproof",
+  "unit": null,
+  "source_page": 61
+ },
+ {
+  "parameter": "Product certification (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code IP | Product certification",
+  "value": "Republic of Korea Intrinsic Safety",
+  "unit": null,
+  "source_page": 61
+ },
+ {
+  "parameter": "Product certification (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code EM | Product certification",
+  "value": "Technical Regulations Customs Union (EAC) Flameproof",
+  "unit": null,
+  "source_page": 61
+ },
+ {
+  "parameter": "Product certification (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code EM | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 61
+ },
+ {
+  "parameter": "Product certification (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code IM | Product certification",
+  "value": "Technical Regulations Customs Union (EAC) Intrinsic Safety",
+  "unit": null,
+  "source_page": 61
+ },
+ {
+  "parameter": "Product certification (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code IM | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 61
+ },
+ {
+  "parameter": "Product certification (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code KM | Product certification",
+  "value": "Technical Regulations Customs Union (EAC) Flameproof and Intrinsic Safety",
+  "unit": null,
+  "source_page": 61
+ },
+ {
+  "parameter": "Product certification (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code KM | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 61
+ },
+ {
+  "parameter": "Product certification (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code KB | Product certification",
+  "value": "USA and Canada Explosion-proof, Dust Ignition Proof, Intrinsically Safe, and Division 2 (combination of K5 and C6)",
+  "unit": null,
+  "source_page": 61
+ },
+ {
+  "parameter": "Product certification (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code KB | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 61
+ },
+ {
+  "parameter": "Product certification (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code KD | Product certification",
+  "value": "USA, Canada, and ATEX Explosion-proof, Intrinsically Safe (combination of K5, C6, I1, and E8)",
+  "unit": null,
+  "source_page": 61
+ },
+ {
+  "parameter": "Product certification (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code KD | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 61
+ },
+ {
+  "parameter": "Product certification (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code KP | Product certification",
+  "value": "Republic of Korea Flameproof, Intrinsic Safety",
+  "unit": null,
+  "source_page": 61
+ },
+ {
+  "parameter": "Product certification (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code KP | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 61
+ },
+ {
+  "parameter": "Product certification (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code EW | Product certification",
+  "value": "India Flameproof Approval",
+  "unit": null,
+  "source_page": 61
+ },
+ {
+  "parameter": "Product certification (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code EW | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 61
+ },
+ {
+  "parameter": "Product certification (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code IW | Product certification",
+  "value": "India Intrinsic Safety",
+  "unit": null,
+  "source_page": 61
+ },
+ {
+  "parameter": "Product certification (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code IW | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 61
+ },
+ {
+  "parameter": "Product certification (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code KW | Product certification",
+  "value": "India Flameproof and Intrinsically Safety",
+  "unit": null,
+  "source_page": 61
+ },
+ {
+  "parameter": "Product certification (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code KW | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 61
+ },
+ {
+  "parameter": "Product certification (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code IZ | Product certification",
+  "value": "India FISCO Intrinsic Safety",
+  "unit": null,
+  "source_page": 61
+ },
+ {
+  "parameter": "Product certification (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code IZ | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 61
+ },
+ {
+  "parameter": "Product certification (Rosemount 3051CFP ordering information) | footnote 1",
+  "value": "Dust approval not applicable to transmitter wireless (output code X).",
+  "unit": null,
+  "source_page": 61
+ },
+ {
+  "parameter": "Product certification (Rosemount 3051CFP ordering information) | footnote 2",
+  "value": "Nonincendive certification not provided with transmitter wireless (output code X).",
+  "unit": null,
+  "source_page": 62
+ },
+ {
+  "parameter": "Product certification (Rosemount 3051CFP ordering information) | footnote 3",
+  "value": "Only available with transmitter wireless (output code X).",
+  "unit": null,
+  "source_page": 62
+ },
+ {
+  "parameter": "Sensor fill fluid and O-ring options (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code L1 [fn 1] | Sensor fill fluid and O-ring options [fn 2]",
+  "value": "Inert sensor fill fluid",
+  "unit": null,
+  "source_page": 62
+ },
+ {
+  "parameter": "Sensor fill fluid and O-ring options (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code L1 [fn 1] | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 62
+ },
+ {
+  "parameter": "Sensor fill fluid and O-ring options (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code L2 | Sensor fill fluid and O-ring options",
+  "value": "Graphite-filled (PTFE) O-ring",
+  "unit": null,
+  "source_page": 62
+ },
+ {
+  "parameter": "Sensor fill fluid and O-ring options (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code L2 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 62
+ },
+ {
+  "parameter": "Sensor fill fluid and O-ring options (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code LA [fn 1] | Sensor fill fluid and O-ring options",
+  "value": "Inert sensor fill fluid and graphite-filled (PTFE) O-ring",
+  "unit": null,
+  "source_page": 62
+ },
+ {
+  "parameter": "Sensor fill fluid and O-ring options (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code LA [fn 1] | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 62
+ },
+ {
+  "parameter": "Sensor fill fluid and O-ring options (Rosemount 3051CFP ordering information) | footnote 1",
+  "value": "Not available with wireless output (code X).",
+  "unit": null,
+  "source_page": 62
+ },
+ {
+  "parameter": "Sensor fill fluid and O-ring options (Rosemount 3051CFP ordering information) | footnote 2",
+  "value": "Silicone fill fluid is standard.",
+  "unit": null,
+  "source_page": 62
+ },
+ {
+  "parameter": "Shipboard approvals (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code SBS | Shipboard approvals [fn 1]",
+  "value": "American Bureau of Shipping",
+  "unit": null,
+  "source_page": 62
+ },
+ {
+  "parameter": "Shipboard approvals (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code SBS | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 62
+ },
+ {
+  "parameter": "Shipboard approvals (Rosemount 3051CFP ordering information) | footnote 1",
+  "value": "Not available with wireless output (code X).",
+  "unit": null,
+  "source_page": 62
+ },
+ {
+  "parameter": "Display and interface options (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code M6 [fn 1] | Display and interface options",
+  "value": "Graphical LCD display",
+  "unit": null,
+  "source_page": 62
+ },
+ {
+  "parameter": "Display and interface options (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code M6 [fn 1] | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 62
+ },
+ {
+  "parameter": "Display and interface options (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code M5 | Display and interface options",
+  "value": "LCD display",
+  "unit": null,
+  "source_page": 62
+ },
+ {
+  "parameter": "Display and interface options (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code M5 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 62
+ },
+ {
+  "parameter": "Display and interface options (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code M4 [fn 2] | Display and interface options",
+  "value": "LCD display with LOI",
+  "unit": null,
+  "source_page": 62
+ },
+ {
+  "parameter": "Display and interface options (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code M4 [fn 2] | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 62
+ },
+ {
+  "parameter": "Display and interface options (Rosemount 3051CFP ordering information) | footnote 1",
+  "value": "Only available with 4-20 mA HART® output (code A).",
+  "unit": null,
+  "source_page": 62
+ },
+ {
+  "parameter": "Display and interface options (Rosemount 3051CFP ordering information) | footnote 2",
+  "value": "Only available with 4-20 mA HART output (code A), Low Power (code M), and PROFIBUS®-PA (code W).",
+  "unit": null,
+  "source_page": 62
+ },
+ {
+  "parameter": "Transient protection (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Availability restriction",
+  "value": "This option is not available with wireless output (code X).",
+  "unit": null,
+  "source_page": 62
+ },
+ {
+  "parameter": "Transient protection (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | FISCO Product Certifications",
+  "value": "The T1 option is not needed with FISCO Product Certifications; transient protection is included with the FISCO Product Certification (codes IA, IB, and IE).",
+  "unit": null,
+  "source_page": 62
+ },
+ {
+  "parameter": "Transient protection (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code T1 | Transient protection",
+  "value": "Transient terminal block",
+  "unit": null,
+  "source_page": 62
+ },
+ {
+  "parameter": "Transient protection (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code T1 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 62
+ },
+ {
+  "parameter": "Plantweb™ control functionality (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code A01 | Plantweb™ control functionality",
+  "value": "FOUNDATION™ Fieldbus control function block suite",
+  "unit": null,
+  "source_page": 62
+ },
+ {
+  "parameter": "Plantweb™ control functionality (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code A01 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 62
+ },
+ {
+  "parameter": "Plantweb™ diagnostic functionality (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code DA0 [fn 1] | Plantweb™ diagnostic functionality",
+  "value": "Loop Integrity diagnostic",
+  "unit": null,
+  "source_page": 62
+ },
+ {
+  "parameter": "Plantweb™ diagnostic functionality (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code DA0 [fn 1] | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 62
+ },
+ {
+  "parameter": "Plantweb™ diagnostic functionality (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code DA1 [fn 2] | Plantweb™ diagnostic functionality",
+  "value": "Loop Integrity and Plugged Impulse Line diagnostics",
+  "unit": null,
+  "source_page": 62
+ },
+ {
+  "parameter": "Plantweb™ diagnostic functionality (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code DA1 [fn 2] | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 62
+ },
+ {
+  "parameter": "Plantweb™ diagnostic functionality (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code D01 | Plantweb™ diagnostic functionality",
+  "value": "FOUNDATION™ Fieldbus Diagnostics Suite",
+  "unit": null,
+  "source_page": 62
+ },
+ {
+  "parameter": "Plantweb™ diagnostic functionality (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code D01 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 62
+ },
+ {
+  "parameter": "Plantweb™ diagnostic functionality (Rosemount 3051CFP ordering information) | footnote 1",
+  "value": "Only available with 4-20 mA HART® protocol (code A).",
+  "unit": null,
+  "source_page": 62
+ },
+ {
+  "parameter": "Plantweb™ diagnostic functionality (Rosemount 3051CFP ordering information) | footnote 2",
+  "value": "Only available with 4-20 mA HART (code A) and low power (code M) output codes. With low power output code, only the Plugged Impulse Line Diagnostic is included.",
+  "unit": null,
+  "source_page": 62
+ },
+ {
+  "parameter": "Alarm levels (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Availability restriction",
+  "value": "Only available with HART® 4-20 mA output (code A).",
+  "unit": null,
+  "source_page": 63
+ },
+ {
+  "parameter": "Alarm levels (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code C4 | Alarm levels",
+  "value": "NAMUR alarm and saturation levels, high alarm",
+  "unit": null,
+  "source_page": 63
+ },
+ {
+  "parameter": "Alarm levels (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code C4 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 63
+ },
+ {
+  "parameter": "Alarm levels (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code CN | Alarm levels",
+  "value": "NAMUR alarm and saturation levels, low alarm",
+  "unit": null,
+  "source_page": 63
+ },
+ {
+  "parameter": "Alarm levels (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code CN | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 63
+ },
+ {
+  "parameter": "Alarm levels (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code CR | Alarm levels",
+  "value": "Custom alarm and saturation signal levels, high alarm (See Rosemount 3051 Configuration Data Sheet)",
+  "unit": null,
+  "source_page": 63
+ },
+ {
+  "parameter": "Alarm levels (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code CR | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 63
+ },
+ {
+  "parameter": "Alarm levels (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code CS | Alarm levels",
+  "value": "Custom alarm and saturation signal levels, low alarm (See Rosemount 3051 Configuration Data Sheet)",
+  "unit": null,
+  "source_page": 63
+ },
+ {
+  "parameter": "Alarm levels (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code CS | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 63
+ },
+ {
+  "parameter": "Alarm levels (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code CT | Alarm levels",
+  "value": "Rosemount standard low alarm",
+  "unit": null,
+  "source_page": 63
+ },
+ {
+  "parameter": "Alarm levels (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code CT | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 63
+ },
+ {
+  "parameter": "Ground screw (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code V5 | Ground screw [fn 1]",
+  "value": "External ground screw assembly",
+  "unit": null,
+  "source_page": 63
+ },
+ {
+  "parameter": "Ground screw (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code V5 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 63
+ },
+ {
+  "parameter": "Ground screw (Rosemount 3051CFP ordering information) | footnote 1",
+  "value": "The V5 option is not needed with the T1 option; external ground screw assembly is included with the T1 option.",
+  "unit": null,
+  "source_page": 63
+ },
+ {
+  "parameter": "Enhanced safety (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code T9 | Enhanced safety [fn 1]",
+  "value": "Enhanced SIS proof testing and logging",
+  "unit": null,
+  "source_page": 63
+ },
+ {
+  "parameter": "Enhanced safety (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code T9 | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 63
+ },
+ {
+  "parameter": "Enhanced safety (Rosemount 3051CFP ordering information) | footnote 1",
+  "value": "Only available with HART® 4-20 mA output (Code A).",
+  "unit": null,
+  "source_page": 63
+ },
+ {
+  "parameter": "Configuration buttons (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code D1 [fn 1] | Configuration buttons",
+  "value": "Quick service buttons",
+  "unit": null,
+  "source_page": 63
+ },
+ {
+  "parameter": "Configuration buttons (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code D1 [fn 1] | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 63
+ },
+ {
+  "parameter": "Configuration buttons (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code D4 [fn 2] | Configuration buttons",
+  "value": "Analog zero and span",
+  "unit": null,
+  "source_page": 63
+ },
+ {
+  "parameter": "Configuration buttons (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code D4 [fn 2] | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 63
+ },
+ {
+  "parameter": "Configuration buttons (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code DZ [fn 3] | Configuration buttons",
+  "value": "Digital zero trim",
+  "unit": null,
+  "source_page": 63
+ },
+ {
+  "parameter": "Configuration buttons (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code DZ [fn 3] | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 63
+ },
+ {
+  "parameter": "Configuration buttons (Rosemount 3051CFP ordering information) | footnote 1",
+  "value": "Only available with graphical LCD display (code M6).",
+  "unit": null,
+  "source_page": 63
+ },
+ {
+  "parameter": "Configuration buttons (Rosemount 3051CFP ordering information) | footnote 2",
+  "value": "Only available with 4-20 mA HART® output (code A).",
+  "unit": null,
+  "source_page": 63
+ },
+ {
+  "parameter": "Configuration buttons (Rosemount 3051CFP ordering information) | footnote 3",
+  "value": "Only available with 4-20 mA HART output (code A) and wireless output (code X).",
+  "unit": null,
+  "source_page": 63
+ },
+ {
+  "parameter": "Enhanced software (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Function",
+  "value": "Enhanced software enables application specific configuration, expanded process alerts, and logging capabilities.",
+  "unit": null,
+  "source_page": 63
+ },
+ {
+  "parameter": "Enhanced software (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code RK | Enhanced software",
+  "value": "Enhanced software",
+  "unit": null,
+  "source_page": 63
+ },
+ {
+  "parameter": "Enhanced software (Rosemount 3051CFP ordering information) | Rosemount 3051CFP | Code RK | Starred offering",
+  "value": "★",
+  "unit": null,
+  "source_page": 63
+ }
+]

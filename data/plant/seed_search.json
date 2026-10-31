@@ -1,0 +1,42 @@
+{
+  "accepted_seed": 6,
+  "tried": [
+    {
+      "seed": 1,
+      "failures": [
+        "loop variables outside F/P"
+      ]
+    },
+    {
+      "seed": 2,
+      "failures": [
+        "loop variables outside F/P",
+        "tagged count out of range",
+        "a datasheet type is missing"
+      ]
+    },
+    {
+      "seed": 3,
+      "failures": [
+        "loop variables outside F/P"
+      ]
+    },
+    {
+      "seed": 4,
+      "failures": [
+        "loop variables outside F/P",
+        "a datasheet type is missing"
+      ]
+    },
+    {
+      "seed": 5,
+      "failures": [
+        "a datasheet type is missing"
+      ]
+    },
+    {
+      "seed": 6,
+      "failures": []
+    }
+  ]
+}

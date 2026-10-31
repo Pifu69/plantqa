@@ -1,0 +1,4286 @@
+[
+ {
+  "parameter": "EXTRACTION NOTE",
+  "value": "Batch r09-p095-114 (pp. 95-114 of 114). Covered: p95 continuation rows of Table 9: Transmitter Option Weights (H7...N/A), Rosemount 3051 product certifications pointer and approval-document table, Dimensional drawings note; Figures 7-24 (pp. 96-108): figure list, legends printed as text below figures, 'Dimensions are in inches (millimeters)' notes, view titles printed outside the drawings, Figure 14 bracket-option labels, Figure 20 Pak-Lok note, Figure 21 primary element type labels; dimension tables: Table 10 (3051CFA Pak-Lok), Figure 21 table (3051CFC), Figure 22 table (3051CFP integral orifice, with footnote 1 printed on p107), Table 11 (3051L), Figure 24 flushing ring table; pp. 109-114: Standard configuration table + footnotes, Table 12 display defaults (M6), Custom configuration (C1), Tagging, Commissioning tag, Integral manifolds, Other seals, Output information unit table (pressure/flow/totalizer/level/volume) + footnotes, Display and interface options M4/M5/M6, Configuration buttons, Transient protection T1, External ground screw assembly + Table 13 (one record per option code), Bolts L4/L5/L6, Conduit plug DO, mounting brackets B4, B1-B3, B7-B9, BA, BC, BE, back-cover legal text. Dual units (in/mm, lb/kg) recorded as two records. Skipped: dimension numbers and labels inside <figure> drawings (step 03), page headers/footers, 'Link' cells of the certifications table, Emerson logo on p114.",
+  "unit": null,
+  "source_page": null
+ },
+ {
+  "parameter": "Table 9: Transmitter Option Weights | Code H7 | Option",
+  "value": "Traditional flange",
+  "unit": null,
+  "source_page": 95
+ },
+ {
+  "parameter": "Table 9: Transmitter Option Weights | Code H7 | Traditional flange | Additional weight",
+  "value": "2.5",
+  "unit": "lb",
+  "source_page": 95
+ },
+ {
+  "parameter": "Table 9: Transmitter Option Weights | Code H7 | Traditional flange | Additional weight",
+  "value": "1.1",
+  "unit": "kg",
+  "source_page": 95
+ },
+ {
+  "parameter": "Table 9: Transmitter Option Weights | Code FC | Option",
+  "value": "Level flange - 3 inch, 150",
+  "unit": null,
+  "source_page": 95
+ },
+ {
+  "parameter": "Table 9: Transmitter Option Weights | Code FC | Level flange - 3 inch, 150 | Additional weight",
+  "value": "10.8",
+  "unit": "lb",
+  "source_page": 95
+ },
+ {
+  "parameter": "Table 9: Transmitter Option Weights | Code FC | Level flange - 3 inch, 150 | Additional weight",
+  "value": "4.9",
+  "unit": "kg",
+  "source_page": 95
+ },
+ {
+  "parameter": "Table 9: Transmitter Option Weights | Code FD | Option",
+  "value": "Level flange - 3 inch, 300",
+  "unit": null,
+  "source_page": 95
+ },
+ {
+  "parameter": "Table 9: Transmitter Option Weights | Code FD | Level flange - 3 inch, 300 | Additional weight",
+  "value": "14.3",
+  "unit": "lb",
+  "source_page": 95
+ },
+ {
+  "parameter": "Table 9: Transmitter Option Weights | Code FD | Level flange - 3 inch, 300 | Additional weight",
+  "value": "6.5",
+  "unit": "kg",
+  "source_page": 95
+ },
+ {
+  "parameter": "Table 9: Transmitter Option Weights | Code FA | Option",
+  "value": "Level flange - 2 inch, 150",
+  "unit": null,
+  "source_page": 95
+ },
+ {
+  "parameter": "Table 9: Transmitter Option Weights | Code FA | Level flange - 2 inch, 150 | Additional weight",
+  "value": "10.7",
+  "unit": "lb",
+  "source_page": 95
+ },
+ {
+  "parameter": "Table 9: Transmitter Option Weights | Code FA | Level flange - 2 inch, 150 | Additional weight",
+  "value": "4.8",
+  "unit": "kg",
+  "source_page": 95
+ },
+ {
+  "parameter": "Table 9: Transmitter Option Weights | Code FB | Option",
+  "value": "Level flange - 2 inch, 300",
+  "unit": null,
+  "source_page": 95
+ },
+ {
+  "parameter": "Table 9: Transmitter Option Weights | Code FB | Level flange - 2 inch, 300 | Additional weight",
+  "value": "14.0",
+  "unit": "lb",
+  "source_page": 95
+ },
+ {
+  "parameter": "Table 9: Transmitter Option Weights | Code FB | Level flange - 2 inch, 300 | Additional weight",
+  "value": "6.3",
+  "unit": "kg",
+  "source_page": 95
+ },
+ {
+  "parameter": "Table 9: Transmitter Option Weights | Code FP | Option",
+  "value": "DIN level flange, SST, DN 50, PN 40",
+  "unit": null,
+  "source_page": 95
+ },
+ {
+  "parameter": "Table 9: Transmitter Option Weights | Code FP | DIN level flange, SST, DN 50, PN 40 | Additional weight",
+  "value": "8.3",
+  "unit": "lb",
+  "source_page": 95
+ },
+ {
+  "parameter": "Table 9: Transmitter Option Weights | Code FP | DIN level flange, SST, DN 50, PN 40 | Additional weight",
+  "value": "3.8",
+  "unit": "kg",
+  "source_page": 95
+ },
+ {
+  "parameter": "Table 9: Transmitter Option Weights | Code FQ | Option",
+  "value": "DIN level flange, SST, DN 80, PN 40",
+  "unit": null,
+  "source_page": 95
+ },
+ {
+  "parameter": "Table 9: Transmitter Option Weights | Code FQ | DIN level flange, SST, DN 80, PN 40 | Additional weight",
+  "value": "13.7",
+  "unit": "lb",
+  "source_page": 95
+ },
+ {
+  "parameter": "Table 9: Transmitter Option Weights | Code FQ | DIN level flange, SST, DN 80, PN 40 | Additional weight",
+  "value": "6.2",
+  "unit": "kg",
+  "source_page": 95
+ },
+ {
+  "parameter": "Table 9: Transmitter Option Weights | Code WSM | Option",
+  "value": "SST sensor module",
+  "unit": null,
+  "source_page": 95
+ },
+ {
+  "parameter": "Table 9: Transmitter Option Weights | Code WSM | SST sensor module | Additional weight",
+  "value": "1.0",
+  "unit": "lb",
+  "source_page": 95
+ },
+ {
+  "parameter": "Table 9: Transmitter Option Weights | Code WSM | SST sensor module | Additional weight",
+  "value": "0.45",
+  "unit": "kg",
+  "source_page": 95
+ },
+ {
+  "parameter": "Table 9: Transmitter Option Weights | Code N/A | Option",
+  "value": "Power module (701PGNKF)",
+  "unit": null,
+  "source_page": 95
+ },
+ {
+  "parameter": "Table 9: Transmitter Option Weights | Code N/A | Power module (701PGNKF) | Additional weight",
+  "value": "0.4",
+  "unit": "lb",
+  "source_page": 95
+ },
+ {
+  "parameter": "Table 9: Transmitter Option Weights | Code N/A | Power module (701PGNKF) | Additional weight",
+  "value": "0.18",
+  "unit": "kg",
+  "source_page": 95
+ },
+ {
+  "parameter": "Rosemount 3051 product certifications | Approvals and certifications",
+  "value": "See the Rosemount 3051 Quick Start Guides for detailed information on the existing approvals and certifications.",
+  "unit": null,
+  "source_page": 95
+ },
+ {
+  "parameter": "Rosemount 3051 product certifications - table 1 | 4-20 mA HART® Protocol | Product approval information",
+  "value": "Rosemount 3051 Pressure Transmitter and 3051CF Series Flow Meter with 4-20 mA HART® Protocol",
+  "unit": null,
+  "source_page": 95
+ },
+ {
+  "parameter": "Rosemount 3051 product certifications - table 1 | FOUNDATION™ Fieldbus Protocol | Product approval information",
+  "value": "Rosemount 3051 Pressure Transmitter and 3051CF Series Flow Meter with FOUNDATION ™ Fieldbus Protocol",
+  "unit": null,
+  "source_page": 95
+ },
+ {
+  "parameter": "Rosemount 3051 product certifications - table 1 | Profibus-PA Protocol | Product approval information",
+  "value": "Rosemount 3051 Pressure Transmitter and 3051CF Series Flow Meter with Profibus-PA Protocol",
+  "unit": null,
+  "source_page": 95
+ },
+ {
+  "parameter": "Rosemount 3051 product certifications - table 1 | 1-5 VDC Low Power | Product approval information",
+  "value": "Rosemount 3051 Pressure Transmitter and 3051CF Series Flow Meter with 1-5 VDC Low Power",
+  "unit": null,
+  "source_page": 95
+ },
+ {
+  "parameter": "Rosemount 3051 product certifications - table 1 | WirelessHART® Protocol | Product approval information",
+  "value": "Rosemount 3051 Pressure Transmitter and Rosemount 3051CF Series Flow Meter with WirelessHART® Protocol",
+  "unit": null,
+  "source_page": 95
+ },
+ {
+  "parameter": "Dimensional drawings | Note | Output codes covered by the drawings",
+  "value": "This section contains dimensional drawings for output codes A, F and X.",
+  "unit": null,
+  "source_page": 95
+ },
+ {
+  "parameter": "Dimensional drawings | Note | Output codes W and M",
+  "value": "For output codes W and M, visit Emerson.com/en-us/support.",
+  "unit": null,
+  "source_page": 95
+ },
+ {
+  "parameter": "Dimensional drawings | Figure list | Figure 7",
+  "value": "Rosemount 3051C Exploded View",
+  "unit": null,
+  "source_page": 96
+ },
+ {
+  "parameter": "Dimensional drawings | Figure list | Figure 8",
+  "value": "Rosemount 3051C Coplanar Flange",
+  "unit": null,
+  "source_page": 97
+ },
+ {
+  "parameter": "Dimensional drawings | Figure list | Figure 9",
+  "value": "Rosemount 3051 Wireless Housing with Coplanar Flange",
+  "unit": null,
+  "source_page": 97
+ },
+ {
+  "parameter": "Dimensional drawings | Figure list | Figure 10",
+  "value": "Rosemount 3051C Coplanar Flange with Rosemount 305RC3 3-Valve Coplanar Integral Manifold",
+  "unit": null,
+  "source_page": 98
+ },
+ {
+  "parameter": "Dimensional drawings | Figure list | Figure 11",
+  "value": "Coplanar Flange Mounting Configurations with Optional Bracket (B4) for 2-in. Pipe or Panel Mounting",
+  "unit": null,
+  "source_page": 99
+ },
+ {
+  "parameter": "Dimensional drawings | Figure list | Figure 12",
+  "value": "Rosemount 3051C Coplanar with Traditional Flange",
+  "unit": null,
+  "source_page": 100
+ },
+ {
+  "parameter": "Dimensional drawings | Figure list | Figure 13",
+  "value": "Rosemount 3051C Coplanar with Rosemount 305RT3 3-Valve Traditional Integral Manifold",
+  "unit": null,
+  "source_page": 100
+ },
+ {
+  "parameter": "Dimensional drawings | Figure list | Figure 14",
+  "value": "Traditional Flange Mounting Configurations with Optional Brackets for 2-in. Pipe or Panel Mounting",
+  "unit": null,
+  "source_page": 101
+ },
+ {
+  "parameter": "Dimensional drawings | Figure list | Figure 15",
+  "value": "Rosemount 3051T",
+  "unit": null,
+  "source_page": 102
+ },
+ {
+  "parameter": "Dimensional drawings | Figure list | Figure 16",
+  "value": "Rosemount 3051T Wireless Housing",
+  "unit": null,
+  "source_page": 102
+ },
+ {
+  "parameter": "Dimensional drawings | Figure list | Figure 17",
+  "value": "Rosemount 3051T In-Line Range 6",
+  "unit": null,
+  "source_page": 103
+ },
+ {
+  "parameter": "Dimensional drawings | Figure list | Figure 18",
+  "value": "Rosemount 3051T with Rosemount 306 2-Valve Integral Manifold",
+  "unit": null,
+  "source_page": 103
+ },
+ {
+  "parameter": "Dimensional drawings | Figure list | Figure 19",
+  "value": "Rosemount 3051T Typical Mounting Configurations with Optional Mounting Bracket",
+  "unit": null,
+  "source_page": 104
+ },
+ {
+  "parameter": "Dimensional drawings | Figure list | Figure 20",
+  "value": "Rosemount 3051CFA Pak-Lok Annubar Flow meter",
+  "unit": null,
+  "source_page": 104
+ },
+ {
+  "parameter": "Dimensional drawings | Figure list | Figure 21",
+  "value": "Rosemount 3051CFC Compact Orifice Flow meter",
+  "unit": null,
+  "source_page": 105
+ },
+ {
+  "parameter": "Dimensional drawings | Figure list | Figure 22",
+  "value": "Rosemount 3051CFP Integral Orifice Flow meter",
+  "unit": null,
+  "source_page": 106
+ },
+ {
+  "parameter": "Dimensional drawings | Figure list | Figure 23",
+  "value": "Rosemount 3051L Configurations",
+  "unit": null,
+  "source_page": 107
+ },
+ {
+  "parameter": "Dimensional drawings | Figure list | Figure 24",
+  "value": "Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L",
+  "unit": null,
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 7: Rosemount 3051C Exploded View | Legend | A",
+  "value": "Cover",
+  "unit": null,
+  "source_page": 96
+ },
+ {
+  "parameter": "Figure 7: Rosemount 3051C Exploded View | Legend | B",
+  "value": "Cover O-ring",
+  "unit": null,
+  "source_page": 96
+ },
+ {
+  "parameter": "Figure 7: Rosemount 3051C Exploded View | Legend | C",
+  "value": "Terminal block",
+  "unit": null,
+  "source_page": 96
+ },
+ {
+  "parameter": "Figure 7: Rosemount 3051C Exploded View | Legend | D",
+  "value": "Electronics housing",
+  "unit": null,
+  "source_page": 96
+ },
+ {
+  "parameter": "Figure 7: Rosemount 3051C Exploded View | Legend | E",
+  "value": "Configuration buttons cover",
+  "unit": null,
+  "source_page": 96
+ },
+ {
+  "parameter": "Figure 7: Rosemount 3051C Exploded View | Legend | F",
+  "value": "Local configuration buttons",
+  "unit": null,
+  "source_page": 96
+ },
+ {
+  "parameter": "Figure 7: Rosemount 3051C Exploded View | Legend | G",
+  "value": "Electronics board",
+  "unit": null,
+  "source_page": 96
+ },
+ {
+  "parameter": "Figure 7: Rosemount 3051C Exploded View | Legend | H",
+  "value": "Name plate",
+  "unit": null,
+  "source_page": 96
+ },
+ {
+  "parameter": "Figure 7: Rosemount 3051C Exploded View | Legend | I",
+  "value": "Housing rotation set screw (180 degree maximum rotation without further disassembly)",
+  "unit": null,
+  "source_page": 96
+ },
+ {
+  "parameter": "Figure 7: Rosemount 3051C Exploded View | Legend | J",
+  "value": "Sensor module",
+  "unit": null,
+  "source_page": 96
+ },
+ {
+  "parameter": "Figure 7: Rosemount 3051C Exploded View | Legend | K",
+  "value": "Coplanar flange",
+  "unit": null,
+  "source_page": 96
+ },
+ {
+  "parameter": "Figure 7: Rosemount 3051C Exploded View | Legend | L",
+  "value": "Drain/vent valve",
+  "unit": null,
+  "source_page": 96
+ },
+ {
+  "parameter": "Figure 7: Rosemount 3051C Exploded View | Legend | M",
+  "value": "Flange adapters",
+  "unit": null,
+  "source_page": 96
+ },
+ {
+  "parameter": "Figure 7: Rosemount 3051C Exploded View | Legend | N",
+  "value": "Process O-ring",
+  "unit": null,
+  "source_page": 96
+ },
+ {
+  "parameter": "Figure 7: Rosemount 3051C Exploded View | Legend | O",
+  "value": "Flange adapter O-ring",
+  "unit": null,
+  "source_page": 96
+ },
+ {
+  "parameter": "Figure 7: Rosemount 3051C Exploded View | Legend | P",
+  "value": "Flange alignment screw (not pressure retaining)",
+  "unit": null,
+  "source_page": 96
+ },
+ {
+  "parameter": "Figure 7: Rosemount 3051C Exploded View | Legend | Q",
+  "value": "Flange bolts",
+  "unit": null,
+  "source_page": 96
+ },
+ {
+  "parameter": "Figure 8: Rosemount 3051C Coplanar Flange | Dimension units",
+  "value": "Dimensions are in inches (millimeters).",
+  "unit": null,
+  "source_page": 97
+ },
+ {
+  "parameter": "Figure 9: Rosemount 3051 Wireless Housing with Coplanar Flange | Dimension units",
+  "value": "Dimensions are in inches (millimeters).",
+  "unit": null,
+  "source_page": 97
+ },
+ {
+  "parameter": "Figure 10: Rosemount 3051C Coplanar Flange with Rosemount 305RC3 3-Valve Coplanar Integral Manifold | Dimension units",
+  "value": "Dimensions are in inches (millimeters).",
+  "unit": null,
+  "source_page": 98
+ },
+ {
+  "parameter": "Figure 11: Coplanar Flange Mounting Configurations with Optional Bracket (B4) for 2-in. Pipe or Panel Mounting | Legend | A",
+  "value": "5/16-18 bolts (not supplied)",
+  "unit": null,
+  "source_page": 99
+ },
+ {
+  "parameter": "Figure 11: Coplanar Flange Mounting Configurations with Optional Bracket (B4) for 2-in. Pipe or Panel Mounting | Legend | B",
+  "value": "3/8-16 bolts",
+  "unit": null,
+  "source_page": 99
+ },
+ {
+  "parameter": "Figure 11: Coplanar Flange Mounting Configurations with Optional Bracket (B4) for 2-in. Pipe or Panel Mounting | Legend | C",
+  "value": "2-in. U-bolt",
+  "unit": null,
+  "source_page": 99
+ },
+ {
+  "parameter": "Figure 11: Coplanar Flange Mounting Configurations with Optional Bracket (B4) for 2-in. Pipe or Panel Mounting | Legend | D",
+  "value": "3/8-16 bolts",
+  "unit": null,
+  "source_page": 99
+ },
+ {
+  "parameter": "Figure 11: Coplanar Flange Mounting Configurations with Optional Bracket (B4) for 2-in. Pipe or Panel Mounting | Dimension units",
+  "value": "Dimensions are in inches (millimeters).",
+  "unit": null,
+  "source_page": 99
+ },
+ {
+  "parameter": "Figure 12: Rosemount 3051C Coplanar with Traditional Flange | Legend | A",
+  "value": "Flange adapters (optional)",
+  "unit": null,
+  "source_page": 100
+ },
+ {
+  "parameter": "Figure 12: Rosemount 3051C Coplanar with Traditional Flange | Dimension units",
+  "value": "Dimensions are in inches (millimeters).",
+  "unit": null,
+  "source_page": 100
+ },
+ {
+  "parameter": "Figure 13: Rosemount 3051C Coplanar with Rosemount 305RT3 3-Valve Traditional Integral Manifold | Legend | A",
+  "value": "1/2-14 NPT flange adapter (optional)",
+  "unit": null,
+  "source_page": 100
+ },
+ {
+  "parameter": "Figure 13: Rosemount 3051C Coplanar with Rosemount 305RT3 3-Valve Traditional Integral Manifold | Dimension units",
+  "value": "Dimensions are in inches (millimeters).",
+  "unit": null,
+  "source_page": 100
+ },
+ {
+  "parameter": "Figure 14: Traditional Flange Mounting Configurations with Optional Brackets for 2-in. Pipe or Panel Mounting | Panel mounting bracket | Options",
+  "value": "B2/B8",
+  "unit": null,
+  "source_page": 101
+ },
+ {
+  "parameter": "Figure 14: Traditional Flange Mounting Configurations with Optional Brackets for 2-in. Pipe or Panel Mounting | Pipe mounting bracket | Options",
+  "value": "B1/B7/BA",
+  "unit": null,
+  "source_page": 101
+ },
+ {
+  "parameter": "Figure 14: Traditional Flange Mounting Configurations with Optional Brackets for 2-in. Pipe or Panel Mounting | Pipe mounting bracket | Options",
+  "value": "B3/B9/BC",
+  "unit": null,
+  "source_page": 101
+ },
+ {
+  "parameter": "Figure 14: Traditional Flange Mounting Configurations with Optional Brackets for 2-in. Pipe or Panel Mounting | Legend | A",
+  "value": "5/16-18 bolts (not supplied)",
+  "unit": null,
+  "source_page": 101
+ },
+ {
+  "parameter": "Figure 14: Traditional Flange Mounting Configurations with Optional Brackets for 2-in. Pipe or Panel Mounting | Dimension units",
+  "value": "Dimensions are in inches (millimeters).",
+  "unit": null,
+  "source_page": 101
+ },
+ {
+  "parameter": "Figure 15: Rosemount 3051T | Dimension units",
+  "value": "Dimensions are in inches (millimeters).",
+  "unit": null,
+  "source_page": 102
+ },
+ {
+  "parameter": "Figure 16: Rosemount 3051T Wireless Housing | Legend | A",
+  "value": "U-Bolt bracket",
+  "unit": null,
+  "source_page": 102
+ },
+ {
+  "parameter": "Figure 16: Rosemount 3051T Wireless Housing | Dimension units",
+  "value": "Dimensions are in inches (millimeters).",
+  "unit": null,
+  "source_page": 102
+ },
+ {
+  "parameter": "Figure 17: Rosemount 3051T In-Line Range 6 | Dimension units",
+  "value": "Dimensions are in inches (millimeters).",
+  "unit": null,
+  "source_page": 103
+ },
+ {
+  "parameter": "Figure 17: Rosemount 3051T In-Line Range 6 | Legend | A",
+  "value": "Autoclave type F-250-C",
+  "unit": null,
+  "source_page": 103
+ },
+ {
+  "parameter": "Figure 18: Rosemount 3051T with Rosemount 306 2-Valve Integral Manifold | Dimension units",
+  "value": "Dimensions are in inches (millimeters).",
+  "unit": null,
+  "source_page": 103
+ },
+ {
+  "parameter": "Figure 19: Rosemount 3051T Typical Mounting Configurations with Optional Mounting Bracket | View shown",
+  "value": "Pipe mounting",
+  "unit": null,
+  "source_page": 104
+ },
+ {
+  "parameter": "Figure 19: Rosemount 3051T Typical Mounting Configurations with Optional Mounting Bracket | View shown",
+  "value": "Panel mounting",
+  "unit": null,
+  "source_page": 104
+ },
+ {
+  "parameter": "Figure 19: Rosemount 3051T Typical Mounting Configurations with Optional Mounting Bracket | Dimension units",
+  "value": "Dimensions are in inches (millimeters).",
+  "unit": null,
+  "source_page": 104
+ },
+ {
+  "parameter": "Figure 20: Rosemount 3051CFA Pak-Lok Annubar Flow meter | Note | Pak-Lok Annubar™ model | Maximum rating",
+  "value": "The Pak-Lok Annubar™ model is available up to ASME B16.5 Class 600 rating (1440 psig at 100 °F [99 bar at 38 ℃]).",
+  "unit": null,
+  "source_page": 104
+ },
+ {
+  "parameter": "Figure 20: Rosemount 3051CFA Pak-Lok Annubar Flow meter | Note | Pak-Lok Annubar™ model | Maximum flange rating",
+  "value": "ASME B16.5 Class 600",
+  "unit": null,
+  "source_page": 104
+ },
+ {
+  "parameter": "Figure 20: Rosemount 3051CFA Pak-Lok Annubar Flow meter | Note | Pak-Lok Annubar™ model | ASME B16.5 Class 600 | 100 °F | Maximum pressure",
+  "value": "1440",
+  "unit": "psig",
+  "source_page": 104
+ },
+ {
+  "parameter": "Figure 20: Rosemount 3051CFA Pak-Lok Annubar Flow meter | Note | Pak-Lok Annubar™ model | ASME B16.5 Class 600 | 38 ℃ | Maximum pressure",
+  "value": "99",
+  "unit": "bar",
+  "source_page": 104
+ },
+ {
+  "parameter": "Figure 20: Rosemount 3051CFA Pak-Lok Annubar Flow meter | View shown",
+  "value": "Front View",
+  "unit": null,
+  "source_page": 104
+ },
+ {
+  "parameter": "Figure 20: Rosemount 3051CFA Pak-Lok Annubar Flow meter | View shown",
+  "value": "Side View",
+  "unit": null,
+  "source_page": 104
+ },
+ {
+  "parameter": "Figure 20: Rosemount 3051CFA Pak-Lok Annubar Flow meter | View shown",
+  "value": "Top View",
+  "unit": null,
+  "source_page": 104
+ },
+ {
+  "parameter": "Table 10: Rosemount 3051CFA Pak-Lok Annubar Flow meter Dimensional Data (Maximum Dimensions) | Sensor size 1 | A",
+  "value": "8.50",
+  "unit": "in",
+  "source_page": 104
+ },
+ {
+  "parameter": "Table 10: Rosemount 3051CFA Pak-Lok Annubar Flow meter Dimensional Data (Maximum Dimensions) | Sensor size 1 | A",
+  "value": "215.9",
+  "unit": "mm",
+  "source_page": 104
+ },
+ {
+  "parameter": "Table 10: Rosemount 3051CFA Pak-Lok Annubar Flow meter Dimensional Data (Maximum Dimensions) | Sensor size 1 | B",
+  "value": "15.60",
+  "unit": "in",
+  "source_page": 104
+ },
+ {
+  "parameter": "Table 10: Rosemount 3051CFA Pak-Lok Annubar Flow meter Dimensional Data (Maximum Dimensions) | Sensor size 1 | B",
+  "value": "396.9",
+  "unit": "mm",
+  "source_page": 104
+ },
+ {
+  "parameter": "Table 10: Rosemount 3051CFA Pak-Lok Annubar Flow meter Dimensional Data (Maximum Dimensions) | Sensor size 1 | C",
+  "value": "9.00",
+  "unit": "in",
+  "source_page": 104
+ },
+ {
+  "parameter": "Table 10: Rosemount 3051CFA Pak-Lok Annubar Flow meter Dimensional Data (Maximum Dimensions) | Sensor size 1 | C",
+  "value": "228.6",
+  "unit": "mm",
+  "source_page": 104
+ },
+ {
+  "parameter": "Table 10: Rosemount 3051CFA Pak-Lok Annubar Flow meter Dimensional Data (Maximum Dimensions) | Sensor size 1 | D",
+  "value": "6.00",
+  "unit": "in",
+  "source_page": 104
+ },
+ {
+  "parameter": "Table 10: Rosemount 3051CFA Pak-Lok Annubar Flow meter Dimensional Data (Maximum Dimensions) | Sensor size 1 | D",
+  "value": "152.4",
+  "unit": "mm",
+  "source_page": 104
+ },
+ {
+  "parameter": "Table 10: Rosemount 3051CFA Pak-Lok Annubar Flow meter Dimensional Data (Maximum Dimensions) | Sensor size 2 | A",
+  "value": "11.00",
+  "unit": "in",
+  "source_page": 105
+ },
+ {
+  "parameter": "Table 10: Rosemount 3051CFA Pak-Lok Annubar Flow meter Dimensional Data (Maximum Dimensions) | Sensor size 2 | A",
+  "value": "279.4",
+  "unit": "mm",
+  "source_page": 105
+ },
+ {
+  "parameter": "Table 10: Rosemount 3051CFA Pak-Lok Annubar Flow meter Dimensional Data (Maximum Dimensions) | Sensor size 2 | B",
+  "value": "18.10",
+  "unit": "in",
+  "source_page": 105
+ },
+ {
+  "parameter": "Table 10: Rosemount 3051CFA Pak-Lok Annubar Flow meter Dimensional Data (Maximum Dimensions) | Sensor size 2 | B",
+  "value": "460.4",
+  "unit": "mm",
+  "source_page": 105
+ },
+ {
+  "parameter": "Table 10: Rosemount 3051CFA Pak-Lok Annubar Flow meter Dimensional Data (Maximum Dimensions) | Sensor size 2 | C",
+  "value": "9.00",
+  "unit": "in",
+  "source_page": 105
+ },
+ {
+  "parameter": "Table 10: Rosemount 3051CFA Pak-Lok Annubar Flow meter Dimensional Data (Maximum Dimensions) | Sensor size 2 | C",
+  "value": "228.6",
+  "unit": "mm",
+  "source_page": 105
+ },
+ {
+  "parameter": "Table 10: Rosemount 3051CFA Pak-Lok Annubar Flow meter Dimensional Data (Maximum Dimensions) | Sensor size 2 | D",
+  "value": "6.00",
+  "unit": "in",
+  "source_page": 105
+ },
+ {
+  "parameter": "Table 10: Rosemount 3051CFA Pak-Lok Annubar Flow meter Dimensional Data (Maximum Dimensions) | Sensor size 2 | D",
+  "value": "152.4",
+  "unit": "mm",
+  "source_page": 105
+ },
+ {
+  "parameter": "Table 10: Rosemount 3051CFA Pak-Lok Annubar Flow meter Dimensional Data (Maximum Dimensions) | Sensor size 3 | A",
+  "value": "12.00",
+  "unit": "in",
+  "source_page": 105
+ },
+ {
+  "parameter": "Table 10: Rosemount 3051CFA Pak-Lok Annubar Flow meter Dimensional Data (Maximum Dimensions) | Sensor size 3 | A",
+  "value": "304.8",
+  "unit": "mm",
+  "source_page": 105
+ },
+ {
+  "parameter": "Table 10: Rosemount 3051CFA Pak-Lok Annubar Flow meter Dimensional Data (Maximum Dimensions) | Sensor size 3 | B",
+  "value": "19.10",
+  "unit": "in",
+  "source_page": 105
+ },
+ {
+  "parameter": "Table 10: Rosemount 3051CFA Pak-Lok Annubar Flow meter Dimensional Data (Maximum Dimensions) | Sensor size 3 | B",
+  "value": "485.8",
+  "unit": "mm",
+  "source_page": 105
+ },
+ {
+  "parameter": "Table 10: Rosemount 3051CFA Pak-Lok Annubar Flow meter Dimensional Data (Maximum Dimensions) | Sensor size 3 | C",
+  "value": "9.00",
+  "unit": "in",
+  "source_page": 105
+ },
+ {
+  "parameter": "Table 10: Rosemount 3051CFA Pak-Lok Annubar Flow meter Dimensional Data (Maximum Dimensions) | Sensor size 3 | C",
+  "value": "228.6",
+  "unit": "mm",
+  "source_page": 105
+ },
+ {
+  "parameter": "Table 10: Rosemount 3051CFA Pak-Lok Annubar Flow meter Dimensional Data (Maximum Dimensions) | Sensor size 3 | D",
+  "value": "6.00",
+  "unit": "in",
+  "source_page": 105
+ },
+ {
+  "parameter": "Table 10: Rosemount 3051CFA Pak-Lok Annubar Flow meter Dimensional Data (Maximum Dimensions) | Sensor size 3 | D",
+  "value": "152.4",
+  "unit": "mm",
+  "source_page": 105
+ },
+ {
+  "parameter": "Table 10: Rosemount 3051CFA Pak-Lok Annubar Flow meter Dimensional Data (Maximum Dimensions) | Dimension units",
+  "value": "Dimensions are in inches (millimeters).",
+  "unit": null,
+  "source_page": 105
+ },
+ {
+  "parameter": "Figure 21: Rosemount 3051CFC Compact Orifice Flow meter | Primary element type code P",
+  "value": "Compact orifice plate",
+  "unit": null,
+  "source_page": 105
+ },
+ {
+  "parameter": "Figure 21: Rosemount 3051CFC Compact Orifice Flow meter | Primary element type code C",
+  "value": "Conditioning orifice plate",
+  "unit": null,
+  "source_page": 105
+ },
+ {
+  "parameter": "Figure 21: Rosemount 3051CFC Compact Orifice Flow meter | View shown",
+  "value": "Orifice plate side view",
+  "unit": null,
+  "source_page": 105
+ },
+ {
+  "parameter": "Figure 21: Rosemount 3051CFC Compact Orifice Flow meter | View shown",
+  "value": "Orifice plate front view",
+  "unit": null,
+  "source_page": 105
+ },
+ {
+  "parameter": "Figure 21: Rosemount 3051CFC Compact Orifice Flow meter | View shown",
+  "value": "Orifice plate top view",
+  "unit": null,
+  "source_page": 105
+ },
+ {
+  "parameter": "Figure 21: Rosemount 3051CFC Compact Orifice Flow meter | Primary element type Type P and C | A",
+  "value": "5.62",
+  "unit": "in",
+  "source_page": 105
+ },
+ {
+  "parameter": "Figure 21: Rosemount 3051CFC Compact Orifice Flow meter | Primary element type Type P and C | A",
+  "value": "143",
+  "unit": "mm",
+  "source_page": 105
+ },
+ {
+  "parameter": "Figure 21: Rosemount 3051CFC Compact Orifice Flow meter | Primary element type Type P and C | B",
+  "value": "Transmitter height + A",
+  "unit": null,
+  "source_page": 105
+ },
+ {
+  "parameter": "Figure 21: Rosemount 3051CFC Compact Orifice Flow meter | Primary element type Type P and C | Transmitter height",
+  "value": "6.27",
+  "unit": "in",
+  "source_page": 105
+ },
+ {
+  "parameter": "Figure 21: Rosemount 3051CFC Compact Orifice Flow meter | Primary element type Type P and C | Transmitter height",
+  "value": "159",
+  "unit": "mm",
+  "source_page": 105
+ },
+ {
+  "parameter": "Figure 21: Rosemount 3051CFC Compact Orifice Flow meter | Primary element type Type P and C | closed | C",
+  "value": "7.75",
+  "unit": "in",
+  "source_page": 105
+ },
+ {
+  "parameter": "Figure 21: Rosemount 3051CFC Compact Orifice Flow meter | Primary element type Type P and C | closed | C",
+  "value": "197",
+  "unit": "mm",
+  "source_page": 105
+ },
+ {
+  "parameter": "Figure 21: Rosemount 3051CFC Compact Orifice Flow meter | Primary element type Type P and C | open | C",
+  "value": "8.25",
+  "unit": "in",
+  "source_page": 105
+ },
+ {
+  "parameter": "Figure 21: Rosemount 3051CFC Compact Orifice Flow meter | Primary element type Type P and C | open | C",
+  "value": "210",
+  "unit": "mm",
+  "source_page": 105
+ },
+ {
+  "parameter": "Figure 21: Rosemount 3051CFC Compact Orifice Flow meter | Primary element type Type P and C | closed | D",
+  "value": "6.00",
+  "unit": "in",
+  "source_page": 105
+ },
+ {
+  "parameter": "Figure 21: Rosemount 3051CFC Compact Orifice Flow meter | Primary element type Type P and C | closed | D",
+  "value": "152",
+  "unit": "mm",
+  "source_page": 105
+ },
+ {
+  "parameter": "Figure 21: Rosemount 3051CFC Compact Orifice Flow meter | Primary element type Type P and C | open | D",
+  "value": "6.25",
+  "unit": "in",
+  "source_page": 105
+ },
+ {
+  "parameter": "Figure 21: Rosemount 3051CFC Compact Orifice Flow meter | Primary element type Type P and C | open | D",
+  "value": "159",
+  "unit": "mm",
+  "source_page": 105
+ },
+ {
+  "parameter": "Figure 21: Rosemount 3051CFC Compact Orifice Flow meter | Dimension units",
+  "value": "Dimensions are in inches (millimeters).",
+  "unit": null,
+  "source_page": 105
+ },
+ {
+  "parameter": "Figure 22: Rosemount 3051CFP Integral Orifice Flow meter | View shown",
+  "value": "Side view",
+  "unit": null,
+  "source_page": 106
+ },
+ {
+  "parameter": "Figure 22: Rosemount 3051CFP Integral Orifice Flow meter | Legend | A",
+  "value": "B.D. (bore diameter)",
+  "unit": null,
+  "source_page": 106
+ },
+ {
+  "parameter": "Figure 22: Rosemount 3051CFP Integral Orifice Flow meter | Dimension units",
+  "value": "Dimensions are in inches (millimeters).",
+  "unit": null,
+  "source_page": 106
+ },
+ {
+  "parameter": "Figure 22: Rosemount 3051CFP Integral Orifice Flow meter | Line size 1/2 in. (15 mm) | J (Beveled/threaded pipe ends)",
+  "value": "12.54",
+  "unit": "in",
+  "source_page": 106
+ },
+ {
+  "parameter": "Figure 22: Rosemount 3051CFP Integral Orifice Flow meter | Line size 1/2 in. (15 mm) | J (Beveled/threaded pipe ends)",
+  "value": "318.4",
+  "unit": "mm",
+  "source_page": 106
+ },
+ {
+  "parameter": "Figure 22: Rosemount 3051CFP Integral Orifice Flow meter | Line size 1 in. (25 mm) | J (Beveled/threaded pipe ends)",
+  "value": "20.24",
+  "unit": "in",
+  "source_page": 106
+ },
+ {
+  "parameter": "Figure 22: Rosemount 3051CFP Integral Orifice Flow meter | Line size 1 in. (25 mm) | J (Beveled/threaded pipe ends)",
+  "value": "514.0",
+  "unit": "mm",
+  "source_page": 106
+ },
+ {
+  "parameter": "Figure 22: Rosemount 3051CFP Integral Orifice Flow meter | Line size 1½ in. (40 mm) | J (Beveled/threaded pipe ends)",
+  "value": "28.44",
+  "unit": "in",
+  "source_page": 106
+ },
+ {
+  "parameter": "Figure 22: Rosemount 3051CFP Integral Orifice Flow meter | Line size 1½ in. (40 mm) | J (Beveled/threaded pipe ends)",
+  "value": "722.4",
+  "unit": "mm",
+  "source_page": 106
+ },
+ {
+  "parameter": "Figure 22: Rosemount 3051CFP Integral Orifice Flow meter | Line size 1/2 in. (15 mm) | J (RF slip-on, RTJ slip-on, RF-DIN slip on)",
+  "value": "12.62",
+  "unit": "in",
+  "source_page": 106
+ },
+ {
+  "parameter": "Figure 22: Rosemount 3051CFP Integral Orifice Flow meter | Line size 1/2 in. (15 mm) | J (RF slip-on, RTJ slip-on, RF-DIN slip on)",
+  "value": "320.4",
+  "unit": "mm",
+  "source_page": 106
+ },
+ {
+  "parameter": "Figure 22: Rosemount 3051CFP Integral Orifice Flow meter | Line size 1 in. (25 mm) | J (RF slip-on, RTJ slip-on, RF-DIN slip on)",
+  "value": "20.32",
+  "unit": "in",
+  "source_page": 106
+ },
+ {
+  "parameter": "Figure 22: Rosemount 3051CFP Integral Orifice Flow meter | Line size 1 in. (25 mm) | J (RF slip-on, RTJ slip-on, RF-DIN slip on)",
+  "value": "516.0",
+  "unit": "mm",
+  "source_page": 106
+ },
+ {
+  "parameter": "Figure 22: Rosemount 3051CFP Integral Orifice Flow meter | Line size 1½ in. (40 mm) | J (RF slip-on, RTJ slip-on, RF-DIN slip on)",
+  "value": "28.52",
+  "unit": "in",
+  "source_page": 106
+ },
+ {
+  "parameter": "Figure 22: Rosemount 3051CFP Integral Orifice Flow meter | Line size 1½ in. (40 mm) | J (RF slip-on, RTJ slip-on, RF-DIN slip on)",
+  "value": "724.4",
+  "unit": "mm",
+  "source_page": 106
+ },
+ {
+  "parameter": "Figure 22: Rosemount 3051CFP Integral Orifice Flow meter | Line size 1/2 in. (15 mm) | J (RF Class 150, weld neck)",
+  "value": "14.37",
+  "unit": "in",
+  "source_page": 106
+ },
+ {
+  "parameter": "Figure 22: Rosemount 3051CFP Integral Orifice Flow meter | Line size 1/2 in. (15 mm) | J (RF Class 150, weld neck)",
+  "value": "364.9",
+  "unit": "mm",
+  "source_page": 106
+ },
+ {
+  "parameter": "Figure 22: Rosemount 3051CFP Integral Orifice Flow meter | Line size 1 in. (25 mm) | J (RF Class 150, weld neck)",
+  "value": "22.37",
+  "unit": "in",
+  "source_page": 106
+ },
+ {
+  "parameter": "Figure 22: Rosemount 3051CFP Integral Orifice Flow meter | Line size 1 in. (25 mm) | J (RF Class 150, weld neck)",
+  "value": "568.1",
+  "unit": "mm",
+  "source_page": 106
+ },
+ {
+  "parameter": "Figure 22: Rosemount 3051CFP Integral Orifice Flow meter | Line size 1½ in. (40 mm) | J (RF Class 150, weld neck)",
+  "value": "30.82",
+  "unit": "in",
+  "source_page": 106
+ },
+ {
+  "parameter": "Figure 22: Rosemount 3051CFP Integral Orifice Flow meter | Line size 1½ in. (40 mm) | J (RF Class 150, weld neck)",
+  "value": "782.9",
+  "unit": "mm",
+  "source_page": 106
+ },
+ {
+  "parameter": "Figure 22: Rosemount 3051CFP Integral Orifice Flow meter | Line size 1/2 in. (15 mm) | J (RF Class 300, weld neck)",
+  "value": "14.56",
+  "unit": "in",
+  "source_page": 106
+ },
+ {
+  "parameter": "Figure 22: Rosemount 3051CFP Integral Orifice Flow meter | Line size 1/2 in. (15 mm) | J (RF Class 300, weld neck)",
+  "value": "369.8",
+  "unit": "mm",
+  "source_page": 106
+ },
+ {
+  "parameter": "Figure 22: Rosemount 3051CFP Integral Orifice Flow meter | Line size 1 in. (25 mm) | J (RF Class 300, weld neck)",
+  "value": "22.63",
+  "unit": "in",
+  "source_page": 106
+ },
+ {
+  "parameter": "Figure 22: Rosemount 3051CFP Integral Orifice Flow meter | Line size 1 in. (25 mm) | J (RF Class 300, weld neck)",
+  "value": "574.7",
+  "unit": "mm",
+  "source_page": 106
+ },
+ {
+  "parameter": "Figure 22: Rosemount 3051CFP Integral Orifice Flow meter | Line size 1½ in. (40 mm) | J (RF Class 300, weld neck)",
+  "value": "31.06",
+  "unit": "in",
+  "source_page": 106
+ },
+ {
+  "parameter": "Figure 22: Rosemount 3051CFP Integral Orifice Flow meter | Line size 1½ in. (40 mm) | J (RF Class 300, weld neck)",
+  "value": "789.0",
+  "unit": "mm",
+  "source_page": 106
+ },
+ {
+  "parameter": "Figure 22: Rosemount 3051CFP Integral Orifice Flow meter | Line size 1/2 in. (15 mm) | J (RF Class 600, weld neck)",
+  "value": "14.81",
+  "unit": "in",
+  "source_page": 106
+ },
+ {
+  "parameter": "Figure 22: Rosemount 3051CFP Integral Orifice Flow meter | Line size 1/2 in. (15 mm) | J (RF Class 600, weld neck)",
+  "value": "376.0",
+  "unit": "mm",
+  "source_page": 106
+ },
+ {
+  "parameter": "Figure 22: Rosemount 3051CFP Integral Orifice Flow meter | Line size 1 in. (25 mm) | J (RF Class 600, weld neck)",
+  "value": "22.88",
+  "unit": "in",
+  "source_page": 106
+ },
+ {
+  "parameter": "Figure 22: Rosemount 3051CFP Integral Orifice Flow meter | Line size 1 in. (25 mm) | J (RF Class 600, weld neck)",
+  "value": "581.0",
+  "unit": "mm",
+  "source_page": 106
+ },
+ {
+  "parameter": "Figure 22: Rosemount 3051CFP Integral Orifice Flow meter | Line size 1½ in. (40 mm) | J (RF Class 600, weld neck)",
+  "value": "31.38",
+  "unit": "in",
+  "source_page": 106
+ },
+ {
+  "parameter": "Figure 22: Rosemount 3051CFP Integral Orifice Flow meter | Line size 1½ in. (40 mm) | J (RF Class 600, weld neck)",
+  "value": "797.1",
+  "unit": "mm",
+  "source_page": 106
+ },
+ {
+  "parameter": "Figure 22: Rosemount 3051CFP Integral Orifice Flow meter | Line size 1/2 in. (15 mm) | K (Beveled/threaded pipe ends)",
+  "value": "5.74",
+  "unit": "in",
+  "source_page": 106
+ },
+ {
+  "parameter": "Figure 22: Rosemount 3051CFP Integral Orifice Flow meter | Line size 1/2 in. (15 mm) | K (Beveled/threaded pipe ends)",
+  "value": "145.7",
+  "unit": "mm",
+  "source_page": 106
+ },
+ {
+  "parameter": "Figure 22: Rosemount 3051CFP Integral Orifice Flow meter | Line size 1 in. (25 mm) | K (Beveled/threaded pipe ends)",
+  "value": "8.75",
+  "unit": "in",
+  "source_page": 106
+ },
+ {
+  "parameter": "Figure 22: Rosemount 3051CFP Integral Orifice Flow meter | Line size 1 in. (25 mm) | K (Beveled/threaded pipe ends)",
+  "value": "222.2",
+  "unit": "mm",
+  "source_page": 106
+ },
+ {
+  "parameter": "Figure 22: Rosemount 3051CFP Integral Orifice Flow meter | Line size 1½ in. (40 mm) | K (Beveled/threaded pipe ends)",
+  "value": "11.91",
+  "unit": "in",
+  "source_page": 106
+ },
+ {
+  "parameter": "Figure 22: Rosemount 3051CFP Integral Orifice Flow meter | Line size 1½ in. (40 mm) | K (Beveled/threaded pipe ends)",
+  "value": "302.6",
+  "unit": "mm",
+  "source_page": 106
+ },
+ {
+  "parameter": "Figure 22: Rosemount 3051CFP Integral Orifice Flow meter | Line size 1/2 in. (15 mm) | K (RF slip-on, RTJ slip-on, RF-DIN slip on) [fn 1]",
+  "value": "5.82",
+  "unit": "in",
+  "source_page": 106
+ },
+ {
+  "parameter": "Figure 22: Rosemount 3051CFP Integral Orifice Flow meter | Line size 1/2 in. (15 mm) | K (RF slip-on, RTJ slip-on, RF-DIN slip on) [fn 1]",
+  "value": "147.8",
+  "unit": "mm",
+  "source_page": 106
+ },
+ {
+  "parameter": "Figure 22: Rosemount 3051CFP Integral Orifice Flow meter | Line size 1 in. (25 mm) | K (RF slip-on, RTJ slip-on, RF-DIN slip on) [fn 1]",
+  "value": "8.83",
+  "unit": "in",
+  "source_page": 106
+ },
+ {
+  "parameter": "Figure 22: Rosemount 3051CFP Integral Orifice Flow meter | Line size 1 in. (25 mm) | K (RF slip-on, RTJ slip-on, RF-DIN slip on) [fn 1]",
+  "value": "224.2",
+  "unit": "mm",
+  "source_page": 106
+ },
+ {
+  "parameter": "Figure 22: Rosemount 3051CFP Integral Orifice Flow meter | Line size 1½ in. (40 mm) | K (RF slip-on, RTJ slip-on, RF-DIN slip on) [fn 1]",
+  "value": "11.99",
+  "unit": "in",
+  "source_page": 106
+ },
+ {
+  "parameter": "Figure 22: Rosemount 3051CFP Integral Orifice Flow meter | Line size 1½ in. (40 mm) | K (RF slip-on, RTJ slip-on, RF-DIN slip on) [fn 1]",
+  "value": "304.6",
+  "unit": "mm",
+  "source_page": 106
+ },
+ {
+  "parameter": "Figure 22: Rosemount 3051CFP Integral Orifice Flow meter | Line size 1/2 in. (15 mm) | K (RF Class 150, weld neck)",
+  "value": "7.57",
+  "unit": "in",
+  "source_page": 106
+ },
+ {
+  "parameter": "Figure 22: Rosemount 3051CFP Integral Orifice Flow meter | Line size 1/2 in. (15 mm) | K (RF Class 150, weld neck)",
+  "value": "192.3",
+  "unit": "mm",
+  "source_page": 106
+ },
+ {
+  "parameter": "Figure 22: Rosemount 3051CFP Integral Orifice Flow meter | Line size 1 in. (25 mm) | K (RF Class 150, weld neck)",
+  "value": "10.88",
+  "unit": "in",
+  "source_page": 106
+ },
+ {
+  "parameter": "Figure 22: Rosemount 3051CFP Integral Orifice Flow meter | Line size 1 in. (25 mm) | K (RF Class 150, weld neck)",
+  "value": "276.3",
+  "unit": "mm",
+  "source_page": 106
+ },
+ {
+  "parameter": "Figure 22: Rosemount 3051CFP Integral Orifice Flow meter | Line size 1½ in. (40 mm) | K (RF Class 150, weld neck)",
+  "value": "14.29",
+  "unit": "in",
+  "source_page": 106
+ },
+ {
+  "parameter": "Figure 22: Rosemount 3051CFP Integral Orifice Flow meter | Line size 1½ in. (40 mm) | K (RF Class 150, weld neck)",
+  "value": "363.1",
+  "unit": "mm",
+  "source_page": 106
+ },
+ {
+  "parameter": "Figure 22: Rosemount 3051CFP Integral Orifice Flow meter | Line size 1/2 in. (15 mm) | K (RF Class 300, weld neck)",
+  "value": "7.76",
+  "unit": "in",
+  "source_page": 106
+ },
+ {
+  "parameter": "Figure 22: Rosemount 3051CFP Integral Orifice Flow meter | Line size 1/2 in. (15 mm) | K (RF Class 300, weld neck)",
+  "value": "197.1",
+  "unit": "mm",
+  "source_page": 106
+ },
+ {
+  "parameter": "Figure 22: Rosemount 3051CFP Integral Orifice Flow meter | Line size 1 in. (25 mm) | K (RF Class 300, weld neck)",
+  "value": "11.14",
+  "unit": "in",
+  "source_page": 106
+ },
+ {
+  "parameter": "Figure 22: Rosemount 3051CFP Integral Orifice Flow meter | Line size 1 in. (25 mm) | K (RF Class 300, weld neck)",
+  "value": "282.9",
+  "unit": "mm",
+  "source_page": 106
+ },
+ {
+  "parameter": "Figure 22: Rosemount 3051CFP Integral Orifice Flow meter | Line size 1½ in. (40 mm) | K (RF Class 300, weld neck)",
+  "value": "14.53",
+  "unit": "in",
+  "source_page": 106
+ },
+ {
+  "parameter": "Figure 22: Rosemount 3051CFP Integral Orifice Flow meter | Line size 1½ in. (40 mm) | K (RF Class 300, weld neck)",
+  "value": "369.2",
+  "unit": "mm",
+  "source_page": 106
+ },
+ {
+  "parameter": "Figure 22: Rosemount 3051CFP Integral Orifice Flow meter | Line size 1/2 in. (15 mm) | K (RF Class 600, weld neck)",
+  "value": "8.01",
+  "unit": "in",
+  "source_page": 106
+ },
+ {
+  "parameter": "Figure 22: Rosemount 3051CFP Integral Orifice Flow meter | Line size 1/2 in. (15 mm) | K (RF Class 600, weld neck)",
+  "value": "203.4",
+  "unit": "mm",
+  "source_page": 106
+ },
+ {
+  "parameter": "Figure 22: Rosemount 3051CFP Integral Orifice Flow meter | Line size 1 in. (25 mm) | K (RF Class 600, weld neck)",
+  "value": "11.39",
+  "unit": "in",
+  "source_page": 106
+ },
+ {
+  "parameter": "Figure 22: Rosemount 3051CFP Integral Orifice Flow meter | Line size 1 in. (25 mm) | K (RF Class 600, weld neck)",
+  "value": "289.2",
+  "unit": "mm",
+  "source_page": 106
+ },
+ {
+  "parameter": "Figure 22: Rosemount 3051CFP Integral Orifice Flow meter | Line size 1½ in. (40 mm) | K (RF Class 600, weld neck)",
+  "value": "14.85",
+  "unit": "in",
+  "source_page": 106
+ },
+ {
+  "parameter": "Figure 22: Rosemount 3051CFP Integral Orifice Flow meter | Line size 1½ in. (40 mm) | K (RF Class 600, weld neck)",
+  "value": "377.2",
+  "unit": "mm",
+  "source_page": 106
+ },
+ {
+  "parameter": "Figure 22: Rosemount 3051CFP Integral Orifice Flow meter | Line size 1/2 in. (15 mm) | B.D. (Bore diameter)",
+  "value": "0.664",
+  "unit": "in",
+  "source_page": 106
+ },
+ {
+  "parameter": "Figure 22: Rosemount 3051CFP Integral Orifice Flow meter | Line size 1/2 in. (15 mm) | B.D. (Bore diameter)",
+  "value": "16.87",
+  "unit": "mm",
+  "source_page": 106
+ },
+ {
+  "parameter": "Figure 22: Rosemount 3051CFP Integral Orifice Flow meter | Line size 1 in. (25 mm) | B.D. (Bore diameter)",
+  "value": "1.097",
+  "unit": "in",
+  "source_page": 106
+ },
+ {
+  "parameter": "Figure 22: Rosemount 3051CFP Integral Orifice Flow meter | Line size 1 in. (25 mm) | B.D. (Bore diameter)",
+  "value": "27.86",
+  "unit": "mm",
+  "source_page": 106
+ },
+ {
+  "parameter": "Figure 22: Rosemount 3051CFP Integral Orifice Flow meter | Line size 1½ in. (40 mm) | B.D. (Bore diameter)",
+  "value": "1.567",
+  "unit": "in",
+  "source_page": 106
+ },
+ {
+  "parameter": "Figure 22: Rosemount 3051CFP Integral Orifice Flow meter | Line size 1½ in. (40 mm) | B.D. (Bore diameter)",
+  "value": "39.80",
+  "unit": "mm",
+  "source_page": 106
+ },
+ {
+  "parameter": "Figure 22: Rosemount 3051CFP Integral Orifice Flow meter | footnote 1",
+  "value": "Downstream length shown here includes plate thickness of 0.162-in. (4.11 mm).",
+  "unit": null,
+  "source_page": 107
+ },
+ {
+  "parameter": "Figure 23: Rosemount 3051L Configurations | View shown",
+  "value": "2-inch flange Configuration (flush mount only)",
+  "unit": null,
+  "source_page": 107
+ },
+ {
+  "parameter": "Figure 23: Rosemount 3051L Configurations | View shown",
+  "value": "3- and 4-inch flange configuration",
+  "unit": null,
+  "source_page": 107
+ },
+ {
+  "parameter": "Figure 23: Rosemount 3051L Configurations | View shown",
+  "value": "Diaphragm assembly and mounting flange",
+  "unit": null,
+  "source_page": 107
+ },
+ {
+  "parameter": "Figure 23: Rosemount 3051L Configurations | 2-inch flange configuration | Mounting",
+  "value": "flush mount only",
+  "unit": null,
+  "source_page": 107
+ },
+ {
+  "parameter": "Figure 23: Rosemount 3051L Configurations | Legend | E",
+  "value": "2-, 4-, or 6-in. extension (only available with 3- and 4-in., DN80, and DN100 flange configurations)",
+  "unit": null,
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: ASME B16.5 (ANSI) 150 | Pipe size: 2 (51) | Flange thickness A",
+  "value": "0.69",
+  "unit": "in",
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: ASME B16.5 (ANSI) 150 | Pipe size: 2 (51) | Flange thickness A",
+  "value": "18",
+  "unit": "mm",
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: ASME B16.5 (ANSI) 150 | Pipe size: 2 (51) | B",
+  "value": "5.65",
+  "unit": "in",
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: ASME B16.5 (ANSI) 150 | Pipe size: 2 (51) | B",
+  "value": "143",
+  "unit": "mm",
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: ASME B16.5 (ANSI) 150 | Pipe size: 2 (51) | Extension diameter [fn 1] C",
+  "value": "N/A",
+  "unit": null,
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: ASME B16.5 (ANSI) 150 | Pipe size: 2 (51) | O.D. gasket surface D",
+  "value": "3.6",
+  "unit": "in",
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: ASME B16.5 (ANSI) 150 | Pipe size: 2 (51) | O.D. gasket surface D",
+  "value": "92",
+  "unit": "mm",
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: ASME B16.5 (ANSI) 150 | Pipe size: 3 (76) | Flange thickness A",
+  "value": "0.88",
+  "unit": "in",
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: ASME B16.5 (ANSI) 150 | Pipe size: 3 (76) | Flange thickness A",
+  "value": "22",
+  "unit": "mm",
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: ASME B16.5 (ANSI) 150 | Pipe size: 3 (76) | B",
+  "value": "5.65",
+  "unit": "in",
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: ASME B16.5 (ANSI) 150 | Pipe size: 3 (76) | B",
+  "value": "143",
+  "unit": "mm",
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: ASME B16.5 (ANSI) 150 | Pipe size: 3 (76) | Extension diameter [fn 1] C",
+  "value": "2.58",
+  "unit": "in",
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: ASME B16.5 (ANSI) 150 | Pipe size: 3 (76) | Extension diameter [fn 1] C",
+  "value": "66",
+  "unit": "mm",
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: ASME B16.5 (ANSI) 150 | Pipe size: 3 (76) | O.D. gasket surface D",
+  "value": "5.0",
+  "unit": "in",
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: ASME B16.5 (ANSI) 150 | Pipe size: 3 (76) | O.D. gasket surface D",
+  "value": "127",
+  "unit": "mm",
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: ASME B16.5 (ANSI) 150 | Pipe size: 4 (102) | Flange thickness A",
+  "value": "0.88",
+  "unit": "in",
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: ASME B16.5 (ANSI) 150 | Pipe size: 4 (102) | Flange thickness A",
+  "value": "22",
+  "unit": "mm",
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: ASME B16.5 (ANSI) 150 | Pipe size: 4 (102) | B",
+  "value": "5.65",
+  "unit": "in",
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: ASME B16.5 (ANSI) 150 | Pipe size: 4 (102) | B",
+  "value": "143",
+  "unit": "mm",
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: ASME B16.5 (ANSI) 150 | Pipe size: 4 (102) | Extension diameter [fn 1] C",
+  "value": "3.5",
+  "unit": "in",
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: ASME B16.5 (ANSI) 150 | Pipe size: 4 (102) | Extension diameter [fn 1] C",
+  "value": "89",
+  "unit": "mm",
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: ASME B16.5 (ANSI) 150 | Pipe size: 4 (102) | O.D. gasket surface D",
+  "value": "6.2",
+  "unit": "in",
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: ASME B16.5 (ANSI) 150 | Pipe size: 4 (102) | O.D. gasket surface D",
+  "value": "158",
+  "unit": "mm",
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: ASME B16.5 (ANSI) 300 | Pipe size: 2 (51) | Flange thickness A",
+  "value": "0.82",
+  "unit": "in",
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: ASME B16.5 (ANSI) 300 | Pipe size: 2 (51) | Flange thickness A",
+  "value": "21",
+  "unit": "mm",
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: ASME B16.5 (ANSI) 300 | Pipe size: 2 (51) | B",
+  "value": "5.65",
+  "unit": "in",
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: ASME B16.5 (ANSI) 300 | Pipe size: 2 (51) | B",
+  "value": "143",
+  "unit": "mm",
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: ASME B16.5 (ANSI) 300 | Pipe size: 2 (51) | Extension diameter [fn 1] C",
+  "value": "N/A",
+  "unit": null,
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: ASME B16.5 (ANSI) 300 | Pipe size: 2 (51) | O.D. gasket surface D",
+  "value": "3.6",
+  "unit": "in",
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: ASME B16.5 (ANSI) 300 | Pipe size: 2 (51) | O.D. gasket surface D",
+  "value": "92",
+  "unit": "mm",
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: ASME B16.5 (ANSI) 300 | Pipe size: 3 (76) | Flange thickness A",
+  "value": "1.06",
+  "unit": "in",
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: ASME B16.5 (ANSI) 300 | Pipe size: 3 (76) | Flange thickness A",
+  "value": "27",
+  "unit": "mm",
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: ASME B16.5 (ANSI) 300 | Pipe size: 3 (76) | B",
+  "value": "5.65",
+  "unit": "in",
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: ASME B16.5 (ANSI) 300 | Pipe size: 3 (76) | B",
+  "value": "143",
+  "unit": "mm",
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: ASME B16.5 (ANSI) 300 | Pipe size: 3 (76) | Extension diameter [fn 1] C",
+  "value": "2.58",
+  "unit": "in",
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: ASME B16.5 (ANSI) 300 | Pipe size: 3 (76) | Extension diameter [fn 1] C",
+  "value": "66",
+  "unit": "mm",
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: ASME B16.5 (ANSI) 300 | Pipe size: 3 (76) | O.D. gasket surface D",
+  "value": "5.0",
+  "unit": "in",
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: ASME B16.5 (ANSI) 300 | Pipe size: 3 (76) | O.D. gasket surface D",
+  "value": "127",
+  "unit": "mm",
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: ASME B16.5 (ANSI) 300 | Pipe size: 4 (102) | Flange thickness A",
+  "value": "1.19",
+  "unit": "in",
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: ASME B16.5 (ANSI) 300 | Pipe size: 4 (102) | Flange thickness A",
+  "value": "30",
+  "unit": "mm",
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: ASME B16.5 (ANSI) 300 | Pipe size: 4 (102) | B",
+  "value": "5.65",
+  "unit": "in",
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: ASME B16.5 (ANSI) 300 | Pipe size: 4 (102) | B",
+  "value": "143",
+  "unit": "mm",
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: ASME B16.5 (ANSI) 300 | Pipe size: 4 (102) | Extension diameter [fn 1] C",
+  "value": "3.5",
+  "unit": "in",
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: ASME B16.5 (ANSI) 300 | Pipe size: 4 (102) | Extension diameter [fn 1] C",
+  "value": "89",
+  "unit": "mm",
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: ASME B16.5 (ANSI) 300 | Pipe size: 4 (102) | O.D. gasket surface D",
+  "value": "6.2",
+  "unit": "in",
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: ASME B16.5 (ANSI) 300 | Pipe size: 4 (102) | O.D. gasket surface D",
+  "value": "158",
+  "unit": "mm",
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: ASME B16.5 (ANSI) 600 | Pipe size: 2 (51) | Flange thickness A",
+  "value": "1.00",
+  "unit": "in",
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: ASME B16.5 (ANSI) 600 | Pipe size: 2 (51) | Flange thickness A",
+  "value": "25",
+  "unit": "mm",
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: ASME B16.5 (ANSI) 600 | Pipe size: 2 (51) | B",
+  "value": "7.65",
+  "unit": "in",
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: ASME B16.5 (ANSI) 600 | Pipe size: 2 (51) | B",
+  "value": "194",
+  "unit": "mm",
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: ASME B16.5 (ANSI) 600 | Pipe size: 2 (51) | Extension diameter [fn 1] C",
+  "value": "N/A",
+  "unit": null,
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: ASME B16.5 (ANSI) 600 | Pipe size: 2 (51) | O.D. gasket surface D",
+  "value": "3.6",
+  "unit": "in",
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: ASME B16.5 (ANSI) 600 | Pipe size: 2 (51) | O.D. gasket surface D",
+  "value": "92",
+  "unit": "mm",
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: ASME B16.5 (ANSI) 600 | Pipe size: 3 (76) | Flange thickness A",
+  "value": "1.25",
+  "unit": "in",
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: ASME B16.5 (ANSI) 600 | Pipe size: 3 (76) | Flange thickness A",
+  "value": "32",
+  "unit": "mm",
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: ASME B16.5 (ANSI) 600 | Pipe size: 3 (76) | B",
+  "value": "7.65",
+  "unit": "in",
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: ASME B16.5 (ANSI) 600 | Pipe size: 3 (76) | B",
+  "value": "194",
+  "unit": "mm",
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: ASME B16.5 (ANSI) 600 | Pipe size: 3 (76) | Extension diameter [fn 1] C",
+  "value": "2.58",
+  "unit": "in",
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: ASME B16.5 (ANSI) 600 | Pipe size: 3 (76) | Extension diameter [fn 1] C",
+  "value": "66",
+  "unit": "mm",
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: ASME B16.5 (ANSI) 600 | Pipe size: 3 (76) | O.D. gasket surface D",
+  "value": "5.0",
+  "unit": "in",
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: ASME B16.5 (ANSI) 600 | Pipe size: 3 (76) | O.D. gasket surface D",
+  "value": "127",
+  "unit": "mm",
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: DIN 2501 PN 10-40 | Pipe size: DN 50 | Flange thickness A",
+  "value": "0.79",
+  "unit": "in",
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: DIN 2501 PN 10-40 | Pipe size: DN 50 | Flange thickness A",
+  "value": "20",
+  "unit": "mm",
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: DIN 2501 PN 10-40 | Pipe size: DN 50 | B",
+  "value": "5.65",
+  "unit": "in",
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: DIN 2501 PN 10-40 | Pipe size: DN 50 | B",
+  "value": "143",
+  "unit": "mm",
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: DIN 2501 PN 10-40 | Pipe size: DN 50 | Extension diameter [fn 1] C",
+  "value": "N/A",
+  "unit": null,
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: DIN 2501 PN 10-40 | Pipe size: DN 50 | O.D. gasket surface D",
+  "value": "4.0",
+  "unit": "in",
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: DIN 2501 PN 10-40 | Pipe size: DN 50 | O.D. gasket surface D",
+  "value": "102",
+  "unit": "mm",
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: DIN 2501 PN 25/40 | Pipe size: DN 80 | Flange thickness A",
+  "value": "0.94",
+  "unit": "in",
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: DIN 2501 PN 25/40 | Pipe size: DN 80 | Flange thickness A",
+  "value": "24",
+  "unit": "mm",
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: DIN 2501 PN 25/40 | Pipe size: DN 80 | B",
+  "value": "5.65",
+  "unit": "in",
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: DIN 2501 PN 25/40 | Pipe size: DN 80 | B",
+  "value": "143",
+  "unit": "mm",
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: DIN 2501 PN 25/40 | Pipe size: DN 80 | Extension diameter [fn 1] C",
+  "value": "2.6",
+  "unit": "in",
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: DIN 2501 PN 25/40 | Pipe size: DN 80 | Extension diameter [fn 1] C",
+  "value": "66",
+  "unit": "mm",
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: DIN 2501 PN 25/40 | Pipe size: DN 80 | O.D. gasket surface D",
+  "value": "5.4",
+  "unit": "in",
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: DIN 2501 PN 25/40 | Pipe size: DN 80 | O.D. gasket surface D",
+  "value": "138",
+  "unit": "mm",
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: DIN 2501 PN 25/40 | Pipe size: DN 100 | Flange thickness A",
+  "value": "0.94",
+  "unit": "in",
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: DIN 2501 PN 25/40 | Pipe size: DN 100 | Flange thickness A",
+  "value": "24",
+  "unit": "mm",
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: DIN 2501 PN 25/40 | Pipe size: DN 100 | B",
+  "value": "5.65",
+  "unit": "in",
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: DIN 2501 PN 25/40 | Pipe size: DN 100 | B",
+  "value": "143",
+  "unit": "mm",
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: DIN 2501 PN 25/40 | Pipe size: DN 100 | Extension diameter [fn 1] C",
+  "value": "3.5",
+  "unit": "in",
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: DIN 2501 PN 25/40 | Pipe size: DN 100 | Extension diameter [fn 1] C",
+  "value": "89",
+  "unit": "mm",
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: DIN 2501 PN 25/40 | Pipe size: DN 100 | O.D. gasket surface D",
+  "value": "6.2",
+  "unit": "in",
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: DIN 2501 PN 25/40 | Pipe size: DN 100 | O.D. gasket surface D",
+  "value": "158",
+  "unit": "mm",
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: DIN 2501 PN 10/16 | Pipe size: DN 100 | Flange thickness A",
+  "value": "0.79",
+  "unit": "in",
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: DIN 2501 PN 10/16 | Pipe size: DN 100 | Flange thickness A",
+  "value": "20",
+  "unit": "mm",
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: DIN 2501 PN 10/16 | Pipe size: DN 100 | B",
+  "value": "5.65",
+  "unit": "in",
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: DIN 2501 PN 10/16 | Pipe size: DN 100 | B",
+  "value": "143",
+  "unit": "mm",
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: DIN 2501 PN 10/16 | Pipe size: DN 100 | Extension diameter [fn 1] C",
+  "value": "3.5",
+  "unit": "in",
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: DIN 2501 PN 10/16 | Pipe size: DN 100 | Extension diameter [fn 1] C",
+  "value": "89",
+  "unit": "mm",
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: DIN 2501 PN 10/16 | Pipe size: DN 100 | O.D. gasket surface D",
+  "value": "6.2",
+  "unit": "in",
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Class [fn 1]: DIN 2501 PN 10/16 | Pipe size: DN 100 | O.D. gasket surface D",
+  "value": "158",
+  "unit": "mm",
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | Dimension units",
+  "value": "Dimensions are in inches (millimeters).",
+  "unit": null,
+  "source_page": 107
+ },
+ {
+  "parameter": "Table 11: Rosemount 3051L Dimensional Specifications | footnote 1",
+  "value": "Tolerances are 0.040 (1.02), - 0.020 (0.51).",
+  "unit": null,
+  "source_page": 107
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 150 | Pipe size: 2 (51) | Flange thickness A",
+  "value": "0.69",
+  "unit": "in",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 150 | Pipe size: 2 (51) | Flange thickness A",
+  "value": "18",
+  "unit": "mm",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 150 | Pipe size: 2 (51) | 1/4-inch NPT | Lower housing F",
+  "value": "0.97",
+  "unit": "in",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 150 | Pipe size: 2 (51) | 1/4-inch NPT | Lower housing F",
+  "value": "25",
+  "unit": "mm",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 150 | Pipe size: 2 (51) | 1/2-inch NPT | Lower housing F",
+  "value": "1.31",
+  "unit": "in",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 150 | Pipe size: 2 (51) | 1/2-inch NPT | Lower housing F",
+  "value": "33",
+  "unit": "mm",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 150 | Pipe size: 2 (51) | Bolt circle diameter G",
+  "value": "4.75",
+  "unit": "in",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 150 | Pipe size: 2 (51) | Bolt circle diameter G",
+  "value": "121",
+  "unit": "mm",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 150 | Pipe size: 2 (51) | Number of bolts",
+  "value": "4",
+  "unit": null,
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 150 | Pipe size: 2 (51) | Bolt hole diameter",
+  "value": "0.75",
+  "unit": "in",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 150 | Pipe size: 2 (51) | Bolt hole diameter",
+  "value": "19",
+  "unit": "mm",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 150 | Pipe size: 2 (51) | Process side H",
+  "value": "2.12",
+  "unit": "in",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 150 | Pipe size: 2 (51) | Process side H",
+  "value": "54",
+  "unit": "mm",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 150 | Pipe size: 2 (51) | Outside diameter J",
+  "value": "6.0",
+  "unit": "in",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 150 | Pipe size: 2 (51) | Outside diameter J",
+  "value": "152",
+  "unit": "mm",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 150 | Pipe size: 3 (76) | Flange thickness A",
+  "value": "0.88",
+  "unit": "in",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 150 | Pipe size: 3 (76) | Flange thickness A",
+  "value": "22",
+  "unit": "mm",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 150 | Pipe size: 3 (76) | 1/4-inch NPT | Lower housing F",
+  "value": "0.97",
+  "unit": "in",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 150 | Pipe size: 3 (76) | 1/4-inch NPT | Lower housing F",
+  "value": "25",
+  "unit": "mm",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 150 | Pipe size: 3 (76) | 1/2-inch NPT | Lower housing F",
+  "value": "1.31",
+  "unit": "in",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 150 | Pipe size: 3 (76) | 1/2-inch NPT | Lower housing F",
+  "value": "33",
+  "unit": "mm",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 150 | Pipe size: 3 (76) | Bolt circle diameter G",
+  "value": "6.0",
+  "unit": "in",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 150 | Pipe size: 3 (76) | Bolt circle diameter G",
+  "value": "152",
+  "unit": "mm",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 150 | Pipe size: 3 (76) | Number of bolts",
+  "value": "4",
+  "unit": null,
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 150 | Pipe size: 3 (76) | Bolt hole diameter",
+  "value": "0.75",
+  "unit": "in",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 150 | Pipe size: 3 (76) | Bolt hole diameter",
+  "value": "19",
+  "unit": "mm",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 150 | Pipe size: 3 (76) | Process side H",
+  "value": "3.60",
+  "unit": "in",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 150 | Pipe size: 3 (76) | Process side H",
+  "value": "91",
+  "unit": "mm",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 150 | Pipe size: 3 (76) | Outside diameter J",
+  "value": "7.5",
+  "unit": "in",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 150 | Pipe size: 3 (76) | Outside diameter J",
+  "value": "191",
+  "unit": "mm",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 150 | Pipe size: 4 (102) | Flange thickness A",
+  "value": "0.88",
+  "unit": "in",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 150 | Pipe size: 4 (102) | Flange thickness A",
+  "value": "22",
+  "unit": "mm",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 150 | Pipe size: 4 (102) | 1/4-inch NPT | Lower housing F",
+  "value": "0.97",
+  "unit": "in",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 150 | Pipe size: 4 (102) | 1/4-inch NPT | Lower housing F",
+  "value": "25",
+  "unit": "mm",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 150 | Pipe size: 4 (102) | 1/2-inch NPT | Lower housing F",
+  "value": "1.31",
+  "unit": "in",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 150 | Pipe size: 4 (102) | 1/2-inch NPT | Lower housing F",
+  "value": "33",
+  "unit": "mm",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 150 | Pipe size: 4 (102) | Bolt circle diameter G",
+  "value": "7.5",
+  "unit": "in",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 150 | Pipe size: 4 (102) | Bolt circle diameter G",
+  "value": "191",
+  "unit": "mm",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 150 | Pipe size: 4 (102) | Number of bolts",
+  "value": "8",
+  "unit": null,
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 150 | Pipe size: 4 (102) | Bolt hole diameter",
+  "value": "0.75",
+  "unit": "in",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 150 | Pipe size: 4 (102) | Bolt hole diameter",
+  "value": "19",
+  "unit": "mm",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 150 | Pipe size: 4 (102) | Process side H",
+  "value": "3.60",
+  "unit": "in",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 150 | Pipe size: 4 (102) | Process side H",
+  "value": "91",
+  "unit": "mm",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 150 | Pipe size: 4 (102) | Outside diameter J",
+  "value": "9.0",
+  "unit": "in",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 150 | Pipe size: 4 (102) | Outside diameter J",
+  "value": "229",
+  "unit": "mm",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 300 | Pipe size: 2 (51) | Flange thickness A",
+  "value": "0.82",
+  "unit": "in",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 300 | Pipe size: 2 (51) | Flange thickness A",
+  "value": "21",
+  "unit": "mm",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 300 | Pipe size: 2 (51) | 1/4-inch NPT | Lower housing F",
+  "value": "0.97",
+  "unit": "in",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 300 | Pipe size: 2 (51) | 1/4-inch NPT | Lower housing F",
+  "value": "25",
+  "unit": "mm",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 300 | Pipe size: 2 (51) | 1/2-inch NPT | Lower housing F",
+  "value": "1.31",
+  "unit": "in",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 300 | Pipe size: 2 (51) | 1/2-inch NPT | Lower housing F",
+  "value": "33",
+  "unit": "mm",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 300 | Pipe size: 2 (51) | Bolt circle diameter G",
+  "value": "5.0",
+  "unit": "in",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 300 | Pipe size: 2 (51) | Bolt circle diameter G",
+  "value": "127",
+  "unit": "mm",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 300 | Pipe size: 2 (51) | Number of bolts",
+  "value": "8",
+  "unit": null,
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 300 | Pipe size: 2 (51) | Bolt hole diameter",
+  "value": "0.75",
+  "unit": "in",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 300 | Pipe size: 2 (51) | Bolt hole diameter",
+  "value": "19",
+  "unit": "mm",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 300 | Pipe size: 2 (51) | Process side H",
+  "value": "2.12",
+  "unit": "in",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 300 | Pipe size: 2 (51) | Process side H",
+  "value": "54",
+  "unit": "mm",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 300 | Pipe size: 2 (51) | Outside diameter J",
+  "value": "6.5",
+  "unit": "in",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 300 | Pipe size: 2 (51) | Outside diameter J",
+  "value": "165",
+  "unit": "mm",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 300 | Pipe size: 3 (76) | Flange thickness A",
+  "value": "1.06",
+  "unit": "in",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 300 | Pipe size: 3 (76) | Flange thickness A",
+  "value": "27",
+  "unit": "mm",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 300 | Pipe size: 3 (76) | 1/4-inch NPT | Lower housing F",
+  "value": "0.97",
+  "unit": "in",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 300 | Pipe size: 3 (76) | 1/4-inch NPT | Lower housing F",
+  "value": "25",
+  "unit": "mm",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 300 | Pipe size: 3 (76) | 1/2-inch NPT | Lower housing F",
+  "value": "1.31",
+  "unit": "in",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 300 | Pipe size: 3 (76) | 1/2-inch NPT | Lower housing F",
+  "value": "33",
+  "unit": "mm",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 300 | Pipe size: 3 (76) | Bolt circle diameter G",
+  "value": "6.62",
+  "unit": "in",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 300 | Pipe size: 3 (76) | Bolt circle diameter G",
+  "value": "168",
+  "unit": "mm",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 300 | Pipe size: 3 (76) | Number of bolts",
+  "value": "8",
+  "unit": null,
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 300 | Pipe size: 3 (76) | Bolt hole diameter",
+  "value": "0.88",
+  "unit": "in",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 300 | Pipe size: 3 (76) | Bolt hole diameter",
+  "value": "22",
+  "unit": "mm",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 300 | Pipe size: 3 (76) | Process side H",
+  "value": "3.60",
+  "unit": "in",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 300 | Pipe size: 3 (76) | Process side H",
+  "value": "91",
+  "unit": "mm",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 300 | Pipe size: 3 (76) | Outside diameter J",
+  "value": "8.25",
+  "unit": "in",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 300 | Pipe size: 3 (76) | Outside diameter J",
+  "value": "210",
+  "unit": "mm",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 300 | Pipe size: 4 (102) | Flange thickness A",
+  "value": "1.19",
+  "unit": "in",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 300 | Pipe size: 4 (102) | Flange thickness A",
+  "value": "30",
+  "unit": "mm",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 300 | Pipe size: 4 (102) | 1/4-inch NPT | Lower housing F",
+  "value": "0.97",
+  "unit": "in",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 300 | Pipe size: 4 (102) | 1/4-inch NPT | Lower housing F",
+  "value": "25",
+  "unit": "mm",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 300 | Pipe size: 4 (102) | 1/2-inch NPT | Lower housing F",
+  "value": "1.31",
+  "unit": "in",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 300 | Pipe size: 4 (102) | 1/2-inch NPT | Lower housing F",
+  "value": "33",
+  "unit": "mm",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 300 | Pipe size: 4 (102) | Bolt circle diameter G",
+  "value": "7.88",
+  "unit": "in",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 300 | Pipe size: 4 (102) | Bolt circle diameter G",
+  "value": "200",
+  "unit": "mm",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 300 | Pipe size: 4 (102) | Number of bolts",
+  "value": "8",
+  "unit": null,
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 300 | Pipe size: 4 (102) | Bolt hole diameter",
+  "value": "0.88",
+  "unit": "in",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 300 | Pipe size: 4 (102) | Bolt hole diameter",
+  "value": "22",
+  "unit": "mm",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 300 | Pipe size: 4 (102) | Process side H",
+  "value": "3.60",
+  "unit": "in",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 300 | Pipe size: 4 (102) | Process side H",
+  "value": "91",
+  "unit": "mm",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 300 | Pipe size: 4 (102) | Outside diameter J",
+  "value": "10.0",
+  "unit": "in",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 300 | Pipe size: 4 (102) | Outside diameter J",
+  "value": "254",
+  "unit": "mm",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 600 | Pipe size: 2 (51) | Flange thickness A",
+  "value": "1.00",
+  "unit": "in",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 600 | Pipe size: 2 (51) | Flange thickness A",
+  "value": "25",
+  "unit": "mm",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 600 | Pipe size: 2 (51) | 1/4-inch NPT | Lower housing F",
+  "value": "0.97",
+  "unit": "in",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 600 | Pipe size: 2 (51) | 1/4-inch NPT | Lower housing F",
+  "value": "25",
+  "unit": "mm",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 600 | Pipe size: 2 (51) | 1/2-inch NPT | Lower housing F",
+  "value": "1.31",
+  "unit": "in",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 600 | Pipe size: 2 (51) | 1/2-inch NPT | Lower housing F",
+  "value": "33",
+  "unit": "mm",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 600 | Pipe size: 2 (51) | Bolt circle diameter G",
+  "value": "5.0",
+  "unit": "in",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 600 | Pipe size: 2 (51) | Bolt circle diameter G",
+  "value": "127",
+  "unit": "mm",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 600 | Pipe size: 2 (51) | Number of bolts",
+  "value": "8",
+  "unit": null,
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 600 | Pipe size: 2 (51) | Bolt hole diameter",
+  "value": "0.75",
+  "unit": "in",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 600 | Pipe size: 2 (51) | Bolt hole diameter",
+  "value": "19",
+  "unit": "mm",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 600 | Pipe size: 2 (51) | Process side H",
+  "value": "2.12",
+  "unit": "in",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 600 | Pipe size: 2 (51) | Process side H",
+  "value": "54",
+  "unit": "mm",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 600 | Pipe size: 2 (51) | Outside diameter J",
+  "value": "6.5",
+  "unit": "in",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 600 | Pipe size: 2 (51) | Outside diameter J",
+  "value": "165",
+  "unit": "mm",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 600 | Pipe size: 3 (76) | Flange thickness A",
+  "value": "1.25",
+  "unit": "in",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 600 | Pipe size: 3 (76) | Flange thickness A",
+  "value": "32",
+  "unit": "mm",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 600 | Pipe size: 3 (76) | 1/4-inch NPT | Lower housing F",
+  "value": "0.97",
+  "unit": "in",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 600 | Pipe size: 3 (76) | 1/4-inch NPT | Lower housing F",
+  "value": "25",
+  "unit": "mm",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 600 | Pipe size: 3 (76) | 1/2-inch NPT | Lower housing F",
+  "value": "1.31",
+  "unit": "in",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 600 | Pipe size: 3 (76) | 1/2-inch NPT | Lower housing F",
+  "value": "33",
+  "unit": "mm",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 600 | Pipe size: 3 (76) | Bolt circle diameter G",
+  "value": "6.62",
+  "unit": "in",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 600 | Pipe size: 3 (76) | Bolt circle diameter G",
+  "value": "168",
+  "unit": "mm",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 600 | Pipe size: 3 (76) | Number of bolts",
+  "value": "8",
+  "unit": null,
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 600 | Pipe size: 3 (76) | Bolt hole diameter",
+  "value": "0.88",
+  "unit": "in",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 600 | Pipe size: 3 (76) | Bolt hole diameter",
+  "value": "22",
+  "unit": "mm",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 600 | Pipe size: 3 (76) | Process side H",
+  "value": "3.60",
+  "unit": "in",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 600 | Pipe size: 3 (76) | Process side H",
+  "value": "91",
+  "unit": "mm",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 600 | Pipe size: 3 (76) | Outside diameter J",
+  "value": "8.25",
+  "unit": "in",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: ASME B16.5 (ANSI) 600 | Pipe size: 3 (76) | Outside diameter J",
+  "value": "210",
+  "unit": "mm",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: DIN 2501 PN 10-40 | Pipe size: DN 50 | Flange thickness A",
+  "value": "0.79",
+  "unit": "in",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: DIN 2501 PN 10-40 | Pipe size: DN 50 | Flange thickness A",
+  "value": "20",
+  "unit": "mm",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: DIN 2501 PN 10-40 | Pipe size: DN 50 | 1/4-inch NPT | Lower housing F",
+  "value": "0.97",
+  "unit": "in",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: DIN 2501 PN 10-40 | Pipe size: DN 50 | 1/4-inch NPT | Lower housing F",
+  "value": "25",
+  "unit": "mm",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: DIN 2501 PN 10-40 | Pipe size: DN 50 | 1/2-inch NPT | Lower housing F",
+  "value": "1.31",
+  "unit": "in",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: DIN 2501 PN 10-40 | Pipe size: DN 50 | 1/2-inch NPT | Lower housing F",
+  "value": "33",
+  "unit": "mm",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: DIN 2501 PN 10-40 | Pipe size: DN 50 | Bolt circle diameter G",
+  "value": "4.92",
+  "unit": "in",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: DIN 2501 PN 10-40 | Pipe size: DN 50 | Bolt circle diameter G",
+  "value": "125",
+  "unit": "mm",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: DIN 2501 PN 10-40 | Pipe size: DN 50 | Number of bolts",
+  "value": "4",
+  "unit": null,
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: DIN 2501 PN 10-40 | Pipe size: DN 50 | Bolt hole diameter",
+  "value": "0.71",
+  "unit": "in",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: DIN 2501 PN 10-40 | Pipe size: DN 50 | Bolt hole diameter",
+  "value": "18",
+  "unit": "mm",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: DIN 2501 PN 10-40 | Pipe size: DN 50 | Process side H",
+  "value": "2.40",
+  "unit": "in",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: DIN 2501 PN 10-40 | Pipe size: DN 50 | Process side H",
+  "value": "61",
+  "unit": "mm",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: DIN 2501 PN 10-40 | Pipe size: DN 50 | Outside diameter J",
+  "value": "6.5",
+  "unit": "in",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: DIN 2501 PN 10-40 | Pipe size: DN 50 | Outside diameter J",
+  "value": "165",
+  "unit": "mm",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: DIN 2501 PN 25/40 | Pipe size: DN 80 | Flange thickness A",
+  "value": "0.94",
+  "unit": "in",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: DIN 2501 PN 25/40 | Pipe size: DN 80 | Flange thickness A",
+  "value": "24",
+  "unit": "mm",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: DIN 2501 PN 25/40 | Pipe size: DN 80 | 1/4-inch NPT | Lower housing F",
+  "value": "0.97",
+  "unit": "in",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: DIN 2501 PN 25/40 | Pipe size: DN 80 | 1/4-inch NPT | Lower housing F",
+  "value": "25",
+  "unit": "mm",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: DIN 2501 PN 25/40 | Pipe size: DN 80 | 1/2-inch NPT | Lower housing F",
+  "value": "1.31",
+  "unit": "in",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: DIN 2501 PN 25/40 | Pipe size: DN 80 | 1/2-inch NPT | Lower housing F",
+  "value": "33",
+  "unit": "mm",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: DIN 2501 PN 25/40 | Pipe size: DN 80 | Bolt circle diameter G",
+  "value": "6.3",
+  "unit": "in",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: DIN 2501 PN 25/40 | Pipe size: DN 80 | Bolt circle diameter G",
+  "value": "160",
+  "unit": "mm",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: DIN 2501 PN 25/40 | Pipe size: DN 80 | Number of bolts",
+  "value": "8",
+  "unit": null,
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: DIN 2501 PN 25/40 | Pipe size: DN 80 | Bolt hole diameter",
+  "value": "0.71",
+  "unit": "in",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: DIN 2501 PN 25/40 | Pipe size: DN 80 | Bolt hole diameter",
+  "value": "18",
+  "unit": "mm",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: DIN 2501 PN 25/40 | Pipe size: DN 80 | Process side H",
+  "value": "3.60",
+  "unit": "in",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: DIN 2501 PN 25/40 | Pipe size: DN 80 | Process side H",
+  "value": "91",
+  "unit": "mm",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: DIN 2501 PN 25/40 | Pipe size: DN 80 | Outside diameter J",
+  "value": "7.87",
+  "unit": "in",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: DIN 2501 PN 25/40 | Pipe size: DN 80 | Outside diameter J",
+  "value": "200",
+  "unit": "mm",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: DIN 2501 PN 25/40 | Pipe size: DN 100 | Flange thickness A",
+  "value": "0.94",
+  "unit": "in",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: DIN 2501 PN 25/40 | Pipe size: DN 100 | Flange thickness A",
+  "value": "24",
+  "unit": "mm",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: DIN 2501 PN 25/40 | Pipe size: DN 100 | 1/4-inch NPT | Lower housing F",
+  "value": "0.97",
+  "unit": "in",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: DIN 2501 PN 25/40 | Pipe size: DN 100 | 1/4-inch NPT | Lower housing F",
+  "value": "25",
+  "unit": "mm",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: DIN 2501 PN 25/40 | Pipe size: DN 100 | 1/2-inch NPT | Lower housing F",
+  "value": "1.31",
+  "unit": "in",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: DIN 2501 PN 25/40 | Pipe size: DN 100 | 1/2-inch NPT | Lower housing F",
+  "value": "33",
+  "unit": "mm",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: DIN 2501 PN 25/40 | Pipe size: DN 100 | Bolt circle diameter G",
+  "value": "7.48",
+  "unit": "in",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: DIN 2501 PN 25/40 | Pipe size: DN 100 | Bolt circle diameter G",
+  "value": "190",
+  "unit": "mm",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: DIN 2501 PN 25/40 | Pipe size: DN 100 | Number of bolts",
+  "value": "8",
+  "unit": null,
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: DIN 2501 PN 25/40 | Pipe size: DN 100 | Bolt hole diameter",
+  "value": "0.88",
+  "unit": "in",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: DIN 2501 PN 25/40 | Pipe size: DN 100 | Bolt hole diameter",
+  "value": "22",
+  "unit": "mm",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: DIN 2501 PN 25/40 | Pipe size: DN 100 | Process side H",
+  "value": "3.60",
+  "unit": "in",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: DIN 2501 PN 25/40 | Pipe size: DN 100 | Process side H",
+  "value": "91",
+  "unit": "mm",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: DIN 2501 PN 25/40 | Pipe size: DN 100 | Outside diameter J",
+  "value": "9.25",
+  "unit": "in",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: DIN 2501 PN 25/40 | Pipe size: DN 100 | Outside diameter J",
+  "value": "235",
+  "unit": "mm",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: DIN 2501 PN 10/16 | Pipe size: DN 100 | Flange thickness A",
+  "value": "0.79",
+  "unit": "in",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: DIN 2501 PN 10/16 | Pipe size: DN 100 | Flange thickness A",
+  "value": "20",
+  "unit": "mm",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: DIN 2501 PN 10/16 | Pipe size: DN 100 | 1/4-inch NPT | Lower housing F",
+  "value": "0.97",
+  "unit": "in",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: DIN 2501 PN 10/16 | Pipe size: DN 100 | 1/4-inch NPT | Lower housing F",
+  "value": "25",
+  "unit": "mm",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: DIN 2501 PN 10/16 | Pipe size: DN 100 | 1/2-inch NPT | Lower housing F",
+  "value": "1.31",
+  "unit": "in",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: DIN 2501 PN 10/16 | Pipe size: DN 100 | 1/2-inch NPT | Lower housing F",
+  "value": "33",
+  "unit": "mm",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: DIN 2501 PN 10/16 | Pipe size: DN 100 | Bolt circle diameter G",
+  "value": "7.09",
+  "unit": "in",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: DIN 2501 PN 10/16 | Pipe size: DN 100 | Bolt circle diameter G",
+  "value": "180",
+  "unit": "mm",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: DIN 2501 PN 10/16 | Pipe size: DN 100 | Number of bolts",
+  "value": "8",
+  "unit": null,
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: DIN 2501 PN 10/16 | Pipe size: DN 100 | Bolt hole diameter",
+  "value": "0.71",
+  "unit": "in",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: DIN 2501 PN 10/16 | Pipe size: DN 100 | Bolt hole diameter",
+  "value": "18",
+  "unit": "mm",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: DIN 2501 PN 10/16 | Pipe size: DN 100 | Process side H",
+  "value": "3.60",
+  "unit": "in",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: DIN 2501 PN 10/16 | Pipe size: DN 100 | Process side H",
+  "value": "91",
+  "unit": "mm",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: DIN 2501 PN 10/16 | Pipe size: DN 100 | Outside diameter J",
+  "value": "8.66",
+  "unit": "in",
+  "source_page": 108
+ },
+ {
+  "parameter": "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L | Class: DIN 2501 PN 10/16 | Pipe size: DN 100 | Outside diameter J",
+  "value": "220",
+  "unit": "mm",
+  "source_page": 108
+ },
+ {
+  "parameter": "Standard configuration | Scope",
+  "value": "Unless otherwise specified, transmitter is shipped as follows:",
+  "unit": null,
+  "source_page": 109
+ },
+ {
+  "parameter": "Standard configuration - table 1 | Differential/Gage | Engineering units",
+  "value": "inH2O at 68 ºF (Range 0, 1, 2, and 3)",
+  "unit": null,
+  "source_page": 109
+ },
+ {
+  "parameter": "Standard configuration - table 1 | Absolute/Rosemount 3051TA/3051TG | Engineering units",
+  "value": "psi (all ranges)",
+  "unit": null,
+  "source_page": 109
+ },
+ {
+  "parameter": "Standard configuration - table 1 | 4 mA [fn 1]",
+  "value": "0 (engineering units above)",
+  "unit": null,
+  "source_page": 109
+ },
+ {
+  "parameter": "Standard configuration - table 1 | 20 mA [fn 1]",
+  "value": "Upper range limit",
+  "unit": null,
+  "source_page": 109
+ },
+ {
+  "parameter": "Standard configuration - table 1 | Output - Transfer function",
+  "value": "Linear",
+  "unit": null,
+  "source_page": 109
+ },
+ {
+  "parameter": "Standard configuration - table 1 | External buttons",
+  "value": "None",
+  "unit": null,
+  "source_page": 109
+ },
+ {
+  "parameter": "Standard configuration - table 1 | Flange type",
+  "value": "Specified model code option",
+  "unit": null,
+  "source_page": 109
+ },
+ {
+  "parameter": "Standard configuration - table 1 | Flange material",
+  "value": "Specified model code option",
+  "unit": null,
+  "source_page": 109
+ },
+ {
+  "parameter": "Standard configuration - table 1 | O-ring material",
+  "value": "Specified model code option",
+  "unit": null,
+  "source_page": 109
+ },
+ {
+  "parameter": "Standard configuration - table 1 | Drain/vent",
+  "value": "Specified model code option",
+  "unit": null,
+  "source_page": 109
+ },
+ {
+  "parameter": "Standard configuration - table 1 | Display",
+  "value": "None",
+  "unit": null,
+  "source_page": 109
+ },
+ {
+  "parameter": "Standard configuration - table 1 | Alarm [fn 1]",
+  "value": "High",
+  "unit": null,
+  "source_page": 109
+ },
+ {
+  "parameter": "Standard configuration - table 1 | Software tag",
+  "value": "(Blank)",
+  "unit": null,
+  "source_page": 109
+ },
+ {
+  "parameter": "Standard configuration - table 1 | Damping [fn 2]",
+  "value": "0.4",
+  "unit": "seconds",
+  "source_page": 109
+ },
+ {
+  "parameter": "Standard configuration - table 1 | footnote 1",
+  "value": "Not applicable to FOUNDATION Fieldbus, PROFIBUS PA, or wireless.",
+  "unit": null,
+  "source_page": 109
+ },
+ {
+  "parameter": "Standard configuration - table 1 | footnote 2",
+  "value": "For Fieldbus Protocols, default damping is one second.",
+  "unit": null,
+  "source_page": 109
+ },
+ {
+  "parameter": "Display default settings | Scope",
+  "value": "Unless otherwise specified, transmitter is shipped as follows when a display is ordered:",
+  "unit": null,
+  "source_page": 109
+ },
+ {
+  "parameter": "Table 12: Graphical LCD Display (Code M6) | Display default settings | Language",
+  "value": "English",
+  "unit": null,
+  "source_page": 109
+ },
+ {
+  "parameter": "Table 12: Graphical LCD Display (Code M6) | Display default settings | Backlight",
+  "value": "On",
+  "unit": null,
+  "source_page": 109
+ },
+ {
+  "parameter": "Table 12: Graphical LCD Display (Code M6) | Display default settings | Decimal digit precision",
+  "value": "Automatic",
+  "unit": null,
+  "source_page": 109
+ },
+ {
+  "parameter": "Table 12: Graphical LCD Display (Code M6) | Display default settings | GP/AP unit label",
+  "value": "Disable",
+  "unit": null,
+  "source_page": 109
+ },
+ {
+  "parameter": "Table 12: Graphical LCD Display (Code M6) | Display default settings | Decimal separator",
+  "value": "Period",
+  "unit": null,
+  "source_page": 109
+ },
+ {
+  "parameter": "Table 12: Graphical LCD Display (Code M6) | Display default settings | Bluetooth® [fn 1]",
+  "value": "Enable",
+  "unit": null,
+  "source_page": 109
+ },
+ {
+  "parameter": "Table 12: Graphical LCD Display (Code M6) | Display default settings | Display parameters",
+  "value": "Pressure",
+  "unit": null,
+  "source_page": 109
+ },
+ {
+  "parameter": "Table 12: Graphical LCD Display (Code M6) | footnote 1",
+  "value": "Bluetooth Configuration and Maintenance (Code BLE) only.",
+  "unit": null,
+  "source_page": 109
+ },
+ {
+  "parameter": "Custom configuration | Note | Applicability",
+  "value": "Not applicable to WirelessHART®, Low-power,FOUNDATION™ Fieldbus or PROFIBUS PA Protocols.",
+  "unit": null,
+  "source_page": 110
+ },
+ {
+  "parameter": "Custom configuration | Option code",
+  "value": "C1",
+  "unit": null,
+  "source_page": 110
+ },
+ {
+  "parameter": "Custom configuration | Option C1 | Description",
+  "value": "If option code C1 is ordered, the customer may specify the following data in addition to the standard configuration parameters.",
+  "unit": null,
+  "source_page": 110
+ },
+ {
+  "parameter": "Custom configuration | Option C1 | Customer-specifiable data",
+  "value": "Transmitter information",
+  "unit": null,
+  "source_page": 110
+ },
+ {
+  "parameter": "Custom configuration | Option C1 | Customer-specifiable data",
+  "value": "Output information",
+  "unit": null,
+  "source_page": 110
+ },
+ {
+  "parameter": "Custom configuration | Option C1 | Customer-specifiable data",
+  "value": "Display parameters",
+  "unit": null,
+  "source_page": 110
+ },
+ {
+  "parameter": "Custom configuration | Option C1 | Customer-specifiable data",
+  "value": "Graphical LCD display settings",
+  "unit": null,
+  "source_page": 110
+ },
+ {
+  "parameter": "Custom configuration | Option C1 | Customer-specifiable data",
+  "value": "Process variable output assignments",
+  "unit": null,
+  "source_page": 110
+ },
+ {
+  "parameter": "Custom configuration | Option C1 | Customer-specifiable data",
+  "value": "Security information",
+  "unit": null,
+  "source_page": 110
+ },
+ {
+  "parameter": "Custom configuration | Option C1 | Customer-specifiable data",
+  "value": "Custom alarm and saturation signal levels",
+  "unit": null,
+  "source_page": 110
+ },
+ {
+  "parameter": "Custom configuration | Option C1 | Customer-specifiable data",
+  "value": "Process Alerts",
+  "unit": null,
+  "source_page": 110
+ },
+ {
+  "parameter": "Custom configuration | Option C1 | Customer-specifiable data",
+  "value": "Application Specific Configuration",
+  "unit": null,
+  "source_page": 110
+ },
+ {
+  "parameter": "Custom configuration | HART® Protocol | Configuration reference",
+  "value": "Refer to the Rosemount 3051 Configuration Data Sheet for Rosemount 3051 HART® Protocol.",
+  "unit": null,
+  "source_page": 110
+ },
+ {
+  "parameter": "Custom configuration | Wireless | Configuration reference",
+  "value": "For Wireless, refer to the Rosemount 3051 Wireless Configuration Data Sheet.",
+  "unit": null,
+  "source_page": 110
+ },
+ {
+  "parameter": "Tagging (three options available) | Number of tagging options",
+  "value": "3",
+  "unit": null,
+  "source_page": 110
+ },
+ {
+  "parameter": "Tagging (three options available) | Standard SST hardware tag | Description",
+  "value": "Standard SST hardware tag is stamped on the transmitter, 56 characters maximum.",
+  "unit": null,
+  "source_page": 110
+ },
+ {
+  "parameter": "Tagging (three options available) | Standard SST hardware tag | Maximum characters",
+  "value": "56",
+  "unit": "characters",
+  "source_page": 110
+ },
+ {
+  "parameter": "Tagging (three options available) | Wired tag | Description",
+  "value": "Tag may be wired to the transmitter upon request. Tag character height is 0.125 in. (3.18 mm), 56 characters maximum.",
+  "unit": null,
+  "source_page": 110
+ },
+ {
+  "parameter": "Tagging (three options available) | Wired tag | Tag character height",
+  "value": "0.125",
+  "unit": "in",
+  "source_page": 110
+ },
+ {
+  "parameter": "Tagging (three options available) | Wired tag | Tag character height",
+  "value": "3.18",
+  "unit": "mm",
+  "source_page": 110
+ },
+ {
+  "parameter": "Tagging (three options available) | Wired tag | Maximum characters",
+  "value": "56",
+  "unit": "characters",
+  "source_page": 110
+ },
+ {
+  "parameter": "Tagging (three options available) | Tag stored in transmitter memory | Description",
+  "value": "Tag may be stored in transmitter memory, 32 characters maximum.",
+  "unit": null,
+  "source_page": 110
+ },
+ {
+  "parameter": "Tagging (three options available) | Tag stored in transmitter memory | Maximum characters",
+  "value": "32",
+  "unit": "characters",
+  "source_page": 110
+ },
+ {
+  "parameter": "Commissioning tag | Note | Applicability",
+  "value": "Only applicable to FOUNDATION™ Fieldbus.",
+  "unit": null,
+  "source_page": 110
+ },
+ {
+  "parameter": "Commissioning tag | FOUNDATION™ Fieldbus | Commissioning tag",
+  "value": "A temporary commissioning tag is attached to all transmitters.",
+  "unit": null,
+  "source_page": 110
+ },
+ {
+  "parameter": "Commissioning tag | FOUNDATION™ Fieldbus | Tag content",
+  "value": "The tag indicates the device ID and allows an area for writing the location.",
+  "unit": null,
+  "source_page": 110
+ },
+ {
+  "parameter": "Optional Rosemount 304, 305, or 306 Integral Manifolds | Assembly",
+  "value": "Factory assembled to Rosemount 3051C and 3051T transmitters.",
+  "unit": null,
+  "source_page": 110
+ },
+ {
+  "parameter": "Optional Rosemount 304, 305, or 306 Integral Manifolds | Reference",
+  "value": "Refer to the following Product Data Sheet for Rosemount 304, 305, and 306 for additional information.",
+  "unit": null,
+  "source_page": 110
+ },
+ {
+  "parameter": "Other seals | Reference",
+  "value": "Refer to Rosemount DP Level Transmitters and Diaphragm Seal System Product Data Sheet for additional information.",
+  "unit": null,
+  "source_page": 110
+ },
+ {
+  "parameter": "Output information | Output range points",
+  "value": "Output range points must be the same unit of measure.",
+  "unit": null,
+  "source_page": 111
+ },
+ {
+  "parameter": "Output information - table 1 | Pressure | Available unit of measure",
+  "value": "inH2O (68 °F)",
+  "unit": null,
+  "source_page": 111
+ },
+ {
+  "parameter": "Output information - table 1 | Pressure | Available unit of measure",
+  "value": "mbar",
+  "unit": null,
+  "source_page": 111
+ },
+ {
+  "parameter": "Output information - table 1 | Pressure | Available unit of measure [fn 1]",
+  "value": "inH2O (60 ºF)",
+  "unit": null,
+  "source_page": 111
+ },
+ {
+  "parameter": "Output information - table 1 | Pressure | Available unit of measure",
+  "value": "ftH2O (4 ℃)",
+  "unit": null,
+  "source_page": 111
+ },
+ {
+  "parameter": "Output information - table 1 | Pressure | Available unit of measure",
+  "value": "inHg (0 ℃)",
+  "unit": null,
+  "source_page": 111
+ },
+ {
+  "parameter": "Output information - table 1 | Pressure | Available unit of measure",
+  "value": "g/cm2",
+  "unit": null,
+  "source_page": 111
+ },
+ {
+  "parameter": "Output information - table 1 | Pressure | Available unit of measure",
+  "value": "cmH2O (4 ℃)",
+  "unit": null,
+  "source_page": 111
+ },
+ {
+  "parameter": "Output information - table 1 | Pressure | Available unit of measure",
+  "value": "ftH2O (60 ºF)",
+  "unit": null,
+  "source_page": 111
+ },
+ {
+  "parameter": "Output information - table 1 | Pressure | Available unit of measure",
+  "value": "ftH2O (68 ºF)",
+  "unit": null,
+  "source_page": 111
+ },
+ {
+  "parameter": "Output information - table 1 | Pressure | Available unit of measure",
+  "value": "kg/cm2",
+  "unit": null,
+  "source_page": 111
+ },
+ {
+  "parameter": "Output information - table 1 | Pressure | Available unit of measure",
+  "value": "mH2O (4 ℃)",
+  "unit": null,
+  "source_page": 111
+ },
+ {
+  "parameter": "Output information - table 1 | Pressure | Available unit of measure",
+  "value": "mHg (0 ℃)",
+  "unit": null,
+  "source_page": 111
+ },
+ {
+  "parameter": "Output information - table 1 | Pressure | Available unit of measure",
+  "value": "mmH2O (68 ºF)",
+  "unit": null,
+  "source_page": 111
+ },
+ {
+  "parameter": "Output information - table 1 | Pressure | Available unit of measure",
+  "value": "Pa",
+  "unit": null,
+  "source_page": 111
+ },
+ {
+  "parameter": "Output information - table 1 | Pressure | Available unit of measure",
+  "value": "cmHg (0 ℃)",
+  "unit": null,
+  "source_page": 111
+ },
+ {
+  "parameter": "Output information - table 1 | Pressure | Available unit of measure [fn 1]",
+  "value": "MPa",
+  "unit": null,
+  "source_page": 111
+ },
+ {
+  "parameter": "Output information - table 1 | Pressure | Available unit of measure",
+  "value": "mmHg (0 ℃)",
+  "unit": null,
+  "source_page": 111
+ },
+ {
+  "parameter": "Output information - table 1 | Pressure | Available unit of measure",
+  "value": "kPa",
+  "unit": null,
+  "source_page": 111
+ },
+ {
+  "parameter": "Output information - table 1 | Pressure | Available unit of measure",
+  "value": "lb/ft2",
+  "unit": null,
+  "source_page": 111
+ },
+ {
+  "parameter": "Output information - table 1 | Pressure | Available unit of measure",
+  "value": "inH2O (4 ℃)",
+  "unit": null,
+  "source_page": 111
+ },
+ {
+  "parameter": "Output information - table 1 | Pressure | Available unit of measure",
+  "value": "psi",
+  "unit": null,
+  "source_page": 111
+ },
+ {
+  "parameter": "Output information - table 1 | Pressure | Available unit of measure",
+  "value": "Torr",
+  "unit": null,
+  "source_page": 111
+ },
+ {
+  "parameter": "Output information - table 1 | Pressure | Available unit of measure",
+  "value": "hPa",
+  "unit": null,
+  "source_page": 111
+ },
+ {
+  "parameter": "Output information - table 1 | Pressure | Available unit of measure",
+  "value": "mmH2O (4 ℃)",
+  "unit": null,
+  "source_page": 111
+ },
+ {
+  "parameter": "Output information - table 1 | Pressure | Available unit of measure",
+  "value": "bar",
+  "unit": null,
+  "source_page": 111
+ },
+ {
+  "parameter": "Output information - table 1 | Pressure | Available unit of measure",
+  "value": "atm",
+  "unit": null,
+  "source_page": 111
+ },
+ {
+  "parameter": "Output information - table 1 | Pressure | Available unit of measure",
+  "value": "kg/m2",
+  "unit": null,
+  "source_page": 111
+ },
+ {
+  "parameter": "Output information - table 1 | Pressure | Available unit of measure [fn 2]",
+  "value": "psf",
+  "unit": null,
+  "source_page": 111
+ },
+ {
+  "parameter": "Output information - table 1 | Flow | Available unit of measure",
+  "value": "User-defined",
+  "unit": null,
+  "source_page": 111
+ },
+ {
+  "parameter": "Output information - table 1 | Totalizer - Flow Units of Time | Available unit of measure",
+  "value": "Seconds",
+  "unit": null,
+  "source_page": 111
+ },
+ {
+  "parameter": "Output information - table 1 | Totalizer - Flow Units of Time | Available unit of measure",
+  "value": "Minutes",
+  "unit": null,
+  "source_page": 111
+ },
+ {
+  "parameter": "Output information - table 1 | Totalizer - Flow Units of Time | Available unit of measure",
+  "value": "Hours",
+  "unit": null,
+  "source_page": 111
+ },
+ {
+  "parameter": "Output information - table 1 | Totalizer - Flow Units of Time | Available unit of measure",
+  "value": "Days",
+  "unit": null,
+  "source_page": 111
+ },
+ {
+  "parameter": "Output information - table 1 | Level | Available unit of measure",
+  "value": "Feet (ft)",
+  "unit": null,
+  "source_page": 111
+ },
+ {
+  "parameter": "Output information - table 1 | Level | Available unit of measure",
+  "value": "Meters (m)",
+  "unit": null,
+  "source_page": 111
+ },
+ {
+  "parameter": "Output information - table 1 | Level | Available unit of measure",
+  "value": "Inches (in)",
+  "unit": null,
+  "source_page": 111
+ },
+ {
+  "parameter": "Output information - table 1 | Level | Available unit of measure",
+  "value": "Centimeters (cm)",
+  "unit": null,
+  "source_page": 111
+ },
+ {
+  "parameter": "Output information - table 1 | Level | Available unit of measure",
+  "value": "Millimeters (mm)",
+  "unit": null,
+  "source_page": 111
+ },
+ {
+  "parameter": "Output information - table 1 | Volume | Available unit of measure",
+  "value": "Gallons",
+  "unit": null,
+  "source_page": 111
+ },
+ {
+  "parameter": "Output information - table 1 | Volume | Available unit of measure",
+  "value": "Liters",
+  "unit": null,
+  "source_page": 111
+ },
+ {
+  "parameter": "Output information - table 1 | Volume | Available unit of measure",
+  "value": "Imperial Gallons",
+  "unit": null,
+  "source_page": 111
+ },
+ {
+  "parameter": "Output information - table 1 | Volume | Available unit of measure",
+  "value": "Cubic Meters",
+  "unit": null,
+  "source_page": 111
+ },
+ {
+  "parameter": "Output information - table 1 | Volume | Available unit of measure",
+  "value": "Barrels",
+  "unit": null,
+  "source_page": 111
+ },
+ {
+  "parameter": "Output information - table 1 | Volume | Available unit of measure",
+  "value": "Cubic Yards",
+  "unit": null,
+  "source_page": 111
+ },
+ {
+  "parameter": "Output information - table 1 | Volume | Available unit of measure",
+  "value": "Cubic Feet",
+  "unit": null,
+  "source_page": 111
+ },
+ {
+  "parameter": "Output information - table 1 | Volume | Available unit of measure",
+  "value": "Cubic Inches",
+  "unit": null,
+  "source_page": 111
+ },
+ {
+  "parameter": "Output information - table 1 | footnote 1",
+  "value": "Not available with Low Power (output code M) or PROFIBUS PA (output option code W).",
+  "unit": null,
+  "source_page": 111
+ },
+ {
+  "parameter": "Output information - table 1 | footnote 2",
+  "value": "Not available with 4-20 mA HART (output code A).",
+  "unit": null,
+  "source_page": 111
+ },
+ {
+  "parameter": "Display and interface options | M4 Digital display with LOI | Availability",
+  "value": "Available for 4-20 mA HART, Low Power, and PROFIBUS PA",
+  "unit": null,
+  "source_page": 112
+ },
+ {
+  "parameter": "Display and interface options | M5 Digital display | Low power output | Display",
+  "value": "Two-line, five-digit LCD display for low power output",
+  "unit": null,
+  "source_page": 112
+ },
+ {
+  "parameter": "Display and interface options | M5 Digital display | 4-20 mA HART, FOUNDATION Fieldbus, and PROFIBUS PA | Display",
+  "value": "Two-line, five-digit LCD display for 4-20 mA HART, FOUNDATION Fieldbus, and PROFIBUS PA",
+  "unit": null,
+  "source_page": 112
+ },
+ {
+  "parameter": "Display and interface options | M5 Digital display | Wireless | Display",
+  "value": "Three-line, seven-digit LCD display for Wireless",
+  "unit": null,
+  "source_page": 112
+ },
+ {
+  "parameter": "Display and interface options | M5 Digital display | Feature",
+  "value": "Direct reading of digital data for higher accuracy",
+  "unit": null,
+  "source_page": 112
+ },
+ {
+  "parameter": "Display and interface options | M5 Digital display | Feature",
+  "value": "Displays user-defined flow, level, volume, or pressure units",
+  "unit": null,
+  "source_page": 112
+ },
+ {
+  "parameter": "Display and interface options | M5 Digital display | Feature",
+  "value": "Displays diagnostic messages for local troubleshooting",
+  "unit": null,
+  "source_page": 112
+ },
+ {
+  "parameter": "Display and interface options | M5 Digital display | Feature",
+  "value": "90-degree rotation capability for easy viewing",
+  "unit": null,
+  "source_page": 112
+ },
+ {
+  "parameter": "Display and interface options | M6 Graphical LCD display | Availability",
+  "value": "Available for 4-20 mA HART",
+  "unit": null,
+  "source_page": 112
+ },
+ {
+  "parameter": "Display and interface options | M6 Graphical LCD display | Display",
+  "value": "Three-line, fourteen character graphical LCD display",
+  "unit": null,
+  "source_page": 112
+ },
+ {
+  "parameter": "Display and interface options | M6 Graphical LCD display | Backlight",
+  "value": "Backlit",
+  "unit": null,
+  "source_page": 112
+ },
+ {
+  "parameter": "Display and interface options | M6 Graphical LCD display | Languages",
+  "value": "Available in English, Chinese, French, German, Italian, Portuguese, Russian, and Spanish",
+  "unit": null,
+  "source_page": 112
+ },
+ {
+  "parameter": "Display and interface options | M6 Graphical LCD display | Icons",
+  "value": "Bluetooth®, square root, and NAMUR compliant maintenance icons",
+  "unit": null,
+  "source_page": 112
+ },
+ {
+  "parameter": "Display and interface options | M6 Graphical LCD display | Rotation",
+  "value": "90-degree physical rotation and 180-degree software rotation capability for easy viewing",
+  "unit": null,
+  "source_page": 112
+ },
+ {
+  "parameter": "Display and interface options | M6 Graphical LCD display | Decimal settings",
+  "value": "User adjustable decimal precision and decimal separator",
+  "unit": null,
+  "source_page": 112
+ },
+ {
+  "parameter": "Display and interface options | M6 Graphical LCD display | Unit labels",
+  "value": "Gage or absolute unit labels",
+  "unit": null,
+  "source_page": 112
+ },
+ {
+  "parameter": "Configuration buttons | Default",
+  "value": "Rosemount 3051 will ship with no buttons unless option D1 (quick service buttons), D4 (analog zero and span), DZ (digital zero), or M4 (LOI) for local configuration buttons are specified.",
+  "unit": null,
+  "source_page": 112
+ },
+ {
+  "parameter": "Configuration buttons | Option D1 | Local configuration buttons",
+  "value": "quick service buttons",
+  "unit": null,
+  "source_page": 112
+ },
+ {
+  "parameter": "Configuration buttons | Option D4 | Local configuration buttons",
+  "value": "analog zero and span",
+  "unit": null,
+  "source_page": 112
+ },
+ {
+  "parameter": "Configuration buttons | Option DZ | Local configuration buttons",
+  "value": "digital zero",
+  "unit": null,
+  "source_page": 112
+ },
+ {
+  "parameter": "Configuration buttons | Option M4 | Local configuration buttons",
+  "value": "LOI",
+  "unit": null,
+  "source_page": 112
+ },
+ {
+  "parameter": "Configuration buttons | Rosemount 3051 Wireless Transmitter",
+  "value": "The Rosemount 3051 Wireless Transmitter is available with a Digital zero button installed with or without the LCD digital display.",
+  "unit": null,
+  "source_page": 112
+ },
+ {
+  "parameter": "Transient protection (option code T1) - Options | Option code T1 | Test standard",
+  "value": "Tested in accordance with IEEE C62.41.2-2002, location category B",
+  "unit": null,
+  "source_page": 112
+ },
+ {
+  "parameter": "Transient protection (option code T1) - Options | Option code T1 | 0.5 us-100 kHz | Crest",
+  "value": "6",
+  "unit": "kV",
+  "source_page": 112
+ },
+ {
+  "parameter": "Transient protection (option code T1) - Options | Option code T1 | 8 × 20 us | Crest",
+  "value": "3",
+  "unit": "kA",
+  "source_page": 112
+ },
+ {
+  "parameter": "Transient protection (option code T1) - Options | Option code T1 | 1.2 x 50 us | Crest",
+  "value": "6",
+  "unit": "kV",
+  "source_page": 112
+ },
+ {
+  "parameter": "External ground screw assembly | Ordering option code",
+  "value": "V5",
+  "unit": null,
+  "source_page": 112
+ },
+ {
+  "parameter": "External ground screw assembly | Ordering",
+  "value": "The external ground screw assembly can be ordered by specifying option code V5.",
+  "unit": null,
+  "source_page": 112
+ },
+ {
+  "parameter": "External ground screw assembly | Included with T1 and some product certifications",
+  "value": "The transient protection terminal block (option code T1) and some product certifications include the ground screw assembly in the transmitter, hence it is not necessary to order the V5 code when ordering these options.",
+  "unit": null,
+  "source_page": 112
+ },
+ {
+  "parameter": "External ground screw assembly | Reference",
+  "value": "Tagging (three options available) identifies which product certification options include the external ground screw assembly and which do not.",
+  "unit": null,
+  "source_page": 112
+ },
+ {
+  "parameter": "Table 13: External ground screw assembly | Option code C6 | External ground screw assembly included?",
+  "value": "No. Order option V5 or T1.",
+  "unit": null,
+  "source_page": 112
+ },
+ {
+  "parameter": "Table 13: External ground screw assembly | Option code E5 | External ground screw assembly included?",
+  "value": "No. Order option V5 or T1.",
+  "unit": null,
+  "source_page": 112
+ },
+ {
+  "parameter": "Table 13: External ground screw assembly | Option code E6 | External ground screw assembly included?",
+  "value": "No. Order option V5 or T1.",
+  "unit": null,
+  "source_page": 112
+ },
+ {
+  "parameter": "Table 13: External ground screw assembly | Option code I2 | External ground screw assembly included?",
+  "value": "No. Order option V5 or T1.",
+  "unit": null,
+  "source_page": 112
+ },
+ {
+  "parameter": "Table 13: External ground screw assembly | Option code I3 | External ground screw assembly included?",
+  "value": "No. Order option V5 or T1.",
+  "unit": null,
+  "source_page": 112
+ },
+ {
+  "parameter": "Table 13: External ground screw assembly | Option code I4 | External ground screw assembly included?",
+  "value": "No. Order option V5 or T1.",
+  "unit": null,
+  "source_page": 112
+ },
+ {
+  "parameter": "Table 13: External ground screw assembly | Option code I5 | External ground screw assembly included?",
+  "value": "No. Order option V5 or T1.",
+  "unit": null,
+  "source_page": 112
+ },
+ {
+  "parameter": "Table 13: External ground screw assembly | Option code I6 | External ground screw assembly included?",
+  "value": "No. Order option V5 or T1.",
+  "unit": null,
+  "source_page": 112
+ },
+ {
+  "parameter": "Table 13: External ground screw assembly | Option code I7 | External ground screw assembly included?",
+  "value": "No. Order option V5 or T1.",
+  "unit": null,
+  "source_page": 112
+ },
+ {
+  "parameter": "Table 13: External ground screw assembly | Option code IM | External ground screw assembly included?",
+  "value": "No. Order option V5 or T1.",
+  "unit": null,
+  "source_page": 112
+ },
+ {
+  "parameter": "Table 13: External ground screw assembly | Option code IP | External ground screw assembly included?",
+  "value": "No. Order option V5 or T1.",
+  "unit": null,
+  "source_page": 112
+ },
+ {
+  "parameter": "Table 13: External ground screw assembly | Option code K5 | External ground screw assembly included?",
+  "value": "No. Order option V5 or T1.",
+  "unit": null,
+  "source_page": 112
+ },
+ {
+  "parameter": "Table 13: External ground screw assembly | Option code K6 | External ground screw assembly included?",
+  "value": "No. Order option V5 or T1.",
+  "unit": null,
+  "source_page": 112
+ },
+ {
+  "parameter": "Table 13: External ground screw assembly | Option code KB | External ground screw assembly included?",
+  "value": "No. Order option V5 or T1.",
+  "unit": null,
+  "source_page": 112
+ },
+ {
+  "parameter": "Table 13: External ground screw assembly | Option code KL | External ground screw assembly included?",
+  "value": "No. Order option V5 or T1.",
+  "unit": null,
+  "source_page": 112
+ },
+ {
+  "parameter": "Table 13: External ground screw assembly | Option code E2 | External ground screw assembly included?",
+  "value": "Yes",
+  "unit": null,
+  "source_page": 112
+ },
+ {
+  "parameter": "Table 13: External ground screw assembly | Option code E3 | External ground screw assembly included?",
+  "value": "Yes",
+  "unit": null,
+  "source_page": 112
+ },
+ {
+  "parameter": "Table 13: External ground screw assembly | Option code E4 | External ground screw assembly included?",
+  "value": "Yes",
+  "unit": null,
+  "source_page": 112
+ },
+ {
+  "parameter": "Table 13: External ground screw assembly | Option code E7 | External ground screw assembly included?",
+  "value": "Yes",
+  "unit": null,
+  "source_page": 112
+ },
+ {
+  "parameter": "Table 13: External ground screw assembly | Option code E8 | External ground screw assembly included?",
+  "value": "Yes",
+  "unit": null,
+  "source_page": 112
+ },
+ {
+  "parameter": "Table 13: External ground screw assembly | Option code EM | External ground screw assembly included?",
+  "value": "Yes",
+  "unit": null,
+  "source_page": 112
+ },
+ {
+  "parameter": "Table 13: External ground screw assembly | Option code EP | External ground screw assembly included?",
+  "value": "Yes",
+  "unit": null,
+  "source_page": 112
+ },
+ {
+  "parameter": "Table 13: External ground screw assembly | Option code I1 | External ground screw assembly included?",
+  "value": "Yes",
+  "unit": null,
+  "source_page": 112
+ },
+ {
+  "parameter": "Table 13: External ground screw assembly | Option code IA | External ground screw assembly included?",
+  "value": "Yes",
+  "unit": null,
+  "source_page": 112
+ },
+ {
+  "parameter": "Table 13: External ground screw assembly | Option code IB | External ground screw assembly included?",
+  "value": "Yes",
+  "unit": null,
+  "source_page": 112
+ },
+ {
+  "parameter": "Table 13: External ground screw assembly | Option code IE | External ground screw assembly included?",
+  "value": "Yes",
+  "unit": null,
+  "source_page": 112
+ },
+ {
+  "parameter": "Table 13: External ground screw assembly | Option code IG | External ground screw assembly included?",
+  "value": "Yes",
+  "unit": null,
+  "source_page": 112
+ },
+ {
+  "parameter": "Table 13: External ground screw assembly | Option code IN | External ground screw assembly included?",
+  "value": "Yes",
+  "unit": null,
+  "source_page": 112
+ },
+ {
+  "parameter": "Table 13: External ground screw assembly | Option code K2 | External ground screw assembly included?",
+  "value": "Yes",
+  "unit": null,
+  "source_page": 112
+ },
+ {
+  "parameter": "Table 13: External ground screw assembly | Option code K6 | External ground screw assembly included?",
+  "value": "Yes",
+  "unit": null,
+  "source_page": 112
+ },
+ {
+  "parameter": "Table 13: External ground screw assembly | Option code K7 | External ground screw assembly included?",
+  "value": "Yes",
+  "unit": null,
+  "source_page": 112
+ },
+ {
+  "parameter": "Table 13: External ground screw assembly | Option code K8 | External ground screw assembly included?",
+  "value": "Yes",
+  "unit": null,
+  "source_page": 112
+ },
+ {
+  "parameter": "Table 13: External ground screw assembly | Option code KC | External ground screw assembly included?",
+  "value": "Yes",
+  "unit": null,
+  "source_page": 112
+ },
+ {
+  "parameter": "Table 13: External ground screw assembly | Option code KD | External ground screw assembly included?",
+  "value": "Yes",
+  "unit": null,
+  "source_page": 112
+ },
+ {
+  "parameter": "Table 13: External ground screw assembly | Option code KM | External ground screw assembly included?",
+  "value": "Yes",
+  "unit": null,
+  "source_page": 112
+ },
+ {
+  "parameter": "Table 13: External ground screw assembly | Option code KP | External ground screw assembly included?",
+  "value": "Yes",
+  "unit": null,
+  "source_page": 112
+ },
+ {
+  "parameter": "Table 13: External ground screw assembly | Option code KS | External ground screw assembly included?",
+  "value": "Yes",
+  "unit": null,
+  "source_page": 112
+ },
+ {
+  "parameter": "Table 13: External ground screw assembly | Option code N1 | External ground screw assembly included?",
+  "value": "Yes",
+  "unit": null,
+  "source_page": 112
+ },
+ {
+  "parameter": "Table 13: External ground screw assembly | Option code N3 | External ground screw assembly included?",
+  "value": "Yes",
+  "unit": null,
+  "source_page": 112
+ },
+ {
+  "parameter": "Table 13: External ground screw assembly | Option code N7 | External ground screw assembly included?",
+  "value": "Yes",
+  "unit": null,
+  "source_page": 112
+ },
+ {
+  "parameter": "Table 13: External ground screw assembly | Option code ND | External ground screw assembly included?",
+  "value": "Yes",
+  "unit": null,
+  "source_page": 112
+ },
+ {
+  "parameter": "Table 13: External ground screw assembly | Option code NK | External ground screw assembly included?",
+  "value": "Yes",
+  "unit": null,
+  "source_page": 112
+ },
+ {
+  "parameter": "Bolts for flanges and adapters | Material options",
+  "value": "Options permit bolts for flanges and adapters to be obtained in various materials",
+  "unit": null,
+  "source_page": 113
+ },
+ {
+  "parameter": "Bolts for flanges and adapters | Standard material",
+  "value": "plated CS per ASTM A449, Type 1",
+  "unit": null,
+  "source_page": 113
+ },
+ {
+  "parameter": "Bolts for flanges and adapters | Option L4",
+  "value": "austenitic 316 SST bolts",
+  "unit": null,
+  "source_page": 113
+ },
+ {
+  "parameter": "Bolts for flanges and adapters | Option L5",
+  "value": "ASTM A 193, Grade B7M bolts",
+  "unit": null,
+  "source_page": 113
+ },
+ {
+  "parameter": "Bolts for flanges and adapters | Option L6",
+  "value": "alloy k-500 bolts",
+  "unit": null,
+  "source_page": 113
+ },
+ {
+  "parameter": "Conduit plug | Option DO",
+  "value": "DO option replaces the standard CS plug with 316 SST plug.",
+  "unit": null,
+  "source_page": 113
+ },
+ {
+  "parameter": "Rosemount 3051C Coplanar Flange and 3051T bracket option | Option B4 | Description",
+  "value": "Bracket for 2-inch pipe or panel mounting",
+  "unit": null,
+  "source_page": 113
+ },
+ {
+  "parameter": "Rosemount 3051C Coplanar Flange and 3051T bracket option | Option B4 | Feature",
+  "value": "For use with the standard coplanar flange configuration",
+  "unit": null,
+  "source_page": 113
+ },
+ {
+  "parameter": "Rosemount 3051C Coplanar Flange and 3051T bracket option | Option B4 | Feature",
+  "value": "Bracket for mounting of transmitter on 2-inch pipe or panel",
+  "unit": null,
+  "source_page": 113
+ },
+ {
+  "parameter": "Rosemount 3051C Coplanar Flange and 3051T bracket option | Option B4 | Feature",
+  "value": "SST construction with SST bolts",
+  "unit": null,
+  "source_page": 113
+ },
+ {
+  "parameter": "Rosemount 3051C Traditional Flange bracket options | Option B1 | Description",
+  "value": "Bracket for 2-inch pipe mounting",
+  "unit": null,
+  "source_page": 113
+ },
+ {
+  "parameter": "Rosemount 3051C Traditional Flange bracket options | Option B1 | Feature",
+  "value": "For use with the traditional flange option",
+  "unit": null,
+  "source_page": 113
+ },
+ {
+  "parameter": "Rosemount 3051C Traditional Flange bracket options | Option B1 | Feature",
+  "value": "Bracket for mounting on 2-inch pipe",
+  "unit": null,
+  "source_page": 113
+ },
+ {
+  "parameter": "Rosemount 3051C Traditional Flange bracket options | Option B1 | Feature",
+  "value": "CS construction with CS bolts",
+  "unit": null,
+  "source_page": 113
+ },
+ {
+  "parameter": "Rosemount 3051C Traditional Flange bracket options | Option B1 | Feature",
+  "value": "Coated with polyurethane paint",
+  "unit": null,
+  "source_page": 113
+ },
+ {
+  "parameter": "Rosemount 3051C Traditional Flange bracket options | Option B2 | Description",
+  "value": "Bracket for panel mounting",
+  "unit": null,
+  "source_page": 113
+ },
+ {
+  "parameter": "Rosemount 3051C Traditional Flange bracket options | Option B2 | Feature",
+  "value": "For use with the traditional flange option",
+  "unit": null,
+  "source_page": 113
+ },
+ {
+  "parameter": "Rosemount 3051C Traditional Flange bracket options | Option B2 | Feature",
+  "value": "Bracket for mounting transmitter on wall or panel",
+  "unit": null,
+  "source_page": 113
+ },
+ {
+  "parameter": "Rosemount 3051C Traditional Flange bracket options | Option B2 | Feature",
+  "value": "CS construction with CS bolts",
+  "unit": null,
+  "source_page": 113
+ },
+ {
+  "parameter": "Rosemount 3051C Traditional Flange bracket options | Option B2 | Feature",
+  "value": "Coated with polyurethane paint",
+  "unit": null,
+  "source_page": 113
+ },
+ {
+  "parameter": "Rosemount 3051C Traditional Flange bracket options | Option B3 | Description",
+  "value": "Flat Bracket for 2-inch pipe mounting",
+  "unit": null,
+  "source_page": 113
+ },
+ {
+  "parameter": "Rosemount 3051C Traditional Flange bracket options | Option B3 | Feature",
+  "value": "For use with the traditional flange option",
+  "unit": null,
+  "source_page": 113
+ },
+ {
+  "parameter": "Rosemount 3051C Traditional Flange bracket options | Option B3 | Feature",
+  "value": "Bracket for vertical mounting of transmitter on 2-inch pipe",
+  "unit": null,
+  "source_page": 113
+ },
+ {
+  "parameter": "Rosemount 3051C Traditional Flange bracket options | Option B3 | Feature",
+  "value": "CS construction with CS bolts",
+  "unit": null,
+  "source_page": 113
+ },
+ {
+  "parameter": "Rosemount 3051C Traditional Flange bracket options | Option B3 | Feature",
+  "value": "Coated with polyurethane paint",
+  "unit": null,
+  "source_page": 113
+ },
+ {
+  "parameter": "Rosemount 3051C Traditional Flange bracket options | Option B7 | Description",
+  "value": "B1 Bracket with SST bolts",
+  "unit": null,
+  "source_page": 113
+ },
+ {
+  "parameter": "Rosemount 3051C Traditional Flange bracket options | Option B7 | Feature",
+  "value": "Same bracket as the B1 option with Series 300 SST bolts",
+  "unit": null,
+  "source_page": 113
+ },
+ {
+  "parameter": "Rosemount 3051C Traditional Flange bracket options | Option B8 | Description",
+  "value": "B2 Bracket with SST bolts",
+  "unit": null,
+  "source_page": 113
+ },
+ {
+  "parameter": "Rosemount 3051C Traditional Flange bracket options | Option B8 | Feature",
+  "value": "Same bracket as the B2 option with Series 300 SST bolts",
+  "unit": null,
+  "source_page": 113
+ },
+ {
+  "parameter": "Rosemount 3051C Traditional Flange bracket options | Option B9 | Description",
+  "value": "B3 Bracket with SST bolts",
+  "unit": null,
+  "source_page": 113
+ },
+ {
+  "parameter": "Rosemount 3051C Traditional Flange bracket options | Option B9 | Feature",
+  "value": "Same bracket as the B3 option with Series 300 SST bolts",
+  "unit": null,
+  "source_page": 113
+ },
+ {
+  "parameter": "Rosemount 3051C Traditional Flange bracket options | Option BA | Description",
+  "value": "SST B1 bracket with SST bolts",
+  "unit": null,
+  "source_page": 113
+ },
+ {
+  "parameter": "Rosemount 3051C Traditional Flange bracket options | Option BA | Feature",
+  "value": "B1 bracket in SST with Series 300 SST bolts",
+  "unit": null,
+  "source_page": 113
+ },
+ {
+  "parameter": "Rosemount 3051C Traditional Flange bracket options | Option BC | Description",
+  "value": "SST B3 Bracket with SST bolts",
+  "unit": null,
+  "source_page": 113
+ },
+ {
+  "parameter": "Rosemount 3051C Traditional Flange bracket options | Option BC | Feature",
+  "value": "B3 bracket in SST with Series 300 SST bolts",
+  "unit": null,
+  "source_page": 113
+ },
+ {
+  "parameter": "Rosemount 3051C Traditional Flange bracket options | Option BE | Description",
+  "value": "316SST B4 Bracket with 316SST bolts",
+  "unit": null,
+  "source_page": 113
+ },
+ {
+  "parameter": "Rosemount 3051C Traditional Flange bracket options | Option BE | Feature",
+  "value": "B4 bracket in 316SST with 316SST bolts",
+  "unit": null,
+  "source_page": 113
+ },
+ {
+  "parameter": "page 114 | More information",
+  "value": "For more information: Emerson.com",
+  "unit": null,
+  "source_page": 114
+ },
+ {
+  "parameter": "page 114 | Copyright",
+  "value": "@2026 Emerson. All rights reserved.",
+  "unit": null,
+  "source_page": 114
+ },
+ {
+  "parameter": "page 114 | Terms and Conditions of Sale",
+  "value": "Emerson Terms and Conditions of Sale are available upon request.",
+  "unit": null,
+  "source_page": 114
+ },
+ {
+  "parameter": "page 114 | Trademarks",
+  "value": "The Emerson logo is a trademark and service mark of Emerson Electric Co. Rosemount is a mark of one of the Emerson family of business units. All other marks are the property of their respective owners.",
+  "unit": null,
+  "source_page": 114
+ }
+]

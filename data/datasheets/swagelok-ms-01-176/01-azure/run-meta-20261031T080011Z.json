@@ -1,0 +1,27 @@
+{
+  "started_utc": "2026-10-31T08:00:11+00:00",
+  "endpoint_host": "plantdocs-docint-zsombi.cognitiveservices.azure.com",
+  "sdk_version": "1.0.2",
+  "settings": {
+    "features": [
+      "keyValuePairs"
+    ],
+    "output_content_format": "markdown",
+    "string_index_type": "unicodeCodePoint"
+  },
+  "pdf": "swagelok-ms-01-176.pdf",
+  "pdf_sha256": "20e6d6569ac59d64f0f15bcaea44fd1f9af96ab3cf1abb248f8dd3e5bb4875d9",
+  "note": "plantqa",
+  "ranges": [
+    {
+      "pages": "all",
+      "file": "raw-all.json",
+      "api_version": "2024-11-30",
+      "model_id": "prebuilt-layout",
+      "pages_returned": 16,
+      "tables": 32,
+      "paragraphs": 2146,
+      "key_value_pairs": 28
+    }
+  ]
+}

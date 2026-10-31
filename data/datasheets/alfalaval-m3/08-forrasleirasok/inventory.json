@@ -1,0 +1,288 @@
+{
+  "document": "alfalaval-m3",
+  "decorative_figures_skipped": 0,
+  "sources": [
+    {
+      "id": "alfalaval-m3/table-azure-0",
+      "kind": "table",
+      "pages": [
+        2
+      ],
+      "title": "Plates",
+      "azure_parts": [
+        0,
+        1
+      ],
+      "continuations_without_caption": 1,
+      "content": "<table>\n<tr>\n<th>Name</th>\n<th>Type</th>\n<th>Free channel, mm (inches)</th>\n</tr>\n<tr>\n<td>M3</td>\n<td>Single plate</td>\n<td>2.4 (0.095)</td>\n</tr>\n<tr>\n<td>M3-D</td>\n<td>Double wall plate</td>\n<td>2.4 (0.095)</td>\n</tr>\n<tr>\n<td>M3-G</td>\n<td>Gemini (hygienic) Double wall</td>\n<td>2.4 (0.095)</td>\n</tr>\n<tr>\n<td>M3-X</td>\n<td>Single plate Diagonal flow</td>\n<td>2.4 (0.095)</td>\n</tr>\n</table>\n<table>\n<tr>\n<td>Materials</td>\n<td></td>\n</tr>\n<tr>\n<td>Heat transfer plates</td>\n<td>316/316L C-276 Ti, TiPd</td>\n</tr>\n<tr>\n<td>Field gaskets</td>\n<td>NBR, EPDM, FKM</td>\n</tr>\n<tr>\n<td>Flange connections</td>\n<td>Carbon steel</td>\n</tr>\n<tr>\n<td>Pipe connections</td>\n<td>Stainless steel, titanium</td>\n</tr>\n<tr>\n<td>Frame and pressure plate</td>\n<td>Carbon steel, epoxy painted</td>\n</tr>\n</table>"
+    },
+    {
+      "id": "alfalaval-m3/table-azure-2",
+      "kind": "table",
+      "pages": [
+        2
+      ],
+      "title": "Operational data",
+      "azure_parts": [
+        2
+      ],
+      "continuations_without_caption": 0,
+      "content": "<table>\n<tr>\n<th>Frame, PV-code</th>\n<th>Max. design pressure (barg/psig)</th>\n<th>Max. design temperature (ºC/ºF)</th>\n</tr>\n<tr>\n<td>FG, ASME</td>\n<td>10.3/150</td>\n<td>177/350</td>\n</tr>\n<tr>\n<td>FG, PED</td>\n<td>16.0/232</td>\n<td>180/356</td>\n</tr>\n</table>"
+    },
+    {
+      "id": "alfalaval-m3/table-azure-3",
+      "kind": "table",
+      "pages": [
+        2
+      ],
+      "title": "Pipe connections",
+      "azure_parts": [
+        3
+      ],
+      "continuations_without_caption": 0,
+      "content": "<table>\n<tr>\n<td>Threaded port</td>\n<td>ISO 228 - G 1 1/4</td>\n</tr>\n<tr>\n<td>Internal parallel threaded</td>\n<td>ISO 228 - G 1</td>\n</tr>\n<tr>\n<td>External parallel threaded</td>\n<td>ISO 228 - G 1 1/4 B</td>\n</tr>\n<tr>\n<td>External tapered threaded</td>\n<td>ISO 7 - R 1 1/4 1 1/4 - 11.5 NPT</td>\n</tr>\n</table>"
+    },
+    {
+      "id": "alfalaval-m3/fig-1.1",
+      "kind": "figure",
+      "pages": [
+        1
+      ],
+      "title": "(felirat nélkül)",
+      "crop": "fig-1.1.png",
+      "content": {
+        "kind": "photo_illustration"
+      }
+    },
+    {
+      "id": "alfalaval-m3/fig-1.2",
+      "kind": "figure",
+      "pages": [
+        1
+      ],
+      "title": "(felirat nélkül)",
+      "crop": "fig-1.2.png",
+      "content": {
+        "kind": "text_image",
+        "sub_captions": [
+          "Start-up",
+          "Support",
+          "Maintenance",
+          "Improvements",
+          "Monitoring"
+        ],
+        "transcription": "Start-up: Installation; Installation Supervision; Commissioning. Support: Exclusive Stock; Technical Documentation; Telephone Support; Training; Troubleshooting. Maintenance: Cleaning Services; Reconditioning; Repair; Service Tools; Spare Parts. Improvements: Equipment Upgrades; Redesign; Replacement and Retrofit. Monitoring: Condition Audit; Performance Audit."
+      }
+    },
+    {
+      "id": "alfalaval-m3/fig-2.1",
+      "kind": "figure",
+      "pages": [
+        2
+      ],
+      "title": "(felirat nélkül)",
+      "crop": "fig-2.1.png",
+      "content": {
+        "kind": "dimension_drawing",
+        "labels": [
+          "180 (7.09\")",
+          "60 (2.4\")",
+          "S4",
+          "S1",
+          "480 (18.9\")",
+          "357 (14.1\")",
+          "S3",
+          "S2",
+          "62 (2.4\")",
+          "173 (6.8\")",
+          "40 (1.6\")",
+          "420-620 (16.5\"-24.4\")"
+        ],
+        "dimensions": [
+          {
+            "printed": "180 (7.09\")",
+            "what": "overall width of the frame plate (front view, top)"
+          },
+          {
+            "printed": "60 (2.4\")",
+            "what": "horizontal distance between the port centres S4 and S1"
+          },
+          {
+            "printed": "480 (18.9\")",
+            "what": "overall height of the frame plate"
+          },
+          {
+            "printed": "357 (14.1\")",
+            "what": "vertical distance between the upper and lower port centres"
+          },
+          {
+            "printed": "62 (2.4\")",
+            "what": "distance from the bottom edge of the frame plate to the lower port centre line"
+          },
+          {
+            "printed": "173 (6.8\")",
+            "what": "width of the frame plate at its foot (front view, bottom)"
+          },
+          {
+            "printed": "40 (1.6\")",
+            "what": null
+          },
+          {
+            "printed": "420-620 (16.5\"-24.4\")",
+            "what": "overall length of the unit (side view), a range depending on the plate pack"
+          }
+        ]
+      }
+    },
+    {
+      "id": "alfalaval-m3/section-1",
+      "kind": "text_section",
+      "pages": [
+        1
+      ],
+      "title": "(fejezetcím nélkül)",
+      "paragraphs": 1,
+      "content": "LAVAL"
+    },
+    {
+      "id": "alfalaval-m3/section-3",
+      "kind": "text_section",
+      "pages": [
+        1
+      ],
+      "title": "Gasketed plate-and-frame heat exchanger for a wide range of applications",
+      "paragraphs": 3,
+      "content": "Gasketed plate-and-frame heat exchanger for a wide range of applications\nAlfa Laval Industrial line is a wide product range that is used in virtually all types of industry.\nSuitable for a wide range applications, this model is available with a large selection of plate and gasket types.\nIn addition to normal single plate configuration, this model is also available with double wall plates. Double wall plates are used as an extra precaution to avoid intermixing of fluids."
+    },
+    {
+      "id": "alfalaval-m3/section-4",
+      "kind": "text_section",
+      "pages": [
+        1
+      ],
+      "title": "Applications",
+      "paragraphs": 13,
+      "content": "Applications\n. Biotech and Pharmaceutical\n· Chemicals\n· Energy and Utilities\n· Food and Beverages\n· Home and Personal care\n· HVAC and Refrigeration\n· Machinery and Manufacturing\n. Marine and Transportation\n· Mining, Minerals and Pigments\n· Pulp and Paper\n· Semiconductor and Electronics\n· Steel\n· Water and Waste treatment"
+    },
+    {
+      "id": "alfalaval-m3/section-5",
+      "kind": "text_section",
+      "pages": [
+        1
+      ],
+      "title": "Benefits",
+      "paragraphs": 5,
+      "content": "Benefits\n· High energy efficiency - low operating cost\n· Flexible configuration - heat transfer area can be modified\n· Easy to install - compact design\n· High serviceability - easy to open for inspection and cleaning and easy to clean by CIP\n. Access to Alfa Laval's global service network"
+    },
+    {
+      "id": "alfalaval-m3/section-6",
+      "kind": "text_section",
+      "pages": [
+        1
+      ],
+      "title": "Features",
+      "paragraphs": 10,
+      "content": "Features\nEvery detail is carefully designed to ensure optimal performance, maximum uptime and easy maintenance. Selection of available features:\n· Glued gasket\n· Clip-on gasket\n· Leak chamber\n· Fixed bolt head\n· Key hole bolt opening\n· Lifting lug\n· Lining\n. Lock washer\n· Tightening bolt cover"
+    },
+    {
+      "id": "alfalaval-m3/section-7",
+      "kind": "text_section",
+      "pages": [
+        1
+      ],
+      "title": "Extending performance with Alfa Laval 360° Service Portfolio",
+      "paragraphs": 1,
+      "content": "Extending performance with Alfa Laval 360° Service Portfolio\nOur extensive services ensure top performance from your Alfa Laval equipment throughout its life cycle. The availability of parts and our team's commitment and expertise bring you peace of mind."
+    },
+    {
+      "id": "alfalaval-m3/section-9",
+      "kind": "text_section",
+      "pages": [
+        1
+      ],
+      "title": "Support",
+      "paragraphs": 7,
+      "content": "Support\n· Installation\n· Exclusive Stock\n· Installation Supervision\n· Technical Documentation\n· Commissioning\n· Telephone Support\n· Training"
+    },
+    {
+      "id": "alfalaval-m3/section-10",
+      "kind": "text_section",
+      "pages": [
+        1
+      ],
+      "title": "Maintenance",
+      "paragraphs": 3,
+      "content": "Maintenance\n· Troubleshooting\n· Cleaning Services\n· Reconditioning"
+    },
+    {
+      "id": "alfalaval-m3/section-11",
+      "kind": "text_section",
+      "pages": [
+        1
+      ],
+      "title": "Improvements",
+      "paragraphs": 6,
+      "content": "Improvements\n· Repair\n· Equipment Upgrades\n· Service Tools\n· Redesign\n· Spare Parts\n· Replacement and Retrofit"
+    },
+    {
+      "id": "alfalaval-m3/section-12",
+      "kind": "text_section",
+      "pages": [
+        1
+      ],
+      "title": "Monitoring",
+      "paragraphs": 2,
+      "content": "Monitoring\n· Condition Audit\n· Performance Audit"
+    },
+    {
+      "id": "alfalaval-m3/section-13",
+      "kind": "text_section",
+      "pages": [
+        2
+      ],
+      "title": "Dimensional drawing Measurements mm (inches)",
+      "paragraphs": 2,
+      "content": "Dimensional drawing Measurements mm (inches)\nThe number of tightening bolts may vary depending on pressure rating.\n."
+    },
+    {
+      "id": "alfalaval-m3/section-15",
+      "kind": "text_section",
+      "pages": [
+        2
+      ],
+      "title": "Plates",
+      "paragraphs": 2,
+      "content": "Plates\nOther materials may be available on request.\nAll option combinations may not be configurable."
+    },
+    {
+      "id": "alfalaval-m3/section-16",
+      "kind": "text_section",
+      "pages": [
+        2
+      ],
+      "title": "Operational data",
+      "paragraphs": 1,
+      "content": "Operational data\nExtended pressure and temperature rating may be available on request."
+    },
+    {
+      "id": "alfalaval-m3/section-17",
+      "kind": "text_section",
+      "pages": [
+        2
+      ],
+      "title": "Pipe connections",
+      "paragraphs": 1,
+      "content": "Pipe connections\nOther connection types may be available on request."
+    },
+    {
+      "id": "alfalaval-m3/section-18",
+      "kind": "text_section",
+      "pages": [
+        2
+      ],
+      "title": "How to contact Alfa Laval",
+      "paragraphs": 1,
+      "content": "How to contact Alfa Laval\nContact details for all countries are continually updated on our website. Please visit www.alfalaval.com to access the information direct."
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "documents_loaded": [
+    "fisher-et-d100022x012",
+    "gfps-165-solenoid-valve",
+    "gorman-rupp-0700286"
+  ],
+  "documents_missing_graph": [
+    "alfalaval-m3",
+    "flowserve-worcester-f51-f52",
+    "rosemount-3051-00813-0100-4001",
+    "swagelok-ms-01-176"
+  ],
+  "described_by_edges": 13,
+  "seconds": {
+    "reset": 6.530071899993345,
+    "plant_layer": 7.17797249997966,
+    "total": 20.931188000016846
+  },
+  "device_seconds": {
+    "fisher-et-d100022x012": {
+      "seconds": 4.132451599987689,
+      "nodes": 3324
+    },
+    "gfps-165-solenoid-valve": {
+      "seconds": 0.45114690001355484,
+      "nodes": 599
+    },
+    "gorman-rupp-0700286": {
+      "seconds": 1.2755544000538066,
+      "nodes": 2629
+    }
+  },
+  "counts": {
+    "plant_nodes": 36,
+    "plant_relationships": 116,
+    "device_nodes": 6552,
+    "shared_vocabulary_nodes": 117,
+    "device_relationships": 25257,
+    "described_by": 13,
+    "all_nodes": 6707,
+    "all_relationships": 25386,
+    "per_document": [
+      {
+        "doc": "fisher-et-d100022x012",
+        "nodes": 3324,
+        "relationships": 13932
+      },
+      {
+        "doc": "gfps-165-solenoid-valve",
+        "nodes": 599,
+        "relationships": 2278
+      },
+      {
+        "doc": "gorman-rupp-0700286",
+        "nodes": 2629,
+        "relationships": 9029
+      }
+    ]
+  }
+}

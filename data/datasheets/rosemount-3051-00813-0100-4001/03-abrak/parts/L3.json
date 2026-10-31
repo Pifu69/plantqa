@@ -1,0 +1,551 @@
+{
+  "labeller": "claude-opus-5-5, 2026-10-31, by hand: bbox crops re-rendered from the PDF at 200-300 dpi plus 100 dpi page overviews and PDF page text (batch L3)",
+  "kinds": {
+    "photo_illustration": "photo or shaded rendering of a product without measurements",
+    "dimension_drawing": "line drawing carrying dimension values or dimension letters (incl. sectional drawings with letters)",
+    "sectional_exploded": "cut-away or exploded drawing with part callouts, no dimensions",
+    "table_icon": "small icon inside a table cell",
+    "chart": "plotted curves/axes/bars",
+    "text_image": "text rendered as an image",
+    "schematic_diagram": "wiring/process/block schematic",
+    "annotated_ui_illustration": "screen/UI image with annotations",
+    "logo": "logo, badge or footer icon"
+  },
+  "figures": {
+    "rosemount-3051-00813-0100-4001/fig-102.1": {
+      "kind": "dimension_drawing",
+      "decorative": false,
+      "description": "Front view of the Rosemount 3051T with the standard housing, dimensioned for housing width and overall height (Figure 15, left view).",
+      "labels": [],
+      "letters": [],
+      "dimensions": [
+        {
+          "printed": "4.09 (104)",
+          "what": "overall width across the housing"
+        },
+        {
+          "printed": "R1-4: 7.22 (183)",
+          "what": "overall height, top of housing to bottom of process connection, ranges 1-4"
+        },
+        {
+          "printed": "R5: 7.32 (186)",
+          "what": "overall height, top of housing to bottom of process connection, range 5"
+        }
+      ],
+      "sub_captions": [],
+      "artwork_text": [
+        "ROSEMOUNT"
+      ],
+      "notes": "Caption 'Figure 15: Rosemount 3051T' correct. The height is printed as two stacked lines on one dimension line (R1-4 / R5); R1-4/R5 read as sensor ranges (interpretation). 'ROSEMOUNT' is product marking on the cover, not a callout."
+    },
+    "rosemount-3051-00813-0100-4001/fig-102.2": {
+      "kind": "dimension_drawing",
+      "decorative": false,
+      "description": "Side view of the Rosemount 3051T standard housing, dimensioned for housing width in side view (Figure 15, right view).",
+      "labels": [],
+      "letters": [],
+      "dimensions": [
+        {
+          "printed": "4.29 (109)",
+          "what": "housing width in side view"
+        }
+      ],
+      "sub_captions": [],
+      "notes": "Azure caption WRONG: this is the right-hand view of Figure 15 (Rosemount 3051T), not Figure 16 (Wireless Housing), whose caption sits below this drawing. Azure text 'B' is the Rosemount logo on the housing, not a callout letter."
+    },
+    "rosemount-3051-00813-0100-4001/fig-102.3": {
+      "kind": "dimension_drawing",
+      "decorative": false,
+      "description": "Front view of the Rosemount 3051T with wireless housing (round cover plus power-module housing), dimensioned for width, with callout A pointing at the U-bolt bracket area (Figure 16, left view).",
+      "labels": [
+        "A"
+      ],
+      "letters": [
+        "A"
+      ],
+      "dimensions": [
+        {
+          "printed": "4.20 (107)",
+          "what": "overall width including the wireless housing"
+        }
+      ],
+      "legend": {
+        "A": "U-Bolt bracket"
+      },
+      "sub_captions": [],
+      "notes": "Azure caption missing: belongs to 'Figure 16: Rosemount 3051T Wireless Housing'. Legend 'A. U-Bolt bracket' printed below the figure on the page."
+    },
+    "rosemount-3051-00813-0100-4001/fig-102.4": {
+      "kind": "dimension_drawing",
+      "decorative": false,
+      "description": "Side view of the Rosemount 3051T wireless housing, dimensioned for depth and overall height (Figure 16, right view).",
+      "labels": [],
+      "letters": [],
+      "dimensions": [
+        {
+          "printed": "5.49 (139)",
+          "what": "overall depth of the wireless housing in side view"
+        },
+        {
+          "printed": "R1-4: 7.56 (192)",
+          "what": "overall height, ranges 1-4"
+        },
+        {
+          "printed": "R5: 7.66 (195)",
+          "what": "overall height, range 5"
+        }
+      ],
+      "sub_captions": [],
+      "notes": "Azure caption missing: belongs to 'Figure 16: Rosemount 3051T Wireless Housing'. Height printed as two stacked lines on one dimension line; R1-4/R5 read as sensor ranges (interpretation)."
+    },
+    "rosemount-3051-00813-0100-4001/fig-103.1": {
+      "kind": "dimension_drawing",
+      "decorative": false,
+      "description": "Rosemount 3051T in-line range 6 transmitter (standard housing, side view) with overall height and callout A at the process connection (Figure 17, left view).",
+      "labels": [
+        "In-line",
+        "A"
+      ],
+      "letters": [
+        "A"
+      ],
+      "dimensions": [
+        {
+          "printed": "7.86 (199,5)",
+          "what": "overall height"
+        }
+      ],
+      "legend": {
+        "A": "Autoclave type F-250-C"
+      },
+      "sub_captions": [
+        "In-line"
+      ],
+      "notes": "Caption correct (Figure 17). Legend 'A. Autoclave type F-250-C' printed below the figure; A points at the process connection at the bottom. Millimetre value uses a decimal comma '199,5' as printed."
+    },
+    "rosemount-3051-00813-0100-4001/fig-103.2": {
+      "kind": "dimension_drawing",
+      "decorative": false,
+      "description": "Rosemount 3051T wireless in-line range 6 transmitter (front view with wireless housing) with overall height (Figure 17, right view).",
+      "labels": [
+        "Wireless in-line"
+      ],
+      "letters": [],
+      "dimensions": [
+        {
+          "printed": "8.13 (206,6)",
+          "what": "overall height"
+        }
+      ],
+      "sub_captions": [
+        "Wireless in-line"
+      ],
+      "notes": "Azure caption missing: belongs to 'Figure 17: Rosemount 3051T In-Line Range 6'. Decimal comma '206,6' as printed."
+    },
+    "rosemount-3051-00813-0100-4001/fig-103.3": {
+      "kind": "dimension_drawing",
+      "decorative": false,
+      "description": "Front view of the Rosemount 3051T mounted on a Rosemount 306 2-valve integral manifold, dimensioned for the manifold height (Figure 18, left view).",
+      "labels": [],
+      "letters": [],
+      "dimensions": [
+        {
+          "printed": "4.13 (105)",
+          "what": "manifold height below the transmitter process connection"
+        }
+      ],
+      "sub_captions": [],
+      "artwork_text": [
+        "IN EXPLOSIVE ATMOSPHERES",
+        "-WARNING-",
+        "ROSEMOUNT",
+        "KEEP TIGHT WHEN CIRCUIT ALIVE",
+        "ROSEMOUNT"
+      ],
+      "notes": "Caption correct (Figure 18). Azure text 'ROSEMOUNT'/'BOOT MOUNT' is product marking on the cover and nameplate (Azure misread the second 'ROSEMOUNT'), not callouts."
+    },
+    "rosemount-3051-00813-0100-4001/fig-103.4": {
+      "kind": "dimension_drawing",
+      "decorative": false,
+      "description": "Side view of the Rosemount 3051T on a Rosemount 306 2-valve integral manifold, dimensioned for manifold height and width with valves open (Figure 18, right view).",
+      "labels": [],
+      "letters": [],
+      "dimensions": [
+        {
+          "printed": "4.88 (124)",
+          "what": "manifold height from transmitter connection to bottom of manifold process connection"
+        },
+        {
+          "printed": "6.25 (159) max open",
+          "what": "manifold width across the valve handles, maximum open"
+        }
+      ],
+      "sub_captions": [],
+      "notes": "Azure caption missing: belongs to Figure 18. Azure text 'B' is the Rosemount logo on the housing, not a callout."
+    },
+    "rosemount-3051-00813-0100-4001/fig-104.1": {
+      "kind": "dimension_drawing",
+      "decorative": false,
+      "description": "Rosemount 3051T typical mounting configurations with the optional mounting bracket: two pipe-mounting views (side and front) and a panel-mounting view, with bracket dimensions (Figure 19).",
+      "labels": [],
+      "letters": [],
+      "dimensions": [
+        {
+          "printed": "3.49 (89)",
+          "what": "pipe mounting, side view: transmitter centreline to bracket/pipe-clamp edge"
+        },
+        {
+          "printed": "6.15 (156)",
+          "what": "pipe mounting, front view: pipe centreline to transmitter centreline"
+        },
+        {
+          "printed": "6.15 (156)",
+          "what": "panel mounting: height of the bracket on the panel"
+        },
+        {
+          "printed": "2.81 (71)",
+          "what": "panel mounting: spacing between the two bolt rows"
+        },
+        {
+          "printed": "4.78 (121)",
+          "what": "panel mounting: panel face to transmitter centreline"
+        }
+      ],
+      "sub_captions": [],
+      "callout_views": {
+        "Pipe mounting": [
+          "3.49 (89)",
+          "6.15 (156)"
+        ],
+        "Panel mounting": [
+          "6.15 (156)",
+          "2.81 (71)",
+          "4.78 (121)"
+        ]
+      },
+      "notes": "Azure caption missing: belongs to 'Figure 19: Rosemount 3051T Typical Mounting Configurations with Optional Mounting Bracket'. The view titles 'Pipe mounting' and 'Panel mounting' are printed just above the crop (outside the bbox). Azure text '1' is not visible on the drawing. What each dimension measures is interpreted from the extension lines."
+    },
+    "rosemount-3051-00813-0100-4001/fig-104.2": {
+      "kind": "dimension_drawing",
+      "decorative": false,
+      "description": "Front view of the Rosemount 3051CFA Pak-Lok Annubar flow meter on a pipe, with dimension letters A and B (Figure 20, front view).",
+      "labels": [
+        "B",
+        "A"
+      ],
+      "letters": [
+        "B",
+        "A"
+      ],
+      "dimensions": [],
+      "sub_captions": [],
+      "artwork_text": [
+        "H",
+        "L",
+        "H",
+        "L"
+      ],
+      "notes": "Azure caption missing: belongs to 'Figure 20: Rosemount 3051CFA Pak-Lok Annubar Flow meter'. Only the Front View of the three views is in this crop; the full three-view drawing is fig-pdf-104-16 (overlap/duplicate). Letters are column headers of Table 10 (values per sensor size, no names). Interpretation: A runs from the manifold connection down to the pipe top, B from the top of the housing to the pipe top. 'H'/'L' are high/low side markings on the manifold, not callouts."
+    },
+    "rosemount-3051-00813-0100-4001/fig-pdf-104-16": {
+      "kind": "dimension_drawing",
+      "decorative": false,
+      "description": "Rosemount 3051CFA Pak-Lok Annubar flow meter in front, side and top views with dimension letters A, B, C and D (Figure 20).",
+      "labels": [
+        "B",
+        "A",
+        "D",
+        "C"
+      ],
+      "letters": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "dimensions": [],
+      "sub_captions": [],
+      "callout_views": {
+        "Front View": [
+          "B",
+          "A"
+        ],
+        "Side View": [
+          "D"
+        ],
+        "Top View": [
+          "C"
+        ]
+      },
+      "artwork_text": [
+        "ROSEMOUNT"
+      ],
+      "notes": "Raster missed by Azure as a whole (Azure only took the front view, fig-104.2). Belongs to Figure 20; view titles 'Front View', 'Side View', 'Top View' are printed just above the crop. Letters A-D are column headers of Table 10 'Rosemount 3051CFA Pak-Lok Annubar Flow meter Dimensional Data (Maximum Dimensions)' (values per sensor size 1-3); the table gives no names, so no legend. Interpretation: D = width in side view, C = overall width across the valve handles in top view."
+    },
+    "rosemount-3051-00813-0100-4001/fig-105.1": {
+      "kind": "dimension_drawing",
+      "decorative": false,
+      "description": "Rosemount 3051CFC compact orifice flow meter in side, front and top views, for the compact orifice plate (type P) and the conditioning orifice plate (type C), with dimension letters A-D (Figure 21).",
+      "labels": [
+        "Orifice plate side view",
+        "Orifice plate front view",
+        "Orifice plate top view",
+        "D",
+        "Compact orifice plate (primary element type code P)",
+        "B",
+        "A",
+        "C",
+        "D",
+        "Conditioning orifice plate (primary element type code C)",
+        "B",
+        "A",
+        "C"
+      ],
+      "letters": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "dimensions": [],
+      "sub_captions": [
+        "Orifice plate side view",
+        "Orifice plate front view",
+        "Orifice plate top view",
+        "Compact orifice plate (primary element type code P)",
+        "Conditioning orifice plate (primary element type code C)"
+      ],
+      "callout_views": {
+        "Compact orifice plate (primary element type code P)": [
+          "B",
+          "A",
+          "D",
+          "C"
+        ],
+        "Conditioning orifice plate (primary element type code C)": [
+          "B",
+          "A",
+          "D",
+          "C"
+        ]
+      },
+      "notes": "Caption correct (Figure 21). Letters A-D refer to the table below the figure (Primary element type / A / B / Transmitter height / C / D; Type P and C: A 5.62 (143), B 'Transmitter height + A', Transmitter height 6.27 (159), C 7.75 (197) - closed / 8.25 (210) - open, D 6.00 (152) - closed 6.25 (159) - open). The table gives values, not names, so no legend. Azure text '1', 'E', 'O' and a stray symbol are not printed on the drawing."
+    },
+    "rosemount-3051-00813-0100-4001/fig-106.1": {
+      "kind": "dimension_drawing",
+      "decorative": false,
+      "description": "Rosemount 3051CFP integral orifice flow meter in side, bottom and front views, with manifold and run dimensions, bore-diameter callout A and run-length letters K (downstream) and J (upstream) (Figure 22).",
+      "labels": [
+        "Bottom view",
+        "Front view",
+        "A",
+        "K",
+        "Downstream",
+        "J",
+        "Upstream"
+      ],
+      "letters": [
+        "A",
+        "K",
+        "J"
+      ],
+      "dimensions": [
+        {
+          "printed": "8.80 (223.46)",
+          "what": "bottom view: width across the manifold valve handles"
+        },
+        {
+          "printed": "10.30 (261.81)",
+          "what": "front view: overall depth from manifold handle to transmitter housing end"
+        },
+        {
+          "printed": "6.30 (160.55)",
+          "what": "front view: from the manifold/pipe centre to the housing end"
+        },
+        {
+          "printed": "5.30 (134.51)",
+          "what": "front view: height of the manifold/valve body"
+        },
+        {
+          "printed": "K",
+          "what": "downstream run length"
+        },
+        {
+          "printed": "J",
+          "what": "upstream run length"
+        }
+      ],
+      "legend": {
+        "A": "B.D. (bore diameter)"
+      },
+      "sub_captions": [
+        "Bottom view",
+        "Front view"
+      ],
+      "callout_views": {
+        "Side view": [],
+        "Bottom view": [
+          "8.80 (223.46)",
+          "A",
+          "K",
+          "Downstream",
+          "J",
+          "Upstream"
+        ],
+        "Front view": [
+          "10.30 (261.81)",
+          "6.30 (160.55)",
+          "5.30 (134.51)"
+        ]
+      },
+      "notes": "Azure caption missing: belongs to 'Figure 22: Rosemount 3051CFP Integral Orifice Flow meter'. The 'Side view' title is printed just above the crop (the side-view drawing itself is inside). Legend 'A. B.D. (bore diameter)' printed below the figure. J and K values are in the table below (rows 'J (Beveled/threaded pipe ends)', 'K (RF Class 150, weld neck)' etc., per line size); B.D. values in row 'B.D. (Bore diameter)'. Exact extents of 6.30 and 5.30 are an interpretation."
+    },
+    "rosemount-3051-00813-0100-4001/fig-107.1": {
+      "kind": "dimension_drawing",
+      "decorative": false,
+      "description": "Rosemount 3051L configurations: 2-inch flush-mount flange, 3- and 4-inch flange with extension, and diaphragm assembly/mounting flange front view, with dimensions and letters A-E (Figure 23).",
+      "labels": [
+        "A",
+        "B",
+        "D",
+        "C",
+        "E",
+        "A",
+        "B"
+      ],
+      "letters": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "dimensions": [
+        {
+          "printed": "4.09 (104)",
+          "what": "2-inch flange configuration: housing width"
+        },
+        {
+          "printed": "4.09 (104)",
+          "what": "3- and 4-inch flange configuration: housing width"
+        },
+        {
+          "printed": "5.13 (130)",
+          "what": "diaphragm assembly view: overall width at the housing"
+        },
+        {
+          "printed": "4.29 (109)",
+          "what": "diaphragm assembly view: housing width"
+        },
+        {
+          "printed": "6.80 (173)",
+          "what": "diaphragm assembly view: top of housing to a lower reference (vent/drain level)"
+        },
+        {
+          "printed": "7.10 (181)",
+          "what": "diaphragm assembly view: top of housing to a lower reference"
+        },
+        {
+          "printed": "8.20 (209)",
+          "what": "diaphragm assembly view: top of housing to bottom of the module"
+        }
+      ],
+      "legend": {
+        "E": "2-, 4-, or 6-in. extension (only available with 3- and 4-in., DN80, and DN100 flange configurations)",
+        "A": "Flange thickness",
+        "C": "Extension diameter",
+        "D": "O.D. gasket surface"
+      },
+      "sub_captions": [],
+      "callout_views": {
+        "2-inch flange Configuration (flush mount only)": [
+          "4.09 (104)",
+          "A",
+          "B"
+        ],
+        "3- and 4-inch flange configuration": [
+          "4.09 (104)",
+          "D",
+          "C",
+          "E",
+          "A",
+          "B"
+        ],
+        "Diaphragm assembly and mounting flange": [
+          "5.13 (130)",
+          "4.29 (109)",
+          "6.80 (173)",
+          "7.10 (181)",
+          "8.20 (209)"
+        ]
+      },
+      "notes": "Azure caption missing: belongs to 'Figure 23: Rosemount 3051L Configurations'. View titles are printed just above the crop. Legend 'E. 2-, 4-, or 6-in. extension (...)' is printed below the figure; A, C, D names come from the Table 11 column headers ('Flange thickness A', 'Extension diameter(1) C', 'O.D. gasket surface D'); B has only the header 'B' (no name). The 'Extension' / 'diameter' header is wrapped across two lines/blocks in the PDF text. The lower references of 6.80/7.10/8.20 are an interpretation."
+    },
+    "rosemount-3051-00813-0100-4001/fig-108.1": {
+      "kind": "dimension_drawing",
+      "decorative": false,
+      "description": "Cross-section of the optional flushing connection ring (lower housing) for the Rosemount 3051L, with letters A (thickness), H, J and F pointing at the threaded flushing port (Figure 24, left view).",
+      "labels": [
+        "A",
+        "H",
+        "J",
+        "F"
+      ],
+      "letters": [
+        "A",
+        "H",
+        "J",
+        "F"
+      ],
+      "dimensions": [],
+      "legend": {
+        "F": "Lower housing",
+        "G": "Bolt circle diameter",
+        "H": "Process side",
+        "J": "Outside diameter"
+      },
+      "sub_captions": [],
+      "notes": "Caption correct (Figure 24). Letter J is printed but Azure missed it. Names from the table column headers below ('Lower housing F' with sub-columns '1/4-inch NPT' / '1/2 -inch NPT', 'Bolt circle diameter G', 'Process side H', 'Outside diameter J'); A's header is printed wrapped as 'Flange thicknes s A', so A is left out of the legend. G is drawn only in fig-108.2 but listed as a table entry. Interpretation: A = ring thickness, H = inner (process side) diameter, J = outside diameter, F points at the threaded flushing connection."
+    },
+    "rosemount-3051-00813-0100-4001/fig-108.2": {
+      "kind": "dimension_drawing",
+      "decorative": false,
+      "description": "Face view of the flushing connection ring (lower housing) for the Rosemount 3051L showing the bolt holes, with letters G and J (Figure 24, right view).",
+      "labels": [
+        "G",
+        "J"
+      ],
+      "letters": [
+        "G",
+        "J"
+      ],
+      "dimensions": [],
+      "legend": {
+        "G": "Bolt circle diameter",
+        "J": "Outside diameter"
+      },
+      "sub_captions": [],
+      "notes": "Azure caption missing: belongs to Figure 24. Azure text '4' is not printed and it missed J. Names from the table column headers below the figure ('Bolt circle diameter G', 'Outside diameter J')."
+    },
+    "rosemount-3051-00813-0100-4001/fig-114.1": {
+      "kind": "logo",
+      "decorative": true,
+      "description": "Emerson logo (blue/silver emblem above the word EMERSON) in the back-page footer.",
+      "labels": [],
+      "letters": [],
+      "dimensions": [],
+      "sub_captions": [],
+      "notes": "Back-cover footer logo; Azure text 'EMERSON TM' is the logo wordmark."
+    },
+    "rosemount-3051-00813-0100-4001/fig-pdf-114-17": {
+      "kind": "logo",
+      "decorative": true,
+      "description": "Grey ROSEMOUNT wordmark logo in the back-page footer.",
+      "labels": [],
+      "letters": [],
+      "dimensions": [],
+      "sub_captions": [],
+      "notes": "Raster missed by Azure; decorative footer wordmark."
+    }
+  }
+}

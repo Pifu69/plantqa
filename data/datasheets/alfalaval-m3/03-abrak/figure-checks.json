@@ -1,0 +1,104 @@
+{
+  "summary": {
+    "figures": 3,
+    "kinds": {
+      "photo_illustration": 1,
+      "text_image": 1,
+      "dimension_drawing": 1
+    },
+    "letters": {},
+    "letters_matching_several_tables": 0,
+    "dimensions": 8,
+    "dimensions_unit_consistent": 0,
+    "dimensions_numbers_in_azure_text": 8,
+    "part_labels": 12,
+    "part_labels_only_in_figure": 12,
+    "formulas": 0,
+    "formulas_all_constants_kept": 0,
+    "formulas_plus_minus_kept": 0,
+    "formulas_url_and_span_kept": 0
+  },
+  "figures": [
+    {
+      "id": "alfalaval-m3/fig-1.1",
+      "kind": "photo_illustration",
+      "letters": [],
+      "legend": {},
+      "dimensions": [],
+      "labels_elsewhere": {},
+      "formula": null
+    },
+    {
+      "id": "alfalaval-m3/fig-1.2",
+      "kind": "text_image",
+      "letters": [],
+      "legend": {},
+      "dimensions": [],
+      "labels_elsewhere": {},
+      "formula": null
+    },
+    {
+      "id": "alfalaval-m3/fig-2.1",
+      "kind": "dimension_drawing",
+      "letters": [],
+      "legend": {},
+      "dimensions": [
+        {
+          "printed": "180 (7.09\")",
+          "parsed": false,
+          "in_azure_text": true
+        },
+        {
+          "printed": "60 (2.4\")",
+          "parsed": false,
+          "in_azure_text": true
+        },
+        {
+          "printed": "480 (18.9\")",
+          "parsed": false,
+          "in_azure_text": true
+        },
+        {
+          "printed": "357 (14.1\")",
+          "parsed": false,
+          "in_azure_text": true
+        },
+        {
+          "printed": "62 (2.4\")",
+          "parsed": false,
+          "in_azure_text": true
+        },
+        {
+          "printed": "173 (6.8\")",
+          "parsed": false,
+          "in_azure_text": true
+        },
+        {
+          "printed": "40 (1.6\")",
+          "parsed": false,
+          "in_azure_text": true
+        },
+        {
+          "printed": "420-620 (16.5\"-24.4\")",
+          "parsed": false,
+          "in_azure_text": true
+        }
+      ],
+      "labels_elsewhere": {
+        "180 (7.09\")": 0,
+        "60 (2.4\")": 0,
+        "S4": 0,
+        "S1": 0,
+        "480 (18.9\")": 0,
+        "357 (14.1\")": 0,
+        "S3": 0,
+        "S2": 0,
+        "62 (2.4\")": 0,
+        "173 (6.8\")": 0,
+        "40 (1.6\")": 0,
+        "420-620 (16.5\"-24.4\")": 0
+      },
+      "formula": null
+    }
+  ]
+}

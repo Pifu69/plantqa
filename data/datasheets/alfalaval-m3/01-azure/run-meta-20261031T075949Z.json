@@ -1,0 +1,27 @@
+{
+  "started_utc": "2026-10-31T07:59:49+00:00",
+  "endpoint_host": "plantdocs-docint-zsombi.cognitiveservices.azure.com",
+  "sdk_version": "1.0.2",
+  "settings": {
+    "features": [
+      "keyValuePairs"
+    ],
+    "output_content_format": "markdown",
+    "string_index_type": "unicodeCodePoint"
+  },
+  "pdf": "alfalaval-m3.pdf",
+  "pdf_sha256": "4eb37aed12d5ab21e2b187031fc17e4bbe9800b94c578e2d4e450a5de90b62f0",
+  "note": "plantqa",
+  "ranges": [
+    {
+      "pages": "all",
+      "file": "raw-all.json",
+      "api_version": "2024-11-30",
+      "model_id": "prebuilt-layout",
+      "pages_returned": 2,
+      "tables": 4,
+      "paragraphs": 133,
+      "key_value_pairs": 0
+    }
+  ]
+}

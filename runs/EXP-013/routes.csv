@@ -1,0 +1,8 @@
+method,model,route,n
+M1,luna,cypher-v2t,15
+M1,luna,agent-v2t+cypher-v2t+datasheet_fact,4
+M1,luna,agent-v2t+cypher-v2t,1
+M2,luna,drawing,5
+M2,luna,datasheet+drawing,8
+M2,luna,datasheet,7
+M3,luna,context_rag+chunks,20

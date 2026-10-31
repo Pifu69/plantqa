@@ -1,0 +1,1249 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix lis: <http://rds.posccaesar.org/ontology/lis14/rdl/> .
+@prefix plm: <http://rds.posccaesar.org/ontology/plm/rdl/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:plantdocs:alfalaval-m3:case_datum:frame_fg_pressure_vessel_code_asme> a plm:PCA_100029512 ;
+    plm:PCA_100029520 <urn:plantdocs:alfalaval-m3:case:frame_fg_pressure_vessel_code_asme> ;
+    plm:PCA_100029521 "frame = FG; pressure vessel code = ASME" ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 2 .
+
+<urn:plantdocs:alfalaval-m3:case_datum:frame_fg_pressure_vessel_code_ped> a plm:PCA_100029512 ;
+    plm:PCA_100029520 <urn:plantdocs:alfalaval-m3:case:frame_fg_pressure_vessel_code_ped> ;
+    plm:PCA_100029521 "frame = FG; pressure vessel code = PED" ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 2 .
+
+<urn:plantdocs:alfalaval-m3:case_datum:plate_variant_m3> a plm:PCA_100029512 ;
+    plm:PCA_100029520 <urn:plantdocs:alfalaval-m3:case:plate_variant_m3> ;
+    plm:PCA_100029521 "plate variant = M3" ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 2 .
+
+<urn:plantdocs:alfalaval-m3:case_datum:plate_variant_m3_d> a plm:PCA_100029512 ;
+    plm:PCA_100029520 <urn:plantdocs:alfalaval-m3:case:plate_variant_m3_d> ;
+    plm:PCA_100029521 "plate variant = M3-D" ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 2 .
+
+<urn:plantdocs:alfalaval-m3:case_datum:plate_variant_m3_g> a plm:PCA_100029512 ;
+    plm:PCA_100029520 <urn:plantdocs:alfalaval-m3:case:plate_variant_m3_g> ;
+    plm:PCA_100029521 "plate variant = M3-G" ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 2 .
+
+<urn:plantdocs:alfalaval-m3:case_datum:plate_variant_m3_x> a plm:PCA_100029512 ;
+    plm:PCA_100029520 <urn:plantdocs:alfalaval-m3:case:plate_variant_m3_x> ;
+    plm:PCA_100029521 "plate variant = M3-X" ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 2 .
+
+<urn:plantdocs:alfalaval-m3:condition:frame_fg_pressure_vessel_code_asme:frame> a plm:PCA_100029508 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:device> ;
+    plm:PCA_100029519 lis:Quality ;
+    plm:PCA_100029520 <urn:plantdocs:alfalaval-m3:case:frame_fg_pressure_vessel_code_asme> ;
+    plm:PCA_100029521 "frame" ;
+    plm:PCA_100029522 "FG" ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 2 .
+
+<urn:plantdocs:alfalaval-m3:condition:frame_fg_pressure_vessel_code_asme:pressure_vessel_code> a plm:PCA_100029508 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:device> ;
+    plm:PCA_100029519 <http://w3id.org/readi/rdl/CFIHOS-40000708> ;
+    plm:PCA_100029520 <urn:plantdocs:alfalaval-m3:case:frame_fg_pressure_vessel_code_asme> ;
+    plm:PCA_100029521 "pressure vessel code" ;
+    plm:PCA_100029522 "ASME" ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 2 .
+
+<urn:plantdocs:alfalaval-m3:condition:frame_fg_pressure_vessel_code_ped:frame> a plm:PCA_100029508 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:device> ;
+    plm:PCA_100029519 lis:Quality ;
+    plm:PCA_100029520 <urn:plantdocs:alfalaval-m3:case:frame_fg_pressure_vessel_code_ped> ;
+    plm:PCA_100029521 "frame" ;
+    plm:PCA_100029522 "FG" ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 2 .
+
+<urn:plantdocs:alfalaval-m3:condition:frame_fg_pressure_vessel_code_ped:pressure_vessel_code> a plm:PCA_100029508 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:device> ;
+    plm:PCA_100029519 <http://w3id.org/readi/rdl/CFIHOS-40000708> ;
+    plm:PCA_100029520 <urn:plantdocs:alfalaval-m3:case:frame_fg_pressure_vessel_code_ped> ;
+    plm:PCA_100029521 "pressure vessel code" ;
+    plm:PCA_100029522 "PED" ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 2 .
+
+<urn:plantdocs:alfalaval-m3:condition:plate_variant_m3:plate_variant> a plm:PCA_100029511 ;
+    lis:datumValue 3.0 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:device> ;
+    plm:PCA_100029519 lis:Quality ;
+    plm:PCA_100029520 <urn:plantdocs:alfalaval-m3:case:plate_variant_m3> ;
+    plm:PCA_100029521 "plate variant" ;
+    plm:PCA_100029522 "M3" ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 2 .
+
+<urn:plantdocs:alfalaval-m3:condition:plate_variant_m3_d:plate_variant> a plm:PCA_100029508 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:device> ;
+    plm:PCA_100029519 lis:Quality ;
+    plm:PCA_100029520 <urn:plantdocs:alfalaval-m3:case:plate_variant_m3_d> ;
+    plm:PCA_100029521 "plate variant" ;
+    plm:PCA_100029522 "M3-D" ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 2 .
+
+<urn:plantdocs:alfalaval-m3:condition:plate_variant_m3_g:plate_variant> a plm:PCA_100029508 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:device> ;
+    plm:PCA_100029519 lis:Quality ;
+    plm:PCA_100029520 <urn:plantdocs:alfalaval-m3:case:plate_variant_m3_g> ;
+    plm:PCA_100029521 "plate variant" ;
+    plm:PCA_100029522 "M3-G" ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 2 .
+
+<urn:plantdocs:alfalaval-m3:condition:plate_variant_m3_x:plate_variant> a plm:PCA_100029508 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:device> ;
+    plm:PCA_100029519 lis:Quality ;
+    plm:PCA_100029520 <urn:plantdocs:alfalaval-m3:case:plate_variant_m3_x> ;
+    plm:PCA_100029521 "plate variant" ;
+    plm:PCA_100029522 "M3-X" ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 2 .
+
+<urn:plantdocs:alfalaval-m3:fact:0001> a plm:PCA_100029508 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:datasheet> ;
+    plm:PCA_100029521 "Alfa Laval M3 | Product type" ;
+    plm:PCA_100029522 "Gasketed plate-and-frame heat exchanger for a wide range of applications" ;
+    plm:PCA_100029525 <urn:plantdocs:alfalaval-m3:source:section_3> ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 1 .
+
+<urn:plantdocs:alfalaval-m3:fact:0002> a plm:PCA_100029508 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:datasheet> ;
+    plm:PCA_100029521 "Alfa Laval M3 | Product line" ;
+    plm:PCA_100029522 "Alfa Laval Industrial line" ;
+    plm:PCA_100029525 <urn:plantdocs:alfalaval-m3:source:section_3> ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 1 .
+
+<urn:plantdocs:alfalaval-m3:fact:0003> a plm:PCA_100029508 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:datasheet> ;
+    plm:PCA_100029521 "Alfa Laval M3 | Plate and gasket types" ;
+    plm:PCA_100029522 "available with a large selection of plate and gasket types" ;
+    plm:PCA_100029525 <urn:plantdocs:alfalaval-m3:source:section_3> ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 1 .
+
+<urn:plantdocs:alfalaval-m3:fact:0004> a plm:PCA_100029508 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:datasheet> ;
+    plm:PCA_100029521 "Alfa Laval M3 | Plate configuration" ;
+    plm:PCA_100029522 "normal single plate configuration" ;
+    plm:PCA_100029525 <urn:plantdocs:alfalaval-m3:source:section_3> ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 1 .
+
+<urn:plantdocs:alfalaval-m3:fact:0005> a plm:PCA_100029508 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:datasheet> ;
+    plm:PCA_100029521 "Alfa Laval M3 | Plate configuration" ;
+    plm:PCA_100029522 "double wall plates" ;
+    plm:PCA_100029525 <urn:plantdocs:alfalaval-m3:source:section_3> ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 1 .
+
+<urn:plantdocs:alfalaval-m3:fact:0006> a plm:PCA_100029508 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:datasheet> ;
+    plm:PCA_100029521 "Alfa Laval M3 | Double wall plates | Purpose" ;
+    plm:PCA_100029522 "extra precaution to avoid intermixing of fluids" ;
+    plm:PCA_100029525 <urn:plantdocs:alfalaval-m3:source:section_3> ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 1 .
+
+<urn:plantdocs:alfalaval-m3:fact:0007> a plm:PCA_100029508 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:datasheet> ;
+    plm:PCA_100029521 "Applications | Application" ;
+    plm:PCA_100029522 "Biotech and Pharmaceutical" ;
+    plm:PCA_100029525 <urn:plantdocs:alfalaval-m3:source:section_4> ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 1 .
+
+<urn:plantdocs:alfalaval-m3:fact:0008> a plm:PCA_100029508 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:datasheet> ;
+    plm:PCA_100029521 "Applications | Application" ;
+    plm:PCA_100029522 "Chemicals" ;
+    plm:PCA_100029525 <urn:plantdocs:alfalaval-m3:source:section_4> ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 1 .
+
+<urn:plantdocs:alfalaval-m3:fact:0009> a plm:PCA_100029508 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:datasheet> ;
+    plm:PCA_100029521 "Applications | Application" ;
+    plm:PCA_100029522 "Energy and Utilities" ;
+    plm:PCA_100029525 <urn:plantdocs:alfalaval-m3:source:section_4> ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 1 .
+
+<urn:plantdocs:alfalaval-m3:fact:0010> a plm:PCA_100029508 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:datasheet> ;
+    plm:PCA_100029521 "Applications | Application" ;
+    plm:PCA_100029522 "Food and Beverages" ;
+    plm:PCA_100029525 <urn:plantdocs:alfalaval-m3:source:section_4> ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 1 .
+
+<urn:plantdocs:alfalaval-m3:fact:0011> a plm:PCA_100029508 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:datasheet> ;
+    plm:PCA_100029521 "Applications | Application" ;
+    plm:PCA_100029522 "Home and Personal care" ;
+    plm:PCA_100029525 <urn:plantdocs:alfalaval-m3:source:section_4> ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 1 .
+
+<urn:plantdocs:alfalaval-m3:fact:0012> a plm:PCA_100029508 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:datasheet> ;
+    plm:PCA_100029521 "Applications | Application" ;
+    plm:PCA_100029522 "HVAC and Refrigeration" ;
+    plm:PCA_100029525 <urn:plantdocs:alfalaval-m3:source:section_4> ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 1 .
+
+<urn:plantdocs:alfalaval-m3:fact:0013> a plm:PCA_100029508 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:datasheet> ;
+    plm:PCA_100029521 "Applications | Application" ;
+    plm:PCA_100029522 "Machinery and Manufacturing" ;
+    plm:PCA_100029525 <urn:plantdocs:alfalaval-m3:source:section_4> ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 1 .
+
+<urn:plantdocs:alfalaval-m3:fact:0014> a plm:PCA_100029508 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:datasheet> ;
+    plm:PCA_100029521 "Applications | Application" ;
+    plm:PCA_100029522 "Marine and Transportation" ;
+    plm:PCA_100029525 <urn:plantdocs:alfalaval-m3:source:section_4> ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 1 .
+
+<urn:plantdocs:alfalaval-m3:fact:0015> a plm:PCA_100029508 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:datasheet> ;
+    plm:PCA_100029521 "Applications | Application" ;
+    plm:PCA_100029522 "Mining, Minerals and Pigments" ;
+    plm:PCA_100029525 <urn:plantdocs:alfalaval-m3:source:section_4> ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 1 .
+
+<urn:plantdocs:alfalaval-m3:fact:0016> a plm:PCA_100029508 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:datasheet> ;
+    plm:PCA_100029521 "Applications | Application" ;
+    plm:PCA_100029522 "Pulp and Paper" ;
+    plm:PCA_100029525 <urn:plantdocs:alfalaval-m3:source:section_4> ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 1 .
+
+<urn:plantdocs:alfalaval-m3:fact:0017> a plm:PCA_100029508 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:datasheet> ;
+    plm:PCA_100029521 "Applications | Application" ;
+    plm:PCA_100029522 "Semiconductor and Electronics" ;
+    plm:PCA_100029525 <urn:plantdocs:alfalaval-m3:source:section_4> ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 1 .
+
+<urn:plantdocs:alfalaval-m3:fact:0018> a plm:PCA_100029508 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:datasheet> ;
+    plm:PCA_100029521 "Applications | Application" ;
+    plm:PCA_100029522 "Steel" ;
+    plm:PCA_100029525 <urn:plantdocs:alfalaval-m3:source:section_4> ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 1 .
+
+<urn:plantdocs:alfalaval-m3:fact:0019> a plm:PCA_100029508 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:datasheet> ;
+    plm:PCA_100029521 "Applications | Application" ;
+    plm:PCA_100029522 "Water and Waste treatment" ;
+    plm:PCA_100029525 <urn:plantdocs:alfalaval-m3:source:section_4> ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 1 .
+
+<urn:plantdocs:alfalaval-m3:fact:0020> a plm:PCA_100029508 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:datasheet> ;
+    plm:PCA_100029521 "Benefits | Benefit" ;
+    plm:PCA_100029522 "High energy efficiency - low operating cost" ;
+    plm:PCA_100029525 <urn:plantdocs:alfalaval-m3:source:section_5> ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 1 .
+
+<urn:plantdocs:alfalaval-m3:fact:0021> a plm:PCA_100029508 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:datasheet> ;
+    plm:PCA_100029521 "Benefits | Benefit" ;
+    plm:PCA_100029522 "Flexible configuration - heat transfer area can be modified" ;
+    plm:PCA_100029525 <urn:plantdocs:alfalaval-m3:source:section_5> ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 1 .
+
+<urn:plantdocs:alfalaval-m3:fact:0022> a plm:PCA_100029508 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:datasheet> ;
+    plm:PCA_100029521 "Benefits | Benefit" ;
+    plm:PCA_100029522 "Easy to install - compact design" ;
+    plm:PCA_100029525 <urn:plantdocs:alfalaval-m3:source:section_5> ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 1 .
+
+<urn:plantdocs:alfalaval-m3:fact:0023> a plm:PCA_100029508 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:datasheet> ;
+    plm:PCA_100029521 "Benefits | Benefit" ;
+    plm:PCA_100029522 "High serviceability - easy to open for inspection and cleaning and easy to clean by CIP" ;
+    plm:PCA_100029525 <urn:plantdocs:alfalaval-m3:source:section_5> ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 1 .
+
+<urn:plantdocs:alfalaval-m3:fact:0024> a plm:PCA_100029508 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:datasheet> ;
+    plm:PCA_100029521 "Benefits | Benefit" ;
+    plm:PCA_100029522 "Access to Alfa Laval's global service network" ;
+    plm:PCA_100029525 <urn:plantdocs:alfalaval-m3:source:section_5> ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 1 .
+
+<urn:plantdocs:alfalaval-m3:fact:0025> a plm:PCA_100029508 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:datasheet> ;
+    plm:PCA_100029521 "Features | Available feature" ;
+    plm:PCA_100029522 "Glued gasket" ;
+    plm:PCA_100029525 <urn:plantdocs:alfalaval-m3:source:section_6> ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 1 .
+
+<urn:plantdocs:alfalaval-m3:fact:0026> a plm:PCA_100029508 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:datasheet> ;
+    plm:PCA_100029521 "Features | Available feature" ;
+    plm:PCA_100029522 "Clip-on gasket" ;
+    plm:PCA_100029525 <urn:plantdocs:alfalaval-m3:source:section_6> ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 1 .
+
+<urn:plantdocs:alfalaval-m3:fact:0027> a plm:PCA_100029508 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:datasheet> ;
+    plm:PCA_100029521 "Features | Available feature" ;
+    plm:PCA_100029522 "Leak chamber" ;
+    plm:PCA_100029525 <urn:plantdocs:alfalaval-m3:source:section_6> ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 1 .
+
+<urn:plantdocs:alfalaval-m3:fact:0028> a plm:PCA_100029508 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:datasheet> ;
+    plm:PCA_100029521 "Features | Available feature" ;
+    plm:PCA_100029522 "Fixed bolt head" ;
+    plm:PCA_100029525 <urn:plantdocs:alfalaval-m3:source:section_6> ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 1 .
+
+<urn:plantdocs:alfalaval-m3:fact:0029> a plm:PCA_100029508 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:datasheet> ;
+    plm:PCA_100029521 "Features | Available feature" ;
+    plm:PCA_100029522 "Key hole bolt opening" ;
+    plm:PCA_100029525 <urn:plantdocs:alfalaval-m3:source:section_6> ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 1 .
+
+<urn:plantdocs:alfalaval-m3:fact:0030> a plm:PCA_100029508 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:datasheet> ;
+    plm:PCA_100029521 "Features | Available feature" ;
+    plm:PCA_100029522 "Lifting lug" ;
+    plm:PCA_100029525 <urn:plantdocs:alfalaval-m3:source:section_6> ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 1 .
+
+<urn:plantdocs:alfalaval-m3:fact:0031> a plm:PCA_100029508 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:datasheet> ;
+    plm:PCA_100029521 "Features | Available feature" ;
+    plm:PCA_100029522 "Lining" ;
+    plm:PCA_100029525 <urn:plantdocs:alfalaval-m3:source:section_6> ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 1 .
+
+<urn:plantdocs:alfalaval-m3:fact:0032> a plm:PCA_100029508 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:datasheet> ;
+    plm:PCA_100029521 "Features | Available feature" ;
+    plm:PCA_100029522 "Lock washer" ;
+    plm:PCA_100029525 <urn:plantdocs:alfalaval-m3:source:section_6> ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 1 .
+
+<urn:plantdocs:alfalaval-m3:fact:0033> a plm:PCA_100029508 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:datasheet> ;
+    plm:PCA_100029521 "Features | Available feature" ;
+    plm:PCA_100029522 "Tightening bolt cover" ;
+    plm:PCA_100029525 <urn:plantdocs:alfalaval-m3:source:section_6> ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 1 .
+
+<urn:plantdocs:alfalaval-m3:fact:0034> a plm:PCA_100029508 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:datasheet> ;
+    plm:PCA_100029521 "Extending performance with Alfa Laval 360° Service Portfolio | Service" ;
+    plm:PCA_100029522 "Installation" ;
+    plm:PCA_100029525 <urn:plantdocs:alfalaval-m3:source:section_7> ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 1 .
+
+<urn:plantdocs:alfalaval-m3:fact:0035> a plm:PCA_100029508 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:datasheet> ;
+    plm:PCA_100029521 "Extending performance with Alfa Laval 360° Service Portfolio | Service" ;
+    plm:PCA_100029522 "Exclusive Stock" ;
+    plm:PCA_100029525 <urn:plantdocs:alfalaval-m3:source:section_7> ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 1 .
+
+<urn:plantdocs:alfalaval-m3:fact:0036> a plm:PCA_100029508 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:datasheet> ;
+    plm:PCA_100029521 "Extending performance with Alfa Laval 360° Service Portfolio | Service" ;
+    plm:PCA_100029522 "Installation Supervision" ;
+    plm:PCA_100029525 <urn:plantdocs:alfalaval-m3:source:section_7> ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 1 .
+
+<urn:plantdocs:alfalaval-m3:fact:0037> a plm:PCA_100029508 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:datasheet> ;
+    plm:PCA_100029521 "Extending performance with Alfa Laval 360° Service Portfolio | Service" ;
+    plm:PCA_100029522 "Technical Documentation" ;
+    plm:PCA_100029525 <urn:plantdocs:alfalaval-m3:source:section_7> ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 1 .
+
+<urn:plantdocs:alfalaval-m3:fact:0038> a plm:PCA_100029508 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:datasheet> ;
+    plm:PCA_100029521 "Extending performance with Alfa Laval 360° Service Portfolio | Service" ;
+    plm:PCA_100029522 "Commissioning" ;
+    plm:PCA_100029525 <urn:plantdocs:alfalaval-m3:source:section_7> ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 1 .
+
+<urn:plantdocs:alfalaval-m3:fact:0039> a plm:PCA_100029508 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:datasheet> ;
+    plm:PCA_100029521 "Extending performance with Alfa Laval 360° Service Portfolio | Service" ;
+    plm:PCA_100029522 "Telephone Support" ;
+    plm:PCA_100029525 <urn:plantdocs:alfalaval-m3:source:section_7> ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 1 .
+
+<urn:plantdocs:alfalaval-m3:fact:0040> a plm:PCA_100029508 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:datasheet> ;
+    plm:PCA_100029521 "Extending performance with Alfa Laval 360° Service Portfolio | Service" ;
+    plm:PCA_100029522 "Training" ;
+    plm:PCA_100029525 <urn:plantdocs:alfalaval-m3:source:section_7> ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 1 .
+
+<urn:plantdocs:alfalaval-m3:fact:0041> a plm:PCA_100029508 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:datasheet> ;
+    plm:PCA_100029521 "Extending performance with Alfa Laval 360° Service Portfolio | Service" ;
+    plm:PCA_100029522 "Troubleshooting" ;
+    plm:PCA_100029525 <urn:plantdocs:alfalaval-m3:source:section_7> ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 1 .
+
+<urn:plantdocs:alfalaval-m3:fact:0042> a plm:PCA_100029508 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:datasheet> ;
+    plm:PCA_100029521 "Extending performance with Alfa Laval 360° Service Portfolio | Service" ;
+    plm:PCA_100029522 "Cleaning Services" ;
+    plm:PCA_100029525 <urn:plantdocs:alfalaval-m3:source:section_7> ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 1 .
+
+<urn:plantdocs:alfalaval-m3:fact:0043> a plm:PCA_100029508 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:datasheet> ;
+    plm:PCA_100029521 "Extending performance with Alfa Laval 360° Service Portfolio | Service" ;
+    plm:PCA_100029522 "Reconditioning" ;
+    plm:PCA_100029525 <urn:plantdocs:alfalaval-m3:source:section_7> ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 1 .
+
+<urn:plantdocs:alfalaval-m3:fact:0044> a plm:PCA_100029508 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:datasheet> ;
+    plm:PCA_100029521 "Extending performance with Alfa Laval 360° Service Portfolio | Service" ;
+    plm:PCA_100029522 "Repair" ;
+    plm:PCA_100029525 <urn:plantdocs:alfalaval-m3:source:section_7> ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 1 .
+
+<urn:plantdocs:alfalaval-m3:fact:0045> a plm:PCA_100029508 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:datasheet> ;
+    plm:PCA_100029521 "Extending performance with Alfa Laval 360° Service Portfolio | Service" ;
+    plm:PCA_100029522 "Equipment Upgrades" ;
+    plm:PCA_100029525 <urn:plantdocs:alfalaval-m3:source:section_7> ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 1 .
+
+<urn:plantdocs:alfalaval-m3:fact:0046> a plm:PCA_100029508 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:datasheet> ;
+    plm:PCA_100029521 "Extending performance with Alfa Laval 360° Service Portfolio | Service" ;
+    plm:PCA_100029522 "Service Tools" ;
+    plm:PCA_100029525 <urn:plantdocs:alfalaval-m3:source:section_7> ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 1 .
+
+<urn:plantdocs:alfalaval-m3:fact:0047> a plm:PCA_100029508 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:datasheet> ;
+    plm:PCA_100029521 "Extending performance with Alfa Laval 360° Service Portfolio | Service" ;
+    plm:PCA_100029522 "Redesign" ;
+    plm:PCA_100029525 <urn:plantdocs:alfalaval-m3:source:section_7> ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 1 .
+
+<urn:plantdocs:alfalaval-m3:fact:0048> a plm:PCA_100029508 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:datasheet> ;
+    plm:PCA_100029521 "Extending performance with Alfa Laval 360° Service Portfolio | Service" ;
+    plm:PCA_100029522 "Spare Parts" ;
+    plm:PCA_100029525 <urn:plantdocs:alfalaval-m3:source:section_7> ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 1 .
+
+<urn:plantdocs:alfalaval-m3:fact:0049> a plm:PCA_100029508 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:datasheet> ;
+    plm:PCA_100029521 "Extending performance with Alfa Laval 360° Service Portfolio | Service" ;
+    plm:PCA_100029522 "Replacement and Retrofit" ;
+    plm:PCA_100029525 <urn:plantdocs:alfalaval-m3:source:section_7> ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 1 .
+
+<urn:plantdocs:alfalaval-m3:fact:0050> a plm:PCA_100029508 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:datasheet> ;
+    plm:PCA_100029521 "Extending performance with Alfa Laval 360° Service Portfolio | Service" ;
+    plm:PCA_100029522 "Condition Audit" ;
+    plm:PCA_100029525 <urn:plantdocs:alfalaval-m3:source:section_7> ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 1 .
+
+<urn:plantdocs:alfalaval-m3:fact:0051> a plm:PCA_100029508 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:datasheet> ;
+    plm:PCA_100029521 "Extending performance with Alfa Laval 360° Service Portfolio | Service" ;
+    plm:PCA_100029522 "Performance Audit" ;
+    plm:PCA_100029525 <urn:plantdocs:alfalaval-m3:source:section_7> ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 1 .
+
+<urn:plantdocs:alfalaval-m3:fact:0052> a plm:PCA_100029508 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:datasheet> ;
+    plm:PCA_100029521 "Dimensional drawing Measurements mm (inches) | Note on tightening bolts" ;
+    plm:PCA_100029522 "The number of tightening bolts may vary depending on pressure rating." ;
+    plm:PCA_100029525 <urn:plantdocs:alfalaval-m3:source:section_13> ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 2 .
+
+<urn:plantdocs:alfalaval-m3:fact:0053> a plm:PCA_100029508 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:device> ;
+    plm:PCA_100029519 lis:Quality ;
+    plm:PCA_100029520 <urn:plantdocs:alfalaval-m3:case:plate_variant_m3> ;
+    plm:PCA_100029521 "Plate type" ;
+    plm:PCA_100029522 "Single plate" ;
+    plm:PCA_100029525 <urn:plantdocs:alfalaval-m3:source:table_azure_0> ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 2 .
+
+<urn:plantdocs:alfalaval-m3:fact:0054:v1> a plm:PCA_100029511 ;
+    lis:datumUOM plm:PCA_100003680 ;
+    lis:datumValue 0.095 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:device> ;
+    plm:PCA_100029519 lis:Quality ;
+    plm:PCA_100029520 <urn:plantdocs:alfalaval-m3:case:plate_variant_m3> ;
+    plm:PCA_100029521 "Free channel" ;
+    plm:PCA_100029522 "0.095 in" ;
+    plm:PCA_100029525 <urn:plantdocs:alfalaval-m3:source:table_azure_0> ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 2 .
+
+<urn:plantdocs:alfalaval-m3:fact:0054:v2> a plm:PCA_100029511 ;
+    lis:datumUOM plm:PCA_100003706 ;
+    lis:datumValue 2.4 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:device> ;
+    plm:PCA_100029519 lis:Quality ;
+    plm:PCA_100029520 <urn:plantdocs:alfalaval-m3:case:plate_variant_m3> ;
+    plm:PCA_100029521 "Free channel" ;
+    plm:PCA_100029522 "2.4 mm" ;
+    plm:PCA_100029525 <urn:plantdocs:alfalaval-m3:source:table_azure_0> ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 2 .
+
+<urn:plantdocs:alfalaval-m3:fact:0055> a plm:PCA_100029508 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:device> ;
+    plm:PCA_100029519 lis:Quality ;
+    plm:PCA_100029520 <urn:plantdocs:alfalaval-m3:case:plate_variant_m3_d> ;
+    plm:PCA_100029521 "Plate type" ;
+    plm:PCA_100029522 "Double wall plate" ;
+    plm:PCA_100029525 <urn:plantdocs:alfalaval-m3:source:table_azure_0> ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 2 .
+
+<urn:plantdocs:alfalaval-m3:fact:0056:v1> a plm:PCA_100029511 ;
+    lis:datumUOM plm:PCA_100003680 ;
+    lis:datumValue 0.095 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:device> ;
+    plm:PCA_100029519 lis:Quality ;
+    plm:PCA_100029520 <urn:plantdocs:alfalaval-m3:case:plate_variant_m3_d> ;
+    plm:PCA_100029521 "Free channel" ;
+    plm:PCA_100029522 "0.095 in" ;
+    plm:PCA_100029525 <urn:plantdocs:alfalaval-m3:source:table_azure_0> ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 2 .
+
+<urn:plantdocs:alfalaval-m3:fact:0056:v2> a plm:PCA_100029511 ;
+    lis:datumUOM plm:PCA_100003706 ;
+    lis:datumValue 2.4 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:device> ;
+    plm:PCA_100029519 lis:Quality ;
+    plm:PCA_100029520 <urn:plantdocs:alfalaval-m3:case:plate_variant_m3_d> ;
+    plm:PCA_100029521 "Free channel" ;
+    plm:PCA_100029522 "2.4 mm" ;
+    plm:PCA_100029525 <urn:plantdocs:alfalaval-m3:source:table_azure_0> ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 2 .
+
+<urn:plantdocs:alfalaval-m3:fact:0057> a plm:PCA_100029508 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:device> ;
+    plm:PCA_100029519 lis:Quality ;
+    plm:PCA_100029520 <urn:plantdocs:alfalaval-m3:case:plate_variant_m3_g> ;
+    plm:PCA_100029521 "Plate type" ;
+    plm:PCA_100029522 "Gemini (hygienic) Double wall" ;
+    plm:PCA_100029525 <urn:plantdocs:alfalaval-m3:source:table_azure_0> ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 2 .
+
+<urn:plantdocs:alfalaval-m3:fact:0058:v1> a plm:PCA_100029511 ;
+    lis:datumUOM plm:PCA_100003680 ;
+    lis:datumValue 0.095 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:device> ;
+    plm:PCA_100029519 lis:Quality ;
+    plm:PCA_100029520 <urn:plantdocs:alfalaval-m3:case:plate_variant_m3_g> ;
+    plm:PCA_100029521 "Free channel" ;
+    plm:PCA_100029522 "0.095 in" ;
+    plm:PCA_100029525 <urn:plantdocs:alfalaval-m3:source:table_azure_0> ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 2 .
+
+<urn:plantdocs:alfalaval-m3:fact:0058:v2> a plm:PCA_100029511 ;
+    lis:datumUOM plm:PCA_100003706 ;
+    lis:datumValue 2.4 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:device> ;
+    plm:PCA_100029519 lis:Quality ;
+    plm:PCA_100029520 <urn:plantdocs:alfalaval-m3:case:plate_variant_m3_g> ;
+    plm:PCA_100029521 "Free channel" ;
+    plm:PCA_100029522 "2.4 mm" ;
+    plm:PCA_100029525 <urn:plantdocs:alfalaval-m3:source:table_azure_0> ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 2 .
+
+<urn:plantdocs:alfalaval-m3:fact:0059> a plm:PCA_100029508 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:device> ;
+    plm:PCA_100029519 lis:Quality ;
+    plm:PCA_100029520 <urn:plantdocs:alfalaval-m3:case:plate_variant_m3_x> ;
+    plm:PCA_100029521 "Plate type" ;
+    plm:PCA_100029522 "Single plate Diagonal flow" ;
+    plm:PCA_100029525 <urn:plantdocs:alfalaval-m3:source:table_azure_0> ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 2 .
+
+<urn:plantdocs:alfalaval-m3:fact:0060:v1> a plm:PCA_100029511 ;
+    lis:datumUOM plm:PCA_100003680 ;
+    lis:datumValue 0.095 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:device> ;
+    plm:PCA_100029519 lis:Quality ;
+    plm:PCA_100029520 <urn:plantdocs:alfalaval-m3:case:plate_variant_m3_x> ;
+    plm:PCA_100029521 "Free channel" ;
+    plm:PCA_100029522 "0.095 in" ;
+    plm:PCA_100029525 <urn:plantdocs:alfalaval-m3:source:table_azure_0> ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 2 .
+
+<urn:plantdocs:alfalaval-m3:fact:0060:v2> a plm:PCA_100029511 ;
+    lis:datumUOM plm:PCA_100003706 ;
+    lis:datumValue 2.4 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:device> ;
+    plm:PCA_100029519 lis:Quality ;
+    plm:PCA_100029520 <urn:plantdocs:alfalaval-m3:case:plate_variant_m3_x> ;
+    plm:PCA_100029521 "Free channel" ;
+    plm:PCA_100029522 "2.4 mm" ;
+    plm:PCA_100029525 <urn:plantdocs:alfalaval-m3:source:table_azure_0> ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 2 .
+
+<urn:plantdocs:alfalaval-m3:fact:0061> a plm:PCA_100029508 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:device> ;
+    plm:PCA_100029519 <http://w3id.org/readi/rdl/CFIHOS-40000223> ;
+    plm:PCA_100029521 "Heat transfer plates material" ;
+    plm:PCA_100029522 "316/316L, C-276, Ti, TiPd" ;
+    plm:PCA_100029525 <urn:plantdocs:alfalaval-m3:source:page_text_2> ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 2 .
+
+<urn:plantdocs:alfalaval-m3:fact:0062> a plm:PCA_100029508 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:device> ;
+    plm:PCA_100029519 <http://w3id.org/readi/rdl/CFIHOS-40000223> ;
+    plm:PCA_100029521 "Field gaskets material" ;
+    plm:PCA_100029522 "NBR, EPDM, FKM" ;
+    plm:PCA_100029525 <urn:plantdocs:alfalaval-m3:source:page_text_2> ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 2 .
+
+<urn:plantdocs:alfalaval-m3:fact:0063> a plm:PCA_100029508 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:device> ;
+    plm:PCA_100029519 <http://w3id.org/readi/rdl/CFIHOS-40000223> ;
+    plm:PCA_100029521 "Flange connections material" ;
+    plm:PCA_100029522 "Carbon steel" ;
+    plm:PCA_100029525 <urn:plantdocs:alfalaval-m3:source:page_text_2> ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 2 .
+
+<urn:plantdocs:alfalaval-m3:fact:0064> a plm:PCA_100029508 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:device> ;
+    plm:PCA_100029519 <http://w3id.org/readi/rdl/CFIHOS-40000223> ;
+    plm:PCA_100029521 "Pipe connections material" ;
+    plm:PCA_100029522 "Stainless steel, titanium" ;
+    plm:PCA_100029525 <urn:plantdocs:alfalaval-m3:source:page_text_2> ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 2 .
+
+<urn:plantdocs:alfalaval-m3:fact:0065> a plm:PCA_100029508 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:device> ;
+    plm:PCA_100029519 <http://w3id.org/readi/rdl/CFIHOS-40000223> ;
+    plm:PCA_100029521 "Frame and pressure plate material" ;
+    plm:PCA_100029522 "Carbon steel, epoxy painted" ;
+    plm:PCA_100029525 <urn:plantdocs:alfalaval-m3:source:page_text_2> ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 2 .
+
+<urn:plantdocs:alfalaval-m3:fact:0066> a plm:PCA_100029508 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:datasheet> ;
+    plm:PCA_100029521 "Technical data | Note on materials" ;
+    plm:PCA_100029522 "Other materials may be available on request." ;
+    plm:PCA_100029525 <urn:plantdocs:alfalaval-m3:source:section_15> ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 2 .
+
+<urn:plantdocs:alfalaval-m3:fact:0067> a plm:PCA_100029508 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:datasheet> ;
+    plm:PCA_100029521 "Technical data | Note on options" ;
+    plm:PCA_100029522 "All option combinations may not be configurable." ;
+    plm:PCA_100029525 <urn:plantdocs:alfalaval-m3:source:section_15> ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 2 .
+
+<urn:plantdocs:alfalaval-m3:fact:0068> a plm:PCA_100029511 ;
+    lis:datumUOM plm:PCA_100003649 ;
+    lis:datumValue 10.3 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:device> ;
+    plm:PCA_100029519 <http://w3id.org/readi/rdl/CFIHOS-40000535> ;
+    plm:PCA_100029520 <urn:plantdocs:alfalaval-m3:case:frame_fg_pressure_vessel_code_asme> ;
+    plm:PCA_100029521 "Max. design pressure" ;
+    plm:PCA_100029522 "10.3 barg" ;
+    plm:PCA_100029525 <urn:plantdocs:alfalaval-m3:source:table_azure_2> ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 2 .
+
+<urn:plantdocs:alfalaval-m3:fact:0069> a plm:PCA_100029511 ;
+    lis:datumUOM plm:PCA_100005355 ;
+    lis:datumValue 150.0 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:device> ;
+    plm:PCA_100029519 <http://w3id.org/readi/rdl/CFIHOS-40000535> ;
+    plm:PCA_100029520 <urn:plantdocs:alfalaval-m3:case:frame_fg_pressure_vessel_code_asme> ;
+    plm:PCA_100029521 "Max. design pressure" ;
+    plm:PCA_100029522 "150 psig" ;
+    plm:PCA_100029525 <urn:plantdocs:alfalaval-m3:source:table_azure_2> ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 2 .
+
+<urn:plantdocs:alfalaval-m3:fact:0070:v1> a plm:PCA_100029511 ;
+    lis:datumUOM plm:PCA_100003672 ;
+    lis:datumValue 177.0 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:device> ;
+    plm:PCA_100029519 <http://w3id.org/readi/rdl/CFIHOS-40000536> ;
+    plm:PCA_100029520 <urn:plantdocs:alfalaval-m3:case:frame_fg_pressure_vessel_code_asme> ;
+    plm:PCA_100029521 "Max. design temperature" ;
+    plm:PCA_100029522 "177 °C" ;
+    plm:PCA_100029525 <urn:plantdocs:alfalaval-m3:source:table_azure_2> ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 2 .
+
+<urn:plantdocs:alfalaval-m3:fact:0070:v2> a plm:PCA_100029511 ;
+    lis:datumUOM plm:PCA_100003673 ;
+    lis:datumValue 350.0 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:device> ;
+    plm:PCA_100029519 <http://w3id.org/readi/rdl/CFIHOS-40000536> ;
+    plm:PCA_100029520 <urn:plantdocs:alfalaval-m3:case:frame_fg_pressure_vessel_code_asme> ;
+    plm:PCA_100029521 "Max. design temperature" ;
+    plm:PCA_100029522 "350 °F" ;
+    plm:PCA_100029525 <urn:plantdocs:alfalaval-m3:source:table_azure_2> ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 2 .
+
+<urn:plantdocs:alfalaval-m3:fact:0071> a plm:PCA_100029511 ;
+    lis:datumUOM plm:PCA_100003649 ;
+    lis:datumValue 16.0 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:device> ;
+    plm:PCA_100029519 <http://w3id.org/readi/rdl/CFIHOS-40000535> ;
+    plm:PCA_100029520 <urn:plantdocs:alfalaval-m3:case:frame_fg_pressure_vessel_code_ped> ;
+    plm:PCA_100029521 "Max. design pressure" ;
+    plm:PCA_100029522 "16.0 barg" ;
+    plm:PCA_100029525 <urn:plantdocs:alfalaval-m3:source:table_azure_2> ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 2 .
+
+<urn:plantdocs:alfalaval-m3:fact:0072> a plm:PCA_100029511 ;
+    lis:datumUOM plm:PCA_100005355 ;
+    lis:datumValue 232.0 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:device> ;
+    plm:PCA_100029519 <http://w3id.org/readi/rdl/CFIHOS-40000535> ;
+    plm:PCA_100029520 <urn:plantdocs:alfalaval-m3:case:frame_fg_pressure_vessel_code_ped> ;
+    plm:PCA_100029521 "Max. design pressure" ;
+    plm:PCA_100029522 "232 psig" ;
+    plm:PCA_100029525 <urn:plantdocs:alfalaval-m3:source:table_azure_2> ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 2 .
+
+<urn:plantdocs:alfalaval-m3:fact:0073:v1> a plm:PCA_100029511 ;
+    lis:datumUOM plm:PCA_100003672 ;
+    lis:datumValue 180.0 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:device> ;
+    plm:PCA_100029519 <http://w3id.org/readi/rdl/CFIHOS-40000536> ;
+    plm:PCA_100029520 <urn:plantdocs:alfalaval-m3:case:frame_fg_pressure_vessel_code_ped> ;
+    plm:PCA_100029521 "Max. design temperature" ;
+    plm:PCA_100029522 "180 °C" ;
+    plm:PCA_100029525 <urn:plantdocs:alfalaval-m3:source:table_azure_2> ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 2 .
+
+<urn:plantdocs:alfalaval-m3:fact:0073:v2> a plm:PCA_100029511 ;
+    lis:datumUOM plm:PCA_100003673 ;
+    lis:datumValue 356.0 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:device> ;
+    plm:PCA_100029519 <http://w3id.org/readi/rdl/CFIHOS-40000536> ;
+    plm:PCA_100029520 <urn:plantdocs:alfalaval-m3:case:frame_fg_pressure_vessel_code_ped> ;
+    plm:PCA_100029521 "Max. design temperature" ;
+    plm:PCA_100029522 "356 °F" ;
+    plm:PCA_100029525 <urn:plantdocs:alfalaval-m3:source:table_azure_2> ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 2 .
+
+<urn:plantdocs:alfalaval-m3:fact:0074> a plm:PCA_100029508 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:device> ;
+    plm:PCA_100029521 "Note on ratings" ;
+    plm:PCA_100029522 "Extended pressure and temperature rating may be available on request." ;
+    plm:PCA_100029525 <urn:plantdocs:alfalaval-m3:source:table_azure_2> ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 2 .
+
+<urn:plantdocs:alfalaval-m3:fact:0075> a plm:PCA_100029508 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:device> ;
+    plm:PCA_100029519 <http://w3id.org/readi/rdl/CFIHOS-40001155> ;
+    plm:PCA_100029521 "Threaded port" ;
+    plm:PCA_100029522 "ISO 228 - G 1 1/4" ;
+    plm:PCA_100029525 <urn:plantdocs:alfalaval-m3:source:table_azure_3> ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 2 .
+
+<urn:plantdocs:alfalaval-m3:fact:0076> a plm:PCA_100029508 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:device> ;
+    plm:PCA_100029519 <http://w3id.org/readi/rdl/CFIHOS-40001155> ;
+    plm:PCA_100029521 "Internal parallel threaded" ;
+    plm:PCA_100029522 "ISO 228 - G 1" ;
+    plm:PCA_100029525 <urn:plantdocs:alfalaval-m3:source:table_azure_3> ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 2 .
+
+<urn:plantdocs:alfalaval-m3:fact:0077> a plm:PCA_100029508 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:device> ;
+    plm:PCA_100029519 <http://w3id.org/readi/rdl/CFIHOS-40001155> ;
+    plm:PCA_100029521 "External parallel threaded" ;
+    plm:PCA_100029522 "ISO 228 - G 1 1/4 B" ;
+    plm:PCA_100029525 <urn:plantdocs:alfalaval-m3:source:table_azure_3> ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 2 .
+
+<urn:plantdocs:alfalaval-m3:fact:0078> a plm:PCA_100029508 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:device> ;
+    plm:PCA_100029519 <http://w3id.org/readi/rdl/CFIHOS-40001155> ;
+    plm:PCA_100029521 "External tapered threaded" ;
+    plm:PCA_100029522 "ISO 7 - R 1 1/4" ;
+    plm:PCA_100029525 <urn:plantdocs:alfalaval-m3:source:table_azure_3> ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 2 .
+
+<urn:plantdocs:alfalaval-m3:fact:0079> a plm:PCA_100029508 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:device> ;
+    plm:PCA_100029519 <http://w3id.org/readi/rdl/CFIHOS-40001155> ;
+    plm:PCA_100029521 "External tapered threaded" ;
+    plm:PCA_100029522 "1 1/4 - 11.5 NPT" ;
+    plm:PCA_100029525 <urn:plantdocs:alfalaval-m3:source:table_azure_3> ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 2 .
+
+<urn:plantdocs:alfalaval-m3:fact:0080> a plm:PCA_100029508 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:device> ;
+    plm:PCA_100029521 "Note on connection types" ;
+    plm:PCA_100029522 "Other connection types may be available on request." ;
+    plm:PCA_100029525 <urn:plantdocs:alfalaval-m3:source:table_azure_3> ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 2 .
+
+<urn:plantdocs:alfalaval-m3:fact:0081> a plm:PCA_100029508 ;
+    plm:PCA_100029516 <urn:plantdocs:alfalaval-m3:datasheet> ;
+    plm:PCA_100029521 "Alfa Laval M3 | Document code (page footer)" ;
+    plm:PCA_100029522 "CHE00070EN 2016-04" ;
+    plm:PCA_100029525 <urn:plantdocs:alfalaval-m3:source:page_text_2> ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 2 .
+
+<urn:plantdocs:alfalaval-m3:part:part_s1> a lis:PhysicalObject ;
+    rdfs:label "S1" ;
+    lis:partOf <urn:plantdocs:alfalaval-m3:device> ;
+    skos:notation "S1" .
+
+<urn:plantdocs:alfalaval-m3:part:part_s2> a lis:PhysicalObject ;
+    rdfs:label "S2" ;
+    lis:partOf <urn:plantdocs:alfalaval-m3:device> ;
+    skos:notation "S2" .
+
+<urn:plantdocs:alfalaval-m3:part:part_s3> a lis:PhysicalObject ;
+    rdfs:label "S3" ;
+    lis:partOf <urn:plantdocs:alfalaval-m3:device> ;
+    skos:notation "S3" .
+
+<urn:plantdocs:alfalaval-m3:part:part_s4> a lis:PhysicalObject ;
+    rdfs:label "S4" ;
+    lis:partOf <urn:plantdocs:alfalaval-m3:device> ;
+    skos:notation "S4" .
+
+<urn:plantdocs:alfalaval-m3:source:fig_1_1> a plm:PCA_100029513 ;
+    dcterms:description "Product rendering of the Alfa Laval M3 gasketed plate-and-frame heat exchanger: blue frame and pressure plate, plate pack, tightening bolts, four threaded pipe connections, carrying bar and lifting lug."@en ;
+    dcterms:type "figure" ;
+    plm:PCA_100029521 "(felirat nélkül)" ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    skos:scopeNote "Answers what the M3 looks like; it carries no printed data."@en ;
+    schema:pageStart 1 .
+
+<urn:plantdocs:alfalaval-m3:source:fig_1_2> a plm:PCA_100029513 ;
+    dcterms:description "Two-column list of the Alfa Laval service portfolio: Start-up (Installation, Installation Supervision, Commissioning), Support (Exclusive Stock, Technical Documentation, Telephone Support, Training, Troubleshooting), Maintenance (Cleaning Services, Reconditioning, Repair, Service Tools, Spare Parts), Improvements (Equipment Upgrades, Redesign, Replacement and Retrofit) and Monitoring (Condition Audit, Performance Audit)."@en ;
+    dcterms:type "figure" ;
+    plm:PCA_100029521 "(felirat nélkül)" ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    skos:scopeNote "Use it to find which services Alfa Laval offers for the equipment, grouped by service stage."@en ;
+    schema:pageStart 1 .
+
+<urn:plantdocs:alfalaval-m3:source:fig_2_1> a plm:PCA_100029513 ;
+    dcterms:description "Dimensional drawing of the M3 in mm (inches): front view of the frame plate with ports S1-S4 (180 (7.09\") wide, 480 (18.9\") high, 173 (6.8\") at the foot, ports 60 (2.4\") apart horizontally and 357 (14.1\") vertically, 62 (2.4\") from the bottom edge) and side view with overall length 420-620 (16.5\"-24.4\") and a 40 (1.6\") offset."@en ;
+    dcterms:type "figure" ;
+    lis:isAbout <urn:plantdocs:alfalaval-m3:part:part_s1>,
+        <urn:plantdocs:alfalaval-m3:part:part_s2>,
+        <urn:plantdocs:alfalaval-m3:part:part_s3>,
+        <urn:plantdocs:alfalaval-m3:part:part_s4> ;
+    plm:PCA_100029521 "(felirat nélkül)" ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    skos:scopeNote "Use it to find the main outer dimensions of the M3, the port positions S1-S4 and the range of the overall length."@en ;
+    schema:pageStart 2 .
+
+<urn:plantdocs:alfalaval-m3:source:section_1> a plm:PCA_100029513 ;
+    dcterms:description "Only the OCR text 'LAVAL' of the Alfa Laval logo at the top of page 1."@en ;
+    dcterms:type "text_section" ;
+    plm:PCA_100029521 "(fejezetcím nélkül)" ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    skos:scopeNote "Answers nothing on its own; see alfalaval-m3/section-3."@en ;
+    schema:pageStart 1 .
+
+<urn:plantdocs:alfalaval-m3:source:section_10> a plm:PCA_100029513 ;
+    dcterms:description "Service list under Maintenance as read by Azure: Troubleshooting, Cleaning Services, Reconditioning."@en ;
+    dcterms:type "text_section" ;
+    plm:PCA_100029521 "Maintenance" ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    skos:scopeNote "Use it to find maintenance services offered by Alfa Laval."@en ;
+    schema:pageStart 1 .
+
+<urn:plantdocs:alfalaval-m3:source:section_11> a plm:PCA_100029513 ;
+    dcterms:description "Service list under Improvements as read by Azure: Repair, Equipment Upgrades, Service Tools, Redesign, Spare Parts, Replacement and Retrofit."@en ;
+    dcterms:type "text_section" ;
+    plm:PCA_100029521 "Improvements" ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    skos:scopeNote "Use it to find improvement services offered by Alfa Laval."@en ;
+    schema:pageStart 1 .
+
+<urn:plantdocs:alfalaval-m3:source:section_12> a plm:PCA_100029513 ;
+    dcterms:description "Service list under Monitoring: Condition Audit and Performance Audit."@en ;
+    dcterms:type "text_section" ;
+    plm:PCA_100029521 "Monitoring" ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    skos:scopeNote "Use it to find monitoring services offered by Alfa Laval."@en ;
+    schema:pageStart 1 .
+
+<urn:plantdocs:alfalaval-m3:source:section_16> a plm:PCA_100029513 ;
+    dcterms:description "Note under the Operational data table: extended pressure and temperature rating may be available on request."@en ;
+    dcterms:type "text_section" ;
+    plm:PCA_100029521 "Operational data" ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    skos:scopeNote "Answers whether higher pressure and temperature ratings than those in alfalaval-m3/table-azure-2 may be available."@en ;
+    schema:pageStart 2 .
+
+<urn:plantdocs:alfalaval-m3:source:section_17> a plm:PCA_100029513 ;
+    dcterms:description "Note under the Pipe connections table: other connection types may be available on request."@en ;
+    dcterms:type "text_section" ;
+    plm:PCA_100029521 "Pipe connections" ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    skos:scopeNote "Answers whether connection types other than those in alfalaval-m3/table-azure-3 may be available."@en ;
+    schema:pageStart 2 .
+
+<urn:plantdocs:alfalaval-m3:source:section_18> a plm:PCA_100029513 ;
+    dcterms:description "Contact note: contact details for all countries are on the Alfa Laval website, www.alfalaval.com."@en ;
+    dcterms:type "text_section" ;
+    plm:PCA_100029521 "How to contact Alfa Laval" ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    skos:scopeNote "Use it to find where to get Alfa Laval contact details."@en ;
+    schema:pageStart 2 .
+
+<urn:plantdocs:alfalaval-m3:source:section_9> a plm:PCA_100029513 ;
+    dcterms:description "Service list under the headings Start-up and Support: Installation, Exclusive Stock, Installation Supervision, Technical Documentation, Commissioning, Telephone Support, Training."@en ;
+    dcterms:type "text_section" ;
+    plm:PCA_100029521 "Support" ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    skos:scopeNote "Use it to find start-up and support services offered by Alfa Laval."@en ;
+    schema:pageStart 1 .
+
+plm:PCA_100003672 skos:exactMatch <http://qudt.org/vocab/unit/DEG_C> .
+
+plm:PCA_100003673 skos:exactMatch <http://qudt.org/vocab/unit/DEG_F> .
+
+<urn:plantdocs:alfalaval-m3:source:section_13> a plm:PCA_100029513 ;
+    dcterms:description "Heading 'Dimensional drawing, Measurements mm (inches)' with the note that the number of tightening bolts may vary depending on pressure rating."@en ;
+    dcterms:type "text_section" ;
+    plm:PCA_100029521 "Dimensional drawing Measurements mm (inches)" ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    skos:scopeNote "Answers whether the number of tightening bolts is fixed; the dimensions themselves are in alfalaval-m3/fig-2.1."@en ;
+    schema:pageStart 2 .
+
+<urn:plantdocs:alfalaval-m3:source:section_15> a plm:PCA_100029513 ;
+    dcterms:description "Two notes printed under the Plates and Materials tables: other materials may be available on request, and not all option combinations may be configurable."@en ;
+    dcterms:type "text_section" ;
+    plm:PCA_100029521 "Plates" ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    skos:scopeNote "Answers whether materials other than those listed may be available and whether every option combination can be configured."@en ;
+    schema:pageStart 2 .
+
+plm:PCA_100003680 skos:exactMatch <http://qudt.org/vocab/unit/IN> .
+
+plm:PCA_100003706 skos:exactMatch <http://qudt.org/vocab/unit/MilliM> .
+
+<urn:plantdocs:alfalaval-m3:case:plate_variant_m3> a plm:PCA_100029524 ;
+    rdfs:label "plate variant = M3" .
+
+<urn:plantdocs:alfalaval-m3:case:plate_variant_m3_d> a plm:PCA_100029524 ;
+    rdfs:label "plate variant = M3-D" .
+
+<urn:plantdocs:alfalaval-m3:case:plate_variant_m3_g> a plm:PCA_100029524 ;
+    rdfs:label "plate variant = M3-G" .
+
+<urn:plantdocs:alfalaval-m3:case:plate_variant_m3_x> a plm:PCA_100029524 ;
+    rdfs:label "plate variant = M3-X" .
+
+<urn:plantdocs:alfalaval-m3:source:section_5> a plm:PCA_100029513 ;
+    dcterms:description "Bulleted list of five benefits: high energy efficiency (low operating cost), flexible configuration (heat transfer area can be modified), easy installation (compact design), high serviceability (easy to open, easy to clean by CIP) and access to Alfa Laval's global service network."@en ;
+    dcterms:type "text_section" ;
+    plm:PCA_100029521 "Benefits" ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    skos:scopeNote "Use it to find the claimed benefits of the M3, such as whether its heat transfer area can be modified or whether it can be cleaned by CIP."@en ;
+    schema:pageStart 1 .
+
+<urn:plantdocs:alfalaval-m3:case:frame_fg_pressure_vessel_code_asme> a plm:PCA_100029524 ;
+    rdfs:label "frame = FG; pressure vessel code = ASME" .
+
+<urn:plantdocs:alfalaval-m3:case:frame_fg_pressure_vessel_code_ped> a plm:PCA_100029524 ;
+    rdfs:label "frame = FG; pressure vessel code = PED" .
+
+<urn:plantdocs:alfalaval-m3:source:page_text_2> a plm:PCA_100029513 ;
+    dcterms:type "text_section" ;
+    plm:PCA_100029521 "(page 2 text)" ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    schema:pageStart 2 .
+
+<urn:plantdocs:alfalaval-m3:source:section_3> a plm:PCA_100029513 ;
+    dcterms:description "Product introduction under the subtitle 'Gasketed plate-and-frame heat exchanger for a wide range of applications': the M3 belongs to the Alfa Laval Industrial line, is available with a large selection of plate and gasket types, and besides the normal single plate configuration also with double wall plates, which are used to avoid intermixing of fluids."@en ;
+    dcterms:type "text_section" ;
+    plm:PCA_100029521 "Gasketed plate-and-frame heat exchanger for a wide range of applications" ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    skos:scopeNote "Use it to find what kind of equipment the M3 is, which product line it belongs to and why double wall plates are offered."@en ;
+    schema:pageStart 1 .
+
+<urn:plantdocs:alfalaval-m3:source:table_azure_3> a plm:PCA_100029513 ;
+    dcterms:description "Pipe connections table: the connection types with their thread standard designation - threaded port ISO 228 - G 1 1/4, internal parallel threaded ISO 228 - G 1, external parallel threaded ISO 228 - G 1 1/4 B, external tapered threaded ISO 7 - R 1 1/4 or 1 1/4 - 11.5 NPT."@en ;
+    dcterms:type "table" ;
+    plm:PCA_100029521 "Pipe connections" ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    skos:scopeNote "Use it to find which threaded pipe connection types the M3 has and their thread standard and size."@en ;
+    schema:pageStart 2 .
+
+<urn:plantdocs:alfalaval-m3:source:section_6> a plm:PCA_100029513 ;
+    dcterms:description "Short introduction and a bulleted list of nine available features: glued gasket, clip-on gasket, leak chamber, fixed bolt head, key hole bolt opening, lifting lug, lining, lock washer and tightening bolt cover."@en ;
+    dcterms:type "text_section" ;
+    plm:PCA_100029521 "Features" ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    skos:scopeNote "Use it to find which optional design features are available for the M3."@en ;
+    schema:pageStart 1 .
+
+<urn:plantdocs:alfalaval-m3:source:table_azure_2> a plm:PCA_100029513 ;
+    dcterms:description "Operational data table: maximum design pressure (barg/psig) and maximum design temperature (°C/°F) for frame FG under two pressure vessel codes - ASME 10.3 barg / 150 psig and 177 °C / 350 °F, PED 16.0 barg / 232 psig and 180 °C / 356 °F."@en ;
+    dcterms:type "table" ;
+    plm:PCA_100029521 "Operational data" ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    skos:scopeNote "Use it to find the maximum design pressure and temperature of the M3 for the FG frame under the ASME or PED pressure vessel code."@en ;
+    schema:pageStart 2 .
+
+<urn:plantdocs:alfalaval-m3:source:table_azure_0> a plm:PCA_100029513 ;
+    dcterms:description "Two tables under 'Technical data' merged into one source: the Plates table (plate names M3, M3-D, M3-G, M3-X with their type - single plate, double wall plate, Gemini (hygienic) double wall, single plate diagonal flow - and a free channel of 2.4 mm (0.095 in) for all) and the Materials table (heat transfer plates 316/316L, C-276, Ti, TiPd; field gaskets NBR, EPDM, FKM; flange connections carbon steel; pipe connections stainless steel, titanium; frame and pressure plate carbon steel, epoxy painted)."@en ;
+    dcterms:type "table" ;
+    plm:PCA_100029521 "Plates" ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    skos:scopeNote "Use it to find the available plate variants of the M3 with their plate type and free channel, and the materials of the plates, gaskets, connections and frame."@en ;
+    schema:pageStart 2 .
+
+<urn:plantdocs:alfalaval-m3:source:section_4> a plm:PCA_100029513 ;
+    dcterms:description "Bulleted list of application areas, from Biotech and Pharmaceutical, Chemicals and Energy and Utilities to HVAC and Refrigeration, Marine and Transportation, Pulp and Paper and Water and Waste treatment."@en ;
+    dcterms:type "text_section" ;
+    plm:PCA_100029521 "Applications" ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    skos:scopeNote "Use it to find the industries and application areas the M3 is intended for."@en ;
+    schema:pageStart 1 .
+
+<urn:plantdocs:alfalaval-m3:source:section_7> a plm:PCA_100029513 ;
+    dcterms:description "Introductory paragraph of the Alfa Laval 360° Service Portfolio: the services are meant to keep the equipment at top performance throughout its life cycle."@en ;
+    dcterms:type "text_section" ;
+    plm:PCA_100029521 "Extending performance with Alfa Laval 360° Service Portfolio" ;
+    plm:PCA_100029534 "alfalaval-m3.pdf" ;
+    skos:scopeNote "Answers nothing on its own; see alfalaval-m3/fig-1.2 for the list of services."@en ;
+    schema:pageStart 1 .
+
+<urn:plantdocs:alfalaval-m3:device> a lis:PhysicalObject,
+        plm:PCA_100005971 ;
+    rdfs:label "Alfa Laval M3 gasketed plate heat exchanger" .
+
+<urn:plantdocs:alfalaval-m3:datasheet> a plm:PCA_100029504 ;
+    rdfs:label "alfalaval-m3" ;
+    plm:PCA_100029506 <urn:plantdocs:alfalaval-m3:case_datum:frame_fg_pressure_vessel_code_asme>,
+        <urn:plantdocs:alfalaval-m3:case_datum:frame_fg_pressure_vessel_code_ped>,
+        <urn:plantdocs:alfalaval-m3:case_datum:plate_variant_m3>,
+        <urn:plantdocs:alfalaval-m3:case_datum:plate_variant_m3_d>,
+        <urn:plantdocs:alfalaval-m3:case_datum:plate_variant_m3_g>,
+        <urn:plantdocs:alfalaval-m3:case_datum:plate_variant_m3_x>,
+        <urn:plantdocs:alfalaval-m3:condition:frame_fg_pressure_vessel_code_asme:frame>,
+        <urn:plantdocs:alfalaval-m3:condition:frame_fg_pressure_vessel_code_asme:pressure_vessel_code>,
+        <urn:plantdocs:alfalaval-m3:condition:frame_fg_pressure_vessel_code_ped:frame>,
+        <urn:plantdocs:alfalaval-m3:condition:frame_fg_pressure_vessel_code_ped:pressure_vessel_code>,
+        <urn:plantdocs:alfalaval-m3:condition:plate_variant_m3:plate_variant>,
+        <urn:plantdocs:alfalaval-m3:condition:plate_variant_m3_d:plate_variant>,
+        <urn:plantdocs:alfalaval-m3:condition:plate_variant_m3_g:plate_variant>,
+        <urn:plantdocs:alfalaval-m3:condition:plate_variant_m3_x:plate_variant>,
+        <urn:plantdocs:alfalaval-m3:fact:0001>,
+        <urn:plantdocs:alfalaval-m3:fact:0002>,
+        <urn:plantdocs:alfalaval-m3:fact:0003>,
+        <urn:plantdocs:alfalaval-m3:fact:0004>,
+        <urn:plantdocs:alfalaval-m3:fact:0005>,
+        <urn:plantdocs:alfalaval-m3:fact:0006>,
+        <urn:plantdocs:alfalaval-m3:fact:0007>,
+        <urn:plantdocs:alfalaval-m3:fact:0008>,
+        <urn:plantdocs:alfalaval-m3:fact:0009>,
+        <urn:plantdocs:alfalaval-m3:fact:0010>,
+        <urn:plantdocs:alfalaval-m3:fact:0011>,
+        <urn:plantdocs:alfalaval-m3:fact:0012>,
+        <urn:plantdocs:alfalaval-m3:fact:0013>,
+        <urn:plantdocs:alfalaval-m3:fact:0014>,
+        <urn:plantdocs:alfalaval-m3:fact:0015>,
+        <urn:plantdocs:alfalaval-m3:fact:0016>,
+        <urn:plantdocs:alfalaval-m3:fact:0017>,
+        <urn:plantdocs:alfalaval-m3:fact:0018>,
+        <urn:plantdocs:alfalaval-m3:fact:0019>,
+        <urn:plantdocs:alfalaval-m3:fact:0020>,
+        <urn:plantdocs:alfalaval-m3:fact:0021>,
+        <urn:plantdocs:alfalaval-m3:fact:0022>,
+        <urn:plantdocs:alfalaval-m3:fact:0023>,
+        <urn:plantdocs:alfalaval-m3:fact:0024>,
+        <urn:plantdocs:alfalaval-m3:fact:0025>,
+        <urn:plantdocs:alfalaval-m3:fact:0026>,
+        <urn:plantdocs:alfalaval-m3:fact:0027>,
+        <urn:plantdocs:alfalaval-m3:fact:0028>,
+        <urn:plantdocs:alfalaval-m3:fact:0029>,
+        <urn:plantdocs:alfalaval-m3:fact:0030>,
+        <urn:plantdocs:alfalaval-m3:fact:0031>,
+        <urn:plantdocs:alfalaval-m3:fact:0032>,
+        <urn:plantdocs:alfalaval-m3:fact:0033>,
+        <urn:plantdocs:alfalaval-m3:fact:0034>,
+        <urn:plantdocs:alfalaval-m3:fact:0035>,
+        <urn:plantdocs:alfalaval-m3:fact:0036>,
+        <urn:plantdocs:alfalaval-m3:fact:0037>,
+        <urn:plantdocs:alfalaval-m3:fact:0038>,
+        <urn:plantdocs:alfalaval-m3:fact:0039>,
+        <urn:plantdocs:alfalaval-m3:fact:0040>,
+        <urn:plantdocs:alfalaval-m3:fact:0041>,
+        <urn:plantdocs:alfalaval-m3:fact:0042>,
+        <urn:plantdocs:alfalaval-m3:fact:0043>,
+        <urn:plantdocs:alfalaval-m3:fact:0044>,
+        <urn:plantdocs:alfalaval-m3:fact:0045>,
+        <urn:plantdocs:alfalaval-m3:fact:0046>,
+        <urn:plantdocs:alfalaval-m3:fact:0047>,
+        <urn:plantdocs:alfalaval-m3:fact:0048>,
+        <urn:plantdocs:alfalaval-m3:fact:0049>,
+        <urn:plantdocs:alfalaval-m3:fact:0050>,
+        <urn:plantdocs:alfalaval-m3:fact:0051>,
+        <urn:plantdocs:alfalaval-m3:fact:0052>,
+        <urn:plantdocs:alfalaval-m3:fact:0053>,
+        <urn:plantdocs:alfalaval-m3:fact:0054:v1>,
+        <urn:plantdocs:alfalaval-m3:fact:0054:v2>,
+        <urn:plantdocs:alfalaval-m3:fact:0055>,
+        <urn:plantdocs:alfalaval-m3:fact:0056:v1>,
+        <urn:plantdocs:alfalaval-m3:fact:0056:v2>,
+        <urn:plantdocs:alfalaval-m3:fact:0057>,
+        <urn:plantdocs:alfalaval-m3:fact:0058:v1>,
+        <urn:plantdocs:alfalaval-m3:fact:0058:v2>,
+        <urn:plantdocs:alfalaval-m3:fact:0059>,
+        <urn:plantdocs:alfalaval-m3:fact:0060:v1>,
+        <urn:plantdocs:alfalaval-m3:fact:0060:v2>,
+        <urn:plantdocs:alfalaval-m3:fact:0061>,
+        <urn:plantdocs:alfalaval-m3:fact:0062>,
+        <urn:plantdocs:alfalaval-m3:fact:0063>,
+        <urn:plantdocs:alfalaval-m3:fact:0064>,
+        <urn:plantdocs:alfalaval-m3:fact:0065>,
+        <urn:plantdocs:alfalaval-m3:fact:0066>,
+        <urn:plantdocs:alfalaval-m3:fact:0067>,
+        <urn:plantdocs:alfalaval-m3:fact:0068>,
+        <urn:plantdocs:alfalaval-m3:fact:0069>,
+        <urn:plantdocs:alfalaval-m3:fact:0070:v1>,
+        <urn:plantdocs:alfalaval-m3:fact:0070:v2>,
+        <urn:plantdocs:alfalaval-m3:fact:0071>,
+        <urn:plantdocs:alfalaval-m3:fact:0072>,
+        <urn:plantdocs:alfalaval-m3:fact:0073:v1>,
+        <urn:plantdocs:alfalaval-m3:fact:0073:v2>,
+        <urn:plantdocs:alfalaval-m3:fact:0074>,
+        <urn:plantdocs:alfalaval-m3:fact:0075>,
+        <urn:plantdocs:alfalaval-m3:fact:0076>,
+        <urn:plantdocs:alfalaval-m3:fact:0077>,
+        <urn:plantdocs:alfalaval-m3:fact:0078>,
+        <urn:plantdocs:alfalaval-m3:fact:0079>,
+        <urn:plantdocs:alfalaval-m3:fact:0080>,
+        <urn:plantdocs:alfalaval-m3:fact:0081>,
+        <urn:plantdocs:alfalaval-m3:source:fig_1_1>,
+        <urn:plantdocs:alfalaval-m3:source:fig_1_2>,
+        <urn:plantdocs:alfalaval-m3:source:fig_2_1>,
+        <urn:plantdocs:alfalaval-m3:source:page_text_2>,
+        <urn:plantdocs:alfalaval-m3:source:section_1>,
+        <urn:plantdocs:alfalaval-m3:source:section_10>,
+        <urn:plantdocs:alfalaval-m3:source:section_11>,
+        <urn:plantdocs:alfalaval-m3:source:section_12>,
+        <urn:plantdocs:alfalaval-m3:source:section_13>,
+        <urn:plantdocs:alfalaval-m3:source:section_15>,
+        <urn:plantdocs:alfalaval-m3:source:section_16>,
+        <urn:plantdocs:alfalaval-m3:source:section_17>,
+        <urn:plantdocs:alfalaval-m3:source:section_18>,
+        <urn:plantdocs:alfalaval-m3:source:section_3>,
+        <urn:plantdocs:alfalaval-m3:source:section_4>,
+        <urn:plantdocs:alfalaval-m3:source:section_5>,
+        <urn:plantdocs:alfalaval-m3:source:section_6>,
+        <urn:plantdocs:alfalaval-m3:source:section_7>,
+        <urn:plantdocs:alfalaval-m3:source:section_9>,
+        <urn:plantdocs:alfalaval-m3:source:table_azure_0>,
+        <urn:plantdocs:alfalaval-m3:source:table_azure_2>,
+        <urn:plantdocs:alfalaval-m3:source:table_azure_3> .
+

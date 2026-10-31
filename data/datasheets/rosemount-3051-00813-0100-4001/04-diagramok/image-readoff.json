@@ -1,0 +1,139 @@
+{
+ "reader": "claude-opus-5-5, 2026-10-31, chart-readoff/3; 250 dpi renders 04-diagramok/renders/page-26/79/82/91/111.png viewed with the Read tool (crops of the plot areas re-cut from the same renders)",
+ "method": "Visual read-off of every chart on the five candidate pages. Pages 26, 91 and 111 hold only tables/text (grid lines of tables), no chart. Page 82: load limitation envelope chart (vertices of region B, the boundary line read at the labelled x gridlines). Page 79: response-time schematic inside the Dynamic performance table; no time scale is printed, so x is given as the fraction of the plotted time axis length (0 = y axis, 1 = end of the axis line), y as printed percent levels.",
+ "charts": [
+  {
+   "figure_id": "rosemount-3051-00813-0100-4001/fig-82.1",
+   "page": 82,
+   "position": "left column, under 'Load limitations', above the A/B/C legend",
+   "clip_pt": [
+    53.2,
+    498.4,
+    246.0,
+    645.6
+   ],
+   "heading_path": [
+    "4–20 mA HART® (output code A)",
+    "Load limitations"
+   ],
+   "title": "4–20 mA HART® (output code A), Load limitations",
+   "conditions": [
+    {
+     "dimension": "output",
+     "value": "4–20 mA HART (output code A)",
+     "printed": "4–20 mA HART® (output code A)"
+    }
+   ],
+   "x_axis": {
+    "quantity": "Voltage (C)",
+    "unit": "Vdc"
+   },
+   "y_axis": {
+    "quantity": "Load (A)",
+    "unit": "Ω"
+   },
+   "points": [
+    {
+     "series": "Operating region (B)",
+     "x": 10.5,
+     "y": 0,
+     "type": "vertex"
+    },
+    {
+     "series": "Operating region (B)",
+     "x": 42.4,
+     "y": 1387,
+     "type": "vertex"
+    },
+    {
+     "series": "Operating region (B)",
+     "x": 42.4,
+     "y": 0,
+     "type": "vertex"
+    },
+    {
+     "series": "Maximum loop resistance (upper boundary of B)",
+     "x": 10.5,
+     "y": 0,
+     "type": "curve"
+    },
+    {
+     "series": "Maximum loop resistance (upper boundary of B)",
+     "x": 20,
+     "y": 470,
+     "type": "curve"
+    },
+    {
+     "series": "Maximum loop resistance (upper boundary of B)",
+     "x": 30,
+     "y": 940,
+     "type": "curve"
+    },
+    {
+     "series": "Maximum loop resistance (upper boundary of B)",
+     "x": 42.4,
+     "y": 1387,
+     "type": "curve"
+    }
+   ],
+   "note": "Legend printed under the chart: A. Load (Ωs), B. Operating region, C. Voltage (Vdc). The end points (10.5 V, 0) and (42.4 V, 1387 Ω) are printed tick values. The axes are drawn schematically, not to scale (x tick spacing 10.5-20-30-42.4 and the 1000-1387 y spacing are not proportional), so the read-off at 20 V (~470 Ω) and 30 V (~940 Ω) is uncertain; the text above the chart gives the line as Max. loop resistance = 43.5 (power supply voltage - 10.5). Minimum loop resistance 250 ohms for communication is stated in the text, not drawn."
+  },
+  {
+   "figure_id": "rosemount-3051-00813-0100-4001/fig-pdf-79-15",
+   "page": 79,
+   "position": "right part of the Dynamic performance table row",
+   "clip_pt": [
+    394.5,
+    162.0,
+    537.8,
+    238.7
+   ],
+   "heading_path": [
+    "Dynamic performance"
+   ],
+   "title": "Dynamic performance, response time diagram (step response after pressure released)",
+   "conditions": [
+    {
+     "dimension": "event",
+     "value": "pressure released (step input change)",
+     "printed": "Pressure released"
+    }
+   ],
+   "x_axis": {
+    "quantity": "Time",
+    "unit": "fraction of plotted time axis (no scale printed)"
+   },
+   "y_axis": {
+    "quantity": "Output (percent of total step change)",
+    "unit": "%"
+   },
+   "points": [
+    {
+     "series": "Transmitter output",
+     "x": 0.0,
+     "y": 100,
+     "type": "curve"
+    },
+    {
+     "series": "Transmitter output",
+     "x": 0.24,
+     "y": 100,
+     "type": "curve"
+    },
+    {
+     "series": "Transmitter output",
+     "x": 0.4,
+     "y": 36.8,
+     "type": "curve"
+    },
+    {
+     "series": "Transmitter output",
+     "x": 0.9,
+     "y": 0,
+     "type": "curve"
+    }
+   ],
+   "note": "Schematic without a time scale. Printed labels: 100%, 36.8%, 0%, 'Pressure released', 'Td = Dead time', 'Tc = Time constant', 'Response time = Td + Tc', '63.2% of total step change'. The output stays at 100% for the dead time Td (after the pressure release marker) and then decays; the time constant Tc ends where the curve crosses 36.8% (63.2% of the total step change). x positions are image fractions only, not data."
+  }
+ ]
+}

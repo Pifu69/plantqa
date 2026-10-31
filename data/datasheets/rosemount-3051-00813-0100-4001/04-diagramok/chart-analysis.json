@@ -1,0 +1,89 @@
+{
+  "summary": {
+    "chart_figures": 2,
+    "charts_found": 2,
+    "charts_with_axes": 0,
+    "readoff_entries": 2,
+    "readoff_entries_unassigned": 2,
+    "read_points_compared": 0,
+    "within_tolerance": 0
+  },
+  "figures": [
+    {
+      "figure": "rosemount-3051-00813-0100-4001/page-79",
+      "page": 79,
+      "figure_box_pt": [
+        -12.0,
+        -12.0,
+        607.3,
+        853.9
+      ],
+      "charts_found": 2,
+      "charts": [
+        {
+          "clip_pt": [
+            386.5,
+            154.0,
+            545.8,
+            246.7
+          ],
+          "status": "no_primary_axes",
+          "axis_labels": {
+            "left": [],
+            "right": [],
+            "top": [],
+            "bottom": []
+          },
+          "vector_vertices": [],
+          "comparison": [],
+          "read_points": 0,
+          "read_points_within_tolerance": 0,
+          "readoff_title": null
+        }
+      ],
+      "grid_charts_found": 2,
+      "regions_from": "readoff",
+      "readoff_entries": 1,
+      "readoff_entries_unassigned": 1
+    },
+    {
+      "figure": "rosemount-3051-00813-0100-4001/page-82",
+      "page": 82,
+      "figure_box_pt": [
+        -12.0,
+        -12.0,
+        607.3,
+        853.9
+      ],
+      "charts_found": 0,
+      "charts": [
+        {
+          "clip_pt": [
+            45.2,
+            490.4,
+            254.0,
+            653.6
+          ],
+          "status": "no_primary_axes",
+          "axis_labels": {
+            "left": [],
+            "right": [
+              20.0
+            ],
+            "top": [],
+            "bottom": []
+          },
+          "vector_vertices": [],
+          "comparison": [],
+          "read_points": 0,
+          "read_points_within_tolerance": 0,
+          "readoff_title": null
+        }
+      ],
+      "grid_charts_found": 0,
+      "regions_from": "readoff",
+      "readoff_entries": 1,
+      "readoff_entries_unassigned": 1
+    }
+  ]
+}

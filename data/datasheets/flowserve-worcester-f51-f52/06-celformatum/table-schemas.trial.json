@@ -1,0 +1,481 @@
+{
+ "model": "claude-opus-5-5, 2026-10-31 (Claude Code subagent by hand, prompt table-schema/3; trial builds run locally)",
+ "notes": [
+  "Input: 02-rekordok/output.json (1083 records), apply.py, paths.py, build.py, 0003-target-record-format.md.",
+  "Numbered in document order: the printed tables (Industries and applications, two parts lists, two dimension tables, Standards of compliance, Flow coefficients, Torque values, Product code) and also the text sections whose records state valve properties (page-2 design/safety sections, Features and benefits, Pressure/temperature ratings notes, Seat materials, page-12 digital section), so that their facts get the valve as subject instead of 'document'. Only the title block (document type, document code) stays a document statement.",
+  "Subject is the valve everywhere except the parts lists (tables 5, 6), where the part name is the subject (default_role subject, kind 'part') with properties Item and Material.",
+  "Valve size 'DN 15 (NPS 1/2)' is one condition (valve size) in the dimension, flow and torque tables; valve series F51/F52 is a condition. The size-range subheading ('Sizes DN15 to DN50 ...') is a condition only for the parts lists; in the dimension tables it is ignored because every row carries its own DN size.",
+  "Dimension letters are kept as printed ('Dimension A' ...); what a letter measures is only in the drawing (03-abrak). Two-value cells (footnote 1: tolerance limits) are separate maximum/minimum properties; the column groups 'Stem' and 'L/R Thread and Depth' are property suffixes, normalised by property_keys.",
+  "Product code (table 14): 'Code X' is a property_with_condition (property 'Code', condition product code option = X) and the position heading ('2. Variant') a suffix, so each option becomes 'Product code position N (...)' with the option letter as condition and its meaning as value.",
+  "Seat materials (table 8): the seat heading ('Delrin (D)') is a condition seat material; maximum temperature rating is then a valve property under that condition. Pressure/temperature ratings (table 7): 'Group 1.2/2.2' is a condition material group; the chart curve-list and axis records are skipped (covered by the chart record from 04).",
+  "Torque values in Nm and lbf·in are not merged by the program (torque is not a merge family), so each torque fact appears once per unit."
+ ],
+ "default_subject": {
+  "label": "Worcester F51/F52 Series reduced port flanged ball valve",
+  "kind": "valve"
+ },
+ "table_titles": {
+  "Designed for global availability and lower total costs": 1,
+  "Standardized for reliability, compliance and safety": 2,
+  "Industries and applications": 3,
+  "Features and benefits": 4,
+  "Parts and materials lists - table 1": 5,
+  "Parts and materials lists - table 2": 6,
+  "Pressure/temperature ratings": 7,
+  "Seat materials": 8,
+  "Dimensions - table 1": 9,
+  "Dimensions - table 2": 10,
+  "Standards of compliance": 11,
+  "Flow coefficients": 12,
+  "Torque values": 13,
+  "Product code": 14,
+  "Digitize operations to improve uptime and yield at lower cost": 15
+ },
+ "global_rules": [
+  {
+   "match": "^(?P<v>DN \\d+ \\(NPS [\\d /]+\\))$",
+   "role": "condition",
+   "dimension": "valve size"
+  },
+  {
+   "match": "^Valve Series (?P<v>F5[12])$",
+   "role": "condition",
+   "dimension": "valve series"
+  },
+  {
+   "match": "^(?P<v>F5[12]) Series$",
+   "role": "condition",
+   "dimension": "valve series"
+  },
+  {
+   "match": "^Sizes (?P<v>DN\\d+ to DN\\d+ \\(NPS .+\\))$",
+   "role": "condition",
+   "dimension": "valve size range"
+  },
+  {
+   "match": "^Stem$",
+   "role": "property_suffix"
+  },
+  {
+   "match": "^[LR] Thread and Depth$",
+   "role": "property_suffix"
+  },
+  {
+   "match": "^Flow Coefficients$",
+   "role": "ignore"
+  },
+  {
+   "match": "^Chart$",
+   "role": "ignore"
+  },
+  {
+   "match": "^Note$",
+   "role": "ignore"
+  },
+  {
+   "match": "^Group (?P<v>\\d\\.\\d)$",
+   "role": "condition",
+   "dimension": "material group"
+  }
+ ],
+ "property_keys": [
+  {
+   "match": "^Min\\. Port Ø$",
+   "key": "min_port_diameter",
+   "label": "Minimum port diameter"
+  },
+  {
+   "match": "^A$",
+   "key": "dimension_a",
+   "label": "Dimension A"
+  },
+  {
+   "match": "^B$",
+   "key": "dimension_b",
+   "label": "Dimension B"
+  },
+  {
+   "match": "^C maximum$",
+   "key": "dimension_c_max",
+   "label": "Dimension C, maximum"
+  },
+  {
+   "match": "^C minimum$",
+   "key": "dimension_c_min",
+   "label": "Dimension C, minimum"
+  },
+  {
+   "match": "^D maximum$",
+   "key": "dimension_d_max",
+   "label": "Dimension D, maximum"
+  },
+  {
+   "match": "^D minimum$",
+   "key": "dimension_d_min",
+   "label": "Dimension D, minimum"
+  },
+  {
+   "match": "^E Min\\.$",
+   "key": "dimension_e_min",
+   "label": "Dimension E, minimum"
+  },
+  {
+   "match": "^E1 Min\\.$",
+   "key": "dimension_e1_min",
+   "label": "Dimension E1, minimum"
+  },
+  {
+   "match": "^E2 Min\\.$",
+   "key": "dimension_e2_min",
+   "label": "Dimension E2, minimum"
+  },
+  {
+   "match": "^F maximum Stem$",
+   "key": "stem_across_flats_f_max",
+   "label": "Stem across flats F, maximum"
+  },
+  {
+   "match": "^F minimum Stem$",
+   "key": "stem_across_flats_f_min",
+   "label": "Stem across flats F, minimum"
+  },
+  {
+   "match": "^G Thread Stem$",
+   "key": "stem_thread_g",
+   "label": "Stem thread G"
+  },
+  {
+   "match": "^G Ø maximum Stem$",
+   "key": "stem_diameter_g_max",
+   "label": "Stem diameter G, maximum"
+  },
+  {
+   "match": "^G Ø minimum Stem$",
+   "key": "stem_diameter_g_min",
+   "label": "Stem diameter G, minimum"
+  },
+  {
+   "match": "^G Ø Stem$",
+   "key": "stem_diameter_g",
+   "label": "Stem diameter G"
+  },
+  {
+   "match": "^H Thread Stem$",
+   "key": "stem_thread_h",
+   "label": "Stem thread H"
+  },
+  {
+   "match": "^J$",
+   "key": "dimension_j",
+   "label": "Dimension J"
+  },
+  {
+   "match": "^K$",
+   "key": "dimension_k",
+   "label": "Dimension K"
+  },
+  {
+   "match": "^M$",
+   "key": "dimension_m",
+   "label": "Dimension M"
+  },
+  {
+   "match": "^S Ø$",
+   "key": "dimension_s",
+   "label": "Dimension S Ø"
+  },
+  {
+   "match": "^T1$",
+   "key": "dimension_t1",
+   "label": "Dimension T1"
+  },
+  {
+   "match": "^T2$",
+   "key": "dimension_t2",
+   "label": "Dimension T2"
+  },
+  {
+   "match": "^Thread L Thread and Depth$",
+   "key": "mounting_hole_thread_l",
+   "label": "Mounting hole thread L"
+  },
+  {
+   "match": "^Depth Min\\. L Thread and Depth$",
+   "key": "mounting_hole_depth_l_min",
+   "label": "Mounting hole depth L, minimum"
+  },
+  {
+   "match": "^Thread R Thread and Depth$",
+   "key": "tapped_hole_thread_r",
+   "label": "Tapped hole thread R"
+  },
+  {
+   "match": "^Depth Min\\. R Thread and Depth$",
+   "key": "tapped_hole_depth_r_min",
+   "label": "Tapped hole depth R, minimum"
+  },
+  {
+   "match": "^ISO Size$",
+   "key": "iso_5211_mounting_size",
+   "label": "ISO 5211 mounting platform size"
+  },
+  {
+   "match": "^Approx\\. Weight$",
+   "key": "approximate_weight",
+   "label": "Approximate weight"
+  },
+  {
+   "match": "^Dimension unit$",
+   "key": "dimension_unit_note",
+   "label": "Dimension unit note"
+  },
+  {
+   "match": "^Cv$",
+   "key": "flow_coefficient_cv",
+   "label": "Flow coefficient Cv"
+  },
+  {
+   "match": "^Kv$",
+   "key": "flow_coefficient_kv",
+   "label": "Flow coefficient Kv"
+  },
+  {
+   "match": "^Equivalent Length of Pipe$",
+   "key": "equivalent_pipe_length",
+   "label": "Equivalent length of pipe"
+  },
+  {
+   "match": "^Maximum Allowable Stem Torque \\(MAST\\)$",
+   "key": "maximum_allowable_stem_torque",
+   "label": "Maximum allowable stem torque (MAST)"
+  },
+  {
+   "match": "^Break-to-Open Torque With PTFE Seat$",
+   "key": "break_to_open_torque_ptfe_seat",
+   "label": "Break-to-open torque with PTFE seat"
+  },
+  {
+   "match": "^Gland Nut Tightening Torque$",
+   "key": "gland_nut_tightening_torque",
+   "label": "Gland nut tightening torque"
+  },
+  {
+   "match": "^Item$",
+   "key": "item_number",
+   "label": "Item number"
+  },
+  {
+   "match": "^Material$",
+   "key": "material",
+   "label": "Material"
+  },
+  {
+   "match": "^Application$",
+   "key": "application",
+   "label": "Application"
+  },
+  {
+   "match": "^Maximum temperature rating$",
+   "key": "max_temperature_rating",
+   "label": "Maximum temperature rating"
+  },
+  {
+   "match": "^Description$",
+   "key": "description",
+   "label": "Description"
+  },
+  {
+   "match": "^Code 1\\. Size DN$",
+   "key": "product_code_size_dn",
+   "label": "Product code position 1 (size): DN"
+  },
+  {
+   "match": "^Code 1\\. Size NPS$",
+   "key": "product_code_size_nps",
+   "label": "Product code position 1 (size): NPS"
+  },
+  {
+   "match": "^Code 2\\. Variant$",
+   "key": "product_code_variant",
+   "label": "Product code position 2 (variant)"
+  },
+  {
+   "match": "^Code 3\\. Series$",
+   "key": "product_code_series",
+   "label": "Product code position 3 (series)"
+  },
+  {
+   "match": "^Code 4\\. Body$",
+   "key": "product_code_body",
+   "label": "Product code position 4 (body material)"
+  },
+  {
+   "match": "^Code 5\\. End/insert$",
+   "key": "product_code_end_insert",
+   "label": "Product code position 5 (end/insert material)"
+  },
+  {
+   "match": "^Code 6\\. Ball$",
+   "key": "product_code_ball",
+   "label": "Product code position 6 (ball material)"
+  },
+  {
+   "match": "^Code 7\\. Stem$",
+   "key": "product_code_stem",
+   "label": "Product code position 7 (stem material)"
+  },
+  {
+   "match": "^Code 8\\. Seat$",
+   "key": "product_code_seat",
+   "label": "Product code position 8 (seat material)"
+  },
+  {
+   "match": "^Code 9\\. Body seal$",
+   "key": "product_code_body_seal",
+   "label": "Product code position 9 (body seal)"
+  },
+  {
+   "match": "^Code 10\\. Thrust seal$",
+   "key": "product_code_thrust_seal",
+   "label": "Product code position 10 (thrust seal)"
+  },
+  {
+   "match": "^Code 11\\. Secondary stem seal/O-ring \\(optional\\)$",
+   "key": "product_code_secondary_stem_seal",
+   "label": "Product code position 11 (secondary stem seal/O-ring, optional)"
+  },
+  {
+   "match": "^Code 12\\. Gland/stem packing$",
+   "key": "product_code_gland_packing",
+   "label": "Product code position 12 (gland/stem packing)"
+  },
+  {
+   "match": "^Code 13\\. End connection/pressure class$",
+   "key": "product_code_end_connection",
+   "label": "Product code position 13 (end connection/pressure class)"
+  },
+  {
+   "match": "^14\\. Special$",
+   "key": "product_code_special",
+   "label": "Product code position 14 (special)"
+  },
+  {
+   "match": "^Example [12]$",
+   "key": "product_code_example",
+   "label": "Product code example"
+  },
+  {
+   "match": "^Code positions$",
+   "key": "product_code_positions",
+   "label": "Product code positions"
+  }
+ ],
+ "value_aliases": {},
+ "skip_properties": [
+  "^(Body rating curves|Seat material curves|X axis|Y axis)$"
+ ],
+ "tables": {
+  "1": {
+   "rules": []
+  },
+  "2": {
+   "rules": []
+  },
+  "3": {
+   "rules": [
+    {
+     "match": "^(?P<v>Chemical processing|Petrochemicals|Energy|Other industries)$",
+     "role": "condition",
+     "dimension": "industry"
+    }
+   ]
+  },
+  "4": {
+   "rules": []
+  },
+  "5": {
+   "rules": [
+    {
+     "match": "^Stem$",
+     "role": "subject",
+     "kind": "part"
+    }
+   ],
+   "default_role": {
+    "role": "subject",
+    "kind": "part"
+   }
+  },
+  "6": {
+   "rules": [
+    {
+     "match": "^Stem$",
+     "role": "subject",
+     "kind": "part"
+    }
+   ],
+   "default_role": {
+    "role": "subject",
+    "kind": "part"
+   }
+  },
+  "7": {
+   "rules": []
+  },
+  "8": {
+   "rules": [
+    {
+     "match": "^(?P<v>.+ \\([A-Z](?: or [A-Z])?\\))$",
+     "role": "condition",
+     "dimension": "seat material"
+    }
+   ]
+  },
+  "9": {
+   "rules": [
+    {
+     "match": "^Sizes DN",
+     "role": "ignore"
+    }
+   ]
+  },
+  "10": {
+   "rules": [
+    {
+     "match": "^Sizes DN",
+     "role": "ignore"
+    }
+   ]
+  },
+  "11": {
+   "rules": [],
+   "property_position": 1
+  },
+  "12": {
+   "rules": []
+  },
+  "13": {
+   "rules": []
+  },
+  "14": {
+   "rules": [
+    {
+     "match": "^(?P<prop>Code) (?P<v>[0-9A-Z]{1,3})$",
+     "role": "property_with_condition",
+     "dimension": "product code option"
+    },
+    {
+     "match": "^\\d+\\. .+$",
+     "role": "property_suffix"
+    },
+    {
+     "match": "^(DN|NPS)$",
+     "role": "property_suffix"
+    }
+   ]
+  },
+  "15": {
+   "rules": []
+  }
+ }
+}

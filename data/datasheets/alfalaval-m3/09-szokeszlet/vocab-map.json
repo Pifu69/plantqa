@@ -1,0 +1,133 @@
+{
+ "document": "alfalaval-m3",
+ "device_class": {
+  "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100005971",
+  "label": "Plate Heat Exchanger",
+  "method": "longest PCA class label contained in the device name"
+ },
+ "properties": {
+  "external_parallel_threaded": {
+   "iri": "http://w3id.org/readi/rdl/CFIHOS-40001155",
+   "label": "thread specification",
+   "match": "broad",
+   "source": "CFIHOS"
+  },
+  "external_tapered_threaded": {
+   "iri": "http://w3id.org/readi/rdl/CFIHOS-40001155",
+   "label": "thread specification",
+   "match": "broad",
+   "source": "CFIHOS"
+  },
+  "field_gaskets_material": {
+   "iri": "http://w3id.org/readi/rdl/CFIHOS-40000223",
+   "label": "material",
+   "match": "broad",
+   "source": "CFIHOS"
+  },
+  "flange_connections_material": {
+   "iri": "http://w3id.org/readi/rdl/CFIHOS-40000223",
+   "label": "material",
+   "match": "broad",
+   "source": "CFIHOS"
+  },
+  "frame_and_pressure_plate_material": {
+   "iri": "http://w3id.org/readi/rdl/CFIHOS-40000223",
+   "label": "material",
+   "match": "broad",
+   "source": "CFIHOS"
+  },
+  "free_channel": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "broad",
+    "cfihos": "none"
+   }
+  },
+  "heat_transfer_plates_material": {
+   "iri": "http://w3id.org/readi/rdl/CFIHOS-40000223",
+   "label": "material",
+   "match": "broad",
+   "source": "CFIHOS"
+  },
+  "internal_parallel_threaded": {
+   "iri": "http://w3id.org/readi/rdl/CFIHOS-40001155",
+   "label": "thread specification",
+   "match": "broad",
+   "source": "CFIHOS"
+  },
+  "max_design_pressure": {
+   "iri": "http://w3id.org/readi/rdl/CFIHOS-40000535",
+   "label": "upper limit design pressure",
+   "match": "exact",
+   "source": "CFIHOS"
+  },
+  "max_design_temperature": {
+   "iri": "http://w3id.org/readi/rdl/CFIHOS-40000536",
+   "label": "upper limit design temperature",
+   "match": "exact",
+   "source": "CFIHOS"
+  },
+  "note_on_connection_types": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "note_on_ratings": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "pipe_connections_material": {
+   "iri": "http://w3id.org/readi/rdl/CFIHOS-40000223",
+   "label": "material",
+   "match": "broad",
+   "source": "CFIHOS"
+  },
+  "plate_type": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "threaded_port": {
+   "iri": "http://w3id.org/readi/rdl/CFIHOS-40001155",
+   "label": "thread specification",
+   "match": "broad",
+   "source": "CFIHOS"
+  }
+ },
+ "conditions": {
+  "frame": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "related",
+    "cfihos": "none"
+   }
+  },
+  "plate variant": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "pressure vessel code": {
+   "iri": "http://w3id.org/readi/rdl/CFIHOS-40000708",
+   "label": "code of construction",
+   "match": "broad",
+   "source": "CFIHOS"
+  }
+ },
+ "source": "C:/Users/Zsombi/plantqa/data/datasheets/alfalaval-m3/09-szokeszlet/vocab-check.json"
+}

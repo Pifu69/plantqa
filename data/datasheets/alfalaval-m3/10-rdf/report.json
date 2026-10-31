@@ -1,0 +1,43 @@
+{
+ "triples": 1102,
+ "types": {
+  "PCA_100029504": 1,
+  "PhysicalObject": 5,
+  "PCA_100005971": 1,
+  "PCA_100029513": 22,
+  "PCA_100029508": 78,
+  "PCA_100029524": 6,
+  "PCA_100029512": 6,
+  "PCA_100029511": 17
+ },
+ "facts_about_the_device": 26,
+ "facts_with_standard_attribute": 16,
+ "facts_by_attribute_tier": {
+  "catch_all": 8,
+  "broad": 10,
+  "exact": 6,
+  "not_device_property": 2
+ },
+ "facts_by_section_rule": {
+  "azure": 8,
+  "heading": 46,
+  "table": 21,
+  "page": 6
+ },
+ "device_class": "Plate Heat Exchanger",
+ "unit_status": {
+  "": "no_unit",
+  "in": "ok",
+  "mm": "ok",
+  "barg": "no_qudt",
+  "psig": "no_qudt",
+  "°C": "ok",
+  "°F": "ok"
+ },
+ "properties_without_standard_concept": [
+  "Free channel",
+  "Note on connection types",
+  "Note on ratings",
+  "Plate type"
+ ]
+}

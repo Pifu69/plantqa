@@ -4,8 +4,8 @@
     "missing": 0,
     "extra_ids": [],
     "description_over_2_sentences": 0,
-    "use_for_not_1_sentence": 1,
-    "with_ungrounded_numbers": 6,
+    "use_for_not_1_sentence": 0,
+    "with_ungrounded_numbers": 4,
     "marked_uncertain": 9
   },
   "sources": [
@@ -51,9 +51,7 @@
       "missing": false,
       "description_sentences": 1,
       "use_for_sentences": 1,
-      "ungrounded_numbers": [
-        "360"
-      ],
+      "ungrounded_numbers": [],
       "uncertain": "This is page text that Azure returned as a figure; Azure's own text sections (section-9 to section-12) read the two columns interleaved, so their grouping differs from the printed one shown here."
     },
     {
@@ -91,9 +89,7 @@
       "missing": false,
       "description_sentences": 1,
       "use_for_sentences": 1,
-      "ungrounded_numbers": [
-        "13"
-      ],
+      "ungrounded_numbers": [],
       "uncertain": null
     },
     {
@@ -101,7 +97,7 @@
       "kind": "text_section",
       "missing": false,
       "description_sentences": 1,
-      "use_for_sentences": 2,
+      "use_for_sentences": 1,
       "ungrounded_numbers": [],
       "uncertain": null
     },

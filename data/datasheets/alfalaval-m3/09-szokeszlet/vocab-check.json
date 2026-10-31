@@ -1,0 +1,778 @@
+{
+ "summary": {
+  "items": 18,
+  "not_device_property": 2,
+  "rdl": {
+   "none/no_match": 7,
+   "related/query_failed": 2,
+   "broad/query_failed": 5,
+   "exact/query_failed": 2
+  },
+  "cfihos": {
+   "broad/ok": 10,
+   "none/no_match": 4,
+   "exact/ok": 2
+  },
+  "values": 17,
+  "values_checked_ok": 0
+ },
+ "rows": [
+  {
+   "id": "alfalaval-m3/property/external_parallel_threaded",
+   "label": "External parallel threaded",
+   "not_device_property": false,
+   "reason": null,
+   "rdl": {
+    "match": "none",
+    "iri": null,
+    "label": null,
+    "endpoint": null,
+    "note": "No connection-thread property in the RDL: 'THREAD SPECIFICATION' (RDS11701403) is a DocumentDefinition (noise); 'PROCESS CONNECTION' is a functional object class, not a property; 'connection type' only gives NORSOK enumerated classes."
+   },
+   "cfihos": {
+    "match": "broad",
+    "code": "CFIHOS-40001155",
+    "name": "thread specification",
+    "note": "Definition 'a specification which describes the threads'; the printed values are thread designations of this connection option. 'inlet connection type' (CFIHOS-40000586) only names the kind (threaded, flanged ...), so it is weaker."
+   },
+   "values": [
+    {
+     "printed": "ISO 228 - G 1 1/4 B",
+     "rdl": {
+      "match": "broad",
+      "iri": "http://data.posccaesar.org/rdl/RDS14641850",
+      "label": "BSP PARALLEL THREAD",
+      "endpoint": "data",
+      "note": "Interpretation: ISO 228 'G' threads are the BSP parallel pipe threads; the class is the thread form, the printed value adds the size."
+     },
+     "cfihos": {
+      "match": "none",
+      "code": null,
+      "name": null,
+      "note": "No thread classes in the CFIHOS CORE property/equipment class files."
+     },
+     "rdl_check": "query_failed",
+     "cfihos_check": "no_match"
+    }
+   ],
+   "kind": "property",
+   "document": "alfalaval-m3",
+   "rdl_check": "no_match",
+   "cfihos_check": "ok"
+  },
+  {
+   "id": "alfalaval-m3/property/external_tapered_threaded",
+   "label": "External tapered threaded",
+   "not_device_property": false,
+   "reason": null,
+   "rdl": {
+    "match": "none",
+    "iri": null,
+    "label": null,
+    "endpoint": null,
+    "note": "No connection-thread property in the RDL: 'THREAD SPECIFICATION' (RDS11701403) is a DocumentDefinition (noise); 'PROCESS CONNECTION' is a functional object class, not a property; 'connection type' only gives NORSOK enumerated classes."
+   },
+   "cfihos": {
+    "match": "broad",
+    "code": "CFIHOS-40001155",
+    "name": "thread specification",
+    "note": "Definition 'a specification which describes the threads'; the printed values are thread designations of this connection option. 'inlet connection type' (CFIHOS-40000586) only names the kind (threaded, flanged ...), so it is weaker."
+   },
+   "values": [
+    {
+     "printed": "ISO 7 - R 1 1/4",
+     "rdl": {
+      "match": "broad",
+      "iri": "http://data.posccaesar.org/rdl/RDS14641912",
+      "label": "BSP TAPERED THREAD",
+      "endpoint": "data",
+      "note": "Interpretation: ISO 7 'R' threads are the BSP tapered pipe threads; the printed value adds the size."
+     },
+     "cfihos": {
+      "match": "none",
+      "code": null,
+      "name": null,
+      "note": "No thread classes in the CFIHOS CORE property/equipment class files."
+     },
+     "rdl_check": "query_failed",
+     "cfihos_check": "no_match"
+    },
+    {
+     "printed": "1 1/4 - 11.5 NPT",
+     "rdl": {
+      "match": "broad",
+      "iri": "http://data.posccaesar.org/rdl/RDS731969",
+      "label": "ASME B1.20.1 NPT THREAD",
+      "endpoint": "data",
+      "note": "RDL definition: NP pipe thread conforming to ASME B1.20.1; the printed value is one size of it (1 1/4 in, 11.5 threads per inch)."
+     },
+     "cfihos": {
+      "match": "none",
+      "code": null,
+      "name": null,
+      "note": "No thread classes in the CFIHOS CORE property/equipment class files."
+     },
+     "rdl_check": "query_failed",
+     "cfihos_check": "no_match"
+    }
+   ],
+   "kind": "property",
+   "document": "alfalaval-m3",
+   "rdl_check": "no_match",
+   "cfihos_check": "ok"
+  },
+  {
+   "id": "alfalaval-m3/property/field_gaskets_material",
+   "label": "Field gaskets material",
+   "not_device_property": false,
+   "reason": null,
+   "rdl": {
+    "match": "related",
+    "iri": "http://data.posccaesar.org/rdl/RDS1460730281",
+    "label": "GASKET MATERIAL CLASS",
+    "endpoint": "data",
+    "note": "A class of gasket materials (value class), not a property of the device; weaker than MATERIAL OF CONSTRUCTION, so related."
+   },
+   "cfihos": {
+    "match": "broad",
+    "code": "CFIHOS-40000223",
+    "name": "material",
+    "note": "Generic 'material' (role of the substance an artefact is constructed from); no gasket-specific material property in CFIHOS CORE."
+   },
+   "values": [
+    {
+     "printed": "NBR, EPDM, FKM",
+     "rdl": {
+      "match": "none",
+      "iri": null,
+      "label": null,
+      "endpoint": null,
+      "note": "The printed value names several materials (alternatives), so no single class (rule: one printed value naming two things). NITRILE (RDS12835945) and EPDM (RDS12836395) exist separately."
+     },
+     "cfihos": {
+      "match": "none",
+      "code": null,
+      "name": null,
+      "note": "The printed value names several materials (alternatives), so no single class (rule: one printed value naming two things)."
+     },
+     "rdl_check": "no_match",
+     "cfihos_check": "no_match"
+    }
+   ],
+   "kind": "property",
+   "document": "alfalaval-m3",
+   "rdl_check": "query_failed",
+   "cfihos_check": "ok"
+  },
+  {
+   "id": "alfalaval-m3/property/flange_connections_material",
+   "label": "Flange connections material",
+   "not_device_property": false,
+   "reason": null,
+   "rdl": {
+    "match": "broad",
+    "iri": "http://data.posccaesar.org/rdl/RDS505220171",
+    "label": "MATERIAL OF CONSTRUCTION",
+    "endpoint": "data",
+    "note": "Typed ClassOfRelationshipWithSignature in the RDL; no 'flange material' property found (searches 'gasket material', 'flange material', 'plate material', 'frame material', 'connection material' returned only NORSOK/vendor material classes and code-string classes). Broad, as in earlier runs."
+   },
+   "cfihos": {
+    "match": "broad",
+    "code": "CFIHOS-40000223",
+    "name": "material",
+    "note": "Generic 'material' (role of the substance an artefact is constructed from); no flange-specific material property in CFIHOS CORE."
+   },
+   "values": [
+    {
+     "printed": "Carbon steel",
+     "rdl": {
+      "match": "exact",
+      "iri": "http://data.posccaesar.org/rdl/RDS422729",
+      "label": "CARBON STEEL",
+      "endpoint": "data",
+      "note": "ClassOfCompound."
+     },
+     "cfihos": {
+      "match": "none",
+      "code": null,
+      "name": null,
+      "note": "No material classes in the CFIHOS CORE property/equipment class files."
+     },
+     "rdl_check": "query_failed",
+     "cfihos_check": "no_match"
+    }
+   ],
+   "kind": "property",
+   "document": "alfalaval-m3",
+   "rdl_check": "query_failed",
+   "cfihos_check": "ok"
+  },
+  {
+   "id": "alfalaval-m3/property/frame_and_pressure_plate_material",
+   "label": "Frame and pressure plate material",
+   "not_device_property": false,
+   "reason": null,
+   "rdl": {
+    "match": "broad",
+    "iri": "http://data.posccaesar.org/rdl/RDS505220171",
+    "label": "MATERIAL OF CONSTRUCTION",
+    "endpoint": "data",
+    "note": "Typed ClassOfRelationshipWithSignature in the RDL; no 'frame material' property found (searches 'gasket material', 'flange material', 'plate material', 'frame material', 'connection material' returned only NORSOK/vendor material classes and code-string classes). Broad, as in earlier runs."
+   },
+   "cfihos": {
+    "match": "broad",
+    "code": "CFIHOS-40000223",
+    "name": "material",
+    "note": "Generic 'material' (role of the substance an artefact is constructed from); no frame-specific material property in CFIHOS CORE."
+   },
+   "values": [
+    {
+     "printed": "Carbon steel, epoxy painted",
+     "rdl": {
+      "match": "none",
+      "iri": null,
+      "label": null,
+      "endpoint": null,
+      "note": "The printed value names a material and a coating (two things), so no single class; CARBON STEEL (RDS422729) would fit the base material only."
+     },
+     "cfihos": {
+      "match": "none",
+      "code": null,
+      "name": null,
+      "note": "Two things in one value."
+     },
+     "rdl_check": "no_match",
+     "cfihos_check": "no_match"
+    }
+   ],
+   "kind": "property",
+   "document": "alfalaval-m3",
+   "rdl_check": "query_failed",
+   "cfihos_check": "ok"
+  },
+  {
+   "id": "alfalaval-m3/property/free_channel",
+   "label": "Free channel",
+   "not_device_property": false,
+   "reason": null,
+   "rdl": {
+    "match": "broad",
+    "iri": "http://data.posccaesar.org/rdl/RDS406439",
+    "label": "GAP",
+    "endpoint": "data",
+    "note": "SinglePropertyDimension, definition 'a straight linear length within an empty space'; the free channel is the gap between adjacent plates, a specific gap. No 'plate gap', 'plate spacing' or 'free channel' entry found."
+   },
+   "cfihos": {
+    "match": "none",
+    "code": null,
+    "name": null,
+    "note": "No gap/spacing/channel-width property in CFIHOS CORE ('channel material' and 'channel corrosion allowance' refer to the channel of a shell-and-tube exchanger)."
+   },
+   "values": [],
+   "kind": "property",
+   "document": "alfalaval-m3",
+   "rdl_check": "query_failed",
+   "cfihos_check": "no_match"
+  },
+  {
+   "id": "alfalaval-m3/property/heat_transfer_plates_material",
+   "label": "Heat transfer plates material",
+   "not_device_property": false,
+   "reason": null,
+   "rdl": {
+    "match": "broad",
+    "iri": "http://data.posccaesar.org/rdl/RDS505220171",
+    "label": "MATERIAL OF CONSTRUCTION",
+    "endpoint": "data",
+    "note": "Typed ClassOfRelationshipWithSignature in the RDL; no 'plate material' property found (searches 'gasket material', 'flange material', 'plate material', 'frame material', 'connection material' returned only NORSOK/vendor material classes and code-string classes). Broad, as in earlier runs."
+   },
+   "cfihos": {
+    "match": "broad",
+    "code": "CFIHOS-40000223",
+    "name": "material",
+    "note": "Generic 'material' (role of the substance an artefact is constructed from); no plate-specific material property in CFIHOS CORE."
+   },
+   "values": [
+    {
+     "printed": "316/316L, C-276, Ti, TiPd",
+     "rdl": {
+      "match": "none",
+      "iri": null,
+      "label": null,
+      "endpoint": null,
+      "note": "The printed value names several materials (alternatives), so no single class (rule: one printed value naming two things). TITANIUM (RDS419894) exists separately."
+     },
+     "cfihos": {
+      "match": "none",
+      "code": null,
+      "name": null,
+      "note": "The printed value names several materials (alternatives), so no single class (rule: one printed value naming two things)."
+     },
+     "rdl_check": "no_match",
+     "cfihos_check": "no_match"
+    }
+   ],
+   "kind": "property",
+   "document": "alfalaval-m3",
+   "rdl_check": "query_failed",
+   "cfihos_check": "ok"
+  },
+  {
+   "id": "alfalaval-m3/property/internal_parallel_threaded",
+   "label": "Internal parallel threaded",
+   "not_device_property": false,
+   "reason": null,
+   "rdl": {
+    "match": "none",
+    "iri": null,
+    "label": null,
+    "endpoint": null,
+    "note": "No connection-thread property in the RDL: 'THREAD SPECIFICATION' (RDS11701403) is a DocumentDefinition (noise); 'PROCESS CONNECTION' is a functional object class, not a property; 'connection type' only gives NORSOK enumerated classes."
+   },
+   "cfihos": {
+    "match": "broad",
+    "code": "CFIHOS-40001155",
+    "name": "thread specification",
+    "note": "Definition 'a specification which describes the threads'; the printed values are thread designations of this connection option. 'inlet connection type' (CFIHOS-40000586) only names the kind (threaded, flanged ...), so it is weaker."
+   },
+   "values": [
+    {
+     "printed": "ISO 228 - G 1",
+     "rdl": {
+      "match": "broad",
+      "iri": "http://data.posccaesar.org/rdl/RDS14641850",
+      "label": "BSP PARALLEL THREAD",
+      "endpoint": "data",
+      "note": "Interpretation: ISO 228 'G' threads are the BSP parallel pipe threads; the class is the thread form, the printed value adds the size."
+     },
+     "cfihos": {
+      "match": "none",
+      "code": null,
+      "name": null,
+      "note": "No thread classes in the CFIHOS CORE property/equipment class files."
+     },
+     "rdl_check": "query_failed",
+     "cfihos_check": "no_match"
+    }
+   ],
+   "kind": "property",
+   "document": "alfalaval-m3",
+   "rdl_check": "no_match",
+   "cfihos_check": "ok"
+  },
+  {
+   "id": "alfalaval-m3/property/max_design_pressure",
+   "label": "Max. design pressure",
+   "not_device_property": false,
+   "reason": null,
+   "rdl": {
+    "match": "exact",
+    "iri": "http://data.posccaesar.org/rdl/RDS1470835011",
+    "label": "UPPER LIMIT DESIGN PRESSURE",
+    "endpoint": "data",
+    "note": "ClassOfIndirectProperty; maximum design pressure = upper limit design pressure. DESIGN PRESSURE (RDS357074) would be broad."
+   },
+   "cfihos": {
+    "match": "exact",
+    "code": "CFIHOS-40000535",
+    "name": "upper limit design pressure",
+    "note": "Definition: the highest pressure at which a functional or physical object is designed for."
+   },
+   "values": [],
+   "kind": "property",
+   "document": "alfalaval-m3",
+   "rdl_check": "query_failed",
+   "cfihos_check": "ok"
+  },
+  {
+   "id": "alfalaval-m3/property/max_design_temperature",
+   "label": "Max. design temperature",
+   "not_device_property": false,
+   "reason": null,
+   "rdl": {
+    "match": "exact",
+    "iri": "http://data.posccaesar.org/rdl/RDS360449",
+    "label": "UPPER LIMIT DESIGN TEMPERATURE",
+    "endpoint": "data",
+    "note": "SinglePropertyDimension, definition: the highest temperature at which a functional or physical object is designed."
+   },
+   "cfihos": {
+    "match": "exact",
+    "code": "CFIHOS-40000536",
+    "name": "upper limit design temperature",
+    "note": "Same definition as the RDL entry."
+   },
+   "values": [],
+   "kind": "property",
+   "document": "alfalaval-m3",
+   "rdl_check": "query_failed",
+   "cfihos_check": "ok"
+  },
+  {
+   "id": "alfalaval-m3/property/note_on_connection_types",
+   "label": "Note on connection types",
+   "not_device_property": true,
+   "reason": "note (availability of other connection types on request)",
+   "rdl": {
+    "match": "none",
+    "iri": null,
+    "label": null,
+    "endpoint": null,
+    "note": "not a device property"
+   },
+   "cfihos": {
+    "match": "none",
+    "code": null,
+    "name": null,
+    "note": "not a device property"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "alfalaval-m3",
+   "rdl_check": "no_match",
+   "cfihos_check": "no_match"
+  },
+  {
+   "id": "alfalaval-m3/property/note_on_ratings",
+   "label": "Note on ratings",
+   "not_device_property": true,
+   "reason": "note (extended pressure and temperature rating on request)",
+   "rdl": {
+    "match": "none",
+    "iri": null,
+    "label": null,
+    "endpoint": null,
+    "note": "not a device property"
+   },
+   "cfihos": {
+    "match": "none",
+    "code": null,
+    "name": null,
+    "note": "not a device property"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "alfalaval-m3",
+   "rdl_check": "no_match",
+   "cfihos_check": "no_match"
+  },
+  {
+   "id": "alfalaval-m3/property/pipe_connections_material",
+   "label": "Pipe connections material",
+   "not_device_property": false,
+   "reason": null,
+   "rdl": {
+    "match": "broad",
+    "iri": "http://data.posccaesar.org/rdl/RDS505220171",
+    "label": "MATERIAL OF CONSTRUCTION",
+    "endpoint": "data",
+    "note": "Typed ClassOfRelationshipWithSignature in the RDL; no 'connection material' property found (searches 'gasket material', 'flange material', 'plate material', 'frame material', 'connection material' returned only NORSOK/vendor material classes and code-string classes). Broad, as in earlier runs."
+   },
+   "cfihos": {
+    "match": "broad",
+    "code": "CFIHOS-40000223",
+    "name": "material",
+    "note": "Generic 'material'. 'nozzle material' (CFIHOS-40000296) is for vessel nozzles; the pipe connections here are threaded connection pieces, so the generic property is used."
+   },
+   "values": [
+    {
+     "printed": "Stainless steel, titanium",
+     "rdl": {
+      "match": "none",
+      "iri": null,
+      "label": null,
+      "endpoint": null,
+      "note": "The printed value names several materials (alternatives), so no single class (rule: one printed value naming two things). STAINLESS STEEL (RDS419849) and TITANIUM (RDS419894) exist separately."
+     },
+     "cfihos": {
+      "match": "none",
+      "code": null,
+      "name": null,
+      "note": "The printed value names several materials (alternatives), so no single class (rule: one printed value naming two things)."
+     },
+     "rdl_check": "no_match",
+     "cfihos_check": "no_match"
+    }
+   ],
+   "kind": "property",
+   "document": "alfalaval-m3",
+   "rdl_check": "query_failed",
+   "cfihos_check": "ok"
+  },
+  {
+   "id": "alfalaval-m3/property/plate_type",
+   "label": "Plate type",
+   "not_device_property": false,
+   "reason": null,
+   "rdl": {
+    "match": "none",
+    "iri": null,
+    "label": null,
+    "endpoint": null,
+    "note": "No plate-type property; 'plate type' only returns orifice plate vendor items. HEAT TRANSFER PLATE (RDS444824) is the part class, not a property."
+   },
+   "cfihos": {
+    "match": "none",
+    "code": null,
+    "name": null,
+    "note": "No plate-type property for heat exchangers in CFIHOS CORE."
+   },
+   "values": [
+    {
+     "printed": "Single plate",
+     "rdl": {
+      "match": "none",
+      "iri": null,
+      "label": null,
+      "endpoint": null,
+      "note": "No class for single-wall heat transfer plates."
+     },
+     "cfihos": {
+      "match": "none",
+      "code": null,
+      "name": null,
+      "note": "none"
+     },
+     "rdl_check": "no_match",
+     "cfihos_check": "no_match"
+    },
+    {
+     "printed": "Double wall plate",
+     "rdl": {
+      "match": "none",
+      "iri": null,
+      "label": null,
+      "endpoint": null,
+      "note": "Only DOUBLE WALL SIGHT GLASS / STORAGE TANK found."
+     },
+     "cfihos": {
+      "match": "none",
+      "code": null,
+      "name": null,
+      "note": "none"
+     },
+     "rdl_check": "no_match",
+     "cfihos_check": "no_match"
+    },
+    {
+     "printed": "Gemini (hygienic) Double wall",
+     "rdl": {
+      "match": "none",
+      "iri": null,
+      "label": null,
+      "endpoint": null,
+      "note": "Vendor name (Gemini) plus double wall; no class."
+     },
+     "cfihos": {
+      "match": "none",
+      "code": null,
+      "name": null,
+      "note": "none"
+     },
+     "rdl_check": "no_match",
+     "cfihos_check": "no_match"
+    },
+    {
+     "printed": "Single plate Diagonal flow",
+     "rdl": {
+      "match": "none",
+      "iri": null,
+      "label": null,
+      "endpoint": null,
+      "note": "No class for diagonal-flow plates."
+     },
+     "cfihos": {
+      "match": "none",
+      "code": null,
+      "name": null,
+      "note": "none"
+     },
+     "rdl_check": "no_match",
+     "cfihos_check": "no_match"
+    }
+   ],
+   "kind": "property",
+   "document": "alfalaval-m3",
+   "rdl_check": "no_match",
+   "cfihos_check": "no_match"
+  },
+  {
+   "id": "alfalaval-m3/property/threaded_port",
+   "label": "Threaded port",
+   "not_device_property": false,
+   "reason": null,
+   "rdl": {
+    "match": "none",
+    "iri": null,
+    "label": null,
+    "endpoint": null,
+    "note": "No connection-thread property in the RDL: 'THREAD SPECIFICATION' (RDS11701403) is a DocumentDefinition (noise); 'PROCESS CONNECTION' is a functional object class, not a property; 'connection type' only gives NORSOK enumerated classes."
+   },
+   "cfihos": {
+    "match": "broad",
+    "code": "CFIHOS-40001155",
+    "name": "thread specification",
+    "note": "Definition 'a specification which describes the threads'; the printed values are thread designations of this connection option. 'inlet connection type' (CFIHOS-40000586) only names the kind (threaded, flanged ...), so it is weaker."
+   },
+   "values": [
+    {
+     "printed": "ISO 228 - G 1 1/4",
+     "rdl": {
+      "match": "broad",
+      "iri": "http://data.posccaesar.org/rdl/RDS14641850",
+      "label": "BSP PARALLEL THREAD",
+      "endpoint": "data",
+      "note": "Interpretation: ISO 228 'G' threads are the BSP parallel pipe threads; the class is the thread form, the printed value adds the size."
+     },
+     "cfihos": {
+      "match": "none",
+      "code": null,
+      "name": null,
+      "note": "No thread classes in the CFIHOS CORE property/equipment class files."
+     },
+     "rdl_check": "query_failed",
+     "cfihos_check": "no_match"
+    }
+   ],
+   "kind": "property",
+   "document": "alfalaval-m3",
+   "rdl_check": "no_match",
+   "cfihos_check": "ok"
+  },
+  {
+   "id": "alfalaval-m3/condition/frame",
+   "label": "frame",
+   "not_device_property": false,
+   "reason": null,
+   "rdl": {
+    "match": "related",
+    "iri": "http://data.posccaesar.org/rdl/RDS8351535",
+    "label": "FRAME",
+    "endpoint": "data",
+    "note": "ClassOfInanimatePhysicalObject (an open structure of beams or bars): the part, not a frame-type property; the condition is the vendor's frame designation."
+   },
+   "cfihos": {
+    "match": "none",
+    "code": null,
+    "name": null,
+    "note": "'frame size' (CFIHOS-40000134) is defined for rotating electrical machines (IEC 60072); not applicable."
+   },
+   "values": [
+    {
+     "printed": "FG",
+     "rdl": {
+      "match": "none",
+      "iri": null,
+      "label": null,
+      "endpoint": null,
+      "note": "Vendor frame code; no class."
+     },
+     "cfihos": {
+      "match": "none",
+      "code": null,
+      "name": null,
+      "note": "Vendor frame code."
+     },
+     "rdl_check": "no_match",
+     "cfihos_check": "no_match"
+    }
+   ],
+   "kind": "condition",
+   "document": "alfalaval-m3",
+   "rdl_check": "query_failed",
+   "cfihos_check": "no_match"
+  },
+  {
+   "id": "alfalaval-m3/condition/plate variant",
+   "label": "plate variant",
+   "not_device_property": false,
+   "reason": null,
+   "rdl": {
+    "match": "none",
+    "iri": null,
+    "label": null,
+    "endpoint": null,
+    "note": "The values M3, M3-D, M3-G, M3-X are the manufacturer's model/variant names; see identification."
+   },
+   "cfihos": {
+    "match": "none",
+    "code": null,
+    "name": null,
+    "note": "No model/variant property in CFIHOS CORE."
+   },
+   "values": [],
+   "identification": {
+    "match": "exact",
+    "iri": "http://data.posccaesar.org/rdl/RDS2100752881",
+    "label": "MANUFACTURERS MODEL CODE ASSIGNMENT CLASS",
+    "endpoint": "data"
+   },
+   "kind": "condition",
+   "document": "alfalaval-m3",
+   "rdl_check": "no_match",
+   "cfihos_check": "no_match",
+   "identification_check": "query_failed"
+  },
+  {
+   "id": "alfalaval-m3/condition/pressure vessel code",
+   "label": "pressure vessel code",
+   "not_device_property": false,
+   "reason": null,
+   "rdl": {
+    "match": "none",
+    "iri": null,
+    "label": null,
+    "endpoint": null,
+    "note": "No pressure-vessel/design-code property found ('design code' returns only RTE code-string classes; 'code of construction' nothing)."
+   },
+   "cfihos": {
+    "match": "broad",
+    "code": "CFIHOS-40000708",
+    "name": "code of construction",
+    "note": "Definition: a set of rules of procedure and standards of materials designed to secure uniformity and protect public interest, usually established by a public agency; ASME and PED are such codes for pressure equipment, the CFIHOS term is more general."
+   },
+   "values": [
+    {
+     "printed": "ASME",
+     "rdl": {
+      "match": "none",
+      "iri": null,
+      "label": null,
+      "endpoint": null,
+      "note": "Only individual ASME B16/B36/B73 standards found, no ASME pressure vessel code class."
+     },
+     "cfihos": {
+      "match": "none",
+      "code": null,
+      "name": null,
+      "note": "none"
+     },
+     "rdl_check": "no_match",
+     "cfihos_check": "no_match"
+    },
+    {
+     "printed": "PED",
+     "rdl": {
+      "match": "none",
+      "iri": null,
+      "label": null,
+      "endpoint": null,
+      "note": "No Pressure Equipment Directive class found."
+     },
+     "cfihos": {
+      "match": "none",
+      "code": null,
+      "name": null,
+      "note": "none"
+     },
+     "rdl_check": "no_match",
+     "cfihos_check": "no_match"
+    }
+   ],
+   "kind": "condition",
+   "document": "alfalaval-m3",
+   "rdl_check": "no_match",
+   "cfihos_check": "ok"
+  }
+ ]
+}

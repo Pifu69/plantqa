@@ -19,5 +19,18 @@
     }
   ],
   "test": "EXP-020",
-  "complex": "EXP-030"
+  "complex": "EXP-030",
+  "scale": {
+    "small": {
+      "exp": "EXP-020",
+      "split": "test",
+      "label": "kis üzem (4 lap)"
+    },
+    "large": {
+      "exp": "EXP-060",
+      "split": "dev+test",
+      "label": "nagy üzem (27 lap)"
+    }
+  },
+  "complex_large": "EXP-061"
 }

@@ -17,9 +17,10 @@ from plantqa.graph.load import tag_mapping
 from plantqa.graph.sources import ROOT, pdf_path
 from plantqa.llm.pins import ModelKey, pin
 from plantqa.methods.base import Method, Question
+from plantqa.plant import spec
 
 STATIC = Path(__file__).parent / "static"
-DRAWING = ROOT / "data" / "plant" / "drawings" / "PQA" / "drawings.pdf"
+DRAWING = spec.PLANT_DIR / "drawings" / spec.CORPUS_ID / "drawings.pdf"
 LOG = ROOT / "data" / "app" / "ask-log.jsonl"
 DEFAULT = ROOT / "data" / "app" / "default_method.json"
 ALLOW_PAID = True
@@ -109,7 +110,7 @@ def datasheet_page(document_id: str, page: int) -> Response:
 @app.get("/api/examples")
 def examples() -> list[dict[str, str]]:
     """Példakérdések a dev halmazból, családonként."""
-    rows = (ROOT / "data" / "questions" / "dev.jsonl").read_text(encoding="utf-8").splitlines()
+    rows = (spec.QUESTIONS_DIR / "dev.jsonl").read_text(encoding="utf-8").splitlines()
     out = [json.loads(r) for r in rows if r.strip()]
     keep = ("qid", "family", "text", "answer_type")
     return [{k: q[k] for k in keep} for q in out]

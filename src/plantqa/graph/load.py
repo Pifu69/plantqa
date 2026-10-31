@@ -26,9 +26,8 @@ from plantgraph.store.neo4j_loader import load_corpus
 from plantqa.graph.counts import layer_counts
 from plantqa.graph.sources import ROOT, graph_path, neo4j_settings
 from plantqa.llm.clients import CACHE_DIR, plantdocs_embed_transport
-from plantqa.plant.spec import CORPUS_ID
+from plantqa.plant.spec import CORPUS_ID, PLANT_DIR
 
-PLANT_DIR = ROOT / "data" / "plant"
 INGEST_JSON = PLANT_DIR / "corpora" / CORPUS_ID / "ingest.json"
 REPORT = PLANT_DIR / "load_report.json"
 VECTORS_DIR = ROOT / "data" / "vectors"

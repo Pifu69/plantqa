@@ -17,12 +17,13 @@ from collections.abc import Iterator
 from typing import Any
 
 from plantqa.graph.sources import ROOT
+from plantqa.plant import spec
 from plantqa.plant.search import try_seed
 from plantqa.questions.composite import steps
 from plantqa.questions.sources import drawing_pool
 
 FACTS = ROOT / "data" / "questions" / "facts" / "gold_facts.json"
-OUT = ROOT / "data" / "questions" / "complex.jsonl"
+OUT = spec.QUESTIONS_DIR / "complex.jsonl"
 SEED = 20261031
 PER_TYPE = 4
 PROPERTIES = {
@@ -47,7 +48,7 @@ def facts() -> dict[str, Any]:
 
 def tag_documents() -> dict[str, str]:
     """Tag → document_id (a programmal előállított hozzárendelés)."""
-    return dict(json.loads((ROOT / "data/plant/tag_to_datasheet.json").read_text("utf-8")))
+    return dict(json.loads((spec.PLANT_DIR / "tag_to_datasheet.json").read_text("utf-8")))
 
 
 def normalized(value: float, unit: str) -> float | None:
@@ -124,7 +125,7 @@ def with_datasheet(tags: list[str]) -> list[str]:
 
 
 def _plant_seed() -> int:
-    log = json.loads((ROOT / "data/plant/seed_search.json").read_text("utf-8"))
+    log = json.loads((spec.PLANT_DIR / "seed_search.json").read_text("utf-8"))
     return int(log["accepted_seed"])
 
 

@@ -17,7 +17,7 @@ from collections.abc import Callable, Iterator
 from pathlib import Path
 from typing import Any
 
-from plantqa.graph.sources import ROOT
+from plantqa.plant import spec
 from plantqa.plant.search import try_seed
 from plantqa.questions.composite import Step, steps
 from plantqa.questions.sources import PLANTDOCS_SETS, datasheet_questions, drawing_pool
@@ -25,14 +25,14 @@ from plantqa.questions.sources import PLANTDOCS_SETS, datasheet_questions, drawi
 SEED = 20261031
 PER_FAMILY = 15
 DEV_PER_FAMILY = 5
-OUT_DIR = ROOT / "data" / "questions"
+OUT_DIR = spec.QUESTIONS_DIR
 NOT_IN_DOCUMENTS = "Not in the documents."
 #: Az összetett kérdésekhez a jól ellenőrizhető kategóriák (egy adott érték vagy feltétel).
 FACT_CATEGORIES = {"value", "conditional", "multi_condition", "footnote", "limit_check", "list"}
 
 
 def _tags_by_document() -> dict[str, list[str]]:
-    mapping = json.loads((ROOT / "data/plant/tag_to_datasheet.json").read_text("utf-8"))
+    mapping = json.loads((spec.PLANT_DIR / "tag_to_datasheet.json").read_text("utf-8"))
     out: dict[str, list[str]] = defaultdict(list)
     for tag, doc in sorted(mapping.items()):
         out[doc].append(tag)
@@ -40,7 +40,7 @@ def _tags_by_document() -> dict[str, list[str]]:
 
 
 def _plant_seed() -> int:
-    log = json.loads((ROOT / "data/plant/seed_search.json").read_text("utf-8"))
+    log = json.loads((spec.PLANT_DIR / "seed_search.json").read_text("utf-8"))
     return int(log["accepted_seed"])
 
 

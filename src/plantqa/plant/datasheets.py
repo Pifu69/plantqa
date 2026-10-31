@@ -2,7 +2,9 @@
 
 A szabály osztály és szerep szerint dönt: a szabályozókörbe kötött globe szelep a Fisher ET
 szabályozószelep, a kör nélküli globe szelep a GF 165 mágnesszelep (kétutas, globe kialakítású
-nyitó-záró szelep); a szabályozófunkciók (xIC) DCS-funkciók, gyártói adatlapjuk nincs.
+nyitó-záró szelep); a szabályozófunkciók (xIC) DCS-funkciók, gyártói adatlapjuk nincs. A
+Rosemount 3051 nyomás- és különbségnyomásos távadó, ezért csak az F és P távadóhoz tartozik; a
+nagy üzem szint- (LT) és hőmérséklet-távadójához (TT) nincs adatlap a gyűjteményben.
 """
 
 from __future__ import annotations
@@ -26,9 +28,13 @@ BY_CLASS = {
     "CheckValve": CHECK_VALVE,
     "ProcessSignalGeneratingFunction": TRANSMITTER,
 }
+#: A Rosemount 3051 által mérhető változók (a távadó tagjének első betűje).
+TRANSMITTER_VARIABLES = frozenset({"F", "P"})
 NO_DATASHEET = {
     "ProcessInstrumentationFunction": "control function in the DCS (shared display/control); "
     "no vendor datasheet exists for it",
+    "ProcessSignalGeneratingFunction": "level or temperature transmitter; the corpus has no "
+    "datasheet for it (the Rosemount 3051 measures pressure and differential-pressure flow)",
 }
 
 
@@ -42,6 +48,8 @@ def datasheet_for(node: str, data: dict[str, Any], controlled: set[str]) -> str 
     node_class = data.get("node_class", "")
     if node_class == "GlobeValve":
         return CONTROL_VALVE if node in controlled else SOLENOID_VALVE
+    if node_class == "ProcessSignalGeneratingFunction":
+        return TRANSMITTER if str(data.get("tag", ""))[:1] in TRANSMITTER_VARIABLES else None
     return BY_CLASS.get(node_class)
 
 

@@ -20,9 +20,10 @@ from plantqa import costlog
 from plantqa.graph.sources import ROOT
 from plantqa.llm.pins import ModelKey, pin
 from plantqa.methods.base import Method, Question
+from plantqa.plant import spec
 
 RUNS = ROOT / "runs"
-QUESTIONS = ROOT / "data" / "questions"
+QUESTIONS = spec.QUESTIONS_DIR
 
 
 def build_method(name: str, model: ModelKey, allow_paid: bool) -> Method:

@@ -147,8 +147,16 @@ def main() -> None:
     """Belépési pont: `summary.csv`, `summary.md`, `routes.csv` a mérés mappájába."""
     parser = argparse.ArgumentParser(description="Summarize a scored measurement")
     parser.add_argument("--exp", required=True)
-    exp = parser.parse_args().exp
+    parser.add_argument(
+        "--pool", action="store_true", help="treat dev and test as one split (frozen methods)"
+    )
+    args = parser.parse_args()
+    exp = args.exp
     rows = load_scored(exp)
+    if args.pool:
+        # A nagy üzemen a módszerek befagyasztottak, ezért a dev és a teszt kérdései együtt
+        # alkotják a mérést.
+        rows = [{**r, "split": "dev+test"} if r["split"] in {"dev", "test"} else r for r in rows]
     summary = table(exp, rows)
     folder = RUNS / exp
     write_csv(folder / "summary.csv", summary, FIELDS)

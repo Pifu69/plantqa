@@ -4,20 +4,36 @@ A generátor Benedek v1 generátora változtatás nélkül; a szűkítés két e
 a berendezéssúlyok csak adatlappal rendelkező osztályokat engednek, a szabályozókörök
 változóját (F/L/P/T) pedig seedkereséssel szűrjük (csak F és P, mert a Rosemount 3051
 nyomás- és különbségnyomásos áramlástávadó).
+
+Két üzemprofil van, a `PLANTQA_PLANT` környezeti változó választ közöttük: `pqa` (alapértelmezés,
+a négylapos példaüzem, EXP-002..EXP-040) és `pqb` (a nagyobb, kb. 30 lapos üzem ugyanazzal a
+generátorral és ugyanazzal a hét adatlappal). A profil adja a korpusz azonosítóját, a
+generátor méretét, az elfogadási határokat és a profil adat- és kérdésmappáját.
 """
 
 from __future__ import annotations
 
+import os
+from pathlib import Path
+
 from plantgraph.benchmark.generator_models import GeneratorConfig
 from plantgraph.benchmark.split_models import ConnectorLabelDetail, SplitConfig
 
-PLANT_ID = "pqa"
-CORPUS_ID = "PQA"
-N_UNITS = 2
+ROOT = Path(__file__).resolve().parents[3]
+PROFILE = os.environ.get("PLANTQA_PLANT", "pqa").lower()
+if PROFILE not in {"pqa", "pqb"}:
+    raise ValueError(f"unknown plant profile {PROFILE!r} (PLANTQA_PLANT must be pqa or pqb)")
+PLANT_ID = PROFILE
+CORPUS_ID = PROFILE.upper()
+N_UNITS = 2 if PROFILE == "pqa" else 15
 EQUIPMENT_WEIGHTS = {"CentrifugalPump": 2.0, "HeatExchanger": 1.0}
-ALLOWED_LOOP_VARIABLES = frozenset({"F", "P"})
-MIN_TAGGED, MAX_TAGGED = 20, 40
-MIN_SHEETS, MAX_SHEETS = 2, 4
+#: A kis üzemen csak F és P kör lehet (seedszűrés); a nagyon az L és T kör is megmarad.
+ALLOWED_LOOP_VARIABLES = frozenset({"F", "P"} if PROFILE == "pqa" else {"F", "L", "P", "T"})
+MIN_TAGGED, MAX_TAGGED = (20, 40) if PROFILE == "pqa" else (120, 400)
+MIN_SHEETS, MAX_SHEETS = (2, 4) if PROFILE == "pqa" else (24, 40)
+#: A profil mappái: a kis üzemé a korábbi helyen marad, hogy a meglévő mérések érintetlenek.
+PLANT_DIR = ROOT / "data" / ("plant" if PROFILE == "pqa" else "plant-pqb")
+QUESTIONS_DIR = ROOT / "data" / ("questions" if PROFILE == "pqa" else "questions-pqb")
 SHEET_EQUIPMENT_BUDGET = 4
 
 

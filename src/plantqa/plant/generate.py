@@ -19,7 +19,7 @@ from plantqa.plant.datasheets import tag_rows, tag_to_datasheet
 from plantqa.plant.search import try_seed
 
 ROOT = Path(__file__).resolve().parents[3]
-PLANT_DIR = ROOT / "data" / "plant"
+PLANT_DIR = spec.PLANT_DIR
 CORPORA_ROOT = PLANT_DIR / "corpora"
 STORE_PROFILE: Final[Literal["plant_lines"]] = "plant_lines"
 

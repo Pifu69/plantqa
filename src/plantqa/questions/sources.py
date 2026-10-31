@@ -6,7 +6,8 @@ import json
 from pathlib import Path
 from typing import Any
 
-from plantqa.graph.sources import PLANTDOCS, ROOT
+from plantqa.graph.sources import PLANTDOCS
+from plantqa.plant import spec
 
 EXPERIMENTS = PLANTDOCS / "docs" / "private" / "30-experiments"
 #: A plantdocs gold kérdés-válasz párjai eszközönként (EXP-0026: 25/eszköz, EXP-0039: 200).
@@ -20,11 +21,11 @@ PLANTDOCS_SETS = {
     / "EXP-0039-rosemount-kerdesek"
     / "rosemount-3051-00813-0100-4001.json",
 }
-DRAWING_POOL = ROOT / "data" / "questions" / "pool_a" / "questions.jsonl"
+DRAWING_POOL = spec.QUESTIONS_DIR / "pool_a" / "questions.jsonl"
 
 
 def drawing_pool(path: Path = DRAWING_POOL) -> list[dict[str, Any]]:
-    """Benedek generátorának kérdései a PQA korpuszon (gold válasszal)."""
+    """Benedek generátorának kérdései az aktuális üzemprofil korpuszán (gold válasszal)."""
     lines = path.read_text(encoding="utf-8").splitlines()
     return [json.loads(line) for line in lines if line.strip()]
 

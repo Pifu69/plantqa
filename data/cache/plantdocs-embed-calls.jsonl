@@ -2,3 +2,10 @@
 {"time": "2026-10-31T08:29:59+00:00", "tag": "plantqa/A2/gorman-rupp-0700286", "model": "Qwen/Qwen3-Embedding-8B", "provider": "Nebius", "texts": 1, "prompt_tokens": 20, "cost": 2e-07}
 {"time": "2026-10-31T08:37:50+00:00", "tag": "plantqa/A2/alfalaval-m3", "model": "Qwen/Qwen3-Embedding-8B", "provider": "DeepInfra", "texts": 1, "prompt_tokens": 15, "cost": 1.5e-07}
 {"time": "2026-10-31T08:38:32+00:00", "tag": "plantqa/A2/alfalaval-m3", "model": "Qwen/Qwen3-Embedding-8B", "provider": "DeepInfra", "texts": 1, "prompt_tokens": 15, "cost": 1.5e-07}
+{"time": "2026-10-31T08:42:19+00:00", "tag": "plantqa/A2/gorman-rupp-0700286", "model": "Qwen/Qwen3-Embedding-8B", "provider": "DeepInfra", "texts": 1, "prompt_tokens": 11, "cost": 1.1e-07}
+{"time": "2026-10-31T08:42:51+00:00", "tag": "plantqa/A2/fisher-et-d100022x012", "model": "Qwen/Qwen3-Embedding-8B", "provider": "Nebius", "texts": 1, "prompt_tokens": 22, "cost": 2.2e-07}
+{"time": "2026-10-31T08:43:10+00:00", "tag": "plantqa/M3/chunks", "model": "Qwen/Qwen3-Embedding-8B", "provider": "Nebius", "texts": 128, "prompt_tokens": 59626, "cost": 0.00059626}
+{"time": "2026-10-31T08:43:12+00:00", "tag": "plantqa/M3/chunks", "model": "Qwen/Qwen3-Embedding-8B", "provider": "DeepInfra", "texts": 61, "prompt_tokens": 50688, "cost": 0.00050688}
+{"time": "2026-10-31T08:43:13+00:00", "tag": "plantqa/M3/question", "model": "Qwen/Qwen3-Embedding-8B", "provider": "DeepInfra", "texts": 1, "prompt_tokens": 32, "cost": 3.2e-07}
+{"time": "2026-10-31T08:43:15+00:00", "tag": "plantqa/M3/question", "model": "Qwen/Qwen3-Embedding-8B", "provider": "DeepInfra", "texts": 1, "prompt_tokens": 10, "cost": 1e-07}
+{"time": "2026-10-31T08:43:17+00:00", "tag": "plantqa/M3/question", "model": "Qwen/Qwen3-Embedding-8B", "provider": "DeepInfra", "texts": 1, "prompt_tokens": 31, "cost": 3.1e-07}

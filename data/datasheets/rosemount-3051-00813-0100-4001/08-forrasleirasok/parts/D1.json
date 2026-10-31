@@ -1,0 +1,576 @@
+{
+ "descriptions": {
+  "rosemount-3051-00813-0100-4001/table-azure-0": {
+   "description": "Rosemount 3051C ordering table for the model code: a single row, code 3051C = Coplanar pressure transmitter, marked starred (★).",
+   "use_for": "Use it to find the base model code and name of the Rosemount 3051C coplanar pressure transmitter.",
+   "structure": "rows: model code; columns: code, description, star mark -> values"
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-1": {
+   "description": "Rosemount 3051C ordering table for measurement type: codes D (Differential) and G (Gage), both starred, and A (Absolute); a footnote says A with wireless output (code X) needs 316L SST diaphragm (code 2) and silicone fill (code 1).",
+   "use_for": "Use it to find which code selects differential, gage or absolute measurement on a Rosemount 3051C and the restriction on absolute with wireless output.",
+   "structure": "rows: measurement type codes D, G, A; columns: code, description, star mark -> values"
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-2": {
+   "description": "Rosemount 3051C ordering table for pressure range codes 0-5, giving the range limits per measurement type: Differential (3051CD), Gage (3051CG) and Absolute (3051CA) in inH2O/psi/psia with mbar/bar equivalents, e.g. code 1 = -25 to +25 inH2O DP/GP and 0 to 30 psia AP, code 5 = -2000 to +2000 psi DP, N/A for absolute. A footnote restricts 3051CD0 (-3 to +3 inH2O) to outputs A and X with specific flange, diaphragm, O-ring and bolting options.",
+   "use_for": "Use it to find the pressure range limits of each Rosemount 3051C range code for differential, gage and absolute versions.",
+   "structure": "rows: range codes 0-5; columns: Differential (3051CD), Gage (3051CG), Absolute (3051CA), star mark -> range limits in inH2O/psi with mbar/bar",
+   "uncertain": "The range 0 row has an empty code cell (only the footnote marker '(1)'); the code 0 is inferred from the footnote text naming 3051CD0. The code-3 absolute bar value is missing its closing parenthesis."
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-3": {
+   "description": "Rosemount 3051C ordering table for transmitter output: A (4-20 mA HART), F (FOUNDATION Fieldbus), W (PROFIBUS PA), X (Wireless, needs wireless options and engineered polymer housing), all starred, and M (low-power 1-5 Vdc HART); footnotes give restrictions (W needs M4 LOI and excludes EM, IM, KM, KL, KS; X only with intrinsically safe approvals; M only with C6, E2, E5, I5, K5, KB, EM, IM, KM, EP, E8).",
+   "use_for": "Use it to find the output/protocol code of a Rosemount 3051C and which certifications or options each output requires.",
+   "structure": "rows: output codes A, F, W, X, M; columns: code, description, star mark -> values",
+   "uncertain": "Codes W and X are OCR'd in lower case ('w', 'x')."
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-4": {
+   "description": "Rosemount 3051C ordering table for materials of construction: codes 2, 3, 4, 5, 7, 8 (coplanar flange) with flange material (SST, Cast C-276, Alloy 400, Plated CS) and drain/vent material (SST, Alloy C-276, Alloy 400/K-500), plus code 0 = alternate process connection; all starred. A footnote marks codes 3, 7, 8 as complying with NACE MR0175/ISO 15156 (and MR0103).",
+   "use_for": "Use it to find the flange and drain/vent materials behind each Rosemount 3051C materials-of-construction code and which ones are NACE compliant.",
+   "structure": "rows: codes 2, 3, 4, 5, 7, 8, 0; columns: transmitter flange type, flange material, drain/vent, star mark -> values"
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-5": {
+   "description": "Rosemount 3051C ordering table for isolating diaphragm material: 2 = 316L SST and 3 = Alloy C-276 (starred, NACE compliant), 4 = Alloy 400, 5 = Tantalum (3051CD/CG ranges 2-5 only, not 3051CA), 6 = Gold-plated alloy 400 (with O-ring B), 7 = Gold-plated 316 SST; codes 4-7 are not available with wireless output (X).",
+   "use_for": "Use it to find the isolating diaphragm material for each Rosemount 3051C code and its availability limits.",
+   "structure": "rows: diaphragm codes 2-7; columns: code, description, star mark -> values"
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-6": {
+   "description": "Rosemount 3051C ordering table for O-ring material: A = Glass-filled PTFE and B = Graphite-filled PTFE, both starred.",
+   "use_for": "Use it to find the O-ring material code options for a Rosemount 3051C.",
+   "structure": "rows: O-ring codes A, B; columns: code, description, star mark -> values"
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-7": {
+   "description": "Rosemount 3051C ordering table for sensor fill fluid: 1 = Silicone and 2 = Inert (differential and gage only, not with wireless output X), both starred.",
+   "use_for": "Use it to find the sensor fill fluid code options for a Rosemount 3051C and their restrictions.",
+   "structure": "rows: fill fluid codes 1, 2; columns: code, description, star mark -> values"
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-8": {
+   "description": "Rosemount 3051C ordering table for housing material and conduit entry size: A/B Aluminum and J/K SST with 1/2-14 NPT or M20 x 1.5, P Engineered polymer with no conduit entries (wireless only), all starred, and D (Aluminum) / M (SST) with G1/2 (supplied via 1/2 NPT to G1/2 adapter, only with certification I1; IG only with D).",
+   "use_for": "Use it to find the housing material and conduit entry thread for each Rosemount 3051C housing code.",
+   "structure": "rows: housing codes A, B, J, K, P, D, M; columns: description (material), conduit entry size, star mark -> values"
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-9": {
+   "description": "Rosemount 3051C ordering table (page 9) for wireless transmit rate, operating frequency and protocol: single starred code WA3 = user configurable transmit rate, 2.4 GHz WirelessHART.",
+   "use_for": "Use it to find the wireless transmit rate/frequency/protocol option code of a Rosemount 3051C.",
+   "structure": "rows: code WA3; columns: code, description, star mark -> values"
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-10": {
+   "description": "Rosemount 3051C ordering table (page 9) for antenna and SmartPower: single starred code WP5 = internal antenna, compatible with Green Power Module (I.S. Power Module sold separately).",
+   "use_for": "Use it to find the antenna and power module option code of a wireless Rosemount 3051C.",
+   "structure": "rows: code WP5; columns: code, description, star mark -> values"
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-11": {
+   "description": "Rosemount 3051C ordering table for local wireless device access: single starred code BLE = Bluetooth configuration and maintenance, which requires the Graphical LCD display (code M6).",
+   "use_for": "Use it to find the Bluetooth access option code of a Rosemount 3051C and its display requirement.",
+   "structure": "rows: code BLE; columns: code, description, star mark -> values"
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-12": {
+   "description": "Rosemount 3051C ordering table for extended product warranty: WR3 = 3-year and WR5 = 5-year limited warranty, both starred.",
+   "use_for": "Use it to find the extended warranty option codes of a Rosemount 3051C.",
+   "structure": "rows: codes WR3, WR5; columns: code, description, star mark -> values"
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-13": {
+   "description": "Rosemount 3051C ordering table (page 9) for Plantweb control functionality: single starred code A01 = FOUNDATION Fieldbus control function block suite.",
+   "use_for": "Use it to find the control function block option code of a Rosemount 3051C.",
+   "structure": "rows: code A01; columns: code, description, star mark -> values"
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-14": {
+   "description": "Rosemount 3051C ordering table for Plantweb diagnostic functionality: DA0 = Loop Integrity diagnostic (HART code A only), DA1 = Loop Integrity and Plugged Impulse Line diagnostics (outputs A and M; with M only Plugged Impulse Line), D01 = FOUNDATION Fieldbus Diagnostics Suite; all starred.",
+   "use_for": "Use it to find the diagnostic option codes of a Rosemount 3051C and which output each requires.",
+   "structure": "rows: codes DA0, DA1, D01; columns: code, description, star mark -> values",
+   "uncertain": "Code DA0 is OCR'd as 'DAO'."
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-15": {
+   "description": "Rosemount 3051C ordering table for alternate flange: traditional flanges H2, H3, H4, H7 (316 SST, alloy C, cast alloy 400 with matching drain/vent), DIN-compliant traditional flanges HJ, HK, HL (7/16-in./10 mm, 0.40-in./10 mm, 0.50-in./12 mm bolting), and level flanges FA-FD (2-in. or 3-in., ANSI Class 150/300) and FP/FQ (DIN DN 50/DN 80, PN 40). H3/H7 are NACE compliant; HK is not valid with P9 (4500 static pressure).",
+   "use_for": "Use it to find the alternate flange code for a given flange type, material, size or pressure class on a Rosemount 3051C.",
+   "structure": "rows: flange codes H2-HL, FA-FQ; columns: code, description, star mark -> values"
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-16": {
+   "description": "Rosemount 3051C ordering table for manifold assembly: S5 = assemble to Rosemount 305 Integral Manifold, S6 = assemble to Rosemount 304 Manifold or Connection System; both starred.",
+   "use_for": "Use it to find the manifold assembly option codes of a Rosemount 3051C.",
+   "structure": "rows: codes S5, S6; columns: code, description, star mark -> values"
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-17": {
+   "description": "Rosemount 3051C ordering table for integral mount primary element: S3 = assemble to Rosemount 405 Compact Orifice Plate, S4 = assemble to Rosemount Annubar or 1195 Integral Orifice (flange limited to coplanar 2, 3, 5, 7, 8 or traditional H2, H3, H7); both starred.",
+   "use_for": "Use it to find the option code for assembling a Rosemount 3051C to an orifice plate or Annubar primary element.",
+   "structure": "rows: codes S3, S4; columns: code, description, star mark -> values"
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-18": {
+   "description": "Rosemount 3051C ordering table for seal assemblies: S1 = assemble to one Rosemount seal (not with D9), S2 = assemble to two Rosemount seals (not with DF, D9); both starred.",
+   "use_for": "Use it to find the diaphragm seal assembly option codes of a Rosemount 3051C.",
+   "structure": "rows: codes S1, S2; columns: code, description, star mark -> values",
+   "uncertain": "Code S2 is OCR'd as '52'."
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-19": {
+   "description": "Rosemount 3051C ordering table for mounting brackets: B4 coplanar flange bracket (all SST, 2-in. pipe and panel), traditional flange brackets B1/B2/B3 (CS, pipe, panel, flat), B7/B8/B9 (with SST bolts), BA/BC (all SST), all starred, and BE (316SST B4 bracket with 316SST bolts).",
+   "use_for": "Use it to find the mounting bracket code for a given flange type, material and pipe/panel mounting on a Rosemount 3051C.",
+   "structure": "rows: bracket codes B1-BE; columns: code, description, star mark -> values"
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-20": {
+   "description": "Rosemount 3051C ordering table for product certifications (pages 12-13, two Azure parts): hazardous-area approval codes for ATEX (E8, I1, IA, N1, K8), Japan (E4), USA (E5, I5, K5), Canada (E6, I6, C6, K6), IECEx (E7, I7, N7, K7, IG), Brazil (E2, I2, IB, K2), China (E3, I3), EAC (EM, IM, KM), combinations (KB, KD, KL, KS), Korea (EP, IP, KP) and India (EW, IW, KW, IZ), all starred. Footnote (1) says dust approval does not apply to wireless output X.",
+   "use_for": "Use it to find the certification code for a given country/approval type (flameproof, intrinsic safety, Type n, FISCO) on a Rosemount 3051C.",
+   "structure": "rows: certification codes; columns: code, description, star mark -> values",
+   "uncertain": "Codes I1 and I5 are OCR'd as '11' and '15'; footnotes (2)-(4) referenced by E4, I5 and KL are not included in the content."
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-22": {
+   "description": "Rosemount 3051C ordering table (page 13) for drinking water approval: single starred code DW = NSF drinking water approval.",
+   "use_for": "Use it to find the drinking water approval option code of a Rosemount 3051C.",
+   "structure": "rows: code DW; columns: code, description, star mark -> values"
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-23": {
+   "description": "Rosemount 3051C ordering table for shipboard approvals: SBS = American Bureau of Shipping, SBV = Bureau Veritas (BV), SDN = Det Norske Veritas, SLL = Lloyds Register (LR), all starred; SBV and SLL only with certification options E7, E8, I1, I7, IA, K7, K8, KD, N1, N7.",
+   "use_for": "Use it to find the shipboard (marine classification society) approval codes of a Rosemount 3051C and their certification prerequisites.",
+   "structure": "rows: codes SBS, SBV, SDN, SLL; columns: code, description, star mark -> values",
+   "uncertain": "The Lloyds Register code is OCR'd as 'SL' (the page shows SLL), and I1/I7 in the footnote as '11'/'17'."
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-24": {
+   "description": "Rosemount 3051C ordering table (page 13) for SST tagging: single code Y2 = 316 SST nameplate, top tag, wire-on tag, and fasteners (no star).",
+   "use_for": "Use it to find the stainless steel tagging option code of a Rosemount 3051C.",
+   "structure": "rows: code Y2; columns: code, description -> values"
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-25": {
+   "description": "Rosemount 3051C ordering table (page 13) for custody transfer: single starred code C5 = Measurement Canada Accuracy Approval, with limited availability depending on transmitter type and range.",
+   "use_for": "Use it to find the custody transfer (Measurement Canada) option code of a Rosemount 3051C.",
+   "structure": "rows: code C5; columns: code, description, star mark -> values"
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-26": {
+   "description": "Rosemount 3051C ordering table for bolting material: L4 = Austenitic 316 SST bolts, L5 = ASTM A 193 grade B7M bolts, L6 = Alloy K-500 bolts; all starred.",
+   "use_for": "Use it to find the bolting material option codes of a Rosemount 3051C.",
+   "structure": "rows: codes L4, L5, L6; columns: code, description, star mark -> values"
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-27": {
+   "description": "Rosemount 3051C ordering table for display and interface options: M6 = Graphical LCD display (HART output A only), M5 = LCD display, M4 = LCD display with LOI (outputs A, M and W only); all starred.",
+   "use_for": "Use it to find the display/LOI option codes of a Rosemount 3051C and which outputs support them.",
+   "structure": "rows: codes M6, M5, M4; columns: code, description, star mark -> values",
+   "uncertain": "The header cell for the code column is OCR'd as 'M5' instead of 'Code'."
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-28": {
+   "description": "Rosemount 3051C ordering table for calibration certificate: Q4 = calibration certificate, QP = calibration certification and tamper evident seal; both starred.",
+   "use_for": "Use it to find the calibration certificate option codes of a Rosemount 3051C.",
+   "structure": "rows: codes Q4, QP; columns: code, description, star mark -> values"
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-29": {
+   "description": "Rosemount 3051C ordering table (page 14) for material traceability certification: single starred code Q8 = material traceability certification per EN 10204 3.1.",
+   "use_for": "Use it to find the EN 10204 3.1 material traceability option code of a Rosemount 3051C.",
+   "structure": "rows: code Q8; columns: code, description, star mark -> values"
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-30": {
+   "description": "Rosemount 3051C ordering table (page 14) for positive material identification: single starred code Q76 = PMI verification and certificate.",
+   "use_for": "Use it to find the PMI option code of a Rosemount 3051C.",
+   "structure": "rows: code Q76; columns: code, description, star mark -> values"
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-31": {
+   "description": "Rosemount 3051C ordering table (page 14) for quality certification for safety: single starred code QT = safety certified to IEC 61508 with certificate of FMEDA.",
+   "use_for": "Use it to find the IEC 61508 safety certification option code of a Rosemount 3051C.",
+   "structure": "rows: code QT; columns: code, description, star mark -> values"
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-32": {
+   "description": "Rosemount 3051C ordering table (page 14) for enhanced safety: single starred code T9 = enhanced SIS proof testing and logging; the title notes it is only available with HART 4-20 mA output (code A).",
+   "use_for": "Use it to find the enhanced SIS proof testing option code of a Rosemount 3051C and its output requirement.",
+   "structure": "rows: code T9; columns: code, description, star mark -> values",
+   "uncertain": "The title has the availability note ('Only available with HART 4-20 mA output (Code A).') merged into it."
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-33": {
+   "description": "Rosemount 3051C ordering table for configuration buttons: D1 = quick service buttons (needs Graphical LCD M6), D4 = analog zero and span (HART output A only), DZ = digital zero trim (outputs A and X only); all starred.",
+   "use_for": "Use it to find the configuration button option codes of a Rosemount 3051C and their prerequisites.",
+   "structure": "rows: codes D1, D4, DZ; columns: code, description, star mark -> values"
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-34": {
+   "description": "Rosemount 3051C ordering table (page 15) for transient protection: single starred code T1 = transient protection terminal block.",
+   "use_for": "Use it to find the transient protection option code of a Rosemount 3051C.",
+   "structure": "rows: code T1; columns: code, description, star mark -> values"
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-35": {
+   "description": "Rosemount 3051C ordering table (page 15) for software configuration: single starred code C1 = custom software configuration, referring to the Rosemount 3051 Configuration Data Sheet (wired) or Wireless Configuration Data Sheet.",
+   "use_for": "Use it to find the custom software configuration option code of a Rosemount 3051C.",
+   "structure": "rows: code C1; columns: code, description, star mark -> values"
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-36": {
+   "description": "Rosemount 3051C ordering table (page 15) for gauge pressure calibration: single starred code C3 = gauge calibration, for Rosemount 3051CA only.",
+   "use_for": "Use it to find the option code for gauge calibration of an absolute Rosemount 3051CA.",
+   "structure": "rows: code C3; columns: code, description, star mark -> values"
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-37": {
+   "description": "Rosemount 3051C ordering table for alarm levels: C4 / CN = NAMUR NE 43 compliant analog output levels with high / low alarm, CR / CS = custom alarm and saturation levels with high / low alarm (require C1), CT = Rosemount standard low alarm; all starred.",
+   "use_for": "Use it to find the alarm level option code (NAMUR, custom, standard low) of a Rosemount 3051C.",
+   "structure": "rows: codes C4, CN, CR, CS, CT; columns: code, description, star mark -> values"
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-38": {
+   "description": "Rosemount 3051C ordering table (page 15) for pressure testing: single code P1 = hydrostatic testing with certificate (no star).",
+   "use_for": "Use it to find the hydrostatic pressure testing option code of a Rosemount 3051C.",
+   "structure": "rows: code P1; columns: code, description -> values"
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-39": {
+   "description": "Rosemount 3051C ordering table (page 15) for cleaning process area: P2 = cleaning for special service, P3 = cleaning for <1 ppm chlorine/fluorine (not available with S5); neither starred.",
+   "use_for": "Use it to find the special cleaning option codes of a Rosemount 3051C.",
+   "structure": "rows: codes P2, P3; columns: code, description, star mark -> values"
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-40": {
+   "description": "Rosemount 3051C ordering table (page 15) for flange adapters: single starred code DF = 1/2-14 NPT flange adapter(s).",
+   "use_for": "Use it to find the flange adapter option code of a Rosemount 3051C.",
+   "structure": "rows: code DF; columns: code, description, star mark -> values"
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-41": {
+   "description": "Rosemount 3051C ordering table (page 16) for vent drain valves: D7 = coplanar flange without drain/vent ports, DC = ports left open - none; neither starred.",
+   "use_for": "Use it to find the vent/drain port option codes of a Rosemount 3051C.",
+   "structure": "rows: codes D7, DC; columns: code, description, star mark -> values"
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-42": {
+   "description": "Rosemount 3051C ordering table (page 16) for conduit plug: single starred code DO = 316 SST conduit plug.",
+   "use_for": "Use it to find the conduit plug option code of a Rosemount 3051C.",
+   "structure": "rows: code DO; columns: code, description, star mark -> values"
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-43": {
+   "description": "Rosemount 3051C ordering table (page 16) for RC1/4 RC1/2 process connection: single code D9 = RC1/4 flange with RC1/2 flange adapter, SST (no star).",
+   "use_for": "Use it to find the RC1/4 / RC1/2 process connection option code of a Rosemount 3051C.",
+   "structure": "rows: code D9; columns: code, description -> values"
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-44": {
+   "description": "Rosemount 3051C ordering table (page 16) for maximum static line pressure: single starred code P9 = 4500 psig (310.26 bar) static pressure limit, Rosemount 3051CD ranges 2-5 only.",
+   "use_for": "Use it to find the option code and value of the raised static line pressure limit for a Rosemount 3051CD.",
+   "structure": "rows: code P9; columns: code, description -> values (star merged into the description cell)"
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-45": {
+   "description": "Rosemount 3051C ordering table (page 16) for ground screw: single starred code V5 = external ground screw assembly.",
+   "use_for": "Use it to find the external ground screw option code of a Rosemount 3051C.",
+   "structure": "rows: code V5; columns: code, description -> values (star merged into the description cell)"
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-46": {
+   "description": "Rosemount 3051C ordering table (page 16) for surface finish: single starred code Q16 = surface finish certification for sanitary remote seals.",
+   "use_for": "Use it to find the sanitary surface finish certification option code of a Rosemount 3051C.",
+   "structure": "rows: code Q16; columns: code, description, star mark -> values"
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-47": {
+   "description": "Rosemount 3051C ordering table (page 16) for total system performance reports: single starred code QZ = remote seal system performance calculation report.",
+   "use_for": "Use it to find the remote seal performance report option code of a Rosemount 3051C.",
+   "structure": "rows: code QZ; columns: code, description, star mark -> values"
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-48": {
+   "description": "Rosemount 3051C ordering table for conduit electrical connector: GB = ATEX cable gland and plug, M20 x 1.5, polyamide, black (not starred), GE = M12 4-pin male connector (eurofast) and GM = A size mini 4-pin male connector (minifast), both starred.",
+   "use_for": "Use it to find the electrical connector/cable gland option codes of a Rosemount 3051C.",
+   "structure": "rows: codes GB, GE, GM; columns: code, description, star mark -> values"
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-49": {
+   "description": "Rosemount 3051C ordering table for NACE certificate: Q15 = certificate of compliance to NACE MR0175/ISO 15156 for wetted materials, Q25 = certificate of compliance to NACE MR0103 for wetted materials; both starred.",
+   "use_for": "Use it to find the NACE compliance certificate option codes of a Rosemount 3051C.",
+   "structure": "rows: codes Q15, Q25; columns: code, description, star mark -> values"
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-50": {
+   "description": "Rosemount 3051C ordering table (page 17) for enhanced software: single starred code RK = enhanced software.",
+   "use_for": "Use it to find the enhanced software option code of a Rosemount 3051C.",
+   "structure": "rows: code RK; columns: code, description, star mark -> values"
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-51": {
+   "description": "Rosemount 3051C ordering table for cold temperature: BR5 = -58 °F (-50 °C) and BR6 = -76 °F (-60 °C) cold temperature operation, both starred; footnotes list the approval codes each is limited to when product certifications are required.",
+   "use_for": "Use it to find the cold temperature operation option codes and limits of a Rosemount 3051C and which certifications they combine with.",
+   "structure": "rows: codes BR5, BR6; columns: code, description, star mark -> values"
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-52": {
+   "description": "Rosemount 3051T ordering table for the model code: a single row, code 3051T = In-Line Pressure Transmitter, starred.",
+   "use_for": "Use it to find the base model code and name of the Rosemount 3051T in-line pressure transmitter.",
+   "structure": "rows: model code; columns: code, description, star mark -> values"
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-53": {
+   "description": "Rosemount 3051T ordering table for pressure type: G = Gage and A = Absolute, both starred; a footnote says wireless output (X) with absolute type is only available with ranges 1-5, process connection 2B and housing P.",
+   "use_for": "Use it to find the gage/absolute pressure type codes of a Rosemount 3051T and the wireless restriction on absolute.",
+   "structure": "rows: codes G, A; columns: code, description, star mark -> values",
+   "uncertain": "The footnote says '14-NPT' process connection, apparently a garbled 1/2-14 NPT."
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-54": {
+   "description": "Rosemount 3051T ordering table for pressure range codes 0-6 with limits for Gage (3051TG) and Absolute (3051TA) in psi/psia with bar equivalents, from code 0 = -5 to 5 psi (-345 to 345 mbar) gage only up to code 6 = -14.7 to 20000 psi / 0 to 20000 psia (1379 bar); codes 0-5 starred. Footnotes: 3051TG lower limit assumes 14.7 psig atmosphere, range 0 not with wireless X, range 6 not with outputs W/M, inert fill 2, DW or S5.",
+   "use_for": "Use it to find the gage and absolute range limits of each Rosemount 3051T range code and range-specific restrictions.",
+   "structure": "rows: range codes 0-6; columns: Gage (3051TG), Absolute (3051TA), star mark -> range limits in psi/psia with bar"
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-55": {
+   "description": "Rosemount 3051T ordering table for transmitter output: A (4-20 mA HART), F (FOUNDATION Fieldbus), W (PROFIBUS PA), X (Wireless, needs wireless options and engineered polymer housing), all starred, and M (low-power 1-5 Vdc HART); footnotes give restrictions (W needs M4 LOI and excludes EM, IM, KM, KL, KS; X only with intrinsically safe approvals; M only with C6, E2, E5, I5, K5, KB, EM, IM, KM, EP, E8).",
+   "use_for": "Use it to find the output/protocol code of a Rosemount 3051T and which certifications or options each output requires.",
+   "structure": "rows: output codes A, F, W, X, M; columns: code, description, star mark -> values",
+   "uncertain": "Codes W and X are OCR'd in lower case ('w', 'x')."
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-56": {
+   "description": "Rosemount 3051T ordering table for process connection style: 2B = 1/2-14 NPT female (range 0-5) and 2C = G1/2 A EN837-1 male (range 0-4), both starred, 2F = coned and threaded, autoclave Type F-250-C compatible (range 5-6), 61 = non-threaded instrument flange (range 1-4, 316L diaphragm only, not wireless); footnotes give wireless and S1/S5/WSM restrictions.",
+   "use_for": "Use it to find the process connection code of a Rosemount 3051T, the ranges it covers and its option restrictions.",
+   "structure": "rows: codes 2B, 2C, 2F, 61; columns: code, description, star mark -> values",
+   "uncertain": "Code 2C is OCR'd as '2' (the page shows 2C)."
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-57": {
+   "description": "Rosemount 3051T ordering table for isolating diaphragm and process connection wetted parts material: 2 = 316L stainless steel / 316L SST and 3 = Alloy C-276 / Alloy C-276 (starred), 7 = Gold-plated 316 SST / 316L SST, 8 = Gold-plated alloy C-276 / C-276.",
+   "use_for": "Use it to find the isolating diaphragm and wetted process connection material for each Rosemount 3051T diaphragm code.",
+   "structure": "rows: codes 2, 3, 7, 8; columns: isolating diaphragm, process connection wetted parts material, star mark -> values"
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-58": {
+   "description": "Rosemount 3051T ordering table for sensor fill fluid: 1 = Silicone (starred) and 2 = Inert (not available with wireless output X).",
+   "use_for": "Use it to find the sensor fill fluid code options for a Rosemount 3051T.",
+   "structure": "rows: codes 1, 2; columns: code, description, star mark -> values"
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-59": {
+   "description": "Rosemount 3051T ordering table for housing material and conduit entry size: A/B Aluminum, E/F Aluminum ultra low copper, J/K Stainless steel with 1/2-14 NPT or M20 x 1.5, P Engineered polymer with no conduit entries (wireless only, gauge ranges 1-4), and D (Aluminum) / M (SST) with G1/2 via adapter (only with I1; IG only with D); A, B, J, P are starred.",
+   "use_for": "Use it to find the housing material and conduit entry thread for each Rosemount 3051T housing code.",
+   "structure": "rows: housing codes A, B, E, F, J, K, P, D, M; columns: housing material, conduit entry size, star mark -> values"
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-60": {
+   "description": "Rosemount 3051T ordering table (page 21) for wireless transmit rate, operating frequency and protocol: single starred code WA3 = user configurable transmit rate, 2.4 GHz WirelessHART.",
+   "use_for": "Use it to find the wireless transmit rate/frequency/protocol option code of a Rosemount 3051T.",
+   "structure": "rows: code WA3; columns: code, description, star mark -> values"
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-61": {
+   "description": "Rosemount 3051T ordering table (page 21) for antenna and SmartPower: single starred code WP5 = internal antenna, compatible with Green Power Module (I.S. Power Module sold separately).",
+   "use_for": "Use it to find the antenna and power module option code of a wireless Rosemount 3051T.",
+   "structure": "rows: code WP5; columns: code, description, star mark -> values"
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-62": {
+   "description": "Rosemount 3051T ordering table for local wireless device access: single starred code BLE = Bluetooth configuration and maintenance, requiring the Graphical LCD display (code M6).",
+   "use_for": "Use it to find the Bluetooth access option code of a Rosemount 3051T and its display requirement.",
+   "structure": "rows: code BLE; columns: code, description, star mark -> values"
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-63": {
+   "description": "Rosemount 3051T ordering table for extended product warranty: WR3 = 3-year and WR5 = 5-year limited warranty, both starred.",
+   "use_for": "Use it to find the extended warranty option codes of a Rosemount 3051T.",
+   "structure": "rows: codes WR3, WR5; columns: code, description, star mark -> values"
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-64": {
+   "description": "Rosemount 3051T ordering table (page 21) for Plantweb control functionality: single starred code A01 = FOUNDATION Fieldbus control function block suite.",
+   "use_for": "Use it to find the control function block option code of a Rosemount 3051T.",
+   "structure": "rows: code A01; columns: code, description -> values (star merged into the description cell)"
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-65": {
+   "description": "Rosemount 3051T ordering table for Plantweb diagnostic functionality: DA0 = Loop Integrity diagnostic (HART code A only), DA1 = Loop Integrity and Plugged Impulse Line diagnostics (outputs A and M; with M only Plugged Impulse Line), D01 = FOUNDATION Fieldbus Diagnostics Suite; all starred.",
+   "use_for": "Use it to find the diagnostic option codes of a Rosemount 3051T and which output each requires.",
+   "structure": "rows: codes DA0, DA1, D01; columns: code, description, star mark -> values"
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-66": {
+   "description": "Rosemount 3051T ordering table (page 22) for integral assembly: single starred code S5 = assemble to Rosemount 306 Integral Manifold.",
+   "use_for": "Use it to find the integral manifold assembly option code of a Rosemount 3051T.",
+   "structure": "rows: code S5; columns: code, description, star mark -> values"
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-67": {
+   "description": "Rosemount 3051T ordering table (page 22) for diaphragm seal assemblies: single starred code S1 = assemble to one Rosemount seal.",
+   "use_for": "Use it to find the diaphragm seal assembly option code of a Rosemount 3051T.",
+   "structure": "rows: code S1; columns: code, description, star mark -> values"
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-68": {
+   "description": "Rosemount 3051T ordering table for mounting bracket: B4 = bracket for 2-in. pipe or panel mounting, all stainless steel (starred), BE = 316SST B4 bracket with 316SST bolts.",
+   "use_for": "Use it to find the mounting bracket option codes of a Rosemount 3051T.",
+   "structure": "rows: codes B4, BE; columns: code, description, star mark -> values"
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-69": {
+   "description": "Rosemount 3051T ordering table for product certifications (pages 23-24, two Azure parts): hazardous-area approval codes for ATEX (E8, I1, IA, N1, K8), Japan (E4), USA (E5, I5, K5), Canada (E6, I6, C6, K6), IECEx (E7, I7, N7, K7, IG), Brazil (E2, I2, IB, K2), China (E3, I3), EAC (EM, IM, KM), combinations (KB, KD, KL, KS), Korea (EP, IP, KP) and India (EW, IW, KW, IZ), all starred. Footnote (1) says dust approval does not apply to wireless output X.",
+   "use_for": "Use it to find the certification code for a given country/approval type (flameproof, intrinsic safety, Type n, FISCO) on a Rosemount 3051T.",
+   "structure": "rows: certification codes; columns: code, description, star mark -> values",
+   "uncertain": "Codes I1 and I5 are OCR'd as '11' and '15'; footnotes (2)-(4) referenced by E4, I5 and KL are not included in the content."
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-71": {
+   "description": "Rosemount 3051T ordering table (page 24) for drinking water approval: single starred code DW = NSF drinking water approval.",
+   "use_for": "Use it to find the drinking water approval option code of a Rosemount 3051T.",
+   "structure": "rows: code DW; columns: code, description, star mark -> values"
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-72": {
+   "description": "Rosemount 3051T ordering table for shipboard approvals: SBS = American Bureau of Shipping, SBV = Bureau Veritas (BV), SDN = Det Norske Veritas, SLL = Lloyds Register (LR), all starred; SBV and SLL only with certification options E7, E8, I1, I7, IA, K7, K8, KD, N1, N7.",
+   "use_for": "Use it to find the shipboard (marine classification society) approval codes of a Rosemount 3051T and their certification prerequisites.",
+   "structure": "rows: codes SBS, SBV, SDN, SLL; columns: code, description, star mark -> values",
+   "uncertain": "The Lloyds Register code is OCR'd as 'SL' (the page shows SLL), and I1/I7 in the footnote as '11'/'17'."
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-73": {
+   "description": "Rosemount 3051T ordering table (page 24) for SST tagging: single code Y2 = 316 SST nameplate, top tag, wire-on tag, and fasteners (no star).",
+   "use_for": "Use it to find the stainless steel tagging option code of a Rosemount 3051T.",
+   "structure": "rows: code Y2; columns: code, description -> values"
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-74": {
+   "description": "Rosemount 3051T ordering table (page 24) for custody transfer: single starred code C5 = Measurement Canada Accuracy Approval, with limited availability depending on transmitter type and range.",
+   "use_for": "Use it to find the custody transfer (Measurement Canada) option code of a Rosemount 3051T.",
+   "structure": "rows: code C5; columns: code, description, star mark -> values"
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-75": {
+   "description": "Rosemount 3051T ordering table for calibration certification: Q4 = calibration certificate, QP = calibration certificate and tamper evident seal; both starred.",
+   "use_for": "Use it to find the calibration certificate option codes of a Rosemount 3051T.",
+   "structure": "rows: codes Q4, QP; columns: code, description, star mark -> values"
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-76": {
+   "description": "Rosemount 3051T ordering table (page 24) for material traceability certification: single starred code Q8 = material traceability certification per EN 10204 3.1.",
+   "use_for": "Use it to find the EN 10204 3.1 material traceability option code of a Rosemount 3051T.",
+   "structure": "rows: code Q8; columns: code, description, star mark -> values"
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-77": {
+   "description": "Rosemount 3051T ordering table (page 25) for positive material identification: single starred code Q76 = PMI verification and certificate.",
+   "use_for": "Use it to find the PMI option code of a Rosemount 3051T.",
+   "structure": "rows: code Q76; columns: code, description, star mark -> values"
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-78": {
+   "description": "Rosemount 3051T ordering table (page 25) for quality certification for safety: single starred code QT = safety certified to IEC 61508 with certificate of FMEDA.",
+   "use_for": "Use it to find the IEC 61508 safety certification option code of a Rosemount 3051T.",
+   "structure": "rows: code QT; columns: code, description, star mark -> values"
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-79": {
+   "description": "Rosemount 3051T ordering table (page 25) for enhanced safety: single starred code T9 = enhanced SIS proof testing and logging; the title notes it is only available with HART 4-20 mA output (code A).",
+   "use_for": "Use it to find the enhanced SIS proof testing option code of a Rosemount 3051T and its output requirement.",
+   "structure": "rows: code T9; columns: code, description, star mark -> values",
+   "uncertain": "The title has the availability note ('Only available with HART 4-20 mA output (Code A).') merged into it."
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-80": {
+   "description": "Rosemount 3051T ordering table for configuration buttons: D1 = quick service buttons (needs Graphical LCD M6), D4 = analog zero and span (HART output A only), DZ = digital zero trim (outputs A and X only); all starred.",
+   "use_for": "Use it to find the configuration button option codes of a Rosemount 3051T and their prerequisites.",
+   "structure": "rows: codes D1, D4, DZ; columns: code, description, star mark -> values"
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-81": {
+   "description": "Rosemount 3051T ordering table for display and interface options: M6 = Graphical LCD display (HART output A only), M5 = LCD display, M4 = LCD display with LOI (outputs A, M and W only); all starred.",
+   "use_for": "Use it to find the display/LOI option codes of a Rosemount 3051T and which outputs support them.",
+   "structure": "rows: codes M6, M5, M4; columns: code, description, star mark -> values",
+   "uncertain": "The Graphical LCD code is OCR'd as 'MG' (M6 elsewhere in the document)."
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-82": {
+   "description": "Rosemount 3051T ordering table (page 25) for wireless sensor module: single starred code WSM = wireless stainless steel sensor module.",
+   "use_for": "Use it to find the wireless stainless steel sensor module option code of a Rosemount 3051T.",
+   "structure": "rows: code WSM; columns: code, description, star mark -> values"
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-83": {
+   "description": "Rosemount 3051T ordering table (page 25) for transient protection: single starred code T1 = transient protection terminal block.",
+   "use_for": "Use it to find the transient protection option code of a Rosemount 3051T.",
+   "structure": "rows: code T1; columns: code, description, star mark -> values"
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-84": {
+   "description": "Rosemount 3051T ordering table (page 26) for conduit plug: single starred code DO = 316 SST conduit plug; the title carries the note that the conduit plug is not available with wireless output (code X).",
+   "use_for": "Use it to find the conduit plug option code of a Rosemount 3051T and that it excludes wireless output.",
+   "structure": "rows: code DO; columns: code, description, star mark -> values",
+   "uncertain": "The title has the intro note and OCR debris (':selected:') merged into it."
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-85": {
+   "description": "Rosemount 3051T ordering table (page 26) for software configuration: single starred code C1 = custom software configuration, referring to the Rosemount 3051 Configuration Data Sheet (wired) or Wireless Configuration Data Sheet.",
+   "use_for": "Use it to find the custom software configuration option code of a Rosemount 3051T.",
+   "structure": "rows: code C1; columns: code, description, star mark -> values"
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-86": {
+   "description": "Rosemount 3051T ordering table for alarm levels: C4 / CN = NAMUR NE 43 compliant analog output levels with high / low alarm, CR / CS = custom alarm and saturation levels with high / low alarm (require C1), CT = Rosemount standard low alarm; all starred.",
+   "use_for": "Use it to find the alarm level option code (NAMUR, custom, standard low) of a Rosemount 3051T.",
+   "structure": "rows: codes C4, CN, CR, CS, CT; columns: code, description, star mark -> values"
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-87": {
+   "description": "Rosemount 3051T ordering table (page 26) for pressure testing: single starred code P1 = hydrostatic testing with certificate, not available with pressure range 0.",
+   "use_for": "Use it to find the hydrostatic testing option code of a Rosemount 3051T and its range restriction.",
+   "structure": "rows: code P1; columns: code, description, star mark -> values"
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-88": {
+   "description": "Rosemount 3051T ordering table (page 26) for cleaning process area: P2 = cleaning for special service, P3 = cleaning for < 1 ppm chlorine/fluoride; neither starred.",
+   "use_for": "Use it to find the special cleaning option codes of a Rosemount 3051T.",
+   "structure": "rows: codes P2, P3; columns: code, description -> values"
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-89": {
+   "description": "Rosemount 3051T ordering table (page 26) for ground screw: single starred code V5 = external ground screw assembly.",
+   "use_for": "Use it to find the external ground screw option code of a Rosemount 3051T.",
+   "structure": "rows: code V5; columns: code, description, star mark -> values"
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-90": {
+   "description": "Rosemount 3051T ordering table (page 26) for surface finish: single starred code Q16 = surface finish certification for sanitary remote seals.",
+   "use_for": "Use it to find the sanitary surface finish certification option code of a Rosemount 3051T.",
+   "structure": "rows: code Q16; columns: code, description, star mark -> values"
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-91": {
+   "description": "Rosemount 3051T ordering table (page 27) for Toolkit total system performance reports: single starred code QZ = remote seal system performance calculation report.",
+   "use_for": "Use it to find the remote seal performance report option code of a Rosemount 3051T.",
+   "structure": "rows: code QZ; columns: code, description, star mark -> values"
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-92": {
+   "description": "Rosemount 3051T ordering table for conduit electrical connector: GB = ATEX cable gland and plug, M20 x 1.5, polyamide, black (not starred), GE = M12 4-pin male connector (eurofast) and GM = A size mini 4-pin male connector (minifast), both starred.",
+   "use_for": "Use it to find the electrical connector/cable gland option codes of a Rosemount 3051T.",
+   "structure": "rows: codes GB, GE, GM; columns: code, description, star mark -> values"
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-93": {
+   "description": "Rosemount 3051T ordering table for NACE certificate: Q15 = certificate of compliance to NACE MR0175/ISO 15156 for wetted materials, Q25 = certificate of compliance to NACE MR0103 for wetted materials; both starred.",
+   "use_for": "Use it to find the NACE compliance certificate option codes of a Rosemount 3051T.",
+   "structure": "rows: codes Q15, Q25; columns: code, description, star mark -> values"
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-94": {
+   "description": "Rosemount 3051T ordering table (page 27) for enhanced software: single starred code RK = enhanced software.",
+   "use_for": "Use it to find the enhanced software option code of a Rosemount 3051T.",
+   "structure": "rows: code RK; columns: code, description, star mark -> values"
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-95": {
+   "description": "Rosemount 3051T ordering table for cold temperature: BR5 = -58 °F (-50 °C) and BR6 = -76 °F (-60 °C) cold temperature operation, both starred; footnotes list the approval codes each is limited to when product certifications are required.",
+   "use_for": "Use it to find the cold temperature operation option codes and limits of a Rosemount 3051T and which certifications they combine with.",
+   "structure": "rows: codes BR5, BR6; columns: code, description, star mark -> values"
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-96": {
+   "description": "Rosemount 3051CFA ordering table for the model code: a single starred row, code 3051CFA = Annubar Flow Meter.",
+   "use_for": "Use it to find the base model code and name of the Rosemount 3051CFA Annubar flow meter.",
+   "structure": "rows: model code; columns: code, description, star mark -> values",
+   "uncertain": "The code is OCR'd with a space as '3051C FA'."
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-97": {
+   "description": "Rosemount 3051CFA ordering table (page 30) for measurement type: single starred code D = Differential pressure.",
+   "use_for": "Use it to find the measurement type code of a Rosemount 3051CFA flow meter.",
+   "structure": "rows: code D; columns: code, description, star mark -> values"
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-98": {
+   "description": "Rosemount 3051CFA ordering table for fluid type: L = Liquid, G = Gas, S = Steam; all starred.",
+   "use_for": "Use it to find the fluid type code (liquid, gas, steam) of a Rosemount 3051CFA flow meter.",
+   "structure": "rows: codes L, G, S; columns: code, description, star mark -> values"
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-99": {
+   "description": "Rosemount 3051CFA ordering table for line size: three-digit codes 020 to 960 for nominal pipe sizes from 2 in. (50 mm) to 96 in. (2400 mm); codes 020-120 (up to 12 in./300 mm) are starred, 140-960 are not.",
+   "use_for": "Use it to find the line size code for a given pipe size of a Rosemount 3051CFA Annubar flow meter and whether it is starred.",
+   "structure": "rows: line size codes 020-960; columns: code, description (in. with mm), star mark -> values",
+   "uncertain": "Fractional sizes are OCR'd as '21/2 in.' and '31/2 in.' (2 1/2 and 3 1/2 in.)."
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-100": {
+   "description": "Rosemount 3051CFA ordering table (page 31) for pipe ID range: single starred code Z = custom manufactured for customer-supplied pipe ID.",
+   "use_for": "Use it to find the pipe ID range code of a Rosemount 3051CFA flow meter.",
+   "structure": "rows: code Z; columns: code, description, star mark -> values"
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-101": {
+   "description": "Rosemount 3051CFA ordering table for pipe material/mounting assembly material: C = CS (A105), S = 316 SST and 0 = no mounting (customer-supplied), all starred, plus chrome-moly grades G = F-11, N = F-22, J = F-91.",
+   "use_for": "Use it to find the pipe/mounting assembly material code of a Rosemount 3051CFA flow meter.",
+   "structure": "rows: codes C, S, 0, G, N, J; columns: code, description, star mark -> values"
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-102": {
+   "description": "Rosemount 3051CFA ordering table for piping orientation: H = horizontal piping, D = vertical piping with downward flow, U = vertical piping with upward flow; all starred.",
+   "use_for": "Use it to find the piping orientation code of a Rosemount 3051CFA flow meter.",
+   "structure": "rows: codes H, D, U; columns: code, description, star mark -> values"
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-103": {
+   "description": "Rosemount 3051CFA ordering table for Annubar type: P = Pak-Lok and F = Flanged with opposite side support (starred), L = Flange-Lok, G = Gear-drive Flo-Tap, M = Manual Flo-Tap.",
+   "use_for": "Use it to find the Annubar mounting style code (Pak-Lok, flanged, Flange-Lok, Flo-Tap) of a Rosemount 3051CFA.",
+   "structure": "rows: codes P, F, L, G, M; columns: code, description, star mark -> values"
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-104": {
+   "description": "Rosemount 3051CFA ordering table for sensor material: S = 316 SST (starred), H = Alloy C-276.",
+   "use_for": "Use it to find the Annubar sensor material code of a Rosemount 3051CFA.",
+   "structure": "rows: codes S, H; columns: code, description, star mark -> values"
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-105": {
+   "description": "Rosemount 3051CFA ordering table for sensor size: 1 = line sizes 2-8 in. (50-200 mm), 2 = line sizes 6-96 in. (150-2400 mm), 3 = line sizes greater than 12 in. (300 mm); all starred.",
+   "use_for": "Use it to find which Annubar sensor size code of a Rosemount 3051CFA fits a given line size.",
+   "structure": "rows: sensor size codes 1, 2, 3; columns: code, description, star mark -> values"
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-106": {
+   "description": "Rosemount 3051CFA ordering table for mounting type: T1 = compression or threaded connection, ASME B16.5 RF flanges A1/A3/A6/A9/AF/AT (Class 150 to 2500), EN-1092-1 RF flanges D1/D3/D6 (PN16, PN40, PN100) and ASME B16.5 RTJ flanges R1/R3/R6/R9/RF/RT (Class 150 to 2500); T1, A1-A6 and D1-D6 are starred, Class 900-2500 are remote mount only.",
+   "use_for": "Use it to find the mounting/flange connection code of a Rosemount 3051CFA for a given flange standard and pressure class.",
+   "structure": "rows: mounting codes T1, A1-AT, D1-D6, R1-RT; columns: code, description, star mark -> values",
+   "uncertain": "Codes A9 and R9 are OCR'd as 'Ag' and 'Rg'."
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-107": {
+   "description": "Rosemount 3051CFA ordering table (page 33), upper part of the opposite side support or packing gland selection: 0 = no opposite side support or packing gland, and under 'Opposite side support' C = NPT threaded and D = welded opposite support assembly; all starred.",
+   "use_for": "Use it to find the opposite side support codes (0, C, D) of a Rosemount 3051CFA.",
+   "structure": "rows: codes 0, C, D; columns: code, description, star mark -> values",
+   "uncertain": "Mistitled 'Mounting type': on the page it is the top of the 'Opposite side support or packing gland' table, split by Azure; its footnotes (required for Pak-Lok/Flange-Lok, flanged models) ended up in table-azure-108."
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-108": {
+   "description": "Rosemount 3051CFA ordering table (page 33), packing gland part of the opposite side support or packing gland selection: packing gland codes with packing gland material (SST or Alloy C-276 packing gland/cage nipple), rod material (carbon steel or stainless steel) and packing material (PTFE or graphite), e.g. K = SST gland, SST rod, PTFE; R = Alloy C-276 gland, SST rod, graphite. Footnotes: 0 required for Pak-Lok and Flange-Lok, opposite side support for flanged models, packing gland for Flo-Tap models; cage nipple of 304 SST.",
+   "use_for": "Use it to find the packing gland, rod and packing materials of each Rosemount 3051CFA packing gland code.",
+   "structure": "rows: packing gland codes; columns: packing gland material, rod material, packing material, star mark -> values",
+   "uncertain": "The codes of the first and third rows are missing in the OCR (only footnote markers; the page shows J and L); this is the lower half of a table split by Azure, the upper half being table-azure-107."
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-109": {
+   "description": "Rosemount 3051CFA ordering table for isolation valve for Flo-Tap models: 0 = not applicable or customer-supplied (starred), 1 = gate valve CS, 2 = gate valve SST, 5 = ball valve CS, 6 = ball valve SST.",
+   "use_for": "Use it to find the Flo-Tap isolation valve code (gate/ball, CS/SST) of a Rosemount 3051CFA.",
+   "structure": "rows: codes 0, 1, 2, 5, 6; columns: code, description, star mark -> values",
+   "uncertain": "The code of the first row is missing in the OCR (only '(1)'); the page shows 0."
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-110": {
+   "description": "Rosemount 3051CFA ordering table for temperature measurement: T = integral RTD (not with flanged models above Class 600) and 0 = no temperature sensor, both starred, R = remote thermowell and RTD.",
+   "use_for": "Use it to find the temperature measurement option code of a Rosemount 3051CFA flow meter.",
+   "structure": "rows: codes T, 0, R; columns: code, description, star mark -> values"
+  },
+  "rosemount-3051-00813-0100-4001/table-azure-111": {
+   "description": "Rosemount 3051CFA ordering table for transmitter connection platform: 3 = direct-mount integral 3-valve manifold, 5 = direct-mount 5-valve manifold and 7 = remote-mount 1/2-inch NPT connections (starred), 6 = direct-mount high temperature 5-valve manifold, 8 = remote-mount 1/2-inch SW connections; direct-mount options are not available with flanged models above Class 600.",
+   "use_for": "Use it to find the transmitter connection platform code (direct-mount manifold or remote-mount) of a Rosemount 3051CFA.",
+   "structure": "rows: codes 3, 5, 7, 6, 8; columns: code, description, star mark -> values"
+  }
+ }
+}

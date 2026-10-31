@@ -1,0 +1,300 @@
+{
+  "descriptions": {
+    "rosemount-3051-00813-0100-4001/fig-1.1": {
+      "description": "Cover photo (p. 1) of six Rosemount 3051 configurations: a coplanar transmitter on an integral manifold, a compact conditioning orifice flow meter, a coplanar transmitter, an in-line transmitter, a level transmitter with a capillary remote diaphragm seal, and a flanged level transmitter.",
+      "use_for": "Use it to find what the main Rosemount 3051 product variants look like; it holds no specification data."
+    },
+    "rosemount-3051-00813-0100-4001/fig-2.1": {
+      "description": "Photo (p. 2, 'Setting the standard for pressure measurement') of a Rosemount 3051C coplanar transmitter with LCD display mounted on an integral manifold with colour-coded valve handles.",
+      "use_for": "Use it to find what a Rosemount 3051C coplanar transmitter with integral manifold looks like; it holds no specification data."
+    },
+    "rosemount-3051-00813-0100-4001/fig-3.1": {
+      "description": "Close-up photo (p. 3, 'Advanced functionality', Bluetooth technology paragraph) of the transmitter housing whose LCD shows the Bluetooth symbol.",
+      "use_for": "Use it to find how the Bluetooth feature appears on the transmitter display; it holds no specification data."
+    },
+    "rosemount-3051-00813-0100-4001/fig-3.2": {
+      "description": "Close-up photo (p. 3, Diagnostics paragraph) of the transmitter LCD showing the 'Loop Integrity Diagnostic' screen.",
+      "use_for": "Use it to find how the Loop Integrity Diagnostic is shown on the transmitter display; it holds no specification data."
+    },
+    "rosemount-3051-00813-0100-4001/fig-3.3": {
+      "description": "Close-up photo (p. 3, Enhanced software paragraph) of the transmitter LCD showing a flow rate reading in lb/hr with a percent bar graph and the label 'Flow Rate'.",
+      "use_for": "Use it to find how the display presents a flow rate variable from the application-specific software; it holds no specification data."
+    },
+    "rosemount-3051-00813-0100-4001/fig-3.4": {
+      "description": "Close-up photo (p. 3, Quick service buttons paragraph) of the transmitter LCD showing the button menu with 'Scroll'/'Enter' and the items 'Top of Menu', 'View Config' and 'Zero'.",
+      "use_for": "Use it to find what the local quick-service-button menu looks like on the display; it holds no specification data."
+    },
+    "rosemount-3051-00813-0100-4001/fig-4.1": {
+      "description": "Photo (p. 4, WirelessHART / IEC 62591 section) of three wireless Rosemount 3051 transmitters: a coplanar transmitter with manifold, an Annubar flow meter and a flanged level transmitter.",
+      "use_for": "Use it to find what the WirelessHART versions of the Rosemount 3051 look like; it holds no specification data."
+    },
+    "rosemount-3051-00813-0100-4001/fig-4.2": {
+      "description": "Photo (p. 4, 'Innovative integrated DP flow meters') of three integrated DP flow meters: an integral orifice flow meter, a compact conditioning orifice flow meter and an Annubar flow meter.",
+      "use_for": "Use it to find what the integrated DP flow meter variants look like; it holds no specification data."
+    },
+    "rosemount-3051-00813-0100-4001/fig-4.3": {
+      "description": "Photo (p. 4, 'DP Level technologies') of a Rosemount 3051L flanged level transmitter with LCD display showing a level reading.",
+      "use_for": "Use it to find what the Rosemount 3051L direct-mount flanged level transmitter looks like; it holds no specification data."
+    },
+    "rosemount-3051-00813-0100-4001/fig-5.1": {
+      "description": "Photo (p. 5, 'Instrument manifolds') of four Rosemount stainless steel instrument manifolds of different styles (valve blocks with two or more T-handle valves).",
+      "use_for": "Use it to find what the Rosemount instrument manifold styles look like; it holds no specification data or model codes."
+    },
+    "rosemount-3051-00813-0100-4001/fig-5.2": {
+      "description": "Photo (p. 5, Rosemount 3051C Coplanar Pressure Transmitter ordering information) of a 3051C coplanar transmitter with LCD and integral manifold.",
+      "use_for": "Use it to find what the Rosemount 3051C coplanar transmitter with integral manifold looks like; it holds no specification data."
+    },
+    "rosemount-3051-00813-0100-4001/fig-6.1": {
+      "description": "Rosemount 3051C model code example image (Figure 1: Model Code Example, p. 6): the code '3051CD3A22A1A WR5M6BLEDA1' with part 1 = required model components and part 2 = additional options.",
+      "use_for": "Use it to find how a typical Rosemount 3051C model code is split into required model components and additional option codes.",
+      "uncertain": "Inventory title says no caption, but the page prints 'Figure 1: Model Code Example' above the image."
+    },
+    "rosemount-3051-00813-0100-4001/fig-18.1": {
+      "description": "Photo (p. 18, Rosemount 3051T In-Line Transmitter ordering information) of a 3051T in-line pressure transmitter with LCD display and a threaded process connection at the bottom.",
+      "use_for": "Use it to find what the Rosemount 3051T in-line transmitter looks like; it holds no specification data."
+    },
+    "rosemount-3051-00813-0100-4001/fig-28.1": {
+      "description": "Photo (p. 28, Rosemount 3051CFA Annubar Flow Meter overview) of two 3051CFA Annubar flow meters, each a transmitter on a manifold above an Annubar sensor probe.",
+      "use_for": "Use it to find what the Rosemount 3051CFA Annubar flow meter looks like; it holds no specification data."
+    },
+    "rosemount-3051-00813-0100-4001/fig-28.2": {
+      "description": "Photo (p. 28, Rosemount 3051CFC Compact Conditioning Flow Meter overview) of a 3051CFC with transmitter, manifold and a conditioning orifice plate with four holes.",
+      "use_for": "Use it to find what the Rosemount 3051CFC compact conditioning orifice flow meter looks like; it holds no specification data."
+    },
+    "rosemount-3051-00813-0100-4001/fig-28.3": {
+      "description": "Photo (p. 28, Rosemount 3051CFP Integral Orifice Flow Meter overview) of two 3051CFP integral orifice flow meters with flanged pipe sections.",
+      "use_for": "Use it to find what the Rosemount 3051CFP integral orifice flow meter looks like; it holds no specification data."
+    },
+    "rosemount-3051-00813-0100-4001/fig-29.1": {
+      "description": "Photo (p. 29, Rosemount 3051CFA Annubar Flow Meter ordering information) of two 3051CFA Annubar flow meters (same photo as on p. 28).",
+      "use_for": "Use it to find what the Rosemount 3051CFA Annubar flow meter looks like; it holds no specification data."
+    },
+    "rosemount-3051-00813-0100-4001/fig-43.1": {
+      "description": "Photo (p. 43, Rosemount 3051CFC Compact Flow Meter ordering information) of a 3051CFC with transmitter, manifold and conditioning orifice plate (same photo as on p. 28).",
+      "use_for": "Use it to find what the Rosemount 3051CFC compact flow meter looks like; it holds no specification data."
+    },
+    "rosemount-3051-00813-0100-4001/fig-53.1": {
+      "description": "Photo (p. 53, Rosemount 3051CFP Integral Orifice Flow Meter ordering information) of a 3051CFP: transmitter with manifold on a flanged small-bore pipe section.",
+      "use_for": "Use it to find what the Rosemount 3051CFP integral orifice flow meter looks like; it holds no specification data.",
+      "uncertain": "Same photo as fig-pdf-53-5 (Azure detected it with a tighter box); the two sources are duplicates."
+    },
+    "rosemount-3051-00813-0100-4001/fig-64.1": {
+      "description": "Photo (p. 64, Rosemount 3051L Level Transmitter ordering information) of a 3051L flanged level transmitter with LCD (same photo as on p. 4).",
+      "use_for": "Use it to find what the Rosemount 3051L level transmitter looks like; it holds no specification data."
+    },
+    "rosemount-3051-00813-0100-4001/fig-82.1": {
+      "description": "Load limitation chart for the 4-20 mA HART output (output code A, p. 82): load A (Ω) from 0 to 1387 versus power supply voltage C (Vdc) from 10.5 to 42.4, with a straight line from 10.5 V / 0 Ω to 42.4 V / 1387 Ω bounding the shaded operating region B.",
+      "use_for": "Use it to find the allowed loop load (resistance) for a given supply voltage of a 4-20 mA HART Rosemount 3051, up to 1387 Ω at 42.4 Vdc.",
+      "uncertain": "Chart image of the same data as fig-82.1/chart-1; legend A/B/C (Load, Operating region, Voltage) is printed below the crop."
+    },
+    "rosemount-3051-00813-0100-4001/fig-96.1": {
+      "description": "Exploded view of the Rosemount 3051C (Figure 7, p. 96) with callouts A-Q: cover, cover O-ring, terminal block, electronics housing, configuration buttons cover, local configuration buttons, electronics board, name plate, housing rotation set screw, sensor module, coplanar flange, drain/vent valve, flange adapters, process O-ring, flange adapter O-ring, flange alignment screw and flange bolts.",
+      "use_for": "Use it to find the names and arrangement of the parts of a Rosemount 3051C transmitter (which letter A-Q is which component); it gives no dimensions."
+    },
+    "rosemount-3051-00813-0100-4001/fig-97.1": {
+      "description": "Front view of the Rosemount 3051C with coplanar flange (Figure 8, left view, p. 97), dimensioned in inches (millimeters): housing width 4.09 (104) and overall height 7.12 (181).",
+      "use_for": "Use it to find the housing width and overall height of a Rosemount 3051C coplanar transmitter."
+    },
+    "rosemount-3051-00813-0100-4001/fig-97.2": {
+      "description": "Side view of the Rosemount 3051C with coplanar flange (Figure 8, right view, p. 97), in inches (millimeters): housing width across the covers 4.29 (109) and width across the drain/vent valves 6.55 (166); H/L sides marked on the module.",
+      "use_for": "Use it to find the width across the covers and across the drain/vent valves of a Rosemount 3051C coplanar transmitter.",
+      "uncertain": "Inventory title missing; on the page this view belongs to Figure 8: Rosemount 3051C Coplanar Flange."
+    },
+    "rosemount-3051-00813-0100-4001/fig-97.3": {
+      "description": "Front view of the Rosemount 3051 wireless housing on a coplanar flange (Figure 9, left view, p. 97), dimensioned for overall width 4.196 (106.6) in inches (millimeters).",
+      "use_for": "Use it to find the front-view width of the Rosemount 3051 wireless housing with coplanar flange."
+    },
+    "rosemount-3051-00813-0100-4001/fig-97.4": {
+      "description": "Side view of the Rosemount 3051 wireless housing on a coplanar flange (Figure 9, right view, p. 97), in inches (millimeters): housing depth 5.49 (139) and overall height 7.41 (188).",
+      "use_for": "Use it to find the side-view depth and overall height of the Rosemount 3051 wireless housing with coplanar flange.",
+      "uncertain": "Inventory title missing; on the page this view belongs to Figure 9: Rosemount 3051 Wireless Housing with Coplanar Flange."
+    },
+    "rosemount-3051-00813-0100-4001/fig-98.1": {
+      "description": "Front view of the Rosemount 3051C with a Rosemount 305RC3 3-valve coplanar integral manifold (Figure 10, left view, p. 98), in inches (millimeters): height 6.75 (171) from the housing top to the manifold mid-line and 5.50 (140) extent with the valve handle at maximum open.",
+      "use_for": "Use it to find the height and the maximum-open handle extent of a 3051C with a 305RC3 coplanar integral manifold."
+    },
+    "rosemount-3051-00813-0100-4001/fig-98.2": {
+      "description": "Side view of the Rosemount 3051C with a Rosemount 305RC3 3-valve coplanar integral manifold (Figure 10, right view, p. 98), dimensioned for the overall width across both valve handles at maximum open: 9.20 (234) in inches (millimeters).",
+      "use_for": "Use it to find the overall width across the valve handles (maximum open) of a 3051C with a 305RC3 manifold.",
+      "uncertain": "Inventory title missing; on the page this view belongs to Figure 10."
+    },
+    "rosemount-3051-00813-0100-4001/fig-99.1": {
+      "description": "Coplanar flange mounting with the optional B4 bracket (Figure 11, p. 99): panel mounting (6.20 (157), 2.81 (71), 4.73 (120)) and 2-in. pipe mounting (6.25 (159), 3.50 (89)) views plus bracket details (2.81 (71), 3.35 (85)), in inches (millimeters); callouts A 5/16-18 bolts (not supplied), B 3/8-16 bolts, C 2-in. U-bolt, D 3/8-16 bolts.",
+      "use_for": "Use it to find the mounting dimensions and bolt hardware of a coplanar-flange Rosemount 3051 on a panel or 2-in. pipe with bracket option B4."
+    },
+    "rosemount-3051-00813-0100-4001/fig-100.1": {
+      "description": "Front view of the Rosemount 3051C coplanar with traditional flange (Figure 12, left view, p. 100), in inches (millimeters): housing width 4.09 (104), drain/vent protrusion 1.16 (29), traditional flange width 3.40 (86) and flange adapter (A, optional) 1.10 (28).",
+      "use_for": "Use it to find the housing width and the widths of the traditional flange, drain/vent valve and optional flange adapter of a 3051C with traditional flange."
+    },
+    "rosemount-3051-00813-0100-4001/fig-100.2": {
+      "description": "Side view of the Rosemount 3051C with traditional flange (Figure 12, right view, p. 100) showing the flange bolt pattern, in inches (millimeters): bolt spacing 1.63 (41) and process connection centre distance 2.13 (54).",
+      "use_for": "Use it to find the process connection centre-to-centre distance and flange bolt spacing of the traditional flange.",
+      "uncertain": "Inventory title missing; on the page this view belongs to Figure 12: Rosemount 3051C Coplanar with Traditional Flange."
+    },
+    "rosemount-3051-00813-0100-4001/fig-100.3": {
+      "description": "Front view of the Rosemount 3051C coplanar with a Rosemount 305RT3 3-valve traditional integral manifold (Figure 13, left view, p. 100), in inches (millimeters): heights 6.28 (159) and 3.63 (92), widths 0.91 (23), 3.50 (89) and 1.10 (28) for the 1/2-14 NPT flange adapter (A, optional).",
+      "use_for": "Use it to find the heights and stack widths of a 3051C with a 305RT3 traditional integral manifold."
+    },
+    "rosemount-3051-00813-0100-4001/fig-100.4": {
+      "description": "Side view of the Rosemount 3051C with a Rosemount 305RT3 3-valve traditional integral manifold (Figure 13, right view, p. 100), in inches (millimeters): process connection centres 2.13 (54), handle extents 6.38 (162) and 2.52 (64).",
+      "use_for": "Use it to find the process connection spacing and valve handle extents of a 3051C with a 305RT3 manifold.",
+      "uncertain": "Inventory title missing; on the page this view belongs to Figure 13."
+    },
+    "rosemount-3051-00813-0100-4001/fig-101.1": {
+      "description": "Traditional flange mounting configurations (Figure 14, p. 101) in three views: panel mounting bracket option B2/B8 (9.27 (235), 2.62 (67), bracket detail 2.81 (71)), pipe mounting bracket option B1/B7/BA (2.62 (67), 6.65 (169), 0.93 (24), 4.12 (105)) and pipe mounting bracket option B3/B9/BC (6.65 (169), 4.85 (123), 1.10 (28), 3.40 (86), 1.75 (44)), in inches (millimeters); A = 5/16-18 bolts (not supplied).",
+      "use_for": "Use it to find the mounting dimensions of a traditional-flange Rosemount 3051 with bracket options B1/B7/BA, B2/B8 or B3/B9/BC on a panel or 2-in. pipe.",
+      "uncertain": "Inventory title has the view titles 'Panel mounting bracket (option B2/B8)' and 'Pipe mounting bracket (option B1/B7/BA)' appended to the Figure 14 caption."
+    },
+    "rosemount-3051-00813-0100-4001/fig-102.1": {
+      "description": "Front view of the Rosemount 3051T (Figure 15, left view, p. 102), in inches (millimeters): housing width 4.09 (104) and overall height R1-4: 7.22 (183), R5: 7.32 (186).",
+      "use_for": "Use it to find the housing width and overall height of a Rosemount 3051T, with separate heights for R1-4 and R5."
+    },
+    "rosemount-3051-00813-0100-4001/fig-102.2": {
+      "description": "Side view of the Rosemount 3051T with the standard housing (Figure 15, right view, p. 102), dimensioned for housing width 4.29 (109) in inches (millimeters).",
+      "use_for": "Use it to find the side-view housing width of a standard Rosemount 3051T.",
+      "uncertain": "Title is wrong: this is the right-hand view of Figure 15 (Rosemount 3051T, standard housing), not Figure 16 (Wireless Housing), whose caption is printed below it."
+    },
+    "rosemount-3051-00813-0100-4001/fig-102.3": {
+      "description": "Front view of the Rosemount 3051T with wireless housing (Figure 16, left view, p. 102), dimensioned for overall width 4.20 (107) in inches (millimeters); callout A = U-bolt bracket.",
+      "use_for": "Use it to find the front-view width of the Rosemount 3051T wireless housing.",
+      "uncertain": "Inventory title missing; on the page this view belongs to Figure 16: Rosemount 3051T Wireless Housing."
+    },
+    "rosemount-3051-00813-0100-4001/fig-102.4": {
+      "description": "Side view of the Rosemount 3051T wireless housing (Figure 16, right view, p. 102), in inches (millimeters): depth 5.49 (139) and overall height R1-4: 7.56 (192), R5: 7.66 (195).",
+      "use_for": "Use it to find the depth and overall height of the Rosemount 3051T with wireless housing, with separate heights for R1-4 and R5.",
+      "uncertain": "Inventory title missing; on the page this view belongs to Figure 16: Rosemount 3051T Wireless Housing."
+    },
+    "rosemount-3051-00813-0100-4001/fig-103.1": {
+      "description": "Rosemount 3051T in-line range 6 transmitter with standard housing (Figure 17, 'In-line' view, p. 103), overall height 7.86 (199,5) in inches (millimeters); callout A = Autoclave type F-250-C process connection.",
+      "use_for": "Use it to find the overall height and process connection type of the Rosemount 3051T in-line range 6."
+    },
+    "rosemount-3051-00813-0100-4001/fig-103.2": {
+      "description": "Rosemount 3051T wireless in-line range 6 transmitter (Figure 17, 'Wireless in-line' view, p. 103), overall height 8.13 (206,6) in inches (millimeters).",
+      "use_for": "Use it to find the overall height of the wireless Rosemount 3051T in-line range 6.",
+      "uncertain": "Inventory title missing; on the page this view belongs to Figure 17: Rosemount 3051T In-Line Range 6."
+    },
+    "rosemount-3051-00813-0100-4001/fig-103.3": {
+      "description": "Front view of the Rosemount 3051T on a Rosemount 306 2-valve integral manifold (Figure 18, left view, p. 103), manifold height 4.13 (105) in inches (millimeters).",
+      "use_for": "Use it to find the height of the Rosemount 306 2-valve integral manifold below a 3051T."
+    },
+    "rosemount-3051-00813-0100-4001/fig-103.4": {
+      "description": "Side view of the Rosemount 3051T on a Rosemount 306 2-valve integral manifold (Figure 18, right view, p. 103), in inches (millimeters): manifold height 4.88 (124) and width across the valve handles 6.25 (159) max open.",
+      "use_for": "Use it to find the manifold height and maximum-open handle width of a 3051T with a 306 manifold.",
+      "uncertain": "Inventory title missing; on the page this view belongs to Figure 18."
+    },
+    "rosemount-3051-00813-0100-4001/fig-104.1": {
+      "description": "Rosemount 3051T typical mounting configurations with the optional mounting bracket (Figure 19, p. 104): pipe mounting side and front views (3.49 (89), 6.15 (156)) and a panel mounting view (6.15 (156), 2.81 (71), 4.78 (121)), in inches (millimeters).",
+      "use_for": "Use it to find the bracket mounting dimensions of a Rosemount 3051T on a pipe or panel.",
+      "uncertain": "Inventory title missing; on the page this is Figure 19: Rosemount 3051T Typical Mounting Configurations with Optional Mounting Bracket (view titles outside the crop)."
+    },
+    "rosemount-3051-00813-0100-4001/fig-104.2": {
+      "description": "Front view of the Rosemount 3051CFA Pak-Lok Annubar flow meter on a pipe (Figure 20, p. 104) with dimension letters A (manifold to pipe top) and B (housing top to pipe top); the values per sensor size are in table-10.",
+      "use_for": "Use it to find which extents the letters A and B of the 3051CFA Pak-Lok dimensional table refer to; the drawing itself carries no numbers.",
+      "uncertain": "Only the front view of Figure 20; fig-pdf-104-16 holds the full three-view drawing (overlap). Inventory title missing."
+    },
+    "rosemount-3051-00813-0100-4001/fig-105.1": {
+      "description": "Rosemount 3051CFC compact orifice flow meter (Figure 21, p. 105) in orifice plate side, front and top views, drawn for the compact orifice plate (primary element type code P) and the conditioning orifice plate (type code C), with dimension letters A-D; the values are in table-10.",
+      "use_for": "Use it to find which extents the letters A, B, C and D of the 3051CFC dimensional table refer to for type P and type C plates; the drawing itself carries no numbers."
+    },
+    "rosemount-3051-00813-0100-4001/fig-106.1": {
+      "description": "Rosemount 3051CFP integral orifice flow meter (Figure 22, p. 106) in side, bottom and front views, in inches (millimeters): 8.80 (223.46) across the manifold handles, 10.30 (261.81), 6.30 (160.55) and 5.30 (134.51) in the front view, with bore diameter A and run lengths K (downstream) and J (upstream) whose values per line size are in table-azure-308.",
+      "use_for": "Use it to find the manifold and transmitter envelope dimensions of the 3051CFP and which run lengths J/K and bore diameter A the dimensional table refers to.",
+      "uncertain": "Inventory title missing; on the page this is Figure 22: Rosemount 3051CFP Integral Orifice Flow meter."
+    },
+    "rosemount-3051-00813-0100-4001/fig-107.1": {
+      "description": "Rosemount 3051L configurations (Figure 23, p. 107): 2-inch flush-mount flange, 3- and 4-inch flange with extension E, and diaphragm assembly/mounting flange view, with housing width 4.09 (104), widths 5.13 (130) and 4.29 (109), heights 6.80 (173), 7.10 (181) and 8.20 (209) in inches (millimeters), and letters A-D whose values are in table-11.",
+      "use_for": "Use it to find the housing envelope dimensions of the Rosemount 3051L and which flange extents A-D (flange thickness, B, extension diameter, gasket surface O.D.) table-11 refers to.",
+      "uncertain": "Inventory title missing; on the page this is Figure 23: Rosemount 3051L Configurations (view titles outside the crop). What the lower ends of 6.80/7.10/8.20 refer to is not labelled."
+    },
+    "rosemount-3051-00813-0100-4001/fig-108.1": {
+      "description": "Cross-section of the optional flushing connection ring (lower housing) for the Rosemount 3051L (Figure 24, left view, p. 108) with letters A (thickness), H (process side diameter), J (outside diameter) and F (threaded flushing connection); values are in table-azure-310.",
+      "use_for": "Use it to find which ring extents the letters A, H, J and F of the flushing ring table refer to; the drawing itself carries no numbers."
+    },
+    "rosemount-3051-00813-0100-4001/fig-108.2": {
+      "description": "Face view of the Rosemount 3051L flushing connection ring (Figure 24, right view, p. 108) showing the bolt holes, with letters G (bolt circle diameter) and J (outside diameter); values are in table-azure-310.",
+      "use_for": "Use it to find which extents the letters G and J of the flushing ring table refer to; the drawing itself carries no numbers.",
+      "uncertain": "Inventory title missing; on the page this view belongs to Figure 24."
+    },
+    "rosemount-3051-00813-0100-4001/fig-pdf-18-2": {
+      "description": "Rosemount 3051T model code example image (Figure 2: Model Code Example, p. 18): the code '3051TG3A2B21A WR5M6BLEDA1' with part 1 = required model components and part 2 = additional options.",
+      "use_for": "Use it to find how a typical Rosemount 3051T model code is split into required model components and additional option codes.",
+      "uncertain": "Inventory title says no caption, but the page prints 'Figure 2: Model Code Example' above the image."
+    },
+    "rosemount-3051-00813-0100-4001/fig-pdf-30-3": {
+      "description": "Rosemount 3051CFA model code example image (Figure 3: Model Code Example, p. 30): the code '3051CFADL060ZSHPS1T100072AA1 WR5M6BLEDA1RK' with part 1 = required model components and part 2 = additional options.",
+      "use_for": "Use it to find how a typical Rosemount 3051CFA Annubar flow meter model code is split into required components and additional options.",
+      "uncertain": "Inventory title says no caption (page prints 'Figure 3: Model Code Example'); the code differs from the typical 3051CFA code given in the p. 29 text."
+    },
+    "rosemount-3051-00813-0100-4001/fig-pdf-44-4": {
+      "description": "Rosemount 3051CFC model code example image (Figure 4: Model Code Example, p. 44): the code '3051CFCDL060ZSHPS1T100072AA1 WR5M6BLEDA1RK' with part 1 = required model components and part 2 = additional options.",
+      "use_for": "Use it to find how a typical Rosemount 3051CFC compact flow meter model code is split into required components and additional options.",
+      "uncertain": "Inventory title says no caption (page prints 'Figure 4: Model Code Example'); the code differs from the typical 3051CFC code given in the p. 43 text."
+    },
+    "rosemount-3051-00813-0100-4001/fig-pdf-53-5": {
+      "description": "Photo (p. 53, Rosemount 3051CFP Integral Orifice Flow Meter ordering information) of a 3051CFP: transmitter with manifold on a flanged small-bore pipe section.",
+      "use_for": "Use it to find what the Rosemount 3051CFP integral orifice flow meter looks like; it holds no specification data.",
+      "uncertain": "Duplicate of fig-53.1 (same photo, full raster)."
+    },
+    "rosemount-3051-00813-0100-4001/fig-pdf-54-6": {
+      "description": "Model code example image in the Rosemount 3051CFP section (Figure 5: Model Code Example, p. 54): the code '3051CFADL060ZSHPS1T100072AA1 WR5M6BLEDA1RK' with part 1 = required model components and part 2 = additional options.",
+      "use_for": "Use it to find how a flow meter model code is split into required model components and additional options.",
+      "uncertain": "Looks wrong in the document: the code is the 3051CFA example (identical to Figure 3), although this is the 3051CFP Integral Orifice Flow Meter section. Inventory title also misses the printed caption."
+    },
+    "rosemount-3051-00813-0100-4001/fig-pdf-64-7": {
+      "description": "Rosemount 3051L model code example image (Figure 6: Model Code Example, p. 64): the code '3051L3AA01D11AA WR5M6BLEDA1RK' with part 1 = required model components and part 2 = additional options.",
+      "use_for": "Use it to find how a typical Rosemount 3051L level transmitter model code is split into required components and additional options.",
+      "uncertain": "Inventory title says no caption, but the page prints 'Figure 6: Model Code Example' above the image."
+    },
+    "rosemount-3051-00813-0100-4001/fig-pdf-76-8": {
+      "description": "Reference accuracy equation image from the reference accuracy table (p. 76), Rosemount 3051C Range 5 row: ±[0,015 + 0,005(URL/Span)]% of Span, applied to reduced spans.",
+      "use_for": "Use it to find the reduced-span reference accuracy formula for a Rosemount 3051C Range 5.",
+      "uncertain": "Identical image to fig-pdf-76-9; the row assignment follows the order on the page."
+    },
+    "rosemount-3051-00813-0100-4001/fig-pdf-76-9": {
+      "description": "Reference accuracy equation image from the reference accuracy table (p. 76), Rosemount 3051C Ranges 2-4 row: ±[0,015 + 0,005(URL/Span)]% of Span, applied to reduced spans.",
+      "use_for": "Use it to find the reduced-span reference accuracy formula for Rosemount 3051C Ranges 2-4.",
+      "uncertain": "Identical image to fig-pdf-76-8; the row assignment follows the order on the page."
+    },
+    "rosemount-3051-00813-0100-4001/fig-pdf-76-10": {
+      "description": "Reference accuracy equation image from the reference accuracy table (p. 76), Rosemount 3051C Range 1 row: ±[0,025 + 0,005(URL/Span)]% of Span, applied to reduced spans.",
+      "use_for": "Use it to find the reduced-span reference accuracy formula for a Rosemount 3051C Range 1."
+    },
+    "rosemount-3051-00813-0100-4001/fig-pdf-76-11": {
+      "description": "Reference accuracy equation image from the reference accuracy table (p. 76), Rosemount 3051CA Ranges 1-4 row: ±[0,0075(URL/Span)]% of Span, applied to reduced spans.",
+      "use_for": "Use it to find the reduced-span reference accuracy formula for Rosemount 3051CA Ranges 1-4.",
+      "uncertain": "Identical image to fig-pdf-76-13; the row assignment follows the order on the page."
+    },
+    "rosemount-3051-00813-0100-4001/fig-pdf-76-12": {
+      "description": "Reference accuracy equation image from the reference accuracy table (p. 76), Rosemount 3051T Range 0 row: ±[0,05 + 0,01(URL/Span)]% of span, applied to reduced spans.",
+      "use_for": "Use it to find the reduced-span reference accuracy formula for a Rosemount 3051T Range 0."
+    },
+    "rosemount-3051-00813-0100-4001/fig-pdf-76-13": {
+      "description": "Reference accuracy equation image from the reference accuracy table (p. 76), Rosemount 3051T Ranges 1-4 row: ±[0,0075(URL/Span)]% of Span, applied to reduced spans.",
+      "use_for": "Use it to find the reduced-span reference accuracy formula for Rosemount 3051T Ranges 1-4.",
+      "uncertain": "Identical image to fig-pdf-76-11; the row assignment follows the order on the page."
+    },
+    "rosemount-3051-00813-0100-4001/fig-pdf-77-14": {
+      "description": "Reference accuracy equation image from the reference accuracy table (p. 77), Rosemount 3051L Ranges 2-4 row: ±[0,025 + 0,005(URL/Span)]% of Span, applied to reduced spans.",
+      "use_for": "Use it to find the reduced-span reference accuracy formula for Rosemount 3051L Ranges 2-4."
+    },
+    "rosemount-3051-00813-0100-4001/fig-pdf-79-15": {
+      "description": "Response time diagram from the Dynamic performance table (p. 79): output falls from 100% to 0% after 'Pressure released', staying flat for the dead time Td and then decaying with time constant Tc to 36.8% (63.2% of total step change); response time = Td + Tc.",
+      "use_for": "Use it to find how the transmitter response time is defined from dead time Td and time constant Tc; the millisecond values are in table-azure-285."
+    },
+    "rosemount-3051-00813-0100-4001/fig-pdf-104-16": {
+      "description": "Rosemount 3051CFA Pak-Lok Annubar flow meter (Figure 20, p. 104) in front, side and top views with dimension letters A and B (heights above the pipe in the front view), D (width in the side view) and C (width across the valve handles in the top view); the values per sensor size are in table-10.",
+      "use_for": "Use it to find which extents the letters A, B, C and D of the 3051CFA Pak-Lok Annubar dimensional table refer to; the drawing itself carries no numbers.",
+      "uncertain": "Overlaps fig-104.2, which is only the front view of this drawing; view titles are printed above the crop."
+    },
+    "rosemount-3051-00813-0100-4001/fig-82.1/chart-1": {
+      "description": "Load limitation chart for the Rosemount 3051 4-20 mA HART output (output code A, p. 82): one straight boundary line of maximum loop resistance from 0 Ω at 10.5 Vdc to 1387 Ω at 42.4 Vdc, with the shaded operating region B below it.",
+      "use_for": "Use it to find the maximum loop load (Ω) allowed at a given power supply voltage (Vdc) for a 4-20 mA HART Rosemount 3051.",
+      "structure": "x: power supply voltage (Vdc), 10.5 to 42.4; y: load (Ω), 0 to 1387; series: maximum loop resistance line (upper boundary of operating region B)"
+    },
+    "rosemount-3051-00813-0100-4001/fig-pdf-79-15/chart-2": {
+      "description": "Step response diagram of the transmitter output after pressure is released (Dynamic performance, p. 79): output in % of total step change (100%, 36.8%, 0%) versus unscaled time, showing dead time Td, time constant Tc to the 36.8% point (63.2% of total step change) and response time = Td + Tc.",
+      "use_for": "Use it to find the definition of response time as dead time plus time constant; it gives no time values.",
+      "structure": "x: time (no scale printed); y: transmitter output (% of total step change), 0% to 100%; series: transmitter output"
+    }
+  }
+}

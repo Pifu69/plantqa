@@ -1,0 +1,498 @@
+{
+ "descriptions": {
+  "rosemount-3051-00813-0100-4001/section-1": {
+   "description": "Front-page introduction of the Rosemount 3051 Pressure Transmitter listing its benefits: reduced product variation and complexity, lower total cost of ownership by using one device across pressure, level and flow applications, and diagnostic information access.",
+   "use_for": "Use it to find the general value proposition of the Rosemount 3051 Pressure Transmitter."
+  },
+  "rosemount-3051-00813-0100-4001/section-2": {
+   "description": "Rosemount 3051 headline performance claims (p. 2): more than ten million installed, reference accuracy 0.04 percent of span, installed total performance 0.14 percent of span, 10-year stability 0.2 percent of URL, SIL 2/3 certified (IEC 61508).",
+   "use_for": "Answers what reference accuracy, total performance, 10-year stability and SIL certification the Rosemount 3051 claims in its overview."
+  },
+  "rosemount-3051-00813-0100-4001/section-3": {
+   "description": "Overview bullets on the Rosemount 3051 Coplanar platform: integrated DP Flow meters, DP Level solutions and integral manifolds, delivered fully assembled, leak-tested and calibrated.",
+   "use_for": "Use it to find what the Coplanar platform offers for installation and application flexibility."
+  },
+  "rosemount-3051-00813-0100-4001/section-5": {
+   "description": "Overview bullets on Rosemount 3051 Bluetooth technology: no hot work permit or climbing needed, and configuration/troubleshooting at speeds up to 10 times faster than traditional HART connections.",
+   "use_for": "Use it to find the claimed benefits of Bluetooth connectivity on the Rosemount 3051."
+  },
+  "rosemount-3051-00813-0100-4001/section-6": {
+   "description": "Overview of Rosemount 3051 diagnostics: the Loop Integrity diagnostic (electrical loop monitoring for corrosion, water in the housing, unstable power supply), the Plugged Impulse Line diagnostic, and the built-in diagnostic log; these are stated to be safety certified.",
+   "use_for": "Use it to find what the Loop Integrity and Plugged Impulse Line diagnostics detect."
+  },
+  "rosemount-3051-00813-0100-4001/section-7": {
+   "description": "Overview of Rosemount 3051 enhanced software: application specific configuration (flow meter with totalizer, level transmitter with volume calculations) and process alerts configurable for any dynamic variable, with custom names and target thresholds, notifying via HART alert or analog output alarm.",
+   "use_for": "Use it to find what the enhanced software adds (application configuration and process alerts)."
+  },
+  "rosemount-3051-00813-0100-4001/section-8": {
+   "description": "Overview of Rosemount 3051 quick service buttons: built-in menus and external configuration buttons for commissioning in hazardous areas without removing the transmitter cover.",
+   "use_for": "Use it to find what the quick service (external configuration) buttons allow."
+  },
+  "rosemount-3051-00813-0100-4001/section-9": {
+   "description": "Overview of the Rosemount 3051 wireless (IEC 62591 WirelessHART) offering: intrinsically safe power module, wiring cost reduction of 40 to 60 percent, and deployment in 70 percent less time.",
+   "use_for": "Use it to find the claimed cost and time savings of the WirelessHART version."
+  },
+  "rosemount-3051-00813-0100-4001/section-10": {
+   "description": "Overview of Rosemount 3051 integrated DP flow meters: fully assembled and leak tested, factory configured flow rate and totalized flow, reduced straight pipe requirements, and up to 1.65 percent volumetric flow accuracy at 8:1 turndown.",
+   "use_for": "Answers what volumetric flow accuracy and turndown the integrated DP flow meters claim in the overview."
+  },
+  "rosemount-3051-00813-0100-4001/section-11": {
+   "description": "Overview of Rosemount 3051 DP Level technologies: process connections, fill fluids, direct mount or capillary connections, a level configuration wizard with volume measurement, the QZ option for system performance, and Rosemount Tuned-System assemblies.",
+   "use_for": "Use it to find what DP Level options and features (QZ, Tuned-System) the 3051 offers."
+  },
+  "rosemount-3051-00813-0100-4001/section-12": {
+   "description": "Overview of instrument manifolds for Rosemount transmitters: factory assembly, multiple styles, materials and configurations.",
+   "use_for": "Use it to find the general benefits of factory-assembled instrument manifolds."
+  },
+  "rosemount-3051-00813-0100-4001/section-13": {
+   "description": "Description of the QR code asset tag on newly shipped Rosemount 3051 devices, giving access to drawings, technical documentation and troubleshooting information in a MyEmerson account.",
+   "use_for": "Use it to find what the QR code asset tag provides."
+  },
+  "rosemount-3051-00813-0100-4001/section-14": {
+   "description": "Introduction to the Rosemount 3051C Coplanar Pressure Transmitter ordering information (p. 5): differential, gage and absolute pressure measurement, with key option codes DA1 (Loop Integrity and Plugged Impulse Line diagnostics), BLE (Bluetooth), M6 (back-lit graphical display) and QT/T9 (safety certification and proof testing).",
+   "use_for": "Use it to find which option codes give diagnostics, Bluetooth, display and safety certification on the Rosemount 3051C."
+  },
+  "rosemount-3051-00813-0100-4001/section-15": {
+   "description": "Rosemount 3051C ordering section (p. 5) web button labels only: \"CONFIGURE >\" and \"VIEW PRODUCT >\".",
+   "use_for": "Answers nothing on its own; see rosemount-3051-00813-0100-4001/section-14",
+   "uncertain": "Only button/link text, no content."
+  },
+  "rosemount-3051-00813-0100-4001/section-16": {
+   "description": "Rosemount 3051C ordering section (p. 5) note that products can be configured online with the product configurator on Emerson.com, with built-in logic and continuous validation.",
+   "use_for": "Use it to find where the Rosemount 3051C can be configured online."
+  },
+  "rosemount-3051-00813-0100-4001/section-17": {
+   "description": "Rosemount 3051C ordering section (p. 6) note that the purchaser must specify and select product materials, options and components.",
+   "use_for": "Use it to find what the purchaser must specify when ordering a Rosemount 3051C."
+  },
+  "rosemount-3051-00813-0100-4001/section-18": {
+   "description": "Rosemount 3051C ordering section (p. 6) explanation that model codes contain the product details and that a typical example is shown in Figure 1.",
+   "use_for": "Use it to find how Rosemount 3051C model codes are explained (reference to Figure 1)."
+  },
+  "rosemount-3051-00813-0100-4001/section-20": {
+   "description": "Rosemount 3051C model code example (Figure 1, p. 6): 3051CD3A22A1A followed by WR5M6BLEDA1, where part 1 is the required model components and part 2 the additional options.",
+   "use_for": "Use it to find a typical Rosemount 3051C model code and how it splits into required components and additional options."
+  },
+  "rosemount-3051-00813-0100-4001/section-21": {
+   "description": "Rosemount 3051C ordering section (p. 6) note on optimizing lead time: starred offerings are the most common options with fastest delivery; non-starred offerings have additional lead time.",
+   "use_for": "Use it to find what the star marking means in the Rosemount 3051C ordering tables.",
+   "uncertain": "Text contains OCR junk \":selected:\"."
+  },
+  "rosemount-3051-00813-0100-4001/section-32": {
+   "description": "Rosemount 3051C ordering section (p. 9) note under Wireless options: requires wireless output (code X) and engineered polymer housing (code P).",
+   "use_for": "Answers which output and housing codes the Rosemount 3051C wireless options require."
+  },
+  "rosemount-3051-00813-0100-4001/section-40": {
+   "description": "Rosemount 3051C ordering section (p. 10) note under Alternate flange: the option requires the 0 code in materials of construction for alternate process connection.",
+   "use_for": "Answers which materials-of-construction code the Rosemount 3051C alternate flange option requires."
+  },
+  "rosemount-3051-00813-0100-4001/section-41": {
+   "description": "Rosemount 3051C ordering section (p. 10) note under Manifold assembly: \"assemble-to\" items are specified separately and require a completed model number.",
+   "use_for": "Answers how assemble-to manifold items are ordered for the Rosemount 3051C."
+  },
+  "rosemount-3051-00813-0100-4001/section-42": {
+   "description": "Rosemount 3051C ordering section (p. 11) note under Integral mount primary element: not valid with option code P9 for 4500 static pressure; assemble-to items are specified separately with a completed model number.",
+   "use_for": "Answers the P9 restriction and ordering rule for the Rosemount 3051C integral mount primary element option."
+  },
+  "rosemount-3051-00813-0100-4001/section-43": {
+   "description": "Rosemount 3051C ordering section (p. 11) note under Seal assemblies: \"assemble-to\" items are specified separately and require a completed model number.",
+   "use_for": "Answers how assemble-to seal assemblies are ordered for the Rosemount 3051C."
+  },
+  "rosemount-3051-00813-0100-4001/section-45": {
+   "description": "Footnotes (2)-(4) of the Rosemount 3051C Product certifications table (pp. 12-13): (2) only with output codes A, F (FOUNDATION Fieldbus) or W (PROFIBUS PA) and aluminum housing with 1/2 NPT conduit entry (housing code A); (3) non-incendive certification not provided with wireless (code X); (4) only with wireless (code X).",
+   "use_for": "Use it to find the output and housing restrictions behind footnotes (2)-(4) of the Rosemount 3051C product certifications table (rosemount-3051-00813-0100-4001/table-azure-20).",
+   "uncertain": "Footnote (1) is missing and \"UNDATION\" is a truncation of FOUNDATION; the footnote numbers are not linked to specific certification codes here."
+  },
+  "rosemount-3051-00813-0100-4001/section-46": {
+   "description": "Rosemount 3051C ordering section (p. 13) note under Drinking water approval: not available with Alloy C-276 isolator (code 3), tantalum isolator (code 5), cast C-276 flanges, plated carbon steel flanges, DIN flanges, level flanges, assemble-to manifolds (S5, S6), seals (S1, S2), primary elements (S3, S4), surface finish certification (Q16) and remote seal system report (QZ).",
+   "use_for": "Answers which isolator, flange and option codes exclude the Rosemount 3051C drinking water approval."
+  },
+  "rosemount-3051-00813-0100-4001/section-50": {
+   "description": "Rosemount 3051C ordering section (p. 13) note under Custody transfer: only available with HART 4-20 mA output (code A).",
+   "use_for": "Answers which output code the Rosemount 3051C custody transfer option requires."
+  },
+  "rosemount-3051-00813-0100-4001/section-56": {
+   "description": "Rosemount 3051C ordering section (p. 14) note under Quality certification for safety: only available with HART 4-20 mA output (code A).",
+   "use_for": "Answers which output code the Rosemount 3051C quality certification for safety requires."
+  },
+  "rosemount-3051-00813-0100-4001/section-59": {
+   "description": "Rosemount 3051C ordering section (p. 15) note under Transient protection: not available with wireless (code X); T1 is not needed with FISCO certifications IA, IB and IE, which include transient protection.",
+   "use_for": "Answers when the Rosemount 3051C T1 transient protection option is unavailable or unnecessary."
+  },
+  "rosemount-3051-00813-0100-4001/section-60": {
+   "description": "Rosemount 3051C ordering section (p. 15) note under Software configuration: only available with HART 4-20 mA (code A) and wireless (code X).",
+   "use_for": "Answers which output codes the Rosemount 3051C software configuration option requires.",
+   "uncertain": "Text contains OCR junk \":selected:\"."
+  },
+  "rosemount-3051-00813-0100-4001/section-62": {
+   "description": "Rosemount 3051C ordering section (p. 15) note under Alarm levels: only available with HART 4-20 mA output (code A).",
+   "use_for": "Answers which output code the Rosemount 3051C alarm levels option requires."
+  },
+  "rosemount-3051-00813-0100-4001/section-65": {
+   "description": "Rosemount 3051C ordering section (p. 15) note under Flange adapters: not valid with alternate process connection option codes S3, S4, S5 and S6.",
+   "use_for": "Answers which alternate process connection codes exclude the Rosemount 3051C flange adapter option."
+  },
+  "rosemount-3051-00813-0100-4001/section-67": {
+   "description": "Rosemount 3051C ordering section (p. 16) note under Conduit plug: not available with wireless output (code X).",
+   "use_for": "Answers whether the Rosemount 3051C conduit plug option works with wireless output."
+  },
+  "rosemount-3051-00813-0100-4001/section-68": {
+   "description": "Rosemount 3051C ordering section (p. 16) note under RC1/4 RC1/2 process connection: not available with alternate process connection, DIN flanges and level flanges.",
+   "use_for": "Answers which configurations exclude the Rosemount 3051C RC1/4 RC1/2 process connection option."
+  },
+  "rosemount-3051-00813-0100-4001/section-70": {
+   "description": "Rosemount 3051C ordering section (p. 16) note under Ground screw: not available with wireless output (code X); V5 is not needed with T1, which includes the external ground screw assembly.",
+   "use_for": "Answers when the Rosemount 3051C V5 ground screw option is unavailable or unnecessary."
+  },
+  "rosemount-3051-00813-0100-4001/section-73": {
+   "description": "Rosemount 3051C ordering section (p. 16) note under Conduit electrical connector: not available with wireless output (code X).",
+   "use_for": "Answers whether the Rosemount 3051C conduit electrical connector option works with wireless output."
+  },
+  "rosemount-3051-00813-0100-4001/section-74": {
+   "description": "Rosemount 3051C ordering section (p. 17) note under NACE certificate: NACE-compliant wetted materials are required, complying with NACE MR0175/ISO 15156 (sour oil field production) and NACE MR0103 (sour refining).",
+   "use_for": "Answers which NACE standards the Rosemount 3051C NACE certificate option refers to."
+  },
+  "rosemount-3051-00813-0100-4001/section-75": {
+   "description": "Rosemount 3051C ordering section (p. 17) note under Enhanced software: enables application specific configuration, expanded process alerts and logging capabilities.",
+   "use_for": "Answers what the Rosemount 3051C enhanced software option enables."
+  },
+  "rosemount-3051-00813-0100-4001/section-76": {
+   "description": "Rosemount 3051C ordering section (p. 17) note under Cold temperature: only for pressure ranges 1-5 with 4-20 mA HART and FOUNDATION Fieldbus and silicone fill; available with 316SST, C-276 and gold plated SST isolating diaphragms and flange types 2, 7 and 0 (only HJ, HK, HL); BR5 and BR6 not available with DC, DF, D7, D9, GE, GM, L4, L5, L6 or P9.",
+   "use_for": "Answers which ranges, outputs, fill, diaphragms, flanges and options are compatible with the Rosemount 3051C BR5/BR6 cold temperature option."
+  },
+  "rosemount-3051-00813-0100-4001/section-77": {
+   "description": "Introduction to the Rosemount 3051T In-Line Transmitter ordering information (p. 18): gage and absolute pressure measurement with direct process connection, with key option codes DA1 (diagnostics), BLE (Bluetooth), M6 (back-lit graphical display) and QT/T9 (safety certification and proof testing).",
+   "use_for": "Use it to find which option codes give diagnostics, Bluetooth, display and safety certification on the Rosemount 3051T.",
+   "uncertain": "Ends with web button text \"CONFIGURE > VIEW PRODUCT >\"."
+  },
+  "rosemount-3051-00813-0100-4001/section-78": {
+   "description": "Rosemount 3051T ordering section (p. 18) note that products can be configured online with the product configurator on Emerson.com.",
+   "use_for": "Use it to find where the Rosemount 3051T can be configured online."
+  },
+  "rosemount-3051-00813-0100-4001/section-79": {
+   "description": "Rosemount 3051T ordering section (p. 18) note that the purchaser must specify and select product materials, options and components.",
+   "use_for": "Use it to find what the purchaser must specify when ordering a Rosemount 3051T."
+  },
+  "rosemount-3051-00813-0100-4001/section-80": {
+   "description": "Rosemount 3051T ordering section (p. 18) explanation that model codes contain the product details, with a typical example in Figure 2 (Model Code Example).",
+   "use_for": "Use it to find how Rosemount 3051T model codes are explained (reference to Figure 2)."
+  },
+  "rosemount-3051-00813-0100-4001/section-81": {
+   "description": "Rosemount 3051T model code example (Figure 2, p. 18): 3051TG3A2B21A followed by WR5M6BLEDA1, where part 1 is the required model components and part 2 the additional options.",
+   "use_for": "Use it to find a typical Rosemount 3051T model code and how it splits into required components and additional options."
+  },
+  "rosemount-3051-00813-0100-4001/section-82": {
+   "description": "Rosemount 3051T ordering section (p. 18) note on optimizing lead time: starred offerings are the most common options with fastest delivery; non-starred offerings have additional lead time.",
+   "use_for": "Use it to find what the star marking means in the Rosemount 3051T ordering tables."
+  },
+  "rosemount-3051-00813-0100-4001/section-89": {
+   "description": "Rosemount 3051T ordering section (p. 20) note under Isolating diaphragm: materials comply with NACE MR0175/ISO 15156 (sour oil field production) and NACE MR0103 (sour refining).",
+   "use_for": "Answers which NACE standards the Rosemount 3051T isolating diaphragm materials comply with."
+  },
+  "rosemount-3051-00813-0100-4001/section-92": {
+   "description": "Rosemount 3051T ordering section (p. 21) note under Wireless options: requires wireless output (code X) and engineered polymer housing (code P).",
+   "use_for": "Answers which output and housing codes the Rosemount 3051T wireless options require."
+  },
+  "rosemount-3051-00813-0100-4001/section-100": {
+   "description": "Rosemount 3051T ordering section (p. 22) note under Integral assembly: \"assemble-to\" items are specified separately and require a completed model number.",
+   "use_for": "Answers how assemble-to integral assembly items are ordered for the Rosemount 3051T."
+  },
+  "rosemount-3051-00813-0100-4001/section-101": {
+   "description": "Rosemount 3051T ordering section (p. 22) note under Diaphragm seal assemblies: \"assemble-to\" items are specified separately and require a completed model number.",
+   "use_for": "Answers how assemble-to diaphragm seal assemblies are ordered for the Rosemount 3051T."
+  },
+  "rosemount-3051-00813-0100-4001/section-103": {
+   "description": "Footnotes (2)-(4) of the Rosemount 3051T Product certifications table (pp. 23-24): (2) only with output codes A, F (FOUNDATION Fieldbus) or W (PROFIBUS PA) and aluminum housing with 1/2 NPT conduit entry (housing code A); (3) non-incendive certification not provided with wireless (code X); (4) only with wireless (code X).",
+   "use_for": "Use it to find the output and housing restrictions behind footnotes (2)-(4) of the Rosemount 3051T product certifications table.",
+   "uncertain": "Footnote (1) is missing and \"UNDATION\" is a truncation of FOUNDATION; the footnote numbers are not linked to specific certification codes here."
+  },
+  "rosemount-3051-00813-0100-4001/section-104": {
+   "description": "Rosemount 3051T ordering section (p. 24) note under Drinking water approval: not available with alloy C-276 isolator (code 3), assemble-to manifolds (S5), assemble-to seals (S1) and surface finish certification (Q16).",
+   "use_for": "Answers which isolator and option codes exclude the Rosemount 3051T drinking water approval."
+  },
+  "rosemount-3051-00813-0100-4001/section-108": {
+   "description": "Rosemount 3051T ordering section (p. 24) note under Custody transfer: only available with HART 4-20 mA output (code A).",
+   "use_for": "Answers which output code the Rosemount 3051T custody transfer option requires."
+  },
+  "rosemount-3051-00813-0100-4001/section-112": {
+   "description": "Rosemount 3051T ordering section (p. 25) note under Quality certification for safety: only available with HART 4-20 mA output (code A).",
+   "use_for": "Answers which output code the Rosemount 3051T quality certification for safety requires."
+  },
+  "rosemount-3051-00813-0100-4001/section-117": {
+   "description": "Rosemount 3051T ordering section (p. 25) note under Transient protection: not available with wireless (code X); T1 is not needed with FISCO certifications IA, IB and IE, which include transient protection.",
+   "use_for": "Answers when the Rosemount 3051T T1 transient protection option is unavailable or unnecessary."
+  },
+  "rosemount-3051-00813-0100-4001/section-120": {
+   "description": "Rosemount 3051T ordering section (p. 26) note under Alarm levels: only available with HART 4-20 mA output (code A).",
+   "use_for": "Answers which output code the Rosemount 3051T alarm levels option requires."
+  },
+  "rosemount-3051-00813-0100-4001/section-122": {
+   "description": "Rosemount 3051T ordering section (p. 26) note under Cleaning process area: not valid with alternate process connection (code S5).",
+   "use_for": "Answers which code excludes the Rosemount 3051T cleaning process area option."
+  },
+  "rosemount-3051-00813-0100-4001/section-123": {
+   "description": "Rosemount 3051T ordering section (p. 26) note under Ground screw: not available with wireless output (code X); V5 is not needed with T1, which includes the external ground screw assembly.",
+   "use_for": "Answers when the Rosemount 3051T V5 ground screw option is unavailable or unnecessary."
+  },
+  "rosemount-3051-00813-0100-4001/section-126": {
+   "description": "Rosemount 3051T ordering section (p. 27) note under Conduit electrical connector: not available with wireless output (code X).",
+   "use_for": "Answers whether the Rosemount 3051T conduit electrical connector option works with wireless output."
+  },
+  "rosemount-3051-00813-0100-4001/section-127": {
+   "description": "Rosemount 3051T ordering section (p. 27) note under NACE certificate: NACE-compliant wetted materials are required, complying with NACE MR0175/ISO 15156 (sour oil field production) and NACE MR0103 (sour refining).",
+   "use_for": "Answers which NACE standards the Rosemount 3051T NACE certificate option refers to."
+  },
+  "rosemount-3051-00813-0100-4001/section-128": {
+   "description": "Rosemount 3051T ordering section (p. 27) note under Enhanced software: enables application specific configuration, expanded process alerts and logging capabilities.",
+   "use_for": "Answers what the Rosemount 3051T enhanced software option enables."
+  },
+  "rosemount-3051-00813-0100-4001/section-129": {
+   "description": "Rosemount 3051T ordering section (p. 27) note under Cold temperature: only for pressure ranges 1-5 with 4-20 mA HART and FOUNDATION Fieldbus and silicone fill; BR5 and BR6 not available with non-threaded instrument flange (code 61) or assemble-to Rosemount seal (S1).",
+   "use_for": "Answers which ranges, outputs, fill and options are compatible with the Rosemount 3051T BR5/BR6 cold temperature option."
+  },
+  "rosemount-3051-00813-0100-4001/section-130": {
+   "description": "Introduction to the Rosemount 3051CF Flow Meter selection guide (p. 27): flow meters combining the 3051 transmitter with primary elements, delivered fully assembled, calibrated, configured and leak tested, wired or wireless.",
+   "use_for": "Use it to find what the Rosemount 3051CF flow meter family is."
+  },
+  "rosemount-3051-00813-0100-4001/section-131": {
+   "description": "Rosemount 3051CF selection guide entry for the 3051CFA Annubar Flow Meter (p. 28): low material cost in large line sizes, Flo-tap installation without process shutdown, up to 96 percent less permanent pressure loss than orifice plates.",
+   "use_for": "Use it to find the claimed benefits of the Rosemount 3051CFA Annubar flow meter."
+  },
+  "rosemount-3051-00813-0100-4001/section-132": {
+   "description": "Rosemount 3051CF selection guide entry for the 3051CFC Compact Conditioning Flow Meter (p. 28): conditioning orifice plate or Annubar primary elements, only two pipe diameters upstream and downstream, savings up to 55 percent versus a traditional orifice plate installation.",
+   "use_for": "Use it to find the straight-run requirement and claimed savings of the Rosemount 3051CFC."
+  },
+  "rosemount-3051-00813-0100-4001/section-133": {
+   "description": "Rosemount 3051CF selection guide entry for the 3051CFP Integral Orifice Flow Meter (p. 28): small line sizes 1/2 to 11/2 in. (15 to 40 mm), precision honed pipe section, uncertainty reduced by up to five percent versus traditional orifice plate installation.",
+   "use_for": "Use it to find the line size range and claimed benefits of the Rosemount 3051CFP.",
+   "uncertain": "\"11/2 in.\" is the OCR form of 1 1/2 in."
+  },
+  "rosemount-3051-00813-0100-4001/section-134": {
+   "description": "Introduction to the Rosemount 3051CFA Annubar Flow Meter ordering information (p. 29): T-shaped sensor, up to 1.8 percent of flow rate accuracy, 2 - 96 in. (50 to 2400 mm) line sizes, option codes M6, BLE, D1, DA1, T9, RK, QT, and a typical model code 3051CFA D L 060 D C H PS 2 T1 00032 AA 1.",
+   "use_for": "Answers the flow rate accuracy, line size range and a typical model code of the Rosemount 3051CFA.",
+   "uncertain": "Ends with web button text \"CONFIGURE > VIEW PRODUCT >\"."
+  },
+  "rosemount-3051-00813-0100-4001/section-135": {
+   "description": "Rosemount 3051CFA ordering section (p. 29) note that products can be configured online with the product configurator on Emerson.com.",
+   "use_for": "Use it to find where the Rosemount 3051CFA can be configured online."
+  },
+  "rosemount-3051-00813-0100-4001/section-136": {
+   "description": "Rosemount 3051CFA ordering section (p. 29) note that the purchaser must specify and select product materials, options and components.",
+   "use_for": "Use it to find what the purchaser must specify when ordering a Rosemount 3051CFA."
+  },
+  "rosemount-3051-00813-0100-4001/section-137": {
+   "description": "Rosemount 3051CFA ordering section (pp. 29-30) text on sizing and selection with the DP Flow sizing and selection tool and the configuration tool, plus the Model codes intro referring to Figure 3.",
+   "use_for": "Use it to find how Rosemount 3051CFA flow meters are sized and how a valid model code is produced."
+  },
+  "rosemount-3051-00813-0100-4001/section-138": {
+   "description": "Rosemount 3051CFA model code example (Figure 3, p. 30): 3051CFADL060ZSHPS1T100072AA1 followed by WR5M6BLEDA1RK, part 1 required model components and part 2 additional options.",
+   "use_for": "Use it to find a typical Rosemount 3051CFA model code and how it splits into required components and additional options.",
+   "uncertain": "Trailing \"1\" and \"2.\" after the labels are footnote markers."
+  },
+  "rosemount-3051-00813-0100-4001/section-139": {
+   "description": "Rosemount 3051CFA ordering section (p. 30) note on optimizing lead time: starred offerings are the most common options with fastest delivery; non-starred offerings have additional lead time.",
+   "use_for": "Use it to find what the star marking means in the Rosemount 3051CFA ordering tables.",
+   "uncertain": "Text contains OCR junk \":selected:\"."
+  },
+  "rosemount-3051-00813-0100-4001/section-143": {
+   "description": "Rosemount 3051CFA ordering section (p. 30): heading \"Fluid type\" followed only by the page footnote \"1. Choices available on most.\"",
+   "use_for": "Answers nothing on its own; see rosemount-3051-00813-0100-4001/table-azure-98",
+   "uncertain": "Footnote debris; the footnote belongs to \"Required model components\" in Figure 3, not to the Fluid type table."
+  },
+  "rosemount-3051-00813-0100-4001/section-144": {
+   "description": "Rosemount 3051CFA ordering section (p. 31) note under Line size: units are built to the customer supplied pipe ID and wall dimensions; line size codes are nominal and auto-selected by the sizing program.",
+   "use_for": "Answers how Rosemount 3051CFA line size codes relate to the actual pipe dimensions."
+  },
+  "rosemount-3051-00813-0100-4001/section-161": {
+   "description": "Rosemount 3051CFA ordering section (p. 35) note under Wireless options: requires wireless output (code X) and engineered polymer housing (code P).",
+   "use_for": "Answers which output and housing codes the Rosemount 3051CFA wireless options require."
+  },
+  "rosemount-3051-00813-0100-4001/section-174": {
+   "description": "Rosemount 3051CFA ordering section (p. 37) note under Surface finish: the option is auto-selected by the sizing tool as necessary.",
+   "use_for": "Answers how the Rosemount 3051CFA surface finish option is selected."
+  },
+  "rosemount-3051-00813-0100-4001/section-175": {
+   "description": "Rosemount 3051CFA ordering section (p. 37) note under Material traceability certification: instrument connections for remote mount options and isolation valves for Flo-Tap models are not included.",
+   "use_for": "Answers what the Rosemount 3051CFA material traceability certification excludes."
+  },
+  "rosemount-3051-00813-0100-4001/section-177": {
+   "description": "Rosemount 3051CFA ordering section (p. 37) note under Code conformance: not available with transmitter connection platform 6.",
+   "use_for": "Answers which transmitter connection platform excludes the Rosemount 3051CFA code conformance option."
+  },
+  "rosemount-3051-00813-0100-4001/section-178": {
+   "description": "Rosemount 3051CFA ordering section (p. 37) note under Materials conformance: materials comply with NACE MR0175/ISO (sour oil field) and NACE MR0103 (sour refining); option J5 provides Alloy C-276 transmitter diaphragms.",
+   "use_for": "Answers which NACE standards the Rosemount 3051CFA materials conformance refers to and what option J5 provides."
+  },
+  "rosemount-3051-00813-0100-4001/section-180": {
+   "description": "Rosemount 3051CFA ordering section (p. 38) note under Installed in flanged pipe spool section: refers to the Rosemount 485 specifications for spool section lengths and schedules.",
+   "use_for": "Answers where spool section lengths and schedules for the Rosemount 3051CFA flanged pipe spool option are found (Rosemount 485 specifications); it gives no values itself."
+  },
+  "rosemount-3051-00813-0100-4001/section-186": {
+   "description": "Footnotes (2)-(4) of the Rosemount 3051CFA Product certifications table (pp. 40-41): (2) only with output codes A, F (FOUNDATION Fieldbus) or W (PROFIBUS PA) and aluminum housing with 1/2 NPT conduit entry (housing code A); (3) non-incendive certification not provided with wireless (code X); (4) only with wireless (code X).",
+   "use_for": "Use it to find the output and housing restrictions behind footnotes (2)-(4) of the Rosemount 3051CFA product certifications table.",
+   "uncertain": "Footnote (1) is missing and \"UNDATION\" is a truncation of FOUNDATION; the footnote numbers are not linked to specific certification codes here."
+  },
+  "rosemount-3051-00813-0100-4001/section-191": {
+   "description": "Rosemount 3051CFA ordering section (p. 41) note under Quality certification for safety: these options are only available with 4-20 mA HART (output code A).",
+   "use_for": "Answers which output code the Rosemount 3051CFA quality certification for safety options require."
+  },
+  "rosemount-3051-00813-0100-4001/section-192": {
+   "description": "Rosemount 3051CFA ordering section (p. 41) note under Transient protection: not available with wireless output (code X); T1 is not needed with FISCO certifications IA, IB and IE, which include transient protection.",
+   "use_for": "Answers when the Rosemount 3051CFA T1 transient protection option is unavailable or unnecessary."
+  },
+  "rosemount-3051-00813-0100-4001/section-194": {
+   "description": "Rosemount 3051CFA ordering section (p. 42) note under Alarm levels: only available with 4-20 mA HART output (code A).",
+   "use_for": "Answers which output code the Rosemount 3051CFA alarm levels options require."
+  },
+  "rosemount-3051-00813-0100-4001/section-195": {
+   "description": "Rosemount 3051CFA ordering section (p. 42) note under Enhanced safety: only available with HART 4-20 mA output (code A).",
+   "use_for": "Answers which output code the Rosemount 3051CFA enhanced safety option requires."
+  },
+  "rosemount-3051-00813-0100-4001/section-197": {
+   "description": "Rosemount 3051CFA ordering section (p. 42) note under Ground screw: not available with wireless output (code X); V5 is not needed with T1, which includes the external ground screw assembly.",
+   "use_for": "Answers when the Rosemount 3051CFA V5 ground screw option is unavailable or unnecessary."
+  },
+  "rosemount-3051-00813-0100-4001/section-198": {
+   "description": "Rosemount 3051CFA ordering section (p. 42) note under Enhanced software: enables application specific configuration, expanded process alerts and logging capabilities.",
+   "use_for": "Answers what the Rosemount 3051CFA enhanced software option enables."
+  },
+  "rosemount-3051-00813-0100-4001/section-199": {
+   "description": "Introduction to the Rosemount 3051CFC Compact Flow Meter ordering information (p. 43): installation between existing raised face flanges, up to 1.75 percent of flow rate accuracy, 1/2 to 12 in. (15 to 300 mm) line sizes, option codes M6, BLE, D1, DA1, T9, RK, QT, and a typical model code 3051CFC D C S 060 N 065 0 3 2 X P 1 WA3 WP5 WC M5 DZ.",
+   "use_for": "Answers the flow rate accuracy, line size range and a typical model code of the Rosemount 3051CFC.",
+   "uncertain": "Ends with web button text \"CONFIGURE > VIEW PRODUCT >\"."
+  },
+  "rosemount-3051-00813-0100-4001/section-200": {
+   "description": "Rosemount 3051CFC ordering section (p. 43) note that products can be configured online with the product configurator on Emerson.com.",
+   "use_for": "Use it to find where the Rosemount 3051CFC can be configured online."
+  },
+  "rosemount-3051-00813-0100-4001/section-201": {
+   "description": "Rosemount 3051CFC ordering section (p. 43) note that the purchaser must specify and select product materials, options and components.",
+   "use_for": "Use it to find what the purchaser must specify when ordering a Rosemount 3051CFC."
+  },
+  "rosemount-3051-00813-0100-4001/section-202": {
+   "description": "Rosemount 3051CFC ordering section (pp. 43-44) text on sizing and selection with the DP Flow sizing and selection tool and the configuration tool, plus the Model codes intro referring to Figure 4.",
+   "use_for": "Use it to find how Rosemount 3051CFC flow meters are sized and how a valid model code is produced."
+  },
+  "rosemount-3051-00813-0100-4001/section-204": {
+   "description": "Rosemount 3051CFC model code example (Figure 4, p. 44): 3051CFCDL060ZSHPS1T100072AA1 followed by WR5M6BLEDA1RK, part 1 required model components and part 2 additional options.",
+   "use_for": "Use it to find a typical Rosemount 3051CFC model code and how it splits into required components and additional options.",
+   "uncertain": "Trailing \"3\" and \"4\" are footnote markers; this example differs from the typical 3051CFC model code given in section-199."
+  },
+  "rosemount-3051-00813-0100-4001/section-205": {
+   "description": "Rosemount 3051CFC ordering section (p. 44) note on optimizing lead time: starred offerings are the most common options with fastest delivery; non-starred offerings have additional lead time.",
+   "use_for": "Use it to find what the star marking means in the Rosemount 3051CFC ordering tables.",
+   "uncertain": "Text contains OCR junk \":selected:\"."
+  },
+  "rosemount-3051-00813-0100-4001/section-210": {
+   "description": "Rosemount 3051CFC ordering section (p. 44): heading \"Material type\" followed only by the page footnote \"3. Choices available on most.\"",
+   "use_for": "Answers nothing on its own; see rosemount-3051-00813-0100-4001/table-azure-156",
+   "uncertain": "Footnote debris; the footnote belongs to \"Required model components\" in Figure 4, not to the Material type table."
+  },
+  "rosemount-3051-00813-0100-4001/section-219": {
+   "description": "Rosemount 3051CFC ordering section (p. 46) note under Wireless options: requires wireless output (code X) and engineered polymer housing (code P).",
+   "use_for": "Answers which output and housing codes the Rosemount 3051CFC wireless options require."
+  },
+  "rosemount-3051-00813-0100-4001/section-238": {
+   "description": "Rosemount 3051CFC ordering section (p. 49) note under Materials conformance: materials comply with NACE MR0175/ISO (sour oil field) and NACE MR0103 (sour refining); option J5 provides Alloy C-276 transmitter diaphragms.",
+   "use_for": "Answers which NACE standards the Rosemount 3051CFC materials conformance refers to and what option J5 provides."
+  },
+  "rosemount-3051-00813-0100-4001/section-242": {
+   "description": "Rosemount 3051CFC ordering section (p. 51) note under Shipboard approvals: not available with wireless output (code X).",
+   "use_for": "Answers whether Rosemount 3051CFC shipboard approvals are available with wireless output."
+  },
+  "rosemount-3051-00813-0100-4001/section-244": {
+   "description": "Rosemount 3051CFC ordering section (p. 51) note under Transient protection: not available with wireless output code X; T1 is not needed with FISCO certifications IA, IB and IE, which include transient protection.",
+   "use_for": "Answers when the Rosemount 3051CFC T1 transient protection option is unavailable or unnecessary."
+  },
+  "rosemount-3051-00813-0100-4001/section-248": {
+   "description": "Rosemount 3051CFC ordering section (p. 52) note under Alarm levels: only available with HART 4-20 mA output (code A).",
+   "use_for": "Answers which output code the Rosemount 3051CFC alarm levels options require."
+  },
+  "rosemount-3051-00813-0100-4001/section-252": {
+   "description": "Rosemount 3051CFC ordering section (p. 52) note under Enhanced software: enables application specific configuration, expanded process alerts and logging capabilities.",
+   "use_for": "Answers what the Rosemount 3051CFC enhanced software option enables."
+  },
+  "rosemount-3051-00813-0100-4001/section-253": {
+   "description": "Introduction to the Rosemount 3051CFP Integral Orifice Flow Meter ordering information (p. 53): precision honed pipe section and self-centering plate, up to 1.75 percent of flow rate accuracy, 1/2 - 11/2 in. (15 - 40 mm) line sizes, option codes M6, BLE, D1, DA1, T9, RK, QT, and a typical model code 3051CFP D F010 W1 S 0500 D3 2 A A 1 E5 M5.",
+   "use_for": "Answers the flow rate accuracy, line size range and a typical model code of the Rosemount 3051CFP.",
+   "uncertain": "\"11/2 in.\" is the OCR form of 1 1/2 in.; ends with web button text \"CONFIGURE > VIEW PRODUCT >\"."
+  },
+  "rosemount-3051-00813-0100-4001/section-254": {
+   "description": "Rosemount 3051CFP ordering section (p. 53) note that products can be configured online with the product configurator on Emerson.com.",
+   "use_for": "Use it to find where the Rosemount 3051CFP can be configured online."
+  },
+  "rosemount-3051-00813-0100-4001/section-255": {
+   "description": "Rosemount 3051CFP ordering section (p. 53) note that the purchaser must specify and select product materials, options and components.",
+   "use_for": "Use it to find what the purchaser must specify when ordering a Rosemount 3051CFP."
+  },
+  "rosemount-3051-00813-0100-4001/section-256": {
+   "description": "Rosemount 3051CFP ordering section (pp. 53-54) text on sizing and selection with the DP Flow sizing and selection tool and the configuration tool, plus the Model codes intro referring to Figure 5.",
+   "use_for": "Use it to find how Rosemount 3051CFP flow meters are sized and how a valid model code is produced."
+  },
+  "rosemount-3051-00813-0100-4001/section-257": {
+   "description": "Rosemount 3051CFP ordering section model code example (Figure 5, p. 54), which shows 3051CFADL060ZSHPS1T100072AA1 followed by WR5M6BLEDA1RK (parts 1 and 2).",
+   "use_for": "Use it to find the model code example printed in the Rosemount 3051CFP section and its split into required components and additional options.",
+   "uncertain": "The page itself prints a 3051CFA code under the 3051CFP section (document error); it does not match the 3051CFP typical code in section-253, and the part labels A/B are in section-259."
+  },
+  "rosemount-3051-00813-0100-4001/section-259": {
+   "description": "Rosemount 3051CFP ordering section (p. 54) note on optimizing lead time: starred offerings are the most common options with fastest delivery; non-starred offerings have additional lead time.",
+   "use_for": "Use it to find what the star marking means in the Rosemount 3051CFP ordering tables.",
+   "uncertain": "Title \"B. Additional options 6\" is the Figure 5 label (with footnote 6), not the content; text contains OCR junk \":selected:\"."
+  },
+  "rosemount-3051-00813-0100-4001/section-281": {
+   "description": "Rosemount 3051CFP ordering section (p. 59) note under Temperature sensor: thermowell material is the same as the body material.",
+   "use_for": "Answers what material the Rosemount 3051CFP temperature sensor thermowell is made of."
+  },
+  "rosemount-3051-00813-0100-4001/section-291": {
+   "description": "Rosemount 3051CFP ordering section (p. 60) note under Code conformance: not available with DIN process connection codes D1, D2 or D3.",
+   "use_for": "Answers which process connection codes exclude the Rosemount 3051CFP code conformance option."
+  },
+  "rosemount-3051-00813-0100-4001/section-292": {
+   "description": "Rosemount 3051CFP ordering section (p. 60) note under Materials conformance: materials comply with NACE MR0175/ISO (sour oil field) and NACE MR0103 (sour refining); option J5 provides Alloy C-276 transmitter diaphragms.",
+   "use_for": "Answers which NACE standards the Rosemount 3051CFP materials conformance refers to and what option J5 provides."
+  },
+  "rosemount-3051-00813-0100-4001/section-296": {
+   "description": "Footnotes (2)-(3) of the Rosemount 3051CFP Product certification table (pp. 61-62): (2) non-incendive certification not provided with transmitter wireless (code X); (3) only available with transmitter wireless (code X).",
+   "use_for": "Use it to find the wireless restrictions behind footnotes (2)-(3) of the Rosemount 3051CFP product certification table (rosemount-3051-00813-0100-4001/table-azure-230).",
+   "uncertain": "Footnote (1) is missing; footnote numbers are not linked to certification codes here; contains OCR junk \":selected:\"."
+  },
+  "rosemount-3051-00813-0100-4001/section-300": {
+   "description": "Rosemount 3051CFP ordering section (p. 62) note under Transient protection: not available with wireless output (code X); T1 is not needed with FISCO certifications IA, IB and IE, which include transient protection.",
+   "use_for": "Answers when the Rosemount 3051CFP T1 transient protection option is unavailable or unnecessary."
+  },
+  "rosemount-3051-00813-0100-4001/section-303": {
+   "description": "Rosemount 3051CFP ordering section (p. 63) note under Alarm levels: only available with HART 4-20 mA output (code A).",
+   "use_for": "Answers which output code the Rosemount 3051CFP alarm levels options require."
+  },
+  "rosemount-3051-00813-0100-4001/section-307": {
+   "description": "Rosemount 3051CFP ordering section (p. 63) note under Enhanced software: enables application specific configuration, expanded process alerts and logging capabilities.",
+   "use_for": "Answers what the Rosemount 3051CFP enhanced software option enables."
+  },
+  "rosemount-3051-00813-0100-4001/section-308": {
+   "description": "Introduction to the Rosemount 3051L Level Transmitter ordering information (p. 64): transmitter with direct mount seal in one model number, with option codes QZ (system performance), S1 (Tuned-System assembly), DA1 (Loop Integrity diagnostic), BLE (Bluetooth), M6 (back-lit display), level configurator (M6, BLE, D1, DA1, T9, RK) and QT/T9 (safety certification).",
+   "use_for": "Use it to find which option codes give QZ reporting, Tuned-System assembly, diagnostics, Bluetooth, display and safety certification on the Rosemount 3051L.",
+   "uncertain": "Ends with web button text \"CONFIGURE > VIEW PRODUCT >\"."
+  },
+  "rosemount-3051-00813-0100-4001/section-309": {
+   "description": "Rosemount 3051L ordering section (p. 64) note that products can be configured online with the product configurator on Emerson.com.",
+   "use_for": "Use it to find where the Rosemount 3051L can be configured online."
+  },
+  "rosemount-3051-00813-0100-4001/section-310": {
+   "description": "Rosemount 3051L ordering section (p. 64) note that the purchaser must specify and select product materials, options and components.",
+   "use_for": "Use it to find what the purchaser must specify when ordering a Rosemount 3051L."
+  },
+  "rosemount-3051-00813-0100-4001/section-311": {
+   "description": "Rosemount 3051L model codes text with the Figure 6 example (p. 64): 3051L3AA01D11AA followed by WR5M6BLEDA1RK, part 1 required model components and part 2 additional options.",
+   "use_for": "Use it to find a typical Rosemount 3051L model code and how it splits into required components and additional options."
+  },
+  "rosemount-3051-00813-0100-4001/section-312": {
+   "description": "Rosemount 3051L ordering section (p. 65) note on optimizing lead time: starred offerings are the most common options with fastest delivery; non-starred offerings have additional lead time.",
+   "use_for": "Use it to find what the star marking means in the Rosemount 3051L ordering tables.",
+   "uncertain": "OCR line order is scrambled and contains \":selected:\" junk."
+  },
+  "rosemount-3051-00813-0100-4001/section-323": {
+   "description": "Rosemount 3051L ordering section (p. 69) note under Wireless options: requires wireless output (code X) and engineered polymer housing (code P).",
+   "use_for": "Answers which output and housing codes the Rosemount 3051L wireless options require."
+  }
+ }
+}

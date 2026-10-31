@@ -1,0 +1,969 @@
+{
+ "summary": {
+  "items": 45,
+  "not_device_property": 15,
+  "rdl": {
+   "broad/ok": 21,
+   "none/no_match": 8,
+   "exact/ok": 1
+  },
+  "cfihos": {
+   "broad/ok": 10,
+   "related/ok": 12,
+   "none/no_match": 6,
+   "exact/ok": 2
+  },
+  "values": 1,
+  "values_checked_ok": 1
+ },
+ "rows": [
+  {
+   "id": "swagelok-ms-01-176/property/basic_metal_gasket_kit_ordering_number",
+   "label": "Basic metal gasket kit ordering number",
+   "not_device_property": true,
+   "reason": "kit order code (catalogue number of a spare-part kit)",
+   "rdl": {
+    "match": "none"
+   },
+   "cfihos": {
+    "match": "none"
+   },
+   "kind": "property",
+   "document": "swagelok-ms-01-176",
+   "rdl_check": "no_match",
+   "cfihos_check": "no_match",
+   "values": []
+  },
+  {
+   "id": "swagelok-ms-01-176/property/basic_ordering_number",
+   "label": "Basic ordering number",
+   "not_device_property": true,
+   "reason": "basic ordering number (catalogue/order code of the valve)",
+   "rdl": {
+    "match": "none"
+   },
+   "cfihos": {
+    "match": "none"
+   },
+   "kind": "property",
+   "document": "swagelok-ms-01-176",
+   "rdl_check": "no_match",
+   "cfihos_check": "no_match",
+   "values": []
+  },
+  {
+   "id": "swagelok-ms-01-176/property/basic_seal_kit_ordering_number",
+   "label": "Basic seal kit ordering number",
+   "not_device_property": true,
+   "reason": "kit order code",
+   "rdl": {
+    "match": "none"
+   },
+   "cfihos": {
+    "match": "none"
+   },
+   "kind": "property",
+   "document": "swagelok-ms-01-176",
+   "rdl_check": "no_match",
+   "cfihos_check": "no_match",
+   "values": []
+  },
+  {
+   "id": "swagelok-ms-01-176/property/basic_spring_kit_ordering_number",
+   "label": "Basic spring kit ordering number",
+   "not_device_property": true,
+   "reason": "kit order code",
+   "rdl": {
+    "match": "none"
+   },
+   "cfihos": {
+    "match": "none"
+   },
+   "kind": "property",
+   "document": "swagelok-ms-01-176",
+   "rdl_check": "no_match",
+   "cfihos_check": "no_match",
+   "values": []
+  },
+  {
+   "id": "swagelok-ms-01-176/property/cracking_pressure",
+   "label": "Cracking pressure",
+   "not_device_property": false,
+   "rdl": {
+    "match": "broad",
+    "iri": "http://data.posccaesar.org/rdl/RDS354194",
+    "label": "PRESSURE (PCA RDL concept)",
+    "endpoint": "rds",
+    "note": "cracking pressure is a pressure; no cracking-pressure concept on rds (the legacy RDL endpoint (data.posccaesar.org/rdl/sparql) answered HTTP 404 on 2026-10-31; only the rds endpoint was searchable)"
+   },
+   "cfihos": {
+    "match": "broad",
+    "code": "CFIHOS-40000530",
+    "name": "set pressure",
+    "note": "definition 'a pressure at which an object is activated' covers the inlet pressure at which a check valve opens; generic, so broad"
+   },
+   "kind": "property",
+   "document": "swagelok-ms-01-176",
+   "rdl_check": "ok",
+   "cfihos_check": "ok",
+   "values": []
+  },
+  {
+   "id": "swagelok-ms-01-176/property/cracking_pressure_designator",
+   "label": "Cracking pressure designator",
+   "not_device_property": true,
+   "reason": "ordering-code designator appended to the ordering number",
+   "rdl": {
+    "match": "none"
+   },
+   "cfihos": {
+    "match": "none"
+   },
+   "kind": "property",
+   "document": "swagelok-ms-01-176",
+   "rdl_check": "no_match",
+   "cfihos_check": "no_match",
+   "values": []
+  },
+  {
+   "id": "swagelok-ms-01-176/property/cracking_pressure_range",
+   "label": "Cracking pressure range",
+   "not_device_property": false,
+   "rdl": {
+    "match": "broad",
+    "iri": "http://data.posccaesar.org/rdl/RDS354194",
+    "label": "PRESSURE (PCA RDL concept)",
+    "endpoint": "rds",
+    "note": "range of cracking pressure values"
+   },
+   "cfihos": {
+    "match": "related",
+    "code": "CFIHOS-40000530",
+    "name": "set pressure",
+    "note": "a tolerance range around the set (cracking) pressure, not the set pressure itself"
+   },
+   "values_note": "no standard class found for the textual values [\"Up to 0.21 bar\", \"Up to 3 psi\", \"Up to 0.28 bar\", \"Up to 4 psi\"]",
+   "kind": "property",
+   "document": "swagelok-ms-01-176",
+   "rdl_check": "ok",
+   "cfihos_check": "ok",
+   "values": []
+  },
+  {
+   "id": "swagelok-ms-01-176/property/cracking_pressure_range_designator",
+   "label": "Cracking pressure range designator",
+   "not_device_property": true,
+   "reason": "ordering-code designator appended to the ordering number",
+   "rdl": {
+    "match": "none"
+   },
+   "cfihos": {
+    "match": "none"
+   },
+   "kind": "property",
+   "document": "swagelok-ms-01-176",
+   "rdl_check": "no_match",
+   "cfihos_check": "no_match",
+   "values": []
+  },
+  {
+   "id": "swagelok-ms-01-176/property/deflector_cap_kit_ordering_number",
+   "label": "Deflector cap kit ordering number",
+   "not_device_property": true,
+   "reason": "kit order code",
+   "rdl": {
+    "match": "none"
+   },
+   "cfihos": {
+    "match": "none"
+   },
+   "kind": "property",
+   "document": "swagelok-ms-01-176",
+   "rdl_check": "no_match",
+   "cfihos_check": "no_match",
+   "values": []
+  },
+  {
+   "id": "swagelok-ms-01-176/property/dimension_a",
+   "label": "Dimension A",
+   "not_device_property": false,
+   "rdl": {
+    "match": "broad",
+    "iri": "http://data.posccaesar.org/rdl/RDS373094",
+    "label": "LENGTH (PCA RDL concept)",
+    "endpoint": "rds",
+    "note": "A is the overall length on the outline drawings"
+   },
+   "cfihos": {
+    "match": "broad",
+    "code": "CFIHOS-40000201",
+    "name": "length",
+    "note": "distance along the main axis; A is the end-to-end length"
+   },
+   "kind": "property",
+   "document": "swagelok-ms-01-176",
+   "rdl_check": "ok",
+   "cfihos_check": "ok",
+   "values": []
+  },
+  {
+   "id": "swagelok-ms-01-176/property/dimension_b",
+   "label": "Dimension B",
+   "not_device_property": false,
+   "rdl": {
+    "match": "broad",
+    "iri": "http://data.posccaesar.org/rdl/RDS373094",
+    "label": "LENGTH (PCA RDL concept)",
+    "endpoint": "rds",
+    "note": "B is a hex flat (across-flats) size on the drawings"
+   },
+   "cfihos": {
+    "match": "related",
+    "code": "CFIHOS-40000541",
+    "name": "width",
+    "note": "across-flats size of a hex, not an extreme orthogonal dimension of the valve"
+   },
+   "values_note": "no standard class found for the textual values [\"1 1/4 in.\", \"1 3/8 in.\", \"1 1/16 in.\", \"1 5/8 in.\"]",
+   "kind": "property",
+   "document": "swagelok-ms-01-176",
+   "rdl_check": "ok",
+   "cfihos_check": "ok",
+   "values": []
+  },
+  {
+   "id": "swagelok-ms-01-176/property/dimension_c",
+   "label": "Dimension C",
+   "not_device_property": false,
+   "rdl": {
+    "match": "broad",
+    "iri": "http://data.posccaesar.org/rdl/RDS373094",
+    "label": "LENGTH (PCA RDL concept)",
+    "endpoint": "rds",
+    "note": "C is a hex flat (across-flats) size on the drawings"
+   },
+   "cfihos": {
+    "match": "related",
+    "code": "CFIHOS-40000541",
+    "name": "width",
+    "note": "across-flats size of a hex"
+   },
+   "values_note": "no standard class found for the textual values [\"1 1/8 in.\", \"1 1/2 in.\"]",
+   "kind": "property",
+   "document": "swagelok-ms-01-176",
+   "rdl_check": "ok",
+   "cfihos_check": "ok",
+   "values": []
+  },
+  {
+   "id": "swagelok-ms-01-176/property/dimension_d",
+   "label": "Dimension D",
+   "not_device_property": false,
+   "rdl": {
+    "match": "broad",
+    "iri": "http://data.posccaesar.org/rdl/RDS373094",
+    "label": "LENGTH (PCA RDL concept)",
+    "endpoint": "rds",
+    "note": "D is a hex flat (across-flats) size on the CP/CPA drawing"
+   },
+   "cfihos": {
+    "match": "related",
+    "code": "CFIHOS-40000541",
+    "name": "width",
+    "note": "across-flats size of a hex"
+   },
+   "values_note": "no standard class found for the textual values [\"1 1/16 in.\"]",
+   "kind": "property",
+   "document": "swagelok-ms-01-176",
+   "rdl_check": "ok",
+   "cfihos_check": "ok",
+   "values": []
+  },
+  {
+   "id": "swagelok-ms-01-176/property/gasket_material_designator",
+   "label": "Gasket material designator",
+   "not_device_property": true,
+   "reason": "ordering-code designator for the kit material",
+   "rdl": {
+    "match": "none"
+   },
+   "cfihos": {
+    "match": "none"
+   },
+   "kind": "property",
+   "document": "swagelok-ms-01-176",
+   "rdl_check": "no_match",
+   "cfihos_check": "no_match",
+   "values": []
+  },
+  {
+   "id": "swagelok-ms-01-176/property/inlet_gasket",
+   "label": "Inlet gasket",
+   "not_device_property": false,
+   "rdl": {
+    "match": "none",
+    "note": "whether an inlet gasket is standard or optional; no such concept on rds"
+   },
+   "cfihos": {
+    "match": "none",
+    "note": "no availability/option property for gaskets in CFIHOS CORE"
+   },
+   "values_note": "no standard class found for the textual values [\"Optional\", \"Standard\"]",
+   "kind": "property",
+   "document": "swagelok-ms-01-176",
+   "rdl_check": "no_match",
+   "cfihos_check": "no_match",
+   "values": []
+  },
+  {
+   "id": "swagelok-ms-01-176/property/material",
+   "label": "material grade/specification",
+   "not_device_property": false,
+   "rdl": {
+    "match": "broad",
+    "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100005604",
+    "label": "Material Composition",
+    "endpoint": "rds",
+    "note": "material grade/specification of a component is a material composition quality"
+   },
+   "cfihos": {
+    "match": "broad",
+    "code": "CFIHOS-40000223",
+    "name": "material",
+    "note": "values combine material grade and ASTM/EN specification ('316 SS/A479')"
+   },
+   "values_note": "no standard class found for the textual values [\"316 SS/A479\", \"Brass 360/B16\", \"PTFE-coated 316 SS/A240\", \"PTFE-coated aluminum/B209\", \"Naval brass 485/B21\", \"Fluorocarbon FKM\", \"Buna N\", \"302 SS/A313\"]",
+   "kind": "property",
+   "document": "swagelok-ms-01-176",
+   "rdl_check": "ok",
+   "cfihos_check": "ok",
+   "values": []
+  },
+  {
+   "id": "swagelok-ms-01-176/property/maximum_back_pressure",
+   "label": "Maximum back pressure",
+   "not_device_property": false,
+   "rdl": {
+    "match": "broad",
+    "iri": "http://data.posccaesar.org/rdl/RDS354194",
+    "label": "PRESSURE (PCA RDL concept)",
+    "endpoint": "rds",
+    "note": "maximum allowed differential back pressure; the legacy RDL endpoint (data.posccaesar.org/rdl/sparql) answered HTTP 404 on 2026-10-31; only the rds endpoint was searchable"
+   },
+   "cfihos": {
+    "match": "related",
+    "code": "CFIHOS-40000226",
+    "name": "maximum back pressure",
+    "note": "CFIHOS defines the back pressure that maximally occurs in service; the catalog gives the maximum back pressure the valve withstands"
+   },
+   "kind": "property",
+   "document": "swagelok-ms-01-176",
+   "rdl_check": "ok",
+   "cfihos_check": "ok",
+   "values": []
+  },
+  {
+   "id": "swagelok-ms-01-176/property/maximum_flow_coefficient_cv",
+   "label": "Maximum flow coefficient (Cv)",
+   "not_device_property": false,
+   "rdl": {
+    "match": "none",
+    "note": "no flow-coefficient concept on the rds endpoint; the legacy RDL endpoint (data.posccaesar.org/rdl/sparql) answered HTTP 404 on 2026-10-31; only the rds endpoint was searchable"
+   },
+   "cfihos": {
+    "match": "related",
+    "code": "CFIHOS-40001088",
+    "name": "production (injection) choke valve flow coefficient of velocity",
+    "note": "flow coefficient defined only for tree-mounted choke valves"
+   },
+   "kind": "property",
+   "document": "swagelok-ms-01-176",
+   "rdl_check": "no_match",
+   "cfihos_check": "ok",
+   "values": []
+  },
+  {
+   "id": "swagelok-ms-01-176/property/nominal_cracking_pressure",
+   "label": "Nominal cracking pressure",
+   "not_device_property": false,
+   "rdl": {
+    "match": "broad",
+    "iri": "http://data.posccaesar.org/rdl/RDS354194",
+    "label": "PRESSURE (PCA RDL concept)",
+    "endpoint": "rds",
+    "note": "nominal cracking pressure is a pressure"
+   },
+   "cfihos": {
+    "match": "broad",
+    "code": "CFIHOS-40000530",
+    "name": "set pressure",
+    "note": "nominal pressure at which the valve is activated (opens)"
+   },
+   "values_note": "no standard class found for the textual values [\"0.03, 0.07, 0.69, and 1.8 bar\", \"1/3, 1, 10 and 25 psi\", \"0.03, 0.07, 0.35 0.69, and 1.8 bar\", \"1/3, 1, 5, 10 and 25 psi\", \"0.21 to 3.5; 3.5 to 10.4; 10.4 to 24.2; 24.2 to 41.4 bar\", \"3 to 50; 50 to 150; 150 to 350; 350 to 600 psi\"]",
+   "kind": "property",
+   "document": "swagelok-ms-01-176",
+   "rdl_check": "ok",
+   "cfihos_check": "ok",
+   "values": []
+  },
+  {
+   "id": "swagelok-ms-01-176/property/pressure_rating",
+   "label": "Pressure rating",
+   "not_device_property": false,
+   "rdl": {
+    "match": "broad",
+    "iri": "http://data.posccaesar.org/rdl/RDS354194",
+    "label": "PRESSURE (PCA RDL concept)",
+    "endpoint": "rds",
+    "note": "pressure rating at 100°F (37°C) per end connection"
+   },
+   "cfihos": {
+    "match": "related",
+    "code": "CFIHOS-40000591",
+    "name": "pressure rating",
+    "note": "CFIHOS means rating classes (text) such as class designations; the catalog gives numeric psig (bar) ratings"
+   },
+   "kind": "property",
+   "document": "swagelok-ms-01-176",
+   "rdl_check": "ok",
+   "cfihos_check": "ok",
+   "values": []
+  },
+  {
+   "id": "swagelok-ms-01-176/property/reseal_pressure",
+   "label": "Reseal pressure",
+   "not_device_property": false,
+   "rdl": {
+    "match": "broad",
+    "iri": "http://data.posccaesar.org/rdl/RDS354194",
+    "label": "PRESSURE (PCA RDL concept)",
+    "endpoint": "rds",
+    "note": "reseal pressure is a pressure; values are partly textual ('Up to 20 back pressure')"
+   },
+   "cfihos": {
+    "match": "none",
+    "note": "no reseat/reseal/closing pressure property in CFIHOS CORE"
+   },
+   "values_note": "no standard class found for the textual values [\"Up to 1.4 back pressure bar\", \"Up to 20 back pressure psi\", \"Up to 0.9 back pressure bar\", \"Up to 12 back pressure psi\", \"0.21 or more inlet pressure bar\", \"3 or more inlet pressure psi\", \"1.2 or more inlet pressure bar\", \"17 or more inlet pressure psi\"]",
+   "kind": "property",
+   "document": "swagelok-ms-01-176",
+   "rdl_check": "ok",
+   "cfihos_check": "no_match",
+   "values": []
+  },
+  {
+   "id": "swagelok-ms-01-176/property/seal_kit_material_designator",
+   "label": "Seal kit material designator",
+   "not_device_property": true,
+   "reason": "ordering-code designator for the kit seal material",
+   "rdl": {
+    "match": "none"
+   },
+   "cfihos": {
+    "match": "none"
+   },
+   "kind": "property",
+   "document": "swagelok-ms-01-176",
+   "rdl_check": "no_match",
+   "cfihos_check": "no_match",
+   "values": []
+  },
+  {
+   "id": "swagelok-ms-01-176/property/seal_kit_ordering_number",
+   "label": "Seal kit ordering number",
+   "not_device_property": true,
+   "reason": "kit order code",
+   "rdl": {
+    "match": "none"
+   },
+   "cfihos": {
+    "match": "none"
+   },
+   "kind": "property",
+   "document": "swagelok-ms-01-176",
+   "rdl_check": "no_match",
+   "cfihos_check": "no_match",
+   "values": []
+  },
+  {
+   "id": "swagelok-ms-01-176/property/seal_material_designator",
+   "label": "Seal material designator",
+   "not_device_property": true,
+   "reason": "ordering-code designator for the seal material option",
+   "rdl": {
+    "match": "none"
+   },
+   "cfihos": {
+    "match": "none"
+   },
+   "kind": "property",
+   "document": "swagelok-ms-01-176",
+   "rdl_check": "no_match",
+   "cfihos_check": "no_match",
+   "values": []
+  },
+  {
+   "id": "swagelok-ms-01-176/property/series",
+   "label": "Series",
+   "not_device_property": false,
+   "rdl": {
+    "match": "none",
+    "note": "model/variant code, see identification"
+   },
+   "cfihos": {
+    "match": "none",
+    "note": "model/variant code"
+   },
+   "identification": {
+    "match": "exact",
+    "iri": "http://data.posccaesar.org/rdl/RDS2100752881",
+    "label": "MANUFACTURERS MODEL CODE ASSIGNMENT CLASS",
+    "endpoint": "data",
+    "note": "IRI as prescribed by the vocabulary/2 prompt; the data.posccaesar.org SPARQL endpoint answered HTTP 404 on 2026-10-31, so it could not be re-queried here."
+   },
+   "values_note": "no standard class found for the textual values [\"2C\", \"4C\", \"6C\", \"8C\", \"12C\", \"16C\", \"CA\", \"CH4\"]",
+   "kind": "property",
+   "document": "swagelok-ms-01-176",
+   "rdl_check": "no_match",
+   "cfihos_check": "no_match",
+   "values": [],
+   "identification_check": "query_failed"
+  },
+  {
+   "id": "swagelok-ms-01-176/property/spring_kit_cracking_pressure_designator",
+   "label": "Spring kit cracking pressure designator",
+   "not_device_property": true,
+   "reason": "ordering-code designator of a spring kit",
+   "rdl": {
+    "match": "none"
+   },
+   "cfihos": {
+    "match": "none"
+   },
+   "kind": "property",
+   "document": "swagelok-ms-01-176",
+   "rdl_check": "no_match",
+   "cfihos_check": "no_match",
+   "values": []
+  },
+  {
+   "id": "swagelok-ms-01-176/property/spring_material_designator",
+   "label": "Spring material designator",
+   "not_device_property": true,
+   "reason": "ordering-code designator for the kit spring material",
+   "rdl": {
+    "match": "none"
+   },
+   "cfihos": {
+    "match": "none"
+   },
+   "kind": "property",
+   "document": "swagelok-ms-01-176",
+   "rdl_check": "no_match",
+   "cfihos_check": "no_match",
+   "values": []
+  },
+  {
+   "id": "swagelok-ms-01-176/property/temperature_rating",
+   "label": "Temperature rating",
+   "not_device_property": false,
+   "rdl": {
+    "match": "broad",
+    "iri": "http://data.posccaesar.org/rdl/RDS355859",
+    "label": "TEMPERATURE (PCA RDL concept)",
+    "endpoint": "rds",
+    "note": "temperature rating range of a seal material"
+   },
+   "cfihos": {
+    "match": "exact",
+    "code": "CFIHOS-40000593",
+    "name": "temperature rating",
+    "note": "definition 'the range of temperatures allowable for a specific material' matches the seal-material temperature ratings"
+   },
+   "kind": "property",
+   "document": "swagelok-ms-01-176",
+   "rdl_check": "ok",
+   "cfihos_check": "ok",
+   "values": []
+  },
+  {
+   "id": "swagelok-ms-01-176/property/uniform_o_ring_size",
+   "label": "Uniform O-ring size",
+   "not_device_property": false,
+   "rdl": {
+    "match": "none",
+    "note": "O-ring size code (009, 110, 111, 114); no such concept on rds"
+   },
+   "cfihos": {
+    "match": "none",
+    "note": "nominal size is a diameter designation; the O-ring size is a dash-number code"
+   },
+   "kind": "property",
+   "document": "swagelok-ms-01-176",
+   "rdl_check": "no_match",
+   "cfihos_check": "no_match",
+   "values": []
+  },
+  {
+   "id": "swagelok-ms-01-176/property/working_pressure",
+   "label": "Working pressure",
+   "not_device_property": false,
+   "rdl": {
+    "match": "broad",
+    "iri": "http://data.posccaesar.org/rdl/RDS354194",
+    "label": "PRESSURE (PCA RDL concept)",
+    "endpoint": "rds",
+    "note": "allowable working pressure at a temperature; the legacy RDL endpoint (data.posccaesar.org/rdl/sparql) answered HTTP 404 on 2026-10-31; only the rds endpoint was searchable"
+   },
+   "cfihos": {
+    "match": "related",
+    "code": "CFIHOS-40000537",
+    "name": "upper limit operating pressure",
+    "note": "operating limit vs. rated allowable working pressure at a temperature"
+   },
+   "kind": "property",
+   "document": "swagelok-ms-01-176",
+   "rdl_check": "ok",
+   "cfihos_check": "ok",
+   "values": []
+  },
+  {
+   "id": "swagelok-ms-01-176/condition/cap color",
+   "label": "cap color",
+   "not_device_property": false,
+   "rdl": {
+    "match": "none",
+    "note": "no colour concept on the rds endpoint"
+   },
+   "cfihos": {
+    "match": "related",
+    "code": "CFIHOS-40001331",
+    "name": "paint colour",
+    "note": "the deflector cap is coloured polyethylene, not painted"
+   },
+   "values_note": "no standard class found for the textual values [\"Red\", \"Green\"]",
+   "kind": "condition",
+   "document": "swagelok-ms-01-176",
+   "rdl_check": "no_match",
+   "cfihos_check": "ok",
+   "values": []
+  },
+  {
+   "id": "swagelok-ms-01-176/condition/cracking pressure",
+   "label": "cracking pressure",
+   "not_device_property": false,
+   "rdl": {
+    "match": "broad",
+    "iri": "http://data.posccaesar.org/rdl/RDS354194",
+    "label": "PRESSURE (PCA RDL concept)",
+    "endpoint": "rds",
+    "note": "cracking pressure condition (psi/bar)"
+   },
+   "cfihos": {
+    "match": "broad",
+    "code": "CFIHOS-40000530",
+    "name": "set pressure"
+   },
+   "kind": "condition",
+   "document": "swagelok-ms-01-176",
+   "rdl_check": "ok",
+   "cfihos_check": "ok",
+   "values": []
+  },
+  {
+   "id": "swagelok-ms-01-176/condition/cracking pressure range",
+   "label": "cracking pressure range",
+   "not_device_property": false,
+   "rdl": {
+    "match": "broad",
+    "iri": "http://data.posccaesar.org/rdl/RDS354194",
+    "label": "PRESSURE (PCA RDL concept)",
+    "endpoint": "rds",
+    "note": "group of cracking pressures or a cracking pressure range"
+   },
+   "cfihos": {
+    "match": "related",
+    "code": "CFIHOS-40000530",
+    "name": "set pressure",
+    "note": "a range/group of set pressures"
+   },
+   "kind": "condition",
+   "document": "swagelok-ms-01-176",
+   "rdl_check": "ok",
+   "cfihos_check": "ok",
+   "values": []
+  },
+  {
+   "id": "swagelok-ms-01-176/condition/cracking pressure type",
+   "label": "cracking pressure type",
+   "not_device_property": false,
+   "rdl": {
+    "match": "none",
+    "note": "fixed vs adjustable cracking pressure; no such class on rds"
+   },
+   "cfihos": {
+    "match": "none",
+    "note": "no fixed/adjustable set-pressure property in CFIHOS CORE"
+   },
+   "values_note": "no standard class found for the textual values [\"Fixed\", \"Adjustable\"]",
+   "kind": "condition",
+   "document": "swagelok-ms-01-176",
+   "rdl_check": "no_match",
+   "cfihos_check": "no_match",
+   "values": []
+  },
+  {
+   "id": "swagelok-ms-01-176/condition/end connection",
+   "label": "end connection",
+   "not_device_property": false,
+   "rdl": {
+    "match": "none",
+    "note": "no connection-type concept on the rds endpoint; the legacy RDL endpoint (data.posccaesar.org/rdl/sparql) answered HTTP 404 on 2026-10-31; only the rds endpoint was searchable"
+   },
+   "cfihos": {
+    "match": "related",
+    "code": "CFIHOS-40000586",
+    "name": "inlet connection type",
+    "note": "the catalog's end connection covers inlet and outlet together; CFIHOS 'end connections' is defined for expansion joints"
+   },
+   "values_note": "no standard class found for the textual values [\"Fractional Swagelok tube fittings\", \"Metric Swagelok tube fittings\", \"Female NPT\", \"Male NPT\", \"Male NPT/Swagelok tube fitting\", \"Male VCR fittings\", \"Swagelok tube fittings\", \"Fractional Swagelok tube fitting\"]",
+   "kind": "condition",
+   "document": "swagelok-ms-01-176",
+   "rdl_check": "no_match",
+   "cfihos_check": "ok",
+   "values": []
+  },
+  {
+   "id": "swagelok-ms-01-176/condition/end connection size",
+   "label": "end connection size",
+   "not_device_property": false,
+   "rdl": {
+    "match": "broad",
+    "iri": "http://data.posccaesar.org/rdl/RDS373094",
+    "label": "LENGTH (PCA RDL concept)",
+    "endpoint": "rds",
+    "note": "nominal tube/pipe size given as a length (1/4 in., 6 mm)"
+   },
+   "cfihos": {
+    "match": "broad",
+    "code": "CFIHOS-40000247",
+    "name": "nominal size",
+    "note": "nominal size of the end connection"
+   },
+   "kind": "condition",
+   "document": "swagelok-ms-01-176",
+   "rdl_check": "ok",
+   "cfihos_check": "ok",
+   "values": []
+  },
+  {
+   "id": "swagelok-ms-01-176/condition/figure callout",
+   "label": "figure callout",
+   "not_device_property": true,
+   "reason": "figure callout number (reference to a drawing position)",
+   "rdl": {
+    "match": "none"
+   },
+   "cfihos": {
+    "match": "none"
+   },
+   "kind": "condition",
+   "document": "swagelok-ms-01-176",
+   "rdl_check": "no_match",
+   "cfihos_check": "no_match",
+   "values": []
+  },
+  {
+   "id": "swagelok-ms-01-176/condition/gasket count",
+   "label": "gasket count",
+   "not_device_property": true,
+   "reason": "describes the content of a spare-part kit, not the valve",
+   "rdl": {
+    "match": "none"
+   },
+   "cfihos": {
+    "match": "none"
+   },
+   "kind": "condition",
+   "document": "swagelok-ms-01-176",
+   "rdl_check": "no_match",
+   "cfihos_check": "no_match",
+   "values": []
+  },
+  {
+   "id": "swagelok-ms-01-176/condition/gasket material",
+   "label": "gasket material",
+   "not_device_property": false,
+   "rdl": {
+    "match": "broad",
+    "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100005604",
+    "label": "Material Composition",
+    "endpoint": "rds"
+   },
+   "cfihos": {
+    "match": "broad",
+    "code": "CFIHOS-40000223",
+    "name": "material",
+    "note": "material of the kit gasket"
+   },
+   "values": [
+    {
+     "printed": "Aluminum",
+     "rdl": {
+      "match": "broad",
+      "iri": "http://purl.obolibrary.org/obo/CHEBI_28984",
+      "label": "aluminium (ChEBI concept)",
+      "endpoint": "rds",
+      "note": "chemical element class; the gasket is an aluminium (alloy) part, so broad"
+     },
+     "cfihos": {
+      "match": "none",
+      "note": "CFIHOS CORE has no material classes"
+     },
+     "rdl_check": "ok",
+     "cfihos_check": "no_match"
+    }
+   ],
+   "kind": "condition",
+   "document": "swagelok-ms-01-176",
+   "rdl_check": "ok",
+   "cfihos_check": "ok"
+  },
+  {
+   "id": "swagelok-ms-01-176/condition/nominal cracking pressure",
+   "label": "nominal cracking pressure",
+   "not_device_property": false,
+   "rdl": {
+    "match": "broad",
+    "iri": "http://data.posccaesar.org/rdl/RDS354194",
+    "label": "PRESSURE (PCA RDL concept)",
+    "endpoint": "rds"
+   },
+   "cfihos": {
+    "match": "broad",
+    "code": "CFIHOS-40000530",
+    "name": "set pressure"
+   },
+   "kind": "condition",
+   "document": "swagelok-ms-01-176",
+   "rdl_check": "ok",
+   "cfihos_check": "ok",
+   "values": []
+  },
+  {
+   "id": "swagelok-ms-01-176/condition/product variant",
+   "label": "product variant",
+   "not_device_property": false,
+   "rdl": {
+    "match": "none",
+    "note": "model/variant code, see identification"
+   },
+   "cfihos": {
+    "match": "none",
+    "note": "model/variant code"
+   },
+   "identification": {
+    "match": "exact",
+    "iri": "http://data.posccaesar.org/rdl/RDS2100752881",
+    "label": "MANUFACTURERS MODEL CODE ASSIGNMENT CLASS",
+    "endpoint": "data",
+    "note": "IRI as prescribed by the vocabulary/2 prompt; the data.posccaesar.org SPARQL endpoint answered HTTP 404 on 2026-10-31, so it could not be re-queried here."
+   },
+   "values_note": "no standard class found for the textual values [\"CA\", \"CH\", \"C\", \"CP\", \"C, CA\", \"CP, CPA\", \"CPA\"]",
+   "kind": "condition",
+   "document": "swagelok-ms-01-176",
+   "rdl_check": "no_match",
+   "cfihos_check": "no_match",
+   "values": [],
+   "identification_check": "query_failed"
+  },
+  {
+   "id": "swagelok-ms-01-176/condition/seal material",
+   "label": "seal material",
+   "not_device_property": false,
+   "rdl": {
+    "match": "broad",
+    "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100005604",
+    "label": "Material Composition",
+    "endpoint": "rds"
+   },
+   "cfihos": {
+    "match": "broad",
+    "code": "CFIHOS-40000223",
+    "name": "material",
+    "note": "'actuator seal material' is defined for actuator piston seals only, so the general 'material' is used"
+   },
+   "values_note": "no standard class found for the textual values [\"Buna N\", \"Ethylene propylene\", \"Fluorocarbon FKM\", \"Neoprene\"]",
+   "kind": "condition",
+   "document": "swagelok-ms-01-176",
+   "rdl_check": "ok",
+   "cfihos_check": "ok",
+   "values": []
+  },
+  {
+   "id": "swagelok-ms-01-176/condition/spring material",
+   "label": "spring material",
+   "not_device_property": false,
+   "rdl": {
+    "match": "broad",
+    "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100005604",
+    "label": "Material Composition",
+    "endpoint": "rds"
+   },
+   "cfihos": {
+    "match": "broad",
+    "code": "CFIHOS-40000223",
+    "name": "material",
+    "note": "'spring material specification' is a specification, the values are material grades"
+   },
+   "kind": "condition",
+   "document": "swagelok-ms-01-176",
+   "rdl_check": "ok",
+   "cfihos_check": "ok",
+   "values": []
+  },
+  {
+   "id": "swagelok-ms-01-176/condition/temperature",
+   "label": "temperature",
+   "not_device_property": false,
+   "rdl": {
+    "match": "exact",
+    "iri": "http://data.posccaesar.org/rdl/RDS355859",
+    "label": "TEMPERATURE (PCA RDL concept)",
+    "endpoint": "rds"
+   },
+   "cfihos": {
+    "match": "related",
+    "code": "CFIHOS-40000514",
+    "name": "normal operating temperature",
+    "note": "the condition is a rating temperature, not a normal operating temperature"
+   },
+   "kind": "condition",
+   "document": "swagelok-ms-01-176",
+   "rdl_check": "ok",
+   "cfihos_check": "ok",
+   "values": []
+  },
+  {
+   "id": "swagelok-ms-01-176/condition/valve body material",
+   "label": "valve body material",
+   "not_device_property": false,
+   "rdl": {
+    "match": "broad",
+    "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100005604",
+    "label": "Material Composition",
+    "endpoint": "rds"
+   },
+   "cfihos": {
+    "match": "exact",
+    "code": "CFIHOS-40000017",
+    "name": "body material"
+   },
+   "values_note": "no standard class found for the textual values [\"Brass\"]",
+   "kind": "condition",
+   "document": "swagelok-ms-01-176",
+   "rdl_check": "ok",
+   "cfihos_check": "ok",
+   "values": []
+  }
+ ]
+}

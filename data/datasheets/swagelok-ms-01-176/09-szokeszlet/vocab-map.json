@@ -1,0 +1,293 @@
+{
+ "document": "swagelok-ms-01-176",
+ "device_class": {
+  "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100005884",
+  "label": "Check Valve",
+  "method": "longest PCA class label contained in the device name"
+ },
+ "properties": {
+  "basic_metal_gasket_kit_ordering_number": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "basic_ordering_number": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "basic_seal_kit_ordering_number": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "basic_spring_kit_ordering_number": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "cracking_pressure": {
+   "iri": "http://data.posccaesar.org/rdl/RDS354194",
+   "label": "PRESSURE (PCA RDL concept)",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "cracking_pressure_designator": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "cracking_pressure_range": {
+   "iri": "http://data.posccaesar.org/rdl/RDS354194",
+   "label": "PRESSURE (PCA RDL concept)",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "cracking_pressure_range_designator": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "deflector_cap_kit_ordering_number": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "dimension_a": {
+   "iri": "http://data.posccaesar.org/rdl/RDS373094",
+   "label": "LENGTH (PCA RDL concept)",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "dimension_b": {
+   "iri": "http://data.posccaesar.org/rdl/RDS373094",
+   "label": "LENGTH (PCA RDL concept)",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "dimension_c": {
+   "iri": "http://data.posccaesar.org/rdl/RDS373094",
+   "label": "LENGTH (PCA RDL concept)",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "dimension_d": {
+   "iri": "http://data.posccaesar.org/rdl/RDS373094",
+   "label": "LENGTH (PCA RDL concept)",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "gasket_material_designator": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "inlet_gasket": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "material": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100005604",
+   "label": "Material Composition",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "maximum_back_pressure": {
+   "iri": "http://data.posccaesar.org/rdl/RDS354194",
+   "label": "PRESSURE (PCA RDL concept)",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "maximum_flow_coefficient_cv": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "related"
+   }
+  },
+  "nominal_cracking_pressure": {
+   "iri": "http://data.posccaesar.org/rdl/RDS354194",
+   "label": "PRESSURE (PCA RDL concept)",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "pressure_rating": {
+   "iri": "http://data.posccaesar.org/rdl/RDS354194",
+   "label": "PRESSURE (PCA RDL concept)",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "reseal_pressure": {
+   "iri": "http://data.posccaesar.org/rdl/RDS354194",
+   "label": "PRESSURE (PCA RDL concept)",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "seal_kit_material_designator": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "seal_kit_ordering_number": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "seal_material_designator": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "series": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "spring_kit_cracking_pressure_designator": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "spring_material_designator": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "temperature_rating": {
+   "iri": "http://data.posccaesar.org/rdl/RDS355859",
+   "label": "TEMPERATURE (PCA RDL concept)",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "uniform_o_ring_size": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "working_pressure": {
+   "iri": "http://data.posccaesar.org/rdl/RDS354194",
+   "label": "PRESSURE (PCA RDL concept)",
+   "match": "broad",
+   "source": "PCA RDL"
+  }
+ },
+ "conditions": {
+  "cap color": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "related"
+   }
+  },
+  "cracking pressure": {
+   "iri": "http://data.posccaesar.org/rdl/RDS354194",
+   "label": "PRESSURE (PCA RDL concept)",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "cracking pressure range": {
+   "iri": "http://data.posccaesar.org/rdl/RDS354194",
+   "label": "PRESSURE (PCA RDL concept)",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "cracking pressure type": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "end connection": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "related"
+   }
+  },
+  "end connection size": {
+   "iri": "http://data.posccaesar.org/rdl/RDS373094",
+   "label": "LENGTH (PCA RDL concept)",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "figure callout": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "gasket count": {
+   "iri": null,
+   "match": "not_device_property"
+  },
+  "gasket material": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100005604",
+   "label": "Material Composition",
+   "match": "broad",
+   "source": "PCA RDL",
+   "value_classes": {
+    "Aluminum": {
+     "iri": "http://purl.obolibrary.org/obo/CHEBI_28984",
+     "label": "aluminium (ChEBI concept)",
+     "match": "broad",
+     "source": "PCA RDL"
+    }
+   }
+  },
+  "nominal cracking pressure": {
+   "iri": "http://data.posccaesar.org/rdl/RDS354194",
+   "label": "PRESSURE (PCA RDL concept)",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "product variant": {
+   "iri": "http://rds.posccaesar.org/ontology/lis14/rdl/Quality",
+   "label": "Quality",
+   "match": "catch_all",
+   "source": "IDO",
+   "nearest": {
+    "rdl": "none",
+    "cfihos": "none"
+   }
+  },
+  "seal material": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100005604",
+   "label": "Material Composition",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "spring material": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100005604",
+   "label": "Material Composition",
+   "match": "broad",
+   "source": "PCA RDL"
+  },
+  "temperature": {
+   "iri": "http://data.posccaesar.org/rdl/RDS355859",
+   "label": "TEMPERATURE (PCA RDL concept)",
+   "match": "exact",
+   "source": "PCA RDL"
+  },
+  "valve body material": {
+   "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100005604",
+   "label": "Material Composition",
+   "match": "broad",
+   "source": "PCA RDL"
+  }
+ },
+ "source": "C:/Users/Zsombi/plantqa/data/datasheets/swagelok-ms-01-176/09-szokeszlet/vocab-check.json"
+}

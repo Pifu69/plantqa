@@ -1,0 +1,62 @@
+{
+ "triples": 66747,
+ "types": {
+  "PCA_100029504": 1,
+  "PhysicalObject": 142,
+  "PCA_100005884": 1,
+  "PCA_100029513": 140,
+  "PCA_100029505": 15,
+  "PCA_100029511": 4448,
+  "PCA_100029508": 1159,
+  "PCA_100029524": 2107,
+  "PCA_100029512": 365,
+  "PCA_100029510": 1
+ },
+ "facts_about_the_device": 734,
+ "facts_with_standard_attribute": 423,
+ "facts_by_attribute_tier": {
+  "catch_all": 113,
+  "broad": 423,
+  "not_device_property": 198
+ },
+ "facts_by_section_rule": {
+  "heading": 46,
+  "azure": 84,
+  "page": 48,
+  "table": 696
+ },
+ "device_class": "Check Valve",
+ "unit_status": {
+  "bar": "ok",
+  "psig": "no_qudt",
+  "psi": "ok",
+  "C": "qudt_only",
+  "": "no_unit",
+  "°F": "ok",
+  "std cm3/min nitrogen": "not_found",
+  "in": "ok",
+  "mm": "ok",
+  "°C": "ok",
+  "std ft3/min": "not_found",
+  "U.S. gal/min": "no_qudt"
+ },
+ "properties_without_standard_concept": [
+  "Basic metal gasket kit ordering number",
+  "Basic ordering number",
+  "Basic seal kit ordering number",
+  "Basic spring kit ordering number",
+  "Cracking pressure designator",
+  "Cracking pressure range designator",
+  "Deflector cap kit ordering number",
+  "Gasket material designator",
+  "Inlet gasket",
+  "Maximum flow coefficient (Cv)",
+  "Seal kit material designator",
+  "Seal kit ordering number",
+  "Seal material designator",
+  "Series",
+  "Spring kit cracking pressure designator",
+  "Spring material designator",
+  "Uniform O-ring size"
+ ]
+}

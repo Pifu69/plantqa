@@ -25,3 +25,34 @@
 {"time": "2026-10-31T08:38:04+00:00", "source": "plantdocs-chat", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 1578, "completion_tokens": 104, "cost_usd": 0.000216525}
 {"time": "2026-10-31T08:38:09+00:00", "source": "plantgraph", "tag": "M1-glm/t2/agent_step", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 2409, "completion_tokens": 842, "cost_usd": 7.13258e-05}
 {"time": "2026-10-31T08:38:11+00:00", "source": "plantgraph", "tag": "M1-glm/t2/agent_step", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 2525, "completion_tokens": 169, "cost_usd": 4.5918e-05}
+{"time": "2026-10-31T08:42:17+00:00", "source": "plantgraph", "tag": "M2-glm/t1/route", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 483, "completion_tokens": 306, "cost_usd": 1.91706e-05}
+{"time": "2026-10-31T08:42:19+00:00", "source": "plantdocs-embed", "model": "qwen/qwen3-embedding-8b", "prompt_tokens": 11, "completion_tokens": 0, "cost_usd": 1.1e-07}
+{"time": "2026-10-31T08:42:25+00:00", "source": "plantdocs-chat", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 10555, "completion_tokens": 967, "cost_usd": 0.0002158745}
+{"time": "2026-10-31T08:42:26+00:00", "source": "plantdocs-chat", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 4109, "completion_tokens": 171, "cost_usd": 0.0005263875}
+{"time": "2026-10-31T08:42:29+00:00", "source": "plantgraph", "tag": "M2-glm/t1/route", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 725, "completion_tokens": 223, "cost_usd": 1.99875e-05}
+{"time": "2026-10-31T08:42:30+00:00", "source": "plantgraph", "tag": "M2-glm/t3/route", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 449, "completion_tokens": 22, "cost_usd": 6.048e-05}
+{"time": "2026-10-31T08:42:33+00:00", "source": "plantgraph", "tag": "M2-drawing-glm/t3/d0/answer", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 832, "completion_tokens": 504, "cost_usd": 3.22024e-05}
+{"time": "2026-10-31T08:42:34+00:00", "source": "plantgraph", "tag": "M2-drawing-glm/t3/d0/answer", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 827, "completion_tokens": 18, "cost_usd": 1.48634e-05}
+{"time": "2026-10-31T08:42:35+00:00", "source": "plantgraph", "tag": "M2-glm/t3/route", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 492, "completion_tokens": 21, "cost_usd": 6.534e-05}
+{"time": "2026-10-31T08:42:35+00:00", "source": "plantgraph", "tag": "M2-glm/t4/route", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 464, "completion_tokens": 47, "cost_usd": 2.9816e-05}
+{"time": "2026-10-31T08:42:37+00:00", "source": "plantgraph", "tag": "M2-drawing-glm/t4/d0/cypher", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 1999, "completion_tokens": 49, "cost_usd": 9.59e-05}
+{"time": "2026-10-31T08:42:39+00:00", "source": "plantgraph", "tag": "M2-drawing-glm/t4/d0/answer", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 855, "completion_tokens": 356, "cost_usd": 2.7344e-05}
+{"time": "2026-10-31T08:42:40+00:00", "source": "plantgraph", "tag": "M2-drawing-glm/t4/d0/agent_step", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 2129, "completion_tokens": 142, "cost_usd": 4.16598e-05}
+{"time": "2026-10-31T08:42:41+00:00", "source": "plantgraph", "tag": "M2-drawing-glm/t4/d0/agent_step", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 2151, "completion_tokens": 98, "cost_usd": 0.00028752}
+{"time": "2026-10-31T08:42:43+00:00", "source": "plantgraph", "tag": "M2-drawing-glm/t4/d0/answer", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 762, "completion_tokens": 318, "cost_usd": 2.43954e-05}
+{"time": "2026-10-31T08:42:44+00:00", "source": "plantgraph", "tag": "M2-glm/t4/route", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 511, "completion_tokens": 38, "cost_usd": 2.9636e-05}
+{"time": "2026-10-31T08:42:45+00:00", "source": "plantgraph", "tag": "M2-drawing-glm/t4/d1/cypher", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 2002, "completion_tokens": 75, "cost_usd": 0.000101232}
+{"time": "2026-10-31T08:42:47+00:00", "source": "plantgraph", "tag": "M2-drawing-glm/t4/d1/answer", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 909, "completion_tokens": 383, "cost_usd": 2.92313e-05}
+{"time": "2026-10-31T08:42:48+00:00", "source": "plantgraph", "tag": "M2-glm/t4/route", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 593, "completion_tokens": 45, "cost_usd": 3.4644e-05}
+{"time": "2026-10-31T08:42:51+00:00", "source": "plantdocs-embed", "model": "qwen/qwen3-embedding-8b", "prompt_tokens": 22, "completion_tokens": 0, "cost_usd": 2.2e-07}
+{"time": "2026-10-31T08:42:57+00:00", "source": "plantdocs-chat", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 15210, "completion_tokens": 545, "cost_usd": 0.00077824}
+{"time": "2026-10-31T08:43:00+00:00", "source": "plantdocs-chat", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 15708, "completion_tokens": 431, "cost_usd": 0.001928775}
+{"time": "2026-10-31T08:43:01+00:00", "source": "plantgraph", "tag": "M2-glm/t4/route", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 1095, "completion_tokens": 188, "cost_usd": 8.5204e-05}
+{"time": "2026-10-31T08:43:10+00:00", "source": "plantdocs-embed", "model": "qwen/qwen3-embedding-8b", "prompt_tokens": 59626, "completion_tokens": 0, "cost_usd": 0.00059626}
+{"time": "2026-10-31T08:43:12+00:00", "source": "plantdocs-embed", "model": "qwen/qwen3-embedding-8b", "prompt_tokens": 50688, "completion_tokens": 0, "cost_usd": 0.00050688}
+{"time": "2026-10-31T08:43:13+00:00", "source": "plantdocs-embed", "model": "qwen/qwen3-embedding-8b", "prompt_tokens": 32, "completion_tokens": 0, "cost_usd": 3.2e-07}
+{"time": "2026-10-31T08:43:14+00:00", "source": "plantgraph", "tag": "M3-glm/t1/answer", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 10541, "completion_tokens": 68, "cost_usd": 0.00129076}
+{"time": "2026-10-31T08:43:15+00:00", "source": "plantdocs-embed", "model": "qwen/qwen3-embedding-8b", "prompt_tokens": 10, "completion_tokens": 0, "cost_usd": 1e-07}
+{"time": "2026-10-31T08:43:16+00:00", "source": "plantgraph", "tag": "M3-glm/t3/answer", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 11706, "completion_tokens": 117, "cost_usd": 0.00144918}
+{"time": "2026-10-31T08:43:17+00:00", "source": "plantdocs-embed", "model": "qwen/qwen3-embedding-8b", "prompt_tokens": 31, "completion_tokens": 0, "cost_usd": 3.1e-07}
+{"time": "2026-10-31T08:43:19+00:00", "source": "plantgraph", "tag": "M3-glm/t4/answer", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 14701, "completion_tokens": 331, "cost_usd": 0.0012051}

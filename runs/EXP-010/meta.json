@@ -1,0 +1,31 @@
+{
+  "runs": [
+    {
+      "command": "python -m plantqa.eval.run --exp EXP-010 --method M1 --model glm --split dev --allow-paid",
+      "method": "M1",
+      "model_id": "z-ai/glm-5.3-flash",
+      "split": "dev",
+      "git_commit": "cbc5c9b",
+      "started": "2026-10-31T08:49:28+00:00",
+      "spent_before_usd": 0.3169
+    },
+    {
+      "command": "python -m plantqa.eval.run --exp EXP-010 --method M2 --model glm --split dev --allow-paid",
+      "method": "M2",
+      "model_id": "z-ai/glm-5.3-flash",
+      "split": "dev",
+      "git_commit": "cbc5c9b",
+      "started": "2026-10-31T08:54:43+00:00",
+      "spent_before_usd": 0.343
+    },
+    {
+      "command": "python -m plantqa.eval.run --exp EXP-010 --method M3 --model glm --split dev --allow-paid",
+      "method": "M3",
+      "model_id": "z-ai/glm-5.3-flash",
+      "split": "dev",
+      "git_commit": "9909228",
+      "started": "2026-10-31T09:00:14+00:00",
+      "spent_before_usd": 0.3772
+    }
+  ]
+}

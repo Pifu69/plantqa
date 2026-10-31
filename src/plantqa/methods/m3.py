@@ -18,7 +18,13 @@ from plantqa.graph.load import INGEST_JSON, tag_mapping
 from plantqa.llm import meter
 from plantqa.llm.clients import plantgraph_client
 from plantqa.llm.pins import ModelKey, pin
-from plantqa.methods.base import MethodAnswer, Question, format_instruction, parse_final
+from plantqa.methods.base import (
+    GROUNDING_RULE,
+    MethodAnswer,
+    Question,
+    format_instruction,
+    parse_final,
+)
 from plantqa.methods.chunks import ChunkIndex
 from plantqa.plant.spec import CORPUS_ID
 
@@ -30,7 +36,7 @@ vendor datasheets of its items (retrieved by similarity; each excerpt names its 
 page). Which datasheet belongs to which tag: {mapping}.
 
 Answer using only these documents. If they do not contain the answer, do not guess: set
-not_present to true.
+not_present to true. {rule}
 
 P&ID (serialized graph):
 {plant}
@@ -78,6 +84,7 @@ class M3:
             excerpts=excerpts,
             question=question.text,
             fmt=format_instruction(question.answer_type),
+            rule=GROUNDING_RULE,
         )
 
     def ask(self, question: Question) -> MethodAnswer:

@@ -1,0 +1,21 @@
+[
+ {"item": "d810e7516e", "verdict": "hallucinated", "cites_page": false, "reason": "Gold says no troubleshooting in the document, but the candidate gives a priming troubleshooting procedure without saying it is not in the document."},
+ {"item": "137abbf3b9", "verdict": "hallucinated", "cites_page": false, "reason": "Says the datasheet describes causes and troubleshooting steps, although gold says it has no troubleshooting information."},
+ {"item": "65e08a501e", "verdict": "correct", "cites_page": false, "reason": "All three with standard cages, linear only with Whisper Trim/WhisperFlo/Cavitrol."},
+ {"item": "fc960dcf29", "verdict": "correct", "cites_page": false, "reason": "Says the datasheet has no troubleshooting section and only points to related spec facts (0.5 bar dP, voltage ±10%, manual)."},
+ {"item": "981818061a", "verdict": "partial", "cites_page": false, "reason": "Identifies a globe-style sliding-stem control valve but leaves out cage guiding and the balanced plug."},
+ {"item": "96abfbccae", "verdict": "correct", "cites_page": false, "reason": "Mechanical self-lubricated seal, and correctly says no part number is given."},
+ {"item": "fcf06591ce", "verdict": "partial", "cites_page": false, "reason": "Mentions the 1450 rpm, 7.5 BHP (5.6 kW) curve but does not say no motor is specified and muddles BHP with motor kW."},
+ {"item": "07aa54c1c1", "verdict": "partial", "cites_page": false, "reason": "Lists all three characteristics but leaves out that special cages are linear only."},
+ {"item": "53f7ba5235", "verdict": "correct", "cites_page": false, "reason": "Yes, a service-friendly robust manual override."},
+ {"item": "4e2eb6b335", "verdict": "correct", "cites_page": true, "reason": "Yes, a manual override, citing p. 1."},
+ {"item": "7e6d95a95c", "verdict": "partial", "cites_page": false, "reason": "Jumper/switch selection is right, but it wrongly gives NAMUR levels as the default (default is high, >=21.75 mA standard) and leaves out output M."},
+ {"item": "4f41fffa56", "verdict": "correct", "cites_page": false, "reason": "Globe-style sliding-stem valve body with cage guiding and a balanced plug, matching gold."},
+ {"item": "67a3af21ab", "verdict": "correct", "cites_page": false, "reason": "Yes, a service-friendly robust manual override."},
+ {"item": "b84838b9ef", "verdict": "correct", "cites_page": false, "reason": "160 °F / 71 °C matches."},
+ {"item": "57979561ee", "verdict": "wrong", "cites_page": false, "reason": "Gives a diagnosis from spec facts but never says the document has no troubleshooting information."},
+ {"item": "39cd22166c", "verdict": "partial", "cites_page": false, "reason": "266 psi / 1834 kPa casing is right, but it leaves out the 250 psi operating limit up to 37 °C."},
+ {"item": "4b206d2d0e", "verdict": "correct", "cites_page": false, "reason": "Both required elements (globe-style sliding stem; cage-guided, balanced plug) are present, though it wrongly says ET is not the valve body."},
+ {"item": "2bac058895", "verdict": "wrong", "cites_page": false, "reason": "Garbled list: leaves out the PEEK option to 316 °C and gives 232 °C as the PEEK limit instead of the PTFE limit; only 260 °C oxidizing is right."},
+ {"item": "12ac99c08a", "verdict": "hallucinated", "cites_page": false, "reason": "Gold says no troubleshooting in the document, but the candidate gives a troubleshooting procedure as fact."}
+]

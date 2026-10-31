@@ -59,6 +59,14 @@ class Method(Protocol):
         ...
 
 
+GROUNDING_RULE = (
+    "If the documents give only part of what is asked, answer with that part and say which part"
+    " is not stated; set not_present to true only when they contain nothing relevant. Never add"
+    " advice, procedures, causes or values that the documents do not state."
+)
+"""Az M2 és M3 válaszszabálya (EXP-011-től): részválasz és a dokumentumon túli tanács tilalma."""
+
+
 def format_instruction(answer_type: str) -> str:
     """Benedek válaszalak-mondata (ugyanaz a szöveg, amit a cascade végső válasza lát)."""
     return _answer_format_instruction(AnswerType(answer_type))

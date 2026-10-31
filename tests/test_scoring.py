@@ -42,3 +42,13 @@ def test_unscorable_text_goes_to_judge() -> None:
     answer = {"final": {"answer": "It is a globe valve.", "not_present": False}}
     assert program_score(_free("yes", ["globe-style control valve"]), answer) is None
     assert program_score(_free("no", []), answer) is None
+
+
+def test_flagged_answer_with_text_goes_to_judge() -> None:
+    answer = {
+        "final": {
+            "answer": "P-2-2 has a mechanical seal; part number not stated.",
+            "not_present": True,
+        }
+    }
+    assert program_score(_free("partial", ["mechanical seal"]), answer) is None

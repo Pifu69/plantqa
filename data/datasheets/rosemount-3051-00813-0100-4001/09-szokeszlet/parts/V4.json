@@ -1,0 +1,2354 @@
+{
+ "matcher": "claude-opus-5-5, 2026-10-31, vocabulary/2, by hand (Claude Code subagent, batch V4) with vt.py: rds label cache + CFIHOS CORE v2.0 CSV; legacy data endpoint 404 (only RDS2100752881 dereferenced)",
+ "items": [
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/minimum_static_line_pressure",
+   "label": "Minimum static line pressure",
+   "not_device_property": false,
+   "rdl": {
+    "match": "broad",
+    "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003596",
+    "label": "pressure",
+    "endpoint": "rds"
+   },
+   "cfihos": {
+    "match": "broad",
+    "code": "CFIHOS-40000556",
+    "name": "lower limit operating pressure",
+    "note": "lowest static line pressure at which the transmitter operates within specification"
+   }
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/model",
+   "label": "Model",
+   "not_device_property": false,
+   "rdl": {
+    "match": "none",
+    "iri": null,
+    "label": null,
+    "endpoint": null
+   },
+   "cfihos": {
+    "match": "none",
+    "code": null,
+    "name": null
+   },
+   "values": [
+    {
+     "printed": "Coplanar pressure transmitter",
+     "rdl": {
+      "match": "broad",
+      "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100004123",
+      "label": "Transmitter",
+      "endpoint": "rds",
+      "note": "no pressure transmitter class in rds"
+     },
+     "cfihos": {
+      "match": "exact",
+      "code": "CFIHOS-30000654",
+      "name": "pressure transmitter"
+     }
+    },
+    {
+     "printed": "In-Line Pressure Transmitter",
+     "rdl": {
+      "match": "broad",
+      "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100004123",
+      "label": "Transmitter",
+      "endpoint": "rds",
+      "note": "no pressure transmitter class in rds"
+     },
+     "cfihos": {
+      "match": "exact",
+      "code": "CFIHOS-30000654",
+      "name": "pressure transmitter"
+     }
+    },
+    {
+     "printed": "Annubar™ Flow Meter",
+     "rdl": {
+      "match": "broad",
+      "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100005898",
+      "label": "Differential Pressure Flow Meter",
+      "endpoint": "rds"
+     },
+     "cfihos": {
+      "match": "broad",
+      "code": "CFIHOS-30000858",
+      "name": "pitot tube flow meter",
+      "note": "Annubar is an averaging pitot tube; the CFIHOS class describes a single open-tip pitot"
+     }
+    },
+    {
+     "printed": "Compact flow meter",
+     "rdl": {
+      "match": "broad",
+      "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100005898",
+      "label": "Differential Pressure Flow Meter",
+      "endpoint": "rds",
+      "note": "compact orifice DP flow meter"
+     },
+     "cfihos": {
+      "match": "broad",
+      "code": "CFIHOS-30000829",
+      "name": "flow meter"
+     }
+    },
+    {
+     "printed": "Integral Orifice Flow Meter",
+     "rdl": {
+      "match": "broad",
+      "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100005898",
+      "label": "Differential Pressure Flow Meter",
+      "endpoint": "rds"
+     },
+     "cfihos": {
+      "match": "broad",
+      "code": "CFIHOS-30000829",
+      "name": "flow meter",
+      "note": "no generic differential-pressure / orifice flow meter class in CFIHOS"
+     }
+    },
+    {
+     "printed": "Level transmitter",
+     "rdl": {
+      "match": "exact",
+      "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100004087",
+      "label": "Level Transmitter",
+      "endpoint": "rds"
+     },
+     "cfihos": {
+      "match": "exact",
+      "code": "CFIHOS-30000646",
+      "name": "level transmitter"
+     }
+    }
+   ],
+   "identification": {
+    "match": "exact",
+    "iri": "http://data.posccaesar.org/rdl/RDS2100752881",
+    "label": "MANUFACTURERS MODEL CODE ASSIGNMENT CLASS",
+    "endpoint": "data"
+   }
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/model_code_content",
+   "label": "Model code content",
+   "not_device_property": true,
+   "reason": "document note about model codes (refers to a figure), not a device property",
+   "rdl": {
+    "match": "none",
+    "iri": null,
+    "label": null,
+    "endpoint": null
+   },
+   "cfihos": {
+    "match": "none",
+    "code": null,
+    "name": null
+   }
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/model_code_example",
+   "label": "Model code example",
+   "not_device_property": true,
+   "reason": "example order code string (model number), an order code",
+   "rdl": {
+    "match": "none",
+    "iri": null,
+    "label": null,
+    "endpoint": null
+   },
+   "cfihos": {
+    "match": "none",
+    "code": null,
+    "name": null
+   }
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/model_code_variation",
+   "label": "Model code variation",
+   "not_device_property": true,
+   "reason": "document note about model codes (refers to a figure), not a device property",
+   "rdl": {
+    "match": "none",
+    "iri": null,
+    "label": null,
+    "endpoint": null
+   },
+   "cfihos": {
+    "match": "none",
+    "code": null,
+    "name": null
+   }
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/model_codes",
+   "label": "Model codes",
+   "not_device_property": true,
+   "reason": "document note about model codes (refers to a figure), not a device property",
+   "rdl": {
+    "match": "none",
+    "iri": null,
+    "label": null,
+    "endpoint": null
+   },
+   "cfihos": {
+    "match": "none",
+    "code": null,
+    "name": null
+   }
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/modulation",
+   "label": "Modulation",
+   "not_device_property": false,
+   "rdl": {
+    "match": "none",
+    "iri": null,
+    "label": null,
+    "endpoint": null
+   },
+   "cfihos": {
+    "match": "none",
+    "code": null,
+    "name": null
+   }
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/mounting_bracket",
+   "label": "Mounting bracket",
+   "not_device_property": false,
+   "rdl": {
+    "match": "none",
+    "iri": null,
+    "label": null,
+    "endpoint": null
+   },
+   "cfihos": {
+    "match": "related",
+    "code": "CFIHOS-30000136",
+    "name": "mounting bracket",
+    "note": "equipment class of the bracket itself, not a property; values are bracket option descriptions (no class beyond the subject)"
+   }
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/mounting_type",
+   "label": "Mounting type",
+   "not_device_property": false,
+   "rdl": {
+    "match": "none",
+    "iri": null,
+    "label": null,
+    "endpoint": null
+   },
+   "cfihos": {
+    "match": "related",
+    "code": "CFIHOS-40001383",
+    "name": "type of mounting",
+    "note": "CFIHOS defines it for motors; values are flange rating + facing + standard combinations (no single class)"
+   }
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/nace_certificate",
+   "label": "NACE certificate",
+   "not_device_property": false,
+   "rdl": {
+    "match": "related",
+    "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100006314",
+    "label": "Material certificate",
+    "endpoint": "rds",
+    "note": "NORSOK document class; the option is a NACE compliance certificate for wetted materials"
+   },
+   "cfihos": {
+    "match": "none",
+    "code": null,
+    "name": null
+   }
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/nace_compliance",
+   "label": "NACE compliance",
+   "not_device_property": false,
+   "rdl": {
+    "match": "related",
+    "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003541",
+    "label": "Material Standard",
+    "endpoint": "rds",
+    "note": "NACE MR0175/ISO 15156 and MR0103 are material standards; the item states compliance (a class where a property is needed)"
+   },
+   "cfihos": {
+    "match": "none",
+    "code": null,
+    "name": null
+   }
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/nace_mr0103",
+   "label": "NACE MR0103",
+   "not_device_property": false,
+   "rdl": {
+    "match": "related",
+    "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003541",
+    "label": "Material Standard",
+    "endpoint": "rds",
+    "note": "NACE MR0175/ISO 15156 and MR0103 are material standards; the item states compliance (a class where a property is needed)"
+   },
+   "cfihos": {
+    "match": "none",
+    "code": null,
+    "name": null
+   }
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/nace_mr0103_conformance",
+   "label": "NACE MR0103 conformance",
+   "not_device_property": false,
+   "rdl": {
+    "match": "related",
+    "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003541",
+    "label": "Material Standard",
+    "endpoint": "rds",
+    "note": "NACE MR0175/ISO 15156 and MR0103 are material standards; the item states compliance (a class where a property is needed)"
+   },
+   "cfihos": {
+    "match": "none",
+    "code": null,
+    "name": null
+   }
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/nace_mr0175_iso_15156",
+   "label": "NACE MR0175/ISO 15156",
+   "not_device_property": false,
+   "rdl": {
+    "match": "related",
+    "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003541",
+    "label": "Material Standard",
+    "endpoint": "rds",
+    "note": "NACE MR0175/ISO 15156 and MR0103 are material standards; the item states compliance (a class where a property is needed)"
+   },
+   "cfihos": {
+    "match": "none",
+    "code": null,
+    "name": null
+   }
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/nace_mr0175_iso_compliance",
+   "label": "NACE MR0175/ISO compliance",
+   "not_device_property": false,
+   "rdl": {
+    "match": "related",
+    "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003541",
+    "label": "Material Standard",
+    "endpoint": "rds",
+    "note": "NACE MR0175/ISO 15156 and MR0103 are material standards; the item states compliance (a class where a property is needed)"
+   },
+   "cfihos": {
+    "match": "none",
+    "code": null,
+    "name": null
+   }
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/namur_ne_21_applicability",
+   "label": "NAMUR NE-21 applicability",
+   "not_device_property": true,
+   "reason": "note on the applicability of NAMUR NE-21 to certain output codes",
+   "rdl": {
+    "match": "none",
+    "iri": null,
+    "label": null,
+    "endpoint": null
+   },
+   "cfihos": {
+    "match": "none",
+    "code": null,
+    "name": null
+   }
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/non_starred_offerings",
+   "label": "Non-starred offerings",
+   "not_device_property": true,
+   "reason": "ordering metadata (non-starred offerings lead time)",
+   "rdl": {
+    "match": "none",
+    "iri": null,
+    "label": null,
+    "endpoint": null
+   },
+   "cfihos": {
+    "match": "none",
+    "code": null,
+    "name": null
+   }
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/not_available_with",
+   "label": "Not available with",
+   "not_device_property": true,
+   "reason": "ordering constraint between option codes",
+   "rdl": {
+    "match": "none",
+    "iri": null,
+    "label": null,
+    "endpoint": null
+   },
+   "cfihos": {
+    "match": "none",
+    "code": null,
+    "name": null
+   }
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/not_valid_with",
+   "label": "Not valid with",
+   "not_device_property": true,
+   "reason": "ordering constraint between option codes",
+   "rdl": {
+    "match": "none",
+    "iri": null,
+    "label": null,
+    "endpoint": null
+   },
+   "cfihos": {
+    "match": "none",
+    "code": null,
+    "name": null
+   }
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/note",
+   "label": "Note",
+   "not_device_property": true,
+   "reason": "notes / instructions",
+   "rdl": {
+    "match": "none",
+    "iri": null,
+    "label": null,
+    "endpoint": null
+   },
+   "cfihos": {
+    "match": "none",
+    "code": null,
+    "name": null
+   }
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/notification",
+   "label": "Notification",
+   "not_device_property": false,
+   "rdl": {
+    "match": "none",
+    "iri": null,
+    "label": null,
+    "endpoint": null
+   },
+   "cfihos": {
+    "match": "none",
+    "code": null,
+    "name": null
+   }
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/number",
+   "label": "Number",
+   "not_device_property": false,
+   "rdl": {
+    "match": "broad",
+    "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003593",
+    "label": "number",
+    "endpoint": "rds",
+    "note": "number of lower-housing flushing connections (3051L option F1/F2...)"
+   },
+   "cfihos": {
+    "match": "related",
+    "code": "CFIHOS-40000644",
+    "name": "number of connection",
+    "note": "defined as the number of lines connected to the equipment"
+   }
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/number_of_arithmetic_functions",
+   "label": "Number of arithmetic functions",
+   "not_device_property": false,
+   "rdl": {
+    "match": "broad",
+    "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003593",
+    "label": "number",
+    "endpoint": "rds",
+    "note": "count of function-block capabilities"
+   },
+   "cfihos": {
+    "match": "none",
+    "code": null,
+    "name": null
+   }
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/number_of_bolts",
+   "label": "Number of bolts",
+   "not_device_property": false,
+   "rdl": {
+    "match": "broad",
+    "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003593",
+    "label": "number",
+    "endpoint": "rds"
+   },
+   "cfihos": {
+    "match": "none",
+    "code": null,
+    "name": null
+   }
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/number_of_control_outputs_driven_from_a_single_input",
+   "label": "Number of control outputs driven from a single input",
+   "not_device_property": false,
+   "rdl": {
+    "match": "broad",
+    "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003593",
+    "label": "number",
+    "endpoint": "rds",
+    "note": "count of function-block capabilities"
+   },
+   "cfihos": {
+    "match": "none",
+    "code": null,
+    "name": null
+   }
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/number_of_selectable_inputs",
+   "label": "Number of selectable inputs",
+   "not_device_property": false,
+   "rdl": {
+    "match": "broad",
+    "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003593",
+    "label": "number",
+    "endpoint": "rds",
+    "note": "count of function-block capabilities"
+   },
+   "cfihos": {
+    "match": "none",
+    "code": null,
+    "name": null
+   }
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/number_of_tagging_options",
+   "label": "Number of tagging options",
+   "not_device_property": false,
+   "rdl": {
+    "match": "broad",
+    "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003593",
+    "label": "number",
+    "endpoint": "rds",
+    "note": "count of tagging options offered; close to ordering metadata"
+   },
+   "cfihos": {
+    "match": "none",
+    "code": null,
+    "name": null
+   }
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/number_of_totalizing_options",
+   "label": "Number of totalizing options",
+   "not_device_property": false,
+   "rdl": {
+    "match": "broad",
+    "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003593",
+    "label": "number",
+    "endpoint": "rds",
+    "note": "count of function-block capabilities"
+   },
+   "cfihos": {
+    "match": "none",
+    "code": null,
+    "name": null
+   }
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/number_of_trip_outputs",
+   "label": "Number of trip outputs",
+   "not_device_property": false,
+   "rdl": {
+    "match": "broad",
+    "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003593",
+    "label": "number",
+    "endpoint": "rds",
+    "note": "count of function-block capabilities"
+   },
+   "cfihos": {
+    "match": "none",
+    "code": null,
+    "name": null
+   }
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/o_d_gasket_surface_d",
+   "label": "O.D. gasket surface D",
+   "not_device_property": false,
+   "rdl": {
+    "match": "broad",
+    "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003585",
+    "label": "length",
+    "endpoint": "rds"
+   },
+   "cfihos": {
+    "match": "broad",
+    "code": "CFIHOS-40000519",
+    "name": "outside diameter",
+    "note": "drawing dimension D: outside diameter of the gasket surface"
+   }
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/o_ring",
+   "label": "O-ring",
+   "not_device_property": false,
+   "rdl": {
+    "match": "none",
+    "iri": null,
+    "label": null,
+    "endpoint": null
+   },
+   "cfihos": {
+    "match": "broad",
+    "code": "CFIHOS-40000223",
+    "name": "material",
+    "note": "O-ring material (CFIHOS-40000003 actuator seal material is defined for actuator pistons)"
+   },
+   "values": [
+    {
+     "printed": "Glass-filled PTFE",
+     "rdl": {
+      "match": "none",
+      "iri": null,
+      "label": null,
+      "endpoint": null
+     },
+     "cfihos": {
+      "match": "none",
+      "code": null,
+      "name": null
+     }
+    },
+    {
+     "printed": "Graphite-filled PTFE",
+     "rdl": {
+      "match": "none",
+      "iri": null,
+      "label": null,
+      "endpoint": null
+     },
+     "cfihos": {
+      "match": "none",
+      "code": null,
+      "name": null
+     }
+    }
+   ]
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/o_ring_material",
+   "label": "O-ring material",
+   "not_device_property": false,
+   "rdl": {
+    "match": "none",
+    "iri": null,
+    "label": null,
+    "endpoint": null
+   },
+   "cfihos": {
+    "match": "broad",
+    "code": "CFIHOS-40000223",
+    "name": "material"
+   }
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/offering",
+   "label": "Offering",
+   "not_device_property": true,
+   "reason": "catalogue / marketing statement about the product offering",
+   "rdl": {
+    "match": "none",
+    "iri": null,
+    "label": null,
+    "endpoint": null
+   },
+   "cfihos": {
+    "match": "none",
+    "code": null,
+    "name": null
+   }
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/online_configurability",
+   "label": "Online configurability",
+   "not_device_property": true,
+   "reason": "vendor service statement (online configurator), not a device property",
+   "rdl": {
+    "match": "none",
+    "iri": null,
+    "label": null,
+    "endpoint": null
+   },
+   "cfihos": {
+    "match": "none",
+    "code": null,
+    "name": null
+   }
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/online_configuration",
+   "label": "Online configuration",
+   "not_device_property": true,
+   "reason": "vendor service statement (online configurator), not a device property",
+   "rdl": {
+    "match": "none",
+    "iri": null,
+    "label": null,
+    "endpoint": null
+   },
+   "cfihos": {
+    "match": "none",
+    "code": null,
+    "name": null
+   }
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/only_available_with",
+   "label": "Only available with",
+   "not_device_property": true,
+   "reason": "ordering constraint between option codes",
+   "rdl": {
+    "match": "none",
+    "iri": null,
+    "label": null,
+    "endpoint": null
+   },
+   "cfihos": {
+    "match": "none",
+    "code": null,
+    "name": null
+   }
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/operating_conditions",
+   "label": "Operating conditions",
+   "not_device_property": false,
+   "rdl": {
+    "match": "none",
+    "iri": null,
+    "label": null,
+    "endpoint": null
+   },
+   "cfihos": {
+    "match": "none",
+    "code": null,
+    "name": null
+   }
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/operating_frequency",
+   "label": "Operating frequency",
+   "not_device_property": false,
+   "rdl": {
+    "match": "broad",
+    "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003580",
+    "label": "frequency",
+    "endpoint": "rds",
+    "note": "radio operating frequency"
+   },
+   "cfihos": {
+    "match": "none",
+    "code": null,
+    "name": null
+   }
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/operating_range_statement",
+   "label": "Operating range statement",
+   "not_device_property": false,
+   "rdl": {
+    "match": "broad",
+    "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003596",
+    "label": "pressure",
+    "endpoint": "rds",
+    "note": "statement of the static line pressure operating range"
+   },
+   "cfihos": {
+    "match": "none",
+    "code": null,
+    "name": null
+   }
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/operating_voltage",
+   "label": "Operating voltage",
+   "not_device_property": false,
+   "rdl": {
+    "match": "broad",
+    "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003575",
+    "label": "electric potential",
+    "endpoint": "rds"
+   },
+   "cfihos": {
+    "match": "exact",
+    "code": "CFIHOS-40000603",
+    "name": "operating voltage"
+   }
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/opposite_side_support_or_packing_gland",
+   "label": "Opposite side support or packing gland",
+   "not_device_property": false,
+   "rdl": {
+    "match": "none",
+    "iri": null,
+    "label": null,
+    "endpoint": null
+   },
+   "cfihos": {
+    "match": "none",
+    "code": null,
+    "name": null
+   }
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/option",
+   "label": "Option",
+   "not_device_property": false,
+   "rdl": {
+    "match": "none",
+    "iri": null,
+    "label": null,
+    "endpoint": null
+   },
+   "cfihos": {
+    "match": "none",
+    "code": null,
+    "name": null
+   },
+   "values": [
+    {
+     "printed": "Traditional flange",
+     "rdl": {
+      "match": "related",
+      "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100004099",
+      "label": "Pipe Flange",
+      "endpoint": "rds",
+      "note": "transmitter process flange, not a pipe flange"
+     },
+     "cfihos": {
+      "match": "broad",
+      "code": "CFIHOS-30000304",
+      "name": "flange"
+     }
+    },
+    {
+     "printed": "Level flange - 3 inch, 150",
+     "rdl": {
+      "match": "related",
+      "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100004099",
+      "label": "Pipe Flange",
+      "endpoint": "rds"
+     },
+     "cfihos": {
+      "match": "broad",
+      "code": "CFIHOS-30000304",
+      "name": "flange"
+     }
+    },
+    {
+     "printed": "Level flange - 3 inch, 300",
+     "rdl": {
+      "match": "related",
+      "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100004099",
+      "label": "Pipe Flange",
+      "endpoint": "rds"
+     },
+     "cfihos": {
+      "match": "broad",
+      "code": "CFIHOS-30000304",
+      "name": "flange"
+     }
+    },
+    {
+     "printed": "Level flange - 2 inch, 150",
+     "rdl": {
+      "match": "related",
+      "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100004099",
+      "label": "Pipe Flange",
+      "endpoint": "rds"
+     },
+     "cfihos": {
+      "match": "broad",
+      "code": "CFIHOS-30000304",
+      "name": "flange"
+     }
+    },
+    {
+     "printed": "Level flange - 2 inch, 300",
+     "rdl": {
+      "match": "related",
+      "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100004099",
+      "label": "Pipe Flange",
+      "endpoint": "rds"
+     },
+     "cfihos": {
+      "match": "broad",
+      "code": "CFIHOS-30000304",
+      "name": "flange"
+     }
+    },
+    {
+     "printed": "DIN level flange, SST, DN 50, PN 40",
+     "rdl": {
+      "match": "related",
+      "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100004099",
+      "label": "Pipe Flange",
+      "endpoint": "rds"
+     },
+     "cfihos": {
+      "match": "broad",
+      "code": "CFIHOS-30000304",
+      "name": "flange"
+     }
+    },
+    {
+     "printed": "DIN level flange, SST, DN 80, PN 40",
+     "rdl": {
+      "match": "related",
+      "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100004099",
+      "label": "Pipe Flange",
+      "endpoint": "rds"
+     },
+     "cfihos": {
+      "match": "broad",
+      "code": "CFIHOS-30000304",
+      "name": "flange"
+     }
+    },
+    {
+     "printed": "SST sensor module",
+     "rdl": {
+      "match": "none",
+      "iri": null,
+      "label": null,
+      "endpoint": null
+     },
+     "cfihos": {
+      "match": "none",
+      "code": null,
+      "name": null
+     }
+    },
+    {
+     "printed": "Power module (701PGNKF)",
+     "rdl": {
+      "match": "broad",
+      "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100004071",
+      "label": "Electric Battery",
+      "endpoint": "rds",
+      "note": "the 701P power module is a battery pack"
+     },
+     "cfihos": {
+      "match": "broad",
+      "code": "CFIHOS-30000337",
+      "name": "electric battery"
+     }
+    }
+   ]
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/option_code",
+   "label": "Option code",
+   "not_device_property": true,
+   "reason": "option code (order code)",
+   "rdl": {
+    "match": "none",
+    "iri": null,
+    "label": null,
+    "endpoint": null
+   },
+   "cfihos": {
+    "match": "none",
+    "code": null,
+    "name": null
+   }
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/option_codes",
+   "label": "Option codes",
+   "not_device_property": true,
+   "reason": "option codes (order codes)",
+   "rdl": {
+    "match": "none",
+    "iri": null,
+    "label": null,
+    "endpoint": null
+   },
+   "cfihos": {
+    "match": "none",
+    "code": null,
+    "name": null
+   }
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/option_do",
+   "label": "Option DO",
+   "not_device_property": false,
+   "rdl": {
+    "match": "none",
+    "iri": null,
+    "label": null,
+    "endpoint": null
+   },
+   "cfihos": {
+    "match": "broad",
+    "code": "CFIHOS-40000223",
+    "name": "material",
+    "note": "drain/vent plug material option"
+   }
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/option_l4",
+   "label": "Option L4",
+   "not_device_property": false,
+   "rdl": {
+    "match": "none",
+    "iri": null,
+    "label": null,
+    "endpoint": null
+   },
+   "cfihos": {
+    "match": "related",
+    "code": "CFIHOS-40001191",
+    "name": "nonwetted pressure-retaining fasteners material",
+    "note": "bolting material option; the CFIHOS property comes from the pump datasheet context"
+   }
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/option_l5",
+   "label": "Option L5",
+   "not_device_property": false,
+   "rdl": {
+    "match": "none",
+    "iri": null,
+    "label": null,
+    "endpoint": null
+   },
+   "cfihos": {
+    "match": "related",
+    "code": "CFIHOS-40001191",
+    "name": "nonwetted pressure-retaining fasteners material",
+    "note": "bolting material option; the CFIHOS property comes from the pump datasheet context"
+   }
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/option_l6",
+   "label": "Option L6",
+   "not_device_property": false,
+   "rdl": {
+    "match": "none",
+    "iri": null,
+    "label": null,
+    "endpoint": null
+   },
+   "cfihos": {
+    "match": "related",
+    "code": "CFIHOS-40001191",
+    "name": "nonwetted pressure-retaining fasteners material",
+    "note": "bolting material option; the CFIHOS property comes from the pump datasheet context"
+   }
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/optional_connection",
+   "label": "Optional connection",
+   "not_device_property": false,
+   "rdl": {
+    "match": "none",
+    "iri": null,
+    "label": null,
+    "endpoint": null
+   },
+   "cfihos": {
+    "match": "related",
+    "code": "CFIHOS-40000586",
+    "name": "inlet connection type",
+    "note": "process connection type of the transmitter; CFIHOS names the inlet only"
+   }
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/ordering",
+   "label": "Ordering",
+   "not_device_property": true,
+   "reason": "ordering instruction / order code",
+   "rdl": {
+    "match": "none",
+    "iri": null,
+    "label": null,
+    "endpoint": null
+   },
+   "cfihos": {
+    "match": "none",
+    "code": null,
+    "name": null
+   }
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/ordering_instruction",
+   "label": "Ordering instruction",
+   "not_device_property": true,
+   "reason": "ordering instruction / order code",
+   "rdl": {
+    "match": "none",
+    "iri": null,
+    "label": null,
+    "endpoint": null
+   },
+   "cfihos": {
+    "match": "none",
+    "code": null,
+    "name": null
+   }
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/ordering_option_code",
+   "label": "Ordering option code",
+   "not_device_property": true,
+   "reason": "ordering instruction / order code",
+   "rdl": {
+    "match": "none",
+    "iri": null,
+    "label": null,
+    "endpoint": null
+   },
+   "cfihos": {
+    "match": "none",
+    "code": null,
+    "name": null
+   }
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/ordering_requirement",
+   "label": "Ordering requirement",
+   "not_device_property": true,
+   "reason": "ordering instruction / order code",
+   "rdl": {
+    "match": "none",
+    "iri": null,
+    "label": null,
+    "endpoint": null
+   },
+   "cfihos": {
+    "match": "none",
+    "code": null,
+    "name": null
+   }
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/orifice_plate_design",
+   "label": "Orifice plate design",
+   "not_device_property": false,
+   "rdl": {
+    "match": "none",
+    "iri": null,
+    "label": null,
+    "endpoint": null
+   },
+   "cfihos": {
+    "match": "none",
+    "code": null,
+    "name": null
+   }
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/orifice_plate_material",
+   "label": "Orifice plate material",
+   "not_device_property": false,
+   "rdl": {
+    "match": "none",
+    "iri": null,
+    "label": null,
+    "endpoint": null
+   },
+   "cfihos": {
+    "match": "broad",
+    "code": "CFIHOS-40000223",
+    "name": "material"
+   },
+   "values": [
+    {
+     "printed": "316 SST",
+     "rdl": {
+      "match": "none",
+      "iri": null,
+      "label": null,
+      "endpoint": null
+     },
+     "cfihos": {
+      "match": "none",
+      "code": null,
+      "name": null
+     }
+    },
+    {
+     "printed": "Alloy C-276",
+     "rdl": {
+      "match": "none",
+      "iri": null,
+      "label": null,
+      "endpoint": null
+     },
+     "cfihos": {
+      "match": "none",
+      "code": null,
+      "name": null
+     }
+    },
+    {
+     "printed": "Alloy 400",
+     "rdl": {
+      "match": "none",
+      "iri": null,
+      "label": null,
+      "endpoint": null
+     },
+     "cfihos": {
+      "match": "none",
+      "code": null,
+      "name": null
+     }
+    }
+   ]
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/output",
+   "label": "Output",
+   "not_device_property": false,
+   "rdl": {
+    "match": "none",
+    "iri": null,
+    "label": null,
+    "endpoint": null
+   },
+   "cfihos": {
+    "match": "broad",
+    "code": "CFIHOS-40000598",
+    "name": "output signal type",
+    "note": "WirelessHART output; could also be read as communication protocol"
+   }
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/output_characteristic",
+   "label": "Output characteristic",
+   "not_device_property": false,
+   "rdl": {
+    "match": "none",
+    "iri": null,
+    "label": null,
+    "endpoint": null
+   },
+   "cfihos": {
+    "match": "none",
+    "code": null,
+    "name": null
+   }
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/output_configuration",
+   "label": "Output configuration",
+   "not_device_property": false,
+   "rdl": {
+    "match": "none",
+    "iri": null,
+    "label": null,
+    "endpoint": null
+   },
+   "cfihos": {
+    "match": "none",
+    "code": null,
+    "name": null
+   }
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/output_range_points",
+   "label": "Output range points",
+   "not_device_property": true,
+   "reason": "configuration instruction (units of the range points)",
+   "rdl": {
+    "match": "none",
+    "iri": null,
+    "label": null,
+    "endpoint": null
+   },
+   "cfihos": {
+    "match": "none",
+    "code": null,
+    "name": null
+   }
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/output_signal",
+   "label": "Output signal",
+   "not_device_property": false,
+   "rdl": {
+    "match": "none",
+    "iri": null,
+    "label": null,
+    "endpoint": null
+   },
+   "cfihos": {
+    "match": "exact",
+    "code": "CFIHOS-40000598",
+    "name": "output signal type"
+   }
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/output_transfer_function",
+   "label": "Output - Transfer function",
+   "not_device_property": false,
+   "rdl": {
+    "match": "none",
+    "iri": null,
+    "label": null,
+    "endpoint": null
+   },
+   "cfihos": {
+    "match": "none",
+    "code": null,
+    "name": null
+   },
+   "values": [
+    {
+     "printed": "Linear",
+     "rdl": {
+      "match": "none",
+      "iri": null,
+      "label": null,
+      "endpoint": null
+     },
+     "cfihos": {
+      "match": "none",
+      "code": null,
+      "name": null
+     }
+    }
+   ]
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/output_update_rate",
+   "label": "Output update rate",
+   "not_device_property": false,
+   "rdl": {
+    "match": "broad",
+    "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003580",
+    "label": "frequency",
+    "endpoint": "rds",
+    "note": "update rate given as times per second"
+   },
+   "cfihos": {
+    "match": "none",
+    "code": null,
+    "name": null
+   }
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/outside_diameter_j",
+   "label": "Outside diameter J",
+   "not_device_property": false,
+   "rdl": {
+    "match": "broad",
+    "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003585",
+    "label": "length",
+    "endpoint": "rds"
+   },
+   "cfihos": {
+    "match": "exact",
+    "code": "CFIHOS-40000519",
+    "name": "outside diameter"
+   }
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/overpressure_limit",
+   "label": "Overpressure limit",
+   "not_device_property": false,
+   "rdl": {
+    "match": "broad",
+    "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003596",
+    "label": "pressure",
+    "endpoint": "rds"
+   },
+   "cfihos": {
+    "match": "broad",
+    "code": "CFIHOS-40000570",
+    "name": "upper limit allowable pressure",
+    "note": "overpressure limit = highest pressure the transmitter withstands; chose broad over exact"
+   }
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/packing_gland_material",
+   "label": "Packing gland material",
+   "not_device_property": false,
+   "rdl": {
+    "match": "none",
+    "iri": null,
+    "label": null,
+    "endpoint": null
+   },
+   "cfihos": {
+    "match": "broad",
+    "code": "CFIHOS-40000223",
+    "name": "material"
+   },
+   "values": [
+    {
+     "printed": "Stainless steel (SST) packing gland/cage nipple",
+     "rdl": {
+      "match": "none",
+      "iri": null,
+      "label": null,
+      "endpoint": null
+     },
+     "cfihos": {
+      "match": "none",
+      "code": null,
+      "name": null
+     }
+    },
+    {
+     "printed": "Stainless steel packing gland/ cage nipple",
+     "rdl": {
+      "match": "none",
+      "iri": null,
+      "label": null,
+      "endpoint": null
+     },
+     "cfihos": {
+      "match": "none",
+      "code": null,
+      "name": null
+     }
+    },
+    {
+     "printed": "Alloy C-276 packing gland/cage nipple",
+     "rdl": {
+      "match": "none",
+      "iri": null,
+      "label": null,
+      "endpoint": null
+     },
+     "cfihos": {
+      "match": "none",
+      "code": null,
+      "name": null
+     }
+    }
+   ]
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/packing_material",
+   "label": "Packing material",
+   "not_device_property": false,
+   "rdl": {
+    "match": "none",
+    "iri": null,
+    "label": null,
+    "endpoint": null
+   },
+   "cfihos": {
+    "match": "broad",
+    "code": "CFIHOS-40000223",
+    "name": "material"
+   },
+   "values": [
+    {
+     "printed": "PTFE",
+     "rdl": {
+      "match": "none",
+      "iri": null,
+      "label": null,
+      "endpoint": null
+     },
+     "cfihos": {
+      "match": "none",
+      "code": null,
+      "name": null
+     }
+    },
+    {
+     "printed": "Graphite",
+     "rdl": {
+      "match": "none",
+      "iri": null,
+      "label": null,
+      "endpoint": null
+     },
+     "cfihos": {
+      "match": "none",
+      "code": null,
+      "name": null
+     }
+    }
+   ]
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/panel_mounting_bolts",
+   "label": "Panel mounting bolts",
+   "not_device_property": true,
+   "reason": "note: panel mounting bolts are not supplied",
+   "rdl": {
+    "match": "none",
+    "iri": null,
+    "label": null,
+    "endpoint": null
+   },
+   "cfihos": {
+    "match": "none",
+    "code": null,
+    "name": null
+   }
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/parameters_typically_configured_by_instrument_personnel",
+   "label": "Parameters typically configured by instrument personnel",
+   "not_device_property": true,
+   "reason": "configuration note (which parameters are set by whom)",
+   "rdl": {
+    "match": "none",
+    "iri": null,
+    "label": null,
+    "endpoint": null
+   },
+   "cfihos": {
+    "match": "none",
+    "code": null,
+    "name": null
+   }
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/parameters_typically_configured_by_the_control_systems_configuration_engineer",
+   "label": "Parameters typically configured by the control systems configuration engineer",
+   "not_device_property": true,
+   "reason": "configuration note (which parameters are set by whom)",
+   "rdl": {
+    "match": "none",
+    "iri": null,
+    "label": null,
+    "endpoint": null
+   },
+   "cfihos": {
+    "match": "none",
+    "code": null,
+    "name": null
+   }
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/part_1",
+   "label": "Part 1",
+   "not_device_property": true,
+   "reason": "part of an example model code (order code)",
+   "rdl": {
+    "match": "none",
+    "iri": null,
+    "label": null,
+    "endpoint": null
+   },
+   "cfihos": {
+    "match": "none",
+    "code": null,
+    "name": null
+   }
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/part_1_meaning",
+   "label": "Part 1 meaning",
+   "not_device_property": true,
+   "reason": "explanation of the model code structure (document note)",
+   "rdl": {
+    "match": "none",
+    "iri": null,
+    "label": null,
+    "endpoint": null
+   },
+   "cfihos": {
+    "match": "none",
+    "code": null,
+    "name": null
+   }
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/part_2",
+   "label": "Part 2",
+   "not_device_property": true,
+   "reason": "part of an example model code (order code)",
+   "rdl": {
+    "match": "none",
+    "iri": null,
+    "label": null,
+    "endpoint": null
+   },
+   "cfihos": {
+    "match": "none",
+    "code": null,
+    "name": null
+   }
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/part_2_meaning",
+   "label": "Part 2 meaning",
+   "not_device_property": true,
+   "reason": "explanation of the model code structure (document note)",
+   "rdl": {
+    "match": "none",
+    "iri": null,
+    "label": null,
+    "endpoint": null
+   },
+   "cfihos": {
+    "match": "none",
+    "code": null,
+    "name": null
+   }
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/permanent_pressure_loss_compared_to_traditional_orifice_plate_installations",
+   "label": "Permanent pressure loss compared to traditional orifice plate installations",
+   "not_device_property": false,
+   "rdl": {
+    "match": "none",
+    "iri": null,
+    "label": null,
+    "endpoint": null
+   },
+   "cfihos": {
+    "match": "related",
+    "code": "CFIHOS-40000513",
+    "name": "normal operating pressure drop",
+    "note": "marketing comparison of permanent pressure loss"
+   }
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/permanent_pressure_loss_reduction_compared_to_traditional_orifice_plate_installations",
+   "label": "Permanent pressure loss reduction compared to traditional orifice plate installations",
+   "not_device_property": false,
+   "rdl": {
+    "match": "broad",
+    "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003597",
+    "label": "ratio",
+    "endpoint": "rds",
+    "note": "relative reduction in percent"
+   },
+   "cfihos": {
+    "match": "related",
+    "code": "CFIHOS-40000513",
+    "name": "normal operating pressure drop",
+    "note": "a reduction relative to orifice plates, not the pressure drop itself"
+   }
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/pipe_compatibility",
+   "label": "Pipe compatibility",
+   "not_device_property": false,
+   "rdl": {
+    "match": "none",
+    "iri": null,
+    "label": null,
+    "endpoint": null
+   },
+   "cfihos": {
+    "match": "related",
+    "code": "CFIHOS-40000715",
+    "name": "pipe schedule class",
+    "note": "pipe schedules the meter fits"
+   }
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/pipe_id_range",
+   "label": "Pipe ID range",
+   "not_device_property": false,
+   "rdl": {
+    "match": "broad",
+    "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003585",
+    "label": "length",
+    "endpoint": "rds",
+    "note": "pipe inside diameter; free-text value"
+   },
+   "cfihos": {
+    "match": "none",
+    "code": null,
+    "name": null
+   }
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/pipe_material_mounting_assembly_material",
+   "label": "Pipe material/mounting assembly material",
+   "not_device_property": false,
+   "rdl": {
+    "match": "none",
+    "iri": null,
+    "label": null,
+    "endpoint": null
+   },
+   "cfihos": {
+    "match": "broad",
+    "code": "CFIHOS-40000223",
+    "name": "material"
+   },
+   "values": [
+    {
+     "printed": "CS (A105)",
+     "rdl": {
+      "match": "none",
+      "iri": null,
+      "label": null,
+      "endpoint": null
+     },
+     "cfihos": {
+      "match": "none",
+      "code": null,
+      "name": null
+     }
+    },
+    {
+     "printed": "316 SST",
+     "rdl": {
+      "match": "none",
+      "iri": null,
+      "label": null,
+      "endpoint": null
+     },
+     "cfihos": {
+      "match": "none",
+      "code": null,
+      "name": null
+     }
+    },
+    {
+     "printed": "Chrome-moly grade F-11",
+     "rdl": {
+      "match": "none",
+      "iri": null,
+      "label": null,
+      "endpoint": null
+     },
+     "cfihos": {
+      "match": "none",
+      "code": null,
+      "name": null
+     }
+    },
+    {
+     "printed": "Chrome-moly grade F-22",
+     "rdl": {
+      "match": "none",
+      "iri": null,
+      "label": null,
+      "endpoint": null
+     },
+     "cfihos": {
+      "match": "none",
+      "code": null,
+      "name": null
+     }
+    },
+    {
+     "printed": "Chrome-moly grade F-91",
+     "rdl": {
+      "match": "none",
+      "iri": null,
+      "label": null,
+      "endpoint": null
+     },
+     "cfihos": {
+      "match": "none",
+      "code": null,
+      "name": null
+     }
+    }
+   ]
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/pipe_section",
+   "label": "Pipe section",
+   "not_device_property": false,
+   "rdl": {
+    "match": "none",
+    "iri": null,
+    "label": null,
+    "endpoint": null
+   },
+   "cfihos": {
+    "match": "none",
+    "code": null,
+    "name": null
+   }
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/piping_orientation",
+   "label": "Piping orientation",
+   "not_device_property": false,
+   "rdl": {
+    "match": "none",
+    "iri": null,
+    "label": null,
+    "endpoint": null
+   },
+   "cfihos": {
+    "match": "related",
+    "code": "CFIHOS-40000561",
+    "name": "orientation",
+    "note": "orientation of the piping the meter is installed in, not of the equipment itself"
+   },
+   "values": [
+    {
+     "printed": "Horizontal piping",
+     "rdl": {
+      "match": "none",
+      "iri": null,
+      "label": null,
+      "endpoint": null
+     },
+     "cfihos": {
+      "match": "none",
+      "code": null,
+      "name": null
+     }
+    },
+    {
+     "printed": "Vertical piping with downward flow",
+     "rdl": {
+      "match": "none",
+      "iri": null,
+      "label": null,
+      "endpoint": null
+     },
+     "cfihos": {
+      "match": "none",
+      "code": null,
+      "name": null
+     }
+    },
+    {
+     "printed": "Vertical piping with upward flow",
+     "rdl": {
+      "match": "none",
+      "iri": null,
+      "label": null,
+      "endpoint": null
+     },
+     "cfihos": {
+      "match": "none",
+      "code": null,
+      "name": null
+     }
+    }
+   ]
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/plantweb_control_functionality",
+   "label": "Plantweb™ control functionality",
+   "not_device_property": false,
+   "rdl": {
+    "match": "none",
+    "iri": null,
+    "label": null,
+    "endpoint": null
+   },
+   "cfihos": {
+    "match": "none",
+    "code": null,
+    "name": null
+   }
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/plantweb_diagnostic_functionality",
+   "label": "Plantweb™ diagnostic functionality",
+   "not_device_property": false,
+   "rdl": {
+    "match": "none",
+    "iri": null,
+    "label": null,
+    "endpoint": null
+   },
+   "cfihos": {
+    "match": "none",
+    "code": null,
+    "name": null
+   }
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/positive_material_identification_pmi",
+   "label": "Positive material identification (PMI)",
+   "not_device_property": false,
+   "rdl": {
+    "match": "none",
+    "iri": null,
+    "label": null,
+    "endpoint": null
+   },
+   "cfihos": {
+    "match": "related",
+    "code": "CFIHOS-40001227",
+    "name": "additional components positive material identification tested",
+    "note": "PMI test option; the CFIHOS property is defined for pump components"
+   }
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/power_consumption",
+   "label": "Power consumption",
+   "not_device_property": false,
+   "rdl": {
+    "match": "broad",
+    "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003595",
+    "label": "power",
+    "endpoint": "rds"
+   },
+   "cfihos": {
+    "match": "exact",
+    "code": "CFIHOS-40000602",
+    "name": "normal operating power consumption"
+   }
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/power_module",
+   "label": "Power module",
+   "not_device_property": false,
+   "rdl": {
+    "match": "related",
+    "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100004071",
+    "label": "Electric Battery",
+    "endpoint": "rds",
+    "note": "component class; the item is a statement about it"
+   },
+   "cfihos": {
+    "match": "related",
+    "code": "CFIHOS-30000337",
+    "name": "electric battery"
+   }
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/power_supply_effect",
+   "label": "Power supply effect",
+   "not_device_property": false,
+   "rdl": {
+    "match": "none",
+    "iri": null,
+    "label": null,
+    "endpoint": null
+   },
+   "cfihos": {
+    "match": "none",
+    "code": null,
+    "name": null
+   }
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/pressure_measurement_types",
+   "label": "Pressure measurement types",
+   "not_device_property": false,
+   "rdl": {
+    "match": "none",
+    "iri": null,
+    "label": null,
+    "endpoint": null
+   },
+   "cfihos": {
+    "match": "none",
+    "code": null,
+    "name": null
+   }
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/pressure_range",
+   "label": "Pressure range",
+   "not_device_property": false,
+   "rdl": {
+    "match": "broad",
+    "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003596",
+    "label": "pressure",
+    "endpoint": "rds"
+   },
+   "cfihos": {
+    "match": "broad",
+    "code": "CFIHOS-40000634",
+    "name": "calibration range",
+    "note": "sensor range limits (range codes); calibration range is the measured range in general"
+   }
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/pressure_testing",
+   "label": "Pressure testing",
+   "not_device_property": false,
+   "rdl": {
+    "match": "none",
+    "iri": null,
+    "label": null,
+    "endpoint": null
+   },
+   "cfihos": {
+    "match": "related",
+    "code": "CFIHOS-40000497",
+    "name": "hydrostatic test pressure",
+    "note": "a test option, not the test pressure value"
+   }
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/pressure_type",
+   "label": "Pressure type",
+   "not_device_property": false,
+   "rdl": {
+    "match": "none",
+    "iri": null,
+    "label": null,
+    "endpoint": null
+   },
+   "cfihos": {
+    "match": "none",
+    "code": null,
+    "name": null
+   },
+   "values": [
+    {
+     "printed": "Gage",
+     "rdl": {
+      "match": "none",
+      "iri": null,
+      "label": null,
+      "endpoint": null
+     },
+     "cfihos": {
+      "match": "exact",
+      "code": "CFIHOS-30000208",
+      "name": "relative pressure transmitter",
+      "note": "gage = reference side open to atmosphere; classifies the device"
+     }
+    },
+    {
+     "printed": "Absolute",
+     "rdl": {
+      "match": "none",
+      "iri": null,
+      "label": null,
+      "endpoint": null
+     },
+     "cfihos": {
+      "match": "exact",
+      "code": "CFIHOS-30000395",
+      "name": "absolute pressure transmitter"
+     }
+    }
+   ]
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/primary_element_technology",
+   "label": "Primary element technology",
+   "not_device_property": false,
+   "rdl": {
+    "match": "related",
+    "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100004079",
+    "label": "Flow Element",
+    "endpoint": "rds",
+    "note": "class of the primary element, not a property"
+   },
+   "cfihos": {
+    "match": "related",
+    "code": "CFIHOS-30000671",
+    "name": "flow element"
+   },
+   "values": [
+    {
+     "printed": "Conditioning orifice plate",
+     "rdl": {
+      "match": "broad",
+      "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100004080",
+      "label": "Flow Orifice",
+      "endpoint": "rds"
+     },
+     "cfihos": {
+      "match": "broad",
+      "code": "CFIHOS-30000063",
+      "name": "flow orifice plate"
+     }
+    },
+    {
+     "printed": "Orifice plate",
+     "rdl": {
+      "match": "exact",
+      "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100004080",
+      "label": "Flow Orifice",
+      "endpoint": "rds"
+     },
+     "cfihos": {
+      "match": "exact",
+      "code": "CFIHOS-30000063",
+      "name": "flow orifice plate"
+     }
+    }
+   ]
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/primary_element_type",
+   "label": "Primary element type",
+   "not_device_property": false,
+   "rdl": {
+    "match": "broad",
+    "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003597",
+    "label": "ratio",
+    "endpoint": "rds",
+    "note": "values are beta ratios"
+   },
+   "cfihos": {
+    "match": "none",
+    "code": null,
+    "name": null
+   }
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/primary_element_type_code_c",
+   "label": "Primary element type code C",
+   "not_device_property": false,
+   "rdl": {
+    "match": "related",
+    "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100004079",
+    "label": "Flow Element",
+    "endpoint": "rds"
+   },
+   "cfihos": {
+    "match": "related",
+    "code": "CFIHOS-30000671",
+    "name": "flow element"
+   },
+   "values": [
+    {
+     "printed": "Conditioning orifice plate",
+     "rdl": {
+      "match": "broad",
+      "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100004080",
+      "label": "Flow Orifice",
+      "endpoint": "rds"
+     },
+     "cfihos": {
+      "match": "broad",
+      "code": "CFIHOS-30000063",
+      "name": "flow orifice plate"
+     }
+    }
+   ]
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/primary_element_type_code_p",
+   "label": "Primary element type code P",
+   "not_device_property": false,
+   "rdl": {
+    "match": "related",
+    "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100004079",
+    "label": "Flow Element",
+    "endpoint": "rds"
+   },
+   "cfihos": {
+    "match": "related",
+    "code": "CFIHOS-30000671",
+    "name": "flow element"
+   },
+   "values": [
+    {
+     "printed": "Compact orifice plate",
+     "rdl": {
+      "match": "broad",
+      "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100004080",
+      "label": "Flow Orifice",
+      "endpoint": "rds"
+     },
+     "cfihos": {
+      "match": "broad",
+      "code": "CFIHOS-30000063",
+      "name": "flow orifice plate"
+     }
+    }
+   ]
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/primary_elements",
+   "label": "Primary elements",
+   "not_device_property": false,
+   "rdl": {
+    "match": "related",
+    "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100004079",
+    "label": "Flow Element",
+    "endpoint": "rds"
+   },
+   "cfihos": {
+    "match": "related",
+    "code": "CFIHOS-30000671",
+    "name": "flow element"
+   }
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/process_connection",
+   "label": "Process connection",
+   "not_device_property": false,
+   "rdl": {
+    "match": "none",
+    "iri": null,
+    "label": null,
+    "endpoint": null
+   },
+   "cfihos": {
+    "match": "related",
+    "code": "CFIHOS-40000586",
+    "name": "inlet connection type",
+    "note": "process connection / pipe ends; CFIHOS names the inlet only; values combine type, rating and standard"
+   }
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/process_connection_offering",
+   "label": "Process connection offering",
+   "not_device_property": true,
+   "reason": "catalogue / marketing statement about the offering",
+   "rdl": {
+    "match": "none",
+    "iri": null,
+    "label": null,
+    "endpoint": null
+   },
+   "cfihos": {
+    "match": "none",
+    "code": null,
+    "name": null
+   }
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/process_connection_reference",
+   "label": "Process connection reference",
+   "not_device_property": true,
+   "reason": "reference to another document",
+   "rdl": {
+    "match": "none",
+    "iri": null,
+    "label": null,
+    "endpoint": null
+   },
+   "cfihos": {
+    "match": "none",
+    "code": null,
+    "name": null
+   }
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/process_connection_size",
+   "label": "Process connection size",
+   "not_device_property": false,
+   "rdl": {
+    "match": "broad",
+    "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003585",
+    "label": "length",
+    "endpoint": "rds"
+   },
+   "cfihos": {
+    "match": "broad",
+    "code": "CFIHOS-40000247",
+    "name": "nominal size"
+   }
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/process_connection_style",
+   "label": "Process connection style",
+   "not_device_property": false,
+   "rdl": {
+    "match": "none",
+    "iri": null,
+    "label": null,
+    "endpoint": null
+   },
+   "cfihos": {
+    "match": "related",
+    "code": "CFIHOS-40000586",
+    "name": "inlet connection type",
+    "note": "process connection style of the transmitter; CFIHOS names the inlet only"
+   }
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/process_connection_wetted_parts_material",
+   "label": "Process connection wetted parts material",
+   "not_device_property": false,
+   "rdl": {
+    "match": "none",
+    "iri": null,
+    "label": null,
+    "endpoint": null
+   },
+   "cfihos": {
+    "match": "broad",
+    "code": "CFIHOS-40000223",
+    "name": "material",
+    "note": "wetted parts material of the process connection"
+   },
+   "values": [
+    {
+     "printed": "316L stainless steel",
+     "rdl": {
+      "match": "none",
+      "iri": null,
+      "label": null,
+      "endpoint": null
+     },
+     "cfihos": {
+      "match": "none",
+      "code": null,
+      "name": null
+     }
+    },
+    {
+     "printed": "Alloy C-276",
+     "rdl": {
+      "match": "none",
+      "iri": null,
+      "label": null,
+      "endpoint": null
+     },
+     "cfihos": {
+      "match": "none",
+      "code": null,
+      "name": null
+     }
+    },
+    {
+     "printed": "C-276",
+     "rdl": {
+      "match": "none",
+      "iri": null,
+      "label": null,
+      "endpoint": null
+     },
+     "cfihos": {
+      "match": "none",
+      "code": null,
+      "name": null
+     }
+    }
+   ]
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/process_fill_fluid_options",
+   "label": "Process fill fluid options",
+   "not_device_property": false,
+   "rdl": {
+    "match": "none",
+    "iri": null,
+    "label": null,
+    "endpoint": null
+   },
+   "cfihos": {
+    "match": "none",
+    "code": null,
+    "name": null
+   }
+  }
+ ]
+}

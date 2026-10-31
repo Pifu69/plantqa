@@ -1,0 +1,9 @@
+[
+ {"item": "90639c6c52", "verdict": "wrong", "cites_page": false, "reason": "Gold states the seal type (mechanical, self-lubricated); candidate says nothing is in the documents and misses the main answer."},
+ {"item": "a4dc074030", "verdict": "correct", "cites_page": false, "reason": "Correctly states the information is not in the documents."},
+ {"item": "e1e17ed48c", "verdict": "correct", "cites_page": false, "reason": "Correctly states the information is not in the documents."},
+ {"item": "c2d07b99ed", "verdict": "correct", "cites_page": false, "reason": "Correctly states the information is not in the documents."},
+ {"item": "9f85ea6828", "verdict": "partial", "cites_page": false, "reason": "Matches 'no motor specified' but misses the available 1450 rpm curve and the <=~5.6 kW power finding."},
+ {"item": "93abe1c943", "verdict": "wrong", "cites_page": false, "reason": "Gold has the full failure-mode alarm answer; candidate wrongly says not in the documents."},
+ {"item": "cf9cc8c368", "verdict": "correct", "cites_page": false, "reason": "Correctly states the information is not in the documents."}
+]

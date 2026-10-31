@@ -2,8 +2,9 @@
 
 - (a) és a rajzos (d): Benedek `score_answer`-e (tagek halmaza, út, szám, igen/nem, abstain).
 - Szabad szöveges kérdés, megválaszolható: ha a válasz „nincs benne”, programmal rossz
-  (hamis tartózkodás, Benedek szabálya); ha a gold minden `must` eleme számot tartalmaz, és
-  minden szám a mértékegységével együtt szerepel a válaszban, programmal helyes; különben bíráló.
+  (hamis tartózkodás, Benedek szabálya), kivéve ha mellette szöveges választ is adott; ha a
+  gold minden `must` eleme számot tartalmaz, és minden szám a mértékegységével együtt szerepel
+  a válaszban, programmal helyes; különben bíráló.
 - Szabad szöveges, megválaszolhatatlan: ha a válasz „nincs benne”, programmal helyes; különben
   bíráló (lehet, hogy szövegben mondja, hogy nincs benne, vagy kitalál valamit).
 A bírálati csomag vak: a tételek sorrendje kevert, az azonosító nem árulja el a módszert és a
@@ -69,6 +70,9 @@ def program_score(question: dict[str, Any], answer: dict[str, Any]) -> dict[str,
     final = answer.get("final") or {}
     abstained = bool(final.get("not_present"))
     answerable = question["gold"].get("answerable") != "no"
+    has_text = bool(str(final.get("answer") or "").strip())
+    if abstained and has_text:
+        return None  # „nincs benne” jelzés mellett is válaszolt: a bíráló dönt
     if abstained:
         verdict = "wrong" if answerable else "correct"
         return {"source": "program", "verdict": verdict, "detail": "not_present"}
@@ -114,18 +118,23 @@ def export_judge(exp: str) -> int:
     random.Random(SEED).shuffle(pending)
     folder = RUNS / exp / "judge"
     folder.mkdir(parents=True, exist_ok=True)
-    key, items = {}, []
+    key_path = folder / "key.json"
+    key = json.loads(key_path.read_text(encoding="utf-8")) if key_path.exists() else {}
+    first = len(list(folder.glob("items-*.json")))
+    items = []
     for row in pending:
         ident = hashlib.sha256(f"{exp}|{row['file']}|{row['qid']}".encode()).hexdigest()[:10]
+        if ident in key:
+            continue  # már kiadott tétel: a korábbi csomagban van
         key[ident] = {"file": row["file"], "qid": row["qid"]}
         gold = dict(questions[row["qid"]]["gold"])
         gold["question"] = questions[row["qid"]]["text"]
         items.append({"item": ident, "gold": gold, "candidate": candidate_text(row["answer"])})
     for start in range(0, len(items), BATCH):
-        part = folder / f"items-{start // BATCH + 1}.json"
+        part = folder / f"items-{first + start // BATCH + 1}.json"
         text = json.dumps(items[start : start + BATCH], indent=1, ensure_ascii=False)
         part.write_text(text, encoding="utf-8")
-    (folder / "key.json").write_text(json.dumps(key, indent=1), encoding="utf-8")
+    key_path.write_text(json.dumps(key, indent=1), encoding="utf-8")
     return len(items)
 
 

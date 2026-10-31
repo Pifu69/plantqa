@@ -1,0 +1,7 @@
+V1 (102 items, 10-year stability .. Country certification), by hand by claude-opus-5-5 on 2026-10-31. Sources: the rds label cache plus a scan of all CFIHOS CORE property names and definitions. The legacy endpoint returned 404, so every rdl match is from rds.
+Search words: stability, drift, accuracy, uncertainty, range, alarm, fail, length/height/diameter, weight/mass, ambient temperature, time constant, damping, material, steel/tantalum/alloy, flange, bolt, diaphragm, display, bluetooth/wireless, antenna, battery/lithium, certificate/calibration/approval, line size, entry/gland/connector/thread, cleaning, code, EMC.
+Hard cases:
+- rds has no device-level properties. Dimensions, masses, temperatures and times map broad to the uom quantity kinds. Material items map broad to the IDO MaterialCompositionQuality class.
+- CFIHOS "failure action" (a valve definition) is only related for the alarm items. Ambient temperature limit is related because CFIHOS splits it into upper and lower limits. Bolt materials map exact to "nonwetted pressure-retaining fasteners material".
+- Only 3 values classified: Tantalum -> tantalum (ChEBI concept), and "Calibration certificate" twice -> Calibration certificate (norsok). Alloy names and SST grades have no class in rds or CFIHOS.
+- 42 items are marked not_device_property: marketing text, option or model codes, figure callouts, axis labels and ordering notes.

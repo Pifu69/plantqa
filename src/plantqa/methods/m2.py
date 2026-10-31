@@ -18,7 +18,13 @@ from plantqa.graph.load import tag_mapping
 from plantqa.llm import meter
 from plantqa.llm.clients import plantgraph_client
 from plantqa.llm.pins import ModelKey, pin
-from plantqa.methods.base import MethodAnswer, Question, format_instruction, parse_final
+from plantqa.methods.base import (
+    GROUNDING_RULE,
+    MethodAnswer,
+    Question,
+    format_instruction,
+    parse_final,
+)
 from plantqa.methods.cascade import DrawingCascade
 from plantqa.methods.datasheet import DatasheetQA
 
@@ -38,7 +44,7 @@ Each turn, reply with exactly one JSON object and nothing else:
 {{"tool": "datasheet", "tag": "...", "question": "..."}}
 {{"final": {{"answer": <answer or null>, "not_present": <true if the documents do not contain
 the answer, else false>}}}}
-Answer only from the tool results; if they do not contain the answer, set not_present to true.
+Answer only from the tool results. {rule}
 Answer format: {fmt}"""
 
 
@@ -114,7 +120,9 @@ class M2:
 
     def _messages(self, question: Question) -> list[ChatMessage]:
         tags = ", ".join(sorted(self.mapping))
-        system = SYSTEM.format(tags=tags, fmt=format_instruction(question.answer_type))
+        system = SYSTEM.format(
+            tags=tags, fmt=format_instruction(question.answer_type), rule=GROUNDING_RULE
+        )
         return [
             ChatMessage(role="system", content=system),
             ChatMessage(role="user", content=question.text),

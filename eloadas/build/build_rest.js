@@ -89,10 +89,10 @@ function backupLimits() {
 }
 
 function backupWork() {
-  const s = content("Tartalék: munkamegosztás és eszközhasználat. A rajzoldali rendszer Kiszely Benedek, az adatlapoldali Szabó Zsombor munkája; az összevonást és a mérést közösen készítettük, mesterséges intelligenciával támogatott munkafolyamatban (Claude Code), minden döntés és szám naplózva.");
-  title(s, "Tartalék: munkamegosztás, eszközök");
+  const s = content("Tartalék: munkamegosztás. A rajzoldali rendszer Kiszely Benedek, az adatlapoldali Szabó Zsombor munkája; az összevonást és a mérést közösen készítettük, minden döntés és szám naplózva.");
+  title(s, "Tartalék: munkamegosztás");
   body(s, ["Rajz (plantgraph): Kiszely Benedek", "Adatlap (plantdocs): Szabó Zsombor", "Összevonás, kérdéssor, mérés, demó: közösen",
-    "MI-támogatott munkafolyamat (Claude Code); döntések: docs/dontesek.md, számok: docs/eredmenyek.md"], { x: 0.5, y: 1.1, w: 9, h: 3.8 });
+    "Döntések: docs/dontesek.md, számok: docs/eredmenyek.md"], { x: 0.5, y: 1.1, w: 9, h: 3.8 });
 }
 
 complexSlide();

@@ -46,7 +46,7 @@ Az adatlapokból a plantdocs tíz lépéses folyamata épít ISO 15926 / QUDT sz
 szókészlet, RDF). A korábban feldolgozott négy eszköz közül a Fisher, a GF 165 és a
 Gorman-Rupp gráfja a plantdocs Opusszal épített változata (a plantdocs EXP-0030-ja szerint). A
 Rosemount 3051-et és a három új adatlapot most dolgoztuk fel: a folyamat programlépései
-változatlanok, az LLM-lépéseket Claude Code al-sessionök végezték (EXP-006). A Rosemount 3051
+változatlanok, az LLM-lépéseket a claude-opus-5-5 modell végezte (EXP-006). A Rosemount 3051
 Opus-gráfja 91 202 tripletből és 3538, az eszközről szóló tényből áll, szemben ugyanennek a
 dokumentumnak a plantdocs EXP-0038-ban GLM-mel épített gráfjával (20 973 triplet, 626 tény, a
 plantdocs saját jelentése szerint). A három új adatlap gráfja 1102, 16 281 és 66 747 tripletes
@@ -81,8 +81,8 @@ megválaszolhatatlan kérdések Benedek pontozóját használják (tagek halmaza
 igen/nem, tartózkodás). A szabad szöveges kérdéseknél programmal helyes a válasz, ha a gold
 minden kötelező eleme számot tartalmaz, és minden szám a mértékegységével együtt megjelenik a
 válaszban; programmal rossz a megválaszolható kérdésre adott „nincs benne”, programmal helyes a
-megválaszolhatatlanra adott „nincs benne”. Minden más tételt vak bíráló pontoz: Claude Code
-subagent, a plantdocs EXP-0029 bírálati promptjával szó szerint (helyes, részben helyes, rossz,
+megválaszolhatatlanra adott „nincs benne”. Minden más tételt vak bíráló pontoz: a claude-opus-5-5 modell
+(vak bírálóként), a plantdocs EXP-0029 bírálati promptjával szó szerint (helyes, részben helyes, rossz,
 hallucinált). A bíráló csak a kérdést, a gold választ és a jelölt választ látja; a tételek
 sorrendje kevert, az azonosítójuk nem árulja el, melyik módszer és melyik modell válaszolt.
 Pontosságnak a helyes válaszok arányát tekintjük.

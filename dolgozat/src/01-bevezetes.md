@@ -45,16 +45,13 @@ Cypher-rel. Ez a dolgozat a két munka összevonásáról és annak mérésérő
 5. Egy webes demó, amely bármely módszerrel válaszol, és megmutatja az útvonalat, a
    lekérdezéseket és az adatlapi forrásoldalakat.
 
-## Munkamegosztás és eszközhasználat
+## Munkamegosztás
 
 A rajzoldali rendszer (generátor, lapokra bontás, üzemi gráf, kaszkád) Kiszely Benedek, az
 adatlapoldali rendszer (feldolgozó folyamat, ISO 15926 gráf, A2-lekérdezés) Szabó Zsombor egyéni
 munkájának eredménye; ezeket változtatás nélkül használjuk. Az összevonást, a kérdéssort, a három
-módszert, a mérést és a demót közösen készítettük. Mindkét egyéni munka és ez az összevonás is
-mesterséges intelligenciával támogatott munkafolyamatban készült: a kódot, a méréseket és a szöveg
-első változatát Claude Code (Anthropic) ügynök készítette a megadott feladatleírás alapján, a
-döntéseket és a mért számokat a projekt naplói rögzítik (`docs/dontesek.md`,
-`docs/eredmenyek.md`). A dolgozat minden száma egy ténylegesen lefutott mérésből vagy megjelölt forrásból (a két repó eredménynaplója, irodalmi jegyzetek) származik.
+módszert, a mérést és a demót közösen készítettük. A döntéseket és a mért számokat a projekt
+naplói rögzítik (`docs/dontesek.md`, `docs/eredmenyek.md`).
 
 ## A dolgozat felépítése
 

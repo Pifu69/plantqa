@@ -1,0 +1,88 @@
+[
+ {
+  "item": "659f94acf7",
+  "gold": {
+   "answer": "Not in the document.",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated"
+   ],
+   "relation": "downstream",
+   "via_tag": "P-1-3",
+   "question": "Consider the item directly downstream of CHV-1-2 in the process flow. How do I get into the pump to clear a blockage without taking the pipes off?"
+  },
+  "candidate": "The datasheet does not state how to access the pump or clear a blockage without removing the pipes. It lists that the pump handles spherical solids up to 15/32 in (12 mm)."
+ },
+ {
+  "item": "c60d4e050f",
+  "gold": {
+   "answer": "No troubleshooting in the datasheet. Related facts only: it needs at least 0.5 bar differential pressure to open; voltage must match the type plate (±10 %). The installation manual (www.gfps.com/is-manuals-valves) is referred to.",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "no troubleshooting information in the document"
+   ],
+   "question": "Regarding GV-1-2 on the P&ID: It hums but won't open. What could be wrong?"
+  },
+  "candidate": "The datasheet says GV-1-2 needs a minimum differential pressure of 0.5 bar to open and close. It does not state what causes humming or provide other troubleshooting information."
+ },
+ {
+  "item": "c4a118d5b3",
+  "gold": {
+   "answer": "Not in the document (no troubleshooting).",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated"
+   ],
+   "question": "Regarding PV-2-1 on the P&ID: The valve leaks through when shut. Is it the seat ring or the plug seal, and how do I check?"
+  },
+  "candidate": "PV-2-1 is a globe valve, and the Fisher ET bulletin describes a valve plug and seal ring, but it does not state whether a leak through when shut is caused by the seat ring or plug seal, or how to check which is responsible."
+ },
+ {
+  "item": "8804aa957a",
+  "gold": {
+   "answer": "Not in the document (no troubleshooting).",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated"
+   ],
+   "question": "Regarding PV-2-1 on the P&ID: The valve leaks through when shut. Is it the seat ring or the plug seal, and how do I check?"
+  },
+  "candidate": "Not in the documents."
+ },
+ {
+  "item": "7cab8f59db",
+  "gold": {
+   "answer": "Not in the document (no troubleshooting).",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated"
+   ],
+   "question": "Regarding P-1-1 on the P&ID: It won't prime anymore, it used to. What should I check first?"
+  },
+  "candidate": "The documents do not state what to check first or provide loss-of-prime checks. The P&ID shows P-1-1’s suction path through E-1-1, GV-1-1, and GV-1-2; its datasheet mentions bypass flush piping and an optional strainer but does not identify them as priming checks."
+ },
+ {
+  "item": "20cb66a38b",
+  "gold": {
+   "answer": "No troubleshooting in the datasheet. Related facts only: it needs at least 0.5 bar differential pressure to open; voltage must match the type plate (±10 %). The installation manual (www.gfps.com/is-manuals-valves) is referred to.",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "no troubleshooting information in the document"
+   ],
+   "question": "Regarding GV-1-2 on the P&ID: It hums but won't open. What could be wrong?"
+  },
+  "candidate": "The Type 165 datasheet says a minimum differential pressure of 0.5 bar is required for the valve to open. If GV-1-2 has less than that, it may not open; the documents do not state a cause specific to humming."
+ }
+]

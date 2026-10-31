@@ -1,0 +1,84 @@
+a01 ANSWERED 'no'
+a02 ANSWERED 'PV-2-1'
+a03 ANSWERED '0, 1'
+a04 ANSWERED 'FT-2-2'
+a05 ANSWERED '5'
+b01 ANSWERED 'The maximum temperature of liquid pumped is 160°F (71°C).'
+b02 ANSWERED 'FV-2-2 can have equal-percentage, linear, or quick-opening flow characteristics.'
+b03 ANSWERED 'The maximum casing pressure for P-1-1 is 266 psi (1834 kPa).'
+b04 ANSWERED 'The expected flow reference accuracy is ±1.95% of flow rate at 8:1 flow turndown'
+b05 ANSWERED 'The description identifies GV-1-2 as a Type 165 solenoid valve and says it has a'
+c01 ANSWERED 'It has a mechanical, self-lubricated shaft seal. The replacement seal part numbe'
+c02 ANSWERED 'Fisher ET is a valve model, not the valve body itself. The description lists ET '
+c03 ANSWERED 'The output has no fixed fail-high or fail-low direction; on sensor or microproce'
+c04 ANSWERED 'The description shows a 5 BHP (3.7 kW) power curve at 1450 rpm, but does not spe'
+c05 ANSWERED 'The available seal materials shown include carbon-filled PTFE, fluorocarbon, nit'
+d01 ANSWERED 'The description does not provide troubleshooting information for a valve that hu'
+d02 ANSWERED 'The available information cannot determine whether the leakage is from the seat '
+d03 ANSWERED 'Not in the documents.'
+d04 ANSWERED 'Check that the upstream gate valves GV-1-1 and GV-1-2 are open; either could sto'
+d05 ANSWERED 'Not in the documents.'
+C:\Users\Zsombi\plantqa\runs\EXP-013\M1-luna-dev.jsonl
+spent 0.6593 USD, remaining 19.3407 USD of 20.0
+a01 ANSWERED 'Not in the documents.'
+a02 ANSWERED 'PV-2-1'
+a03 ANSWERED '0, 1'
+a04 ANSWERED 'FT-2-2'
+a05 STEP_LIMIT ''
+b01 ANSWERED 'The maximum liquid temperature is 160°F (71°C). The datasheet marks this value w'
+b02 ANSWERED 'FV-2-2’s datasheet lists quick-opening, linear, and equal-percentage flow charac'
+b03 ANSWERED 'P-1-1’s maximum allowable casing pressure is 266 psi (1834 kPa).'
+b04 ANSWERED 'The specified flow reference accuracy is ±1.95% of flow rate at 8:1 flow turndow'
+b05 ANSWERED 'The datasheet lists a manual override but does not state whether it allows GV-1-'
+c01 ANSWERED 'It has a mechanical, self-lubricated shaft seal. The datasheet does not state a '
+c02 ANSWERED 'The item directly upstream of CHV-2-2 is FV-2-2. Its datasheet identifies Fisher'
+c03 ANSWERED 'The datasheet says the transmitter can drive its 4–20 mA signal high or low on d'
+c04 ANSWERED 'Not in the documents.'
+Traceback (most recent call last):
+  File "<frozen runpy>", line 203, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\Zsombi\plantqa\src\plantqa\eval\run.py", line 114, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\Zsombi\plantqa\src\plantqa\eval\run.py", line 110, in main
+    print(run(parser.parse_args()))
+          ~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Zsombi\plantqa\src\plantqa\eval\run.py", line 98, in run
+    print(f"{row['qid']} {answer.outcome} {answer.text()[:80]!r}", flush=True)
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Zsombi\AppData\Roaming\uv\python\cpython-3.13-windows-x86_64-none\Lib\encodings\cp1250.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2212' in position 81: character maps to <undefined>
+spent 0.6950 USD, remaining 19.3050 USD of 20.0
+a01 ANSWERED 'no'
+a02 ANSWERED 'PV-2-1'
+a03 ANSWERED '0, 1'
+a04 ANSWERED 'FT-2-2'
+a05 ANSWERED '5'
+b01 ANSWERED 'Not in the documents.'
+b02 ANSWERED 'For FV-2-2, the datasheet states an equal-percentage cage. It does not state whe'
+b03 ANSWERED 'Not in the documents.'
+b04 ANSWERED 'For a 3051CFC compact orifice meter with conditioning option C, range 2, and a b'
+b05 ANSWERED 'The datasheet lists a service-friendly manual override, but does not state wheth'
+c01 ANSWERED 'The item directly upstream of CHV-2-1 is pump P-2-2. The provided excerpts do no'
+c02 ANSWERED 'The item directly upstream of CHV-2-2 is FV-2-2. Fisher ET is a general-purpose '
+c03 ANSWERED 'The output can go either high or low; the direction is user-selectable with a ju'
+c04 ANSWERED 'The item directly upstream of CHV-1-1 is centrifugal pump P-1-1. Its intended mo'
+Traceback (most recent call last):
+  File "<frozen runpy>", line 203, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\Zsombi\plantqa\src\plantqa\eval\run.py", line 114, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\Zsombi\plantqa\src\plantqa\eval\run.py", line 110, in main
+    print(run(parser.parse_args()))
+          ~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Zsombi\plantqa\src\plantqa\eval\run.py", line 98, in run
+    print(f"{row['qid']} {answer.outcome} {answer.text()[:80]!r}", flush=True)
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Zsombi\AppData\Roaming\uv\python\cpython-3.13-windows-x86_64-none\Lib\encodings\cp1250.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2212' in position 89: character maps to <undefined>
+spent 0.7201 USD, remaining 19.2799 USD of 20.0

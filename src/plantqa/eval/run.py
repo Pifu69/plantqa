@@ -95,7 +95,8 @@ def run(args: argparse.Namespace) -> Path:
         record |= {"method": args.method, "model": args.model, "answer": answer.as_dict()}
         with out.open("a", encoding="utf-8") as handle:
             handle.write(json.dumps(record, ensure_ascii=False, default=str) + "\n")
-        print(f"{row['qid']} {answer.outcome} {answer.text()[:80]!r}", flush=True)
+        preview = ascii(answer.text()[:80])  # a Windows-konzol kódlapja nem minden jelet ír ki
+        print(f"{row['qid']} {answer.outcome} {preview}", flush=True)
     return out
 
 

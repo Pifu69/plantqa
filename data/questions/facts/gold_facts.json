@@ -208,6 +208,691 @@
         "page": 2,
         "note": "Other connection types may be available on request."
       }
+    },
+    "flowserve-worcester-f51-f52": {
+      "max_pressure": {
+        "single_value": false,
+        "values": [
+          {
+            "condition": "F52 (Class 300), Group 1.2 body (WCB/WCC, LCB/LCC), at low temperature",
+            "value_text": "approx. 52 bar (read from P-T chart)",
+            "value": 52,
+            "unit": "bar"
+          },
+          {
+            "condition": "F52 (Class 300), Group 2.2 body (CF8M), at low temperature",
+            "value_text": "approx. 50 bar (read from P-T chart)",
+            "value": 50,
+            "unit": "bar"
+          },
+          {
+            "condition": "F51 (Class 150), Group 1.2 body, at low temperature",
+            "value_text": "approx. 20 bar (read from P-T chart)",
+            "value": 20,
+            "unit": "bar"
+          },
+          {
+            "condition": "F51 (Class 150), Group 2.2 body (CF8M), at low temperature",
+            "value_text": "approx. 19 bar (read from P-T chart)",
+            "value": 19,
+            "unit": "bar"
+          }
+        ],
+        "page": 6,
+        "note": "No numeric pressure is printed; ratings are ASME B16.34 curves shown only graphically, decreasing with temperature and further limited by seat material."
+      },
+      "max_temperature": {
+        "single_value": false,
+        "values": [
+          {
+            "condition": "Delrin seat",
+            "value_text": "80°C (180°F)",
+            "value": 80,
+            "unit": "°C"
+          },
+          {
+            "condition": "UHMWPE seat",
+            "value_text": "90°C (200°F)",
+            "value": 90,
+            "unit": "°C"
+          },
+          {
+            "condition": "Virgin PTFE seat",
+            "value_text": "230°C (450°F)",
+            "value": 230,
+            "unit": "°C"
+          },
+          {
+            "condition": "Reinforced PTFE seat",
+            "value_text": "230°C (450°F)",
+            "value": 230,
+            "unit": "°C"
+          },
+          {
+            "condition": "Fluorofill/Polyfill seat",
+            "value_text": "260°C (500°F)",
+            "value": 260,
+            "unit": "°C"
+          },
+          {
+            "condition": "PEEK seat",
+            "value_text": "315°C (600°F)",
+            "value": 315,
+            "unit": "°C"
+          },
+          {
+            "condition": "Metal seat (A or G)",
+            "value_text": "315°C (600°F)",
+            "value": 315,
+            "unit": "°C"
+          }
+        ],
+        "page": 7,
+        "note": "Maximum seat temperature ratings; the p6 P-T chart axis only extends to 300 °C (572 °F)."
+      },
+      "min_temperature": {
+        "stated": false,
+        "note": "No explicit minimum temperature; the p6 P-T chart temperature axis starts at -30 °C (-22 °F), and a cryogenic fire-safe variant (CF) is listed on p11 without a limit."
+      },
+      "body_material": {
+        "single_value": false,
+        "values": [
+          {
+            "condition": "Standard (parts lists)",
+            "value_text": "ASTM A351 CF8M stainless steel",
+            "value": null,
+            "unit": ""
+          },
+          {
+            "condition": "Product code option 4",
+            "value_text": "WCB/WCC",
+            "value": null,
+            "unit": ""
+          },
+          {
+            "condition": "Product code option 5",
+            "value_text": "WCB/LCB/LCC (triple certified)",
+            "value": null,
+            "unit": ""
+          },
+          {
+            "condition": "Product code options 7/A/C",
+            "value_text": "Monel, Alloy 20, Hastelloy C",
+            "value": null,
+            "unit": ""
+          }
+        ],
+        "page": 11,
+        "note": "CF8M standard body shown on p4-p5 ('available in LCB and other alloys'); options from the product code on p11."
+      },
+      "end_connection": {
+        "single_value": false,
+        "values": [
+          {
+            "condition": "F51 series",
+            "value_text": "Flanged, ASME B16.5 Class 150 (BS EN 1759-1)",
+            "value": null,
+            "unit": ""
+          },
+          {
+            "condition": "F52 series",
+            "value_text": "Flanged, ASME B16.5 Class 300 (BS EN 1759-1)",
+            "value": null,
+            "unit": ""
+          }
+        ],
+        "page": 10,
+        "note": "Product code item 13 (p11) lists ANSI B16.5 Class 150 / Class 300; face-to-face per BS EN 558-2 and ASME B16.10."
+      }
+    },
+    "swagelok-ms-01-176": {
+      "max_pressure": {
+        "single_value": false,
+        "values": [
+          {
+            "condition": "C (2C, 4C, 6C, 8C), CA, CP, CPA series, 316 SS or brass, -10 to 100 °F",
+            "value_text": "3000 psig (206 bar)",
+            "value": 3000,
+            "unit": "psig"
+          },
+          {
+            "condition": "C series 12C and 16C, 316 SS, -10 to 100 °F",
+            "value_text": "2000 psig (137 bar)",
+            "value": 2000,
+            "unit": "psig"
+          },
+          {
+            "condition": "C series 12C and 16C, brass, -10 to 100 °F",
+            "value_text": "1500 psig (103 bar)",
+            "value": 1500,
+            "unit": "psig"
+          },
+          {
+            "condition": "CH4, CH8 series, 316 SS, 10 to 100 °F",
+            "value_text": "6000 psig (413 bar)",
+            "value": 6000,
+            "unit": "psig"
+          },
+          {
+            "condition": "CH16 series, 316 SS, 10 to 100 °F",
+            "value_text": "5000 psig (344 bar)",
+            "value": 5000,
+            "unit": "psig"
+          }
+        ],
+        "page": 3,
+        "note": "Cover (p1) summarizes 'working pressures up to 6000 psig (413 bar)'; ratings decrease with temperature and may be limited by the end connection (CH ratings per connection on p12)."
+      },
+      "max_temperature": {
+        "single_value": false,
+        "values": [
+          {
+            "condition": "316 SS valves, C/CA/CP/CPA series (FKM O-rings)",
+            "value_text": "375 °F (190 °C)",
+            "value": 375,
+            "unit": "°F"
+          },
+          {
+            "condition": "Brass valves (Buna N O-rings)",
+            "value_text": "250 °F (121 °C)",
+            "value": 250,
+            "unit": "°F"
+          },
+          {
+            "condition": "CH series, 316 SS (FKM seals)",
+            "value_text": "400 °F (204 °C)",
+            "value": 400,
+            "unit": "°F"
+          }
+        ],
+        "page": 3,
+        "note": "Seal-dependent; p14 seal table: Buna N to 250 °F, EP to 300 °F, FKM to 375 °F (400 °F for CH), neoprene to 250 °F."
+      },
+      "min_temperature": {
+        "single_value": false,
+        "values": [
+          {
+            "condition": "C, CA, CP, CPA series (FKM / Buna N O-rings)",
+            "value_text": "-10 °F (-23 °C)",
+            "value": -10,
+            "unit": "°F"
+          },
+          {
+            "condition": "CH series (FKM seals)",
+            "value_text": "10 °F (-12 °C)",
+            "value": 10,
+            "unit": "°F"
+          }
+        ],
+        "page": 3,
+        "note": "Optional seals extend the range (p14): ethylene propylene to -50 °F (-45 °C), neoprene to -40 °F (-40 °C)."
+      },
+      "body_material": {
+        "single_value": false,
+        "values": [
+          {
+            "condition": "Standard (SS ordering prefix)",
+            "value_text": "316 SS (ASTM A479)",
+            "value": null,
+            "unit": ""
+          },
+          {
+            "condition": "Brass option (B prefix; not CH series)",
+            "value_text": "Brass 360 (ASTM B16)",
+            "value": null,
+            "unit": ""
+          }
+        ],
+        "page": 5,
+        "note": "p14: bodies of alloy 400, carbon steel, aluminum or other alloys available in some sizes; CH sour-gas version in alloy 400."
+      },
+      "end_connection": {
+        "single_value": false,
+        "values": [
+          {
+            "condition": "C, CA, CH series",
+            "value_text": "Fractional and metric Swagelok tube fittings",
+            "value": null,
+            "unit": ""
+          },
+          {
+            "condition": "C, CH, CP, CPA series",
+            "value_text": "Female NPT, male NPT",
+            "value": null,
+            "unit": ""
+          },
+          {
+            "condition": "C, CA series",
+            "value_text": "Male NPT / Swagelok tube fitting",
+            "value": null,
+            "unit": ""
+          },
+          {
+            "condition": "C, CA, CH series",
+            "value_text": "Male VCR fittings",
+            "value": null,
+            "unit": ""
+          },
+          {
+            "condition": "CH series",
+            "value_text": "Male VCO fitting; female/male SAE/MS",
+            "value": null,
+            "unit": ""
+          },
+          {
+            "condition": "CH, CP, CPA series",
+            "value_text": "Female / male ISO (ISO 7/1) threads",
+            "value": null,
+            "unit": ""
+          },
+          {
+            "condition": "CP series",
+            "value_text": "Female/male NPT, male/female NPT",
+            "value": null,
+            "unit": ""
+          }
+        ],
+        "page": 11,
+        "note": "C and CA series on p11, CH series on p12, CP and CPA series on p13; sizes 1/8 to 1 in. and 6 to 25 mm."
+      }
+    },
+    "fisher-et-d100022x012": {
+      "max_pressure": {
+        "single_value": false,
+        "values": [
+          {
+            "condition": "Cast iron body, flanged",
+            "value_text": "Consistent with CL125B or 250B per ASME B16.1",
+            "value": null,
+            "unit": ""
+          },
+          {
+            "condition": "Steel and stainless steel body, flanged",
+            "value_text": "Consistent with CL150, 300 and 600 per ASME B16.34",
+            "value": null,
+            "unit": ""
+          },
+          {
+            "condition": "Steel and stainless steel body, screwed or welding ends",
+            "value_text": "Consistent with flanged CL600 per ASME B16.34",
+            "value": null,
+            "unit": ""
+          }
+        ],
+        "page": 3,
+        "note": "Maximum inlet pressure is given only as pressure classes, no numeric psig/bar value; also limited by maximum pressure drop and material temperature capabilities."
+      },
+      "max_temperature": {
+        "single_value": false,
+        "values": [
+          {
+            "condition": "Cast iron body/bonnet (most trims)",
+            "value_text": "232 °C (450 °F)",
+            "value": 232,
+            "unit": "°C"
+          },
+          {
+            "condition": "WCC, LCC, WC9, CF8M or CF3M body with PEEK anti-extrusion rings and spring-loaded seal ring (trims 1, 27, 316L HF etc.), non-oxidizing service",
+            "value_text": "316 °C (600 °F)",
+            "value": 316,
+            "unit": "°C"
+          },
+          {
+            "condition": "Same constructions, oxidizing service",
+            "value_text": "260 °C (500 °F)",
+            "value": 260,
+            "unit": "°C"
+          },
+          {
+            "condition": "Standard PTFE seal construction (without PEEK anti-extrusion rings)",
+            "value_text": "232 °C (450 °F)",
+            "value": 232,
+            "unit": "°C"
+          }
+        ],
+        "page": 21,
+        "note": "Table 15 (p21-22) body/trim temperature capabilities depend on body material and trim (some trims only 149 °C / 300 °F or 210 °C / 410 °F); 232 °C / 450 °F limit and its extension are also stated on p2."
+      },
+      "min_temperature": {
+        "single_value": false,
+        "values": [
+          {
+            "condition": "Cast iron, WCC steel or WC9 chrome moly body",
+            "value_text": "-29 °C (-20 °F)",
+            "value": -29,
+            "unit": "°C"
+          },
+          {
+            "condition": "LCC steel body (most trims)",
+            "value_text": "-46 °C (-50 °F)",
+            "value": -46,
+            "unit": "°C"
+          },
+          {
+            "condition": "CF8M or CF3M stainless steel body",
+            "value_text": "-198 °C (-325 °F)",
+            "value": -198,
+            "unit": "°C"
+          },
+          {
+            "condition": "CF8M/CF3M with Charpy impact test",
+            "value_text": "-254 °C (-425 °F)",
+            "value": -254,
+            "unit": "°C"
+          }
+        ],
+        "page": 21,
+        "note": "Table 15; packing/bonnet style also limits low temperature (Table 16 p22: plain bonnet -18 °C / 0 °F, style 2 extension -101 °C / -150 °F)."
+      },
+      "body_material": {
+        "single_value": false,
+        "values": [
+          {
+            "condition": "Option",
+            "value_text": "Cast iron",
+            "value": null,
+            "unit": ""
+          },
+          {
+            "condition": "Option",
+            "value_text": "WCC carbon steel",
+            "value": null,
+            "unit": ""
+          },
+          {
+            "condition": "Option",
+            "value_text": "LCC carbon steel",
+            "value": null,
+            "unit": ""
+          },
+          {
+            "condition": "Option",
+            "value_text": "WC9 chrome moly steel",
+            "value": null,
+            "unit": ""
+          },
+          {
+            "condition": "Option",
+            "value_text": "CF8M (cast 316 stainless steel)",
+            "value": null,
+            "unit": ""
+          },
+          {
+            "condition": "Option",
+            "value_text": "CF3M (cast 316L stainless steel)",
+            "value": null,
+            "unit": ""
+          }
+        ],
+        "page": 3,
+        "note": "Body, bonnet and bonnet spacer/bottom flange; other materials upon request."
+      },
+      "end_connection": {
+        "single_value": false,
+        "values": [
+          {
+            "condition": "Cast iron body (ET only)",
+            "value_text": "CL125 FF flanged, CL250 RF flanged",
+            "value": null,
+            "unit": ""
+          },
+          {
+            "condition": "Steel / alloy / stainless body",
+            "value_text": "RF or RTJ flanged CL150, CL300, CL600",
+            "value": null,
+            "unit": ""
+          },
+          {
+            "condition": "Steel / alloy / stainless body, ET and ETR NPS 1 to 2 only",
+            "value_text": "Screwed",
+            "value": null,
+            "unit": ""
+          },
+          {
+            "condition": "Steel / alloy / stainless body",
+            "value_text": "Butt weld, socket weld",
+            "value": null,
+            "unit": ""
+          },
+          {
+            "condition": "Steel body, EN",
+            "value_text": "Flanged raised-face per EN 1092-1/B, PN16, PN25, PN40, PN63, PN100",
+            "value": null,
+            "unit": ""
+          }
+        ],
+        "page": 5,
+        "note": "Table 3 Available Constructions; availability differs by ET/EAT/ETR and size; EN raised-face flanging also listed in Table 1 on p3."
+      }
+    },
+    "rosemount-3051-00813-0100-4001": {
+      "max_pressure": {
+        "single_value": false,
+        "values": [
+          {
+            "condition": "3051CD static pressure limit (ranges 2-5)",
+            "value_text": "3,626 psig (4,500 psig (310.26 bar) with option P9)",
+            "value": 3626,
+            "unit": "psig"
+          },
+          {
+            "condition": "3051CD static pressure limit, Range 0",
+            "value_text": "750 psig (51.71 bar)",
+            "value": 750,
+            "unit": "psig"
+          },
+          {
+            "condition": "3051CD static pressure limit, Range 1",
+            "value_text": "2,000 psig (137.90 bar)",
+            "value": 2000,
+            "unit": "psig"
+          },
+          {
+            "condition": "3051CD/CG/CF overpressure limit, Ranges 2-5",
+            "value_text": "3,626 psig (250.00 bar), 4500 psig (310.26 bar) for option P9",
+            "value": 3626,
+            "unit": "psig"
+          },
+          {
+            "condition": "3051CA overpressure limit, Range 4",
+            "value_text": "6,000 psia (413.69 bar)",
+            "value": 6000,
+            "unit": "psia"
+          },
+          {
+            "condition": "3051TG/TA overpressure limit, Range 6",
+            "value_text": "24,000 psi (1654.74 bar)",
+            "value": 24000,
+            "unit": "psi"
+          },
+          {
+            "condition": "3051L / level flange, ANSI Class 600 CS (SST 1,440 psig), at 100 °F",
+            "value_text": "1,480 psig",
+            "value": 1480,
+            "unit": "psig"
+          },
+          {
+            "condition": "Burst pressure, 3051C/3051CF coplanar or traditional flange",
+            "value_text": "10,081 psig (695,06 bar)",
+            "value": 10081,
+            "unit": "psig"
+          }
+        ],
+        "page": 88,
+        "note": "No single 'maximum working pressure'; static pressure limit (3051CD) and burst limits on p88, overpressure limits per model/range and 3051L flange ratings (Table 4) on p87; the 3051CD static limit is the DP working-pressure value."
+      },
+      "max_temperature": {
+        "single_value": false,
+        "values": [
+          {
+            "condition": "3051CD/CG/CF/CA silicone fill, coplanar flange",
+            "value_text": "+250 °F (+121 °C)",
+            "value": 250,
+            "unit": "°F"
+          },
+          {
+            "condition": "3051CD/CG/CF/CA silicone fill, traditional flange, level flange or 305 integral manifold",
+            "value_text": "+300 °F (+149 °C)",
+            "value": 300,
+            "unit": "°F"
+          },
+          {
+            "condition": "3051C inert fill sensor",
+            "value_text": "+185 °F (+85 °C)",
+            "value": 185,
+            "unit": "°F"
+          },
+          {
+            "condition": "3051T silicone or inert fill",
+            "value_text": "+250 °F (+121 °C)",
+            "value": 250,
+            "unit": "°F"
+          },
+          {
+            "condition": "3051L high side, Silicone 704, Silicone 200 or Neobee M-20 fill",
+            "value_text": "+401 °F (+205 °C)",
+            "value": 401,
+            "unit": "°F"
+          },
+          {
+            "condition": "3051L high side, SYLTHERM XLT",
+            "value_text": "+293 °F (+145 °C)",
+            "value": 293,
+            "unit": "°F"
+          }
+        ],
+        "page": 90,
+        "note": "Table 6 process connection temperature limits; lower limits in vacuum service (+220 °F / +104 °C); 3051CD0 limited to +212 °F (+100 °C); ambient limit separately -40 to +185 °F (p89)."
+      },
+      "min_temperature": {
+        "single_value": false,
+        "values": [
+          {
+            "condition": "3051C/3051T/3051L low side, silicone fill (standard)",
+            "value_text": "-40 °F (-40 °C)",
+            "value": -40,
+            "unit": "°F"
+          },
+          {
+            "condition": "Option code BR6",
+            "value_text": "-76 °F (-60 °C) (-75 °F for traditional flange)",
+            "value": -76,
+            "unit": "°F"
+          },
+          {
+            "condition": "3051T inert fill",
+            "value_text": "-22 °F (-30 °C)",
+            "value": -22,
+            "unit": "°F"
+          },
+          {
+            "condition": "3051L high side, SYLTHERM XLT fill",
+            "value_text": "-157 °F (-105 °C)",
+            "value": -157,
+            "unit": "°F"
+          },
+          {
+            "condition": "3051L high side, Silicone 704 fill",
+            "value_text": "+32 °F (0 °C)",
+            "value": 32,
+            "unit": "°F"
+          }
+        ],
+        "page": 90,
+        "note": "Table 6; inert fill with traditional flange on Range 0 starts at +32 °F (0 °C); ambient minimum -40 °F (-40 °C), -76 °F with BR6 (p89)."
+      },
+      "body_material": {
+        "single_value": false,
+        "values": [
+          {
+            "condition": "Transmitter flanges and adapters (process-wetted)",
+            "value_text": "Plated CS",
+            "value": null,
+            "unit": ""
+          },
+          {
+            "condition": "Transmitter flanges and adapters (process-wetted)",
+            "value_text": "SST: CF-8M (cast 316 SST) per ASTM A743",
+            "value": null,
+            "unit": ""
+          },
+          {
+            "condition": "Transmitter flanges and adapters (process-wetted)",
+            "value_text": "Cast C-276: CW-12MW per ASTM A494",
+            "value": null,
+            "unit": ""
+          },
+          {
+            "condition": "Transmitter flanges and adapters (process-wetted)",
+            "value_text": "Cast Alloy 400: M-30C per ASTM A494 (coplanar flange alloy 400/405)",
+            "value": null,
+            "unit": ""
+          },
+          {
+            "condition": "Coplanar sensor housing module",
+            "value_text": "SST: CF-3M (cast 316L SST)",
+            "value": null,
+            "unit": ""
+          },
+          {
+            "condition": "Electronics housing (non-wetted)",
+            "value_text": "Low-copper aluminum or CF-8M; PBT/PC (code P)",
+            "value": null,
+            "unit": ""
+          }
+        ],
+        "page": 92,
+        "note": "Isolating diaphragms 316L SST, alloy C-276, alloy 400, tantalum or gold-plated (model-dependent); 3051L mounting flange zinc-cobalt plated CS or SST."
+      },
+      "end_connection": {
+        "single_value": false,
+        "values": [
+          {
+            "condition": "3051C",
+            "value_text": "1/4-18 NPT on 2 1/8-inch centers",
+            "value": null,
+            "unit": ""
+          },
+          {
+            "condition": "3051C",
+            "value_text": "1/2-14 NPT on 2-, 2 1/8-, or 2 1/4-inch centers",
+            "value": null,
+            "unit": ""
+          },
+          {
+            "condition": "3051L high pressure side",
+            "value_text": "2-, 3-, or 4-inch ASME B16.5 Class 150, 300 or 600 flange; 50, 80 or 100 mm PN 40 or 10/16 flange",
+            "value": null,
+            "unit": ""
+          },
+          {
+            "condition": "3051L low pressure side",
+            "value_text": "1/4-18 NPT on flange, 1/2-14 NPT on adapter",
+            "value": null,
+            "unit": ""
+          },
+          {
+            "condition": "3051T",
+            "value_text": "1/2-14 NPT female",
+            "value": null,
+            "unit": ""
+          },
+          {
+            "condition": "3051T, range 1-4",
+            "value_text": "G1/2 A DIN 16288 male",
+            "value": null,
+            "unit": ""
+          },
+          {
+            "condition": "3051T, range 5-6",
+            "value_text": "Autoclave type F-250-C",
+            "value": null,
+            "unit": ""
+          }
+        ],
+        "page": 91,
+        "note": "3051CF flowmeter connections are referred to separate DP flow data sheets."
+      }
     }
   }
 }

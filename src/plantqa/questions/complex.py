@@ -73,24 +73,43 @@ def describe(fact: dict[str, Any]) -> str:
     return f"depends on the construction ({cases}){page}"
 
 
-def comparable(fact: dict[str, Any]) -> float | None:
-    """Az egyértékű tény közös egységben, különben `None`."""
-    if not fact.get("single_value") or fact.get("value") is None:
-        return None
-    return normalized(float(fact["value"]), str(fact.get("unit", "")))
+def interval(fact: dict[str, Any]) -> tuple[float, float] | None:
+    """A tény összes átváltható értékének tartománya (közös egységben); ha nincs, `None`.
+
+    Egyértékű ténynél egy pont; több esetnél az esetek értékeinek minimuma és maximuma, de csak
+    ha minden eset átváltható (különben a tartomány nem megbízható).
+    """
+    cases = [fact] if fact.get("single_value") else list(fact.get("values", []))
+    numbers = []
+    for case in cases:
+        if case.get("value") is None:
+            return None
+        value = normalized(float(case["value"]), str(case.get("unit", "")))
+        if value is None:
+            return None
+        numbers.append(value)
+    return (min(numbers), max(numbers)) if numbers else None
+
+
+def decidable_lowest(ranges: dict[str, tuple[float, float]]) -> str | None:
+    """Az az elem, amelynek legnagyobb értéke is kisebb minden más elem legkisebb értékénél."""
+    for tag, (_, high) in ranges.items():
+        if all(high < low for other, (low, _) in ranges.items() if other != tag):
+            return tag
+    return None
 
 
 def reference(items: list[str], prop: str) -> dict[str, Any]:
-    """A referencia: tagenkénti érték, és ha lehet, a legkisebb értékű elem."""
+    """A referencia: tagenkénti érték, és ha a tartományokból eldönthető, a legkisebb elem."""
     docs, known = tag_documents(), facts()
     per_tag = {t: known.get(docs[t], {}).get(prop, {"stated": False}) for t in items if t in docs}
     lines = [f"{t} ({docs[t]}): {describe(f)}" for t, f in per_tag.items()]
     must = [f"{t}: {describe(f).split(' (p.')[0]}" for t, f in per_tag.items()]
-    values = {t: comparable(f) for t, f in per_tag.items()}
-    numbers = {t: v for t, v in values.items() if v is not None}
-    if len(numbers) == len(values) and len(values) >= 2:
-        lowest = min(numbers, key=lambda t: numbers[t])
-        lines.append(f"Lowest: {lowest}.")
+    ranges = {t: interval(f) for t, f in per_tag.items()}
+    known_ranges = {t: r for t, r in ranges.items() if r is not None}
+    lowest = decidable_lowest(known_ranges) if len(known_ranges) == len(ranges) else None
+    if lowest is not None and len(ranges) >= 2:
+        lines.append(f"Lowest: {lowest} (for every listed construction).")
         must.append(f"lowest: {lowest}")
     else:
         lines.append("Which one is the lowest cannot be decided from the datasheets alone.")
@@ -141,13 +160,13 @@ def successor_sets(rng: random.Random) -> Iterator[dict[str, Any]]:
         items = with_datasheet([str(tag[b]) for a, b in flow if a == src and tag.get(b)])
         if len({docs[t] for t in items}) < 2:
             continue
-        prop = rng.choice(sorted(PROPERTIES))
-        name, word = PROPERTIES[prop]
-        text = (
-            f"For each item that receives flow directly from {tag[src]}, what is its {name} "
-            f"according to its datasheet, and which of them has the {word}?"
-        )
-        yield {"kind": "set_enumerate", "text": text, "tags": sorted(items), "prop": prop}
+        for prop in sorted(PROPERTIES):  # kevés ilyen elem van: mindkét tulajdonságra kérdezünk
+            name, word = PROPERTIES[prop]
+            text = (
+                f"For each item that receives flow directly from {tag[src]}, what is its {name} "
+                f"according to its datasheet, and which of them has the {word}?"
+            )
+            yield {"kind": "set_enumerate", "text": text, "tags": sorted(items), "prop": prop}
 
 
 def step_pairs(rng: random.Random) -> Iterator[dict[str, Any]]:

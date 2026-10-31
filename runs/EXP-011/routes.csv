@@ -1,0 +1,8 @@
+method,model,route,n
+M1,glm,cypher-v2t,10
+M1,glm,agent-v2t+cypher-v2t,3
+M1,glm,agent-v2t+cypher-v2t+datasheet_fact,7
+M2,glm,drawing,7
+M2,glm,datasheet,8
+M2,glm,datasheet+drawing,5
+M3,glm,context_rag+chunks,20

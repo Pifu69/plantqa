@@ -1,0 +1,4 @@
+model,split,a,b,n,diff,ci_low,ci_high
+glm,dev,M1,M2,20,-0.2,-0.45,0.0
+glm,dev,M1,M3,20,-0.1,-0.35,0.15
+glm,dev,M2,M3,20,0.1,-0.1,0.3

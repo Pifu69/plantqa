@@ -26,6 +26,15 @@
       "git_commit": "35a9b09",
       "started": "2026-10-31T10:21:09+00:00",
       "spent_before_usd": 0.9312
+    },
+    {
+      "command": "python -m plantqa.eval.run --exp EXP-020 --method M1 --model luna --split test --allow-paid",
+      "method": "M1",
+      "model_id": "openai/gpt-6-luna",
+      "split": "test",
+      "git_commit": "022fac5",
+      "started": "2026-10-31T10:31:14+00:00",
+      "spent_before_usd": 0.9467
     }
   ]
 }

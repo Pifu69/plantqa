@@ -42,7 +42,10 @@ def build_method(name: str, model: ModelKey, allow_paid: bool) -> Method:
 
 def load_questions(split: str) -> list[dict[str, Any]]:
     """A kérdéshalmaz sorai."""
-    lines = (QUESTIONS / f"{split}.jsonl").read_text(encoding="utf-8").splitlines()
+    path = QUESTIONS / f"{split}.jsonl"
+    if not path.exists():
+        return []
+    lines = path.read_text(encoding="utf-8").splitlines()
     return [json.loads(line) for line in lines if line.strip()]
 
 
@@ -106,7 +109,7 @@ def main() -> None:
     parser.add_argument("--exp", required=True)
     parser.add_argument("--method", choices=["M1", "M2", "M3"], required=True)
     parser.add_argument("--model", choices=["glm", "luna"], required=True)
-    parser.add_argument("--split", choices=["dev", "test"], required=True)
+    parser.add_argument("--split", choices=["dev", "test", "complex"], required=True)
     parser.add_argument("--allow-paid", action="store_true")
     print(run(parser.parse_args()))
 

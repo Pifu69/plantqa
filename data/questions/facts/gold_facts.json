@@ -1,0 +1,213 @@
+{
+  "extracted_by": "claude-opus-5-5 subagent, from the PDFs only",
+  "documents": {
+    "gorman-rupp-0700286": {
+      "max_pressure": {
+        "single_value": false,
+        "values": [
+          {
+            "condition": "Maximum casing pressure",
+            "value_text": "266 psi (1834 kPa)",
+            "value": 266,
+            "unit": "psi"
+          },
+          {
+            "condition": "Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations",
+            "value_text": "250 psi (1723 kPa)",
+            "value": 250,
+            "unit": "psi"
+          }
+        ],
+        "page": 1,
+        "note": "Two distinct limits printed for the single model (casing vs. operating/system); consult factory for applications exceeding them."
+      },
+      "max_temperature": {
+        "single_value": true,
+        "value_text": "160F (71C)",
+        "value": 160,
+        "unit": "°F",
+        "page": 1,
+        "note": "Stated as 'Maximum Temperature of Liquid Pumped' in the seal detail (seal-limited); 250 psi operating pressure is only rated up to 100F (37C); consult factory above."
+      },
+      "min_temperature": {
+        "stated": false,
+        "note": "No minimum liquid or operating temperature is given."
+      },
+      "body_material": {
+        "single_value": true,
+        "value_text": "Ductile Iron (casing)",
+        "value": null,
+        "unit": "",
+        "page": 1,
+        "note": "Casing and seal plate are ductile iron; impeller gray iron 40."
+      },
+      "end_connection": {
+        "single_value": false,
+        "values": [
+          {
+            "condition": "Standard",
+            "value_text": "4\" x 2 1/2\" (102 mm x 64 mm) raised face flanges",
+            "value": null,
+            "unit": ""
+          },
+          {
+            "condition": "Optional equipment",
+            "value_text": "NPT suction and discharge flanges",
+            "value": null,
+            "unit": ""
+          }
+        ],
+        "page": 1,
+        "note": "Flange pressure class not stated."
+      }
+    },
+    "gfps-165-solenoid-valve": {
+      "max_pressure": {
+        "single_value": true,
+        "value_text": "PN 6 bar (pressure range 0.5 - 6 bar)",
+        "value": 6,
+        "unit": "bar",
+        "page": 2,
+        "note": "Same for all sizes DN15-DN50 (PN 6 on p5); p3 P-T diagram derates above 40 °C to about 3.6 bar at 50 °C; minimum differential pressure 0.5 bar required to operate."
+      },
+      "max_temperature": {
+        "single_value": true,
+        "value_text": "+50 °C (media temperature, PVC housing 0 to +50 °C)",
+        "value": 50,
+        "unit": "°C",
+        "page": 2,
+        "note": "Ambient limit is separately 0 to +40 °C."
+      },
+      "min_temperature": {
+        "single_value": true,
+        "value_text": "0 °C (media temperature, PVC housing 0 to +50 °C)",
+        "value": 0,
+        "unit": "°C",
+        "page": 2,
+        "note": "Ambient also 0 to +40 °C."
+      },
+      "body_material": {
+        "single_value": true,
+        "value_text": "PVC (housing material; PVC-U in ordering tables)",
+        "value": null,
+        "unit": "",
+        "page": 2,
+        "note": "Metal-free PVC housing; gaskets EPDM or FKM."
+      },
+      "end_connection": {
+        "single_value": true,
+        "value_text": "Sleeve (socket), d20-d63 pipe (DN15-DN50, 1/2\"-2\")",
+        "value": null,
+        "unit": "",
+        "page": 2,
+        "note": "Printed only as 'Air connection: Sleeve' on p2 (apparently a mistranslation); the p5 drawing shows union-type ends with sockets of pipe OD d; no flanged or threaded option listed."
+      }
+    },
+    "alfalaval-m3": {
+      "max_pressure": {
+        "single_value": false,
+        "values": [
+          {
+            "condition": "Frame FG, ASME pressure vessel code",
+            "value_text": "10.3 barg / 150 psig",
+            "value": 10.3,
+            "unit": "barg"
+          },
+          {
+            "condition": "Frame FG, PED pressure vessel code",
+            "value_text": "16.0 barg / 232 psig",
+            "value": 16.0,
+            "unit": "barg"
+          }
+        ],
+        "page": 2,
+        "note": "Max. design pressure; extended pressure and temperature rating may be available on request."
+      },
+      "max_temperature": {
+        "single_value": false,
+        "values": [
+          {
+            "condition": "Frame FG, ASME",
+            "value_text": "177 °C / 350 °F",
+            "value": 177,
+            "unit": "°C"
+          },
+          {
+            "condition": "Frame FG, PED",
+            "value_text": "180 °C / 356 °F",
+            "value": 180,
+            "unit": "°C"
+          }
+        ],
+        "page": 2,
+        "note": "Max. design temperature; actual limit also depends on gasket material (not tabulated)."
+      },
+      "min_temperature": {
+        "stated": false,
+        "note": "No minimum design temperature is given."
+      },
+      "body_material": {
+        "single_value": false,
+        "values": [
+          {
+            "condition": "Frame and pressure plate",
+            "value_text": "Carbon steel, epoxy painted",
+            "value": null,
+            "unit": ""
+          },
+          {
+            "condition": "Heat transfer plates (wetted)",
+            "value_text": "316/316L, C-276, Ti, TiPd",
+            "value": null,
+            "unit": ""
+          },
+          {
+            "condition": "Pipe connections",
+            "value_text": "Stainless steel, titanium",
+            "value": null,
+            "unit": ""
+          },
+          {
+            "condition": "Flange connections",
+            "value_text": "Carbon steel",
+            "value": null,
+            "unit": ""
+          }
+        ],
+        "page": 2,
+        "note": "Plate-and-frame unit has no single body; other materials may be available on request."
+      },
+      "end_connection": {
+        "single_value": false,
+        "values": [
+          {
+            "condition": "Threaded port",
+            "value_text": "ISO 228 - G 1 1/4",
+            "value": null,
+            "unit": ""
+          },
+          {
+            "condition": "Internal parallel threaded",
+            "value_text": "ISO 228 - G 1",
+            "value": null,
+            "unit": ""
+          },
+          {
+            "condition": "External parallel threaded",
+            "value_text": "ISO 228 - G 1 1/4 B",
+            "value": null,
+            "unit": ""
+          },
+          {
+            "condition": "External tapered threaded",
+            "value_text": "ISO 7 - R 1 1/4; 1 1/4 - 11.5 NPT",
+            "value": null,
+            "unit": ""
+          }
+        ],
+        "page": 2,
+        "note": "Other connection types may be available on request."
+      }
+    }
+  }
+}

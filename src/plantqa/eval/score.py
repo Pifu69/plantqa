@@ -31,6 +31,7 @@ from plantqa.methods.base import answer_text
 NUMBER = re.compile(r"(?<![\w.])[-+]?\d+(?:[.,]\d+)*(?:\s*/\s*\d+)?")
 UNIT_AFTER = re.compile(r"[-+]?\d+(?:[.,]\d+)*(?:\s*/\s*\d+)?\s*([A-Za-z%°µ\"]+[A-Za-z/²³]*)")
 SEED = 20261031
+SPLITS = ("dev", "test", "complex")
 BATCH = 40
 
 
@@ -103,7 +104,7 @@ def load_answers(folder: Path) -> list[dict[str, Any]]:
 
 def score_folder(exp: str) -> list[dict[str, Any]]:
     """Programos pontozás; a bírálandó tételek `score` mezője `None`."""
-    questions = {q["qid"]: q for split in ("dev", "test") for q in load_questions(split)}
+    questions = {q["qid"]: q for split in SPLITS for q in load_questions(split)}
     rows = load_answers(RUNS / exp)
     for row in rows:
         row["score"] = program_score(questions[row["qid"]], row["answer"])
@@ -112,7 +113,7 @@ def score_folder(exp: str) -> list[dict[str, Any]]:
 
 def export_judge(exp: str) -> int:
     """A bírálandó tételek vak csomagja (`judge/items-N.json`) és a kulcs (`judge/key.json`)."""
-    questions = {q["qid"]: q for split in ("dev", "test") for q in load_questions(split)}
+    questions = {q["qid"]: q for split in SPLITS for q in load_questions(split)}
     pending = [r for r in score_folder(exp) if r["score"] is None]
     random.Random(SEED).shuffle(pending)
     folder = RUNS / exp / "judge"
@@ -144,7 +145,7 @@ def export_rejudge(exp: str) -> int:
     tételek a javított szöveggel `judge/items-r1.json`-ba kerülnek, az új ítéletek
     (`verdicts-r1.json`) a betűrend miatt felülírják a régieket az összefésülésnél.
     """
-    questions = {q["qid"]: q for split in ("dev", "test") for q in load_questions(split)}
+    questions = {q["qid"]: q for split in SPLITS for q in load_questions(split)}
     folder = RUNS / exp / "judge"
     key = json.loads((folder / "key.json").read_text(encoding="utf-8"))
     by_row = {(v["file"], v["qid"]): ident for ident, v in key.items()}

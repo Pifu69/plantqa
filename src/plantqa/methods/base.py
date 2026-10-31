@@ -3,9 +3,12 @@
 from __future__ import annotations
 
 import json
+import time
 from dataclasses import asdict, dataclass, field
 from typing import Any, Protocol
 
+from plantgraph.llm.client import ChatClient
+from plantgraph.llm.models import ChatRequest, ChatResponse, ProviderError
 from plantgraph.qa.final_answer import _answer_format_instruction
 from plantgraph.qa.models import AnswerType
 
@@ -90,3 +93,21 @@ def parse_final(text: str) -> dict[str, Any] | None:
     if not isinstance(data, dict) or "answer" not in data:
         return None
     return {"answer": data.get("answer"), "not_present": bool(data.get("not_present", False))}
+
+
+PROVIDER_ATTEMPTS = 2
+RETRY_WAIT_S = 10.0
+
+
+def complete_with_retry(
+    client: ChatClient, request: ChatRequest, run_id: str, question_id: str
+) -> ChatResponse:
+    """Egy hívás; szolgáltatói (pl. hálózati) hibánál egyszer újrapróbál, mint Benedek kaszkádja."""
+    for attempt in range(PROVIDER_ATTEMPTS):
+        try:
+            return client.complete(request, run_id=run_id, question_id=question_id)
+        except ProviderError:
+            if attempt + 1 == PROVIDER_ATTEMPTS:
+                raise
+            time.sleep(RETRY_WAIT_S)
+    raise AssertionError("unreachable")

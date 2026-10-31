@@ -9,7 +9,7 @@ from __future__ import annotations
 
 import time
 
-from plantgraph.llm.models import ChatMessage, ChatRequest
+from plantgraph.llm.models import ChatMessage, ChatRequest, ProviderError
 from plantgraph.qa.corpus import load_corpus_artifacts
 from plantgraph.qa.graph_view import NetworkxGraphView
 from plantgraph.qa.serialize import serialize_occurrence_graph
@@ -22,6 +22,7 @@ from plantqa.methods.base import (
     GROUNDING_RULE,
     MethodAnswer,
     Question,
+    complete_with_retry,
     format_instruction,
     parse_final,
 )
@@ -94,7 +95,12 @@ class M3:
         text = self._prompt(question, found)
         message = ChatMessage(role="user", content=text)
         request = ChatRequest(pin=self.pin, messages=[message], purpose="answer")
-        reply = self.client.complete(request, run_id=f"M3-{self.model}", question_id=question.qid)
+        try:
+            reply = complete_with_retry(self.client, request, f"M3-{self.model}", question.qid)
+        except ProviderError:
+            return MethodAnswer(
+                self.name, self.model, None, "PROVIDER_ERROR", usage=usage.as_dict()
+            )
         final = parse_final(reply.text)
         pages: dict[str, list[int]] = {}
         for c in found:

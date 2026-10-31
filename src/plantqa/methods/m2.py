@@ -12,7 +12,7 @@ import time
 from typing import Any
 
 from plantgraph.llm.client import ChatClient
-from plantgraph.llm.models import ChatMessage, ChatRequest
+from plantgraph.llm.models import ChatMessage, ChatRequest, ProviderError
 
 from plantqa.graph.load import tag_mapping
 from plantqa.llm import meter
@@ -22,6 +22,7 @@ from plantqa.methods.base import (
     GROUNDING_RULE,
     MethodAnswer,
     Question,
+    complete_with_retry,
     format_instruction,
     parse_final,
 )
@@ -58,7 +59,7 @@ class Router:
     def step(self, messages: list[ChatMessage], qid: str) -> str:
         """Egy routerlépés szövege."""
         request = ChatRequest(pin=self.pin, messages=messages, purpose="route")
-        return self.client.complete(request, run_id=self.run_id, question_id=qid).text
+        return complete_with_retry(self.client, request, self.run_id, qid).text
 
 
 def _action(reply: str) -> dict[str, Any]:
@@ -136,7 +137,11 @@ class M2:
         final: dict[str, Any] | None = None
         outcome = "STEP_LIMIT"
         for _ in range(MAX_STEPS + 1):
-            reply = self.router.step(messages, question.qid)
+            try:
+                reply = self.router.step(messages, question.qid)
+            except ProviderError:
+                outcome = "PROVIDER_ERROR"
+                break
             action = _action(reply)
             if "final" in action:
                 final = parse_final(json.dumps({"answer": None, **_as_dict(action["final"])}))

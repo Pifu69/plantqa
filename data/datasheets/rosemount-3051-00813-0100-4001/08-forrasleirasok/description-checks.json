@@ -1,0 +1,5937 @@
+{
+  "summary": {
+    "sources": 604,
+    "missing": 0,
+    "extra_ids": [],
+    "description_over_2_sentences": 34,
+    "use_for_not_1_sentence": 2,
+    "with_ungrounded_numbers": 129,
+    "marked_uncertain": 144
+  },
+  "sources": [
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-0",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-1",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-2",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 3,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "The range 0 row has an empty code cell (only the footnote marker '(1)'); the code 0 is inferred from the footnote text naming 3051CD0. The code-3 absolute bar value is missing its closing parenthesis."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-3",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "Codes W and X are OCR'd in lower case ('w', 'x')."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-4",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-5",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-6",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-7",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-8",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-9",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-10",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-11",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-12",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-13",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-14",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "Code DA0 is OCR'd as 'DAO'."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-15",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 3,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-16",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-17",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-18",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "Code S2 is OCR'd as '52'."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-19",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-20",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "Codes I1 and I5 are OCR'd as '11' and '15'; footnotes (2)-(4) referenced by E4, I5 and KL are not included in the content."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-22",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-23",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "The Lloyds Register code is OCR'd as 'SL' (the page shows SLL), and I1/I7 in the footnote as '11'/'17'."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-24",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-25",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-26",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-27",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "The header cell for the code column is OCR'd as 'M5' instead of 'Code'."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-28",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-29",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-30",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-31",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-32",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "The title has the availability note ('Only available with HART 4-20 mA output (Code A).') merged into it."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-33",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-34",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-35",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-36",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-37",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-38",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-39",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-40",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-41",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-42",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-43",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-44",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-45",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-46",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-47",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-48",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-49",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-50",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-51",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-52",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-53",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "The footnote says '14-NPT' process connection, apparently a garbled 1/2-14 NPT."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-54",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-55",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "Codes W and X are OCR'd in lower case ('w', 'x')."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-56",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "Code 2C is OCR'd as '2' (the page shows 2C)."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-57",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-58",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-59",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-60",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-61",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-62",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-63",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-64",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-65",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-66",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-67",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-68",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-69",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "Codes I1 and I5 are OCR'd as '11' and '15'; footnotes (2)-(4) referenced by E4, I5 and KL are not included in the content."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-71",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-72",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "The Lloyds Register code is OCR'd as 'SL' (the page shows SLL), and I1/I7 in the footnote as '11'/'17'."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-73",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-74",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-75",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-76",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-77",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-78",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-79",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "The title has the availability note ('Only available with HART 4-20 mA output (Code A).') merged into it."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-80",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-81",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "The Graphical LCD code is OCR'd as 'MG' (M6 elsewhere in the document)."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-82",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-83",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-84",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "The title has the intro note and OCR debris (':selected:') merged into it."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-85",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-86",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-87",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-88",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-89",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-90",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-91",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-92",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-93",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-94",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-95",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-96",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "The code is OCR'd with a space as '3051C FA'."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-97",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-98",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-99",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 3,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "Fractional sizes are OCR'd as '21/2 in.' and '31/2 in.' (2 1/2 and 3 1/2 in.)."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-100",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-101",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-102",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-103",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-104",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-105",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 4,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-106",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "Codes A9 and R9 are OCR'd as 'Ag' and 'Rg'."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-107",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "Mistitled 'Mounting type': on the page it is the top of the 'Opposite side support or packing gland' table, split by Azure; its footnotes (required for Pak-Lok/Flange-Lok, flanged models) ended up in table-azure-108."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-108",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 3,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "0"
+      ],
+      "uncertain": "The codes of the first and third rows are missing in the OCR (only footnote markers; the page shows J and L); this is the lower half of a table split by Azure, the upper half being table-azure-107."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-109",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "0",
+        "0"
+      ],
+      "uncertain": "The code of the first row is missing in the OCR (only '(1)'); the page shows 0."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-110",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-111",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-112",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-113",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "Codes W and X are OCR'd in lowercase ('w', 'x')."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-114",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "The code cell of the last row is garbled link text ('M r_3051cfa_housingmaterial.dita#NotAvailable'), so the code is presumably M (SST, G1/2); this garbling is printed in the PDF itself."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-115",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-116",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-117",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-118",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-119",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-120",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-121",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-122",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-123",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-124",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-125",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-126",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-127",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-128",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "The standard is printed as EN 10474:2004 here, while the 3051CFC section prints EN 10204:2004; possibly a typo in the source."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-129",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-130",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-131",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-132",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-133",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-134",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-135",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-136",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-137",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-138",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-139",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "Two Azure tables merged (IZ row continues on p. 41). Only footnote (1) is included; footnotes (2)-(4) referenced by E4, I5 and KL are missing from the content. Code I1 is OCR'd as '11'."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-141",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-142",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-143",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "Code M6 is OCR'd as 'MG'."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-144",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-145",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-146",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-147",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-148",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-149",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-150",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-151",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-152",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-153",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-154",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-155",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-156",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-157",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-158",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "Title is wrong: the inventory calls it 'Line size', but the page heading (p. 45) is 'Primary element type'."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-159",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-160",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-161",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-162",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "Codes W and X are OCR'd in lowercase ('w', 'x')."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-163",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "The code cell of the last row is garbled link text ('M r_3051cfa_housingmaterial.dita#NotAvailable'), so the code is presumably M (SST, G1/2); this garbling is printed in the PDF itself. The link text names 3051CFA although this is the 3051CFC section."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-164",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-165",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-166",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-167",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-168",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-169",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-170",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 3,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-171",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-172",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-173",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-174",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-175",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-176",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-177",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-178",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "The introductory note 'Only available with HART 4-20 mA output (code A)' was merged into the title."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-179",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-180",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-181",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-182",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-183",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-184",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "Code I1 is OCR'd as '11'."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-185",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-186",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-187",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-188",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-189",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-190",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-191",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-192",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-193",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-194",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-195",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-196",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-197",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-198",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-199",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-200",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-201",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-202",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-203",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 5,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-204",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-205",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-206",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "Codes W and X are OCR'd in lowercase; certification I5 appears as '15' in footnote (4)."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-207",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "The code cell of the last row is garbled link text ('M r_3051cfa_housingmaterial.dita#NotAvailable'), so the code is presumably M (SST, G1/2); this garbling is printed in the PDF itself. The link text names 3051CFA although this is the 3051CFP section."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-208",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-209",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-210",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-211",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-212",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-213",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-214",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-215",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-216",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-217",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-218",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-219",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-220",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-221",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-222",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-223",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-224",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-225",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "The first code is OCR'd as '12 (1)'; the footnote names the options J2 and J3, so it is probably J2."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-226",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-227",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-228",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-229",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-230",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "36"
+      ],
+      "uncertain": "OCR reads I1 as '11 (1)' and I6 as '16 (3)'; footnotes (2) and (3) (on I5, I6) are not in the content, only footnote (1) on dust approval and wireless output code X."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-231",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-232",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-233",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "The graphical LCD code is OCR'd as 'MG'; other tables in the document refer to it as code M6."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-234",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-235",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-236",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "DA0 is OCR'd as 'DAO'."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-237",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-238",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-239",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-240",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-241",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-242",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-243",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-244",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "Codes W and X are OCR'd in lower case ('w', 'x')."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-245",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 3,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "Some zeros are OCR'd as the letter O (AO, DO)."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-246",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 3,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "Two codes are missing in the OCR (the page shows J for 4-in. Class 300 316 SST and L for 3-in. Class 600 316 SST); X, Y, Z, W are OCR'd in lower case."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-247",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "The inert (H) upper limit reads '1+60 ℃' (OCR garble; Table 6 gives +160 ℃)."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-248",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-249",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-250",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "Codes E, F, D show '☐' instead of ★ (unstarred); P is OCR'd as 'p'."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-251",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-252",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 3,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-253",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-254",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-255",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-256",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "DA0 is OCR'd as 'DAO'."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-257",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-258",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 3,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-259",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "36"
+      ],
+      "uncertain": "OCR reads I1 as '11 (1)' and I5 as '15(3)'; the footnotes (1)-(4) referenced on I1, E4, I5, KL are not in the content."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-260",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "The Lloyds Register code is OCR'd as 'SL (1)'; I1 and I7 in the footnote are OCR'd as '11' and '17'."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-261",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-262",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "The header cell reads 'M5' instead of 'Code' and the graphical LCD code is OCR'd as 'MG' (elsewhere code M6)."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-263",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-264",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-265",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-266",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-267",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-268",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-269",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "The availability note was merged into the table title."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-270",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-271",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-272",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-273",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-274",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "The code reads 'DO'; it may be D0 (zero) misread by OCR."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-275",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-276",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-277",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "The Klingersil gasket code is OCR'd as 'Sy'."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-278",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-279",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-280",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 3,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "The span formulas are partly garbled by OCR (e.g. 3051CA reads '± 0,0075 URL)]'); the page shows ±[0.0075(URL/Span)]% of Span."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-282",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "The 3051CFP beta-band labels are garbled ('₿<0.1', '0.1 << 0.2')."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-283",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-284",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-285",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 3,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "The text of the adjacent 'typical HART transmitter response time' diagram (dead time, time constant, 36.8%/63.2%) was merged into a third column."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-1",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-287",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-288",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-2",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "Inventory title 'Transient protection (option code T1)' is wrong; the caption is Table 2 Range and Sensor Limits."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-3",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "Inventory title 'Transient protection (option code T1)' is wrong; the caption is Table 3 Range and Sensor Limits; the header row repeats mid-table at the page break."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-292",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "3051"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-293",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 3,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "3051"
+      ],
+      "uncertain": "Layout is garbled: 'out' and '25 max.' are split across rows."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-294",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "3051"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-4",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-5",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "4",
+        "20"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-6",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-299",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-7",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-8",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 3,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-9",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 3,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "3051"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-304",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-10",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "Two tables merged; the inventory title names Figure 21 (3051CFC) while the caption is Table 10 (3051CFA Pak-Lok)."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-308",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 5,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "The 1 1/2 in. line size is OCR'd as '11/2 in.'."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-11",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 3,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-310",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-311",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-12",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-313",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 3,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "3051"
+      ],
+      "uncertain": "Azure split the page table; Flow, Totalizer and Level sections are missing and the footnotes for (1), (2) landed in table-azure-314."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-azure-314",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "3051"
+      ],
+      "uncertain": "Fragment of the split output information table; the 'Volume' heading is missing and the footnotes belong to table-azure-313."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/table-13",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "Inventory title 'Transient protection (option code T1) - Options' is not the caption (Table 13 External ground screw assembly); K6 appears in both rows."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-1.1",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "3051",
+        "3051"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-2.1",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-3.1",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-3.2",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-3.3",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-3.4",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-4.1",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "62591",
+        "3051",
+        "3051"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-4.2",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-4.3",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-5.1",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-5.2",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-6.1",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "Inventory title says no caption, but the page prints 'Figure 1: Model Code Example' above the image."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-18.1",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-28.1",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-28.2",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-28.3",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-29.1",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 3,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "28"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-43.1",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 3,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "28"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-53.1",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "Same photo as fig-pdf-53-5 (Azure detected it with a tighter box); the two sources are duplicates."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-64.1",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 3,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "4"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-82.1",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "4",
+        "4",
+        "3051"
+      ],
+      "uncertain": "Chart image of the same data as fig-82.1/chart-1; legend A/B/C (Load, Operating region, Voltage) is printed below the crop."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-96.1",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-97.1",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-97.2",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "8"
+      ],
+      "uncertain": "Inventory title missing; on the page this view belongs to Figure 8: Rosemount 3051C Coplanar Flange."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-97.3",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-97.4",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "3051",
+        "9",
+        "3051"
+      ],
+      "uncertain": "Inventory title missing; on the page this view belongs to Figure 9: Rosemount 3051 Wireless Housing with Coplanar Flange."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-98.1",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-98.2",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "3",
+        "10"
+      ],
+      "uncertain": "Inventory title missing; on the page this view belongs to Figure 10."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-99.1",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 4,
+      "use_for_sentences": 2,
+      "ungrounded_numbers": [
+        "5",
+        "16",
+        "18",
+        "3",
+        "8",
+        "16",
+        "3",
+        "8",
+        "16",
+        "3051"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-100.1",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-100.2",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "12"
+      ],
+      "uncertain": "Inventory title missing; on the page this view belongs to Figure 12: Rosemount 3051C Coplanar with Traditional Flange."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-100.3",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "1",
+        "2",
+        "14"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-100.4",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "3",
+        "13"
+      ],
+      "uncertain": "Inventory title missing; on the page this view belongs to Figure 13."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-101.1",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 2,
+      "ungrounded_numbers": [
+        "5",
+        "16",
+        "18",
+        "3051"
+      ],
+      "uncertain": "Inventory title has the view titles 'Panel mounting bracket (option B2/B8)' and 'Pipe mounting bracket (option B1/B7/BA)' appended to the Figure 14 caption."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-102.1",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-102.2",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "15"
+      ],
+      "uncertain": "Title is wrong: this is the right-hand view of Figure 15 (Rosemount 3051T, standard housing), not Figure 16 (Wireless Housing), whose caption is printed below it."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-102.3",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "16"
+      ],
+      "uncertain": "Inventory title missing; on the page this view belongs to Figure 16: Rosemount 3051T Wireless Housing."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-102.4",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "16"
+      ],
+      "uncertain": "Inventory title missing; on the page this view belongs to Figure 16: Rosemount 3051T Wireless Housing."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-103.1",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "250"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-103.2",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "6",
+        "17",
+        "6"
+      ],
+      "uncertain": "Inventory title missing; on the page this view belongs to Figure 17: Rosemount 3051T In-Line Range 6."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-103.3",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-103.4",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "306",
+        "2",
+        "18",
+        "306"
+      ],
+      "uncertain": "Inventory title missing; on the page this view belongs to Figure 18."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-104.1",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "19"
+      ],
+      "uncertain": "Inventory title missing; on the page this is Figure 19: Rosemount 3051T Typical Mounting Configurations with Optional Mounting Bracket (view titles outside the crop)."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-104.2",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "20",
+        "10"
+      ],
+      "uncertain": "Only the front view of Figure 20; fig-pdf-104-16 holds the full three-view drawing (overlap). Inventory title missing."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-105.1",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "10"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-106.1",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "22",
+        "308"
+      ],
+      "uncertain": "Inventory title missing; on the page this is Figure 22: Rosemount 3051CFP Integral Orifice Flow meter."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-107.1",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "23",
+        "11",
+        "11"
+      ],
+      "uncertain": "Inventory title missing; on the page this is Figure 23: Rosemount 3051L Configurations (view titles outside the crop). What the lower ends of 6.80/7.10/8.20 refer to is not labelled."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-108.1",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "310"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-108.2",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "24",
+        "310"
+      ],
+      "uncertain": "Inventory title missing; on the page this view belongs to Figure 24."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-pdf-18-2",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "Inventory title says no caption, but the page prints 'Figure 2: Model Code Example' above the image."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-pdf-30-3",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "3"
+      ],
+      "uncertain": "Inventory title says no caption (page prints 'Figure 3: Model Code Example'); the code differs from the typical 3051CFA code given in the p. 29 text."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-pdf-44-4",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "4"
+      ],
+      "uncertain": "Inventory title says no caption (page prints 'Figure 4: Model Code Example'); the code differs from the typical 3051CFC code given in the p. 43 text."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-pdf-53-5",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "Duplicate of fig-53.1 (same photo, full raster)."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-pdf-54-6",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "5"
+      ],
+      "uncertain": "Looks wrong in the document: the code is the 3051CFA example (identical to Figure 3), although this is the 3051CFP Integral Orifice Flow Meter section. Inventory title also misses the printed caption."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-pdf-64-7",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "6"
+      ],
+      "uncertain": "Inventory title says no caption, but the page prints 'Figure 6: Model Code Example' above the image."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-pdf-76-8",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "5",
+        "5"
+      ],
+      "uncertain": "Identical image to fig-pdf-76-9; the row assignment follows the order on the page."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-pdf-76-9",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "2",
+        "4",
+        "2",
+        "4"
+      ],
+      "uncertain": "Identical image to fig-pdf-76-8; the row assignment follows the order on the page."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-pdf-76-10",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "1",
+        "1"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-pdf-76-11",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "1",
+        "4",
+        "1",
+        "4"
+      ],
+      "uncertain": "Identical image to fig-pdf-76-13; the row assignment follows the order on the page."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-pdf-76-12",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "0",
+        "0"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-pdf-76-13",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "1",
+        "4",
+        "1",
+        "4"
+      ],
+      "uncertain": "Identical image to fig-pdf-76-11; the row assignment follows the order on the page."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-pdf-77-14",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "2",
+        "4",
+        "2",
+        "4"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-pdf-79-15",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "285"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-pdf-104-16",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "20",
+        "10"
+      ],
+      "uncertain": "Overlaps fig-104.2, which is only the front view of this drawing; view titles are printed above the crop."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-82.1/chart-1",
+      "kind": "chart",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "3051",
+        "0",
+        "10.5",
+        "1387",
+        "42.4",
+        "3051",
+        "10.5",
+        "42.4",
+        "0",
+        "1387"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/fig-pdf-79-15/chart-2",
+      "kind": "chart",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "100",
+        "36.8",
+        "0",
+        "36.8",
+        "63.2",
+        "0",
+        "100"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-1",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-2",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "3051",
+        "3051"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-3",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "3051"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-5",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "3051",
+        "3051"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-6",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "3051"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-7",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "3051"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-8",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "3051"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-9",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "3051"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-10",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "3051"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-11",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "3051",
+        "3051"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-12",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-13",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "3051"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-14",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-15",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "3051",
+        "00813",
+        "0100",
+        "4001",
+        "14"
+      ],
+      "uncertain": "Only button/link text, no content."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-16",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-17",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-18",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-20",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "1",
+        "1"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-21",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "Text contains OCR junk \":selected:\"."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-32",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-40",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-41",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-42",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-43",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-45",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "3051",
+        "00813",
+        "0100",
+        "4001"
+      ],
+      "uncertain": "Footnote (1) is missing and \"UNDATION\" is a truncation of FOUNDATION; the footnote numbers are not linked to specific certification codes here."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-46",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-50",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-56",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-59",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-60",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "Text contains OCR junk \":selected:\"."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-62",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-65",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-67",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-68",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-70",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-73",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-74",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-75",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-76",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-77",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "Ends with web button text \"CONFIGURE > VIEW PRODUCT >\"."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-78",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-79",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-80",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-81",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "2",
+        "1",
+        "2"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-82",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-89",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-92",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-100",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-101",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-103",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "Footnote (1) is missing and \"UNDATION\" is a truncation of FOUNDATION; the footnote numbers are not linked to specific certification codes here."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-104",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-108",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-112",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-117",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-120",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-122",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-123",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-126",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-127",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-128",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-129",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-130",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-131",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-132",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-133",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 3,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "\"11/2 in.\" is the OCR form of 1 1/2 in."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-134",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 3,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "Ends with web button text \"CONFIGURE > VIEW PRODUCT >\"."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-135",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-136",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-137",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-138",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "Trailing \"1\" and \"2.\" after the labels are footnote markers."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-139",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "Text contains OCR junk \":selected:\"."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-143",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 3,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "1",
+        "3051",
+        "00813",
+        "0100",
+        "4001",
+        "98"
+      ],
+      "uncertain": "Footnote debris; the footnote belongs to \"Required model components\" in Figure 3, not to the Fluid type table."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-144",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-161",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-174",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-175",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-177",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-178",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-180",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-186",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "Footnote (1) is missing and \"UNDATION\" is a truncation of FOUNDATION; the footnote numbers are not linked to specific certification codes here."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-191",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-192",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-194",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-195",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-197",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-198",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-199",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 3,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "Ends with web button text \"CONFIGURE > VIEW PRODUCT >\"."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-200",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-201",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-202",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-204",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "1"
+      ],
+      "uncertain": "Trailing \"3\" and \"4\" are footnote markers; this example differs from the typical 3051CFC model code given in section-199."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-205",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "Text contains OCR junk \":selected:\"."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-210",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 3,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "3",
+        "3051",
+        "00813",
+        "0100",
+        "4001",
+        "156"
+      ],
+      "uncertain": "Footnote debris; the footnote belongs to \"Required model components\" in Figure 4, not to the Material type table."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-219",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-238",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-242",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-244",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-248",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-252",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-253",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 3,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "\"11/2 in.\" is the OCR form of 1 1/2 in.; ends with web button text \"CONFIGURE > VIEW PRODUCT >\"."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-254",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-255",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-256",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-257",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "1"
+      ],
+      "uncertain": "The page itself prints a 3051CFA code under the 3051CFP section (document error); it does not match the 3051CFP typical code in section-253, and the part labels A/B are in section-259."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-259",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "Title \"B. Additional options 6\" is the Figure 5 label (with footnote 6), not the content; text contains OCR junk \":selected:\"."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-281",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-291",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-292",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-296",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "3051",
+        "00813",
+        "0100",
+        "4001",
+        "230"
+      ],
+      "uncertain": "Footnote (1) is missing; footnote numbers are not linked to certification codes here; contains OCR junk \":selected:\"."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-300",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-303",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-307",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-308",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "Ends with web button text \"CONFIGURE > VIEW PRODUCT >\"."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-309",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-310",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-311",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "1"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-312",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "OCR line order is scrambled and contains \":selected:\" junk."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-323",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-326",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "3051",
+        "00813",
+        "0100",
+        "4001",
+        "253"
+      ],
+      "uncertain": "Heading only; the option codes themselves are in the following 3051L ordering tables (local wireless device access, extended warranty, Plantweb, etc.)."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-331",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "3051",
+        "00813",
+        "0100",
+        "4001",
+        "257"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-333",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "00813",
+        "0100",
+        "4001",
+        "259"
+      ],
+      "uncertain": "Only the footnotes were captured here; which certification code carries which footnote is in the table, and 'UNDATION' is an OCR fragment of FOUNDATION."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-341",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "3051",
+        "00813",
+        "0100",
+        "4001",
+        "266"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-343",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "3051",
+        "00813",
+        "0100",
+        "4001",
+        "268"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-346",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "3051",
+        "00813",
+        "0100",
+        "4001",
+        "271"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-347",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "3051",
+        "00813",
+        "0100",
+        "4001",
+        "272"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-348",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "3051",
+        "00813",
+        "0100",
+        "4001",
+        "273"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-349",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "3051",
+        "00813",
+        "0100",
+        "4001",
+        "274"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-350",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "3051",
+        "00813",
+        "0100",
+        "4001",
+        "275"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-353",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "3051",
+        "00813",
+        "0100",
+        "4001",
+        "278"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-354",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "3051",
+        "00813",
+        "0100",
+        "4001",
+        "279"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-356",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "3",
+        "3051"
+      ],
+      "uncertain": "OCR renders the sigma value as '+30 [Sigma]' and '±30'; most likely ±3σ."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-357",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "3051",
+        "00813",
+        "0100",
+        "4001",
+        "280"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-359",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "3051",
+        "00813",
+        "0100",
+        "4001",
+        "282"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-360",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "3051",
+        "3051",
+        "00813",
+        "0100",
+        "4001",
+        "283"
+      ],
+      "uncertain": "OCR shows '+50 °F (+28 ℃)'; the sign is probably ±."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-362",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "00813",
+        "0100",
+        "4001",
+        "1"
+      ],
+      "uncertain": "Titled 'Dynamic performance' but the content is the line pressure effect text; the dynamic performance values are in rosemount-3051-00813-0100-4001/table-azure-285. The FOUNDATION Fieldbus bullet is duplicated (as on the page)."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-365",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "3051"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-366",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "OCR shows '+0.005 percent'; the sign is probably ±."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-367",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "3051"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-368",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-369",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-372",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "3051"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-374",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "3051"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-375",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "4",
+        "20",
+        "3051",
+        "00813",
+        "0100",
+        "4001",
+        "82.1",
+        "1"
+      ],
+      "uncertain": "'Load (22s)' is OCR junk for the ohm unit."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-376",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "4",
+        "20"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-378",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "4",
+        "20"
+      ],
+      "uncertain": "The page heading is 'Indication'; Azure used the first line as the title."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-379",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-380",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "3051"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-381",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "The trailing line 'FOUNDATION Fieldbus (output code F)' is the next section heading, not part of this section."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-382",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "3051"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-383",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "17.5",
+        "3051"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-384",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-388",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-389",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-393",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "3051"
+      ],
+      "uncertain": "Same wording as the FOUNDATION Fieldbus power supply section; the PROFIBUS PA (output code W) context comes from the page heading, not from this text."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-394",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "17.5",
+        "3051"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-396",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-397",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-398",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-399",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "The trailing line 'Wireless (output code X)' is the next section heading."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-400",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "3051"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-401",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-402",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-403",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-404",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-405",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-406",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "The trailing '7' is a footnote reference whose text (reference conditions) is not included here."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-407",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-410",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "3051"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-411",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "3.0"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-412",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "100",
+        "1",
+        "5"
+      ],
+      "uncertain": "OCR shows 'kQ2' for kΩ."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-413",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "The trailing line 'Overpressure limits' is the next chapter heading."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-414",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-415",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-416",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "00813",
+        "0100",
+        "4001"
+      ],
+      "uncertain": "The last line 'At 248 °F (120 ℃), the rating decreases ... per DIN 2401' belongs to Table 4 (rosemount-3051-00813-0100-4001/table-4)."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-418",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-420",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "10,081"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-421",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-423",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "3051",
+        "00813",
+        "0100",
+        "4001",
+        "5"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-424",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-425",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-427",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "3051"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-429",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "3051"
+      ],
+      "uncertain": "Titled 'Note'; the page heading 'Storage' is not in the text, so the limits are easy to mistake for operating limits."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-430",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "3051",
+        "00813",
+        "0100",
+        "4001"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-432",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "3051"
+      ],
+      "uncertain": "Azure merged the separate 'Volumetric displacement' section (p. 91) into this one."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-434",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-435",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-436",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-438",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-439",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "1"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-441",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "OCR writes the fractions as '21/8' and '21/4' (2 1/8 and 2 1/4 inch)."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-442",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-443",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-444",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-446",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "316"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-447",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-450",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "Text is run together from a two-column layout; the trailing 'Non-wetted parts' is the next heading."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-451",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-452",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-453",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-454",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-455",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-456",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-457",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-458",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "Says PBT enclosure, while section-406 says PBT/PC."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-460",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "00813",
+        "0100",
+        "4001",
+        "7"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-461",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "00813",
+        "0100",
+        "4001",
+        "304"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-463",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 3,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "3051",
+        "00813",
+        "0100",
+        "4001",
+        "96.1"
+      ],
+      "uncertain": "Azure merged figure callouts from pp. 95-99 into this note."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-464",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 3,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "3051",
+        "00813",
+        "0100",
+        "4001",
+        "100.1"
+      ],
+      "uncertain": "Figure label debris, not a real section."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-465",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 3,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "3051",
+        "00813",
+        "0100",
+        "4001",
+        "100.3"
+      ],
+      "uncertain": "Figure label debris, not a real section."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-466",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 3,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "3051",
+        "00813",
+        "0100",
+        "4001",
+        "101.1"
+      ],
+      "uncertain": "Figure label debris, not a real section."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-467",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "00813",
+        "0100",
+        "4001",
+        "103.1"
+      ],
+      "uncertain": "Figure label and caption debris merged across pages."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-468",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "00813",
+        "0100",
+        "4001",
+        "10"
+      ],
+      "uncertain": "Contains figure debris (Front/Side/Top View, C, D) from pp. 104-106."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-469",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 4,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "00813",
+        "0100",
+        "4001",
+        "107.1"
+      ],
+      "uncertain": "Merged figure labels and captions; the trailing 'Options' is the next chapter heading."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-470",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "3051",
+        "00813",
+        "0100",
+        "4001",
+        "311"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-471",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "3051",
+        "00813",
+        "0100",
+        "4001",
+        "12"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-473",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "Titled 'Note'; the page headings 'Custom configuration' and 'Tagging (three options available)' are not in the text."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-476",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-477",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-478",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-479",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "3051",
+        "00813",
+        "0100",
+        "4001",
+        "313"
+      ],
+      "uncertain": "Azure split the units-of-measure table; the Flow row landed in this text section."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-480",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "3051",
+        "00813",
+        "0100",
+        "4001",
+        "314"
+      ],
+      "uncertain": "Table rows extracted as a text section; the trailing 'Volume' is the heading of the next table part."
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-481",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-482",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-483",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-484",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-485",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-486",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "3051",
+        "00813",
+        "0100",
+        "4001",
+        "13"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-487",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-489",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-490",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "rosemount-3051-00813-0100-4001/section-491",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "Contains the back-page footer; BE refers to the coplanar B4 bracket, not a traditional flange bracket."
+    }
+  ]
+}

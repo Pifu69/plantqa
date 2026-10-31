@@ -1,0 +1,1841 @@
+{
+ "document": "rosemount-3051-00813-0100-4001",
+ "items": [
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/transient_protection",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Transient protection",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "Transient protection terminal block",
+    "Transient terminal block"
+   ],
+   "values": [
+    "Transient protection terminal block",
+    "Transient terminal block"
+   ],
+   "facts": 6
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/transient_protection_included_in_fisco_codes",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Transient protection included in FISCO codes",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "IA, IB, and IE"
+   ],
+   "values": [
+    "IA, IB, and IE"
+   ],
+   "facts": 1
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/transmission",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Transmission",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [
+    "dBm EIRP"
+   ],
+   "examples": [
+    "Maximum of 10 dBm EIRP"
+   ],
+   "values": [
+    "Maximum of 10 dBm EIRP"
+   ],
+   "facts": 1
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/transmitter_body_bolt_material",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Transmitter body/bolt material",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "High temperature [850 °F (454 ℃)]"
+   ],
+   "values": [
+    "High temperature [850 °F (454 ℃)]"
+   ],
+   "facts": 1
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/transmitter_calibration_certification",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Transmitter calibration certification",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "Calibration certificate for transmitter"
+   ],
+   "values": [
+    "Calibration certificate for transmitter"
+   ],
+   "facts": 3
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/transmitter_connection_platform",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Transmitter connection platform",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "Direct-mount, integral 3-valve manifold- not available with flanged model greater than Class 600",
+    "Direct-mount, 5-valve manifold - not available with flanged model greater than Class 600",
+    "Remote-mount NPT connections (1/2-inch NPT)",
+    "Direct-mount, high temperature 5-valve manifold - not available with flanged model greater than Class 600",
+    "Remote-mount SW connections (1/2-inch)",
+    "Direct-mount, integral 3-valve manifold"
+   ],
+   "values": [
+    "Direct-mount, integral 3-valve manifold- not available with flanged model greater than Class 600",
+    "Direct-mount, 5-valve manifold - not available with flanged model greater than Class 600",
+    "Remote-mount NPT connections (1/2-inch NPT)",
+    "Direct-mount, high temperature 5-valve manifold - not available with flanged model greater than Class 600",
+    "Remote-mount SW connections (1/2-inch)",
+    "Direct-mount, integral 3-valve manifold",
+    "Remote-mount, NPT connections",
+    "Direct-mount, 3-valve manifold, SST",
+    "Direct-mount, 5-valve manifold, SST",
+    "Remote-mount, 3-valve manifold, SST",
+    "Remote-mount, 5-valve manifold, SST",
+    "Direct-mount, 3-valve manifold, alloy C-276",
+    "Direct-mount, 5-valve manifold, alloy C-276",
+    "Remote-mount, 3-valve manifold, alloy C-276",
+    "Remote-mount, 5-valve manifold, alloy C-276"
+   ],
+   "facts": 15
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/transmitter_diaphragm_material",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Transmitter diaphragm material",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "Selecting J5 option will provide Alloy C-276 transmitter diaphragms.",
+    "Alloy C-276"
+   ],
+   "values": [
+    "Selecting J5 option will provide Alloy C-276 transmitter diaphragms.",
+    "Alloy C-276"
+   ],
+   "facts": 2
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/transmitter_flange_type",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Transmitter flange type",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "Coplanar",
+    "Alternate process connection"
+   ],
+   "values": [
+    "Coplanar",
+    "Alternate process connection"
+   ],
+   "facts": 7
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/transmitter_height",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Transmitter height",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [
+    "in",
+    "mm"
+   ],
+   "examples": [
+    "6.27 in",
+    "159 mm"
+   ],
+   "values": [],
+   "facts": 1
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/transmitter_output",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Transmitter output",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "4-20 mA with digital signal based on HART® Protocol",
+    "FOUNDATION™ Fieldbus Protocol",
+    "PROFIBUS® PA Protocol",
+    "Wireless (requires wireless options and engineered polymer housing)",
+    "Low-power, 1-5 Vdc with digital signal based on HART Protocol",
+    "Wireless"
+   ],
+   "values": [
+    "4-20 mA with digital signal based on HART® Protocol",
+    "FOUNDATION™ Fieldbus Protocol",
+    "PROFIBUS® PA Protocol",
+    "Wireless (requires wireless options and engineered polymer housing)",
+    "Low-power, 1-5 Vdc with digital signal based on HART Protocol",
+    "Wireless"
+   ],
+   "facts": 30
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/transmitter_performance_class",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Transmitter performance class",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "1.75 percent flow rate accuracy, 8:1 flow turndown, 5-year stability",
+    "Up to ±1.75% flow rate accuracy, 8:1 flow turndown, 5-year stability"
+   ],
+   "values": [
+    "1.75 percent flow rate accuracy, 8:1 flow turndown, 5-year stability",
+    "Up to ±1.75% flow rate accuracy, 8:1 flow turndown, 5-year stability"
+   ],
+   "facts": 3
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/transmitter_terminal_voltage",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Transmitter terminal voltage",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [
+    "Vdc"
+   ],
+   "examples": [
+    "9.0 to 32.0 Vdc",
+    "9.0 to 17.5 Vdc"
+   ],
+   "values": [],
+   "facts": 2
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/tuned_system_assemblies",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Tuned-System assemblies",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "cost efficient Rosemount Tuned-System™ assemblies"
+   ],
+   "values": [
+    "cost efficient Rosemount Tuned-System™ assemblies"
+   ],
+   "facts": 1
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/typical_3051cfa_model_code",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Typical 3051CFA model code",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "3051CFA D L 060 D C H PS 2 T1 00032 AA 1"
+   ],
+   "values": [
+    "3051CFA D L 060 D C H PS 2 T1 00032 AA 1"
+   ],
+   "facts": 1
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/typical_3051cfc_model_code",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Typical 3051CFC model code",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "3051CFC D C S 060 N 065 0 3 2 X P 1 WA3 WP5 WC M5 DZ"
+   ],
+   "values": [
+    "3051CFC D C S 060 N 065 0 3 2 X P 1 WA3 WP5 WC M5 DZ"
+   ],
+   "facts": 1
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/typical_3051cfp_model_code",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Typical 3051CFP model code",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "3051CFP D F010 W1 S 0500 D3 2 A A 1 E5 M5"
+   ],
+   "values": [
+    "3051CFP D F010 W1 S 0500 D3 2 A A 1 E5 M5"
+   ],
+   "facts": 1
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/typical_model_code",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Typical model code",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "3051L3AA01D11AA WR5M6BLEDA1RK"
+   ],
+   "values": [
+    "3051L3AA01D11AA WR5M6BLEDA1RK"
+   ],
+   "facts": 1
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/typical_range",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Typical range",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [
+    "ft",
+    "m"
+   ],
+   "examples": [
+    "At least 50 ft",
+    "At least 15 m"
+   ],
+   "values": [
+    "At least 50 ft",
+    "At least 15 m"
+   ],
+   "facts": 2
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/typical_reading",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Typical reading",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [
+    "percent of span"
+   ],
+   "examples": [
+    "70 percent of span"
+   ],
+   "values": [],
+   "facts": 1
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/typical_use",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Typical use",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "totalizer"
+   ],
+   "values": [
+    "totalizer"
+   ],
+   "facts": 1
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/uncertainty_compared_to_traditional_orifice_plate_installation",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Uncertainty compared to traditional orifice plate installation",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "Reduces uncertainty by up to five percent compared to traditional orifice plate installation."
+   ],
+   "values": [
+    "Reduces uncertainty by up to five percent compared to traditional orifice plate installation."
+   ],
+   "facts": 1
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/uncertainty_reduction_compared_to_traditional_orifice_plate_installation",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Uncertainty reduction compared to traditional orifice plate installation",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [
+    "percent"
+   ],
+   "examples": [
+    "up to five percent"
+   ],
+   "values": [
+    "up to five percent"
+   ],
+   "facts": 1
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/unit_labels",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Unit labels",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "Gage or absolute unit labels"
+   ],
+   "values": [
+    "Gage or absolute unit labels"
+   ],
+   "facts": 1
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/update_rate",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Update rate",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [
+    "times per second"
+   ],
+   "examples": [
+    "22 times per second",
+    "User selectable 1 second to 60 minute"
+   ],
+   "values": [
+    "User selectable 1 second to 60 minute"
+   ],
+   "facts": 3
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/upper_url",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Upper (URL)",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [
+    "bar",
+    "inH2O",
+    "mbar",
+    "psi",
+    "psia"
+   ],
+   "examples": [
+    "3.00 inH2O",
+    "7.45 mbar",
+    "25.00 inH2O",
+    "62.16 mbar",
+    "250.00 inH2O",
+    "621.60 mbar"
+   ],
+   "values": [
+    "N/A"
+   ],
+   "facts": 29
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/upstream_and_downstream",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Upstream and downstream",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "two pipe diameters"
+   ],
+   "values": [
+    "two pipe diameters"
+   ],
+   "facts": 1
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/vacuum_applications_below",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Vacuum applications below",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [
+    "bar-a",
+    "psia"
+   ],
+   "examples": [
+    "14.7 psia",
+    "1 bar-a"
+   ],
+   "values": [],
+   "facts": 4
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/variation",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Variation",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "Exact model codes will vary; an example of a typical model code is shown in Figure 1.",
+    "Exact model codes will vary; an example of a typical model code is shown in Figure 2.",
+    "Exact model codes will vary; an example of a typical model code is shown in Figure 5."
+   ],
+   "values": [
+    "Exact model codes will vary; an example of a typical model code is shown in Figure 1.",
+    "Exact model codes will vary; an example of a typical model code is shown in Figure 2.",
+    "Exact model codes will vary; an example of a typical model code is shown in Figure 5."
+   ],
+   "facts": 3
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/vent_drain_valves",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Vent drain valves",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "Coplanar flange without drain/vent ports",
+    "Ports left open - None"
+   ],
+   "values": [
+    "Coplanar flange without drain/vent ports",
+    "Ports left open - None"
+   ],
+   "facts": 2
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/vibration_effect",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Vibration effect",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [
+    "percent of URL"
+   ],
+   "examples": [
+    "Less than ±0.1 percent of URL"
+   ],
+   "values": [
+    "Less than ±0.1 percent of URL"
+   ],
+   "facts": 1
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/view_shown",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "View shown",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "Orifice plate side view",
+    "Orifice plate front view",
+    "Orifice plate top view",
+    "Side view"
+   ],
+   "values": [
+    "Orifice plate side view",
+    "Orifice plate front view",
+    "Orifice plate top view",
+    "Side view"
+   ],
+   "facts": 4
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/virtual_communications_relationship_vcr",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Virtual communications relationship (VCR)",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "20 max."
+   ],
+   "values": [
+    "20 max."
+   ],
+   "facts": 1
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/volumetric_displacement",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Volumetric displacement",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [
+    "cm3",
+    "inch3"
+   ],
+   "examples": [
+    "Less than 0.005 inch3",
+    "Less than 0.08 cm3"
+   ],
+   "values": [
+    "Less than 0.005 inch3",
+    "Less than 0.08 cm3"
+   ],
+   "facts": 2
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/volumetric_flow_accuracy",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Volumetric flow accuracy",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [
+    "percent"
+   ],
+   "examples": [
+    "Up to 1.65 percent"
+   ],
+   "values": [
+    "Up to 1.65 percent"
+   ],
+   "facts": 1
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/weight_without_options",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Weight without options",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [
+    "kg",
+    "lb"
+   ],
+   "examples": [
+    "2.7 kg",
+    "6.0 lb",
+    "1.8 kg",
+    "3.9 lb",
+    "1.4 kg",
+    "3.0 lb"
+   ],
+   "values": [
+    "Table 8",
+    "N/A"
+   ],
+   "facts": 54
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/wetted_materials_requirement",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Wetted materials requirement",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "Note that NACE®-compliant wetted materials are required."
+   ],
+   "values": [
+    "Note that NACE®-compliant wetted materials are required."
+   ],
+   "facts": 2
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/where_to_configure",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Where to configure",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "Visit Emerson.com to start. With this tool's built-in logic and continuous validation, you can configure your products more quickly and accurately."
+   ],
+   "values": [
+    "Visit Emerson.com to start. With this tool's built-in logic and continuous validation, you can configure your products more quickly and accurately."
+   ],
+   "facts": 1
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/where_to_start",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Where to start",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "Visit Emerson.com to start.",
+    "Visit Emerson.com to start"
+   ],
+   "values": [
+    "Visit Emerson.com to start.",
+    "Visit Emerson.com to start"
+   ],
+   "facts": 3
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/wireless_sensor_module",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Wireless sensor module",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "Wireless stainless steel sensor module"
+   ],
+   "values": [
+    "Wireless stainless steel sensor module"
+   ],
+   "facts": 1
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/wireless_standard",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Wireless standard",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "IEC 62591 (WirelessHART®)"
+   ],
+   "values": [
+    "IEC 62591 (WirelessHART®)"
+   ],
+   "facts": 1
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/wireless_transmit_rate_operating_frequency_and_protocol",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Wireless transmit rate, operating frequency, and protocol",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "User configurable transmit rate, 2.4 GHz WirelessHART®",
+    "User configurable transmit rate, 2.4 GHz Wireless HART®",
+    "User-configurable transmit rate, 2.4 GHz WirelessHART®"
+   ],
+   "values": [
+    "User configurable transmit rate, 2.4 GHz WirelessHART®",
+    "User configurable transmit rate, 2.4 GHz Wireless HART®",
+    "User-configurable transmit rate, 2.4 GHz WirelessHART®"
+   ],
+   "facts": 6
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/zero_shift_correction",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Zero shift correction",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "can be calibrated out",
+    "All zero shifts can be calibrated out"
+   ],
+   "values": [
+    "can be calibrated out",
+    "All zero shifts can be calibrated out"
+   ],
+   "facts": 3
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/condition/alarm setting",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "condition",
+   "label": "alarm setting",
+   "examples": [
+    "Default",
+    "NAMUR compliant",
+    "Custom levels"
+   ],
+   "values": [
+    "Default",
+    "NAMUR compliant",
+    "Custom levels"
+   ],
+   "facts": 6
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/condition/beta ratio",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "condition",
+   "label": "beta ratio",
+   "examples": [
+    "β = 0.4",
+    "β = 0.50, 0.65",
+    "β= 0.4",
+    "β= 0.65",
+    "β<0.1",
+    "0.1< β<0.2"
+   ],
+   "values": [],
+   "facts": 8
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/condition/bolt material",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "condition",
+   "label": "bolt material",
+   "examples": [
+    "Plated CS",
+    "Austenitic 316 SST",
+    "ASTM A193, Grade B7M alloy steel",
+    "Alloy K-500"
+   ],
+   "values": [
+    "Plated CS"
+   ],
+   "facts": 4
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/condition/button option",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "condition",
+   "label": "button option",
+   "examples": [
+    "Quick service buttons (option D1)",
+    "Digital Zero trim (option code DZ)",
+    "Analog Zero and Span (option code D4)"
+   ],
+   "values": [
+    "Digital Zero trim (option code DZ)"
+   ],
+   "facts": 4
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/condition/calibration",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "condition",
+   "label": "calibration",
+   "examples": [
+    "Standard",
+    "Calibrated"
+   ],
+   "values": [
+    "Standard",
+    "Calibrated"
+   ],
+   "facts": 2
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/condition/component",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "condition",
+   "label": "component",
+   "examples": [
+    "Power module",
+    "Continuous exposure to ambient temperature limits"
+   ],
+   "values": [
+    "Power module",
+    "Continuous exposure to ambient temperature limits"
+   ],
+   "facts": 3
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/condition/configuration",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "condition",
+   "label": "configuration",
+   "examples": [
+    "All configurations (including display option)",
+    "All configurations (including LCD display option)",
+    "display",
+    "option code BR5",
+    "option code BR6",
+    "wireless output"
+   ],
+   "values": [
+    "All configurations (including display option)",
+    "All configurations (including LCD display option)",
+    "display",
+    "wireless output",
+    "coplanar flange",
+    "traditional flange",
+    "level flange",
+    "SST housing (T)",
+    "SST housing (C, L, H, P)",
+    "Display for wired transmitter",
+    "LCD display for wireless output",
+    "SST mounting bracket for coplanar flange",
+    "Mounting bracket for traditional flange",
+    "SST bracket for traditional flange",
+    "Traditional flange",
+    "SST sensor module"
+   ],
+   "facts": 34
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/condition/connection",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "condition",
+   "label": "connection",
+   "examples": [
+    "1/4-18 NPT",
+    "1/2-14 NPT",
+    "1/2-14 NPT female",
+    "1/4-inch NPT",
+    "1/2-inch NPT"
+   ],
+   "values": [],
+   "facts": 27
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/condition/diaphragm material",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "condition",
+   "label": "diaphragm material",
+   "examples": [
+    "3051CD, 3051CG",
+    "316L SST (UNS S31603)",
+    "Alloy C-276 (UNS N10276)",
+    "Alloy 400 (UNS N04400)",
+    "Tantalum (UNS R05440)",
+    "Gold-plated alloy 400 (UNS N04400)"
+   ],
+   "values": [],
+   "facts": 24
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/condition/display",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "condition",
+   "label": "display",
+   "examples": [
+    "Display default settings"
+   ],
+   "values": [
+    "Display default settings"
+   ],
+   "facts": 7
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/condition/display option",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "condition",
+   "label": "display option",
+   "examples": [
+    "Optional 3-line Graphical Display with Backlight and Local Language",
+    "M4 Digital display with LOI",
+    "M5 Digital display",
+    "M6 Graphical LCD display"
+   ],
+   "values": [],
+   "facts": 24
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/condition/error type",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "condition",
+   "label": "error type",
+   "examples": [
+    "Zero error",
+    "Span error"
+   ],
+   "values": [
+    "Zero error",
+    "Span error"
+   ],
+   "facts": 12
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/condition/extension length",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "condition",
+   "label": "extension length",
+   "examples": [
+    "Flush",
+    "2-in. extention",
+    "4-in. extension",
+    "6-in. extension"
+   ],
+   "values": [
+    "Flush"
+   ],
+   "facts": 48
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/condition/feature",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "condition",
+   "label": "feature",
+   "examples": [
+    "Loop Integrity diagnostic",
+    "Plugged Impulse Line diagnostic",
+    "Process alerts",
+    "8:1 turndown",
+    "Loop Integrity and Plugged Impulse Line Diagnostics",
+    "Bluetooth® connectivity"
+   ],
+   "values": [
+    "Loop Integrity diagnostic",
+    "Plugged Impulse Line diagnostic",
+    "Process alerts",
+    "Loop Integrity and Plugged Impulse Line Diagnostics",
+    "Bluetooth® connectivity",
+    "Back-lit graphical display with local language capability",
+    "Safety certification and proof testing",
+    "Feature",
+    "Bluetooth® Connectivity",
+    "Back-lit Graphical Display with Local Language Capability",
+    "Straight-run requirement (conditioning orifice)",
+    "Savings compared to a traditional orifice plate installation",
+    "Simplified flow configuration with clearly displayed flow rate and added totalizer",
+    "Bluetooth®"
+   ],
+   "facts": 33
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/condition/figure",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "condition",
+   "label": "figure",
+   "examples": [
+    "Figure 2: Model Code Example",
+    "Figure 4: Model Code Example"
+   ],
+   "values": [],
+   "facts": 8
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/condition/fill fluid",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "condition",
+   "label": "fill fluid",
+   "examples": [
+    "Silicone fill sensor",
+    "Inert fill sensor",
+    "SYLTHERM XLT",
+    "Silicone 704",
+    "Silicone 200",
+    "Inert"
+   ],
+   "values": [
+    "Silicone fill sensor",
+    "Inert fill sensor",
+    "SYLTHERM XLT",
+    "Inert",
+    "Glycerin and water",
+    "Propylene glycol and water"
+   ],
+   "facts": 17
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/condition/flange class",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "condition",
+   "label": "flange class",
+   "examples": [
+    "ASME B16.5 (ANSI) 150",
+    "ASME B16.5 (ANSI) 300",
+    "ASME B16.5 (ANSI) 600",
+    "DIN 2501 PN 10-40",
+    "DIN 2501 PN 25/40",
+    "DIN 2501 PN 10/16"
+   ],
+   "values": [],
+   "facts": 144
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/condition/flange material",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "condition",
+   "label": "flange material",
+   "examples": [
+    "Plated CS",
+    "SST",
+    "Cast C-276",
+    "Cast Alloy 400",
+    "Traditional Flange and Adapters",
+    "Coplanar Flange"
+   ],
+   "values": [
+    "Plated CS",
+    "SST",
+    "Traditional Flange and Adapters",
+    "Coplanar Flange"
+   ],
+   "facts": 8
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/condition/flange rating",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "condition",
+   "label": "flange rating",
+   "examples": [
+    "Class 150",
+    "Class 300",
+    "Class 600",
+    "PN 10-40",
+    "PN 10/16",
+    "PN 25/40"
+   ],
+   "values": [],
+   "facts": 12
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/condition/flange size and rating",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "condition",
+   "label": "flange size and rating",
+   "examples": [
+    "2-inch, Class 150",
+    "3-inch, Class 150",
+    "4-inch, Class 150",
+    "2-inch, Class 300",
+    "3-inch, Class 300",
+    "4-inch, Class 300"
+   ],
+   "values": [],
+   "facts": 48
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/condition/flange standard",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "condition",
+   "label": "flange standard",
+   "examples": [
+    "ANSI/ASME",
+    "DIN"
+   ],
+   "values": [
+    "ANSI/ASME",
+    "DIN"
+   ],
+   "facts": 16
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/condition/frequency range",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "condition",
+   "label": "frequency range",
+   "examples": [
+    "10-60 Hz",
+    "60-2000 Hz"
+   ],
+   "values": [],
+   "facts": 2
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/condition/function block",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "condition",
+   "label": "function block",
+   "examples": [
+    "Resource",
+    "Sensor and SPM transducer",
+    "LCD display",
+    "Analog input 1, 2",
+    "PID",
+    "Input selector"
+   ],
+   "values": [
+    "Resource",
+    "Sensor and SPM transducer",
+    "LCD display",
+    "PID",
+    "Input selector",
+    "Arithmetic",
+    "Signal characterizer",
+    "Integrator",
+    "Output splitter",
+    "Control selector",
+    "Resource block",
+    "Sensor transducer block",
+    "LCD transducer block",
+    "Analog input block",
+    "Input selector block",
+    "Integrator block",
+    "Arithmetic block",
+    "Signal characterizer block",
+    "PID block",
+    "Control selector block",
+    "Output splitter block",
+    "Analog input (AI block)",
+    "Standard function block"
+   ],
+   "facts": 38
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/condition/housing",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "condition",
+   "label": "housing",
+   "examples": [
+    "Polymer housing (code P)",
+    "Housing material code P"
+   ],
+   "values": [
+    "Polymer housing (code P)",
+    "Housing material code P"
+   ],
+   "facts": 3
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/condition/line pressure",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "condition",
+   "label": "line pressure",
+   "examples": [
+    "For line pressures above 2000 psi (137.90 bar) and Ranges 4-5",
+    "For line pressures from 0 to 2000 psi (0 to 137.90 bar)",
+    "For line pressures from 0 to 750 psi (0 to 51.71 bar)"
+   ],
+   "values": [],
+   "facts": 10
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/condition/line size",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "condition",
+   "label": "line size",
+   "examples": [
+    "1/2 inch pipe",
+    "1 inch pipe",
+    "1 1/2 inch pipe",
+    "1/2 in. (15 mm)",
+    "1 in. (25 mm)",
+    "1½ in. (40 mm)"
+   ],
+   "values": [],
+   "facts": 55
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/condition/load aspect",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "condition",
+   "label": "load aspect",
+   "examples": [
+    "Maximum loop resistance",
+    "Communication",
+    "CSA approval"
+   ],
+   "values": [
+    "Maximum loop resistance",
+    "Communication",
+    "CSA approval"
+   ],
+   "facts": 4
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/condition/load condition",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "condition",
+   "label": "load condition",
+   "examples": [
+    "No load"
+   ],
+   "values": [
+    "No load"
+   ],
+   "facts": 1
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/condition/measurement type",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "condition",
+   "label": "measurement type",
+   "examples": [
+    "Differential (Rosemount 3051CD)",
+    "Gage (Rosemount 3051CG)",
+    "Absolute (Rosemount 3051CA)",
+    "Gage (Rosemount 3051TG)",
+    "Absolute (Rosemount 3051TA)",
+    "Differential/Gage"
+   ],
+   "values": [
+    "Differential/Gage"
+   ],
+   "facts": 52
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/condition/model",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "condition",
+   "label": "model",
+   "examples": [
+    "Rosemount 3051C",
+    "Rosemount 3051T",
+    "Rosemount 3051CFA Annubar Flow Meter",
+    "Rosemount 3051CFC Compact Conditioning Flow Meter",
+    "Rosemount 3051CFP Integral Orifice Flow Meter",
+    "Rosemount 3051CFA"
+   ],
+   "values": [],
+   "facts": 2716
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/condition/model code part",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "condition",
+   "label": "model code part",
+   "examples": [
+    "1",
+    "2"
+   ],
+   "values": [],
+   "facts": 10
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/condition/mounting component",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "condition",
+   "label": "mounting component",
+   "examples": [
+    "Opposite side support",
+    "Packing gland"
+   ],
+   "values": [
+    "Opposite side support",
+    "Packing gland"
+   ],
+   "facts": 19
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/condition/mounting orientation",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "condition",
+   "label": "mounting orientation",
+   "examples": [
+    "Liquid level diaphragm in vertical plane",
+    "Diaphragm in horizontal plane"
+   ],
+   "values": [
+    "Liquid level diaphragm in vertical plane",
+    "Diaphragm in horizontal plane"
+   ],
+   "facts": 5
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/condition/note",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "condition",
+   "label": "note",
+   "examples": [
+    "Note",
+    "Legend"
+   ],
+   "values": [
+    "Note",
+    "Legend"
+   ],
+   "facts": 8
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/condition/operating condition",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "condition",
+   "label": "operating condition",
+   "examples": [
+    "Normal operating conditions",
+    "For +50 °F (+28 ℃) temperature changes; 0 - 100 percent relative humidity, from 1:1 to 5:1 rangedown"
+   ],
+   "values": [
+    "Normal operating conditions"
+   ],
+   "facts": 4
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/condition/option code",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "condition",
+   "label": "option code",
+   "examples": [
+    "3051C",
+    "D",
+    "G",
+    "A",
+    "0",
+    "1"
+   ],
+   "values": [
+    "D",
+    "G",
+    "A",
+    "F",
+    "W",
+    "X",
+    "M",
+    "B",
+    "J",
+    "K",
+    "P",
+    "BLE",
+    "HJ",
+    "FA",
+    "FB",
+    "FC",
+    "FD",
+    "FP",
+    "FQ",
+    "HK",
+    "HL",
+    "BA",
+    "BC",
+    "BE",
+    "IA",
+    "IG",
+    "IB",
+    "EM",
+    "IM",
+    "KM",
+    "KB",
+    "KD",
+    "KL",
+    "KS",
+    "EP",
+    "IP",
+    "KP",
+    "EW",
+    "IW",
+    "KW"
+   ],
+   "facts": 2242
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/condition/option group",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "condition",
+   "label": "option group",
+   "examples": [
+    "Wireless options",
+    "Materials of construction"
+   ],
+   "values": [
+    "Wireless options",
+    "Materials of construction"
+   ],
+   "facts": 18
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/condition/output protocol",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "condition",
+   "label": "output protocol",
+   "examples": [
+    "Wireless, FOUNDATION™ Fieldbus, and PROFIBUS® PA devices",
+    "4 - 20 mA HART®",
+    "FOUNDATION™ Fieldbus and PROFIBUS® PA Protocols",
+    "Typical HART transmitter response time",
+    "HART®",
+    "WirelessHART"
+   ],
+   "values": [
+    "Wireless, FOUNDATION™ Fieldbus, and PROFIBUS® PA devices",
+    "FOUNDATION™ Fieldbus and PROFIBUS® PA Protocols",
+    "Typical HART transmitter response time",
+    "HART®",
+    "WirelessHART",
+    "FOUNDATION™ Fieldbus",
+    "PROFIBUS® PA",
+    "Load chart",
+    "FOUNDATION™ Fieldbus (output code F)",
+    "PROFIBUS® PA (output code W)",
+    "Wireless (output code X)",
+    "Low power output",
+    "Output code M",
+    "Output code F, W, and X",
+    "PROFIBUS® PA and FOUNDATION™ Fieldbus Protocols",
+    "Output code A",
+    "Output code X",
+    "Wireless option code X",
+    "Wireless",
+    "FOUNDATION™ Fieldbus Protocol",
+    "Profibus-PA Protocol",
+    "WirelessHART® Protocol",
+    "HART® Protocol"
+   ],
+   "facts": 195
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/condition/part group",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "condition",
+   "label": "part group",
+   "examples": [
+    "Transmitter process-wetted parts",
+    "Non-wetted parts"
+   ],
+   "values": [
+    "Transmitter process-wetted parts",
+    "Non-wetted parts"
+   ],
+   "facts": 46
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/condition/pipe size",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "condition",
+   "label": "pipe size",
+   "examples": [
+    "2 (51)",
+    "3 (76)",
+    "4 (102)",
+    "DN 50",
+    "DN 80",
+    "DN 100"
+   ],
+   "values": [],
+   "facts": 144
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/condition/primary element type",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "condition",
+   "label": "primary element type",
+   "examples": [
+    "Type P and C"
+   ],
+   "values": [
+    "Type P and C"
+   ],
+   "facts": 7
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/condition/process connection",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "condition",
+   "label": "process connection",
+   "examples": [
+    "High pressure side",
+    "Low pressure side",
+    "G1/2 A DIN 16288 male",
+    "Autoclave type F-250-C"
+   ],
+   "values": [
+    "High pressure side",
+    "Low pressure side"
+   ],
+   "facts": 7
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/condition/process connection side",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "condition",
+   "label": "process connection side",
+   "examples": [
+    "Flanged process connection (transmitter high side)",
+    "Process diaphragms, including process gasket surface",
+    "Extension",
+    "Mounting flange",
+    "Reference process connection (transmitter low side)",
+    "Isolating diaphragms"
+   ],
+   "values": [
+    "Flanged process connection (transmitter high side)",
+    "Process diaphragms, including process gasket surface",
+    "Extension",
+    "Mounting flange",
+    "Reference process connection (transmitter low side)",
+    "Isolating diaphragms",
+    "Reference flange and adapter"
+   ],
+   "facts": 12
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/condition/range",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "condition",
+   "label": "range",
+   "examples": [
+    "Range 5",
+    "Ranges 2-4",
+    "Range 1",
+    "Range 0 (CD)",
+    "Ranges 1-4",
+    "Range 0"
+   ],
+   "values": [
+    "Range and sensor limits"
+   ],
+   "facts": 275
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/condition/range condition",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "condition",
+   "label": "range condition",
+   "examples": [
+    "Line of sight"
+   ],
+   "values": [
+    "Line of sight"
+   ],
+   "facts": 2
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/condition/reference condition",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "condition",
+   "label": "reference condition",
+   "examples": [
+    "ambient temperature of 70 °F [21 °C]"
+   ],
+   "values": [],
+   "facts": 4
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/condition/sensor module type",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "condition",
+   "label": "sensor module type",
+   "examples": [
+    "Coplanar",
+    "In-line"
+   ],
+   "values": [
+    "Coplanar",
+    "In-line"
+   ],
+   "facts": 2
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/condition/sensor size",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "condition",
+   "label": "sensor size",
+   "examples": [
+    "1",
+    "2",
+    "3"
+   ],
+   "values": [],
+   "facts": 12
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/condition/supply configuration",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "condition",
+   "label": "supply configuration",
+   "examples": [
+    "Standard transmitter (4-20 mA)",
+    "No load",
+    "Transmitter terminal voltage",
+    "FISCO transmitters"
+   ],
+   "values": [
+    "No load",
+    "Transmitter terminal voltage",
+    "FISCO transmitters"
+   ],
+   "facts": 5
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/condition/tag type",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "condition",
+   "label": "tag type",
+   "examples": [
+    "Standard SST hardware tag",
+    "Wired tag",
+    "Tag stored in transmitter memory"
+   ],
+   "values": [
+    "Standard SST hardware tag",
+    "Wired tag",
+    "Tag stored in transmitter memory"
+   ],
+   "facts": 7
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/condition/test condition",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "condition",
+   "label": "test condition",
+   "examples": [
+    "Test vibration level",
+    "During EMC disturbance"
+   ],
+   "values": [
+    "Test vibration level",
+    "During EMC disturbance"
+   ],
+   "facts": 3
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/condition/test standard",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "condition",
+   "label": "test standard",
+   "examples": [
+    "Tested per the requirements of IEC60770-1: 1999 field or pipeline with high vibration level (10-60 Hz 0.21 mm displacement peak amplitude/60-2000 Hz 3g)",
+    "Tested in accordance with IEEE C62.41.2-2002, location category B"
+   ],
+   "values": [],
+   "facts": 4
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/condition/test waveform",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "condition",
+   "label": "test waveform",
+   "examples": [
+    "Waveform 0.5 µs - 100 kHz",
+    "Waveform 8 x 20 µs",
+    "Waveform 1.2 x 50 µs",
+    "0.5 us-100 kHz",
+    "8 × 20 us",
+    "1.2 x 50 us"
+   ],
+   "values": [],
+   "facts": 6
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/condition/time period",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "condition",
+   "label": "time period",
+   "examples": [
+    "For 10 years",
+    "For 1 year"
+   ],
+   "values": [],
+   "facts": 6
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/condition/turndown",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "condition",
+   "label": "turndown",
+   "examples": [
+    "For spans less than 10:1",
+    "For spans less than 15:1",
+    "For spans less than 2:1",
+    "For spans less 10:1",
+    "For spans less 5:1 to 20:1",
+    "At 8:1 flow turndown"
+   ],
+   "values": [],
+   "facts": 32
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/condition/unit category",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "condition",
+   "label": "unit category",
+   "examples": [
+    "Pressure",
+    "Flow",
+    "Totalizer - Flow Units of Time",
+    "Level",
+    "Volume"
+   ],
+   "values": [
+    "Pressure",
+    "Flow",
+    "Totalizer - Flow Units of Time",
+    "Level",
+    "Volume"
+   ],
+   "facts": 46
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/condition/valve position",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "condition",
+   "label": "valve position",
+   "examples": [
+    "closed",
+    "open"
+   ],
+   "values": [
+    "closed",
+    "open"
+   ],
+   "facts": 4
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/condition/wiring",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "condition",
+   "label": "wiring",
+   "examples": [
+    "Vout wiring"
+   ],
+   "values": [
+    "Vout wiring"
+   ],
+   "facts": 1
+  }
+ ]
+}

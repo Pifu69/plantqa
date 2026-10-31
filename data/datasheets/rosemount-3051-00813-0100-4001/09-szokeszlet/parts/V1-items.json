@@ -1,0 +1,2053 @@
+{
+ "document": "rosemount-3051-00813-0100-4001",
+ "items": [
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/10_year_stability",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "10-year stability",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [
+    "percent of URL"
+   ],
+   "examples": [
+    "0.2 percent of URL"
+   ],
+   "values": [],
+   "facts": 1
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/20_ma",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "20 mA",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "Upper range limit"
+   ],
+   "values": [
+    "Upper range limit"
+   ],
+   "facts": 1
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/4_ma",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "4 mA",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "0 (engineering units above)"
+   ],
+   "values": [
+    "0 (engineering units above)"
+   ],
+   "facts": 1
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/a",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "A",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [
+    "in",
+    "mm"
+   ],
+   "examples": [
+    "8.50 in",
+    "215.9 mm",
+    "11.00 in",
+    "279.4 mm",
+    "12.00 in",
+    "304.8 mm"
+   ],
+   "values": [
+    "B.D. (bore diameter)"
+   ],
+   "facts": 5
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/a_required_model_components",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "A. Required model components",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "3051CFADL060ZSHPS1T100072AA1"
+   ],
+   "values": [
+    "3051CFADL060ZSHPS1T100072AA1"
+   ],
+   "facts": 1
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/acceleration",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Acceleration",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [
+    "g"
+   ],
+   "examples": [
+    "3 g"
+   ],
+   "values": [],
+   "facts": 1
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/access",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Access",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "access to all devices near the technician",
+    "Visit Emerson.com to start."
+   ],
+   "values": [
+    "access to all devices near the technician",
+    "Visit Emerson.com to start."
+   ],
+   "facts": 2
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/accessible_information",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Accessible information",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "device drawings, diagrams, technical documentation, and troubleshooting information in your MyEmerson account"
+   ],
+   "values": [
+    "device drawings, diagrams, technical documentation, and troubleshooting information in your MyEmerson account"
+   ],
+   "facts": 1
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/accuracy_over_range_of_use",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Accuracy over range of use",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "always application dependent"
+   ],
+   "values": [
+    "always application dependent"
+   ],
+   "facts": 1
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/additional_options",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Additional options",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "WR5M6BLEDA1RK"
+   ],
+   "values": [
+    "WR5M6BLEDA1RK"
+   ],
+   "facts": 2
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/additional_uncertainty",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Additional uncertainty",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [
+    "percent"
+   ],
+   "examples": [
+    "up to 0.9 percent"
+   ],
+   "values": [
+    "up to 0.9 percent"
+   ],
+   "facts": 1
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/additional_weight",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Additional weight",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [
+    "kg",
+    "lb"
+   ],
+   "examples": [
+    "1.8 kg",
+    "3.9 lb",
+    "1.4 kg",
+    "3.1 lb",
+    "0.2 kg",
+    "0.5 lb"
+   ],
+   "values": [],
+   "facts": 20
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/additional_zero_shift",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Additional zero shift",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "plus extension length on extended units"
+   ],
+   "values": [
+    "plus extension length on extended units"
+   ],
+   "facts": 1
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/ai_block",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "AI Block",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "User configurable"
+   ],
+   "values": [
+    "User configurable"
+   ],
+   "facts": 1
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/ai_block_only",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "AI Block only",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "User configurable"
+   ],
+   "values": [
+    "User configurable"
+   ],
+   "facts": 1
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/alarm",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Alarm",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "High"
+   ],
+   "values": [
+    "High"
+   ],
+   "facts": 1
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/alarm_level_configurations",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Alarm level configurations",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "The values to which the transmitter drives its output in failure mode depend on whether it is configured to standard, NAMUR-compliant, or custom levels."
+   ],
+   "values": [
+    "The values to which the transmitter drives its output in failure mode depend on whether it is configured to standard, NAMUR-compliant, or custom levels."
+   ],
+   "facts": 1
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/alarm_levels",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Alarm levels",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "Analog output levels compliant with NAMUR recommendation NE 43, alarm high",
+    "Analog output levels compliant with NAMUR recommendation NE 43, alarm low",
+    "Custom alarm and saturation signal levels, high alarm (requires option code C1)",
+    "Custom alarm and saturation signal levels, low alarm (requires option code C1)",
+    "Rosemount standard low alarm",
+    "NAMUR alarm and saturation levels, high alarm"
+   ],
+   "values": [
+    "Analog output levels compliant with NAMUR recommendation NE 43, alarm high",
+    "Analog output levels compliant with NAMUR recommendation NE 43, alarm low",
+    "Custom alarm and saturation signal levels, high alarm (requires option code C1)",
+    "Custom alarm and saturation signal levels, low alarm (requires option code C1)",
+    "Rosemount standard low alarm",
+    "NAMUR alarm and saturation levels, high alarm",
+    "NAMUR alarm and saturation levels, low alarm",
+    "Custom alarm and saturation signal levels, high alarm (see Rosemount 3051 Configuration Data Sheet)",
+    "Custom alarm and saturation signal levels, low alarm (see Rosemount 3051 Configuration Data Sheet)",
+    "Custom alarm and saturation signal levels, high alarm (See Rosemount 3051 Configuration Data Sheet)",
+    "Custom alarm and saturation signal levels, low alarm (See Rosemount 3051 Configuration Data Sheet)"
+   ],
+   "facts": 30
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/alarm_selection",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Alarm selection",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "High or low alarm signal is user-selectable by internal jumper."
+   ],
+   "values": [
+    "High or low alarm signal is user-selectable by internal jumper."
+   ],
+   "facts": 1
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/alert",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Alert",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "If a significant change in the current values is detected, the transmitter can generate an alert."
+   ],
+   "values": [
+    "If a significant change in the current values is detected, the transmitter can generate an alert."
+   ],
+   "facts": 1
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/alloy_400_availability",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Alloy 400 availability",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "alloy 400 not available with Rosemount 3051L"
+   ],
+   "values": [
+    "alloy 400 not available with Rosemount 3051L"
+   ],
+   "facts": 1
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/alternate_flange",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Alternate flange",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "Traditional flange, 316 SST, SST drain/vent",
+    "Traditional flange, alloy C, alloy C-276 drain/vent",
+    "Traditional flange, cast alloy 400, alloy 400/K-500 drain/vent",
+    "Traditional flange, 316 SST, alloy C-276 drain/vent",
+    "DIN-compliant traditional flange, SST, 7/16-in. (10 mm) adapter/manifold bolting",
+    "Level flange, SST, 2-in. (51 mm), ANSI Class 150, vertical mount 316 SST drain/vent"
+   ],
+   "values": [
+    "Traditional flange, 316 SST, SST drain/vent",
+    "Traditional flange, alloy C, alloy C-276 drain/vent",
+    "Traditional flange, cast alloy 400, alloy 400/K-500 drain/vent",
+    "Traditional flange, 316 SST, alloy C-276 drain/vent",
+    "DIN-compliant traditional flange, SST, 7/16-in. (10 mm) adapter/manifold bolting",
+    "Level flange, SST, 2-in. (51 mm), ANSI Class 150, vertical mount 316 SST drain/vent",
+    "Level flange, SST, 2-in. (51 mm), ANSI Class 300, vertical mount 316 SST drain/vent",
+    "Level flange, SST, 3-in. (76 mm), ANSI Class 150, vertical mount 316 SST drain/vent",
+    "Level flange, SST, 3-in. (76 mm), ANSI Class 300, vertical mount 316 SST drain/vent",
+    "DIN level flange, SST, DN 50, PN 40, vertical mount 316 SST drain/vent",
+    "DIN level flange, SST, DN 80, PN 40, vertical mount 316 SST drain/vent",
+    "DIN compliant traditional flange, SST, 0.40-in. (10 mm) adapter/manifold bolting 316 SST",
+    "DIN compliant traditional flange, SST, 0.50-in. (12 mm) adapter/manifold bolting 316 SST"
+   ],
+   "facts": 13
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/alternate_transmitter_diaphragm_material",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Alternate transmitter diaphragm material",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "316 SST",
+    "Alloy C-276",
+    "Alloy 400",
+    "Tantalum",
+    "Gold-plated Alloy 400",
+    "Gold-plated SST"
+   ],
+   "values": [
+    "316 SST",
+    "Alloy C-276",
+    "Alloy 400",
+    "Tantalum",
+    "Gold-plated Alloy 400",
+    "Gold-plated SST"
+   ],
+   "facts": 18
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/ambient_temperature_effect",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Ambient temperature effect",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "±(0.25% URL + 0.05% span)",
+    "±(0.1% URL + 0.25% span)",
+    "±(0.14% URL + 0.15% span)",
+    "±(0.0125% URL + 0.0625% span)",
+    "±(0.025% URL + 0.125% span)",
+    "±(0.035% URL + 0.125% span)"
+   ],
+   "values": [
+    "±(0.25% URL + 0.05% span)",
+    "±(0.1% URL + 0.25% span)",
+    "±(0.14% URL + 0.15% span)",
+    "±(0.0125% URL + 0.0625% span)",
+    "±(0.025% URL + 0.125% span)",
+    "±(0.035% URL + 0.125% span)",
+    "±(0.15% URL + 0.075% span)",
+    "±(0.05% URL + 0.125% span)",
+    "±(0.1% URL + 0.15% span)",
+    "See Instrument Toolkit™ software."
+   ],
+   "facts": 14
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/ambient_temperature_limit",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Ambient temperature limit",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [
+    "°C",
+    "°F"
+   ],
+   "examples": [
+    "-40 - +85 °C",
+    "-40 - +185 °F",
+    "-40 to +80 °C",
+    "-40 - +176 °F",
+    "-50 - +85 °C",
+    "-58 - +185 °F"
+   ],
+   "values": [
+    "-40 - +85 °C",
+    "-40 - +185 °F",
+    "-40 to +80 °C",
+    "-40 - +176 °F",
+    "-50 - +85 °C",
+    "-58 - +185 °F",
+    "-60 - +85 °C",
+    "-76 - +185 °F"
+   ],
+   "facts": 4
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/analog_output_response_to_a_step_input_change_one_time_constant_user_enterable",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Analog output response to a step input change (one time constant), user-enterable",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [
+    "seconds"
+   ],
+   "examples": [
+    "0.0 to 60 seconds"
+   ],
+   "values": [],
+   "facts": 1
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/annubar_type",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Annubar™ type",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "Pak-Lok",
+    "Flanged with opposite side support",
+    "Flange-Lok",
+    "Gear-drive Flo-Tap",
+    "Manual Flo-Tap"
+   ],
+   "values": [
+    "Pak-Lok",
+    "Flanged with opposite side support",
+    "Flange-Lok",
+    "Gear-drive Flo-Tap",
+    "Manual Flo-Tap"
+   ],
+   "facts": 5
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/antenna_and_smartpower",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Antenna and SmartPower™",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "Internal antenna, compatible with Green Power Module (I.S. Power Module sold separately)",
+    "Internal antenna, compatible with Green Power Module (I.S. Power Module sold separately).",
+    "Internal antenna, compatible with Green Power Module"
+   ],
+   "values": [
+    "Internal antenna, compatible with Green Power Module (I.S. Power Module sold separately)",
+    "Internal antenna, compatible with Green Power Module (I.S. Power Module sold separately).",
+    "Internal antenna, compatible with Green Power Module"
+   ],
+   "facts": 6
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/applicability",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Applicability",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "Rosemount 3051CD ranges 2-5 only",
+    "At atmospheric pressures and above. See Table 6.",
+    "Not applicable to WirelessHART®, Low-power,FOUNDATION™ Fieldbus or PROFIBUS PA Protocols.",
+    "Only applicable to FOUNDATION™ Fieldbus."
+   ],
+   "values": [
+    "Rosemount 3051CD ranges 2-5 only",
+    "At atmospheric pressures and above. See Table 6.",
+    "Not applicable to WirelessHART®, Low-power,FOUNDATION™ Fieldbus or PROFIBUS PA Protocols.",
+    "Only applicable to FOUNDATION™ Fieldbus."
+   ],
+   "facts": 4
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/application",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Application",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "Rosemount 3051T In-Line Pressure Transmitters are the industry standard for gage and absolute pressure measurement.",
+    "Rosemount 3051CFP Integral Orifice Flow Meters enable highly accurate flow measurement in small line sizes."
+   ],
+   "values": [
+    "Rosemount 3051T In-Line Pressure Transmitters are the industry standard for gage and absolute pressure measurement.",
+    "Rosemount 3051CFP Integral Orifice Flow Meters enable highly accurate flow measurement in small line sizes."
+   ],
+   "facts": 2
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/application_specific_configuration",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Application specific configuration",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "transform your pressure transmitter into a flow meter with a totalizer or a level transmitter with volume calculations"
+   ],
+   "values": [
+    "transform your pressure transmitter into a flow meter with a totalizer or a level transmitter with volume calculations"
+   ],
+   "facts": 1
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/applications",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Applications",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "Liquid, gas, and vapor applications"
+   ],
+   "values": [
+    "Liquid, gas, and vapor applications"
+   ],
+   "facts": 1
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/approvals_and_certifications",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Approvals and certifications",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "See the Rosemount 3051 Quick Start Guides for detailed information on the existing approvals and certifications."
+   ],
+   "values": [
+    "See the Rosemount 3051 Quick Start Guides for detailed information on the existing approvals and certifications."
+   ],
+   "facts": 1
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/area_b",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Area B",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "Operating region"
+   ],
+   "values": [
+    "Operating region"
+   ],
+   "facts": 1
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/assemble_to_items",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Assemble-to items",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "\"Assemble-to\" items are specified separately and require a completed model number."
+   ],
+   "values": [
+    "\"Assemble-to\" items are specified separately and require a completed model number."
+   ],
+   "facts": 3
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/assembly",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Assembly",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "factory assembly",
+    "Factory assembled to Rosemount 3051C and 3051T transmitters."
+   ],
+   "values": [
+    "factory assembly",
+    "Factory assembled to Rosemount 3051C and 3051T transmitters."
+   ],
+   "facts": 2
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/assembly_and_testing",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Assembly and testing",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "Fully assembled and leak tested for out-of-the-box installation"
+   ],
+   "values": [
+    "Fully assembled and leak tested for out-of-the-box installation"
+   ],
+   "facts": 1
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/asset_tag",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Asset tag",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "Newly shipped devices include a unique QR code asset tag that enables you to access serialized information directly from the device."
+   ],
+   "values": [
+    "Newly shipped devices include a unique QR code asset tag that enables you to access serialized information directly from the device."
+   ],
+   "facts": 1
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/availability",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Availability",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "Many products are configurable online using our product configurator.",
+    "This option is only available for pressure ranges 1-5 with 4-20 mA HART® and FOUNDATION™ Fieldbus Protocol, and silicone sensor fill fluid.",
+    "It is available with 316SST, C-276, gold plated SST isolating diaphragms, and with transmitter flange types 2, 7, and 0 (only for HJ, HK, and HL).",
+    "These options are only available with 4-20 mA HART® (output code A).",
+    "These options are only available with 4-20 mA HART® output (code A).",
+    "Only available with HART® 4-20 mA output (Code A)."
+   ],
+   "values": [
+    "Many products are configurable online using our product configurator.",
+    "This option is only available for pressure ranges 1-5 with 4-20 mA HART® and FOUNDATION™ Fieldbus Protocol, and silicone sensor fill fluid.",
+    "It is available with 316SST, C-276, gold plated SST isolating diaphragms, and with transmitter flange types 2, 7, and 0 (only for HJ, HK, and HL).",
+    "These options are only available with 4-20 mA HART® (output code A).",
+    "These options are only available with 4-20 mA HART® output (code A).",
+    "Only available with HART® 4-20 mA output (Code A).",
+    "The quality certification for safety is only available with HART® 4-20 mA output (code A).",
+    "Only available with HART 4-20 mA output (Code A).",
+    "The software configuration option is only available with HART® 4-20 mA (option code A) and wireless (option code X).",
+    "The alarm levels option is only available with HART® 4-20 mA output (code A).",
+    "Available for 4-20 mA HART, Low Power, and PROFIBUS PA",
+    "Available for 4-20 mA HART"
+   ],
+   "facts": 12
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/availability_restriction",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Availability restriction",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "Not available with remote thermowell and RTD",
+    "This option is not available with DIN Process Connection codes D1, D2, or D3.",
+    "This option is not available with wireless output (code X).",
+    "Only available with HART® 4-20 mA output (code A)."
+   ],
+   "values": [
+    "Not available with remote thermowell and RTD",
+    "This option is not available with DIN Process Connection codes D1, D2, or D3.",
+    "This option is not available with wireless output (code X).",
+    "Only available with HART® 4-20 mA output (code A)."
+   ],
+   "facts": 5
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/available_line_sizes",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Available line sizes",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [
+    "in",
+    "mm"
+   ],
+   "examples": [
+    "2 - 96 in",
+    "50 to 2400 mm"
+   ],
+   "values": [
+    "2 - 96 in",
+    "50 to 2400 mm"
+   ],
+   "facts": 1
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/available_pressure_ranges",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Available pressure ranges",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "1-5"
+   ],
+   "values": [
+    "1-5"
+   ],
+   "facts": 1
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/available_transmitter_outputs",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Available transmitter outputs",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "4-20 mA HART® and FOUNDATION™ Fieldbus Protocol"
+   ],
+   "values": [
+    "4-20 mA HART® and FOUNDATION™ Fieldbus Protocol"
+   ],
+   "facts": 1
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/available_unit_of_measure",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Available unit of measure",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "inH2O (68 °F)",
+    "mbar",
+    "inH2O (60 ºF)",
+    "ftH2O (4 ℃)",
+    "inHg (0 ℃)",
+    "g/cm2"
+   ],
+   "values": [
+    "inH2O (68 °F)",
+    "mbar",
+    "inH2O (60 ºF)",
+    "ftH2O (4 ℃)",
+    "inHg (0 ℃)",
+    "g/cm2",
+    "cmH2O (4 ℃)",
+    "ftH2O (60 ºF)",
+    "ftH2O (68 ºF)",
+    "kg/cm2",
+    "mH2O (4 ℃)",
+    "mHg (0 ℃)",
+    "mmH2O (68 ºF)",
+    "Pa",
+    "cmHg (0 ℃)",
+    "MPa",
+    "mmHg (0 ℃)",
+    "kPa",
+    "lb/ft2",
+    "inH2O (4 ℃)",
+    "psi",
+    "Torr",
+    "hPa",
+    "mmH2O (4 ℃)",
+    "bar",
+    "atm",
+    "kg/m2",
+    "psf",
+    "User-defined",
+    "Seconds",
+    "Minutes",
+    "Hours",
+    "Days",
+    "Feet (ft)",
+    "Meters (m)",
+    "Inches (in)",
+    "Centimeters (cm)",
+    "Millimeters (mm)",
+    "Gallons",
+    "Liters"
+   ],
+   "facts": 46
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/axis_a",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Axis A",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "Load (Ωs)"
+   ],
+   "values": [
+    "Load (Ωs)"
+   ],
+   "facts": 1
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/axis_c",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Axis C",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "Voltage (Vdc)"
+   ],
+   "values": [
+    "Voltage (Vdc)"
+   ],
+   "facts": 1
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/b",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "B",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [
+    "in",
+    "mm"
+   ],
+   "examples": [
+    "15.60 in",
+    "396.9 mm",
+    "18.10 in",
+    "460.4 mm",
+    "19.10 in",
+    "485.8 mm"
+   ],
+   "values": [
+    "Transmitter height + A"
+   ],
+   "facts": 16
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/b_additional_options",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "B. Additional options",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "WR5M6BLEDA1RK"
+   ],
+   "values": [
+    "WR5M6BLEDA1RK"
+   ],
+   "facts": 1
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/b_d_bore_diameter",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "B.D. (Bore diameter)",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [
+    "in",
+    "mm"
+   ],
+   "examples": [
+    "0.664 in",
+    "16.87 mm",
+    "1.097 in",
+    "27.86 mm",
+    "1.567 in",
+    "39.80 mm"
+   ],
+   "values": [],
+   "facts": 3
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/back_lit_graphical_display_with_local_language_capability",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Back-lit Graphical Display with Local Language Capability",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "Back-lit Graphical Display with Local Language Capability (code M6).",
+    "code M6"
+   ],
+   "values": [
+    "Back-lit Graphical Display with Local Language Capability (code M6).",
+    "code M6"
+   ],
+   "facts": 2
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/backlight",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Backlight",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "On",
+    "Backlit"
+   ],
+   "values": [
+    "On",
+    "Backlit"
+   ],
+   "facts": 2
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/backup_las_function",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Backup LAS function",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "The transmitter can function as an LAS if the current link master device fails or is removed from the segment."
+   ],
+   "values": [
+    "The transmitter can function as an LAS if the current link master device fails or is removed from the segment."
+   ],
+   "facts": 1
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/basis",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Basis",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "combined errors of reference accuracy, ambient temperature effect, and static pressure effect at normal operating conditions"
+   ],
+   "values": [
+    "combined errors of reference accuracy, ambient temperature effect, and static pressure effect at normal operating conditions"
+   ],
+   "facts": 1
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/basis_of_specification_conformance",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Basis of specification conformance",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "Technology leadership, advanced manufacturing techniques, and statistical process control"
+   ],
+   "values": [
+    "Technology leadership, advanced manufacturing techniques, and statistical process control"
+   ],
+   "facts": 1
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/benefit",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Benefit",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "No hot work permit needed. No climbing tanks or building scaffolding.",
+    "With this tool's built-in logic and continuous validation, you can configure your products more quickly and accurately."
+   ],
+   "values": [
+    "No hot work permit needed. No climbing tanks or building scaffolding.",
+    "With this tool's built-in logic and continuous validation, you can configure your products more quickly and accurately."
+   ],
+   "facts": 3
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/benefits",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Benefits",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "Reduce straight pipe requirements, lower permanent pressure loss, and achieve accurate measurement in small line sizes."
+   ],
+   "values": [
+    "Reduce straight pipe requirements, lower permanent pressure loss, and achieve accurate measurement in small line sizes."
+   ],
+   "facts": 1
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/best_performance_line_sizes",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Best performance line sizes",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [
+    "in",
+    "mm"
+   ],
+   "examples": [
+    "½ to 1½ in.",
+    "15 to 40 mm"
+   ],
+   "values": [
+    "½ to 1½ in.",
+    "15 to 40 mm"
+   ],
+   "facts": 1
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/bluetooth",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Bluetooth®",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "Enable"
+   ],
+   "values": [
+    "Enable"
+   ],
+   "facts": 1
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/bluetooth_code_ble",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Bluetooth® (code BLE)",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "Bluetooth® enables efficient, reliable, and safe configuration and maintenance (code BLE)."
+   ],
+   "values": [
+    "Bluetooth® enables efficient, reliable, and safe configuration and maintenance (code BLE)."
+   ],
+   "facts": 1
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/bluetooth_configuration_and_maintenance_efficient_reliable_and_safe",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Bluetooth® configuration and maintenance (efficient, reliable, and safe)",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "code BLE"
+   ],
+   "values": [
+    "code BLE"
+   ],
+   "facts": 1
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/bluetooth_connectivity",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Bluetooth® connectivity",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "enables efficient, reliable, and safe configuration and maintenance",
+    "Bluetooth® Connectivity enables efficient, reliable, and safe configuration and maintenance (code BLE)."
+   ],
+   "values": [
+    "enables efficient, reliable, and safe configuration and maintenance",
+    "Bluetooth® Connectivity enables efficient, reliable, and safe configuration and maintenance (code BLE)."
+   ],
+   "facts": 2
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/bolt_circle_diameter_g",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Bolt circle diameter G",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [
+    "in",
+    "mm"
+   ],
+   "examples": [
+    "4.75 in",
+    "121 mm",
+    "6.0 in",
+    "152 mm",
+    "7.5 in",
+    "191 mm"
+   ],
+   "values": [],
+   "facts": 12
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/bolt_hole_diameter",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Bolt hole diameter",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [
+    "in",
+    "mm"
+   ],
+   "examples": [
+    "0.75 in",
+    "19 mm",
+    "0.88 in",
+    "22 mm",
+    "0.71 in",
+    "18 mm"
+   ],
+   "values": [],
+   "facts": 12
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/bolt_material_option",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Bolt material option",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "Plated CS per ASTM A449, Type 1",
+    "Austenitic 316 SST per ASTM F593",
+    "ASTM A193, Grade B7M alloy steel",
+    "Alloy K-500"
+   ],
+   "values": [
+    "Plated CS per ASTM A449, Type 1",
+    "Austenitic 316 SST per ASTM F593",
+    "ASTM A193, Grade B7M alloy steel",
+    "Alloy K-500"
+   ],
+   "facts": 4
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/bolting_material",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Bolting material",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "Austenitic 316 SST bolts",
+    "ASTM A 193, grade B7M bolts",
+    "Alloy K-500 bolts"
+   ],
+   "values": [
+    "Austenitic 316 SST bolts",
+    "ASTM A 193, grade B7M bolts",
+    "Alloy K-500 bolts"
+   ],
+   "facts": 4
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/bore_size_option",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Bore size option",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [
+    "in",
+    "mm"
+   ],
+   "examples": [
+    "0.010 in.",
+    "0.25 mm",
+    "0.014 in.",
+    "0.36 mm",
+    "0.020 in.",
+    "0.51 mm"
+   ],
+   "values": [
+    "Special bore size (X.XXX in.)"
+   ],
+   "facts": 23
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/built_dimensions",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Built dimensions",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "Actual units are built to customer supplied pipe ID and wall dimensions."
+   ],
+   "values": [
+    "Actual units are built to customer supplied pipe ID and wall dimensions."
+   ],
+   "facts": 1
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/burst_pressure",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Burst pressure",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [
+    "bar",
+    "psi",
+    "psig"
+   ],
+   "examples": [
+    "695,06 bar",
+    "10,081 psig",
+    "759.53 bar",
+    "11,016 psi",
+    "1,793.74 bar",
+    "26,016 psig"
+   ],
+   "values": [
+    "1,793.74 bar",
+    "26,016 psig",
+    "3,177.93 bar",
+    "46,092 psi"
+   ],
+   "facts": 4
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/c",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "C",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [
+    "in",
+    "mm"
+   ],
+   "examples": [
+    "9.00 in",
+    "228.6 mm",
+    "7.75 in",
+    "197 mm",
+    "8.25 in",
+    "210 mm"
+   ],
+   "values": [],
+   "facts": 5
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/calibration_certificate",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Calibration certificate",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "Calibration certificate",
+    "Calibration certification and tamper evident seal"
+   ],
+   "values": [
+    "Calibration certificate",
+    "Calibration certification and tamper evident seal"
+   ],
+   "facts": 4
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/calibration_certification",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Calibration certification",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "Calibration certificate",
+    "Calibration certificate and tamper evident seal"
+   ],
+   "values": [
+    "Calibration certificate",
+    "Calibration certificate and tamper evident seal"
+   ],
+   "facts": 2
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/callout_1",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Callout 1",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "Required model components (choices available on most)"
+   ],
+   "values": [
+    "Required model components (choices available on most)"
+   ],
+   "facts": 1
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/callout_2",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Callout 2",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "Additional options (variety of features and functions that may be added to products)"
+   ],
+   "values": [
+    "Additional options (variety of features and functions that may be added to products)"
+   ],
+   "facts": 1
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/capabilities",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Capabilities",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "Enhanced software enables application specific configuration, expanded process alerts, and logging capabilities."
+   ],
+   "values": [
+    "Enhanced software enables application specific configuration, expanded process alerts, and logging capabilities."
+   ],
+   "facts": 2
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/channels",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Channels",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "15"
+   ],
+   "values": [],
+   "facts": 1
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/chemistry",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Chemistry",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "Intrinsically Safe Lithium-thionyl chloride",
+    "Intrinsically Safe lithium-thionyl chloride"
+   ],
+   "values": [
+    "Intrinsically Safe Lithium-thionyl chloride",
+    "Intrinsically Safe lithium-thionyl chloride"
+   ],
+   "facts": 2
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/cleaning_process_area",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Cleaning process area",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "Cleaning for special service",
+    "Cleaning for <1 ppm chlorine/fluorine",
+    "Cleaning for < 1 ppm chlorine/fluoride"
+   ],
+   "values": [
+    "Cleaning for special service",
+    "Cleaning for <1 ppm chlorine/fluorine",
+    "Cleaning for < 1 ppm chlorine/fluoride"
+   ],
+   "facts": 4
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/code_conformance",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Code conformance",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "ANSI/ASME B31.1",
+    "ANSI/ASME B31.3"
+   ],
+   "values": [
+    "ANSI/ASME B31.1",
+    "ANSI/ASME B31.3"
+   ],
+   "facts": 6
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/code_portion",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Code portion",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "3051L3AA01D11AA",
+    "WR5M6BLEDA1RK"
+   ],
+   "values": [
+    "3051L3AA01D11AA",
+    "WR5M6BLEDA1RK"
+   ],
+   "facts": 2
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/cold_temperature",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Cold temperature",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "-58 ºF (-50 ℃) cold temperature operation",
+    "-76 °F (-60 ℃) cold temperature operation",
+    "-58 °F (-50 ℃) cold temperature operation"
+   ],
+   "values": [
+    "-58 ºF (-50 ℃) cold temperature operation",
+    "-76 °F (-60 ℃) cold temperature operation",
+    "-58 °F (-50 ℃) cold temperature operation"
+   ],
+   "facts": 4
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/cold_temperature_operation",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Cold temperature operation",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [
+    "°C",
+    "°F"
+   ],
+   "examples": [
+    "-50 ℃",
+    "-58 ºF",
+    "-60 ℃",
+    "-76 °F",
+    "-58 °F"
+   ],
+   "values": [],
+   "facts": 4
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/commissioning",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Commissioning",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "Straightforward menus and built-in configuration buttons allow you to quickly commission the device."
+   ],
+   "values": [
+    "Straightforward menus and built-in configuration buttons allow you to quickly commission the device."
+   ],
+   "facts": 1
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/commissioning_tag",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Commissioning tag",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "A temporary commissioning tag is attached to all transmitters."
+   ],
+   "values": [
+    "A temporary commissioning tag is attached to all transmitters."
+   ],
+   "facts": 1
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/compliance",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Compliance",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "Meets all industrial environment requirements of EN61326 and NAMUR NE-21"
+   ],
+   "values": [
+    "Meets all industrial environment requirements of EN61326 and NAMUR NE-21"
+   ],
+   "facts": 1
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/composition",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Composition",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "Rosemount 3051CF Flow Meters combine the proven Rosemount 3051 Pressure Transmitter and the latest primary element technologies."
+   ],
+   "values": [
+    "Rosemount 3051CF Flow Meters combine the proven Rosemount 3051 Pressure Transmitter and the latest primary element technologies."
+   ],
+   "facts": 1
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/conduit_electrical_connector",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Conduit electrical connector",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "ATEX Cable gland and plug, M20 x 1.5, polyamide, black",
+    "M12, 4-pin, male connector (eurofast®)",
+    "A size mini, 4-pin, male connector (minifast®)"
+   ],
+   "values": [
+    "ATEX Cable gland and plug, M20 x 1.5, polyamide, black",
+    "M12, 4-pin, male connector (eurofast®)",
+    "A size mini, 4-pin, male connector (minifast®)"
+   ],
+   "facts": 9
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/conduit_entries",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Conduit entries",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "1/2-14 NPT, G1/2, and M20 x 1.5 conduit",
+    "The polymer housing (code P) has no conduit entries."
+   ],
+   "values": [
+    "1/2-14 NPT, G1/2, and M20 x 1.5 conduit",
+    "The polymer housing (code P) has no conduit entries."
+   ],
+   "facts": 2
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/conduit_entry_size",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Conduit entry size",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "1/2-14 NPT",
+    "M20 x 1.5",
+    "No conduit entries",
+    "G1/2"
+   ],
+   "values": [
+    "1/2-14 NPT",
+    "M20 x 1.5",
+    "No conduit entries",
+    "G1/2"
+   ],
+   "facts": 46
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/conduit_plug",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Conduit plug",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "316 SST conduit plug"
+   ],
+   "values": [
+    "316 SST conduit plug"
+   ],
+   "facts": 3
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/configuration",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Configuration",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "Configured for any dynamic variable",
+    "Given a custom name",
+    "Assigned target thresholds",
+    "Gauge",
+    "Differential",
+    "Tuned-system assembly with remote seal"
+   ],
+   "values": [
+    "Configured for any dynamic variable",
+    "Given a custom name",
+    "Assigned target thresholds",
+    "Gauge",
+    "Differential",
+    "Tuned-system assembly with remote seal"
+   ],
+   "facts": 9
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/configuration_buttons",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Configuration buttons",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "Quick service buttons",
+    "Analog zero and span",
+    "Digital zero trim"
+   ],
+   "values": [
+    "Quick service buttons",
+    "Analog zero and span",
+    "Digital zero trim"
+   ],
+   "facts": 18
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/configuration_reference",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Configuration reference",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "Refer to the Rosemount 3051 Configuration Data Sheet for Rosemount 3051 HART® Protocol.",
+    "For Wireless, refer to the Rosemount 3051 Wireless Configuration Data Sheet."
+   ],
+   "values": [
+    "Refer to the Rosemount 3051 Configuration Data Sheet for Rosemount 3051 HART® Protocol.",
+    "For Wireless, refer to the Rosemount 3051 Wireless Configuration Data Sheet."
+   ],
+   "facts": 2
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/configuration_service_and_troubleshooting_speed",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Configuration, service and troubleshooting speed",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "up to 10 times faster than traditional HART® connections"
+   ],
+   "values": [
+    "up to 10 times faster than traditional HART® connections"
+   ],
+   "facts": 1
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/configuration_tool",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Configuration tool",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "Once a sizing is completed, the configuration tool will help create a complete and valid model code to match your requirements and include any additional options or approvals",
+    "Once a sizing is completed, the configuration tool will help create a complete and valid model code to match your requirements and include any additional options or approvals."
+   ],
+   "values": [
+    "Once a sizing is completed, the configuration tool will help create a complete and valid model code to match your requirements and include any additional options or approvals",
+    "Once a sizing is completed, the configuration tool will help create a complete and valid model code to match your requirements and include any additional options or approvals."
+   ],
+   "facts": 3
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/configuration_wizard",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Configuration wizard",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "guides you through complex level applications and enables volume measurement"
+   ],
+   "values": [
+    "guides you through complex level applications and enables volume measurement"
+   ],
+   "facts": 1
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/configurator_function",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Configurator function",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "With this tool's built-in logic and continuous validation, you can configure your products more quickly and accurately",
+    "With this tool's built-in logic and continuous validation, you can configure your products more quickly and accurately."
+   ],
+   "values": [
+    "With this tool's built-in logic and continuous validation, you can configure your products more quickly and accurately",
+    "With this tool's built-in logic and continuous validation, you can configure your products more quickly and accurately."
+   ],
+   "facts": 2
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/connectivity",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Connectivity",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "available with wired or wireless capabilities to meet all of your application needs"
+   ],
+   "values": [
+    "available with wired or wireless capabilities to meet all of your application needs"
+   ],
+   "facts": 1
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/construction",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Construction",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "pressure relieved 9/16-18 gland thread; 1/4 OD high pressure tube 60° cone"
+   ],
+   "values": [
+    "pressure relieved 9/16-18 gland thread; 1/4 OD high pressure tube 60° cone"
+   ],
+   "facts": 1
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/content",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Content",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "Model codes contain the details related to each product."
+   ],
+   "values": [
+    "Model codes contain the details related to each product."
+   ],
+   "facts": 3
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/coplanar_platform",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Coplanar platform",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "enables seamless integration with manifolds, flow, and level solutions"
+   ],
+   "values": [
+    "enables seamless integration with manifolds, flow, and level solutions"
+   ],
+   "facts": 1
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/cost_reduction_by_eliminating_wiring",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Cost reduction by eliminating wiring",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [
+    "percent"
+   ],
+   "examples": [
+    "40 to 60 percent"
+   ],
+   "values": [],
+   "facts": 1
+  },
+  {
+   "id": "rosemount-3051-00813-0100-4001/property/country_certification",
+   "document": "rosemount-3051-00813-0100-4001",
+   "kind": "property",
+   "label": "Country certification",
+   "subjects": [
+    "Rosemount 3051 Pressure Transmitter"
+   ],
+   "units": [],
+   "examples": [
+    "European Pressure Directive (PED)",
+    "Canadian Registration",
+    "Chinese Certificate of Special Equipment Type Test"
+   ],
+   "values": [
+    "European Pressure Directive (PED)",
+    "Canadian Registration",
+    "Chinese Certificate of Special Equipment Type Test"
+   ],
+   "facts": 7
+  }
+ ]
+}

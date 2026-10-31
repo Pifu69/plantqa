@@ -11,3 +11,13 @@
 - **Következő:** kérdéssor (3. fázis), M1/M2/M3 (4. fázis); a betöltés újrafuttatása, amint az
   Opus-gráfok elkészülnek.
 - **Költés eddig:** 0,30 USD (Azure, listaár) / 20 USD.
+
+## 2026-10-31 10:05 — 2. és 3. fázis kész, 4. fázis: módszerek kész, első dev-mérés fut
+
+- **Kész:** összevont gráf 6 eszközgráffal (a Rosemount Opus-feldolgozása még fut) + vektorok;
+  kérdéssor (60 kérdés, teszt befagyasztva, hash az `eredmenyek.md`-ben); közös LLM-réteg
+  (pinek, mérő, cache, költségnapló); M1 (kiegészített cascade), M2 (router), M3 (baseline);
+  futtató, pontozó, összesítő, ábramodul; demó-váz (`python -m plantqa.app`).
+- **Fut:** EXP-010 (dev, GLM, mindhárom módszer); minta-elemzés (subagent).
+- **Következő:** bírálat → EXP-010 sor; Rosemount-gráf betöltése; további dev iterációk.
+- **Költés eddig:** ~0,33 USD / 20 USD.

@@ -1,0 +1,2025 @@
+{
+ "summary": {
+  "items": 99,
+  "not_device_property": 13,
+  "rdl": {
+   "related/ok": 15,
+   "none/no_match": 42,
+   "broad/ok": 29
+  },
+  "cfihos": {
+   "none/no_match": 20,
+   "related/ok": 18,
+   "broad/ok": 43,
+   "exact/ok": 5
+  },
+  "values": 4,
+  "values_checked_ok": 4
+ },
+ "rows": [
+  {
+   "id": "flowserve-worcester-f51-f52/property/actuator_mounting_standard",
+   "label": "Actuator mounting standard",
+   "not_device_property": false,
+   "rdl": {
+    "match": "related",
+    "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003538",
+    "label": "Standard",
+    "endpoint": "rds",
+    "note": "value: ISO 5211 and Shell MESC SPE 77/300"
+   },
+   "cfihos": {
+    "match": "none"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "ok",
+   "cfihos_check": "no_match"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/anti_static_design",
+   "label": "Anti-static design",
+   "not_device_property": false,
+   "rdl": {
+    "match": "none"
+   },
+   "cfihos": {
+    "match": "none"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "no_match",
+   "cfihos_check": "no_match"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/application",
+   "label": "Application",
+   "not_device_property": false,
+   "rdl": {
+    "match": "none"
+   },
+   "cfihos": {
+    "match": "related",
+    "code": "CFIHOS-40000372",
+    "name": "special service",
+    "note": "definition lists media such as steam, hydrogen, chlorine, oxygen; the item lists industries' applications"
+   },
+   "values": [
+    {
+     "printed": "Steam",
+     "rdl": {
+      "match": "exact",
+      "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100006615",
+      "label": "Steam",
+      "endpoint": "rds"
+     },
+     "cfihos": {
+      "match": "none"
+     },
+     "rdl_check": "ok",
+     "cfihos_check": "no_match"
+    },
+    {
+     "printed": "Water",
+     "rdl": {
+      "match": "exact",
+      "iri": "http://purl.obolibrary.org/obo/CHEBI_15377",
+      "label": "water (ChEBI concept)",
+      "endpoint": "rds"
+     },
+     "cfihos": {
+      "match": "none"
+     },
+     "rdl_check": "ok",
+     "cfihos_check": "no_match"
+    },
+    {
+     "printed": "Hydrogen",
+     "rdl": {
+      "match": "exact",
+      "iri": "http://purl.obolibrary.org/obo/CHEBI_18276",
+      "label": "dihydrogen (ChEBI concept)",
+      "endpoint": "rds"
+     },
+     "cfihos": {
+      "match": "none"
+     },
+     "rdl_check": "ok",
+     "cfihos_check": "no_match"
+    },
+    {
+     "printed": "Chlorine",
+     "rdl": {
+      "match": "exact",
+      "iri": "http://purl.obolibrary.org/obo/CHEBI_23116",
+      "label": "chlorine (ChEBI concept)",
+      "endpoint": "rds"
+     },
+     "cfihos": {
+      "match": "none"
+     },
+     "rdl_check": "ok",
+     "cfihos_check": "no_match"
+    }
+   ],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "no_match",
+   "cfihos_check": "ok"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/approximate_weight",
+   "label": "Approximate weight",
+   "not_device_property": false,
+   "rdl": {
+    "match": "broad",
+    "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003589",
+    "label": "mass",
+    "endpoint": "rds"
+   },
+   "cfihos": {
+    "match": "related",
+    "code": "CFIHOS-40000494",
+    "name": "dry weight",
+    "note": "the datasheet does not state whether the approximate weight is dry; weaker category chosen"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "ok",
+   "cfihos_check": "ok"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/body_seal_compliance",
+   "label": "Body seal compliance",
+   "not_device_property": false,
+   "rdl": {
+    "match": "related",
+    "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003538",
+    "label": "Standard",
+    "endpoint": "rds",
+    "note": "value: list of API/ISO standards"
+   },
+   "cfihos": {
+    "match": "none"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "ok",
+   "cfihos_check": "no_match"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/body_seal_fire_safe_integrity",
+   "label": "Body seal fire-safe integrity",
+   "not_device_property": false,
+   "rdl": {
+    "match": "none"
+   },
+   "cfihos": {
+    "match": "related",
+    "code": "CFIHOS-40000585",
+    "name": "fire safe"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "no_match",
+   "cfihos_check": "ok"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/body_seal_material_standard",
+   "label": "Body seal material (standard)",
+   "not_device_property": false,
+   "rdl": {
+    "match": "none"
+   },
+   "cfihos": {
+    "match": "broad",
+    "code": "CFIHOS-40000223",
+    "name": "material",
+    "note": "material of the body seals (PTFE)"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "no_match",
+   "cfihos_check": "ok"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/break_to_open_torque_ptfe_seat",
+   "label": "Break-to-open torque with PTFE seat",
+   "not_device_property": false,
+   "rdl": {
+    "match": "broad",
+    "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100005198",
+    "label": "torque",
+    "endpoint": "rds"
+   },
+   "cfihos": {
+    "match": "none"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "ok",
+   "cfihos_check": "no_match"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/description",
+   "label": "Description",
+   "not_device_property": true,
+   "reason": "free-text description of a seat material",
+   "rdl": {
+    "match": "none"
+   },
+   "cfihos": {
+    "match": "none"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "no_match",
+   "cfihos_check": "no_match"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/design",
+   "label": "Design",
+   "not_device_property": true,
+   "reason": "general/marketing statement",
+   "rdl": {
+    "match": "none"
+   },
+   "cfihos": {
+    "match": "none"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "no_match",
+   "cfihos_check": "no_match"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/digital_positioner_pairing",
+   "label": "Digital positioner pairing",
+   "not_device_property": true,
+   "reason": "compatible product statement",
+   "rdl": {
+    "match": "none"
+   },
+   "cfihos": {
+    "match": "none"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "no_match",
+   "cfihos_check": "no_match"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/dimension_a",
+   "label": "Dimension A",
+   "not_device_property": false,
+   "rdl": {
+    "match": "broad",
+    "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003585",
+    "label": "length",
+    "endpoint": "rds",
+    "note": "drawing dimension letter whose values are lengths in mm/in"
+   },
+   "cfihos": {
+    "match": "broad",
+    "code": "CFIHOS-40000201",
+    "name": "length"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "ok",
+   "cfihos_check": "ok"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/dimension_b",
+   "label": "Dimension B",
+   "not_device_property": false,
+   "rdl": {
+    "match": "broad",
+    "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003585",
+    "label": "length",
+    "endpoint": "rds",
+    "note": "drawing dimension letter whose values are lengths in mm/in"
+   },
+   "cfihos": {
+    "match": "broad",
+    "code": "CFIHOS-40000201",
+    "name": "length"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "ok",
+   "cfihos_check": "ok"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/dimension_c_max",
+   "label": "Dimension C, maximum",
+   "not_device_property": false,
+   "rdl": {
+    "match": "broad",
+    "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003585",
+    "label": "length",
+    "endpoint": "rds",
+    "note": "drawing dimension letter whose values are lengths in mm/in"
+   },
+   "cfihos": {
+    "match": "broad",
+    "code": "CFIHOS-40000201",
+    "name": "length"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "ok",
+   "cfihos_check": "ok"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/dimension_c_min",
+   "label": "Dimension C, minimum",
+   "not_device_property": false,
+   "rdl": {
+    "match": "broad",
+    "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003585",
+    "label": "length",
+    "endpoint": "rds",
+    "note": "drawing dimension letter whose values are lengths in mm/in"
+   },
+   "cfihos": {
+    "match": "broad",
+    "code": "CFIHOS-40000201",
+    "name": "length"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "ok",
+   "cfihos_check": "ok"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/dimension_d_max",
+   "label": "Dimension D, maximum",
+   "not_device_property": false,
+   "rdl": {
+    "match": "broad",
+    "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003585",
+    "label": "length",
+    "endpoint": "rds",
+    "note": "drawing dimension letter whose values are lengths in mm/in"
+   },
+   "cfihos": {
+    "match": "broad",
+    "code": "CFIHOS-40000201",
+    "name": "length"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "ok",
+   "cfihos_check": "ok"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/dimension_d_min",
+   "label": "Dimension D, minimum",
+   "not_device_property": false,
+   "rdl": {
+    "match": "broad",
+    "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003585",
+    "label": "length",
+    "endpoint": "rds",
+    "note": "drawing dimension letter whose values are lengths in mm/in"
+   },
+   "cfihos": {
+    "match": "broad",
+    "code": "CFIHOS-40000201",
+    "name": "length"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "ok",
+   "cfihos_check": "ok"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/dimension_e1_min",
+   "label": "Dimension E1, minimum",
+   "not_device_property": false,
+   "rdl": {
+    "match": "broad",
+    "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003585",
+    "label": "length",
+    "endpoint": "rds",
+    "note": "drawing dimension letter whose values are lengths in mm/in"
+   },
+   "cfihos": {
+    "match": "broad",
+    "code": "CFIHOS-40000201",
+    "name": "length"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "ok",
+   "cfihos_check": "ok"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/dimension_e2_min",
+   "label": "Dimension E2, minimum",
+   "not_device_property": false,
+   "rdl": {
+    "match": "broad",
+    "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003585",
+    "label": "length",
+    "endpoint": "rds",
+    "note": "drawing dimension letter whose values are lengths in mm/in"
+   },
+   "cfihos": {
+    "match": "broad",
+    "code": "CFIHOS-40000201",
+    "name": "length"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "ok",
+   "cfihos_check": "ok"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/dimension_e_min",
+   "label": "Dimension E, minimum",
+   "not_device_property": false,
+   "rdl": {
+    "match": "broad",
+    "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003585",
+    "label": "length",
+    "endpoint": "rds",
+    "note": "drawing dimension letter whose values are lengths in mm/in"
+   },
+   "cfihos": {
+    "match": "broad",
+    "code": "CFIHOS-40000201",
+    "name": "length"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "ok",
+   "cfihos_check": "ok"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/dimension_j",
+   "label": "Dimension J",
+   "not_device_property": false,
+   "rdl": {
+    "match": "broad",
+    "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003585",
+    "label": "length",
+    "endpoint": "rds",
+    "note": "drawing dimension letter whose values are lengths in mm/in"
+   },
+   "cfihos": {
+    "match": "broad",
+    "code": "CFIHOS-40000201",
+    "name": "length"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "ok",
+   "cfihos_check": "ok"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/dimension_k",
+   "label": "Dimension K",
+   "not_device_property": false,
+   "rdl": {
+    "match": "broad",
+    "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003585",
+    "label": "length",
+    "endpoint": "rds",
+    "note": "drawing dimension letter whose values are lengths in mm/in"
+   },
+   "cfihos": {
+    "match": "broad",
+    "code": "CFIHOS-40000201",
+    "name": "length"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "ok",
+   "cfihos_check": "ok"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/dimension_m",
+   "label": "Dimension M",
+   "not_device_property": false,
+   "rdl": {
+    "match": "broad",
+    "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003585",
+    "label": "length",
+    "endpoint": "rds",
+    "note": "drawing dimension letter whose values are lengths in mm/in"
+   },
+   "cfihos": {
+    "match": "broad",
+    "code": "CFIHOS-40000201",
+    "name": "length"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "ok",
+   "cfihos_check": "ok"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/dimension_s",
+   "label": "Dimension S Ø",
+   "not_device_property": false,
+   "rdl": {
+    "match": "broad",
+    "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003585",
+    "label": "length",
+    "endpoint": "rds",
+    "note": "a diameter is a length; no diameter concept found on the rds endpoint (only 'diameter (angle)')"
+   },
+   "cfihos": {
+    "match": "broad",
+    "code": "CFIHOS-40000493",
+    "name": "diameter"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "ok",
+   "cfihos_check": "ok"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/dimension_t1",
+   "label": "Dimension T1",
+   "not_device_property": false,
+   "rdl": {
+    "match": "broad",
+    "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003585",
+    "label": "length",
+    "endpoint": "rds",
+    "note": "drawing dimension letter whose values are lengths in mm/in"
+   },
+   "cfihos": {
+    "match": "broad",
+    "code": "CFIHOS-40000201",
+    "name": "length"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "ok",
+   "cfihos_check": "ok"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/dimension_t2",
+   "label": "Dimension T2",
+   "not_device_property": false,
+   "rdl": {
+    "match": "broad",
+    "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003585",
+    "label": "length",
+    "endpoint": "rds",
+    "note": "drawing dimension letter whose values are lengths in mm/in"
+   },
+   "cfihos": {
+    "match": "broad",
+    "code": "CFIHOS-40000201",
+    "name": "length"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "ok",
+   "cfihos_check": "ok"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/dimension_unit_note",
+   "label": "Dimension unit note",
+   "not_device_property": true,
+   "reason": "note on units of a table",
+   "rdl": {
+    "match": "none"
+   },
+   "cfihos": {
+    "match": "none"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "no_match",
+   "cfihos_check": "no_match"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/end_plug_design",
+   "label": "End plug design",
+   "not_device_property": false,
+   "rdl": {
+    "match": "none"
+   },
+   "cfihos": {
+    "match": "none"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "no_match",
+   "cfihos_check": "no_match"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/equivalent_pipe_length",
+   "label": "Equivalent length of pipe",
+   "not_device_property": false,
+   "rdl": {
+    "match": "broad",
+    "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003585",
+    "label": "length",
+    "endpoint": "rds",
+    "note": "hydraulic equivalent length of straight pipe, values in m/ft"
+   },
+   "cfihos": {
+    "match": "related",
+    "code": "CFIHOS-40000201",
+    "name": "length"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "ok",
+   "cfihos_check": "ok"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/face_to_face",
+   "label": "Face-to-face",
+   "not_device_property": false,
+   "rdl": {
+    "match": "related",
+    "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003538",
+    "label": "Standard",
+    "endpoint": "rds",
+    "note": "value: face-to-face dimension standards BS EN 558-2 and ASME B16.10"
+   },
+   "cfihos": {
+    "match": "none"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "ok",
+   "cfihos_check": "no_match"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/fire_test",
+   "label": "Fire Test",
+   "not_device_property": false,
+   "rdl": {
+    "match": "related",
+    "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100006212",
+    "label": "Fire test certificate",
+    "endpoint": "rds"
+   },
+   "cfihos": {
+    "match": "related",
+    "code": "CFIHOS-40000585",
+    "name": "fire safe",
+    "note": "definition: standard and classification of fire rated equipment; Boolean data type"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "ok",
+   "cfihos_check": "ok"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/flanged_connections",
+   "label": "Flanged Connections",
+   "not_device_property": false,
+   "rdl": {
+    "match": "related",
+    "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100004099",
+    "label": "Pipe Flange",
+    "endpoint": "rds",
+    "note": "values: flange standards BS EN 1759-1 / ASME B16.5 CL150/CL300"
+   },
+   "cfihos": {
+    "match": "related",
+    "code": "CFIHOS-40000586",
+    "name": "inlet connection type",
+    "note": "definition: type of inlet connection (flanged ...); the item gives the flange standard"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "ok",
+   "cfihos_check": "ok"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/flow_coefficient_cv",
+   "label": "Flow coefficient Cv",
+   "not_device_property": false,
+   "rdl": {
+    "match": "related",
+    "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003606",
+    "label": "volumetric flow rate",
+    "endpoint": "rds",
+    "note": "Cv: flow in US gpm at 1 psi pressure drop; a flow coefficient is a flow rate at a reference pressure drop, not a general flow rate. The legacy RDL (VALVE FLOW COEFFICIENT) could not be queried: data endpoint HTTP 404"
+   },
+   "cfihos": {
+    "match": "related",
+    "code": "CFIHOS-40001088",
+    "name": "production (injection) choke valve flow coefficient of velocity",
+    "note": "definition is for tree-mounted choke valves"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "ok",
+   "cfihos_check": "ok"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/flow_coefficient_kv",
+   "label": "Flow coefficient Kv",
+   "not_device_property": false,
+   "rdl": {
+    "match": "related",
+    "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003606",
+    "label": "volumetric flow rate",
+    "endpoint": "rds",
+    "note": "Kv: flow in m3/h at 1 bar pressure drop; a flow coefficient is a flow rate at a reference pressure drop, not a general flow rate. The legacy RDL (VALVE FLOW COEFFICIENT) could not be queried: data endpoint HTTP 404"
+   },
+   "cfihos": {
+    "match": "related",
+    "code": "CFIHOS-40001088",
+    "name": "production (injection) choke valve flow coefficient of velocity",
+    "note": "definition is for tree-mounted choke valves"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "ok",
+   "cfihos_check": "ok"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/fugitive_emissions",
+   "label": "Fugitive Emissions",
+   "not_device_property": false,
+   "rdl": {
+    "match": "related",
+    "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003538",
+    "label": "Standard",
+    "endpoint": "rds",
+    "note": "value: ISO 15848 Class BH and API 641"
+   },
+   "cfihos": {
+    "match": "none"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "ok",
+   "cfihos_check": "no_match"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/gearbox",
+   "label": "Gearbox",
+   "not_device_property": false,
+   "rdl": {
+    "match": "related",
+    "iri": "http://data.posccaesar.org/rdl/RDS889514",
+    "label": "GEARBOX (PCA RDL concept)",
+    "endpoint": "rds",
+    "note": "gearbox as a component class, the item states when it is standard"
+   },
+   "cfihos": {
+    "match": "related",
+    "code": "CFIHOS-40000590",
+    "name": "valve operator type",
+    "note": "gear operation"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "ok",
+   "cfihos_check": "ok"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/gland_nut_locking_clip",
+   "label": "Gland nut locking clip",
+   "not_device_property": false,
+   "rdl": {
+    "match": "none"
+   },
+   "cfihos": {
+    "match": "none"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "no_match",
+   "cfihos_check": "no_match"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/gland_nut_tightening_torque",
+   "label": "Gland nut tightening torque",
+   "not_device_property": false,
+   "rdl": {
+    "match": "broad",
+    "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100005198",
+    "label": "torque",
+    "endpoint": "rds"
+   },
+   "cfihos": {
+    "match": "none"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "ok",
+   "cfihos_check": "no_match"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/iso_5211_mounting_size",
+   "label": "ISO 5211 mounting platform size",
+   "not_device_property": false,
+   "rdl": {
+    "match": "none"
+   },
+   "cfihos": {
+    "match": "none"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "no_match",
+   "cfihos_check": "no_match"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/item_number",
+   "label": "Item number",
+   "not_device_property": true,
+   "reason": "position number of the part in the parts list / exploded view, not a property",
+   "rdl": {
+    "match": "none"
+   },
+   "cfihos": {
+    "match": "none"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "no_match",
+   "cfihos_check": "no_match"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/locking_wrench",
+   "label": "Locking wrench",
+   "not_device_property": false,
+   "rdl": {
+    "match": "none"
+   },
+   "cfihos": {
+    "match": "related",
+    "code": "CFIHOS-40000590",
+    "name": "valve operator type",
+    "note": "a lever/wrench is a valve operator; the item states where it is standard"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "no_match",
+   "cfihos_check": "ok"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/material",
+   "label": "Material",
+   "not_device_property": false,
+   "rdl": {
+    "match": "none"
+   },
+   "cfihos": {
+    "match": "exact",
+    "code": "CFIHOS-40000223",
+    "name": "material",
+    "note": "definition: the substance of an artefact used to construct it; subject is the part"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "no_match",
+   "cfihos_check": "ok"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/materials",
+   "label": "Materials",
+   "not_device_property": false,
+   "rdl": {
+    "match": "none"
+   },
+   "cfihos": {
+    "match": "broad",
+    "code": "CFIHOS-40000223",
+    "name": "material",
+    "note": "materials represented by ASME material groups 1.2 / 2.2 (body materials)"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "no_match",
+   "cfihos_check": "ok"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/max_temperature_rating",
+   "label": "Maximum temperature rating",
+   "not_device_property": false,
+   "rdl": {
+    "match": "broad",
+    "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003601",
+    "label": "thermodynamic temperature",
+    "endpoint": "rds"
+   },
+   "cfihos": {
+    "match": "exact",
+    "code": "CFIHOS-40000571",
+    "name": "upper limit allowable temperature",
+    "note": "definition: the temperature which is the highest allowed; here per seat material (condition)"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "ok",
+   "cfihos_check": "ok"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/maximum_allowable_stem_torque",
+   "label": "Maximum allowable stem torque (MAST)",
+   "not_device_property": false,
+   "rdl": {
+    "match": "broad",
+    "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100005198",
+    "label": "torque",
+    "endpoint": "rds"
+   },
+   "cfihos": {
+    "match": "none"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "ok",
+   "cfihos_check": "no_match"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/maximum_seat_temperature_limits",
+   "label": "Maximum seat temperature limits",
+   "not_device_property": true,
+   "reason": "cross-reference to another page",
+   "rdl": {
+    "match": "none"
+   },
+   "cfihos": {
+    "match": "none"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "no_match",
+   "cfihos_check": "no_match"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/min_port_diameter",
+   "label": "Minimum port diameter",
+   "not_device_property": false,
+   "rdl": {
+    "match": "broad",
+    "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003585",
+    "label": "length",
+    "endpoint": "rds",
+    "note": "a diameter is a length; no diameter concept found on the rds endpoint (only 'diameter (angle)')"
+   },
+   "cfihos": {
+    "match": "broad",
+    "code": "CFIHOS-40000493",
+    "name": "diameter"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "ok",
+   "cfihos_check": "ok"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/mounting_hole_depth_l_min",
+   "label": "Mounting hole depth L, minimum",
+   "not_device_property": false,
+   "rdl": {
+    "match": "broad",
+    "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003585",
+    "label": "length",
+    "endpoint": "rds",
+    "note": "drawing dimension letter whose values are lengths in mm/in"
+   },
+   "cfihos": {
+    "match": "broad",
+    "code": "CFIHOS-40000201",
+    "name": "length"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "ok",
+   "cfihos_check": "ok"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/mounting_hole_thread_l",
+   "label": "Mounting hole thread L",
+   "not_device_property": false,
+   "rdl": {
+    "match": "none"
+   },
+   "cfihos": {
+    "match": "broad",
+    "code": "CFIHOS-40001155",
+    "name": "thread specification",
+    "note": "definition: a specification which describes the threads; the value is a metric thread designation"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "no_match",
+   "cfihos_check": "ok"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/o_ring_stem_seal",
+   "label": "O-ring stem seal",
+   "not_device_property": false,
+   "rdl": {
+    "match": "none"
+   },
+   "cfihos": {
+    "match": "related",
+    "code": "CFIHOS-40000589",
+    "name": "stem sealing type",
+    "note": "optional O-ring stem seal; the item is its availability, not the type"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "no_match",
+   "cfihos_check": "ok"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/packing",
+   "label": "Packing",
+   "not_device_property": false,
+   "rdl": {
+    "match": "none"
+   },
+   "cfihos": {
+    "match": "broad",
+    "code": "CFIHOS-40000589",
+    "name": "stem sealing type",
+    "note": "definition: shaft seal between valve stem and body; value: live-loaded packing"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "no_match",
+   "cfihos_check": "ok"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/packing_design",
+   "label": "Packing design",
+   "not_device_property": false,
+   "rdl": {
+    "match": "none"
+   },
+   "cfihos": {
+    "match": "broad",
+    "code": "CFIHOS-40000589",
+    "name": "stem sealing type",
+    "note": "value: live-loaded"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "no_match",
+   "cfihos_check": "ok"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/packing_fugitive_emissions_certification_standards",
+   "label": "Packing fugitive emissions certification standards",
+   "not_device_property": false,
+   "rdl": {
+    "match": "related",
+    "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003538",
+    "label": "Standard",
+    "endpoint": "rds",
+    "note": "value: API 641 and ISO 15848"
+   },
+   "cfihos": {
+    "match": "none"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "ok",
+   "cfihos_check": "no_match"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/parts",
+   "label": "Parts",
+   "not_device_property": true,
+   "reason": "general/marketing statement",
+   "rdl": {
+    "match": "none"
+   },
+   "cfihos": {
+    "match": "none"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "no_match",
+   "cfihos_check": "no_match"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/predictive_maintenance_solution",
+   "label": "Predictive maintenance solution",
+   "not_device_property": true,
+   "reason": "vendor software/service statement",
+   "rdl": {
+    "match": "none"
+   },
+   "cfihos": {
+    "match": "none"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "no_match",
+   "cfihos_check": "no_match"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/pressure_test",
+   "label": "Pressure Test",
+   "not_device_property": false,
+   "rdl": {
+    "match": "related",
+    "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100006390",
+    "label": "Pressure test certificate",
+    "endpoint": "rds"
+   },
+   "cfihos": {
+    "match": "none"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "ok",
+   "cfihos_check": "no_match"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/product_code_ball",
+   "label": "Product code position 6 (ball material)",
+   "not_device_property": false,
+   "rdl": {
+    "match": "none"
+   },
+   "cfihos": {
+    "match": "broad",
+    "code": "CFIHOS-40000223",
+    "name": "material",
+    "note": "product code position; with the code letter as condition the value is the ball material"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "no_match",
+   "cfihos_check": "ok"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/product_code_body",
+   "label": "Product code position 4 (body material)",
+   "not_device_property": false,
+   "rdl": {
+    "match": "none"
+   },
+   "cfihos": {
+    "match": "broad",
+    "code": "CFIHOS-40000017",
+    "name": "body material",
+    "note": "product code position; with the code letter as condition the value is the body material; label carries the code position, so broad"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "no_match",
+   "cfihos_check": "ok"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/product_code_body_seal",
+   "label": "Product code position 9 (body seal)",
+   "not_device_property": false,
+   "rdl": {
+    "match": "none"
+   },
+   "cfihos": {
+    "match": "broad",
+    "code": "CFIHOS-40000223",
+    "name": "material",
+    "note": "product code position; with the code letter as condition the value is the body seal material"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "no_match",
+   "cfihos_check": "ok"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/product_code_end_connection",
+   "label": "Product code position 13 (end connection/pressure class)",
+   "not_device_property": false,
+   "rdl": {
+    "match": "none"
+   },
+   "cfihos": {
+    "match": "broad",
+    "code": "CFIHOS-40000591",
+    "name": "pressure rating",
+    "note": "values ANSI B16.5 Class 150 / Class 300"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "no_match",
+   "cfihos_check": "ok"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/product_code_end_insert",
+   "label": "Product code position 5 (end/insert material)",
+   "not_device_property": false,
+   "rdl": {
+    "match": "none"
+   },
+   "cfihos": {
+    "match": "broad",
+    "code": "CFIHOS-40000223",
+    "name": "material",
+    "note": "product code position; with the code letter as condition the value is the end/insert material"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "no_match",
+   "cfihos_check": "ok"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/product_code_example",
+   "label": "Product code example",
+   "not_device_property": true,
+   "reason": "order code example",
+   "rdl": {
+    "match": "none"
+   },
+   "cfihos": {
+    "match": "none"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "no_match",
+   "cfihos_check": "no_match"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/product_code_gland_packing",
+   "label": "Product code position 12 (gland/stem packing)",
+   "not_device_property": false,
+   "rdl": {
+    "match": "none"
+   },
+   "cfihos": {
+    "match": "broad",
+    "code": "CFIHOS-40000223",
+    "name": "material",
+    "note": "product code position; with the code letter as condition the value is the gland/stem packing material"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "no_match",
+   "cfihos_check": "ok"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/product_code_positions",
+   "label": "Product code positions",
+   "not_device_property": true,
+   "reason": "order code structure",
+   "rdl": {
+    "match": "none"
+   },
+   "cfihos": {
+    "match": "none"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "no_match",
+   "cfihos_check": "no_match"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/product_code_seat",
+   "label": "Product code position 8 (seat material)",
+   "not_device_property": false,
+   "rdl": {
+    "match": "none"
+   },
+   "cfihos": {
+    "match": "broad",
+    "code": "CFIHOS-40000595",
+    "name": "seat material",
+    "note": "product code position; with the code letter as condition the value is the seat material"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "no_match",
+   "cfihos_check": "ok"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/product_code_secondary_stem_seal",
+   "label": "Product code position 11 (secondary stem seal/O-ring, optional)",
+   "not_device_property": false,
+   "rdl": {
+    "match": "none"
+   },
+   "cfihos": {
+    "match": "broad",
+    "code": "CFIHOS-40000223",
+    "name": "material",
+    "note": "product code position; with the code letter as condition the value is the secondary stem seal material"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "no_match",
+   "cfihos_check": "ok"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/product_code_series",
+   "label": "Product code position 3 (series)",
+   "not_device_property": false,
+   "rdl": {
+    "match": "none"
+   },
+   "cfihos": {
+    "match": "related",
+    "code": "CFIHOS-40000591",
+    "name": "pressure rating",
+    "note": "values name the class (150/300) and the construction of each series"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "no_match",
+   "cfihos_check": "ok"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/product_code_size_dn",
+   "label": "Product code position 1 (size): DN",
+   "not_device_property": false,
+   "rdl": {
+    "match": "none"
+   },
+   "cfihos": {
+    "match": "broad",
+    "code": "CFIHOS-40000247",
+    "name": "nominal size",
+    "note": "product code position; with the code letter as condition the value is the nominal size DN"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "no_match",
+   "cfihos_check": "ok"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/product_code_size_nps",
+   "label": "Product code position 1 (size): NPS",
+   "not_device_property": false,
+   "rdl": {
+    "match": "none"
+   },
+   "cfihos": {
+    "match": "broad",
+    "code": "CFIHOS-40000247",
+    "name": "nominal size",
+    "note": "product code position; with the code letter as condition the value is the nominal pipe size NPS"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "no_match",
+   "cfihos_check": "ok"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/product_code_special",
+   "label": "Product code position 14 (special)",
+   "not_device_property": true,
+   "reason": "order code instruction (consult factory)",
+   "rdl": {
+    "match": "none"
+   },
+   "cfihos": {
+    "match": "none"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "no_match",
+   "cfihos_check": "no_match"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/product_code_stem",
+   "label": "Product code position 7 (stem material)",
+   "not_device_property": false,
+   "rdl": {
+    "match": "none"
+   },
+   "cfihos": {
+    "match": "broad",
+    "code": "CFIHOS-40000223",
+    "name": "material",
+    "note": "product code position; with the code letter as condition the value is the stem material"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "no_match",
+   "cfihos_check": "ok"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/product_code_thrust_seal",
+   "label": "Product code position 10 (thrust seal)",
+   "not_device_property": false,
+   "rdl": {
+    "match": "none"
+   },
+   "cfihos": {
+    "match": "broad",
+    "code": "CFIHOS-40000223",
+    "name": "material",
+    "note": "product code position; with the code letter as condition the value is the thrust seal material"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "no_match",
+   "cfihos_check": "ok"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/product_code_variant",
+   "label": "Product code position 2 (variant)",
+   "not_device_property": false,
+   "rdl": {
+    "match": "none"
+   },
+   "cfihos": {
+    "match": "related",
+    "code": "CFIHOS-40000585",
+    "name": "fire safe",
+    "note": "variants are fire-safe, cryogenic, Shell-compliant, control valve; only partly fire safety"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "no_match",
+   "cfihos_check": "ok"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/seat_design",
+   "label": "Seat design",
+   "not_device_property": false,
+   "rdl": {
+    "match": "none"
+   },
+   "cfihos": {
+    "match": "exact",
+    "code": "CFIHOS-40000588",
+    "name": "seat design type",
+    "note": "value: cavity pressure-relieving (CPR)"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "no_match",
+   "cfihos_check": "ok"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/seat_materials",
+   "label": "Seat materials",
+   "not_device_property": false,
+   "rdl": {
+    "match": "none"
+   },
+   "cfihos": {
+    "match": "related",
+    "code": "CFIHOS-40000595",
+    "name": "seat material",
+    "note": "value only says 'available in a wide range of materials'"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "no_match",
+   "cfihos_check": "ok"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/shutoff",
+   "label": "Shutoff",
+   "not_device_property": false,
+   "rdl": {
+    "match": "none"
+   },
+   "cfihos": {
+    "match": "related",
+    "code": "CFIHOS-40000592",
+    "name": "seat leakage class",
+    "note": "value 'bubble-tight' is a qualitative tightness, not a leakage class"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "no_match",
+   "cfihos_check": "ok"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/sour_service",
+   "label": "Sour Service",
+   "not_device_property": false,
+   "rdl": {
+    "match": "related",
+    "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003538",
+    "label": "Standard",
+    "endpoint": "rds",
+    "note": "value: NACE MR0175 / ISO 15156 / MR0103"
+   },
+   "cfihos": {
+    "match": "related",
+    "code": "CFIHOS-40000372",
+    "name": "special service",
+    "note": "definition lists 'sour' among special services"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "ok",
+   "cfihos_check": "ok"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/source_of_material_group_pressure_temperature_ratings",
+   "label": "Source of material group pressure-temperature ratings",
+   "not_device_property": false,
+   "rdl": {
+    "match": "related",
+    "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003538",
+    "label": "Standard",
+    "endpoint": "rds",
+    "note": "value is the standard ASME B16.34"
+   },
+   "cfihos": {
+    "match": "none"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "ok",
+   "cfihos_check": "no_match"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/stem",
+   "label": "Stem",
+   "not_device_property": false,
+   "rdl": {
+    "match": "none"
+   },
+   "cfihos": {
+    "match": "none"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "no_match",
+   "cfihos_check": "no_match"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/stem_across_flats_f_max",
+   "label": "Stem across flats F, maximum",
+   "not_device_property": false,
+   "rdl": {
+    "match": "broad",
+    "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003585",
+    "label": "length",
+    "endpoint": "rds",
+    "note": "drawing dimension letter whose values are lengths in mm/in"
+   },
+   "cfihos": {
+    "match": "broad",
+    "code": "CFIHOS-40000201",
+    "name": "length"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "ok",
+   "cfihos_check": "ok"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/stem_across_flats_f_min",
+   "label": "Stem across flats F, minimum",
+   "not_device_property": false,
+   "rdl": {
+    "match": "broad",
+    "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003585",
+    "label": "length",
+    "endpoint": "rds",
+    "note": "drawing dimension letter whose values are lengths in mm/in"
+   },
+   "cfihos": {
+    "match": "broad",
+    "code": "CFIHOS-40000201",
+    "name": "length"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "ok",
+   "cfihos_check": "ok"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/stem_diameter_g",
+   "label": "Stem diameter G",
+   "not_device_property": false,
+   "rdl": {
+    "match": "broad",
+    "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003585",
+    "label": "length",
+    "endpoint": "rds",
+    "note": "a diameter is a length; no diameter concept found on the rds endpoint (only 'diameter (angle)')"
+   },
+   "cfihos": {
+    "match": "broad",
+    "code": "CFIHOS-40000493",
+    "name": "diameter"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "ok",
+   "cfihos_check": "ok"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/stem_diameter_g_max",
+   "label": "Stem diameter G, maximum",
+   "not_device_property": false,
+   "rdl": {
+    "match": "broad",
+    "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003585",
+    "label": "length",
+    "endpoint": "rds",
+    "note": "a diameter is a length; no diameter concept found on the rds endpoint (only 'diameter (angle)')"
+   },
+   "cfihos": {
+    "match": "broad",
+    "code": "CFIHOS-40000493",
+    "name": "diameter"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "ok",
+   "cfihos_check": "ok"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/stem_diameter_g_min",
+   "label": "Stem diameter G, minimum",
+   "not_device_property": false,
+   "rdl": {
+    "match": "broad",
+    "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003585",
+    "label": "length",
+    "endpoint": "rds",
+    "note": "a diameter is a length; no diameter concept found on the rds endpoint (only 'diameter (angle)')"
+   },
+   "cfihos": {
+    "match": "broad",
+    "code": "CFIHOS-40000493",
+    "name": "diameter"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "ok",
+   "cfihos_check": "ok"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/stem_thread_g",
+   "label": "Stem thread G",
+   "not_device_property": false,
+   "rdl": {
+    "match": "none"
+   },
+   "cfihos": {
+    "match": "broad",
+    "code": "CFIHOS-40001155",
+    "name": "thread specification",
+    "note": "definition: a specification which describes the threads; the value is a metric thread designation"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "no_match",
+   "cfihos_check": "ok"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/stem_thread_h",
+   "label": "Stem thread H",
+   "not_device_property": false,
+   "rdl": {
+    "match": "none"
+   },
+   "cfihos": {
+    "match": "broad",
+    "code": "CFIHOS-40001155",
+    "name": "thread specification",
+    "note": "definition: a specification which describes the threads; the value is a metric thread designation"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "no_match",
+   "cfihos_check": "ok"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/surface_quality",
+   "label": "Surface Quality",
+   "not_device_property": false,
+   "rdl": {
+    "match": "related",
+    "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003538",
+    "label": "Standard",
+    "endpoint": "rds",
+    "note": "value: MSS SP-55"
+   },
+   "cfihos": {
+    "match": "related",
+    "code": "CFIHOS-40000407",
+    "name": "surface roughness",
+    "note": "the item names a visual surface quality standard, not a roughness value"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "ok",
+   "cfihos_check": "ok"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/tapped_hole_depth_r_min",
+   "label": "Tapped hole depth R, minimum",
+   "not_device_property": false,
+   "rdl": {
+    "match": "broad",
+    "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100003585",
+    "label": "length",
+    "endpoint": "rds",
+    "note": "drawing dimension letter whose values are lengths in mm/in"
+   },
+   "cfihos": {
+    "match": "broad",
+    "code": "CFIHOS-40000201",
+    "name": "length"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "ok",
+   "cfihos_check": "ok"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/tapped_hole_thread_r",
+   "label": "Tapped hole thread R",
+   "not_device_property": false,
+   "rdl": {
+    "match": "none"
+   },
+   "cfihos": {
+    "match": "broad",
+    "code": "CFIHOS-40001155",
+    "name": "thread specification",
+    "note": "definition: a specification which describes the threads; the value is a metric thread designation"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "no_match",
+   "cfihos_check": "ok"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/technical_support_and_service",
+   "label": "Technical support and service",
+   "not_device_property": true,
+   "reason": "vendor service statement",
+   "rdl": {
+    "match": "none"
+   },
+   "cfihos": {
+    "match": "none"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "no_match",
+   "cfihos_check": "no_match"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/threaded_insert",
+   "label": "Threaded insert",
+   "not_device_property": false,
+   "rdl": {
+    "match": "none"
+   },
+   "cfihos": {
+    "match": "none"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "no_match",
+   "cfihos_check": "no_match"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/valve_specification",
+   "label": "Valve Specification",
+   "not_device_property": false,
+   "rdl": {
+    "match": "related",
+    "iri": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100006511",
+    "label": "Type approval certificate",
+    "endpoint": "rds",
+    "note": "values are approvals and design standards (FM, ISO 17292, API 608, PED, SIL 3)"
+   },
+   "cfihos": {
+    "match": "none"
+   },
+   "values": [],
+   "kind": "property",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "ok",
+   "cfihos_check": "no_match"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/condition/industry",
+   "label": "industry",
+   "not_device_property": false,
+   "rdl": {
+    "match": "none"
+   },
+   "cfihos": {
+    "match": "none"
+   },
+   "values": [],
+   "kind": "condition",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "no_match",
+   "cfihos_check": "no_match"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/condition/material group",
+   "label": "material group",
+   "not_device_property": false,
+   "rdl": {
+    "match": "none"
+   },
+   "cfihos": {
+    "match": "none"
+   },
+   "values": [],
+   "kind": "condition",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "no_match",
+   "cfihos_check": "no_match"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/condition/product code option",
+   "label": "product code option",
+   "not_device_property": true,
+   "reason": "order code letter/number of a product code position",
+   "rdl": {
+    "match": "none"
+   },
+   "cfihos": {
+    "match": "none"
+   },
+   "values": [],
+   "kind": "condition",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "no_match",
+   "cfihos_check": "no_match"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/condition/seat material",
+   "label": "seat material",
+   "not_device_property": false,
+   "rdl": {
+    "match": "none"
+   },
+   "cfihos": {
+    "match": "exact",
+    "code": "CFIHOS-40000595",
+    "name": "seat material",
+    "note": "values Delrin, UHMWPE, PTFE, reinforced PTFE, Fluorofill, PEEK, metal; no material classes found on the rds endpoint or in CFIHOS CORE"
+   },
+   "values": [],
+   "kind": "condition",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "no_match",
+   "cfihos_check": "ok"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/condition/valve series",
+   "label": "valve series",
+   "not_device_property": false,
+   "rdl": {
+    "match": "none"
+   },
+   "cfihos": {
+    "match": "none"
+   },
+   "values": [],
+   "identification": {
+    "match": "exact",
+    "iri": "http://data.posccaesar.org/rdl/RDS2100752881",
+    "label": "MANUFACTURERS MODEL CODE ASSIGNMENT CLASS",
+    "endpoint": "data",
+    "note": "F51/F52 are the manufacturer's series codes; IRI as given by the prompt, not re-queried (data endpoint HTTP 404)"
+   },
+   "kind": "condition",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "no_match",
+   "cfihos_check": "no_match",
+   "identification_check": "query_failed"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/condition/valve size",
+   "label": "valve size",
+   "not_device_property": false,
+   "rdl": {
+    "match": "none"
+   },
+   "cfihos": {
+    "match": "exact",
+    "code": "CFIHOS-40000247",
+    "name": "nominal size",
+    "note": "values 'DN 15 (NPS 1/2)': nominal size"
+   },
+   "values": [],
+   "kind": "condition",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "no_match",
+   "cfihos_check": "ok"
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/condition/valve size range",
+   "label": "valve size range",
+   "not_device_property": false,
+   "rdl": {
+    "match": "none"
+   },
+   "cfihos": {
+    "match": "related",
+    "code": "CFIHOS-40000247",
+    "name": "nominal size",
+    "note": "a range of nominal sizes (subheading of the parts lists)"
+   },
+   "values": [],
+   "kind": "condition",
+   "document": "flowserve-worcester-f51-f52",
+   "rdl_check": "no_match",
+   "cfihos_check": "ok"
+  }
+ ]
+}

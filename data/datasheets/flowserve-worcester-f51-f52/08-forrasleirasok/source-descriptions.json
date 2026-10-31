@@ -1,0 +1,370 @@
+{
+  "model": "claude-opus-5-5, 2026-10-31 (Claude Code subagent by hand, prompt descriptions/3; crops and page renders viewed)",
+  "language": "en",
+  "descriptions": {
+    "flowserve-worcester-f51-f52/table-azure-0": {
+      "description": "List of industries and typical applications of the F51/F52 valve in four columns: chemical processing (thermal fluids, oxygen services, ammonia, chlorine, hydrogen peroxide, phosgene), petrochemicals (BTX, ethylene, polyolefins/aromatics), energy (gasification, hydrogen, LNG, steam) and other industries (defense, food and beverage, industrial gases, pharmaceuticals, water).",
+      "use_for": "Use it to find which industries and applications the valve is intended for.",
+      "structure": "rows: list entries; columns: Chemical processing, Petrochemicals, Energy, Other industries -> application names",
+      "footnotes": []
+    },
+    "flowserve-worcester-f51-f52/table-azure-1": {
+      "description": "Parts and materials list for sizes DN15 to DN50 (NPS 1/2 to 2): items 1-23 with part name and material, for example body and insert ASTM A351 CF8M stainless steel, ball ASTM A479 316 or A351 CF8M, stem ASTM A479 S31803 duplex stainless steel, seat and body seal virgin PTFE, gland packing flexible graphite, wrench sleeve vinyl plastisol.",
+      "use_for": "Use it to find the material of a given part (by item number or name) of the small-size valves.",
+      "structure": "rows: item 1-23; columns: Item, Description, Material -> material names",
+      "uncertain": "Body and insert carry a symbol footnote ('Body and insert available in LCB and other alloys') printed under the table, which Azure rendered as '®'. The item numbers are the callouts of the exploded view flowserve-worcester-f51-f52/fig-4.1.",
+      "footnotes": [
+        {
+          "id": "wf51/T5/fn1",
+          "text": "Body and insert available in LCB and other alloys"
+        }
+      ]
+    },
+    "flowserve-worcester-f51-f52/table-azure-2": {
+      "description": "Parts and materials list for sizes DN80 to DN200 (NPS 3 to 8): items 1-25 with part name and material; compared with the small sizes it adds a secondary stem seal (virgin PTFE), stem location ring, stop plate, wrench head and handle, moving and fixed plates, and the ball is ASTM A351 CF8M.",
+      "use_for": "Use it to find the material of a given part (by item number or name) of the large-size valves.",
+      "structure": "rows: item 1-25; columns: Item, Description, Material -> material names",
+      "uncertain": "Azure titled the table with the running page header; the size range comes from the subheading above the exploded view flowserve-worcester-f51-f52/fig-5.1, whose callouts are the item numbers. Body/insert footnote marker rendered as '®'.",
+      "footnotes": [
+        {
+          "id": "wf51/T6/fn1",
+          "text": "Body and insert available in LCB and other alloys"
+        }
+      ]
+    },
+    "flowserve-worcester-f51-f52/table-azure-3": {
+      "description": "Dimension table for sizes DN 15 to 50 (NPS 1/2 to 2), one row per size and series F51/F52, in mm with inch in brackets: minimum port diameter, dimensions A, B, C, D, E, stem across flats F and thread G, J, K, mounting hole thread and depth L, M, S, T1, T2, ISO mounting size (F03/F05) and approximate weight in kg (lb).",
+      "use_for": "Use it to find a dimension, stem size, mounting hole, ISO flange size or weight of a DN15-DN50 F51 or F52 valve.",
+      "structure": "rows: valve size DN/NPS x valve series F51/F52; columns: Min. Port, A, B, C, D, E Min, Stem F and G Thread, J, K, L Thread and Depth, M, S, T1, T2, ISO Size, Approx. Weight -> mm (in) values, kg (lb)",
+      "uncertain": "C, D and F give two values each (maximum and minimum tolerance, footnote 1). Azure garbled some cells: NPS '34' (3/4) and '11/2 4' (1 1/2), a stray 'G' before the DN20 F51 weight and a stray '7' after a C value. The letters refer to the drawing flowserve-worcester-f51-f52/fig-8.1.",
+      "footnotes": [
+        {
+          "id": "wf51/T9/fn1",
+          "text": "Dimensions C, D and F are indicated for the minimum and maximum tolerances to support mounting kits and automation. All other dimensions indicate their centerline."
+        },
+        {
+          "id": "wf51/T9/fn2",
+          "text": "ISO platform dimensions as per ISO 5211."
+        }
+      ]
+    },
+    "flowserve-worcester-f51-f52/table-azure-4": {
+      "description": "Dimension table for sizes DN 80 to 200 (NPS 3 to 8), one row per size and series F51/F52, in mm with inch in brackets: minimum port diameter, A, B, C, D, E1, E2, stem across flats F, diameter G and thread H, J, K, S, tapped hole thread and depth R, ISO 5211 mounting size (F07 to F14) and approximate weight in kg (lb).",
+      "use_for": "Use it to find a dimension, stem size, ISO flange size or weight of a DN80-DN200 F51 or F52 valve.",
+      "structure": "rows: valve size DN/NPS x valve series F51/F52; columns: Min. Port, A, B, C, D, E1 Min, E2 Min, Stem F, G, H Thread, J, K, S, R Thread and Depth, ISO Size, Approx. Weight -> mm (in) values, kg (lb)",
+      "uncertain": "Many cells carry stray drawing labels from Azure ('F52 5', 'F07 B B', 'H 16.8', '1 F07', NPS '3 4'); J and K are '-' for DN150 and DN200 (gearbox as standard, footnote 3). The letters refer to the drawing flowserve-worcester-f51-f52/fig-9.1.",
+      "footnotes": [
+        {
+          "id": "wf51/T10/fn1",
+          "text": "Dimensions C, D and F are indicated for the minimum and maximum tolerances to support mounting kits and automation. All other dimensions indicate their centerline."
+        },
+        {
+          "id": "wf51/T10/fn2",
+          "text": "ISO platform dimensions as per ISO 5211."
+        },
+        {
+          "id": "wf51/T10/fn3",
+          "text": "DN150 (NPS 6) and DN200 (NPS 8) have gearboxes as standard. Consult factory for gearbox dimensions."
+        }
+      ]
+    },
+    "flowserve-worcester-f51-f52/table-azure-5": {
+      "description": "Standards of compliance of the valve: valve specification (FM approval, BS EN ISO 17292 and API 608, Pressure Equipment Directive 2014/68/EU, PER SI 2016, assessment category, SIL 3 capable, TSG, CRN, TR CU), face-to-face (BS EN 558-2 and ASME B16.10), flanged connections (BS EN 1759-1 and ASME B16.5 CL150/CL300), fugitive emissions (ISO 15848 Class BH, API 641), surface quality, fire test, pressure test and sour service standards.",
+      "use_for": "Use it to find which standard, approval or certification the valve complies with for a given aspect.",
+      "structure": "rows: aspect (Valve Specification, Face-to-face, Flanged Connections, Fugitive Emissions, Surface Quality, Fire Test, Pressure Test, Sour Service); columns: aspect, standards -> standard names",
+      "uncertain": "Azure merged several printed lines of the valve specification cell into one ('FM Approval Certified BS EN ISO 17292 ...', 'CRN TR CU 010/012/032'); 'Catgory III' is a misspelling in the source.",
+      "footnotes": []
+    },
+    "flowserve-worcester-f51-f52/table-azure-6": {
+      "description": "Flow coefficients per valve size DN 15 to 200 (NPS 1/2 to 8): Cv (US gpm at 1 psi pressure drop) and Kv (m3/h at 1 bar), and the equivalent length of pipe in m and ft.",
+      "use_for": "Use it to find the Cv or Kv flow coefficient or the equivalent pipe length of a given valve size.",
+      "structure": "rows: valve size DN/NPS; columns: Cv, Kv, equivalent length of pipe m, ft -> values",
+      "footnotes": [
+        {
+          "id": "wf51/T12/fn1",
+          "text": "Cv: Flow in US gpm (measured with a pressure drop across the valve of 1 psi)"
+        },
+        {
+          "id": "wf51/T12/fn2",
+          "text": "Kv: Flow in m3/h (measured with a pressure drop across the valve of 1 bar)"
+        }
+      ]
+    },
+    "flowserve-worcester-f51-f52/table-azure-7": {
+      "description": "Torque values per valve size DN 15 to 200 and series F51/F52 in Nm and in-lb: maximum allowable stem torque (MAST, duplex stainless steel stem), break-to-open torque with PTFE seat (duty factor 0, F51 at 20 bar, F52 at 50 bar) and gland nut tightening torque ranges per size.",
+      "use_for": "Use it to find the MAST, break-to-open torque or gland nut tightening torque of a given valve size and series.",
+      "structure": "rows: valve size DN/NPS x valve series F51/F52; columns: MAST Nm, in-lb; break-to-open torque Nm, in-lb; gland nut tightening torque Nm, in-lb -> values",
+      "uncertain": "The footnote texts (MAST stem material, break-to-open test conditions, AUTOSIZE 4.3) are printed below the table and are not part of the Azure table content.",
+      "footnotes": [
+        {
+          "id": "wf51/T13/fn1",
+          "text": "MAST values calculated using the standard duplex stainless steel stem material"
+        },
+        {
+          "id": "wf51/T13/fn2",
+          "text": "Duty factor = 0; F51 @ 20 bar; F52 @ 50 bar; values are from AUTOSIZE 4.3; consult factory for other seat materials"
+        }
+      ]
+    },
+    "flowserve-worcester-f51-f52/table-azure-8": {
+      "description": "Two worked examples of the 14-position product code: 20 F 51 5 5 6 6 T T 7 - Z 150 and 40 F 52 6 6 6 6 R T 7 T Z 300, each with the position numbers 1-14 below the code characters.",
+      "use_for": "Use it to see how a complete product code is assembled from its positions.",
+      "structure": "rows: example code, position numbers; columns: positions 1-14 -> code characters",
+      "footnotes": [
+        {
+          "id": "wf51/T14/fn1",
+          "text": "Stainless steel stem material grade is selected based on stem strength and end use application requirements. Duplex as standard."
+        },
+        {
+          "id": "wf51/T14/fn2",
+          "text": "Depending on end use conditions, these stem materials may not comply with all the requirements of ISO 17292 or API 608."
+        },
+        {
+          "id": "wf51/T14/fn3",
+          "text": "Valve sizes DN50 (NPS 2) or below do not contain a secondary stem seal. As a result, this is reflected in the product code as a dash (-) to represent 'no option'."
+        },
+        {
+          "id": "wf51/T14/fn4",
+          "text": "Consult factory for other build configurations and materials."
+        }
+      ]
+    },
+    "flowserve-worcester-f51-f52/table-azure-9": {
+      "description": "Product code position 1 (size): codes 05, 07, 10, 15, 20, 30, 40, 60 and 80 for DN 15 to 200 (NPS 1/2 to 8).",
+      "use_for": "Use it to find the size code of a valve size or the size a code stands for.",
+      "structure": "rows: size code; columns: Code, DN, NPS -> sizes",
+      "uncertain": "NPS 1 1/2 appears as '11/2' (fraction lost in extraction). The other code positions (2-14) are text sections, not tables.",
+      "footnotes": [
+        {
+          "id": "wf51/T14/fn1",
+          "text": "Stainless steel stem material grade is selected based on stem strength and end use application requirements. Duplex as standard."
+        },
+        {
+          "id": "wf51/T14/fn2",
+          "text": "Depending on end use conditions, these stem materials may not comply with all the requirements of ISO 17292 or API 608."
+        },
+        {
+          "id": "wf51/T14/fn3",
+          "text": "Valve sizes DN50 (NPS 2) or below do not contain a secondary stem seal. As a result, this is reflected in the product code as a dash (-) to represent 'no option'."
+        },
+        {
+          "id": "wf51/T14/fn4",
+          "text": "Consult factory for other build configurations and materials."
+        }
+      ]
+    },
+    "flowserve-worcester-f51-f52/fig-1.2": {
+      "description": "Cover rendering of the Worcester F51/F52 reduced port flanged ball valve with its red-sleeved lever wrench; the body is marked CL150.",
+      "use_for": "Answers what the manual valve looks like; it holds no data of its own.",
+      "footnotes": []
+    },
+    "flowserve-worcester-f51-f52/fig-2.1": {
+      "description": "Rendering of the flanged ball valve fitted with a yellow pneumatic actuator; the body is marked DN50/40.",
+      "use_for": "Answers what the valve looks like with an actuator mounted; it holds no data of its own.",
+      "uncertain": "Azure read the body marking 'DN50/40' as 'PAN.50/40'.",
+      "footnotes": []
+    },
+    "flowserve-worcester-f51-f52/fig-3.1": {
+      "description": "Cutaway rendering of the valve with feature callouts 1, 2, 5, 6, 8 and 9 (actuator mounting, anti-blowout stem, seat design, body seals, threaded insert, locking wrench) explained in the feature list of the page.",
+      "use_for": "Use it to locate the features of the feature list on the valve.",
+      "uncertain": "Callouts 3, 4 and 7 are on the inset flowserve-worcester-f51-f52/fig-3.2.",
+      "footnotes": []
+    },
+    "flowserve-worcester-f51-f52/fig-3.2": {
+      "description": "Circular inset showing the stem and gland area in section with callouts 3 (locking clip), 4 (live-loaded packing) and 7 (anti-static design).",
+      "use_for": "Use it to locate the locking clip, live-loaded packing and anti-static design on the stem.",
+      "footnotes": []
+    },
+    "flowserve-worcester-f51-f52/fig-4.1": {
+      "description": "Exploded view of the DN15 to DN50 (NPS 1/2 to 2) valve with item callouts 1-23 that match the parts and materials list beside it.",
+      "use_for": "Use it to see where a listed part sits in the small-size valve assembly.",
+      "uncertain": "Part names and materials are in flowserve-worcester-f51-f52/table-azure-1.",
+      "footnotes": []
+    },
+    "flowserve-worcester-f51-f52/fig-5.1": {
+      "description": "Exploded view of the DN80 to DN200 (NPS 3 to 8) valve with item callouts 1-25 that match the parts and materials list beside it.",
+      "use_for": "Use it to see where a listed part sits in the large-size valve assembly.",
+      "uncertain": "Part names and materials are in flowserve-worcester-f51-f52/table-azure-2.",
+      "footnotes": []
+    },
+    "flowserve-worcester-f51-f52/fig-6.1": {
+      "description": "Pressure/temperature rating chart, pressure in bar (psi) over temperature in °C (°F): four body rating curves Group 1.2 and Group 2.2 for Class 150 and Class 300, and seat limit lines for Delrin, UHMWPE, Virgin PTFE, Reinforced PTFE, Fluorofill, PEEK and Metals A and G.",
+      "use_for": "Use it to see the allowable pressure of a body material group and class, or the limit of a seat material, at a given temperature.",
+      "structure": "x: temperature °C (°F); y: pressure bar (psi); series: body rating curves (Group, Class), seat material lines",
+      "uncertain": "The curve values are in the chart record flowserve-worcester-f51-f52/fig-6.1/chart-1.",
+      "footnotes": []
+    },
+    "flowserve-worcester-f51-f52/fig-8.1": {
+      "description": "Dimension drawings of the DN15 to DN50 valve (top view with mounting platform, sectional side view, stem end view) carrying the letters A, B, C, D, E, J, K, M, T1, T2, the port diameter S, the stem across flats F and thread G and the mounting holes L; the valve closes with a 90° clockwise turn and the platform drilling follows BS EN ISO 5211.",
+      "use_for": "Use it to see what a dimension letter of the DN15-DN50 dimension table measures.",
+      "uncertain": "The drawing has no values; they are in flowserve-worcester-f51-f52/table-azure-3.",
+      "footnotes": []
+    },
+    "flowserve-worcester-f51-f52/fig-9.1": {
+      "description": "Dimension drawings of the DN80 to DN200 valve (top view with mounting platform, sectional side view, stem section) carrying the letters A, B, C, D, E1, E2, J, K, the port diameter S, the stem across flats F, diameter G and thread H and the tapped hole R; 90° clockwise to close, platform to BS EN ISO 5211.",
+      "use_for": "Use it to see what a dimension letter of the DN80-DN200 dimension table measures.",
+      "uncertain": "The drawing has no values; they are in flowserve-worcester-f51-f52/table-azure-4.",
+      "footnotes": []
+    },
+    "flowserve-worcester-f51-f52/fig-6.1/chart-1": {
+      "description": "Read-off curve data of the pressure/temperature rating chart: allowable pressure in bar over temperature in °C for the series Group 1.2 Class 300, Group 2.2 Class 300, Group 1.2 Class 150, Group 2.2 Class 150 and the seat lines Delrin, UHMWPE, Virgin PTFE, Reinforced PTFE, Fluorofill, PEEK and Metals A and G.",
+      "use_for": "Use it to find the allowable pressure for a body group and class or a seat material at a given temperature.",
+      "structure": "x: temperature °C; y: pressure bar; series: Group 1.2/2.2 Class 150/300, seat materials",
+      "footnotes": []
+    },
+    "flowserve-worcester-f51-f52/section-3": {
+      "description": "Introductory text: the Worcester F51/F52 series flanged ball valve is standardized in design, materials and construction for worldwide availability and shorter lead times, with interchangeable parts available in all regions and support from Quick Response Centers (QRCs).",
+      "use_for": "Answers general questions about the valve's standardization, availability and service support.",
+      "footnotes": []
+    },
+    "flowserve-worcester-f51-f52/section-4": {
+      "description": "Short text on reliability and safety: bubble-tight shutoff, a live-loaded packing design against fugitive emissions and a threaded end plug design that ensures positive retention and eliminates blowout risk.",
+      "use_for": "Answers questions about the valve's shutoff, packing and blowout-safety design.",
+      "footnotes": []
+    },
+    "flowserve-worcester-f51-f52/section-6": {
+      "description": "Numbered feature list belonging to the cutaway drawing: actuator mounting to ISO 5211 and Shell MESC SPE 77/300, anti-blowout duplex stainless steel stem, gland nut locking clip, live-loaded packing (API 641, ISO 15848), cavity pressure-relieving seat, PTFE body seals with fire-safe metal-to-metal secondary sealing, anti-static design, threaded insert, locking wrench through NPS 4 (DN100) and an optional O-ring stem seal.",
+      "use_for": "Use it to find the standard design features of the valve and the standards they conform to.",
+      "uncertain": "The text also holds the callout numbers of flowserve-worcester-f51-f52/fig-3.1 as stray lines.",
+      "footnotes": []
+    },
+    "flowserve-worcester-f51-f52/section-10": {
+      "description": "Notes under the pressure/temperature chart: material group ratings are taken from ASME B16.34; Group 1.2 is the dual-certified LCB/LCC and WCB/WCC material, Group 2.2 the CF8M material; maximum seat temperatures are on page 7.",
+      "use_for": "Use it to find which body materials the chart's Group 1.2 and Group 2.2 curves stand for and where the ratings come from.",
+      "footnotes": []
+    },
+    "flowserve-worcester-f51-f52/section-11": {
+      "description": "Heading of the seat materials page with a pointer to the pressure/temperature curves on page 6.",
+      "use_for": "Answers nothing on its own; see flowserve-worcester-f51-f52/section-12 and the following seat sections.",
+      "footnotes": []
+    },
+    "flowserve-worcester-f51-f52/section-12": {
+      "description": "Seat material Delrin (D), POM or acetal homopolymer: durable, tough, low friction, good creep resistance for high-pressure applications; maximum temperature rating 80 °C (180 °F).",
+      "use_for": "Use it to find the properties and maximum temperature of the Delrin seat.",
+      "footnotes": []
+    },
+    "flowserve-worcester-f51-f52/section-13": {
+      "description": "Seat material UHMWPE (U), ultra-high molecular weight polyethylene: for applications where PTFE is not suitable (tobacco duty), good abrasion resistance; maximum temperature rating 90 °C (200 °F).",
+      "use_for": "Use it to find the properties and maximum temperature of the UHMWPE seat.",
+      "footnotes": []
+    },
+    "flowserve-worcester-f51-f52/section-14": {
+      "description": "Seat material Virgin PTFE (T): the most common sealing material, excellent chemical resistance and low friction for low operating torque; maximum temperature rating 230 °C (450 °F).",
+      "use_for": "Use it to find the properties and maximum temperature of the virgin PTFE seat.",
+      "footnotes": []
+    },
+    "flowserve-worcester-f51-f52/section-15": {
+      "description": "Seat material Reinforced PTFE (R), glass-reinforced: stronger and more wear-resistant than virgin PTFE, for higher pressure/temperature or high cycling; maximum temperature rating 230 °C (450 °F).",
+      "use_for": "Use it to find the properties and maximum temperature of the reinforced PTFE seat.",
+      "footnotes": []
+    },
+    "flowserve-worcester-f51-f52/section-16": {
+      "description": "Seat material Fluorofill/Polyfill (P), PTFE reinforced with carbon, glass and graphite: dimensionally stable, suited to steam and cryogenic services and recommended for modulating control; maximum temperature rating 260 °C (500 °F).",
+      "use_for": "Use it to find the properties and maximum temperature of the Fluorofill/Polyfill seat.",
+      "uncertain": "Azure printed the limit as '260°℃' (doubled degree sign).",
+      "footnotes": []
+    },
+    "flowserve-worcester-f51-f52/section-17": {
+      "description": "Seat material PEEK (X), polyether ether ketone: the highest P/T rating of the non-metallic seats, very good chemical and abrasion resistance; maximum temperature rating 315 °C (600 °F).",
+      "use_for": "Use it to find the properties and maximum temperature of the PEEK seat.",
+      "uncertain": "The title carries a checkbox artefact ':selected:' from Azure.",
+      "footnotes": []
+    },
+    "flowserve-worcester-f51-f52/section-18": {
+      "description": "Metal seats (A or G): 316L sintered metal impregnated with PTFE (A) or graphite (G), lower torque, abrasion resistance and pressure handling at elevated temperature; maximum temperature rating 315 °C (600 °F).",
+      "use_for": "Use it to find the properties and maximum temperature of the metal seats.",
+      "footnotes": []
+    },
+    "flowserve-worcester-f51-f52/section-19": {
+      "description": "Page-8 text around the DN15-DN50 dimension table: the unit note 'Dimensions indicated in mm (in.)' and footnotes (1) C, D and F are minimum and maximum tolerances for mounting kits and automation, all others centerline, and (2) ISO platform dimensions as per ISO 5211.",
+      "use_for": "Use it to find what the footnotes of the DN15-DN50 dimension table mean.",
+      "uncertain": "Also contains stray drawing callouts (7, 8, 9, 6, 3, K) from the dimension drawing.",
+      "footnotes": []
+    },
+    "flowserve-worcester-f51-f52/section-20": {
+      "description": "Running page header of page 9 followed only by stray drawing labels.",
+      "use_for": "Answers nothing on its own; see flowserve-worcester-f51-f52/table-azure-4.",
+      "uncertain": "Heading debris from Azure; the page-9 footnotes (1)-(3) are not in this section.",
+      "footnotes": []
+    },
+    "flowserve-worcester-f51-f52/section-21": {
+      "description": "The unit note 'Dimensions indicated in mm (in.)' above the DN80-DN200 dimension table, plus stray digits.",
+      "use_for": "Answers nothing on its own; see flowserve-worcester-f51-f52/table-azure-4.",
+      "uncertain": "The footnotes of the page-9 table, including (3) on gearboxes for DN150 and DN200, are not part of this section's content.",
+      "footnotes": []
+    },
+    "flowserve-worcester-f51-f52/section-28": {
+      "description": "Product code position 2 (variant): F fire-safe, CF cryogenic fire-safe with bonnet extension, EF EnviroSafe fire-safe, S Shell-compliant, V V-Flow CPT control valve.",
+      "use_for": "Use it to find what a variant letter of the product code means.",
+      "footnotes": []
+    },
+    "flowserve-worcester-f51-f52/section-29": {
+      "description": "Product code position 3 (series): F51 Class 150 one-piece valve, F52 Class 300 one-piece valve.",
+      "use_for": "Use it to find the pressure class of the F51 and F52 series.",
+      "footnotes": []
+    },
+    "flowserve-worcester-f51-f52/section-30": {
+      "description": "Product code position 4 (body material): 4 WCB/WCC, 5 WCB/LCB/LCC (triple certified), 6 CF8M, 7 Monel, A Alloy 20, C Hastelloy C.",
+      "use_for": "Use it to find the body material code of the product code.",
+      "footnotes": []
+    },
+    "flowserve-worcester-f51-f52/section-31": {
+      "description": "Product code position 5 (end/insert material): 4 WCB/WCC, 5 WCB/LCB/LCC (triple certified), 6 CF8M, 7 Monel, A Alloy 20, C Hastelloy C.",
+      "use_for": "Use it to find the end/insert material code of the product code.",
+      "footnotes": []
+    },
+    "flowserve-worcester-f51-f52/section-32": {
+      "description": "Product code position 6 (ball material): 6 CF8M, 7 Monel, A Alloy 20, C Hastelloy C.",
+      "use_for": "Use it to find the ball material code of the product code.",
+      "footnotes": []
+    },
+    "flowserve-worcester-f51-f52/section-33": {
+      "description": "Product code position 7 (stem material): 6 stainless steel (footnote 1), Q 17-4PH, 7 Monel, A Alloy 20 and C Hastelloy C (footnote 2).",
+      "use_for": "Use it to find the stem material code of the product code.",
+      "uncertain": "The footnote texts are in flowserve-worcester-f51-f52/section-40.",
+      "footnotes": []
+    },
+    "flowserve-worcester-f51-f52/section-34": {
+      "description": "Product code position 8 (seat): D Delrin, T V-PTFE, R reinforced PTFE, P Fluorofill/Polyfill, U UHMWPE, X PEEK, A metal impregnated with PTFE, G metal impregnated with graphite.",
+      "use_for": "Use it to find the seat material code of the product code.",
+      "uncertain": "Azure inserted a ':selected:' checkbox artefact before PEEK.",
+      "footnotes": []
+    },
+    "flowserve-worcester-f51-f52/section-35": {
+      "description": "Product code position 9 (body seal): T V-PTFE, Z graphite.",
+      "use_for": "Use it to find the body seal code of the product code.",
+      "footnotes": []
+    },
+    "flowserve-worcester-f51-f52/section-36": {
+      "description": "Product code position 10 (thrust seal): 7 25% glass PTFE, X PEEK, P Fluorofill/Polyfill.",
+      "use_for": "Use it to find the thrust seal code of the product code.",
+      "footnotes": []
+    },
+    "flowserve-worcester-f51-f52/section-37": {
+      "description": "Product code position 11 (secondary stem seal/O-ring, optional, footnote 3): T V-PTFE, V FKM, P Fluorofill/Polyfill.",
+      "use_for": "Use it to find the secondary stem seal code of the product code.",
+      "uncertain": "Footnote 3 (no secondary stem seal for DN50 and below, written as a dash) is in flowserve-worcester-f51-f52/section-40.",
+      "footnotes": []
+    },
+    "flowserve-worcester-f51-f52/section-38": {
+      "description": "Product code position 12 (gland/stem packing): T V-PTFE, Z graphite.",
+      "use_for": "Use it to find the gland packing code of the product code.",
+      "footnotes": []
+    },
+    "flowserve-worcester-f51-f52/section-39": {
+      "description": "Product code position 13 (end connection/pressure class): 150 ANSI B16.5 Class 150, 300 ANSI B16.5 Class 300.",
+      "use_for": "Use it to find the end connection code of the product code.",
+      "footnotes": []
+    },
+    "flowserve-worcester-f51-f52/section-40": {
+      "description": "Product code position 14 (special: consult factory) with the product code notes: gearbox standard for DN150 (NPS 6) and larger, locking wrenches standard up to DN100 (NPS4), and footnotes (1) duplex stainless stem as standard, (2) some stem materials may not meet all of ISO 17292 or API 608, (3) no secondary stem seal for DN50 (NPS 2) and below, (4) consult factory for other configurations.",
+      "use_for": "Use it to find the product code footnotes and which items are standard without being coded.",
+      "footnotes": []
+    },
+    "flowserve-worcester-f51-f52/section-41": {
+      "description": "Back-page text on digital operation: the valve can be monitored with the RedRaven predictive maintenance solution and paired with a Logix 3800 digital positioner, which is RedRaven Ready for wired or wireless sensors.",
+      "use_for": "Answers which Flowserve digital positioner and monitoring solution the valve can be paired with.",
+      "footnotes": []
+    }
+  }
+}

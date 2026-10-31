@@ -1,0 +1,2267 @@
+{
+ "model": "claude-opus-5-5, 2026-10-31, table-schema/3, by hand with trial builds",
+ "notes": [],
+ "default_subject": {
+  "label": "Rosemount 3051 Pressure Transmitter",
+  "kind": "transmitter"
+ },
+ "table_titles": {
+  "Setting the standard for pressure measurement Proven best-in-class performance, reliability, and safety": 101,
+  "Maximize installation and application flexibility with the Coplanar™ platform": 102,
+  "Bluetooth® technology - Advanced functionality": 103,
+  "Diagnostics - Advanced functionality": 104,
+  "Enhanced software - Advanced functionality": 105,
+  "Quick service buttons - Advanced functionality": 106,
+  "Industry leading capabilities extended to IEC 62591 (WirelessHART®)": 107,
+  "Innovative integrated DP flow meters": 108,
+  "Proven, reliable, and innovative DP Level technologies": 109,
+  "Instrument manifolds - high quality, convenient, and easy": 110,
+  "Access information when you need it with asset tags": 111,
+  "Rosemount 3051C Coplanar Pressure Transmitter ordering information (Rosemount 3051C ordering information)": 112,
+  "Online product configurator (Rosemount 3051C ordering information)": 113,
+  "Specifications and options (Rosemount 3051C ordering information)": 114,
+  "Model codes (Rosemount 3051C ordering information)": 115,
+  "Figure 1: Model Code Example (Rosemount 3051C ordering information)": 116,
+  "Optimizing lead time (Rosemount 3051C ordering information)": 117,
+  "Model (Rosemount 3051C ordering information)": 118,
+  "Measurement type (Rosemount 3051C ordering information)": 119,
+  "Pressure range (Rosemount 3051C ordering information)": 120,
+  "Transmitter output (Rosemount 3051C ordering information)": 121,
+  "Materials of construction (Rosemount 3051C ordering information)": 122,
+  "Isolating diaphragm (Rosemount 3051C ordering information)": 123,
+  "O-ring (Rosemount 3051C ordering information)": 124,
+  "Sensor fill fluid (Rosemount 3051C ordering information)": 125,
+  "Housing material (Rosemount 3051C ordering information)": 126,
+  "Wireless options (Rosemount 3051C ordering information)": 127,
+  "Wireless transmit rate, operating frequency, and protocol (Rosemount 3051C ordering information)": 128,
+  "Antenna and SmartPower™ (Rosemount 3051C ordering information)": 129,
+  "Local wireless device access (Rosemount 3051C ordering information)": 130,
+  "Extended product warranty (Rosemount 3051C ordering information)": 131,
+  "Plantweb™ control functionality (Rosemount 3051C ordering information)": 132,
+  "Plantweb™ diagnostic functionality (Rosemount 3051C ordering information)": 133,
+  "Alternate flange (Rosemount 3051C ordering information)": 134,
+  "Manifold assembly (Rosemount 3051C ordering information)": 135,
+  "Integral mount primary element (Rosemount 3051C ordering information)": 136,
+  "Seal assemblies (Rosemount 3051C ordering information)": 137,
+  "Mounting bracket (Rosemount 3051C ordering information)": 138,
+  "Product certifications (Rosemount 3051C ordering information)": 139,
+  "Drinking water approval (Rosemount 3051C ordering information)": 140,
+  "Shipboard approvals (Rosemount 3051C ordering information)": 141,
+  "SST tagging (Rosemount 3051C ordering information)": 142,
+  "Custody transfer (Rosemount 3051C ordering information)": 143,
+  "Bolting material (Rosemount 3051C ordering information)": 144,
+  "Display and interface options (Rosemount 3051C ordering information)": 145,
+  "Calibration certificate (Rosemount 3051C ordering information)": 146,
+  "Material traceability certification (Rosemount 3051C ordering information)": 147,
+  "Positive material identification (PMI) (Rosemount 3051C ordering information)": 148,
+  "Quality certification for safety (Rosemount 3051C ordering information)": 149,
+  "Enhanced safety (Rosemount 3051C ordering information)": 150,
+  "Configuration buttons (Rosemount 3051C ordering information)": 151,
+  "Transient protection (Rosemount 3051C ordering information)": 152,
+  "Software configuration (Rosemount 3051C ordering information)": 153,
+  "Gauge pressure calibration (Rosemount 3051C ordering information)": 154,
+  "Alarm levels (Rosemount 3051C ordering information)": 155,
+  "Pressure testing (Rosemount 3051C ordering information)": 156,
+  "Cleaning process area (Rosemount 3051C ordering information)": 157,
+  "Flange adapters (Rosemount 3051C ordering information)": 158,
+  "Vent drain valves (Rosemount 3051C ordering information)": 159,
+  "Conduit plug (Rosemount 3051C ordering information)": 160,
+  "RC1/4 RC1/2 process connection (Rosemount 3051C ordering information)": 161,
+  "Maximum static line pressure (Rosemount 3051C ordering information)": 162,
+  "Ground screw (Rosemount 3051C ordering information)": 163,
+  "Surface finish (Rosemount 3051C ordering information)": 164,
+  "Total system performance reports (Rosemount 3051C ordering information)": 165,
+  "Conduit electrical connector (Rosemount 3051C ordering information)": 166,
+  "NACE certificate (Rosemount 3051C ordering information)": 167,
+  "Enhanced software (Rosemount 3051C ordering information)": 168,
+  "Cold temperature (Rosemount 3051C ordering information)": 169,
+  "Rosemount 3051T In-Line Transmitter ordering information (Rosemount 3051T ordering information)": 170,
+  "Online product configurator (Rosemount 3051T ordering information)": 171,
+  "Specifications and options (Rosemount 3051T ordering information)": 172,
+  "Model codes (Rosemount 3051T ordering information)": 173,
+  "Optimizing lead time (Rosemount 3051T ordering information)": 174,
+  "Model (Rosemount 3051T ordering information)": 175,
+  "Pressure type (Rosemount 3051T ordering information)": 176,
+  "Pressure range (Rosemount 3051T ordering information)": 177,
+  "Transmitter output (Rosemount 3051T ordering information)": 178,
+  "Process connection style (Rosemount 3051T ordering information)": 179,
+  "Isolating diaphragm (Rosemount 3051T ordering information)": 180,
+  "Sensor fill fluid (Rosemount 3051T ordering information)": 181,
+  "Housing material (Rosemount 3051T ordering information)": 182,
+  "Wireless options (Rosemount 3051T ordering information)": 183,
+  "Wireless transmit rate, operating frequency, and protocol (Rosemount 3051T ordering information)": 184,
+  "Antenna and SmartPower™ (Rosemount 3051T ordering information)": 185,
+  "Local wireless device access (Rosemount 3051T ordering information)": 186,
+  "Extended product warranty (Rosemount 3051T ordering information)": 187,
+  "Plantweb™ control functionality (Rosemount 3051T ordering information)": 188,
+  "Plantweb™ diagnostic functionality (Rosemount 3051T ordering information)": 189,
+  "Integral assembly (Rosemount 3051T ordering information)": 190,
+  "Diaphragm seal assemblies (Rosemount 3051T ordering information)": 191,
+  "Mounting bracket (Rosemount 3051T ordering information)": 192,
+  "Product certifications (Rosemount 3051T ordering information)": 193,
+  "Drinking water approval (Rosemount 3051T ordering information)": 194,
+  "Shipboard approvals (Rosemount 3051T ordering information)": 195,
+  "SST tagging (Rosemount 3051T ordering information)": 196,
+  "Custody transfer (Rosemount 3051T ordering information)": 197,
+  "Calibration certification (Rosemount 3051T ordering information)": 198,
+  "Material traceability certification (Rosemount 3051T ordering information)": 199,
+  "Positive material identification (PMI) (Rosemount 3051T ordering information)": 200,
+  "Quality certification for safety (Rosemount 3051T ordering information)": 201,
+  "Enhanced safety (Rosemount 3051T ordering information)": 202,
+  "Configuration buttons (Rosemount 3051T ordering information)": 203,
+  "Display and interface options (Rosemount 3051T ordering information)": 204,
+  "Wireless sensor module (Rosemount 3051T ordering information)": 205,
+  "Transient protection (Rosemount 3051T ordering information)": 206,
+  "Conduit plug (Rosemount 3051T ordering information)": 207,
+  "Software configuration (Rosemount 3051T ordering information)": 208,
+  "Alarm levels (Rosemount 3051T ordering information)": 209,
+  "Pressure testing (Rosemount 3051T ordering information)": 210,
+  "Cleaning process area (Rosemount 3051T ordering information)": 211,
+  "Ground screw (Rosemount 3051T ordering information)": 212,
+  "Surface finish (Rosemount 3051T ordering information)": 213,
+  "Toolkit total system performance reports (Rosemount 3051T ordering information)": 214,
+  "Conduit electrical connector (Rosemount 3051T ordering information)": 215,
+  "NACE certificate (Rosemount 3051T ordering information)": 216,
+  "Enhanced software (Rosemount 3051T ordering information)": 217,
+  "Cold temperature (Rosemount 3051T ordering information)": 218,
+  "Rosemount 3051CF Flow Meter selection guide": 219,
+  "Rosemount 3051CFA Annubar™ Flow Meter (Rosemount 3051CFA ordering information)": 220,
+  "Online product configurator (Rosemount 3051CFA ordering information)": 221,
+  "Specifications and options (Rosemount 3051CFA ordering information)": 222,
+  "Sizing and selection (Rosemount 3051CFA ordering information)": 223,
+  "Model codes (Rosemount 3051CFA ordering information)": 224,
+  "Figure 3: Model Code Example (Rosemount 3051CFA ordering information)": 225,
+  "Optimizing lead time (Rosemount 3051CFA ordering information)": 226,
+  "Model (Rosemount 3051CFA ordering information)": 227,
+  "Measurement type (Rosemount 3051CFA ordering information)": 228,
+  "Fluid type (Rosemount 3051CFA ordering information)": 229,
+  "Line size (Rosemount 3051CFA ordering information)": 230,
+  "Pipe ID range (Rosemount 3051CFA ordering information)": 231,
+  "Pipe material/mounting assembly material (Rosemount 3051CFA ordering information)": 232,
+  "Piping orientation (Rosemount 3051CFA ordering information)": 233,
+  "Annubar™ type (Rosemount 3051CFA ordering information)": 234,
+  "Sensor material (Rosemount 3051CFA ordering information)": 235,
+  "Sensor size (Rosemount 3051CFA ordering information)": 236,
+  "Mounting type (Rosemount 3051CFA ordering information)": 237,
+  "Opposite side support or packing gland (Rosemount 3051CFA ordering information)": 238,
+  "Isolation valve for Flo-Tap models (Rosemount 3051CFA ordering information)": 239,
+  "Temperature measurement (Rosemount 3051CFA ordering information)": 240,
+  "Transmitter connection platform (Rosemount 3051CFA ordering information)": 241,
+  "Differential pressure range (Rosemount 3051CFA ordering information)": 242,
+  "Transmitter output (Rosemount 3051CFA ordering information)": 243,
+  "Housing material (Rosemount 3051CFA ordering information)": 244,
+  "Transmitter performance class (Rosemount 3051CFA ordering information)": 245,
+  "Wireless options (Rosemount 3051CFA ordering information)": 246,
+  "Wireless transmit rate, operating frequency, and protocol (Rosemount 3051CFA ordering information)": 247,
+  "Antenna and SmartPower™ (Rosemount 3051CFA ordering information)": 248,
+  "Local wireless device access (Rosemount 3051CFA ordering information)": 249,
+  "Extended product warranty (Rosemount 3051CFA ordering information)": 250,
+  "Alternate transmitter diaphragm material (Rosemount 3051CFA ordering information)": 251,
+  "Pressure testing (Rosemount 3051CFA ordering information)": 252,
+  "Special cleaning (Rosemount 3051CFA ordering information)": 253,
+  "Material testing (Rosemount 3051CFA ordering information)": 254,
+  "Material examination (Rosemount 3051CFA ordering information)": 255,
+  "Flow calibration (Rosemount 3051CFA ordering information)": 256,
+  "Special inspection (Rosemount 3051CFA ordering information)": 257,
+  "Surface finish (Rosemount 3051CFA ordering information)": 258,
+  "Material traceability certification (Rosemount 3051CFA ordering information)": 259,
+  "Positive material identification (PMI) (Rosemount 3051CFA ordering information)": 260,
+  "Code conformance (Rosemount 3051CFA ordering information)": 261,
+  "Materials conformance (Rosemount 3051CFA ordering information)": 262,
+  "Country certification (Rosemount 3051CFA ordering information)": 263,
+  "Installed in flanged pipe spool section (Rosemount 3051CFA ordering information)": 264,
+  "Instrument connections for remote mount options (Rosemount 3051CFA ordering information)": 265,
+  "Special shipment (Rosemount 3051CFA ordering information)": 266,
+  "Special dimensions (Rosemount 3051CFA ordering information)": 267,
+  "Plantweb™ control functionality (Rosemount 3051CFA ordering information)": 268,
+  "Plantweb™ diagnostic functionality (Rosemount 3051CFA ordering information)": 269,
+  "Product certifications (Rosemount 3051CFA ordering information)": 270,
+  "Sensor fill fluid and O-ring options (Rosemount 3051CFA ordering information)": 271,
+  "Shipboard approvals (Rosemount 3051CFA ordering information)": 272,
+  "Display and interface options (Rosemount 3051CFA ordering information)": 273,
+  "Transmitter calibration certification (Rosemount 3051CFA ordering information)": 274,
+  "Quality certification for safety (Rosemount 3051CFA ordering information)": 275,
+  "Transient protection (Rosemount 3051CFA ordering information)": 276,
+  "Manifold for remote mount option (Rosemount 3051CFA ordering information)": 277,
+  "Alarm levels (Rosemount 3051CFA ordering information)": 278,
+  "Enhanced safety (Rosemount 3051CFA ordering information)": 279,
+  "Configuration buttons (Rosemount 3051CFA ordering information)": 280,
+  "Ground screw (Rosemount 3051CFA ordering information)": 281,
+  "Enhanced software (Rosemount 3051CFA ordering information)": 282,
+  "Rosemount 3051CFC Compact Flow Meter ordering information (Rosemount 3051CFC ordering information)": 283,
+  "Online product configurator (Rosemount 3051CFC ordering information)": 284,
+  "Specifications and options (Rosemount 3051CFC ordering information)": 285,
+  "Sizing and selection (Rosemount 3051CFC ordering information)": 286,
+  "Model codes (Rosemount 3051CFC ordering information)": 287,
+  "Optimizing lead time (Rosemount 3051CFC ordering information)": 288,
+  "Model (Rosemount 3051CFC ordering information)": 289,
+  "Measurement type (Rosemount 3051CFC ordering information)": 290,
+  "Primary element technology (Rosemount 3051CFC ordering information)": 291,
+  "Material type (Rosemount 3051CFC ordering information)": 292,
+  "Line size (Rosemount 3051CFC ordering information)": 293,
+  "Primary element type (Rosemount 3051CFC ordering information)": 294,
+  "Temperature measurement (Rosemount 3051CFC ordering information)": 295,
+  "Transmitter connection platform (Rosemount 3051CFC ordering information)": 296,
+  "Differential pressure range (Rosemount 3051CFC ordering information)": 297,
+  "Transmitter output (Rosemount 3051CFC ordering information)": 298,
+  "Housing material (Rosemount 3051CFC ordering information)": 299,
+  "Transmitter performance class (Rosemount 3051CFC ordering information)": 300,
+  "Wireless options (Rosemount 3051CFC ordering information)": 301,
+  "Wireless transmit rate, operating frequency, and protocol (Rosemount 3051CFC ordering information)": 302,
+  "Antenna and SmartPower™ (Rosemount 3051CFC ordering information)": 303,
+  "Local wireless device access (Rosemount 3051CFC ordering information)": 304,
+  "Extended product warranty (Rosemount 3051CFC ordering information)": 305,
+  "Alternate transmitter diaphragm material (Rosemount 3051CFC ordering information)": 306,
+  "Installation accessories (Rosemount 3051CFC ordering information)": 307,
+  "Remote adapters (Rosemount 3051CFC ordering information)": 308,
+  "High temperature application (Rosemount 3051CFC ordering information)": 309,
+  "Flow calibration (Rosemount 3051CFC ordering information)": 310,
+  "Pressure testing (Rosemount 3051CFC ordering information)": 311,
+  "Special cleaning (Rosemount 3051CFC ordering information)": 312,
+  "Special inspection (Rosemount 3051CFC ordering information)": 313,
+  "Transmitter calibration certification (Rosemount 3051CFC ordering information)": 314,
+  "Quality certification for safety (Rosemount 3051CFC ordering information)": 315,
+  "Material traceability certification (Rosemount 3051CFC ordering information)": 316,
+  "Positive material identification (PMI) (Rosemount 3051CFC ordering information)": 317,
+  "Code conformance (Rosemount 3051CFC ordering information)": 318,
+  "Materials conformance (Rosemount 3051CFC ordering information)": 319,
+  "Country certification (Rosemount 3051CFC ordering information)": 320,
+  "Product certifications (Rosemount 3051CFC ordering information)": 321,
+  "Sensor fill fluid and O-ring options (Rosemount 3051CFC ordering information)": 322,
+  "Shipboard approvals (Rosemount 3051CFC ordering information)": 323,
+  "Display and interface options (Rosemount 3051CFC ordering information)": 324,
+  "Transient protection (Rosemount 3051CFC ordering information)": 325,
+  "Manifold for remote-mount option (Rosemount 3051CFC ordering information)": 326,
+  "Plantweb™ control functionality (Rosemount 3051CFC ordering information)": 327,
+  "Plantweb™ diagnostic functionality (Rosemount 3051CFC ordering information)": 328,
+  "Alarm levels (Rosemount 3051CFC ordering information)": 329,
+  "Ground screw (Rosemount 3051CFC ordering information)": 330,
+  "Enhanced safety (Rosemount 3051CFC ordering information)": 331,
+  "Configuration buttons (Rosemount 3051CFC ordering information)": 332,
+  "Enhanced software (Rosemount 3051CFC ordering information)": 333,
+  "Rosemount 3051CFP Integral Orifice Flow Meter ordering information (Rosemount 3051CFP ordering information)": 334,
+  "Online product configurator (Rosemount 3051CFP ordering information)": 335,
+  "Specifications and options (Rosemount 3051CFP ordering information)": 336,
+  "Sizing and selection (Rosemount 3051CFP ordering information)": 337,
+  "Model codes (Rosemount 3051CFP ordering information)": 338,
+  "Figure 5: Model Code Example (Rosemount 3051CFP ordering information)": 339,
+  "Optimizing lead time (Rosemount 3051CFP ordering information)": 340,
+  "Model (Rosemount 3051CFP ordering information)": 341,
+  "Measurement type (Rosemount 3051CFP ordering information)": 342,
+  "Material type and body (Rosemount 3051CFP ordering information)": 343,
+  "Line size (Rosemount 3051CFP ordering information)": 344,
+  "Process connection (Rosemount 3051CFP ordering information)": 345,
+  "Orifice plate material (Rosemount 3051CFP ordering information)": 346,
+  "Bore size option (Rosemount 3051CFP ordering information)": 347,
+  "Transmitter connection platform (Rosemount 3051CFP ordering information)": 348,
+  "Differential pressure range (Rosemount 3051CFP ordering information)": 349,
+  "Transmitter output (Rosemount 3051CFP ordering information)": 350,
+  "Housing material (Rosemount 3051CFP ordering information)": 351,
+  "Transmitter performance class (Rosemount 3051CFP ordering information)": 352,
+  "Wireless options (Rosemount 3051CFP ordering information)": 353,
+  "Wireless transmit rate, operating frequency, and protocol (Rosemount 3051CFP ordering information)": 354,
+  "Antenna and SmartPower™ (Rosemount 3051CFP ordering information)": 355,
+  "Local wireless device access (Rosemount 3051CFP ordering information)": 356,
+  "Extended product warranty (Rosemount 3051CFP ordering information)": 357,
+  "Alternate transmitter diaphragm material (Rosemount 3051CFP ordering information)": 358,
+  "Transmitter body/bolt material (Rosemount 3051CFP ordering information)": 359,
+  "Temperature sensor (Rosemount 3051CFP ordering information)": 360,
+  "Optional connection (Rosemount 3051CFP ordering information)": 361,
+  "Pressure testing (Rosemount 3051CFP ordering information)": 362,
+  "Special cleaning (Rosemount 3051CFP ordering information)": 363,
+  "Material testing (Rosemount 3051CFP ordering information)": 364,
+  "Material examination (Rosemount 3051CFP ordering information)": 365,
+  "Flow calibration (Rosemount 3051CFP ordering information)": 366,
+  "Special inspection (Rosemount 3051CFP ordering information)": 367,
+  "Material traceability certification (Rosemount 3051CFP ordering information)": 368,
+  "Positive material identification (PMI) (Rosemount 3051CFP ordering information)": 369,
+  "Code conformance (Rosemount 3051CFP ordering information)": 370,
+  "Materials conformance (Rosemount 3051CFP ordering information)": 371,
+  "Country certification (Rosemount 3051CFP ordering information)": 372,
+  "Transmitter calibration certification (Rosemount 3051CFP ordering information)": 373,
+  "Quality certification for safety (Rosemount 3051CFP ordering information)": 374,
+  "Product certification (Rosemount 3051CFP ordering information)": 375,
+  "Sensor fill fluid and O-ring options (Rosemount 3051CFP ordering information)": 376,
+  "Shipboard approvals (Rosemount 3051CFP ordering information)": 377,
+  "Display and interface options (Rosemount 3051CFP ordering information)": 378,
+  "Transient protection (Rosemount 3051CFP ordering information)": 379,
+  "Plantweb™ control functionality (Rosemount 3051CFP ordering information)": 380,
+  "Plantweb™ diagnostic functionality (Rosemount 3051CFP ordering information)": 381,
+  "Alarm levels (Rosemount 3051CFP ordering information)": 382,
+  "Ground screw (Rosemount 3051CFP ordering information)": 383,
+  "Enhanced safety (Rosemount 3051CFP ordering information)": 384,
+  "Configuration buttons (Rosemount 3051CFP ordering information)": 385,
+  "Enhanced software (Rosemount 3051CFP ordering information)": 386,
+  "Rosemount 3051L Level Transmitter ordering information (Rosemount 3051L ordering information)": 387,
+  "Online product configurator (Rosemount 3051L ordering information)": 388,
+  "Specifications and options (Rosemount 3051L ordering information)": 389,
+  "Model codes (Rosemount 3051L ordering information)": 390,
+  "Figure 6: Model Code Example (Rosemount 3051L ordering information)": 391,
+  "Optimizing lead time (Rosemount 3051L ordering information)": 392,
+  "Model (Rosemount 3051L ordering information)": 393,
+  "Pressure range (Rosemount 3051L ordering information)": 394,
+  "Transmitter output (Rosemount 3051L ordering information)": 395,
+  "Process connection size, material, extension length (high side) (Rosemount 3051L ordering information)": 396,
+  "Mounting flange size, rating, material (high side) (Rosemount 3051L ordering information)": 397,
+  "Seal fill fluid (Rosemount 3051L ordering information)": 398,
+  "Low pressure side (Rosemount 3051L ordering information)": 399,
+  "O-ring (Rosemount 3051L ordering information)": 400,
+  "Housing material (Rosemount 3051L ordering information)": 401,
+  "Wireless options (Rosemount 3051L ordering information)": 402,
+  "Wireless transmit rate, operating frequency, and protocol (Rosemount 3051L ordering information)": 403,
+  "Antenna and SmartPower (Rosemount 3051L ordering information)": 404,
+  "Additional options (Rosemount 3051L ordering information)": 405,
+  "Local wireless device access (Rosemount 3051L ordering information)": 406,
+  "Extended product warranty (Rosemount 3051L ordering information)": 407,
+  "Plantweb™ control functionality (Rosemount 3051L ordering information)": 408,
+  "Plantweb™ diagnostic functionality (Rosemount 3051L ordering information)": 409,
+  "Seal assemblies (Rosemount 3051L ordering information)": 410,
+  "Remote seal diaphragm coating (Rosemount 3051L ordering information)": 411,
+  "Product certifications (Rosemount 3051L ordering information)": 412,
+  "Shipboard approvals (Rosemount 3051L ordering information)": 413,
+  "Bolting material (Rosemount 3051L ordering information)": 414,
+  "Display and interface options (Rosemount 3051L ordering information)": 415,
+  "Calibration certificate (Rosemount 3051L ordering information)": 416,
+  "Material traceability certification (Rosemount 3051L ordering information)": 417,
+  "Positive material identification (PMI) (Rosemount 3051L ordering information)": 418,
+  "Quality certification for safety (Rosemount 3051L ordering information)": 419,
+  "Total system performance reports (Rosemount 3051L ordering information)": 420,
+  "Conduit electrical connector (Rosemount 3051L ordering information)": 421,
+  "Enhanced safety (Rosemount 3051L ordering information)": 422,
+  "Configuration buttons (Rosemount 3051L ordering information)": 423,
+  "Transient protection (Rosemount 3051L ordering information)": 424,
+  "Software configuration (Rosemount 3051L ordering information)": 425,
+  "Alarm levels (Rosemount 3051L ordering information)": 426,
+  "Conduit plug (Rosemount 3051L ordering information)": 427,
+  "Ground screw (Rosemount 3051L ordering information)": 428,
+  "Lower housing flushing connection options (Rosemount 3051L ordering information)": 429,
+  "Lower housing intermediate gasket material (Rosemount 3051L ordering information)": 430,
+  "NACE certificate (Rosemount 3051L ordering information)": 431,
+  "Enhanced software (Rosemount 3051L ordering information)": 432,
+  "Conformance to specifications (±3σ [Sigma])": 433,
+  "Reference accuracy": 434,
+  "Reference accuracy - table 1": 435,
+  "Flow Performance - Flow Reference Accuracy": 436,
+  "Flow Performance - Flow Reference Accuracy - table 1": 437,
+  "Total performance": 438,
+  "Total performance - table 1": 439,
+  "Long term stability - table 1": 440,
+  "Dynamic performance - table 1": 441,
+  "Line pressure effect per 1000 psi (68.95 bar)": 442,
+  "Ambient temperature effect per 50 °F (28 ℃) - table 1": 443,
+  "Mounting position effects - table 1": 444,
+  "Vibration effect": 445,
+  "Power supply effect": 446,
+  "Electromagnetic compatibility": 447,
+  "Transient protection (option code T1)": 448,
+  "Service": 449,
+  "Power supply - 4-20 mA HART® (output code A)": 450,
+  "Load limitations - 4-20 mA HART® (output code A)": 451,
+  "Indication - 4-20 mA HART® (output code A)": 452,
+  "Optional configuration buttons - 4-20 mA HART® (output code A)": 453,
+  "Output - 4-20 mA HART® (output code A)": 454,
+  "Bluetooth® Connectivity - 4-20 mA HART® (output code A)": 455,
+  "Power supply - FOUNDATION™ Fieldbus (output code F)": 456,
+  "Current draw - FOUNDATION™ Fieldbus (output code F)": 457,
+  "Indication - FOUNDATION™ Fieldbus (output code F)": 458,
+  "FOUNDATION Fieldbus block execution times - table 1": 459,
+  "FOUNDATION Fieldbus parameters - table 1": 460,
+  "FOUNDATION Fieldbus function blocks (option A01)": 461,
+  "Backup Link Active Scheduler (LAS)": 462,
+  "FOUNDATION Fieldbus Diagnostics Suite (option code D01)": 463,
+  "Profile version - PROFIBUS® PA (output code W)": 464,
+  "Power supply - PROFIBUS® PA (output code W)": 465,
+  "Current draw - PROFIBUS® PA (output code W)": 466,
+  "Output update rate - PROFIBUS® PA (output code W)": 467,
+  "Standard function block - PROFIBUS® PA (output code W)": 468,
+  "Note - PROFIBUS® PA (output code W)": 469,
+  "Indication - PROFIBUS® PA (output code W)": 470,
+  "LOI - PROFIBUS® PA (output code W)": 471,
+  "Output - Wireless (output code X)": 472,
+  "Wireless radio (internal antenna, WP5 option)": 473,
+  "Local display - Wireless (output code X)": 474,
+  "Digital zero trim - Wireless (output code X)": 475,
+  "Update rate - Wireless (output code X)": 476,
+  "Wireless sensor module for in-line transmitters": 477,
+  "Power module - Wireless (output code X)": 478,
+  "Note - Wireless (output code X)": 479,
+  "Output - 1-5 Vdc HART® low power (output code M)": 480,
+  "Power consumption - 1-5 Vdc HART® low power (output code M)": 481,
+  "Minimum load impedance - 1-5 Vdc HART® low power (output code M)": 482,
+  "Indication - 1-5 Vdc HART® low power (output code M)": 483,
+  "Overpressure limits": 484,
+  "Static pressure limit": 485,
+  "Burst pressure limits": 486,
+  "Failure mode alarm": 487,
+  "Ambient - Temperature limits": 488,
+  "Storage - Temperature limits": 489,
+  "Process - Temperature limits": 490,
+  "Humidity limits": 491,
+  "Turn-on time": 492,
+  "Volumetric displacement": 493,
+  "Damping": 494,
+  "Electrical connections": 495,
+  "Process connections": 496,
+  "Drain/vent valves": 497,
+  "Transmitter flanges and adapters": 498,
+  "Wetted O-rings": 499,
+  "Process isolating diaphragms - table 1": 500,
+  "Rosemount 3051L process wetted parts": 501,
+  "Electronics housing": 502,
+  "Coplanar sensor housing module": 503,
+  "Bolts": 504,
+  "Sensor module fill fluid": 505,
+  "Process fill fluid (Rosemount 3051L only)": 506,
+  "Paint": 507,
+  "Cover O-rings": 508,
+  "Power module - Physical specifications": 509,
+  "Shipping weights": 510,
+  "Rosemount 3051 product certifications": 511,
+  "Rosemount 3051 product certifications - table 1": 512,
+  "Figure 21: Rosemount 3051CFC Compact Orifice Flow meter": 513,
+  "Figure 22: Rosemount 3051CFP Integral Orifice Flow meter": 514,
+  "Figure 24: Optional Flushing Connection Ring (Lower Housing) for Rosemount 3051L": 515,
+  "Standard configuration": 516,
+  "Standard configuration - table 1": 517,
+  "Display default settings": 518,
+  "Custom configuration": 519,
+  "Tagging (three options available)": 520,
+  "Commissioning tag": 521,
+  "Optional Rosemount 304, 305, or 306 Integral Manifolds": 522,
+  "Other seals": 523,
+  "Output information": 524,
+  "Output information - table 1": 525,
+  "Display and interface options": 526,
+  "Configuration buttons": 527,
+  "Transient protection (option code T1) - Options": 528,
+  "External ground screw assembly": 529,
+  "Bolts for flanges and adapters": 530,
+  "Conduit plug": 531,
+  "Rosemount 3051C Coplanar Flange and 3051T bracket option": 532,
+  "Rosemount 3051C Traditional Flange bracket options": 533
+ },
+ "global_rules": [
+  {
+   "match": "^Code (?P<v>.+)$",
+   "role": "condition",
+   "dimension": "option code"
+  },
+  {
+   "match": "^(?:Option code|Option|Ordering option code) (?P<v>[A-Z0-9][A-Za-z0-9/, ]{0,20})$",
+   "role": "condition",
+   "dimension": "option code"
+  },
+  {
+   "match": "^(?P<v>Rosemount 3051.*|3051[A-Z]{0,3})$",
+   "role": "condition",
+   "dimension": "model"
+  },
+  {
+   "match": "^(?P<v>Range.*|Ranges? \\d.*)$",
+   "role": "condition",
+   "dimension": "range"
+  },
+  {
+   "match": "^(?P<v>.*\\(output (?:option )?code [A-Z]\\)|Low power output|Output code .*|4-20 mA HART®|FOUNDATION™ Fieldbus|PROFIBUS® PA|HART® Protocol|.*Protocol)$",
+   "role": "condition",
+   "dimension": "output protocol"
+  },
+  {
+   "match": "^(?P<v>(?:Differential|Gage|Absolute)\\b.*)$",
+   "role": "condition",
+   "dimension": "measurement type"
+  },
+  {
+   "match": "(?i)^(?P<v>.*(?:HART|Fieldbus|PROFIBUS|1-5 VDC Low Power).*|Wireless|Wireless option code X)$",
+   "role": "condition",
+   "dimension": "output protocol"
+  },
+  {
+   "match": "^(?P<v>Wireless options|Materials of construction|Additional options)$",
+   "role": "condition",
+   "dimension": "option group"
+  },
+  {
+   "match": "^(?P<v>Figure \\d+: Model Code Example)$",
+   "role": "condition",
+   "dimension": "figure"
+  },
+  {
+   "match": "^(?:Part )?(?P<v>[12])$",
+   "role": "condition",
+   "dimension": "model code part"
+  },
+  {
+   "match": "^(?P<v>Packing gland|Opposite side support)$",
+   "role": "condition",
+   "dimension": "mounting component"
+  },
+  {
+   "match": "^for (?P<v>.+ pipe)$",
+   "role": "condition",
+   "dimension": "line size"
+  },
+  {
+   "match": "^(?:Temperature limits|Physical specifications)$",
+   "role": "ignore"
+  },
+  {
+   "match": "^Temperature limits \\((?P<v>.+)\\)$",
+   "role": "condition",
+   "dimension": "reference condition"
+  },
+  {
+   "match": "^(?P<v>Transmitter process-wetted parts|Non-wetted parts)$",
+   "role": "condition",
+   "dimension": "part group"
+  },
+  {
+   "match": "^(?P<v>For spans? .+|At \\d+:1 flow turndown|From \\d+:1 to \\d+:1.*)$",
+   "role": "condition",
+   "dimension": "turndown"
+  },
+  {
+   "match": "^(?P<v>For \\d+ years?)$",
+   "role": "condition",
+   "dimension": "time period"
+  },
+  {
+   "match": "^(?P<v>For line pressures? .+)$",
+   "role": "condition",
+   "dimension": "line pressure"
+  },
+  {
+   "match": "^(?P<v>For \\+50 .+)$",
+   "role": "condition",
+   "dimension": "operating condition"
+  },
+  {
+   "match": "^(?P<v>β.*|\\d\\.\\d< ?β.*)$",
+   "role": "condition",
+   "dimension": "beta ratio"
+  },
+  {
+   "match": "^(?P<v>Zero error|Span error)$",
+   "role": "condition",
+   "dimension": "error type"
+  },
+  {
+   "match": "^Class ?: (?P<v>.+)$",
+   "role": "condition",
+   "dimension": "flange class"
+  },
+  {
+   "match": "^(?P<v>Class \\d+|PN [\\d/-]+)$",
+   "role": "condition",
+   "dimension": "flange rating"
+  },
+  {
+   "match": "^(?P<v>ANSI/ASME|DIN)$",
+   "role": "condition",
+   "dimension": "flange standard"
+  },
+  {
+   "match": "^Pipe size: (?P<v>.+)$",
+   "role": "condition",
+   "dimension": "pipe size"
+  },
+  {
+   "match": "^(?P<v>DN \\d+/ ?PN [\\d/]+|\\d-inch, Class \\d+)$",
+   "role": "condition",
+   "dimension": "flange size and rating"
+  },
+  {
+   "match": "^(?P<v>Flush|\\d-in\\. exten[st]ion)$",
+   "role": "condition",
+   "dimension": "extension length"
+  },
+  {
+   "match": "^With (?P<v>.+)$",
+   "role": "condition",
+   "dimension": "configuration"
+  },
+  {
+   "match": "^Sensor size (?P<v>\\d)$",
+   "role": "condition",
+   "dimension": "sensor size"
+  },
+  {
+   "match": "^Line size (?P<v>.+)$",
+   "role": "condition",
+   "dimension": "line size"
+  },
+  {
+   "match": "^Primary element type (?P<v>.+)$",
+   "role": "condition",
+   "dimension": "primary element type"
+  },
+  {
+   "match": "^(?P<v>open|closed)$",
+   "role": "condition",
+   "dimension": "valve position"
+  },
+  {
+   "match": "^(?P<v>\\d/\\d-(?:inch )?(?:\\d+ )?NPT.*)$",
+   "role": "condition",
+   "dimension": "connection"
+  },
+  {
+   "match": "^(?P<v>Standard|Calibrated)$",
+   "role": "condition",
+   "dimension": "calibration"
+  },
+  {
+   "match": "^(?P<v>Waveform .+|.*\\d ?[x×] ?\\d+ ?[uµ]s|0\\.5 [uµ]s ?- ?100 kHz)$",
+   "role": "condition",
+   "dimension": "test waveform"
+  },
+  {
+   "match": "^(?P<v>Tested (?:per|in accordance with) .+)$",
+   "role": "condition",
+   "dimension": "test standard"
+  },
+  {
+   "match": "^(?P<v>\\d+-\\d+ Hz)$",
+   "role": "condition",
+   "dimension": "frequency range"
+  },
+  {
+   "match": "^(?P<v>Note|Legend)$",
+   "role": "condition",
+   "dimension": "note"
+  }
+ ],
+ "property_keys": [],
+ "value_aliases": {},
+ "skip_properties": [],
+ "tables": {
+  "101": {
+   "rules": []
+  },
+  "102": {
+   "rules": []
+  },
+  "103": {
+   "rules": []
+  },
+  "104": {
+   "rules": [],
+   "default_role": {
+    "match": "",
+    "role": "condition",
+    "dimension": "feature"
+   }
+  },
+  "105": {
+   "rules": [],
+   "default_role": {
+    "match": "",
+    "role": "condition",
+    "dimension": "feature"
+   }
+  },
+  "106": {
+   "rules": []
+  },
+  "107": {
+   "rules": []
+  },
+  "108": {
+   "rules": [],
+   "default_role": {
+    "match": "",
+    "role": "condition",
+    "dimension": "feature"
+   }
+  },
+  "109": {
+   "rules": []
+  },
+  "110": {
+   "rules": []
+  },
+  "111": {
+   "rules": []
+  },
+  "112": {
+   "rules": [],
+   "default_role": {
+    "match": "",
+    "role": "condition",
+    "dimension": "feature"
+   }
+  },
+  "113": {
+   "rules": []
+  },
+  "114": {
+   "rules": []
+  },
+  "115": {
+   "rules": [],
+   "default_role": {
+    "match": "",
+    "role": "condition",
+    "dimension": "figure"
+   }
+  },
+  "116": {
+   "rules": []
+  },
+  "117": {
+   "rules": []
+  },
+  "118": {
+   "rules": []
+  },
+  "119": {
+   "rules": []
+  },
+  "120": {
+   "rules": []
+  },
+  "121": {
+   "rules": []
+  },
+  "122": {
+   "rules": []
+  },
+  "123": {
+   "rules": []
+  },
+  "124": {
+   "rules": []
+  },
+  "125": {
+   "rules": []
+  },
+  "126": {
+   "rules": []
+  },
+  "127": {
+   "rules": []
+  },
+  "128": {
+   "rules": []
+  },
+  "129": {
+   "rules": []
+  },
+  "130": {
+   "rules": []
+  },
+  "131": {
+   "rules": []
+  },
+  "132": {
+   "rules": []
+  },
+  "133": {
+   "rules": []
+  },
+  "134": {
+   "rules": []
+  },
+  "135": {
+   "rules": []
+  },
+  "136": {
+   "rules": []
+  },
+  "137": {
+   "rules": []
+  },
+  "138": {
+   "rules": []
+  },
+  "139": {
+   "rules": []
+  },
+  "140": {
+   "rules": []
+  },
+  "141": {
+   "rules": []
+  },
+  "142": {
+   "rules": []
+  },
+  "143": {
+   "rules": []
+  },
+  "144": {
+   "rules": []
+  },
+  "145": {
+   "rules": []
+  },
+  "146": {
+   "rules": []
+  },
+  "147": {
+   "rules": []
+  },
+  "148": {
+   "rules": []
+  },
+  "149": {
+   "rules": []
+  },
+  "150": {
+   "rules": []
+  },
+  "151": {
+   "rules": []
+  },
+  "152": {
+   "rules": []
+  },
+  "153": {
+   "rules": []
+  },
+  "154": {
+   "rules": []
+  },
+  "155": {
+   "rules": []
+  },
+  "156": {
+   "rules": []
+  },
+  "157": {
+   "rules": []
+  },
+  "158": {
+   "rules": []
+  },
+  "159": {
+   "rules": []
+  },
+  "160": {
+   "rules": []
+  },
+  "161": {
+   "rules": []
+  },
+  "162": {
+   "rules": []
+  },
+  "163": {
+   "rules": []
+  },
+  "164": {
+   "rules": []
+  },
+  "165": {
+   "rules": []
+  },
+  "166": {
+   "rules": []
+  },
+  "167": {
+   "rules": []
+  },
+  "168": {
+   "rules": []
+  },
+  "169": {
+   "rules": []
+  },
+  "170": {
+   "rules": [],
+   "default_role": {
+    "match": "",
+    "role": "condition",
+    "dimension": "feature"
+   }
+  },
+  "171": {
+   "rules": []
+  },
+  "172": {
+   "rules": []
+  },
+  "173": {
+   "rules": [],
+   "default_role": {
+    "match": "",
+    "role": "condition",
+    "dimension": "figure"
+   }
+  },
+  "174": {
+   "rules": []
+  },
+  "175": {
+   "rules": []
+  },
+  "176": {
+   "rules": []
+  },
+  "177": {
+   "rules": []
+  },
+  "178": {
+   "rules": []
+  },
+  "179": {
+   "rules": []
+  },
+  "180": {
+   "rules": []
+  },
+  "181": {
+   "rules": []
+  },
+  "182": {
+   "rules": []
+  },
+  "183": {
+   "rules": []
+  },
+  "184": {
+   "rules": []
+  },
+  "185": {
+   "rules": []
+  },
+  "186": {
+   "rules": []
+  },
+  "187": {
+   "rules": []
+  },
+  "188": {
+   "rules": []
+  },
+  "189": {
+   "rules": []
+  },
+  "190": {
+   "rules": []
+  },
+  "191": {
+   "rules": []
+  },
+  "192": {
+   "rules": []
+  },
+  "193": {
+   "rules": []
+  },
+  "194": {
+   "rules": []
+  },
+  "195": {
+   "rules": []
+  },
+  "196": {
+   "rules": []
+  },
+  "197": {
+   "rules": []
+  },
+  "198": {
+   "rules": []
+  },
+  "199": {
+   "rules": []
+  },
+  "200": {
+   "rules": []
+  },
+  "201": {
+   "rules": []
+  },
+  "202": {
+   "rules": []
+  },
+  "203": {
+   "rules": []
+  },
+  "204": {
+   "rules": []
+  },
+  "205": {
+   "rules": []
+  },
+  "206": {
+   "rules": []
+  },
+  "207": {
+   "rules": []
+  },
+  "208": {
+   "rules": []
+  },
+  "209": {
+   "rules": []
+  },
+  "210": {
+   "rules": []
+  },
+  "211": {
+   "rules": []
+  },
+  "212": {
+   "rules": []
+  },
+  "213": {
+   "rules": []
+  },
+  "214": {
+   "rules": []
+  },
+  "215": {
+   "rules": []
+  },
+  "216": {
+   "rules": []
+  },
+  "217": {
+   "rules": []
+  },
+  "218": {
+   "rules": []
+  },
+  "219": {
+   "rules": [],
+   "default_role": {
+    "match": "",
+    "role": "condition",
+    "dimension": "feature"
+   }
+  },
+  "220": {
+   "rules": []
+  },
+  "221": {
+   "rules": []
+  },
+  "222": {
+   "rules": []
+  },
+  "223": {
+   "rules": []
+  },
+  "224": {
+   "rules": [],
+   "default_role": {
+    "match": "",
+    "role": "condition",
+    "dimension": "figure"
+   }
+  },
+  "225": {
+   "rules": []
+  },
+  "226": {
+   "rules": []
+  },
+  "227": {
+   "rules": []
+  },
+  "228": {
+   "rules": []
+  },
+  "229": {
+   "rules": []
+  },
+  "230": {
+   "rules": []
+  },
+  "231": {
+   "rules": []
+  },
+  "232": {
+   "rules": []
+  },
+  "233": {
+   "rules": []
+  },
+  "234": {
+   "rules": []
+  },
+  "235": {
+   "rules": []
+  },
+  "236": {
+   "rules": []
+  },
+  "237": {
+   "rules": []
+  },
+  "238": {
+   "rules": []
+  },
+  "239": {
+   "rules": []
+  },
+  "240": {
+   "rules": []
+  },
+  "241": {
+   "rules": []
+  },
+  "242": {
+   "rules": []
+  },
+  "243": {
+   "rules": []
+  },
+  "244": {
+   "rules": []
+  },
+  "245": {
+   "rules": []
+  },
+  "246": {
+   "rules": []
+  },
+  "247": {
+   "rules": []
+  },
+  "248": {
+   "rules": []
+  },
+  "249": {
+   "rules": []
+  },
+  "250": {
+   "rules": []
+  },
+  "251": {
+   "rules": []
+  },
+  "252": {
+   "rules": []
+  },
+  "253": {
+   "rules": []
+  },
+  "254": {
+   "rules": []
+  },
+  "255": {
+   "rules": []
+  },
+  "256": {
+   "rules": []
+  },
+  "257": {
+   "rules": []
+  },
+  "258": {
+   "rules": []
+  },
+  "259": {
+   "rules": []
+  },
+  "260": {
+   "rules": []
+  },
+  "261": {
+   "rules": []
+  },
+  "262": {
+   "rules": []
+  },
+  "263": {
+   "rules": []
+  },
+  "264": {
+   "rules": []
+  },
+  "265": {
+   "rules": []
+  },
+  "266": {
+   "rules": []
+  },
+  "267": {
+   "rules": []
+  },
+  "268": {
+   "rules": []
+  },
+  "269": {
+   "rules": []
+  },
+  "270": {
+   "rules": []
+  },
+  "271": {
+   "rules": []
+  },
+  "272": {
+   "rules": []
+  },
+  "273": {
+   "rules": []
+  },
+  "274": {
+   "rules": []
+  },
+  "275": {
+   "rules": []
+  },
+  "276": {
+   "rules": []
+  },
+  "277": {
+   "rules": []
+  },
+  "278": {
+   "rules": []
+  },
+  "279": {
+   "rules": []
+  },
+  "280": {
+   "rules": []
+  },
+  "281": {
+   "rules": []
+  },
+  "282": {
+   "rules": []
+  },
+  "283": {
+   "rules": [],
+   "default_role": {
+    "match": "",
+    "role": "condition",
+    "dimension": "feature"
+   }
+  },
+  "284": {
+   "rules": []
+  },
+  "285": {
+   "rules": []
+  },
+  "286": {
+   "rules": []
+  },
+  "287": {
+   "rules": [],
+   "default_role": {
+    "match": "",
+    "role": "condition",
+    "dimension": "figure"
+   }
+  },
+  "288": {
+   "rules": []
+  },
+  "289": {
+   "rules": []
+  },
+  "290": {
+   "rules": []
+  },
+  "291": {
+   "rules": []
+  },
+  "292": {
+   "rules": []
+  },
+  "293": {
+   "rules": []
+  },
+  "294": {
+   "rules": []
+  },
+  "295": {
+   "rules": []
+  },
+  "296": {
+   "rules": []
+  },
+  "297": {
+   "rules": []
+  },
+  "298": {
+   "rules": []
+  },
+  "299": {
+   "rules": []
+  },
+  "300": {
+   "rules": []
+  },
+  "301": {
+   "rules": []
+  },
+  "302": {
+   "rules": []
+  },
+  "303": {
+   "rules": []
+  },
+  "304": {
+   "rules": []
+  },
+  "305": {
+   "rules": []
+  },
+  "306": {
+   "rules": []
+  },
+  "307": {
+   "rules": []
+  },
+  "308": {
+   "rules": []
+  },
+  "309": {
+   "rules": []
+  },
+  "310": {
+   "rules": []
+  },
+  "311": {
+   "rules": []
+  },
+  "312": {
+   "rules": []
+  },
+  "313": {
+   "rules": []
+  },
+  "314": {
+   "rules": []
+  },
+  "315": {
+   "rules": []
+  },
+  "316": {
+   "rules": []
+  },
+  "317": {
+   "rules": []
+  },
+  "318": {
+   "rules": []
+  },
+  "319": {
+   "rules": []
+  },
+  "320": {
+   "rules": []
+  },
+  "321": {
+   "rules": []
+  },
+  "322": {
+   "rules": []
+  },
+  "323": {
+   "rules": []
+  },
+  "324": {
+   "rules": []
+  },
+  "325": {
+   "rules": []
+  },
+  "326": {
+   "rules": []
+  },
+  "327": {
+   "rules": []
+  },
+  "328": {
+   "rules": []
+  },
+  "329": {
+   "rules": []
+  },
+  "330": {
+   "rules": []
+  },
+  "331": {
+   "rules": []
+  },
+  "332": {
+   "rules": []
+  },
+  "333": {
+   "rules": []
+  },
+  "334": {
+   "rules": [],
+   "default_role": {
+    "match": "",
+    "role": "condition",
+    "dimension": "feature"
+   }
+  },
+  "335": {
+   "rules": []
+  },
+  "336": {
+   "rules": []
+  },
+  "337": {
+   "rules": []
+  },
+  "338": {
+   "rules": [],
+   "default_role": {
+    "match": "",
+    "role": "condition",
+    "dimension": "figure"
+   }
+  },
+  "339": {
+   "rules": []
+  },
+  "340": {
+   "rules": []
+  },
+  "341": {
+   "rules": []
+  },
+  "342": {
+   "rules": []
+  },
+  "343": {
+   "rules": []
+  },
+  "344": {
+   "rules": []
+  },
+  "345": {
+   "rules": []
+  },
+  "346": {
+   "rules": []
+  },
+  "347": {
+   "rules": []
+  },
+  "348": {
+   "rules": []
+  },
+  "349": {
+   "rules": []
+  },
+  "350": {
+   "rules": []
+  },
+  "351": {
+   "rules": []
+  },
+  "352": {
+   "rules": []
+  },
+  "353": {
+   "rules": []
+  },
+  "354": {
+   "rules": []
+  },
+  "355": {
+   "rules": []
+  },
+  "356": {
+   "rules": []
+  },
+  "357": {
+   "rules": []
+  },
+  "358": {
+   "rules": []
+  },
+  "359": {
+   "rules": []
+  },
+  "360": {
+   "rules": []
+  },
+  "361": {
+   "rules": []
+  },
+  "362": {
+   "rules": []
+  },
+  "363": {
+   "rules": []
+  },
+  "364": {
+   "rules": []
+  },
+  "365": {
+   "rules": []
+  },
+  "366": {
+   "rules": []
+  },
+  "367": {
+   "rules": []
+  },
+  "368": {
+   "rules": []
+  },
+  "369": {
+   "rules": []
+  },
+  "370": {
+   "rules": []
+  },
+  "371": {
+   "rules": []
+  },
+  "372": {
+   "rules": []
+  },
+  "373": {
+   "rules": []
+  },
+  "374": {
+   "rules": []
+  },
+  "375": {
+   "rules": []
+  },
+  "376": {
+   "rules": []
+  },
+  "377": {
+   "rules": []
+  },
+  "378": {
+   "rules": []
+  },
+  "379": {
+   "rules": []
+  },
+  "380": {
+   "rules": []
+  },
+  "381": {
+   "rules": []
+  },
+  "382": {
+   "rules": []
+  },
+  "383": {
+   "rules": []
+  },
+  "384": {
+   "rules": []
+  },
+  "385": {
+   "rules": []
+  },
+  "386": {
+   "rules": []
+  },
+  "387": {
+   "rules": [],
+   "default_role": {
+    "match": "",
+    "role": "condition",
+    "dimension": "feature"
+   }
+  },
+  "388": {
+   "rules": []
+  },
+  "389": {
+   "rules": []
+  },
+  "390": {
+   "rules": [],
+   "default_role": {
+    "match": "",
+    "role": "condition",
+    "dimension": "figure"
+   }
+  },
+  "391": {
+   "rules": []
+  },
+  "392": {
+   "rules": []
+  },
+  "393": {
+   "rules": []
+  },
+  "394": {
+   "rules": []
+  },
+  "395": {
+   "rules": []
+  },
+  "396": {
+   "rules": []
+  },
+  "397": {
+   "rules": []
+  },
+  "398": {
+   "rules": []
+  },
+  "399": {
+   "rules": []
+  },
+  "400": {
+   "rules": []
+  },
+  "401": {
+   "rules": []
+  },
+  "402": {
+   "rules": []
+  },
+  "403": {
+   "rules": []
+  },
+  "404": {
+   "rules": []
+  },
+  "405": {
+   "rules": []
+  },
+  "406": {
+   "rules": []
+  },
+  "407": {
+   "rules": []
+  },
+  "408": {
+   "rules": []
+  },
+  "409": {
+   "rules": []
+  },
+  "410": {
+   "rules": []
+  },
+  "411": {
+   "rules": []
+  },
+  "412": {
+   "rules": []
+  },
+  "413": {
+   "rules": []
+  },
+  "414": {
+   "rules": []
+  },
+  "415": {
+   "rules": []
+  },
+  "416": {
+   "rules": []
+  },
+  "417": {
+   "rules": []
+  },
+  "418": {
+   "rules": []
+  },
+  "419": {
+   "rules": []
+  },
+  "420": {
+   "rules": []
+  },
+  "421": {
+   "rules": []
+  },
+  "422": {
+   "rules": []
+  },
+  "423": {
+   "rules": []
+  },
+  "424": {
+   "rules": []
+  },
+  "425": {
+   "rules": []
+  },
+  "426": {
+   "rules": []
+  },
+  "427": {
+   "rules": []
+  },
+  "428": {
+   "rules": []
+  },
+  "429": {
+   "rules": []
+  },
+  "430": {
+   "rules": []
+  },
+  "431": {
+   "rules": []
+  },
+  "432": {
+   "rules": []
+  },
+  "433": {
+   "rules": []
+  },
+  "434": {
+   "rules": [],
+   "default_role": {
+    "match": "",
+    "role": "condition",
+    "dimension": "device group"
+   }
+  },
+  "435": {
+   "rules": []
+  },
+  "436": {
+   "rules": []
+  },
+  "437": {
+   "rules": []
+  },
+  "438": {
+   "rules": [],
+   "default_role": {
+    "match": "",
+    "role": "condition",
+    "dimension": "operating condition"
+   }
+  },
+  "439": {
+   "rules": []
+  },
+  "440": {
+   "rules": []
+  },
+  "441": {
+   "rules": [],
+   "default_role": {
+    "match": "",
+    "role": "condition",
+    "dimension": "response time aspect"
+   }
+  },
+  "442": {
+   "rules": [],
+   "default_role": {
+    "match": "",
+    "role": "condition",
+    "dimension": "line pressure"
+   }
+  },
+  "443": {
+   "rules": []
+  },
+  "444": {
+   "rules": [],
+   "default_role": {
+    "match": "",
+    "role": "condition",
+    "dimension": "mounting orientation"
+   }
+  },
+  "445": {
+   "rules": [],
+   "default_role": {
+    "match": "",
+    "role": "condition",
+    "dimension": "test condition"
+   }
+  },
+  "446": {
+   "rules": []
+  },
+  "447": {
+   "rules": [],
+   "default_role": {
+    "match": "",
+    "role": "condition",
+    "dimension": "test condition"
+   }
+  },
+  "448": {
+   "rules": [],
+   "default_role": {
+    "match": "",
+    "role": "condition",
+    "dimension": "test condition"
+   }
+  },
+  "449": {
+   "rules": []
+  },
+  "450": {
+   "rules": [],
+   "default_role": {
+    "match": "",
+    "role": "condition",
+    "dimension": "supply configuration"
+   }
+  },
+  "451": {
+   "rules": [],
+   "default_role": {
+    "match": "",
+    "role": "condition",
+    "dimension": "load aspect"
+   }
+  },
+  "452": {
+   "rules": [],
+   "default_role": {
+    "match": "",
+    "role": "condition",
+    "dimension": "display option"
+   }
+  },
+  "453": {
+   "rules": [],
+   "default_role": {
+    "match": "",
+    "role": "condition",
+    "dimension": "button option"
+   }
+  },
+  "454": {
+   "rules": []
+  },
+  "455": {
+   "rules": [],
+   "default_role": {
+    "match": "",
+    "role": "condition",
+    "dimension": "range condition"
+   }
+  },
+  "456": {
+   "rules": [],
+   "default_role": {
+    "match": "",
+    "role": "condition",
+    "dimension": "supply configuration"
+   }
+  },
+  "457": {
+   "rules": [],
+   "default_role": {
+    "match": "",
+    "role": "condition",
+    "dimension": "configuration"
+   }
+  },
+  "458": {
+   "rules": []
+  },
+  "459": {
+   "rules": [],
+   "default_role": {
+    "match": "",
+    "role": "condition",
+    "dimension": "function block"
+   }
+  },
+  "460": {
+   "rules": []
+  },
+  "461": {
+   "rules": [],
+   "default_role": {
+    "match": "",
+    "role": "condition",
+    "dimension": "function block"
+   }
+  },
+  "462": {
+   "rules": []
+  },
+  "463": {
+   "rules": []
+  },
+  "464": {
+   "rules": []
+  },
+  "465": {
+   "rules": [],
+   "default_role": {
+    "match": "",
+    "role": "condition",
+    "dimension": "supply configuration"
+   }
+  },
+  "466": {
+   "rules": [],
+   "default_role": {
+    "match": "",
+    "role": "condition",
+    "dimension": "configuration"
+   }
+  },
+  "467": {
+   "rules": []
+  },
+  "468": {
+   "rules": [],
+   "default_role": {
+    "match": "",
+    "role": "condition",
+    "dimension": "function block"
+   }
+  },
+  "469": {
+   "rules": [],
+   "default_role": {
+    "match": "",
+    "role": "condition",
+    "dimension": "function block"
+   }
+  },
+  "470": {
+   "rules": []
+  },
+  "471": {
+   "rules": []
+  },
+  "472": {
+   "rules": []
+  },
+  "473": {
+   "rules": []
+  },
+  "474": {
+   "rules": []
+  },
+  "475": {
+   "rules": []
+  },
+  "476": {
+   "rules": []
+  },
+  "477": {
+   "rules": []
+  },
+  "478": {
+   "rules": []
+  },
+  "479": {
+   "rules": [],
+   "default_role": {
+    "match": "",
+    "role": "condition",
+    "dimension": "component"
+   }
+  },
+  "480": {
+   "rules": [],
+   "default_role": {
+    "match": "",
+    "role": "condition",
+    "dimension": "load condition"
+   }
+  },
+  "481": {
+   "rules": []
+  },
+  "482": {
+   "rules": [],
+   "default_role": {
+    "match": "",
+    "role": "condition",
+    "dimension": "wiring"
+   }
+  },
+  "483": {
+   "rules": []
+  },
+  "484": {
+   "rules": []
+  },
+  "485": {
+   "rules": []
+  },
+  "486": {
+   "rules": []
+  },
+  "487": {
+   "rules": []
+  },
+  "488": {
+   "rules": [],
+   "default_role": {
+    "match": "",
+    "role": "condition",
+    "dimension": "configuration"
+   }
+  },
+  "489": {
+   "rules": []
+  },
+  "490": {
+   "rules": []
+  },
+  "491": {
+   "rules": []
+  },
+  "492": {
+   "rules": [],
+   "default_role": {
+    "match": "",
+    "role": "condition",
+    "dimension": "output protocol"
+   }
+  },
+  "493": {
+   "rules": []
+  },
+  "494": {
+   "rules": []
+  },
+  "495": {
+   "rules": [],
+   "default_role": {
+    "match": "",
+    "role": "condition",
+    "dimension": "housing"
+   }
+  },
+  "496": {
+   "rules": [],
+   "default_role": {
+    "match": "",
+    "role": "condition",
+    "dimension": "process connection"
+   }
+  },
+  "497": {
+   "rules": []
+  },
+  "498": {
+   "rules": [],
+   "default_role": {
+    "match": "",
+    "role": "condition",
+    "dimension": "flange material"
+   }
+  },
+  "499": {
+   "rules": []
+  },
+  "500": {
+   "rules": [],
+   "default_role": {
+    "match": "",
+    "role": "condition",
+    "dimension": "diaphragm material"
+   }
+  },
+  "501": {
+   "rules": [],
+   "default_role": {
+    "match": "",
+    "role": "condition",
+    "dimension": "process connection side"
+   }
+  },
+  "502": {
+   "rules": [],
+   "default_role": {
+    "match": "",
+    "role": "condition",
+    "dimension": "housing"
+   }
+  },
+  "503": {
+   "rules": []
+  },
+  "504": {
+   "rules": [],
+   "default_role": {
+    "match": "",
+    "role": "condition",
+    "dimension": "bolt material"
+   }
+  },
+  "505": {
+   "rules": [],
+   "default_role": {
+    "match": "",
+    "role": "condition",
+    "dimension": "sensor module type"
+   }
+  },
+  "506": {
+   "rules": []
+  },
+  "507": {
+   "rules": []
+  },
+  "508": {
+   "rules": []
+  },
+  "509": {
+   "rules": []
+  },
+  "510": {
+   "rules": []
+  },
+  "511": {
+   "rules": []
+  },
+  "512": {
+   "rules": []
+  },
+  "513": {
+   "rules": []
+  },
+  "514": {
+   "rules": []
+  },
+  "515": {
+   "rules": []
+  },
+  "516": {
+   "rules": []
+  },
+  "517": {
+   "rules": []
+  },
+  "518": {
+   "rules": []
+  },
+  "519": {
+   "rules": [],
+   "default_role": {
+    "match": "",
+    "role": "condition",
+    "dimension": "output protocol"
+   }
+  },
+  "520": {
+   "rules": [],
+   "default_role": {
+    "match": "",
+    "role": "condition",
+    "dimension": "tag type"
+   }
+  },
+  "521": {
+   "rules": []
+  },
+  "522": {
+   "rules": []
+  },
+  "523": {
+   "rules": []
+  },
+  "524": {
+   "rules": []
+  },
+  "525": {
+   "rules": [],
+   "default_role": {
+    "match": "",
+    "role": "condition",
+    "dimension": "unit category"
+   }
+  },
+  "526": {
+   "rules": [],
+   "default_role": {
+    "match": "",
+    "role": "condition",
+    "dimension": "display option"
+   }
+  },
+  "527": {
+   "rules": []
+  },
+  "528": {
+   "rules": [],
+   "default_role": {
+    "match": "",
+    "role": "condition",
+    "dimension": "test condition"
+   }
+  },
+  "529": {
+   "rules": []
+  },
+  "530": {
+   "rules": []
+  },
+  "531": {
+   "rules": []
+  },
+  "532": {
+   "rules": []
+  },
+  "533": {
+   "rules": []
+  },
+  "1": {
+   "rules": []
+  },
+  "2": {
+   "rules": []
+  },
+  "3": {
+   "rules": []
+  },
+  "4": {
+   "rules": []
+  },
+  "5": {
+   "rules": [],
+   "default_role": {
+    "match": "",
+    "role": "condition",
+    "dimension": "alarm setting"
+   }
+  },
+  "6": {
+   "rules": [],
+   "default_role": {
+    "match": "",
+    "role": "condition",
+    "dimension": "fill fluid"
+   }
+  },
+  "7": {
+   "rules": []
+  },
+  "8": {
+   "rules": []
+  },
+  "9": {
+   "rules": [],
+   "default_role": {
+    "match": "",
+    "role": "condition",
+    "dimension": "configuration"
+   }
+  },
+  "10": {
+   "rules": []
+  },
+  "11": {
+   "rules": []
+  },
+  "12": {
+   "rules": [],
+   "default_role": {
+    "match": "",
+    "role": "condition",
+    "dimension": "display"
+   }
+  },
+  "13": {
+   "rules": []
+  }
+ }
+}

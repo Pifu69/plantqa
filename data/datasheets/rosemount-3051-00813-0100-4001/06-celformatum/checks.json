@@ -1,0 +1,61 @@
+{
+  "summary": {
+    "records_in": 4226,
+    "facts_out": 3571,
+    "dual_unit_pairs_merged": 414,
+    "footnotes": 216,
+    "skipped": 25,
+    "missing_records": 0,
+    "figures": 68,
+    "links": 91,
+    "charts": 0,
+    "regions": 0,
+    "regions_labelled": 0,
+    "regions_multiple_labels": 0,
+    "regions_unlabelled": 0,
+    "records_without_path_separator": 0
+  },
+  "accounting": {
+    "records_in": 4226,
+    "missing": [],
+    "counted_twice": []
+  },
+  "footnote_links": {
+    "links": 805,
+    "unresolved": []
+  },
+  "references": {
+    "references": 0,
+    "internal_ok": 0,
+    "external": 0,
+    "broken": []
+  },
+  "dual_units": {
+    "facts_with_two_values": 414,
+    "dual_unit_mismatch": 10,
+    "unpaired_dual_unit": 0,
+    "paired_by_order": 0
+  },
+  "charts": {
+    "charts": 0,
+    "regions": 0,
+    "regions_labelled": 0,
+    "regions_multiple_labels": 0,
+    "regions_unlabelled": 0,
+    "labels_not_found": []
+  },
+  "value_types": {
+    "text": 2576,
+    "code": 348,
+    "quantity": 647
+  },
+  "flags": {
+    "dual_unit_mismatch": 10
+  },
+  "links": {
+    "part_label": 28,
+    "legend": 49,
+    "table_header": 14
+  },
+  "links_without_label_box": 32
+}

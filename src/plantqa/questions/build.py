@@ -155,7 +155,7 @@ def composite_family(
     by_relation: dict[str, list[Step]] = defaultdict(list)
     for step in plant_steps:
         by_relation[step.relation].append(step)
-    out = []
+    out: list[dict[str, Any]] = []
     for step in _round_robin(dict(by_relation), len(plant_steps)):
         if pools[step.target_document] and len(out) < n:
             out.append(composite_item(pools[step.target_document].pop(0), step, family))

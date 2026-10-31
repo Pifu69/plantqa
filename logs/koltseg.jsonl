@@ -1,3 +1,14 @@
 {"time": "2026-10-31T07:59:59+00:00", "source": "azure-di", "tag": "azure-di:alfalaval-m3", "model": "prebuilt-layout", "pages": 2, "cost_usd": 0.02, "cost_basis": "list price 10 USD / 1000 pages (estimate, not billed amount)"}
 {"time": "2026-10-31T08:00:25+00:00", "source": "azure-di", "tag": "azure-di:swagelok-ms-01-176", "model": "prebuilt-layout", "pages": 16, "cost_usd": 0.16, "cost_basis": "list price 10 USD / 1000 pages (estimate, not billed amount)"}
 {"time": "2026-10-31T08:00:43+00:00", "source": "azure-di", "tag": "azure-di:flowserve-worcester-f51-f52", "model": "prebuilt-layout", "pages": 12, "cost_usd": 0.12, "cost_basis": "list price 10 USD / 1000 pages (estimate, not billed amount)"}
+{"time": "2026-10-31T08:28:53+00:00", "source": "plantdocs-embed", "model": "qwen/qwen3-embedding-8b", "prompt_tokens": 3729, "completion_tokens": 0, "cost_usd": 3.729e-05}
+{"time": "2026-10-31T08:29:44+00:00", "source": "plantdocs-chat", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 10564, "completion_tokens": 419, "cost_usd": 0.0001965753}
+{"time": "2026-10-31T08:29:59+00:00", "source": "plantdocs-embed", "model": "qwen/qwen3-embedding-8b", "prompt_tokens": 20, "completion_tokens": 0, "cost_usd": 2e-07}
+{"time": "2026-10-31T08:30:01+00:00", "source": "plantdocs-chat", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 3385, "completion_tokens": 234, "cost_usd": 0.0004685625}
+{"time": "2026-10-31T08:34:28+00:00", "source": "plantgraph", "tag": "smoke-glm/s1/cypher", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 1990, "completion_tokens": 64, "cost_usd": 0.00010036}
+{"time": "2026-10-31T08:34:30+00:00", "source": "plantgraph", "tag": "smoke-glm/s1/answer", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 838, "completion_tokens": 294, "cost_usd": 2.48506e-05}
+{"time": "2026-10-31T08:34:31+00:00", "source": "plantgraph", "tag": "smoke-glm/s1/agent_step", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 2101, "completion_tokens": 52, "cost_usd": 0.000102844}
+{"time": "2026-10-31T08:34:32+00:00", "source": "plantgraph", "tag": "smoke-glm/s1/agent_step", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 2200, "completion_tokens": 29, "cost_usd": 0.000100552}
+{"time": "2026-10-31T08:34:34+00:00", "source": "plantgraph", "tag": "smoke-glm/s1/answer", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 833, "completion_tokens": 203, "cost_usd": 2.15341e-05}
+{"time": "2026-10-31T08:34:35+00:00", "source": "plantgraph", "tag": "smoke-glm/s2/cypher", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 1997, "completion_tokens": 53, "cost_usd": 9.8468e-05}
+{"time": "2026-10-31T08:34:37+00:00", "source": "plantgraph", "tag": "smoke-glm/s2/answer", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 865, "completion_tokens": 277, "cost_usd": 2.47115e-05}

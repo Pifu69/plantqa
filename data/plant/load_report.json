@@ -1,45 +1,61 @@
 {
   "documents_loaded": [
+    "alfalaval-m3",
     "fisher-et-d100022x012",
     "gfps-165-solenoid-valve",
     "gorman-rupp-0700286"
   ],
   "documents_missing_graph": [
-    "alfalaval-m3",
     "flowserve-worcester-f51-f52",
     "rosemount-3051-00813-0100-4001",
     "swagelok-ms-01-176"
   ],
-  "described_by_edges": 13,
+  "described_by_edges": 17,
+  "vectors": {
+    "alfalaval-m3": 109,
+    "fisher-et-d100022x012": 1704,
+    "gfps-165-solenoid-valve": 329,
+    "gorman-rupp-0700286": 1689
+  },
   "seconds": {
-    "reset": 6.530071899993345,
-    "plant_layer": 7.17797249997966,
-    "total": 20.931188000016846
+    "reset": 2.7263422000105493,
+    "plant_layer": 3.1316907000145875,
+    "vectors": 14.901447499985807,
+    "total": 22.614398400008213
   },
   "device_seconds": {
+    "alfalaval-m3": {
+      "seconds": 0.055320899991784245,
+      "nodes": 135
+    },
     "fisher-et-d100022x012": {
-      "seconds": 4.132451599987689,
+      "seconds": 0.713604899996426,
       "nodes": 3324
     },
     "gfps-165-solenoid-valve": {
-      "seconds": 0.45114690001355484,
+      "seconds": 0.13060560001758859,
       "nodes": 599
     },
     "gorman-rupp-0700286": {
-      "seconds": 1.2755544000538066,
+      "seconds": 0.5989702999941073,
       "nodes": 2629
     }
   },
   "counts": {
     "plant_nodes": 36,
     "plant_relationships": 116,
-    "device_nodes": 6552,
-    "shared_vocabulary_nodes": 117,
-    "device_relationships": 25257,
-    "described_by": 13,
-    "all_nodes": 6707,
-    "all_relationships": 25386,
+    "device_nodes": 6687,
+    "shared_vocabulary_nodes": 122,
+    "device_relationships": 25658,
+    "described_by": 17,
+    "all_nodes": 6847,
+    "all_relationships": 25791,
     "per_document": [
+      {
+        "doc": "alfalaval-m3",
+        "nodes": 135,
+        "relationships": 401
+      },
       {
         "doc": "fisher-et-d100022x012",
         "nodes": 3324,

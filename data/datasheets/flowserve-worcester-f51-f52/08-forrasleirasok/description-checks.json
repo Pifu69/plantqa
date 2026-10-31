@@ -1,0 +1,472 @@
+{
+  "summary": {
+    "sources": 49,
+    "missing": 0,
+    "extra_ids": [],
+    "description_over_2_sentences": 0,
+    "use_for_not_1_sentence": 0,
+    "with_ungrounded_numbers": 7,
+    "marked_uncertain": 23
+  },
+  "sources": [
+    {
+      "id": "flowserve-worcester-f51-f52/table-azure-0",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "flowserve-worcester-f51-f52/table-azure-1",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "Body and insert carry a symbol footnote ('Body and insert available in LCB and other alloys') printed under the table, which Azure rendered as '®'. The item numbers are the callouts of the exploded view flowserve-worcester-f51-f52/fig-4.1."
+    },
+    {
+      "id": "flowserve-worcester-f51-f52/table-azure-2",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "Azure titled the table with the running page header; the size range comes from the subheading above the exploded view flowserve-worcester-f51-f52/fig-5.1, whose callouts are the item numbers. Body/insert footnote marker rendered as '®'."
+    },
+    {
+      "id": "flowserve-worcester-f51-f52/table-azure-3",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "C, D and F give two values each (maximum and minimum tolerance, footnote 1). Azure garbled some cells: NPS '34' (3/4) and '11/2 4' (1 1/2), a stray 'G' before the DN20 F51 weight and a stray '7' after a C value. The letters refer to the drawing flowserve-worcester-f51-f52/fig-8.1."
+    },
+    {
+      "id": "flowserve-worcester-f51-f52/table-azure-4",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "Many cells carry stray drawing labels from Azure ('F52 5', 'F07 B B', 'H 16.8', '1 F07', NPS '3 4'); J and K are '-' for DN150 and DN200 (gearbox as standard, footnote 3). The letters refer to the drawing flowserve-worcester-f51-f52/fig-9.1."
+    },
+    {
+      "id": "flowserve-worcester-f51-f52/table-azure-5",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "Azure merged several printed lines of the valve specification cell into one ('FM Approval Certified BS EN ISO 17292 ...', 'CRN TR CU 010/012/032'); 'Catgory III' is a misspelling in the source."
+    },
+    {
+      "id": "flowserve-worcester-f51-f52/table-azure-6",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "flowserve-worcester-f51-f52/table-azure-7",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "The footnote texts (MAST stem material, break-to-open test conditions, AUTOSIZE 4.3) are printed below the table and are not part of the Azure table content."
+    },
+    {
+      "id": "flowserve-worcester-f51-f52/table-azure-8",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "flowserve-worcester-f51-f52/table-azure-9",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "NPS 1 1/2 appears as '11/2' (fraction lost in extraction). The other code positions (2-14) are text sections, not tables."
+    },
+    {
+      "id": "flowserve-worcester-f51-f52/fig-1.2",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "flowserve-worcester-f51-f52/fig-2.1",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "Azure read the body marking 'DN50/40' as 'PAN.50/40'."
+    },
+    {
+      "id": "flowserve-worcester-f51-f52/fig-3.1",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "Callouts 3, 4 and 7 are on the inset flowserve-worcester-f51-f52/fig-3.2."
+    },
+    {
+      "id": "flowserve-worcester-f51-f52/fig-3.2",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "flowserve-worcester-f51-f52/fig-4.1",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "Part names and materials are in flowserve-worcester-f51-f52/table-azure-1."
+    },
+    {
+      "id": "flowserve-worcester-f51-f52/fig-5.1",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "Part names and materials are in flowserve-worcester-f51-f52/table-azure-2."
+    },
+    {
+      "id": "flowserve-worcester-f51-f52/fig-6.1",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "The curve values are in the chart record flowserve-worcester-f51-f52/fig-6.1/chart-1."
+    },
+    {
+      "id": "flowserve-worcester-f51-f52/fig-8.1",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "The drawing has no values; they are in flowserve-worcester-f51-f52/table-azure-3."
+    },
+    {
+      "id": "flowserve-worcester-f51-f52/fig-9.1",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "The drawing has no values; they are in flowserve-worcester-f51-f52/table-azure-4."
+    },
+    {
+      "id": "flowserve-worcester-f51-f52/fig-6.1/chart-1",
+      "kind": "chart",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "flowserve-worcester-f51-f52/section-3",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "flowserve-worcester-f51-f52/section-4",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "flowserve-worcester-f51-f52/section-6",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "The text also holds the callout numbers of flowserve-worcester-f51-f52/fig-3.1 as stray lines."
+    },
+    {
+      "id": "flowserve-worcester-f51-f52/section-10",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "flowserve-worcester-f51-f52/section-11",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "12"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "flowserve-worcester-f51-f52/section-12",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "flowserve-worcester-f51-f52/section-13",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "flowserve-worcester-f51-f52/section-14",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "flowserve-worcester-f51-f52/section-15",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "flowserve-worcester-f51-f52/section-16",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "Azure printed the limit as '260°℃' (doubled degree sign)."
+    },
+    {
+      "id": "flowserve-worcester-f51-f52/section-17",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "The title carries a checkbox artefact ':selected:' from Azure."
+    },
+    {
+      "id": "flowserve-worcester-f51-f52/section-18",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "flowserve-worcester-f51-f52/section-19",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "Also contains stray drawing callouts (7, 8, 9, 6, 3, K) from the dimension drawing."
+    },
+    {
+      "id": "flowserve-worcester-f51-f52/section-20",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "4"
+      ],
+      "uncertain": "Heading debris from Azure; the page-9 footnotes (1)-(3) are not in this section."
+    },
+    {
+      "id": "flowserve-worcester-f51-f52/section-21",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "The footnotes of the page-9 table, including (3) on gearboxes for DN150 and DN200, are not part of this section's content."
+    },
+    {
+      "id": "flowserve-worcester-f51-f52/section-28",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "flowserve-worcester-f51-f52/section-29",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "flowserve-worcester-f51-f52/section-30",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "5",
+        "6",
+        "7"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "flowserve-worcester-f51-f52/section-31",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "4",
+        "6",
+        "7"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "flowserve-worcester-f51-f52/section-32",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "7"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "flowserve-worcester-f51-f52/section-33",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "6"
+      ],
+      "uncertain": "The footnote texts are in flowserve-worcester-f51-f52/section-40."
+    },
+    {
+      "id": "flowserve-worcester-f51-f52/section-34",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "Azure inserted a ':selected:' checkbox artefact before PEEK."
+    },
+    {
+      "id": "flowserve-worcester-f51-f52/section-35",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "flowserve-worcester-f51-f52/section-36",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "7"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "flowserve-worcester-f51-f52/section-37",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "Footnote 3 (no secondary stem seal for DN50 and below, written as a dash) is in flowserve-worcester-f51-f52/section-40."
+    },
+    {
+      "id": "flowserve-worcester-f51-f52/section-38",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "flowserve-worcester-f51-f52/section-39",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "flowserve-worcester-f51-f52/section-40",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "flowserve-worcester-f51-f52/section-41",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    }
+  ]
+}

@@ -1,0 +1,802 @@
+{
+  "model": "claude-opus-5-5 (Claude Code session acting as the step-08 LLM by hand, 2026-10-31; inventory.json, figure crops and page images viewed)",
+  "language": "en",
+  "descriptions": {
+    "swagelok-ms-01-176/table-azure-0": {
+      "description": "Table of contents of the catalog: section names (Features, Technical Data, Pressure-Temperature Ratings, Cracking and Reseal Pressures, Materials of Construction, Flow Data, Testing, Cleaning and Packaging, Ordering Information and Dimensions, Options and Accessories, Maintenance Kits) with their page numbers.",
+      "use_for": "Use it to find on which page a catalog section starts.",
+      "structure": "rows: section name -> page number (two column pairs)",
+      "uncertain": "Titled 'Check Valves' by the inventory; the printed title is 'Contents'.",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/table-azure-1": {
+      "description": "Technical data per series: maximum flow coefficient (Cv), nominal cracking pressures in psi (bar) and maximum back pressure at 70°F (20°C) in psig (bar), grouped into fixed cracking pressure series (2C, 4C, 6C, 8C, 12C, 16C, CH4, CH8, CH16, 4CP, 8CP) and adjustable cracking pressure series (CA, 4CPA, 8CPA), with three footnotes (other cracking pressures on request; 3000 psig back pressure for the 25 psi spring; end connection limit).",
+      "use_for": "Use it to find the Cv, the available nominal cracking pressures or the maximum back pressure of a series.",
+      "structure": "rows: series (grouped fixed / adjustable) ; columns: maximum Cv, nominal cracking pressure psi (bar), maximum back pressure at 70°F (20°C) psig (bar) -> values",
+      "footnotes": [
+        {
+          "id": "sw176/T1/fn1",
+          "text": "Other cracking pressures are available; contact your authorized Swagelok sales and service representative."
+        },
+        {
+          "id": "sw176/T1/fn2",
+          "text": "For cracking pressure of 25 psi (1.8 bar), maximum back pressure is 3000 psig (206 bar)."
+        },
+        {
+          "id": "sw176/T1/fn3",
+          "text": "Maximum back pressure may be limited by the end connection. See Dimensions, page 12."
+        }
+      ]
+    },
+    "swagelok-ms-01-176/table-azure-2": {
+      "description": "Working pressure in psig (bar) versus temperature, °F (°C), for 316 SS and brass valves of the C (2C, 4C, 6C and 8C), CA, CP and CPA series, from -10 (-23) to 100 (37) up to 375 (190); brass has no rating above 250 (121). Footnote 1 recommends the optional inlet gasket for surge, shock or pulse service.",
+      "use_for": "Use it to find the working pressure of a 2C, 4C, 6C, 8C, CA, CP or CPA valve in 316 SS or brass at a given temperature.",
+      "structure": "rows: temperature °F (°C); columns: 316 SS, brass -> working pressure psig (bar)",
+      "footnotes": [
+        {
+          "id": "sw176/T2/fn1",
+          "text": "To reduce the possibility of dislodging the O-ring in systems where pressure surges, shock, or pulses occur, for all 2C and 4C series valves and for 6C and 8C series valves with cracking pressures lower than 50 psi (3.5 bar), an optional inlet gasket is available. See page 14 for ordering information. Cracking and reseal pressures may decrease slightly from the ranges listed in this catalog. Alternatively, CH or CP series valves should be considered."
+        }
+      ]
+    },
+    "swagelok-ms-01-176/table-azure-3": {
+      "description": "Working pressure in psig (bar) versus temperature, °F (°C), for 316 SS and brass 12C and 16C series valves, from -10 (-23) to 100 (37) up to 375 (190); brass has no rating above 250 (121).",
+      "use_for": "Use it to find the working pressure of a 12C or 16C valve in 316 SS or brass at a given temperature.",
+      "structure": "rows: temperature °F (°C); columns: 316 SS, brass -> working pressure psig (bar)",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/table-azure-4": {
+      "description": "Working pressure in psig (bar) versus temperature, °F (°C), for 316 SS CH series valves, one column for CH4 and CH8 and one for CH16, from 10 (-12) to 100 (37) up to 400 (204); the top values carry a footnote marker (end connection may limit the rating).",
+      "use_for": "Use it to find the working pressure of a CH4, CH8 or CH16 valve at a given temperature.",
+      "structure": "rows: temperature °F (°C); columns: CH4, CH8 / CH16 (316 SS) -> working pressure psig (bar)",
+      "uncertain": "The footnote text ('Pressure ratings may be limited by the end connection. See Dimensions, page 12.') is in text section section-11, not in the table.",
+      "footnotes": [
+        {
+          "id": "sw176/T4/fn1",
+          "text": "Pressure ratings may be limited by the end connection. See Dimensions, page 12."
+        }
+      ]
+    },
+    "swagelok-ms-01-176/table-azure-5": {
+      "description": "Cracking and reseal pressures at 70°F (20°C) of the C series: for nominal cracking pressures 1/3, 1, 10 and 25 psi (bar) the cracking pressure range and the reseal pressure (as back pressure or inlet pressure).",
+      "use_for": "Use it to find the cracking pressure range and reseal pressure of a C series valve with a given nominal cracking pressure.",
+      "structure": "rows: nominal cracking pressure psi (bar); columns: cracking pressure range, reseal pressure -> psi (bar)",
+      "uncertain": "Azure attached the caption 'CH Series' to this table; on the page it is the C Series table (CH is the next one).",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/table-azure-6": {
+      "description": "Cracking and reseal pressures at 70°F (20°C) for two series in one source: the CH series (nominal 1/3, 1, 5, 10, 25 psi) and, as a continuation, the CP series (nominal 1/3, 1, 10, 25 psi), each with cracking pressure range and reseal pressure in psi (bar).",
+      "use_for": "Use it to find the cracking pressure range and reseal pressure of a CH or CP series valve with a given nominal cracking pressure.",
+      "structure": "rows: nominal cracking pressure psi (bar); columns: cracking pressure range, reseal pressure -> psi (bar); first block CH, second block CP",
+      "uncertain": "Azure captioned the first block 'CP Series' although it is the CH Series table; the second block (no caption) is the CP Series table. The inventory title names only the CH series.",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/table-azure-8": {
+      "description": "Materials of construction of the C and CA series: for each numbered component (1 inlet body to 11 outlet body, incl. inlet gaskets, insert, O-ring, poppet, spring, center body, adjusting and locking screws, outlet gasket) and the lubricants, the material grade/ASTM specification for 316 SS and for brass valve bodies.",
+      "use_for": "Use it to find the material of a C or CA series component for a 316 SS or brass valve.",
+      "structure": "rows: component (callout number + name); columns: 316 SS, brass -> material grade/ASTM specification",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/table-azure-9": {
+      "description": "Materials of construction of the CH series (316 SS): inlet body, fluorocarbon FKM-bonded poppet, poppet stop, spring, O-ring, PTFE backup ring, outlet body and PTFE-based lubricant with their grade/ASTM specification.",
+      "use_for": "Use it to find the material of a CH series component.",
+      "structure": "rows: component (callout number + name) -> material grade/ASTM specification",
+      "uncertain": "The footnote marker on the poppet and its text ('Material Safety Data Sheet for bonding agent available on request') are not in the table (text section section-16).",
+      "footnotes": [
+        {
+          "id": "sw176/T9/fn1",
+          "text": "Material Safety Data Sheet for bonding agent available on request."
+        }
+      ]
+    },
+    "swagelok-ms-01-176/table-azure-10": {
+      "description": "Materials of construction of the CP and CPA series: for insert lock screw, insert, O-ring, poppet, spring, body, adjusting and locking screws (CPA) and lubricant, the material grade/specification for 316 SS and for brass 4CP, 8CP, 4CPA and 8CPA valves.",
+      "use_for": "Use it to find the material of a CP or CPA component for a 316 SS valve or a given brass size.",
+      "structure": "rows: component (callout number + name); columns: 316 SS, brass 4CP, 8CP, 4CPA, 8CPA -> material grade/specification",
+      "uncertain": "Azure split the merged brass 4CPA cell 'Brass CW710R/EN 12163' into 'Brass' and 'CW710R/ EN 12163'; the footnote markers (spring PTFE-coated in 8CPA; 8CPA adjusting screw 316 SS for 150/350 psi springs) appear as '@' and '3602'.",
+      "footnotes": [
+        {
+          "id": "sw176/T10/fn1",
+          "text": "Spring in 316 SS and brass 8CPA series valves is PTFE coated."
+        },
+        {
+          "id": "sw176/T10/fn2",
+          "text": "Adjusting screw in valve with 150 or 350 psi (10.4 or 24.2 bar) spring is 316 SS."
+        }
+      ]
+    },
+    "swagelok-ms-01-176/table-azure-11": {
+      "description": "Dimensions and basic ordering numbers of the C series (fixed cracking pressure) and CA series (adjustable): per end connection type (fractional and metric Swagelok tube fittings, female and male NPT, male NPT/tube fitting, male VCR) and size, the basic ordering number, series and dimensions A, B and C in in. (mm).",
+      "use_for": "Use it to find the basic ordering number or the A, B, C dimensions of a C or CA series valve with a given end connection and size.",
+      "structure": "rows: end connection type x size (grouped C / CA); columns: basic ordering number, series, A, B, C -> in. (mm)",
+      "uncertain": "C is printed only in mm for metric rows and '—' for NPT and VCR rows; B and C are hex flats per the drawings.",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/table-azure-12": {
+      "description": "C series cracking pressure designators: 1/3, 1, 10 and 25 psi (bar) with the designator added to the basic ordering number, and the example SS-2C-1/3.",
+      "use_for": "Use it to find the cracking pressure designator to append to a C series ordering number.",
+      "structure": "rows: cracking pressure psi (bar) -> designator",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/table-azure-13": {
+      "description": "CA series cracking pressure range designators: ranges 3 to 50, 50 to 150, 150 to 350 and 350 to 600 psi (bar) with designators 3, 50, 150, 350, and the example SS-4CA-3.",
+      "use_for": "Use it to find the cracking pressure range designator to append to a CA series ordering number.",
+      "structure": "rows: cracking pressure range psi (bar) -> designator",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/table-azure-14": {
+      "description": "Dimensions, pressure ratings and basic ordering numbers of the CH series: per end connection type (fractional and metric Swagelok tube fitting, female/male NPT, female/male ISO, female/male SAE/MS, male VCO, male VCR) and size, the pressure rating at 100°F (37°C) in psig (bar), the basic ordering number, series (CH4, CH8, CH16) and dimensions A and B in in. (mm).",
+      "use_for": "Use it to find the ordering number, pressure rating or A/B dimensions of a CH series valve with a given end connection and size.",
+      "structure": "rows: end connection type x size; columns: pressure rating psig (bar), basic ordering number, series, A, B -> values",
+      "uncertain": "The ISO footnote (ISO 7/1, BS EN 10226-1, DIN 2999, JIS B0203) is printed below the table.",
+      "footnotes": [
+        {
+          "id": "sw176/T14/fn1",
+          "text": "See specifications ISO 7/1, BS EN 10226-1, DIN 2999, JIS B0203."
+        }
+      ]
+    },
+    "swagelok-ms-01-176/table-azure-15": {
+      "description": "CH series cracking pressure designators: 1/3, 1, 5, 10 and 25 psi (bar) with their designators.",
+      "use_for": "Use it to find the cracking pressure designator to append to a CH series ordering number.",
+      "structure": "rows: cracking pressure psi (bar) -> designator",
+      "uncertain": "Titled 'Ordering Information' by Azure; the example SS-CHS2-1/3 is in text section section-38.",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/table-azure-16": {
+      "description": "Dimensions and basic ordering numbers of the CP (fixed) and CPA (adjustable) series: per end connection (female, male, female/male, male/female NPT, female and male ISO) and size, the basic ordering number, series (4CP, 8CP, 4CPA, 8CPA) and dimensions A and D in in. (mm).",
+      "use_for": "Use it to find the ordering number or A/D dimensions of a CP or CPA valve with a given end connection and size.",
+      "structure": "rows: end connection x size (grouped CP / CPA); columns: basic ordering number, series, A, D -> in. (mm)",
+      "footnotes": [
+        {
+          "id": "sw176/T16/fn1",
+          "text": "See specifications ISO 7/1, BS EN 10226-1, DIN 2999, and JIS B0203."
+        }
+      ]
+    },
+    "swagelok-ms-01-176/table-azure-17": {
+      "description": "CP series cracking pressure designators: 1/3, 1, 10 and 25 psi (bar) with their designators.",
+      "use_for": "Use it to find the cracking pressure designator to append to a CP series ordering number.",
+      "structure": "rows: cracking pressure psi (bar) -> designator",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/table-azure-18": {
+      "description": "CPA series cracking pressure range designators: 3 to 50, 50 to 150, 150 to 350 and 350 to 600 psi (bar) with designators 3, 50, 150, 350, and the example SS-4CPA4-3.",
+      "use_for": "Use it to find the cracking pressure range designator to append to a CPA series ordering number.",
+      "structure": "rows: cracking pressure range psi (bar) -> designator",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/table-azure-19": {
+      "description": "Optional seal materials for all series: Buna N, ethylene propylene, fluorocarbon FKM and neoprene with the ordering designator (-BU, -EP, -VI, -NE) and temperature rating in °F (°C); footnote: FKM is rated 10 to 400°F (-12 to 204°C) for CH series.",
+      "use_for": "Use it to find the designator or temperature rating of a seal material option.",
+      "structure": "rows: seal material; columns: designator, temperature rating °F (°C) -> values",
+      "footnotes": [
+        {
+          "id": "sw176/T19/fn1",
+          "text": "10 to 400°F (-12 to 204°C) for CH series."
+        }
+      ]
+    },
+    "swagelok-ms-01-176/table-azure-20": {
+      "description": "Whether the inlet gasket is optional or standard for 2C/4C, 6C/8C and 12C/16C series valves, for cracking pressures below and above 50 psig (3.5 bar).",
+      "use_for": "Use it to find whether a given series and cracking pressure comes with a standard or optional inlet gasket.",
+      "structure": "rows: cracking pressure < 50 / > 50 psig (3.5 bar); columns: 2C, 4C / 6C, 8C / 12C, 16C series -> optional or standard",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/table-azure-21": {
+      "description": "Seal kit ordering numbers for the C, CP, CA and CPA series: for each valve series group, the uniform O-ring size and four kit ordering numbers (NEO, VI, BU, EP prefixes), grouped by fixed cracking pressures and two adjustable cracking pressure ranges (3 to 150 and 150 to 600 psi).",
+      "use_for": "Use it to find the seal kit ordering number and O-ring size for a C, CP, CA or CPA valve.",
+      "structure": "rows: cracking pressure group x valve series; columns: uniform O-ring size, kit ordering number (4 per series)",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/table-azure-22": {
+      "description": "CH series seal kits in two parts: basic kit ordering numbers per valve series (CH4, CH8, CH16) and valve body material (316 SS, alloy 400), and the seal material designators (Buna N BN, ethylene propylene EP, fluorocarbon FKM VI, neoprene NE).",
+      "use_for": "Use it to find the basic CH seal kit ordering number and the seal material designator to append.",
+      "structure": "part 1: rows series x body material -> basic kit ordering number; part 2: rows seal material -> designator",
+      "uncertain": "Azure merged the two printed tables into one source.",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/table-azure-24": {
+      "description": "Metal gasket kits for the CA and C series in two parts: basic kit ordering numbers per valve series (2C/4C, 6C/8C, 12C/16C, CA, with the number of gaskets) and the gasket material designators (316 SS SS, alloy 400 M, aluminum A), with availability footnotes.",
+      "use_for": "Use it to find the basic metal gasket kit ordering number and the gasket material designator.",
+      "structure": "part 1: rows valve series (gasket count) -> basic kit ordering number; part 2: rows gasket material -> designator",
+      "uncertain": "Azure merged the two printed tables; footnote markers appear as 'Alloy 4001' and 'Aluminum?'.",
+      "footnotes": [
+        {
+          "id": "sw176/T24/fn1",
+          "text": "Gasket is available for 2C, 4C, 6C, and 8C series valves for use in systems where pressure surges, shock, or pulses occur and is required in 6C and 8C series valves with 50 psi (3.5 bar) or higher spring cracking pressure."
+        }
+      ]
+    },
+    "swagelok-ms-01-176/table-azure-26": {
+      "description": "Spring kits for the C, CP, CA and CPA series in three parts: basic kit ordering numbers per valve series and fixed cracking pressure (1/3, 1, 10, 25 psi), per CA/4CPA and 8CPA and cracking pressure range (3 to 50 up to 350 to 600 psi), and the spring material designators (302 SS 302, alloy 400 M; alloy 400 not for CA or CPA).",
+      "use_for": "Use it to find the basic spring kit ordering number for a series and cracking pressure, and the spring material designator.",
+      "structure": "part 1/2: rows valve series x cracking pressure psi (bar) -> basic kit ordering number; part 3: rows spring material -> designator",
+      "uncertain": "Azure merged three printed tables into one source; the inventory title names only the first. The alloy 400 footnote marker appears as 'Alloy 4000'.",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/table-azure-29": {
+      "description": "CH series spring kits and deflector cap kits in one source: basic spring kit ordering numbers per CH series and body material (316 SS, alloy 400), the cracking pressure designators (1/3, 1, 5, 10, 25 psi), and the red and green deflector cap kit ordering numbers for 1/4 and 1/2 in. male NPT.",
+      "use_for": "Use it to find the CH spring kit ordering number, its cracking pressure designator, or a deflector cap kit ordering number.",
+      "structure": "part 1: rows series x body material -> basic kit ordering number; part 2: rows cracking pressure psi (bar) -> designator; part 3: rows male NPT size; columns red, green -> kit ordering number",
+      "uncertain": "Azure merged three printed tables (CH spring kits, cracking pressure designators, 4C/8C/CP/CPA deflector cap kits); the inventory title 'CH Series Spring Kits - table 2' fits only the second part.",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/fig-1.1": {
+      "description": "Cover photo of several Swagelok check valves with different end connections.",
+      "use_for": "Answers nothing on its own; it only shows what the valves look like.",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/fig-2.1": {
+      "description": "Sectional view of a C series check valve with callouts: O-ring seals body halves, poppet, spring.",
+      "use_for": "Use it to find the main internal parts of a C series check valve.",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/fig-2.2": {
+      "description": "Sectional view of a CH series check valve with the bonded poppet and the poppet stop drawn separately; callouts: poppet with bonded elastomer seal, poppet stop, O-ring seals body halves, backup ring supports O-ring.",
+      "use_for": "Use it to find the internal parts of a CH series check valve and their functions.",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/fig-2.3": {
+      "description": "Sectional view of a CP series check valve (compact, one-piece body) with the callout 'Fully contained O-ring seal'.",
+      "use_for": "Use it to see the construction of a CP series check valve.",
+      "uncertain": "Azure captioned it 'Adjustable Cracking Pressures From 3 to 600 psi (0.21 to 41.4 bar)', which is the heading of the right-hand column; the drawing is the CP Series (fixed cracking pressure) view.",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/fig-2.4": {
+      "description": "Sectional view of a CA series (adjustable) check valve with callouts: locking screw maintains settings, fully contained O-ring seal, adjustable spring, adjusting screw sets cracking pressure.",
+      "use_for": "Use it to find how the cracking pressure of a CA valve is set and locked.",
+      "uncertain": "Azure captioned it 'CPA Series'; the printed sub-caption in the figure is 'CA Series'.",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/fig-2.5": {
+      "description": "Sectional view of a CPA series check valve (compact, one-piece body) with callouts: fully contained O-ring seal, adjustable spring, adjusting screw sets cracking pressure, locking screw maintains setting.",
+      "use_for": "Use it to find how the cracking pressure of a CPA valve is set and locked.",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/fig-4.1": {
+      "description": "Chart for the CA and CPA series: reseal pressure (psi and bar) as a band over cracking pressure (psi and bar) from 0 to 600 psi, with a dashed example at 450 psi cracking giving 390 to 450 psi reseal; negative reseal values are marked 'Back Pressure'.",
+      "use_for": "Use it to find the expected reseal pressure range of a CA or CPA valve for a given cracking pressure; the read-off data are in fig-4.1/chart-1.",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/fig-5.1": {
+      "description": "Exploded view of a C series valve (12C series shown) with callouts 1, 4, 2, 5, 6, 11 matching the C and CA Series materials table (inlet body, O-ring, inlet gasket, poppet, spring, outlet body).",
+      "use_for": "Use it to locate the C series components listed in the materials table (table-azure-8).",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/fig-5.2": {
+      "description": "Fragment of the CA series exploded view: the inlet body.",
+      "use_for": "Answers nothing on its own; see fig-pdf-5-2.",
+      "uncertain": "Azure split the CA series exploded view into fig-5.2, fig-5.3 and fig-5.4; the complete view is fig-pdf-5-2.",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/fig-5.3": {
+      "description": "Fragment of the CA series exploded view: the center body.",
+      "use_for": "Answers nothing on its own; see fig-pdf-5-2.",
+      "uncertain": "Fragment of the CA series exploded view split by Azure.",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/fig-5.4": {
+      "description": "Fragment of the CA series exploded view: the outlet body.",
+      "use_for": "Answers nothing on its own; see fig-pdf-5-2.",
+      "uncertain": "Fragment of the CA series exploded view split by Azure.",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/fig-5.5": {
+      "description": "Exploded view of a CH series valve with callouts 1 to 7 matching the CH Series materials table (inlet body, poppet, poppet stop, spring, O-ring, backup ring, outlet body).",
+      "use_for": "Use it to locate the CH series components listed in the materials table (table-azure-9).",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/fig-6.1": {
+      "description": "Exploded view of a CP series valve with callouts 1 to 6 (insert lock screw, insert, O-ring, poppet, spring, body).",
+      "use_for": "Use it to locate the CP series components listed in the CP and CPA materials table (table-azure-10).",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/fig-6.2": {
+      "description": "Exploded view of a CPA series valve with callouts 1 to 8 (insert lock screw, insert, O-ring, poppet, body, spring, adjusting screw, locking screw).",
+      "use_for": "Use it to locate the CPA series components listed in the CP and CPA materials table (table-azure-10).",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/fig-7.1": {
+      "description": "Page-wide figure with the six C series flow charts at 70°F (20°C) (air and water for 2C/4C, 6C/8C and 12C/16C) and the shared legend of nominal cracking pressures 1, 10 and 25 psi (0.07, 0.69, 1.8 bar).",
+      "use_for": "Answers nothing on its own; see fig-7.1/chart-2 to fig-7.1/chart-7.",
+      "uncertain": "One Azure figure holds six charts; Azure read the legend entry '10 psi (0.69 bar)' as '-10 psi'.",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/fig-8.1": {
+      "description": "CH4 series air flow chart at 70°F (20°C).",
+      "use_for": "Answers nothing on its own; see fig-8.1/chart-8.",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/fig-8.2": {
+      "description": "CH8 series air flow chart at 70°F (20°C).",
+      "use_for": "Answers nothing on its own; see fig-8.2/chart-10.",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/fig-8.3": {
+      "description": "CH8 series water flow chart at 70°F (20°C).",
+      "use_for": "Answers nothing on its own; see fig-8.3/chart-11.",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/fig-8.4": {
+      "description": "CH16 series air flow chart at 70°F (20°C).",
+      "use_for": "Answers nothing on its own; see fig-8.4/chart-12.",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/fig-8.5": {
+      "description": "CH16 series water flow chart at 70°F (20°C).",
+      "use_for": "Answers nothing on its own; see fig-8.5/chart-13.",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/fig-9.1": {
+      "description": "Page-wide figure with the six CA and CPA series flow charts at 70°F (20°C) (air and water for CA, 4CPA, 8CPA) and the legend of nominal cracking pressures 3, 50, 150 and 350 psi.",
+      "use_for": "Answers nothing on its own; see fig-9.1/chart-14 to fig-9.1/chart-19.",
+      "uncertain": "Azure read the legend entry as '350 psi (24.2) bar)'.",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/fig-10.1": {
+      "description": "4CP series air flow chart at 70°F (20°C).",
+      "use_for": "Answers nothing on its own; see fig-10.1/chart-20.",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/fig-10.2": {
+      "description": "4CP series water flow chart at 70°F (20°C).",
+      "use_for": "Answers nothing on its own; see fig-10.2/chart-21.",
+      "uncertain": "Azure captioned it '8CP Series'; it is the 4CP Series water chart.",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/fig-10.3": {
+      "description": "8CP series air flow chart at 70°F (20°C).",
+      "use_for": "Answers nothing on its own; see fig-10.3/chart-22.",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/fig-10.4": {
+      "description": "8CP series water flow chart at 70°F (20°C).",
+      "use_for": "Answers nothing on its own; see fig-10.4/chart-23.",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/fig-11.1": {
+      "description": "Outline drawing of a C series valve with dimension letters A (overall length), B flat and C flat.",
+      "use_for": "Use it to see which dimensions the letters A, B and C in the C/CA dimensions table (table-azure-11) refer to.",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/fig-11.2": {
+      "description": "Outline drawing of a CA series valve with dimension letters A, B flat and C flat.",
+      "use_for": "Use it to see which dimensions the letters A, B and C in the C/CA dimensions table (table-azure-11) refer to.",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/fig-12.1": {
+      "description": "Outline drawing of a CH series valve with dimension letters A and B flat.",
+      "use_for": "Use it to see which dimensions the letters A and B in the CH dimensions table (table-azure-14) refer to.",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/fig-13.1": {
+      "description": "Outline drawing of a CP/CPA series valve with dimension letters A and D flat.",
+      "use_for": "Use it to see which dimensions the letters A and D in the CP/CPA dimensions table (table-azure-16) refer to.",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/fig-14.1": {
+      "description": "Photo of a deflector cap screwed onto the male NPT end of a valve.",
+      "use_for": "Answers nothing on its own; see section-52 for the deflector cap option.",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/fig-15.1": {
+      "description": "Photo of an O-ring, illustrating the C, CP, CA and CPA series seal kits.",
+      "use_for": "Answers nothing on its own; see table-azure-21.",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/fig-15.2": {
+      "description": "Photo of CH series seal kit parts (O-ring, backup ring, bonded poppet).",
+      "use_for": "Answers nothing on its own; see table-azure-22.",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/fig-16.1": {
+      "description": "Photo of a spring and a cracking pressure label reading '10 PSI', illustrating the C, CP, CA and CPA series spring kits.",
+      "use_for": "Answers nothing on its own; see table-azure-26.",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/fig-16.2": {
+      "description": "Photo of a spring and a cracking pressure label reading '1 PSI', illustrating the CH series spring kits.",
+      "use_for": "Answers nothing on its own; see table-azure-29.",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/fig-16.3": {
+      "description": "Photo of a deflector cap, illustrating the deflector cap kits.",
+      "use_for": "Answers nothing on its own; see table-azure-29.",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/fig-pdf-2-1": {
+      "description": "Raster cut through the page 2 feature drawings: the lower part of the C series view and the upper part of the CH series view.",
+      "use_for": "Answers nothing on its own; see fig-2.1 and fig-2.2.",
+      "uncertain": "Not a separate figure: a partial duplicate of fig-2.1 and fig-2.2 found in the PDF raster layer.",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/fig-pdf-5-2": {
+      "description": "Complete exploded view of a CA series valve, parts 1 to 11 (inlet body to outlet body), captioned 'CA Series'.",
+      "use_for": "Use it to locate the CA series components listed in the C and CA materials table (table-azure-8).",
+      "uncertain": "The callout numbers are printed just left of the cropped area.",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/fig-4.1/chart-1": {
+      "description": "Reseal pressure band of the CA and CPA series at 70°F (20°C): upper and lower boundary lines of reseal pressure versus cracking pressure, 0 to 600 psi.",
+      "use_for": "Use it to find the reseal pressure range of a CA or CPA valve for a given cracking pressure.",
+      "structure": "x: cracking pressure, psi (top: bar); y: reseal pressure, psi (right: bar); series: band upper and lower boundary",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/fig-7.1/chart-2": {
+      "description": "Air flow curves at 70°F (20°C) for the 2C and 4C series: inlet pressure versus air flow, one curve per nominal cracking pressure (1, 10 and 25 psi, separately for 2C and 4C).",
+      "use_for": "Use it to find the inlet pressure of a 2C or 4C valve at a given air flow (std ft3/min) and nominal cracking pressure.",
+      "structure": "x: air flow, std ft3/min (top: std L/min); y: inlet pressure, psig (right: bar); series: 1, 10 and 25 psi, separately for 2C and 4C",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/fig-7.1/chart-3": {
+      "description": "Water flow curves at 70°F (20°C) for the 2C and 4C series: pressure drop versus water flow, one curve per nominal cracking pressure (1, 10 and 25 psi, separately for 2C and 4C).",
+      "use_for": "Use it to find the pressure drop of a 2C or 4C valve at a given water flow (U.S. gal/min) and nominal cracking pressure.",
+      "structure": "x: water flow, U.S. gal/min (top: L/min); y: pressure drop, psi (right: bar); series: 1, 10 and 25 psi, separately for 2C and 4C",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/fig-7.1/chart-4": {
+      "description": "Air flow curves at 70°F (20°C) for the 6C and 8C series: inlet pressure versus air flow, one curve per nominal cracking pressure (1, 10 and 25 psi, separately for 6C and 8C).",
+      "use_for": "Use it to find the inlet pressure of a 6C or 8C valve at a given air flow (std ft3/min) and nominal cracking pressure.",
+      "structure": "x: air flow, std ft3/min (top: std L/min); y: inlet pressure, psig (right: bar); series: 1, 10 and 25 psi, separately for 6C and 8C",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/fig-7.1/chart-5": {
+      "description": "Water flow curves at 70°F (20°C) for the 6C and 8C series: pressure drop versus water flow, one curve per nominal cracking pressure (1, 10 and 25 psi, separately for 6C and 8C).",
+      "use_for": "Use it to find the pressure drop of a 6C or 8C valve at a given water flow (U.S. gal/min) and nominal cracking pressure.",
+      "structure": "x: water flow, U.S. gal/min (top: L/min); y: pressure drop, psi (right: bar); series: 1, 10 and 25 psi, separately for 6C and 8C",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/fig-7.1/chart-6": {
+      "description": "Air flow curves at 70°F (20°C) for the 12C and 16C series: inlet pressure versus air flow, one curve per nominal cracking pressure (1, 10 and 25 psi, common to 12C and 16C).",
+      "use_for": "Use it to find the inlet pressure of a 12C or 16C valve at a given air flow (std ft3/min) and nominal cracking pressure.",
+      "structure": "x: air flow, std ft3/min (top: std L/min); y: inlet pressure, psig (right: bar); series: 1, 10 and 25 psi, common to 12C and 16C",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/fig-7.1/chart-7": {
+      "description": "Water flow curves at 70°F (20°C) for the 12C and 16C series: pressure drop versus water flow, one curve per nominal cracking pressure (1, 10 and 25 psi, common to 12C and 16C).",
+      "use_for": "Use it to find the pressure drop of a 12C or 16C valve at a given water flow (U.S. gal/min) and nominal cracking pressure.",
+      "structure": "x: water flow, U.S. gal/min (top: L/min); y: pressure drop, psi (right: bar); series: 1, 10 and 25 psi, common to 12C and 16C",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/fig-8.1/chart-8": {
+      "description": "Air flow curves at 70°F (20°C) for the CH4 series: inlet pressure versus air flow, one curve per nominal cracking pressure (1, 10 and 25 psi).",
+      "use_for": "Use it to find the inlet pressure of a CH4 valve at a given air flow (std ft3/min) and nominal cracking pressure.",
+      "structure": "x: air flow, std ft3/min (top: std L/min); y: inlet pressure, psig (right: bar); series: 1, 10 and 25 psi",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/page-8/chart-9": {
+      "description": "Water flow curves at 70°F (20°C) for the CH4 series: pressure drop versus water flow, one curve per nominal cracking pressure (1, 10 and 25 psi).",
+      "use_for": "Use it to find the pressure drop of a CH4 valve at a given water flow (U.S. gal/min) and nominal cracking pressure.",
+      "structure": "x: water flow, U.S. gal/min (top: L/min); y: pressure drop, psi (right: bar); series: 1, 10 and 25 psi",
+      "uncertain": "Azure did not detect this chart as a figure; its axis text is in text section section-21.",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/fig-8.2/chart-10": {
+      "description": "Air flow curves at 70°F (20°C) for the CH8 series: inlet pressure versus air flow, one curve per nominal cracking pressure (1, 10 and 25 psi).",
+      "use_for": "Use it to find the inlet pressure of a CH8 valve at a given air flow (std ft3/min) and nominal cracking pressure.",
+      "structure": "x: air flow, std ft3/min (top: std L/min); y: inlet pressure, psig (right: bar); series: 1, 10 and 25 psi",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/fig-8.3/chart-11": {
+      "description": "Water flow curves at 70°F (20°C) for the CH8 series: pressure drop versus water flow, one curve per nominal cracking pressure (1, 10 and 25 psi).",
+      "use_for": "Use it to find the pressure drop of a CH8 valve at a given water flow (U.S. gal/min) and nominal cracking pressure.",
+      "structure": "x: water flow, U.S. gal/min (top: L/min); y: pressure drop, psi (right: bar); series: 1, 10 and 25 psi",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/fig-8.4/chart-12": {
+      "description": "Air flow curves at 70°F (20°C) for the CH16 series: inlet pressure versus air flow, one curve per nominal cracking pressure (1, 10 and 25 psi).",
+      "use_for": "Use it to find the inlet pressure of a CH16 valve at a given air flow (std ft3/min) and nominal cracking pressure.",
+      "structure": "x: air flow, std ft3/min (top: std L/min); y: inlet pressure, psig (right: bar); series: 1, 10 and 25 psi",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/fig-8.5/chart-13": {
+      "description": "Water flow curves at 70°F (20°C) for the CH16 series: pressure drop versus water flow, one curve per nominal cracking pressure (1, 10 and 25 psi).",
+      "use_for": "Use it to find the pressure drop of a CH16 valve at a given water flow (U.S. gal/min) and nominal cracking pressure.",
+      "structure": "x: water flow, U.S. gal/min (top: L/min); y: pressure drop, psi (right: bar); series: 1, 10 and 25 psi",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/fig-9.1/chart-14": {
+      "description": "Air flow curves at 70°F (20°C) for the CA series: inlet pressure versus air flow, one curve per nominal cracking pressure (3, 50, 150 and 350 psi).",
+      "use_for": "Use it to find the inlet pressure of a CA valve at a given air flow (std ft3/min) and nominal cracking pressure.",
+      "structure": "x: air flow, std ft3/min (top: std L/min); y: inlet pressure, psig (right: bar); series: 3, 50, 150 and 350 psi",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/fig-9.1/chart-15": {
+      "description": "Water flow curves at 70°F (20°C) for the CA series: pressure drop versus water flow, one curve per nominal cracking pressure (3, 50, 150 and 350 psi).",
+      "use_for": "Use it to find the pressure drop of a CA valve at a given water flow (U.S. gal/min) and nominal cracking pressure.",
+      "structure": "x: water flow, U.S. gal/min (top: L/min); y: pressure drop, psi (right: bar); series: 3, 50, 150 and 350 psi",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/fig-9.1/chart-16": {
+      "description": "Air flow curves at 70°F (20°C) for the 4CPA series: inlet pressure versus air flow, one curve per nominal cracking pressure (3, 50, 150 and 350 psi).",
+      "use_for": "Use it to find the inlet pressure of a 4CPA valve at a given air flow (std ft3/min) and nominal cracking pressure.",
+      "structure": "x: air flow, std ft3/min (top: std L/min); y: inlet pressure, psig (right: bar); series: 3, 50, 150 and 350 psi",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/fig-9.1/chart-17": {
+      "description": "Water flow curves at 70°F (20°C) for the 4CPA series: pressure drop versus water flow, one curve per nominal cracking pressure (3, 50, 150 and 350 psi).",
+      "use_for": "Use it to find the pressure drop of a 4CPA valve at a given water flow (U.S. gal/min) and nominal cracking pressure.",
+      "structure": "x: water flow, U.S. gal/min (top: L/min); y: pressure drop, psi (right: bar); series: 3, 50, 150 and 350 psi",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/fig-9.1/chart-18": {
+      "description": "Air flow curves at 70°F (20°C) for the 8CPA series: inlet pressure versus air flow, one curve per nominal cracking pressure (3, 50, 150 and 350 psi).",
+      "use_for": "Use it to find the inlet pressure of a 8CPA valve at a given air flow (std ft3/min) and nominal cracking pressure.",
+      "structure": "x: air flow, std ft3/min (top: std L/min); y: inlet pressure, psig (right: bar); series: 3, 50, 150 and 350 psi",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/fig-9.1/chart-19": {
+      "description": "Water flow curves at 70°F (20°C) for the 8CPA series: pressure drop versus water flow, one curve per nominal cracking pressure (3, 50, 150 and 350 psi).",
+      "use_for": "Use it to find the pressure drop of a 8CPA valve at a given water flow (U.S. gal/min) and nominal cracking pressure.",
+      "structure": "x: water flow, U.S. gal/min (top: L/min); y: pressure drop, psi (right: bar); series: 3, 50, 150 and 350 psi",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/fig-10.1/chart-20": {
+      "description": "Air flow curves at 70°F (20°C) for the 4CP series: inlet pressure versus air flow, one curve per nominal cracking pressure (1, 10 and 25 psi).",
+      "use_for": "Use it to find the inlet pressure of a 4CP valve at a given air flow (std ft3/min) and nominal cracking pressure.",
+      "structure": "x: air flow, std ft3/min (top: std L/min); y: inlet pressure, psig (right: bar); series: 1, 10 and 25 psi",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/fig-10.2/chart-21": {
+      "description": "Water flow curves at 70°F (20°C) for the 4CP series: pressure drop versus water flow, one curve per nominal cracking pressure (1, 10 and 25 psi).",
+      "use_for": "Use it to find the pressure drop of a 4CP valve at a given water flow (U.S. gal/min) and nominal cracking pressure.",
+      "structure": "x: water flow, U.S. gal/min (top: L/min); y: pressure drop, psi (right: bar); series: 1, 10 and 25 psi",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/fig-10.3/chart-22": {
+      "description": "Air flow curves at 70°F (20°C) for the 8CP series: inlet pressure versus air flow, one curve per nominal cracking pressure (1, 10 and 25 psi).",
+      "use_for": "Use it to find the inlet pressure of a 8CP valve at a given air flow (std ft3/min) and nominal cracking pressure.",
+      "structure": "x: air flow, std ft3/min (top: std L/min); y: inlet pressure, psig (right: bar); series: 1, 10 and 25 psi",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/fig-10.4/chart-23": {
+      "description": "Water flow curves at 70°F (20°C) for the 8CP series: pressure drop versus water flow, one curve per nominal cracking pressure (1, 10 and 25 psi).",
+      "use_for": "Use it to find the pressure drop of a 8CP valve at a given water flow (U.S. gal/min) and nominal cracking pressure.",
+      "structure": "x: water flow, U.S. gal/min (top: L/min); y: pressure drop, psi (right: bar); series: 1, 10 and 25 psi",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/section-1": {
+      "description": "Cover page: C, CA, CH, CP and CPA series check valves with working pressures up to 6000 psig (413 bar), adjustable and fixed cracking pressures, a variety of end connections and 316 stainless steel and brass materials.",
+      "use_for": "Answers which series the catalog covers and their maximum working pressure, cracking pressure types and materials.",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/section-3": {
+      "description": "Features heading for the fixed cracking pressure series: from 1/3 to 25 psi (0.03 to 1.8 bar).",
+      "use_for": "Answers what cracking pressure span the fixed cracking pressure series cover.",
+      "uncertain": "The matching statement for adjustable series (3 to 600 psi) went into the caption of fig-2.3.",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/section-6": {
+      "description": "Caption text 'Compact, one-piece body' under the CP and CPA series feature drawings.",
+      "use_for": "Answers nothing on its own; see fig-2.3 and fig-2.5.",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/section-7": {
+      "description": "Technical Data definitions: cracking pressure (inlet pressure at the first indication of flow), reseal pressure (no indication of flow) and back pressure (differential between inlet and outlet), plus the caution that initial cracking pressure may be higher after a period without actuation.",
+      "use_for": "Answers how cracking, reseal and back pressure are defined in this catalog.",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/section-9": {
+      "description": "Basis of the C (2C, 4C, 6C, 8C), CA, CP and CPA pressure-temperature ratings: fluorocarbon FKM O-rings in 316 SS valves and Buna N O-rings in brass valves; with the note that CH or CP series valves may be considered instead.",
+      "use_for": "Answers which O-ring materials the C, CA, CP and CPA pressure-temperature ratings assume.",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/section-10": {
+      "description": "Basis of the 12C and 16C pressure-temperature ratings: fluorocarbon FKM O-rings in 316 SS valves and Buna N O-rings in brass valves.",
+      "use_for": "Answers which O-ring materials the 12C and 16C pressure-temperature ratings assume.",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/section-11": {
+      "description": "Notes to the CH series pressure-temperature ratings: based on fluorocarbon FKM seals; see Swagelok Tubing Data MS-01-107 for tube fitting end connections; ratings may be limited by the end connection (Dimensions, page 12).",
+      "use_for": "Answers what seal material the CH ratings assume and that the end connection can limit the rating.",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/section-12": {
+      "description": "Cracking and Reseal Pressures at 70°F (20°C): definitions of cracking, reseal and back pressure and the caution about higher initial cracking pressure after a period without actuation.",
+      "use_for": "Answers how cracking, reseal and back pressure are defined for the page 4 tables.",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/section-13": {
+      "description": "Heading 'C Series' on page 4 with chart debris ('Back Pressure', 'Cracking Pressure, psi') from the CA and CPA chart.",
+      "use_for": "Answers nothing on its own; see table-azure-5 and fig-4.1/chart-1.",
+      "uncertain": "Only a heading plus axis labels of the neighbouring chart.",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/section-15": {
+      "description": "Materials of Construction page text for the C and CA series: the caption '12C Series shown', the callout numbers 1 to 11 and the caption 'CA Series' of the exploded views.",
+      "use_for": "Answers nothing on its own; see table-azure-8, fig-5.1 and fig-pdf-5-2.",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/section-16": {
+      "description": "Footnote of the CH series materials table: a Material Safety Data Sheet for the bonding agent is available on request.",
+      "use_for": "Answers whether safety data for the CH poppet bonding agent is available.",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/section-18": {
+      "description": "Flow data note on page 7: the flow curves were generated in optimal laboratory conditions and results in individual applications may vary.",
+      "use_for": "Answers under what conditions the flow curves were generated.",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/section-20": {
+      "description": "Flow data note on page 8 (CH series): curves generated in optimal laboratory conditions; results may vary.",
+      "use_for": "Answers under what conditions the CH flow curves were generated.",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/section-21": {
+      "description": "CH series flow page text: legend of nominal cracking pressures 1, 10, 25 psi (0.07, 0.69, 1.8 bar), the media headings Air and Water, and the axis labels and tick numbers of the CH4 water chart that Azure did not detect.",
+      "use_for": "Answers nothing on its own; see page-8/chart-9 and the CH charts.",
+      "uncertain": "Mostly chart debris (axis labels and tick numbers).",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/section-22": {
+      "description": "Flow data note on page 9 (CA and CPA series): curves generated in optimal laboratory conditions; results may vary.",
+      "use_for": "Answers under what conditions the CA and CPA flow curves were generated.",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/section-23": {
+      "description": "Heading 'CA and CPA Series' of the page 9 flow charts.",
+      "use_for": "Answers nothing on its own; see fig-9.1/chart-14 to chart-19.",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/section-24": {
+      "description": "Flow data note on page 10 (CP series): curves generated in optimal laboratory conditions; results may vary.",
+      "use_for": "Answers under what conditions the CP flow curves were generated.",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/section-25": {
+      "description": "CP series flow page text: legend of nominal cracking pressures 1, 10, 25 psi (0.07, 0.69, 1.8 bar), the media headings Air and Water and loose chart titles/axis labels.",
+      "use_for": "Answers nothing on its own; see fig-10.1/chart-20 to fig-10.4/chart-23.",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/section-26": {
+      "description": "Testing: every C, CA, CH, CP and CPA valve is factory tested for crack and reseal; fixed cracking pressure valves are cycled six times before testing, adjustable ones are tested at a low and a high pressure setting; seats have a maximum allowable leak rate of 1 std cm3/min nitrogen.",
+      "use_for": "Answers how the check valves are factory tested and what seat leak rate is allowed.",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/section-27": {
+      "description": "Cleaning and Packaging: C, CA and CH valves with VCR or VCO end connections are processed to Swagelok SC-11 (MS-06-63, ASTM G93 Level C); all other C, CA, CH valves and all CP and CPA valves are cleaned to SC-10 (MS-06-62).",
+      "use_for": "Answers which cleaning and packaging specification applies to a given series and end connection.",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/section-28": {
+      "description": "Dimensions note on page 11: dimensions are shown with Swagelok tube fitting nuts finger-tight, for reference only and subject to change.",
+      "use_for": "Answers how the dimensions in the C and CA dimensions table are to be read.",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/section-31": {
+      "description": "Ordering note on page 11: basic ordering numbers specify stainless steel; for brass replace SS with B.",
+      "use_for": "Answers how to order a brass C or CA series valve.",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/section-33": {
+      "description": "C series ordering instruction: add a cracking pressure designator to the basic ordering number.",
+      "use_for": "Answers how a complete C series ordering number is formed.",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/section-34": {
+      "description": "CA series ordering instruction (add a cracking pressure range designator) and the caution that check valves are for directional flow control only and must never be used as code safety relief devices.",
+      "use_for": "Answers how a complete CA series ordering number is formed and that check valves are not safety relief devices.",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/section-36": {
+      "description": "Dimensions note on page 12 (CH series): dimensions with tube fitting nuts finger-tight, for reference only, subject to change.",
+      "use_for": "Answers how the dimensions in the CH dimensions table are to be read.",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/section-38": {
+      "description": "CH series ordering instruction (add a cracking pressure designator, example SS-CHS2-1/3) and the caution that check valves must never be used as code safety relief devices.",
+      "use_for": "Answers how a complete CH series ordering number is formed.",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/section-39": {
+      "description": "Dimensions note on page 13 (CP and CPA series): dimensions with tube fitting nuts finger-tight, for reference only, subject to change.",
+      "use_for": "Answers how the dimensions in the CP and CPA dimensions table are to be read.",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/section-41": {
+      "description": "Ordering note on page 13: basic ordering numbers specify stainless steel; for brass replace SS with B.",
+      "use_for": "Answers how to order a brass CP or CPA series valve.",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/section-43": {
+      "description": "CP series ordering instruction: add a cracking pressure designator to the basic ordering number.",
+      "use_for": "Answers how a complete CP series ordering number is formed.",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/section-45": {
+      "description": "CPA series ordering instruction (add a cracking pressure range designator) and the caution that check valves must never be used as code safety relief devices.",
+      "use_for": "Answers how a complete CPA series ordering number is formed.",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/section-47": {
+      "description": "Seal material option for all series: FKM O-rings standard in 316 SS valves, Buna N in brass valves; other elastomer seals available by inserting the seal material designator into the ordering number.",
+      "use_for": "Answers which seal material is standard and how to order another one.",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/section-48": {
+      "description": "Seal material ordering example B-2C-VI-1/3 and the note that additional seal materials are available on request.",
+      "use_for": "Answers how a seal material designator appears in an ordering number.",
+      "uncertain": "Azure made the example line a heading.",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/section-49": {
+      "description": "Special alloys: springs of alloy 400 or alloy C-276 and valve bodies of alloy 400, carbon steel, aluminum or other alloys are available in some sizes.",
+      "use_for": "Answers which special spring and body alloys can be requested.",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/section-50": {
+      "description": "PTFE-coated springs are available in some sizes for the C, CA, CP and CPA series.",
+      "use_for": "Answers whether PTFE-coated springs are available.",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/section-51": {
+      "description": "Inlet gasket option for 2C, 4C, 6C and 8C: PTFE-coated 316 SS gaskets reduce O-ring dislodging under pressure surges, shock or pulses; ordered with -FG (example SS-4C-FG-1) when not standard.",
+      "use_for": "Answers what the inlet gasket is for and how to order it.",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/section-52": {
+      "description": "Deflector cap option for 4C, 8C, CP and CPA valves with male NPT ends: polyethylene cap that deflects flow away from personnel and keeps contaminants out, rated 300 psig at 100°F (20.6 bar at 37°C); -DG green or -DR red (example SS-4CPA2-DR-3).",
+      "use_for": "Answers what the deflector cap does, its rating and how to order it.",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/section-53": {
+      "description": "Sour gas option: CH series valves are available for sour gas service with materials selected per NACE MR0175/ISO 15156.",
+      "use_for": "Answers whether a CH valve can be had for sour gas service and to which standard.",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/section-54": {
+      "description": "Technical data of the sour gas CH valves: 5000 psig (344 bar) at 70°F (20°C), -50 to 300°F (-45 to 148°C), nominal cracking pressures 1/3, 1 and 5 psi, 1/4, 3/8 and 1/2 in. tube fittings, alloy 400 body and poppet, ethylene propylene seals, PTFE backup ring, alloy X-750 spring.",
+      "use_for": "Answers the ratings, cracking pressures, end connections and materials of the sour gas CH valves.",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/section-55": {
+      "description": "Ordering of sour gas CH valves (replace SS with M, insert -SG, example M-CHS4-SG-1/3) and the ECE R110-type approved CH valves with Buna C seals for alternative fuel service: -40 to 185°F (-40 to 85°C), 3770 psig (260 bar), ordered with -11670.",
+      "use_for": "Answers how to order sour gas CH valves and what the ECE R110-approved CH variant is rated for.",
+      "uncertain": "The heading 'Valves With ECE R110-Type Approval (CH Series)' is plain text in this section.",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/section-56": {
+      "description": "Special cleaning and packaging SC-11 (MS-06-63, ASTM G93 Level C): standard for C, CA and CH valves with VCR or VCO ends, orderable for other end connections with -SC11 (example SS-2C-1/3-SC11).",
+      "use_for": "Answers how to order SC-11 cleaning for valves that do not have it as standard.",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/section-57": {
+      "description": "Oxygen service hazards: refers to the Swagelok Oxygen System Safety technical report MS-06-13.",
+      "use_for": "Answers where to find information on oxygen-enriched system hazards.",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/section-59": {
+      "description": "C, CP, CA and CPA seal kits: contain an O-ring and instructions; for PTFE kits replace the material designator with T and omit the durometer number (example T-4C-K4).",
+      "use_for": "Answers what a seal kit contains and how to order a PTFE seal kit.",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/section-60": {
+      "description": "CH series seal kits: contain bonded poppet, body seal O-ring, PTFE backup ring and instructions; add a seal material designator to the basic kit number (example SS-3K-CH4-VI).",
+      "use_for": "Answers what a CH seal kit contains and how its ordering number is formed.",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/section-61": {
+      "description": "Metal gasket kit and spring kit text: gasket kits contain PTFE-coated gasket(s) and instructions (example SS-8C-K6) with the gasket availability footnotes; C, CP, CA and CPA spring kits contain a spring, two cracking pressure labels and instructions (example 302-4C-K2-1/3; add T for a PTFE-coated spring).",
+      "use_for": "Answers what the metal gasket and spring kits contain and how their ordering numbers are formed.",
+      "uncertain": "Azure merged the gasket-kit text, its footnotes and the spring-kit text across pages 15 and 16 into one section.",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/section-62": {
+      "description": "CH spring kits (spring, two cracking pressure labels, instructions; example 302-13K-CH4-1/3), deflector cap kits (one polyethylene cap in red or green) and the Safe Product Selection statement (system designer and user are responsible for function, compatibility, ratings, installation, operation and maintenance).",
+      "use_for": "Answers what CH spring and deflector cap kits contain and who is responsible for safe product selection.",
+      "uncertain": "Azure merged three separate blocks into one section.",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/section-63": {
+      "description": "Warning not to mix or interchange Swagelok products or components not governed by industrial design standards, including tube fitting end connections, with those of other manufacturers.",
+      "use_for": "Answers whether Swagelok components may be mixed with other manufacturers' parts.",
+      "footnotes": []
+    },
+    "swagelok-ms-01-176/section-64": {
+      "description": "Warranty information (Swagelok Limited Lifetime Warranty), trademarks (VCR, VCO, Swagelok) and the catalog identification MS-01-176, RevN, December 2025.",
+      "use_for": "Answers which warranty applies and which catalog revision this is.",
+      "footnotes": []
+    }
+  }
+}

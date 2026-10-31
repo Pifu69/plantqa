@@ -1,0 +1,1338 @@
+{
+  "summary": {
+    "sources": 132,
+    "missing": 0,
+    "extra_ids": [],
+    "description_over_2_sentences": 0,
+    "use_for_not_1_sentence": 11,
+    "with_ungrounded_numbers": 40,
+    "marked_uncertain": 31
+  },
+  "sources": [
+    {
+      "id": "swagelok-ms-01-176/table-azure-0",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "Titled 'Check Valves' by the inventory; the printed title is 'Contents'."
+    },
+    {
+      "id": "swagelok-ms-01-176/table-azure-1",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/table-azure-2",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/table-azure-3",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/table-azure-4",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "The footnote text ('Pressure ratings may be limited by the end connection. See Dimensions, page 12.') is in text section section-11, not in the table."
+    },
+    {
+      "id": "swagelok-ms-01-176/table-azure-5",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "70"
+      ],
+      "uncertain": "Azure attached the caption 'CH Series' to this table; on the page it is the C Series table (CH is the next one)."
+    },
+    {
+      "id": "swagelok-ms-01-176/table-azure-6",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "70"
+      ],
+      "uncertain": "Azure captioned the first block 'CP Series' although it is the CH Series table; the second block (no caption) is the CP Series table. The inventory title names only the CH series."
+    },
+    {
+      "id": "swagelok-ms-01-176/table-azure-8",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/table-azure-9",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "The footnote marker on the poppet and its text ('Material Safety Data Sheet for bonding agent available on request') are not in the table (text section section-16)."
+    },
+    {
+      "id": "swagelok-ms-01-176/table-azure-10",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "Azure split the merged brass 4CPA cell 'Brass CW710R/EN 12163' into 'Brass' and 'CW710R/ EN 12163'; the footnote markers (spring PTFE-coated in 8CPA; 8CPA adjusting screw 316 SS for 150/350 psi springs) appear as '@' and '3602'."
+    },
+    {
+      "id": "swagelok-ms-01-176/table-azure-11",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "C is printed only in mm for metric rows and '—' for NPT and VCR rows; B and C are hex flats per the drawings."
+    },
+    {
+      "id": "swagelok-ms-01-176/table-azure-12",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/table-azure-13",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/table-azure-14",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "The ISO footnote (ISO 7/1, BS EN 10226-1, DIN 2999, JIS B0203) is printed below the table."
+    },
+    {
+      "id": "swagelok-ms-01-176/table-azure-15",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "Titled 'Ordering Information' by Azure; the example SS-CHS2-1/3 is in text section section-38."
+    },
+    {
+      "id": "swagelok-ms-01-176/table-azure-16",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/table-azure-17",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/table-azure-18",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/table-azure-19",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/table-azure-20",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/table-azure-21",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/table-azure-22",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "Azure merged the two printed tables into one source."
+    },
+    {
+      "id": "swagelok-ms-01-176/table-azure-24",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "400"
+      ],
+      "uncertain": "Azure merged the two printed tables; footnote markers appear as 'Alloy 4001' and 'Aluminum?'."
+    },
+    {
+      "id": "swagelok-ms-01-176/table-azure-26",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "400",
+        "400"
+      ],
+      "uncertain": "Azure merged three printed tables into one source; the inventory title names only the first. The alloy 400 footnote marker appears as 'Alloy 4000'."
+    },
+    {
+      "id": "swagelok-ms-01-176/table-azure-29",
+      "kind": "table",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "Azure merged three printed tables (CH spring kits, cracking pressure designators, 4C/8C/CP/CPA deflector cap kits); the inventory title 'CH Series Spring Kits - table 2' fits only the second part."
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-1.1",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-2.1",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-2.2",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-2.3",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "Azure captioned it 'Adjustable Cracking Pressures From 3 to 600 psi (0.21 to 41.4 bar)', which is the heading of the right-hand column; the drawing is the CP Series (fixed cracking pressure) view."
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-2.4",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "Azure captioned it 'CPA Series'; the printed sub-caption in the figure is 'CA Series'."
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-2.5",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-4.1",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "0",
+        "600",
+        "4.1",
+        "1"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-5.1",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "8"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-5.2",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "2"
+      ],
+      "uncertain": "Azure split the CA series exploded view into fig-5.2, fig-5.3 and fig-5.4; the complete view is fig-pdf-5-2."
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-5.3",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "2"
+      ],
+      "uncertain": "Fragment of the CA series exploded view split by Azure."
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-5.4",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "2"
+      ],
+      "uncertain": "Fragment of the CA series exploded view split by Azure."
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-5.5",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "9"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-6.1",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "10"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-6.2",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "10"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-7.1",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "70",
+        "20",
+        "7.1",
+        "7.1"
+      ],
+      "uncertain": "One Azure figure holds six charts; Azure read the legend entry '10 psi (0.69 bar)' as '-10 psi'."
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-8.1",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "70",
+        "20",
+        "8.1"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-8.2",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "70",
+        "20",
+        "8.2",
+        "10"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-8.3",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "70",
+        "20",
+        "8.3",
+        "11"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-8.4",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "70",
+        "20",
+        "8.4",
+        "12"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-8.5",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "70",
+        "20",
+        "8.5",
+        "13"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-9.1",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "70",
+        "20",
+        "9.1",
+        "14",
+        "9.1",
+        "19"
+      ],
+      "uncertain": "Azure read the legend entry as '350 psi (24.2) bar)'."
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-10.1",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "70",
+        "20",
+        "10.1",
+        "20"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-10.2",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "70",
+        "20",
+        "10.2",
+        "21"
+      ],
+      "uncertain": "Azure captioned it '8CP Series'; it is the 4CP Series water chart."
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-10.3",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "70",
+        "20",
+        "10.3",
+        "22"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-10.4",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "70",
+        "20",
+        "10.4",
+        "23"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-11.1",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-11.2",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-12.1",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "14"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-13.1",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "16"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-14.1",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "52"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-15.1",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "21"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-15.2",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "22"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-16.1",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "26"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-16.2",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "29"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-16.3",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "29"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-pdf-2-1",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "2.1",
+        "2.2"
+      ],
+      "uncertain": "Not a separate figure: a partial duplicate of fig-2.1 and fig-2.2 found in the PDF raster layer."
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-pdf-5-2",
+      "kind": "figure",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "The callout numbers are printed just left of the cropped area."
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-4.1/chart-1",
+      "kind": "chart",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "0",
+        "600"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-7.1/chart-2",
+      "kind": "chart",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-7.1/chart-3",
+      "kind": "chart",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 2,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-7.1/chart-4",
+      "kind": "chart",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-7.1/chart-5",
+      "kind": "chart",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 2,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-7.1/chart-6",
+      "kind": "chart",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-7.1/chart-7",
+      "kind": "chart",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 2,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-8.1/chart-8",
+      "kind": "chart",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/page-8/chart-9",
+      "kind": "chart",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 2,
+      "ungrounded_numbers": [],
+      "uncertain": "Azure did not detect this chart as a figure; its axis text is in text section section-21."
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-8.2/chart-10",
+      "kind": "chart",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-8.3/chart-11",
+      "kind": "chart",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 2,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-8.4/chart-12",
+      "kind": "chart",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-8.5/chart-13",
+      "kind": "chart",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 2,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-9.1/chart-14",
+      "kind": "chart",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-9.1/chart-15",
+      "kind": "chart",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 2,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-9.1/chart-16",
+      "kind": "chart",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-9.1/chart-17",
+      "kind": "chart",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 2,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-9.1/chart-18",
+      "kind": "chart",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-9.1/chart-19",
+      "kind": "chart",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 2,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-10.1/chart-20",
+      "kind": "chart",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-10.2/chart-21",
+      "kind": "chart",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 2,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-10.3/chart-22",
+      "kind": "chart",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-10.4/chart-23",
+      "kind": "chart",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 2,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/section-1",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "316"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/section-3",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "The matching statement for adjustable series (3 to 600 psi) went into the caption of fig-2.3."
+    },
+    {
+      "id": "swagelok-ms-01-176/section-6",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "2.3",
+        "2.5"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/section-7",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/section-9",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/section-10",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/section-11",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/section-12",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/section-13",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "5",
+        "4.1",
+        "1"
+      ],
+      "uncertain": "Only a heading plus axis labels of the neighbouring chart."
+    },
+    {
+      "id": "swagelok-ms-01-176/section-15",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "1",
+        "11",
+        "8",
+        "5.1",
+        "2"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/section-16",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/section-18",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/section-20",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/section-21",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "1",
+        "10",
+        "25",
+        "9"
+      ],
+      "uncertain": "Mostly chart debris (axis labels and tick numbers)."
+    },
+    {
+      "id": "swagelok-ms-01-176/section-22",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/section-23",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "9.1",
+        "14",
+        "19"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/section-24",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/section-25",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [
+        "1",
+        "25",
+        "10.1",
+        "20",
+        "10.4",
+        "23"
+      ],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/section-26",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/section-27",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/section-28",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/section-31",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/section-33",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/section-34",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/section-36",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/section-38",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/section-39",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/section-41",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/section-43",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/section-45",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/section-47",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/section-48",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "Azure made the example line a heading."
+    },
+    {
+      "id": "swagelok-ms-01-176/section-49",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/section-50",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/section-51",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/section-52",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/section-53",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/section-54",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 2,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/section-55",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "The heading 'Valves With ECE R110-Type Approval (CH Series)' is plain text in this section."
+    },
+    {
+      "id": "swagelok-ms-01-176/section-56",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/section-57",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/section-59",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/section-60",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/section-61",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "Azure merged the gasket-kit text, its footnotes and the spring-kit text across pages 15 and 16 into one section."
+    },
+    {
+      "id": "swagelok-ms-01-176/section-62",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": "Azure merged three separate blocks into one section."
+    },
+    {
+      "id": "swagelok-ms-01-176/section-63",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    },
+    {
+      "id": "swagelok-ms-01-176/section-64",
+      "kind": "text_section",
+      "missing": false,
+      "description_sentences": 1,
+      "use_for_sentences": 1,
+      "ungrounded_numbers": [],
+      "uncertain": null
+    }
+  ]
+}

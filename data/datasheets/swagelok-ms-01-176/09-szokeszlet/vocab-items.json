@@ -1,0 +1,1092 @@
+{
+ "document": "swagelok-ms-01-176",
+ "items": [
+  {
+   "id": "swagelok-ms-01-176/property/basic_metal_gasket_kit_ordering_number",
+   "document": "swagelok-ms-01-176",
+   "kind": "property",
+   "label": "Basic metal gasket kit ordering number",
+   "subjects": [
+    "Swagelok check valve (C, CA, CH, CP and CPA series)"
+   ],
+   "units": [],
+   "examples": [
+    "-4C-K6",
+    "-8C-K6",
+    "-14C-K6",
+    "-4CA-K6"
+   ],
+   "values": [
+    "-4C-K6",
+    "-8C-K6",
+    "-14C-K6",
+    "-4CA-K6"
+   ],
+   "facts": 4
+  },
+  {
+   "id": "swagelok-ms-01-176/property/basic_ordering_number",
+   "document": "swagelok-ms-01-176",
+   "kind": "property",
+   "label": "Basic ordering number",
+   "subjects": [
+    "Swagelok check valve (C, CA, CH, CP and CPA series)"
+   ],
+   "units": [],
+   "examples": [
+    "SS-2C-",
+    "SS-4C-",
+    "SS-6C-",
+    "SS-8C-",
+    "SS-12C-",
+    "SS-16C-"
+   ],
+   "values": [
+    "SS-2C-",
+    "SS-4C-",
+    "SS-6C-",
+    "SS-8C-",
+    "SS-12C-",
+    "SS-16C-",
+    "SS-6C-MM-",
+    "SS-10C-MM-",
+    "SS-12C-MM-",
+    "SS-2C4-",
+    "SS-4C4-",
+    "SS-6C4-",
+    "SS-8C4-",
+    "SS-12C4-",
+    "SS-16C4-",
+    "SS-2C2-",
+    "SS-4C2-",
+    "SS-6C2-",
+    "SS-8C2-",
+    "SS-12C2-",
+    "SS-16C2-",
+    "SS-4C1-",
+    "SS-4C-VCR-",
+    "SS-8C-VCR-",
+    "SS-12C-VCR-",
+    "SS-16C-VCR-",
+    "SS-4CA-",
+    "SS-6CA-MM-",
+    "SS-8CA-MM-",
+    "SS-4CA1-",
+    "SS-4CA-VCR-",
+    "SS-CHS2-",
+    "SS-CHS4-",
+    "SS-CHS6-",
+    "SS-CHS8-",
+    "SS-CHS12-",
+    "SS-CHS16-",
+    "SS-CHS6MM-",
+    "SS-CHS8MM-",
+    "SS-CHS10MM-"
+   ],
+   "facts": 85
+  },
+  {
+   "id": "swagelok-ms-01-176/property/basic_seal_kit_ordering_number",
+   "document": "swagelok-ms-01-176",
+   "kind": "property",
+   "label": "Basic seal kit ordering number",
+   "subjects": [
+    "Swagelok check valve (C, CA, CH, CP and CPA series)"
+   ],
+   "units": [],
+   "examples": [
+    "SS-3K-CH4-",
+    "M-3K-CH4-",
+    "SS-3K-CH8-",
+    "M-3K-CH8-",
+    "SS-3K-CH16-"
+   ],
+   "values": [
+    "SS-3K-CH4-",
+    "M-3K-CH4-",
+    "SS-3K-CH8-",
+    "M-3K-CH8-",
+    "SS-3K-CH16-"
+   ],
+   "facts": 5
+  },
+  {
+   "id": "swagelok-ms-01-176/property/basic_spring_kit_ordering_number",
+   "document": "swagelok-ms-01-176",
+   "kind": "property",
+   "label": "Basic spring kit ordering number",
+   "subjects": [
+    "Swagelok check valve (C, CA, CH, CP and CPA series)"
+   ],
+   "units": [],
+   "examples": [
+    "-4C-K2-1/3",
+    "-4C-K2-1",
+    "-4C-K2-10",
+    "-4C-K2-25",
+    "-8C-K2-1/3",
+    "-8C-K2-1"
+   ],
+   "values": [
+    "-4C-K2-1/3",
+    "-4C-K2-1",
+    "-4C-K2-10",
+    "-4C-K2-25",
+    "-8C-K2-1/3",
+    "-8C-K2-1",
+    "-8C-K2-10",
+    "-8C-K2-25",
+    "-14C-K2-1/3",
+    "-14C-K2-1",
+    "-14C-K2-10",
+    "-14C-K2-25",
+    "-4CA-K2-3",
+    "-4CA-K2-50",
+    "-4CA-K2-150",
+    "-4CA-K2-350",
+    "-8CA-K2-3",
+    "-8CA-K2-50",
+    "-8CA-K2-150",
+    "-8CA-K2-350",
+    "302-13K-CH4-",
+    "M-13K-CH4-",
+    "302-13K-CH8-",
+    "M-13K-CH8-",
+    "302-13K-CH16-"
+   ],
+   "facts": 25
+  },
+  {
+   "id": "swagelok-ms-01-176/property/cracking_pressure",
+   "document": "swagelok-ms-01-176",
+   "kind": "property",
+   "label": "Cracking pressure",
+   "subjects": [
+    "Swagelok check valve (C, CA, CH, CP and CPA series)"
+   ],
+   "units": [
+    "bar",
+    "psi"
+   ],
+   "examples": [
+    "0.03 bar",
+    "1/3 psi",
+    "0.07 bar",
+    "1 psi",
+    "0.69 bar",
+    "10 psi"
+   ],
+   "values": [],
+   "facts": 26
+  },
+  {
+   "id": "swagelok-ms-01-176/property/cracking_pressure_designator",
+   "document": "swagelok-ms-01-176",
+   "kind": "property",
+   "label": "Cracking pressure designator",
+   "subjects": [
+    "Swagelok check valve (C, CA, CH, CP and CPA series)"
+   ],
+   "units": [],
+   "examples": [
+    "1/3",
+    "1",
+    "10",
+    "25",
+    "5"
+   ],
+   "values": [],
+   "facts": 13
+  },
+  {
+   "id": "swagelok-ms-01-176/property/cracking_pressure_range",
+   "document": "swagelok-ms-01-176",
+   "kind": "property",
+   "label": "Cracking pressure range",
+   "subjects": [
+    "Swagelok check valve (C, CA, CH, CP and CPA series)"
+   ],
+   "units": [
+    "bar",
+    "psi"
+   ],
+   "examples": [
+    "Up to 0.21 bar",
+    "Up to 3 psi",
+    "Up to 0.28 bar",
+    "Up to 4 psi",
+    "0.49 to 1.1 bar",
+    "7 to 15 psi"
+   ],
+   "values": [
+    "Up to 0.21 bar",
+    "Up to 3 psi",
+    "Up to 0.28 bar",
+    "Up to 4 psi"
+   ],
+   "facts": 13
+  },
+  {
+   "id": "swagelok-ms-01-176/property/cracking_pressure_range_designator",
+   "document": "swagelok-ms-01-176",
+   "kind": "property",
+   "label": "Cracking pressure range designator",
+   "subjects": [
+    "Swagelok check valve (C, CA, CH, CP and CPA series)"
+   ],
+   "units": [],
+   "examples": [
+    "3",
+    "50",
+    "150",
+    "350"
+   ],
+   "values": [],
+   "facts": 8
+  },
+  {
+   "id": "swagelok-ms-01-176/property/deflector_cap_kit_ordering_number",
+   "document": "swagelok-ms-01-176",
+   "kind": "property",
+   "label": "Deflector cap kit ordering number",
+   "subjects": [
+    "Swagelok check valve (C, CA, CH, CP and CPA series)"
+   ],
+   "units": [],
+   "examples": [
+    "P-4CP4-K12-RD",
+    "P-4CP4-K12-GR",
+    "P-8CP4-K12-RD",
+    "P-8CP4-K12-GR"
+   ],
+   "values": [
+    "P-4CP4-K12-RD",
+    "P-4CP4-K12-GR",
+    "P-8CP4-K12-RD",
+    "P-8CP4-K12-GR"
+   ],
+   "facts": 4
+  },
+  {
+   "id": "swagelok-ms-01-176/property/dimension_a",
+   "document": "swagelok-ms-01-176",
+   "kind": "property",
+   "label": "Dimension A",
+   "subjects": [
+    "SS-2C-",
+    "SS-4C-",
+    "SS-6C-"
+   ],
+   "units": [
+    "in",
+    "mm"
+   ],
+   "examples": [
+    "2.14 in.",
+    "54.3 mm",
+    "2.35 in.",
+    "59.7 mm",
+    "3.17 in.",
+    "80.5 mm"
+   ],
+   "values": [],
+   "facts": 85
+  },
+  {
+   "id": "swagelok-ms-01-176/property/dimension_b",
+   "document": "swagelok-ms-01-176",
+   "kind": "property",
+   "label": "Dimension B",
+   "subjects": [
+    "SS-2C-",
+    "SS-4C-",
+    "SS-6C-"
+   ],
+   "units": [
+    "in"
+   ],
+   "examples": [
+    "5/8 in.",
+    "7/8 in.",
+    "1 1/4 in.",
+    "1 3/8 in.",
+    "3/4 in.",
+    "1 1/16 in."
+   ],
+   "values": [
+    "1 1/4 in.",
+    "1 3/8 in.",
+    "1 1/16 in.",
+    "1 5/8 in."
+   ],
+   "facts": 71
+  },
+  {
+   "id": "swagelok-ms-01-176/property/dimension_c",
+   "document": "swagelok-ms-01-176",
+   "kind": "property",
+   "label": "Dimension C",
+   "subjects": [
+    "SS-2C-",
+    "SS-4C-",
+    "SS-6C-"
+   ],
+   "units": [
+    "in",
+    "mm"
+   ],
+   "examples": [
+    "7/16 in.",
+    "9/16 in.",
+    "11/16 in.",
+    "7/8 in.",
+    "1 1/8 in.",
+    "1 1/2 in."
+   ],
+   "values": [
+    "1 1/8 in.",
+    "1 1/2 in."
+   ],
+   "facts": 14
+  },
+  {
+   "id": "swagelok-ms-01-176/property/dimension_d",
+   "document": "swagelok-ms-01-176",
+   "kind": "property",
+   "label": "Dimension D",
+   "subjects": [
+    "SS-4CP4-",
+    "SS-8CP4-",
+    "SS-4CP2-"
+   ],
+   "units": [
+    "in"
+   ],
+   "examples": [
+    "3/4 in.",
+    "1 1/16 in.",
+    "9/16 in.",
+    "7/8 in."
+   ],
+   "values": [
+    "1 1/16 in."
+   ],
+   "facts": 14
+  },
+  {
+   "id": "swagelok-ms-01-176/property/gasket_material_designator",
+   "document": "swagelok-ms-01-176",
+   "kind": "property",
+   "label": "Gasket material designator",
+   "subjects": [
+    "Swagelok check valve (C, CA, CH, CP and CPA series)"
+   ],
+   "units": [],
+   "examples": [
+    "SS",
+    "M",
+    "A"
+   ],
+   "values": [
+    "SS",
+    "M",
+    "A"
+   ],
+   "facts": 3
+  },
+  {
+   "id": "swagelok-ms-01-176/property/inlet_gasket",
+   "document": "swagelok-ms-01-176",
+   "kind": "property",
+   "label": "Inlet gasket",
+   "subjects": [
+    "Swagelok check valve (C, CA, CH, CP and CPA series)"
+   ],
+   "units": [],
+   "examples": [
+    "Optional",
+    "Standard"
+   ],
+   "values": [
+    "Optional",
+    "Standard"
+   ],
+   "facts": 6
+  },
+  {
+   "id": "swagelok-ms-01-176/property/material",
+   "document": "swagelok-ms-01-176",
+   "kind": "property",
+   "label": "material grade/specification",
+   "subjects": [
+    "Inlet body",
+    "Inlet gasket (CA series)",
+    "Inlet gasket (standard for 6C and 8C series with ≥ 50 psi [3.5 bar] spring; optional for 2C and 4C series and all other 6C and 8C series)"
+   ],
+   "units": [],
+   "examples": [
+    "316 SS/A479",
+    "Brass 360/B16",
+    "PTFE-coated 316 SS/A240",
+    "PTFE-coated aluminum/B209",
+    "Naval brass 485/B21",
+    "Fluorocarbon FKM"
+   ],
+   "values": [
+    "316 SS/A479",
+    "Brass 360/B16",
+    "PTFE-coated 316 SS/A240",
+    "PTFE-coated aluminum/B209",
+    "Naval brass 485/B21",
+    "Fluorocarbon FKM",
+    "Buna N",
+    "302 SS/A313",
+    "316 SS/A276",
+    "Silicone-based (C series); PTFE-based (CA series)",
+    "Molybdenum disulfide-based",
+    "Fluorocarbon FKM-bonded 316 SS/A479",
+    "316 SS/A240",
+    "PTFE/D1710",
+    "PTFE-based",
+    "316 SS/ASTM A276 or A479",
+    "Brass CW710R/EN 12163",
+    "Brass 360/ASTM B16",
+    "316 SS/ASTM A479",
+    "302 SS/ASTM A313",
+    "316 SS/ASTM A276",
+    "Silicone-based and PTFE-based (CP series); PTFE-based (4CPA series); PTFE-based and molybdenum disulfide (8CPA series)",
+    "Silicone-based and PTFE-based",
+    "PTFE-based and Molybdenum disulfide-based"
+   ],
+   "facts": 78
+  },
+  {
+   "id": "swagelok-ms-01-176/property/maximum_back_pressure",
+   "document": "swagelok-ms-01-176",
+   "kind": "property",
+   "label": "Maximum back pressure",
+   "subjects": [
+    "Swagelok check valve (C, CA, CH, CP and CPA series)"
+   ],
+   "units": [
+    "bar",
+    "psig"
+   ],
+   "examples": [
+    "68.9 bar",
+    "1000 psig",
+    "13.7 bar",
+    "200 psig",
+    "413 bar",
+    "6000 psig"
+   ],
+   "values": [],
+   "facts": 13
+  },
+  {
+   "id": "swagelok-ms-01-176/property/maximum_flow_coefficient_cv",
+   "document": "swagelok-ms-01-176",
+   "kind": "property",
+   "label": "Maximum flow coefficient (Cv)",
+   "subjects": [
+    "Swagelok check valve (C, CA, CH, CP and CPA series)"
+   ],
+   "units": [],
+   "examples": [
+    "0.10",
+    "0.47",
+    "1.47",
+    "1.68",
+    "4.48",
+    "0.67"
+   ],
+   "values": [],
+   "facts": 13
+  },
+  {
+   "id": "swagelok-ms-01-176/property/nominal_cracking_pressure",
+   "document": "swagelok-ms-01-176",
+   "kind": "property",
+   "label": "Nominal cracking pressure",
+   "subjects": [
+    "Swagelok check valve (C, CA, CH, CP and CPA series)"
+   ],
+   "units": [
+    "bar",
+    "psi"
+   ],
+   "examples": [
+    "0.03, 0.07, 0.69, and 1.8 bar",
+    "1/3, 1, 10 and 25 psi",
+    "0.03, 0.07, 0.35 0.69, and 1.8 bar",
+    "1/3, 1, 5, 10 and 25 psi",
+    "0.21 to 3.5; 3.5 to 10.4; 10.4 to 24.2; 24.2 to 41.4 bar",
+    "3 to 50; 50 to 150; 150 to 350; 350 to 600 psi"
+   ],
+   "values": [
+    "0.03, 0.07, 0.69, and 1.8 bar",
+    "1/3, 1, 10 and 25 psi",
+    "0.03, 0.07, 0.35 0.69, and 1.8 bar",
+    "1/3, 1, 5, 10 and 25 psi",
+    "0.21 to 3.5; 3.5 to 10.4; 10.4 to 24.2; 24.2 to 41.4 bar",
+    "3 to 50; 50 to 150; 150 to 350; 350 to 600 psi"
+   ],
+   "facts": 26
+  },
+  {
+   "id": "swagelok-ms-01-176/property/pressure_rating",
+   "document": "swagelok-ms-01-176",
+   "kind": "property",
+   "label": "Pressure rating",
+   "subjects": [
+    "SS-CHS2-",
+    "SS-CHS4-",
+    "SS-CHS6-"
+   ],
+   "units": [
+    "bar",
+    "psig"
+   ],
+   "examples": [
+    "413 bar",
+    "6000 psig",
+    "344 bar",
+    "5000 psig",
+    "323 bar",
+    "4700 psig"
+   ],
+   "values": [],
+   "facts": 40
+  },
+  {
+   "id": "swagelok-ms-01-176/property/reseal_pressure",
+   "document": "swagelok-ms-01-176",
+   "kind": "property",
+   "label": "Reseal pressure",
+   "subjects": [
+    "Swagelok check valve (C, CA, CH, CP and CPA series)"
+   ],
+   "units": [
+    "bar",
+    "psi"
+   ],
+   "examples": [
+    "Up to 1.4 back pressure bar",
+    "Up to 20 back pressure psi",
+    "Up to 0.9 back pressure bar",
+    "Up to 12 back pressure psi",
+    "0.21 or more inlet pressure bar",
+    "3 or more inlet pressure psi"
+   ],
+   "values": [
+    "Up to 1.4 back pressure bar",
+    "Up to 20 back pressure psi",
+    "Up to 0.9 back pressure bar",
+    "Up to 12 back pressure psi",
+    "0.21 or more inlet pressure bar",
+    "3 or more inlet pressure psi",
+    "1.2 or more inlet pressure bar",
+    "17 or more inlet pressure psi",
+    "Up to 0.42 back pressure bar",
+    "Up to 6 back pressure psi",
+    "Up to 0.35 back pressure bar",
+    "Up to 5 back pressure psi",
+    "Up to 0.14 back pressure bar",
+    "Up to 2 back pressure psi",
+    "Up to 0.69 back pressure bar",
+    "Up to 10 back pressure psi",
+    "0.35 or more inlet pressure bar",
+    "5 or more inlet pressure psi"
+   ],
+   "facts": 13
+  },
+  {
+   "id": "swagelok-ms-01-176/property/seal_kit_material_designator",
+   "document": "swagelok-ms-01-176",
+   "kind": "property",
+   "label": "Seal kit material designator",
+   "subjects": [
+    "Swagelok check valve (C, CA, CH, CP and CPA series)"
+   ],
+   "units": [],
+   "examples": [
+    "BN",
+    "EP",
+    "VI",
+    "NE"
+   ],
+   "values": [
+    "BN",
+    "EP",
+    "VI",
+    "NE"
+   ],
+   "facts": 4
+  },
+  {
+   "id": "swagelok-ms-01-176/property/seal_kit_ordering_number",
+   "document": "swagelok-ms-01-176",
+   "kind": "property",
+   "label": "Seal kit ordering number",
+   "subjects": [
+    "Swagelok check valve (C, CA, CH, CP and CPA series)"
+   ],
+   "units": [],
+   "examples": [
+    "NEO70-4C-K4",
+    "VI70-4C-K4",
+    "BU80-4C-K4",
+    "EP80-4C-K4",
+    "NEO60-4C-K4",
+    "VI60-4C-K4"
+   ],
+   "values": [
+    "NEO70-4C-K4",
+    "VI70-4C-K4",
+    "BU80-4C-K4",
+    "EP80-4C-K4",
+    "NEO60-4C-K4",
+    "VI60-4C-K4",
+    "BU60-4C-K4",
+    "EP60-4C-K4",
+    "NEO70-8C-K4",
+    "VI70-8C-K4",
+    "BU70-8C-K4",
+    "EP70-8C-K4",
+    "NEO70-8CP-K4",
+    "VI70-8CP-K4",
+    "BU70-8CP-K4",
+    "EP70-8CP-K4",
+    "NEO70-14C-K4",
+    "VI70-14C-K4",
+    "BU70-14C-K4",
+    "EP70-14C-K4",
+    "BU70-4C-K4",
+    "EP70-4C-K4",
+    "NEO90-4C-K4",
+    "VI90-4C-K4",
+    "BU90-4C-K4",
+    "EP90-4C-K4",
+    "NEO90-8CP-K4",
+    "VI90-8CP-K4",
+    "BU90-8CP-K4",
+    "EP90-8CP-K4"
+   ],
+   "facts": 36
+  },
+  {
+   "id": "swagelok-ms-01-176/property/seal_material_designator",
+   "document": "swagelok-ms-01-176",
+   "kind": "property",
+   "label": "Seal material designator",
+   "subjects": [
+    "Swagelok check valve (C, CA, CH, CP and CPA series)"
+   ],
+   "units": [],
+   "examples": [
+    "-BU",
+    "-EP",
+    "-VI",
+    "-NE"
+   ],
+   "values": [
+    "-BU",
+    "-EP",
+    "-VI",
+    "-NE"
+   ],
+   "facts": 4
+  },
+  {
+   "id": "swagelok-ms-01-176/property/series",
+   "document": "swagelok-ms-01-176",
+   "kind": "property",
+   "label": "Series",
+   "subjects": [
+    "SS-2C-",
+    "SS-4C-",
+    "SS-6C-"
+   ],
+   "units": [],
+   "examples": [
+    "2C",
+    "4C",
+    "6C",
+    "8C",
+    "12C",
+    "16C"
+   ],
+   "values": [
+    "2C",
+    "4C",
+    "6C",
+    "8C",
+    "12C",
+    "16C",
+    "CA",
+    "CH4",
+    "CH8",
+    "CH16",
+    "4CP",
+    "8CP",
+    "4CPA",
+    "8CPA"
+   ],
+   "facts": 85
+  },
+  {
+   "id": "swagelok-ms-01-176/property/spring_kit_cracking_pressure_designator",
+   "document": "swagelok-ms-01-176",
+   "kind": "property",
+   "label": "Spring kit cracking pressure designator",
+   "subjects": [
+    "Swagelok check valve (C, CA, CH, CP and CPA series)"
+   ],
+   "units": [],
+   "examples": [
+    "1/3",
+    "1",
+    "5",
+    "10",
+    "25"
+   ],
+   "values": [],
+   "facts": 5
+  },
+  {
+   "id": "swagelok-ms-01-176/property/spring_material_designator",
+   "document": "swagelok-ms-01-176",
+   "kind": "property",
+   "label": "Spring material designator",
+   "subjects": [
+    "Swagelok check valve (C, CA, CH, CP and CPA series)"
+   ],
+   "units": [],
+   "examples": [
+    "302",
+    "M"
+   ],
+   "values": [
+    "M"
+   ],
+   "facts": 2
+  },
+  {
+   "id": "swagelok-ms-01-176/property/temperature_rating",
+   "document": "swagelok-ms-01-176",
+   "kind": "property",
+   "label": "Temperature rating",
+   "subjects": [
+    "Swagelok check valve (C, CA, CH, CP and CPA series)"
+   ],
+   "units": [
+    "°C",
+    "°F"
+   ],
+   "examples": [
+    "-23 to 121 °C",
+    "-10 to 250 °F",
+    "-45 to 148 °C",
+    "-50 to 300 °F",
+    "-23 to 190 °C",
+    "-10 to 375 °F"
+   ],
+   "values": [],
+   "facts": 4
+  },
+  {
+   "id": "swagelok-ms-01-176/property/uniform_o_ring_size",
+   "document": "swagelok-ms-01-176",
+   "kind": "property",
+   "label": "Uniform O-ring size",
+   "subjects": [
+    "Swagelok check valve (C, CA, CH, CP and CPA series)"
+   ],
+   "units": [],
+   "examples": [
+    "009",
+    "111",
+    "110",
+    "114"
+   ],
+   "values": [],
+   "facts": 9
+  },
+  {
+   "id": "swagelok-ms-01-176/property/working_pressure",
+   "document": "swagelok-ms-01-176",
+   "kind": "property",
+   "label": "Working pressure",
+   "subjects": [
+    "Swagelok check valve (C, CA, CH, CP and CPA series)"
+   ],
+   "units": [
+    "bar",
+    "psig"
+   ],
+   "examples": [
+    "206 bar",
+    "3000 psig",
+    "177 bar",
+    "2575 psig",
+    "179 bar",
+    "2600 psig"
+   ],
+   "values": [],
+   "facts": 26
+  },
+  {
+   "id": "swagelok-ms-01-176/condition/cap color",
+   "document": "swagelok-ms-01-176",
+   "kind": "condition",
+   "label": "cap color",
+   "examples": [
+    "Red",
+    "Green"
+   ],
+   "values": [
+    "Red",
+    "Green"
+   ],
+   "facts": 4
+  },
+  {
+   "id": "swagelok-ms-01-176/condition/cracking pressure",
+   "document": "swagelok-ms-01-176",
+   "kind": "condition",
+   "label": "cracking pressure",
+   "examples": [
+    "1/3 psi (0.03 bar)",
+    "1 psi (0.07 bar)",
+    "10 psi (0.69 bar)",
+    "25 psi (1.8 bar)",
+    "3 to 50 psi (0.21 to 3.5 bar)",
+    "50 to 150 psi (3.5 to 10.4 bar)"
+   ],
+   "values": [],
+   "facts": 78
+  },
+  {
+   "id": "swagelok-ms-01-176/condition/cracking pressure range",
+   "document": "swagelok-ms-01-176",
+   "kind": "condition",
+   "label": "cracking pressure range",
+   "examples": [
+    "Fixed Cracking Pressures: 1/3, 1, 10, and 25 psi (0.03, 0.07, 0.69, and 1.8 bar)",
+    "Adjustable Cracking Pressures: 3 to 150 psi (0.21 to 10.4 bar)",
+    "Adjustable Cracking Pressures: 150 to 600 psi (10.4 to 41.4 bar)"
+   ],
+   "values": [],
+   "facts": 45
+  },
+  {
+   "id": "swagelok-ms-01-176/condition/cracking pressure type",
+   "document": "swagelok-ms-01-176",
+   "kind": "condition",
+   "label": "cracking pressure type",
+   "examples": [
+    "Fixed",
+    "Adjustable"
+   ],
+   "values": [
+    "Fixed",
+    "Adjustable"
+   ],
+   "facts": 233
+  },
+  {
+   "id": "swagelok-ms-01-176/condition/end connection",
+   "document": "swagelok-ms-01-176",
+   "kind": "condition",
+   "label": "end connection",
+   "examples": [
+    "Fractional Swagelok tube fittings",
+    "Metric Swagelok tube fittings",
+    "Female NPT",
+    "Male NPT",
+    "Male NPT/Swagelok tube fitting",
+    "Male VCR fittings"
+   ],
+   "values": [
+    "Fractional Swagelok tube fittings",
+    "Metric Swagelok tube fittings",
+    "Female NPT",
+    "Male NPT",
+    "Male NPT/Swagelok tube fitting",
+    "Male VCR fittings",
+    "Swagelok tube fittings",
+    "Fractional Swagelok tube fitting",
+    "Metric Swagelok tube fitting",
+    "Female ISO",
+    "Male ISO",
+    "Female SAE/MS",
+    "Male SAE/MS",
+    "Male VCO fitting",
+    "Male VCR fitting",
+    "Female/male NPT",
+    "Male/female NPT"
+   ],
+   "facts": 398
+  },
+  {
+   "id": "swagelok-ms-01-176/condition/end connection size",
+   "document": "swagelok-ms-01-176",
+   "kind": "condition",
+   "label": "end connection size",
+   "examples": [
+    "1/8 in.",
+    "1/4 in.",
+    "3/8 in.",
+    "1/2 in.",
+    "3/4 in.",
+    "1 in."
+   ],
+   "values": [],
+   "facts": 398
+  },
+  {
+   "id": "swagelok-ms-01-176/condition/figure callout",
+   "document": "swagelok-ms-01-176",
+   "kind": "condition",
+   "label": "figure callout",
+   "examples": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+   ],
+   "values": [],
+   "facts": 65
+  },
+  {
+   "id": "swagelok-ms-01-176/condition/gasket count",
+   "document": "swagelok-ms-01-176",
+   "kind": "condition",
+   "label": "gasket count",
+   "examples": [
+    "1 gasket",
+    "1 inlet gasket, 1 outlet gasket"
+   ],
+   "values": [],
+   "facts": 4
+  },
+  {
+   "id": "swagelok-ms-01-176/condition/gasket material",
+   "document": "swagelok-ms-01-176",
+   "kind": "condition",
+   "label": "gasket material",
+   "examples": [
+    "316 SS",
+    "Alloy 400",
+    "Aluminum"
+   ],
+   "values": [
+    "Aluminum"
+   ],
+   "facts": 3
+  },
+  {
+   "id": "swagelok-ms-01-176/condition/nominal cracking pressure",
+   "document": "swagelok-ms-01-176",
+   "kind": "condition",
+   "label": "nominal cracking pressure",
+   "examples": [
+    "1/3 psi (0.03 bar)",
+    "1 psi (0.07 bar)",
+    "10 psi (0.69 bar)",
+    "25 psi (1.8 bar)",
+    "5 psi (0.35 bar)"
+   ],
+   "values": [],
+   "facts": 39
+  },
+  {
+   "id": "swagelok-ms-01-176/condition/product variant",
+   "document": "swagelok-ms-01-176",
+   "kind": "condition",
+   "label": "product variant",
+   "examples": [
+    "2C",
+    "4C",
+    "6C",
+    "8C",
+    "12C, 16C",
+    "CH4"
+   ],
+   "values": [
+    "CA",
+    "CH",
+    "C",
+    "CP",
+    "C, CA",
+    "CP, CPA",
+    "CPA"
+   ],
+   "facts": 563
+  },
+  {
+   "id": "swagelok-ms-01-176/condition/seal material",
+   "document": "swagelok-ms-01-176",
+   "kind": "condition",
+   "label": "seal material",
+   "examples": [
+    "Buna N",
+    "Ethylene propylene",
+    "Fluorocarbon FKM",
+    "Neoprene"
+   ],
+   "values": [
+    "Buna N",
+    "Ethylene propylene",
+    "Fluorocarbon FKM",
+    "Neoprene"
+   ],
+   "facts": 12
+  },
+  {
+   "id": "swagelok-ms-01-176/condition/spring material",
+   "document": "swagelok-ms-01-176",
+   "kind": "condition",
+   "label": "spring material",
+   "examples": [
+    "302 SS",
+    "Alloy 400"
+   ],
+   "values": [],
+   "facts": 2
+  },
+  {
+   "id": "swagelok-ms-01-176/condition/temperature",
+   "document": "swagelok-ms-01-176",
+   "kind": "condition",
+   "label": "temperature",
+   "examples": [
+    "70°F (20°C)",
+    "-10°F (-23°C) to 100°F (37°C)",
+    "200°F (93°C)",
+    "250°F (121°C)",
+    "300°F (148°C)",
+    "375°F (190°C)"
+   ],
+   "values": [],
+   "facts": 118
+  },
+  {
+   "id": "swagelok-ms-01-176/condition/valve body material",
+   "document": "swagelok-ms-01-176",
+   "kind": "condition",
+   "label": "valve body material",
+   "examples": [
+    "316 SS",
+    "Brass",
+    "Alloy 400"
+   ],
+   "values": [
+    "Brass"
+   ],
+   "facts": 106
+  }
+ ]
+}

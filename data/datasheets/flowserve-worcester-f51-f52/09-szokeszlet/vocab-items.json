@@ -1,0 +1,2042 @@
+{
+ "document": "flowserve-worcester-f51-f52",
+ "items": [
+  {
+   "id": "flowserve-worcester-f51-f52/property/actuator_mounting_standard",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "Actuator mounting standard",
+   "subjects": [
+    "Worcester F51/F52 Series reduced port flanged ball valve"
+   ],
+   "units": [],
+   "examples": [
+    "ISO 5211 and Shell MESC SPE 77/300"
+   ],
+   "values": [
+    "ISO 5211 and Shell MESC SPE 77/300"
+   ],
+   "facts": 1
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/anti_static_design",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "Anti-static design",
+   "subjects": [
+    "Worcester F51/F52 Series reduced port flanged ball valve"
+   ],
+   "units": [],
+   "examples": [
+    "standard"
+   ],
+   "values": [
+    "standard"
+   ],
+   "facts": 1
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/application",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "Application",
+   "subjects": [
+    "Worcester F51/F52 Series reduced port flanged ball valve"
+   ],
+   "units": [],
+   "examples": [
+    "Thermal fluids",
+    "Oxygen services",
+    "Ammonia",
+    "Chlorine",
+    "Hydrogen peroxide",
+    "Phosgene"
+   ],
+   "values": [
+    "Thermal fluids",
+    "Oxygen services",
+    "Ammonia",
+    "Chlorine",
+    "Hydrogen peroxide",
+    "Phosgene",
+    "BTX",
+    "Ethylene",
+    "Polyolefins/aromatics",
+    "Gasification",
+    "Hydrogen",
+    "Liquefied natural gas (LNG)",
+    "Steam",
+    "Defense",
+    "Food and beverage",
+    "Industrial gases",
+    "Pharmaceuticals",
+    "Water"
+   ],
+   "facts": 18
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/approximate_weight",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "Approximate weight",
+   "subjects": [
+    "Worcester F51/F52 Series reduced port flanged ball valve"
+   ],
+   "units": [
+    "kg",
+    "lb"
+   ],
+   "examples": [
+    "1.8 kg",
+    "4.0 lb",
+    "2.4 kg",
+    "5.3 lb",
+    "2.2 kg",
+    "4.9 lb"
+   ],
+   "values": [],
+   "facts": 18
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/body_seal_compliance",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "Body seal compliance",
+   "subjects": [
+    "Worcester F51/F52 Series reduced port flanged ball valve"
+   ],
+   "units": [],
+   "examples": [
+    "API 607, API 608, API 641, ISO 17292 and ISO 15848"
+   ],
+   "values": [
+    "API 607, API 608, API 641, ISO 17292 and ISO 15848"
+   ],
+   "facts": 1
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/body_seal_fire_safe_integrity",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "Body seal fire-safe integrity",
+   "subjects": [
+    "Worcester F51/F52 Series reduced port flanged ball valve"
+   ],
+   "units": [],
+   "examples": [
+    "metal-to-metal secondary sealing"
+   ],
+   "values": [
+    "metal-to-metal secondary sealing"
+   ],
+   "facts": 1
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/body_seal_material_standard",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "Body seal material (standard)",
+   "subjects": [
+    "Worcester F51/F52 Series reduced port flanged ball valve"
+   ],
+   "units": [],
+   "examples": [
+    "PTFE"
+   ],
+   "values": [
+    "PTFE"
+   ],
+   "facts": 1
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/break_to_open_torque_ptfe_seat",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "Break-to-open torque with PTFE seat",
+   "subjects": [
+    "Worcester F51/F52 Series reduced port flanged ball valve"
+   ],
+   "units": [
+    "Nm",
+    "lbf·in"
+   ],
+   "examples": [
+    "5 Nm",
+    "44 lbf·in",
+    "7 Nm",
+    "62 lbf·in",
+    "9 Nm",
+    "81 lbf·in"
+   ],
+   "values": [],
+   "facts": 36
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/description",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "Description",
+   "subjects": [
+    "Worcester F51/F52 Series reduced port flanged ball valve"
+   ],
+   "units": [],
+   "examples": [
+    "Delrin, also known as POM or acetal homopolymer, is a durable and tough low-friction material; superior creep resistance, performs excellently in high-pressure applications",
+    "Ultra-high molecular weight polyethylene; good performance in applications where PTFE is not suitable, e.g., tobacco duty; good abrasion resistance",
+    "most common sealing material; suitable for almost all media, excellent chemical resistance; exceptionally low coefficient of friction, low valve operating torque",
+    "PTFE reinforced with glass; stronger and more wear-resistant than virgin PTFE; suitable for higher pressure/temperature ratings or high cycling",
+    "PTFE reinforced with carbon, glass and graphite; outstanding dimensional stability across a broad temperature range; well-suited for thermal services including steam and cryogenic applications; recommended for modulating control applications due to high cycling capabilities",
+    "Polyether ether ketone; outstanding pressure capabilities at elevated temperatures, highest P/T rating of the non-metallic seat materials; very good chemical and abrasion resistance"
+   ],
+   "values": [
+    "Delrin, also known as POM or acetal homopolymer, is a durable and tough low-friction material; superior creep resistance, performs excellently in high-pressure applications",
+    "Ultra-high molecular weight polyethylene; good performance in applications where PTFE is not suitable, e.g., tobacco duty; good abrasion resistance",
+    "most common sealing material; suitable for almost all media, excellent chemical resistance; exceptionally low coefficient of friction, low valve operating torque",
+    "PTFE reinforced with glass; stronger and more wear-resistant than virgin PTFE; suitable for higher pressure/temperature ratings or high cycling",
+    "PTFE reinforced with carbon, glass and graphite; outstanding dimensional stability across a broad temperature range; well-suited for thermal services including steam and cryogenic applications; recommended for modulating control applications due to high cycling capabilities",
+    "Polyether ether ketone; outstanding pressure capabilities at elevated temperatures, highest P/T rating of the non-metallic seat materials; very good chemical and abrasion resistance",
+    "316L sintered metal impregnated with PTFE (A) or graphite (G); reduces torque, improves operability; excellent abrasion resistance and pressure-handling capabilities at elevated temperatures"
+   ],
+   "facts": 7
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/design",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "Design",
+   "subjects": [
+    "Worcester F51/F52 Series reduced port flanged ball valve"
+   ],
+   "units": [],
+   "examples": [
+    "standardized design, materials and construction for worldwide availability and shorter lead times"
+   ],
+   "values": [
+    "standardized design, materials and construction for worldwide availability and shorter lead times"
+   ],
+   "facts": 1
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/digital_positioner_pairing",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "Digital positioner pairing",
+   "subjects": [
+    "Worcester F51/F52 Series reduced port flanged ball valve"
+   ],
+   "units": [],
+   "examples": [
+    "Logix 3800 digital positioner from Flowserve (RedRaven Ready)"
+   ],
+   "values": [
+    "Logix 3800 digital positioner from Flowserve (RedRaven Ready)"
+   ],
+   "facts": 1
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/dimension_a",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "Dimension A",
+   "subjects": [
+    "Worcester F51/F52 Series reduced port flanged ball valve"
+   ],
+   "units": [
+    "in",
+    "mm"
+   ],
+   "examples": [
+    "4.252 in",
+    "108.0 mm",
+    "5.512 in",
+    "140.0 mm",
+    "4.606 in",
+    "117.0 mm"
+   ],
+   "values": [],
+   "facts": 18
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/dimension_b",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "Dimension B",
+   "subjects": [
+    "Worcester F51/F52 Series reduced port flanged ball valve"
+   ],
+   "units": [
+    "in",
+    "mm"
+   ],
+   "examples": [
+    "2.067 in",
+    "52.5 mm",
+    "2.15 in",
+    "54.6 mm",
+    "2.252 in",
+    "57.2 mm"
+   ],
+   "values": [],
+   "facts": 18
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/dimension_c_max",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "Dimension C, maximum",
+   "subjects": [
+    "Worcester F51/F52 Series reduced port flanged ball valve"
+   ],
+   "units": [
+    "in",
+    "mm"
+   ],
+   "examples": [
+    "0.904 in",
+    "22.96 mm",
+    "1.273 in",
+    "32.34 mm",
+    "1.667 in",
+    "42.33 mm"
+   ],
+   "values": [],
+   "facts": 18
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/dimension_c_min",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "Dimension C, minimum",
+   "subjects": [
+    "Worcester F51/F52 Series reduced port flanged ball valve"
+   ],
+   "units": [
+    "in",
+    "mm"
+   ],
+   "examples": [
+    "0.894 in",
+    "22.70 mm",
+    "1.263 in",
+    "32.08 mm",
+    "1.656 in",
+    "42.07 mm"
+   ],
+   "values": [],
+   "facts": 18
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/dimension_d_max",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "Dimension D, maximum",
+   "subjects": [
+    "Worcester F51/F52 Series reduced port flanged ball valve"
+   ],
+   "units": [
+    "in",
+    "mm"
+   ],
+   "examples": [
+    "0.709 in",
+    "18.0 mm",
+    "1.063 in",
+    "27.0 mm",
+    "1.339 in",
+    "34.0 mm"
+   ],
+   "values": [],
+   "facts": 18
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/dimension_d_min",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "Dimension D, minimum",
+   "subjects": [
+    "Worcester F51/F52 Series reduced port flanged ball valve"
+   ],
+   "units": [
+    "in",
+    "mm"
+   ],
+   "examples": [
+    "0.669 in",
+    "17.0 mm",
+    ".669 in",
+    "1.024 in",
+    "26.0 mm",
+    "1.299 in"
+   ],
+   "values": [],
+   "facts": 18
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/dimension_e1_min",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "Dimension E1, minimum",
+   "subjects": [
+    "Worcester F51/F52 Series reduced port flanged ball valve"
+   ],
+   "units": [
+    "in",
+    "mm"
+   ],
+   "examples": [
+    "0.654 in",
+    "16.6 mm",
+    "0.866 in",
+    "22.0 mm",
+    "0.972 in",
+    "24.7 mm"
+   ],
+   "values": [],
+   "facts": 8
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/dimension_e2_min",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "Dimension E2, minimum",
+   "subjects": [
+    "Worcester F51/F52 Series reduced port flanged ball valve"
+   ],
+   "units": [
+    "in",
+    "mm"
+   ],
+   "examples": [
+    "0.673 in",
+    "17.1 mm",
+    "0.890 in",
+    "22.6 mm",
+    "0.846 in",
+    "21.5 mm"
+   ],
+   "values": [],
+   "facts": 8
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/dimension_e_min",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "Dimension E, minimum",
+   "subjects": [
+    "Worcester F51/F52 Series reduced port flanged ball valve"
+   ],
+   "units": [
+    "in",
+    "mm"
+   ],
+   "examples": [
+    "0.319 in",
+    "8.1 mm",
+    "0.409 in",
+    "10.4 mm",
+    "0.465 in",
+    "11.8 mm"
+   ],
+   "values": [],
+   "facts": 10
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/dimension_j",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "Dimension J",
+   "subjects": [
+    "Worcester F51/F52 Series reduced port flanged ball valve"
+   ],
+   "units": [
+    "in",
+    "mm"
+   ],
+   "examples": [
+    "4.039 in",
+    "102.6 mm",
+    "4.394 in",
+    "111.6 mm",
+    "5.154 in",
+    "130.9 mm"
+   ],
+   "values": [],
+   "facts": 14
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/dimension_k",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "Dimension K",
+   "subjects": [
+    "Worcester F51/F52 Series reduced port flanged ball valve"
+   ],
+   "units": [
+    "in",
+    "mm"
+   ],
+   "examples": [
+    "6.102 in",
+    "155 mm",
+    "6.614 in",
+    "168 mm",
+    "7.598 in",
+    "193 mm"
+   ],
+   "values": [],
+   "facts": 14
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/dimension_m",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "Dimension M",
+   "subjects": [
+    "Worcester F51/F52 Series reduced port flanged ball valve"
+   ],
+   "units": [
+    "in",
+    "mm"
+   ],
+   "examples": [
+    "0.665 in",
+    "16.9 mm",
+    "0.876 in",
+    "22.25 mm"
+   ],
+   "values": [],
+   "facts": 10
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/dimension_s",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "Dimension S Ø",
+   "subjects": [
+    "Worcester F51/F52 Series reduced port flanged ball valve"
+   ],
+   "units": [
+    "in",
+    "mm"
+   ],
+   "examples": [
+    "0.591 in",
+    "15 mm",
+    "0.787 in",
+    "20 mm",
+    "1.063 in",
+    "27 mm"
+   ],
+   "values": [],
+   "facts": 18
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/dimension_t1",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "Dimension T1",
+   "subjects": [
+    "Worcester F51/F52 Series reduced port flanged ball valve"
+   ],
+   "units": [
+    "in",
+    "mm"
+   ],
+   "examples": [
+    "0.756 in",
+    "19.2 mm",
+    "0.994 in",
+    "25.25 mm",
+    "1.063 in",
+    "27 mm"
+   ],
+   "values": [],
+   "facts": 10
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/dimension_t2",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "Dimension T2",
+   "subjects": [
+    "Worcester F51/F52 Series reduced port flanged ball valve"
+   ],
+   "units": [
+    "in",
+    "mm"
+   ],
+   "examples": [
+    "0.915 in",
+    "23.25 mm",
+    "1.291 in",
+    "32.8 mm",
+    "1.526 in",
+    "38.75 mm"
+   ],
+   "values": [],
+   "facts": 10
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/dimension_unit_note",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "Dimension unit note",
+   "subjects": [
+    "Worcester F51/F52 Series reduced port flanged ball valve"
+   ],
+   "units": [],
+   "examples": [
+    "Dimensions indicated in mm (in.)"
+   ],
+   "values": [
+    "Dimensions indicated in mm (in.)"
+   ],
+   "facts": 2
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/end_plug_design",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "End plug design",
+   "subjects": [
+    "Worcester F51/F52 Series reduced port flanged ball valve"
+   ],
+   "units": [],
+   "examples": [
+    "threaded end plug; ensures positive retention and eliminates any blowout risk"
+   ],
+   "values": [
+    "threaded end plug; ensures positive retention and eliminates any blowout risk"
+   ],
+   "facts": 1
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/equivalent_pipe_length",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "Equivalent length of pipe",
+   "subjects": [
+    "Worcester F51/F52 Series reduced port flanged ball valve"
+   ],
+   "units": [
+    "ft",
+    "m"
+   ],
+   "examples": [
+    "1.19 m",
+    "3.9 ft",
+    "2.65 m",
+    "8.7 ft",
+    "1.10 m",
+    "3.6 ft"
+   ],
+   "values": [],
+   "facts": 18
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/face_to_face",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "Face-to-face",
+   "subjects": [
+    "Worcester F51/F52 Series reduced port flanged ball valve"
+   ],
+   "units": [],
+   "examples": [
+    "BS EN 558-2 and ASME B16.10"
+   ],
+   "values": [
+    "BS EN 558-2 and ASME B16.10"
+   ],
+   "facts": 2
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/fire_test",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "Fire Test",
+   "subjects": [
+    "Worcester F51/F52 Series reduced port flanged ball valve"
+   ],
+   "units": [],
+   "examples": [
+    "API 607 and ISO 10497"
+   ],
+   "values": [
+    "API 607 and ISO 10497"
+   ],
+   "facts": 1
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/flanged_connections",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "Flanged Connections",
+   "subjects": [
+    "Worcester F51/F52 Series reduced port flanged ball valve"
+   ],
+   "units": [],
+   "examples": [
+    "BS EN 1759-1 and ASME B16.5 CL150",
+    "BS EN 1759-1 and ASME B16.5 CL300"
+   ],
+   "values": [
+    "BS EN 1759-1 and ASME B16.5 CL150",
+    "BS EN 1759-1 and ASME B16.5 CL300"
+   ],
+   "facts": 2
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/flow_coefficient_cv",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "Flow coefficient Cv",
+   "subjects": [
+    "Worcester F51/F52 Series reduced port flanged ball valve"
+   ],
+   "units": [
+    "US gal/min"
+   ],
+   "examples": [
+    "8 US gal/min",
+    "12 US gal/min",
+    "32 US gal/min",
+    "82 US gal/min",
+    "120 US gal/min",
+    "350 US gal/min"
+   ],
+   "values": [],
+   "facts": 9
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/flow_coefficient_kv",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "Flow coefficient Kv",
+   "subjects": [
+    "Worcester F51/F52 Series reduced port flanged ball valve"
+   ],
+   "units": [
+    "m³/h"
+   ],
+   "examples": [
+    "7 m³/h",
+    "10 m³/h",
+    "28 m³/h",
+    "71 m³/h",
+    "104 m³/h",
+    "303 m³/h"
+   ],
+   "values": [],
+   "facts": 9
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/fugitive_emissions",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "Fugitive Emissions",
+   "subjects": [
+    "Worcester F51/F52 Series reduced port flanged ball valve"
+   ],
+   "units": [],
+   "examples": [
+    "ISO 15848: Class BH and API 641"
+   ],
+   "values": [
+    "ISO 15848: Class BH and API 641"
+   ],
+   "facts": 1
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/gearbox",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "Gearbox",
+   "subjects": [
+    "Worcester F51/F52 Series reduced port flanged ball valve"
+   ],
+   "units": [],
+   "examples": [
+    "included as standard for sizes DN150 (NPS 6) or larger; not called out in the product code because it is a standard feature"
+   ],
+   "values": [
+    "included as standard for sizes DN150 (NPS 6) or larger; not called out in the product code because it is a standard feature"
+   ],
+   "facts": 1
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/gland_nut_locking_clip",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "Gland nut locking clip",
+   "subjects": [
+    "Worcester F51/F52 Series reduced port flanged ball valve"
+   ],
+   "units": [],
+   "examples": [
+    "maintains position of the gland nut during actuation; gland nut does not need to be removed for actuator mounting"
+   ],
+   "values": [
+    "maintains position of the gland nut during actuation; gland nut does not need to be removed for actuator mounting"
+   ],
+   "facts": 1
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/gland_nut_tightening_torque",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "Gland nut tightening torque",
+   "subjects": [
+    "Worcester F51/F52 Series reduced port flanged ball valve"
+   ],
+   "units": [
+    "Nm",
+    "lbf·in"
+   ],
+   "examples": [
+    "4.5 to 6.0 Nm",
+    "40 to 53 lbf·in",
+    "5.5 to 7.5 Nm",
+    "49 to 66 lbf·in",
+    "8 to 11 Nm",
+    "71 to 97 lbf·in"
+   ],
+   "values": [],
+   "facts": 18
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/iso_5211_mounting_size",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "ISO 5211 mounting platform size",
+   "subjects": [
+    "Worcester F51/F52 Series reduced port flanged ball valve"
+   ],
+   "units": [],
+   "examples": [
+    "F03",
+    "F05",
+    "F07",
+    "F10",
+    "F12",
+    "F14"
+   ],
+   "values": [
+    "F03",
+    "F05",
+    "F07",
+    "F10",
+    "F12",
+    "F14"
+   ],
+   "facts": 18
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/item_number",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "Item number",
+   "subjects": [
+    "Body",
+    "Insert",
+    "Ball"
+   ],
+   "units": [],
+   "examples": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+   ],
+   "values": [],
+   "facts": 48
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/locking_wrench",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "Locking wrench",
+   "subjects": [
+    "Worcester F51/F52 Series reduced port flanged ball valve"
+   ],
+   "units": [],
+   "examples": [
+    "standard on sizes through NPS 4 (DN100)",
+    "included as standard for all valve sizes up to DN100 (NPS4)"
+   ],
+   "values": [
+    "standard on sizes through NPS 4 (DN100)",
+    "included as standard for all valve sizes up to DN100 (NPS4)"
+   ],
+   "facts": 2
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/material",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "Material",
+   "subjects": [
+    "Body",
+    "Insert",
+    "Ball"
+   ],
+   "units": [],
+   "examples": [
+    "ASTM A351 CF8M Stainless Steel",
+    "ASTM A479 316 or A351 CF8M Stainless Steel",
+    "ASTM A479 S31803 Duplex Stainless Steel",
+    "Virgin PTFE",
+    "25% Glass-Filled PTFE",
+    "Flexible Graphite"
+   ],
+   "values": [
+    "ASTM A351 CF8M Stainless Steel",
+    "ASTM A479 316 or A351 CF8M Stainless Steel",
+    "ASTM A479 S31803 Duplex Stainless Steel",
+    "Virgin PTFE",
+    "25% Glass-Filled PTFE",
+    "Flexible Graphite",
+    "AISI 316 Stainless Steel",
+    "Stainless Steel",
+    "Vinyl Plastisol"
+   ],
+   "facts": 48
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/materials",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "Materials",
+   "subjects": [
+    "Worcester F51/F52 Series reduced port flanged ball valve"
+   ],
+   "units": [],
+   "examples": [
+    "dual-certified LCB/LCC and WCB/WCC materials",
+    "CF8M material"
+   ],
+   "values": [
+    "dual-certified LCB/LCC and WCB/WCC materials",
+    "CF8M material"
+   ],
+   "facts": 2
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/max_temperature_rating",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "Maximum temperature rating",
+   "subjects": [
+    "Worcester F51/F52 Series reduced port flanged ball valve"
+   ],
+   "units": [
+    "°C",
+    "°F"
+   ],
+   "examples": [
+    "80 °C",
+    "180 °F",
+    "90 °C",
+    "200 °F",
+    "230 °C",
+    "450 °F"
+   ],
+   "values": [],
+   "facts": 7
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/maximum_allowable_stem_torque",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "Maximum allowable stem torque (MAST)",
+   "subjects": [
+    "Worcester F51/F52 Series reduced port flanged ball valve"
+   ],
+   "units": [
+    "Nm",
+    "lbf·in"
+   ],
+   "examples": [
+    "40 Nm",
+    "354 lbf·in",
+    "110 Nm",
+    "974 lbf·in",
+    "609 Nm",
+    "5,390 lbf·in"
+   ],
+   "values": [],
+   "facts": 36
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/maximum_seat_temperature_limits",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "Maximum seat temperature limits",
+   "subjects": [
+    "Worcester F51/F52 Series reduced port flanged ball valve"
+   ],
+   "units": [],
+   "examples": [
+    "see page 7"
+   ],
+   "values": [
+    "see page 7"
+   ],
+   "facts": 1
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/min_port_diameter",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "Minimum port diameter",
+   "subjects": [
+    "Worcester F51/F52 Series reduced port flanged ball valve"
+   ],
+   "units": [
+    "in",
+    "mm"
+   ],
+   "examples": [
+    "0.437 in",
+    "11.1 mm",
+    "0.567 in",
+    "14.4 mm",
+    "0.815 in",
+    "20.7 mm"
+   ],
+   "values": [],
+   "facts": 18
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/mounting_hole_depth_l_min",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "Mounting hole depth L, minimum",
+   "subjects": [
+    "Worcester F51/F52 Series reduced port flanged ball valve"
+   ],
+   "units": [
+    "in",
+    "mm"
+   ],
+   "examples": [
+    "0.362 in",
+    "9.2 mm",
+    "0.382 in",
+    "9.7 mm"
+   ],
+   "values": [],
+   "facts": 10
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/mounting_hole_thread_l",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "Mounting hole thread L",
+   "subjects": [
+    "Worcester F51/F52 Series reduced port flanged ball valve"
+   ],
+   "units": [],
+   "examples": [
+    "M6 x 1.0p",
+    "M8 x 1.25p"
+   ],
+   "values": [
+    "M6 x 1.0p",
+    "M8 x 1.25p"
+   ],
+   "facts": 10
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/o_ring_stem_seal",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "O-ring stem seal",
+   "subjects": [
+    "Worcester F51/F52 Series reduced port flanged ball valve"
+   ],
+   "units": [],
+   "examples": [
+    "optional; improved stem sealing performance, particularly in vacuum applications"
+   ],
+   "values": [
+    "optional; improved stem sealing performance, particularly in vacuum applications"
+   ],
+   "facts": 1
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/packing",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "Packing",
+   "subjects": [
+    "Worcester F51/F52 Series reduced port flanged ball valve"
+   ],
+   "units": [],
+   "examples": [
+    "live-loaded packing"
+   ],
+   "values": [
+    "live-loaded packing"
+   ],
+   "facts": 1
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/packing_design",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "Packing design",
+   "subjects": [
+    "Worcester F51/F52 Series reduced port flanged ball valve"
+   ],
+   "units": [],
+   "examples": [
+    "live-loaded"
+   ],
+   "values": [
+    "live-loaded"
+   ],
+   "facts": 1
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/packing_fugitive_emissions_certification_standards",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "Packing fugitive emissions certification standards",
+   "subjects": [
+    "Worcester F51/F52 Series reduced port flanged ball valve"
+   ],
+   "units": [],
+   "examples": [
+    "API 641 and ISO 15848"
+   ],
+   "values": [
+    "API 641 and ISO 15848"
+   ],
+   "facts": 1
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/parts",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "Parts",
+   "subjects": [
+    "Worcester F51/F52 Series reduced port flanged ball valve"
+   ],
+   "units": [],
+   "examples": [
+    "standardized and interchangeable parts, available in all regions"
+   ],
+   "values": [
+    "standardized and interchangeable parts, available in all regions"
+   ],
+   "facts": 1
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/predictive_maintenance_solution",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "Predictive maintenance solution",
+   "subjects": [
+    "Worcester F51/F52 Series reduced port flanged ball valve"
+   ],
+   "units": [],
+   "examples": [
+    "RedRaven from Flowserve (end-to-end predictive maintenance solution)"
+   ],
+   "values": [
+    "RedRaven from Flowserve (end-to-end predictive maintenance solution)"
+   ],
+   "facts": 1
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/pressure_test",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "Pressure Test",
+   "subjects": [
+    "Worcester F51/F52 Series reduced port flanged ball valve"
+   ],
+   "units": [],
+   "examples": [
+    "BS EN 12266-1, ISO 5208 and API 598"
+   ],
+   "values": [
+    "BS EN 12266-1, ISO 5208 and API 598"
+   ],
+   "facts": 1
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/product_code_ball",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "Product code position 6 (ball material)",
+   "subjects": [
+    "Worcester F51/F52 Series reduced port flanged ball valve"
+   ],
+   "units": [],
+   "examples": [
+    "CF8M",
+    "Monel",
+    "Alloy 20",
+    "Hastelloy C"
+   ],
+   "values": [
+    "CF8M",
+    "Monel",
+    "Alloy 20",
+    "Hastelloy C"
+   ],
+   "facts": 4
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/product_code_body",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "Product code position 4 (body material)",
+   "subjects": [
+    "Worcester F51/F52 Series reduced port flanged ball valve"
+   ],
+   "units": [],
+   "examples": [
+    "WCB/WCC",
+    "WCB/LCB/LCC (Tripled Certified)",
+    "CF8M",
+    "Monel",
+    "Alloy 20",
+    "Hastelloy C"
+   ],
+   "values": [
+    "WCB/WCC",
+    "WCB/LCB/LCC (Tripled Certified)",
+    "CF8M",
+    "Monel",
+    "Alloy 20",
+    "Hastelloy C"
+   ],
+   "facts": 6
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/product_code_body_seal",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "Product code position 9 (body seal)",
+   "subjects": [
+    "Worcester F51/F52 Series reduced port flanged ball valve"
+   ],
+   "units": [],
+   "examples": [
+    "V-PTFE",
+    "Graphite"
+   ],
+   "values": [
+    "V-PTFE",
+    "Graphite"
+   ],
+   "facts": 2
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/product_code_end_connection",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "Product code position 13 (end connection/pressure class)",
+   "subjects": [
+    "Worcester F51/F52 Series reduced port flanged ball valve"
+   ],
+   "units": [],
+   "examples": [
+    "ANSI B16.5 Class 150",
+    "ANSI B16.5 Class 300"
+   ],
+   "values": [
+    "ANSI B16.5 Class 150",
+    "ANSI B16.5 Class 300"
+   ],
+   "facts": 2
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/product_code_end_insert",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "Product code position 5 (end/insert material)",
+   "subjects": [
+    "Worcester F51/F52 Series reduced port flanged ball valve"
+   ],
+   "units": [],
+   "examples": [
+    "WCB/WCC",
+    "WCB/LCB/LCC (Tripled Certified)",
+    "CF8M",
+    "Monel",
+    "Alloy 20",
+    "Hastelloy C"
+   ],
+   "values": [
+    "WCB/WCC",
+    "WCB/LCB/LCC (Tripled Certified)",
+    "CF8M",
+    "Monel",
+    "Alloy 20",
+    "Hastelloy C"
+   ],
+   "facts": 6
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/product_code_example",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "Product code example",
+   "subjects": [
+    "Worcester F51/F52 Series reduced port flanged ball valve"
+   ],
+   "units": [],
+   "examples": [
+    "20 F 51 5 5 6 6 T T 7 - Z 150",
+    "40 F 52 6 6 6 6 R T 7 T Z 300"
+   ],
+   "values": [
+    "20 F 51 5 5 6 6 T T 7 - Z 150",
+    "40 F 52 6 6 6 6 R T 7 T Z 300"
+   ],
+   "facts": 2
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/product_code_gland_packing",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "Product code position 12 (gland/stem packing)",
+   "subjects": [
+    "Worcester F51/F52 Series reduced port flanged ball valve"
+   ],
+   "units": [],
+   "examples": [
+    "V-PTFE",
+    "Graphite"
+   ],
+   "values": [
+    "V-PTFE",
+    "Graphite"
+   ],
+   "facts": 2
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/product_code_positions",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "Product code positions",
+   "subjects": [
+    "Worcester F51/F52 Series reduced port flanged ball valve"
+   ],
+   "units": [],
+   "examples": [
+    "1. Size, 2. Variant, 3. Series, 4. Body, 5. End/insert, 6. Ball, 7. Stem, 8. Seat, 9. Body seal, 10. Thrust seal, 11. Secondary stem seal/O-ring (optional), 12. Gland/stem packing, 13. End connection/pressure class, 14. Special"
+   ],
+   "values": [
+    "1. Size, 2. Variant, 3. Series, 4. Body, 5. End/insert, 6. Ball, 7. Stem, 8. Seat, 9. Body seal, 10. Thrust seal, 11. Secondary stem seal/O-ring (optional), 12. Gland/stem packing, 13. End connection/pressure class, 14. Special"
+   ],
+   "facts": 1
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/product_code_seat",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "Product code position 8 (seat material)",
+   "subjects": [
+    "Worcester F51/F52 Series reduced port flanged ball valve"
+   ],
+   "units": [],
+   "examples": [
+    "Delrin",
+    "V-PTFE",
+    "Reinforced PTFE",
+    "Fluorofill/Polyfill",
+    "UHMWPE",
+    "PEEK"
+   ],
+   "values": [
+    "Delrin",
+    "V-PTFE",
+    "Reinforced PTFE",
+    "Fluorofill/Polyfill",
+    "UHMWPE",
+    "PEEK",
+    "Metal impregnated with PTFE",
+    "Metal impregnated with graphite"
+   ],
+   "facts": 8
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/product_code_secondary_stem_seal",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "Product code position 11 (secondary stem seal/O-ring, optional)",
+   "subjects": [
+    "Worcester F51/F52 Series reduced port flanged ball valve"
+   ],
+   "units": [],
+   "examples": [
+    "V-PTFE",
+    "FKM",
+    "Fluorofill/Polyfill"
+   ],
+   "values": [
+    "V-PTFE",
+    "FKM",
+    "Fluorofill/Polyfill"
+   ],
+   "facts": 3
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/product_code_series",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "Product code position 3 (series)",
+   "subjects": [
+    "Worcester F51/F52 Series reduced port flanged ball valve"
+   ],
+   "units": [],
+   "examples": [
+    "Class 150 one-piece valve",
+    "Class 300 one-piece valve"
+   ],
+   "values": [
+    "Class 150 one-piece valve",
+    "Class 300 one-piece valve"
+   ],
+   "facts": 2
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/product_code_size_dn",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "Product code position 1 (size): DN",
+   "subjects": [
+    "Worcester F51/F52 Series reduced port flanged ball valve"
+   ],
+   "units": [],
+   "examples": [
+    "15",
+    "20",
+    "25",
+    "40",
+    "50",
+    "80"
+   ],
+   "values": [],
+   "facts": 9
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/product_code_size_nps",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "Product code position 1 (size): NPS",
+   "subjects": [
+    "Worcester F51/F52 Series reduced port flanged ball valve"
+   ],
+   "units": [],
+   "examples": [
+    "1/2",
+    "3/4",
+    "1",
+    "1 1/2",
+    "2",
+    "3"
+   ],
+   "values": [
+    "1 1/2"
+   ],
+   "facts": 9
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/product_code_special",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "Product code position 14 (special)",
+   "subjects": [
+    "Worcester F51/F52 Series reduced port flanged ball valve"
+   ],
+   "units": [],
+   "examples": [
+    "Consult factory for \"Special\" options."
+   ],
+   "values": [
+    "Consult factory for \"Special\" options."
+   ],
+   "facts": 1
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/product_code_stem",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "Product code position 7 (stem material)",
+   "subjects": [
+    "Worcester F51/F52 Series reduced port flanged ball valve"
+   ],
+   "units": [],
+   "examples": [
+    "Stainless steel",
+    "17-4PH",
+    "Monel",
+    "Alloy 20",
+    "Hastelloy C"
+   ],
+   "values": [
+    "Stainless steel",
+    "17-4PH",
+    "Monel",
+    "Alloy 20",
+    "Hastelloy C"
+   ],
+   "facts": 5
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/product_code_thrust_seal",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "Product code position 10 (thrust seal)",
+   "subjects": [
+    "Worcester F51/F52 Series reduced port flanged ball valve"
+   ],
+   "units": [],
+   "examples": [
+    "25% glass PTFE",
+    "PEEK",
+    "Fluorofill/Polyfill"
+   ],
+   "values": [
+    "25% glass PTFE",
+    "PEEK",
+    "Fluorofill/Polyfill"
+   ],
+   "facts": 3
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/product_code_variant",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "Product code position 2 (variant)",
+   "subjects": [
+    "Worcester F51/F52 Series reduced port flanged ball valve"
+   ],
+   "units": [],
+   "examples": [
+    "Fire-safe",
+    "Cryogenic fire-safe, including bonnet extension",
+    "EnviroSafe fire-safe",
+    "Shell-compliant",
+    "V-Flow CPT control valve"
+   ],
+   "values": [
+    "Fire-safe",
+    "Cryogenic fire-safe, including bonnet extension",
+    "EnviroSafe fire-safe",
+    "Shell-compliant",
+    "V-Flow CPT control valve"
+   ],
+   "facts": 5
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/seat_design",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "Seat design",
+   "subjects": [
+    "Worcester F51/F52 Series reduced port flanged ball valve"
+   ],
+   "units": [],
+   "examples": [
+    "cavity pressure-relieving (CPR): pressure generated through media expansion when the valve is closed is relieved upstream"
+   ],
+   "values": [
+    "cavity pressure-relieving (CPR): pressure generated through media expansion when the valve is closed is relieved upstream"
+   ],
+   "facts": 1
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/seat_materials",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "Seat materials",
+   "subjects": [
+    "Worcester F51/F52 Series reduced port flanged ball valve"
+   ],
+   "units": [],
+   "examples": [
+    "available in a wide range of materials"
+   ],
+   "values": [
+    "available in a wide range of materials"
+   ],
+   "facts": 1
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/shutoff",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "Shutoff",
+   "subjects": [
+    "Worcester F51/F52 Series reduced port flanged ball valve"
+   ],
+   "units": [],
+   "examples": [
+    "bubble-tight"
+   ],
+   "values": [
+    "bubble-tight"
+   ],
+   "facts": 1
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/sour_service",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "Sour Service",
+   "subjects": [
+    "Worcester F51/F52 Series reduced port flanged ball valve"
+   ],
+   "units": [],
+   "examples": [
+    "NACE MR0175 and ISO 15156 or MR0103"
+   ],
+   "values": [
+    "NACE MR0175 and ISO 15156 or MR0103"
+   ],
+   "facts": 1
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/source_of_material_group_pressure_temperature_ratings",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "Source of material group pressure-temperature ratings",
+   "subjects": [
+    "Worcester F51/F52 Series reduced port flanged ball valve"
+   ],
+   "units": [],
+   "examples": [
+    "ASME B16.34"
+   ],
+   "values": [
+    "ASME B16.34"
+   ],
+   "facts": 1
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/stem",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "Stem",
+   "subjects": [
+    "Worcester F51/F52 Series reduced port flanged ball valve"
+   ],
+   "units": [],
+   "examples": [
+    "standard anti-blowout, duplex stainless steel stem; greater safety, increased maximum allowable stem torque (MAST), excellent durability"
+   ],
+   "values": [
+    "standard anti-blowout, duplex stainless steel stem; greater safety, increased maximum allowable stem torque (MAST), excellent durability"
+   ],
+   "facts": 1
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/stem_across_flats_f_max",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "Stem across flats F, maximum",
+   "subjects": [
+    "Worcester F51/F52 Series reduced port flanged ball valve"
+   ],
+   "units": [
+    "in",
+    "mm"
+   ],
+   "examples": [
+    "0.276 in",
+    "7.00 mm",
+    ".276 in",
+    "0.374 in",
+    "9.50 mm",
+    "0.590 in"
+   ],
+   "values": [],
+   "facts": 18
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/stem_across_flats_f_min",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "Stem across flats F, minimum",
+   "subjects": [
+    "Worcester F51/F52 Series reduced port flanged ball valve"
+   ],
+   "units": [
+    "in",
+    "mm"
+   ],
+   "examples": [
+    "0.274 in",
+    "6.96 mm",
+    "0.372 in",
+    "9.46 mm",
+    "0.589 in",
+    "14.95 mm"
+   ],
+   "values": [],
+   "facts": 18
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/stem_diameter_g",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "Stem diameter G",
+   "subjects": [
+    "Worcester F51/F52 Series reduced port flanged ball valve"
+   ],
+   "units": [
+    "in",
+    "mm"
+   ],
+   "examples": [
+    "1.417 in",
+    "36.00 mm",
+    "1.889 in",
+    "48.00 mm"
+   ],
+   "values": [],
+   "facts": 3
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/stem_diameter_g_max",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "Stem diameter G, maximum",
+   "subjects": [
+    "Worcester F51/F52 Series reduced port flanged ball valve"
+   ],
+   "units": [
+    "in",
+    "mm"
+   ],
+   "examples": [
+    "0.864 in",
+    "21.95 mm",
+    "1.100 in",
+    "27.95 mm"
+   ],
+   "values": [],
+   "facts": 5
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/stem_diameter_g_min",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "Stem diameter G, minimum",
+   "subjects": [
+    "Worcester F51/F52 Series reduced port flanged ball valve"
+   ],
+   "units": [
+    "in",
+    "mm"
+   ],
+   "examples": [
+    "0.860 in",
+    "21.85 mm",
+    "1.096 in",
+    "27.85 mm"
+   ],
+   "values": [],
+   "facts": 5
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/stem_thread_g",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "Stem thread G",
+   "subjects": [
+    "Worcester F51/F52 Series reduced port flanged ball valve"
+   ],
+   "units": [],
+   "examples": [
+    "M10 x 1.25p",
+    "M14 x 1.5p"
+   ],
+   "values": [
+    "M10 x 1.25p",
+    "M14 x 1.5p"
+   ],
+   "facts": 10
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/stem_thread_h",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "Stem thread H",
+   "subjects": [
+    "Worcester F51/F52 Series reduced port flanged ball valve"
+   ],
+   "units": [],
+   "examples": [
+    "M24 x 2.0p",
+    "M30 x 2.0p",
+    "M36 x 2.0p",
+    "M48 x 3.0p"
+   ],
+   "values": [
+    "M24 x 2.0p",
+    "M30 x 2.0p",
+    "M36 x 2.0p",
+    "M48 x 3.0p"
+   ],
+   "facts": 8
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/surface_quality",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "Surface Quality",
+   "subjects": [
+    "Worcester F51/F52 Series reduced port flanged ball valve"
+   ],
+   "units": [],
+   "examples": [
+    "MSS SP-55"
+   ],
+   "values": [
+    "MSS SP-55"
+   ],
+   "facts": 1
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/tapped_hole_depth_r_min",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "Tapped hole depth R, minimum",
+   "subjects": [
+    "Worcester F51/F52 Series reduced port flanged ball valve"
+   ],
+   "units": [
+    "in",
+    "mm"
+   ],
+   "examples": [
+    "0.472 in",
+    "12.0 mm"
+   ],
+   "values": [],
+   "facts": 8
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/tapped_hole_thread_r",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "Tapped hole thread R",
+   "subjects": [
+    "Worcester F51/F52 Series reduced port flanged ball valve"
+   ],
+   "units": [],
+   "examples": [
+    "M6 x 1.0p",
+    "M8 x 1.25p"
+   ],
+   "values": [
+    "M6 x 1.0p",
+    "M8 x 1.25p"
+   ],
+   "facts": 8
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/technical_support_and_service",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "Technical support and service",
+   "subjects": [
+    "Worcester F51/F52 Series reduced port flanged ball valve"
+   ],
+   "units": [],
+   "examples": [
+    "global network of Quick Response Centers (QRCs)"
+   ],
+   "values": [
+    "global network of Quick Response Centers (QRCs)"
+   ],
+   "facts": 1
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/threaded_insert",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "Threaded insert",
+   "subjects": [
+    "Worcester F51/F52 Series reduced port flanged ball valve"
+   ],
+   "units": [],
+   "examples": [
+    "leak-tight positive retention and improved customer safety"
+   ],
+   "values": [
+    "leak-tight positive retention and improved customer safety"
+   ],
+   "facts": 1
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/property/valve_specification",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "property",
+   "label": "Valve Specification",
+   "subjects": [
+    "Worcester F51/F52 Series reduced port flanged ball valve"
+   ],
+   "units": [],
+   "examples": [
+    "FM Approval Certified",
+    "BS EN ISO 17292 and API 608",
+    "Pressure Equipment Directive 2014/68/EU",
+    "Pressure Equipment Regulations SI 2016",
+    "Assessment Category: Pressure Accessory, Group 1 GAS, Table 6, Module 'H', Catgory III",
+    "SIL 3 Capable"
+   ],
+   "values": [
+    "FM Approval Certified",
+    "BS EN ISO 17292 and API 608",
+    "Pressure Equipment Directive 2014/68/EU",
+    "Pressure Equipment Regulations SI 2016",
+    "Assessment Category: Pressure Accessory, Group 1 GAS, Table 6, Module 'H', Catgory III",
+    "SIL 3 Capable",
+    "TSG",
+    "FM",
+    "CRN",
+    "TR CU 010/012/032"
+   ],
+   "facts": 10
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/condition/industry",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "condition",
+   "label": "industry",
+   "examples": [
+    "Chemical processing",
+    "Petrochemicals",
+    "Energy",
+    "Other industries"
+   ],
+   "values": [
+    "Chemical processing",
+    "Petrochemicals",
+    "Energy",
+    "Other industries"
+   ],
+   "facts": 18
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/condition/material group",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "condition",
+   "label": "material group",
+   "examples": [
+    "1.2",
+    "2.2"
+   ],
+   "values": [],
+   "facts": 2
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/condition/product code option",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "condition",
+   "label": "product code option",
+   "examples": [
+    "05",
+    "07",
+    "10",
+    "15",
+    "20",
+    "30"
+   ],
+   "values": [
+    "F",
+    "CF",
+    "EF",
+    "S",
+    "V",
+    "A",
+    "C",
+    "Q",
+    "D",
+    "T",
+    "R",
+    "P",
+    "U",
+    "X",
+    "G",
+    "Z"
+   ],
+   "facts": 66
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/condition/seat material",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "condition",
+   "label": "seat material",
+   "examples": [
+    "Delrin (D)",
+    "UHMWPE (U)",
+    "Virgin PTFE (T)",
+    "Reinforced PTFE (R)",
+    "Fluorofill/Polyfill (P)",
+    "PEEK (X)"
+   ],
+   "values": [
+    "Delrin (D)",
+    "UHMWPE (U)",
+    "Virgin PTFE (T)",
+    "Reinforced PTFE (R)",
+    "Fluorofill/Polyfill (P)",
+    "PEEK (X)",
+    "Metal (A or G)"
+   ],
+   "facts": 14
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/condition/valve series",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "condition",
+   "label": "valve series",
+   "examples": [
+    "F51",
+    "F52"
+   ],
+   "values": [],
+   "facts": 441
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/condition/valve size",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "condition",
+   "label": "valve size",
+   "examples": [
+    "DN 15 (NPS 1/2)",
+    "DN 20 (NPS 3/4)",
+    "DN 25 (NPS 1)",
+    "DN 40 (NPS 1 1/2)",
+    "DN 50 (NPS 2)",
+    "DN 80 (NPS 3)"
+   ],
+   "values": [],
+   "facts": 493
+  },
+  {
+   "id": "flowserve-worcester-f51-f52/condition/valve size range",
+   "document": "flowserve-worcester-f51-f52",
+   "kind": "condition",
+   "label": "valve size range",
+   "examples": [
+    "DN15 to DN50 (NPS 1/2 to 2)",
+    "DN80 to DN200 (NPS 3 to 8)"
+   ],
+   "values": [],
+   "facts": 96
+  }
+ ]
+}

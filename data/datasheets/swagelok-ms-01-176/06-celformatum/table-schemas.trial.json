@@ -1,0 +1,314 @@
+{
+ "model": "claude-opus-5-5, 2026-10-31 (Claude Code session acting as the step-06 LLM by hand; trial builds with plantdocs.target.build as in llm_steps.build_with)",
+ "notes": [
+  "Input: 02-rekordok/output.json (1204 records, ' | ' paths, untitled tables named '<section> - <sub-heading>' or '<heading> - table k'), apply.py, paths.py, build.py and the 0003 format note.",
+  "31 printed tables numbered in document order (table_titles). Text records (section headings as first segment: Check Valves, Features, Technical Data, Pressure-Temperature Ratings, Cracking and Reseal Pressures at 70°F (20°C), Materials of Construction, Flow Data at 70°F (20°C), Testing, Cleaning and Packaging, Dimensions, Ordering Information, Options and Accessories, Oxygen Service Hazards, Maintenance Kits, Safe Product Selection, WARNING, Warranty Information, Catalog identification) stay table-less document statements.",
+  "Default subject: the check valve family. Product variant (series) is a condition everywhere; the series sub-heading is repeated as the first segment after the title (records step, rule 11), so tables that share a layout (pressure-temperature, cracking/reseal, materials, ordering designators) differ by condition, not only by table number. value_aliases give the printed series groupings a comma-list canonical form.",
+  "Materials tables (8-10): the numbered component ('1 Inlet body') is the subject (kind part) with the figure callout number as condition; unnumbered rows (Inlet gasket (...), lubricants) are parts without callout. Valve body material (316 SS / Brass) and the brass column variant (4CP, 8CP, 4CPA, 8CPA) are conditions. The property 'Material grade/(ASTM) specification' is keyed 'material'.",
+  "Dimensions tables (11, 14, 16): the basic ordering number segment (e.g. 'SS-2C-') becomes the subject (kind 'valve model'); end connection, end connection size, cracking pressure type, series and (CH) the 100°F (37°C) rating temperature are conditions. The 'Basic ordering number' records keep the valve family as subject with the same conditions.",
+  "Kit tables (21-31): subject stays the valve family; the kit type is in the property label (e.g. 'Seal kit ordering number', 'Basic spring kit ordering number'); cracking pressure / cracking pressure range, seal, gasket and spring material, valve body material and cap colour are conditions.",
+  "Flow charts (pages 7-10) and the page 4 reseal chart: the records hold only curve labels, axis captions and a chart annotation; they are covered by the step-04 chart records and skipped via skip_properties. The flow note ('Note') stays a document statement.",
+  "Limitation: a rule cannot split '2 Inlet gasket (CA series)' into part + series condition at the same time as the callout, so the '(CA series)' qualifier stays in the part label.",
+  "Limitation: in table 1 the adjustable-series nominal cracking pressure cell lists four ranges; it stays one text fact (psi and bar forms merged by the program)."
+ ],
+ "default_subject": {
+  "label": "Swagelok check valve (C, CA, CH, CP and CPA series)",
+  "kind": "valve"
+ },
+ "table_titles": {
+  "Technical Data - table 1": 1,
+  "Pressure-Temperature Ratings - C (2C, 4C, 6C, and 8C), CA, CP, and CPA Series": 2,
+  "Pressure-Temperature Ratings - C Series (12C and 16C)": 3,
+  "Pressure-Temperature Ratings - CH Series": 4,
+  "Cracking and Reseal Pressures - C Series": 5,
+  "Cracking and Reseal Pressures - CH Series": 6,
+  "Cracking and Reseal Pressures - CP Series": 7,
+  "Materials of Construction - C and CA Series": 8,
+  "Materials of Construction - CH Series": 9,
+  "Materials of Construction - CP and CPA Series": 10,
+  "Dimensions - C and CA Series": 11,
+  "Ordering Information - C Series": 12,
+  "Ordering Information - CA Series": 13,
+  "Dimensions - CH Series": 14,
+  "Ordering Information - CH Series": 15,
+  "Dimensions - CP and CPA Series": 16,
+  "Ordering Information - CP Series": 17,
+  "Ordering Information - CPA Series": 18,
+  "Seal Materials (All Series)": 19,
+  "Inlet Gaskets (2C, 4C, 6C, and 8C Series)": 20,
+  "C, CP, CA, and CPA Series Seal Kits": 21,
+  "CH Series Seal Kits - table 1": 22,
+  "CH Series Seal Kits - table 2": 23,
+  "CA and C Series Metal Gasket Kits - table 1": 24,
+  "CA and C Series Metal Gasket Kits - table 2": 25,
+  "C, CP, CA, and CPA Series Spring Kits - table 1": 26,
+  "C, CP, CA, and CPA Series Spring Kits - table 2": 27,
+  "C, CP, CA, and CPA Series Spring Kits - table 3": 28,
+  "CH Series Spring Kits - table 1": 29,
+  "CH Series Spring Kits - table 2": 30,
+  "4C, 8C, CP, and CPA Series Deflector Cap Kits": 31
+ },
+ "global_rules": [
+  {
+   "match": "^(?P<v>-?\\d+°F \\(-?\\d+°C\\)(?: to -?\\d+°F \\(-?\\d+°C\\))?)$",
+   "role": "condition",
+   "dimension": "temperature"
+  },
+  {
+   "match": "^(?P<v>C \\(2C, 4C, 6C, and 8C\\), CA, CP, and CPA) Series$",
+   "role": "condition",
+   "dimension": "product variant"
+  },
+  {
+   "match": "^(?P<v>C Series \\(12C and 16C\\))$",
+   "role": "condition",
+   "dimension": "product variant"
+  },
+  {
+   "match": "^(?P<v>(?:\\d+CPA|\\d+CP|CPA|CP|CH\\d*|\\d+C|CA|C)(?:(?:,? and |, )(?:\\d+CPA|\\d+CP|CPA|CP|CH\\d*|\\d+C|CA|C))*)(?: [Ss]eries)?$",
+   "role": "condition",
+   "dimension": "product variant"
+  },
+  {
+   "match": "^(?P<t>Fixed|Adjustable) Cracking Pressure, (?P<s>\\w+) Series$",
+   "role": "conditions",
+   "dimensions": {
+    "t": "cracking pressure type",
+    "s": "product variant"
+   }
+  },
+  {
+   "match": "^(?P<v>Fixed|Adjustable) Cracking Pressure$",
+   "role": "condition",
+   "dimension": "cracking pressure type"
+  },
+  {
+   "match": "^(?P<v>(?:Fixed|Adjustable) Cracking Pressures: .+)$",
+   "role": "condition",
+   "dimension": "cracking pressure range"
+  },
+  {
+   "match": "^Nominal cracking pressure (?P<v>[\\d/]+ psi \\([\\d.]+ bar\\))$",
+   "role": "condition",
+   "dimension": "nominal cracking pressure"
+  },
+  {
+   "match": "^(?:Cracking pressure )?(?P<v>[<>]? ?[\\d/]+(?: to \\d+)? psig? \\([\\d.]+(?: to [\\d.]+)? bar\\))$",
+   "role": "condition",
+   "dimension": "cracking pressure"
+  },
+  {
+   "match": "^(?P<v>Buna N|Ethylene propylene|Fluorocarbon FKM|Neoprene)$",
+   "role": "condition",
+   "dimension": "seal material"
+  },
+  {
+   "match": "^(?P<v>316 SS|Brass|Alloy 400)$",
+   "role": "condition",
+   "dimension": "valve body material"
+  },
+  {
+   "match": "^(?P<v>(?:Fractional |Metric )?Swagelok tube fittings?|(?:Fe)?[Mm]ale(?:/(?:fe)?male)? (?:NPT|ISO|SAE/MS)|Male NPT/Swagelok tube fitting|Male (?:VCR|VCO) fittings?)$",
+   "role": "condition",
+   "dimension": "end connection"
+  },
+  {
+   "match": "^(?P<v>\\d+(?: \\d+/\\d+|/\\d+)? (?:in\\.|mm))$",
+   "role": "condition",
+   "dimension": "end connection size"
+  },
+  {
+   "match": "^(?:SS|B|M)-[A-Z0-9-]+-$",
+   "role": "subject",
+   "kind": "valve model"
+  }
+ ],
+ "property_keys": [
+  {
+   "match": "^Material grade/(?:ASTM )?specification$",
+   "key": "material",
+   "label": "material grade/specification"
+  }
+ ],
+ "value_aliases": {
+  "product variant": {
+   "C (2C, 4C, 6C, and 8C), CA, CP, and CPA": "2C, 4C, 6C, 8C, CA, CP, CPA",
+   "C Series (12C and 16C)": "12C, 16C",
+   "C and CA": "C, CA",
+   "CP and CPA": "CP, CPA",
+   "CA and CPA": "CA, CPA",
+   "4C, 8C, CP, and CPA": "4C, 8C, CP, CPA"
+  }
+ },
+ "skip_properties": [
+  "^Curve label$",
+  "^Chart axes$",
+  "^Chart annotation$"
+ ],
+ "tables": {
+  "1": {
+   "rules": []
+  },
+  "2": {
+   "rules": []
+  },
+  "3": {
+   "rules": []
+  },
+  "4": {
+   "rules": []
+  },
+  "5": {
+   "rules": []
+  },
+  "6": {
+   "rules": []
+  },
+  "7": {
+   "rules": []
+  },
+  "8": {
+   "rules": [
+    {
+     "match": "^(?P<v>\\d{1,2}) (?P<part>[A-Z][a-zA-Z-].+)$",
+     "role": "subject_with_condition",
+     "kind": "part",
+     "dimension": "figure callout"
+    },
+    {
+     "match": "^(?:Inlet gasket \\(.+\\)|Wetted lubricant|Nonwetted lubricant|Lubricant)$",
+     "role": "subject",
+     "kind": "part"
+    }
+   ]
+  },
+  "9": {
+   "rules": [
+    {
+     "match": "^(?P<v>\\d{1,2}) (?P<part>[A-Z][a-zA-Z-].+)$",
+     "role": "subject_with_condition",
+     "kind": "part",
+     "dimension": "figure callout"
+    },
+    {
+     "match": "^(?:Inlet gasket \\(.+\\)|Wetted lubricant|Nonwetted lubricant|Lubricant)$",
+     "role": "subject",
+     "kind": "part"
+    }
+   ]
+  },
+  "10": {
+   "rules": [
+    {
+     "match": "^(?P<v>\\d{1,2}) (?P<part>[A-Z][a-zA-Z-].+)$",
+     "role": "subject_with_condition",
+     "kind": "part",
+     "dimension": "figure callout"
+    },
+    {
+     "match": "^(?:Inlet gasket \\(.+\\)|Wetted lubricant|Nonwetted lubricant|Lubricant)$",
+     "role": "subject",
+     "kind": "part"
+    }
+   ]
+  },
+  "11": {
+   "rules": []
+  },
+  "12": {
+   "rules": []
+  },
+  "13": {
+   "rules": []
+  },
+  "14": {
+   "rules": []
+  },
+  "15": {
+   "rules": []
+  },
+  "16": {
+   "rules": []
+  },
+  "17": {
+   "rules": []
+  },
+  "18": {
+   "rules": []
+  },
+  "19": {
+   "rules": []
+  },
+  "20": {
+   "rules": []
+  },
+  "21": {
+   "rules": []
+  },
+  "22": {
+   "rules": []
+  },
+  "23": {
+   "rules": []
+  },
+  "24": {
+   "rules": [
+    {
+     "match": "^(?P<v>[^()]+?) \\((?P<q>[^)]+)\\)$",
+     "role": "conditions",
+     "dimensions": {
+      "v": "product variant",
+      "q": "gasket count"
+     }
+    }
+   ]
+  },
+  "25": {
+   "rules": [
+    {
+     "match": "^(?P<v>316 SS|Alloy 400|Aluminum)$",
+     "role": "condition",
+     "dimension": "gasket material"
+    }
+   ]
+  },
+  "26": {
+   "rules": []
+  },
+  "27": {
+   "rules": []
+  },
+  "28": {
+   "rules": [
+    {
+     "match": "^(?P<v>302 SS|Alloy 400)$",
+     "role": "condition",
+     "dimension": "spring material"
+    }
+   ]
+  },
+  "29": {
+   "rules": []
+  },
+  "30": {
+   "rules": []
+  },
+  "31": {
+   "rules": [
+    {
+     "match": "^(?P<c>Male NPT) (?P<s>.+)$",
+     "role": "conditions",
+     "dimensions": {
+      "c": "end connection",
+      "s": "end connection size"
+     }
+    },
+    {
+     "match": "^(?P<v>Red|Green)$",
+     "role": "condition",
+     "dimension": "cap color"
+    }
+   ]
+  }
+ }
+}

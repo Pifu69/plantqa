@@ -3,28 +3,35 @@
 Sorrend: (1) teljes törlés és n10s-beállítás (plantdocs `reset`), (2) minden szükséges
 eszközgráf n10s-sel (a csúcsok `document_id` tulajdonságot kapnak — ez a névtér, az URI-k
 már eleve `urn:plantdocs:<doc>:` kezdetűek), (3) Benedek üzemrétege a saját betöltőjével
-(`plant_lines` profil; csak a saját korpuszát törli), (4) a `DESCRIBED_BY` élek tagenként.
+(`plant_lines` profil; csak a saját korpuszát törli), (4) a `DESCRIBED_BY` élek tagenként,
+(5) a plantdocs A2 vektorai (`data/vectors/<doc>.vectors.json` cache; új szöveghez beágyazás csak
+`--allow-paid` kapcsolóval).
 A mérések (csúcs- és élszám rétegenként, idők) a `data/plant/load_report.json`-ba kerülnek.
 """
 
 from __future__ import annotations
 
+import argparse
 import json
 import time
 from typing import Any
 
 from neo4j import Driver, GraphDatabase
 from plantdocs.graph import neo4j_load
+from plantdocs.graph.vectors import store, vectors
+from plantdocs.llm.embeddings import Embedder
 from plantgraph.qa.corpus import load_corpus_artifacts
 from plantgraph.store.neo4j_loader import load_corpus
 
 from plantqa.graph.counts import layer_counts
 from plantqa.graph.sources import ROOT, graph_path, neo4j_settings
+from plantqa.llm.clients import CACHE_DIR, plantdocs_embed_transport
 from plantqa.plant.spec import CORPUS_ID
 
 PLANT_DIR = ROOT / "data" / "plant"
 INGEST_JSON = PLANT_DIR / "corpora" / CORPUS_ID / "ingest.json"
 REPORT = PLANT_DIR / "load_report.json"
+VECTORS_DIR = ROOT / "data" / "vectors"
 
 TAG_NAMESPACE = (
     "MATCH (n:Resource) WHERE n.uri STARTS WITH $prefix SET n.document_id = $doc "
@@ -83,6 +90,22 @@ def link_tags(driver: Driver, mapping: dict[str, str]) -> int:
     return int(record["n"]) if record else 0
 
 
+def load_vectors(driver: Driver, documents: list[str], allow_paid: bool) -> dict[str, int]:
+    """A plantdocs A2 vektorai a csúcsokra és a vektorindex; dokumentumonként a vektorszám."""
+    from rdflib import Graph
+
+    embedder = Embedder(CACHE_DIR / "plantdocs-embed-calls.jsonl")
+    embedder.transport = plantdocs_embed_transport(allow_paid)
+    VECTORS_DIR.mkdir(parents=True, exist_ok=True)
+    counts = {}
+    for doc in documents:
+        graph = Graph().parse(graph_path(doc))
+        found = vectors(graph, VECTORS_DIR / f"{doc}.vectors.json", embedder)
+        store(driver, found)
+        counts[doc] = len(found)
+    return counts
+
+
 def load_plant_layer() -> float:
     """Benedek üzemrétegének betöltése a saját betöltőjével; a visszatérési érték az idő."""
     start = time.perf_counter()
@@ -91,7 +114,7 @@ def load_plant_layer() -> float:
     return time.perf_counter() - start
 
 
-def load_all() -> dict[str, Any]:
+def load_all(allow_paid: bool = False) -> dict[str, Any]:
     """A teljes betöltés; a visszatérési érték a mérési jelentés."""
     mapping = tag_mapping()
     present, missing = available(mapping)
@@ -102,13 +125,22 @@ def load_all() -> dict[str, Any]:
         devices = load_devices(driver, present)
         plant_s = load_plant_layer()
         links = link_tags(driver, {t: d for t, d in mapping.items() if d in present})
+        vector_start = time.perf_counter()
+        vector_counts = load_vectors(driver, present, allow_paid)
+        vector_s = time.perf_counter() - vector_start
         counts = layer_counts(driver, CORPUS_ID)
     total_s = time.perf_counter() - started
     return {
         "documents_loaded": present,
         "documents_missing_graph": missing,
         "described_by_edges": links,
-        "seconds": {"reset": reset_s, "plant_layer": plant_s, "total": total_s},
+        "vectors": vector_counts,
+        "seconds": {
+            "reset": reset_s,
+            "plant_layer": plant_s,
+            "vectors": vector_s,
+            "total": total_s,
+        },
         "device_seconds": devices,
         "counts": counts,
     }
@@ -116,7 +148,9 @@ def load_all() -> dict[str, Any]:
 
 def main() -> None:
     """Belépési pont: betölt, és kiírja a jelentést."""
-    report = load_all()
+    parser = argparse.ArgumentParser(description="Load the merged graph into Neo4j")
+    parser.add_argument("--allow-paid", action="store_true", help="embed texts not in the cache")
+    report = load_all(parser.parse_args().allow_paid)
     REPORT.write_text(json.dumps(report, indent=2, ensure_ascii=False), encoding="utf-8")
     print(json.dumps(report, indent=2, ensure_ascii=False))
 

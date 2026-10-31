@@ -11,7 +11,8 @@ QUERIES = {
     "plant_relationships": "MATCH (:CorpusNode {corpus_id: $c})-[r]->(:CorpusNode) "
     "RETURN count(r) AS n",
     "device_nodes": "MATCH (n:Resource) WHERE n.document_id IS NOT NULL RETURN count(n) AS n",
-    "shared_vocabulary_nodes": "MATCH (n:Resource) WHERE n.document_id IS NULL RETURN count(n) AS n",
+    "shared_vocabulary_nodes": "MATCH (n:Resource) WHERE n.document_id IS NULL "
+    "RETURN count(n) AS n",
     "device_relationships": "MATCH (:Resource)-[r]->(:Resource) RETURN count(r) AS n",
     "described_by": "MATCH (:CorpusNode)-[r:DESCRIBED_BY]->(:Resource) RETURN count(r) AS n",
     "all_nodes": "MATCH (n) RETURN count(n) AS n",

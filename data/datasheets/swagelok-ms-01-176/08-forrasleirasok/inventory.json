@@ -1,0 +1,2667 @@
+{
+  "document": "swagelok-ms-01-176",
+  "decorative_figures_skipped": 1,
+  "sources": [
+    {
+      "id": "swagelok-ms-01-176/table-azure-0",
+      "kind": "table",
+      "pages": [
+        2
+      ],
+      "title": "Check Valves",
+      "azure_parts": [
+        0
+      ],
+      "continuations_without_caption": 0,
+      "content": "<table>\n<tr>\n<td>Contents</td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td>Features</td>\n<td>2</td>\n<td>Testing</td>\n<td>10</td>\n</tr>\n<tr>\n<td>Technical Data</td>\n<td>3</td>\n<td>Cleaning and Packaging</td>\n<td>10</td>\n</tr>\n<tr>\n<td>Pressure-Temperature Ratings</td>\n<td>3</td>\n<td>Ordering Information and Dimensions</td>\n<td>11</td>\n</tr>\n<tr>\n<td>Cracking and Reseal Pressures</td>\n<td>4</td>\n<td>Options and Accessories</td>\n<td>14</td>\n</tr>\n<tr>\n<td>Materials of Construction</td>\n<td>5</td>\n<td>Maintenance Kits</td>\n<td>15</td>\n</tr>\n<tr>\n<td>Flow Data</td>\n<td>7</td>\n<td></td>\n<td></td>\n</tr>\n</table>"
+    },
+    {
+      "id": "swagelok-ms-01-176/table-azure-1",
+      "kind": "table",
+      "pages": [
+        3
+      ],
+      "title": "Technical Data - table 1",
+      "azure_parts": [
+        1
+      ],
+      "continuations_without_caption": 0,
+      "content": "<table>\n<tr>\n<th>Series</th>\n<th>Maximum Flow Coefficient (CV)</th>\n<th>Nominal Cracking Pressure1 psi (bar)</th>\n<th>Maximum Back Pressure at 70°F (20℃) psig (bar)</th>\n</tr>\n<tr>\n<td colspan=\"4\">Fixed Cracking Pressure</td>\n</tr>\n<tr>\n<td>2C</td>\n<td>0.10</td>\n<td rowspan=\"5\">1/3, 1, 10 and 25 (0.03, 0.07, 0.69, and 1.8)</td>\n<td rowspan=\"2\">1000 (68.9)2</td>\n</tr>\n<tr>\n<td>4C</td>\n<td>0.47</td>\n</tr>\n<tr>\n<td>6C</td>\n<td>1.47</td>\n<td rowspan=\"3\">200 (13.7)</td>\n</tr>\n<tr>\n<td>8C</td>\n<td>1.68</td>\n</tr>\n<tr>\n<td>12C, 16C</td>\n<td>4.48</td>\n</tr>\n<tr>\n<td>CH4</td>\n<td>0.67</td>\n<td rowspan=\"3\">1/3, 1, 5, 10 and 25 (0.03, 0.07, 0.35 0.69, and 1.8)</td>\n<td rowspan=\"2\">6000 (413)3</td>\n</tr>\n<tr>\n<td>CH8</td>\n<td>1.8</td>\n</tr>\n<tr>\n<td>CH16</td>\n<td>4.7</td>\n<td>5000 (344)3</td>\n</tr>\n<tr>\n<td>4CP</td>\n<td>0.35</td>\n<td rowspan=\"2\">1/3, 1, 10 and 25 (0.03, 0.07, 0.69, and 1.8)</td>\n<td rowspan=\"2\">3000 (206)</td>\n</tr>\n<tr>\n<td>8CP</td>\n<td>1.20</td>\n</tr>\n<tr>\n<td colspan=\"4\">Adjustable Cracking Pressure</td>\n</tr>\n<tr>\n<td>CA</td>\n<td>0.37</td>\n<td rowspan=\"3\">3 to 50 (0.21 to 3.5) 50 to 150 (3.5 to 10.4) 150 to 350 (10.4 to 24.2) 350 to 600 (24.2 to 41.4)</td>\n<td rowspan=\"3\">3000 (206)</td>\n</tr>\n<tr>\n<td>4CPA</td>\n<td>0.35</td>\n</tr>\n<tr>\n<td>8CPA</td>\n<td>1.20</td>\n</tr>\n</table>\n\nFor more information about pressure ratings of valves with tube fitting end connections, see Swagelok®\nTubing Data, MS-01-107.\n\n1 Other cracking pressures are available; contact your authorized Swagelok sales and service\nrepresentative.\n\n2 For cracking pressure of 25 psi (1.8 bar), maximum back pressure is 3000 psig (206 bar).\n\n3 Maximum back pressure may be limited by the end connection. See Dimensions, page 12.",
+      "azure_title": "Technical Data"
+    },
+    {
+      "id": "swagelok-ms-01-176/table-azure-2",
+      "kind": "table",
+      "pages": [
+        3
+      ],
+      "title": "Pressure-Temperature Ratings - C (2C, 4C, 6C, and 8C), CA, CP, and CPA Series",
+      "azure_parts": [
+        2
+      ],
+      "continuations_without_caption": 0,
+      "content": "<table>\n<tr>\n<th>Material</th>\n<th>316 SS</th>\n<th>Brass</th>\n</tr>\n<tr>\n<th>Temperature, ºF (℃)</th>\n<th colspan=\"2\">Working Pressure, psig (bar)1</th>\n</tr>\n<tr>\n<td>-10 (-23) to 100 (37)</td>\n<td>3000 (206)</td>\n<td>3000 (206)</td>\n</tr>\n<tr>\n<td>200 (93)</td>\n<td>2575 (177)</td>\n<td>2600 (179)</td>\n</tr>\n<tr>\n<td>250 (121)</td>\n<td>2450 (168)</td>\n<td>2405 (165)</td>\n</tr>\n<tr>\n<td>300 (148)</td>\n<td>2325 (160)</td>\n<td>—</td>\n</tr>\n<tr>\n<td>375 (190)</td>\n<td>2185 (150)</td>\n<td>—</td>\n</tr>\n</table>\n\n1 To reduce the possibility of dislodging the O-ring in systems where\npressure surges, shock, or pulses occur, for all 2C and 4C series valves\nand for 6C and 8C series valves with cracking pressures lower than 50 psi\n(3.5 bar), an optional inlet gasket is available. See page 14 for ordering\ninformation. Cracking and reseal pressures may decrease slightly from the\nranges listed in this catalog.",
+      "azure_title": "C (2C, 4C, 6C, and 8C), CA, CP, and CPA Series"
+    },
+    {
+      "id": "swagelok-ms-01-176/table-azure-3",
+      "kind": "table",
+      "pages": [
+        3
+      ],
+      "title": "Pressure-Temperature Ratings - C Series (12C and 16C)",
+      "azure_parts": [
+        3
+      ],
+      "continuations_without_caption": 0,
+      "content": "<table>\n<tr>\n<th>Material</th>\n<th>316 SS</th>\n<th>Brass</th>\n</tr>\n<tr>\n<th>Temperature, ºF (℃)</th>\n<th colspan=\"2\">Working Pressure, psig (bar)</th>\n</tr>\n<tr>\n<td>-10 (-23) to 100 (37)</td>\n<td>2000 (137)</td>\n<td>1500 (103)</td>\n</tr>\n<tr>\n<td>200 (93)</td>\n<td>1715 (118)</td>\n<td>1300 (89.5)</td>\n</tr>\n<tr>\n<td>250 (121)</td>\n<td>1630 (112)</td>\n<td>1200 (82.6)</td>\n</tr>\n<tr>\n<td>300 (148)</td>\n<td>1545 (106)</td>\n<td>—</td>\n</tr>\n<tr>\n<td>375 (190)</td>\n<td>1450 (99.9)</td>\n<td>—</td>\n</tr>\n</table>",
+      "azure_title": "C Series (12C and 16C)"
+    },
+    {
+      "id": "swagelok-ms-01-176/table-azure-4",
+      "kind": "table",
+      "pages": [
+        3
+      ],
+      "title": "Pressure-Temperature Ratings - CH Series",
+      "azure_parts": [
+        4
+      ],
+      "continuations_without_caption": 0,
+      "content": "<table>\n<tr>\n<th>Material</th>\n<th colspan=\"2\">316 SS</th>\n</tr>\n<tr>\n<th>Series</th>\n<th>CH4, CH8</th>\n<th>CH16</th>\n</tr>\n<tr>\n<td>Temperature, ºF (°C)</td>\n<td colspan=\"2\">Working Pressure, psig (bar)</td>\n</tr>\n<tr>\n<td>10 (-12) to 100 (37)</td>\n<td>6000 (413)1</td>\n<td>5000 (344)1</td>\n</tr>\n<tr>\n<td>200 (93)</td>\n<td>5160 (355)</td>\n<td>4290 (295)</td>\n</tr>\n<tr>\n<td>250 (121)</td>\n<td>4910 (338)</td>\n<td>4080 (281)</td>\n</tr>\n<tr>\n<td>300 (148)</td>\n<td>4660 (321)</td>\n<td>3875 (266)</td>\n</tr>\n<tr>\n<td>400 (204)</td>\n<td>4280 (294)</td>\n<td>3560 (245)</td>\n</tr>\n</table>",
+      "azure_title": "CH Series"
+    },
+    {
+      "id": "swagelok-ms-01-176/table-azure-5",
+      "kind": "table",
+      "pages": [
+        4
+      ],
+      "title": "Cracking and Reseal Pressures - C Series",
+      "azure_parts": [
+        5
+      ],
+      "continuations_without_caption": 0,
+      "content": "<table>\n<caption>CH Series</caption>\n<tr>\n<th>Nominal Cracking Pressure psi (bar)</th>\n<th>Cracking Pressure Range psi (bar)</th>\n<th>Reseal Pressure psi (bar)</th>\n</tr>\n<tr>\n<td>1/3 (0.03)</td>\n<td>Up to 3 (0.21)</td>\n<td>Up to 20 (1.4) back pressure</td>\n</tr>\n<tr>\n<td>1 (0.07)</td>\n<td>Up to 4 (0.28)</td>\n<td>Up to 12 (0.9) back pressure</td>\n</tr>\n<tr>\n<td>10 (0.69)</td>\n<td>7 to 15 (0.49 to 1.1)</td>\n<td>3 (0.21) or more inlet pressure</td>\n</tr>\n<tr>\n<td>25 (1.8)</td>\n<td>20 to 30 (1.4 to 2.1)</td>\n<td>17 (1.2) or more inlet pressure</td>\n</tr>\n</table>",
+      "azure_title": "CH Series"
+    },
+    {
+      "id": "swagelok-ms-01-176/table-azure-6",
+      "kind": "table",
+      "pages": [
+        4
+      ],
+      "title": "Cracking and Reseal Pressures - CH Series",
+      "azure_parts": [
+        6,
+        7
+      ],
+      "continuations_without_caption": 1,
+      "content": "<table>\n<caption>CP Series</caption>\n<tr>\n<th>Nominal Cracking Pressure psi (bar)</th>\n<th>Cracking Pressure Range psi (bar)</th>\n<th>Reseal Pressure psi (bar)</th>\n</tr>\n<tr>\n<td>1/3 (0.03)</td>\n<td>Up to 3 (0.21)</td>\n<td>Up to 6 (0.42) back pressure</td>\n</tr>\n<tr>\n<td>1 (0.07)</td>\n<td>Up to 4 (0.28)</td>\n<td>Up to 5 (0.35) back pressure</td>\n</tr>\n<tr>\n<td>5 (0.35)</td>\n<td>3 to 9 (0.21 to 0.63)</td>\n<td>Up to 2 (0.14) back pressure</td>\n</tr>\n<tr>\n<td>10 (0.69)</td>\n<td>7 to 15 (0.49 to 1.1)</td>\n<td>3 (0.21) or more inlet pressure</td>\n</tr>\n<tr>\n<td>25 (1.8)</td>\n<td>20 to 30 (1.4 to 2.1)</td>\n<td>17 (1.2) or more inlet pressure</td>\n</tr>\n</table>\n<table>\n<tr>\n<th>Nominal Cracking Pressure psi (bar)</th>\n<th>Cracking Pressure Range psi (bar)</th>\n<th>Reseal Pressure psi (bar)</th>\n</tr>\n<tr>\n<td>1/3 (0.03)</td>\n<td>Up to 3 (0.21)</td>\n<td>Up to 20 (1.4) back pressure</td>\n</tr>\n<tr>\n<td>1 (0.07)</td>\n<td>Up to 4 (0.28)</td>\n<td>Up to 20 (1.4) back pressure</td>\n</tr>\n<tr>\n<td>10 (0.69)</td>\n<td>7 to 13 (0.49 to 0.90)</td>\n<td>Up to 10 (0.69) back pressure</td>\n</tr>\n<tr>\n<td>25 (1.8)</td>\n<td>21 to 29 (1.5 to 2.0)</td>\n<td>5 (0.35) or more inlet pressure</td>\n</tr>\n</table>",
+      "azure_title": "CP Series"
+    },
+    {
+      "id": "swagelok-ms-01-176/table-azure-8",
+      "kind": "table",
+      "pages": [
+        5
+      ],
+      "title": "Materials of Construction - C and CA Series",
+      "azure_parts": [
+        8
+      ],
+      "continuations_without_caption": 0,
+      "content": "<table>\n<tr>\n<th rowspan=\"3\">Component</th>\n<th colspan=\"2\">Valve Body Materials</th>\n</tr>\n<tr>\n<th>316 SS</th>\n<th>Brass</th>\n</tr>\n<tr>\n<th colspan=\"2\">Material Grade/ASTM Specification</th>\n</tr>\n<tr>\n<td>1 Inlet body</td>\n<td>316 SS/A479</td>\n<td>Brass 360/B16</td>\n</tr>\n<tr>\n<td>2 Inlet gasket (CA series)</td>\n<td colspan=\"2\" rowspan=\"2\">PTFE-coated 316 SS/A240</td>\n</tr>\n<tr>\n<td>Inlet gasket (standard for 6C and 8C series with ≥ 50 psi [3.5 bar] spring; optional for 2C and 4C series and all other 6C and 8C series)</td>\n</tr>\n<tr>\n<td>Inlet gasket (12C and 16C series)</td>\n<td>PTFE-coated 316 SS/A240</td>\n<td>PTFE-coated aluminum/B209</td>\n</tr>\n<tr>\n<td>3 Insert (CA series)</td>\n<td>316 SS/A479</td>\n<td>Naval brass 485/ B21</td>\n</tr>\n<tr>\n<td>4 O-ring</td>\n<td>Fluorocarbon FKM</td>\n<td>Buna N</td>\n</tr>\n<tr>\n<td>5 Poppet</td>\n<td>316 SS/A479</td>\n<td>Brass 360/B16</td>\n</tr>\n<tr>\n<td>6 Spring</td>\n<td colspan=\"2\">302 SS/A313</td>\n</tr>\n<tr>\n<td>7 Center body (CA series)</td>\n<td>316 SS/A479</td>\n<td>Brass 360/B16</td>\n</tr>\n<tr>\n<td>8 Adjusting screw (CA series)</td>\n<td colspan=\"2\" rowspan=\"2\">316 SS/A276</td>\n</tr>\n<tr>\n<td>9 Locking screw (CA series)</td>\n</tr>\n<tr>\n<td>10 Outlet gasket (CA series)</td>\n<td colspan=\"2\">PTFE-coated 316 SS/A240</td>\n</tr>\n<tr>\n<td>11 Outlet body</td>\n<td>316 SS/A479</td>\n<td>Brass 360/B16</td>\n</tr>\n<tr>\n<td>Wetted lubricant</td>\n<td colspan=\"2\">Silicone-based (C series); PTFE-based (CA series)</td>\n</tr>\n<tr>\n<td>Nonwetted lubricant</td>\n<td>Molybdenum disulfide-based</td>\n<td>—</td>\n</tr>\n</table>\n\nWetted components listed in italics.",
+      "azure_title": "C and CA Series"
+    },
+    {
+      "id": "swagelok-ms-01-176/table-azure-9",
+      "kind": "table",
+      "pages": [
+        5
+      ],
+      "title": "Materials of Construction - CH Series",
+      "azure_parts": [
+        9
+      ],
+      "continuations_without_caption": 0,
+      "content": "<table>\n<tr>\n<th>Component</th>\n<th>Material Grade/ ASTM Specification</th>\n</tr>\n<tr>\n<td>1 Inlet body</td>\n<td>316 SS/A479</td>\n</tr>\n<tr>\n<td>2 Poppet</td>\n<td>Fluorocarbon FKM- bonded 316 SS/A479</td>\n</tr>\n<tr>\n<td>3 Poppet stop</td>\n<td>316 SS/A240</td>\n</tr>\n<tr>\n<td>4 Spring</td>\n<td>302 SS/A313</td>\n</tr>\n<tr>\n<td>5 O-ring</td>\n<td>Fluorocarbon FKM</td>\n</tr>\n<tr>\n<td>6 Backup ring</td>\n<td>PTFE/D1710</td>\n</tr>\n<tr>\n<td>7 Outlet body</td>\n<td>316 SS/A479</td>\n</tr>\n<tr>\n<td>Lubricant</td>\n<td>PTFE-based</td>\n</tr>\n</table>\n\nWetted components listed in italics.",
+      "azure_title": "CH Series"
+    },
+    {
+      "id": "swagelok-ms-01-176/table-azure-10",
+      "kind": "table",
+      "pages": [
+        6
+      ],
+      "title": "Materials of Construction - CP and CPA Series",
+      "azure_parts": [
+        10
+      ],
+      "continuations_without_caption": 0,
+      "content": "<table>\n<tr>\n<th rowspan=\"4\">Component</th>\n<th colspan=\"5\">Valve Body Materials</th>\n</tr>\n<tr>\n<th rowspan=\"2\">316 SS</th>\n<th colspan=\"4\">Brass</th>\n</tr>\n<tr>\n<th>4CP</th>\n<th>8CP</th>\n<th>4CPA</th>\n<th>8CPA</th>\n</tr>\n<tr>\n<th colspan=\"5\">Material Grade/Specification</th>\n</tr>\n<tr>\n<td>1 Insert lock screw</td>\n<td>316 SS/ASTM A276 or A479</td>\n<td rowspan=\"2\">Brass CW710R/ EN 12163</td>\n<td rowspan=\"2\">Brass 360/ ASTM B16</td>\n<td>Brass</td>\n<td rowspan=\"2\">Brass 360/ ASTM B16</td>\n</tr>\n<tr>\n<td>2 Insert</td>\n<td>316 SS/ASTM A479</td>\n<td>CW710R/ EN 12163</td>\n</tr>\n<tr>\n<td>3 O-ring</td>\n<td>Fluorocarbon FKM</td>\n<td colspan=\"4\">Buna N</td>\n</tr>\n<tr>\n<td>4 Poppet</td>\n<td>316 SS/ASTM A479</td>\n<td colspan=\"4\">Brass 360/ASTM B16</td>\n</tr>\n<tr>\n<td>5 Spring</td>\n<td colspan=\"5\">302 SS@/ASTM A313</td>\n</tr>\n<tr>\n<td>6 Body</td>\n<td>316 SS/ASTM A479</td>\n<td colspan=\"4\">Brass 360/ASTM B16</td>\n</tr>\n<tr>\n<td>7 Adjusting screw (CPA series)</td>\n<td rowspan=\"2\">316 SS/ASTM A276</td>\n<td colspan=\"2\" rowspan=\"2\">—</td>\n<td rowspan=\"2\">316 SS/ ASTM A276</td>\n<td rowspan=\"2\">Brass 3602/ ASTM B16</td>\n</tr>\n<tr>\n<td>8 Locking screw (CPA series)</td>\n</tr>\n<tr>\n<td>Lubricant</td>\n<td>Silicone-based and PTFE-based (CP series) PTFE-based (4CPA series) PTFE-based and molybdenum disulfide (8CPA series)</td>\n<td colspan=\"2\">Silicone-based and PTFE-based</td>\n<td>PTFE-based</td>\n<td>PTFE-based and Molybdenum disulfide-based</td>\n</tr>\n</table>\n\nWetted components listed in italics.\n\nSpring in 316 SS and brass 8CPA series valves is PTFE coated.\n\n2 Adjusting screw in valve with 150 or 350 psi (10.4 or 24.2 bar) spring is 316 SS.",
+      "azure_title": "Materials of Construction"
+    },
+    {
+      "id": "swagelok-ms-01-176/table-azure-11",
+      "kind": "table",
+      "pages": [
+        11
+      ],
+      "title": "Dimensions - C and CA Series",
+      "azure_parts": [
+        11
+      ],
+      "continuations_without_caption": 0,
+      "content": "<table>\n<tr>\n<th colspan=\"2\">End Connections</th>\n<th rowspan=\"2\">Basic Ordering Number</th>\n<th rowspan=\"2\">Series</th>\n<th colspan=\"3\">Dimensions, in. (mm)</th>\n</tr>\n<tr>\n<th>Inlet/Outlet</th>\n<th>Size</th>\n<th>A</th>\n<th>B</th>\n<th>C</th>\n</tr>\n<tr>\n<td colspan=\"7\">Fixed Cracking Pressure, C Series</td>\n</tr>\n<tr>\n<td rowspan=\"6\">Fractional Swagelok tube fittings</td>\n<td>1/8 in.</td>\n<td>SS-2C-</td>\n<td>2C</td>\n<td>2.14 (54.3)</td>\n<td rowspan=\"2\">5/8</td>\n<td>7/16</td>\n</tr>\n<tr>\n<td>1/4 in.</td>\n<td>SS-4C-</td>\n<td>4C</td>\n<td>2.35 (59.7)</td>\n<td>9/16</td>\n</tr>\n<tr>\n<td>3/8 in.</td>\n<td>SS-6C-</td>\n<td>6C</td>\n<td>3.17 (80.5)</td>\n<td rowspan=\"2\">7/8</td>\n<td>11/16</td>\n</tr>\n<tr>\n<td>1/2 in.</td>\n<td>SS-8C-</td>\n<td>8C</td>\n<td>3.42 (86.9)</td>\n<td>7/8</td>\n</tr>\n<tr>\n<td>3/4 in.</td>\n<td>SS-12C-</td>\n<td>12C</td>\n<td>4.32 (110)</td>\n<td>1 1/4</td>\n<td>1 1/8</td>\n</tr>\n<tr>\n<td>1 in.</td>\n<td>SS-16C-</td>\n<td>16C</td>\n<td>4.74 (120)</td>\n<td>1 3/8</td>\n<td>1 1/2</td>\n</tr>\n<tr>\n<td rowspan=\"3\">Metric Swagelok tube fittings</td>\n<td>6 mm</td>\n<td>SS-6C-MM-</td>\n<td>4C</td>\n<td>2.36 (59.9)</td>\n<td>5/8</td>\n<td>(14)</td>\n</tr>\n<tr>\n<td>10 mm</td>\n<td>SS-10C-MM-</td>\n<td rowspan=\"2\">8C</td>\n<td>3.32 (84.3)</td>\n<td rowspan=\"2\">7/8</td>\n<td>(19)</td>\n</tr>\n<tr>\n<td>12 mm</td>\n<td>SS-12C-MM-</td>\n<td>3.42 (86.9)</td>\n<td>(22)</td>\n</tr>\n<tr>\n<td rowspan=\"6\">Female NPT</td>\n<td>1/8 in.</td>\n<td>SS-2C4-</td>\n<td>2C</td>\n<td>1.89 (48.0)</td>\n<td>5/8</td>\n<td rowspan=\"12\">—</td>\n</tr>\n<tr>\n<td>1/4 in.</td>\n<td>SS-4C4-</td>\n<td>4C</td>\n<td>2.15 (54.6)</td>\n<td>3/4</td>\n</tr>\n<tr>\n<td>3/8 in.</td>\n<td>SS-6C4-</td>\n<td>6C</td>\n<td>2.98 (75.7)</td>\n<td>7/8</td>\n</tr>\n<tr>\n<td>1/2 in.</td>\n<td>SS-8C4-</td>\n<td>8C</td>\n<td>3.58 (90.9)</td>\n<td>1 1/16</td>\n</tr>\n<tr>\n<td>3/4 in.</td>\n<td>SS-12C4-</td>\n<td>12C</td>\n<td>4.08 (104)</td>\n<td>1 1/4</td>\n</tr>\n<tr>\n<td>1 in.</td>\n<td>SS-16C4-</td>\n<td>16C</td>\n<td>4.84 (123)</td>\n<td>1 5/8</td>\n</tr>\n<tr>\n<td rowspan=\"6\">Male NPT</td>\n<td>1/8 in.</td>\n<td>SS-2C2-</td>\n<td>2C</td>\n<td>1.71 (43.4)</td>\n<td rowspan=\"2\">5/8</td>\n</tr>\n<tr>\n<td>1/4 in.</td>\n<td>SS-4C2-</td>\n<td>4C</td>\n<td>2.09 (53.1)</td>\n</tr>\n<tr>\n<td>3/8 in.</td>\n<td>SS-6C2-</td>\n<td>6C</td>\n<td>2.78 (70.6)</td>\n<td rowspan=\"2\">7/8</td>\n</tr>\n<tr>\n<td>1/2 in.</td>\n<td>SS-8C2-</td>\n<td>8C</td>\n<td>3.16 (80.3)</td>\n</tr>\n<tr>\n<td>3/4 in.</td>\n<td>SS-12C2-</td>\n<td>12C</td>\n<td>4.08 (104)</td>\n<td>1 1/4</td>\n</tr>\n<tr>\n<td>1 in.</td>\n<td>SS-16C2-</td>\n<td>16C</td>\n<td>4.52 (115)</td>\n<td>1 5/8</td>\n</tr>\n<tr>\n<td>Male NPT/ Swagelok tube fitting</td>\n<td>1/4 in.</td>\n<td>SS-4C1-</td>\n<td>4C</td>\n<td>2.22 (56.4)</td>\n<td>5/8</td>\n<td>9/16</td>\n</tr>\n<tr>\n<td rowspan=\"4\">Male VCR fittings</td>\n<td>1/4 in.</td>\n<td>SS-4C-VCR-</td>\n<td>4C</td>\n<td>2.21 (56.1)</td>\n<td>5/8</td>\n<td rowspan=\"4\">—</td>\n</tr>\n<tr>\n<td>1/2 in.</td>\n<td>SS-8C-VCR-</td>\n<td>8C</td>\n<td>3.56 (90.4)</td>\n<td>15/16</td>\n</tr>\n<tr>\n<td>3/4 in.</td>\n<td>SS-12C-VCR-</td>\n<td>12C</td>\n<td>4.64 (118)</td>\n<td rowspan=\"2\">1 5/8</td>\n</tr>\n<tr>\n<td>1 in.</td>\n<td>SS-16C-VCR-</td>\n<td>16C</td>\n<td>4.76 (121)</td>\n</tr>\n<tr>\n<td colspan=\"7\">Adjustable Cracking Pressure, CA Series</td>\n</tr>\n<tr>\n<td rowspan=\"3\">Swagelok tube fittings</td>\n<td>1/4 in.</td>\n<td>SS-4CA-</td>\n<td rowspan=\"5\">CA</td>\n<td rowspan=\"2\">3.23 (82.0)</td>\n<td rowspan=\"5\">5/8</td>\n<td>9/16</td>\n</tr>\n<tr>\n<td>6 mm</td>\n<td>SS-6CA-MM-</td>\n<td>(14)</td>\n</tr>\n<tr>\n<td>8 mm</td>\n<td>SS-8CA-MM-</td>\n<td>3.32 (84.3)</td>\n<td>(16)</td>\n</tr>\n<tr>\n<td>Male NPT/ Swagelok tube fitting</td>\n<td>1/4 in.</td>\n<td>SS-4CA1-</td>\n<td>3.12 (79.2)</td>\n<td>9/16</td>\n</tr>\n<tr>\n<td>Male VCR fittings</td>\n<td>1/4 in.</td>\n<td>SS-4CA-VCR-</td>\n<td>3.09 (78.5)</td>\n<td>—</td>\n</tr>\n</table>",
+      "azure_title": "CA Series"
+    },
+    {
+      "id": "swagelok-ms-01-176/table-azure-12",
+      "kind": "table",
+      "pages": [
+        11
+      ],
+      "title": "Ordering Information - C Series",
+      "azure_parts": [
+        12
+      ],
+      "continuations_without_caption": 0,
+      "content": "<table>\n<tr>\n<th>Cracking Pressure psi (bar)</th>\n<th>Designator</th>\n</tr>\n<tr>\n<td>1/3 (0.03)</td>\n<td>1/3</td>\n</tr>\n<tr>\n<td>1 (0.07)</td>\n<td>1</td>\n</tr>\n<tr>\n<td>10 (0.69)</td>\n<td>10</td>\n</tr>\n<tr>\n<td>25 (1.8)</td>\n<td>25</td>\n</tr>\n</table>\n\nExample: SS-2C-1/3",
+      "azure_title": "C Series"
+    },
+    {
+      "id": "swagelok-ms-01-176/table-azure-13",
+      "kind": "table",
+      "pages": [
+        11
+      ],
+      "title": "Ordering Information - CA Series",
+      "azure_parts": [
+        13
+      ],
+      "continuations_without_caption": 0,
+      "content": "<table>\n<tr>\n<th>Cracking Pressure psi (bar)</th>\n<th>Designator</th>\n</tr>\n<tr>\n<td>3 to 50 (0.21 to 3.5)</td>\n<td>3</td>\n</tr>\n<tr>\n<td>50 to 150 (3.5 to 10.4)</td>\n<td>50</td>\n</tr>\n<tr>\n<td>150 to 350 (10.4 to 24.2)</td>\n<td>150</td>\n</tr>\n<tr>\n<td>350 to 600 (24.2 to 41.4)</td>\n<td>350</td>\n</tr>\n</table>\n\nExample: SS-4CA-3",
+      "azure_title": "CA Series"
+    },
+    {
+      "id": "swagelok-ms-01-176/table-azure-14",
+      "kind": "table",
+      "pages": [
+        12
+      ],
+      "title": "Dimensions - CH Series",
+      "azure_parts": [
+        14
+      ],
+      "continuations_without_caption": 0,
+      "content": "<table>\n<tr>\n<th colspan=\"2\">End Connections</th>\n<th rowspan=\"2\">Pressure Rating at 100°F (37℃) psig (bar)</th>\n<th rowspan=\"2\">Basic Ordering Number</th>\n<th rowspan=\"2\">Series</th>\n<th colspan=\"2\">Dimensions in. (mm)</th>\n</tr>\n<tr>\n<th>Type</th>\n<th>Size</th>\n<th>A</th>\n<th>B</th>\n</tr>\n<tr>\n<td rowspan=\"6\">Fractional Swagelok tube fitting</td>\n<td>1/8 in.</td>\n<td rowspan=\"4\">6000 (413)</td>\n<td>SS-CHS2-</td>\n<td rowspan=\"2\">CH4</td>\n<td>2.27 (57.7)</td>\n<td rowspan=\"2\">11/16</td>\n</tr>\n<tr>\n<td>1/4 in.</td>\n<td>SS-CHS4-</td>\n<td>2.43 (61.7)</td>\n</tr>\n<tr>\n<td>3/8 in.</td>\n<td>SS-CHS6-</td>\n<td rowspan=\"2\">CH8</td>\n<td>2.75 (69.9)</td>\n<td rowspan=\"2\">1</td>\n</tr>\n<tr>\n<td>1/2 in.</td>\n<td>SS-CHS8-</td>\n<td>2.96 (75.2)</td>\n</tr>\n<tr>\n<td>3/4 in.</td>\n<td>5000 (344)</td>\n<td>SS-CHS12-</td>\n<td rowspan=\"2\">CH16</td>\n<td>3.52 (89.4)</td>\n<td rowspan=\"2\">1 5/8</td>\n</tr>\n<tr>\n<td>1 in.</td>\n<td>4700 (323)</td>\n<td>SS-CHS16-</td>\n<td>3.88 (98.6)</td>\n</tr>\n<tr>\n<td rowspan=\"6\">Metric Swagelok tube fitting</td>\n<td>6 mm</td>\n<td rowspan=\"4\">6000 (413)</td>\n<td>SS-CHS6MM-</td>\n<td>CH4</td>\n<td>2.43 (61.7)</td>\n<td>11/16</td>\n</tr>\n<tr>\n<td>8 mm</td>\n<td>SS-CHS8MM-</td>\n<td rowspan=\"3\">CH8</td>\n<td>2.70 (68.6)</td>\n<td rowspan=\"3\">1</td>\n</tr>\n<tr>\n<td>10 mm</td>\n<td>SS-CHS10MM-</td>\n<td>2.80 (71.1)</td>\n</tr>\n<tr>\n<td>12 mm</td>\n<td>SS-CHS12MM-</td>\n<td>2.96 (75.2)</td>\n</tr>\n<tr>\n<td>22 mm</td>\n<td>4900 (337)</td>\n<td>SS-CHS22MM-</td>\n<td rowspan=\"2\">CH16</td>\n<td>3.48 (88.4)</td>\n<td rowspan=\"2\">1 5/8</td>\n</tr>\n<tr>\n<td>25 mm</td>\n<td>4600 (316)</td>\n<td>SS-CHS25MM-</td>\n<td>3.88 (98.6)</td>\n</tr>\n<tr>\n<td rowspan=\"5\">Female NPT</td>\n<td>1/4 in.</td>\n<td>6000 (413)</td>\n<td>SS-CHF4-</td>\n<td>CH4</td>\n<td>2.13 (54.1)</td>\n<td>11/16</td>\n</tr>\n<tr>\n<td>3/8 in.</td>\n<td>5300 (365)</td>\n<td>SS-CHF6-</td>\n<td rowspan=\"2\">CH8</td>\n<td>2.55 (64.8)</td>\n<td>1</td>\n</tr>\n<tr>\n<td>1/2 in.</td>\n<td>4900 (337)</td>\n<td>SS-CHF8-</td>\n<td>3.03 (77.0)</td>\n<td>1 1/16</td>\n</tr>\n<tr>\n<td>3/4 in.</td>\n<td>4600 (316)</td>\n<td>SS-CHF12-</td>\n<td rowspan=\"2\">CH16</td>\n<td>3.23 (82.0)</td>\n<td rowspan=\"2\">1 5/8</td>\n</tr>\n<tr>\n<td>1 in.</td>\n<td>4400 (303)</td>\n<td>SS-CHF16-</td>\n<td>3.83 (97.3)</td>\n</tr>\n<tr>\n<td rowspan=\"6\">Male NPT</td>\n<td>1/8 in.</td>\n<td rowspan=\"4\">6000 (413)</td>\n<td>SS-CHM2-</td>\n<td rowspan=\"2\">CH4</td>\n<td>1.79 (45.5)</td>\n<td rowspan=\"2\">11/16</td>\n</tr>\n<tr>\n<td>1/4 in.</td>\n<td>SS-CHM4-</td>\n<td>2.17 (55.1)</td>\n</tr>\n<tr>\n<td>3/8 in.</td>\n<td>SS-CHM6-</td>\n<td rowspan=\"2\">CH8</td>\n<td>2.36 (59.9)</td>\n<td rowspan=\"2\">1</td>\n</tr>\n<tr>\n<td>1/2 in.</td>\n<td>SS-CHM8-</td>\n<td>2.73 (69.3)</td>\n</tr>\n<tr>\n<td>3/4 in.</td>\n<td rowspan=\"2\">5000 (344)</td>\n<td>SS-CHM12-</td>\n<td rowspan=\"2\">CH16</td>\n<td>3.29 (83.6)</td>\n<td rowspan=\"2\">1 5/8</td>\n</tr>\n<tr>\n<td>1 in.</td>\n<td>SS-CHM16-</td>\n<td>3.67 (93.2)</td>\n</tr>\n<tr>\n<td rowspan=\"4\">Female ISO1</td>\n<td>1/4 in.</td>\n<td>6000 (413)</td>\n<td>SS-CHF4RT-</td>\n<td>CH4</td>\n<td>2.28 (57.9)</td>\n<td>11/16</td>\n</tr>\n<tr>\n<td>1/2 in.</td>\n<td>5100 (351)</td>\n<td>SS-CHF8RT-</td>\n<td>CH8</td>\n<td>3.29 (83.6)</td>\n<td>1 1/16</td>\n</tr>\n<tr>\n<td>3/4 in.</td>\n<td>4800 (330)</td>\n<td>SS-CHF12RT-</td>\n<td rowspan=\"2\">CH16</td>\n<td>3.55 (90.2)</td>\n<td rowspan=\"2\">1 5/8</td>\n</tr>\n<tr>\n<td>1 in.</td>\n<td>4400 (303)</td>\n<td>SS-CHF16RT-</td>\n<td>3.83 (97.3)</td>\n</tr>\n<tr>\n<td rowspan=\"4\">Male ISO1</td>\n<td>1/4 in.</td>\n<td rowspan=\"2\">6000 (413)</td>\n<td>SS-CHM4RT-</td>\n<td>CH4</td>\n<td>2.17 (55.1)</td>\n<td>11/16</td>\n</tr>\n<tr>\n<td>1/2 in.</td>\n<td>SS-CHM8RT-</td>\n<td>CH8</td>\n<td>2.73 (69.3)</td>\n<td>1</td>\n</tr>\n<tr>\n<td>3/4 in.</td>\n<td rowspan=\"2\">5000 (344)</td>\n<td>SS-CHM12RT-</td>\n<td rowspan=\"2\">CH16</td>\n<td>3.29 (83.6)</td>\n<td rowspan=\"2\">1 5/8</td>\n</tr>\n<tr>\n<td>1 in.</td>\n<td>SS-CHM16RT-</td>\n<td>3.67 (93.2)</td>\n</tr>\n<tr>\n<td>Female SAE/MS</td>\n<td>1/2 in.</td>\n<td>4600 (316)</td>\n<td>SS-CHF8ST-</td>\n<td rowspan=\"2\">CH8</td>\n<td>2.74 (69.6)</td>\n<td rowspan=\"2\">1</td>\n</tr>\n<tr>\n<td>Male SAE/MS</td>\n<td>1/2 in.</td>\n<td>4600 (316)</td>\n<td>SS-CHM8ST-</td>\n<td>2.48 (63.0)</td>\n</tr>\n<tr>\n<td rowspan=\"4\">Male VCO fitting</td>\n<td>1/4 in.</td>\n<td rowspan=\"2\">6000 (413)</td>\n<td>SS-CHVCO4-</td>\n<td>CH4</td>\n<td>1.98 (50.3)</td>\n<td>11/16</td>\n</tr>\n<tr>\n<td>1/2 in.</td>\n<td>SS-CHVCO8-</td>\n<td>CH8</td>\n<td>2.35 (59.7)</td>\n<td>1</td>\n</tr>\n<tr>\n<td>3/4 in.</td>\n<td rowspan=\"2\">5000 (344)</td>\n<td>SS-CHVCO12-</td>\n<td rowspan=\"2\">CH16</td>\n<td rowspan=\"2\">2.90 (73.7)</td>\n<td rowspan=\"2\">1 5/8</td>\n</tr>\n<tr>\n<td>1 in.</td>\n<td>SS-CHVCO16-</td>\n</tr>\n<tr>\n<td rowspan=\"3\">Male VCR fitting</td>\n<td>1/4 in.</td>\n<td>6000 (413)</td>\n<td>SS-CHVCR4-</td>\n<td>CH4</td>\n<td>2.28 (57.9)</td>\n<td>11/16</td>\n</tr>\n<tr>\n<td>1/2 in.</td>\n<td>4300 (296)</td>\n<td>SS-CHVCR8-</td>\n<td>CH8</td>\n<td>2.73 (69.3)</td>\n<td>1</td>\n</tr>\n<tr>\n<td>3/4 in.</td>\n<td>3700 (254)</td>\n<td>SS-CHVCR12-</td>\n<td>CH16</td>\n<td>3.78 (96.0)</td>\n<td>1 5/8</td>\n</tr>\n</table>\n\n1 See specifications ISO 7/1, BS EN 10226-1, DIN 2999, JIS B0203.",
+      "azure_title": "Dimensions"
+    },
+    {
+      "id": "swagelok-ms-01-176/table-azure-15",
+      "kind": "table",
+      "pages": [
+        12
+      ],
+      "title": "Ordering Information - CH Series",
+      "azure_parts": [
+        15
+      ],
+      "continuations_without_caption": 0,
+      "content": "<table>\n<tr>\n<th>Cracking Pressure psi (bar)</th>\n<th>Designator</th>\n</tr>\n<tr>\n<td>1/3 (0.03)</td>\n<td>1/3</td>\n</tr>\n<tr>\n<td>1 (0.07)</td>\n<td>1</td>\n</tr>\n<tr>\n<td>5 (0.35)</td>\n<td>5</td>\n</tr>\n<tr>\n<td>10 (0.69)</td>\n<td>10</td>\n</tr>\n<tr>\n<td>25 (1.8)</td>\n<td>25</td>\n</tr>\n</table>",
+      "azure_title": "Ordering Information"
+    },
+    {
+      "id": "swagelok-ms-01-176/table-azure-16",
+      "kind": "table",
+      "pages": [
+        13
+      ],
+      "title": "Dimensions - CP and CPA Series",
+      "azure_parts": [
+        16
+      ],
+      "continuations_without_caption": 0,
+      "content": "<table>\n<tr>\n<th colspan=\"2\">End Connections</th>\n<th rowspan=\"2\">Basic Ordering Number</th>\n<th rowspan=\"2\">Series</th>\n<th colspan=\"2\">Dimensions, in. (mm)</th>\n</tr>\n<tr>\n<th>Inlet/Outlet</th>\n<th>Size</th>\n<th>A</th>\n<th>D</th>\n</tr>\n<tr>\n<td colspan=\"6\">Fixed Cracking Pressure, CP Series</td>\n</tr>\n<tr>\n<td rowspan=\"2\">Female NPT</td>\n<td>1/4 in.</td>\n<td>SS-4CP4-</td>\n<td>4CP</td>\n<td>2.41 (61.2)</td>\n<td>3/4</td>\n</tr>\n<tr>\n<td>1/2 in.</td>\n<td>SS-8CP4-</td>\n<td>8CP</td>\n<td>3.71 (94.2)</td>\n<td>1 1/16</td>\n</tr>\n<tr>\n<td rowspan=\"2\">Male NPT</td>\n<td>1/4 in.</td>\n<td>SS-4CP2-</td>\n<td>4CP</td>\n<td>1.62 (41.1)</td>\n<td>9/16</td>\n</tr>\n<tr>\n<td>1/2 in.</td>\n<td>SS-8CP2-</td>\n<td>8CP</td>\n<td>2.28 (57.9)</td>\n<td>7/8</td>\n</tr>\n<tr>\n<td>Female/male NPT</td>\n<td>1/4 in.</td>\n<td>SS-4CP6-</td>\n<td rowspan=\"2\">4CP</td>\n<td>2.29 (58.2)</td>\n<td>3/4</td>\n</tr>\n<tr>\n<td rowspan=\"2\">Male/female NPT</td>\n<td>1/4 in.</td>\n<td>SS-4CP5-</td>\n<td>1.75 (44.4)</td>\n<td>3/4</td>\n</tr>\n<tr>\n<td>1/2 in.</td>\n<td>SS-8CP5-</td>\n<td>8CP</td>\n<td>2.83 (71.9)</td>\n<td>1 1/16</td>\n</tr>\n<tr>\n<td>Female ISO1</td>\n<td>1/4 in.</td>\n<td>SS-4CP4-RT-</td>\n<td rowspan=\"2\">4CP</td>\n<td>2.54 (64.5)</td>\n<td>3/4</td>\n</tr>\n<tr>\n<td>Male ISO1</td>\n<td>1/4 in.</td>\n<td>SS-4CP2-RT-</td>\n<td>1.62 (41.1)</td>\n<td>9/16</td>\n</tr>\n<tr>\n<td colspan=\"6\">Adjustable Cracking Pressure, CPA Series</td>\n</tr>\n<tr>\n<td>Female NPT</td>\n<td>1/4 in.</td>\n<td>SS-4CPA4-</td>\n<td rowspan=\"2\">4CPA</td>\n<td>2.98 (75.7)</td>\n<td>3/4</td>\n</tr>\n<tr>\n<td rowspan=\"2\">Male NPT</td>\n<td>1/4 in.</td>\n<td>SS-4CPA2-</td>\n<td>1.62 (41.1)</td>\n<td>9/16</td>\n</tr>\n<tr>\n<td>1/2 in.</td>\n<td>SS-8CPA2-</td>\n<td>8CPA</td>\n<td>2.56 (65.0)</td>\n<td>7/8</td>\n</tr>\n<tr>\n<td rowspan=\"2\">Male ISO1</td>\n<td>1/4 in.</td>\n<td>SS-4CPA2-RT-</td>\n<td>4CPA</td>\n<td>1.62 (41.1)</td>\n<td>9/16</td>\n</tr>\n<tr>\n<td>1/2 in.</td>\n<td>SS-8CPA2-RT-</td>\n<td>8CPA</td>\n<td>2.56 (65.0)</td>\n<td>7/8</td>\n</tr>\n</table>\n\n1 See specifications ISO 7/1, BS EN 10226-1, DIN 2999, and JIS B0203.",
+      "azure_title": "CP and CPA Series"
+    },
+    {
+      "id": "swagelok-ms-01-176/table-azure-17",
+      "kind": "table",
+      "pages": [
+        13
+      ],
+      "title": "Ordering Information - CP Series",
+      "azure_parts": [
+        17
+      ],
+      "continuations_without_caption": 0,
+      "content": "<table>\n<tr>\n<th>Cracking Pressure psi (bar)</th>\n<th>Designator</th>\n</tr>\n<tr>\n<td>1/3 (0.03)</td>\n<td>1/3</td>\n</tr>\n<tr>\n<td>1 (0.07)</td>\n<td>1</td>\n</tr>\n<tr>\n<td>10 (0.69)</td>\n<td>10</td>\n</tr>\n<tr>\n<td>25 (1.8)</td>\n<td>25</td>\n</tr>\n</table>",
+      "azure_title": "CP Series"
+    },
+    {
+      "id": "swagelok-ms-01-176/table-azure-18",
+      "kind": "table",
+      "pages": [
+        13
+      ],
+      "title": "Ordering Information - CPA Series",
+      "azure_parts": [
+        18
+      ],
+      "continuations_without_caption": 0,
+      "content": "<table>\n<tr>\n<th>Cracking Pressure psi (bar)</th>\n<th>Designator</th>\n</tr>\n<tr>\n<td>3 to 50 (0.21 to 3.5)</td>\n<td>3</td>\n</tr>\n<tr>\n<td>50 to 150 (3.5 to 10.4)</td>\n<td>50</td>\n</tr>\n<tr>\n<td>150 to 350 (10.4 to 24.2)</td>\n<td>150</td>\n</tr>\n<tr>\n<td>350 to 600 (24.2 to 41.4)</td>\n<td>350</td>\n</tr>\n</table>\n\nExample: SS-4CPA4-3",
+      "azure_title": "CPA Series"
+    },
+    {
+      "id": "swagelok-ms-01-176/table-azure-19",
+      "kind": "table",
+      "pages": [
+        14
+      ],
+      "title": "Seal Materials (All Series)",
+      "azure_parts": [
+        19
+      ],
+      "continuations_without_caption": 0,
+      "content": "<table>\n<tr>\n<th>Seal Material</th>\n<th>Designator</th>\n<th>Temperature Rating ºF (℃)</th>\n</tr>\n<tr>\n<td>Buna N</td>\n<td>-BU</td>\n<td>-10 to 250 (-23 to 121)</td>\n</tr>\n<tr>\n<td>Ethylene propylene</td>\n<td>-EP</td>\n<td>-50 to 300 (-45 to 148)</td>\n</tr>\n<tr>\n<td>Fluorocarbon FKM</td>\n<td>-VI</td>\n<td>-10 to 375 (-23 to 190)1</td>\n</tr>\n<tr>\n<td>Neoprene</td>\n<td>-NE</td>\n<td>-40 to 250 (-40 to 121)</td>\n</tr>\n</table>\n\n1 10 to 400°F (-12 to 204℃) for CH series."
+    },
+    {
+      "id": "swagelok-ms-01-176/table-azure-20",
+      "kind": "table",
+      "pages": [
+        14
+      ],
+      "title": "Inlet Gaskets (2C, 4C, 6C, and 8C Series)",
+      "azure_parts": [
+        20
+      ],
+      "continuations_without_caption": 0,
+      "content": "<table>\n<tr>\n<th rowspan=\"2\">Cracking Pressure psig (bar)</th>\n<th colspan=\"3\">Inlet Gasket</th>\n</tr>\n<tr>\n<th>2C, 4C Series</th>\n<th>6C, 8C Series</th>\n<th>12C, 16C Series</th>\n</tr>\n<tr>\n<td>&lt; 50 (3.5)</td>\n<td>Optional</td>\n<td>Optional</td>\n<td>Standard</td>\n</tr>\n<tr>\n<td>&gt; 50 (3.5)</td>\n<td>Optional</td>\n<td>Standard</td>\n<td>Standard</td>\n</tr>\n</table>"
+    },
+    {
+      "id": "swagelok-ms-01-176/table-azure-21",
+      "kind": "table",
+      "pages": [
+        15
+      ],
+      "title": "C, CP, CA, and CPA Series Seal Kits",
+      "azure_parts": [
+        21
+      ],
+      "continuations_without_caption": 0,
+      "content": "<table>\n<tr>\n<th>Valve Series</th>\n<th>Uniform O-Ring Size</th>\n<th>Kit Ordering Number</th>\n</tr>\n<tr>\n<td colspan=\"3\">Fixed Cracking Pressures: 1/3, 1, 10, and 25 psi (0.03, 0.07, 0.69, and 1.8 bar)</td>\n</tr>\n<tr>\n<td rowspan=\"4\">2C, 4C</td>\n<td rowspan=\"4\">009</td>\n<td>NEO70-4C-K4</td>\n</tr>\n<tr>\n<td>VI70-4C-K4</td>\n</tr>\n<tr>\n<td>BU80-4C-K4</td>\n</tr>\n<tr>\n<td>EP80-4C-K4</td>\n</tr>\n<tr>\n<td rowspan=\"4\">4CP</td>\n<td rowspan=\"4\">009</td>\n<td>NEO60-4C-K4</td>\n</tr>\n<tr>\n<td>VI60-4C-K4</td>\n</tr>\n<tr>\n<td>BU60-4C-K4</td>\n</tr>\n<tr>\n<td>EP60-4C-K4</td>\n</tr>\n<tr>\n<td rowspan=\"4\">6C, 8C</td>\n<td rowspan=\"4\">111</td>\n<td>NEO70-8C-K4</td>\n</tr>\n<tr>\n<td>VI70-8C-K4</td>\n</tr>\n<tr>\n<td>BU70-8C-K4</td>\n</tr>\n<tr>\n<td>EP70-8C-K4</td>\n</tr>\n<tr>\n<td rowspan=\"4\">8CP</td>\n<td rowspan=\"4\">110</td>\n<td>NEO70-8CP-K4</td>\n</tr>\n<tr>\n<td>VI70-8CP-K4</td>\n</tr>\n<tr>\n<td>BU70-8CP-K4</td>\n</tr>\n<tr>\n<td>EP70-8CP-K4</td>\n</tr>\n<tr>\n<td rowspan=\"4\">12C, 16C</td>\n<td rowspan=\"4\">114</td>\n<td>NEO70-14C-K4</td>\n</tr>\n<tr>\n<td>VI70-14C-K4</td>\n</tr>\n<tr>\n<td>BU70-14C-K4</td>\n</tr>\n<tr>\n<td>EP70-14C-K4</td>\n</tr>\n<tr>\n<td colspan=\"3\">Adjustable Cracking Pressures: 3 to 150 psi (0.21 to 10.4 bar)</td>\n</tr>\n<tr>\n<td rowspan=\"4\">CA, 4CPA</td>\n<td rowspan=\"4\">009</td>\n<td>NEO70-4C-K4</td>\n</tr>\n<tr>\n<td>VI70-4C-K4</td>\n</tr>\n<tr>\n<td>BU70-4C-K4</td>\n</tr>\n<tr>\n<td>EP70-4C-K4</td>\n</tr>\n<tr>\n<td rowspan=\"4\">8CPA</td>\n<td rowspan=\"4\">110</td>\n<td>NEO70-8CP-K4</td>\n</tr>\n<tr>\n<td>VI70-8CP-K4</td>\n</tr>\n<tr>\n<td>BU70-8CP-K4</td>\n</tr>\n<tr>\n<td>EP70-8CP-K4</td>\n</tr>\n<tr>\n<td colspan=\"3\">Adjustable Cracking Pressures: 150 to 600 psi (10.4 to 41.4 bar)</td>\n</tr>\n<tr>\n<td rowspan=\"4\">CA, 4CPA</td>\n<td rowspan=\"4\">009</td>\n<td>NEO90-4C-K4</td>\n</tr>\n<tr>\n<td>VI90-4C-K4</td>\n</tr>\n<tr>\n<td>BU90-4C-K4</td>\n</tr>\n<tr>\n<td>EP90-4C-K4</td>\n</tr>\n<tr>\n<td rowspan=\"4\">8CPA</td>\n<td rowspan=\"4\">110</td>\n<td>NEO90-8CP-K4</td>\n</tr>\n<tr>\n<td>VI90-8CP-K4</td>\n</tr>\n<tr>\n<td>BU90-8CP-K4</td>\n</tr>\n<tr>\n<td>EP90-8CP-K4</td>\n</tr>\n</table>"
+    },
+    {
+      "id": "swagelok-ms-01-176/table-azure-22",
+      "kind": "table",
+      "pages": [
+        15
+      ],
+      "title": "CH Series Seal Kits - table 1",
+      "azure_parts": [
+        22,
+        23
+      ],
+      "continuations_without_caption": 1,
+      "content": "<table>\n<tr>\n<th>Valve Series</th>\n<th>Valve Body Material</th>\n<th>Basic Kit Ordering Number</th>\n</tr>\n<tr>\n<td rowspan=\"2\">CH4</td>\n<td>316 SS</td>\n<td>SS-3K-CH4-</td>\n</tr>\n<tr>\n<td>Alloy 400</td>\n<td>M-3K-CH4-</td>\n</tr>\n<tr>\n<td rowspan=\"2\">CH8</td>\n<td>316 SS</td>\n<td>SS-3K-CH8-</td>\n</tr>\n<tr>\n<td>Alloy 400</td>\n<td>M-3K-CH8-</td>\n</tr>\n<tr>\n<td>CH16</td>\n<td>316 SS</td>\n<td>SS-3K-CH16-</td>\n</tr>\n</table>\n<table>\n<tr>\n<th>Seal Material</th>\n<th>Designator</th>\n</tr>\n<tr>\n<td>Buna N</td>\n<td>BN</td>\n</tr>\n<tr>\n<td>Ethylene propylene</td>\n<td>EP</td>\n</tr>\n<tr>\n<td>Fluorocarbon FKM</td>\n<td>VI</td>\n</tr>\n<tr>\n<td>Neoprene</td>\n<td>NE</td>\n</tr>\n</table>",
+      "azure_title": "CH Series Seal Kits"
+    },
+    {
+      "id": "swagelok-ms-01-176/table-azure-24",
+      "kind": "table",
+      "pages": [
+        15
+      ],
+      "title": "CA and C Series Metal Gasket Kits - table 1",
+      "azure_parts": [
+        24,
+        25
+      ],
+      "continuations_without_caption": 1,
+      "content": "<table>\n<tr>\n<th>Valve Series</th>\n<th>Basic Kit Ordering Number</th>\n</tr>\n<tr>\n<td>2C, 4C (1 gasket)1</td>\n<td>-4C-K6</td>\n</tr>\n<tr>\n<td>6C, 8C (1 gasket)1</td>\n<td>-8C-K6</td>\n</tr>\n<tr>\n<td>12C, 16C (1 gasket)</td>\n<td>-14C-K6</td>\n</tr>\n<tr>\n<td>CA (1 inlet gasket, 1 outlet gasket)</td>\n<td>-4CA-K6</td>\n</tr>\n</table>\n<table>\n<tr>\n<th>Gasket Material</th>\n<th>Designator</th>\n</tr>\n<tr>\n<td>316 SS</td>\n<td>SS</td>\n</tr>\n<tr>\n<td>Alloy 4001</td>\n<td>M</td>\n</tr>\n<tr>\n<td>Aluminum?</td>\n<td>A</td>\n</tr>\n</table>",
+      "azure_title": "CA and C Series Metal Gasket Kits"
+    },
+    {
+      "id": "swagelok-ms-01-176/table-azure-26",
+      "kind": "table",
+      "pages": [
+        16
+      ],
+      "title": "C, CP, CA, and CPA Series Spring Kits - table 1",
+      "azure_parts": [
+        26,
+        27,
+        28
+      ],
+      "continuations_without_caption": 2,
+      "content": "<table>\n<tr>\n<th>Valve Series</th>\n<th>Cracking Pressure psi (bar)</th>\n<th>Basic Kit Ordering Number</th>\n</tr>\n<tr>\n<td rowspan=\"4\">2C, 4C 4CP</td>\n<td>1/3 (0.03)</td>\n<td>-4C-K2-1/3</td>\n</tr>\n<tr>\n<td>1 (0.07)</td>\n<td>-4C-K2-1</td>\n</tr>\n<tr>\n<td>10 (0.69)</td>\n<td>-4C-K2-10</td>\n</tr>\n<tr>\n<td>25 (1.8)</td>\n<td>-4C-K2-25</td>\n</tr>\n<tr>\n<td rowspan=\"4\">6C, 8C, 8CP</td>\n<td>1/3 (0.03)</td>\n<td>-8C-K2-1/3</td>\n</tr>\n<tr>\n<td>1 (0.07)</td>\n<td>-8C-K2-1</td>\n</tr>\n<tr>\n<td>10 (0.69)</td>\n<td>-8C-K2-10</td>\n</tr>\n<tr>\n<td>25 (1.8)</td>\n<td>-8C-K2-25</td>\n</tr>\n<tr>\n<td rowspan=\"4\">12C, 16C</td>\n<td>1/3 (0.03)</td>\n<td>-14C-K2-1/3</td>\n</tr>\n<tr>\n<td>1 (0.07)</td>\n<td>-14C-K2-1</td>\n</tr>\n<tr>\n<td>10 (0.69)</td>\n<td>-14C-K2-10</td>\n</tr>\n<tr>\n<td>25 (1.8)</td>\n<td>-14C-K2-25</td>\n</tr>\n</table>\n<table>\n<tr>\n<th>Valve Series</th>\n<th>Cracking Pressure psi (bar)</th>\n<th>Basic Kit Ordering Number</th>\n</tr>\n<tr>\n<td rowspan=\"4\">CA, 4CPA</td>\n<td>3 to 50 (0.21 to 3.5)</td>\n<td>-4CA-K2-3</td>\n</tr>\n<tr>\n<td>50 to 150 (3.5 to 10.4)</td>\n<td>-4CA-K2-50</td>\n</tr>\n<tr>\n<td>150 to 350 (10.4 to 24.2)</td>\n<td>-4CA-K2-150</td>\n</tr>\n<tr>\n<td>350 to 600 (24.2 to 41.4)</td>\n<td>-4CA-K2-350</td>\n</tr>\n<tr>\n<td rowspan=\"4\">8CPA</td>\n<td>3 to 50 (0.21 to 3.5)</td>\n<td>-8CA-K2-3</td>\n</tr>\n<tr>\n<td>50 to 150 (3.5 to 10.4)</td>\n<td>-8CA-K2-50</td>\n</tr>\n<tr>\n<td>150 to 350 (10.4 to 24.2)</td>\n<td>-8CA-K2-150</td>\n</tr>\n<tr>\n<td>350 to 600 (24.2 to 41.4)</td>\n<td>-8CA-K2-350</td>\n</tr>\n</table>\n<table>\n<tr>\n<th>Spring Material</th>\n<th>Designator</th>\n</tr>\n<tr>\n<td>302 SS</td>\n<td>302</td>\n</tr>\n<tr>\n<td>Alloy 4000</td>\n<td>M</td>\n</tr>\n</table>\n\n1 Not available for CA or CPA series valves.",
+      "azure_title": "CA and C Series Metal Gasket Kits"
+    },
+    {
+      "id": "swagelok-ms-01-176/table-azure-29",
+      "kind": "table",
+      "pages": [
+        16
+      ],
+      "title": "CH Series Spring Kits - table 2",
+      "azure_parts": [
+        29,
+        30,
+        31
+      ],
+      "continuations_without_caption": 2,
+      "content": "<table>\n<tr>\n<th>Valve Series</th>\n<th>Valve Body Material</th>\n<th>Basic Kit Ordering Number</th>\n</tr>\n<tr>\n<td rowspan=\"2\">CH4</td>\n<td>316 SS</td>\n<td>302-13K-CH4-</td>\n</tr>\n<tr>\n<td>Alloy 400</td>\n<td>M-13K-CH4-</td>\n</tr>\n<tr>\n<td rowspan=\"2\">CH8</td>\n<td>316 SS</td>\n<td>302-13K-CH8-</td>\n</tr>\n<tr>\n<td>Alloy 400</td>\n<td>M-13K-CH8-</td>\n</tr>\n<tr>\n<td>CH16</td>\n<td>316 SS</td>\n<td>302-13K-CH16-</td>\n</tr>\n</table>\n<table>\n<tr>\n<th>Cracking Pressure psi (bar)</th>\n<th>Designator</th>\n</tr>\n<tr>\n<td>1/3 (0.03)</td>\n<td>1/3</td>\n</tr>\n<tr>\n<td>1 (0.07)</td>\n<td>1</td>\n</tr>\n<tr>\n<td>5 (0.35)</td>\n<td>5</td>\n</tr>\n<tr>\n<td>10 (0.69)</td>\n<td>10</td>\n</tr>\n<tr>\n<td>25 (1.8)</td>\n<td>25</td>\n</tr>\n</table>\n<table>\n<tr>\n<th rowspan=\"2\">Male NPT</th>\n<th colspan=\"2\">Kit Ordering Number</th>\n</tr>\n<tr>\n<th>Red</th>\n<th>Green</th>\n</tr>\n<tr>\n<td>1/4 in.</td>\n<td>P-4CP4-K12-RD</td>\n<td>P-4CP4-K12-GR</td>\n</tr>\n<tr>\n<td>1/2 in.</td>\n<td>P-8CP4-K12-RD</td>\n<td>P-8CP4-K12-GR</td>\n</tr>\n</table>",
+      "azure_title": "CH Series Spring Kits"
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-1.1",
+      "kind": "figure",
+      "pages": [
+        1
+      ],
+      "title": "(felirat nélkül)",
+      "crop": "fig-1.1.png",
+      "content": {
+        "kind": "photo_illustration"
+      }
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-2.1",
+      "kind": "figure",
+      "pages": [
+        2
+      ],
+      "title": "(felirat nélkül)",
+      "crop": "fig-2.1.png",
+      "content": {
+        "kind": "sectional_exploded",
+        "labels": [
+          "O-ring seals body halves",
+          "Poppet",
+          "Spring"
+        ],
+        "sub_captions": [
+          "C Series"
+        ]
+      }
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-2.2",
+      "kind": "figure",
+      "pages": [
+        2
+      ],
+      "title": "(felirat nélkül)",
+      "crop": "fig-2.2.png",
+      "content": {
+        "kind": "sectional_exploded",
+        "labels": [
+          "Poppet with bonded elastomer seal",
+          "Poppet stop",
+          "O-ring seals body halves",
+          "Backup ring supports O-ring"
+        ],
+        "sub_captions": [
+          "CH Series"
+        ]
+      }
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-2.3",
+      "kind": "figure",
+      "pages": [
+        2
+      ],
+      "title": "Adjustable Cracking Pressures\nFrom 3 to 600 psi (0.21 to 41.4 bar)",
+      "crop": "fig-2.3.png",
+      "content": {
+        "kind": "sectional_exploded",
+        "labels": [
+          "Fully contained O-ring seal"
+        ],
+        "sub_captions": [
+          "CP Series",
+          "Compact, one-piece body"
+        ]
+      }
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-2.4",
+      "kind": "figure",
+      "pages": [
+        2
+      ],
+      "title": "CPA Series",
+      "crop": "fig-2.4.png",
+      "content": {
+        "kind": "sectional_exploded",
+        "labels": [
+          "CA Series",
+          "Locking screw maintains settings",
+          "Fully contained O-ring seal",
+          "Adjustable spring",
+          "Adjusting screw sets cracking pressure"
+        ],
+        "sub_captions": [
+          "CA Series"
+        ]
+      }
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-2.5",
+      "kind": "figure",
+      "pages": [
+        2
+      ],
+      "title": "(felirat nélkül)",
+      "crop": "fig-2.5.png",
+      "content": {
+        "kind": "sectional_exploded",
+        "labels": [
+          "Fully contained O-ring seal",
+          "Adjustable spring",
+          "Adjusting screw sets cracking pressure",
+          "Locking screw maintains setting"
+        ],
+        "sub_captions": [
+          "CPA Series",
+          "Compact, one-piece body"
+        ]
+      }
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-4.1",
+      "kind": "figure",
+      "pages": [
+        4
+      ],
+      "title": "CA and CPA Series\nCracking Pressure, bar",
+      "crop": "fig-4.1.png",
+      "content": {
+        "kind": "chart",
+        "labels": [
+          "Cracking Pressure, bar",
+          "Reseal Pressure, psi",
+          "Reseal Pressure, bar",
+          "Cracking Pressure, psi",
+          "450",
+          "390",
+          "Back Pressure"
+        ],
+        "sub_captions": [
+          "CA and CPA Series"
+        ]
+      }
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-5.1",
+      "kind": "figure",
+      "pages": [
+        5
+      ],
+      "title": "(felirat nélkül)",
+      "crop": "fig-5.1.png",
+      "content": {
+        "kind": "sectional_exploded",
+        "labels": [
+          "1",
+          "4",
+          "2",
+          "5",
+          "6",
+          "11"
+        ],
+        "letters": [
+          "1",
+          "4",
+          "2",
+          "5",
+          "6",
+          "11"
+        ],
+        "sub_captions": [
+          "12C Series shown"
+        ]
+      }
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-5.2",
+      "kind": "figure",
+      "pages": [
+        5
+      ],
+      "title": "(felirat nélkül)",
+      "crop": "fig-5.2.png",
+      "content": {
+        "kind": "sectional_exploded"
+      }
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-5.3",
+      "kind": "figure",
+      "pages": [
+        5
+      ],
+      "title": "(felirat nélkül)",
+      "crop": "fig-5.3.png",
+      "content": {
+        "kind": "sectional_exploded"
+      }
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-5.4",
+      "kind": "figure",
+      "pages": [
+        5
+      ],
+      "title": "(felirat nélkül)",
+      "crop": "fig-5.4.png",
+      "content": {
+        "kind": "sectional_exploded"
+      }
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-5.5",
+      "kind": "figure",
+      "pages": [
+        5
+      ],
+      "title": "(felirat nélkül)",
+      "crop": "fig-5.5.png",
+      "content": {
+        "kind": "sectional_exploded",
+        "labels": [
+          "6",
+          "5",
+          "7",
+          "3",
+          "4",
+          "1",
+          "2"
+        ],
+        "letters": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7"
+        ]
+      }
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-6.1",
+      "kind": "figure",
+      "pages": [
+        6
+      ],
+      "title": "CP Series",
+      "crop": "fig-6.1.png",
+      "content": {
+        "kind": "sectional_exploded",
+        "labels": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "letters": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "sub_captions": [
+          "CP Series"
+        ]
+      }
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-6.2",
+      "kind": "figure",
+      "pages": [
+        6
+      ],
+      "title": "CPA Series",
+      "crop": "fig-6.2.png",
+      "content": {
+        "kind": "sectional_exploded",
+        "labels": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "6",
+          "5",
+          "7",
+          "8"
+        ],
+        "letters": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "sub_captions": [
+          "CPA Series"
+        ]
+      }
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-7.1",
+      "kind": "figure",
+      "pages": [
+        7
+      ],
+      "title": "Nominal Cracking Pressures",
+      "crop": "fig-7.1.png",
+      "content": {
+        "kind": "chart",
+        "labels": [
+          "Nominal Cracking Pressures",
+          "2C, 6C, 12C, 16C Series",
+          "4C, 8C Series",
+          "1 psi (0.07 bar)",
+          "10 psi (0.69 bar)",
+          "25 psi (1.8 bar)",
+          "Air",
+          "Water",
+          "2C Series",
+          "4C Series",
+          "6C Series",
+          "8C Series",
+          "Air Flow, std L/min",
+          "Air Flow, std ft3/min",
+          "Inlet Pressure, psig",
+          "Inlet Pressure, bar",
+          "Water Flow, L/min",
+          "Water Flow, U.S. gal/min",
+          "Pressure Drop, psi",
+          "Pressure Drop, bar"
+        ]
+      }
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-8.1",
+      "kind": "figure",
+      "pages": [
+        8
+      ],
+      "title": "CH4 Series",
+      "crop": "fig-8.1.png",
+      "content": {
+        "kind": "chart",
+        "labels": [
+          "Air Flow, std L/min",
+          "Air Flow, std ft3/min",
+          "Inlet Pressure, psig",
+          "Inlet Pressure, bar"
+        ],
+        "sub_captions": [
+          "CH4 Series"
+        ]
+      }
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-8.2",
+      "kind": "figure",
+      "pages": [
+        8
+      ],
+      "title": "CH8 Series",
+      "crop": "fig-8.2.png",
+      "content": {
+        "kind": "chart",
+        "labels": [
+          "Air Flow, std L/min",
+          "Air Flow, std ft3/min",
+          "Inlet Pressure, psig",
+          "Inlet Pressure, bar"
+        ],
+        "sub_captions": [
+          "CH8 Series"
+        ]
+      }
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-8.3",
+      "kind": "figure",
+      "pages": [
+        8
+      ],
+      "title": "CH8 Series",
+      "crop": "fig-8.3.png",
+      "content": {
+        "kind": "chart",
+        "labels": [
+          "Water Flow, L/min",
+          "Water Flow, U.S. gal/min",
+          "Pressure Drop, psi",
+          "Pressure Drop, bar"
+        ],
+        "sub_captions": [
+          "CH8 Series"
+        ]
+      }
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-8.4",
+      "kind": "figure",
+      "pages": [
+        8
+      ],
+      "title": "CH16 Series",
+      "crop": "fig-8.4.png",
+      "content": {
+        "kind": "chart",
+        "labels": [
+          "Air Flow, std L/min",
+          "Air Flow, std ft3/min",
+          "Inlet Pressure, psig",
+          "Inlet Pressure, bar"
+        ],
+        "sub_captions": [
+          "CH16 Series"
+        ]
+      }
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-8.5",
+      "kind": "figure",
+      "pages": [
+        8
+      ],
+      "title": "CH16 Series",
+      "crop": "fig-8.5.png",
+      "content": {
+        "kind": "chart",
+        "labels": [
+          "Water Flow, L/min",
+          "Water Flow, U.S. gal/min",
+          "Pressure Drop, psi",
+          "Pressure Drop, bar"
+        ],
+        "sub_captions": [
+          "CH16 Series"
+        ]
+      }
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-9.1",
+      "kind": "figure",
+      "pages": [
+        9
+      ],
+      "title": "Nominal Cracking Pressures",
+      "crop": "fig-9.1.png",
+      "content": {
+        "kind": "chart",
+        "labels": [
+          "Nominal Cracking Pressures",
+          "3 psi (0.21 bar)",
+          "50 psi (3.5 bar)",
+          "150 psi (10.4 bar)",
+          "350 psi (24.2 bar)",
+          "Air",
+          "Water",
+          "Air Flow, std L/min",
+          "Air Flow, std ft3/min",
+          "Inlet Pressure, psig",
+          "Inlet Pressure, bar",
+          "Water Flow, L/min",
+          "Water Flow, U.S. gal/min",
+          "Pressure Drop, psi",
+          "Pressure Drop, bar"
+        ]
+      }
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-10.1",
+      "kind": "figure",
+      "pages": [
+        10
+      ],
+      "title": "4CP Series",
+      "crop": "fig-10.1.png",
+      "content": {
+        "kind": "chart",
+        "labels": [
+          "Air Flow, std L/min",
+          "Air Flow, std ft3/min",
+          "Inlet Pressure, psig",
+          "Inlet Pressure, bar"
+        ],
+        "sub_captions": [
+          "4CP Series"
+        ]
+      }
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-10.2",
+      "kind": "figure",
+      "pages": [
+        10
+      ],
+      "title": "8CP Series",
+      "crop": "fig-10.2.png",
+      "content": {
+        "kind": "chart",
+        "labels": [
+          "Water Flow, L/min",
+          "Water Flow, U.S. gal/min",
+          "Pressure Drop, psi",
+          "Pressure Drop, bar"
+        ],
+        "sub_captions": [
+          "4CP Series"
+        ]
+      }
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-10.3",
+      "kind": "figure",
+      "pages": [
+        10
+      ],
+      "title": "8CP Series",
+      "crop": "fig-10.3.png",
+      "content": {
+        "kind": "chart",
+        "labels": [
+          "Air Flow, std L/min",
+          "Air Flow, std ft3/min",
+          "Inlet Pressure, psig",
+          "Inlet Pressure, bar"
+        ],
+        "sub_captions": [
+          "8CP Series"
+        ]
+      }
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-10.4",
+      "kind": "figure",
+      "pages": [
+        10
+      ],
+      "title": "(felirat nélkül)",
+      "crop": "fig-10.4.png",
+      "content": {
+        "kind": "chart",
+        "labels": [
+          "Water Flow, L/min",
+          "Water Flow, U.S. gal/min",
+          "Pressure Drop, psi",
+          "Pressure Drop, bar"
+        ],
+        "sub_captions": [
+          "8CP Series"
+        ]
+      }
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-11.1",
+      "kind": "figure",
+      "pages": [
+        11
+      ],
+      "title": "(felirat nélkül)",
+      "crop": "fig-11.1.png",
+      "content": {
+        "kind": "dimension_drawing",
+        "labels": [
+          "A",
+          "B flat",
+          "C flat"
+        ],
+        "letters": [
+          "A",
+          "B",
+          "C"
+        ],
+        "sub_captions": [
+          "C Series"
+        ]
+      }
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-11.2",
+      "kind": "figure",
+      "pages": [
+        11
+      ],
+      "title": "(felirat nélkül)",
+      "crop": "fig-11.2.png",
+      "content": {
+        "kind": "dimension_drawing",
+        "labels": [
+          "A",
+          "B flat",
+          "C flat"
+        ],
+        "letters": [
+          "A",
+          "B",
+          "C"
+        ],
+        "sub_captions": [
+          "CA Series"
+        ]
+      }
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-12.1",
+      "kind": "figure",
+      "pages": [
+        12
+      ],
+      "title": "(felirat nélkül)",
+      "crop": "fig-12.1.png",
+      "content": {
+        "kind": "dimension_drawing",
+        "labels": [
+          "A",
+          "B flat"
+        ],
+        "letters": [
+          "A",
+          "B"
+        ],
+        "sub_captions": [
+          "CH Series"
+        ]
+      }
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-13.1",
+      "kind": "figure",
+      "pages": [
+        13
+      ],
+      "title": "(felirat nélkül)",
+      "crop": "fig-13.1.png",
+      "content": {
+        "kind": "dimension_drawing",
+        "labels": [
+          "A",
+          "D flat"
+        ],
+        "letters": [
+          "A",
+          "D"
+        ],
+        "sub_captions": [
+          "CP and CPA Series"
+        ]
+      }
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-14.1",
+      "kind": "figure",
+      "pages": [
+        14
+      ],
+      "title": "(felirat nélkül)",
+      "crop": "fig-14.1.png",
+      "content": {
+        "kind": "photo_illustration"
+      }
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-15.1",
+      "kind": "figure",
+      "pages": [
+        15
+      ],
+      "title": "(felirat nélkül)",
+      "crop": "fig-15.1.png",
+      "content": {
+        "kind": "photo_illustration"
+      }
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-15.2",
+      "kind": "figure",
+      "pages": [
+        15
+      ],
+      "title": "(felirat nélkül)",
+      "crop": "fig-15.2.png",
+      "content": {
+        "kind": "photo_illustration"
+      }
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-16.1",
+      "kind": "figure",
+      "pages": [
+        16
+      ],
+      "title": "(felirat nélkül)",
+      "crop": "fig-16.1.png",
+      "content": {
+        "kind": "photo_illustration",
+        "labels": [
+          "10 PSI",
+          "10 PSI"
+        ]
+      }
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-16.2",
+      "kind": "figure",
+      "pages": [
+        16
+      ],
+      "title": "(felirat nélkül)",
+      "crop": "fig-16.2.png",
+      "content": {
+        "kind": "photo_illustration",
+        "labels": [
+          "1 PSI",
+          "1 PSI"
+        ]
+      }
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-16.3",
+      "kind": "figure",
+      "pages": [
+        16
+      ],
+      "title": "(felirat nélkül)",
+      "crop": "fig-16.3.png",
+      "content": {
+        "kind": "photo_illustration"
+      }
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-pdf-2-1",
+      "kind": "figure",
+      "pages": [
+        2
+      ],
+      "title": "(felirat nélkül)",
+      "crop": "fig-pdf-2-1.png",
+      "content": {
+        "kind": "sectional_exploded",
+        "labels": [
+          "O-ring seals body halves",
+          "Poppet",
+          "Spring",
+          "Poppet with bonded elastomer seal",
+          "Poppet stop"
+        ]
+      }
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-pdf-5-2",
+      "kind": "figure",
+      "pages": [
+        5
+      ],
+      "title": "(felirat nélkül)",
+      "crop": "fig-pdf-5-2.png",
+      "content": {
+        "kind": "sectional_exploded",
+        "letters": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11"
+        ],
+        "sub_captions": [
+          "CA Series"
+        ]
+      }
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-4.1/chart-1",
+      "kind": "chart",
+      "pages": [
+        4
+      ],
+      "title": "Cracking and Reseal Pressures at 70°F (20°C), CA and CPA Series",
+      "figure": "swagelok-ms-01-176/fig-4.1",
+      "content": {
+        "axes": {
+          "x": {
+            "quantity": "cracking pressure",
+            "unit": "psi"
+          },
+          "y": {
+            "quantity": "reseal pressure",
+            "unit": "psi"
+          }
+        },
+        "region_labels": [],
+        "series": [
+          "reseal pressure band, upper boundary",
+          "reseal pressure band, lower boundary"
+        ],
+        "conditions": [
+          {
+            "dimension": "temperature",
+            "value": "70°F (20°C)",
+            "printed": "Cracking and Reseal Pressures at 70°F (20°C)"
+          },
+          {
+            "dimension": "product variant",
+            "value": "CA",
+            "printed": "CA and CPA Series"
+          },
+          {
+            "dimension": "product variant",
+            "value": "CPA",
+            "printed": "CA and CPA Series"
+          }
+        ]
+      }
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-7.1/chart-2",
+      "kind": "chart",
+      "pages": [
+        7
+      ],
+      "title": "Flow Data at 70°F (20°C), C Series, Air, 2C, 4C Series",
+      "figure": "swagelok-ms-01-176/fig-7.1",
+      "content": {
+        "axes": {
+          "x": {
+            "quantity": "air flow",
+            "unit": "std ft3/min"
+          },
+          "y": {
+            "quantity": "inlet pressure",
+            "unit": "psig"
+          }
+        },
+        "region_labels": [],
+        "series": [
+          "2C Series, 1 psi (0.07 bar)",
+          "2C Series, 10 psi (0.69 bar)",
+          "2C Series, 25 psi (1.8 bar)",
+          "4C Series, 1 psi (0.07 bar)",
+          "4C Series, 10 psi (0.69 bar)",
+          "4C Series, 25 psi (1.8 bar)"
+        ],
+        "conditions": [
+          {
+            "dimension": "temperature",
+            "value": "70°F (20°C)",
+            "printed": "Flow Data at 70°F (20°C)"
+          },
+          {
+            "dimension": "medium",
+            "value": "air",
+            "printed": "Air"
+          },
+          {
+            "dimension": "product variant",
+            "value": "2C",
+            "printed": "2C, 4C Series"
+          },
+          {
+            "dimension": "product variant",
+            "value": "4C",
+            "printed": "2C, 4C Series"
+          }
+        ]
+      }
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-7.1/chart-3",
+      "kind": "chart",
+      "pages": [
+        7
+      ],
+      "title": "Flow Data at 70°F (20°C), C Series, Water, 2C, 4C Series",
+      "figure": "swagelok-ms-01-176/fig-7.1",
+      "content": {
+        "axes": {
+          "x": {
+            "quantity": "water flow",
+            "unit": "U.S. gal/min"
+          },
+          "y": {
+            "quantity": "pressure drop",
+            "unit": "psi"
+          }
+        },
+        "region_labels": [],
+        "series": [
+          "2C Series, 1 psi (0.07 bar)",
+          "2C Series, 10 psi (0.69 bar)",
+          "2C Series, 25 psi (1.8 bar)",
+          "4C Series, 1 psi (0.07 bar)",
+          "4C Series, 10 psi (0.69 bar)",
+          "4C Series, 25 psi (1.8 bar)"
+        ],
+        "conditions": [
+          {
+            "dimension": "temperature",
+            "value": "70°F (20°C)",
+            "printed": "Flow Data at 70°F (20°C)"
+          },
+          {
+            "dimension": "medium",
+            "value": "water",
+            "printed": "Water"
+          },
+          {
+            "dimension": "product variant",
+            "value": "2C",
+            "printed": "2C, 4C Series"
+          },
+          {
+            "dimension": "product variant",
+            "value": "4C",
+            "printed": "2C, 4C Series"
+          }
+        ]
+      }
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-7.1/chart-4",
+      "kind": "chart",
+      "pages": [
+        7
+      ],
+      "title": "Flow Data at 70°F (20°C), C Series, Air, 6C, 8C Series",
+      "figure": "swagelok-ms-01-176/fig-7.1",
+      "content": {
+        "axes": {
+          "x": {
+            "quantity": "air flow",
+            "unit": "std ft3/min"
+          },
+          "y": {
+            "quantity": "inlet pressure",
+            "unit": "psig"
+          }
+        },
+        "region_labels": [],
+        "series": [
+          "6C Series, 1 psi (0.07 bar)",
+          "6C Series, 10 psi (0.69 bar)",
+          "6C Series, 25 psi (1.8 bar)",
+          "8C Series, 1 psi (0.07 bar)",
+          "8C Series, 10 psi (0.69 bar)",
+          "8C Series, 25 psi (1.8 bar)"
+        ],
+        "conditions": [
+          {
+            "dimension": "temperature",
+            "value": "70°F (20°C)",
+            "printed": "Flow Data at 70°F (20°C)"
+          },
+          {
+            "dimension": "medium",
+            "value": "air",
+            "printed": "Air"
+          },
+          {
+            "dimension": "product variant",
+            "value": "6C",
+            "printed": "6C, 8C Series"
+          },
+          {
+            "dimension": "product variant",
+            "value": "8C",
+            "printed": "6C, 8C Series"
+          }
+        ]
+      }
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-7.1/chart-5",
+      "kind": "chart",
+      "pages": [
+        7
+      ],
+      "title": "Flow Data at 70°F (20°C), C Series, Water, 6C, 8C Series",
+      "figure": "swagelok-ms-01-176/fig-7.1",
+      "content": {
+        "axes": {
+          "x": {
+            "quantity": "water flow",
+            "unit": "U.S. gal/min"
+          },
+          "y": {
+            "quantity": "pressure drop",
+            "unit": "psi"
+          }
+        },
+        "region_labels": [],
+        "series": [
+          "6C Series, 1 psi (0.07 bar)",
+          "6C Series, 10 psi (0.69 bar)",
+          "6C Series, 25 psi (1.8 bar)",
+          "8C Series, 1 psi (0.07 bar)",
+          "8C Series, 10 psi (0.69 bar)",
+          "8C Series, 25 psi (1.8 bar)"
+        ],
+        "conditions": [
+          {
+            "dimension": "temperature",
+            "value": "70°F (20°C)",
+            "printed": "Flow Data at 70°F (20°C)"
+          },
+          {
+            "dimension": "medium",
+            "value": "water",
+            "printed": "Water"
+          },
+          {
+            "dimension": "product variant",
+            "value": "6C",
+            "printed": "6C, 8C Series"
+          },
+          {
+            "dimension": "product variant",
+            "value": "8C",
+            "printed": "6C, 8C Series"
+          }
+        ]
+      }
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-7.1/chart-6",
+      "kind": "chart",
+      "pages": [
+        7
+      ],
+      "title": "Flow Data at 70°F (20°C), C Series, Air, 12C, 16C Series",
+      "figure": "swagelok-ms-01-176/fig-7.1",
+      "content": {
+        "axes": {
+          "x": {
+            "quantity": "air flow",
+            "unit": "std ft3/min"
+          },
+          "y": {
+            "quantity": "inlet pressure",
+            "unit": "psig"
+          }
+        },
+        "region_labels": [],
+        "series": [
+          "1 psi (0.07 bar)",
+          "10 psi (0.69 bar)",
+          "25 psi (1.8 bar)"
+        ],
+        "conditions": [
+          {
+            "dimension": "temperature",
+            "value": "70°F (20°C)",
+            "printed": "Flow Data at 70°F (20°C)"
+          },
+          {
+            "dimension": "medium",
+            "value": "air",
+            "printed": "Air"
+          },
+          {
+            "dimension": "product variant",
+            "value": "12C",
+            "printed": "12C, 16C Series"
+          },
+          {
+            "dimension": "product variant",
+            "value": "16C",
+            "printed": "12C, 16C Series"
+          }
+        ]
+      }
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-7.1/chart-7",
+      "kind": "chart",
+      "pages": [
+        7
+      ],
+      "title": "Flow Data at 70°F (20°C), C Series, Water, 12C, 16C Series",
+      "figure": "swagelok-ms-01-176/fig-7.1",
+      "content": {
+        "axes": {
+          "x": {
+            "quantity": "water flow",
+            "unit": "U.S. gal/min"
+          },
+          "y": {
+            "quantity": "pressure drop",
+            "unit": "psi"
+          }
+        },
+        "region_labels": [],
+        "series": [
+          "1 psi (0.07 bar)",
+          "10 psi (0.69 bar)",
+          "25 psi (1.8 bar)"
+        ],
+        "conditions": [
+          {
+            "dimension": "temperature",
+            "value": "70°F (20°C)",
+            "printed": "Flow Data at 70°F (20°C)"
+          },
+          {
+            "dimension": "medium",
+            "value": "water",
+            "printed": "Water"
+          },
+          {
+            "dimension": "product variant",
+            "value": "12C",
+            "printed": "12C, 16C Series"
+          },
+          {
+            "dimension": "product variant",
+            "value": "16C",
+            "printed": "12C, 16C Series"
+          }
+        ]
+      }
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-8.1/chart-8",
+      "kind": "chart",
+      "pages": [
+        8
+      ],
+      "title": "Flow Data at 70°F (20°C), CH Series, Air, CH4 Series",
+      "figure": "swagelok-ms-01-176/fig-8.1",
+      "content": {
+        "axes": {
+          "x": {
+            "quantity": "air flow",
+            "unit": "std ft3/min"
+          },
+          "y": {
+            "quantity": "inlet pressure",
+            "unit": "psig"
+          }
+        },
+        "region_labels": [],
+        "series": [
+          "1 psi (0.07 bar)",
+          "10 psi (0.69 bar)",
+          "25 psi (1.8 bar)"
+        ],
+        "conditions": [
+          {
+            "dimension": "temperature",
+            "value": "70°F (20°C)",
+            "printed": "Flow Data at 70°F (20°C)"
+          },
+          {
+            "dimension": "medium",
+            "value": "air",
+            "printed": "Air"
+          },
+          {
+            "dimension": "product variant",
+            "value": "CH4",
+            "printed": "CH4 Series"
+          }
+        ]
+      }
+    },
+    {
+      "id": "swagelok-ms-01-176/page-8/chart-9",
+      "kind": "chart",
+      "pages": [
+        8
+      ],
+      "title": "Flow Data at 70°F (20°C), CH Series, Water, CH4 Series",
+      "figure": null,
+      "content": {
+        "axes": {
+          "x": {
+            "quantity": "water flow",
+            "unit": "U.S. gal/min"
+          },
+          "y": {
+            "quantity": "pressure drop",
+            "unit": "psi"
+          }
+        },
+        "region_labels": [],
+        "series": [
+          "1 psi (0.07 bar)",
+          "10 psi (0.69 bar)",
+          "25 psi (1.8 bar)"
+        ],
+        "conditions": [
+          {
+            "dimension": "temperature",
+            "value": "70°F (20°C)",
+            "printed": "Flow Data at 70°F (20°C)"
+          },
+          {
+            "dimension": "medium",
+            "value": "water",
+            "printed": "Water"
+          },
+          {
+            "dimension": "product variant",
+            "value": "CH4",
+            "printed": "CH4 Series"
+          }
+        ]
+      }
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-8.2/chart-10",
+      "kind": "chart",
+      "pages": [
+        8
+      ],
+      "title": "Flow Data at 70°F (20°C), CH Series, Air, CH8 Series",
+      "figure": "swagelok-ms-01-176/fig-8.2",
+      "content": {
+        "axes": {
+          "x": {
+            "quantity": "air flow",
+            "unit": "std ft3/min"
+          },
+          "y": {
+            "quantity": "inlet pressure",
+            "unit": "psig"
+          }
+        },
+        "region_labels": [],
+        "series": [
+          "1 psi (0.07 bar)",
+          "10 psi (0.69 bar)",
+          "25 psi (1.8 bar)"
+        ],
+        "conditions": [
+          {
+            "dimension": "temperature",
+            "value": "70°F (20°C)",
+            "printed": "Flow Data at 70°F (20°C)"
+          },
+          {
+            "dimension": "medium",
+            "value": "air",
+            "printed": "Air"
+          },
+          {
+            "dimension": "product variant",
+            "value": "CH8",
+            "printed": "CH8 Series"
+          }
+        ]
+      }
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-8.3/chart-11",
+      "kind": "chart",
+      "pages": [
+        8
+      ],
+      "title": "Flow Data at 70°F (20°C), CH Series, Water, CH8 Series",
+      "figure": "swagelok-ms-01-176/fig-8.3",
+      "content": {
+        "axes": {
+          "x": {
+            "quantity": "water flow",
+            "unit": "U.S. gal/min"
+          },
+          "y": {
+            "quantity": "pressure drop",
+            "unit": "psi"
+          }
+        },
+        "region_labels": [],
+        "series": [
+          "1 psi (0.07 bar)",
+          "10 psi (0.69 bar)",
+          "25 psi (1.8 bar)"
+        ],
+        "conditions": [
+          {
+            "dimension": "temperature",
+            "value": "70°F (20°C)",
+            "printed": "Flow Data at 70°F (20°C)"
+          },
+          {
+            "dimension": "medium",
+            "value": "water",
+            "printed": "Water"
+          },
+          {
+            "dimension": "product variant",
+            "value": "CH8",
+            "printed": "CH8 Series"
+          }
+        ]
+      }
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-8.4/chart-12",
+      "kind": "chart",
+      "pages": [
+        8
+      ],
+      "title": "Flow Data at 70°F (20°C), CH Series, Air, CH16 Series",
+      "figure": "swagelok-ms-01-176/fig-8.4",
+      "content": {
+        "axes": {
+          "x": {
+            "quantity": "air flow",
+            "unit": "std ft3/min"
+          },
+          "y": {
+            "quantity": "inlet pressure",
+            "unit": "psig"
+          }
+        },
+        "region_labels": [],
+        "series": [
+          "1 psi (0.07 bar)",
+          "10 psi (0.69 bar)",
+          "25 psi (1.8 bar)"
+        ],
+        "conditions": [
+          {
+            "dimension": "temperature",
+            "value": "70°F (20°C)",
+            "printed": "Flow Data at 70°F (20°C)"
+          },
+          {
+            "dimension": "medium",
+            "value": "air",
+            "printed": "Air"
+          },
+          {
+            "dimension": "product variant",
+            "value": "CH16",
+            "printed": "CH16 Series"
+          }
+        ]
+      }
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-8.5/chart-13",
+      "kind": "chart",
+      "pages": [
+        8
+      ],
+      "title": "Flow Data at 70°F (20°C), CH Series, Water, CH16 Series",
+      "figure": "swagelok-ms-01-176/fig-8.5",
+      "content": {
+        "axes": {
+          "x": {
+            "quantity": "water flow",
+            "unit": "U.S. gal/min"
+          },
+          "y": {
+            "quantity": "pressure drop",
+            "unit": "psi"
+          }
+        },
+        "region_labels": [],
+        "series": [
+          "1 psi (0.07 bar)",
+          "10 psi (0.69 bar)",
+          "25 psi (1.8 bar)"
+        ],
+        "conditions": [
+          {
+            "dimension": "temperature",
+            "value": "70°F (20°C)",
+            "printed": "Flow Data at 70°F (20°C)"
+          },
+          {
+            "dimension": "medium",
+            "value": "water",
+            "printed": "Water"
+          },
+          {
+            "dimension": "product variant",
+            "value": "CH16",
+            "printed": "CH16 Series"
+          }
+        ]
+      }
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-9.1/chart-14",
+      "kind": "chart",
+      "pages": [
+        9
+      ],
+      "title": "Flow Data at 70°F (20°C), CA and CPA Series, Air, CA Series",
+      "figure": "swagelok-ms-01-176/fig-9.1",
+      "content": {
+        "axes": {
+          "x": {
+            "quantity": "air flow",
+            "unit": "std ft3/min"
+          },
+          "y": {
+            "quantity": "inlet pressure",
+            "unit": "psig"
+          }
+        },
+        "region_labels": [],
+        "series": [
+          "3 psi (0.21 bar)",
+          "50 psi (3.5 bar)",
+          "150 psi (10.4 bar)",
+          "350 psi (24.2 bar)"
+        ],
+        "conditions": [
+          {
+            "dimension": "temperature",
+            "value": "70°F (20°C)",
+            "printed": "Flow Data at 70°F (20°C)"
+          },
+          {
+            "dimension": "medium",
+            "value": "air",
+            "printed": "Air"
+          },
+          {
+            "dimension": "product variant",
+            "value": "CA",
+            "printed": "CA Series"
+          }
+        ]
+      }
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-9.1/chart-15",
+      "kind": "chart",
+      "pages": [
+        9
+      ],
+      "title": "Flow Data at 70°F (20°C), CA and CPA Series, Water, CA Series",
+      "figure": "swagelok-ms-01-176/fig-9.1",
+      "content": {
+        "axes": {
+          "x": {
+            "quantity": "water flow",
+            "unit": "U.S. gal/min"
+          },
+          "y": {
+            "quantity": "pressure drop",
+            "unit": "psi"
+          }
+        },
+        "region_labels": [],
+        "series": [
+          "3 psi (0.21 bar)",
+          "50 psi (3.5 bar)",
+          "150 psi (10.4 bar)",
+          "350 psi (24.2 bar)"
+        ],
+        "conditions": [
+          {
+            "dimension": "temperature",
+            "value": "70°F (20°C)",
+            "printed": "Flow Data at 70°F (20°C)"
+          },
+          {
+            "dimension": "medium",
+            "value": "water",
+            "printed": "Water"
+          },
+          {
+            "dimension": "product variant",
+            "value": "CA",
+            "printed": "CA Series"
+          }
+        ]
+      }
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-9.1/chart-16",
+      "kind": "chart",
+      "pages": [
+        9
+      ],
+      "title": "Flow Data at 70°F (20°C), CA and CPA Series, Air, 4CPA Series",
+      "figure": "swagelok-ms-01-176/fig-9.1",
+      "content": {
+        "axes": {
+          "x": {
+            "quantity": "air flow",
+            "unit": "std ft3/min"
+          },
+          "y": {
+            "quantity": "inlet pressure",
+            "unit": "psig"
+          }
+        },
+        "region_labels": [],
+        "series": [
+          "3 psi (0.21 bar)",
+          "50 psi (3.5 bar)",
+          "150 psi (10.4 bar)",
+          "350 psi (24.2 bar)"
+        ],
+        "conditions": [
+          {
+            "dimension": "temperature",
+            "value": "70°F (20°C)",
+            "printed": "Flow Data at 70°F (20°C)"
+          },
+          {
+            "dimension": "medium",
+            "value": "air",
+            "printed": "Air"
+          },
+          {
+            "dimension": "product variant",
+            "value": "4CPA",
+            "printed": "4CPA Series"
+          }
+        ]
+      }
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-9.1/chart-17",
+      "kind": "chart",
+      "pages": [
+        9
+      ],
+      "title": "Flow Data at 70°F (20°C), CA and CPA Series, Water, 4CPA Series",
+      "figure": "swagelok-ms-01-176/fig-9.1",
+      "content": {
+        "axes": {
+          "x": {
+            "quantity": "water flow",
+            "unit": "U.S. gal/min"
+          },
+          "y": {
+            "quantity": "pressure drop",
+            "unit": "psi"
+          }
+        },
+        "region_labels": [],
+        "series": [
+          "3 psi (0.21 bar)",
+          "50 psi (3.5 bar)",
+          "150 psi (10.4 bar)",
+          "350 psi (24.2 bar)"
+        ],
+        "conditions": [
+          {
+            "dimension": "temperature",
+            "value": "70°F (20°C)",
+            "printed": "Flow Data at 70°F (20°C)"
+          },
+          {
+            "dimension": "medium",
+            "value": "water",
+            "printed": "Water"
+          },
+          {
+            "dimension": "product variant",
+            "value": "4CPA",
+            "printed": "4CPA Series"
+          }
+        ]
+      }
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-9.1/chart-18",
+      "kind": "chart",
+      "pages": [
+        9
+      ],
+      "title": "Flow Data at 70°F (20°C), CA and CPA Series, Air, 8CPA Series",
+      "figure": "swagelok-ms-01-176/fig-9.1",
+      "content": {
+        "axes": {
+          "x": {
+            "quantity": "air flow",
+            "unit": "std ft3/min"
+          },
+          "y": {
+            "quantity": "inlet pressure",
+            "unit": "psig"
+          }
+        },
+        "region_labels": [],
+        "series": [
+          "3 psi (0.21 bar)",
+          "50 psi (3.5 bar)",
+          "150 psi (10.4 bar)",
+          "350 psi (24.2 bar)"
+        ],
+        "conditions": [
+          {
+            "dimension": "temperature",
+            "value": "70°F (20°C)",
+            "printed": "Flow Data at 70°F (20°C)"
+          },
+          {
+            "dimension": "medium",
+            "value": "air",
+            "printed": "Air"
+          },
+          {
+            "dimension": "product variant",
+            "value": "8CPA",
+            "printed": "8CPA Series"
+          }
+        ]
+      }
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-9.1/chart-19",
+      "kind": "chart",
+      "pages": [
+        9
+      ],
+      "title": "Flow Data at 70°F (20°C), CA and CPA Series, Water, 8CPA Series",
+      "figure": "swagelok-ms-01-176/fig-9.1",
+      "content": {
+        "axes": {
+          "x": {
+            "quantity": "water flow",
+            "unit": "U.S. gal/min"
+          },
+          "y": {
+            "quantity": "pressure drop",
+            "unit": "psi"
+          }
+        },
+        "region_labels": [],
+        "series": [
+          "3 psi (0.21 bar)",
+          "50 psi (3.5 bar)",
+          "150 psi (10.4 bar)",
+          "350 psi (24.2 bar)"
+        ],
+        "conditions": [
+          {
+            "dimension": "temperature",
+            "value": "70°F (20°C)",
+            "printed": "Flow Data at 70°F (20°C)"
+          },
+          {
+            "dimension": "medium",
+            "value": "water",
+            "printed": "Water"
+          },
+          {
+            "dimension": "product variant",
+            "value": "8CPA",
+            "printed": "8CPA Series"
+          }
+        ]
+      }
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-10.1/chart-20",
+      "kind": "chart",
+      "pages": [
+        10
+      ],
+      "title": "Flow Data at 70°F (20°C), CP Series, Air, 4CP Series",
+      "figure": "swagelok-ms-01-176/fig-10.1",
+      "content": {
+        "axes": {
+          "x": {
+            "quantity": "air flow",
+            "unit": "std ft3/min"
+          },
+          "y": {
+            "quantity": "inlet pressure",
+            "unit": "psig"
+          }
+        },
+        "region_labels": [],
+        "series": [
+          "1 psi (0.07 bar)",
+          "10 psi (0.69 bar)",
+          "25 psi (1.8 bar)"
+        ],
+        "conditions": [
+          {
+            "dimension": "temperature",
+            "value": "70°F (20°C)",
+            "printed": "Flow Data at 70°F (20°C)"
+          },
+          {
+            "dimension": "medium",
+            "value": "air",
+            "printed": "Air"
+          },
+          {
+            "dimension": "product variant",
+            "value": "4CP",
+            "printed": "4CP Series"
+          }
+        ]
+      }
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-10.2/chart-21",
+      "kind": "chart",
+      "pages": [
+        10
+      ],
+      "title": "Flow Data at 70°F (20°C), CP Series, Water, 4CP Series",
+      "figure": "swagelok-ms-01-176/fig-10.2",
+      "content": {
+        "axes": {
+          "x": {
+            "quantity": "water flow",
+            "unit": "U.S. gal/min"
+          },
+          "y": {
+            "quantity": "pressure drop",
+            "unit": "psi"
+          }
+        },
+        "region_labels": [],
+        "series": [
+          "1 psi (0.07 bar)",
+          "10 psi (0.69 bar)",
+          "25 psi (1.8 bar)"
+        ],
+        "conditions": [
+          {
+            "dimension": "temperature",
+            "value": "70°F (20°C)",
+            "printed": "Flow Data at 70°F (20°C)"
+          },
+          {
+            "dimension": "medium",
+            "value": "water",
+            "printed": "Water"
+          },
+          {
+            "dimension": "product variant",
+            "value": "4CP",
+            "printed": "4CP Series"
+          }
+        ]
+      }
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-10.3/chart-22",
+      "kind": "chart",
+      "pages": [
+        10
+      ],
+      "title": "Flow Data at 70°F (20°C), CP Series, Air, 8CP Series",
+      "figure": "swagelok-ms-01-176/fig-10.3",
+      "content": {
+        "axes": {
+          "x": {
+            "quantity": "air flow",
+            "unit": "std ft3/min"
+          },
+          "y": {
+            "quantity": "inlet pressure",
+            "unit": "psig"
+          }
+        },
+        "region_labels": [],
+        "series": [
+          "1 psi (0.07 bar)",
+          "10 psi (0.69 bar)",
+          "25 psi (1.8 bar)"
+        ],
+        "conditions": [
+          {
+            "dimension": "temperature",
+            "value": "70°F (20°C)",
+            "printed": "Flow Data at 70°F (20°C)"
+          },
+          {
+            "dimension": "medium",
+            "value": "air",
+            "printed": "Air"
+          },
+          {
+            "dimension": "product variant",
+            "value": "8CP",
+            "printed": "8CP Series"
+          }
+        ]
+      }
+    },
+    {
+      "id": "swagelok-ms-01-176/fig-10.4/chart-23",
+      "kind": "chart",
+      "pages": [
+        10
+      ],
+      "title": "Flow Data at 70°F (20°C), CP Series, Water, 8CP Series",
+      "figure": "swagelok-ms-01-176/fig-10.4",
+      "content": {
+        "axes": {
+          "x": {
+            "quantity": "water flow",
+            "unit": "U.S. gal/min"
+          },
+          "y": {
+            "quantity": "pressure drop",
+            "unit": "psi"
+          }
+        },
+        "region_labels": [],
+        "series": [
+          "1 psi (0.07 bar)",
+          "10 psi (0.69 bar)",
+          "25 psi (1.8 bar)"
+        ],
+        "conditions": [
+          {
+            "dimension": "temperature",
+            "value": "70°F (20°C)",
+            "printed": "Flow Data at 70°F (20°C)"
+          },
+          {
+            "dimension": "medium",
+            "value": "water",
+            "printed": "Water"
+          },
+          {
+            "dimension": "product variant",
+            "value": "8CP",
+            "printed": "8CP Series"
+          }
+        ]
+      }
+    },
+    {
+      "id": "swagelok-ms-01-176/section-1",
+      "kind": "text_section",
+      "pages": [
+        1
+      ],
+      "title": "Check Valves",
+      "paragraphs": 5,
+      "content": "Check Valves\nC, CA, CH, CP, and CPA Series\nWorking pressures up to 6000 psig (413 bar)\nAdjustable and fixed cracking pressures\nVariety of end connections\n316 stainless steel and brass materials"
+    },
+    {
+      "id": "swagelok-ms-01-176/section-3",
+      "kind": "text_section",
+      "pages": [
+        2
+      ],
+      "title": "Fixed Cracking Pressures",
+      "paragraphs": 1,
+      "content": "Fixed Cracking Pressures\nFrom 1/3 to 25 psi (0.03 to 1.8 bar)"
+    },
+    {
+      "id": "swagelok-ms-01-176/section-6",
+      "kind": "text_section",
+      "pages": [
+        2
+      ],
+      "title": "CP Series",
+      "paragraphs": 3,
+      "content": "CP Series\nCompact, one-piece body\nCompact, one-piece body\nSwagelok"
+    },
+    {
+      "id": "swagelok-ms-01-176/section-7",
+      "kind": "text_section",
+      "pages": [
+        3
+      ],
+      "title": "Technical Data",
+      "paragraphs": 1,
+      "content": "Technical Data\nCracking pressure-the inlet pressure at which the first indication of flow occurs (steady stream of bubbles). Reseal pressure-the pressure at which there is no indication of flow. Back pressure-the differential pressure between the inlet and outlet pressures. ! For valves not actuated for a period of time, initial cracking pressure may be higher than the set cracking pressure."
+    },
+    {
+      "id": "swagelok-ms-01-176/section-9",
+      "kind": "text_section",
+      "pages": [
+        3
+      ],
+      "title": "C (2C, 4C, 6C, and 8C), CA, CP, and CPA Series",
+      "paragraphs": 2,
+      "content": "C (2C, 4C, 6C, and 8C), CA, CP, and CPA Series\nRatings based on fluorocarbon FKM O-rings in 316 stainless steel valves and Buna N O-rings in brass valves.\nAlternatively, CH or CP series valves should be considered."
+    },
+    {
+      "id": "swagelok-ms-01-176/section-10",
+      "kind": "text_section",
+      "pages": [
+        3
+      ],
+      "title": "C Series (12C and 16C)",
+      "paragraphs": 1,
+      "content": "C Series (12C and 16C)\nRatings based on fluorocarbon FKM O-rings in 316 stainless steel valves and Buna N O-rings in brass valves."
+    },
+    {
+      "id": "swagelok-ms-01-176/section-11",
+      "kind": "text_section",
+      "pages": [
+        3
+      ],
+      "title": "CH Series",
+      "paragraphs": 4,
+      "content": "CH Series\nRatings based on fluorocarbon FKM seals.\nFor more information about pressure ratings of valves with tube fitting end connections, see Swagelok Tubing Data, MS-01-107.\nPressure ratings may be limited by the end connection. See Dimensions, page 12.\nSwagelok"
+    },
+    {
+      "id": "swagelok-ms-01-176/section-12",
+      "kind": "text_section",
+      "pages": [
+        4
+      ],
+      "title": "Cracking and Reseal Pressures at 70°F (20℃)",
+      "paragraphs": 3,
+      "content": "Cracking and Reseal Pressures at 70°F (20℃)\nCracking pressure-the inlet pressure at which the first indication of flow occurs (steady stream of bubbles). Reseal pressure-the pressure at which there is no indication of flow.\nBack pressure-the differential pressure between the inlet and outlet pressures.\n! For valves not actuated for a period of time, initial cracking pressure may be higher than the set cracking pressure."
+    },
+    {
+      "id": "swagelok-ms-01-176/section-13",
+      "kind": "text_section",
+      "pages": [
+        4
+      ],
+      "title": "C Series",
+      "paragraphs": 2,
+      "content": "C Series\nBack Pressure\nCracking Pressure, psi"
+    },
+    {
+      "id": "swagelok-ms-01-176/section-15",
+      "kind": "text_section",
+      "pages": [
+        5
+      ],
+      "title": "C and CA Series",
+      "paragraphs": 13,
+      "content": "C and CA Series\n12C Series shown\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\nCA Series"
+    },
+    {
+      "id": "swagelok-ms-01-176/section-16",
+      "kind": "text_section",
+      "pages": [
+        5
+      ],
+      "title": "CH Series",
+      "paragraphs": 1,
+      "content": "CH Series\nMaterial Safety Data Sheet for bonding agent available on request."
+    },
+    {
+      "id": "swagelok-ms-01-176/section-18",
+      "kind": "text_section",
+      "pages": [
+        7
+      ],
+      "title": "Flow Data at 70°F (20℃)",
+      "paragraphs": 1,
+      "content": "Flow Data at 70°F (20℃)\nThe flow curves shown here were generated in optimal laboratory conditions. Flow results in individual applications may vary due to specific system parameters."
+    },
+    {
+      "id": "swagelok-ms-01-176/section-20",
+      "kind": "text_section",
+      "pages": [
+        8
+      ],
+      "title": "Flow Data at 70°F (20℃)",
+      "paragraphs": 1,
+      "content": "Flow Data at 70°F (20℃)\nThe flow curves shown here were generated in optimal laboratory conditions. Flow results in individual applications may vary due to specific system parameters."
+    },
+    {
+      "id": "swagelok-ms-01-176/section-21",
+      "kind": "text_section",
+      "pages": [
+        8
+      ],
+      "title": "CH Series",
+      "paragraphs": 39,
+      "content": "CH Series\nNominal Cracking Pressures\nAir\nCH4 Series\nWater Flow, L/min\n0\n1.0\n2.0\n3.0\n4.0\n5.0\n6.0\n7.0\n80\n5.0\nPressure Drop, psi\n60\n4.0\n3.0\n40\n2.0\nPressure Drop, bar\n20\n1.0\n0\n0\n0\n0.5\n1.0\n1.5\n2.0\nWater Flow, U.S. gal/min\nInlet Pressure, bar\nAir Flow, std L/min\nWater Flow, U.S. gal/min\nSwagelok\n1 psi (0.07 bar)\n10 psi (0.69 bar)\n25 psi (1.8 bar)\nWater"
+    },
+    {
+      "id": "swagelok-ms-01-176/section-22",
+      "kind": "text_section",
+      "pages": [
+        9
+      ],
+      "title": "Flow Data at 70°F (20℃)",
+      "paragraphs": 1,
+      "content": "Flow Data at 70°F (20℃)\nThe flow curves shown here were generated in optimal laboratory conditions. Flow results in individual applications may vary due to specific system parameters."
+    },
+    {
+      "id": "swagelok-ms-01-176/section-23",
+      "kind": "text_section",
+      "pages": [
+        9
+      ],
+      "title": "CA and CPA Series",
+      "paragraphs": 1,
+      "content": "CA and CPA Series\nSwagelok"
+    },
+    {
+      "id": "swagelok-ms-01-176/section-24",
+      "kind": "text_section",
+      "pages": [
+        10
+      ],
+      "title": "Flow Data at 70°F (20℃)",
+      "paragraphs": 1,
+      "content": "Flow Data at 70°F (20℃)\nThe flow curves shown here were generated in optimal laboratory conditions. Flow results in individual applications may vary due to specific system parameters."
+    },
+    {
+      "id": "swagelok-ms-01-176/section-25",
+      "kind": "text_section",
+      "pages": [
+        10
+      ],
+      "title": "CP Series",
+      "paragraphs": 9,
+      "content": "CP Series\nNominal Cracking Pressures\n1 psi (0.07 bar)\n10 psi (0.69 bar)\n25 psi (1.8 bar)\nAir\nAir Flow, std L/min\nWater 4CP Series\nAir Flow, std L/min\nWater Flow, L/min"
+    },
+    {
+      "id": "swagelok-ms-01-176/section-26",
+      "kind": "text_section",
+      "pages": [
+        10
+      ],
+      "title": "Testing",
+      "paragraphs": 3,
+      "content": "Testing\nEvery C, CA, CH, CP, and CPA series check valve is factory tested for crack and reseal performance.\nCheck valves with fixed cracking pressures, C, CP, and CH series, are cycled six times prior to testing. Seats have a maximum allowable leak rate of 1 std cm3/min nitrogen.\nCheck valves with adjustable cracking pressures, CA and CPA series, are tested at two pressure points. Every valve is tested at a low-pressure setting and at a high-pressure setting. Seats have a maximum allowable leak rate of 1 std cm3/min nitrogen."
+    },
+    {
+      "id": "swagelok-ms-01-176/section-27",
+      "kind": "text_section",
+      "pages": [
+        10
+      ],
+      "title": "Cleaning and Packaging",
+      "paragraphs": 3,
+      "content": "Cleaning and Packaging\nEvery C, CA, and CH series check valve with VCR® or VCO® end connections is processed in accordance with Swagelok Special Cleaning and Packaging (SC-11), MS-06-63, to ensure compliance with product cleanliness requirements as stated in ASTM G93 Level C.\nAll other C, CA, and CH series check valves, as well as every CP and CPA series check valve, are cleaned in accordance with Swagelok Standard Cleaning and Packaging (SC-10), MS-06-62.\nSwagelok"
+    },
+    {
+      "id": "swagelok-ms-01-176/section-28",
+      "kind": "text_section",
+      "pages": [
+        11
+      ],
+      "title": "Dimensions",
+      "paragraphs": 1,
+      "content": "Dimensions\nDimensions, shown with Swagelok tube fitting nuts finger-tight, are for reference only and are subject to change."
+    },
+    {
+      "id": "swagelok-ms-01-176/section-31",
+      "kind": "text_section",
+      "pages": [
+        11
+      ],
+      "title": "Ordering Information",
+      "paragraphs": 1,
+      "content": "Ordering Information\nBasic ordering numbers specify stainless steel material. To order brass, replace SS with B in the basic ordering number."
+    },
+    {
+      "id": "swagelok-ms-01-176/section-33",
+      "kind": "text_section",
+      "pages": [
+        11
+      ],
+      "title": "C Series",
+      "paragraphs": 1,
+      "content": "C Series\nTo order, add a cracking pressure designator to the basic ordering number."
+    },
+    {
+      "id": "swagelok-ms-01-176/section-34",
+      "kind": "text_section",
+      "pages": [
+        11
+      ],
+      "title": "CA Series",
+      "paragraphs": 3,
+      "content": "CA Series\nTo order, add a cracking pressure range designator to the basic ordering number.\nA Check valves are designed for directional flow control only. Swagelok check valves should never be used as code safety relief devices.\nSwagelok"
+    },
+    {
+      "id": "swagelok-ms-01-176/section-36",
+      "kind": "text_section",
+      "pages": [
+        12
+      ],
+      "title": "Dimensions",
+      "paragraphs": 1,
+      "content": "Dimensions\nDimensions, shown with Swagelok tube fitting nuts finger-tight, are for reference only and are subject to change."
+    },
+    {
+      "id": "swagelok-ms-01-176/section-38",
+      "kind": "text_section",
+      "pages": [
+        12
+      ],
+      "title": "Ordering Information",
+      "paragraphs": 4,
+      "content": "Ordering Information\nTo order, add a cracking pressure designator to the basic ordering number.\nExample: SS-CHS2-1/3\nA Check valves are designed for directional flow control only. Swagelok check valves should never be used as code safety relief devices.\nSwagelok"
+    },
+    {
+      "id": "swagelok-ms-01-176/section-39",
+      "kind": "text_section",
+      "pages": [
+        13
+      ],
+      "title": "Dimensions",
+      "paragraphs": 1,
+      "content": "Dimensions\nDimensions, shown with Swagelok tube fitting nuts finger-tight, are for reference only and are subject to change."
+    },
+    {
+      "id": "swagelok-ms-01-176/section-41",
+      "kind": "text_section",
+      "pages": [
+        13
+      ],
+      "title": "Ordering Information",
+      "paragraphs": 1,
+      "content": "Ordering Information\nBasic ordering numbers specify stainless steel material. To order brass, replace SS with B in the basic ordering number."
+    },
+    {
+      "id": "swagelok-ms-01-176/section-43",
+      "kind": "text_section",
+      "pages": [
+        13
+      ],
+      "title": "CP Series",
+      "paragraphs": 1,
+      "content": "CP Series\nTo order, add a cracking pressure designator to the basic ordering number."
+    },
+    {
+      "id": "swagelok-ms-01-176/section-45",
+      "kind": "text_section",
+      "pages": [
+        13
+      ],
+      "title": "CPA Series",
+      "paragraphs": 3,
+      "content": "CPA Series\nTo order, add a cracking pressure range designator to the basic ordering number.\nA Check valves are designed for directional flow control only. Swagelok check valves should never be used as code safety relief devices.\nSwagelok"
+    },
+    {
+      "id": "swagelok-ms-01-176/section-47",
+      "kind": "text_section",
+      "pages": [
+        14
+      ],
+      "title": "Seal Materials (All Series)",
+      "paragraphs": 1,
+      "content": "Seal Materials (All Series)\nFluorocarbon FKM O-rings are standard in 316 stainless steel valves; Buna N O-rings are standard in brass valves. Other elastomer seals (poppet bonding material and O-ring) are available. To order, insert the seal material designator into the valve ordering number."
+    },
+    {
+      "id": "swagelok-ms-01-176/section-48",
+      "kind": "text_section",
+      "pages": [
+        14
+      ],
+      "title": "Example: B-2C-VI-1/3",
+      "paragraphs": 1,
+      "content": "Example: B-2C-VI-1/3\nAdditional seal materials are available. Contact your authorized Swagelok representative for details."
+    },
+    {
+      "id": "swagelok-ms-01-176/section-49",
+      "kind": "text_section",
+      "pages": [
+        14
+      ],
+      "title": "Special Alloys (All Series)",
+      "paragraphs": 1,
+      "content": "Special Alloys (All Series)\nSprings of alloy 400 or alloy C-276 are available in some sizes. Valve bodies of alloy 400, carbon steel, aluminum, or other alloys are available in some sizes. Contact your authorized Swagelok representative for more information."
+    },
+    {
+      "id": "swagelok-ms-01-176/section-50",
+      "kind": "text_section",
+      "pages": [
+        14
+      ],
+      "title": "PTFE-Coated Springs (C, CA, CP, and CPA Series)",
+      "paragraphs": 1,
+      "content": "PTFE-Coated Springs (C, CA, CP, and CPA Series)\nSprings with PTFE coating are available in some sizes. Contact your authorized Swagelok representative for more information."
+    },
+    {
+      "id": "swagelok-ms-01-176/section-51",
+      "kind": "text_section",
+      "pages": [
+        14
+      ],
+      "title": "Inlet Gaskets (2C, 4C, 6C, and 8C Series)",
+      "paragraphs": 3,
+      "content": "Inlet Gaskets (2C, 4C, 6C, and 8C Series)\nPTFE-coated 316 stainless steel inlet gaskets are available for 2C, 4C, 6C, and 8C series valves to reduce the possibility of dislodging the O-ring in systems where pressure surges, shock, or pulses occur. Gaskets are standard for select valves; see the table below for details.\nTo order an inlet gasket, if it is not standard, insert -FG into the valve ordering number.\nExample: SS-4C-FG-1"
+    },
+    {
+      "id": "swagelok-ms-01-176/section-52",
+      "kind": "text_section",
+      "pages": [
+        14
+      ],
+      "title": "Deflector Caps (4C, 8C, CP, and CPA Series)",
+      "paragraphs": 2,
+      "content": "Deflector Caps (4C, 8C, CP, and CPA Series)\nA polyethylene deflector cap is available for 4C, 8C, CP, and CPA series valves with male NPT end connections. The deflector cap deflects flow from direct contact with personnel and prevents atmospheric contaminants from entering the valve. The deflector cap screws easily onto the male NPT outlet end of the valve. Maximum rating is 300 psig at 100°F (20.6 bar at 37℃).\nTo order, insert -DG for a green cap or -DR for a red cap into the ordering number. Example: SS-4CPA2-DR-3"
+    },
+    {
+      "id": "swagelok-ms-01-176/section-53",
+      "kind": "text_section",
+      "pages": [
+        14
+      ],
+      "title": "Sour Gas Valves (CH Series)",
+      "paragraphs": 1,
+      "content": "Sour Gas Valves (CH Series)\nCH series valves are available for sour gas service. Materials are selected in accordance with NACE MR0175/ISO 15156."
+    },
+    {
+      "id": "swagelok-ms-01-176/section-54",
+      "kind": "text_section",
+      "pages": [
+        14
+      ],
+      "title": "Technical Data",
+      "paragraphs": 5,
+      "content": "Technical Data\nPressure Rating at 70°F (20℃) 5000 psig (344 bar)\nTemperature Rating -50 to 300°F (-45 to 148℃)\nNominal Cracking Pressures 1/3, 1, and 5 psi (0.03, 0.07, and 0.35 bar)\nEnd Connections 1/4, 3/8, and 1/2 in. Swagelok tube fittings\nMaterials of Construction Body, poppet-alloy 400/B164 Seals-ethylene propylene Backup ring-PTFE Spring-alloy X-750/AMS 5699 All other materials and lubricant same as standard product. See Materials of Construction, page 5."
+    },
+    {
+      "id": "swagelok-ms-01-176/section-55",
+      "kind": "text_section",
+      "pages": [
+        14
+      ],
+      "title": "Ordering Information",
+      "paragraphs": 6,
+      "content": "Ordering Information\nTo order, replace SS with M and insert -SG into the ordering number. Example: M-CHS4-SG-1/3\nValves With ECE R110-Type Approval (CH Series)\nStainless steel CH series check valves with Buna C seals are available with ECE R110-type approval for use in alternative fuel service.\nTemperature rating: - 40 to 185°F (-40 to 85℃)\nPressure rating within the range: 3770 psig (260 bar) To order, add -11670 to a standard valve ordering number.\nExample: SS-CHS8-1/3-11670"
+    },
+    {
+      "id": "swagelok-ms-01-176/section-56",
+      "kind": "text_section",
+      "pages": [
+        14
+      ],
+      "title": "Special Cleaning and Packaging (SC-11)",
+      "paragraphs": 3,
+      "content": "Special Cleaning and Packaging (SC-11)\nEvery C, CA, and CH series check valve with VCR or VCO end connections is processed in accordance with Swagelok Special Cleaning and Packaging (SC-11), MS-06-63, to ensure compliance with product cleanliness requirements stated in ASTM G93 Level C.\nTo order special cleaning and packaging for C, CA, and CH series check valves with other end connections, add -SC11 to the ordering number.\nExample: SS-2C-1/3-SC11"
+    },
+    {
+      "id": "swagelok-ms-01-176/section-57",
+      "kind": "text_section",
+      "pages": [
+        14
+      ],
+      "title": "Oxygen Service Hazards",
+      "paragraphs": 2,
+      "content": "Oxygen Service Hazards\nFor more information about hazards and risks of oxygen- enriched systems, see the Swagelok Oxygen System Safety technical report, MS-06-13.\nSwagelok"
+    },
+    {
+      "id": "swagelok-ms-01-176/section-59",
+      "kind": "text_section",
+      "pages": [
+        15
+      ],
+      "title": "C, CP, CA, and CPA Series Seal Kits",
+      "paragraphs": 2,
+      "content": "C, CP, CA, and CPA Series Seal Kits\nKits contain O-ring and instructions. Select a kit ordering number. To order PTFE seal kits, replace the material designator with T and omit the durometer number.\nExample: T-4C-K4"
+    },
+    {
+      "id": "swagelok-ms-01-176/section-60",
+      "kind": "text_section",
+      "pages": [
+        15
+      ],
+      "title": "CH Series Seal Kits",
+      "paragraphs": 2,
+      "content": "CH Series Seal Kits\nKits contain bonded poppet, body seal O-ring, PTFE backup ring, and instructions. Select a basic kit ordering number and add a seal material designator.\nExample: SS-3K-CH4-VI"
+    },
+    {
+      "id": "swagelok-ms-01-176/section-61",
+      "kind": "text_section",
+      "pages": [
+        15,
+        16
+      ],
+      "title": "CA and C Series Metal Gasket Kits",
+      "paragraphs": 9,
+      "content": "CA and C Series Metal Gasket Kits\nKits contain PTFE-coated gasket(s) and instructions. Select a basic kit ordering number and add a gasket material designator.\nExample: SS-8C-K6\n1 Gasket is available for 2C, 4C, 6C, and 8C series valves for use in systems where pressure surges, shock, or pulses occur and is required in 6C and 8C series valves with 50 psi (3.5 bar) or higher spring cracking pressure.\n1 Not available for 6C, 8C, and CA series valves.\n2 Not available for 2C, 4C, 6C, 8C, and CA series valves.\nC, CP, CA, and CPA Series Spring Kits\nKits contain spring, two cracking pressure labels, and instructions. Select a basic kit ordering number and add a spring material designator. Example: 302-4C-K2-1/3\nTo order a kit with a PTFE-coated spring, add T to the kit ordering number.\nExample: 302-4C-K2-1/3T"
+    },
+    {
+      "id": "swagelok-ms-01-176/section-62",
+      "kind": "text_section",
+      "pages": [
+        16
+      ],
+      "title": "CH Series Spring Kits",
+      "paragraphs": 6,
+      "content": "CH Series Spring Kits\nKits contain spring, two cracking pressure labels, and instructions. Select a basic kit ordering number and add a cracking pressure designator. Example: 302-13K-CH4-1/3\n4C, 8C, CP, and CPA Series Deflector Cap Kits\nEach kit contains one polyethylene deflector cap in red or green.\nSafe Product Selection\nWhen selecting a product, the total system design must be considered to ensure safe, trouble-free performance. Function, material compatibility, adequate ratings, proper installation, operation, and maintenance are the responsibilities of the system designer and user.\nA"
+    },
+    {
+      "id": "swagelok-ms-01-176/section-63",
+      "kind": "text_section",
+      "pages": [
+        16
+      ],
+      "title": "WARNING",
+      "paragraphs": 1,
+      "content": "WARNING\nDo not mix/interchange Swagelok products or components not governed by industrial design standards, including Swagelok tube fitting end connections, with those of other manufacturers."
+    },
+    {
+      "id": "swagelok-ms-01-176/section-64",
+      "kind": "text_section",
+      "pages": [
+        16
+      ],
+      "title": "Warranty Information",
+      "paragraphs": 2,
+      "content": "Warranty Information\nSwagelok products are backed by The Swagelok Limited Lifetime Warranty. For a copy, visit swagelok.com or contact your authorized Swagelok representative.\nVCR, VCO, Swagelok-TM Swagelok Company @ 2007-2025 Swagelok Company MS-01-176, RevN, December 2025"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 [
  {
   "parameter": "EXTRACTION NOTE",
-  "value": "Exhaustive coverage of pages 1-16 of the Azure layout export (records/3 rules): every table cell (rowspans/colspans expanded, dual units split into separate records, psi/bar, psig/bar, in./mm, °F/°C), every specification statement, every ordering-code element and example, all footnotes. Total 1203 data records. Skipped: page 2 Contents table (navigation only), page headers/footers, logo OCR ('Swagelok', 'GELOK-', 'SWAGELCK', 'S WAGELOK', 'U', '☒') and drawing callout numbers inside figures, chart axis tick numbers on pages 4 and 7-10 (charts are read in step 04; only titles, legends, axis captions recorded), and '—' placeholders without footnote (brass at 300/375°F, nonwetted lubricant brass, C dimension of NPT/VCR rows, 4CP/8CP adjusting/locking screws). Table first segments: untitled tables are named '<section heading> - <sub-heading>' (e.g. 'Pressure-Temperature Ratings - CH Series') because the sub-headings 'C Series'/'CH Series' repeat across pages (rule 17); tables with several untitled siblings under one heading use '<heading> - table k' (rule 12). Text records use the section heading as first segment. Observations: (1) page 4: Azure attached the caption 'CH Series' to the C Series table, 'CP Series' to the CH Series table and no caption to the CP Series table; titles were assigned by content (the 5-row table with the 5 psi row is CH, matching page 3) and checked against the page image. (2) Footnote markers lost or garbled by OCR and restored as [fn N]: page 3 '1000 (68.9)2', '6000 (413)3', 'Nominal Cracking Pressure1', 'Working Pressure, psig (bar)1' and CH table '6000 (413)1'; page 5 CH poppet marker (no marker in the export; the only footnote 'Material Safety Data Sheet for bonding agent' attached to '2 Poppet' per the page image); page 6 '302 SS@/ASTM A313' = 302 SS[fn 1], 'Brass 3602' = Brass 360[fn 2] (8CPA adjusting and locking screw), footnote 1 printed without number; page 12/13 'Female ISO1', 'Male ISO1'; page 14 '(-23 to 190)1'; page 15 'Alloy 4001' = Alloy 400[fn 1], 'Aluminum?' = Aluminum[fn 2], '2C, 4C (1 gasket)1'; page 16 'Alloy 4000' = Alloy 400[fn 1]. (3) Page 6 brass 4CPA column: the export splits the merged cell into 'Brass' / 'CW710R/ EN 12163'; recorded as 'Brass CW710R/EN 12163' for insert lock screw and insert (same as 4CP). (4) Page 3 CH nominal cracking pressures printed '(0.03, 0.07, 0.35 0.69, and 1.8)' without a comma: kept as printed. (5) Page 9 legend printed '350 psi (24.2) bar)' (stray parenthesis): recorded as 350 psi / 24.2 bar. (6) Page 4 values like 'Up to 3 (0.21)' and 'Up to 20 (1.4) back pressure': the shared words ('Up to', 'back pressure', 'or more inlet pressure') are repeated in both unit forms. (7) Page 3 'Alternatively, CH or CP series valves should be considered.' is part of footnote 1 of the C/CA/CP/CPA pressure-temperature table. (8) Page 14 'Valves With ECE R110-Type Approval (CH Series)' is a section heading (plain text in the export). (9) Page 16 spring kit row label '2C, 4C 4CP' recorded as '2C, 4C, 4CP'. (10) Pressure-temperature temperature conditions written as '200°F (93°C)' from the column header 'Temperature, °F (°C)'. (11) Repeated texts kept once per page where they recur (definitions on pages 3-4, dimension note pages 11-13, caution pages 11-13, flow note pages 7-10). Italic marking of wetted components is not visible in the export.",
+  "value": "Exhaustive coverage of pages 1-16 of the Azure layout export (records/3 rules): every table cell (rowspans/colspans expanded, dual units split into separate records, psi/bar, psig/bar, in./mm, °F/°C), every specification statement, every ordering-code element and example, all footnotes. Total 1203 data records. Skipped: page 2 Contents table (navigation only), page headers/footers, logo OCR ('Swagelok', 'GELOK-', 'SWAGELCK', 'S WAGELOK', 'U', '☒') and drawing callout numbers inside figures, chart axis tick numbers on pages 4 and 7-10 (charts are read in step 04; only titles, legends, axis captions recorded), and '—' placeholders without footnote (brass at 300/375°F, nonwetted lubricant brass, C dimension of NPT/VCR rows, 4CP/8CP adjusting/locking screws). Table first segments: untitled tables are named '<section heading> - <sub-heading>' (e.g. 'Pressure-Temperature Ratings - CH Series') because the sub-headings 'C Series'/'CH Series' repeat across pages (rule 17); tables with several untitled siblings under one heading use '<heading> - table k' (rule 12). Heading conditions (series sub-headings) are repeated as the first path segment after the table title (rule 11); kit and designator column headers are qualified with the table heading (e.g. 'Seal kit ordering number', 'Gasket material designator'). Text records use the section heading as first segment. Observations: (1) page 4: Azure attached the caption 'CH Series' to the C Series table, 'CP Series' to the CH Series table and no caption to the CP Series table; titles were assigned by content (the 5-row table with the 5 psi row is CH, matching page 3) and checked against the page image. (2) Footnote markers lost or garbled by OCR and restored as [fn N]: page 3 '1000 (68.9)2', '6000 (413)3', 'Nominal Cracking Pressure1', 'Working Pressure, psig (bar)1' and CH table '6000 (413)1'; page 5 CH poppet marker (no marker in the export; the only footnote 'Material Safety Data Sheet for bonding agent' attached to '2 Poppet' per the page image); page 6 '302 SS@/ASTM A313' = 302 SS[fn 1], 'Brass 3602' = Brass 360[fn 2] (8CPA adjusting and locking screw), footnote 1 printed without number; page 12/13 'Female ISO1', 'Male ISO1'; page 14 '(-23 to 190)1'; page 15 'Alloy 4001' = Alloy 400[fn 1], 'Aluminum?' = Aluminum[fn 2], '2C, 4C (1 gasket)1'; page 16 'Alloy 4000' = Alloy 400[fn 1]. (3) Page 6 brass 4CPA column: the export splits the merged cell into 'Brass' / 'CW710R/ EN 12163'; recorded as 'Brass CW710R/EN 12163' for insert lock screw and insert (same as 4CP). (4) Page 3 CH nominal cracking pressures printed '(0.03, 0.07, 0.35 0.69, and 1.8)' without a comma: kept as printed. (5) Page 9 legend printed '350 psi (24.2) bar)' (stray parenthesis): recorded as 350 psi / 24.2 bar. (6) Page 4 values like 'Up to 3 (0.21)' and 'Up to 20 (1.4) back pressure': the shared words ('Up to', 'back pressure', 'or more inlet pressure') are repeated in both unit forms. (7) Page 3 'Alternatively, CH or CP series valves should be considered.' is part of footnote 1 of the C/CA/CP/CPA pressure-temperature table. (8) Page 14 'Valves With ECE R110-Type Approval (CH Series)' is a section heading (plain text in the export). (9) Page 16 spring kit row label '2C, 4C 4CP' recorded as '2C, 4C, 4CP'. (10) Pressure-temperature temperature conditions written as '200°F (93°C)' from the column header 'Temperature, °F (°C)'. (11) Repeated texts kept once per page where they recur (definitions on pages 3-4, dimension note pages 11-13, caution pages 11-13, flow note pages 7-10). Italic marking of wetted components is not visible in the export.",
   "unit": null,
   "source_page": null
  },
@@ -546,97 +546,97 @@
   "source_page": 3
  },
  {
-  "parameter": "Pressure-Temperature Ratings - C (2C, 4C, 6C, and 8C), CA, CP, and CPA Series | 316 SS | -10°F (-23°C) to 100°F (37°C) | Working pressure [fn 1]",
+  "parameter": "Pressure-Temperature Ratings - C (2C, 4C, 6C, and 8C), CA, CP, and CPA Series | C (2C, 4C, 6C, and 8C), CA, CP, and CPA Series | 316 SS | -10°F (-23°C) to 100°F (37°C) | Working pressure [fn 1]",
   "value": "3000",
   "unit": "psig",
   "source_page": 3
  },
  {
-  "parameter": "Pressure-Temperature Ratings - C (2C, 4C, 6C, and 8C), CA, CP, and CPA Series | 316 SS | -10°F (-23°C) to 100°F (37°C) | Working pressure [fn 1]",
+  "parameter": "Pressure-Temperature Ratings - C (2C, 4C, 6C, and 8C), CA, CP, and CPA Series | C (2C, 4C, 6C, and 8C), CA, CP, and CPA Series | 316 SS | -10°F (-23°C) to 100°F (37°C) | Working pressure [fn 1]",
   "value": "206",
   "unit": "bar",
   "source_page": 3
  },
  {
-  "parameter": "Pressure-Temperature Ratings - C (2C, 4C, 6C, and 8C), CA, CP, and CPA Series | Brass | -10°F (-23°C) to 100°F (37°C) | Working pressure [fn 1]",
+  "parameter": "Pressure-Temperature Ratings - C (2C, 4C, 6C, and 8C), CA, CP, and CPA Series | C (2C, 4C, 6C, and 8C), CA, CP, and CPA Series | Brass | -10°F (-23°C) to 100°F (37°C) | Working pressure [fn 1]",
   "value": "3000",
   "unit": "psig",
   "source_page": 3
  },
  {
-  "parameter": "Pressure-Temperature Ratings - C (2C, 4C, 6C, and 8C), CA, CP, and CPA Series | Brass | -10°F (-23°C) to 100°F (37°C) | Working pressure [fn 1]",
+  "parameter": "Pressure-Temperature Ratings - C (2C, 4C, 6C, and 8C), CA, CP, and CPA Series | C (2C, 4C, 6C, and 8C), CA, CP, and CPA Series | Brass | -10°F (-23°C) to 100°F (37°C) | Working pressure [fn 1]",
   "value": "206",
   "unit": "bar",
   "source_page": 3
  },
  {
-  "parameter": "Pressure-Temperature Ratings - C (2C, 4C, 6C, and 8C), CA, CP, and CPA Series | 316 SS | 200°F (93°C) | Working pressure [fn 1]",
+  "parameter": "Pressure-Temperature Ratings - C (2C, 4C, 6C, and 8C), CA, CP, and CPA Series | C (2C, 4C, 6C, and 8C), CA, CP, and CPA Series | 316 SS | 200°F (93°C) | Working pressure [fn 1]",
   "value": "2575",
   "unit": "psig",
   "source_page": 3
  },
  {
-  "parameter": "Pressure-Temperature Ratings - C (2C, 4C, 6C, and 8C), CA, CP, and CPA Series | 316 SS | 200°F (93°C) | Working pressure [fn 1]",
+  "parameter": "Pressure-Temperature Ratings - C (2C, 4C, 6C, and 8C), CA, CP, and CPA Series | C (2C, 4C, 6C, and 8C), CA, CP, and CPA Series | 316 SS | 200°F (93°C) | Working pressure [fn 1]",
   "value": "177",
   "unit": "bar",
   "source_page": 3
  },
  {
-  "parameter": "Pressure-Temperature Ratings - C (2C, 4C, 6C, and 8C), CA, CP, and CPA Series | Brass | 200°F (93°C) | Working pressure [fn 1]",
+  "parameter": "Pressure-Temperature Ratings - C (2C, 4C, 6C, and 8C), CA, CP, and CPA Series | C (2C, 4C, 6C, and 8C), CA, CP, and CPA Series | Brass | 200°F (93°C) | Working pressure [fn 1]",
   "value": "2600",
   "unit": "psig",
   "source_page": 3
  },
  {
-  "parameter": "Pressure-Temperature Ratings - C (2C, 4C, 6C, and 8C), CA, CP, and CPA Series | Brass | 200°F (93°C) | Working pressure [fn 1]",
+  "parameter": "Pressure-Temperature Ratings - C (2C, 4C, 6C, and 8C), CA, CP, and CPA Series | C (2C, 4C, 6C, and 8C), CA, CP, and CPA Series | Brass | 200°F (93°C) | Working pressure [fn 1]",
   "value": "179",
   "unit": "bar",
   "source_page": 3
  },
  {
-  "parameter": "Pressure-Temperature Ratings - C (2C, 4C, 6C, and 8C), CA, CP, and CPA Series | 316 SS | 250°F (121°C) | Working pressure [fn 1]",
+  "parameter": "Pressure-Temperature Ratings - C (2C, 4C, 6C, and 8C), CA, CP, and CPA Series | C (2C, 4C, 6C, and 8C), CA, CP, and CPA Series | 316 SS | 250°F (121°C) | Working pressure [fn 1]",
   "value": "2450",
   "unit": "psig",
   "source_page": 3
  },
  {
-  "parameter": "Pressure-Temperature Ratings - C (2C, 4C, 6C, and 8C), CA, CP, and CPA Series | 316 SS | 250°F (121°C) | Working pressure [fn 1]",
+  "parameter": "Pressure-Temperature Ratings - C (2C, 4C, 6C, and 8C), CA, CP, and CPA Series | C (2C, 4C, 6C, and 8C), CA, CP, and CPA Series | 316 SS | 250°F (121°C) | Working pressure [fn 1]",
   "value": "168",
   "unit": "bar",
   "source_page": 3
  },
  {
-  "parameter": "Pressure-Temperature Ratings - C (2C, 4C, 6C, and 8C), CA, CP, and CPA Series | Brass | 250°F (121°C) | Working pressure [fn 1]",
+  "parameter": "Pressure-Temperature Ratings - C (2C, 4C, 6C, and 8C), CA, CP, and CPA Series | C (2C, 4C, 6C, and 8C), CA, CP, and CPA Series | Brass | 250°F (121°C) | Working pressure [fn 1]",
   "value": "2405",
   "unit": "psig",
   "source_page": 3
  },
  {
-  "parameter": "Pressure-Temperature Ratings - C (2C, 4C, 6C, and 8C), CA, CP, and CPA Series | Brass | 250°F (121°C) | Working pressure [fn 1]",
+  "parameter": "Pressure-Temperature Ratings - C (2C, 4C, 6C, and 8C), CA, CP, and CPA Series | C (2C, 4C, 6C, and 8C), CA, CP, and CPA Series | Brass | 250°F (121°C) | Working pressure [fn 1]",
   "value": "165",
   "unit": "bar",
   "source_page": 3
  },
  {
-  "parameter": "Pressure-Temperature Ratings - C (2C, 4C, 6C, and 8C), CA, CP, and CPA Series | 316 SS | 300°F (148°C) | Working pressure [fn 1]",
+  "parameter": "Pressure-Temperature Ratings - C (2C, 4C, 6C, and 8C), CA, CP, and CPA Series | C (2C, 4C, 6C, and 8C), CA, CP, and CPA Series | 316 SS | 300°F (148°C) | Working pressure [fn 1]",
   "value": "2325",
   "unit": "psig",
   "source_page": 3
  },
  {
-  "parameter": "Pressure-Temperature Ratings - C (2C, 4C, 6C, and 8C), CA, CP, and CPA Series | 316 SS | 300°F (148°C) | Working pressure [fn 1]",
+  "parameter": "Pressure-Temperature Ratings - C (2C, 4C, 6C, and 8C), CA, CP, and CPA Series | C (2C, 4C, 6C, and 8C), CA, CP, and CPA Series | 316 SS | 300°F (148°C) | Working pressure [fn 1]",
   "value": "160",
   "unit": "bar",
   "source_page": 3
  },
  {
-  "parameter": "Pressure-Temperature Ratings - C (2C, 4C, 6C, and 8C), CA, CP, and CPA Series | 316 SS | 375°F (190°C) | Working pressure [fn 1]",
+  "parameter": "Pressure-Temperature Ratings - C (2C, 4C, 6C, and 8C), CA, CP, and CPA Series | C (2C, 4C, 6C, and 8C), CA, CP, and CPA Series | 316 SS | 375°F (190°C) | Working pressure [fn 1]",
   "value": "2185",
   "unit": "psig",
   "source_page": 3
  },
  {
-  "parameter": "Pressure-Temperature Ratings - C (2C, 4C, 6C, and 8C), CA, CP, and CPA Series | 316 SS | 375°F (190°C) | Working pressure [fn 1]",
+  "parameter": "Pressure-Temperature Ratings - C (2C, 4C, 6C, and 8C), CA, CP, and CPA Series | C (2C, 4C, 6C, and 8C), CA, CP, and CPA Series | 316 SS | 375°F (190°C) | Working pressure [fn 1]",
   "value": "150",
   "unit": "bar",
   "source_page": 3
@@ -654,97 +654,97 @@
   "source_page": 3
  },
  {
-  "parameter": "Pressure-Temperature Ratings - C Series (12C and 16C) | 316 SS | -10°F (-23°C) to 100°F (37°C) | Working pressure",
+  "parameter": "Pressure-Temperature Ratings - C Series (12C and 16C) | C Series (12C and 16C) | 316 SS | -10°F (-23°C) to 100°F (37°C) | Working pressure",
   "value": "2000",
   "unit": "psig",
   "source_page": 3
  },
  {
-  "parameter": "Pressure-Temperature Ratings - C Series (12C and 16C) | 316 SS | -10°F (-23°C) to 100°F (37°C) | Working pressure",
+  "parameter": "Pressure-Temperature Ratings - C Series (12C and 16C) | C Series (12C and 16C) | 316 SS | -10°F (-23°C) to 100°F (37°C) | Working pressure",
   "value": "137",
   "unit": "bar",
   "source_page": 3
  },
  {
-  "parameter": "Pressure-Temperature Ratings - C Series (12C and 16C) | Brass | -10°F (-23°C) to 100°F (37°C) | Working pressure",
+  "parameter": "Pressure-Temperature Ratings - C Series (12C and 16C) | C Series (12C and 16C) | Brass | -10°F (-23°C) to 100°F (37°C) | Working pressure",
   "value": "1500",
   "unit": "psig",
   "source_page": 3
  },
  {
-  "parameter": "Pressure-Temperature Ratings - C Series (12C and 16C) | Brass | -10°F (-23°C) to 100°F (37°C) | Working pressure",
+  "parameter": "Pressure-Temperature Ratings - C Series (12C and 16C) | C Series (12C and 16C) | Brass | -10°F (-23°C) to 100°F (37°C) | Working pressure",
   "value": "103",
   "unit": "bar",
   "source_page": 3
  },
  {
-  "parameter": "Pressure-Temperature Ratings - C Series (12C and 16C) | 316 SS | 200°F (93°C) | Working pressure",
+  "parameter": "Pressure-Temperature Ratings - C Series (12C and 16C) | C Series (12C and 16C) | 316 SS | 200°F (93°C) | Working pressure",
   "value": "1715",
   "unit": "psig",
   "source_page": 3
  },
  {
-  "parameter": "Pressure-Temperature Ratings - C Series (12C and 16C) | 316 SS | 200°F (93°C) | Working pressure",
+  "parameter": "Pressure-Temperature Ratings - C Series (12C and 16C) | C Series (12C and 16C) | 316 SS | 200°F (93°C) | Working pressure",
   "value": "118",
   "unit": "bar",
   "source_page": 3
  },
  {
-  "parameter": "Pressure-Temperature Ratings - C Series (12C and 16C) | Brass | 200°F (93°C) | Working pressure",
+  "parameter": "Pressure-Temperature Ratings - C Series (12C and 16C) | C Series (12C and 16C) | Brass | 200°F (93°C) | Working pressure",
   "value": "1300",
   "unit": "psig",
   "source_page": 3
  },
  {
-  "parameter": "Pressure-Temperature Ratings - C Series (12C and 16C) | Brass | 200°F (93°C) | Working pressure",
+  "parameter": "Pressure-Temperature Ratings - C Series (12C and 16C) | C Series (12C and 16C) | Brass | 200°F (93°C) | Working pressure",
   "value": "89.5",
   "unit": "bar",
   "source_page": 3
  },
  {
-  "parameter": "Pressure-Temperature Ratings - C Series (12C and 16C) | 316 SS | 250°F (121°C) | Working pressure",
+  "parameter": "Pressure-Temperature Ratings - C Series (12C and 16C) | C Series (12C and 16C) | 316 SS | 250°F (121°C) | Working pressure",
   "value": "1630",
   "unit": "psig",
   "source_page": 3
  },
  {
-  "parameter": "Pressure-Temperature Ratings - C Series (12C and 16C) | 316 SS | 250°F (121°C) | Working pressure",
+  "parameter": "Pressure-Temperature Ratings - C Series (12C and 16C) | C Series (12C and 16C) | 316 SS | 250°F (121°C) | Working pressure",
   "value": "112",
   "unit": "bar",
   "source_page": 3
  },
  {
-  "parameter": "Pressure-Temperature Ratings - C Series (12C and 16C) | Brass | 250°F (121°C) | Working pressure",
+  "parameter": "Pressure-Temperature Ratings - C Series (12C and 16C) | C Series (12C and 16C) | Brass | 250°F (121°C) | Working pressure",
   "value": "1200",
   "unit": "psig",
   "source_page": 3
  },
  {
-  "parameter": "Pressure-Temperature Ratings - C Series (12C and 16C) | Brass | 250°F (121°C) | Working pressure",
+  "parameter": "Pressure-Temperature Ratings - C Series (12C and 16C) | C Series (12C and 16C) | Brass | 250°F (121°C) | Working pressure",
   "value": "82.6",
   "unit": "bar",
   "source_page": 3
  },
  {
-  "parameter": "Pressure-Temperature Ratings - C Series (12C and 16C) | 316 SS | 300°F (148°C) | Working pressure",
+  "parameter": "Pressure-Temperature Ratings - C Series (12C and 16C) | C Series (12C and 16C) | 316 SS | 300°F (148°C) | Working pressure",
   "value": "1545",
   "unit": "psig",
   "source_page": 3
  },
  {
-  "parameter": "Pressure-Temperature Ratings - C Series (12C and 16C) | 316 SS | 300°F (148°C) | Working pressure",
+  "parameter": "Pressure-Temperature Ratings - C Series (12C and 16C) | C Series (12C and 16C) | 316 SS | 300°F (148°C) | Working pressure",
   "value": "106",
   "unit": "bar",
   "source_page": 3
  },
  {
-  "parameter": "Pressure-Temperature Ratings - C Series (12C and 16C) | 316 SS | 375°F (190°C) | Working pressure",
+  "parameter": "Pressure-Temperature Ratings - C Series (12C and 16C) | C Series (12C and 16C) | 316 SS | 375°F (190°C) | Working pressure",
   "value": "1450",
   "unit": "psig",
   "source_page": 3
  },
  {
-  "parameter": "Pressure-Temperature Ratings - C Series (12C and 16C) | 316 SS | 375°F (190°C) | Working pressure",
+  "parameter": "Pressure-Temperature Ratings - C Series (12C and 16C) | C Series (12C and 16C) | 316 SS | 375°F (190°C) | Working pressure",
   "value": "99.9",
   "unit": "bar",
   "source_page": 3
@@ -756,121 +756,121 @@
   "source_page": 3
  },
  {
-  "parameter": "Pressure-Temperature Ratings - CH Series | 316 SS | CH4, CH8 | 10°F (-12°C) to 100°F (37°C) | Working pressure [fn 1]",
+  "parameter": "Pressure-Temperature Ratings - CH Series | CH Series | 316 SS | CH4, CH8 | 10°F (-12°C) to 100°F (37°C) | Working pressure [fn 1]",
   "value": "6000",
   "unit": "psig",
   "source_page": 3
  },
  {
-  "parameter": "Pressure-Temperature Ratings - CH Series | 316 SS | CH4, CH8 | 10°F (-12°C) to 100°F (37°C) | Working pressure [fn 1]",
+  "parameter": "Pressure-Temperature Ratings - CH Series | CH Series | 316 SS | CH4, CH8 | 10°F (-12°C) to 100°F (37°C) | Working pressure [fn 1]",
   "value": "413",
   "unit": "bar",
   "source_page": 3
  },
  {
-  "parameter": "Pressure-Temperature Ratings - CH Series | 316 SS | CH16 | 10°F (-12°C) to 100°F (37°C) | Working pressure [fn 1]",
+  "parameter": "Pressure-Temperature Ratings - CH Series | CH Series | 316 SS | CH16 | 10°F (-12°C) to 100°F (37°C) | Working pressure [fn 1]",
   "value": "5000",
   "unit": "psig",
   "source_page": 3
  },
  {
-  "parameter": "Pressure-Temperature Ratings - CH Series | 316 SS | CH16 | 10°F (-12°C) to 100°F (37°C) | Working pressure [fn 1]",
+  "parameter": "Pressure-Temperature Ratings - CH Series | CH Series | 316 SS | CH16 | 10°F (-12°C) to 100°F (37°C) | Working pressure [fn 1]",
   "value": "344",
   "unit": "bar",
   "source_page": 3
  },
  {
-  "parameter": "Pressure-Temperature Ratings - CH Series | 316 SS | CH4, CH8 | 200°F (93°C) | Working pressure",
+  "parameter": "Pressure-Temperature Ratings - CH Series | CH Series | 316 SS | CH4, CH8 | 200°F (93°C) | Working pressure",
   "value": "5160",
   "unit": "psig",
   "source_page": 3
  },
  {
-  "parameter": "Pressure-Temperature Ratings - CH Series | 316 SS | CH4, CH8 | 200°F (93°C) | Working pressure",
+  "parameter": "Pressure-Temperature Ratings - CH Series | CH Series | 316 SS | CH4, CH8 | 200°F (93°C) | Working pressure",
   "value": "355",
   "unit": "bar",
   "source_page": 3
  },
  {
-  "parameter": "Pressure-Temperature Ratings - CH Series | 316 SS | CH16 | 200°F (93°C) | Working pressure",
+  "parameter": "Pressure-Temperature Ratings - CH Series | CH Series | 316 SS | CH16 | 200°F (93°C) | Working pressure",
   "value": "4290",
   "unit": "psig",
   "source_page": 3
  },
  {
-  "parameter": "Pressure-Temperature Ratings - CH Series | 316 SS | CH16 | 200°F (93°C) | Working pressure",
+  "parameter": "Pressure-Temperature Ratings - CH Series | CH Series | 316 SS | CH16 | 200°F (93°C) | Working pressure",
   "value": "295",
   "unit": "bar",
   "source_page": 3
  },
  {
-  "parameter": "Pressure-Temperature Ratings - CH Series | 316 SS | CH4, CH8 | 250°F (121°C) | Working pressure",
+  "parameter": "Pressure-Temperature Ratings - CH Series | CH Series | 316 SS | CH4, CH8 | 250°F (121°C) | Working pressure",
   "value": "4910",
   "unit": "psig",
   "source_page": 3
  },
  {
-  "parameter": "Pressure-Temperature Ratings - CH Series | 316 SS | CH4, CH8 | 250°F (121°C) | Working pressure",
+  "parameter": "Pressure-Temperature Ratings - CH Series | CH Series | 316 SS | CH4, CH8 | 250°F (121°C) | Working pressure",
   "value": "338",
   "unit": "bar",
   "source_page": 3
  },
  {
-  "parameter": "Pressure-Temperature Ratings - CH Series | 316 SS | CH16 | 250°F (121°C) | Working pressure",
+  "parameter": "Pressure-Temperature Ratings - CH Series | CH Series | 316 SS | CH16 | 250°F (121°C) | Working pressure",
   "value": "4080",
   "unit": "psig",
   "source_page": 3
  },
  {
-  "parameter": "Pressure-Temperature Ratings - CH Series | 316 SS | CH16 | 250°F (121°C) | Working pressure",
+  "parameter": "Pressure-Temperature Ratings - CH Series | CH Series | 316 SS | CH16 | 250°F (121°C) | Working pressure",
   "value": "281",
   "unit": "bar",
   "source_page": 3
  },
  {
-  "parameter": "Pressure-Temperature Ratings - CH Series | 316 SS | CH4, CH8 | 300°F (148°C) | Working pressure",
+  "parameter": "Pressure-Temperature Ratings - CH Series | CH Series | 316 SS | CH4, CH8 | 300°F (148°C) | Working pressure",
   "value": "4660",
   "unit": "psig",
   "source_page": 3
  },
  {
-  "parameter": "Pressure-Temperature Ratings - CH Series | 316 SS | CH4, CH8 | 300°F (148°C) | Working pressure",
+  "parameter": "Pressure-Temperature Ratings - CH Series | CH Series | 316 SS | CH4, CH8 | 300°F (148°C) | Working pressure",
   "value": "321",
   "unit": "bar",
   "source_page": 3
  },
  {
-  "parameter": "Pressure-Temperature Ratings - CH Series | 316 SS | CH16 | 300°F (148°C) | Working pressure",
+  "parameter": "Pressure-Temperature Ratings - CH Series | CH Series | 316 SS | CH16 | 300°F (148°C) | Working pressure",
   "value": "3875",
   "unit": "psig",
   "source_page": 3
  },
  {
-  "parameter": "Pressure-Temperature Ratings - CH Series | 316 SS | CH16 | 300°F (148°C) | Working pressure",
+  "parameter": "Pressure-Temperature Ratings - CH Series | CH Series | 316 SS | CH16 | 300°F (148°C) | Working pressure",
   "value": "266",
   "unit": "bar",
   "source_page": 3
  },
  {
-  "parameter": "Pressure-Temperature Ratings - CH Series | 316 SS | CH4, CH8 | 400°F (204°C) | Working pressure",
+  "parameter": "Pressure-Temperature Ratings - CH Series | CH Series | 316 SS | CH4, CH8 | 400°F (204°C) | Working pressure",
   "value": "4280",
   "unit": "psig",
   "source_page": 3
  },
  {
-  "parameter": "Pressure-Temperature Ratings - CH Series | 316 SS | CH4, CH8 | 400°F (204°C) | Working pressure",
+  "parameter": "Pressure-Temperature Ratings - CH Series | CH Series | 316 SS | CH4, CH8 | 400°F (204°C) | Working pressure",
   "value": "294",
   "unit": "bar",
   "source_page": 3
  },
  {
-  "parameter": "Pressure-Temperature Ratings - CH Series | 316 SS | CH16 | 400°F (204°C) | Working pressure",
+  "parameter": "Pressure-Temperature Ratings - CH Series | CH Series | 316 SS | CH16 | 400°F (204°C) | Working pressure",
   "value": "3560",
   "unit": "psig",
   "source_page": 3
  },
  {
-  "parameter": "Pressure-Temperature Ratings - CH Series | 316 SS | CH16 | 400°F (204°C) | Working pressure",
+  "parameter": "Pressure-Temperature Ratings - CH Series | CH Series | 316 SS | CH16 | 400°F (204°C) | Working pressure",
   "value": "245",
   "unit": "bar",
   "source_page": 3
@@ -912,469 +912,469 @@
   "source_page": 4
  },
  {
-  "parameter": "Cracking and Reseal Pressures - C Series | 70°F (20°C) | Nominal cracking pressure 1/3 psi (0.03 bar) | Nominal cracking pressure",
+  "parameter": "Cracking and Reseal Pressures - C Series | C Series | 70°F (20°C) | Nominal cracking pressure 1/3 psi (0.03 bar) | Nominal cracking pressure",
   "value": "1/3",
   "unit": "psi",
   "source_page": 4
  },
  {
-  "parameter": "Cracking and Reseal Pressures - C Series | 70°F (20°C) | Nominal cracking pressure 1/3 psi (0.03 bar) | Nominal cracking pressure",
+  "parameter": "Cracking and Reseal Pressures - C Series | C Series | 70°F (20°C) | Nominal cracking pressure 1/3 psi (0.03 bar) | Nominal cracking pressure",
   "value": "0.03",
   "unit": "bar",
   "source_page": 4
  },
  {
-  "parameter": "Cracking and Reseal Pressures - C Series | 70°F (20°C) | Nominal cracking pressure 1/3 psi (0.03 bar) | Cracking pressure range",
+  "parameter": "Cracking and Reseal Pressures - C Series | C Series | 70°F (20°C) | Nominal cracking pressure 1/3 psi (0.03 bar) | Cracking pressure range",
   "value": "Up to 3",
   "unit": "psi",
   "source_page": 4
  },
  {
-  "parameter": "Cracking and Reseal Pressures - C Series | 70°F (20°C) | Nominal cracking pressure 1/3 psi (0.03 bar) | Cracking pressure range",
+  "parameter": "Cracking and Reseal Pressures - C Series | C Series | 70°F (20°C) | Nominal cracking pressure 1/3 psi (0.03 bar) | Cracking pressure range",
   "value": "Up to 0.21",
   "unit": "bar",
   "source_page": 4
  },
  {
-  "parameter": "Cracking and Reseal Pressures - C Series | 70°F (20°C) | Nominal cracking pressure 1/3 psi (0.03 bar) | Reseal pressure",
+  "parameter": "Cracking and Reseal Pressures - C Series | C Series | 70°F (20°C) | Nominal cracking pressure 1/3 psi (0.03 bar) | Reseal pressure",
   "value": "Up to 20 back pressure",
   "unit": "psi",
   "source_page": 4
  },
  {
-  "parameter": "Cracking and Reseal Pressures - C Series | 70°F (20°C) | Nominal cracking pressure 1/3 psi (0.03 bar) | Reseal pressure",
+  "parameter": "Cracking and Reseal Pressures - C Series | C Series | 70°F (20°C) | Nominal cracking pressure 1/3 psi (0.03 bar) | Reseal pressure",
   "value": "Up to 1.4 back pressure",
   "unit": "bar",
   "source_page": 4
  },
  {
-  "parameter": "Cracking and Reseal Pressures - C Series | 70°F (20°C) | Nominal cracking pressure 1 psi (0.07 bar) | Nominal cracking pressure",
+  "parameter": "Cracking and Reseal Pressures - C Series | C Series | 70°F (20°C) | Nominal cracking pressure 1 psi (0.07 bar) | Nominal cracking pressure",
   "value": "1",
   "unit": "psi",
   "source_page": 4
  },
  {
-  "parameter": "Cracking and Reseal Pressures - C Series | 70°F (20°C) | Nominal cracking pressure 1 psi (0.07 bar) | Nominal cracking pressure",
+  "parameter": "Cracking and Reseal Pressures - C Series | C Series | 70°F (20°C) | Nominal cracking pressure 1 psi (0.07 bar) | Nominal cracking pressure",
   "value": "0.07",
   "unit": "bar",
   "source_page": 4
  },
  {
-  "parameter": "Cracking and Reseal Pressures - C Series | 70°F (20°C) | Nominal cracking pressure 1 psi (0.07 bar) | Cracking pressure range",
+  "parameter": "Cracking and Reseal Pressures - C Series | C Series | 70°F (20°C) | Nominal cracking pressure 1 psi (0.07 bar) | Cracking pressure range",
   "value": "Up to 4",
   "unit": "psi",
   "source_page": 4
  },
  {
-  "parameter": "Cracking and Reseal Pressures - C Series | 70°F (20°C) | Nominal cracking pressure 1 psi (0.07 bar) | Cracking pressure range",
+  "parameter": "Cracking and Reseal Pressures - C Series | C Series | 70°F (20°C) | Nominal cracking pressure 1 psi (0.07 bar) | Cracking pressure range",
   "value": "Up to 0.28",
   "unit": "bar",
   "source_page": 4
  },
  {
-  "parameter": "Cracking and Reseal Pressures - C Series | 70°F (20°C) | Nominal cracking pressure 1 psi (0.07 bar) | Reseal pressure",
+  "parameter": "Cracking and Reseal Pressures - C Series | C Series | 70°F (20°C) | Nominal cracking pressure 1 psi (0.07 bar) | Reseal pressure",
   "value": "Up to 12 back pressure",
   "unit": "psi",
   "source_page": 4
  },
  {
-  "parameter": "Cracking and Reseal Pressures - C Series | 70°F (20°C) | Nominal cracking pressure 1 psi (0.07 bar) | Reseal pressure",
+  "parameter": "Cracking and Reseal Pressures - C Series | C Series | 70°F (20°C) | Nominal cracking pressure 1 psi (0.07 bar) | Reseal pressure",
   "value": "Up to 0.9 back pressure",
   "unit": "bar",
   "source_page": 4
  },
  {
-  "parameter": "Cracking and Reseal Pressures - C Series | 70°F (20°C) | Nominal cracking pressure 10 psi (0.69 bar) | Nominal cracking pressure",
+  "parameter": "Cracking and Reseal Pressures - C Series | C Series | 70°F (20°C) | Nominal cracking pressure 10 psi (0.69 bar) | Nominal cracking pressure",
   "value": "10",
   "unit": "psi",
   "source_page": 4
  },
  {
-  "parameter": "Cracking and Reseal Pressures - C Series | 70°F (20°C) | Nominal cracking pressure 10 psi (0.69 bar) | Nominal cracking pressure",
+  "parameter": "Cracking and Reseal Pressures - C Series | C Series | 70°F (20°C) | Nominal cracking pressure 10 psi (0.69 bar) | Nominal cracking pressure",
   "value": "0.69",
   "unit": "bar",
   "source_page": 4
  },
  {
-  "parameter": "Cracking and Reseal Pressures - C Series | 70°F (20°C) | Nominal cracking pressure 10 psi (0.69 bar) | Cracking pressure range",
+  "parameter": "Cracking and Reseal Pressures - C Series | C Series | 70°F (20°C) | Nominal cracking pressure 10 psi (0.69 bar) | Cracking pressure range",
   "value": "7 to 15",
   "unit": "psi",
   "source_page": 4
  },
  {
-  "parameter": "Cracking and Reseal Pressures - C Series | 70°F (20°C) | Nominal cracking pressure 10 psi (0.69 bar) | Cracking pressure range",
+  "parameter": "Cracking and Reseal Pressures - C Series | C Series | 70°F (20°C) | Nominal cracking pressure 10 psi (0.69 bar) | Cracking pressure range",
   "value": "0.49 to 1.1",
   "unit": "bar",
   "source_page": 4
  },
  {
-  "parameter": "Cracking and Reseal Pressures - C Series | 70°F (20°C) | Nominal cracking pressure 10 psi (0.69 bar) | Reseal pressure",
+  "parameter": "Cracking and Reseal Pressures - C Series | C Series | 70°F (20°C) | Nominal cracking pressure 10 psi (0.69 bar) | Reseal pressure",
   "value": "3 or more inlet pressure",
   "unit": "psi",
   "source_page": 4
  },
  {
-  "parameter": "Cracking and Reseal Pressures - C Series | 70°F (20°C) | Nominal cracking pressure 10 psi (0.69 bar) | Reseal pressure",
+  "parameter": "Cracking and Reseal Pressures - C Series | C Series | 70°F (20°C) | Nominal cracking pressure 10 psi (0.69 bar) | Reseal pressure",
   "value": "0.21 or more inlet pressure",
   "unit": "bar",
   "source_page": 4
  },
  {
-  "parameter": "Cracking and Reseal Pressures - C Series | 70°F (20°C) | Nominal cracking pressure 25 psi (1.8 bar) | Nominal cracking pressure",
+  "parameter": "Cracking and Reseal Pressures - C Series | C Series | 70°F (20°C) | Nominal cracking pressure 25 psi (1.8 bar) | Nominal cracking pressure",
   "value": "25",
   "unit": "psi",
   "source_page": 4
  },
  {
-  "parameter": "Cracking and Reseal Pressures - C Series | 70°F (20°C) | Nominal cracking pressure 25 psi (1.8 bar) | Nominal cracking pressure",
+  "parameter": "Cracking and Reseal Pressures - C Series | C Series | 70°F (20°C) | Nominal cracking pressure 25 psi (1.8 bar) | Nominal cracking pressure",
   "value": "1.8",
   "unit": "bar",
   "source_page": 4
  },
  {
-  "parameter": "Cracking and Reseal Pressures - C Series | 70°F (20°C) | Nominal cracking pressure 25 psi (1.8 bar) | Cracking pressure range",
+  "parameter": "Cracking and Reseal Pressures - C Series | C Series | 70°F (20°C) | Nominal cracking pressure 25 psi (1.8 bar) | Cracking pressure range",
   "value": "20 to 30",
   "unit": "psi",
   "source_page": 4
  },
  {
-  "parameter": "Cracking and Reseal Pressures - C Series | 70°F (20°C) | Nominal cracking pressure 25 psi (1.8 bar) | Cracking pressure range",
+  "parameter": "Cracking and Reseal Pressures - C Series | C Series | 70°F (20°C) | Nominal cracking pressure 25 psi (1.8 bar) | Cracking pressure range",
   "value": "1.4 to 2.1",
   "unit": "bar",
   "source_page": 4
  },
  {
-  "parameter": "Cracking and Reseal Pressures - C Series | 70°F (20°C) | Nominal cracking pressure 25 psi (1.8 bar) | Reseal pressure",
+  "parameter": "Cracking and Reseal Pressures - C Series | C Series | 70°F (20°C) | Nominal cracking pressure 25 psi (1.8 bar) | Reseal pressure",
   "value": "17 or more inlet pressure",
   "unit": "psi",
   "source_page": 4
  },
  {
-  "parameter": "Cracking and Reseal Pressures - C Series | 70°F (20°C) | Nominal cracking pressure 25 psi (1.8 bar) | Reseal pressure",
+  "parameter": "Cracking and Reseal Pressures - C Series | C Series | 70°F (20°C) | Nominal cracking pressure 25 psi (1.8 bar) | Reseal pressure",
   "value": "1.2 or more inlet pressure",
   "unit": "bar",
   "source_page": 4
  },
  {
-  "parameter": "Cracking and Reseal Pressures - CH Series | 70°F (20°C) | Nominal cracking pressure 1/3 psi (0.03 bar) | Nominal cracking pressure",
+  "parameter": "Cracking and Reseal Pressures - CH Series | CH Series | 70°F (20°C) | Nominal cracking pressure 1/3 psi (0.03 bar) | Nominal cracking pressure",
   "value": "1/3",
   "unit": "psi",
   "source_page": 4
  },
  {
-  "parameter": "Cracking and Reseal Pressures - CH Series | 70°F (20°C) | Nominal cracking pressure 1/3 psi (0.03 bar) | Nominal cracking pressure",
+  "parameter": "Cracking and Reseal Pressures - CH Series | CH Series | 70°F (20°C) | Nominal cracking pressure 1/3 psi (0.03 bar) | Nominal cracking pressure",
   "value": "0.03",
   "unit": "bar",
   "source_page": 4
  },
  {
-  "parameter": "Cracking and Reseal Pressures - CH Series | 70°F (20°C) | Nominal cracking pressure 1/3 psi (0.03 bar) | Cracking pressure range",
+  "parameter": "Cracking and Reseal Pressures - CH Series | CH Series | 70°F (20°C) | Nominal cracking pressure 1/3 psi (0.03 bar) | Cracking pressure range",
   "value": "Up to 3",
   "unit": "psi",
   "source_page": 4
  },
  {
-  "parameter": "Cracking and Reseal Pressures - CH Series | 70°F (20°C) | Nominal cracking pressure 1/3 psi (0.03 bar) | Cracking pressure range",
+  "parameter": "Cracking and Reseal Pressures - CH Series | CH Series | 70°F (20°C) | Nominal cracking pressure 1/3 psi (0.03 bar) | Cracking pressure range",
   "value": "Up to 0.21",
   "unit": "bar",
   "source_page": 4
  },
  {
-  "parameter": "Cracking and Reseal Pressures - CH Series | 70°F (20°C) | Nominal cracking pressure 1/3 psi (0.03 bar) | Reseal pressure",
+  "parameter": "Cracking and Reseal Pressures - CH Series | CH Series | 70°F (20°C) | Nominal cracking pressure 1/3 psi (0.03 bar) | Reseal pressure",
   "value": "Up to 6 back pressure",
   "unit": "psi",
   "source_page": 4
  },
  {
-  "parameter": "Cracking and Reseal Pressures - CH Series | 70°F (20°C) | Nominal cracking pressure 1/3 psi (0.03 bar) | Reseal pressure",
+  "parameter": "Cracking and Reseal Pressures - CH Series | CH Series | 70°F (20°C) | Nominal cracking pressure 1/3 psi (0.03 bar) | Reseal pressure",
   "value": "Up to 0.42 back pressure",
   "unit": "bar",
   "source_page": 4
  },
  {
-  "parameter": "Cracking and Reseal Pressures - CH Series | 70°F (20°C) | Nominal cracking pressure 1 psi (0.07 bar) | Nominal cracking pressure",
+  "parameter": "Cracking and Reseal Pressures - CH Series | CH Series | 70°F (20°C) | Nominal cracking pressure 1 psi (0.07 bar) | Nominal cracking pressure",
   "value": "1",
   "unit": "psi",
   "source_page": 4
  },
  {
-  "parameter": "Cracking and Reseal Pressures - CH Series | 70°F (20°C) | Nominal cracking pressure 1 psi (0.07 bar) | Nominal cracking pressure",
+  "parameter": "Cracking and Reseal Pressures - CH Series | CH Series | 70°F (20°C) | Nominal cracking pressure 1 psi (0.07 bar) | Nominal cracking pressure",
   "value": "0.07",
   "unit": "bar",
   "source_page": 4
  },
  {
-  "parameter": "Cracking and Reseal Pressures - CH Series | 70°F (20°C) | Nominal cracking pressure 1 psi (0.07 bar) | Cracking pressure range",
+  "parameter": "Cracking and Reseal Pressures - CH Series | CH Series | 70°F (20°C) | Nominal cracking pressure 1 psi (0.07 bar) | Cracking pressure range",
   "value": "Up to 4",
   "unit": "psi",
   "source_page": 4
  },
  {
-  "parameter": "Cracking and Reseal Pressures - CH Series | 70°F (20°C) | Nominal cracking pressure 1 psi (0.07 bar) | Cracking pressure range",
+  "parameter": "Cracking and Reseal Pressures - CH Series | CH Series | 70°F (20°C) | Nominal cracking pressure 1 psi (0.07 bar) | Cracking pressure range",
   "value": "Up to 0.28",
   "unit": "bar",
   "source_page": 4
  },
  {
-  "parameter": "Cracking and Reseal Pressures - CH Series | 70°F (20°C) | Nominal cracking pressure 1 psi (0.07 bar) | Reseal pressure",
+  "parameter": "Cracking and Reseal Pressures - CH Series | CH Series | 70°F (20°C) | Nominal cracking pressure 1 psi (0.07 bar) | Reseal pressure",
   "value": "Up to 5 back pressure",
   "unit": "psi",
   "source_page": 4
  },
  {
-  "parameter": "Cracking and Reseal Pressures - CH Series | 70°F (20°C) | Nominal cracking pressure 1 psi (0.07 bar) | Reseal pressure",
+  "parameter": "Cracking and Reseal Pressures - CH Series | CH Series | 70°F (20°C) | Nominal cracking pressure 1 psi (0.07 bar) | Reseal pressure",
   "value": "Up to 0.35 back pressure",
   "unit": "bar",
   "source_page": 4
  },
  {
-  "parameter": "Cracking and Reseal Pressures - CH Series | 70°F (20°C) | Nominal cracking pressure 5 psi (0.35 bar) | Nominal cracking pressure",
+  "parameter": "Cracking and Reseal Pressures - CH Series | CH Series | 70°F (20°C) | Nominal cracking pressure 5 psi (0.35 bar) | Nominal cracking pressure",
   "value": "5",
   "unit": "psi",
   "source_page": 4
  },
  {
-  "parameter": "Cracking and Reseal Pressures - CH Series | 70°F (20°C) | Nominal cracking pressure 5 psi (0.35 bar) | Nominal cracking pressure",
+  "parameter": "Cracking and Reseal Pressures - CH Series | CH Series | 70°F (20°C) | Nominal cracking pressure 5 psi (0.35 bar) | Nominal cracking pressure",
   "value": "0.35",
   "unit": "bar",
   "source_page": 4
  },
  {
-  "parameter": "Cracking and Reseal Pressures - CH Series | 70°F (20°C) | Nominal cracking pressure 5 psi (0.35 bar) | Cracking pressure range",
+  "parameter": "Cracking and Reseal Pressures - CH Series | CH Series | 70°F (20°C) | Nominal cracking pressure 5 psi (0.35 bar) | Cracking pressure range",
   "value": "3 to 9",
   "unit": "psi",
   "source_page": 4
  },
  {
-  "parameter": "Cracking and Reseal Pressures - CH Series | 70°F (20°C) | Nominal cracking pressure 5 psi (0.35 bar) | Cracking pressure range",
+  "parameter": "Cracking and Reseal Pressures - CH Series | CH Series | 70°F (20°C) | Nominal cracking pressure 5 psi (0.35 bar) | Cracking pressure range",
   "value": "0.21 to 0.63",
   "unit": "bar",
   "source_page": 4
  },
  {
-  "parameter": "Cracking and Reseal Pressures - CH Series | 70°F (20°C) | Nominal cracking pressure 5 psi (0.35 bar) | Reseal pressure",
+  "parameter": "Cracking and Reseal Pressures - CH Series | CH Series | 70°F (20°C) | Nominal cracking pressure 5 psi (0.35 bar) | Reseal pressure",
   "value": "Up to 2 back pressure",
   "unit": "psi",
   "source_page": 4
  },
  {
-  "parameter": "Cracking and Reseal Pressures - CH Series | 70°F (20°C) | Nominal cracking pressure 5 psi (0.35 bar) | Reseal pressure",
+  "parameter": "Cracking and Reseal Pressures - CH Series | CH Series | 70°F (20°C) | Nominal cracking pressure 5 psi (0.35 bar) | Reseal pressure",
   "value": "Up to 0.14 back pressure",
   "unit": "bar",
   "source_page": 4
  },
  {
-  "parameter": "Cracking and Reseal Pressures - CH Series | 70°F (20°C) | Nominal cracking pressure 10 psi (0.69 bar) | Nominal cracking pressure",
+  "parameter": "Cracking and Reseal Pressures - CH Series | CH Series | 70°F (20°C) | Nominal cracking pressure 10 psi (0.69 bar) | Nominal cracking pressure",
   "value": "10",
   "unit": "psi",
   "source_page": 4
  },
  {
-  "parameter": "Cracking and Reseal Pressures - CH Series | 70°F (20°C) | Nominal cracking pressure 10 psi (0.69 bar) | Nominal cracking pressure",
+  "parameter": "Cracking and Reseal Pressures - CH Series | CH Series | 70°F (20°C) | Nominal cracking pressure 10 psi (0.69 bar) | Nominal cracking pressure",
   "value": "0.69",
   "unit": "bar",
   "source_page": 4
  },
  {
-  "parameter": "Cracking and Reseal Pressures - CH Series | 70°F (20°C) | Nominal cracking pressure 10 psi (0.69 bar) | Cracking pressure range",
+  "parameter": "Cracking and Reseal Pressures - CH Series | CH Series | 70°F (20°C) | Nominal cracking pressure 10 psi (0.69 bar) | Cracking pressure range",
   "value": "7 to 15",
   "unit": "psi",
   "source_page": 4
  },
  {
-  "parameter": "Cracking and Reseal Pressures - CH Series | 70°F (20°C) | Nominal cracking pressure 10 psi (0.69 bar) | Cracking pressure range",
+  "parameter": "Cracking and Reseal Pressures - CH Series | CH Series | 70°F (20°C) | Nominal cracking pressure 10 psi (0.69 bar) | Cracking pressure range",
   "value": "0.49 to 1.1",
   "unit": "bar",
   "source_page": 4
  },
  {
-  "parameter": "Cracking and Reseal Pressures - CH Series | 70°F (20°C) | Nominal cracking pressure 10 psi (0.69 bar) | Reseal pressure",
+  "parameter": "Cracking and Reseal Pressures - CH Series | CH Series | 70°F (20°C) | Nominal cracking pressure 10 psi (0.69 bar) | Reseal pressure",
   "value": "3 or more inlet pressure",
   "unit": "psi",
   "source_page": 4
  },
  {
-  "parameter": "Cracking and Reseal Pressures - CH Series | 70°F (20°C) | Nominal cracking pressure 10 psi (0.69 bar) | Reseal pressure",
+  "parameter": "Cracking and Reseal Pressures - CH Series | CH Series | 70°F (20°C) | Nominal cracking pressure 10 psi (0.69 bar) | Reseal pressure",
   "value": "0.21 or more inlet pressure",
   "unit": "bar",
   "source_page": 4
  },
  {
-  "parameter": "Cracking and Reseal Pressures - CH Series | 70°F (20°C) | Nominal cracking pressure 25 psi (1.8 bar) | Nominal cracking pressure",
+  "parameter": "Cracking and Reseal Pressures - CH Series | CH Series | 70°F (20°C) | Nominal cracking pressure 25 psi (1.8 bar) | Nominal cracking pressure",
   "value": "25",
   "unit": "psi",
   "source_page": 4
  },
  {
-  "parameter": "Cracking and Reseal Pressures - CH Series | 70°F (20°C) | Nominal cracking pressure 25 psi (1.8 bar) | Nominal cracking pressure",
+  "parameter": "Cracking and Reseal Pressures - CH Series | CH Series | 70°F (20°C) | Nominal cracking pressure 25 psi (1.8 bar) | Nominal cracking pressure",
   "value": "1.8",
   "unit": "bar",
   "source_page": 4
  },
  {
-  "parameter": "Cracking and Reseal Pressures - CH Series | 70°F (20°C) | Nominal cracking pressure 25 psi (1.8 bar) | Cracking pressure range",
+  "parameter": "Cracking and Reseal Pressures - CH Series | CH Series | 70°F (20°C) | Nominal cracking pressure 25 psi (1.8 bar) | Cracking pressure range",
   "value": "20 to 30",
   "unit": "psi",
   "source_page": 4
  },
  {
-  "parameter": "Cracking and Reseal Pressures - CH Series | 70°F (20°C) | Nominal cracking pressure 25 psi (1.8 bar) | Cracking pressure range",
+  "parameter": "Cracking and Reseal Pressures - CH Series | CH Series | 70°F (20°C) | Nominal cracking pressure 25 psi (1.8 bar) | Cracking pressure range",
   "value": "1.4 to 2.1",
   "unit": "bar",
   "source_page": 4
  },
  {
-  "parameter": "Cracking and Reseal Pressures - CH Series | 70°F (20°C) | Nominal cracking pressure 25 psi (1.8 bar) | Reseal pressure",
+  "parameter": "Cracking and Reseal Pressures - CH Series | CH Series | 70°F (20°C) | Nominal cracking pressure 25 psi (1.8 bar) | Reseal pressure",
   "value": "17 or more inlet pressure",
   "unit": "psi",
   "source_page": 4
  },
  {
-  "parameter": "Cracking and Reseal Pressures - CH Series | 70°F (20°C) | Nominal cracking pressure 25 psi (1.8 bar) | Reseal pressure",
+  "parameter": "Cracking and Reseal Pressures - CH Series | CH Series | 70°F (20°C) | Nominal cracking pressure 25 psi (1.8 bar) | Reseal pressure",
   "value": "1.2 or more inlet pressure",
   "unit": "bar",
   "source_page": 4
  },
  {
-  "parameter": "Cracking and Reseal Pressures - CP Series | 70°F (20°C) | Nominal cracking pressure 1/3 psi (0.03 bar) | Nominal cracking pressure",
+  "parameter": "Cracking and Reseal Pressures - CP Series | CP Series | 70°F (20°C) | Nominal cracking pressure 1/3 psi (0.03 bar) | Nominal cracking pressure",
   "value": "1/3",
   "unit": "psi",
   "source_page": 4
  },
  {
-  "parameter": "Cracking and Reseal Pressures - CP Series | 70°F (20°C) | Nominal cracking pressure 1/3 psi (0.03 bar) | Nominal cracking pressure",
+  "parameter": "Cracking and Reseal Pressures - CP Series | CP Series | 70°F (20°C) | Nominal cracking pressure 1/3 psi (0.03 bar) | Nominal cracking pressure",
   "value": "0.03",
   "unit": "bar",
   "source_page": 4
  },
  {
-  "parameter": "Cracking and Reseal Pressures - CP Series | 70°F (20°C) | Nominal cracking pressure 1/3 psi (0.03 bar) | Cracking pressure range",
+  "parameter": "Cracking and Reseal Pressures - CP Series | CP Series | 70°F (20°C) | Nominal cracking pressure 1/3 psi (0.03 bar) | Cracking pressure range",
   "value": "Up to 3",
   "unit": "psi",
   "source_page": 4
  },
  {
-  "parameter": "Cracking and Reseal Pressures - CP Series | 70°F (20°C) | Nominal cracking pressure 1/3 psi (0.03 bar) | Cracking pressure range",
+  "parameter": "Cracking and Reseal Pressures - CP Series | CP Series | 70°F (20°C) | Nominal cracking pressure 1/3 psi (0.03 bar) | Cracking pressure range",
   "value": "Up to 0.21",
   "unit": "bar",
   "source_page": 4
  },
  {
-  "parameter": "Cracking and Reseal Pressures - CP Series | 70°F (20°C) | Nominal cracking pressure 1/3 psi (0.03 bar) | Reseal pressure",
+  "parameter": "Cracking and Reseal Pressures - CP Series | CP Series | 70°F (20°C) | Nominal cracking pressure 1/3 psi (0.03 bar) | Reseal pressure",
   "value": "Up to 20 back pressure",
   "unit": "psi",
   "source_page": 4
  },
  {
-  "parameter": "Cracking and Reseal Pressures - CP Series | 70°F (20°C) | Nominal cracking pressure 1/3 psi (0.03 bar) | Reseal pressure",
+  "parameter": "Cracking and Reseal Pressures - CP Series | CP Series | 70°F (20°C) | Nominal cracking pressure 1/3 psi (0.03 bar) | Reseal pressure",
   "value": "Up to 1.4 back pressure",
   "unit": "bar",
   "source_page": 4
  },
  {
-  "parameter": "Cracking and Reseal Pressures - CP Series | 70°F (20°C) | Nominal cracking pressure 1 psi (0.07 bar) | Nominal cracking pressure",
+  "parameter": "Cracking and Reseal Pressures - CP Series | CP Series | 70°F (20°C) | Nominal cracking pressure 1 psi (0.07 bar) | Nominal cracking pressure",
   "value": "1",
   "unit": "psi",
   "source_page": 4
  },
  {
-  "parameter": "Cracking and Reseal Pressures - CP Series | 70°F (20°C) | Nominal cracking pressure 1 psi (0.07 bar) | Nominal cracking pressure",
+  "parameter": "Cracking and Reseal Pressures - CP Series | CP Series | 70°F (20°C) | Nominal cracking pressure 1 psi (0.07 bar) | Nominal cracking pressure",
   "value": "0.07",
   "unit": "bar",
   "source_page": 4
  },
  {
-  "parameter": "Cracking and Reseal Pressures - CP Series | 70°F (20°C) | Nominal cracking pressure 1 psi (0.07 bar) | Cracking pressure range",
+  "parameter": "Cracking and Reseal Pressures - CP Series | CP Series | 70°F (20°C) | Nominal cracking pressure 1 psi (0.07 bar) | Cracking pressure range",
   "value": "Up to 4",
   "unit": "psi",
   "source_page": 4
  },
  {
-  "parameter": "Cracking and Reseal Pressures - CP Series | 70°F (20°C) | Nominal cracking pressure 1 psi (0.07 bar) | Cracking pressure range",
+  "parameter": "Cracking and Reseal Pressures - CP Series | CP Series | 70°F (20°C) | Nominal cracking pressure 1 psi (0.07 bar) | Cracking pressure range",
   "value": "Up to 0.28",
   "unit": "bar",
   "source_page": 4
  },
  {
-  "parameter": "Cracking and Reseal Pressures - CP Series | 70°F (20°C) | Nominal cracking pressure 1 psi (0.07 bar) | Reseal pressure",
+  "parameter": "Cracking and Reseal Pressures - CP Series | CP Series | 70°F (20°C) | Nominal cracking pressure 1 psi (0.07 bar) | Reseal pressure",
   "value": "Up to 20 back pressure",
   "unit": "psi",
   "source_page": 4
  },
  {
-  "parameter": "Cracking and Reseal Pressures - CP Series | 70°F (20°C) | Nominal cracking pressure 1 psi (0.07 bar) | Reseal pressure",
+  "parameter": "Cracking and Reseal Pressures - CP Series | CP Series | 70°F (20°C) | Nominal cracking pressure 1 psi (0.07 bar) | Reseal pressure",
   "value": "Up to 1.4 back pressure",
   "unit": "bar",
   "source_page": 4
  },
  {
-  "parameter": "Cracking and Reseal Pressures - CP Series | 70°F (20°C) | Nominal cracking pressure 10 psi (0.69 bar) | Nominal cracking pressure",
+  "parameter": "Cracking and Reseal Pressures - CP Series | CP Series | 70°F (20°C) | Nominal cracking pressure 10 psi (0.69 bar) | Nominal cracking pressure",
   "value": "10",
   "unit": "psi",
   "source_page": 4
  },
  {
-  "parameter": "Cracking and Reseal Pressures - CP Series | 70°F (20°C) | Nominal cracking pressure 10 psi (0.69 bar) | Nominal cracking pressure",
+  "parameter": "Cracking and Reseal Pressures - CP Series | CP Series | 70°F (20°C) | Nominal cracking pressure 10 psi (0.69 bar) | Nominal cracking pressure",
   "value": "0.69",
   "unit": "bar",
   "source_page": 4
  },
  {
-  "parameter": "Cracking and Reseal Pressures - CP Series | 70°F (20°C) | Nominal cracking pressure 10 psi (0.69 bar) | Cracking pressure range",
+  "parameter": "Cracking and Reseal Pressures - CP Series | CP Series | 70°F (20°C) | Nominal cracking pressure 10 psi (0.69 bar) | Cracking pressure range",
   "value": "7 to 13",
   "unit": "psi",
   "source_page": 4
  },
  {
-  "parameter": "Cracking and Reseal Pressures - CP Series | 70°F (20°C) | Nominal cracking pressure 10 psi (0.69 bar) | Cracking pressure range",
+  "parameter": "Cracking and Reseal Pressures - CP Series | CP Series | 70°F (20°C) | Nominal cracking pressure 10 psi (0.69 bar) | Cracking pressure range",
   "value": "0.49 to 0.90",
   "unit": "bar",
   "source_page": 4
  },
  {
-  "parameter": "Cracking and Reseal Pressures - CP Series | 70°F (20°C) | Nominal cracking pressure 10 psi (0.69 bar) | Reseal pressure",
+  "parameter": "Cracking and Reseal Pressures - CP Series | CP Series | 70°F (20°C) | Nominal cracking pressure 10 psi (0.69 bar) | Reseal pressure",
   "value": "Up to 10 back pressure",
   "unit": "psi",
   "source_page": 4
  },
  {
-  "parameter": "Cracking and Reseal Pressures - CP Series | 70°F (20°C) | Nominal cracking pressure 10 psi (0.69 bar) | Reseal pressure",
+  "parameter": "Cracking and Reseal Pressures - CP Series | CP Series | 70°F (20°C) | Nominal cracking pressure 10 psi (0.69 bar) | Reseal pressure",
   "value": "Up to 0.69 back pressure",
   "unit": "bar",
   "source_page": 4
  },
  {
-  "parameter": "Cracking and Reseal Pressures - CP Series | 70°F (20°C) | Nominal cracking pressure 25 psi (1.8 bar) | Nominal cracking pressure",
+  "parameter": "Cracking and Reseal Pressures - CP Series | CP Series | 70°F (20°C) | Nominal cracking pressure 25 psi (1.8 bar) | Nominal cracking pressure",
   "value": "25",
   "unit": "psi",
   "source_page": 4
  },
  {
-  "parameter": "Cracking and Reseal Pressures - CP Series | 70°F (20°C) | Nominal cracking pressure 25 psi (1.8 bar) | Nominal cracking pressure",
+  "parameter": "Cracking and Reseal Pressures - CP Series | CP Series | 70°F (20°C) | Nominal cracking pressure 25 psi (1.8 bar) | Nominal cracking pressure",
   "value": "1.8",
   "unit": "bar",
   "source_page": 4
  },
  {
-  "parameter": "Cracking and Reseal Pressures - CP Series | 70°F (20°C) | Nominal cracking pressure 25 psi (1.8 bar) | Cracking pressure range",
+  "parameter": "Cracking and Reseal Pressures - CP Series | CP Series | 70°F (20°C) | Nominal cracking pressure 25 psi (1.8 bar) | Cracking pressure range",
   "value": "21 to 29",
   "unit": "psi",
   "source_page": 4
  },
  {
-  "parameter": "Cracking and Reseal Pressures - CP Series | 70°F (20°C) | Nominal cracking pressure 25 psi (1.8 bar) | Cracking pressure range",
+  "parameter": "Cracking and Reseal Pressures - CP Series | CP Series | 70°F (20°C) | Nominal cracking pressure 25 psi (1.8 bar) | Cracking pressure range",
   "value": "1.5 to 2.0",
   "unit": "bar",
   "source_page": 4
  },
  {
-  "parameter": "Cracking and Reseal Pressures - CP Series | 70°F (20°C) | Nominal cracking pressure 25 psi (1.8 bar) | Reseal pressure",
+  "parameter": "Cracking and Reseal Pressures - CP Series | CP Series | 70°F (20°C) | Nominal cracking pressure 25 psi (1.8 bar) | Reseal pressure",
   "value": "5 or more inlet pressure",
   "unit": "psi",
   "source_page": 4
  },
  {
-  "parameter": "Cracking and Reseal Pressures - CP Series | 70°F (20°C) | Nominal cracking pressure 25 psi (1.8 bar) | Reseal pressure",
+  "parameter": "Cracking and Reseal Pressures - CP Series | CP Series | 70°F (20°C) | Nominal cracking pressure 25 psi (1.8 bar) | Reseal pressure",
   "value": "0.35 or more inlet pressure",
   "unit": "bar",
   "source_page": 4
@@ -1392,175 +1392,175 @@
   "source_page": 4
  },
  {
-  "parameter": "Materials of Construction - C and CA Series | 1 Inlet body | 316 SS | Material grade/ASTM specification",
+  "parameter": "Materials of Construction - C and CA Series | C and CA Series | 1 Inlet body | 316 SS | Material grade/ASTM specification",
   "value": "316 SS/A479",
   "unit": null,
   "source_page": 5
  },
  {
-  "parameter": "Materials of Construction - C and CA Series | 1 Inlet body | Brass | Material grade/ASTM specification",
+  "parameter": "Materials of Construction - C and CA Series | C and CA Series | 1 Inlet body | Brass | Material grade/ASTM specification",
   "value": "Brass 360/B16",
   "unit": null,
   "source_page": 5
  },
  {
-  "parameter": "Materials of Construction - C and CA Series | 2 Inlet gasket (CA series) | 316 SS | Material grade/ASTM specification",
+  "parameter": "Materials of Construction - C and CA Series | C and CA Series | 2 Inlet gasket (CA series) | 316 SS | Material grade/ASTM specification",
   "value": "PTFE-coated 316 SS/A240",
   "unit": null,
   "source_page": 5
  },
  {
-  "parameter": "Materials of Construction - C and CA Series | 2 Inlet gasket (CA series) | Brass | Material grade/ASTM specification",
+  "parameter": "Materials of Construction - C and CA Series | C and CA Series | 2 Inlet gasket (CA series) | Brass | Material grade/ASTM specification",
   "value": "PTFE-coated 316 SS/A240",
   "unit": null,
   "source_page": 5
  },
  {
-  "parameter": "Materials of Construction - C and CA Series | Inlet gasket (standard for 6C and 8C series with ≥ 50 psi [3.5 bar] spring; optional for 2C and 4C series and all other 6C and 8C series) | 316 SS | Material grade/ASTM specification",
+  "parameter": "Materials of Construction - C and CA Series | C and CA Series | Inlet gasket (standard for 6C and 8C series with ≥ 50 psi [3.5 bar] spring; optional for 2C and 4C series and all other 6C and 8C series) | 316 SS | Material grade/ASTM specification",
   "value": "PTFE-coated 316 SS/A240",
   "unit": null,
   "source_page": 5
  },
  {
-  "parameter": "Materials of Construction - C and CA Series | Inlet gasket (standard for 6C and 8C series with ≥ 50 psi [3.5 bar] spring; optional for 2C and 4C series and all other 6C and 8C series) | Brass | Material grade/ASTM specification",
+  "parameter": "Materials of Construction - C and CA Series | C and CA Series | Inlet gasket (standard for 6C and 8C series with ≥ 50 psi [3.5 bar] spring; optional for 2C and 4C series and all other 6C and 8C series) | Brass | Material grade/ASTM specification",
   "value": "PTFE-coated 316 SS/A240",
   "unit": null,
   "source_page": 5
  },
  {
-  "parameter": "Materials of Construction - C and CA Series | Inlet gasket (12C and 16C series) | 316 SS | Material grade/ASTM specification",
+  "parameter": "Materials of Construction - C and CA Series | C and CA Series | Inlet gasket (12C and 16C series) | 316 SS | Material grade/ASTM specification",
   "value": "PTFE-coated 316 SS/A240",
   "unit": null,
   "source_page": 5
  },
  {
-  "parameter": "Materials of Construction - C and CA Series | Inlet gasket (12C and 16C series) | Brass | Material grade/ASTM specification",
+  "parameter": "Materials of Construction - C and CA Series | C and CA Series | Inlet gasket (12C and 16C series) | Brass | Material grade/ASTM specification",
   "value": "PTFE-coated aluminum/B209",
   "unit": null,
   "source_page": 5
  },
  {
-  "parameter": "Materials of Construction - C and CA Series | 3 Insert (CA series) | 316 SS | Material grade/ASTM specification",
+  "parameter": "Materials of Construction - C and CA Series | C and CA Series | 3 Insert (CA series) | 316 SS | Material grade/ASTM specification",
   "value": "316 SS/A479",
   "unit": null,
   "source_page": 5
  },
  {
-  "parameter": "Materials of Construction - C and CA Series | 3 Insert (CA series) | Brass | Material grade/ASTM specification",
+  "parameter": "Materials of Construction - C and CA Series | C and CA Series | 3 Insert (CA series) | Brass | Material grade/ASTM specification",
   "value": "Naval brass 485/B21",
   "unit": null,
   "source_page": 5
  },
  {
-  "parameter": "Materials of Construction - C and CA Series | 4 O-ring | 316 SS | Material grade/ASTM specification",
+  "parameter": "Materials of Construction - C and CA Series | C and CA Series | 4 O-ring | 316 SS | Material grade/ASTM specification",
   "value": "Fluorocarbon FKM",
   "unit": null,
   "source_page": 5
  },
  {
-  "parameter": "Materials of Construction - C and CA Series | 4 O-ring | Brass | Material grade/ASTM specification",
+  "parameter": "Materials of Construction - C and CA Series | C and CA Series | 4 O-ring | Brass | Material grade/ASTM specification",
   "value": "Buna N",
   "unit": null,
   "source_page": 5
  },
  {
-  "parameter": "Materials of Construction - C and CA Series | 5 Poppet | 316 SS | Material grade/ASTM specification",
+  "parameter": "Materials of Construction - C and CA Series | C and CA Series | 5 Poppet | 316 SS | Material grade/ASTM specification",
   "value": "316 SS/A479",
   "unit": null,
   "source_page": 5
  },
  {
-  "parameter": "Materials of Construction - C and CA Series | 5 Poppet | Brass | Material grade/ASTM specification",
+  "parameter": "Materials of Construction - C and CA Series | C and CA Series | 5 Poppet | Brass | Material grade/ASTM specification",
   "value": "Brass 360/B16",
   "unit": null,
   "source_page": 5
  },
  {
-  "parameter": "Materials of Construction - C and CA Series | 6 Spring | 316 SS | Material grade/ASTM specification",
+  "parameter": "Materials of Construction - C and CA Series | C and CA Series | 6 Spring | 316 SS | Material grade/ASTM specification",
   "value": "302 SS/A313",
   "unit": null,
   "source_page": 5
  },
  {
-  "parameter": "Materials of Construction - C and CA Series | 6 Spring | Brass | Material grade/ASTM specification",
+  "parameter": "Materials of Construction - C and CA Series | C and CA Series | 6 Spring | Brass | Material grade/ASTM specification",
   "value": "302 SS/A313",
   "unit": null,
   "source_page": 5
  },
  {
-  "parameter": "Materials of Construction - C and CA Series | 7 Center body (CA series) | 316 SS | Material grade/ASTM specification",
+  "parameter": "Materials of Construction - C and CA Series | C and CA Series | 7 Center body (CA series) | 316 SS | Material grade/ASTM specification",
   "value": "316 SS/A479",
   "unit": null,
   "source_page": 5
  },
  {
-  "parameter": "Materials of Construction - C and CA Series | 7 Center body (CA series) | Brass | Material grade/ASTM specification",
+  "parameter": "Materials of Construction - C and CA Series | C and CA Series | 7 Center body (CA series) | Brass | Material grade/ASTM specification",
   "value": "Brass 360/B16",
   "unit": null,
   "source_page": 5
  },
  {
-  "parameter": "Materials of Construction - C and CA Series | 8 Adjusting screw (CA series) | 316 SS | Material grade/ASTM specification",
+  "parameter": "Materials of Construction - C and CA Series | C and CA Series | 8 Adjusting screw (CA series) | 316 SS | Material grade/ASTM specification",
   "value": "316 SS/A276",
   "unit": null,
   "source_page": 5
  },
  {
-  "parameter": "Materials of Construction - C and CA Series | 8 Adjusting screw (CA series) | Brass | Material grade/ASTM specification",
+  "parameter": "Materials of Construction - C and CA Series | C and CA Series | 8 Adjusting screw (CA series) | Brass | Material grade/ASTM specification",
   "value": "316 SS/A276",
   "unit": null,
   "source_page": 5
  },
  {
-  "parameter": "Materials of Construction - C and CA Series | 9 Locking screw (CA series) | 316 SS | Material grade/ASTM specification",
+  "parameter": "Materials of Construction - C and CA Series | C and CA Series | 9 Locking screw (CA series) | 316 SS | Material grade/ASTM specification",
   "value": "316 SS/A276",
   "unit": null,
   "source_page": 5
  },
  {
-  "parameter": "Materials of Construction - C and CA Series | 9 Locking screw (CA series) | Brass | Material grade/ASTM specification",
+  "parameter": "Materials of Construction - C and CA Series | C and CA Series | 9 Locking screw (CA series) | Brass | Material grade/ASTM specification",
   "value": "316 SS/A276",
   "unit": null,
   "source_page": 5
  },
  {
-  "parameter": "Materials of Construction - C and CA Series | 10 Outlet gasket (CA series) | 316 SS | Material grade/ASTM specification",
+  "parameter": "Materials of Construction - C and CA Series | C and CA Series | 10 Outlet gasket (CA series) | 316 SS | Material grade/ASTM specification",
   "value": "PTFE-coated 316 SS/A240",
   "unit": null,
   "source_page": 5
  },
  {
-  "parameter": "Materials of Construction - C and CA Series | 10 Outlet gasket (CA series) | Brass | Material grade/ASTM specification",
+  "parameter": "Materials of Construction - C and CA Series | C and CA Series | 10 Outlet gasket (CA series) | Brass | Material grade/ASTM specification",
   "value": "PTFE-coated 316 SS/A240",
   "unit": null,
   "source_page": 5
  },
  {
-  "parameter": "Materials of Construction - C and CA Series | 11 Outlet body | 316 SS | Material grade/ASTM specification",
+  "parameter": "Materials of Construction - C and CA Series | C and CA Series | 11 Outlet body | 316 SS | Material grade/ASTM specification",
   "value": "316 SS/A479",
   "unit": null,
   "source_page": 5
  },
  {
-  "parameter": "Materials of Construction - C and CA Series | 11 Outlet body | Brass | Material grade/ASTM specification",
+  "parameter": "Materials of Construction - C and CA Series | C and CA Series | 11 Outlet body | Brass | Material grade/ASTM specification",
   "value": "Brass 360/B16",
   "unit": null,
   "source_page": 5
  },
  {
-  "parameter": "Materials of Construction - C and CA Series | Wetted lubricant | 316 SS | Material grade/ASTM specification",
+  "parameter": "Materials of Construction - C and CA Series | C and CA Series | Wetted lubricant | 316 SS | Material grade/ASTM specification",
   "value": "Silicone-based (C series); PTFE-based (CA series)",
   "unit": null,
   "source_page": 5
  },
  {
-  "parameter": "Materials of Construction - C and CA Series | Wetted lubricant | Brass | Material grade/ASTM specification",
+  "parameter": "Materials of Construction - C and CA Series | C and CA Series | Wetted lubricant | Brass | Material grade/ASTM specification",
   "value": "Silicone-based (C series); PTFE-based (CA series)",
   "unit": null,
   "source_page": 5
  },
  {
-  "parameter": "Materials of Construction - C and CA Series | Nonwetted lubricant | 316 SS | Material grade/ASTM specification",
+  "parameter": "Materials of Construction - C and CA Series | C and CA Series | Nonwetted lubricant | 316 SS | Material grade/ASTM specification",
   "value": "Molybdenum disulfide-based",
   "unit": null,
   "source_page": 5
@@ -1584,49 +1584,49 @@
   "source_page": 5
  },
  {
-  "parameter": "Materials of Construction - CH Series | 1 Inlet body | Material grade/ASTM specification",
+  "parameter": "Materials of Construction - CH Series | CH Series | 1 Inlet body | Material grade/ASTM specification",
   "value": "316 SS/A479",
   "unit": null,
   "source_page": 5
  },
  {
-  "parameter": "Materials of Construction - CH Series | 2 Poppet [fn 1] | Material grade/ASTM specification",
+  "parameter": "Materials of Construction - CH Series | CH Series | 2 Poppet [fn 1] | Material grade/ASTM specification",
   "value": "Fluorocarbon FKM-bonded 316 SS/A479",
   "unit": null,
   "source_page": 5
  },
  {
-  "parameter": "Materials of Construction - CH Series | 3 Poppet stop | Material grade/ASTM specification",
+  "parameter": "Materials of Construction - CH Series | CH Series | 3 Poppet stop | Material grade/ASTM specification",
   "value": "316 SS/A240",
   "unit": null,
   "source_page": 5
  },
  {
-  "parameter": "Materials of Construction - CH Series | 4 Spring | Material grade/ASTM specification",
+  "parameter": "Materials of Construction - CH Series | CH Series | 4 Spring | Material grade/ASTM specification",
   "value": "302 SS/A313",
   "unit": null,
   "source_page": 5
  },
  {
-  "parameter": "Materials of Construction - CH Series | 5 O-ring | Material grade/ASTM specification",
+  "parameter": "Materials of Construction - CH Series | CH Series | 5 O-ring | Material grade/ASTM specification",
   "value": "Fluorocarbon FKM",
   "unit": null,
   "source_page": 5
  },
  {
-  "parameter": "Materials of Construction - CH Series | 6 Backup ring | Material grade/ASTM specification",
+  "parameter": "Materials of Construction - CH Series | CH Series | 6 Backup ring | Material grade/ASTM specification",
   "value": "PTFE/D1710",
   "unit": null,
   "source_page": 5
  },
  {
-  "parameter": "Materials of Construction - CH Series | 7 Outlet body | Material grade/ASTM specification",
+  "parameter": "Materials of Construction - CH Series | CH Series | 7 Outlet body | Material grade/ASTM specification",
   "value": "316 SS/A479",
   "unit": null,
   "source_page": 5
  },
  {
-  "parameter": "Materials of Construction - CH Series | Lubricant | Material grade/ASTM specification",
+  "parameter": "Materials of Construction - CH Series | CH Series | Lubricant | Material grade/ASTM specification",
   "value": "PTFE-based",
   "unit": null,
   "source_page": 5
@@ -1644,247 +1644,247 @@
   "source_page": 5
  },
  {
-  "parameter": "Materials of Construction - CP and CPA Series | 1 Insert lock screw | 316 SS | Material grade/specification",
+  "parameter": "Materials of Construction - CP and CPA Series | CP and CPA Series | 1 Insert lock screw | 316 SS | Material grade/specification",
   "value": "316 SS/ASTM A276 or A479",
   "unit": null,
   "source_page": 6
  },
  {
-  "parameter": "Materials of Construction - CP and CPA Series | 1 Insert lock screw | Brass | 4CP | Material grade/specification",
+  "parameter": "Materials of Construction - CP and CPA Series | CP and CPA Series | 1 Insert lock screw | Brass | 4CP | Material grade/specification",
   "value": "Brass CW710R/EN 12163",
   "unit": null,
   "source_page": 6
  },
  {
-  "parameter": "Materials of Construction - CP and CPA Series | 1 Insert lock screw | Brass | 8CP | Material grade/specification",
+  "parameter": "Materials of Construction - CP and CPA Series | CP and CPA Series | 1 Insert lock screw | Brass | 8CP | Material grade/specification",
   "value": "Brass 360/ASTM B16",
   "unit": null,
   "source_page": 6
  },
  {
-  "parameter": "Materials of Construction - CP and CPA Series | 1 Insert lock screw | Brass | 4CPA | Material grade/specification",
+  "parameter": "Materials of Construction - CP and CPA Series | CP and CPA Series | 1 Insert lock screw | Brass | 4CPA | Material grade/specification",
   "value": "Brass CW710R/EN 12163",
   "unit": null,
   "source_page": 6
  },
  {
-  "parameter": "Materials of Construction - CP and CPA Series | 1 Insert lock screw | Brass | 8CPA | Material grade/specification",
+  "parameter": "Materials of Construction - CP and CPA Series | CP and CPA Series | 1 Insert lock screw | Brass | 8CPA | Material grade/specification",
   "value": "Brass 360/ASTM B16",
   "unit": null,
   "source_page": 6
  },
  {
-  "parameter": "Materials of Construction - CP and CPA Series | 2 Insert | 316 SS | Material grade/specification",
+  "parameter": "Materials of Construction - CP and CPA Series | CP and CPA Series | 2 Insert | 316 SS | Material grade/specification",
   "value": "316 SS/ASTM A479",
   "unit": null,
   "source_page": 6
  },
  {
-  "parameter": "Materials of Construction - CP and CPA Series | 2 Insert | Brass | 4CP | Material grade/specification",
+  "parameter": "Materials of Construction - CP and CPA Series | CP and CPA Series | 2 Insert | Brass | 4CP | Material grade/specification",
   "value": "Brass CW710R/EN 12163",
   "unit": null,
   "source_page": 6
  },
  {
-  "parameter": "Materials of Construction - CP and CPA Series | 2 Insert | Brass | 8CP | Material grade/specification",
+  "parameter": "Materials of Construction - CP and CPA Series | CP and CPA Series | 2 Insert | Brass | 8CP | Material grade/specification",
   "value": "Brass 360/ASTM B16",
   "unit": null,
   "source_page": 6
  },
  {
-  "parameter": "Materials of Construction - CP and CPA Series | 2 Insert | Brass | 4CPA | Material grade/specification",
+  "parameter": "Materials of Construction - CP and CPA Series | CP and CPA Series | 2 Insert | Brass | 4CPA | Material grade/specification",
   "value": "Brass CW710R/EN 12163",
   "unit": null,
   "source_page": 6
  },
  {
-  "parameter": "Materials of Construction - CP and CPA Series | 2 Insert | Brass | 8CPA | Material grade/specification",
+  "parameter": "Materials of Construction - CP and CPA Series | CP and CPA Series | 2 Insert | Brass | 8CPA | Material grade/specification",
   "value": "Brass 360/ASTM B16",
   "unit": null,
   "source_page": 6
  },
  {
-  "parameter": "Materials of Construction - CP and CPA Series | 3 O-ring | 316 SS | Material grade/specification",
+  "parameter": "Materials of Construction - CP and CPA Series | CP and CPA Series | 3 O-ring | 316 SS | Material grade/specification",
   "value": "Fluorocarbon FKM",
   "unit": null,
   "source_page": 6
  },
  {
-  "parameter": "Materials of Construction - CP and CPA Series | 3 O-ring | Brass | 4CP | Material grade/specification",
+  "parameter": "Materials of Construction - CP and CPA Series | CP and CPA Series | 3 O-ring | Brass | 4CP | Material grade/specification",
   "value": "Buna N",
   "unit": null,
   "source_page": 6
  },
  {
-  "parameter": "Materials of Construction - CP and CPA Series | 3 O-ring | Brass | 8CP | Material grade/specification",
+  "parameter": "Materials of Construction - CP and CPA Series | CP and CPA Series | 3 O-ring | Brass | 8CP | Material grade/specification",
   "value": "Buna N",
   "unit": null,
   "source_page": 6
  },
  {
-  "parameter": "Materials of Construction - CP and CPA Series | 3 O-ring | Brass | 4CPA | Material grade/specification",
+  "parameter": "Materials of Construction - CP and CPA Series | CP and CPA Series | 3 O-ring | Brass | 4CPA | Material grade/specification",
   "value": "Buna N",
   "unit": null,
   "source_page": 6
  },
  {
-  "parameter": "Materials of Construction - CP and CPA Series | 3 O-ring | Brass | 8CPA | Material grade/specification",
+  "parameter": "Materials of Construction - CP and CPA Series | CP and CPA Series | 3 O-ring | Brass | 8CPA | Material grade/specification",
   "value": "Buna N",
   "unit": null,
   "source_page": 6
  },
  {
-  "parameter": "Materials of Construction - CP and CPA Series | 4 Poppet | 316 SS | Material grade/specification",
+  "parameter": "Materials of Construction - CP and CPA Series | CP and CPA Series | 4 Poppet | 316 SS | Material grade/specification",
   "value": "316 SS/ASTM A479",
   "unit": null,
   "source_page": 6
  },
  {
-  "parameter": "Materials of Construction - CP and CPA Series | 4 Poppet | Brass | 4CP | Material grade/specification",
+  "parameter": "Materials of Construction - CP and CPA Series | CP and CPA Series | 4 Poppet | Brass | 4CP | Material grade/specification",
   "value": "Brass 360/ASTM B16",
   "unit": null,
   "source_page": 6
  },
  {
-  "parameter": "Materials of Construction - CP and CPA Series | 4 Poppet | Brass | 8CP | Material grade/specification",
+  "parameter": "Materials of Construction - CP and CPA Series | CP and CPA Series | 4 Poppet | Brass | 8CP | Material grade/specification",
   "value": "Brass 360/ASTM B16",
   "unit": null,
   "source_page": 6
  },
  {
-  "parameter": "Materials of Construction - CP and CPA Series | 4 Poppet | Brass | 4CPA | Material grade/specification",
+  "parameter": "Materials of Construction - CP and CPA Series | CP and CPA Series | 4 Poppet | Brass | 4CPA | Material grade/specification",
   "value": "Brass 360/ASTM B16",
   "unit": null,
   "source_page": 6
  },
  {
-  "parameter": "Materials of Construction - CP and CPA Series | 4 Poppet | Brass | 8CPA | Material grade/specification",
+  "parameter": "Materials of Construction - CP and CPA Series | CP and CPA Series | 4 Poppet | Brass | 8CPA | Material grade/specification",
   "value": "Brass 360/ASTM B16",
   "unit": null,
   "source_page": 6
  },
  {
-  "parameter": "Materials of Construction - CP and CPA Series | 5 Spring [fn 1] | 316 SS | Material grade/specification",
+  "parameter": "Materials of Construction - CP and CPA Series | CP and CPA Series | 5 Spring [fn 1] | 316 SS | Material grade/specification",
   "value": "302 SS/ASTM A313",
   "unit": null,
   "source_page": 6
  },
  {
-  "parameter": "Materials of Construction - CP and CPA Series | 5 Spring [fn 1] | Brass | 4CP | Material grade/specification",
+  "parameter": "Materials of Construction - CP and CPA Series | CP and CPA Series | 5 Spring [fn 1] | Brass | 4CP | Material grade/specification",
   "value": "302 SS/ASTM A313",
   "unit": null,
   "source_page": 6
  },
  {
-  "parameter": "Materials of Construction - CP and CPA Series | 5 Spring [fn 1] | Brass | 8CP | Material grade/specification",
+  "parameter": "Materials of Construction - CP and CPA Series | CP and CPA Series | 5 Spring [fn 1] | Brass | 8CP | Material grade/specification",
   "value": "302 SS/ASTM A313",
   "unit": null,
   "source_page": 6
  },
  {
-  "parameter": "Materials of Construction - CP and CPA Series | 5 Spring [fn 1] | Brass | 4CPA | Material grade/specification",
+  "parameter": "Materials of Construction - CP and CPA Series | CP and CPA Series | 5 Spring [fn 1] | Brass | 4CPA | Material grade/specification",
   "value": "302 SS/ASTM A313",
   "unit": null,
   "source_page": 6
  },
  {
-  "parameter": "Materials of Construction - CP and CPA Series | 5 Spring [fn 1] | Brass | 8CPA | Material grade/specification",
+  "parameter": "Materials of Construction - CP and CPA Series | CP and CPA Series | 5 Spring [fn 1] | Brass | 8CPA | Material grade/specification",
   "value": "302 SS/ASTM A313",
   "unit": null,
   "source_page": 6
  },
  {
-  "parameter": "Materials of Construction - CP and CPA Series | 6 Body | 316 SS | Material grade/specification",
+  "parameter": "Materials of Construction - CP and CPA Series | CP and CPA Series | 6 Body | 316 SS | Material grade/specification",
   "value": "316 SS/ASTM A479",
   "unit": null,
   "source_page": 6
  },
  {
-  "parameter": "Materials of Construction - CP and CPA Series | 6 Body | Brass | 4CP | Material grade/specification",
+  "parameter": "Materials of Construction - CP and CPA Series | CP and CPA Series | 6 Body | Brass | 4CP | Material grade/specification",
   "value": "Brass 360/ASTM B16",
   "unit": null,
   "source_page": 6
  },
  {
-  "parameter": "Materials of Construction - CP and CPA Series | 6 Body | Brass | 8CP | Material grade/specification",
+  "parameter": "Materials of Construction - CP and CPA Series | CP and CPA Series | 6 Body | Brass | 8CP | Material grade/specification",
   "value": "Brass 360/ASTM B16",
   "unit": null,
   "source_page": 6
  },
  {
-  "parameter": "Materials of Construction - CP and CPA Series | 6 Body | Brass | 4CPA | Material grade/specification",
+  "parameter": "Materials of Construction - CP and CPA Series | CP and CPA Series | 6 Body | Brass | 4CPA | Material grade/specification",
   "value": "Brass 360/ASTM B16",
   "unit": null,
   "source_page": 6
  },
  {
-  "parameter": "Materials of Construction - CP and CPA Series | 6 Body | Brass | 8CPA | Material grade/specification",
+  "parameter": "Materials of Construction - CP and CPA Series | CP and CPA Series | 6 Body | Brass | 8CPA | Material grade/specification",
   "value": "Brass 360/ASTM B16",
   "unit": null,
   "source_page": 6
  },
  {
-  "parameter": "Materials of Construction - CP and CPA Series | 7 Adjusting screw (CPA series) | 316 SS | Material grade/specification",
+  "parameter": "Materials of Construction - CP and CPA Series | CP and CPA Series | 7 Adjusting screw (CPA series) | 316 SS | Material grade/specification",
   "value": "316 SS/ASTM A276",
   "unit": null,
   "source_page": 6
  },
  {
-  "parameter": "Materials of Construction - CP and CPA Series | 7 Adjusting screw (CPA series) | Brass | 4CPA | Material grade/specification",
+  "parameter": "Materials of Construction - CP and CPA Series | CP and CPA Series | 7 Adjusting screw (CPA series) | Brass | 4CPA | Material grade/specification",
   "value": "316 SS/ASTM A276",
   "unit": null,
   "source_page": 6
  },
  {
-  "parameter": "Materials of Construction - CP and CPA Series | 7 Adjusting screw (CPA series) | Brass | 8CPA [fn 2] | Material grade/specification",
+  "parameter": "Materials of Construction - CP and CPA Series | CP and CPA Series | 7 Adjusting screw (CPA series) | Brass | 8CPA [fn 2] | Material grade/specification",
   "value": "Brass 360/ASTM B16",
   "unit": null,
   "source_page": 6
  },
  {
-  "parameter": "Materials of Construction - CP and CPA Series | 8 Locking screw (CPA series) | 316 SS | Material grade/specification",
+  "parameter": "Materials of Construction - CP and CPA Series | CP and CPA Series | 8 Locking screw (CPA series) | 316 SS | Material grade/specification",
   "value": "316 SS/ASTM A276",
   "unit": null,
   "source_page": 6
  },
  {
-  "parameter": "Materials of Construction - CP and CPA Series | 8 Locking screw (CPA series) | Brass | 4CPA | Material grade/specification",
+  "parameter": "Materials of Construction - CP and CPA Series | CP and CPA Series | 8 Locking screw (CPA series) | Brass | 4CPA | Material grade/specification",
   "value": "316 SS/ASTM A276",
   "unit": null,
   "source_page": 6
  },
  {
-  "parameter": "Materials of Construction - CP and CPA Series | 8 Locking screw (CPA series) | Brass | 8CPA [fn 2] | Material grade/specification",
+  "parameter": "Materials of Construction - CP and CPA Series | CP and CPA Series | 8 Locking screw (CPA series) | Brass | 8CPA [fn 2] | Material grade/specification",
   "value": "Brass 360/ASTM B16",
   "unit": null,
   "source_page": 6
  },
  {
-  "parameter": "Materials of Construction - CP and CPA Series | Lubricant | 316 SS | Material grade/specification",
+  "parameter": "Materials of Construction - CP and CPA Series | CP and CPA Series | Lubricant | 316 SS | Material grade/specification",
   "value": "Silicone-based and PTFE-based (CP series); PTFE-based (4CPA series); PTFE-based and molybdenum disulfide (8CPA series)",
   "unit": null,
   "source_page": 6
  },
  {
-  "parameter": "Materials of Construction - CP and CPA Series | Lubricant | Brass | 4CP | Material grade/specification",
+  "parameter": "Materials of Construction - CP and CPA Series | CP and CPA Series | Lubricant | Brass | 4CP | Material grade/specification",
   "value": "Silicone-based and PTFE-based",
   "unit": null,
   "source_page": 6
  },
  {
-  "parameter": "Materials of Construction - CP and CPA Series | Lubricant | Brass | 8CP | Material grade/specification",
+  "parameter": "Materials of Construction - CP and CPA Series | CP and CPA Series | Lubricant | Brass | 8CP | Material grade/specification",
   "value": "Silicone-based and PTFE-based",
   "unit": null,
   "source_page": 6
  },
  {
-  "parameter": "Materials of Construction - CP and CPA Series | Lubricant | Brass | 4CPA | Material grade/specification",
+  "parameter": "Materials of Construction - CP and CPA Series | CP and CPA Series | Lubricant | Brass | 4CPA | Material grade/specification",
   "value": "PTFE-based",
   "unit": null,
   "source_page": 6
  },
  {
-  "parameter": "Materials of Construction - CP and CPA Series | Lubricant | Brass | 8CPA | Material grade/specification",
+  "parameter": "Materials of Construction - CP and CPA Series | CP and CPA Series | Lubricant | Brass | 8CPA | Material grade/specification",
   "value": "PTFE-based and Molybdenum disulfide-based",
   "unit": null,
   "source_page": 6
@@ -3390,145 +3390,145 @@
   "source_page": 11
  },
  {
-  "parameter": "Ordering Information - C Series | 1/3 psi (0.03 bar) | Cracking pressure",
+  "parameter": "Ordering Information - C Series | C Series | 1/3 psi (0.03 bar) | Cracking pressure",
   "value": "1/3",
   "unit": "psi",
   "source_page": 11
  },
  {
-  "parameter": "Ordering Information - C Series | 1/3 psi (0.03 bar) | Cracking pressure",
+  "parameter": "Ordering Information - C Series | C Series | 1/3 psi (0.03 bar) | Cracking pressure",
   "value": "0.03",
   "unit": "bar",
   "source_page": 11
  },
  {
-  "parameter": "Ordering Information - C Series | 1/3 psi (0.03 bar) | Designator",
+  "parameter": "Ordering Information - C Series | C Series | 1/3 psi (0.03 bar) | Cracking pressure designator",
   "value": "1/3",
   "unit": null,
   "source_page": 11
  },
  {
-  "parameter": "Ordering Information - C Series | 1 psi (0.07 bar) | Cracking pressure",
+  "parameter": "Ordering Information - C Series | C Series | 1 psi (0.07 bar) | Cracking pressure",
   "value": "1",
   "unit": "psi",
   "source_page": 11
  },
  {
-  "parameter": "Ordering Information - C Series | 1 psi (0.07 bar) | Cracking pressure",
+  "parameter": "Ordering Information - C Series | C Series | 1 psi (0.07 bar) | Cracking pressure",
   "value": "0.07",
   "unit": "bar",
   "source_page": 11
  },
  {
-  "parameter": "Ordering Information - C Series | 1 psi (0.07 bar) | Designator",
+  "parameter": "Ordering Information - C Series | C Series | 1 psi (0.07 bar) | Cracking pressure designator",
   "value": "1",
   "unit": null,
   "source_page": 11
  },
  {
-  "parameter": "Ordering Information - C Series | 10 psi (0.69 bar) | Cracking pressure",
+  "parameter": "Ordering Information - C Series | C Series | 10 psi (0.69 bar) | Cracking pressure",
   "value": "10",
   "unit": "psi",
   "source_page": 11
  },
  {
-  "parameter": "Ordering Information - C Series | 10 psi (0.69 bar) | Cracking pressure",
+  "parameter": "Ordering Information - C Series | C Series | 10 psi (0.69 bar) | Cracking pressure",
   "value": "0.69",
   "unit": "bar",
   "source_page": 11
  },
  {
-  "parameter": "Ordering Information - C Series | 10 psi (0.69 bar) | Designator",
+  "parameter": "Ordering Information - C Series | C Series | 10 psi (0.69 bar) | Cracking pressure designator",
   "value": "10",
   "unit": null,
   "source_page": 11
  },
  {
-  "parameter": "Ordering Information - C Series | 25 psi (1.8 bar) | Cracking pressure",
+  "parameter": "Ordering Information - C Series | C Series | 25 psi (1.8 bar) | Cracking pressure",
   "value": "25",
   "unit": "psi",
   "source_page": 11
  },
  {
-  "parameter": "Ordering Information - C Series | 25 psi (1.8 bar) | Cracking pressure",
+  "parameter": "Ordering Information - C Series | C Series | 25 psi (1.8 bar) | Cracking pressure",
   "value": "1.8",
   "unit": "bar",
   "source_page": 11
  },
  {
-  "parameter": "Ordering Information - C Series | 25 psi (1.8 bar) | Designator",
+  "parameter": "Ordering Information - C Series | C Series | 25 psi (1.8 bar) | Cracking pressure designator",
   "value": "25",
   "unit": null,
   "source_page": 11
  },
  {
-  "parameter": "Ordering Information - CA Series | 3 to 50 psi (0.21 to 3.5 bar) | Cracking pressure",
+  "parameter": "Ordering Information - CA Series | CA Series | 3 to 50 psi (0.21 to 3.5 bar) | Cracking pressure",
   "value": "3 to 50",
   "unit": "psi",
   "source_page": 11
  },
  {
-  "parameter": "Ordering Information - CA Series | 3 to 50 psi (0.21 to 3.5 bar) | Cracking pressure",
+  "parameter": "Ordering Information - CA Series | CA Series | 3 to 50 psi (0.21 to 3.5 bar) | Cracking pressure",
   "value": "0.21 to 3.5",
   "unit": "bar",
   "source_page": 11
  },
  {
-  "parameter": "Ordering Information - CA Series | 3 to 50 psi (0.21 to 3.5 bar) | Designator",
+  "parameter": "Ordering Information - CA Series | CA Series | 3 to 50 psi (0.21 to 3.5 bar) | Cracking pressure range designator",
   "value": "3",
   "unit": null,
   "source_page": 11
  },
  {
-  "parameter": "Ordering Information - CA Series | 50 to 150 psi (3.5 to 10.4 bar) | Cracking pressure",
+  "parameter": "Ordering Information - CA Series | CA Series | 50 to 150 psi (3.5 to 10.4 bar) | Cracking pressure",
   "value": "50 to 150",
   "unit": "psi",
   "source_page": 11
  },
  {
-  "parameter": "Ordering Information - CA Series | 50 to 150 psi (3.5 to 10.4 bar) | Cracking pressure",
+  "parameter": "Ordering Information - CA Series | CA Series | 50 to 150 psi (3.5 to 10.4 bar) | Cracking pressure",
   "value": "3.5 to 10.4",
   "unit": "bar",
   "source_page": 11
  },
  {
-  "parameter": "Ordering Information - CA Series | 50 to 150 psi (3.5 to 10.4 bar) | Designator",
+  "parameter": "Ordering Information - CA Series | CA Series | 50 to 150 psi (3.5 to 10.4 bar) | Cracking pressure range designator",
   "value": "50",
   "unit": null,
   "source_page": 11
  },
  {
-  "parameter": "Ordering Information - CA Series | 150 to 350 psi (10.4 to 24.2 bar) | Cracking pressure",
+  "parameter": "Ordering Information - CA Series | CA Series | 150 to 350 psi (10.4 to 24.2 bar) | Cracking pressure",
   "value": "150 to 350",
   "unit": "psi",
   "source_page": 11
  },
  {
-  "parameter": "Ordering Information - CA Series | 150 to 350 psi (10.4 to 24.2 bar) | Cracking pressure",
+  "parameter": "Ordering Information - CA Series | CA Series | 150 to 350 psi (10.4 to 24.2 bar) | Cracking pressure",
   "value": "10.4 to 24.2",
   "unit": "bar",
   "source_page": 11
  },
  {
-  "parameter": "Ordering Information - CA Series | 150 to 350 psi (10.4 to 24.2 bar) | Designator",
+  "parameter": "Ordering Information - CA Series | CA Series | 150 to 350 psi (10.4 to 24.2 bar) | Cracking pressure range designator",
   "value": "150",
   "unit": null,
   "source_page": 11
  },
  {
-  "parameter": "Ordering Information - CA Series | 350 to 600 psi (24.2 to 41.4 bar) | Cracking pressure",
+  "parameter": "Ordering Information - CA Series | CA Series | 350 to 600 psi (24.2 to 41.4 bar) | Cracking pressure",
   "value": "350 to 600",
   "unit": "psi",
   "source_page": 11
  },
  {
-  "parameter": "Ordering Information - CA Series | 350 to 600 psi (24.2 to 41.4 bar) | Cracking pressure",
+  "parameter": "Ordering Information - CA Series | CA Series | 350 to 600 psi (24.2 to 41.4 bar) | Cracking pressure",
   "value": "24.2 to 41.4",
   "unit": "bar",
   "source_page": 11
  },
  {
-  "parameter": "Ordering Information - CA Series | 350 to 600 psi (24.2 to 41.4 bar) | Designator",
+  "parameter": "Ordering Information - CA Series | CA Series | 350 to 600 psi (24.2 to 41.4 bar) | Cracking pressure range designator",
   "value": "350",
   "unit": null,
   "source_page": 11
@@ -5244,91 +5244,91 @@
   "source_page": 12
  },
  {
-  "parameter": "Ordering Information - CH Series | 1/3 psi (0.03 bar) | Cracking pressure",
+  "parameter": "Ordering Information - CH Series | CH Series | 1/3 psi (0.03 bar) | Cracking pressure",
   "value": "1/3",
   "unit": "psi",
   "source_page": 12
  },
  {
-  "parameter": "Ordering Information - CH Series | 1/3 psi (0.03 bar) | Cracking pressure",
+  "parameter": "Ordering Information - CH Series | CH Series | 1/3 psi (0.03 bar) | Cracking pressure",
   "value": "0.03",
   "unit": "bar",
   "source_page": 12
  },
  {
-  "parameter": "Ordering Information - CH Series | 1/3 psi (0.03 bar) | Designator",
+  "parameter": "Ordering Information - CH Series | CH Series | 1/3 psi (0.03 bar) | Cracking pressure designator",
   "value": "1/3",
   "unit": null,
   "source_page": 12
  },
  {
-  "parameter": "Ordering Information - CH Series | 1 psi (0.07 bar) | Cracking pressure",
+  "parameter": "Ordering Information - CH Series | CH Series | 1 psi (0.07 bar) | Cracking pressure",
   "value": "1",
   "unit": "psi",
   "source_page": 12
  },
  {
-  "parameter": "Ordering Information - CH Series | 1 psi (0.07 bar) | Cracking pressure",
+  "parameter": "Ordering Information - CH Series | CH Series | 1 psi (0.07 bar) | Cracking pressure",
   "value": "0.07",
   "unit": "bar",
   "source_page": 12
  },
  {
-  "parameter": "Ordering Information - CH Series | 1 psi (0.07 bar) | Designator",
+  "parameter": "Ordering Information - CH Series | CH Series | 1 psi (0.07 bar) | Cracking pressure designator",
   "value": "1",
   "unit": null,
   "source_page": 12
  },
  {
-  "parameter": "Ordering Information - CH Series | 5 psi (0.35 bar) | Cracking pressure",
+  "parameter": "Ordering Information - CH Series | CH Series | 5 psi (0.35 bar) | Cracking pressure",
   "value": "5",
   "unit": "psi",
   "source_page": 12
  },
  {
-  "parameter": "Ordering Information - CH Series | 5 psi (0.35 bar) | Cracking pressure",
+  "parameter": "Ordering Information - CH Series | CH Series | 5 psi (0.35 bar) | Cracking pressure",
   "value": "0.35",
   "unit": "bar",
   "source_page": 12
  },
  {
-  "parameter": "Ordering Information - CH Series | 5 psi (0.35 bar) | Designator",
+  "parameter": "Ordering Information - CH Series | CH Series | 5 psi (0.35 bar) | Cracking pressure designator",
   "value": "5",
   "unit": null,
   "source_page": 12
  },
  {
-  "parameter": "Ordering Information - CH Series | 10 psi (0.69 bar) | Cracking pressure",
+  "parameter": "Ordering Information - CH Series | CH Series | 10 psi (0.69 bar) | Cracking pressure",
   "value": "10",
   "unit": "psi",
   "source_page": 12
  },
  {
-  "parameter": "Ordering Information - CH Series | 10 psi (0.69 bar) | Cracking pressure",
+  "parameter": "Ordering Information - CH Series | CH Series | 10 psi (0.69 bar) | Cracking pressure",
   "value": "0.69",
   "unit": "bar",
   "source_page": 12
  },
  {
-  "parameter": "Ordering Information - CH Series | 10 psi (0.69 bar) | Designator",
+  "parameter": "Ordering Information - CH Series | CH Series | 10 psi (0.69 bar) | Cracking pressure designator",
   "value": "10",
   "unit": null,
   "source_page": 12
  },
  {
-  "parameter": "Ordering Information - CH Series | 25 psi (1.8 bar) | Cracking pressure",
+  "parameter": "Ordering Information - CH Series | CH Series | 25 psi (1.8 bar) | Cracking pressure",
   "value": "25",
   "unit": "psi",
   "source_page": 12
  },
  {
-  "parameter": "Ordering Information - CH Series | 25 psi (1.8 bar) | Cracking pressure",
+  "parameter": "Ordering Information - CH Series | CH Series | 25 psi (1.8 bar) | Cracking pressure",
   "value": "1.8",
   "unit": "bar",
   "source_page": 12
  },
  {
-  "parameter": "Ordering Information - CH Series | 25 psi (1.8 bar) | Designator",
+  "parameter": "Ordering Information - CH Series | CH Series | 25 psi (1.8 bar) | Cracking pressure designator",
   "value": "25",
   "unit": null,
   "source_page": 12
@@ -5802,73 +5802,73 @@
   "source_page": 13
  },
  {
-  "parameter": "Ordering Information - CP Series | 1/3 psi (0.03 bar) | Cracking pressure",
+  "parameter": "Ordering Information - CP Series | CP Series | 1/3 psi (0.03 bar) | Cracking pressure",
   "value": "1/3",
   "unit": "psi",
   "source_page": 13
  },
  {
-  "parameter": "Ordering Information - CP Series | 1/3 psi (0.03 bar) | Cracking pressure",
+  "parameter": "Ordering Information - CP Series | CP Series | 1/3 psi (0.03 bar) | Cracking pressure",
   "value": "0.03",
   "unit": "bar",
   "source_page": 13
  },
  {
-  "parameter": "Ordering Information - CP Series | 1/3 psi (0.03 bar) | Designator",
+  "parameter": "Ordering Information - CP Series | CP Series | 1/3 psi (0.03 bar) | Cracking pressure designator",
   "value": "1/3",
   "unit": null,
   "source_page": 13
  },
  {
-  "parameter": "Ordering Information - CP Series | 1 psi (0.07 bar) | Cracking pressure",
+  "parameter": "Ordering Information - CP Series | CP Series | 1 psi (0.07 bar) | Cracking pressure",
   "value": "1",
   "unit": "psi",
   "source_page": 13
  },
  {
-  "parameter": "Ordering Information - CP Series | 1 psi (0.07 bar) | Cracking pressure",
+  "parameter": "Ordering Information - CP Series | CP Series | 1 psi (0.07 bar) | Cracking pressure",
   "value": "0.07",
   "unit": "bar",
   "source_page": 13
  },
  {
-  "parameter": "Ordering Information - CP Series | 1 psi (0.07 bar) | Designator",
+  "parameter": "Ordering Information - CP Series | CP Series | 1 psi (0.07 bar) | Cracking pressure designator",
   "value": "1",
   "unit": null,
   "source_page": 13
  },
  {
-  "parameter": "Ordering Information - CP Series | 10 psi (0.69 bar) | Cracking pressure",
+  "parameter": "Ordering Information - CP Series | CP Series | 10 psi (0.69 bar) | Cracking pressure",
   "value": "10",
   "unit": "psi",
   "source_page": 13
  },
  {
-  "parameter": "Ordering Information - CP Series | 10 psi (0.69 bar) | Cracking pressure",
+  "parameter": "Ordering Information - CP Series | CP Series | 10 psi (0.69 bar) | Cracking pressure",
   "value": "0.69",
   "unit": "bar",
   "source_page": 13
  },
  {
-  "parameter": "Ordering Information - CP Series | 10 psi (0.69 bar) | Designator",
+  "parameter": "Ordering Information - CP Series | CP Series | 10 psi (0.69 bar) | Cracking pressure designator",
   "value": "10",
   "unit": null,
   "source_page": 13
  },
  {
-  "parameter": "Ordering Information - CP Series | 25 psi (1.8 bar) | Cracking pressure",
+  "parameter": "Ordering Information - CP Series | CP Series | 25 psi (1.8 bar) | Cracking pressure",
   "value": "25",
   "unit": "psi",
   "source_page": 13
  },
  {
-  "parameter": "Ordering Information - CP Series | 25 psi (1.8 bar) | Cracking pressure",
+  "parameter": "Ordering Information - CP Series | CP Series | 25 psi (1.8 bar) | Cracking pressure",
   "value": "1.8",
   "unit": "bar",
   "source_page": 13
  },
  {
-  "parameter": "Ordering Information - CP Series | 25 psi (1.8 bar) | Designator",
+  "parameter": "Ordering Information - CP Series | CP Series | 25 psi (1.8 bar) | Cracking pressure designator",
   "value": "25",
   "unit": null,
   "source_page": 13
@@ -5886,73 +5886,73 @@
   "source_page": 13
  },
  {
-  "parameter": "Ordering Information - CPA Series | 3 to 50 psi (0.21 to 3.5 bar) | Cracking pressure",
+  "parameter": "Ordering Information - CPA Series | CPA Series | 3 to 50 psi (0.21 to 3.5 bar) | Cracking pressure",
   "value": "3 to 50",
   "unit": "psi",
   "source_page": 13
  },
  {
-  "parameter": "Ordering Information - CPA Series | 3 to 50 psi (0.21 to 3.5 bar) | Cracking pressure",
+  "parameter": "Ordering Information - CPA Series | CPA Series | 3 to 50 psi (0.21 to 3.5 bar) | Cracking pressure",
   "value": "0.21 to 3.5",
   "unit": "bar",
   "source_page": 13
  },
  {
-  "parameter": "Ordering Information - CPA Series | 3 to 50 psi (0.21 to 3.5 bar) | Designator",
+  "parameter": "Ordering Information - CPA Series | CPA Series | 3 to 50 psi (0.21 to 3.5 bar) | Cracking pressure range designator",
   "value": "3",
   "unit": null,
   "source_page": 13
  },
  {
-  "parameter": "Ordering Information - CPA Series | 50 to 150 psi (3.5 to 10.4 bar) | Cracking pressure",
+  "parameter": "Ordering Information - CPA Series | CPA Series | 50 to 150 psi (3.5 to 10.4 bar) | Cracking pressure",
   "value": "50 to 150",
   "unit": "psi",
   "source_page": 13
  },
  {
-  "parameter": "Ordering Information - CPA Series | 50 to 150 psi (3.5 to 10.4 bar) | Cracking pressure",
+  "parameter": "Ordering Information - CPA Series | CPA Series | 50 to 150 psi (3.5 to 10.4 bar) | Cracking pressure",
   "value": "3.5 to 10.4",
   "unit": "bar",
   "source_page": 13
  },
  {
-  "parameter": "Ordering Information - CPA Series | 50 to 150 psi (3.5 to 10.4 bar) | Designator",
+  "parameter": "Ordering Information - CPA Series | CPA Series | 50 to 150 psi (3.5 to 10.4 bar) | Cracking pressure range designator",
   "value": "50",
   "unit": null,
   "source_page": 13
  },
  {
-  "parameter": "Ordering Information - CPA Series | 150 to 350 psi (10.4 to 24.2 bar) | Cracking pressure",
+  "parameter": "Ordering Information - CPA Series | CPA Series | 150 to 350 psi (10.4 to 24.2 bar) | Cracking pressure",
   "value": "150 to 350",
   "unit": "psi",
   "source_page": 13
  },
  {
-  "parameter": "Ordering Information - CPA Series | 150 to 350 psi (10.4 to 24.2 bar) | Cracking pressure",
+  "parameter": "Ordering Information - CPA Series | CPA Series | 150 to 350 psi (10.4 to 24.2 bar) | Cracking pressure",
   "value": "10.4 to 24.2",
   "unit": "bar",
   "source_page": 13
  },
  {
-  "parameter": "Ordering Information - CPA Series | 150 to 350 psi (10.4 to 24.2 bar) | Designator",
+  "parameter": "Ordering Information - CPA Series | CPA Series | 150 to 350 psi (10.4 to 24.2 bar) | Cracking pressure range designator",
   "value": "150",
   "unit": null,
   "source_page": 13
  },
  {
-  "parameter": "Ordering Information - CPA Series | 350 to 600 psi (24.2 to 41.4 bar) | Cracking pressure",
+  "parameter": "Ordering Information - CPA Series | CPA Series | 350 to 600 psi (24.2 to 41.4 bar) | Cracking pressure",
   "value": "350 to 600",
   "unit": "psi",
   "source_page": 13
  },
  {
-  "parameter": "Ordering Information - CPA Series | 350 to 600 psi (24.2 to 41.4 bar) | Cracking pressure",
+  "parameter": "Ordering Information - CPA Series | CPA Series | 350 to 600 psi (24.2 to 41.4 bar) | Cracking pressure",
   "value": "24.2 to 41.4",
   "unit": "bar",
   "source_page": 13
  },
  {
-  "parameter": "Ordering Information - CPA Series | 350 to 600 psi (24.2 to 41.4 bar) | Designator",
+  "parameter": "Ordering Information - CPA Series | CPA Series | 350 to 600 psi (24.2 to 41.4 bar) | Cracking pressure range designator",
   "value": "350",
   "unit": null,
   "source_page": 13
@@ -5994,7 +5994,7 @@
   "source_page": 14
  },
  {
-  "parameter": "Seal Materials (All Series) | Buna N | Designator",
+  "parameter": "Seal Materials (All Series) | Buna N | Seal material designator",
   "value": "-BU",
   "unit": null,
   "source_page": 14
@@ -6012,7 +6012,7 @@
   "source_page": 14
  },
  {
-  "parameter": "Seal Materials (All Series) | Ethylene propylene | Designator",
+  "parameter": "Seal Materials (All Series) | Ethylene propylene | Seal material designator",
   "value": "-EP",
   "unit": null,
   "source_page": 14
@@ -6030,7 +6030,7 @@
   "source_page": 14
  },
  {
-  "parameter": "Seal Materials (All Series) | Fluorocarbon FKM | Designator",
+  "parameter": "Seal Materials (All Series) | Fluorocarbon FKM | Seal material designator",
   "value": "-VI",
   "unit": null,
   "source_page": 14
@@ -6048,7 +6048,7 @@
   "source_page": 14
  },
  {
-  "parameter": "Seal Materials (All Series) | Neoprene | Designator",
+  "parameter": "Seal Materials (All Series) | Neoprene | Seal material designator",
   "value": "-NE",
   "unit": null,
   "source_page": 14
@@ -6426,25 +6426,25 @@
   "source_page": 15
  },
  {
-  "parameter": "C, CP, CA, and CPA Series Seal Kits | Fixed Cracking Pressures: 1/3, 1, 10, and 25 psi (0.03, 0.07, 0.69, and 1.8 bar) | 2C, 4C | Kit ordering number",
+  "parameter": "C, CP, CA, and CPA Series Seal Kits | Fixed Cracking Pressures: 1/3, 1, 10, and 25 psi (0.03, 0.07, 0.69, and 1.8 bar) | 2C, 4C | Seal kit ordering number",
   "value": "NEO70-4C-K4",
   "unit": null,
   "source_page": 15
  },
  {
-  "parameter": "C, CP, CA, and CPA Series Seal Kits | Fixed Cracking Pressures: 1/3, 1, 10, and 25 psi (0.03, 0.07, 0.69, and 1.8 bar) | 2C, 4C | Kit ordering number",
+  "parameter": "C, CP, CA, and CPA Series Seal Kits | Fixed Cracking Pressures: 1/3, 1, 10, and 25 psi (0.03, 0.07, 0.69, and 1.8 bar) | 2C, 4C | Seal kit ordering number",
   "value": "VI70-4C-K4",
   "unit": null,
   "source_page": 15
  },
  {
-  "parameter": "C, CP, CA, and CPA Series Seal Kits | Fixed Cracking Pressures: 1/3, 1, 10, and 25 psi (0.03, 0.07, 0.69, and 1.8 bar) | 2C, 4C | Kit ordering number",
+  "parameter": "C, CP, CA, and CPA Series Seal Kits | Fixed Cracking Pressures: 1/3, 1, 10, and 25 psi (0.03, 0.07, 0.69, and 1.8 bar) | 2C, 4C | Seal kit ordering number",
   "value": "BU80-4C-K4",
   "unit": null,
   "source_page": 15
  },
  {
-  "parameter": "C, CP, CA, and CPA Series Seal Kits | Fixed Cracking Pressures: 1/3, 1, 10, and 25 psi (0.03, 0.07, 0.69, and 1.8 bar) | 2C, 4C | Kit ordering number",
+  "parameter": "C, CP, CA, and CPA Series Seal Kits | Fixed Cracking Pressures: 1/3, 1, 10, and 25 psi (0.03, 0.07, 0.69, and 1.8 bar) | 2C, 4C | Seal kit ordering number",
   "value": "EP80-4C-K4",
   "unit": null,
   "source_page": 15
@@ -6456,25 +6456,25 @@
   "source_page": 15
  },
  {
-  "parameter": "C, CP, CA, and CPA Series Seal Kits | Fixed Cracking Pressures: 1/3, 1, 10, and 25 psi (0.03, 0.07, 0.69, and 1.8 bar) | 4CP | Kit ordering number",
+  "parameter": "C, CP, CA, and CPA Series Seal Kits | Fixed Cracking Pressures: 1/3, 1, 10, and 25 psi (0.03, 0.07, 0.69, and 1.8 bar) | 4CP | Seal kit ordering number",
   "value": "NEO60-4C-K4",
   "unit": null,
   "source_page": 15
  },
  {
-  "parameter": "C, CP, CA, and CPA Series Seal Kits | Fixed Cracking Pressures: 1/3, 1, 10, and 25 psi (0.03, 0.07, 0.69, and 1.8 bar) | 4CP | Kit ordering number",
+  "parameter": "C, CP, CA, and CPA Series Seal Kits | Fixed Cracking Pressures: 1/3, 1, 10, and 25 psi (0.03, 0.07, 0.69, and 1.8 bar) | 4CP | Seal kit ordering number",
   "value": "VI60-4C-K4",
   "unit": null,
   "source_page": 15
  },
  {
-  "parameter": "C, CP, CA, and CPA Series Seal Kits | Fixed Cracking Pressures: 1/3, 1, 10, and 25 psi (0.03, 0.07, 0.69, and 1.8 bar) | 4CP | Kit ordering number",
+  "parameter": "C, CP, CA, and CPA Series Seal Kits | Fixed Cracking Pressures: 1/3, 1, 10, and 25 psi (0.03, 0.07, 0.69, and 1.8 bar) | 4CP | Seal kit ordering number",
   "value": "BU60-4C-K4",
   "unit": null,
   "source_page": 15
  },
  {
-  "parameter": "C, CP, CA, and CPA Series Seal Kits | Fixed Cracking Pressures: 1/3, 1, 10, and 25 psi (0.03, 0.07, 0.69, and 1.8 bar) | 4CP | Kit ordering number",
+  "parameter": "C, CP, CA, and CPA Series Seal Kits | Fixed Cracking Pressures: 1/3, 1, 10, and 25 psi (0.03, 0.07, 0.69, and 1.8 bar) | 4CP | Seal kit ordering number",
   "value": "EP60-4C-K4",
   "unit": null,
   "source_page": 15
@@ -6486,25 +6486,25 @@
   "source_page": 15
  },
  {
-  "parameter": "C, CP, CA, and CPA Series Seal Kits | Fixed Cracking Pressures: 1/3, 1, 10, and 25 psi (0.03, 0.07, 0.69, and 1.8 bar) | 6C, 8C | Kit ordering number",
+  "parameter": "C, CP, CA, and CPA Series Seal Kits | Fixed Cracking Pressures: 1/3, 1, 10, and 25 psi (0.03, 0.07, 0.69, and 1.8 bar) | 6C, 8C | Seal kit ordering number",
   "value": "NEO70-8C-K4",
   "unit": null,
   "source_page": 15
  },
  {
-  "parameter": "C, CP, CA, and CPA Series Seal Kits | Fixed Cracking Pressures: 1/3, 1, 10, and 25 psi (0.03, 0.07, 0.69, and 1.8 bar) | 6C, 8C | Kit ordering number",
+  "parameter": "C, CP, CA, and CPA Series Seal Kits | Fixed Cracking Pressures: 1/3, 1, 10, and 25 psi (0.03, 0.07, 0.69, and 1.8 bar) | 6C, 8C | Seal kit ordering number",
   "value": "VI70-8C-K4",
   "unit": null,
   "source_page": 15
  },
  {
-  "parameter": "C, CP, CA, and CPA Series Seal Kits | Fixed Cracking Pressures: 1/3, 1, 10, and 25 psi (0.03, 0.07, 0.69, and 1.8 bar) | 6C, 8C | Kit ordering number",
+  "parameter": "C, CP, CA, and CPA Series Seal Kits | Fixed Cracking Pressures: 1/3, 1, 10, and 25 psi (0.03, 0.07, 0.69, and 1.8 bar) | 6C, 8C | Seal kit ordering number",
   "value": "BU70-8C-K4",
   "unit": null,
   "source_page": 15
  },
  {
-  "parameter": "C, CP, CA, and CPA Series Seal Kits | Fixed Cracking Pressures: 1/3, 1, 10, and 25 psi (0.03, 0.07, 0.69, and 1.8 bar) | 6C, 8C | Kit ordering number",
+  "parameter": "C, CP, CA, and CPA Series Seal Kits | Fixed Cracking Pressures: 1/3, 1, 10, and 25 psi (0.03, 0.07, 0.69, and 1.8 bar) | 6C, 8C | Seal kit ordering number",
   "value": "EP70-8C-K4",
   "unit": null,
   "source_page": 15
@@ -6516,25 +6516,25 @@
   "source_page": 15
  },
  {
-  "parameter": "C, CP, CA, and CPA Series Seal Kits | Fixed Cracking Pressures: 1/3, 1, 10, and 25 psi (0.03, 0.07, 0.69, and 1.8 bar) | 8CP | Kit ordering number",
+  "parameter": "C, CP, CA, and CPA Series Seal Kits | Fixed Cracking Pressures: 1/3, 1, 10, and 25 psi (0.03, 0.07, 0.69, and 1.8 bar) | 8CP | Seal kit ordering number",
   "value": "NEO70-8CP-K4",
   "unit": null,
   "source_page": 15
  },
  {
-  "parameter": "C, CP, CA, and CPA Series Seal Kits | Fixed Cracking Pressures: 1/3, 1, 10, and 25 psi (0.03, 0.07, 0.69, and 1.8 bar) | 8CP | Kit ordering number",
+  "parameter": "C, CP, CA, and CPA Series Seal Kits | Fixed Cracking Pressures: 1/3, 1, 10, and 25 psi (0.03, 0.07, 0.69, and 1.8 bar) | 8CP | Seal kit ordering number",
   "value": "VI70-8CP-K4",
   "unit": null,
   "source_page": 15
  },
  {
-  "parameter": "C, CP, CA, and CPA Series Seal Kits | Fixed Cracking Pressures: 1/3, 1, 10, and 25 psi (0.03, 0.07, 0.69, and 1.8 bar) | 8CP | Kit ordering number",
+  "parameter": "C, CP, CA, and CPA Series Seal Kits | Fixed Cracking Pressures: 1/3, 1, 10, and 25 psi (0.03, 0.07, 0.69, and 1.8 bar) | 8CP | Seal kit ordering number",
   "value": "BU70-8CP-K4",
   "unit": null,
   "source_page": 15
  },
  {
-  "parameter": "C, CP, CA, and CPA Series Seal Kits | Fixed Cracking Pressures: 1/3, 1, 10, and 25 psi (0.03, 0.07, 0.69, and 1.8 bar) | 8CP | Kit ordering number",
+  "parameter": "C, CP, CA, and CPA Series Seal Kits | Fixed Cracking Pressures: 1/3, 1, 10, and 25 psi (0.03, 0.07, 0.69, and 1.8 bar) | 8CP | Seal kit ordering number",
   "value": "EP70-8CP-K4",
   "unit": null,
   "source_page": 15
@@ -6546,25 +6546,25 @@
   "source_page": 15
  },
  {
-  "parameter": "C, CP, CA, and CPA Series Seal Kits | Fixed Cracking Pressures: 1/3, 1, 10, and 25 psi (0.03, 0.07, 0.69, and 1.8 bar) | 12C, 16C | Kit ordering number",
+  "parameter": "C, CP, CA, and CPA Series Seal Kits | Fixed Cracking Pressures: 1/3, 1, 10, and 25 psi (0.03, 0.07, 0.69, and 1.8 bar) | 12C, 16C | Seal kit ordering number",
   "value": "NEO70-14C-K4",
   "unit": null,
   "source_page": 15
  },
  {
-  "parameter": "C, CP, CA, and CPA Series Seal Kits | Fixed Cracking Pressures: 1/3, 1, 10, and 25 psi (0.03, 0.07, 0.69, and 1.8 bar) | 12C, 16C | Kit ordering number",
+  "parameter": "C, CP, CA, and CPA Series Seal Kits | Fixed Cracking Pressures: 1/3, 1, 10, and 25 psi (0.03, 0.07, 0.69, and 1.8 bar) | 12C, 16C | Seal kit ordering number",
   "value": "VI70-14C-K4",
   "unit": null,
   "source_page": 15
  },
  {
-  "parameter": "C, CP, CA, and CPA Series Seal Kits | Fixed Cracking Pressures: 1/3, 1, 10, and 25 psi (0.03, 0.07, 0.69, and 1.8 bar) | 12C, 16C | Kit ordering number",
+  "parameter": "C, CP, CA, and CPA Series Seal Kits | Fixed Cracking Pressures: 1/3, 1, 10, and 25 psi (0.03, 0.07, 0.69, and 1.8 bar) | 12C, 16C | Seal kit ordering number",
   "value": "BU70-14C-K4",
   "unit": null,
   "source_page": 15
  },
  {
-  "parameter": "C, CP, CA, and CPA Series Seal Kits | Fixed Cracking Pressures: 1/3, 1, 10, and 25 psi (0.03, 0.07, 0.69, and 1.8 bar) | 12C, 16C | Kit ordering number",
+  "parameter": "C, CP, CA, and CPA Series Seal Kits | Fixed Cracking Pressures: 1/3, 1, 10, and 25 psi (0.03, 0.07, 0.69, and 1.8 bar) | 12C, 16C | Seal kit ordering number",
   "value": "EP70-14C-K4",
   "unit": null,
   "source_page": 15
@@ -6576,25 +6576,25 @@
   "source_page": 15
  },
  {
-  "parameter": "C, CP, CA, and CPA Series Seal Kits | Adjustable Cracking Pressures: 3 to 150 psi (0.21 to 10.4 bar) | CA, 4CPA | Kit ordering number",
+  "parameter": "C, CP, CA, and CPA Series Seal Kits | Adjustable Cracking Pressures: 3 to 150 psi (0.21 to 10.4 bar) | CA, 4CPA | Seal kit ordering number",
   "value": "NEO70-4C-K4",
   "unit": null,
   "source_page": 15
  },
  {
-  "parameter": "C, CP, CA, and CPA Series Seal Kits | Adjustable Cracking Pressures: 3 to 150 psi (0.21 to 10.4 bar) | CA, 4CPA | Kit ordering number",
+  "parameter": "C, CP, CA, and CPA Series Seal Kits | Adjustable Cracking Pressures: 3 to 150 psi (0.21 to 10.4 bar) | CA, 4CPA | Seal kit ordering number",
   "value": "VI70-4C-K4",
   "unit": null,
   "source_page": 15
  },
  {
-  "parameter": "C, CP, CA, and CPA Series Seal Kits | Adjustable Cracking Pressures: 3 to 150 psi (0.21 to 10.4 bar) | CA, 4CPA | Kit ordering number",
+  "parameter": "C, CP, CA, and CPA Series Seal Kits | Adjustable Cracking Pressures: 3 to 150 psi (0.21 to 10.4 bar) | CA, 4CPA | Seal kit ordering number",
   "value": "BU70-4C-K4",
   "unit": null,
   "source_page": 15
  },
  {
-  "parameter": "C, CP, CA, and CPA Series Seal Kits | Adjustable Cracking Pressures: 3 to 150 psi (0.21 to 10.4 bar) | CA, 4CPA | Kit ordering number",
+  "parameter": "C, CP, CA, and CPA Series Seal Kits | Adjustable Cracking Pressures: 3 to 150 psi (0.21 to 10.4 bar) | CA, 4CPA | Seal kit ordering number",
   "value": "EP70-4C-K4",
   "unit": null,
   "source_page": 15
@@ -6606,25 +6606,25 @@
   "source_page": 15
  },
  {
-  "parameter": "C, CP, CA, and CPA Series Seal Kits | Adjustable Cracking Pressures: 3 to 150 psi (0.21 to 10.4 bar) | 8CPA | Kit ordering number",
+  "parameter": "C, CP, CA, and CPA Series Seal Kits | Adjustable Cracking Pressures: 3 to 150 psi (0.21 to 10.4 bar) | 8CPA | Seal kit ordering number",
   "value": "NEO70-8CP-K4",
   "unit": null,
   "source_page": 15
  },
  {
-  "parameter": "C, CP, CA, and CPA Series Seal Kits | Adjustable Cracking Pressures: 3 to 150 psi (0.21 to 10.4 bar) | 8CPA | Kit ordering number",
+  "parameter": "C, CP, CA, and CPA Series Seal Kits | Adjustable Cracking Pressures: 3 to 150 psi (0.21 to 10.4 bar) | 8CPA | Seal kit ordering number",
   "value": "VI70-8CP-K4",
   "unit": null,
   "source_page": 15
  },
  {
-  "parameter": "C, CP, CA, and CPA Series Seal Kits | Adjustable Cracking Pressures: 3 to 150 psi (0.21 to 10.4 bar) | 8CPA | Kit ordering number",
+  "parameter": "C, CP, CA, and CPA Series Seal Kits | Adjustable Cracking Pressures: 3 to 150 psi (0.21 to 10.4 bar) | 8CPA | Seal kit ordering number",
   "value": "BU70-8CP-K4",
   "unit": null,
   "source_page": 15
  },
  {
-  "parameter": "C, CP, CA, and CPA Series Seal Kits | Adjustable Cracking Pressures: 3 to 150 psi (0.21 to 10.4 bar) | 8CPA | Kit ordering number",
+  "parameter": "C, CP, CA, and CPA Series Seal Kits | Adjustable Cracking Pressures: 3 to 150 psi (0.21 to 10.4 bar) | 8CPA | Seal kit ordering number",
   "value": "EP70-8CP-K4",
   "unit": null,
   "source_page": 15
@@ -6636,25 +6636,25 @@
   "source_page": 15
  },
  {
-  "parameter": "C, CP, CA, and CPA Series Seal Kits | Adjustable Cracking Pressures: 150 to 600 psi (10.4 to 41.4 bar) | CA, 4CPA | Kit ordering number",
+  "parameter": "C, CP, CA, and CPA Series Seal Kits | Adjustable Cracking Pressures: 150 to 600 psi (10.4 to 41.4 bar) | CA, 4CPA | Seal kit ordering number",
   "value": "NEO90-4C-K4",
   "unit": null,
   "source_page": 15
  },
  {
-  "parameter": "C, CP, CA, and CPA Series Seal Kits | Adjustable Cracking Pressures: 150 to 600 psi (10.4 to 41.4 bar) | CA, 4CPA | Kit ordering number",
+  "parameter": "C, CP, CA, and CPA Series Seal Kits | Adjustable Cracking Pressures: 150 to 600 psi (10.4 to 41.4 bar) | CA, 4CPA | Seal kit ordering number",
   "value": "VI90-4C-K4",
   "unit": null,
   "source_page": 15
  },
  {
-  "parameter": "C, CP, CA, and CPA Series Seal Kits | Adjustable Cracking Pressures: 150 to 600 psi (10.4 to 41.4 bar) | CA, 4CPA | Kit ordering number",
+  "parameter": "C, CP, CA, and CPA Series Seal Kits | Adjustable Cracking Pressures: 150 to 600 psi (10.4 to 41.4 bar) | CA, 4CPA | Seal kit ordering number",
   "value": "BU90-4C-K4",
   "unit": null,
   "source_page": 15
  },
  {
-  "parameter": "C, CP, CA, and CPA Series Seal Kits | Adjustable Cracking Pressures: 150 to 600 psi (10.4 to 41.4 bar) | CA, 4CPA | Kit ordering number",
+  "parameter": "C, CP, CA, and CPA Series Seal Kits | Adjustable Cracking Pressures: 150 to 600 psi (10.4 to 41.4 bar) | CA, 4CPA | Seal kit ordering number",
   "value": "EP90-4C-K4",
   "unit": null,
   "source_page": 15
@@ -6666,25 +6666,25 @@
   "source_page": 15
  },
  {
-  "parameter": "C, CP, CA, and CPA Series Seal Kits | Adjustable Cracking Pressures: 150 to 600 psi (10.4 to 41.4 bar) | 8CPA | Kit ordering number",
+  "parameter": "C, CP, CA, and CPA Series Seal Kits | Adjustable Cracking Pressures: 150 to 600 psi (10.4 to 41.4 bar) | 8CPA | Seal kit ordering number",
   "value": "NEO90-8CP-K4",
   "unit": null,
   "source_page": 15
  },
  {
-  "parameter": "C, CP, CA, and CPA Series Seal Kits | Adjustable Cracking Pressures: 150 to 600 psi (10.4 to 41.4 bar) | 8CPA | Kit ordering number",
+  "parameter": "C, CP, CA, and CPA Series Seal Kits | Adjustable Cracking Pressures: 150 to 600 psi (10.4 to 41.4 bar) | 8CPA | Seal kit ordering number",
   "value": "VI90-8CP-K4",
   "unit": null,
   "source_page": 15
  },
  {
-  "parameter": "C, CP, CA, and CPA Series Seal Kits | Adjustable Cracking Pressures: 150 to 600 psi (10.4 to 41.4 bar) | 8CPA | Kit ordering number",
+  "parameter": "C, CP, CA, and CPA Series Seal Kits | Adjustable Cracking Pressures: 150 to 600 psi (10.4 to 41.4 bar) | 8CPA | Seal kit ordering number",
   "value": "BU90-8CP-K4",
   "unit": null,
   "source_page": 15
  },
  {
-  "parameter": "C, CP, CA, and CPA Series Seal Kits | Adjustable Cracking Pressures: 150 to 600 psi (10.4 to 41.4 bar) | 8CPA | Kit ordering number",
+  "parameter": "C, CP, CA, and CPA Series Seal Kits | Adjustable Cracking Pressures: 150 to 600 psi (10.4 to 41.4 bar) | 8CPA | Seal kit ordering number",
   "value": "EP90-8CP-K4",
   "unit": null,
   "source_page": 15
@@ -6708,55 +6708,55 @@
   "source_page": 15
  },
  {
-  "parameter": "CH Series Seal Kits - table 1 | CH4 | 316 SS | Basic kit ordering number",
+  "parameter": "CH Series Seal Kits - table 1 | CH4 | 316 SS | Basic seal kit ordering number",
   "value": "SS-3K-CH4-",
   "unit": null,
   "source_page": 15
  },
  {
-  "parameter": "CH Series Seal Kits - table 1 | CH4 | Alloy 400 | Basic kit ordering number",
+  "parameter": "CH Series Seal Kits - table 1 | CH4 | Alloy 400 | Basic seal kit ordering number",
   "value": "M-3K-CH4-",
   "unit": null,
   "source_page": 15
  },
  {
-  "parameter": "CH Series Seal Kits - table 1 | CH8 | 316 SS | Basic kit ordering number",
+  "parameter": "CH Series Seal Kits - table 1 | CH8 | 316 SS | Basic seal kit ordering number",
   "value": "SS-3K-CH8-",
   "unit": null,
   "source_page": 15
  },
  {
-  "parameter": "CH Series Seal Kits - table 1 | CH8 | Alloy 400 | Basic kit ordering number",
+  "parameter": "CH Series Seal Kits - table 1 | CH8 | Alloy 400 | Basic seal kit ordering number",
   "value": "M-3K-CH8-",
   "unit": null,
   "source_page": 15
  },
  {
-  "parameter": "CH Series Seal Kits - table 1 | CH16 | 316 SS | Basic kit ordering number",
+  "parameter": "CH Series Seal Kits - table 1 | CH16 | 316 SS | Basic seal kit ordering number",
   "value": "SS-3K-CH16-",
   "unit": null,
   "source_page": 15
  },
  {
-  "parameter": "CH Series Seal Kits - table 2 | Buna N | Designator",
+  "parameter": "CH Series Seal Kits - table 2 | CH Series | Buna N | Seal kit material designator",
   "value": "BN",
   "unit": null,
   "source_page": 15
  },
  {
-  "parameter": "CH Series Seal Kits - table 2 | Ethylene propylene | Designator",
+  "parameter": "CH Series Seal Kits - table 2 | CH Series | Ethylene propylene | Seal kit material designator",
   "value": "EP",
   "unit": null,
   "source_page": 15
  },
  {
-  "parameter": "CH Series Seal Kits - table 2 | Fluorocarbon FKM | Designator",
+  "parameter": "CH Series Seal Kits - table 2 | CH Series | Fluorocarbon FKM | Seal kit material designator",
   "value": "VI",
   "unit": null,
   "source_page": 15
  },
  {
-  "parameter": "CH Series Seal Kits - table 2 | Neoprene | Designator",
+  "parameter": "CH Series Seal Kits - table 2 | CH Series | Neoprene | Seal kit material designator",
   "value": "NE",
   "unit": null,
   "source_page": 15
@@ -6780,25 +6780,25 @@
   "source_page": 15
  },
  {
-  "parameter": "CA and C Series Metal Gasket Kits - table 1 | 2C, 4C (1 gasket) [fn 1] | Basic kit ordering number",
+  "parameter": "CA and C Series Metal Gasket Kits - table 1 | 2C, 4C (1 gasket) [fn 1] | Basic metal gasket kit ordering number",
   "value": "-4C-K6",
   "unit": null,
   "source_page": 15
  },
  {
-  "parameter": "CA and C Series Metal Gasket Kits - table 1 | 6C, 8C (1 gasket) [fn 1] | Basic kit ordering number",
+  "parameter": "CA and C Series Metal Gasket Kits - table 1 | 6C, 8C (1 gasket) [fn 1] | Basic metal gasket kit ordering number",
   "value": "-8C-K6",
   "unit": null,
   "source_page": 15
  },
  {
-  "parameter": "CA and C Series Metal Gasket Kits - table 1 | 12C, 16C (1 gasket) | Basic kit ordering number",
+  "parameter": "CA and C Series Metal Gasket Kits - table 1 | 12C, 16C (1 gasket) | Basic metal gasket kit ordering number",
   "value": "-14C-K6",
   "unit": null,
   "source_page": 15
  },
  {
-  "parameter": "CA and C Series Metal Gasket Kits - table 1 | CA (1 inlet gasket, 1 outlet gasket) | Basic kit ordering number",
+  "parameter": "CA and C Series Metal Gasket Kits - table 1 | CA (1 inlet gasket, 1 outlet gasket) | Basic metal gasket kit ordering number",
   "value": "-4CA-K6",
   "unit": null,
   "source_page": 15
@@ -6810,19 +6810,19 @@
   "source_page": 15
  },
  {
-  "parameter": "CA and C Series Metal Gasket Kits - table 2 | 316 SS | Designator",
+  "parameter": "CA and C Series Metal Gasket Kits - table 2 | 316 SS | Gasket material designator",
   "value": "SS",
   "unit": null,
   "source_page": 15
  },
  {
-  "parameter": "CA and C Series Metal Gasket Kits - table 2 | Alloy 400 [fn 1] | Designator",
+  "parameter": "CA and C Series Metal Gasket Kits - table 2 | Alloy 400 [fn 1] | Gasket material designator",
   "value": "M",
   "unit": null,
   "source_page": 15
  },
  {
-  "parameter": "CA and C Series Metal Gasket Kits - table 2 | Aluminum [fn 2] | Designator",
+  "parameter": "CA and C Series Metal Gasket Kits - table 2 | Aluminum [fn 2] | Gasket material designator",
   "value": "A",
   "unit": null,
   "source_page": 15
@@ -6870,133 +6870,133 @@
   "source_page": 16
  },
  {
-  "parameter": "C, CP, CA, and CPA Series Spring Kits - table 1 | 2C, 4C, 4CP | Cracking pressure 1/3 psi (0.03 bar) | Basic kit ordering number",
+  "parameter": "C, CP, CA, and CPA Series Spring Kits - table 1 | 2C, 4C, 4CP | Cracking pressure 1/3 psi (0.03 bar) | Basic spring kit ordering number",
   "value": "-4C-K2-1/3",
   "unit": null,
   "source_page": 16
  },
  {
-  "parameter": "C, CP, CA, and CPA Series Spring Kits - table 1 | 2C, 4C, 4CP | Cracking pressure 1 psi (0.07 bar) | Basic kit ordering number",
+  "parameter": "C, CP, CA, and CPA Series Spring Kits - table 1 | 2C, 4C, 4CP | Cracking pressure 1 psi (0.07 bar) | Basic spring kit ordering number",
   "value": "-4C-K2-1",
   "unit": null,
   "source_page": 16
  },
  {
-  "parameter": "C, CP, CA, and CPA Series Spring Kits - table 1 | 2C, 4C, 4CP | Cracking pressure 10 psi (0.69 bar) | Basic kit ordering number",
+  "parameter": "C, CP, CA, and CPA Series Spring Kits - table 1 | 2C, 4C, 4CP | Cracking pressure 10 psi (0.69 bar) | Basic spring kit ordering number",
   "value": "-4C-K2-10",
   "unit": null,
   "source_page": 16
  },
  {
-  "parameter": "C, CP, CA, and CPA Series Spring Kits - table 1 | 2C, 4C, 4CP | Cracking pressure 25 psi (1.8 bar) | Basic kit ordering number",
+  "parameter": "C, CP, CA, and CPA Series Spring Kits - table 1 | 2C, 4C, 4CP | Cracking pressure 25 psi (1.8 bar) | Basic spring kit ordering number",
   "value": "-4C-K2-25",
   "unit": null,
   "source_page": 16
  },
  {
-  "parameter": "C, CP, CA, and CPA Series Spring Kits - table 1 | 6C, 8C, 8CP | Cracking pressure 1/3 psi (0.03 bar) | Basic kit ordering number",
+  "parameter": "C, CP, CA, and CPA Series Spring Kits - table 1 | 6C, 8C, 8CP | Cracking pressure 1/3 psi (0.03 bar) | Basic spring kit ordering number",
   "value": "-8C-K2-1/3",
   "unit": null,
   "source_page": 16
  },
  {
-  "parameter": "C, CP, CA, and CPA Series Spring Kits - table 1 | 6C, 8C, 8CP | Cracking pressure 1 psi (0.07 bar) | Basic kit ordering number",
+  "parameter": "C, CP, CA, and CPA Series Spring Kits - table 1 | 6C, 8C, 8CP | Cracking pressure 1 psi (0.07 bar) | Basic spring kit ordering number",
   "value": "-8C-K2-1",
   "unit": null,
   "source_page": 16
  },
  {
-  "parameter": "C, CP, CA, and CPA Series Spring Kits - table 1 | 6C, 8C, 8CP | Cracking pressure 10 psi (0.69 bar) | Basic kit ordering number",
+  "parameter": "C, CP, CA, and CPA Series Spring Kits - table 1 | 6C, 8C, 8CP | Cracking pressure 10 psi (0.69 bar) | Basic spring kit ordering number",
   "value": "-8C-K2-10",
   "unit": null,
   "source_page": 16
  },
  {
-  "parameter": "C, CP, CA, and CPA Series Spring Kits - table 1 | 6C, 8C, 8CP | Cracking pressure 25 psi (1.8 bar) | Basic kit ordering number",
+  "parameter": "C, CP, CA, and CPA Series Spring Kits - table 1 | 6C, 8C, 8CP | Cracking pressure 25 psi (1.8 bar) | Basic spring kit ordering number",
   "value": "-8C-K2-25",
   "unit": null,
   "source_page": 16
  },
  {
-  "parameter": "C, CP, CA, and CPA Series Spring Kits - table 1 | 12C, 16C | Cracking pressure 1/3 psi (0.03 bar) | Basic kit ordering number",
+  "parameter": "C, CP, CA, and CPA Series Spring Kits - table 1 | 12C, 16C | Cracking pressure 1/3 psi (0.03 bar) | Basic spring kit ordering number",
   "value": "-14C-K2-1/3",
   "unit": null,
   "source_page": 16
  },
  {
-  "parameter": "C, CP, CA, and CPA Series Spring Kits - table 1 | 12C, 16C | Cracking pressure 1 psi (0.07 bar) | Basic kit ordering number",
+  "parameter": "C, CP, CA, and CPA Series Spring Kits - table 1 | 12C, 16C | Cracking pressure 1 psi (0.07 bar) | Basic spring kit ordering number",
   "value": "-14C-K2-1",
   "unit": null,
   "source_page": 16
  },
  {
-  "parameter": "C, CP, CA, and CPA Series Spring Kits - table 1 | 12C, 16C | Cracking pressure 10 psi (0.69 bar) | Basic kit ordering number",
+  "parameter": "C, CP, CA, and CPA Series Spring Kits - table 1 | 12C, 16C | Cracking pressure 10 psi (0.69 bar) | Basic spring kit ordering number",
   "value": "-14C-K2-10",
   "unit": null,
   "source_page": 16
  },
  {
-  "parameter": "C, CP, CA, and CPA Series Spring Kits - table 1 | 12C, 16C | Cracking pressure 25 psi (1.8 bar) | Basic kit ordering number",
+  "parameter": "C, CP, CA, and CPA Series Spring Kits - table 1 | 12C, 16C | Cracking pressure 25 psi (1.8 bar) | Basic spring kit ordering number",
   "value": "-14C-K2-25",
   "unit": null,
   "source_page": 16
  },
  {
-  "parameter": "C, CP, CA, and CPA Series Spring Kits - table 2 | CA, 4CPA | Cracking pressure 3 to 50 psi (0.21 to 3.5 bar) | Basic kit ordering number",
+  "parameter": "C, CP, CA, and CPA Series Spring Kits - table 2 | CA, 4CPA | Cracking pressure 3 to 50 psi (0.21 to 3.5 bar) | Basic spring kit ordering number",
   "value": "-4CA-K2-3",
   "unit": null,
   "source_page": 16
  },
  {
-  "parameter": "C, CP, CA, and CPA Series Spring Kits - table 2 | CA, 4CPA | Cracking pressure 50 to 150 psi (3.5 to 10.4 bar) | Basic kit ordering number",
+  "parameter": "C, CP, CA, and CPA Series Spring Kits - table 2 | CA, 4CPA | Cracking pressure 50 to 150 psi (3.5 to 10.4 bar) | Basic spring kit ordering number",
   "value": "-4CA-K2-50",
   "unit": null,
   "source_page": 16
  },
  {
-  "parameter": "C, CP, CA, and CPA Series Spring Kits - table 2 | CA, 4CPA | Cracking pressure 150 to 350 psi (10.4 to 24.2 bar) | Basic kit ordering number",
+  "parameter": "C, CP, CA, and CPA Series Spring Kits - table 2 | CA, 4CPA | Cracking pressure 150 to 350 psi (10.4 to 24.2 bar) | Basic spring kit ordering number",
   "value": "-4CA-K2-150",
   "unit": null,
   "source_page": 16
  },
  {
-  "parameter": "C, CP, CA, and CPA Series Spring Kits - table 2 | CA, 4CPA | Cracking pressure 350 to 600 psi (24.2 to 41.4 bar) | Basic kit ordering number",
+  "parameter": "C, CP, CA, and CPA Series Spring Kits - table 2 | CA, 4CPA | Cracking pressure 350 to 600 psi (24.2 to 41.4 bar) | Basic spring kit ordering number",
   "value": "-4CA-K2-350",
   "unit": null,
   "source_page": 16
  },
  {
-  "parameter": "C, CP, CA, and CPA Series Spring Kits - table 2 | 8CPA | Cracking pressure 3 to 50 psi (0.21 to 3.5 bar) | Basic kit ordering number",
+  "parameter": "C, CP, CA, and CPA Series Spring Kits - table 2 | 8CPA | Cracking pressure 3 to 50 psi (0.21 to 3.5 bar) | Basic spring kit ordering number",
   "value": "-8CA-K2-3",
   "unit": null,
   "source_page": 16
  },
  {
-  "parameter": "C, CP, CA, and CPA Series Spring Kits - table 2 | 8CPA | Cracking pressure 50 to 150 psi (3.5 to 10.4 bar) | Basic kit ordering number",
+  "parameter": "C, CP, CA, and CPA Series Spring Kits - table 2 | 8CPA | Cracking pressure 50 to 150 psi (3.5 to 10.4 bar) | Basic spring kit ordering number",
   "value": "-8CA-K2-50",
   "unit": null,
   "source_page": 16
  },
  {
-  "parameter": "C, CP, CA, and CPA Series Spring Kits - table 2 | 8CPA | Cracking pressure 150 to 350 psi (10.4 to 24.2 bar) | Basic kit ordering number",
+  "parameter": "C, CP, CA, and CPA Series Spring Kits - table 2 | 8CPA | Cracking pressure 150 to 350 psi (10.4 to 24.2 bar) | Basic spring kit ordering number",
   "value": "-8CA-K2-150",
   "unit": null,
   "source_page": 16
  },
  {
-  "parameter": "C, CP, CA, and CPA Series Spring Kits - table 2 | 8CPA | Cracking pressure 350 to 600 psi (24.2 to 41.4 bar) | Basic kit ordering number",
+  "parameter": "C, CP, CA, and CPA Series Spring Kits - table 2 | 8CPA | Cracking pressure 350 to 600 psi (24.2 to 41.4 bar) | Basic spring kit ordering number",
   "value": "-8CA-K2-350",
   "unit": null,
   "source_page": 16
  },
  {
-  "parameter": "C, CP, CA, and CPA Series Spring Kits - table 3 | 302 SS | Designator",
+  "parameter": "C, CP, CA, and CPA Series Spring Kits - table 3 | 302 SS | Spring material designator",
   "value": "302",
   "unit": null,
   "source_page": 16
  },
  {
-  "parameter": "C, CP, CA, and CPA Series Spring Kits - table 3 | Alloy 400 [fn 1] | Designator",
+  "parameter": "C, CP, CA, and CPA Series Spring Kits - table 3 | Alloy 400 [fn 1] | Spring material designator",
   "value": "M",
   "unit": null,
   "source_page": 16
@@ -7026,121 +7026,121 @@
   "source_page": 16
  },
  {
-  "parameter": "CH Series Spring Kits - table 1 | CH4 | 316 SS | Basic kit ordering number",
+  "parameter": "CH Series Spring Kits - table 1 | CH4 | 316 SS | Basic spring kit ordering number",
   "value": "302-13K-CH4-",
   "unit": null,
   "source_page": 16
  },
  {
-  "parameter": "CH Series Spring Kits - table 1 | CH4 | Alloy 400 | Basic kit ordering number",
+  "parameter": "CH Series Spring Kits - table 1 | CH4 | Alloy 400 | Basic spring kit ordering number",
   "value": "M-13K-CH4-",
   "unit": null,
   "source_page": 16
  },
  {
-  "parameter": "CH Series Spring Kits - table 1 | CH8 | 316 SS | Basic kit ordering number",
+  "parameter": "CH Series Spring Kits - table 1 | CH8 | 316 SS | Basic spring kit ordering number",
   "value": "302-13K-CH8-",
   "unit": null,
   "source_page": 16
  },
  {
-  "parameter": "CH Series Spring Kits - table 1 | CH8 | Alloy 400 | Basic kit ordering number",
+  "parameter": "CH Series Spring Kits - table 1 | CH8 | Alloy 400 | Basic spring kit ordering number",
   "value": "M-13K-CH8-",
   "unit": null,
   "source_page": 16
  },
  {
-  "parameter": "CH Series Spring Kits - table 1 | CH16 | 316 SS | Basic kit ordering number",
+  "parameter": "CH Series Spring Kits - table 1 | CH16 | 316 SS | Basic spring kit ordering number",
   "value": "302-13K-CH16-",
   "unit": null,
   "source_page": 16
  },
  {
-  "parameter": "CH Series Spring Kits - table 2 | 1/3 psi (0.03 bar) | Cracking pressure",
+  "parameter": "CH Series Spring Kits - table 2 | CH Series | 1/3 psi (0.03 bar) | Cracking pressure",
   "value": "1/3",
   "unit": "psi",
   "source_page": 16
  },
  {
-  "parameter": "CH Series Spring Kits - table 2 | 1/3 psi (0.03 bar) | Cracking pressure",
+  "parameter": "CH Series Spring Kits - table 2 | CH Series | 1/3 psi (0.03 bar) | Cracking pressure",
   "value": "0.03",
   "unit": "bar",
   "source_page": 16
  },
  {
-  "parameter": "CH Series Spring Kits - table 2 | 1/3 psi (0.03 bar) | Designator",
+  "parameter": "CH Series Spring Kits - table 2 | CH Series | 1/3 psi (0.03 bar) | Spring kit cracking pressure designator",
   "value": "1/3",
   "unit": null,
   "source_page": 16
  },
  {
-  "parameter": "CH Series Spring Kits - table 2 | 1 psi (0.07 bar) | Cracking pressure",
+  "parameter": "CH Series Spring Kits - table 2 | CH Series | 1 psi (0.07 bar) | Cracking pressure",
   "value": "1",
   "unit": "psi",
   "source_page": 16
  },
  {
-  "parameter": "CH Series Spring Kits - table 2 | 1 psi (0.07 bar) | Cracking pressure",
+  "parameter": "CH Series Spring Kits - table 2 | CH Series | 1 psi (0.07 bar) | Cracking pressure",
   "value": "0.07",
   "unit": "bar",
   "source_page": 16
  },
  {
-  "parameter": "CH Series Spring Kits - table 2 | 1 psi (0.07 bar) | Designator",
+  "parameter": "CH Series Spring Kits - table 2 | CH Series | 1 psi (0.07 bar) | Spring kit cracking pressure designator",
   "value": "1",
   "unit": null,
   "source_page": 16
  },
  {
-  "parameter": "CH Series Spring Kits - table 2 | 5 psi (0.35 bar) | Cracking pressure",
+  "parameter": "CH Series Spring Kits - table 2 | CH Series | 5 psi (0.35 bar) | Cracking pressure",
   "value": "5",
   "unit": "psi",
   "source_page": 16
  },
  {
-  "parameter": "CH Series Spring Kits - table 2 | 5 psi (0.35 bar) | Cracking pressure",
+  "parameter": "CH Series Spring Kits - table 2 | CH Series | 5 psi (0.35 bar) | Cracking pressure",
   "value": "0.35",
   "unit": "bar",
   "source_page": 16
  },
  {
-  "parameter": "CH Series Spring Kits - table 2 | 5 psi (0.35 bar) | Designator",
+  "parameter": "CH Series Spring Kits - table 2 | CH Series | 5 psi (0.35 bar) | Spring kit cracking pressure designator",
   "value": "5",
   "unit": null,
   "source_page": 16
  },
  {
-  "parameter": "CH Series Spring Kits - table 2 | 10 psi (0.69 bar) | Cracking pressure",
+  "parameter": "CH Series Spring Kits - table 2 | CH Series | 10 psi (0.69 bar) | Cracking pressure",
   "value": "10",
   "unit": "psi",
   "source_page": 16
  },
  {
-  "parameter": "CH Series Spring Kits - table 2 | 10 psi (0.69 bar) | Cracking pressure",
+  "parameter": "CH Series Spring Kits - table 2 | CH Series | 10 psi (0.69 bar) | Cracking pressure",
   "value": "0.69",
   "unit": "bar",
   "source_page": 16
  },
  {
-  "parameter": "CH Series Spring Kits - table 2 | 10 psi (0.69 bar) | Designator",
+  "parameter": "CH Series Spring Kits - table 2 | CH Series | 10 psi (0.69 bar) | Spring kit cracking pressure designator",
   "value": "10",
   "unit": null,
   "source_page": 16
  },
  {
-  "parameter": "CH Series Spring Kits - table 2 | 25 psi (1.8 bar) | Cracking pressure",
+  "parameter": "CH Series Spring Kits - table 2 | CH Series | 25 psi (1.8 bar) | Cracking pressure",
   "value": "25",
   "unit": "psi",
   "source_page": 16
  },
  {
-  "parameter": "CH Series Spring Kits - table 2 | 25 psi (1.8 bar) | Cracking pressure",
+  "parameter": "CH Series Spring Kits - table 2 | CH Series | 25 psi (1.8 bar) | Cracking pressure",
   "value": "1.8",
   "unit": "bar",
   "source_page": 16
  },
  {
-  "parameter": "CH Series Spring Kits - table 2 | 25 psi (1.8 bar) | Designator",
+  "parameter": "CH Series Spring Kits - table 2 | CH Series | 25 psi (1.8 bar) | Spring kit cracking pressure designator",
   "value": "25",
   "unit": null,
   "source_page": 16
@@ -7152,25 +7152,25 @@
   "source_page": 16
  },
  {
-  "parameter": "4C, 8C, CP, and CPA Series Deflector Cap Kits | Male NPT 1/4 in. | Red | Kit ordering number",
+  "parameter": "4C, 8C, CP, and CPA Series Deflector Cap Kits | 4C, 8C, CP, and CPA Series | Male NPT 1/4 in. | Red | Deflector cap kit ordering number",
   "value": "P-4CP4-K12-RD",
   "unit": null,
   "source_page": 16
  },
  {
-  "parameter": "4C, 8C, CP, and CPA Series Deflector Cap Kits | Male NPT 1/4 in. | Green | Kit ordering number",
+  "parameter": "4C, 8C, CP, and CPA Series Deflector Cap Kits | 4C, 8C, CP, and CPA Series | Male NPT 1/4 in. | Green | Deflector cap kit ordering number",
   "value": "P-4CP4-K12-GR",
   "unit": null,
   "source_page": 16
  },
  {
-  "parameter": "4C, 8C, CP, and CPA Series Deflector Cap Kits | Male NPT 1/2 in. | Red | Kit ordering number",
+  "parameter": "4C, 8C, CP, and CPA Series Deflector Cap Kits | 4C, 8C, CP, and CPA Series | Male NPT 1/2 in. | Red | Deflector cap kit ordering number",
   "value": "P-8CP4-K12-RD",
   "unit": null,
   "source_page": 16
  },
  {
-  "parameter": "4C, 8C, CP, and CPA Series Deflector Cap Kits | Male NPT 1/2 in. | Green | Kit ordering number",
+  "parameter": "4C, 8C, CP, and CPA Series Deflector Cap Kits | 4C, 8C, CP, and CPA Series | Male NPT 1/2 in. | Green | Deflector cap kit ordering number",
   "value": "P-8CP4-K12-GR",
   "unit": null,
   "source_page": 16

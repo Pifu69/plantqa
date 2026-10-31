@@ -75,14 +75,19 @@ class DatasheetResult(BaseModel):
 
 
 def datasheet_schema() -> str:
-    """Az adatlapréteg leírása: kapcsolat + a plantdocs A2 gráfmodellje + tagek dokumentumonként."""
+    """Az adatlapréteg leírása: kapcsolat, A2 gráfmodell, A2 lekérdezési szabályok, tagek.
+
+    A lekérdezési szabályok (a plantdocs `qa-cypher` RULES része) EXP-011-től kerülnek be.
+    """
     text = prompt("qa-cypher")
     model = text[text.index("GRAPH MODEL") : text.index("WHAT IS IN THIS GRAPH")].strip()
+    rules = text[text.index("RULES") : text.index("- Answer with the query only")].strip()
     by_doc: dict[str, list[str]] = {}
     for tag, doc in sorted(tag_mapping().items()):
         by_doc.setdefault(doc, []).append(tag)
     docs = "\n".join(f"- {doc}: {', '.join(tags)}" for doc, tags in sorted(by_doc.items()))
-    return f"{LINK_TEXT}\n{model}\nDatasheets and the tags they describe:\n{docs}"
+    head = f"{LINK_TEXT}\n{model}\nDatasheets and the tags they describe:\n{docs}"
+    return f"{head}\nDATASHEET QUERY {rules}"
 
 
 class DatasheetTool:

@@ -1,0 +1,242 @@
+[
+ {
+  "item": "720fcf959f",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Candidate says flow/Kv cannot be determined although the gold gives Kv per DN."
+ },
+ {
+  "item": "c29b8ae85c",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Flanged ends confirmed, but socket weld not mentioned and screwed/BW only implied."
+ },
+ {
+  "item": "0796cc7607",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Jumper/switch selection, default high and alarm levels given, but output M internal jumper missing."
+ },
+ {
+  "item": "b8b67e254e",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Says materials are not stated although gold gives PVC body and EPDM/FKM seals."
+ },
+ {
+  "item": "d4c401999e",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly states the replacement fit is not stated."
+ },
+ {
+  "item": "e70e13fe11",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Cv 59.7 with full-sized trim is right, but equal percentage cage and normal flow conditions missing."
+ },
+ {
+  "item": "f66781e484",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Weight correct, but dimensions claimed not stated and motor caveat missing."
+ },
+ {
+  "item": "ae8dd34278",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Correctly says diagnosis not established but misses the NPSHr available from the curves."
+ },
+ {
+  "item": "555b8e6bc1",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Gives <0.1% URL per IEC 60770-1:1999 high vibration with 10-60 Hz/60-2000 Hz levels."
+ },
+ {
+  "item": "83a5b3fc50",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Casing pressure 266 psi correct but 250 psi operating limit up to 37 C missing."
+ },
+ {
+  "item": "8c1225fae2",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Gives 4 x 2.5 in and raised-face flanges but declines to assign suction 4 in and discharge 2.5 in."
+ },
+ {
+  "item": "6b05143314",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Solenoid needs power, 24 V DC and 230 V AC versions exist, must match type plate."
+ },
+ {
+  "item": "948de81900",
+  "verdict": "correct",
+  "cites_page": true,
+  "reason": "Coil set and wear part set available separately, citing page 6."
+ },
+ {
+  "item": "562581aec1",
+  "verdict": "correct",
+  "cites_page": true,
+  "reason": "Correctly says replacement fit is not stated; extra facts consistent with the gold."
+ },
+ {
+  "item": "1a1e8b0aa2",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Says failure direction and how to change it are not specified, though gold has the answer."
+ },
+ {
+  "item": "74adb85bb5",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Stainless CF8M/CF3M confirmed, but WCC and WC9 missing from the material list."
+ },
+ {
+  "item": "4216cbfdd6",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Standard centrifugal pedestal pump, 4 x 2.5 in, model code not explained."
+ },
+ {
+  "item": "0ed7012eef",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Ductile iron casing, gray iron 40 impeller, pH suitability not stated."
+ },
+ {
+  "item": "38b5e41380",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Gives 59.7 and the EAT values but attributes 59.7 to ED/ETR and omits the trim/cage/flow conditions."
+ },
+ {
+  "item": "696f8f02c9",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "368 mm RF correct, but RTJ value (384 mm) missing and claimed not stated."
+ },
+ {
+  "item": "04c667b706",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Neither states that diagnosis is not in the document nor gives NPSHr from the curves."
+ },
+ {
+  "item": "df533375fa",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Whisper trims for noise given, but Cavitrol III for cavitation/high dP missing."
+ },
+ {
+  "item": "1fa60d3130",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly says cause/check procedure not stated; extra facts are general shutoff info."
+ },
+ {
+  "item": "09c5b93d37",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Jumper/switch selection and alarm levels given, but default-high and output M jumper not clearly stated."
+ },
+ {
+  "item": "a6b7cebeb5",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "24 V DC and 230 V AC options given, but the need to order the matching version/type plate is missing."
+ },
+ {
+  "item": "e1d4ef7809",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly says the torque is not stated."
+ },
+ {
+  "item": "818ba226d4",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Globe-style, cage-guided, balanced-plug control valve described correctly."
+ },
+ {
+  "item": "de46b94dff",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "All three with standard cage, special cages linear."
+ },
+ {
+  "item": "c12a0fba9c",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Confirms manual override."
+ },
+ {
+  "item": "04af9e1288",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Correctly says approvals not stated but omits that CE is the only approval listed."
+ },
+ {
+  "item": "599fa2ff25",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Only CE listed; drinking water and Ex not stated."
+ },
+ {
+  "item": "f018f5747d",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Jumper/switch, default high and alarm levels given, but output M internal jumper missing."
+ },
+ {
+  "item": "09f18a6ba8",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "1/4-18 NPT and 305/304 manifolds given, but 2 1/8 in centers, DF adapters and 306 (3051T) missing."
+ },
+ {
+  "item": "de1135351c",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly says cause and fix are not stated."
+ },
+ {
+  "item": "f595adc2a4",
+  "verdict": "correct",
+  "cites_page": true,
+  "reason": "Standard centrifugal basic pedestal pump, 4 x 2.5 in, model code not explained."
+ },
+ {
+  "item": "aad7e87026",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "All three with standard cage, but special cages linear-only missing."
+ },
+ {
+  "item": "17c943e80d",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Ductile iron casing, gray iron 40 impeller, pH suitability not stated."
+ },
+ {
+  "item": "ad1eb7fe17",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Concludes fit with a newer model cannot be determined."
+ },
+ {
+  "item": "799c9acb8d",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Does not say replacement fit is not stated; implies an answer from existing dimensions instead."
+ },
+ {
+  "item": "06dd63f084",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly says the torque is not specified."
+ }
+]

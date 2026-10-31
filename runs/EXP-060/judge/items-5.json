@@ -1,0 +1,66 @@
+[
+ {
+  "item": "07ecc5444a",
+  "gold": {
+   "answer": "Bare pump (no motor): length 25.95 in. (659 mm), height 18.88 in. (480 mm), width 14.20 in. (361 mm); net weight 194 lb (88 kg), shipping 204 lb (93 kg). The pump alone fits on 1 m × 0.6 m; with a motor and coupling it cannot be said from the document.",
+   "answerable": "partial",
+   "category": "conditional",
+   "must": [
+    "659 × 361 × 480 mm (approx.)",
+    "88 kg net",
+    "motor not included"
+   ],
+   "relation": "downstream",
+   "via_tag": "P-13-3",
+   "question": "Consider the item directly downstream of BV-13-2 in the process flow. What are the overall dimensions and weight? Will it fit on a 1 m by 0.6 m base?"
+  },
+  "candidate": "The item directly downstream of BV-13-2 is P-13-3. Its overall dimensions are provided in both inches and millimeters, with the length listed as 2.75 inches (69.9 mm). The net weight is 194 LBS (88 KG), and the shipping weight is 204 LBS (93 KG). Since the largest dimension is only 69.9 mm, the item will easily fit on a 1 m by 0.6 m base."
+ },
+ {
+  "item": "bb08263240",
+  "gold": {
+   "answer": "Not in the document (no troubleshooting).",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated"
+   ],
+   "relation": "operated_by",
+   "via_tag": "FV-6-2",
+   "question": "Consider the valve operated by control loop FIC-6-2. The valve leaks through when shut. Is it the seat ring or the plug seal, and how do I check?"
+  },
+  "candidate": "Not in the documents. The datasheet identifies both a seat ring and a valve plug seal, but does not say which is causing the leak-through when shut. It does not specify a check to distinguish between them. Its factory water leak test applies at shipment, not to diagnosing a later leak."
+ },
+ {
+  "item": "9871843026",
+  "gold": {
+   "answer": "Cv 59.7 at maximum plug travel for the NPS 2 ET with full-sized trim, equal percentage cage, normal flow direction (EAT NPS 2: 48.1 with liner, 47.2 without).",
+   "answerable": "yes",
+   "category": "conditional",
+   "must": [
+    "59.7",
+    "full-sized trim, equal percentage cage, normal flow"
+   ],
+   "question": "Regarding FV-6-2 on the P&ID: What's the Cv at full open for a 2 inch valve?"
+  },
+  "candidate": "For the 2 inch FV-6-2, the maximum Cv at full open depends on the variant: 48.1 for the EAT with liner, 47.2 for EAT without liner, and 59.7 for the ED and ETR variants (full-sized trim, equal percentage cage, normal flow direction). The datasheet does not state which variant is actually installed."
+ },
+ {
+  "item": "d8d226724d",
+  "gold": {
+   "answer": "Casing ductile iron; impeller gray iron 40 (wear rings gray iron 25, shaft steel 1045, seal faces silicon carbide). Suitability for pH 5 is not stated.",
+   "answerable": "partial",
+   "category": "value",
+   "must": [
+    "casing ductile iron",
+    "impeller gray iron 40",
+    "pH not stated"
+   ],
+   "relation": "downstream",
+   "via_tag": "P-12-3",
+   "question": "Consider the item directly downstream of BV-12-1 in the process flow. What are the casing and impeller made of? Can it take slightly acidic water around pH 5?"
+  },
+  "candidate": "Not in the documents. The item directly downstream of BV-12-1 is pump P-12-3. Its datasheet states the casing is ductile iron and the impeller is an enclosed, six-vane Gray Iron 40 impeller (handling spherical solids up to 15/32 in / 12 mm). The datasheet contains no information about resistance to acidic water or pH tolerance, so its suitability for water around pH 5 cannot be determined from the documents."
+ }
+]

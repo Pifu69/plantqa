@@ -74,7 +74,7 @@ naplói rögzítik (`docs/dontesek.md`, `docs/eredmenyek.md`).
 
 A 2. fejezet a hátteret és a kapcsolódó munkákat foglalja össze. A 3. fejezet bemutatja a
 két példaüzemet, az adatlapokat és a kérdéssort, a 4. fejezet az összevont tudásgráfot, az 5. fejezet a
-három módszert. A 6. fejezet a mérési eredményeket, a 7. fejezet a demót és egy esettanulmányt, a 8. fejezet a következtetéseket és a
+három módszert. A 6. fejezet a nagy üzemen mért eredményeket, a 7. fejezet a demót és egy esettanulmányt, a 8. fejezet a következtetéseket és a
 korlátokat tárgyalja. A Függelék a példakérdéseket (A), a két módszer promptjainak részleteit (B, C),
-a két forrásfolyamat részletes leírását (D), a módszerek lépéseinek részleteit (E) és további
-demó-képernyőképeket (F) tartalmaz.
+a két forrásfolyamat részletes leírását (D), a módszerek lépéseinek részleteit (E), további
+demó-képernyőképeket (F) és a kis üzemen végzett mérések teljes leírását (G) tartalmazza.

@@ -1,0 +1,140 @@
+[
+ {
+  "item": "af27ba9796",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "GV-4-1 50 C lowest vs TV-15-1 315 C stated as the PEEK-seat value."
+ },
+ {
+  "item": "2c078c3607",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Correct conclusion and P-14-4 value, but gives CHV-14-1 a flat 400 F without its construction dependence."
+ },
+ {
+  "item": "0102b3accb",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Says P-14-5's maximum is not provided and gives no conclusion although the gold has 160 F."
+ },
+ {
+  "item": "24ac52ff98",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Says the comparison cannot be established for lack of data and gives almost no per-item values, which the gold provides."
+ },
+ {
+  "item": "25dcbc7247",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "GV-14-2 50 C, P-14-5 71 C, GV-14-2 lowest."
+ },
+ {
+  "item": "731fddbe06",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Misidentifies GV-14-2 as a Fisher valve, omits P-14-5 and gives no values or conclusion."
+ },
+ {
+  "item": "0aff03fdc7",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "No answer (step limit)."
+ },
+ {
+  "item": "c192dfe366",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "No answer (step limit)."
+ },
+ {
+  "item": "4a4b64f5e0",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "CHV-14-1 up to 6000 psig depending on model, P-14-4 250/266 psi, P-14-4 lowest."
+ },
+ {
+  "item": "81118e250c",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Correct conclusion GV-9-2 50 C, but gives FT-12-1 a flat 300 F without its construction dependence."
+ },
+ {
+  "item": "c803890975",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "GV-14-2 6 bar, P-14-5 250 psi operating and 266 psi casing, GV-14-2 lowest."
+ },
+ {
+  "item": "071c449785",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Treats CHV-3-1 as the only path item with a datasheet and names it lowest, contradicting the gold."
+ },
+ {
+  "item": "c57ebb762a",
+  "verdict": "hallucinated",
+  "cites_page": false,
+  "reason": "Invents values (CHV-14-1 16 bar, P-14-4 10 bar) not supported by the gold's 1500-6000 psig and 250/266 psi."
+ },
+ {
+  "item": "9d65207c6d",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Says GV-9-2's datasheet is not provided and gives no conclusion although the gold has 50 C."
+ },
+ {
+  "item": "5f1d7ec7da",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Gives most path values correctly and caveats that the comparison is not definitive, but gives the check valves a flat 6000 psig and no values for the Flowserve ball valves."
+ },
+ {
+  "item": "b03f62780e",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Names the pumps lowest at 100 F, confusing a pressure-rating temperature with the 160 F fluid limit, which contradicts the gold."
+ },
+ {
+  "item": "59976cf2d0",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "P-6-1 250/266 psi lowest; CHV-9-1 range noted as series dependent up to 6000 psig (low end 1450 vs gold 1500 psig)."
+ },
+ {
+  "item": "624399f25e",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "GV-14-2 6 bar, P-14-5 250 psi, GV-14-2 lowest."
+ },
+ {
+  "item": "7c250bb9fb",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "No answer (step limit)."
+ },
+ {
+  "item": "f3da9af1e7",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Correct conclusion GV-9-2 50 C, but FT-12-1 205 C is for a 3051L configuration not among the gold's listed constructions."
+ },
+ {
+  "item": "237674c682",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "No answer (parse failure)."
+ },
+ {
+  "item": "f4db3dd5a7",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Says no numeric values are available although the gold has values and GV-5-2 as lowest."
+ },
+ {
+  "item": "38e514bdff",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Correct conclusion and P-14-4 71 C, but the CHV-14-1 values (232/316 C) do not match the gold's check-valve ratings."
+ }
+]

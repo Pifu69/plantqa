@@ -27,8 +27,9 @@ Az oldal két részre oszlik.
 - **Jobb oldal: a kérdés és a válasz.** Egy szövegmezőbe kerül a kérdés; alatta választható a
   módszer (M1, M2 vagy M3, egy rövid leírással), a modell (`z-ai/glm-5.3-flash` vagy
   `openai/gpt-6-luna`) és a válaszalak (az 5. fejezetben felsorolt alakok közül). Az alapértelmezés
-  az M2 GLM-mel, mert ez a párosítás volt a legjobb a befagyasztott teszten (EXP-020: 31 helyes a
-  40-ből); ezt az oldal ki is írja.
+  az M2 GLM-mel, mert ez a párosítás volt a legjobb a kis üzem befagyasztott tesztjén (EXP-020: 31
+  helyes a 40-ből) és a nagy üzemen is (EXP-060: 51 helyes a 60-ból); ezt az oldal ki is írja. A
+  demó a kis üzemen fut, mert annak négy lapja a képernyőn jól áttekinthető.
 
 A válasz alatt a demó megmutatja a válasz nyomait: a módszert, a modellt, a kimenetelt, a
 késleltetést, a tokenszámot, a költséget és a gyorsítótárból jött hívások számát. Ezután

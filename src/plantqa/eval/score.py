@@ -28,6 +28,7 @@ from plantgraph.qa.harness.gold import GoldScoring, build_gold_scoring
 from plantgraph.qa.models import FinalAnswer, Outcome
 from plantgraph.qa.models import Question as PgQuestion
 from plantgraph.qa.scoring import score_answer
+from pydantic import ValidationError
 
 from plantqa.eval.run import RUNS, load_questions
 from plantqa.methods.base import answer_text
@@ -74,7 +75,11 @@ def _drawing_score(question: dict[str, Any], answer: dict[str, Any]) -> dict[str
     pg = PgQuestion.model_validate(question["source"]["pg"])
     final = answer.get("final")
     outcome = Outcome.ANSWERED if final else Outcome.PARSE_FAILURE
-    parsed = FinalAnswer.model_validate(final) if final else None
+    try:
+        parsed = FinalAnswer.model_validate(final) if final else None
+    except ValidationError:
+        # A sémának nem megfelelő válasz (pl. szám a tag-lista helyén) feldolgozási hiba.
+        outcome, parsed = Outcome.PARSE_FAILURE, None
     try:
         gold = gold_scoring()
         scored = score_answer(

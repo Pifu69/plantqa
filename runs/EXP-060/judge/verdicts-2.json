@@ -1,0 +1,242 @@
+[
+ {
+  "item": "8341429c28",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "No; only Plugged Impulse Line diagnostic with low-power output."
+ },
+ {
+  "item": "fa9132d227",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Does not give the 1/4-18 NPT connection, DF adapters or the S5/S6 manifold options."
+ },
+ {
+  "item": "c0dae707fe",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "All Kv values per DN and the measurement conditions are given."
+ },
+ {
+  "item": "e1644768a1",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Gives 59.7 (for ED/ETR) but omits the full-sized trim, equal percentage cage, normal flow condition."
+ },
+ {
+  "item": "1bd9cf07cb",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Ductile iron casing, gray iron 40 impeller, pH suitability not stated."
+ },
+ {
+  "item": "3190aaf3a2",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "24 V DC and 230 V AC versions exist; must match type plate."
+ },
+ {
+  "item": "fd277ceee2",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Lists all body materials and confirms stainless is available."
+ },
+ {
+  "item": "41701d3a2a",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Suction 4 in and discharge 2 1/2 in correct but raised-face flanges not mentioned."
+ },
+ {
+  "item": "98abf9d699",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Gives <0.1% URL and test amplitudes but does not name IEC 60770-1:1999."
+ },
+ {
+  "item": "eb97a1efad",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly states no spare-parts recommendation is given."
+ },
+ {
+  "item": "1d475ef1e1",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Says no vibration rating is provided although gold gives one."
+ },
+ {
+  "item": "21c04e6bee",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Coil set and wear part set confirmed but no order codes/page given."
+ },
+ {
+  "item": "f85b1dc8c8",
+  "verdict": "partial",
+  "cites_page": true,
+  "reason": "Gives 88 kg weight but claims dimensions are not stated and cannot judge fit."
+ },
+ {
+  "item": "b1c096920d",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly states no bonnet-removal safety procedure is given."
+ },
+ {
+  "item": "4fa9fa5408",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Identifies the wrong device (Fisher ET) and misses the coil and wear part sets."
+ },
+ {
+  "item": "84370179f0",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Lists all three characteristics but omits that special cages are linear only."
+ },
+ {
+  "item": "4ab3c9556d",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "-60 C / -76 F."
+ },
+ {
+  "item": "bb38099419",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Gives Kv range 83-600 l/min and conditions but not the per-DN values."
+ },
+ {
+  "item": "67e1b95926",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Pump type and size correct but offers a model-code interpretation instead of saying it is not explained."
+ },
+ {
+  "item": "7dbbee8879",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Sliding-stem globe-style valve given but cage guiding and balanced plug missing."
+ },
+ {
+  "item": "cd55fd624f",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Standard centrifugal pump, 4 x 2 1/2 in, model code not explained."
+ },
+ {
+  "item": "aed11f1bb3",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Globe-style control valve with cage guiding and balanced plug."
+ },
+ {
+  "item": "5a3c4173d8",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Neither approval stated; only CE listed."
+ },
+ {
+  "item": "68563acbca",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "High/low by jumper/switch and default levels given, but default high direction, NAMUR/custom levels and output M jumper missing."
+ },
+ {
+  "item": "38bb324cea",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Says a manual override exists but declines to confirm it allows opening without power."
+ },
+ {
+  "item": "2892c374a4",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Lists all body materials and confirms stainless is available."
+ },
+ {
+  "item": "1b620c7ff3",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly states no bolt torque is given."
+ },
+ {
+  "item": "b4422cffae",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Says end connections are not in the documents although gold lists them."
+ },
+ {
+  "item": "f4d919cf6b",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Gives example Kv values (DN15 83, DN50 600) but not all DN values and the conditions are incomplete."
+ },
+ {
+  "item": "141ecba9b0",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Flanged available plus buttweld, socket weld and screwed."
+ },
+ {
+  "item": "4f0ed5c751",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Standard centrifugal pump, 4 x 2 1/2 in, model code not explained."
+ },
+ {
+  "item": "ba1703ac53",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Whisper trims for gas noise and Cavitrol III for high pressure drop/cavitation."
+ },
+ {
+  "item": "dd331a1a87",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "24 V DC and 230 V AC versions exist; depends on the variant fitted."
+ },
+ {
+  "item": "93425a305f",
+  "verdict": "hallucinated",
+  "cites_page": false,
+  "reason": "Invents a leak diagnosis and check procedure although the document has no troubleshooting."
+ },
+ {
+  "item": "ab94a17ddc",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Ductile iron casing, gray iron 40 impeller, pH suitability not stated."
+ },
+ {
+  "item": "cb44840aa8",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "No; only Plugged Impulse Line diagnostic with low-power output."
+ },
+ {
+  "item": "821d6f5f80",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Sliding-stem control valve given but globe style, cage guiding and balanced plug missing."
+ },
+ {
+  "item": "e4238510c4",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "All three with standard cages; special cages linear only."
+ },
+ {
+  "item": "0a47057bbc",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Lists all body materials and confirms stainless is available."
+ },
+ {
+  "item": "12ce66165e",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Sliding-stem single-port valve with balanced plug and cage guiding."
+ }
+]

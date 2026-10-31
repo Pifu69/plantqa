@@ -1,0 +1,7 @@
+model,split,a,b,n,diff,ci_low,ci_high
+glm,dev+test,M1,M2,60,-0.15,-0.2667,-0.0333
+glm,dev+test,M1,M3,60,0.1167,-0.0333,0.2667
+glm,dev+test,M2,M3,60,0.2667,0.1333,0.4
+luna,dev+test,M1,M2,60,0.0333,-0.0667,0.1333
+luna,dev+test,M1,M3,60,0.0667,-0.05,0.1833
+luna,dev+test,M2,M3,60,0.0333,-0.0833,0.15

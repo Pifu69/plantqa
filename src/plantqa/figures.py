@@ -128,11 +128,10 @@ def dev_progress(plan: dict[str, Any]) -> None:
     save(fig, "dev_progress")
 
 
-def test_by_family(plan: dict[str, Any]) -> None:
-    """A végső teszt pontossága családonként, módszer × modell oszlopokkal."""
-    exp = plan["test"]
-    rows = [r for fam in FAMILY_NAMES for r in summary_rows(exp, "test", fam)]
-    write_csv("test_by_family", rows)
+def test_by_family(exp: str, split: str, name: str, title: str) -> None:
+    """Egy mérés pontossága családonként, módszer × modell oszlopokkal."""
+    rows = [r for fam in FAMILY_NAMES for r in summary_rows(exp, split, fam)]
+    write_csv(name, rows)
     if not rows:
         return
     keys = _keys(rows)
@@ -157,13 +156,12 @@ def test_by_family(plan: dict[str, Any]) -> None:
     ax.legend(handles, labels, fontsize=7, ncol=3, frameon=False, loc="upper center",
               bbox_to_anchor=(0.5, -0.12))  # fmt: skip
     style(ax, "pontosság (helyes / összes)")
-    ax.set_title(f"Végső teszt (40 kérdés, családonként 10) — {exp}", fontsize=10)
-    save(fig, "test_by_family")
+    ax.set_title(f"{title} — {exp}", fontsize=10)
+    save(fig, name)
 
 
-def test_cost_latency(plan: dict[str, Any]) -> None:
+def test_cost_latency(exp: str, split: str, name: str, title: str) -> None:
     """Két külön panel (nincs kettős tengely): kérdésenkénti költség és medián késleltetés."""
-    exp = plan["test"]
     data: list[dict[str, Any]] = [
         {
             "method": r["method"],
@@ -172,9 +170,9 @@ def test_cost_latency(plan: dict[str, Any]) -> None:
             "latency_median_s": float(r["latency_median_s"]),
             "accuracy": float(r["accuracy"]),
         }
-        for r in summary_rows(exp, "test")
+        for r in summary_rows(exp, split)
     ]
-    write_csv("test_cost_latency", data)
+    write_csv(name, data)
     if not data:
         return
     fig, axes = plt.subplots(1, 2, figsize=(8.6, 3.4))
@@ -188,16 +186,15 @@ def test_cost_latency(plan: dict[str, Any]) -> None:
         ticks = [f"{d['method']}\n{MODEL_NAMES[str(d['model'])]}" for d in data]
         ax.set_xticklabels(ticks, fontsize=7)
         style(ax, label)
-    fig.suptitle(f"Végső teszt: költség és késleltetés — {exp}", fontsize=10)
-    save(fig, "test_cost_latency")
+    fig.suptitle(f"{title} — {exp}", fontsize=10)
+    save(fig, name)
 
 
-def routes_figure(plan: dict[str, Any]) -> None:
-    """Az M1/M2 útvonalai a teszten (melyik tier vagy eszköz kellett a válaszhoz)."""
-    exp = plan["test"]
+def routes_figure(exp: str, name: str, title: str) -> None:
+    """Az M1/M2 útvonalai (melyik tier vagy eszköz kellett a válaszhoz)."""
     path = RUNS / exp / "routes.csv"
     rows = [r for r in read_csv(path) if r["method"] in ("M1", "M2")] if path.exists() else []
-    write_csv("test_routes", rows)
+    write_csv(name, rows)
     if not rows:
         return
     groups, routes = _keys(rows), sorted({r["route"] for r in rows})
@@ -220,8 +217,8 @@ def routes_figure(plan: dict[str, Any]) -> None:
     ax.legend(handles, routes, fontsize=7, frameon=False, loc="center left",
               bbox_to_anchor=(1, 0.5))  # fmt: skip
     style(ax, "kérdések száma")
-    ax.set_title(f"Útvonalak a végső teszten — {exp}", fontsize=10)
-    save(fig, "test_routes")
+    ax.set_title(f"{title} — {exp}", fontsize=10)
+    save(fig, name)
 
 
 def graph_layers(plan: dict[str, Any]) -> None:
@@ -299,9 +296,14 @@ def main() -> None:
     methods_overview()
     graph_layers(plan)
     dev_progress(plan)
-    test_by_family(plan)
-    test_cost_latency(plan)
-    routes_figure(plan)
+    small, large = plan["test"], plan["scale"]["large"]["exp"]
+    test_by_family(small, "test", "test_by_family", "Kis üzem, teszt (40 kérdés, családonként 10)")
+    test_cost_latency(small, "test", "test_cost_latency", "Kis üzem: költség és késleltetés")
+    routes_figure(small, "test_routes", "Útvonalak a kis üzem tesztjén")
+    title = "Nagy üzem (27 lap), 60 kérdés, családonként 15"
+    test_by_family(large, "dev+test", "large_by_family", title)
+    test_cost_latency(large, "dev+test", "large_cost_latency", "Nagy üzem: költség és késleltetés")
+    routes_figure(large, "large_routes", "Útvonalak a nagy üzemen")
     print(f"figures written to {FIGURES}")
 
 

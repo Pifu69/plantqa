@@ -1,0 +1,242 @@
+[
+ {
+  "item": "4ec5b3ae47",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "No answer (timed out)."
+ },
+ {
+  "item": "6e569ccd03",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Coil set and wear part set available separately, but no codes/page 6 reference."
+ },
+ {
+  "item": "5f91f2eb6f",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "368 mm RF correct, but RTJ value (384 mm) missing."
+ },
+ {
+  "item": "9c31ceb168",
+  "verdict": "correct",
+  "cites_page": true,
+  "reason": "Coil set and wear part set with order codes, referencing page 6."
+ },
+ {
+  "item": "26bba032c0",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Correctly says cavitation cannot be confirmed but claims NPSHr unavailable, missing the curve values."
+ },
+ {
+  "item": "5175a5e599",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Lists cast iron, WCC, LCC, WC9, CF8M, CF3M; stainless available."
+ },
+ {
+  "item": "98b6a23fb3",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Weight correct, but dimensions (18.50 x 12.50 x 13.75 in) contradict gold and motor caveat missing."
+ },
+ {
+  "item": "caa5eac17e",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Says diagnosis not possible but misses the NPSHr available from the curves."
+ },
+ {
+  "item": "8d05028ed3",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Sliding-stem, single-port globe control valve, cage-guided with balanced plug."
+ },
+ {
+  "item": "3cfbd66119",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly says the recalibration interval is not stated."
+ },
+ {
+  "item": "9625c89bb3",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Whisper/WhisperFlo for noise given, but Cavitrol III not tied to cavitation/high dP."
+ },
+ {
+  "item": "951f74adf4",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly says the torque is not stated."
+ },
+ {
+  "item": "49462af540",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly says the torque is not stated."
+ },
+ {
+  "item": "b78234f515",
+  "verdict": "correct",
+  "cites_page": true,
+  "reason": "Gives <0.1% URL per IEC 60770-1:1999 high vibration with both frequency bands."
+ },
+ {
+  "item": "ee4c6e90c6",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "All three with standard cages; Whisper/WhisperFlo/Cavitrol linear."
+ },
+ {
+  "item": "7a6cae83f8",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Confirms a manual override exists, though hedges on opening without power."
+ },
+ {
+  "item": "e414bd852f",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "PVC body and EPDM/FKM seals right, but no recommendation to choose FKM."
+ },
+ {
+  "item": "6f3ec24f26",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "User-selectable by jumper/switch given, but default high and alarm values missing."
+ },
+ {
+  "item": "160c327ce9",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "All three characteristics given, but standard-cage condition and special cages linear-only missing."
+ },
+ {
+  "item": "b3a9f693cd",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly says MTBF is not stated."
+ },
+ {
+  "item": "6eb252e586",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "1/4-18 NPT and 304/305/306 manifolds given, but centers, DF adapters and model mapping missing."
+ },
+ {
+  "item": "26ad7a9380",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly says bonnet bolt torque is not stated."
+ },
+ {
+  "item": "f1d8fbad03",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "PVC body, EPDM or FKM seals, use FKM."
+ },
+ {
+  "item": "d00a8645f0",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Says dimensions and weight are not stated although gold gives them."
+ },
+ {
+  "item": "fd499c29b9",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly says no spare parts recommendation is stated."
+ },
+ {
+  "item": "cc2ecd0032",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Says connection sizes are not stated although gold gives 4 in suction and 2.5 in discharge."
+ },
+ {
+  "item": "8ef09e706e",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "No; with low-power output only Plugged Impulse Line diagnostic is included."
+ },
+ {
+  "item": "340ed8cd06",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly says cause and fix are not stated; only generic safety advice added."
+ },
+ {
+  "item": "fc1e18c7da",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Suction 4 in, discharge 2.5 in, raised face flanges."
+ },
+ {
+  "item": "09792970e2",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly says no spare parts recommendation is stated."
+ },
+ {
+  "item": "a7958b6744",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Values and frequency bands right, but IEC 60770-1:1999 test standard not named."
+ },
+ {
+  "item": "eb94457795",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly says the recalibration interval is not stated."
+ },
+ {
+  "item": "b749d17ed7",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Mentions Kv exists but gives no values or test conditions and says flow cannot be determined."
+ },
+ {
+  "item": "070d094034",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Flanged, buttweld, screwed and socket weld all available."
+ },
+ {
+  "item": "ed74fe0dd9",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly says MTBF is not stated."
+ },
+ {
+  "item": "656c7ffe2b",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Kv per DN and test conditions all match gold."
+ },
+ {
+  "item": "230bfa8de1",
+  "verdict": "wrong",
+  "cites_page": true,
+  "reason": "Says the 4 inch Class 300 value is not stated although gold gives 368 mm RF / 384 mm RTJ."
+ },
+ {
+  "item": "60733d509d",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Coil set and wear part set available separately, but no codes/page 6 reference."
+ },
+ {
+  "item": "78774c97dd",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Suction 4 in and discharge 2.5 in right, but raised face flanges missing."
+ },
+ {
+  "item": "400c4e75b5",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "No; with low-power output only Plugged Impulse Line diagnostic is included."
+ }
+]

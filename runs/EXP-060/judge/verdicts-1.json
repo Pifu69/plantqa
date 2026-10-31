@@ -1,0 +1,242 @@
+[
+ {
+  "item": "abd4e0a06b",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Gives 59.7 (attributed to ED/ETR) but omits the full-sized trim, equal percentage cage, normal flow condition."
+ },
+ {
+  "item": "f86d284678",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Confirms a manual override exists."
+ },
+ {
+  "item": "e1d010f3c8",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Names Whisper/WhisperFlo for gas noise and Cavitrol III for high pressure drop/cavitation."
+ },
+ {
+  "item": "c4c5540cc1",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Gives 266 psi casing pressure but omits the 250 psi operating limit up to 37 C."
+ },
+ {
+  "item": "dcbd5c11ac",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "PTFE seal ring to 232 C and a 316 C PTFE/graphite ring are given, but the PEEK anti-extrusion option and 260 C oxidizing limit are missing."
+ },
+ {
+  "item": "0ebcb9898a",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "No; only Plugged Impulse Line diagnostic with low-power output."
+ },
+ {
+  "item": "f51f5f7f94",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Correctly says diagnosis is not possible but claims no NPSHr value is available although the curves give one."
+ },
+ {
+  "item": "d697baccfe",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly states the procedure is not in the document."
+ },
+ {
+  "item": "ae27892b26",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Whisper trims for gas noise and Cavitrol III for cavitation given, though it hedges on the high-pressure-drop designation."
+ },
+ {
+  "item": "c7723c0394",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly states cause and fix are not in the datasheet."
+ },
+ {
+  "item": "d36d1b25c4",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly states no bolt torque is given."
+ },
+ {
+  "item": "f4625e4c65",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "24 V DC and 230 V AC versions exist and the coil must match the supply."
+ },
+ {
+  "item": "35f2e012c4",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Claims the document has no answer although gold gives one."
+ },
+ {
+  "item": "51930a145f",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Gives 1/4-18 NPT on 2 1/8 in centers but lacks DF flange adapters and the S5/S6 manifold options."
+ },
+ {
+  "item": "650282b472",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Says a manual override exists but declines to confirm it allows opening without power."
+ },
+ {
+  "item": "a490619f17",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Confirms a manual override is listed."
+ },
+ {
+  "item": "be203de804",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Lists all body materials and confirms stainless is available."
+ },
+ {
+  "item": "3a10bc8a26",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Standard centrifugal pump with pedestal, 4 x 2 1/2 in, model code not decoded."
+ },
+ {
+  "item": "c8f8e54075",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Says accuracy is not provided although gold gives 1.95% of flow rate at 8:1 turndown."
+ },
+ {
+  "item": "9c7632c857",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "PVC body, EPDM or FKM seals, FKM variant offered for EPDM-attacking fluid."
+ },
+ {
+  "item": "fe1b8e8796",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly states no spare-parts recommendation is given."
+ },
+ {
+  "item": "69ba8c6f5d",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly states troubleshooting is not in the documents."
+ },
+ {
+  "item": "6c5efefac4",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Gives <0.1% URL, IEC 60770-1:1999 high vibration level and the test amplitudes."
+ },
+ {
+  "item": "57ac5b97e2",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Says dimensions and weight are not in the documents although gold gives them."
+ },
+ {
+  "item": "71676db6a8",
+  "verdict": "hallucinated",
+  "cites_page": false,
+  "reason": "Asserts a pressure-release step before bonnet removal although the document contains no such procedure."
+ },
+ {
+  "item": "2d2fa3756a",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly states MTBF is not given."
+ },
+ {
+  "item": "b6614df62e",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly states footprint compatibility with a newer model is not stated."
+ },
+ {
+  "item": "8701a13596",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly states leak causes and fixes are not in the datasheet."
+ },
+ {
+  "item": "89add5ebb0",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Flanged available plus screwed, buttweld and socket weld."
+ },
+ {
+  "item": "2c2895a39d",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Despite a contradictory opener, gives 24 V DC and 230 V AC versions and that it depends on the coil ordered."
+ },
+ {
+  "item": "fedf657193",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly states the recalibration interval is not given."
+ },
+ {
+  "item": "c5510f01f3",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Identifies the wrong device (stainless check valve) instead of the PVC solenoid valve."
+ },
+ {
+  "item": "2dcc672405",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly states MTBF is not given."
+ },
+ {
+  "item": "d0587c1dc9",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Gives 184 mm instead of 368 mm (RF) / 384 mm (RTJ)."
+ },
+ {
+  "item": "2690bd59c5",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "PVC body and FKM recommended, but does not state that EPDM or FKM seal versions are offered."
+ },
+ {
+  "item": "9a61b546f3",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Whisper trims for gas noise and Cavitrol III for cavitation/high pressure drop."
+ },
+ {
+  "item": "96fd1a4e01",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly states no spare-parts recommendation is given."
+ },
+ {
+  "item": "2aca71c685",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly states the leak path and check procedure are not given."
+ },
+ {
+  "item": "b90166250e",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Says neither approval is confirmed but omits that CE is the only approval listed."
+ },
+ {
+  "item": "079feab59b",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly states no recalibration interval is given."
+ }
+]

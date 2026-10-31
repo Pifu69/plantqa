@@ -1,0 +1,242 @@
+[
+ {
+  "item": "58476bda66",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "CHV-14-1 noted as configuration-dependent with a correct listed value (400 F), P-14-4 160 F, P-14-4 lowest."
+ },
+ {
+  "item": "b542d2b0d8",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Correct values and conclusion (GV-1-1 6 bar vs 250 psi) but claims the valve derates to 0 bar at 50 C, which the gold does not support."
+ },
+ {
+  "item": "55aa32bea5",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "GV-14-2 6 bar, P-14-5 250/266 psi, GV-14-2 lowest, all matching the gold."
+ },
+ {
+  "item": "c70ad8d031",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "No answer (step limit)."
+ },
+ {
+  "item": "a0fa51e471",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Gives GV-4-1 as 80 C (gold 50 C) and says TV-15-1 is not stated, so no conclusion."
+ },
+ {
+  "item": "32a6b6dfed",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "No answer (step limit)."
+ },
+ {
+  "item": "7bedf2df8b",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "GV-1-1 6 bar lowest vs P-5-1 250 psi operating pressure, matching the gold."
+ },
+ {
+  "item": "03d6dcf17a",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "GV-14-2 6 bar, P-14-5 250 psi operating and 266 psi casing, GV-14-2 lowest."
+ },
+ {
+  "item": "f9384e7954",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "CHV-14-1 up to 6000 psig noted as series/material dependent, P-14-4 250 psi, P-14-4 lowest."
+ },
+ {
+  "item": "5aec81ee10",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "GV-1-1 6 bar vs P-5-1 250 psi up to 100 F, GV-1-1 lowest."
+ },
+ {
+  "item": "9953544abe",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "GV-14-2 50 C, P-14-5 71 C, GV-14-2 lowest."
+ },
+ {
+  "item": "62f0bbb9c3",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Omits P-14-4 and names CHV-14-1 as lowest, contradicting the gold."
+ },
+ {
+  "item": "c35d2bbd62",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Claims only the Fisher valves have limits (unsupported 1500 psig) and ignores the other path values; does not give the construction-dependent comparison."
+ },
+ {
+  "item": "81da6ef93f",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Correct conclusion (GV-9-2 50 C lowest) but headlines FT-12-1 at 205 C for a 3051L configuration not among the gold's listed constructions."
+ },
+ {
+  "item": "29234d41a4",
+  "verdict": "wrong",
+  "cites_page": true,
+  "reason": "Names CHV-2-1 as lowest at 254 bar, ignores the pumps, GV valves and exchangers, and contradicts the gold's undecidable conclusion."
+ },
+ {
+  "item": "dcfb1dfd4c",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "CHV-14-1 6000 psig noted as model dependent, P-14-4 266/250 psi, P-14-4 lowest."
+ },
+ {
+  "item": "87fa40d178",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "P-6-1 250 psi vs CHV-9-1 model-dependent up to 6000 psig, P-6-1 lowest."
+ },
+ {
+  "item": "ea7837d2b3",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Says P-14-5's maximum is not stated and gives no conclusion although the gold has 160 F."
+ },
+ {
+  "item": "af8cafae2c",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Correct conclusion GV-5-2 6 bar and P-5-5 250 psi, but PV-5-2 value (12.0 bar) does not match the gold's chart readings."
+ },
+ {
+  "item": "c21a41d124",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "GV-9-2 50 C lowest vs FT-12-1 149 C for a stated gold construction (silicone, traditional flange)."
+ },
+ {
+  "item": "019bdbcc5e",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "No answer (parse failure)."
+ },
+ {
+  "item": "ace41936bd",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Claims none of the path items has a datasheet although the gold gives values for all three."
+ },
+ {
+  "item": "efcf815629",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Says P-6-1's maximum is not stated and gives no conclusion although the gold has 250/266 psi."
+ },
+ {
+  "item": "21890f93a9",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Says values are not available and gives no per-item values; the gold has values for every item."
+ },
+ {
+  "item": "80097ff6e4",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "No answer (step limit)."
+ },
+ {
+  "item": "8fef87413d",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "GV-14-2 50 C, P-14-5 71 C, GV-14-2 lowest."
+ },
+ {
+  "item": "b91cf528f2",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "CHV-14-1 400 F noted as CH-series value with others lower, P-14-4 160 F, P-14-4 lowest."
+ },
+ {
+  "item": "8fc428175c",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "P-6-1 250 psi vs CHV-9-1 6000 psig with series dependence noted, P-6-1 lowest."
+ },
+ {
+  "item": "381f55ed74",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "GV-4-1 50 C lowest; TV-15-1 seat-dependent 80 to 315 C, matching the gold."
+ },
+ {
+  "item": "fec9132e47",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Says P-5-5 has no datasheet and no conclusion can be drawn although the gold names GV-5-2 as lowest."
+ },
+ {
+  "item": "05640abed2",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Correct conclusion and values (P-6-1 250 psi lowest) but gives CHV-9-1 a flat 6000 psig without its construction dependence."
+ },
+ {
+  "item": "48110e988a",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Names the GV valves as definitively lowest and says most items have no stated limit, contradicting the gold's construction-dependent, undecidable conclusion."
+ },
+ {
+  "item": "ae4a9efda6",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Correct conclusion GV-5-2 6 bar and P-5-5 250/266 psi, but gives no value for PV-5-2 where the gold reads approx. 19-52 bar from the chart."
+ },
+ {
+  "item": "69f8312847",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "GV-1-1 6 bar lowest vs P-5-1 250 psi up to 100 F."
+ },
+ {
+  "item": "3e889c2317",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Picks the wrong downstream item (P-13-1) and says the values are not stated."
+ },
+ {
+  "item": "07b65864f8",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Says no per-item values can be determined although the gold gives them for every path item."
+ },
+ {
+  "item": "6b8137fba8",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "GV-4-1 50 C lowest; TV-15-1 up to 315 C noted as seat dependent."
+ },
+ {
+  "item": "5b208bb494",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Says neither maximum is stated although the gold gives 160 F and the construction-dependent check valve values."
+ },
+ {
+  "item": "625780c022",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "GV-4-1 50 C lowest vs TV-15-1 315 C stated as its highest-rated seat, matching the gold."
+ },
+ {
+  "item": "aa7b49af1a",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Names the GV valves as lowest and gives values for only a few items, contradicting the gold's undecidable conclusion."
+ }
+]

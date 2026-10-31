@@ -1,0 +1,614 @@
+[
+ {
+  "item": "8341429c28",
+  "gold": {
+   "answer": "No. With the low power output code (M), only the Plugged Impulse Line diagnostic is included.",
+   "answerable": "yes",
+   "category": "footnote",
+   "must": [
+    "no",
+    "only Plugged Impulse Line diagnostic"
+   ],
+   "relation": "measured_by",
+   "via_tag": "PT-13-1",
+   "question": "Consider the transmitter that measures P-13-2. If I order the DA1 diagnostics with the low-power 1-5 V output, do I get both Loop Integrity and Plugged Impulse Line diagnostics?"
+  },
+  "candidate": "No. With the low-power 1–5 V output, DA1 includes only the Plugged Impulse Line diagnostic, not Loop Integrity."
+ },
+ {
+  "item": "fa9132d227",
+  "gold": {
+   "answer": "3051C: 1/4-18 NPT on 2 1/8-inch centers; 1/2-14 NPT on 2-, 2 1/8- or 2 1/4-inch centers (1/2-14 NPT flange adapters option DF, not valid with S3, S4, S5, S6; RC1/4 flange with RC1/2 adapter option D9). 3051T: 1/2-14 NPT female, G1/2 A DIN 16288 male (ranges 1-4), autoclave F-250-C (ranges 5-6), non-threaded instrument flange (code 61). Yes, manifolds can be factory assembled: 3051C option S5 assemble to Rosemount 305 Integral Manifold, S6 assemble to Rosemount 304 Manifold or Connection System (assemble-to items specified separately with completed model number); 3051T option S5 assemble to Rosemount 306 Integral Manifold.",
+   "answerable": "yes",
+   "category": "conditional",
+   "must": [
+    "1/4-18 NPT on 2 1/8 in centers",
+    "1/2-14 NPT with flange adapters (DF)",
+    "S5 305 integral manifold / S6 304 manifold (3051C); S5 306 (3051T)"
+   ],
+   "relation": "measured_by",
+   "via_tag": "FT-12-1",
+   "question": "Consider the transmitter that measures P-12-2. What's the process connection on the flange — 1/4 NPT? Can I get it with a manifold already fitted?"
+  },
+  "candidate": "The process connection on the flange is not specified as a single default and depends on the specific model and option code of the transmitter. However, a manifold is available as an ordering option and is shown fitted in dimensional drawings."
+ },
+ {
+  "item": "c0dae707fe",
+  "gold": {
+   "answer": "Yes, Kv in l/min: DN15 83, DN20 100, DN25 233, DN32 267, DN40 500, DN50 600 - measured with water at +20 °C, 1 bar at the valve inlet, free outlet.",
+   "answerable": "yes",
+   "category": "footnote",
+   "must": [
+    "Kv per DN (83/100/233/267/500/600 l/min)",
+    "condition: water +20 °C, 1 bar inlet, free outlet"
+   ],
+   "question": "Regarding GV-14-2 on the P&ID: How much flow does it pass when fully open? Is there a Kv value?"
+  },
+  "candidate": "Yes, the datasheet for GV-14-2 (a Type 165 solenoid valve) specifies Kv values, but per nominal size rather than as a single figure. The Kv 100 values (flow of water at +20 °C with 1 bar at the valve inlet and free outlet, i.e. the fully open flow under those reference conditions) are: DN 15 = 83 l/min, DN 20 = 100 l/min, DN 25 = 233 l/min, DN 32 = 267 l/min, DN 40 = 500 l/min, DN 50 = 600 l/min. However, the datasheet does not state which DN size applies specifically to GV-14-2, so the exact fully open flow for this particular valve cannot be determined from the documents; only the range above applies. Flow rates for conditions other than the 1 bar reference are not stated."
+ },
+ {
+  "item": "e1644768a1",
+  "gold": {
+   "answer": "Cv 59.7 at maximum plug travel for the NPS 2 ET with full-sized trim, equal percentage cage, normal flow direction (EAT NPS 2: 48.1 with liner, 47.2 without).",
+   "answerable": "yes",
+   "category": "conditional",
+   "must": [
+    "59.7",
+    "full-sized trim, equal percentage cage, normal flow"
+   ],
+   "question": "Regarding FV-6-2 on the P&ID: What's the Cv at full open for a 2 inch valve?"
+  },
+  "candidate": "The description gives different values depending on valve variant: Cv 48.1 for EAT with liner, 47.2 for EAT without liner, and 59.7 for ED or ETR. It does not identify which variant applies to FV-6-2."
+ },
+ {
+  "item": "1bd9cf07cb",
+  "gold": {
+   "answer": "Casing ductile iron; impeller gray iron 40 (wear rings gray iron 25, shaft steel 1045, seal faces silicon carbide). Suitability for pH 5 is not stated.",
+   "answerable": "partial",
+   "category": "value",
+   "must": [
+    "casing ductile iron",
+    "impeller gray iron 40",
+    "pH not stated"
+   ],
+   "relation": "downstream",
+   "via_tag": "P-12-3",
+   "question": "Consider the item directly downstream of BV-12-1 in the process flow. What are the casing and impeller made of? Can it take slightly acidic water around pH 5?"
+  },
+  "candidate": "The item downstream of BV-12-1 is P-12-3. Its casing is ductile iron and its impeller is Gray Iron 40. The datasheet does not state whether it can handle slightly acidic water around pH 5."
+ },
+ {
+  "item": "3190aaf3a2",
+  "gold": {
+   "answer": "Yes (solenoid). Versions for 24 V DC, 230 V 50/60 Hz and 115 V 50/60 Hz (ordering tables and coil sets say 110 V); tolerance ±10 %. 24 V DC works if you order the 24 V DC version - the voltage must match the type plate.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "24 V DC version exists",
+    "230 V AC version exists",
+    "must match type plate / order the right version"
+   ],
+   "question": "Regarding GV-11-2 on the P&ID: Does it need power? If so, what voltage, and will 24 V DC work, or do I need 230 V AC?"
+  },
+  "candidate": "Yes. The datasheet lists 24 V DC, 115 V AC, and 230 V AC (both AC options at 50/60 Hz). So 24 V DC will work if that is the supply specified on the valve’s type plate; 230 V AC is also an option. The stated voltage tolerance is ±10%."
+ },
+ {
+  "item": "fd277ceee2",
+  "gold": {
+   "answer": "Cast iron, WCC or LCC carbon steel, WC9 chrome moly steel, CF8M (cast 316 stainless) or CF3M (cast 316L stainless), others on request. Yes, stainless (CF8M / CF3M) is available.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "CF8M / CF3M stainless available",
+    "cast iron, WCC, LCC, WC9"
+   ],
+   "question": "Regarding FV-12-1 on the P&ID: What body materials are available, and can I get stainless for a corrosive service?"
+  },
+  "candidate": "The excerpts list cast iron, WCC and LCC carbon steel, WC9 chrome-moly steel, CF3M (316L stainless steel), and CF8M (316 stainless steel) body materials. Stainless steel is listed, but the excerpts do not confirm suitability for a particular corrosive service."
+ },
+ {
+  "item": "41701d3a2a",
+  "gold": {
+   "answer": "Suction 4\" (102 mm), discharge 2 1/2\" (64 mm), raised face flanges; so yes, 2 1/2\" is the discharge. Suction flange 8 holes 0.75\" on 7.50\" bolt circle, discharge 4 holes 0.75\" on 5.50\" bolt circle; optional NPT companion flanges.",
+   "answerable": "yes",
+   "category": "value",
+   "must": [
+    "suction 4\"",
+    "discharge 2 1/2\"",
+    "raised face flanges"
+   ],
+   "question": "Regarding P-1-3 on the P&ID: What size are the suction and discharge connections? Is the '2 1/2' the port size?"
+  },
+  "candidate": "The suction connection is 4 in and the discharge connection is 2½ in. Yes, 2½ in is the discharge port size."
+ },
+ {
+  "item": "98abf9d699",
+  "gold": {
+   "answer": "Vibration effect: less than +/-0.1% of URL when tested per IEC 60770-1:1999 field or pipeline with high vibration level (10-60 Hz 0.21 mm displacement peak amplitude / 60-2000 Hz 3g).",
+   "answerable": "yes",
+   "category": "value",
+   "must": [
+    "< +/-0.1% of URL",
+    "IEC 60770-1:1999 high vibration level",
+    "10-60 Hz 0.21 mm peak / 60-2000 Hz 3g"
+   ],
+   "question": "Regarding FT-14-1 on the P&ID: It's mounted near a compressor with heavy vibration. What vibration limits is it rated for?"
+  },
+  "candidate": "FT-14-1’s datasheet specifies vibration-effect test levels of 0.21 mm peak displacement amplitude at 10–60 Hz and 3 g at 60–2000 Hz. The vibration effect under those conditions is less than ±0.1% of URL. The datasheet does not state a separate maximum allowable vibration limit."
+ },
+ {
+  "item": "eb97a1efad",
+  "gold": {
+   "answer": "Not stated (no spare parts recommendation; the sectional drawing only names the parts).",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated"
+   ],
+   "question": "Regarding P-1-1 on the P&ID: Which spare parts should I keep on the shelf for this pump?"
+  },
+  "candidate": "The supplied datasheet does not specify which spare parts to keep on the shelf. It says the wear rings are replaceable, but does not identify them as recommended shelf spares."
+ },
+ {
+  "item": "1d475ef1e1",
+  "gold": {
+   "answer": "Vibration effect: less than +/-0.1% of URL when tested per IEC 60770-1:1999 field or pipeline with high vibration level (10-60 Hz 0.21 mm displacement peak amplitude / 60-2000 Hz 3g).",
+   "answerable": "yes",
+   "category": "value",
+   "must": [
+    "< +/-0.1% of URL",
+    "IEC 60770-1:1999 high vibration level",
+    "10-60 Hz 0.21 mm peak / 60-2000 Hz 3g"
+   ],
+   "question": "Regarding FT-14-1 on the P&ID: It's mounted near a compressor with heavy vibration. What vibration limits is it rated for?"
+  },
+  "candidate": "The description does not provide a vibration rating or vibration limits for FT-14-1."
+ },
+ {
+  "item": "21c04e6bee",
+  "gold": {
+   "answer": "Both exist as spare parts: coil set (1) per voltage and seal material (e.g. 230 V AC EPDM 198 808 030) and wear part set (2) per size and seal material (e.g. DN 15-20 EPDM 198 808 035).",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "yes: coil set and wear part set",
+    "codes on page 6"
+   ],
+   "relation": "upstream",
+   "via_tag": "GV-11-2",
+   "question": "Consider the item directly upstream of BV-11-2 in the process flow. Can I buy a seal kit or a spare coil on its own, or do I have to replace the whole unit?"
+  },
+  "candidate": "Yes. The datasheet lists a separately orderable coil set and wear part set, so replacing the whole unit is not required. It calls the seal-related option a “wear part set,” not a “seal kit.”"
+ },
+ {
+  "item": "f85b1dc8c8",
+  "gold": {
+   "answer": "Bare pump (no motor): length 25.95 in. (659 mm), height 18.88 in. (480 mm), width 14.20 in. (361 mm); net weight 194 lb (88 kg), shipping 204 lb (93 kg). The pump alone fits on 1 m × 0.6 m; with a motor and coupling it cannot be said from the document.",
+   "answerable": "partial",
+   "category": "conditional",
+   "must": [
+    "659 × 361 × 480 mm (approx.)",
+    "88 kg net",
+    "motor not included"
+   ],
+   "relation": "downstream",
+   "via_tag": "P-13-3",
+   "question": "Consider the item directly downstream of BV-13-2 in the process flow. What are the overall dimensions and weight? Will it fit on a 1 m by 0.6 m base?"
+  },
+  "candidate": "Not in the documents. The item directly downstream of BV-13-2 is pump P-13-3. Its datasheet states a net weight of about 194 lbs (88 kg), a shipping weight of 204 lbs (93 kg), and an export crate volume of 5.6 cu. ft (0.16 cu. m). The overall length/width/height dimensions are not given as explicit numbers in the datasheet (they are only shown on the outline drawing on page 2), so it cannot be confirmed from the documents whether it fits on a 1 m by 0.6 m base."
+ },
+ {
+  "item": "b1c096920d",
+  "gold": {
+   "answer": "Not in the document (no safety or maintenance procedure).",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated"
+   ],
+   "question": "Regarding FV-14-1 on the P&ID: What do I need to do before taking the bonnet off so I don't get hurt by trapped pressure?"
+  },
+  "candidate": "Not in the documents. The documents do not answer this. FV-14-1's datasheet (Fisher ET) covers trim, bonnet types, materials and temperature limits, and only notes that the body interior can be accessed without removing the bonnet/actuator and that trim can be removed with the body left in the pipeline — but it contains no safety precautions, depressurizing, venting, or isolation steps for bonnet removal. Such a maintenance/safety procedure is not stated in the available documents."
+ },
+ {
+  "item": "4fa9fa5408",
+  "gold": {
+   "answer": "Both exist as spare parts: coil set (1) per voltage and seal material (e.g. 230 V AC EPDM 198 808 030) and wear part set (2) per size and seal material (e.g. DN 15-20 EPDM 198 808 035).",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "yes: coil set and wear part set",
+    "codes on page 6"
+   ],
+   "relation": "upstream",
+   "via_tag": "GV-11-2",
+   "question": "Consider the item directly upstream of BV-11-2 in the process flow. Can I buy a seal kit or a spare coil on its own, or do I have to replace the whole unit?"
+  },
+  "candidate": "The item directly upstream is GV-11-2, a Fisher ET globe valve. Its excerpt says packing systems can be installed in existing valves and a Trim Cartridge is available as a repair part, but does not state whether standalone seal kits or spare coils are available, or that the whole unit must be replaced."
+ },
+ {
+  "item": "84370179f0",
+  "gold": {
+   "answer": "Standard cages: quick-opening, linear or equal percentage. Whisper Trim, WhisperFlo and Cavitrol cages: linear only.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "all three with standard cage",
+    "special cages linear only"
+   ],
+   "question": "Regarding FV-2-3 on the P&ID: What flow characteristics can I get: equal percentage, linear, quick opening?"
+  },
+  "candidate": "The available flow characteristics are quick-opening, linear, and equal percentage."
+ },
+ {
+  "item": "4ab3c9556d",
+  "gold": {
+   "answer": "–76 °F (–60 °C) cold temperature operation.",
+   "answerable": "yes",
+   "category": "value",
+   "must": [
+    "–60 °C",
+    "–76 °F"
+   ],
+   "relation": "measured_by",
+   "via_tag": "FT-6-2",
+   "question": "Consider the transmitter that measures E-6-2. What is the lowest operating temperature you get with the BR6 cold temperature option?"
+  },
+  "candidate": "The BR6 option provides operation down to -76 °F (-60 °C)."
+ },
+ {
+  "item": "bb38099419",
+  "gold": {
+   "answer": "Yes, Kv in l/min: DN15 83, DN20 100, DN25 233, DN32 267, DN40 500, DN50 600 - measured with water at +20 °C, 1 bar at the valve inlet, free outlet.",
+   "answerable": "yes",
+   "category": "footnote",
+   "must": [
+    "Kv per DN (83/100/233/267/500/600 l/min)",
+    "condition: water +20 °C, 1 bar inlet, free outlet"
+   ],
+   "question": "Regarding GV-14-2 on the P&ID: How much flow does it pass when fully open? Is there a Kv value?"
+  },
+  "candidate": "A Kv value is specified: the datasheet lists Kv 100 values from 83 to 600 l/min, depending on DN, for water at 20 °C with 1 bar at the inlet and a free outlet. It does not identify GV-14-2’s DN, so its fully open flow cannot be determined from the provided information."
+ },
+ {
+  "item": "67e1b95926",
+  "gold": {
+   "answer": "A standard centrifugal pump on a basic pedestal (bare shaft), size 4\" x 2 1/2\". The meaning of the model code is not explained.",
+   "answerable": "partial",
+   "category": "value",
+   "must": [
+    "standard centrifugal pump (pedestal)",
+    "4\" x 2 1/2\"",
+    "model code not explained"
+   ],
+   "relation": "downstream",
+   "via_tag": "P-15-1",
+   "question": "Consider the item directly downstream of BV-12-3 in the process flow. What kind of pump is a VGH2 1/2C31-B, and what does the model code tell me?"
+  },
+  "candidate": "The item directly downstream of BV-12-3 is P-15-1, a centrifugal pump. The VGH2 1/2C31-B is a standard centrifugal pump, size 4\" x 2 1/2\" (102 mm x 64 mm) with raised face flanges. The model code identifies the pump series/variant: the performance curves are for product variant VGH2 1/2C-B (curve VGH2 1/2C-B-1 through -8), covering water and petroleum service at various speeds (3450 to 1150 rpm at 60 Hz, 2900/1450 rpm at 50 Hz), with impeller 26821-472 and volute 26821-756."
+ },
+ {
+  "item": "7dbbee8879",
+  "gold": {
+   "answer": "A sliding-stem, single-port globe-style control valve (body) with cage guiding, balanced valve plug and push-down-to-close plug action, for throttling or on-off control of liquids and gases (part of the easy-e family; EAT = angle version, ETR = push-down-to-open). It is combined with an actuator, e.g. 667.",
+   "answerable": "yes",
+   "category": "value",
+   "must": [
+    "globe-style control valve (sliding stem)",
+    "cage-guided, balanced plug"
+   ],
+   "relation": "upstream",
+   "via_tag": "FV-12-1",
+   "question": "Consider the item directly upstream of BV-12-1 in the process flow. What is a Fisher ET? Is it the valve body, and what kind of valve is it?"
+  },
+  "candidate": "The item directly upstream of BV-12-1 is FV-12-1. A Fisher ET is a complete sliding-stem control valve, not just the valve body; it is a single-port, globe-style valve."
+ },
+ {
+  "item": "cd55fd624f",
+  "gold": {
+   "answer": "A standard centrifugal pump on a basic pedestal (bare shaft), size 4\" x 2 1/2\". The meaning of the model code is not explained.",
+   "answerable": "partial",
+   "category": "value",
+   "must": [
+    "standard centrifugal pump (pedestal)",
+    "4\" x 2 1/2\"",
+    "model code not explained"
+   ],
+   "relation": "downstream",
+   "via_tag": "P-15-1",
+   "question": "Consider the item directly downstream of BV-12-3 in the process flow. What kind of pump is a VGH2 1/2C31-B, and what does the model code tell me?"
+  },
+  "candidate": "The VGH2 1/2C31-B is a standard centrifugal pump, sized 4″ × 2½″. The datasheet does not explain what the individual letters and numbers in its model code mean."
+ },
+ {
+  "item": "aed11f1bb3",
+  "gold": {
+   "answer": "A sliding-stem, single-port globe-style control valve (body) with cage guiding, balanced valve plug and push-down-to-close plug action, for throttling or on-off control of liquids and gases (part of the easy-e family; EAT = angle version, ETR = push-down-to-open). It is combined with an actuator, e.g. 667.",
+   "answerable": "yes",
+   "category": "value",
+   "must": [
+    "globe-style control valve (sliding stem)",
+    "cage-guided, balanced plug"
+   ],
+   "relation": "upstream",
+   "via_tag": "FV-12-1",
+   "question": "Consider the item directly upstream of BV-12-1 in the process flow. What is a Fisher ET? Is it the valve body, and what kind of valve is it?"
+  },
+  "candidate": "A Fisher ET is not just the valve body; it is a single-port, globe-style control valve with cage guiding and a balanced valve plug."
+ },
+ {
+  "item": "5a3c4173d8",
+  "gold": {
+   "answer": "Neither is stated: the only approval listed is CE.",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated",
+    "only CE"
+   ],
+   "question": "Regarding GV-1-1 on the P&ID: Is it approved for drinking water, or for use in an explosive (Ex) area?"
+  },
+  "candidate": "Not in the documents. The datasheet for GV-1-1 (solenoid valve) lists only a CE approval. It shows no drinking-water (potable water) approval such as KTW, DVGW or WRAS, and no ATEX/explosion-protection certification. The only media information is that it is suitable for clean liquids without solid particles (neutral or aggressive), depending on gasket material (EPDM or FKM). So approval for drinking water or use in an Ex area is not stated in the datasheet."
+ },
+ {
+  "item": "68563acbca",
+  "gold": {
+   "answer": "HART 4-20 mA: if self-diagnostics detect a sensor or microprocessor failure, the output is driven high or low; the direction is user-selectable with a jumper/switch on the transmitter. Factory default is High alarm unless specified (CT = Rosemount standard low alarm, CN = NAMUR low, C4 = NAMUR high). Levels: default high >= 21.75 mA (>= 22.5 mA with M6, DA1, T9, RK), low <= 3.75 mA; NAMUR >= 22.5 / <= 3.6 mA; custom 20.2-23.0 / 3.6-3.8 mA. Output M: below 0.94 V or above 5.4 V, selectable by internal jumper. F, W, X: failure passed as alert and status.",
+   "answerable": "yes",
+   "category": "conditional",
+   "must": [
+    "high or low, user-selectable by jumper/switch",
+    "default high",
+    "alarm values per standard/NAMUR/custom",
+    "output M internal jumper"
+   ],
+   "relation": "fed_by_transmitter",
+   "via_tag": "FT-12-1",
+   "question": "Consider the transmitter that feeds controller FIC-12-1. When the transmitter fails, does the output go high or low, and how do I change that alarm direction?"
+  },
+  "candidate": "FT-12-1’s failure output can be set high or low; the datasheet does not state which direction is currently selected. For its HART 4–20 mA output, select the direction using the transmitter’s jumper or switch. Default alarm levels are high at ≥21.75 mA and low at ≤3.75 mA."
+ },
+ {
+  "item": "38bb324cea",
+  "gold": {
+   "answer": "Yes, a service-friendly, robust manual override (part 10).",
+   "answerable": "yes",
+   "category": "value",
+   "must": [
+    "yes, manual override"
+   ],
+   "question": "Regarding GV-1-2 on the P&ID: Is there a manual override so I can open it without power?"
+  },
+  "candidate": "The datasheet for GV-1-2 (gfps-165-solenoid-valve, Type 165 2/2-way Solenoid Valve) lists a 'service-friendly, robust manual override' as a feature, but it does not explicitly state that this override allows opening the valve without power."
+ },
+ {
+  "item": "2892c374a4",
+  "gold": {
+   "answer": "Cast iron, WCC or LCC carbon steel, WC9 chrome moly steel, CF8M (cast 316 stainless) or CF3M (cast 316L stainless), others on request. Yes, stainless (CF8M / CF3M) is available.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "CF8M / CF3M stainless available",
+    "cast iron, WCC, LCC, WC9"
+   ],
+   "question": "Regarding FV-12-1 on the P&ID: What body materials are available, and can I get stainless for a corrosive service?"
+  },
+  "candidate": "Available body materials include cast iron, WCC and LCC carbon steel, WC9 chrome-moly steel, CF8M cast 316 stainless steel, and CF3M cast 316L stainless steel; other materials are available upon request. Stainless bodies are available, but the datasheet does not state whether they are suitable for a particular corrosive service."
+ },
+ {
+  "item": "1b620c7ff3",
+  "gold": {
+   "answer": "Not in the document (only bolting materials and temperature limits).",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated"
+   ],
+   "question": "Regarding FV-12-1 on the P&ID: What torque should the bonnet bolts be tightened to?"
+  },
+  "candidate": "The datasheet does not state a bonnet-bolt tightening torque."
+ },
+ {
+  "item": "b4422cffae",
+  "gold": {
+   "answer": "Flanged is available (CL125 FF / CL250 RF cast iron; CL150/300/600 RF or RTJ steel; EN PN16-100), as well as screwed (NPS 1-2), butt weld and socket weld.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "flanged yes",
+    "also screwed, BW, SW"
+   ],
+   "question": "Regarding FV-14-1 on the P&ID: Can I get it with flanged ends, or only buttweld or screwed?"
+  },
+  "candidate": "Not in the documents. The provided documents do not state whether FV-14-1 has flanged, buttweld, or screwed ends."
+ },
+ {
+  "item": "f4d919cf6b",
+  "gold": {
+   "answer": "Yes, Kv in l/min: DN15 83, DN20 100, DN25 233, DN32 267, DN40 500, DN50 600 - measured with water at +20 °C, 1 bar at the valve inlet, free outlet.",
+   "answerable": "yes",
+   "category": "footnote",
+   "must": [
+    "Kv per DN (83/100/233/267/500/600 l/min)",
+    "condition: water +20 °C, 1 bar inlet, free outlet"
+   ],
+   "question": "Regarding GV-14-2 on the P&ID: How much flow does it pass when fully open? Is there a Kv value?"
+  },
+  "candidate": "GV-14-2 has a Kv value, and the flow rate it passes when fully open depends on the nominal diameter (DN). For example, for a DN 15 valve, the Kv value is 83 l/min, and for a DN 50 valve, the Kv value is 600 l/min, based on a differential pressure of 1 bar and water medium."
+ },
+ {
+  "item": "141ecba9b0",
+  "gold": {
+   "answer": "Flanged is available (CL125 FF / CL250 RF cast iron; CL150/300/600 RF or RTJ steel; EN PN16-100), as well as screwed (NPS 1-2), butt weld and socket weld.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "flanged yes",
+    "also screwed, BW, SW"
+   ],
+   "question": "Regarding FV-14-1 on the P&ID: Can I get it with flanged ends, or only buttweld or screwed?"
+  },
+  "candidate": "Yes, FV-14-1 is available with flanged ends, not only buttweld or screwed. The documentation lists multiple flanged end connection options, including RF or RTJ Flanged CL150, CL300 and CL600, CL125 FF and CL250 RF flanged (for cast iron bodies), CL150 RF/RTJ, CL300 RF/RTJ, CL600 RTJ, and flanged raised-face per EN 1092-1/B. Buttweld, socket weld and screwed connections are also available, so you can choose flanged ends."
+ },
+ {
+  "item": "4f0ed5c751",
+  "gold": {
+   "answer": "A standard centrifugal pump on a basic pedestal (bare shaft), size 4\" x 2 1/2\". The meaning of the model code is not explained.",
+   "answerable": "partial",
+   "category": "value",
+   "must": [
+    "standard centrifugal pump (pedestal)",
+    "4\" x 2 1/2\"",
+    "model code not explained"
+   ],
+   "relation": "downstream",
+   "via_tag": "P-15-1",
+   "question": "Consider the item directly downstream of BV-12-3 in the process flow. What kind of pump is a VGH2 1/2C31-B, and what does the model code tell me?"
+  },
+  "candidate": "The VGH2 1/2C31-B is a standard centrifugal pump, listed in a nominal size of 4 × 2½ inches. The datasheet identifies the model code but does not explain the meaning of its individual letters and numbers."
+ },
+ {
+  "item": "ba1703ac53",
+  "gold": {
+   "answer": "Standard cages (quick-opening, linear, equal percentage), restricted-capacity trims, Whisper Trim I / III, Whisper NXG and WhisperFlo cages for aerodynamic noise in gas service, Cavitrol III one- and two-stage cages against cavitation (liquid, high pressure drop), DST dirty service trim, TSO tight shutoff trim, Trim Cartridge.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "Whisper / WhisperFlo for noise (gas)",
+    "Cavitrol III for cavitation / high ΔP (liquid)"
+   ],
+   "relation": "operated_by",
+   "via_tag": "FV-14-1",
+   "question": "Consider the valve operated by control loop FIC-14-1. What trim options are there, and which one is for high pressure drop or noise?"
+  },
+  "candidate": "The valve operated by loop FIC-14-1 is FV-14-1, a Fisher easy-e (ET/EAT) control valve. The description lists several trim options: standard trim (Figure 13 trims such as 1, 4, 27, 29, 37, 37H, 4C/29C for PTFE seating and metal-seating variants), Cavitrol III cage trim (Figure 14, trim 76), NACE sour-service trims (Figure 15, trims 85, 85C, 86, 87, 87C), TSO (Tight Shutoff) trim, and the Fisher Trim Cartridge option. For high pressure drop or noise service, the noise-attenuation cages for gaseous service are Whisper Trim I, Whisper Trim III, Whisper NXG Trim and WhisperFlo cages, while Cavitrol III cage trim is used for high pressure drop (cavitation) service; the valve's port size groups specifically reference Whisper III Trim, Whisper Trim III and Whisper NXG Trim cages."
+ },
+ {
+  "item": "dd331a1a87",
+  "gold": {
+   "answer": "Yes (solenoid). Versions for 24 V DC, 230 V 50/60 Hz and 115 V 50/60 Hz (ordering tables and coil sets say 110 V); tolerance ±10 %. 24 V DC works if you order the 24 V DC version - the voltage must match the type plate.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "24 V DC version exists",
+    "230 V AC version exists",
+    "must match type plate / order the right version"
+   ],
+   "question": "Regarding GV-11-2 on the P&ID: Does it need power? If so, what voltage, and will 24 V DC work, or do I need 230 V AC?"
+  },
+  "candidate": "GV-11-2 is drawn as a globe (solenoid) valve, and the GF Piping Systems Type 165 2/2-way solenoid valve datasheet that covers the GV tags shows it is an electrically operated solenoid valve, so it does need power. The datasheet lists supply voltage options of 24V DC, 230V 50/60Hz AC, and 115V 50/60Hz AC (voltage tolerance ±10%), with separate ordering codes for each voltage. 24V DC is therefore a supported option and would work if the valve is the 24V DC variant; the documents do not state which voltage variant GV-11-2 itself is equipped with."
+ },
+ {
+  "item": "93425a305f",
+  "gold": {
+   "answer": "Not in the document (no troubleshooting).",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated"
+   ],
+   "relation": "operated_by",
+   "via_tag": "FV-6-2",
+   "question": "Consider the valve operated by control loop FIC-6-2. The valve leaks through when shut. Is it the seat ring or the plug seal, and how do I check?"
+  },
+  "candidate": "The valve operated by loop FIC-6-2 is FV-6-2, a Fisher ET/EAT globe-style control valve with cage guiding and a balanced valve plug. Leak-through when shut can come from either sealing element, and the documentation distinguishes them: with PTFE seating, the shutoff mechanism is a backup ring or spring-loading that forces the valve plug seal ring against the cage, so a leak there points to the plug seal ring (UHMWPE R30003 seal ring, with metal disk seat, PTFE disk and disk retainer in the standard PTFE-seat construction). With metal seating (standard for Cavitrol III cages, optional metal-to-metal for other valves), shutoff depends on the seat ring (e.g., S31600/S41600 seat ring or liner), so a leak there points to the seat ring. To check, perform a seat leak test: the trim cartridge is factory seat-leak tested to CL V shutoff, and the shutoff class depends on the seating chosen (Class IV standard with metal seating, Class V optional with metal seating, Class V/Vi with PTFE seating, and TSO trim tested to no leakage at shipment). If the valve fails its rated shutoff class on test, inspect the seat ring gasket and seat ring for metal-seat constructions, or the PTFE disk, seal ring and backup/spring-loading for soft-seat constructions."
+ },
+ {
+  "item": "ab94a17ddc",
+  "gold": {
+   "answer": "Casing ductile iron; impeller gray iron 40 (wear rings gray iron 25, shaft steel 1045, seal faces silicon carbide). Suitability for pH 5 is not stated.",
+   "answerable": "partial",
+   "category": "value",
+   "must": [
+    "casing ductile iron",
+    "impeller gray iron 40",
+    "pH not stated"
+   ],
+   "relation": "downstream",
+   "via_tag": "P-12-3",
+   "question": "Consider the item directly downstream of BV-12-1 in the process flow. What are the casing and impeller made of? Can it take slightly acidic water around pH 5?"
+  },
+  "candidate": "The casing of the pump P-12-3 is made of ductile iron, and the impeller is made of gray iron 40. Regarding suitability for slightly acidic water around pH 5, the datasheet does not contain information about pH limits, acid resistance, or chemical compatibility, and advises consulting the factory."
+ },
+ {
+  "item": "cb44840aa8",
+  "gold": {
+   "answer": "No. With the low power output code (M), only the Plugged Impulse Line diagnostic is included.",
+   "answerable": "yes",
+   "category": "footnote",
+   "must": [
+    "no",
+    "only Plugged Impulse Line diagnostic"
+   ],
+   "relation": "measured_by",
+   "via_tag": "PT-13-1",
+   "question": "Consider the transmitter that measures P-13-2. If I order the DA1 diagnostics with the low-power 1-5 V output, do I get both Loop Integrity and Plugged Impulse Line diagnostics?"
+  },
+  "candidate": "No. For the DA1 option with low-power output, only the Plugged Impulse Line Diagnostic is included; Loop Integrity diagnostics are not."
+ },
+ {
+  "item": "821d6f5f80",
+  "gold": {
+   "answer": "A sliding-stem, single-port globe-style control valve (body) with cage guiding, balanced valve plug and push-down-to-close plug action, for throttling or on-off control of liquids and gases (part of the easy-e family; EAT = angle version, ETR = push-down-to-open). It is combined with an actuator, e.g. 667.",
+   "answerable": "yes",
+   "category": "value",
+   "must": [
+    "globe-style control valve (sliding stem)",
+    "cage-guided, balanced plug"
+   ],
+   "relation": "upstream",
+   "via_tag": "FV-12-1",
+   "question": "Consider the item directly upstream of BV-12-1 in the process flow. What is a Fisher ET? Is it the valve body, and what kind of valve is it?"
+  },
+  "candidate": "The Fisher ET is a complete sliding-stem control valve, not just a valve body. It is a control valve designed for throttling or on-off control of a wide variety of liquids and gases."
+ },
+ {
+  "item": "e4238510c4",
+  "gold": {
+   "answer": "Standard cages: quick-opening, linear or equal percentage. Whisper Trim, WhisperFlo and Cavitrol cages: linear only.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "all three with standard cage",
+    "special cages linear only"
+   ],
+   "question": "Regarding FV-2-3 on the P&ID: What flow characteristics can I get: equal percentage, linear, quick opening?"
+  },
+  "candidate": "According to the FV-2-3 datasheet (Fisher ET valve), the valve can be obtained with quick-opening, linear, or equal percentage flow characteristics, depending on the cage fitted. Standard cages are available in all three; however, Whisper Trim, WhisperFlo, and Cavitrol cages are available in linear only."
+ },
+ {
+  "item": "0a47057bbc",
+  "gold": {
+   "answer": "Cast iron, WCC or LCC carbon steel, WC9 chrome moly steel, CF8M (cast 316 stainless) or CF3M (cast 316L stainless), others on request. Yes, stainless (CF8M / CF3M) is available.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "CF8M / CF3M stainless available",
+    "cast iron, WCC, LCC, WC9"
+   ],
+   "question": "Regarding FV-12-1 on the P&ID: What body materials are available, and can I get stainless for a corrosive service?"
+  },
+  "candidate": "Yes, stainless is available for FV-12-1 (a Fisher ET/EAT/ETR valve). Available body/bonnet materials per the datasheet: cast iron (CL125/250B), WCC and LCC carbon steel, WC9 chrome-moly steel, CF8M (cast 316 stainless) and CF3M (cast 316L stainless), with other materials available upon request. For corrosive service the stainless options are CF8M (316) and CF3M (316L), rated per ASME B16.34 (CL150/300/600 flanged, CL600 screwed/welded); note that the pressure/temperature limits of the selected body material must not be exceeded. The datasheet does not provide corrosion-resistance guidance for specific media, so suitability for your particular corrosive service is not stated."
+ },
+ {
+  "item": "12ce66165e",
+  "gold": {
+   "answer": "A sliding-stem, single-port globe-style control valve (body) with cage guiding, balanced valve plug and push-down-to-close plug action, for throttling or on-off control of liquids and gases (part of the easy-e family; EAT = angle version, ETR = push-down-to-open). It is combined with an actuator, e.g. 667.",
+   "answerable": "yes",
+   "category": "value",
+   "must": [
+    "globe-style control valve (sliding stem)",
+    "cage-guided, balanced plug"
+   ],
+   "relation": "upstream",
+   "via_tag": "FV-12-1",
+   "question": "Consider the item directly upstream of BV-12-1 in the process flow. What is a Fisher ET? Is it the valve body, and what kind of valve is it?"
+  },
+  "candidate": "The item directly upstream of BV-12-1 is FV-12-1. According to its datasheet, the Fisher ET is not just a valve body — it is a complete sliding-stem control valve (body plus trim plus bonnet, shown with an actuator in Figure 1). It is one of three variants (ET, EAT, ETR) in the Fisher \"easy-e\" family of industrial control valves, used for throttling or on-off control of a wide variety of liquids and gases. The ET is a single-ported valve with a balanced valve plug and cage guiding, standard metal-to-PTFE seating (metal-to-metal with Cavitrol III cages), and quick-opening, linear, or equal-percentage flow characteristics; the ET specifically is aimed at sulfide and chloride stress-cracking environments common to oil and gas production. The datasheet does not give an explicit one-line definition of what \"ET\" stands for."
+ }
+]

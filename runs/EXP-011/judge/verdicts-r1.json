@@ -1,0 +1,12 @@
+[
+ {"item": "9f76901a08", "verdict": "correct", "cites_page": false, "reason": "Correctly states the access/cleaning procedure is not in the documents without inventing one."},
+ {"item": "cc598bd421", "verdict": "correct", "cites_page": false, "reason": "Correctly says no troubleshooting information exists and invents no procedure."},
+ {"item": "c0b6e509de", "verdict": "partial", "cites_page": false, "reason": "States no motor is specified and that a 1450 rpm curve exists, but misses that power stays at or below ~5.6 kW at 1450 rpm, so it does not confirm the 7.5 kW motor is enough."},
+ {"item": "b4270d4624", "verdict": "correct", "cites_page": false, "reason": "Correctly states no diagnostic procedure for seat ring vs plug seal leakage is given."},
+ {"item": "761ebea493", "verdict": "correct", "cites_page": false, "reason": "Correctly says the diagnostic is not stated; the extra shutoff-class context does not invent a procedure."},
+ {"item": "4d54ea3b8e", "verdict": "correct", "cites_page": false, "reason": "Correctly says access without removing the piping is not stated in the documents."},
+ {"item": "bf5f522a91", "verdict": "partial", "cites_page": false, "reason": "Correctly says no motor is specified but omits the 1450 rpm curve and the ~5.6 kW power limit."},
+ {"item": "faebf77035", "verdict": "correct", "cites_page": false, "reason": "Correctly says there is no troubleshooting information; the related facts it gives (0.5 bar minimum, ±10% voltage) match the gold."},
+ {"item": "9bda17bf50", "verdict": "wrong", "cites_page": true, "reason": "Says the specific value is not stated, although the gold gives ±1.95% of flow rate at 8:1 turndown."},
+ {"item": "7c62939fdd", "verdict": "correct", "cites_page": false, "reason": "Identifies the mechanical self-lubricated seal and correctly says no replacement part number is given."}
+]

@@ -1,0 +1,9 @@
+[
+ {"item": "e1e17ed48c", "verdict": "hallucinated", "cites_page": false, "reason": "Opens with 'not in the documents' but then gives a diagnosis (seat ring most likely) and a generic leak-check procedure that the gold says the document does not contain."},
+ {"item": "9f85ea6828", "verdict": "partial", "cites_page": false, "reason": "Correctly says no motor is specified and that a 1450 rpm curve exists, but misses that power stays at or below ~5.6 kW at 1450 rpm, so it does not say whether the motor is adequate."},
+ {"item": "c2d07b99ed", "verdict": "correct", "cites_page": false, "reason": "Correctly states that no blockage-clearing procedure is in the document, without inventing one."},
+ {"item": "cf9cc8c368", "verdict": "correct", "cites_page": false, "reason": "Correctly states that no troubleshooting or leak-source guidance is in the document."},
+ {"item": "93abe1c943", "verdict": "wrong", "cites_page": false, "reason": "Says the information is not in the documents, but the gold has the fail direction, jumper/switch selection, default high and alarm levels."},
+ {"item": "a4dc074030", "verdict": "correct", "cites_page": false, "reason": "Correctly states that no access or cleaning procedure is in the document."},
+ {"item": "90639c6c52", "verdict": "correct", "cites_page": false, "reason": "Identifies the mechanical self-lubricated seal and states that no replacement part number is given, despite a misleading 'not in the documents' opening."}
+]

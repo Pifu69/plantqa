@@ -1429,3 +1429,16 @@
 {"time": "2026-10-31T10:27:16+00:00", "source": "plantdocs-embed", "model": "qwen/qwen3-embedding-8b", "prompt_tokens": 38, "completion_tokens": 0, "cost_usd": 3.8e-07}
 {"time": "2026-10-31T10:27:29+00:00", "source": "plantgraph", "tag": "M3-glm/c07/answer", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 15450, "completion_tokens": 1828, "cost_usd": 0.000330634}
 {"time": "2026-10-31T10:27:30+00:00", "source": "plantdocs-embed", "model": "qwen/qwen3-embedding-8b", "prompt_tokens": 44, "completion_tokens": 0, "cost_usd": 4.4e-07}
+{"time": "2026-10-31T10:27:41+00:00", "source": "plantgraph", "tag": "M3-glm/c08/answer", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 11335, "completion_tokens": 1630, "cost_usd": 0.000252827}
+{"time": "2026-10-31T10:27:42+00:00", "source": "plantdocs-embed", "model": "qwen/qwen3-embedding-8b", "prompt_tokens": 37, "completion_tokens": 0, "cost_usd": 1.48e-06}
+{"time": "2026-10-31T10:27:54+00:00", "source": "plantgraph", "tag": "M3-glm/c09/answer", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 13806, "completion_tokens": 1970, "cost_usd": 0.0003073982}
+{"time": "2026-10-31T10:27:55+00:00", "source": "plantdocs-embed", "model": "qwen/qwen3-embedding-8b", "prompt_tokens": 39, "completion_tokens": 0, "cost_usd": 3.9e-07}
+{"time": "2026-10-31T10:28:09+00:00", "source": "plantgraph", "tag": "M3-glm/c10/answer", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 12048, "completion_tokens": 2121, "cost_usd": 0.0002825211}
+{"time": "2026-10-31T10:28:09+00:00", "source": "plantdocs-embed", "model": "qwen/qwen3-embedding-8b", "prompt_tokens": 28, "completion_tokens": 0, "cost_usd": 2.8e-07}
+{"time": "2026-10-31T10:28:20+00:00", "source": "plantgraph", "tag": "M3-glm/c11/answer", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 12609, "completion_tokens": 1575, "cost_usd": 0.0002727873}
+{"time": "2026-10-31T10:28:21+00:00", "source": "plantdocs-embed", "model": "qwen/qwen3-embedding-8b", "prompt_tokens": 39, "completion_tokens": 0, "cost_usd": 3.9e-07}
+{"time": "2026-10-31T10:28:34+00:00", "source": "plantgraph", "tag": "M3-glm/c12/answer", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 13053, "completion_tokens": 2024, "cost_usd": 0.0002963636}
+{"time": "2026-10-31T10:28:35+00:00", "source": "plantdocs-embed", "model": "qwen/qwen3-embedding-8b", "prompt_tokens": 31, "completion_tokens": 0, "cost_usd": 1.24e-06}
+{"time": "2026-10-31T10:28:49+00:00", "source": "plantgraph", "tag": "M3-glm/c13/answer", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 15220, "completion_tokens": 1752, "cost_usd": 0.00032398}
+{"time": "2026-10-31T10:28:50+00:00", "source": "plantdocs-embed", "model": "qwen/qwen3-embedding-8b", "prompt_tokens": 36, "completion_tokens": 0, "cost_usd": 3.6e-07}
+{"time": "2026-10-31T10:29:05+00:00", "source": "plantgraph", "tag": "M3-glm/c14/answer", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 17815, "completion_tokens": 2324, "cost_usd": 0.00038892}

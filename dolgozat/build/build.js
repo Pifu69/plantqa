@@ -20,6 +20,19 @@ const TEXT_WIDTH = 8503; // A4, bal 3,5 cm / jobb 2,5 cm margó (VIK-sablon): 11
 
 let figureNo = 0;
 let tableNo = 0;
+let chapterNo = 0;
+let sectionNo = 0;
+const UNNUMBERED = ["Irodalomjegyzék", "Függelék"];
+
+function numbered(level, text) {
+  // fejezet- és alfejezetszám (a VIK-sablon szokása); az irodalom és a függelék számozatlan
+  if (level === 1) {
+    if (UNNUMBERED.includes(text)) { chapterNo = -1; return text; }
+    chapterNo += 1; sectionNo = 0; return `${chapterNo}. ${text}`;
+  }
+  if (level === 2 && chapterNo > 0) { sectionNo += 1; return `${chapterNo}.${sectionNo} ${text}`; }
+  return text;
+}
 
 function runs(text, base = {}) {
   // **félkövér**, *dőlt*, `kód` beágyazott jelölés futásokra bontva
@@ -110,8 +123,8 @@ function chapter(md) {
   let i = 0, pendingTable = "", first = true;
   while (i < lines.length) {
     const line = lines[i];
-    if (line.startsWith("# ")) { out.push(heading(HeadingLevel.HEADING_1, line.slice(2), !first)); first = false; i += 1; continue; }
-    if (line.startsWith("## ")) { out.push(heading(HeadingLevel.HEADING_2, line.slice(3))); i += 1; continue; }
+    if (line.startsWith("# ")) { out.push(heading(HeadingLevel.HEADING_1, numbered(1, line.slice(2)), true)); first = false; i += 1; continue; }
+    if (line.startsWith("## ")) { out.push(heading(HeadingLevel.HEADING_2, numbered(2, line.slice(3)))); i += 1; continue; }
     if (line.startsWith("### ")) { out.push(heading(HeadingLevel.HEADING_3, line.slice(4))); i += 1; continue; }
     if (line.startsWith("Táblázat: ")) { pendingTable = line.slice(10); i += 1; continue; }
     if (line.startsWith("|")) {

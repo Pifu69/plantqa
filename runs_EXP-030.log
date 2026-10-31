@@ -1,0 +1,16 @@
+e01 ANSWERED 'The item with the lowest maximum allowable pressure is E-1-1, with 150 psig (ASM'
+e02 ANSWERED 'The items on the path from CHV-1-2 to CHV-2-1 that have datasheets are the check'
+e03 ANSWERED "The path from GV-1-2 to P-1-2 passes through GV-1-2, CHV-1-1 and P-1-2. GV-1-2's"
+Retrying answer call after a transport error (attempt 1/5, waiting 1.00s)
+e04 ANSWERED 'The only item on the path from CHV-1-2 to BV-2-1 with a datasheet is CHV-1-2 (a '
+Retrying cypher call after a transport error (attempt 1/5, waiting 1.00s)
+Retrying cypher call after a transport error (attempt 2/5, waiting 2.00s)
+e05 ANSWERED 'Not in the documents.'
+e06 ANSWERED 'The items receiving flow directly from P-2-1 are P-2-2, BV-2-1, and a third item'
+e07 ANSWERED 'The item CHV-1-2 has a maximum allowable pressure of 6000 psig (413 bar), and GV'
+e08 ANSWERED 'The maximum fluid temperature for GV-1-1 is +50 \xb0C. The maximum fluid temperatur'
+e09 TIMED_OUT ''
+e10 ANSWERED 'Not in the documents.'
+e11 ANSWERED 'The item directly downstream of BV-2-1, which is E-2-1, has the lowest maximum a'
+e12 ANSWERED 'Not in the documents.'
+C:\Users\Zsombi\plantqa\runs\EXP-030\M1-glm-complex.jsonl

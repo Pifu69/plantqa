@@ -8,6 +8,15 @@
       "git_commit": "675797e",
       "started": "2026-10-31T11:19:40+00:00",
       "spent_before_usd": 1.39
+    },
+    {
+      "command": "python -m plantqa.eval.run --exp EXP-030 --method M2 --model glm --split complex --allow-paid",
+      "method": "M2",
+      "model_id": "z-ai/glm-5.3-flash",
+      "split": "complex",
+      "git_commit": "ff5434d",
+      "started": "2026-10-31T11:34:13+00:00",
+      "spent_before_usd": 1.4518
     }
   ]
 }

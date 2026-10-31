@@ -12,3 +12,16 @@
 {"time": "2026-10-31T08:34:34+00:00", "source": "plantgraph", "tag": "smoke-glm/s1/answer", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 833, "completion_tokens": 203, "cost_usd": 2.15341e-05}
 {"time": "2026-10-31T08:34:35+00:00", "source": "plantgraph", "tag": "smoke-glm/s2/cypher", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 1997, "completion_tokens": 53, "cost_usd": 9.8468e-05}
 {"time": "2026-10-31T08:34:37+00:00", "source": "plantgraph", "tag": "smoke-glm/s2/answer", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 865, "completion_tokens": 277, "cost_usd": 2.47115e-05}
+{"time": "2026-10-31T08:37:36+00:00", "source": "plantgraph", "tag": "M1-glm/t1/cypher", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 2989, "completion_tokens": 202, "cost_usd": 0.000171916}
+{"time": "2026-10-31T08:37:38+00:00", "source": "plantgraph", "tag": "M1-glm/t1/cypher", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 3362, "completion_tokens": 174, "cost_usd": 0.00018132}
+{"time": "2026-10-31T08:37:41+00:00", "source": "plantgraph", "tag": "M1-glm/t1/answer", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 1077, "completion_tokens": 442, "cost_usd": 3.42154e-05}
+{"time": "2026-10-31T08:37:44+00:00", "source": "plantgraph", "tag": "M1-glm/t2/cypher", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 2983, "completion_tokens": 586, "cost_usd": 0.000247044}
+{"time": "2026-10-31T08:37:45+00:00", "source": "plantgraph", "tag": "M1-glm/t2/cypher", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 3388, "completion_tokens": 215, "cost_usd": 0.000189192}
+{"time": "2026-10-31T08:37:48+00:00", "source": "plantgraph", "tag": "M1-glm/t2/answer", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 1028, "completion_tokens": 371, "cost_usd": 3.08521e-05}
+{"time": "2026-10-31T08:37:49+00:00", "source": "plantgraph", "tag": "M1-glm/t2/agent_step", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 2225, "completion_tokens": 173, "cost_usd": 4.44115e-05}
+{"time": "2026-10-31T08:37:50+00:00", "source": "plantdocs-embed", "model": "qwen/qwen3-embedding-8b", "prompt_tokens": 15, "completion_tokens": 0, "cost_usd": 1.5e-07}
+{"time": "2026-10-31T08:37:55+00:00", "source": "plantdocs-chat", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 3724, "completion_tokens": 868, "cost_usd": 9.48668e-05}
+{"time": "2026-10-31T08:38:03+00:00", "source": "plantdocs-chat", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 4156, "completion_tokens": 1289, "cost_usd": 0.0001172427}
+{"time": "2026-10-31T08:38:04+00:00", "source": "plantdocs-chat", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 1578, "completion_tokens": 104, "cost_usd": 0.000216525}
+{"time": "2026-10-31T08:38:09+00:00", "source": "plantgraph", "tag": "M1-glm/t2/agent_step", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 2409, "completion_tokens": 842, "cost_usd": 7.13258e-05}
+{"time": "2026-10-31T08:38:11+00:00", "source": "plantgraph", "tag": "M1-glm/t2/agent_step", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 2525, "completion_tokens": 169, "cost_usd": 4.5918e-05}

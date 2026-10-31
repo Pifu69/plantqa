@@ -1,0 +1,485 @@
+{"descriptions": {
+"rosemount-3051-00813-0100-4001/section-326": {
+  "description": "Heading of the 'Additional options' block in the Rosemount 3051L ordering information, with only the line 'Include with selected model number.'",
+  "use_for": "Answers nothing on its own; see rosemount-3051-00813-0100-4001/table-azure-253.",
+  "uncertain": "Heading only; the option codes themselves are in the following 3051L ordering tables (local wireless device access, extended warranty, Plantweb, etc.)."
+},
+"rosemount-3051-00813-0100-4001/section-331": {
+  "description": "Note under the 'Seal assemblies' heading of the Rosemount 3051L ordering information stating that 'Assemble-to' items are specified separately and require a completed model number.",
+  "use_for": "Answers how 'Assemble-to' seal assembly items are ordered; for the seal assembly code (S1) see rosemount-3051-00813-0100-4001/table-azure-257."
+},
+"rosemount-3051-00813-0100-4001/section-333": {
+  "description": "Footnotes (1)-(4) to the Rosemount 3051L ordering table 'Product certifications': dust approval not applicable to wireless (output code X), approvals limited to output codes A, F or W with aluminum housing and 1/2 NPT conduit entry (housing code A), no non-incendive certification for wireless, and approvals only available with wireless.",
+  "use_for": "Use it to find the output-code and housing restrictions attached to the 3051L product certification codes (see rosemount-3051-00813-0100-4001/table-azure-259).",
+  "uncertain": "Only the footnotes were captured here; which certification code carries which footnote is in the table, and 'UNDATION' is an OCR fragment of FOUNDATION."
+},
+"rosemount-3051-00813-0100-4001/section-341": {
+  "description": "Restriction note for the Rosemount 3051L ordering option 'Quality certification for safety': only available with HART 4-20 mA output (code A).",
+  "use_for": "Answers which output code the 3051L quality certification for safety (see rosemount-3051-00813-0100-4001/table-azure-266) requires."
+},
+"rosemount-3051-00813-0100-4001/section-343": {
+  "description": "Restriction note for the Rosemount 3051L ordering option 'Conduit electrical connector': not available with wireless output (code X).",
+  "use_for": "Answers whether the 3051L conduit electrical connector option (see rosemount-3051-00813-0100-4001/table-azure-268) can be combined with wireless output."
+},
+"rosemount-3051-00813-0100-4001/section-346": {
+  "description": "Restriction note for the Rosemount 3051L ordering option 'Transient protection': not available with wireless (code X), and the T1 option is not needed with FISCO certifications because transient protection is included in codes IA, IB and IE.",
+  "use_for": "Answers when the T1 transient protection option is unavailable or unnecessary in the 3051L ordering information (see rosemount-3051-00813-0100-4001/table-azure-271)."
+},
+"rosemount-3051-00813-0100-4001/section-347": {
+  "description": "Restriction note for the Rosemount 3051L ordering option 'Software configuration': only available with HART 4-20 mA (code A) and wireless (code X).",
+  "use_for": "Answers which output codes allow the 3051L software configuration option (see rosemount-3051-00813-0100-4001/table-azure-272)."
+},
+"rosemount-3051-00813-0100-4001/section-348": {
+  "description": "Restriction note for the Rosemount 3051L ordering option 'Alarm levels': only available with HART 4-20 mA output (code A).",
+  "use_for": "Answers which output code the 3051L alarm level options (see rosemount-3051-00813-0100-4001/table-azure-273) require."
+},
+"rosemount-3051-00813-0100-4001/section-349": {
+  "description": "Restriction note for the Rosemount 3051L ordering option 'Conduit plug': not available with wireless output (code X).",
+  "use_for": "Answers whether the 3051L conduit plug option (see rosemount-3051-00813-0100-4001/table-azure-274) is available with wireless output."
+},
+"rosemount-3051-00813-0100-4001/section-350": {
+  "description": "Restriction note for the Rosemount 3051L ordering option 'Ground screw': not available with wireless (code X), and V5 is not needed with T1 because the external ground screw assembly is included with T1.",
+  "use_for": "Answers when the V5 ground screw option is unavailable or redundant in the 3051L ordering information (see rosemount-3051-00813-0100-4001/table-azure-275)."
+},
+"rosemount-3051-00813-0100-4001/section-353": {
+  "description": "Note to the Rosemount 3051L ordering option 'NACE certificate': NACE-compliant wetted materials are required, complying with NACE MR0175/ISO 15156 for sour oil field production and NACE MR0103 for sour refining environments.",
+  "use_for": "Answers which NACE standards the wetted materials must meet when the 3051L NACE certificate option (see rosemount-3051-00813-0100-4001/table-azure-278) is ordered."
+},
+"rosemount-3051-00813-0100-4001/section-354": {
+  "description": "Short explanation of the Rosemount 3051L ordering option 'Enhanced software': it enables application specific configuration, expanded process alerts and logging capabilities.",
+  "use_for": "Answers what the enhanced software option (see rosemount-3051-00813-0100-4001/table-azure-279) provides."
+},
+"rosemount-3051-00813-0100-4001/section-356": {
+  "description": "Opening of the Performance specifications chapter: a statement that technology, manufacturing techniques and statistical process control ensure specification conformance to at least ±3 sigma.",
+  "use_for": "Answers what statistical conformance level the Rosemount 3051 performance specifications are guaranteed to.",
+  "uncertain": "OCR renders the sigma value as '+30 [Sigma]' and '±30'; most likely ±3σ."
+},
+"rosemount-3051-00813-0100-4001/section-357": {
+  "description": "Introductory note to the Reference accuracy specification: the accuracy equations include terminal based linearity, hysteresis and repeatability, and for wireless, FOUNDATION Fieldbus and PROFIBUS PA devices calibrated range replaces span.",
+  "use_for": "Answers what the stated reference accuracy includes and what replaces span for wireless, Fieldbus and PROFIBUS PA devices; the values are in rosemount-3051-00813-0100-4001/table-azure-280."
+},
+"rosemount-3051-00813-0100-4001/section-359": {
+  "description": "Note in the flow performance specification (p. 77): accuracy over range of use is application dependent, and Range 1 flow meters may have an additional uncertainty up to 0.9 percent.",
+  "use_for": "Answers how much additional uncertainty Range 1 flow meters may have beyond the flow reference accuracy (see rosemount-3051-00813-0100-4001/table-azure-282)."
+},
+"rosemount-3051-00813-0100-4001/section-360": {
+  "description": "Definition of the Total performance specification: combined errors of reference accuracy, ambient temperature effect and static pressure effect at 70 percent of span typical reading and 740 psi (51.02 bar) line pressure, for ±50 °F (28 °C) temperature changes, 0-100 percent relative humidity and 1:1 to 5:1 rangedown.",
+  "use_for": "Answers under which conditions the Rosemount 3051 total performance values (see rosemount-3051-00813-0100-4001/table-azure-283) are stated.",
+  "uncertain": "OCR shows '+50 °F (+28 ℃)'; the sign is probably ±."
+},
+"rosemount-3051-00813-0100-4001/section-362": {
+  "description": "Text of the 'Line pressure effect per 1000 psi (68.95 bar)' subsection: for line pressures above 2000 psi (137.90 bar) and Ranges 4-5 it refers to the HART, WirelessHART, FOUNDATION Fieldbus and PROFIBUS PA reference manuals.",
+  "use_for": "Answers where to find line pressure effect data above 2000 psi for Ranges 4-5; the values up to that are in rosemount-3051-00813-0100-4001/table-1.",
+  "uncertain": "Titled 'Dynamic performance' but the content is the line pressure effect text; the dynamic performance values are in rosemount-3051-00813-0100-4001/table-azure-285. The FOUNDATION Fieldbus bullet is duplicated (as on the page)."
+},
+"rosemount-3051-00813-0100-4001/section-365": {
+  "description": "Vibration effect specification: less than ±0.1 percent of URL when tested per IEC60770-1: 1999 for field or pipeline with high vibration level (10-60 Hz 0.21 mm displacement peak amplitude / 60-2000 Hz 3g).",
+  "use_for": "Answers the vibration effect of the Rosemount 3051 and the test standard and levels used."
+},
+"rosemount-3051-00813-0100-4001/section-366": {
+  "description": "Power supply effect specification: less than 0.005 percent of calibrated span per volt change.",
+  "use_for": "Answers how much the output shifts per volt change of supply voltage.",
+  "uncertain": "OCR shows '+0.005 percent'; the sign is probably ±."
+},
+"rosemount-3051-00813-0100-4001/section-367": {
+  "description": "Electromagnetic compatibility specification: meets the industrial environment requirements of EN61326 and NAMUR NE-21, with maximum deviation <1% span during EMC disturbance.",
+  "use_for": "Answers which EMC standards the Rosemount 3051 meets and its maximum deviation during EMC disturbance."
+},
+"rosemount-3051-00813-0100-4001/section-368": {
+  "description": "Note to the EMC specification: NAMUR NE-21 does not apply to Low-Power (output code M) or Wireless (output code X).",
+  "use_for": "Answers which output codes are excluded from NAMUR NE-21 compliance."
+},
+"rosemount-3051-00813-0100-4001/section-369": {
+  "description": "Transient protection (option code T1) specification in the performance chapter: tested per IEEE C62.41.2-2002, location category B, with 6 kV crest (0.5 µs - 100 kHz), 3 kA crest (8 x 20 µs) and 6 kV crest (1.2 x 50 µs).",
+  "use_for": "Answers to which standard and surge levels the T1 transient protection is tested."
+},
+"rosemount-3051-00813-0100-4001/section-372": {
+  "description": "Functional specification 'Service': liquid, gas and vapor applications.",
+  "use_for": "Answers which process media the Rosemount 3051 is intended for."
+},
+"rosemount-3051-00813-0100-4001/section-374": {
+  "description": "Power supply specification for the 4-20 mA HART output (output code A): external power supply required, standard transmitter operates on 10.5-42.4 Vdc with no load.",
+  "use_for": "Answers the supply voltage range of the 4-20 mA HART Rosemount 3051."
+},
+"rosemount-3051-00813-0100-4001/section-375": {
+  "description": "Load limitations for the 4-20 mA HART output: maximum loop resistance = 43.5 x (power supply voltage - 10.5), minimum 250 ohms loop resistance for communication, plus the axis labels of the load chart (Load, Operating region, Voltage (Vdc)).",
+  "use_for": "Use it to find the formula for maximum loop resistance and the minimum loop resistance needed for HART communication; the plotted region is in rosemount-3051-00813-0100-4001/fig-82.1/chart-1.",
+  "uncertain": "'Load (22s)' is OCR junk for the ohm unit."
+},
+"rosemount-3051-00813-0100-4001/section-376": {
+  "description": "Note to the 4-20 mA HART power supply: for CSA approval the power supply must not exceed 42.4 V.",
+  "use_for": "Answers the maximum supply voltage allowed for CSA approval."
+},
+"rosemount-3051-00813-0100-4001/section-378": {
+  "description": "Indication options for the 4-20 mA HART output: optional 2-line LCD/LOI display and optional 3-line graphical display with backlight and local language, in English, Chinese, French, German, Italian, Portuguese, Russian and Spanish.",
+  "use_for": "Answers which displays are available for the HART output and which languages the graphical display supports.",
+  "uncertain": "The page heading is 'Indication'; Azure used the first line as the title."
+},
+"rosemount-3051-00813-0100-4001/section-379": {
+  "description": "Optional configuration buttons for the HART output: quick service buttons (D1: zero, rerange, loop test, view configuration, flip the graphical display), Digital Zero trim (DZ) and Analog Zero and Span (D4).",
+  "use_for": "Answers what the D1, DZ and D4 configuration button options do."
+},
+"rosemount-3051-00813-0100-4001/section-380": {
+  "description": "Output specification of the 4-20 mA HART version: two-wire 4-20 mA, user selectable linear or square root, with a HART digital process variable superimposed.",
+  "use_for": "Answers what output signal the 4-20 mA HART Rosemount 3051 provides."
+},
+"rosemount-3051-00813-0100-4001/section-381": {
+  "description": "Bluetooth connectivity specification: typical range at least 50 ft. (15 m) line of sight, varying with orientation, obstacles and electromagnetic environment.",
+  "use_for": "Answers the typical Bluetooth communication range.",
+  "uncertain": "The trailing line 'FOUNDATION Fieldbus (output code F)' is the next section heading, not part of this section."
+},
+"rosemount-3051-00813-0100-4001/section-382": {
+  "description": "Power supply specification for FOUNDATION Fieldbus (output code F): external supply, 9.0 to 32.0 Vdc terminal voltage, FISCO transmitters 9.0 to 17.5 Vdc.",
+  "use_for": "Answers the supply voltage range of the FOUNDATION Fieldbus and FISCO Rosemount 3051."
+},
+"rosemount-3051-00813-0100-4001/section-383": {
+  "description": "Current draw for FOUNDATION Fieldbus (output code F): 17.5 mA for all configurations including the display option.",
+  "use_for": "Answers the current draw of the FOUNDATION Fieldbus Rosemount 3051."
+},
+"rosemount-3051-00813-0100-4001/section-384": {
+  "description": "Indication for FOUNDATION Fieldbus (output code F): optional two-line LCD display.",
+  "use_for": "Answers which display is available for the FOUNDATION Fieldbus version."
+},
+"rosemount-3051-00813-0100-4001/section-388": {
+  "description": "FOUNDATION Fieldbus feature 'Backup Link Active Scheduler (LAS)': the transmitter can act as LAS if the current link master fails or is removed.",
+  "use_for": "Answers whether the Fieldbus transmitter can take over as link active scheduler."
+},
+"rosemount-3051-00813-0100-4001/section-389": {
+  "description": "Description of the FOUNDATION Fieldbus Diagnostics Suite (option code D01): SPM technology models the process noise signature (mean and standard deviation) to detect changes such as plugged impulse lines and generate an alert.",
+  "use_for": "Answers what the D01 diagnostics suite detects and how it works."
+},
+"rosemount-3051-00813-0100-4001/section-393": {
+  "description": "Power supply specification for PROFIBUS PA (output code W): external supply, 9.0 to 32.0 Vdc terminal voltage, FISCO transmitters 9.0 to 17.5 Vdc.",
+  "use_for": "Answers the supply voltage range of the PROFIBUS PA Rosemount 3051.",
+  "uncertain": "Same wording as the FOUNDATION Fieldbus power supply section; the PROFIBUS PA (output code W) context comes from the page heading, not from this text."
+},
+"rosemount-3051-00813-0100-4001/section-394": {
+  "description": "Current draw for PROFIBUS PA (output code W): 17.5 mA for all configurations including the LCD display option.",
+  "use_for": "Answers the current draw of the PROFIBUS PA Rosemount 3051."
+},
+"rosemount-3051-00813-0100-4001/section-396": {
+  "description": "PROFIBUS PA standard function block: the Analog Input (AI) block processes measurements, outputs them in engineering units with a quality status, and is used for scaling.",
+  "use_for": "Answers which standard function block the PROFIBUS PA version has and what it does."
+},
+"rosemount-3051-00813-0100-4001/section-397": {
+  "description": "Note to the PROFIBUS PA AI block: channel, Set XD_Scale, Set L_Type and sometimes Set Out_Scale are configured by instrument personnel, other AI parameters, links and schedule by the control systems engineer.",
+  "use_for": "Answers who typically configures which AI block parameters."
+},
+"rosemount-3051-00813-0100-4001/section-398": {
+  "description": "Indication for PROFIBUS PA (output code W): optional two-line LCD display.",
+  "use_for": "Answers which display is available for the PROFIBUS PA version."
+},
+"rosemount-3051-00813-0100-4001/section-399": {
+  "description": "LOI for PROFIBUS PA: a two-button menu with external configuration buttons.",
+  "use_for": "Answers how the local operator interface of the PROFIBUS PA version is operated.",
+  "uncertain": "The trailing line 'Wireless (output code X)' is the next section heading."
+},
+"rosemount-3051-00813-0100-4001/section-400": {
+  "description": "Output of the wireless version (output code X): IEC 62591 (WirelessHART), 2.4 GHz DSSS.",
+  "use_for": "Answers which wireless protocol and band the wireless Rosemount 3051 uses."
+},
+"rosemount-3051-00813-0100-4001/section-401": {
+  "description": "Wireless radio data for the internal antenna (WP5 option): frequency 2.400-2.485 GHz, 15 channels, IEEE 802.15.4 compliant DSSS modulation, maximum 10 dBm EIRP transmission.",
+  "use_for": "Answers the radio frequency, channel count, modulation and transmit power of the wireless transmitter."
+},
+"rosemount-3051-00813-0100-4001/section-402": {
+  "description": "Local display of the wireless version: optional three-line, seven-digit LCD showing primary variable, scaled variable, percent of range, sensor module and electronics temperature, updating at the wireless update rate.",
+  "use_for": "Answers what the wireless transmitter's LCD can display."
+},
+"rosemount-3051-00813-0100-4001/section-403": {
+  "description": "Digital zero trim (option DZ) of the wireless version: offset adjustment for mounting position effects, up to 5 percent of URL.",
+  "use_for": "Answers how large an offset the DZ digital zero trim can compensate."
+},
+"rosemount-3051-00813-0100-4001/section-404": {
+  "description": "Update rate of the wireless version: user selectable from 1 second to 60 minute.",
+  "use_for": "Answers the selectable wireless update rate range."
+},
+"rosemount-3051-00813-0100-4001/section-405": {
+  "description": "Wireless sensor module for in-line transmitters: the wireless transmitter requires the engineered polymer housing, the standard sensor module is aluminum, and SST requires option WSM.",
+  "use_for": "Answers which housing the wireless in-line transmitter needs and which option gives an SST sensor module."
+},
+"rosemount-3051-00813-0100-4001/section-406": {
+  "description": "Power module of the wireless version: field replaceable, keyed, intrinsically safe lithium-thionyl chloride module with PBT/PC enclosure, ten-year life at one minute update rate.",
+  "use_for": "Answers the type and expected life of the wireless power module.",
+  "uncertain": "The trailing '7' is a footnote reference whose text (reference conditions) is not included here."
+},
+"rosemount-3051-00813-0100-4001/section-407": {
+  "description": "Note to the wireless power module: continuous exposure to ambient limits of -40 °F or 185 °F (-40 °C or 85 °C) may reduce specified life by less than 20 percent.",
+  "use_for": "Answers how extreme ambient temperatures affect the power module life."
+},
+"rosemount-3051-00813-0100-4001/section-410": {
+  "description": "Output of the 1-5 Vdc HART low power version (output code M): three-wire 1-5 Vdc, linear or square root, HART digital variable superimposed, operating on 6-12 Vdc with no load.",
+  "use_for": "Answers the output signal and supply voltage of the low power Rosemount 3051."
+},
+"rosemount-3051-00813-0100-4001/section-411": {
+  "description": "Power consumption of the low power version (output code M): 3.0 mA, 18-36 mW.",
+  "use_for": "Answers the power consumption of the low power transmitter."
+},
+"rosemount-3051-00813-0100-4001/section-412": {
+  "description": "Minimum load impedance of the low power version (output code M): 100 kΩ (Vout wiring).",
+  "use_for": "Answers the minimum load impedance for the 1-5 Vdc output.",
+  "uncertain": "OCR shows 'kQ2' for kΩ."
+},
+"rosemount-3051-00813-0100-4001/section-413": {
+  "description": "Indication for the low power version (output code M): optional five-digit LCD display.",
+  "use_for": "Answers which display the low power transmitter can have.",
+  "uncertain": "The trailing line 'Overpressure limits' is the next chapter heading."
+},
+"rosemount-3051-00813-0100-4001/section-414": {
+  "description": "Overpressure limits for Rosemount 3051CD/CG/CF: Range 0 750 psi (51.71 bar), Range 1 2,000 psig (137.90 bar), Ranges 2-5 3,626 psig (250.00 bar), or 4500 psig (310.26 bar) with option code P9.",
+  "use_for": "Use it to find the overpressure limit of a 3051CD, CG or CF transmitter by range."
+},
+"rosemount-3051-00813-0100-4001/section-415": {
+  "description": "Overpressure limits for Rosemount 3051CA: Range 1 750 psia (51.71 bar), Range 2 1,500 psia (103.42 bar), Range 3 1,600 psia (110.32 bar), Range 4 6,000 psia (413.69 bar).",
+  "use_for": "Use it to find the overpressure limit of a 3051CA transmitter by range."
+},
+"rosemount-3051-00813-0100-4001/section-416": {
+  "description": "Overpressure limits for Rosemount 3051TG/TA by range, from Range 0 60 psi (4.14 bar) to Range 6 24,000 psi (1654.74 bar), plus the note that for 3051L or level flange codes FA, FB, FC, FD, FP and FQ the limit is 0 psia to the flange or sensor rating, whichever is lower.",
+  "use_for": "Use it to find the overpressure limit of a 3051TG/TA transmitter by range, and how the limit is set for 3051L and level flanges (ratings in rosemount-3051-00813-0100-4001/table-4).",
+  "uncertain": "The last line 'At 248 °F (120 ℃), the rating decreases ... per DIN 2401' belongs to Table 4 (rosemount-3051-00813-0100-4001/table-4)."
+},
+"rosemount-3051-00813-0100-4001/section-418": {
+  "description": "Static pressure limit for Rosemount 3051CD only: within specifications between 0.5 psia and 3,626 psig (4,500 psig (310.26 bar) with option P9); Range 0 0.5 psia to 750 psig (0.03 to 51.71 bar), Range 1 0.5 psia to 2,000 psig (0.03 to 137.90 bar).",
+  "use_for": "Answers the static line pressure range over which a 3051CD meets its specifications."
+},
+"rosemount-3051-00813-0100-4001/section-420": {
+  "description": "Burst pressure limit for Rosemount 3051C and 3051CF with coplanar or traditional transmitter flange: 10,081 psig (695,06 bar).",
+  "use_for": "Answers the burst pressure of the 3051C/3051CF flanged transmitters."
+},
+"rosemount-3051-00813-0100-4001/section-421": {
+  "description": "Burst pressure limits for Rosemount 3051T in-line: Ranges 0-4 11,016 psi (759.53 bar), Range 5 26,016 psig (1,793.74 bar), Range 6 46,092 psi (3,177.93 bar).",
+  "use_for": "Use it to find the burst pressure of a 3051T in-line transmitter by range."
+},
+"rosemount-3051-00813-0100-4001/section-423": {
+  "description": "Failure mode alarm text for HART 4-20 mA (output code A): on sensor or microprocessor failure the analog signal is driven high or low (selected by jumper/switch), with levels depending on standard, NAMUR-compliant or custom configuration.",
+  "use_for": "Answers how the 4-20 mA HART transmitter signals a failure; the alarm current values are in rosemount-3051-00813-0100-4001/table-5."
+},
+"rosemount-3051-00813-0100-4001/section-424": {
+  "description": "Failure mode alarm for output code M: on gross failure the analog signal is driven below 0.94 V or above 5.4 V, selectable by internal jumper.",
+  "use_for": "Answers the alarm voltage levels of the low power (code M) transmitter."
+},
+"rosemount-3051-00813-0100-4001/section-425": {
+  "description": "Failure mode alarm for output codes F, W and X: a gross failure is passed as an alert and status along with the process variable.",
+  "use_for": "Answers how Fieldbus, PROFIBUS PA and wireless transmitters report a failure."
+},
+"rosemount-3051-00813-0100-4001/section-427": {
+  "description": "Ambient temperature limits: -40 to +185 °F (-40 to +85 °C), with display -40 to +176 °F (-40 to +80 °C), with option BR5 -58 to +185 °F (-50 to +85 °C), with BR6 -76 to +185 °F (-60 to +85 °C), plus footnotes on LCD, wireless LCD and graphical LCD readability at low temperatures.",
+  "use_for": "Use it to find the ambient temperature range of the Rosemount 3051 with or without display and with options BR5/BR6."
+},
+"rosemount-3051-00813-0100-4001/section-429": {
+  "description": "Storage temperature limits with the note to perform a sensor trim if stored above +185 °F (+85 °C): -76 to +230 °F (-60 to +110 °C), with display -76 to +185 °F (-60 to +85 °C), with wireless output -40 to +185 °F (-40 to +85 °C).",
+  "use_for": "Use it to find the storage temperature range of the Rosemount 3051 with or without display or wireless output.",
+  "uncertain": "Titled 'Note'; the page heading 'Storage' is not in the text, so the limits are easy to mistake for operating limits."
+},
+"rosemount-3051-00813-0100-4001/section-430": {
+  "description": "Process temperature limits entry: at atmospheric pressures and above, referring to Table 6.",
+  "use_for": "Answers nothing on its own; see rosemount-3051-00813-0100-4001/table-6."
+},
+"rosemount-3051-00813-0100-4001/section-432": {
+  "description": "Turn-on time: within specifications less than 2.0 seconds after power-up (20.0 seconds for PROFIBUS PA and FOUNDATION Fieldbus), not applicable to wireless code X; also volumetric displacement less than 0.005 inch3 (0.08 cm3).",
+  "use_for": "Answers the turn-on time per protocol and the volumetric displacement of the Rosemount 3051.",
+  "uncertain": "Azure merged the separate 'Volumetric displacement' section (p. 91) into this one."
+},
+"rosemount-3051-00813-0100-4001/section-434": {
+  "description": "Damping for 4-20 mA HART: analog output response to a step change is user-enterable from 0.0 to 60 seconds for one time constant, in addition to sensor module response time.",
+  "use_for": "Answers the adjustable damping range of the HART transmitter."
+},
+"rosemount-3051-00813-0100-4001/section-435": {
+  "description": "Damping for FOUNDATION Fieldbus: transducer block and AI block damping are user configurable.",
+  "use_for": "Answers where damping is set on the FOUNDATION Fieldbus transmitter."
+},
+"rosemount-3051-00813-0100-4001/section-436": {
+  "description": "Damping for PROFIBUS PA: AI block only, user configurable.",
+  "use_for": "Answers where damping is set on the PROFIBUS PA transmitter."
+},
+"rosemount-3051-00813-0100-4001/section-438": {
+  "description": "Material selection disclaimer: the purchaser is responsible for analysing process parameters (chemical components, temperature, pressure, flow rate, abrasives, contaminants) when choosing materials; Emerson does not guarantee process fluid compatibility.",
+  "use_for": "Answers who is responsible for checking material compatibility with the process."
+},
+"rosemount-3051-00813-0100-4001/section-439": {
+  "description": "Electrical connections: 1/2-14 NPT, G1/2 and M20 x 1.5 conduit; polymer housing (code P) has no conduit entries; HART interface connections on the terminal block for output A and on the 701P Power Module for output X.",
+  "use_for": "Answers which conduit entry threads are available and where the HART connections are."
+},
+"rosemount-3051-00813-0100-4001/section-441": {
+  "description": "Process connections for Rosemount 3051C: 1/4-18 NPT on 2 1/8-inch centers and 1/2-14 NPT on 2-, 2 1/8- or 2 1/4-inch centers.",
+  "use_for": "Answers the process connection threads and center spacings of the 3051C.",
+  "uncertain": "OCR writes the fractions as '21/8' and '21/4' (2 1/8 and 2 1/4 inch)."
+},
+"rosemount-3051-00813-0100-4001/section-442": {
+  "description": "Process connections for Rosemount 3051L: high side 2-, 3- or 4-inch ASME B16.5 Class 150, 300 or 600 flange or 50, 80, 100 mm PN 40 or 10/16 flange; low side 1/4-18 NPT on flange, 1/2-14 NPT on adapter.",
+  "use_for": "Answers which flange sizes and classes and low side threads the 3051L offers."
+},
+"rosemount-3051-00813-0100-4001/section-443": {
+  "description": "Process connections for Rosemount 3051T: 1/2-14 NPT female, G1/2 A DIN 16288 male (ranges 1-4), and Autoclave type F-250-C (ranges 5-6).",
+  "use_for": "Answers which process connections the 3051T offers per range."
+},
+"rosemount-3051-00813-0100-4001/section-444": {
+  "description": "Process connections for Rosemount 3051CF: refers to the DP Flow Meters and Primary Elements data sheet (485 Annubar for 3051CFA, 405 Compact Orifice Plate for 3051CFC, 1195 Integral Orifice for 3051CFP).",
+  "use_for": "Answers where to find the process connection data of the 3051CFA, 3051CFC and 3051CFP flow meters (not in this document)."
+},
+"rosemount-3051-00813-0100-4001/section-446": {
+  "description": "Process-wetted drain/vent valve materials: 316 SST, alloy C-276 or alloy 400 (alloy 400 not available with 3051L).",
+  "use_for": "Answers which drain/vent valve materials are available."
+},
+"rosemount-3051-00813-0100-4001/section-447": {
+  "description": "Process-wetted transmitter flange and adapter materials: plated CS, SST CF-8M per ASTM A743, cast C-276 CW-12MW per ASTM A494, cast alloy 400 M-30C per ASTM A494, and alloy 400/405 per ASTM B164/B127 for the coplanar flange.",
+  "use_for": "Answers which materials and material standards are used for transmitter flanges and adapters."
+},
+"rosemount-3051-00813-0100-4001/section-450": {
+  "description": "Rosemount 3051L process-wetted parts: high side diaphragms 316L SST, alloy C-276 or tantalum, extension CF-3M or alloy C-276 (schedule 40 and 80 pipe), mounting flange zinc-cobalt plated CS or SST; low side isolating diaphragms 316L SST or alloy C-276, reference flange and adapter CF-8M.",
+  "use_for": "Answers the wetted materials on the high and low pressure sides of the 3051L.",
+  "uncertain": "Text is run together from a two-column layout; the trailing 'Non-wetted parts' is the next heading."
+},
+"rosemount-3051-00813-0100-4001/section-451": {
+  "description": "Non-wetted electronics housing: low-copper aluminum or CF-8M, enclosure type 4X, IP65, IP66, IP68; housing code P is PBT/PC with NEMA 4X and IP66/67/68.",
+  "use_for": "Answers the housing materials and enclosure/IP ratings."
+},
+"rosemount-3051-00813-0100-4001/section-452": {
+  "description": "Non-wetted coplanar sensor housing module material: SST CF-3M (cast 316L SST).",
+  "use_for": "Answers the material of the coplanar sensor housing module."
+},
+"rosemount-3051-00813-0100-4001/section-453": {
+  "description": "Bolt materials: plated CS per ASTM A449 Type 1, austenitic 316 SST per ASTM F593, ASTM A193 Grade B7M alloy steel, and alloy K-500.",
+  "use_for": "Answers which bolt materials are available."
+},
+"rosemount-3051-00813-0100-4001/section-454": {
+  "description": "Sensor module fill fluid: silicone or inert halocarbon for both coplanar and in-line sensors.",
+  "use_for": "Answers which sensor fill fluids are available."
+},
+"rosemount-3051-00813-0100-4001/section-455": {
+  "description": "Process fill fluid for Rosemount 3051L only: Syltherm XLT, Silicone 704, Silicone 200, inert, glycerin and water, Neobee M-20, or propylene glycol and water.",
+  "use_for": "Answers which process fill fluids the 3051L offers."
+},
+"rosemount-3051-00813-0100-4001/section-456": {
+  "description": "Paint specification: polyurethane.",
+  "use_for": "Answers what paint the transmitter has."
+},
+"rosemount-3051-00813-0100-4001/section-457": {
+  "description": "Cover O-ring materials: Buna-N, and silicone for wireless (code X).",
+  "use_for": "Answers the cover O-ring materials."
+},
+"rosemount-3051-00813-0100-4001/section-458": {
+  "description": "Power module in the physical specifications: field replaceable, keyed, intrinsically safe lithium-thionyl chloride module with PBT enclosure.",
+  "use_for": "Answers the type and enclosure material of the wireless power module.",
+  "uncertain": "Says PBT enclosure, while section-406 says PBT/PC."
+},
+"rosemount-3051-00813-0100-4001/section-460": {
+  "description": "Note to the weight tables: transmitter weights include sensor module and housing only (aluminum for Rosemount 3051, polymer for wireless).",
+  "use_for": "Answers what the listed transmitter weights include; the weights are in rosemount-3051-00813-0100-4001/table-7."
+},
+"rosemount-3051-00813-0100-4001/section-461": {
+  "description": "Rosemount 3051 product certifications pointer: refers to the Quick Start Guides for approvals and certifications.",
+  "use_for": "Answers nothing on its own; see rosemount-3051-00813-0100-4001/table-azure-304."
+},
+"rosemount-3051-00813-0100-4001/section-463": {
+  "description": "Dimensional drawings intro note (pp. 95-99): drawings cover output codes A, F and X (W and M at Emerson.com), followed by callout letters of the exploded view (cover O-ring, buttons, electronics board, name plate, sensor module, drain/vent valve) and bracket bolt callouts (5/16-18, 3/8-16, 2-in. U-bolt).",
+  "use_for": "Answers which output codes have dimensional drawings in this document; for the drawings see rosemount-3051-00813-0100-4001/fig-96.1.",
+  "uncertain": "Azure merged figure callouts from pp. 95-99 into this note."
+},
+"rosemount-3051-00813-0100-4001/section-464": {
+  "description": "Figure callout 'A. Flange adapters (optional)' with 'Dimensions are in inches (millimeters)' from p. 100.",
+  "use_for": "Answers nothing on its own; see rosemount-3051-00813-0100-4001/fig-100.1.",
+  "uncertain": "Figure label debris, not a real section."
+},
+"rosemount-3051-00813-0100-4001/section-465": {
+  "description": "Figure callout 'A. 1/2-14 NPT flange adapter (optional)' with 'Dimensions are in inches (millimeters)' from p. 100.",
+  "use_for": "Answers nothing on its own; see rosemount-3051-00813-0100-4001/fig-100.3.",
+  "uncertain": "Figure label debris, not a real section."
+},
+"rosemount-3051-00813-0100-4001/section-466": {
+  "description": "Figure callout 'A. 5/16-18 bolts (not supplied)' with the dimensions-in-inches line from pp. 101-102.",
+  "use_for": "Answers nothing on its own; see rosemount-3051-00813-0100-4001/fig-101.1.",
+  "uncertain": "Figure label debris, not a real section."
+},
+"rosemount-3051-00813-0100-4001/section-467": {
+  "description": "Figure callouts from pp. 102-104: U-bolt bracket, Autoclave type F-250-C, captions of Figure 19 (3051T typical mounting configurations, pipe and panel mounting) and Figure 20 (3051CFA Pak-Lok Annubar flow meter).",
+  "use_for": "Answers nothing on its own; see rosemount-3051-00813-0100-4001/fig-103.1.",
+  "uncertain": "Figure label and caption debris merged across pages."
+},
+"rosemount-3051-00813-0100-4001/section-468": {
+  "description": "Note that the Pak-Lok Annubar model is available up to ASME B16.5 Class 600 rating (1440 psig at 100 °F [99 bar at 38 °C]), followed by view labels and the caption of Figure 22 (3051CFP Integral Orifice flow meter).",
+  "use_for": "Answers the maximum pressure class of the 3051CFA Pak-Lok Annubar; dimensions are in rosemount-3051-00813-0100-4001/table-10.",
+  "uncertain": "Contains figure debris (Front/Side/Top View, C, D) from pp. 104-106."
+},
+"rosemount-3051-00813-0100-4001/section-469": {
+  "description": "Figure debris from pp. 106-108: bore diameter callout, footnote that the 3051CFP downstream length includes plate thickness 0.162-in. (4.11 mm), Figure 23 (3051L configurations: 2-inch flush mount, 3- and 4-inch flange) and the 2-, 4- or 6-in. extension only with 3-, 4-in., DN80 and DN100 flanges.",
+  "use_for": "Answers the plate thickness included in the 3051CFP downstream length and which 3051L flanges allow extensions; the drawings are in rosemount-3051-00813-0100-4001/fig-107.1.",
+  "uncertain": "Merged figure labels and captions; the trailing 'Options' is the next chapter heading."
+},
+"rosemount-3051-00813-0100-4001/section-470": {
+  "description": "Heading 'Standard configuration' with the line 'Unless otherwise specified, transmitter is shipped as follows:'.",
+  "use_for": "Answers nothing on its own; see rosemount-3051-00813-0100-4001/table-azure-311."
+},
+"rosemount-3051-00813-0100-4001/section-471": {
+  "description": "Heading 'Display default settings' with the line that transmitters ordered with a display ship as follows.",
+  "use_for": "Answers nothing on its own; see rosemount-3051-00813-0100-4001/table-12."
+},
+"rosemount-3051-00813-0100-4001/section-473": {
+  "description": "Custom configuration (option C1, not for WirelessHART, low power, FOUNDATION Fieldbus or PROFIBUS PA): list of customer-specifiable data (transmitter, output, display, alarm/saturation levels, process alerts, etc.), references to configuration data sheets, and tagging limits: stamped SST tag 56 characters, wired tag 0.125 in. (3.18 mm) high 56 characters, memory tag 32 characters.",
+  "use_for": "Answers what can be specified with option C1 and the character limits of hardware, wired and software tags.",
+  "uncertain": "Titled 'Note'; the page headings 'Custom configuration' and 'Tagging (three options available)' are not in the text."
+},
+"rosemount-3051-00813-0100-4001/section-476": {
+  "description": "Commissioning tag note (FOUNDATION Fieldbus only): a temporary commissioning tag showing the device ID with space for the location is attached to all transmitters.",
+  "use_for": "Answers what the commissioning tag on Fieldbus transmitters shows."
+},
+"rosemount-3051-00813-0100-4001/section-477": {
+  "description": "Optional Rosemount 304, 305 or 306 integral manifolds: factory assembled to 3051C and 3051T transmitters, with a reference to their product data sheet.",
+  "use_for": "Answers which manifolds can be factory assembled to which 3051 models."
+},
+"rosemount-3051-00813-0100-4001/section-478": {
+  "description": "Other seals: refers to the Rosemount DP Level Transmitters and Diaphragm Seal System Product Data Sheet.",
+  "use_for": "Answers where to find information on other seals (not in this document)."
+},
+"rosemount-3051-00813-0100-4001/section-479": {
+  "description": "Output information intro: output range points must use the same unit of measure, followed by the 'Flow: User-defined' row of the units table.",
+  "use_for": "Answers that range points must share a unit and that flow units are user-defined; the pressure units are in rosemount-3051-00813-0100-4001/table-azure-313.",
+  "uncertain": "Azure split the units-of-measure table; the Flow row landed in this text section."
+},
+"rosemount-3051-00813-0100-4001/section-480": {
+  "description": "Part of the output units table: totalizer flow time units (seconds, minutes, hours, days) and level units (ft, m, in, cm, mm).",
+  "use_for": "Use it to find the available totalizer time units and level units; volume units are in rosemount-3051-00813-0100-4001/table-azure-314.",
+  "uncertain": "Table rows extracted as a text section; the trailing 'Volume' is the heading of the next table part."
+},
+"rosemount-3051-00813-0100-4001/section-481": {
+  "description": "Display option M4 digital display with LOI: available for 4-20 mA HART, Low Power and PROFIBUS PA.",
+  "use_for": "Answers which output protocols the M4 display with LOI is available for."
+},
+"rosemount-3051-00813-0100-4001/section-482": {
+  "description": "Display option M5 digital display: two-line five-digit LCD for low power, HART, Fieldbus and PROFIBUS PA, three-line seven-digit LCD for wireless; shows user-defined units and diagnostic messages, 90-degree rotation.",
+  "use_for": "Answers the features of the M5 digital display per output type."
+},
+"rosemount-3051-00813-0100-4001/section-483": {
+  "description": "Display option M6 graphical LCD: for 4-20 mA HART, three-line fourteen character, backlit, in English, Chinese, French, German, Italian, Portuguese, Russian and Spanish, Bluetooth/square root/NAMUR icons, 90-degree physical and 180-degree software rotation, adjustable decimals, gage or absolute labels.",
+  "use_for": "Answers the features and language options of the M6 graphical display."
+},
+"rosemount-3051-00813-0100-4001/section-484": {
+  "description": "Configuration buttons option text: the 3051 ships without buttons unless D1, D4, DZ or M4 is specified; the wireless transmitter is available with a digital zero button with or without LCD.",
+  "use_for": "Answers which option codes add local configuration buttons."
+},
+"rosemount-3051-00813-0100-4001/section-485": {
+  "description": "Transient protection (option code T1) in the options chapter: tested per IEEE C62.41.2-2002, location category B, 6 kV crest (0.5 µs-100 kHz), 3 kA crest (8 x 20 µs), 6 kV crest (1.2 x 50 µs).",
+  "use_for": "Answers to which standard and surge levels the T1 option is tested."
+},
+"rosemount-3051-00813-0100-4001/section-486": {
+  "description": "External ground screw assembly option V5: not needed with T1 and some product certifications that already include it; tagging shows which certifications include it.",
+  "use_for": "Answers when the V5 ground screw option must be ordered; the per-certification list is in rosemount-3051-00813-0100-4001/table-13."
+},
+"rosemount-3051-00813-0100-4001/section-487": {
+  "description": "Bolt options for flanges and adapters: standard plated CS per ASTM A449 Type 1, L4 austenitic 316 SST, L5 ASTM A193 Grade B7M, L6 alloy K-500.",
+  "use_for": "Answers which bolt material each option code L4, L5, L6 gives."
+},
+"rosemount-3051-00813-0100-4001/section-489": {
+  "description": "Bracket option B4 for 3051C coplanar flange and 3051T: for 2-inch pipe or panel mounting, SST construction with SST bolts.",
+  "use_for": "Answers what the B4 bracket is for and its material."
+},
+"rosemount-3051-00813-0100-4001/section-490": {
+  "description": "Bracket option B1 for the 3051C traditional flange: 2-inch pipe mounting, CS with CS bolts, polyurethane paint.",
+  "use_for": "Answers what the B1 bracket is for and its material."
+},
+"rosemount-3051-00813-0100-4001/section-491": {
+  "description": "Traditional flange bracket options: B2 panel, B3 flat 2-inch pipe (CS, polyurethane paint), B7/B8/B9 (B1/B2/B3 with Series 300 SST bolts), BA and BC (SST B1/B3 with SST bolts), BE (316SST B4 with 316SST bolts); ends with the Emerson copyright footer.",
+  "use_for": "Use it to find the mounting type, material and bolts of bracket codes B2, B3, B7, B8, B9, BA, BC and BE.",
+  "uncertain": "Contains the back-page footer; BE refers to the coplanar B4 bracket, not a traditional flange bracket."
+}
+}}

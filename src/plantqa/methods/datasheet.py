@@ -89,7 +89,10 @@ class DatasheetQA:
 
     def _graph(self, document_id: str) -> Loaded:
         if document_id not in self._graphs:
-            graph = Graph().parse(graph_path(document_id))
+            path = graph_path(document_id)
+            if not path.exists():
+                raise FileNotFoundError(f"no datasheet graph for {document_id}: {path}")
+            graph = Graph().parse(str(path), format="turtle")
             self._graphs[document_id] = (graph, inventory(graph), catalog(graph))
         return self._graphs[document_id]
 

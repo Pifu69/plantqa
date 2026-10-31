@@ -88,7 +88,8 @@ Az adatlapi tények szemantikus ábrázolására több, egymásra épülő szabv
 Mérlegelhető, de a célra nem alkalmas szókészlet az OntoCAPE, amely hosszú ideje nem frissül
 [OntoCAPE], a berendezést és topológiát nem modellező SOSA/SSN [SOSASSN2017], a folyamatüzemi modul
 nélküli IOF [IOF] és a szivattyú- vagy szeleposztályt nem ismerő schema.org [SchemaOrg]. A plantdocs ezért az ISO 15926 vonalat
-választotta (4. fejezet); mivel a DEXPI osztálydefiníciói is innen származnak, a rajzi és az
+választotta (4. fejezet). Ugyanerre a vonalra épít a szelepspecifikációs tervezési szabványok
+(például az ASME B16.34) IDO-alapú, moduláris OWL-ontológiává alakítása is [Gjerver2025]; mivel a DEXPI osztálydefiníciói is innen származnak, a rajzi és az
 adatlapi oldalnak közös a szemantikai gyökere.
 
 ### Tulajdonsággráf és RDF
@@ -126,7 +127,11 @@ kérdést Cypher-lekérdezéssé fordítja, az adatbázis lefuttatja, és az ere
 Egyetlen lapon, 19 kérdésen a ContextRAG adta a legjobb eredményt; a szerzők szerint viszont ez a
 módszer többlapos rajzoknál nem skálázódik. Egy korábbi munka ugyanettől a csoporttól a
 sűrített gráfot GraphML-ként, visszakeresés nélkül adja a modellnek, egy folyamatábrán, három
-kérdésen értékelve [Alimin2025].
+kérdésen értékelve [Alimin2025]. A legnagyobb közölt P&ID-kérdéskészlet a PIDQA-é: 500 szintetikus
+rajzlapon 64 000 programmal előállított kérdés-válasz pár, négy kategóriában (egyszerű és térbeli
+számlálás, térbeli kapcsolat, értékalapú kérdés). A rajzból képfelismeréssel tulajdonsággráf
+készül Neo4j-ben, a kérdést pedig egy LLM fordítja Cypher-lekérdezéssé; minden kérdés egyetlen
+lapra vonatkozik, lapokon vagy dokumentumokon átívelő kérdés nincs benne [Gupta2025].
 
 Raszteres rajzokon a Gadekar és társai által javasolt módszer előbb visszanyeri a folyamatgráfot,
 majd a látás-nyelvi modell a topológiai kérdésekre csak hét, tényt visszaadó gráfoperátoron
@@ -145,7 +150,10 @@ Egy transzformeres módszer a szimbólumokat és a kapcsolataikat együtt jósol
 PID2Graph adatkészletet, amelynek gráfjai tisztán geometriaiak, címkék és lapok közötti
 megoldókulcs nélkül [Sturmer2024], [PID2Graph2025]. Ipari rajzokból automatikus
 tudásgráf-építést [Lopomo2026], a pyDEXPI-gráfon szabályalapú javítást [SchulzeBalhorn2025], és
-mesterséges rajzgenerálást [Hirtreiter2022] is javasoltak. Valódi, többlapos, nyilvános
+mesterséges rajzgenerálást [Hirtreiter2022] is javasoltak. A képfelismerés töredezett
+vonalszakaszait folytonos kapcsolati gráffá egyesítő módszer [Prusty2025] és a digitalizálást
+tagkinyerésként és topológia-következtetésként, két lépésben, multimodális nyelvi modellel
+megoldó megközelítés [Zhu2026a] is a rajz gráfját állítja elő, amelyre a kérdés-válaszolás épül. Valódi, többlapos, nyilvános
 rajzsorozatból kevés van; az OPEN100 sorozat 12 lapja ezek közé tartozik [OPEN100].
 
 ### Üzemi méret
@@ -183,7 +191,10 @@ Gyártási dokumentumokon a Document GraphRAG a dokumentum saját szerkezetébő
 automatikusan épített példánygráfból épít tudásgráfot [Knollmeyer2025]; a szerzők elismerik, hogy
 szakterületen az automatikus tudásgráf-építés pontatlan, ezért ma is főleg kézi munka. Ipari
 tudásbázison a Golden-Retriever a visszakeresés előtt egy reflexiós lépésben azonosítja és
-tisztázza a szakzsargont és a rövidítéseket [GoldenRetriever2024]. Mérnöki
+tisztázza a szakzsargont és a rövidítéseket [GoldenRetriever2024]. A műszaki dokumentumokba
+ágyazott táblázatokat és szerkezetet a visszakeresésben külön kezelő, strukturált adatokat
+figyelembe vevő RAG-irány [StructRAG2025] azt jelzi, hogy az adatlapi táblázatok a sima
+szövegdarabolástól eltérő kezelést igényelnek. Mérnöki
 rajzokat és kézikönyveket feldolgozó látás-nyelvi modellek egy friss benchmarkon megtalálják a
 tételeket, de gyakran pontatlanul írják le őket, és a szövegátfedésen alapuló metrikák alulmérik
 a képességüket; a szerzők ezért keresztbírálós LLM-értékelést használnak [Kumar2026]. Ezért a
@@ -245,6 +256,7 @@ Táblázat: A kapcsolódó munkák összevetése (a két forrásrepó irodalmi j
 |---|---|---|---|---|---|
 | ChatP&ID [Alimin2026] | igen (DEXPI) | nem | nem, egy lap | Neo4j, tulajdonsággráf | 19 kérdés |
 | Talking like P&IDs [Alimin2025] | igen (DEXPI) | nem | nem | sűrített gráf a promptban | 3 kérdés, egy folyamatábra |
+| PIDQA [Gupta2025] | igen (szintetikus, raszteres) | nem | nem, kérdésenként egy lap | Neo4j, tulajdonsággráf, Text2Cypher | 64 000 kérdés, 500 lap |
 | Gadekar és társai [Gadekar2026] | igen (raszteres) | nem | nem | visszanyert folyamatgráf, 7 operátor | 3000 kérdés, szintetikus lapok |
 | pid-graph-agent [PidGraphAgent2026] | igen (DEXPI) | nem | nem, kérdésenként egy fájl | gráfeszközös ágens | 15 + 37 saját kérdés |
 | Everllence-esettanulmány [Kochanski2026] | igen | nem | igen | Neo4j, ágens | nem közöl |

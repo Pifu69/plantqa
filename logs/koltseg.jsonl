@@ -949,3 +949,11 @@
 {"time": "2026-10-31T09:47:44+00:00", "source": "plantgraph", "tag": "M3-luna/d03/answer", "model": "openai/gpt-6-luna", "prompt_tokens": 12235, "completion_tokens": 302, "cost_usd": 0.0016803}
 {"time": "2026-10-31T09:47:47+00:00", "source": "plantgraph", "tag": "M3-luna/d04/answer", "model": "openai/gpt-6-luna", "prompt_tokens": 9227, "completion_tokens": 211, "cost_usd": 0.0012588}
 {"time": "2026-10-31T09:47:53+00:00", "source": "plantgraph", "tag": "M3-luna/d05/answer", "model": "openai/gpt-6-luna", "prompt_tokens": 12635, "completion_tokens": 518, "cost_usd": 0.0018383}
+{"time": "2026-10-31T09:48:35+00:00", "source": "plantgraph", "tag": "M1-glm/a06/cypher", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 3237, "completion_tokens": 38, "cost_usd": 0.000150028}
+{"time": "2026-10-31T09:48:36+00:00", "source": "plantgraph", "tag": "M1-glm/a06/answer", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 846, "completion_tokens": 168, "cost_usd": 2.05152e-05}
+{"time": "2026-10-31T09:48:37+00:00", "source": "plantgraph", "tag": "M1-glm/a07/cypher", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 3244, "completion_tokens": 64, "cost_usd": 0.0001524}
+{"time": "2026-10-31T09:48:40+00:00", "source": "plantgraph", "tag": "M1-glm/a07/answer", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 877, "completion_tokens": 325, "cost_usd": 2.66219e-05}
+{"time": "2026-10-31T09:48:41+00:00", "source": "plantgraph", "tag": "M1-glm/a08/cypher", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 3240, "completion_tokens": 233, "cost_usd": 0.000186024}
+{"time": "2026-10-31T09:48:43+00:00", "source": "plantgraph", "tag": "M1-glm/a08/answer", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 951, "completion_tokens": 303, "cost_usd": 2.71137e-05}
+{"time": "2026-10-31T09:48:45+00:00", "source": "plantgraph", "tag": "M1-glm/a09/cypher", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 3238, "completion_tokens": 109, "cost_usd": 0.000161136}
+{"time": "2026-10-31T09:48:47+00:00", "source": "plantgraph", "tag": "M1-glm/a09/answer", "model": "z-ai/glm-5.3-flash", "prompt_tokens": 852, "completion_tokens": 433, "cost_usd": 3.00259e-05}

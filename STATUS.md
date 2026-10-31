@@ -21,3 +21,14 @@
 - **Fut:** EXP-010 (dev, GLM, mindhárom módszer); minta-elemzés (subagent).
 - **Következő:** bírálat → EXP-010 sor; Rosemount-gráf betöltése; további dev iterációk.
 - **Költés eddig:** ~0,33 USD / 20 USD.
+
+## 2026-10-31 10:48 — 4. fázis kész (dev iterációk), 5. fázis: végső teszt fut
+
+- **Kész:** mind a 7 adatlap Opus-gráfja; összevont gráf (EXP-005); dev iterációk: EXP-010
+  (kiindulás), EXP-011 (M1 A2-szabályok, M2/M3 válaszszabály), EXP-012 (+ Rosemount) GLM-mel,
+  EXP-013 Lunával (bírálat fut); módszerek befagyasztva; dolgozat 1–5. fejezet és függelék
+  vázlata; minta-elemzés; irodalomjegyzék-alap; demó működik.
+- **Fut:** EXP-020 (befagyasztott teszt, 6 párosítás); EXP-013 bírálata.
+- **Következő:** bírálat → végső táblázat és ábrák; demó-képernyőképek; 6–7. fejezet, kivonat;
+  előadás.
+- **Költés eddig:** spent 0.7411 USD / 20 USD.

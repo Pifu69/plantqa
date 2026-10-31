@@ -233,3 +233,170 @@ d14 ANSWERED 'Not in the documents.'
 d15 ANSWERED 'The transmitter measuring E-2-1 is FT-2-2 (Rosemount 3051). The datasheet excerp'
 C:\Users\Zsombi\plantqa\runs\EXP-020\M3-glm-test.jsonl
 spent 0.9467 USD, remaining 19.0533 USD of 20.0
+a06 ANSWERED '2'
+a07 ANSWERED 'E-1-1'
+a08 ANSWERED 'E-2-1'
+a09 ANSWERED '2'
+a10 ANSWERED 'P-1-2'
+a11 ANSWERED 'CHV-1-2, P-1-3, P-2-1, P-2-2, CHV-2-1'
+a12 ANSWERED 'PIC-2-1'
+a13 ANSWERED 'GV-1-1, GV-1-2'
+a14 ANSWERED 'BallValve'
+a15 ANSWERED 'BV-2-1, CHV-2-1, CHV-2-2, E-2-1, E-2-2, E-2-3, FV-2-2, GV-2-2, P-2-2, P-2-3, PV-'
+b06 ANSWERED 'Available body materials are cast iron; WCC or LCC carbon steel; WC9 chrome-moly'
+b07 ANSWERED 'The description gives Kv 100 values for GV-1-1 by nominal diameter: DN 15\u201483 l/m'
+b08 ANSWERED '850 \xb0F (454 \xb0C)'
+b09 ANSWERED 'The description does not provide the Cv at full open for a 2-inch valve.'
+b10 ANSWERED 'Yes. GV-2-2 is electrically powered; the available supply options include 24 V D'
+b11 ANSWERED 'The low flow and noise could be consistent with cavitation, but the description '
+b12 ANSWERED 'The product data says continuous operation is permitted (100% ED), so it can rem'
+b13 TIMED_OUT ''
+Retrying cypher call after a transport error (attempt 1/5, waiting 1.00s)
+Retrying cypher call after a transport error (attempt 2/5, waiting 2.00s)
+Retrying cypher call after a transport error (attempt 3/5, waiting 4.00s)
+Retrying cypher call after a transport error (attempt 4/5, waiting 8.00s)
+Retrying cypher call after a transport error (attempt 5/5, waiting 16.00s)
+Retrying cypher call after a transport error (attempt 1/5, waiting 1.00s)
+Retrying cypher call after a transport error (attempt 2/5, waiting 2.00s)
+Retrying cypher call after a transport error (attempt 3/5, waiting 4.00s)
+Retrying cypher call after a transport error (attempt 4/5, waiting 8.00s)
+Retrying cypher call after a transport error (attempt 5/5, waiting 16.00s)
+Retrying agent_step call after a transport error (attempt 1/5, waiting 1.00s)
+Retrying answer call after a transport error (attempt 1/5, waiting 1.00s)
+Retrying agent_step call after a transport error (attempt 2/5, waiting 2.00s)
+Retrying answer call after a transport error (attempt 2/5, waiting 2.00s)
+Retrying agent_step call after a transport error (attempt 3/5, waiting 4.00s)
+Retrying answer call after a transport error (attempt 3/5, waiting 4.00s)
+Retrying agent_step call after a transport error (attempt 4/5, waiting 8.00s)
+Retrying answer call after a transport error (attempt 4/5, waiting 8.00s)
+Retrying agent_step call after a transport error (attempt 5/5, waiting 16.00s)
+Retrying answer call after a transport error (attempt 5/5, waiting 16.00s)
+Retrying agent_step call after a transport error (attempt 1/5, waiting 1.00s)
+Abandoned answer call ended in an error: Connection error.
+Retrying agent_step call after a transport error (attempt 2/5, waiting 2.00s)
+Retrying agent_step call after a transport error (attempt 3/5, waiting 4.00s)
+Retrying agent_step call after a transport error (attempt 4/5, waiting 8.00s)
+Retrying agent_step call after a transport error (attempt 5/5, waiting 16.00s)
+b14 PROVIDER_ERROR ''
+Retrying cypher call after a transport error (attempt 1/5, waiting 1.00s)
+Retrying cypher call after a transport error (attempt 2/5, waiting 2.00s)
+Retrying cypher call after a transport error (attempt 3/5, waiting 4.00s)
+Retrying cypher call after a transport error (attempt 4/5, waiting 8.00s)
+Retrying cypher call after a transport error (attempt 5/5, waiting 16.00s)
+Retrying cypher call after a transport error (attempt 1/5, waiting 1.00s)
+Retrying cypher call after a transport error (attempt 2/5, waiting 2.00s)
+Retrying cypher call after a transport error (attempt 3/5, waiting 4.00s)
+Retrying cypher call after a transport error (attempt 4/5, waiting 8.00s)
+Retrying cypher call after a transport error (attempt 5/5, waiting 16.00s)
+Retrying agent_step call after a transport error (attempt 1/5, waiting 1.00s)
+Retrying agent_step call after a transport error (attempt 2/5, waiting 2.00s)
+Retrying agent_step call after a transport error (attempt 3/5, waiting 4.00s)
+Retrying agent_step call after a transport error (attempt 4/5, waiting 8.00s)
+Retrying agent_step call after a transport error (attempt 5/5, waiting 16.00s)
+b15 ANSWERED 'PT-2-1 is rated for a vibration effect of less than \xb10.1% of URL. The test level'
+c06 ANSWERED 'The item is pump P-2-3, but the description does not specify its bearing types o'
+c07 ANSWERED 'The downstream item has a PVC body and EPDM or FKM seals. Since your fluid attac'
+c08 ANSWERED 'The item upstream of BV-2-1 is pump P-2-1. The description identifies its model '
+c09 ANSWERED 'On the 3051CFA, DP range code 3 is 0\u20131,000 inH\u2082O (0\u20132.49 bar).'
+c10 ANSWERED 'The datasheet lists 1/4-18 NPT as an available flange process connection, but it'
+c11 ANSWERED '\u221276 \xb0F (\u221260 \xb0C)'
+c12 ANSWERED 'The pump casing is ductile iron, and the impeller is gray iron 40. The descripti'
+c13 ANSWERED 'Not in the documents.'
+c14 ANSWERED 'The face-to-face length is 197 mm (7.75 in.) for a 4-inch Class 300 raised-face '
+c15 ANSWERED 'P-1-3 weighs 194 lb (88 kg) net and 204 lb (93 kg) shipping. Its overall dimensi'
+d06 ANSWERED 'Not in the documents.'
+d07 ANSWERED 'Not in the documents.'
+d08 ANSWERED 'The datasheet does not confirm approval for drinking water or for use in an expl'
+d09 ANSWERED 'Not in the documents.'
+d10 ANSWERED 'Not in the documents.'
+d11 ANSWERED 'Not in the documents.'
+d12 ANSWERED 'The provided information does not specify the maximum installation altitude abov'
+d13 ANSWERED 'The P&ID shows an upstream ball valve but only a downstream check valve, which i'
+d14 ANSWERED 'The description does not specify the RTD element type or accuracy class for the '
+d15 ANSWERED 'Not in the documents.'
+C:\Users\Zsombi\plantqa\runs\EXP-020\M1-luna-test.jsonl
+spent 1.1621 USD, remaining 18.8379 USD of 20.0
+a06 ANSWERED '2'
+a07 ANSWERED 'E-1-1'
+a08 ANSWERED 'E-2-1'
+a09 ANSWERED 'Unit 2'
+a10 ANSWERED 'P-1-2'
+a11 ANSWERED 'CHV-1-2, P-1-3, P-2-1, P-2-2, CHV-2-1'
+a12 ANSWERED 'PV-2-1'
+a13 ANSWERED ''
+a14 ANSWERED 'BallValve'
+a15 ANSWERED 'BV-2-1, CHV-2-1, CHV-2-2, E-2-1, E-2-2, E-2-3, FV-2-2, GV-2-2, P-2-2, P-2-3, PV-'
+b06 ANSWERED 'Available body materials include cast iron, WCC or LCC carbon steel, WC9 chrome-'
+b07 ANSWERED 'The datasheet does not give a fully-open flow value specifically for GV-1-1. It '
+b08 ANSWERED 'The maximum temperature is 850 \xb0F (454 \xb0C) for graphite valve packing (option HT'
+b09 ANSWERED 'For a 2-inch valve at full open, the listed Cv depends on valve type: EAT with l'
+b10 ANSWERED 'Yes. GV-2-2 requires electrical power. Both 24 V DC and 230 V AC are listed as s'
+b11 ANSWERED 'The datasheet does not state whether P-1-4 is cavitating. It gives no single req'
+b12 ANSWERED 'Yes. GV-1-1 is specified for continuous operation (100% ED), so the datasheet al'
+b13 ANSWERED 'Yes. The datasheet lists flanged connections as available, alongside screwed, so'
+b14 ANSWERED 'The standard suction and discharge flanges are 4 in \xd7 2\xbd in. The \u201c2\xbd\u201d is a flang'
+b15 ANSWERED 'PT-2-1\u2019s datasheet test vibration levels are 0.21 mm peak displacement amplitude'
+c06 ANSWERED 'It has an open cylindrical roller bearing and an open double-row ball bearing. T'
+c07 ANSWERED 'The body is PVC. The seals are listed as EPDM or FKM; the datasheet does not spe'
+c08 ANSWERED 'The VGH2 1/2C31-B is a standard centrifugal pump, sized 4\u2033 \xd7 2\xbd\u2033. The datasheet '
+c09 ANSWERED 'For the 3051CFA, DP range code 3 is 0\u20131,000 inH\u2082O (0\u20132.49 bar).'
+c10 ANSWERED 'The flange process connection is available as 1/4-18 NPT on 2 1/8-inch centers, '
+c11 ANSWERED 'The lowest operating temperature with the BR6 option is \u221276 \xb0F (\u221260 \xb0C).'
+c12 ANSWERED 'The casing is ductile iron and the impeller is gray iron 40. The datasheet does '
+c13 ANSWERED 'Trim options include standard cages, Cavitrol III, Whisper Trim/Whisper Trim III'
+c14 ANSWERED 'The face-to-face length is 197 mm (7.75 in.) for a 4-inch Class 300 raised-face '
+c15 ANSWERED 'P-1-3 weighs 88 kg net (93 kg shipping). Its overall dimensions are shown on the'
+d06 ANSWERED 'Not in the documents.'
+d07 ANSWERED 'Not in the documents.'
+d08 ANSWERED 'The datasheet lists CE approval but does not state whether GV-1-1 is approved fo'
+d09 ANSWERED 'Not in the documents.'
+d10 ANSWERED 'Not in the documents. The datasheet does not state a bonnet-bolt tightening torq'
+d11 ANSWERED ''
+d12 ANSWERED 'Not in the documents. The datasheet does not state a maximum installation altitu'
+d13 ANSWERED 'Not in the documents. The datasheet does not specify what to do before removing '
+d14 ANSWERED 'The datasheet identifies the 3051CFA integral RTD option as option code T, but d'
+d15 ANSWERED 'The datasheet does not state whether you may open the cover with power on or mus'
+C:\Users\Zsombi\plantqa\runs\EXP-020\M2-luna-test.jsonl
+spent 1.2482 USD, remaining 18.7518 USD of 20.0
+a06 ANSWERED '2'
+a07 ANSWERED 'E-1-1'
+a08 ANSWERED 'E-2-1'
+a09 ANSWERED '2'
+a10 ANSWERED 'P-1-2'
+a11 ANSWERED 'CHV-1-2, P-1-3, P-2-1, P-2-2, CHV-2-1'
+a12 ANSWERED 'PIC-2-1'
+a13 ANSWERED 'GV-1-1, GV-1-2, CHV-1-1'
+a14 ANSWERED 'BallValve'
+a15 ANSWERED 'PV-2-1, BV-2-1, P-2-2, E-2-1, FV-2-2, CHV-2-2, CHV-2-1, E-2-2, GV-2-2, E-2-3'
+b06 ANSWERED 'The listed body materials include cast iron, CF3M (316L stainless steel), CF8M ('
+b07 ANSWERED 'The P&ID does not state the size of GV-1-1, so its specific fully open flow cann'
+b08 ANSWERED 'The maximum temperature of the graphite valve packing option is 850 \xb0F (454 \xb0C).'
+b09 ANSWERED 'For PV-2-1, the Fisher ET datasheet gives a Cv of 59.7 for a 2-inch valve at max'
+b10 ANSWERED 'GV-2-2 is associated with the GF Piping Systems Type 165 solenoid valve datashee'
+b11 ANSWERED 'P-1-4 is identified as a centrifugal pump, but the documents do not state whethe'
+b12 ANSWERED 'The Type 165 datasheet specifies continuous operation (100% ED). It does not sta'
+b13 ANSWERED 'Not in the documents.'
+b14 ANSWERED 'Not in the documents.'
+b15 ANSWERED 'The datasheet states a vibration effect of less than \xb10.1% of URL when tested at'
+c06 ANSWERED 'The pump has an open cylindrical roller radial bearing and an open double-row ba'
+c07 ANSWERED 'The item directly downstream of GV-1-1 is GV-1-2. Its body and seal materials ar'
+c08 ANSWERED 'The item directly upstream of BV-2-1 is P-2-1. The datasheet identifies the VGH2'
+c09 ANSWERED 'On the 3051CFA, DP range code 3 gives 0 to 1,000 inH\u2082O (0 to 2.49 bar).'
+c10 ANSWERED 'Yes. The Rosemount 3051C has \xbc\u201318 NPT process connections on 2\u215b-inch centers, an'
+c11 ANSWERED 'The lowest operating temperature with the BR6 cold temperature option is \u221276 \xb0F '
+c12 ANSWERED 'The item downstream of CHV-1-1 is P-1-2. Its casing is ductile iron and its impe'
+c13 ANSWERED 'The Fisher ET datasheet lists standard cages, Cavitrol III cages, Whisper Trim I'
+c14 ANSWERED 'The excerpts do not state the face-to-face length for FV-2-2\u2019s 4-inch Class 300 '
+c15 ANSWERED 'The item directly downstream is P-1-3. Its overall dimensions and weight are not'
+d06 ANSWERED 'P-1-3, P-2-1'
+d07 ANSWERED 'Not in the documents.'
+d08 ANSWERED 'Not in the documents.'
+d09 ANSWERED 'Not in the documents.'
+d10 ANSWERED 'Not in the documents.'
+d11 ANSWERED 'Not in the documents.'
+d12 ANSWERED 'Not in the documents.'
+d13 ANSWERED 'Not in the documents.'
+d14 ANSWERED 'The datasheet lists a \u201cThermowell and RTD\u201d option, but does not state the RTD el'
+d15 ANSWERED 'The datasheet says the transmitter can be configured in hazardous-area locations'
+C:\Users\Zsombi\plantqa\runs\EXP-020\M3-luna-test.jsonl
+spent 1.3210 USD, remaining 18.6790 USD of 20.0

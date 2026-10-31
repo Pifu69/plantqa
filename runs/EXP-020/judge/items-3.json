@@ -1,0 +1,145 @@
+[
+ {
+  "item": "b26a3a0f86",
+  "gold": {
+   "answer": "Not stated in the document",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "says cover-opening rules under power are not stated"
+   ],
+   "relation": "measured_by",
+   "via_tag": "FT-2-2",
+   "question": "Consider the transmitter that measures E-2-1. In a hazardous area, can I open the cover with power on, or do I have to isolate first?"
+  },
+  "candidate": "The datasheet does not state whether you may open the cover with power on or must isolate first. It says the transmitter can be configured in hazardous areas using external buttons without removing the cover."
+ },
+ {
+  "item": "6912098ce8",
+  "gold": {
+   "answer": "368 mm (14.50 in.) for CL300 RF; 384 mm (15.12 in.) for CL300 RTJ (dimension A).",
+   "answerable": "yes",
+   "category": "multi_condition",
+   "must": [
+    "368 mm (RF)",
+    "RTJ differs (384 mm)"
+   ],
+   "relation": "operated_by",
+   "via_tag": "FV-2-2",
+   "question": "Consider the valve operated by control loop FIC-2-2. What's the face-to-face length for a 4 inch Class 300 flanged body?"
+  },
+  "candidate": "The face-to-face length is 197 mm (7.75 in.) for a 4-inch Class 300 raised-face flanged body."
+ },
+ {
+  "item": "c13a70e188",
+  "gold": {
+   "answer": "Radial bearing: open cylindrical roller; thrust bearing: open double row ball. They are oil-lubricated (SAE 30 non-detergent oil, constant level oiler), not greased; no interval is given.",
+   "answerable": "partial",
+   "category": "value",
+   "must": [
+    "cylindrical roller + double row ball",
+    "oil (SAE 30), not grease",
+    "interval not given"
+   ],
+   "relation": "downstream",
+   "via_tag": "P-2-3",
+   "question": "Consider the item directly downstream of CHV-2-2 in the process flow. What bearings are in it, and how often do they need greasing?"
+  },
+  "candidate": "The item is pump P-2-3, but the description does not specify its bearing types or how often they need greasing."
+ },
+ {
+  "item": "9fa3c6206d",
+  "gold": {
+   "answer": "Flanged is available (CL125 FF / CL250 RF cast iron; CL150/300/600 RF or RTJ steel; EN PN16-100), as well as screwed (NPS 1-2), butt weld and socket weld.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "flanged yes",
+    "also screwed, BW, SW"
+   ],
+   "question": "Regarding PV-2-1 on the P&ID: Can I get it with flanged ends, or only buttweld or screwed?"
+  },
+  "candidate": "The valve PV-2-1 can be supplied with flanged ends, as well as butt weld and screwed ends, based on the available connection types listed in the documentation."
+ },
+ {
+  "item": "904831d948",
+  "gold": {
+   "answer": "Vibration effect: less than +/-0.1% of URL when tested per IEC 60770-1:1999 field or pipeline with high vibration level (10-60 Hz 0.21 mm displacement peak amplitude / 60-2000 Hz 3g).",
+   "answerable": "yes",
+   "category": "value",
+   "must": [
+    "< +/-0.1% of URL",
+    "IEC 60770-1:1999 high vibration level",
+    "10-60 Hz 0.21 mm peak / 60-2000 Hz 3g"
+   ],
+   "question": "Regarding PT-2-1 on the P&ID: It's mounted near a compressor with heavy vibration. What vibration limits is it rated for?"
+  },
+  "candidate": "PT-2-1 is a Rosemount 3051-series pressure transmitter (per the P&ID it is the signal-generating element of loop PIC-2-1). Its datasheet states a vibration effect of less than ±0.1 percent of URL when tested per the requirements of IEC60770-1:1999 for field or pipeline with high vibration level, i.e. 10–60 Hz at 0.21 mm displacement peak amplitude and 60–2000 Hz at 3g."
+ },
+ {
+  "item": "09ec4e40fa",
+  "gold": {
+   "answer": "Housing PVC (PVC-U; cover and inserts PVC, coil housing epoxy). Gaskets/diaphragms EPDM or FKM - choose the FKM version.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "PVC body",
+    "EPDM or FKM seals",
+    "choose FKM"
+   ],
+   "relation": "downstream",
+   "via_tag": "GV-1-2",
+   "question": "Consider the item directly downstream of GV-1-1 in the process flow. What is the body made of, and what are the seals made of? Our fluid attacks EPDM."
+  },
+  "candidate": "The valve body of GV-1-2 is made of PVC. Since the fluid attacks EPDM, the seals must be made of FKM."
+ },
+ {
+  "item": "3c5afb0a57",
+  "gold": {
+   "answer": "Housing PVC (PVC-U; cover and inserts PVC, coil housing epoxy). Gaskets/diaphragms EPDM or FKM - choose the FKM version.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "PVC body",
+    "EPDM or FKM seals",
+    "choose FKM"
+   ],
+   "relation": "downstream",
+   "via_tag": "GV-1-2",
+   "question": "Consider the item directly downstream of GV-1-1 in the process flow. What is the body made of, and what are the seals made of? Our fluid attacks EPDM."
+  },
+  "candidate": "The body is PVC. The seals are listed as EPDM or FKM; the datasheet does not specify which option applies to this valve."
+ },
+ {
+  "item": "88f554f29c",
+  "gold": {
+   "answer": "Casing ductile iron; impeller gray iron 40 (wear rings gray iron 25, shaft steel 1045, seal faces silicon carbide). Suitability for pH 5 is not stated.",
+   "answerable": "partial",
+   "category": "value",
+   "must": [
+    "casing ductile iron",
+    "impeller gray iron 40",
+    "pH not stated"
+   ],
+   "relation": "downstream",
+   "via_tag": "P-1-2",
+   "question": "Consider the item directly downstream of CHV-1-1 in the process flow. What are the casing and impeller made of? Can it take slightly acidic water around pH 5?"
+  },
+  "candidate": "The pump casing is ductile iron, and the impeller is gray iron 40. The description does not establish whether it can handle water around pH 5."
+ },
+ {
+  "item": "48a165a8d9",
+  "gold": {
+   "answer": "Cast iron, WCC or LCC carbon steel, WC9 chrome moly steel, CF8M (cast 316 stainless) or CF3M (cast 316L stainless), others on request. Yes, stainless (CF8M / CF3M) is available.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "CF8M / CF3M stainless available",
+    "cast iron, WCC, LCC, WC9"
+   ],
+   "question": "Regarding FV-2-2 on the P&ID: What body materials are available, and can I get stainless for a corrosive service?"
+  },
+  "candidate": "Available body materials include cast iron, WCC or LCC carbon steel, WC9 chrome-moly steel, CF8M (cast 316 stainless steel), CF3M (cast 316L stainless steel), and other materials upon request. Stainless options are listed, but the datasheet does not specifically state whether they are suitable for corrosive service."
+ }
+]

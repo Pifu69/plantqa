@@ -1,0 +1,620 @@
+[
+ {
+  "item": "89cb81962c",
+  "gold": {
+   "answer": "Standard cages (quick-opening, linear, equal percentage), restricted-capacity trims, Whisper Trim I / III, Whisper NXG and WhisperFlo cages for aerodynamic noise in gas service, Cavitrol III one- and two-stage cages against cavitation (liquid, high pressure drop), DST dirty service trim, TSO tight shutoff trim, Trim Cartridge.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "Whisper / WhisperFlo for noise (gas)",
+    "Cavitrol III for cavitation / high ΔP (liquid)"
+   ],
+   "relation": "operated_by",
+   "via_tag": "PV-2-1",
+   "question": "Consider the valve operated by control loop PIC-2-1. What trim options are there, and which one is for high pressure drop or noise?"
+  },
+  "candidate": "The available trim options for the valve operated by control loop PIC-2-1 (PV-2-1) include standard cages (quick-opening, linear or equal percentage flow), Whisper Trim III, Whisper NXG Trim, WhisperFlo cages, Cavitrol III cages, and a Trim Cartridge option. For high pressure drop or noise conditions, the Whisper Trim III and Whisper NXG Trim cages are used where the valve sees a large pressure drop, WhisperFlo cages are designed for aerodynamic noise attenuation, and Cavitrol III cages are intended for cavitation protection."
+ },
+ {
+  "item": "422a7a3abc",
+  "gold": {
+   "answer": "Not in the document (only bolting materials and temperature limits).",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated"
+   ],
+   "question": "Regarding FV-2-2 on the P&ID: What torque should the bonnet bolts be tightened to?"
+  },
+  "candidate": "Not in the documents. The datasheet does not state a bonnet-bolt tightening torque."
+ },
+ {
+  "item": "7d38ee4f40",
+  "gold": {
+   "answer": "Yes, Kv in l/min: DN15 83, DN20 100, DN25 233, DN32 267, DN40 500, DN50 600 - measured with water at +20 °C, 1 bar at the valve inlet, free outlet.",
+   "answerable": "yes",
+   "category": "footnote",
+   "must": [
+    "Kv per DN (83/100/233/267/500/600 l/min)",
+    "condition: water +20 °C, 1 bar inlet, free outlet"
+   ],
+   "question": "Regarding GV-1-1 on the P&ID: How much flow does it pass when fully open? Is there a Kv value?"
+  },
+  "candidate": "The flow rate (Kv value) of GV-1-1 depends on its nominal diameter (DN). While the datasheet provides Kv values for various sizes (DN 15 through DN 50), it does not specify the nominal size of GV-1-1, so the exact flow capacity cannot be determined."
+ },
+ {
+  "item": "9d3d75c987",
+  "gold": {
+   "answer": "Not stated in the document",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "says cover-opening rules under power are not stated"
+   ],
+   "relation": "measured_by",
+   "via_tag": "FT-2-2",
+   "question": "Consider the transmitter that measures E-2-1. In a hazardous area, can I open the cover with power on, or do I have to isolate first?"
+  },
+  "candidate": "The datasheet says the transmitter can be configured in hazardous-area locations without removing the cover, using external buttons. It does not state whether the cover may be opened with power on or whether isolation is required."
+ },
+ {
+  "item": "d24e8fbdc6",
+  "gold": {
+   "answer": "Bare pump (no motor): length 25.95 in. (659 mm), height 18.88 in. (480 mm), width 14.20 in. (361 mm); net weight 194 lb (88 kg), shipping 204 lb (93 kg). The pump alone fits on 1 m × 0.6 m; with a motor and coupling it cannot be said from the document.",
+   "answerable": "partial",
+   "category": "conditional",
+   "must": [
+    "659 × 361 × 480 mm (approx.)",
+    "88 kg net",
+    "motor not included"
+   ],
+   "relation": "downstream",
+   "via_tag": "P-1-3",
+   "question": "Consider the item directly downstream of CHV-1-2 in the process flow. What are the overall dimensions and weight? Will it fit on a 1 m by 0.6 m base?"
+  },
+  "candidate": "P-1-3 weighs 194 lb (88 kg) net and 204 lb (93 kg) shipping. Its overall dimensions are not provided, so whether it fits on a 1 m by 0.6 m base cannot be determined."
+ },
+ {
+  "item": "7f1229a5b2",
+  "gold": {
+   "answer": "Suction 4\" (102 mm), discharge 2 1/2\" (64 mm), raised face flanges; so yes, 2 1/2\" is the discharge. Suction flange 8 holes 0.75\" on 7.50\" bolt circle, discharge 4 holes 0.75\" on 5.50\" bolt circle; optional NPT companion flanges.",
+   "answerable": "yes",
+   "category": "value",
+   "must": [
+    "suction 4\"",
+    "discharge 2 1/2\"",
+    "raised face flanges"
+   ],
+   "question": "Regarding P-1-3 on the P&ID: What size are the suction and discharge connections? Is the '2 1/2' the port size?"
+  },
+  "candidate": "The suction and discharge connections for P-1-3 are NPT flanges, and the size is 4\" x 2 1/2\". The '2 1/2' is part of the overall size designation (4\" x 2 1/2\") of the pump."
+ },
+ {
+  "item": "7c380bfb74",
+  "gold": {
+   "answer": "Radial bearing: open cylindrical roller; thrust bearing: open double row ball. They are oil-lubricated (SAE 30 non-detergent oil, constant level oiler), not greased; no interval is given.",
+   "answerable": "partial",
+   "category": "value",
+   "must": [
+    "cylindrical roller + double row ball",
+    "oil (SAE 30), not grease",
+    "interval not given"
+   ],
+   "relation": "downstream",
+   "via_tag": "P-2-3",
+   "question": "Consider the item directly downstream of CHV-2-2 in the process flow. What bearings are in it, and how often do they need greasing?"
+  },
+  "candidate": "The item directly downstream of CHV-2-2 is pump P-2-3 (a centrifugal pump). The Gorman-Rupp datasheet for these pumps lists a radial bearing (open cylindrical roller) and a thrust bearing (open double row ball), lubricated with SAE 30 non-detergent oil via a bearing housing level oiler. The documents do not state any greasing interval or frequency, so that part is not stated."
+ },
+ {
+  "item": "c78e95051b",
+  "gold": {
+   "answer": "Yes, Kv in l/min: DN15 83, DN20 100, DN25 233, DN32 267, DN40 500, DN50 600 - measured with water at +20 °C, 1 bar at the valve inlet, free outlet.",
+   "answerable": "yes",
+   "category": "footnote",
+   "must": [
+    "Kv per DN (83/100/233/267/500/600 l/min)",
+    "condition: water +20 °C, 1 bar inlet, free outlet"
+   ],
+   "question": "Regarding GV-1-1 on the P&ID: How much flow does it pass when fully open? Is there a Kv value?"
+  },
+  "candidate": "The description gives Kv 100 values for GV-1-1 by nominal diameter: DN 15—83 l/min; DN 20—100 l/min; DN 25—233 l/min; DN 32—267 l/min; DN 40—500 l/min; DN 50—600 l/min. These are Kv values for water at +20 °C, with 1 bar pressure at the valve inlet and free outlet; the applicable value depends on the valve size."
+ },
+ {
+  "item": "52cc93c81f",
+  "gold": {
+   "answer": "Yes (solenoid). Versions for 24 V DC, 230 V 50/60 Hz and 115 V 50/60 Hz (ordering tables and coil sets say 110 V); tolerance ±10 %. 24 V DC works if you order the 24 V DC version - the voltage must match the type plate.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "24 V DC version exists",
+    "230 V AC version exists",
+    "must match type plate / order the right version"
+   ],
+   "question": "Regarding GV-2-2 on the P&ID: Does it need power? If so, what voltage, and will 24 V DC work, or do I need 230 V AC?"
+  },
+  "candidate": "GV-2-2 is a solenoid valve covered by the GF Piping Systems Type 165 2/2-way solenoid valve datasheet, so yes, it needs electrical power to operate. The datasheet lists available supply voltages of 24V DC, 230V 50Hz/60Hz, and 115V 50Hz/60Hz (with ±10% voltage tolerance), so 24 V DC will work — 230 V AC is not required. Note the valve also requires a minimum differential pressure of 0.5 bar to open and close."
+ },
+ {
+  "item": "1c2a5ae074",
+  "gold": {
+   "answer": "Cast iron, WCC or LCC carbon steel, WC9 chrome moly steel, CF8M (cast 316 stainless) or CF3M (cast 316L stainless), others on request. Yes, stainless (CF8M / CF3M) is available.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "CF8M / CF3M stainless available",
+    "cast iron, WCC, LCC, WC9"
+   ],
+   "question": "Regarding FV-2-2 on the P&ID: What body materials are available, and can I get stainless for a corrosive service?"
+  },
+  "candidate": "According to the FV-2-2 datasheet (Fisher ET/EAT/ETR), the valve body, bonnet and bonnet spacer or bottom flange can be made of cast iron, WCC or LCC carbon steel, WC9 chrome-moly steel, CF8M (cast 316 stainless steel), CF3M (cast 316L stainless steel), or other materials upon request. Yes — stainless steel is a standard body option (CF8M/316 and CF3M/316L), so it can be selected for corrosive service; other grades are available on request. Note that cast iron bodies are offered only for the ET variant."
+ },
+ {
+  "item": "96e8b59e02",
+  "gold": {
+   "answer": "Casing ductile iron; impeller gray iron 40 (wear rings gray iron 25, shaft steel 1045, seal faces silicon carbide). Suitability for pH 5 is not stated.",
+   "answerable": "partial",
+   "category": "value",
+   "must": [
+    "casing ductile iron",
+    "impeller gray iron 40",
+    "pH not stated"
+   ],
+   "relation": "downstream",
+   "via_tag": "P-1-2",
+   "question": "Consider the item directly downstream of CHV-1-1 in the process flow. What are the casing and impeller made of? Can it take slightly acidic water around pH 5?"
+  },
+  "candidate": "The item directly downstream of CHV-1-1 is pump P-1-2 (a centrifugal pump). Per the Gorman-Rupp datasheet (gorman-rupp-0700286, p. 1), the casing is Ductile Iron and the impeller is an enclosed type, six-vane impeller made of Gray Iron 40. The datasheet does not state any chemical compatibility or pH limits for the pumped liquid, so whether it can handle slightly acidic water around pH 5 is not stated in the documents."
+ },
+ {
+  "item": "7ef4587048",
+  "gold": {
+   "answer": "Diagnosis is not in the document. NPSH required (10.20 in. impeller) from the curves: at 1450 rpm about 1 m at low flow rising to about 2.5 m at the end of the range; at 2900 rpm up to about 3.5-4 m.",
+   "answerable": "partial",
+   "category": "chart",
+   "must": [
+    "diagnosis not stated",
+    "NPSHr from curve (speed dependent)"
+   ],
+   "tolerance": "1450 rpm: 0.5-3 m; 2900 rpm max 3-4.5 m",
+   "question": "Regarding P-1-4 on the P&ID: Flow has dropped off a lot and it's noisy. Could it be cavitation, and what NPSH does it need?"
+  },
+  "candidate": "The low flow and noise could be consistent with cavitation, but the description does not establish the cause. P-1-4’s datasheet provides NPSH curves but no numerical NPSHr or specified flow/speed reading, so its required NPSH cannot be stated from the available information."
+ },
+ {
+  "item": "2207f30a10",
+  "gold": {
+   "answer": "Yes (solenoid). Versions for 24 V DC, 230 V 50/60 Hz and 115 V 50/60 Hz (ordering tables and coil sets say 110 V); tolerance ±10 %. 24 V DC works if you order the 24 V DC version - the voltage must match the type plate.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "24 V DC version exists",
+    "230 V AC version exists",
+    "must match type plate / order the right version"
+   ],
+   "question": "Regarding GV-2-2 on the P&ID: Does it need power? If so, what voltage, and will 24 V DC work, or do I need 230 V AC?"
+  },
+  "candidate": "GV-2-2 requires power, as indicated by its electrical connection and power consumption specifications. The required voltage depends on the gasket material used: 24V DC is supported for both EPDM and FKM gaskets, and 230V AC is also listed as a possible supply voltage for both materials."
+ },
+ {
+  "item": "47ec01f672",
+  "gold": {
+   "answer": "Radial bearing: open cylindrical roller; thrust bearing: open double row ball. They are oil-lubricated (SAE 30 non-detergent oil, constant level oiler), not greased; no interval is given.",
+   "answerable": "partial",
+   "category": "value",
+   "must": [
+    "cylindrical roller + double row ball",
+    "oil (SAE 30), not grease",
+    "interval not given"
+   ],
+   "relation": "downstream",
+   "via_tag": "P-2-3",
+   "question": "Consider the item directly downstream of CHV-2-2 in the process flow. What bearings are in it, and how often do they need greasing?"
+  },
+  "candidate": "It has an open cylindrical roller bearing and an open double-row ball bearing. The datasheet specifies SAE 30 non-detergent oil for bearing lubrication, but does not state a greasing interval."
+ },
+ {
+  "item": "1caa56c4af",
+  "gold": {
+   "answer": "368 mm (14.50 in.) for CL300 RF; 384 mm (15.12 in.) for CL300 RTJ (dimension A).",
+   "answerable": "yes",
+   "category": "multi_condition",
+   "must": [
+    "368 mm (RF)",
+    "RTJ differs (384 mm)"
+   ],
+   "relation": "operated_by",
+   "via_tag": "FV-2-2",
+   "question": "Consider the valve operated by control loop FIC-2-2. What's the face-to-face length for a 4 inch Class 300 flanged body?"
+  },
+  "candidate": "The excerpts do not state the face-to-face length for FV-2-2’s 4-inch Class 300 flanged body."
+ },
+ {
+  "item": "edfcb7f339",
+  "gold": {
+   "answer": "Not in the document (no safety or maintenance procedure).",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated"
+   ],
+   "relation": "operated_by",
+   "via_tag": "FV-2-2",
+   "question": "Consider the valve operated by control loop FIC-2-2. What do I need to do before taking the bonnet off so I don't get hurt by trapped pressure?"
+  },
+  "candidate": "Not in the documents. The datasheet does not specify what to do before removing the bonnet to avoid trapped pressure."
+ },
+ {
+  "item": "f3c4c14ff1",
+  "gold": {
+   "answer": "Not stated in the document",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "Not stated in the document"
+   ],
+   "relation": "fed_by_transmitter",
+   "via_tag": "PT-2-1",
+   "question": "Consider the transmitter that feeds controller PIC-2-1. What RTD element type and accuracy class (e.g. Pt100 class A) is used in the 3051CFA integral RTD option?"
+  },
+  "candidate": "The datasheet identifies the 3051CFA integral RTD option as option code T, but does not state the RTD element type or accuracy class."
+ },
+ {
+  "item": "56b84ef794",
+  "gold": {
+   "answer": "3051C: 1/4-18 NPT on 2 1/8-inch centers; 1/2-14 NPT on 2-, 2 1/8- or 2 1/4-inch centers (1/2-14 NPT flange adapters option DF, not valid with S3, S4, S5, S6; RC1/4 flange with RC1/2 adapter option D9). 3051T: 1/2-14 NPT female, G1/2 A DIN 16288 male (ranges 1-4), autoclave F-250-C (ranges 5-6), non-threaded instrument flange (code 61). Yes, manifolds can be factory assembled: 3051C option S5 assemble to Rosemount 305 Integral Manifold, S6 assemble to Rosemount 304 Manifold or Connection System (assemble-to items specified separately with completed model number); 3051T option S5 assemble to Rosemount 306 Integral Manifold.",
+   "answerable": "yes",
+   "category": "conditional",
+   "must": [
+    "1/4-18 NPT on 2 1/8 in centers",
+    "1/2-14 NPT with flange adapters (DF)",
+    "S5 305 integral manifold / S6 304 manifold (3051C); S5 306 (3051T)"
+   ],
+   "relation": "measured_by",
+   "via_tag": "PT-2-1",
+   "question": "Consider the transmitter that measures P-2-1. What's the process connection on the flange — 1/4 NPT? Can I get it with a manifold already fitted?"
+  },
+  "candidate": "The flange process connection is available as 1/4-18 NPT on 2 1/8-inch centers, or 1/2-14 NPT on 2-, 2 1/8-, or 2 1/4-inch centers. An integral manifold can be factory-assembled; the datasheet does not state which connection or manifold is fitted to this specific transmitter."
+ },
+ {
+  "item": "b174c5ed8f",
+  "gold": {
+   "answer": "Neither is stated: the only approval listed is CE.",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated",
+    "only CE"
+   ],
+   "question": "Regarding GV-1-1 on the P&ID: Is it approved for drinking water, or for use in an explosive (Ex) area?"
+  },
+  "candidate": "Based on the datasheet for GV-1-1, only CE approval is listed. The available facts do not mention any drinking water (KTW, WRAS, DVGW) approval or ATEX/Ex zone certification for this valve."
+ },
+ {
+  "item": "82cf7a1c96",
+  "gold": {
+   "answer": "Neither is stated: the only approval listed is CE.",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated",
+    "only CE"
+   ],
+   "question": "Regarding GV-1-1 on the P&ID: Is it approved for drinking water, or for use in an explosive (Ex) area?"
+  },
+  "candidate": "The datasheet lists CE approval but does not state whether GV-1-1 is approved for drinking water or for use in an explosive (Ex) area."
+ },
+ {
+  "item": "60e095bfa7",
+  "gold": {
+   "answer": "Neither is stated: the only approval listed is CE.",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated",
+    "only CE"
+   ],
+   "question": "Regarding GV-1-1 on the P&ID: Is it approved for drinking water, or for use in an explosive (Ex) area?"
+  },
+  "candidate": "The datasheet does not confirm approval for drinking water or for use in an explosive (Ex) area."
+ },
+ {
+  "item": "9b825c4bd1",
+  "gold": {
+   "answer": "Flanged is available (CL125 FF / CL250 RF cast iron; CL150/300/600 RF or RTJ steel; EN PN16-100), as well as screwed (NPS 1-2), butt weld and socket weld.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "flanged yes",
+    "also screwed, BW, SW"
+   ],
+   "question": "Regarding PV-2-1 on the P&ID: Can I get it with flanged ends, or only buttweld or screwed?"
+  },
+  "candidate": "Yes. The datasheet lists flanged connections as available, alongside screwed, socket-weld and butt-weld options. Which combinations are available depends on valve type, size and body material."
+ },
+ {
+  "item": "28708765cc",
+  "gold": {
+   "answer": "Vibration effect: less than +/-0.1% of URL when tested per IEC 60770-1:1999 field or pipeline with high vibration level (10-60 Hz 0.21 mm displacement peak amplitude / 60-2000 Hz 3g).",
+   "answerable": "yes",
+   "category": "value",
+   "must": [
+    "< +/-0.1% of URL",
+    "IEC 60770-1:1999 high vibration level",
+    "10-60 Hz 0.21 mm peak / 60-2000 Hz 3g"
+   ],
+   "question": "Regarding PT-2-1 on the P&ID: It's mounted near a compressor with heavy vibration. What vibration limits is it rated for?"
+  },
+  "candidate": "The datasheet states a vibration effect of less than ±0.1% of URL when tested at high vibration levels: 0.21 mm peak displacement amplitude at 10–60 Hz and 3 g at 60–2,000 Hz."
+ },
+ {
+  "item": "f7e5011824",
+  "gold": {
+   "answer": "Radial bearing: open cylindrical roller; thrust bearing: open double row ball. They are oil-lubricated (SAE 30 non-detergent oil, constant level oiler), not greased; no interval is given.",
+   "answerable": "partial",
+   "category": "value",
+   "must": [
+    "cylindrical roller + double row ball",
+    "oil (SAE 30), not grease",
+    "interval not given"
+   ],
+   "relation": "downstream",
+   "via_tag": "P-2-3",
+   "question": "Consider the item directly downstream of CHV-2-2 in the process flow. What bearings are in it, and how often do they need greasing?"
+  },
+  "candidate": "The pump has an open cylindrical roller radial bearing and an open double-row ball thrust bearing. The datasheet specifies SAE 30 non-detergent oil for bearing lubrication; it does not state how often they need greasing."
+ },
+ {
+  "item": "04b25890ee",
+  "gold": {
+   "answer": "Cast iron, WCC or LCC carbon steel, WC9 chrome moly steel, CF8M (cast 316 stainless) or CF3M (cast 316L stainless), others on request. Yes, stainless (CF8M / CF3M) is available.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "CF8M / CF3M stainless available",
+    "cast iron, WCC, LCC, WC9"
+   ],
+   "question": "Regarding FV-2-2 on the P&ID: What body materials are available, and can I get stainless for a corrosive service?"
+  },
+  "candidate": "The documentation for FV-2-2 (a Fisher ET/EAT/ETR control valve) lists several available body materials: cast iron, LCC steel, WCC steel, WC9 chrome moly steel, and CF8M (316 stainless steel), with CF3M also mentioned alongside CF8M, plus generic carbon/alloy/stainless steel options. Yes, stainless steel is available for corrosive service — the CF8M (316 stainless steel) body is offered, and 316 CF8M is explicitly listed as a body material option. Note that the exact temperature limits depend on the body/trim combination and bolting, so the applicable combination should be checked against the referenced tables."
+ },
+ {
+  "item": "8139b9df1e",
+  "gold": {
+   "answer": "A standard centrifugal pump on a basic pedestal (bare shaft), size 4\" x 2 1/2\". The meaning of the model code is not explained.",
+   "answerable": "partial",
+   "category": "value",
+   "must": [
+    "standard centrifugal pump (pedestal)",
+    "4\" x 2 1/2\"",
+    "model code not explained"
+   ],
+   "relation": "upstream",
+   "via_tag": "P-2-1",
+   "question": "Consider the item directly upstream of BV-2-1 in the process flow. What kind of pump is a VGH2 1/2C31-B, and what does the model code tell me?"
+  },
+  "candidate": "The VGH2 1/2C31-B is a standard centrifugal pump, sized 4″ × 2½″. The datasheet does not explain what the individual letters and numbers in its model code mean."
+ },
+ {
+  "item": "d82d5ad8d7",
+  "gold": {
+   "answer": "Diagnosis is not in the document. NPSH required (10.20 in. impeller) from the curves: at 1450 rpm about 1 m at low flow rising to about 2.5 m at the end of the range; at 2900 rpm up to about 3.5-4 m.",
+   "answerable": "partial",
+   "category": "chart",
+   "must": [
+    "diagnosis not stated",
+    "NPSHr from curve (speed dependent)"
+   ],
+   "tolerance": "1450 rpm: 0.5-3 m; 2900 rpm max 3-4.5 m",
+   "question": "Regarding P-1-4 on the P&ID: Flow has dropped off a lot and it's noisy. Could it be cavitation, and what NPSH does it need?"
+  },
+  "candidate": "The datasheet does not state whether P-1-4 is cavitating. It gives no single required NPSH value; NPSH curves are shown for different operating conditions, and the applicable value is not specified here."
+ },
+ {
+  "item": "16838c903f",
+  "gold": {
+   "answer": "Not stated in the document",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "Not stated in the document"
+   ],
+   "question": "Regarding FT-2-2 on the P&ID: Up to what altitude above sea level can the transmitter be installed?"
+  },
+  "candidate": "Not in the documents. The datasheet does not state a maximum installation altitude above sea level."
+ },
+ {
+  "item": "61291fa913",
+  "gold": {
+   "answer": "Yes (solenoid). Versions for 24 V DC, 230 V 50/60 Hz and 115 V 50/60 Hz (ordering tables and coil sets say 110 V); tolerance ±10 %. 24 V DC works if you order the 24 V DC version - the voltage must match the type plate.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "24 V DC version exists",
+    "230 V AC version exists",
+    "must match type plate / order the right version"
+   ],
+   "question": "Regarding GV-2-2 on the P&ID: Does it need power? If so, what voltage, and will 24 V DC work, or do I need 230 V AC?"
+  },
+  "candidate": "Yes. GV-2-2 requires electrical power. Both 24 V DC and 230 V AC are listed as suitable options; the datasheet also lists 115 V AC at 50/60 Hz. The voltage tolerance is ±10%."
+ },
+ {
+  "item": "7f44601175",
+  "gold": {
+   "answer": "Suction 4\" (102 mm), discharge 2 1/2\" (64 mm), raised face flanges; so yes, 2 1/2\" is the discharge. Suction flange 8 holes 0.75\" on 7.50\" bolt circle, discharge 4 holes 0.75\" on 5.50\" bolt circle; optional NPT companion flanges.",
+   "answerable": "yes",
+   "category": "value",
+   "must": [
+    "suction 4\"",
+    "discharge 2 1/2\"",
+    "raised face flanges"
+   ],
+   "question": "Regarding P-1-3 on the P&ID: What size are the suction and discharge connections? Is the '2 1/2' the port size?"
+  },
+  "candidate": "The standard suction and discharge flanges are 4 in × 2½ in. The “2½” is a flange dimension, not the standard port size; 2.50-8 NPT is listed as an optional discharge companion-flange connection."
+ },
+ {
+  "item": "91e393e961",
+  "gold": {
+   "answer": "Standard cages (quick-opening, linear, equal percentage), restricted-capacity trims, Whisper Trim I / III, Whisper NXG and WhisperFlo cages for aerodynamic noise in gas service, Cavitrol III one- and two-stage cages against cavitation (liquid, high pressure drop), DST dirty service trim, TSO tight shutoff trim, Trim Cartridge.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "Whisper / WhisperFlo for noise (gas)",
+    "Cavitrol III for cavitation / high ΔP (liquid)"
+   ],
+   "relation": "operated_by",
+   "via_tag": "PV-2-1",
+   "question": "Consider the valve operated by control loop PIC-2-1. What trim options are there, and which one is for high pressure drop or noise?"
+  },
+  "candidate": "The Fisher ET datasheet lists standard cages, Cavitrol III cages, Whisper Trim I and III, Whisper NXG, and WhisperFlo. It says Whisper Trim and WhisperFlo options attenuate aerodynamic noise in gaseous service, and Cavitrol III can help eliminate cavitation. The excerpts do not state which trim is for high pressure drop."
+ },
+ {
+  "item": "59a8bd1eec",
+  "gold": {
+   "answer": "Cast iron, WCC or LCC carbon steel, WC9 chrome moly steel, CF8M (cast 316 stainless) or CF3M (cast 316L stainless), others on request. Yes, stainless (CF8M / CF3M) is available.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "CF8M / CF3M stainless available",
+    "cast iron, WCC, LCC, WC9"
+   ],
+   "question": "Regarding FV-2-2 on the P&ID: What body materials are available, and can I get stainless for a corrosive service?"
+  },
+  "candidate": "FV-2-2 is a globe valve, so the Fisher ET valve datasheet applies. Available body/bonnet materials are cast iron, LCC steel, WCC steel, WC9 chrome moly steel, CF3M (316L stainless steel), and CF8M (316 stainless steel); stainless steel bodies are therefore available. The documents do not state whether the valve is suitable for corrosive service."
+ },
+ {
+  "item": "4e4f409d79",
+  "gold": {
+   "answer": "Cv 59.7 at maximum plug travel for the NPS 2 ET with full-sized trim, equal percentage cage, normal flow direction (EAT NPS 2: 48.1 with liner, 47.2 without).",
+   "answerable": "yes",
+   "category": "conditional",
+   "must": [
+    "59.7",
+    "full-sized trim, equal percentage cage, normal flow"
+   ],
+   "question": "Regarding PV-2-1 on the P&ID: What's the Cv at full open for a 2 inch valve?"
+  },
+  "candidate": "Per the Fisher ET datasheet (D100022X012, Table 17), the Cv at maximum valve plug travel for a 2 in. valve is 59.7 for ED and ETR (full-sized trim, equal percentage cage, normal flow direction); for EAT it is 48.1 with liner or 47.2 without liner. The documents do not state which specific model PV-2-1 is, so the value for PV-2-1 itself is not definitively stated."
+ },
+ {
+  "item": "229d35a51f",
+  "gold": {
+   "answer": "Not stated in the document",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "Not stated in the document"
+   ],
+   "relation": "fed_by_transmitter",
+   "via_tag": "PT-2-1",
+   "question": "Consider the transmitter that feeds controller PIC-2-1. What RTD element type and accuracy class (e.g. Pt100 class A) is used in the 3051CFA integral RTD option?"
+  },
+  "candidate": "The description does not specify the RTD element type or accuracy class for the 3051CFA integral RTD option."
+ },
+ {
+  "item": "e7bcfa7b9e",
+  "gold": {
+   "answer": "Yes, Kv in l/min: DN15 83, DN20 100, DN25 233, DN32 267, DN40 500, DN50 600 - measured with water at +20 °C, 1 bar at the valve inlet, free outlet.",
+   "answerable": "yes",
+   "category": "footnote",
+   "must": [
+    "Kv per DN (83/100/233/267/500/600 l/min)",
+    "condition: water +20 °C, 1 bar inlet, free outlet"
+   ],
+   "question": "Regarding GV-1-1 on the P&ID: How much flow does it pass when fully open? Is there a Kv value?"
+  },
+  "candidate": "The GV-1-1 datasheet (solenoid valve type 165) does specify Kv values, but the valve is offered in sizes DN15–DN50, and the datasheet does not state which size this particular valve is. The Kv values per nominal diameter (water, 20 °C, 1 bar inlet pressure, free outlet) are: DN 15 = 83 l/min, DN 20 = 100 l/min, DN 25 = 233 l/min, DN 32 = 267 l/min, DN 40 = 500 l/min, DN 50 = 600 l/min. So the flow when fully open depends on the valve's size; the datasheet does not give a single flow figure for this specific valve."
+ },
+ {
+  "item": "f4e9adc2e4",
+  "gold": {
+   "answer": "Radial bearing: open cylindrical roller; thrust bearing: open double row ball. They are oil-lubricated (SAE 30 non-detergent oil, constant level oiler), not greased; no interval is given.",
+   "answerable": "partial",
+   "category": "value",
+   "must": [
+    "cylindrical roller + double row ball",
+    "oil (SAE 30), not grease",
+    "interval not given"
+   ],
+   "relation": "downstream",
+   "via_tag": "P-2-3",
+   "question": "Consider the item directly downstream of CHV-2-2 in the process flow. What bearings are in it, and how often do they need greasing?"
+  },
+  "candidate": "The item directly downstream of CHV-2-2 is P-2-3, which contains radial and thrust bearings. The documentation specifies that the bearings are lubricated using SAE 30 Non-Detergent Oil and utilizes a Bearing Housing Level Oiler, but a specific greasing frequency is not provided."
+ },
+ {
+  "item": "0e9095a358",
+  "gold": {
+   "answer": "–76 °F (–60 °C) cold temperature operation.",
+   "answerable": "yes",
+   "category": "value",
+   "must": [
+    "–60 °C",
+    "–76 °F"
+   ],
+   "relation": "measured_by",
+   "via_tag": "FT-2-2",
+   "question": "Consider the transmitter that measures E-2-1. What is the lowest operating temperature you get with the BR6 cold temperature option?"
+  },
+  "candidate": "The lowest operating temperature listed for the BR6 cold temperature option is -76 °F (-60 °C)."
+ },
+ {
+  "item": "9aca87bddc",
+  "gold": {
+   "answer": "368 mm (14.50 in.) for CL300 RF; 384 mm (15.12 in.) for CL300 RTJ (dimension A).",
+   "answerable": "yes",
+   "category": "multi_condition",
+   "must": [
+    "368 mm (RF)",
+    "RTJ differs (384 mm)"
+   ],
+   "relation": "operated_by",
+   "via_tag": "FV-2-2",
+   "question": "Consider the valve operated by control loop FIC-2-2. What's the face-to-face length for a 4 inch Class 300 flanged body?"
+  },
+  "candidate": "(no answer: TIMED_OUT)"
+ },
+ {
+  "item": "8610ead1c8",
+  "gold": {
+   "answer": "A standard centrifugal pump on a basic pedestal (bare shaft), size 4\" x 2 1/2\". The meaning of the model code is not explained.",
+   "answerable": "partial",
+   "category": "value",
+   "must": [
+    "standard centrifugal pump (pedestal)",
+    "4\" x 2 1/2\"",
+    "model code not explained"
+   ],
+   "relation": "upstream",
+   "via_tag": "P-2-1",
+   "question": "Consider the item directly upstream of BV-2-1 in the process flow. What kind of pump is a VGH2 1/2C31-B, and what does the model code tell me?"
+  },
+  "candidate": "The item directly upstream of BV-2-1 is pump P-2-1 (line PG-6 runs from P-2-1 to BV-2-1 on sheet 2). The Gorman-Rupp datasheet (gorman-rupp-0700286, p. 1) identifies the VGH2 1/2C31-B as a Standard Centrifugal Pump, Basic Pedestal, size 4\" x 2 1/2\" (102 mm x 64 mm) with raised face flanges. The datasheet does not provide a breakdown or explanation of what each part of the model code VGH2 1/2C31-B means; that part is not stated."
+ },
+ {
+  "item": "0325d3d8fc",
+  "gold": {
+   "answer": "368 mm (14.50 in.) for CL300 RF; 384 mm (15.12 in.) for CL300 RTJ (dimension A).",
+   "answerable": "yes",
+   "category": "multi_condition",
+   "must": [
+    "368 mm (RF)",
+    "RTJ differs (384 mm)"
+   ],
+   "relation": "operated_by",
+   "via_tag": "FV-2-2",
+   "question": "Consider the valve operated by control loop FIC-2-2. What's the face-to-face length for a 4 inch Class 300 flanged body?"
+  },
+  "candidate": "The face-to-face length is 197 mm (7.75 in.) for a 4-inch Class 300 raised-face flanged body."
+ }
+]

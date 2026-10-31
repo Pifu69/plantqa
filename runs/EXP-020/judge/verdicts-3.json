@@ -1,0 +1,11 @@
+[
+ {"item": "b26a3a0f86", "verdict": "correct", "cites_page": false, "reason": "Correctly states the datasheet does not say whether the cover may be opened under power."},
+ {"item": "6912098ce8", "verdict": "wrong", "cites_page": false, "reason": "Gives 197 mm instead of 368 mm (RF) and omits the RTJ 384 mm value."},
+ {"item": "c13a70e188", "verdict": "wrong", "cites_page": false, "reason": "Says bearing types are not specified, but gold gives cylindrical roller and double row ball, oil-lubricated."},
+ {"item": "9fa3c6206d", "verdict": "partial", "cites_page": false, "reason": "Flanged, butt weld and screwed are right, but socket weld is missing."},
+ {"item": "904831d948", "verdict": "correct", "cites_page": false, "reason": "Gives <±0.1% of URL, IEC 60770-1:1999 high vibration level and the 10-60 Hz/0.21 mm and 60-2000 Hz/3g conditions."},
+ {"item": "09ec4e40fa", "verdict": "partial", "cites_page": false, "reason": "PVC body and FKM recommendation are right, but it does not state that the seals are offered in EPDM or FKM."},
+ {"item": "3c5afb0a57", "verdict": "partial", "cites_page": false, "reason": "PVC body and EPDM/FKM seal options are right, but it fails to recommend FKM for the EPDM-attacking fluid."},
+ {"item": "88f554f29c", "verdict": "correct", "cites_page": false, "reason": "Ductile iron casing, gray iron 40 impeller, and pH 5 suitability correctly noted as not stated."},
+ {"item": "48a165a8d9", "verdict": "correct", "cites_page": false, "reason": "Lists cast iron, WCC, LCC, WC9, CF8M and CF3M, and confirms that stainless is available."}
+]

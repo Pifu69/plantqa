@@ -1,0 +1,628 @@
+[
+ {
+  "item": "f3c6b8c215",
+  "gold": {
+   "answer": "Cast iron, WCC or LCC carbon steel, WC9 chrome moly steel, CF8M (cast 316 stainless) or CF3M (cast 316L stainless), others on request. Yes, stainless (CF8M / CF3M) is available.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "CF8M / CF3M stainless available",
+    "cast iron, WCC, LCC, WC9"
+   ],
+   "question": "Regarding FV-2-2 on the P&ID: What body materials are available, and can I get stainless for a corrosive service?"
+  },
+  "candidate": "Available body materials are cast iron; WCC or LCC carbon steel; WC9 chrome-moly steel; CF8M (cast 316 stainless steel); and CF3M (cast 316L stainless steel). Stainless-steel bodies are available, but the datasheet does not specifically confirm suitability for corrosive service."
+ },
+ {
+  "item": "8817c12310",
+  "gold": {
+   "answer": "Yes, Kv in l/min: DN15 83, DN20 100, DN25 233, DN32 267, DN40 500, DN50 600 - measured with water at +20 °C, 1 bar at the valve inlet, free outlet.",
+   "answerable": "yes",
+   "category": "footnote",
+   "must": [
+    "Kv per DN (83/100/233/267/500/600 l/min)",
+    "condition: water +20 °C, 1 bar inlet, free outlet"
+   ],
+   "question": "Regarding GV-1-1 on the P&ID: How much flow does it pass when fully open? Is there a Kv value?"
+  },
+  "candidate": "The P&ID does not state the size of GV-1-1, so its specific fully open flow cannot be determined. The Type 165 datasheet gives Kv values for water at +20 °C, 1 bar inlet pressure and free outlet: DN15 83, DN20 100, DN25 233, DN32 267, DN40 500, and DN50 600 l/min. The applicable Kv value for GV-1-1 is not stated."
+ },
+ {
+  "item": "4b5b36ff65",
+  "gold": {
+   "answer": "Yes, Kv in l/min: DN15 83, DN20 100, DN25 233, DN32 267, DN40 500, DN50 600 - measured with water at +20 °C, 1 bar at the valve inlet, free outlet.",
+   "answerable": "yes",
+   "category": "footnote",
+   "must": [
+    "Kv per DN (83/100/233/267/500/600 l/min)",
+    "condition: water +20 °C, 1 bar inlet, free outlet"
+   ],
+   "question": "Regarding GV-1-1 on the P&ID: How much flow does it pass when fully open? Is there a Kv value?"
+  },
+  "candidate": "(no answer: PARSE_FAILURE)"
+ },
+ {
+  "item": "87d5782015",
+  "gold": {
+   "answer": "Cv 59.7 at maximum plug travel for the NPS 2 ET with full-sized trim, equal percentage cage, normal flow direction (EAT NPS 2: 48.1 with liner, 47.2 without).",
+   "answerable": "yes",
+   "category": "conditional",
+   "must": [
+    "59.7",
+    "full-sized trim, equal percentage cage, normal flow"
+   ],
+   "question": "Regarding PV-2-1 on the P&ID: What's the Cv at full open for a 2 inch valve?"
+  },
+  "candidate": "The maximum flow coefficient (Cv) at full open for a 2 inch valve PV-2-1 depends on its specific variant. For the EAT with liner, the Cv is 48.1. For the EAT without liner, the Cv is 47.2. For the ED and ETR variants, the Cv is 59.7."
+ },
+ {
+  "item": "4457aab8d6",
+  "gold": {
+   "answer": "3051C: 1/4-18 NPT on 2 1/8-inch centers; 1/2-14 NPT on 2-, 2 1/8- or 2 1/4-inch centers (1/2-14 NPT flange adapters option DF, not valid with S3, S4, S5, S6; RC1/4 flange with RC1/2 adapter option D9). 3051T: 1/2-14 NPT female, G1/2 A DIN 16288 male (ranges 1-4), autoclave F-250-C (ranges 5-6), non-threaded instrument flange (code 61). Yes, manifolds can be factory assembled: 3051C option S5 assemble to Rosemount 305 Integral Manifold, S6 assemble to Rosemount 304 Manifold or Connection System (assemble-to items specified separately with completed model number); 3051T option S5 assemble to Rosemount 306 Integral Manifold.",
+   "answerable": "yes",
+   "category": "conditional",
+   "must": [
+    "1/4-18 NPT on 2 1/8 in centers",
+    "1/2-14 NPT with flange adapters (DF)",
+    "S5 305 integral manifold / S6 304 manifold (3051C); S5 306 (3051T)"
+   ],
+   "relation": "measured_by",
+   "via_tag": "PT-2-1",
+   "question": "Consider the transmitter that measures P-2-1. What's the process connection on the flange — 1/4 NPT? Can I get it with a manifold already fitted?"
+  },
+  "candidate": "The transmitter measuring P-2-1 is PT-2-1 (a Rosemount 3051-series pressure transmitter). Its process connection on the flange is 1/4-inch NPT (a 1/2-inch NPT connection is also recorded, depending on flange class and pipe size). Yes, it can be supplied with a manifold already fitted: the ordering data lists manifold assembly options to assemble the transmitter to a Rosemount 305 Integral Manifold or a Rosemount 304 Manifold or Connection System, and for remote-mount configurations 3-valve or 5-valve SST manifolds are available."
+ },
+ {
+  "item": "43f195e899",
+  "gold": {
+   "answer": "Bare pump (no motor): length 25.95 in. (659 mm), height 18.88 in. (480 mm), width 14.20 in. (361 mm); net weight 194 lb (88 kg), shipping 204 lb (93 kg). The pump alone fits on 1 m × 0.6 m; with a motor and coupling it cannot be said from the document.",
+   "answerable": "partial",
+   "category": "conditional",
+   "must": [
+    "659 × 361 × 480 mm (approx.)",
+    "88 kg net",
+    "motor not included"
+   ],
+   "relation": "downstream",
+   "via_tag": "P-1-3",
+   "question": "Consider the item directly downstream of CHV-1-2 in the process flow. What are the overall dimensions and weight? Will it fit on a 1 m by 0.6 m base?"
+  },
+  "candidate": "The item directly downstream of CHV-1-2 is P-1-3. Its overall dimensions include a length of 69.9 mm (2.75 in) and a width (diameter) of 14.0 mm (0.55 in). The net weight is 194 LBS (88 KG), and the shipping weight is 204 LBS (93 KG). Based on these dimensions, the item will fit on a 1 m by 0.6 m base."
+ },
+ {
+  "item": "ee0aad0b25",
+  "gold": {
+   "answer": "Casing ductile iron; impeller gray iron 40 (wear rings gray iron 25, shaft steel 1045, seal faces silicon carbide). Suitability for pH 5 is not stated.",
+   "answerable": "partial",
+   "category": "value",
+   "must": [
+    "casing ductile iron",
+    "impeller gray iron 40",
+    "pH not stated"
+   ],
+   "relation": "downstream",
+   "via_tag": "P-1-2",
+   "question": "Consider the item directly downstream of CHV-1-1 in the process flow. What are the casing and impeller made of? Can it take slightly acidic water around pH 5?"
+  },
+  "candidate": "The casing is ductile iron and the impeller is gray iron 40. The datasheet does not state whether it can handle water around pH 5."
+ },
+ {
+  "item": "202eb04038",
+  "gold": {
+   "answer": "Not in the document (no safety or maintenance procedure).",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated"
+   ],
+   "relation": "operated_by",
+   "via_tag": "FV-2-2",
+   "question": "Consider the valve operated by control loop FIC-2-2. What do I need to do before taking the bonnet off so I don't get hurt by trapped pressure?"
+  },
+  "candidate": "The P&ID shows an upstream ball valve but only a downstream check valve, which is not suitable for isolation, and it shows no pressure-bleed point. It does not establish a safe bonnet-removal procedure; use an approved isolation and depressurization procedure and verify zero pressure before removing the bonnet."
+ },
+ {
+  "item": "bb844daf0e",
+  "gold": {
+   "answer": "Vibration effect: less than +/-0.1% of URL when tested per IEC 60770-1:1999 field or pipeline with high vibration level (10-60 Hz 0.21 mm displacement peak amplitude / 60-2000 Hz 3g).",
+   "answerable": "yes",
+   "category": "value",
+   "must": [
+    "< +/-0.1% of URL",
+    "IEC 60770-1:1999 high vibration level",
+    "10-60 Hz 0.21 mm peak / 60-2000 Hz 3g"
+   ],
+   "question": "Regarding PT-2-1 on the P&ID: It's mounted near a compressor with heavy vibration. What vibration limits is it rated for?"
+  },
+  "candidate": "PT-2-1 is tested per IEC60770-1: 1999. For the frequency range of 10-60 Hz, the vibration limit is 0.21 mm displacement peak amplitude. For the frequency range of 60-2000 Hz, the limit is 3g."
+ },
+ {
+  "item": "d9160714b6",
+  "gold": {
+   "answer": "Standard cages (quick-opening, linear, equal percentage), restricted-capacity trims, Whisper Trim I / III, Whisper NXG and WhisperFlo cages for aerodynamic noise in gas service, Cavitrol III one- and two-stage cages against cavitation (liquid, high pressure drop), DST dirty service trim, TSO tight shutoff trim, Trim Cartridge.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "Whisper / WhisperFlo for noise (gas)",
+    "Cavitrol III for cavitation / high ΔP (liquid)"
+   ],
+   "relation": "operated_by",
+   "via_tag": "PV-2-1",
+   "question": "Consider the valve operated by control loop PIC-2-1. What trim options are there, and which one is for high pressure drop or noise?"
+  },
+  "candidate": "Trim options include standard cages, Cavitrol III, Whisper Trim/Whisper Trim III, Whisper NXG Trim, and WhisperFlo. Cavitrol III is for cavitation protection; Whisper Trim/WhisperFlo are for noise attenuation. The datasheet does not specify one trim option for both high pressure drop and noise."
+ },
+ {
+  "item": "9ece0ac9b1",
+  "gold": {
+   "answer": "Vibration effect: less than +/-0.1% of URL when tested per IEC 60770-1:1999 field or pipeline with high vibration level (10-60 Hz 0.21 mm displacement peak amplitude / 60-2000 Hz 3g).",
+   "answerable": "yes",
+   "category": "value",
+   "must": [
+    "< +/-0.1% of URL",
+    "IEC 60770-1:1999 high vibration level",
+    "10-60 Hz 0.21 mm peak / 60-2000 Hz 3g"
+   ],
+   "question": "Regarding PT-2-1 on the P&ID: It's mounted near a compressor with heavy vibration. What vibration limits is it rated for?"
+  },
+  "candidate": "PT-2-1 is rated for a vibration effect of less than ±0.1% of URL. The test levels were 0.21 mm peak displacement from 10–60 Hz and 3 g acceleration from 60–2000 Hz."
+ },
+ {
+  "item": "34de3097cc",
+  "gold": {
+   "answer": "Cv 59.7 at maximum plug travel for the NPS 2 ET with full-sized trim, equal percentage cage, normal flow direction (EAT NPS 2: 48.1 with liner, 47.2 without).",
+   "answerable": "yes",
+   "category": "conditional",
+   "must": [
+    "59.7",
+    "full-sized trim, equal percentage cage, normal flow"
+   ],
+   "question": "Regarding PV-2-1 on the P&ID: What's the Cv at full open for a 2 inch valve?"
+  },
+  "candidate": "For a 2-inch valve at full open, the listed Cv depends on valve type: EAT with liner: 48.1; EAT without liner: 47.2; ED: 59.7; ETR: 59.7."
+ },
+ {
+  "item": "2a4e10e352",
+  "gold": {
+   "answer": "Bare pump (no motor): length 25.95 in. (659 mm), height 18.88 in. (480 mm), width 14.20 in. (361 mm); net weight 194 lb (88 kg), shipping 204 lb (93 kg). The pump alone fits on 1 m × 0.6 m; with a motor and coupling it cannot be said from the document.",
+   "answerable": "partial",
+   "category": "conditional",
+   "must": [
+    "659 × 361 × 480 mm (approx.)",
+    "88 kg net",
+    "motor not included"
+   ],
+   "relation": "downstream",
+   "via_tag": "P-1-3",
+   "question": "Consider the item directly downstream of CHV-1-2 in the process flow. What are the overall dimensions and weight? Will it fit on a 1 m by 0.6 m base?"
+  },
+  "candidate": "P-1-3 weighs 88 kg net (93 kg shipping). Its overall dimensions are shown on the datasheet outline drawing, but the dimension values needed to establish its footprint are not available here, so whether it will fit on a 1 m × 0.6 m base is not stated."
+ },
+ {
+  "item": "0d49a64363",
+  "gold": {
+   "answer": "Suction 4\" (102 mm), discharge 2 1/2\" (64 mm), raised face flanges; so yes, 2 1/2\" is the discharge. Suction flange 8 holes 0.75\" on 7.50\" bolt circle, discharge 4 holes 0.75\" on 5.50\" bolt circle; optional NPT companion flanges.",
+   "answerable": "yes",
+   "category": "value",
+   "must": [
+    "suction 4\"",
+    "discharge 2 1/2\"",
+    "raised face flanges"
+   ],
+   "question": "Regarding P-1-3 on the P&ID: What size are the suction and discharge connections? Is the '2 1/2' the port size?"
+  },
+  "candidate": "(no answer: PROVIDER_ERROR)"
+ },
+ {
+  "item": "5a7c41f0b0",
+  "gold": {
+   "answer": "3051C: 1/4-18 NPT on 2 1/8-inch centers; 1/2-14 NPT on 2-, 2 1/8- or 2 1/4-inch centers (1/2-14 NPT flange adapters option DF, not valid with S3, S4, S5, S6; RC1/4 flange with RC1/2 adapter option D9). 3051T: 1/2-14 NPT female, G1/2 A DIN 16288 male (ranges 1-4), autoclave F-250-C (ranges 5-6), non-threaded instrument flange (code 61). Yes, manifolds can be factory assembled: 3051C option S5 assemble to Rosemount 305 Integral Manifold, S6 assemble to Rosemount 304 Manifold or Connection System (assemble-to items specified separately with completed model number); 3051T option S5 assemble to Rosemount 306 Integral Manifold.",
+   "answerable": "yes",
+   "category": "conditional",
+   "must": [
+    "1/4-18 NPT on 2 1/8 in centers",
+    "1/2-14 NPT with flange adapters (DF)",
+    "S5 305 integral manifold / S6 304 manifold (3051C); S5 306 (3051T)"
+   ],
+   "relation": "measured_by",
+   "via_tag": "PT-2-1",
+   "question": "Consider the transmitter that measures P-2-1. What's the process connection on the flange — 1/4 NPT? Can I get it with a manifold already fitted?"
+  },
+  "candidate": "(no answer: PARSE_FAILURE)"
+ },
+ {
+  "item": "5ab3254631",
+  "gold": {
+   "answer": "Standard cages (quick-opening, linear, equal percentage), restricted-capacity trims, Whisper Trim I / III, Whisper NXG and WhisperFlo cages for aerodynamic noise in gas service, Cavitrol III one- and two-stage cages against cavitation (liquid, high pressure drop), DST dirty service trim, TSO tight shutoff trim, Trim Cartridge.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "Whisper / WhisperFlo for noise (gas)",
+    "Cavitrol III for cavitation / high ΔP (liquid)"
+   ],
+   "relation": "operated_by",
+   "via_tag": "PV-2-1",
+   "question": "Consider the valve operated by control loop PIC-2-1. What trim options are there, and which one is for high pressure drop or noise?"
+  },
+  "candidate": "The valve operated by control loop PIC-2-1 is PV-2-1, a globe-style control valve whose datasheet is the Fisher ET valve bulletin (fisher-et-d100022x012). The bulletin lists these trim options: standard trims (1, 4, 27, 28, 29, 37 and 37H per Figure 13), Cavitrol III one-stage and two-stage cages (trim 76, Figure 14), trims 85/86/87 for NACE sour service (Figure 15), Whisper Trim III and Whisper NXG trim cages, WhisperFlo cages, and TSO (Tight Shutoff) trim. For high pressure drop, the Cavitrol III cage is the option — the bulletin states a standard-travel Cavitrol III one-stage cage and a long-travel Cavitrol III two-stage cage are available 'to help eliminate cavitation damage in a properly-sized valve.' For noise, the Whisper Trim I, Whisper Trim III, Whisper NXG Trim and WhisperFlo cages are the option — they 'attenuate aerodynamic noise in gaseous service.' The datasheets do not state which specific trim is actually installed on PV-2-1."
+ },
+ {
+  "item": "38bc830fd9",
+  "gold": {
+   "answer": "Yes (solenoid). Versions for 24 V DC, 230 V 50/60 Hz and 115 V 50/60 Hz (ordering tables and coil sets say 110 V); tolerance ±10 %. 24 V DC works if you order the 24 V DC version - the voltage must match the type plate.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "24 V DC version exists",
+    "230 V AC version exists",
+    "must match type plate / order the right version"
+   ],
+   "question": "Regarding GV-2-2 on the P&ID: Does it need power? If so, what voltage, and will 24 V DC work, or do I need 230 V AC?"
+  },
+  "candidate": "Yes. GV-2-2 is electrically powered; the available supply options include 24 V DC and 230 V AC, so 24 V DC will work—you do not need 230 V AC. Use the voltage and current type specified on the valve’s type plate."
+ },
+ {
+  "item": "32908cb02e",
+  "gold": {
+   "answer": "Yes (solenoid). Versions for 24 V DC, 230 V 50/60 Hz and 115 V 50/60 Hz (ordering tables and coil sets say 110 V); tolerance ±10 %. 24 V DC works if you order the 24 V DC version - the voltage must match the type plate.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "24 V DC version exists",
+    "230 V AC version exists",
+    "must match type plate / order the right version"
+   ],
+   "question": "Regarding GV-2-2 on the P&ID: Does it need power? If so, what voltage, and will 24 V DC work, or do I need 230 V AC?"
+  },
+  "candidate": "GV-2-2 is associated with the GF Piping Systems Type 165 solenoid valve datasheet, which lists 24 V DC and 230 V AC supply options. Yes, 24 V DC will work; 230 V AC is not required."
+ },
+ {
+  "item": "bcca7745ff",
+  "gold": {
+   "answer": "A standard centrifugal pump on a basic pedestal (bare shaft), size 4\" x 2 1/2\". The meaning of the model code is not explained.",
+   "answerable": "partial",
+   "category": "value",
+   "must": [
+    "standard centrifugal pump (pedestal)",
+    "4\" x 2 1/2\"",
+    "model code not explained"
+   ],
+   "relation": "upstream",
+   "via_tag": "P-2-1",
+   "question": "Consider the item directly upstream of BV-2-1 in the process flow. What kind of pump is a VGH2 1/2C31-B, and what does the model code tell me?"
+  },
+  "candidate": "The item directly upstream of BV-2-1 is P-2-1. The datasheet identifies the VGH2 1/2C31-B as a standard centrifugal pump with a basic pedestal. It gives the model designation but does not explain what the individual code elements mean."
+ },
+ {
+  "item": "c16294891d",
+  "gold": {
+   "answer": "3051C: 1/4-18 NPT on 2 1/8-inch centers; 1/2-14 NPT on 2-, 2 1/8- or 2 1/4-inch centers (1/2-14 NPT flange adapters option DF, not valid with S3, S4, S5, S6; RC1/4 flange with RC1/2 adapter option D9). 3051T: 1/2-14 NPT female, G1/2 A DIN 16288 male (ranges 1-4), autoclave F-250-C (ranges 5-6), non-threaded instrument flange (code 61). Yes, manifolds can be factory assembled: 3051C option S5 assemble to Rosemount 305 Integral Manifold, S6 assemble to Rosemount 304 Manifold or Connection System (assemble-to items specified separately with completed model number); 3051T option S5 assemble to Rosemount 306 Integral Manifold.",
+   "answerable": "yes",
+   "category": "conditional",
+   "must": [
+    "1/4-18 NPT on 2 1/8 in centers",
+    "1/2-14 NPT with flange adapters (DF)",
+    "S5 305 integral manifold / S6 304 manifold (3051C); S5 306 (3051T)"
+   ],
+   "relation": "measured_by",
+   "via_tag": "PT-2-1",
+   "question": "Consider the transmitter that measures P-2-1. What's the process connection on the flange — 1/4 NPT? Can I get it with a manifold already fitted?"
+  },
+  "candidate": "Yes. The Rosemount 3051C has ¼–18 NPT process connections on 2⅛-inch centers, and it is available with a direct-mount integral 3- or 5-valve manifold."
+ },
+ {
+  "item": "07499aad80",
+  "gold": {
+   "answer": "Yes, Kv in l/min: DN15 83, DN20 100, DN25 233, DN32 267, DN40 500, DN50 600 - measured with water at +20 °C, 1 bar at the valve inlet, free outlet.",
+   "answerable": "yes",
+   "category": "footnote",
+   "must": [
+    "Kv per DN (83/100/233/267/500/600 l/min)",
+    "condition: water +20 °C, 1 bar inlet, free outlet"
+   ],
+   "question": "Regarding GV-1-1 on the P&ID: How much flow does it pass when fully open? Is there a Kv value?"
+  },
+  "candidate": "The datasheet does not give a fully-open flow value specifically for GV-1-1. It lists Kv values for water at +20 °C, 1 bar inlet pressure, and a free outlet: DN 15 — 83 l/min; DN 20 — 100 l/min; DN 25 — 233 l/min; DN 32 — 267 l/min; DN 40 — 500 l/min; DN 50 — 600 l/min. It does not identify which nominal diameter applies to GV-1-1."
+ },
+ {
+  "item": "667ae2e7b3",
+  "gold": {
+   "answer": "Bare pump (no motor): length 25.95 in. (659 mm), height 18.88 in. (480 mm), width 14.20 in. (361 mm); net weight 194 lb (88 kg), shipping 204 lb (93 kg). The pump alone fits on 1 m × 0.6 m; with a motor and coupling it cannot be said from the document.",
+   "answerable": "partial",
+   "category": "conditional",
+   "must": [
+    "659 × 361 × 480 mm (approx.)",
+    "88 kg net",
+    "motor not included"
+   ],
+   "relation": "downstream",
+   "via_tag": "P-1-3",
+   "question": "Consider the item directly downstream of CHV-1-2 in the process flow. What are the overall dimensions and weight? Will it fit on a 1 m by 0.6 m base?"
+  },
+  "candidate": "Not in the documents. The item directly downstream of CHV-1-2 is pump P-1-3: CHV-1-2 sends flow via line PG-3 to the off-page connector on sheet 0, which continues to sheet 1 and feeds P-1-3 (a centrifugal pump). The documents list P-1-3 as belonging to the gorman-rupp-0700286 datasheet, but no excerpts of that datasheet are provided, so its overall dimensions and weight are not stated, and whether it fits on a 1 m by 0.6 m base cannot be determined."
+ },
+ {
+  "item": "092a55d1fd",
+  "gold": {
+   "answer": "Housing PVC (PVC-U; cover and inserts PVC, coil housing epoxy). Gaskets/diaphragms EPDM or FKM - choose the FKM version.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "PVC body",
+    "EPDM or FKM seals",
+    "choose FKM"
+   ],
+   "relation": "downstream",
+   "via_tag": "GV-1-2",
+   "question": "Consider the item directly downstream of GV-1-1 in the process flow. What is the body made of, and what are the seals made of? Our fluid attacks EPDM."
+  },
+  "candidate": "The downstream item has a PVC body and EPDM or FKM seals. Since your fluid attacks EPDM, use the FKM seal option."
+ },
+ {
+  "item": "677782bec0",
+  "gold": {
+   "answer": "Casing ductile iron; impeller gray iron 40 (wear rings gray iron 25, shaft steel 1045, seal faces silicon carbide). Suitability for pH 5 is not stated.",
+   "answerable": "partial",
+   "category": "value",
+   "must": [
+    "casing ductile iron",
+    "impeller gray iron 40",
+    "pH not stated"
+   ],
+   "relation": "downstream",
+   "via_tag": "P-1-2",
+   "question": "Consider the item directly downstream of CHV-1-1 in the process flow. What are the casing and impeller made of? Can it take slightly acidic water around pH 5?"
+  },
+  "candidate": "The item downstream of CHV-1-1 is P-1-2. Its casing is ductile iron and its impeller is gray iron 40. The datasheet does not state whether it can handle water around pH 5."
+ },
+ {
+  "item": "c4a6f48162",
+  "gold": {
+   "answer": "Diagnosis is not in the document. NPSH required (10.20 in. impeller) from the curves: at 1450 rpm about 1 m at low flow rising to about 2.5 m at the end of the range; at 2900 rpm up to about 3.5-4 m.",
+   "answerable": "partial",
+   "category": "chart",
+   "must": [
+    "diagnosis not stated",
+    "NPSHr from curve (speed dependent)"
+   ],
+   "tolerance": "1450 rpm: 0.5-3 m; 2900 rpm max 3-4.5 m",
+   "question": "Regarding P-1-4 on the P&ID: Flow has dropped off a lot and it's noisy. Could it be cavitation, and what NPSH does it need?"
+  },
+  "candidate": "P-1-4 is identified as a centrifugal pump, but the documents do not state whether it is cavitating or what NPSH it requires."
+ },
+ {
+  "item": "79b42a2714",
+  "gold": {
+   "answer": "Not stated in the document",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "Not stated in the document"
+   ],
+   "relation": "fed_by_transmitter",
+   "via_tag": "PT-2-1",
+   "question": "Consider the transmitter that feeds controller PIC-2-1. What RTD element type and accuracy class (e.g. Pt100 class A) is used in the 3051CFA integral RTD option?"
+  },
+  "candidate": "The datasheet lists a “Thermowell and RTD” option, but does not state the RTD element type or accuracy class for the 3051CFA integral RTD option."
+ },
+ {
+  "item": "83c1d49ed7",
+  "gold": {
+   "answer": "Vibration effect: less than +/-0.1% of URL when tested per IEC 60770-1:1999 field or pipeline with high vibration level (10-60 Hz 0.21 mm displacement peak amplitude / 60-2000 Hz 3g).",
+   "answerable": "yes",
+   "category": "value",
+   "must": [
+    "< +/-0.1% of URL",
+    "IEC 60770-1:1999 high vibration level",
+    "10-60 Hz 0.21 mm peak / 60-2000 Hz 3g"
+   ],
+   "question": "Regarding PT-2-1 on the P&ID: It's mounted near a compressor with heavy vibration. What vibration limits is it rated for?"
+  },
+  "candidate": "PT-2-1’s datasheet test vibration levels are 0.21 mm peak displacement amplitude from 10–60 Hz and 3 g from 60–2000 Hz. Under this high-vibration test, vibration effect is less than ±0.1% of URL. These are stated as test vibration levels, not a separate general operating limit."
+ },
+ {
+  "item": "71dd78e577",
+  "gold": {
+   "answer": "Bare pump (no motor): length 25.95 in. (659 mm), height 18.88 in. (480 mm), width 14.20 in. (361 mm); net weight 194 lb (88 kg), shipping 204 lb (93 kg). The pump alone fits on 1 m × 0.6 m; with a motor and coupling it cannot be said from the document.",
+   "answerable": "partial",
+   "category": "conditional",
+   "must": [
+    "659 × 361 × 480 mm (approx.)",
+    "88 kg net",
+    "motor not included"
+   ],
+   "relation": "downstream",
+   "via_tag": "P-1-3",
+   "question": "Consider the item directly downstream of CHV-1-2 in the process flow. What are the overall dimensions and weight? Will it fit on a 1 m by 0.6 m base?"
+  },
+  "candidate": "The item directly downstream is P-1-3. Its overall dimensions and weight are not stated in the provided excerpts, so whether it will fit on a 1 m by 0.6 m base is not stated."
+ },
+ {
+  "item": "b82196c452",
+  "gold": {
+   "answer": "Flanged is available (CL125 FF / CL250 RF cast iron; CL150/300/600 RF or RTJ steel; EN PN16-100), as well as screwed (NPS 1-2), butt weld and socket weld.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "flanged yes",
+    "also screwed, BW, SW"
+   ],
+   "question": "Regarding PV-2-1 on the P&ID: Can I get it with flanged ends, or only buttweld or screwed?"
+  },
+  "candidate": "(no answer: TIMED_OUT)"
+ },
+ {
+  "item": "15a191c392",
+  "gold": {
+   "answer": "Housing PVC (PVC-U; cover and inserts PVC, coil housing epoxy). Gaskets/diaphragms EPDM or FKM - choose the FKM version.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "PVC body",
+    "EPDM or FKM seals",
+    "choose FKM"
+   ],
+   "relation": "downstream",
+   "via_tag": "GV-1-2",
+   "question": "Consider the item directly downstream of GV-1-1 in the process flow. What is the body made of, and what are the seals made of? Our fluid attacks EPDM."
+  },
+  "candidate": "The item directly downstream of GV-1-1 is GV-1-2. Its body and seal materials are not stated in the provided documents."
+ },
+ {
+  "item": "933598cffa",
+  "gold": {
+   "answer": "Not stated in the document",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "says cover-opening rules under power are not stated"
+   ],
+   "relation": "measured_by",
+   "via_tag": "FT-2-2",
+   "question": "Consider the transmitter that measures E-2-1. In a hazardous area, can I open the cover with power on, or do I have to isolate first?"
+  },
+  "candidate": "The transmitter measuring E-2-1 is FT-2-2 (Rosemount 3051). The datasheet excerpts do not state whether the transmitter cover may be opened with power on in a hazardous area or whether isolation is required first; that is not stated. They do state that configuration in hazardous-area locations can be performed without removing the transmitter cover, using external configuration buttons, and that Bluetooth configuration is available (requires the Graphical LCD display option M6)."
+ },
+ {
+  "item": "d89330d26c",
+  "gold": {
+   "answer": "A standard centrifugal pump on a basic pedestal (bare shaft), size 4\" x 2 1/2\". The meaning of the model code is not explained.",
+   "answerable": "partial",
+   "category": "value",
+   "must": [
+    "standard centrifugal pump (pedestal)",
+    "4\" x 2 1/2\"",
+    "model code not explained"
+   ],
+   "relation": "upstream",
+   "via_tag": "P-2-1",
+   "question": "Consider the item directly upstream of BV-2-1 in the process flow. What kind of pump is a VGH2 1/2C31-B, and what does the model code tell me?"
+  },
+  "candidate": "The item directly upstream of BV-2-1 is a pump (P-1-3 / P-2-1), and its specification sheet identifies it as a Standard Centrifugal Pump, Model VGH2 1/2C31-B. The model code tells you the pump family and size: it is a VGH-series centrifugal pump (product variant VGH2 1/2C-B) with size 4\" x 2 1/2\" (102 mm x 64 mm) raised-face flanges, i.e. a 4-inch suction by 2-1/2-inch discharge pump. The specification sheet further details a ductile iron casing, maximum casing pressure 266 psi (1834 kPa), maximum operating pressure 250 psi (1723 kPa) up to 100 F (37 C), and an enclosed six-vane gray iron 40 impeller handling 15/32\" (12 mm) spherical solids; performance curves (e.g. VGH2 1/2C-B-1) cover speeds from 3450 down to 1150 RPM for water and petroleum service."
+ },
+ {
+  "item": "b0d44fd7b9",
+  "gold": {
+   "answer": "3051C: 1/4-18 NPT on 2 1/8-inch centers; 1/2-14 NPT on 2-, 2 1/8- or 2 1/4-inch centers (1/2-14 NPT flange adapters option DF, not valid with S3, S4, S5, S6; RC1/4 flange with RC1/2 adapter option D9). 3051T: 1/2-14 NPT female, G1/2 A DIN 16288 male (ranges 1-4), autoclave F-250-C (ranges 5-6), non-threaded instrument flange (code 61). Yes, manifolds can be factory assembled: 3051C option S5 assemble to Rosemount 305 Integral Manifold, S6 assemble to Rosemount 304 Manifold or Connection System (assemble-to items specified separately with completed model number); 3051T option S5 assemble to Rosemount 306 Integral Manifold.",
+   "answerable": "yes",
+   "category": "conditional",
+   "must": [
+    "1/4-18 NPT on 2 1/8 in centers",
+    "1/2-14 NPT with flange adapters (DF)",
+    "S5 305 integral manifold / S6 304 manifold (3051C); S5 306 (3051T)"
+   ],
+   "relation": "measured_by",
+   "via_tag": "PT-2-1",
+   "question": "Consider the transmitter that measures P-2-1. What's the process connection on the flange — 1/4 NPT? Can I get it with a manifold already fitted?"
+  },
+  "candidate": "The datasheet lists 1/4-18 NPT as an available flange process connection, but it does not establish which option is fitted on PT-2-1 (it also lists a non-threaded option). Yes, a manifold can be factory-assembled with the transmitter."
+ },
+ {
+  "item": "94b6d87835",
+  "gold": {
+   "answer": "Not stated in the document",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "Not stated in the document"
+   ],
+   "question": "Regarding FT-2-2 on the P&ID: Up to what altitude above sea level can the transmitter be installed?"
+  },
+  "candidate": "The provided information does not specify the maximum installation altitude above sea level for FT-2-2."
+ },
+ {
+  "item": "277e63bbe6",
+  "gold": {
+   "answer": "Diagnosis is not in the document. NPSH required (10.20 in. impeller) from the curves: at 1450 rpm about 1 m at low flow rising to about 2.5 m at the end of the range; at 2900 rpm up to about 3.5-4 m.",
+   "answerable": "partial",
+   "category": "chart",
+   "must": [
+    "diagnosis not stated",
+    "NPSHr from curve (speed dependent)"
+   ],
+   "tolerance": "1450 rpm: 0.5-3 m; 2900 rpm max 3-4.5 m",
+   "question": "Regarding P-1-4 on the P&ID: Flow has dropped off a lot and it's noisy. Could it be cavitation, and what NPSH does it need?"
+  },
+  "candidate": "The P&ID documentation for P-1-4 includes performance curves for the VGH2 1/2C-B pump model. These curves detail the total head, efficiency, and brake-horsepower against flow. Crucially, the documentation provides specific NPSH curves, which are necessary to determine the required Net Positive Suction Head for the pump's operation."
+ },
+ {
+  "item": "9d14c82def",
+  "gold": {
+   "answer": "Cv 59.7 at maximum plug travel for the NPS 2 ET with full-sized trim, equal percentage cage, normal flow direction (EAT NPS 2: 48.1 with liner, 47.2 without).",
+   "answerable": "yes",
+   "category": "conditional",
+   "must": [
+    "59.7",
+    "full-sized trim, equal percentage cage, normal flow"
+   ],
+   "question": "Regarding PV-2-1 on the P&ID: What's the Cv at full open for a 2 inch valve?"
+  },
+  "candidate": "For PV-2-1, the Fisher ET datasheet gives a Cv of 59.7 for a 2-inch valve at maximum plug travel (full open)."
+ },
+ {
+  "item": "aad6867cca",
+  "gold": {
+   "answer": "Cast iron, WCC or LCC carbon steel, WC9 chrome moly steel, CF8M (cast 316 stainless) or CF3M (cast 316L stainless), others on request. Yes, stainless (CF8M / CF3M) is available.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "CF8M / CF3M stainless available",
+    "cast iron, WCC, LCC, WC9"
+   ],
+   "question": "Regarding FV-2-2 on the P&ID: What body materials are available, and can I get stainless for a corrosive service?"
+  },
+  "candidate": "The listed body materials include cast iron, CF3M (316L stainless steel), CF8M (316 stainless steel), LCC steel, WCC steel, and WC9 chrome-moly steel. Stainless options are available, but the excerpt does not state whether they are suitable for your particular corrosive service."
+ },
+ {
+  "item": "ba8da9cff6",
+  "gold": {
+   "answer": "Casing ductile iron; impeller gray iron 40 (wear rings gray iron 25, shaft steel 1045, seal faces silicon carbide). Suitability for pH 5 is not stated.",
+   "answerable": "partial",
+   "category": "value",
+   "must": [
+    "casing ductile iron",
+    "impeller gray iron 40",
+    "pH not stated"
+   ],
+   "relation": "downstream",
+   "via_tag": "P-1-2",
+   "question": "Consider the item directly downstream of CHV-1-1 in the process flow. What are the casing and impeller made of? Can it take slightly acidic water around pH 5?"
+  },
+  "candidate": "The item directly downstream of CHV-1-1 is P-1-2. Its casing is made of Ductile Iron and its impeller is made of Gray Iron 40. The provided description does not contain information regarding its ability to handle slightly acidic water around pH 5."
+ },
+ {
+  "item": "addca2909c",
+  "gold": {
+   "answer": "Cv 59.7 at maximum plug travel for the NPS 2 ET with full-sized trim, equal percentage cage, normal flow direction (EAT NPS 2: 48.1 with liner, 47.2 without).",
+   "answerable": "yes",
+   "category": "conditional",
+   "must": [
+    "59.7",
+    "full-sized trim, equal percentage cage, normal flow"
+   ],
+   "question": "Regarding PV-2-1 on the P&ID: What's the Cv at full open for a 2 inch valve?"
+  },
+  "candidate": "The description does not provide the Cv at full open for a 2-inch valve."
+ },
+ {
+  "item": "73a81b4ea0",
+  "gold": {
+   "answer": "A standard centrifugal pump on a basic pedestal (bare shaft), size 4\" x 2 1/2\". The meaning of the model code is not explained.",
+   "answerable": "partial",
+   "category": "value",
+   "must": [
+    "standard centrifugal pump (pedestal)",
+    "4\" x 2 1/2\"",
+    "model code not explained"
+   ],
+   "relation": "upstream",
+   "via_tag": "P-2-1",
+   "question": "Consider the item directly upstream of BV-2-1 in the process flow. What kind of pump is a VGH2 1/2C31-B, and what does the model code tell me?"
+  },
+  "candidate": "The item upstream of BV-2-1 is pump P-2-1. The description identifies its model as VGH2 1/2C-B and its size as 4 in × 2.5 in, but does not specify a more particular pump type or explain the model-code characters."
+ }
+]

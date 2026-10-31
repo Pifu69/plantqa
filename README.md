@@ -71,6 +71,39 @@ uv run ruff format --check .
 uv run mypy
 ```
 
+## Continuing the work
+
+- **Source repositories:** clone them next to this one, at the commits the results were measured with:
+  - `../plantdocs` from [Pifu69/plantdocs](https://github.com/Pifu69/plantdocs), commit `3e46101`. It is
+    private, so ask for access.
+  - `../Thesis` from [kiszely-benedek/Thesis](https://github.com/kiszely-benedek/Thesis), commit
+    `28ba910`.
+
+  Both are read-only for this project.
+- **State and rules:** read these in order:
+  1. `PROMPT.md`: the task and its hard rules.
+  2. `STATUS.md`: what is done and what was left out, and why.
+  3. `docs/dontesek.md`: decisions.
+  4. `docs/eredmenyek.md`: every measured number, one row per EXP.
+  5. `docs/szamellenorzes.md`: the number audit of the thesis.
+
+  A new session can start with: "Read PROMPT.md, STATUS.md and docs/dontesek.md, then continue."
+- **Thesis:** the Markdown sources are in `dolgozat/src/`. The first version is kept in `dolgozat/v1/`.
+  To rebuild:
+  ```powershell
+  cd dolgozat/build; npm install; cd ../..
+  node dolgozat/build/build.js
+  powershell -ExecutionPolicy Bypass -File dolgozat/build/to_pdf.ps1 dolgozat/dolgozat.docx dolgozat/dolgozat.pdf
+  ```
+  The PDF conversion needs Word.
+- **Slides:** to rebuild:
+  ```powershell
+  cd eloadas/build; npm install; cd ../..
+  node eloadas/build/build.js
+  ```
+  The PDF conversion uses PowerPoint, via `eloadas/build/to_pdf.ps1`.
+- **Without an API key:** everything measured so far replays from `data/cache/`.
+
 ## Layout
 
 ```

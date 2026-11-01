@@ -136,21 +136,3 @@ tagalapú él a legkisebb beavatkozás: egyik réteg szerkezete sem változik, �
 gyakorlatot követi, ahol a tag köti össze a rajzot a többi dokumentummal. Ára, hogy a tag →
 adatlap táblát elő kell állítani; nálunk ezt program végzi a generátor kimenetéből (3. fejezet),
 valódi üzemben ez az eszközlista vagy az átadási adatbázis dolga volna.
-
-## Betöltés
-
-A betöltés egy paranccsal újrafuttatható. Sorrendje: az
-adatbázis törlése és a neosemantics beállítása, az eszközgráfok betöltése és névtérbe sorolása,
-az üzemi réteg betöltése Benedek betöltőjével (amely csak a saját korpuszát törli), a
-`DESCRIBED_BY` élek, végül a plantdocs A2 vektoros kereséséhez szükséges beágyazások. A teljes
-betöltés 243,2 s; ennek nagy része (222,4 s) a 14 489 beágyazás előállítása, tárolása és indexelése, az üzemi
-réteg 3,6 s alatt töltődik be. A helyi Neo4j Community kiadás csak egy felhasználói
-adatbázist enged, ezért a betöltő minden futáskor az egész adatbázist újraépíti.
-
-Két illesztési pontra külön figyelni kellett. Benedek tárellenőrzése összeveti az adatbázis
-kapcsolatszámait a betöltési tervvel, és eltérésnél nem indítja el a kaszkádot; ezért a kaszkád egy
-leszármazott nézeten át olvas, amely a `DESCRIBED_BY` kapcsolatot nem számolja a rajzi
-korpuszhoz. A másik pont a plantdocs: az alkalmazása dokumentumonként törli és
-újratölti az adatbázist, ami az összevont gráfot tönkretenné. Ezért az A2-t nem az alkalmazáson
-át hívjuk, hanem közvetlenül a lekérdező függvényét, egy dokumentumra szűkítő lekérdezés-futtatóval
-(5. fejezet).

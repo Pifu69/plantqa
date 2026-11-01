@@ -205,54 +205,6 @@ Az első prototípust a négylapos üzemen fejlesztettük (Függelék G). A 30 �
 A hangolás után a módszereket befagyasztottuk, és a 100 és 1000 lapos tesztüzemen ezen a
 változaton nem változtattunk.
 
-## A módszerek várható erősségei és gyengeségei
-
-Az alábbiakban a módszerek felépítéséből következő, minőségi várakozásokat foglaljuk össze; a 6.
-fejezet eredményeit ezek fényében érdemes olvasni.
-
-### M1
-
-Az M1 erőssége, hogy egy összetett kérdés elvben egyetlen lekérdezéssel megválaszolható: a
-rajzi lépés és az adatlapi tény ugyanabban a mintában szerepel, így nincs szöveges átadás két
-rendszer között, és a válasz minden eleme visszakövethető egy csúcsig. Az ágensszint a
-`datasheet_fact` primitívvel ugyanazt az A2-logikát éri el, mint az M2, tehát ahol a
-Cypher-szint elakad, ott az M1-nek az M2-höz hasonló képességei vannak.
-
-A gyengeségei ugyanebből fakadnak. A Cypher-író modellnek egyszerre két szókincset kell
-kezelnie: Benedek olvasható osztálycímkéit és a plantdocs előtagos, számkódos szabványos neveit.
-A sémaszöveg ettől hosszú, ami minden kérdés költségét növeli, akkor is, ha a kérdés csak a
-rajzról szól. A legnagyobb kockázat az elfogadási szabály: a rajzi kérdéseken a nem üres, nem
-csonka eredmény jó jelzés, egy adatlapi kérdésnél viszont egy szűk lekérdezés is adhat nem üres,
-de hiányos sort (például egy értéket a feltétele nélkül), amelyet a kaszkád elfogad, és az ágens
-nem kap esélyt. Végül a válaszlépés a rajzi kérdésekre készült, és nem tartalmazza az adatlapi
-válaszíró szabályait (feltételek kiírása, oldalhivatkozás).
-
-### M2
-
-Az M2 erőssége a modularitás: mindkét rendszer abban a beállításban fut, amelyben a szerzője
-mérte, az adatlapi válasz a plantdocs teljes A2-láncán megy át (szakaszválasztás, vektoros
-keresés, a feltételeket kiíró válaszíró), és egy új dokumentumtípus egy új eszközzel bővíthető. Az
-útvonal átlátható: a naplóból látszik, melyik eszközt milyen kérdéssel hívta a router.
-
-A gyengesége az illesztésben van. A két rendszer szöveggel kommunikál, így a rajzeszköz
-válaszának alakja elcsúszhat, és a router félreértheti; az összetett kérdés helyes felbontása is a
-routeren múlik. Mivel az eszközhívások egymás után futnak, és mindegyik maga is több LLM-hívás, a
-késleltetés a három módszer közül várhatóan itt a legnagyobb.
-
-### M3
-
-Az M3 erőssége az egyszerűség: egyetlen hívás, nincs lekérdezés, amely elromolhat, és nincs
-elfogadási szabály, amely rossz választ engedhet át. Egy kis rajzon a teljes gráf elfér a
-promptban, és a modell mindent lát; az adatlapi kérdéseknél a kérdés szavaihoz közeli szövegrészek
-gyakran éppen a keresett táblázatot tartalmazzák.
-
-A gyengesége a méret és a szerkezet. Benedek mérései szerint a teljes rajz promptba tétele a
-lapszámmal romlik és drágul, egy határ fölött pedig nem is fér el (2. fejezet), ezért az M3 előnye
-nagyobb üzemen nem várható. Az adatlap-darabok a táblázatokat szövegként, a fejlécektől
-elszakítva tartalmazhatják, a feltételek és a lábjegyzetek nem explicitek, és a vektoros keresés
-egy több eszközt érintő kérdésnél elhanyagolhatja valamelyik eszköz adatlapját. Az M3 a
-forrásoldalakat csak darabszinten tudja megadni.
-
 ## Költség és mérés
 
 Minden LLM-hívás egy közös, cache-elt és naplózott rétegen megy át. A cache miatt az ismételt

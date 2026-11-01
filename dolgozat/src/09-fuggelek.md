@@ -511,7 +511,7 @@ módszereket GPT-6 Lunával mértük: M1 0,60, M2 0,70, M3 0,60.
 A befagyasztott teszthalmaz (40 kérdés, családonként 10) mindegyik párosításon egyszer futott
 le. Az eredményt az alábbi táblázat és ábra mutatja.
 
-Táblázat: A végső teszt eredménye párosításonként és családonként
+Táblázat: A végső teszt eredménye párosításonként és családonként ((a) rajz, (b) adatlap, (c) összetett, (d) megválaszolhatatlan)
 | Módszer | Modell | Helyes | Részben | Rossz | Hallucinált | Pontosság [95% CI] | (a) | (b) | (c) | (d) |
 |---|---|---|---|---|---|---|---|---|---|---|
 | M1 | GLM-5.3 Flash | 25 | 9 | 6 | 0 | 0,625 [0,475–0,775] | 8/10 | 3/10 | 4/10 | 10/10 |

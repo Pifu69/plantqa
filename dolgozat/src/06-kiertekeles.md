@@ -62,15 +62,17 @@ Az M3 a teljes rajzot szövegként kapja meg a promptban. Ez a szöveg a
 egy ekkora rajz kérdésenként átlagosan kb. 194 ezer prompttokent jelentett, ezzel az aránnyal az
 1000 lapos rajz kérdésenként kb. 1,96 millió token lenne. Ez meghaladja mindkét modell kontextusát
 (GLM: 1 048 576, Luna: 1 050 000 token az OpenRouter modellistája szerint), ezért az M3-at az 1000
-lapos üzemen nem lehetett lefuttatni; ott csak a két gráfos módszert mértük. Ez maga is
-eredmény: a teljes rajz promptba tétele egy valódi méretű üzemnél nem csak drága, hanem
+lapos üzemen nem lehetett lefuttatni; ott csak a két gráfos módszert mértük. A teljes rajz promptba tétele
+tehát egy valódi méretű üzemnél nem csak drága, hanem
 kivitelezhetetlen, a gráfos módszerek viszont ugyanúgy működnek.
 
 ## Eredmény a két tesztüzemen
 
 A hangolt, befagyasztott módszereket mindkét tesztüzem 60 kérdésén (családonként 15) mindegyik
 párosításon egyszer futtattuk. Az eredményt az alábbi
-táblázat és ábra mutatja.
+táblázat és ábra mutatja. A táblázat utolsó négy oszlopa a 3. fejezetben leírt négy
+kérdéscsalád helyes válaszainak száma: (a) csak a rajzról kérdez, (b) csak egy adatlapról, (c) a
+kettőt köti össze, (d) pedig olyan kérdés, amelyre a dokumentumok nem adnak választ.
 
 Táblázat: Eredmény a két tesztüzemen párosításonként és családonként (60-60 kérdés; az 1000 lapos üzemen az M3 nem futtatható)
 | Módszer | Modell | Lap | Helyes | Részben | Rossz | Halluc. | Pontosság [95% CI] | (a) | (b) | (c) | (d) |

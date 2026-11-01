@@ -160,13 +160,4 @@ azért maradt üres, mert az irányító elérte a lépéskorlátot. Az M1 leké
 bővültek, mert sok válasza csak részleges volt: az adatlapi tényeket tágan kell szűrni, és minden
 értéket a feltételével és az oldalszámával együtt kell visszaadni. Végül a kaszkád kérdésenkénti
 időkorlátja 120 másodpercről 240 másodpercre nőtt, mert egy kérdés túllépte a korábbit. A hangolás
-után a módszereket befagyasztottuk, és a tesztüzemeken már nem változtattunk rajtuk.
-
-## Költség és mérés
-
-Minden modellhívás egy közös, naplózott rétegen megy át, amely a válaszokat el is tárolja, így egy
-ismételt futás nem fizet újra. A teljes projekt kerete 25 USD volt, és 23 USD felett új mérés nem
-indulhatott. Kérdésenként mérjük a felhasznált tokeneket, a szolgáltató által jelentett költséget
-(eltárolt válasznál az eredeti hívás árát), a válaszidőt és az útvonalat, vagyis azt, hogy melyik
-szint vagy eszköz kellett a válaszhoz. A következő fejezet ezeknek a méréseknek az eredményét
-mutatja be.
+után a módszereket befagyasztottuk, és a tesztüzemeken már nem változtattunk rajtuk. A következő fejezet ezeknek a módszereknek a mért eredményét mutatja be.

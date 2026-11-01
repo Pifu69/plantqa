@@ -84,9 +84,8 @@ def _panel(rows: list[dict[str, Any]], key: str, name: str, ylabel: str, fmt: st
     ax.set_xticks(range(len(PAIRS)))
     ax.set_xticklabels(labels, fontsize=7)
     style(ax, ylabel)
-    exps = " és ".join(dict.fromkeys(f"{r['plant']}: {r['exp']}" for r in rows))
     order = ", ".join(plants)
-    ax.set_title(f"Halványtól a teltig: {order} — {exps}", fontsize=7, color=MUTED)
+    ax.set_title(f"Halványtól a teltig: {order}", fontsize=7, color=MUTED)
     save(fig, name)
     write_csv(name, rows)
 

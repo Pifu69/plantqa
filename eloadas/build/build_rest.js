@@ -18,14 +18,14 @@ function complexSlide() {
   const data = COMPLEX.map((c) => ({ name: c.label, labels, values: KEYS.map(([m, mo]) => Number(find(c, m, mo).correct || 0)) }));
   const notes = COMPLEX.map((c) => `${c.label}: ` + KEYS.filter(([m, mo]) => find(c, m, mo).correct !== undefined).map(([m, mo]) => `${m} ${MODEL[mo]} ${find(c, m, mo).correct}`).join(", ")).join("; ");
   const s = content(`Külön 12 olyan kérdést is feltettünk üzemenként, amelyekhez a rajzon egy utat vagy elemhalmazt kell bejárni, és több adatlapot kell összevetni. A teljesen helyes válaszok száma: ${notes}. A gráf nélküli módszer ezek közül egyet sem oldott meg; az 1000 lapos üzemen nem is futtatható.`);
-  title(s, `Több adatlapos kérdések — ${COMPLEX.map((c) => c.exp).join(", ")}`);
+  title(s, "Több adatlapos kérdések (12 db)");
   s.addChart(pres.charts.BAR, data, { x: 0.4, y: 1.0, w: 5.8, h: 4.0, barDir: "col", barGrouping: "clustered",
     chartColors: ["9FB6D0", NAVY], showValue: true, dataLabelPosition: "outEnd", dataLabelFormatCode: "0",
     dataLabelFontSize: 10, dataLabelColor: INK, valAxisMinVal: 0, valAxisMaxVal: 12, showLegend: true, legendPos: "b", legendFontSize: 10, legendFontFace: "+mn-lt",
     catAxisLabelFontSize: 10, valAxisLabelFontSize: 9, catAxisLabelColor: MUTED, valAxisLabelColor: MUTED,
     valGridLine: { color: "E4E3DF", size: 0.5 }, catGridLine: { style: "none" }, catAxisLabelFontFace: "+mn-lt", valAxisLabelFontFace: "+mn-lt" });
   body(s, ["Teljesen helyes válaszok száma a 12-ből", "Út + szélsőérték, halmaz + felsorolás, két lépés + összevetés",
-    "Referencia programmal: gold gráf + PDF-ből gyűjtött tények"], { x: 6.4, y: 1.2, w: 3.3, h: 3.6, fontSize: 14 });
+    "Referencia programmal: a generált üzem pontos leírása + PDF-ből gyűjtött tények"], { x: 6.4, y: 1.2, w: 3.3, h: 3.6, fontSize: 14 });
 }
 
 function errorSlide() {
@@ -73,7 +73,7 @@ function backupDev() {
 
 function backupTable() {
   const s = content("Tartalék: a teljes eredménymátrix a két tesztüzemen.");
-  title(s, `Tartalék: teljes eredmény (${B.TEST})`);
+  title(s, "Tartalék: teljes eredmény");
   const rows = [["Módszer", "Modell", "Lap", "Helyes", "Részben", "Rossz", "Halluc.", "Pontosság [95% CI]"]];
   KEYS.forEach(([m, mo]) => LARGE.forEach((l) => { const r = rowOf(l, m, mo); if (r.correct === undefined) return;
     rows.push([m, MODEL[mo], l.label.split(" ")[0], r.correct, r.partial, r.wrong, r.hallucinated, `${hu(r.accuracy, 3)} [${hu(r.ci_low, 3)}–${hu(r.ci_high, 3)}]`]); }));

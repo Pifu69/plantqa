@@ -236,7 +236,7 @@ szabad szöveges válaszokat mi is bírálóval pontozzuk (3. fejezet).
 Szabó Zsombor egyéni munkája (plantdocs) egyetlen eszköz adatlapjából épít ISO 15926 / QUDT
 szerinti tudásgráfot, amelyben a feltételek és a kereszthivatkozások külön elemek maradnak. Két lekérdezési
 módszert hasonlít össze: A1 (RDF + SPARQL) és A2 (Neo4j + Cypher, vektoros kereséssel). A
-plantdocs végső mérésén (a Rosemount 3051 adatlap 200 befagyasztott kérdésén, GLM-mel, vak
+plantdocs végső mérésén (a Rosemount 3051 adatlap 200 befagyasztott kérdésén, vak
 bírálóval) az A1 141, az A2 172 kérdésre adott helyes választ. Ebben a munkában az A2 az adatlapoldal alapja.
 
 ## GraphRAG és visszakeresési stratégiák
@@ -297,8 +297,8 @@ Táblázat: A kapcsolódó munkák összevetése
 | Lopomo és társai [Lopomo2026] | igen (126 rajz) | nem | nincs adat | automatikusan épített tudásgráf | gráfépítés, nem kérdés-válaszolás |
 | Document GraphRAG [Knollmeyer2025] | nem | gyártási dokumentumok | – | dokumentumszerkezet és példánygráf | nincs adat |
 | Enginuity [Kumar2026] | mérnöki rajzok | kézikönyvek, alkatrésztáblák | – | nincs | 6940 oldal |
-| plantgraph (Kiszely) | igen (szintetikus) | nem | igen, kb. 100 és 1000 lap | Neo4j, üzemi réteg | 460 kérdés a lezárt teszten |
-| plantdocs (Szabó) | nem | igen, egy eszköz | – | ISO 15926 / QUDT, RDF és Neo4j | 200 kérdés |
+| plantgraph (Kiszely Benedek) | igen (szintetikus) | nem | igen, kb. 100 és 1000 lap | Neo4j, üzemi réteg | 460 kérdés a lezárt teszten |
+| plantdocs (Szabó Zsombor) | nem | igen, egy eszköz | – | ISO 15926 / QUDT, RDF és Neo4j | 200 kérdés |
 | Jelen munka | igen (30 és 50 lapos fejlesztési, 100 és 1000 lapos tesztüzem) | igen, 7 adatlap | igen | összevont Neo4j-gráf | üzemenként 60 kérdés + 12 (e) kérdés |
 
 A rajzoldali munkák szinte mind egylaposak, és egyikük sem kapcsolja be az eszközök adatlapjait;

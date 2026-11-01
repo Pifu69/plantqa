@@ -7,7 +7,7 @@ const fs = require("fs");
 let listInstance = 0;
 const path = require("path");
 const {
-  AlignmentType, Document, Footer, HeadingLevel, ImageRun, LevelFormat, Packer,
+  AlignmentType, Bookmark, Document, Footer, InternalHyperlink, HeadingLevel, ImageRun, LevelFormat, Packer,
   PageBreak, PageNumber, Paragraph, ShadingType, Tab, Table, TableCell, TableOfContents, TableRow,
   TextRun, WidthType,
 } = require("docx");
@@ -60,9 +60,29 @@ function citeRuns(text, base) {
   for (const m of text.matchAll(CITE_RE)) {
     const keys = [...m[0].matchAll(/[^\s\[\],]+/g)].map((k) => k[0]);
     if (!keys.every((k) => BIB.has(k))) { keys.filter((k) => !BIB.has(k)).forEach((k) => UNKNOWN_KEYS.add(k)); continue; }
-    if (m.index > last) out.push(new TextRun({ text: text.slice(last, m.index), ...base }));
+    if (m.index > last) out.push(...refRuns(text.slice(last, m.index), base));
     const nums = [...new Set(keys.map((k) => BIB.get(k)))].sort((a, b) => a - b);
-    out.push(new TextRun({ text: nums.join(","), superScript: true, ...base }));
+    nums.forEach((n, idx) => {
+      // minden sorszám kattintható belső hivatkozás az irodalomjegyzéki tételre
+      out.push(new InternalHyperlink({ anchor: `irod_${n}`,
+        children: [new TextRun({ text: String(n), superScript: true, ...base })] }));
+      if (idx < nums.length - 1) out.push(new TextRun({ text: ",", superScript: true, ...base }));
+    });
+    last = m.index + m[0].length;
+  }
+  if (last < text.length) out.push(...refRuns(text.slice(last), base));
+  return out;
+}
+
+// "N. fejezet" és "Függelék X" kereszthivatkozások: belső hivatkozás a címsor könyvjelzőjére
+const REF_RE = /(\d+)\. fejezet|Függelék ([A-G])\b/g;
+function refRuns(text, base) {
+  const out = [];
+  let last = 0;
+  for (const m of text.matchAll(REF_RE)) {
+    if (m.index > last) out.push(new TextRun({ text: text.slice(last, m.index), ...base }));
+    const anchor = m[1] ? `fejezet_${m[1]}` : `fuggelek_${m[2]}`;
+    out.push(new InternalHyperlink({ anchor, children: [new TextRun({ text: m[0], ...base })] }));
     last = m.index + m[0].length;
   }
   if (last < text.length) out.push(new TextRun({ text: text.slice(last), ...base }));
@@ -134,7 +154,15 @@ function table(lines, label) {
 }
 
 function heading(level, text, breakBefore = false) {
-  return new Paragraph({ heading: level, pageBreakBefore: breakBefore, children: [new TextRun(text)] });
+  // könyvjelző a fejezetcímeken ("3. Adatok…") és a függelék szakaszain ("A. Példakérdések…")
+  let anchor = null;
+  const ch = text.match(/^(\d+)\. /);
+  if (level === HeadingLevel.HEADING_1 && ch) anchor = `fejezet_${ch[1]}`;
+  const app = text.match(/^([A-G])\. /);
+  if (level === HeadingLevel.HEADING_2 && chapterNo === -1 && app) anchor = `fuggelek_${app[1]}`;
+  const run = new TextRun(text);
+  return new Paragraph({ heading: level, pageBreakBefore: breakBefore,
+    children: [anchor ? new Bookmark({ id: anchor, children: [run] }) : run] });
 }
 
 function codeBlock(lines, start) {
@@ -173,7 +201,8 @@ function chapter(md) {
     const bib = line.match(/^- \[([^\]]+)\] (.*)$/);
     if (bib && BIB.has(bib[1])) {
       // irodalomjegyzéki tétel: [n] sorszámmal, függő behúzással
-      out.push(new Paragraph({ children: [new TextRun({ children: [`[${BIB.get(bib[1])}]`, new Tab()] }), ...runs(bib[2])],
+      const n = BIB.get(bib[1]);
+      out.push(new Paragraph({ children: [new Bookmark({ id: `irod_${n}`, children: [new TextRun({ children: [`[${n}]`, new Tab()] })] }), ...runs(bib[2])],
         spacing: { after: 60 }, indent: { left: 560, hanging: 560 }, tabStops: [{ type: "left", position: 560 }] }));
       prevNumbered = false; i += 1; continue;
     }

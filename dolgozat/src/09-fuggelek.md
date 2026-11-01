@@ -2,7 +2,7 @@
 
 ## A. Példakérdések családonként (dev halmaz)
 
-Táblázat: Két példakérdés családonként a dev halmazból, a referenciaválasz rövidítve (EXP-004)
+Táblázat: Két példakérdés családonként a dev halmazból, a referenciaválasz rövidítve
 | Család | Kérdés | Referenciaválasz (rövidítve) |
 |---|---|---|
 | (a) | Can process flow reach P-2-2 from P-1-1? | no |
@@ -52,7 +52,7 @@ The datasheet graphs follow this model:
 Ask the vendor datasheet of the item with this tag (pump, valve, transmitter, heat exchanger, ...) one question about its specification, e.g. a pressure or temperature limit, a material, a size or an option; returns the datasheet's answer with its PDF pages. Use it for every property the drawing does not show; first find the tag on the drawing.
 ```
 
-A sémakiegészítés ezután a plantdocs A2 `qa-cypher` promptjának GRAPH MODEL és RULES részét és a tag-ek dokumentumonkénti listáját tartalmazza (`src/plantqa/methods/m1.py`, `datasheet_schema`).
+A sémakiegészítés ezután a plantdocs A2 `qa-cypher` promptjának GRAPH MODEL és RULES részét és a tag-ek dokumentumonkénti listáját tartalmazza.
 
 ## D. A két forrásfolyamat részletei
 
@@ -115,8 +115,8 @@ Táblázat: A két lapközi mechanizmus
 | Jel a rajzon | a csatlakozó felirata a partner lappal | az elem tag-je |
 | Ha elmarad | a gráf szétesik, a hiba látható | a gráf épnek látszik, a válaszok hiányosak |
 
-A példaüzem 4 lapja között 4 lapközi csatlakozópár van (EXP-002); a rajzexportban mind a 8
-lapközi jel összekötött (EXP-003).
+A példaüzem 4 lapja között 4 lapközi csatlakozópár van; a rajzexportban mind a 8
+lapközi jel összekötött.
 
 ### A plantgraph feloldója
 
@@ -133,78 +133,76 @@ hordozó előfordulásával helyettesít, a csatlakozópárokon át újraköti a
 párosítatlan csatlakozókat pedig meghagyja, hogy a hiány a kapuellenőrzésben látsszon. A legfőbb
 kapu az egyezés: a feloldott üzemnek az eredeti üzem látható nézetével kell megegyeznie; egy
 átnevezési próba pedig azt ellenőrzi, hogy az eredmény nem függ az átlátszatlan azonosítóktól. A
-példaüzemen a visszaépítési ellenőrzés hibátlan volt (EXP-002).
+példaüzemen a visszaépítési ellenőrzés hibátlan volt.
 
 ### Az adatlapok PDF-jei
 
-A hét adatlap valódi, a gyártók által közzétett PDF. A négy most feldolgozott adatlap a jelen
-munka tárolójában, a `data/raw/<dokumentum>/<dokumentum>.pdf` útvonalon található (Alfa Laval M3,
-Flowserve Worcester F51/F52, Rosemount 3051, Swagelok MS-01-176), a korábban feldolgozott három
-(Fisher ET, GF Type 165, Gorman-Rupp VGH) a plantdocs tárolójának `data/raw/` mappájában
-(`fisher-et-d100022x012.pdf`, `gfps-165-solenoid-valve.pdf`, `gorman-rupp-0700286.pdf`). A
-forrásoldal-hivatkozások ezeknek a fájloknak az oldalszámaira mutatnak.
+A hét adatlap valódi, a gyártók által nyilvánosan közzétett PDF: Gorman-Rupp VGH (0700286),
+Alfa Laval M3, Fisher ET (D100022X012), GF Type 165, Flowserve Worcester F51/F52, Swagelok
+MS-01-176 és Rosemount 3051 (00813-0100-4001). A négy általunk feldolgozott adatlap PDF-je a jelen
+munka kódtárában, a másik három Szabó Zsombor egyéni munkájának kódtárában található. A
+forrásoldal-hivatkozások ezeknek a PDF-eknek az oldalszámaira mutatnak.
 
 ### A plantdocs folyamatának lépései
 
 A plantdocs egy gyártói adatlap PDF-jéből tíz számozott lépésben jut el az ontológia szerinti
-RDF-gráfig. A lépések felváltva programok és nyelvi modellek; minden nyelvimodell-lépésnek
-verziózott promptja van, és a kimenete csak akkor mehet tovább, ha átmegy a lépés szerződésén (egy
-programmal ellenőrzött formai és tartalmi feltételrendszeren). A programlépéseket egy
-visszamenőleges teszt újrafuttatja és összeveti a tárolt kimenettel. A lépéseket az alábbi
-táblázat foglalja össze.
+RDF-gráfig. A lépések felváltva programok és nyelvi modellek; minden nyelvimodell-lépés kimenete
+csak akkor mehet tovább, ha átmegy egy programmal ellenőrzött formai és tartalmi
+feltételrendszeren. A programlépéseket egy visszamenőleges teszt újrafuttatja és összeveti a
+tárolt kimenettel. A lépéseket az alábbi táblázat foglalja össze.
 
 Táblázat: A plantdocs folyamatának lépései
 | # | Ki végzi | Mit csinál |
 |---|---|---|
-| 01 | Azure Document Intelligence | oldalelrendezés, táblázatok és ábrák felismerése |
-| 02 | nyelvi modell | rekordok: paraméter, érték, egység, a táblázatbeli útvonal |
-| 03 | program, nyelvi modell, program | ábrák kivágása és osztályozása, a betű- és számjelek feloldása |
-| 04 | program, nyelvi modell, program | diagramoldalak, leolvasás, vektoros ellenőrzés |
-| 05 | program | a rekordok ellenőrzése a PDF szövegével |
-| 06 | nyelvi modell, program | célformátum: tények, feltételek, lábjegyzetek, diagramok |
-| 07 | program | az ábrákhoz tartozó lábjegyzetek |
-| 08 | program, nyelvi modell, program | forrásleltár és forrásleírások, a végső célformátum |
-| 09 | program, nyelvi modell, program | szókészlet: illesztés, hálózati ellenőrzés, szókészlet-térkép |
+| 1 | Azure Document Intelligence | elrendezés-elemzés: oldalelrendezés, táblázatok és ábrák felismerése |
+| 2 | nyelvi modell | rekordok: paraméter, érték, egység, a táblázatbeli útvonal |
+| 3 | program, nyelvi modell, program | ábrák kivágása és osztályozása, a betű- és számjelek feloldása |
+| 4 | program, nyelvi modell, program | diagramoldalak, leolvasás, vektoros ellenőrzés |
+| 5 | program | a rekordok ellenőrzése a PDF szövegével |
+| 6 | nyelvi modell, program | célformátum: tények, feltételek, lábjegyzetek, diagramok |
+| 7 | program | az ábrákhoz tartozó lábjegyzetek |
+| 8 | program, nyelvi modell, program | forrásleltár és forrásleírások, a végső célformátum |
+| 9 | program, nyelvi modell, program | szókészlet: illesztés, hálózati ellenőrzés, szókészlet-térkép |
 | 10 | program | RDF: IDO és POSC Caesar adatlap-ontológia |
 
-Az **01.** lépés az Azure Document Intelligence elrendezés-elemzése (bekezdések, táblázatok,
-ábrák); a plantdocs ezt adott eszköznek tekinti, nem kutatási hozzájárulásnak.
-A **02.** lépésben egy nyelvi modell rekordokat ír: paraméter, érték, egység és a táblázatbeli
-útvonal (táblázatcím, sor- és oszlopfejlécek) a lábjegyzetjelekkel. Ezek még lapos szövegek.
+Az **1.** lépés az Azure Document Intelligence elrendezés-elemzése (bekezdések, táblázatok,
+ábrák); a plantdocs ezt adott eszköznek tekinti, nem kutatási hozzájárulásnak. A **2.** lépésben
+egy nyelvi modell rekordokat ír: paraméter, érték, egység és a táblázatbeli útvonal (táblázatcím,
+sor- és oszlopfejlécek) a lábjegyzetjelekkel. Ezek még lapos szövegek.
 
-A **03.** lépés az ábrákat kivágja és osztályozza (fénykép, metszeti rajz, méretrajz, diagram),
+A **3.** lépés az ábrákat kivágja és osztályozza (fénykép, metszeti rajz, méretrajz, diagram),
 és a rajzokon a betű- és számjeleket alkatrésznevekhez vagy táblázatfejlécekhez köti; amit nem tud
-feloldani, azt feloldatlanként megtartja. A **04.** lépés a diagramokat olvassa le: egy
+feloldani, azt feloldatlanként megtartja. A **4.** lépés a diagramokat olvassa le: egy
 szelepdiagram üzemi tartományok sokszögeiből, egy görbediagram pontsorozatokból áll; ahol lehet, a
 leolvasást a PDF vektoros vonalaival ellenőrzi, és a diagram fölötti címsorok feltételeit a
-diagramhoz rendeli. Az **05.** lépés minden rekord számát megkeresi a hivatkozott PDF-oldal
+diagramhoz rendeli. Az **5.** lépés minden rekord számát megkeresi a hivatkozott PDF-oldal
 szövegében.
 
-A **06.** lépés hozza létre a célformátumot (lásd alább). Ehhez a plantdocs hibrid módszert
+A **6.** lépés hozza létre a célformátumot (lásd alább). Ehhez a plantdocs hibrid módszert
 használ: a program a rekordok útvonalát szegmensekre bontja, egy nyelvi modell táblázatonként
 egyszer megadja, melyik szegmens az alany, melyik a feltétel és melyik a tulajdonság (táblázatséma),
 és egy determinisztikus lépés ezt minden rekordra alkalmazza. Ez olcsóbb, mint rekordonként
-kérdezni, és egy táblázaton belül következetes. A **07.** lépés az ábrák lábjegyzeteit köti be, a
-**08.** lépés minden forrásról rövid leírást írat; ezek a lekérdezésnél a szakaszkatalógus sorai
+kérdezni, és egy táblázaton belül következetes. A **7.** lépés az ábrák lábjegyzeteit köti be, a
+**8.** lépés minden forrásról rövid leírást írat; ezek a lekérdezésnél a szakaszkatalógus sorai
 lesznek.
 
-A **09.** lépés a szókészlet-illesztés. Egy nyelvi modell minden eszköztulajdonsághoz és
+A **9.** lépés a szókészlet-illesztés. Egy nyelvi modell minden eszköztulajdonsághoz és
 feltétel-dimenzióhoz szabványos fogalmat keres, a program minden javasolt azonosítót újra
 lekérdez a hálózaton, és csak az ellenőrzött illesztés kerül a szókészlet-térképbe. A sorrend
 rögzített: előbb a POSC Caesar könyvtár pontos vagy tágabb fogalma, ha nincs, a CFIHOS-é; modell-
 vagy változatkódnál a könyvtár azonosítási osztálya; különben az IDO legáltalánosabb
 tulajdonság-osztálya (`Quality`) mint gyűjtő, ahol a pontos jelentést a nyomtatott címke
 hordozza. A gyűjtőbe kerülő tények aránya az illesztés minőségének jelzője. Az illesztés
-lefedettségét a plantdocs egy előzetes mérése vizsgálta: négy dokumentum eszköztulajdonságai és
-feltétel-dimenziói közül 88/133-hoz adott a POSC Caesar könyvtár pontos vagy tágabb fogalmat, a
-CFIHOS-szal együtt 101/133-hoz (előzetes, kézi
-ellenőrzésre váró eredmény). A mi feldolgozásunkban a POSC Caesar régi SPARQL-végpontja
-HTTP 404-et adott, ezért a régi könyvtárral nem, csak az új végponttal és a CFIHOS-szal
-illesztettünk (EXP-006). Végül a **10.** lépés program: a végső célformátumot és a
-szókészlet-térképet RDF-gráffá alakítja, és jelentést ír a tények szintek szerinti eloszlásáról.
+lefedettségét Szabó Zsombor egyéni munkájában egy előzetes mérés vizsgálta: négy dokumentum
+eszköztulajdonságai és feltétel-dimenziói közül 88/133-hoz adott a POSC Caesar könyvtár pontos
+vagy tágabb fogalmat, a CFIHOS-szal együtt 101/133-hoz (előzetes, kézi ellenőrzésre váró
+eredmény). A mi feldolgozásunkban a POSC Caesar régi lekérdezési végpontja nem volt elérhető,
+ezért a régi könyvtárral nem, csak az új végponttal és a CFIHOS-szal illesztettünk. Végül a
+**10.** lépés program: a végső célformátumot és a szókészlet-térképet RDF-gráffá alakítja, és
+jelentést ír a tények szintek szerinti eloszlásáról.
 
-Az általunk feldolgozott négy adatlapon mind a 24 nyelvimodell-kimenet elsőre átment a plantdocs
-szerződésein (EXP-006).
+Az általunk feldolgozott négy adatlapon minden nyelvimodell-kimenet elsőre átment a plantdocs
+ellenőrzésein.
 
 ### A plantdocs célformátuma
 
@@ -278,7 +276,7 @@ A feltételek együttese egy esetcsúcs (Case), amelyet a POSC Caesar úgy hatá
 helyzetet, amelyen belül bizonyos attribútumértékek érvényesek. A tény egy kapcsolattal az esetre
 mutat, az eset címkéje felsorolja a feltételeket, és minden egyes feltétel maga is adatpont, amely
 ugyanerre az esetre mutat, a dimenzió szabványos attribútumával. A forrás (táblázat, ábra,
-diagram, szövegrész) szakaszcsúcs (Section Datum) a címmel, a 08. lépés leírásával és az
+diagram, szövegrész) szakaszcsúcs (Section Datum) a címmel, a 8. lépés leírásával és az
 oldalszámmal; a lábjegyzet külön adatpont, amelyre a tény kapcsolattal mutat. A diagramok
 pontjai pontonként egy-egy esetbe kerülnek.
 
@@ -329,7 +327,7 @@ A plantdocs A2-módszere egy eszköz egy kérdésére a következő lépésekben
    adatpont-, eset-, szakasz- és lábjegyzetcsúcsokat az előtagos neveikkel), az eszköz gráfjának
    leltárát (az eszköz és alkatrészei, a leggyakoribb adatpontcímkék, a források oldallal) és a forrásszakaszok
    katalógusát tartalmazza; a katalógus soronként egy táblázat, ábra, diagram vagy szövegrész a
-   címével, típusával, oldalával, sorainak számával és a 08. lépésben írt leírásával.
+   címével, típusával, oldalával, sorainak számával és a 8. lépésben írt leírásával.
 2. **Lekérdezésírás.** Egy LLM alacsony gondolkodási szinttel egyetlen csak olvasó
    Cypher-lekérdezést ír, és mellette legfeljebb három forrásszakaszt választ, amelynek a teljes
    tartalmára a válasznak valószínűleg szüksége lesz. A lekérdezési szabályok széles keresést
@@ -360,7 +358,7 @@ A sémakiegészítés első része az összekötést írja le (a `DESCRIBED_BY` 
 egy szabályozófunkciónak nincs adatlapja; minden adatlapcsúcsnak van `document_id` tulajdonsága;
 egy tag tényei a fenti mintával érhetők el). Ezt követi a plantdocs A2-promptjának gráfmodell-része
 szó szerint, a dokumentumok és tag-jeik listája, végül a plantdocs lekérdezési szabályai, amelyek a
-második fejlesztési iterációban kerültek be (EXP-011). A sémakiegészítés elejét a Függelék C mutatja.
+második fejlesztési iterációban kerültek be. A sémakiegészítés elejét a Függelék C mutatja.
 
 ### Az M2 router protokollja
 
@@ -377,7 +375,7 @@ fut. A rendszerüzenet teljes szövegét a Függelék B tartalmazza.
 
 ## F. További demó-képernyőképek
 
-A 7. fejezetben bemutatott demópróba (EXP-040) további kérdései közül kettőt képernyőképpel,
+A 7. fejezetben bemutatott demópróba további kérdései közül kettőt képernyőképpel,
 kettőt képernyőkép nélkül követünk végig.
 
 ### Rajzi útvonal egyetlen lekérdezéssel (M1)
@@ -385,9 +383,9 @@ kettőt képernyőkép nélkül követünk végig.
 A demó próbájának egy további kérdése a rajzi (a) családból való, rendezett út válaszalakkal: „Trace the process flow
 path from CHV-1-2 to CHV-2-1. List every equipment item and valve in order.” Az M1-gyel feltéve a
 kaszkád a Cypher-szinten zárult, egyetlen lekérdezéssel, és a válasz egy
-tagsorozat: „CHV-1-2, P-1-3, P-2-1, P-2-2, CHV-2-1” (EXP-040).
+tagsorozat: „CHV-1-2, P-1-3, P-2-1, P-2-2, CHV-2-1”.
 
-![Rajzi útvonal az M1-gyel (EXP-040): a Cypher-szint egyetlen lekérdezéssel adja a rendezett utat; a bal oldalon a P&ID egyik lapja, a jobb szélén a lapközi csatlakozóval.](../../figures/demo/02-a-M1.png)
+![Rajzi útvonal az M1-gyel: a Cypher-szint egyetlen lekérdezéssel adja a rendezett utat; a bal oldalon a P&ID egyik lapja, a jobb szélén a lapközi csatlakozóval.](../../figures/demo/02-a-M1.png)
 
 A bal oldalon a rajz egyik lapja látszik. A CHV-1-2 szelepből induló vezeték a lap jobb szélén egy
 lapközi csatlakozóban végződik, vagyis az út egy másik lapon folytatódik. A rajzon ezt az olvasónak
@@ -397,15 +395,15 @@ elfogadási szabálya szerint (válaszolt, nem tartózkodott, van sor, nem csonk
 
 ### Több adatlapos kérdés (M2)
 
-Egy másik kérdés a külön mért, több adatlapos (e) családból való (EXP-009): „For each item that
+Egy másik kérdés a külön mért, több adatlapos (e) családból való: „For each item that
 receives flow directly from P-2-1, what is its maximum allowable pressure according to its
 datasheet, and which of them has the lowest?” A kérdés egy halmazt kér a rajzból (mi kap
 közvetlenül áramot a P-2-1-ből?), majd a halmaz minden elemére egy adatlapi értéket, végül egy
 összevetést.
 
-![Több adatlapos kérdés az M2-vel (EXP-040): egy rajzi hívás után három adatlapi hívás; a bal oldalon a Worcester gömbcsap adatlapjának nyomás–hőmérséklet diagramja.](../../figures/demo/05-e-M2.png)
+![Több adatlapos kérdés az M2-vel: egy rajzi hívás után három adatlapi hívás; a bal oldalon a Worcester gömbcsap adatlapjának nyomás–hőmérséklet diagramja.](../../figures/demo/05-e-M2.png)
 
-Az M2 útvonala (EXP-040): egy rajzeszköz-hívás, amely a Cypher-szinten zárult, majd három
+Az M2 útvonala: egy rajzeszköz-hívás, amely a Cypher-szinten zárult, majd három
 adatlap-hívás a BV-2-1, a P-2-2 és a PV-2-1 tag-re, vagyis egy gömbcsap, egy szivattyú és egy
 szabályozószelep adatlapjára. A válasz „nincs benne” jelzésű részválasz: „Of the three items fed
 directly from P-2-1 (BV-2-1, P-2-2, PV-2-1), only P-2-2 has a numeric maximum pressure in its
@@ -423,7 +421,7 @@ próba nem pontozta.
 Az adatlapi (b) kérdésre („Regarding P-1-3 on
 the P&ID: What's the max allowable pressure in the casing? …”) az M1 a Cypher-szinten, egyetlen
 lekérdezéssel válaszolt; a rajzi (a) kérdésre („Which instruments measure E-2-1?”) az M3 egyetlen
-hívással az FT-2-2 tag-et adta (EXP-040).
+hívással az FT-2-2 tag-et adta.
 
 ## G. A kis üzem mérései
 
@@ -432,24 +430,24 @@ Ez a szakasz az első prototípus mérését írja le: a módszerek első válto
 ### Fejlesztési iterációk
 
 A dev halmazon (20 kérdés) négy iterációt mértünk (lásd az alábbi ábrát). Az első iterációban
-(EXP-010) a Rosemount 3051 Opus-gráfja még nem készült el, ezért a nyomás- és áramlástávadóra
+a Rosemount 3051 gráfja még nem készült el, ezért a nyomás- és áramlástávadóra
 vonatkozó adatlapi kérdések egyik gráfos módszerrel sem voltak megválaszolhatók. A második
-iterációban (EXP-011) az M1 Cypher-szintje megkapta a plantdocs A2 lekérdezési szabályait (széles
+iterációban az M1 Cypher-szintje megkapta a plantdocs A2 lekérdezési szabályait (széles
 keresés, eset, lábjegyzet és oldal visszaadása), az M2 és az M3 pedig egy válaszszabályt
 (részválasznál a meglévő rész és a hiányzó rész megnevezése, a dokumentumon túli tanács
-tilalma); az M2 és az M3 hallucinációi ezzel eltűntek. A harmadik iterációban (EXP-012) a
+tilalma); az M2 és az M3 hallucinációi ezzel eltűntek. A harmadik iterációban a
 Rosemount-gráf is bekerült: az M1 pontossága 0,60-ról 0,75-re, az M2-é 0,85-ről 0,95-re nőtt, az
-M3-é nem változott, mert nem használja a gráfot. A negyedik iterációban (EXP-013) a befagyasztott
+M3-é nem változott, mert nem használja a gráfot. A negyedik iterációban a befagyasztott
 módszereket GPT-6 Lunával mértük: M1 0,60, M2 0,70, M3 0,60.
 
-![A dev halmazon mért pontosság iterációnként (EXP-010–EXP-013).](../../figures/dev_progress.png)
+![A dev halmazon mért pontosság iterációnként.](../../figures/dev_progress.png)
 
 ### Végső mérés a teszthalmazon
 
 A befagyasztott teszthalmaz (40 kérdés, családonként 10) mindegyik párosításon egyszer futott
-le (EXP-020). Az eredményt az alábbi táblázat és ábra mutatja.
+le. Az eredményt az alábbi táblázat és ábra mutatja.
 
-Táblázat: A végső teszt eredménye párosításonként és családonként (EXP-020)
+Táblázat: A végső teszt eredménye párosításonként és családonként
 | Módszer | Modell | Helyes | Részben | Rossz | Hallucinált | Pontosság [95% CI] | (a) | (b) | (c) | (d) |
 |---|---|---|---|---|---|---|---|---|---|---|
 | M1 | GLM-5.3 Flash | 25 | 9 | 6 | 0 | 0,625 [0,475–0,775] | 8/10 | 3/10 | 4/10 | 10/10 |
@@ -459,7 +457,7 @@ Táblázat: A végső teszt eredménye párosításonként és családonként (E
 | M2 | GPT-6 Luna | 28 | 7 | 5 | 0 | 0,700 [0,550–0,850] | 8/10 | 5/10 | 6/10 | 9/10 |
 | M3 | GPT-6 Luna | 26 | 6 | 8 | 0 | 0,650 [0,500–0,800] | 8/10 | 4/10 | 5/10 | 9/10 |
 
-![A végső teszt pontossága családonként, a hat párosításon (EXP-020).](../../figures/test_by_family.png)
+![A végső teszt pontossága családonként, a hat párosításon.](../../figures/test_by_family.png)
 
 A legjobb párosítás az M2 GLM-mel (31 helyes a 40-ből). GLM-mel az M1 szignifikánsan elmarad
 mind az M2-től (párosított különbség −0,150, 95% CI −0,275 és −0,025 között), mind az M3-tól
@@ -471,7 +469,7 @@ választ adott. A különbség a (b) és (c) családon jön ki: az adatlapi kér
 
 ### Költség és késleltetés
 
-Táblázat: Költség, késleltetés és tokenhasználat kérdésenként a végső teszten (EXP-020)
+Táblázat: Költség, késleltetés és tokenhasználat kérdésenként a végső teszten
 | Módszer | Modell | Költség / kérdés (USD) | Medián késleltetés (s) | Átlagos bemeneti token / kérdés | Átlagos kimeneti token / kérdés |
 |---|---|---|---|---|---|
 | M1 | GLM-5.3 Flash | 0,00453 | 12,9 | 81 492 | 3 940 |
@@ -481,7 +479,7 @@ Táblázat: Költség, késleltetés és tokenhasználat kérdésenként a végs
 | M2 | GPT-6 Luna | 0,00213 | 17,6 | 35 765 | 1 115 |
 | M3 | GPT-6 Luna | 0,00182 | 4,2 | 12 901 | 425 |
 
-![Kérdésenkénti költség és medián késleltetés (EXP-020); két külön panel, mert a két mennyiség skálája eltér.](../../figures/test_cost_latency.png)
+![Kérdésenkénti költség és medián késleltetés; két külön panel, mert a két mennyiség skálája eltér.](../../figures/test_cost_latency.png)
 
 A legdrágább az M1: a kaszkád első szintje a teljes kétrétegű sémát kapja promptban, és ha nem
 fogadják el a válaszát, az ágens is lefut, amely tag-enként külön adatlap-hívásokat indít. Az M2 GLM-mel körülbelül feleannyiba kerül (0,00234 vs. 0,00453 USD), Lunával 40%-ába (0,00213 vs. 0,00539 USD), mert csak a szükséges eszközt hívja. Az M3 a legolcsóbb, és
@@ -494,10 +492,10 @@ előnye nagyobb üzemen nem várható.
 
 Az M1 GLM-mel a 40 tesztkérdésből 21-et a Cypher-szinten zárt le, 7-hez az ágens is kellett
 adatlap-hívás nélkül, 12-höz az ágens és legalább egy `datasheet_fact` hívás; Lunával ugyanez
-22, 7 és 11 (EXP-020). Az M2 GLM-mel 13 kérdésnél csak a rajzot, 14-nél csak az adatlapot, 13-nál
+22, 7 és 11. Az M2 GLM-mel 13 kérdésnél csak a rajzot, 14-nél csak az adatlapot, 13-nál
 mindkettőt kérdezte; Lunával 14, 13 és 13.
 
-![Az M1 és az M2 útvonalai a végső teszten (EXP-020).](../../figures/test_routes.png)
+![Az M1 és az M2 útvonalai a végső teszten.](../../figures/test_routes.png)
 
 ### Összetett, több adatlapos kérdések
 
@@ -505,12 +503,11 @@ A végső teszt után egy kiegészítő mérést is végeztünk 12 olyan kérdé
 utat, egy elemhalmazt vagy két topológiai lépést kell bejárni, és két-három különböző adatlapot
 kell összevetni (például „Along the process flow path from E-1-1 to CHV-2-1, which item has the
 lowest maximum allowable pressure according to its datasheet?”). A referenciát program rakta
-össze a gold gráfból és egy vak Opus-agent által a PDF-ekből gyűjtött tényekből (EXP-008,
-EXP-009); négy kérdésnél a helyes válasz az, hogy a rajz nem mondja meg a beépített változatot,
+össze a generált üzem pontos leírásából és egy nyelvi modell által a PDF-ekből gyűjtött tényekből; négy kérdésnél a helyes válasz az, hogy a rajz nem mondja meg a beépített változatot,
 ezért a legkisebb érték nem dönthető el. A kérdéseket futtatás előtt befagyasztottuk, és a
 módszereken semmit nem változtattunk.
 
-Táblázat: Az összetett, több adatlapos kérdések eredménye (12 kérdés, EXP-030)
+Táblázat: Az összetett, több adatlapos kérdések eredménye (12 kérdés)
 | Módszer | Modell | Helyes | Részben | Rossz | Hallucinált | Költség / 12 kérdés (USD) | Medián késleltetés (s) |
 |---|---|---|---|---|---|---|---|
 | M1 | GLM-5.3 Flash | 0 | 5 | 6 | 1 | 0,0636 | 61,9 |
@@ -533,14 +530,14 @@ viszont nem.
 
 **Az M1 egyetlen lekérdezése.** Az M1 hibáinak nagy része „részben helyes” válasz: a Cypher-szint
 egy szűk lekérdezéssel talál egy releváns adatpontot, a kaszkád elfogadja a nem üres eredményt,
-és a válaszból kimarad egy feltétel vagy egy második érték. A dev halmazon (EXP-012) például a
+és a válaszból kimarad egy feltétel vagy egy második érték. A dev halmazon például a
 szivattyú 266 psi-s burkolatnyomása megvolt, a 100 °F-ig érvényes 250 psi-s üzemi határ nem. Az
 elfogadási szabály a rajzi kérdésekre készült, ahol a nem üres sorhalmaz jó jelzés; adatlapi
 kérdésnél a hiányos sor is nem üres.
 
 **A rajzi kérdések közös hibái.** A teszt (a) családjában három kérdést több párosítás is elrontott.
 Az izolációs kérdésnél („To isolate P-1-5 from all upstream equipment, which valves must be
-closed?”) a gold válasz egyetlen szelep, a módszerek többsége a felfelé eső összes szelepet
+closed?”) a referenciaválasz egyetlen szelep, a módszerek többsége a felfelé eső összes szelepet
 felsorolta. A szabályozókörös kérdésnél („Which control loops act on valves directly connected to
 P-2-1?”) az M2 mindkét modellel a szelepet (PV-2-1) adta meg a kör (PIC-2-1) helyett: a router a
 rajzeszköznek szabad szöveges kérdést ad, és a válasz alakja ott elcsúszott. A P-2-1-ből lefelé

@@ -44,7 +44,7 @@ const hu = (x, d = 2) => Number(x).toFixed(d).replace(".", ",");
 
 const pres = new pptxgen();
 pres.layout = "LAYOUT_16x9";
-pres.author = "Szabó Zsombor István, Kiszely Benedek";
+pres.author = "Szabó Zsombor István, Kiszely Benedek László";
 pres.title = "Tudásgráf-építés műszaki rajzokból és adatlapokból";
 pres.theme = { headFontFace: "Cambria", bodyFontFace: "Calibri" };
 
@@ -84,7 +84,7 @@ function content(notes) {
 function titleSlide() {
   const s = pres.addSlide({ masterName: "DARK" });
   s.addText("Tudásgráf-építés műszaki rajzokból és adatlapokból skálázható Q&A rendszerhez", { x: 0.6, y: 1.2, w: 8.8, h: 1.6, fontFace: "Cambria", fontSize: 32, bold: true, color: WHITE, isTextBox: true });
-  s.addText("Szabó Zsombor István · Kiszely Benedek", { x: 0.6, y: 3.1, w: 8.8, h: 0.4, fontSize: 18, color: WHITE, isTextBox: true });
+  s.addText("Szabó Zsombor István · Kiszely Benedek László", { x: 0.6, y: 3.1, w: 8.8, h: 0.4, fontSize: 18, color: WHITE, isTextBox: true });
   s.addText("Témavezető: Dr. Hollósi Gergely László · BME VIK TMIT · TDK 2026", { x: 0.6, y: 3.55, w: 8.8, h: 0.4, fontSize: 14, color: "CADCFC", isTextBox: true });
   s.addNotes("Jó napot kívánunk. Szabó Zsombor és Kiszely Benedek vagyunk. A munkánk két részből áll: Benedek a rajzokból épít az egész üzemet leíró tudásgráfot, én a gyártói adatlapokból eszközönként. A dolgozatban a kettőt összekötjük, és megmérjük, hogyan lehet a kettőn együtt kérdezni egyre nagyobb üzemeken.");
 }
@@ -125,7 +125,6 @@ function graphSlide() {
   stat(s, 7.4, d.load.counts.described_by.toLocaleString("hu-HU"), "DESCRIBED_BY él (1000 lap)");
   s.addText("(:PlantItem {tag:'P-1-3'}) -[:DESCRIBED_BY]-> (eszköz) <-[alany]- (adatpont: érték, feltétel, oldal)", { x: 0.5, y: 3.0, w: 9, h: 0.5, fontSize: 13, fontFace: "Consolas", color: NAVY, isTextBox: true });
   body(s, ["Rajz: Benedek generátora és betöltője (változtatás nélkül), szintetikus üzemek", "Adatlap: hét valódi gyártói PDF ISO 15926 / QUDT gráfja, tag szerint összekötve"], { x: 0.5, y: 3.6, w: 9, h: 1.3 });
-  s.addText("Forrás: EXP-080, EXP-092, EXP-085, EXP-088", { x: 5.5, y: 5.0, w: 4.2, h: 0.25, fontSize: 9, color: MUTED, align: "right", isTextBox: true });
 }
 
 function methodsSlide() {
@@ -147,12 +146,12 @@ function evalSlide() {
   title(s, "Kiértékelés: üzemenként 60 kérdés");
   const rows = [["Család", "Példa", "Referencia"],
     ["(a) rajz", "Which instruments measure E-2-1?", "Benedek generátora"],
-    ["(b) adatlap", "Regarding P-1-3: max casing pressure?", "plantdocs gold párok"],
+    ["(b) adatlap", "Regarding P-1-3: max casing pressure?", "adatlapi kérdés–válasz párok"],
     ["(c) összetett", "Consider the transmitter that measures E-2-1. …", "programmal (a)+(b)"],
     ["(d) nincs benne", "Regarding PV-2-1: how to take the bonnet off safely?", "„Not in the documents”"]];
   s.addTable(rows.map((r, i) => r.map((t) => ({ text: t, options: { bold: i === 0, fill: { color: i === 0 ? LIGHT : WHITE }, fontSize: 12, color: INK } }))),
     { x: 0.5, y: 1.1, w: 9, colW: [1.7, 4.6, 2.7], border: { type: "solid", color: "D5DDE6", pt: 0.75 } });
-  body(s, ["Hangolás a 30 és 50 lapos üzemen, teszt a 100 és 1000 lapos üzemen (befagyasztott módszerek)", "Programos pontozás + vak bíráló (plantdocs EXP-0029 prompt)"], { x: 0.5, y: 3.75, w: 9, h: 1.2 });
+  body(s, ["Hangolás a 30 és 50 lapos üzemen, teszt a 100 és 1000 lapos üzemen (befagyasztott módszerek)", "Programos pontozás + vak modell-bíráló"], { x: 0.5, y: 3.75, w: 9, h: 1.2 });
 }
 
 function chartAxes() {
@@ -165,7 +164,7 @@ function resultSlide() {
   const data = LARGE.map((l) => ({ name: l.label, labels, values: KEYS.map(([m, mo]) => Number(rowOf(l, m, mo).accuracy || 0)) }));
   const best = LARGE.map((l) => `${l.label}: ${rowOf(l, "M2", "glm").correct}`).join(", ");
   const s = content(`A pontosság a két tesztüzemen. Az irányító GLM-mel helyes válaszainak száma a 60-ból: ${best}. Az 1000 lapos üzemen a gráf nélküli módszer nem futtatható, mert a teljes rajz nem fér a modellek kontextusába, ezért ott nincs oszlopa.`);
-  title(s, `Pontosság a két tesztüzemen — ${TEST}`);
+  title(s, "Pontosság a két tesztüzemen");
   s.addChart(pres.charts.BAR, data, { x: 0.4, y: 1.0, w: 9.2, h: 4.1, barDir: "col", barGrouping: "clustered",
     chartColors: ["9FB6D0", NAVY], showValue: true, dataLabelPosition: "outEnd", dataLabelFormatCode: "0%", dataLabelFontSize: 8,
     dataLabelColor: INK, valAxisMinVal: 0, valAxisMaxVal: 1, valAxisLabelFormatCode: "0%", showLegend: true, legendPos: "b",

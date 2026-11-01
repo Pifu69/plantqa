@@ -20,9 +20,9 @@ változat berendezésosztályai nem szűkíthetők az adatlappal rendelkező osz
 adatbázisba nem kerül be. A feloldó csak a lapokat látja: a csatlakozókat a feliratuk kölcsönös
 hivatkozása alapján párosítja, a több lapon felrajzolt elemeket a (tag, osztály) kulcs szerint
 vonja össze, és nem találgat. Mivel a bontást a rendszer maga végzi, a feloldó eredménye a
-megoldókulcshoz mérhető. A példaüzem 4 lapja között 4 lapközi csatlakozópár van (EXP-002); a
-rajzexportban mind a 8 lapközi jel összekötött (EXP-003), a visszaépítési ellenőrzés pedig
-hibátlan volt (EXP-002).
+megoldókulcshoz mérhető. A példaüzem 4 lapja között 4 lapközi csatlakozópár van; a
+rajzexportban mind a 8 lapközi jel összekötött, a visszaépítési ellenőrzés pedig
+hibátlan volt.
 
 ### Az üzemi réteg és a vonalnézet
 
@@ -31,39 +31,46 @@ előfordulásréteg (rajzolt szimbólumok, lapközi csonkok, azonossági élek) 
 összevont üzemi réteg, a tulajdonképpeni tudásgráf, amely kizárólag a feloldó kimenetéből épül.
 Az üzemi rétegben egy laphatár átlépése egyetlen él, az előfordulásrétegben több lépéses minta.
 
-A generált üzemet Benedek betöltője tölti Neo4j-be, a kaszkád által olvasott `plant_lines`
-profillal. Minden rajzi elem egyetlen `(:PlantItem)` csúcs, akárhány lapon szerepel is;
-osztálycímkéi a konkrét osztálytól a családig terjednek (például
-`:PlantItem:CentrifugalPump:Pump:Equipment`). Az anyagáramot a `send_to` kapcsolat írja le,
-csőrészenként; a lapot átlépő kapcsolat `crossed_sheets` tulajdonságot kap. A jelutakat a
-`send_signal_to`, a mérést a `measured_by`, a beavatkozást a `control` kapcsolat ábrázolja; az
-elemek lapjait és egységeit `is_drawn_on` és `is_located_in` kapcsolat köti a szerkezeti
-csúcsokhoz.
+A generált üzemet Benedek betöltője tölti a Neo4j-adatbázisba. Minden rajzi elem pontosan egy
+csúcs lesz, akkor is, ha több lapon is szerepel. A csúcs több szinten is hordozza az elem
+típusát: egy centrifugálszivattyú egyben szivattyú és berendezés is, így egy lekérdezés bármelyik
+szinten rákereshet. Az elemek közötti csöveket az áramlás irányába mutató kapcsolatok írják le
+(`send_to`); ha egy ilyen kapcsolat átlépi a laphatárt, ezt a kapcsolat jelölése is rögzíti. A
+jelvezetékeknek, a mérésnek (melyik távadó melyik elemet méri) és a beavatkozásnak (melyik
+szabályozó melyik szelepet működteti) külön kapcsolattípusa van. Végül minden elem kapcsolatban
+áll azzal a lappal, amelyen szerepel, és azzal az egységgel, amelyhez tartozik.
 
-A `plant_lines` profil egy vonalnézettel bővíti ezt. A `line_to` kapcsolat két
-berendezést vagy szelepet köt össze akkor is, ha köztük jelöletlen idomok vagy beépített
-komponensek vannak; az átugrott elemeket a kapcsolat `via_tags` és `n_fittings` tulajdonsága
-őrzi. Minden elem `kind` tulajdonságot kap, a szelepek közös `Valve` címkét, és a be- vagy
-kimenő áram nélküli elemek vonalvégként jelöltek. A `send_to` megmarad, így a csőrészenkénti
-nézet sem vész el. A vonalnézetet Benedek a valósághűbb generátorváltozat üzemeihez vezette be, ahol sok
-jelöletlen idom áll az elemek között; a mi példaüzemeinken ilyen idom nincs, de a kaszkád
-promptjai és lekérdezési szabályai erre a profilra készültek, ezért ezt használjuk. A példaüzem
-üzemi rétege 36 csúcsból és 116 kapcsolatból áll (EXP-005).
+Erre épül a vonalnézet. Ez egy rövidítő kapcsolat (`line_to`), amely két berendezést vagy szelepet
+közvetlenül köt össze, és átugorja a köztük lévő kisebb csőidomokat. Így az olyan kérdés, mint „mi
+a szivattyú utáni következő szelep?”, egyetlen lépésben megválaszolható; az átugrott elemeket a
+rövidítő kapcsolat megjegyzi. A csövenkénti kapcsolatok is megmaradnak, így a részletes nézet sem
+vész el. A vonalnézetet Benedek a generátor valósághűbb változatának üzemeihez vezette be, ahol
+sok jelöletlen idom áll az elemek között; a mi üzemeinkben ilyen idom nincs, de a kaszkád
+promptjai és lekérdezési szabályai erre a nézetre készültek, ezért ezt használjuk. A kis
+prototípus-üzem üzemi rétege 36 csúcsból és 116 kapcsolatból áll.
 
 ## Az adatlapoldali réteg
 
 A plantdocs egy gyártói adatlap PDF-jéből tíz számozott lépésben jut el az ontológia szerinti
-RDF-gráfig. Az Azure Document Intelligence elrendezés-elemzése után egy nyelvi modell a
-táblázatokból rekordokat ír (paraméter, érték, egység, táblázatbeli útvonal), további lépések
-feldolgozzák az ábrákat és leolvassák a diagramokat, a program minden rekord számát megkeresi a
-PDF szövegében, majd a rekordokból egy ontológiafüggetlen célformátum, a tulajdonságokhoz és
-feltétel-dimenziókhoz szabványos fogalmakat rendelő szókészlet-térkép, végül RDF-gráf készül. A
-lépések felváltva programok és nyelvi modellek; minden nyelvimodell-lépésnek verziózott promptja
-van, és a kimenete csak akkor mehet tovább, ha átmegy a lépés szerződésén (egy programmal
-ellenőrzött formai és tartalmi feltételrendszeren). Az általunk feldolgozott négy adatlapon mind a
-24 nyelvimodell-kimenet elsőre átment a plantdocs szerződésein; a POSC Caesar régi
-SPARQL-végpontja HTTP 404-et adott, ezért csak az új végponttal és a CFIHOS-szal illesztettünk
-(EXP-006).
+RDF-gráfig:
+
+1. elrendezés-elemzés az Azure Document Intelligence szolgáltatással (bekezdések, táblázatok, ábrák);
+2. rekordok: egy nyelvi modell a táblázatokból paraméter–érték–egység rekordokat ír, a
+   táblázatbeli útvonallal;
+3. ábrák: kivágás, osztályozás és a rajzokon lévő jelek feloldása;
+4. diagramok leolvasása;
+5. ellenőrzés: minden rekord számának megkeresése a PDF szövegében;
+6. célformátum: a rekordokból ontológiafüggetlen tények és feltételek;
+7. lábjegyzetek: az ábrákhoz tartozó lábjegyzetek bekötése;
+8. forrásleírások: minden forrásról (táblázatról, ábráról, szövegrészről) rövid leírás;
+9. szókészlet-illesztés: a tulajdonságokhoz és feltételekhez szabványos fogalmak rendelése;
+10. RDF: a gráf előállítása.
+
+A lépések felváltva programok és nyelvi modellek; minden nyelvimodell-lépés kimenete csak akkor
+mehet tovább, ha átmegy egy programmal ellenőrzött formai és tartalmi feltételrendszeren. Az
+általunk feldolgozott négy adatlapon minden nyelvimodell-kimenet elsőre átment ezen az
+ellenőrzésen; a POSC Caesar régi lekérdezési végpontja nem volt elérhető, ezért csak az új
+végponttal és a CFIHOS-szal illesztettünk.
 
 A célformátumban egy rekord egy tény, nem egy nyomtatott cella; a feltételek elsőrendű elemek,
 a nyomtatott forma megmarad, és minden visszakövethető a PDF-oldalig. Az RDF-modell a plantdocs
@@ -83,15 +90,15 @@ alkatrészére mutatnak, a feltételeket esetcsúcs, a lábjegyzeteket külön a
 (táblázat, ábra, szakasz) forrásszakasz-csúcs hordozza oldalszámmal. Ez a szerkezet őrzi meg,
 hogy egy érték milyen feltétel mellett és melyik oldalon érvényes. A hét eszközgráf együtt
 27 615 csúcsból és 103 366 kapcsolatból áll; a közös szókészlet-csúcsok (egységek, osztályok,
-szabványos attribútumok) száma 221 (EXP-005).
+szabványos attribútumok) száma 221.
 
-![Az összevont gráf csúcsai rétegenként és adatlaponként (EXP-005).](../../figures/graph_layers.png)
+![Az összevont gráf csúcsai rétegenként és adatlaponként.](../../figures/graph_layers.png)
 
 ## Az összekötés
 
 A két réteget egy kapcsolat köti össze: `(:PlantItem {tag})-[:DESCRIBED_BY]->(eszköz)`. A
 kapcsolatot a program által előállított tag → adatlap tábla alapján töltjük be; a 26 tagelt
-elemből 24-nek van adatlapja, ennyi `DESCRIBED_BY` él jön létre (EXP-002, EXP-005). Több tag
+elemből 24-nek van adatlapja, ennyi `DESCRIBED_BY` él jön létre. Több tag
 mutathat ugyanarra az eszközgráfra: a nyolc szivattyú ugyanazt a Gorman-Rupp adatlapot kapja,
 mert ugyanaz a típus. A névütközést az URI-k dokumentumonkénti előtagja zárja ki; emellett
 minden adatlapcsúcs `document_id` tulajdonságot kap, amellyel a lekérdezés egy dokumentumra
@@ -104,7 +111,7 @@ az oldalszámával. Az alábbi minta az összevont gráf egy részletét mutatja
 szivattyút, a rajzi szomszédját, az adatlapja gyökércsúcsát és egy adatpontot a környezetével.
 
 ```
-// rajzi réteg (Benedek, plant_lines profil)
+// rajzi réteg (Benedek, vonalnézet)
 (p:PlantItem:CentrifugalPump {tag: 'P-1-3'})-[:line_to]->(v:PlantItem:Valve)
 (p)-[:is_drawn_on]->(:Sheet)
 
@@ -133,12 +140,12 @@ valódi üzemben ez az eszközlista vagy az átadási adatbázis dolga volna.
 
 ## Betöltés
 
-A betöltés egy paranccsal újrafuttatható (`python -m plantqa.graph.load`). Sorrendje: az
+A betöltés egy paranccsal újrafuttatható. Sorrendje: az
 adatbázis törlése és a neosemantics beállítása, az eszközgráfok betöltése és névtérbe sorolása,
 az üzemi réteg betöltése Benedek betöltőjével (amely csak a saját korpuszát törli), a
 `DESCRIBED_BY` élek, végül a plantdocs A2 vektoros kereséséhez szükséges beágyazások. A teljes
 betöltés 243,2 s; ennek nagy része (222,4 s) a 14 489 beágyazás előállítása, tárolása és indexelése, az üzemi
-réteg 3,6 s alatt töltődik be (EXP-005). A helyi Neo4j Community kiadás csak egy felhasználói
+réteg 3,6 s alatt töltődik be. A helyi Neo4j Community kiadás csak egy felhasználói
 adatbázist enged, ezért a betöltő minden futáskor az egész adatbázist újraépíti.
 
 Két illesztési pontra külön figyelni kellett. Benedek tárellenőrzése összeveti az adatbázis

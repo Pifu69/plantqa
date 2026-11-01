@@ -2,7 +2,8 @@
 
 Bemenet: `figures/plan.json` (mely EXP-ek a dev iterációk és melyik a végső teszt), a mérések
 `summary.csv`/`routes.csv` fájljai és a betöltési jelentés. Kimenet: `figures/<név>.png` és
-`.pdf`, mellette az ábra forrásadata `figures/<név>.csv`. Minden felirat megnevezi az EXP-et.
+`.pdf`, mellette az ábra forrásadata `figures/<név>.csv`. A mérés azonosítója a forrásadatban
+(`.csv`) szerepel, a feliratban nem.
 Színek: a dataviz-skill alap kategorikus palettájának első három helye (módszerenként; mindhárom
 pár validált), a modell sraffozással is meg van különböztetve, az értékek közvetlenül címkézve.
 """
@@ -124,7 +125,7 @@ def dev_progress(plan: dict[str, Any]) -> None:
     ax.set_xlim(0.7, len(plan["dev"]) + 1.2)
     ax.set_ylim(0, 1.05)
     style(ax, "pontosság a dev halmazon (20 kérdés)")
-    ax.set_title("Dev iterációk — " + ", ".join(d["exp"] for d in plan["dev"]), fontsize=10)
+    ax.set_title("Fejlesztési iterációk a kis üzemen", fontsize=10)
     save(fig, "dev_progress")
 
 
@@ -156,7 +157,7 @@ def test_by_family(exp: str, split: str, name: str, title: str) -> None:
     ax.legend(handles, labels, fontsize=7, ncol=3, frameon=False, loc="upper center",
               bbox_to_anchor=(0.5, -0.12))  # fmt: skip
     style(ax, "pontosság (helyes / összes)")
-    ax.set_title(f"{title} — {exp}", fontsize=10)
+    ax.set_title(title, fontsize=10)
     save(fig, name)
 
 
@@ -217,7 +218,7 @@ def routes_figure(exp: str, name: str, title: str) -> None:
     ax.legend(handles, routes, fontsize=7, frameon=False, loc="center left",
               bbox_to_anchor=(1, 0.5))  # fmt: skip
     style(ax, "kérdések száma")
-    ax.set_title(f"{title} — {exp}", fontsize=10)
+    ax.set_title(title, fontsize=10)
     save(fig, name)
 
 
@@ -239,7 +240,7 @@ def graph_layers(plan: dict[str, Any]) -> None:
     ax.invert_yaxis()
     style(ax, "")
     ax.set_xlabel("csúcsok száma", color=MUTED)
-    ax.set_title(f"Az összevont gráf rétegei — {plan['load']}", fontsize=10)
+    ax.set_title("Az összevont gráf rétegei", fontsize=10)
     save(fig, "graph_layers")
 
 

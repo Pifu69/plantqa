@@ -20,14 +20,14 @@ csak akkor működik, ha a gráf megőrzi a kontextust.
 
 A munka két részből épül fel, mindkettő az egyik szerző egyéni munkája.
 
-- **A rajzoldali rész** (Kiszely Benedek rendszere, a továbbiakban **plantgraph**) az egész
+- **A rajzoldali rész** (Kiszely Benedek László rendszere, a továbbiakban **plantgraph**) az egész
   üzemet leíró tudásgráfot épít a rajzlapokból: a berendezések és műszerek csúcsok, a csövek és
   jelvezetékek élek, és a lapok határán megszakadó vezetékek újra összekapcsolódnak. Erre a
   gráfra építve egy kétlépcsős rendszer, a **kaszkád** (lépcsőzetes módszer) válaszol a
   kérdésekre: először egyetlen adatbázis-lekérdezéssel próbálkozik, és ha ez nem elég, egy
   gráfbejáró eszközöket hívó LLM-ágens veszi át a kérdést. A rész fő kérdése, hogy ez a
   megközelítés több száz, akár ezer lapos üzemen is működik-e.
-- **Az adatlapoldali rész** (Szabó Zsombor rendszere, a továbbiakban **plantdocs**) egy-egy
+- **Az adatlapoldali rész** (Szabó Zsombor István rendszere, a továbbiakban **plantdocs**) egy-egy
   eszköz PDF-adatlapjából épít tudásgráfot, amelyben minden érték mellett megmarad a
   mértékegysége, az érvényességi feltétele (például „csak 100 °F alatt”) és a forrásoldala, vagyis
   az adatlap PDF-jének az az oldala, ahol az érték nyomtatva szerepel, hogy a válasz az eredeti

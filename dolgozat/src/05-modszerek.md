@@ -60,11 +60,11 @@ az első helyett; amíg ezek lejárnak, a kaszkád az ágenshez fordul, ha viszo
 rossz választ adnának, amelyet a kaszkád elfogadna. Benedek élő kaszkádja a címke szerinti
 útválasztást elutasítja, ezért két kaszkádot futtatunk (a teljeset és egy csak-ágenseset), és a
 kérdéscsalád címkéje alapján választunk köztük. A Cypher-szint és a válaszlépés alacsony, az
-ágens magas gondolkodási szinttel fut (a GLM-hez Benedek alacsony pinjének magas szintű másolatát
-használjuk, mert magas GLM-pinje nincs).
+ágens magas gondolkodási szinttel fut (a GLM-modellhez Benedek csak alacsony szintű beállítást
+rögzített, ezért ennek magas szintű másolatát használjuk).
 
 A kaszkád elfogadási szabályait, paramétereit és promptjait változatlanul vettük át; kivétel a kérdésenkénti időkorlát, amelyet a hangoláskor növeltünk (lásd alább). A tiereket a
-plantqa mérő kliensével raktuk össze Benedek stratégiaépítőjével, mert az ő élő kaszkádja a
+saját mérőprogramunkkal raktuk össze Benedek stratégiaépítőjével, mert az ő élő kaszkádja a
 tokenhasználatot nem méri; a stratégiák és a promptok ugyanazok.
 
 ### Az ágens primitívjei
@@ -115,7 +115,7 @@ RETURN d.plm__PCA_100029521 AS label, d.plm__PCA_100029522 AS value, d.schema__p
 ```
 
 A sémakiegészítés felépítését a Függelék E, elejét a Függelék C mutatja; a plantdocs lekérdezési
-szabályai a második fejlesztési iterációban kerültek be (EXP-011).
+szabályai a második fejlesztési iterációban kerültek be.
 
 Az ágens egy új primitívet kap: a `datasheet_fact(tag, question)` a tag-ből feloldja az eszközt,
 és a plantdocs A2-logikájával kérdezi meg az adatlapját. A primitív Benedek eszközregiszterébe
@@ -148,12 +148,12 @@ adatlap-hívás vagy végső válasz a „nincs benne” jelzővel); a program v
 eredményt egy új üzenetben adja vissza. A router alacsony gondolkodási szinttel fut; a
 rendszerüzenetet a Függelék B, a hibakezelést a Függelék E írja le.
 
-**A válaszszabály.** A második fejlesztési iterációtól (EXP-011) az M2 és az M3 egy közös
+**A válaszszabály.** A második fejlesztési iterációtól az M2 és az M3 egy közös
 válaszszabályt kap: ha a dokumentumok a kérdésnek csak egy részére adnak választ, a módszer ezt a
 részt adja meg, és megnevezi a hiányzó részt; a „nincs benne” jelzőt csak akkor állítja, ha
 semmi releváns nincs; tanácsot, eljárást, okot vagy értéket, amelyet a dokumentumok nem
 mondanak ki, nem tehet hozzá. A szabály után a dev halmazon az M2 és az M3 hallucinációi
-eltűntek (EXP-011, 6. fejezet).
+eltűntek (6. fejezet).
 
 **Tervezési döntések.** Az M2-ben mindkét rendszer abban a beállításban fut, amelyre a szerzője
 hangolta, és a két rendszer egymásról nem tud; az összekötést a router végzi a kérdés szövegének
@@ -178,8 +178,7 @@ tag-jével és az osztályával, az élek a csövek és a jelek, a lapokat a lap
 réteget nem látja. Az adatlap-darabok a PDF-ek szövegrétegéből készülnek oldalanként,
 bekezdéshatáron vágva, korlátozott hosszúságú darabokra; minden darab a dokumentum azonosítóját és
 az oldalszámot hordozza. A prompt tartalmazza a tag → adatlap táblát is, hogy a modell tudja,
-melyik darab melyik elemhez tartozik. Az Azure-kimenet szövegét azért nem használtuk, mert a
-plantqa-ban nem minden dokumentumhoz volt meg.
+melyik darab melyik elemhez tartozik.
 
 A baseline-t szándékosan erősnek választottuk: a négylapos prototípus-üzem rajza kicsi, így a
 teljes rajz elfér a promptban, és a ChatP&ID mérése szerint egyetlen lapon éppen ez a módszer nyert
@@ -191,7 +190,7 @@ jelentkezhet.
 ## Hangolás a fejlesztési üzemeken
 
 Az első prototípust a négylapos üzemen fejlesztettük (Függelék G). A 30 és 50 lapos fejlesztési
-üzemen három változtatásra volt szükség (EXP-095); az M3-at nem hangoltuk.
+üzemen három változtatásra volt szükség; az M3-at nem hangoltuk.
 
 - **M2: nagyobb lépéskeret és kötelező végső válasz.** A router eszközkerete 6-ról 16 lépésre
   nőtt, és ha a keret elfogy, a router egy utolsó hívásban köteles végső választ adni. A 30 lapos

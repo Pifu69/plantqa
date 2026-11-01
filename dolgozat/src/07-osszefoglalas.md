@@ -44,8 +44,6 @@ módszeré a téves „nincs benne” jelzés.
   bírálat egyszer eltérően ítélte meg.
 - **Kis minta.** Üzemenként és családonként 15 kérdés, egyetlen futás; a konfidenciaintervallumok
   szélesek, és a pontosság üzemenként néhány kérdéssel ingadozik.
-- **Hiányzó szókészlet-ellenőrzés.** A POSC Caesar régi SPARQL-végpontja a mérés idején nem volt
-  elérhető, ezért az új adatlapgráfokban csak az rds- és CFIHOS-illesztések szerepelnek.
 - **A rajzgenerátor egyszerűbb változata.** A generátor későbbi változata valósághűbb
   folyamatmintákat épít (például desztillációs oszlopot, reaktort, tolózárat, biztonsági szelepet,
   mérőórákat és leürítőket), és a rajzoldali rendszert erre hangolták. Mi az első, egyszerűbb

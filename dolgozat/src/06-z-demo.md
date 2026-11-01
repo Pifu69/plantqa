@@ -45,46 +45,9 @@ kiszolgált válaszé; a valódi késleltetést a 6. fejezet adja.
 
 ## Két kérdés végigkövetve
 
-### Összetett kérdés a routerrel
-
-Az első kérdés az összetett (c) családból való: „Consider the transmitter that measures E-2-1.
-What is the lowest operating temperature you get with the BR6 option?” A kérdés a hőcserélőt
-nevezi meg, a választ viszont a hőcserélőt mérő távadó adatlapja tartalmazza, és ott is csak egy
-rendelési opcióhoz kötve. A kérdés tehát egy topológiai lépést (melyik műszer méri az E-2-1-et?)
-és egy feltételes adatlapi tényt (a legalacsonyabb hőmérséklet a BR6 opcióval) kapcsol össze.
-
-![Összetett kérdés az M2-vel: a router előbb a rajzeszközt, majd a távadó adatlapját kérdezi; a bal oldalon a válasz egyik forrásoldala a Rosemount 3051 adatlapjából.](../../figures/demo/01-c-M2.png)
-
-Az M2 útvonala: a router háromszor kérdezte a rajzeszközt, ebből kétszer a kaszkád a
-Cypher-szintről az ágensig jutott, egyszer a Cypher-szinten zárult; ezután az FT-2-2 adatlapját
-kérdezte. A válasz így kezdődik: „The transmitter associated with E-2-1 is FT-2-2 (Rosemount
-3051).” Ezután megadja a BR6 opcióval elérhető legalacsonyabb környezeti hőmérsékletet Fahrenheit-
-és Celsius-fokban, és hozzáteszi, hogy a BR6 csak bizonyos nyomástartományokkal, kimenettel és
-töltőfolyadékkal rendelhető. Ez a plantdocs válaszírójának szabálya: egy érték a feltételei nélkül
-hibás lehet. A bal oldalon az adatlap azon oldala látszik, amely a hideg
-környezetre vonatkozó opció feltételeit írja le. A router tehát a tag-et a rajzból szerzi meg, és
-az adatlapi kérdést már a tag-re teszi fel, ahogy a rendszerüzenete előírja; a rajzeszköz
-ismételt hívása viszont a késleltetést növeli.
-
-### Megválaszolhatatlan kérdés és a részletes „nincs benne”
-
-A második kérdés a (d) családból való, amelynek kérdéseire a dokumentumok nem adnak választ:
-„Regarding GV-1-1 on the P&ID: Is it approved for drinking water, or for use in an explosive (Ex)
-area?” A kérdés tag-et nevez meg, ezért az M2 routere a rajzeszköz nélkül, közvetlenül a GV-1-1
-adatlapját kérdezte (csak az adatlap-eszközt hívta, a GV-1-1 tag-re).
-
-![Megválaszolhatatlan kérdés az M2-vel: a router közvetlenül az adatlapot kérdezi, a válasz „nincs benne”, de megnevezi, mit tartalmaz az adatlap; a bal oldalon a GF 165 adatlap egyik forrásoldala.](../../figures/demo/04-d-M2.png)
-
-A válasz „nincs benne” jelzésű, de nem áll meg ennyinél: „Not in the documents. The datasheet for
-GV-1-1 lists only a CE approval. It does not state any drinking-water (potable water) approval and
-does not state any Ex/ATEX approval…”. A felhasználó így azt is megtudja, mit tartalmaz
-az adatlap a tanúsításokról, és ellenőrizheti a forrásoldalon. Ez a megjelenítés egy hibajavítás
-eredménye, amelyet a demó egy korábbi próbája derített ki: a válasz megjelenítése és a bírálónak
-exportált jelölt szöveg a „nincs benne” jelzésnél eredetileg csak a jelzést mutatta, és elnyelte a
-mellette írt magyarázatot. A hibát kijavítottuk, az érintett dev-tételeket a javított szöveggel
-újrabíráltattuk, és a végső teszt exportja már a javított kóddal készült. A
-demó tehát nemcsak bemutató, hanem ellenőrző eszköz is volt: olyan hibát talált meg, amely a
-pontozást is érintette.
+A Függelék F két kérdést lépésenként végigkövet a demóban: egy összetett kérdést, amelynél a router
+előbb a rajzeszközt, majd a távadó adatlapját kérdezi, és egy megválaszolhatatlan kérdést, amelynél
+a „nincs benne” válasz mellett a demó azt is megmutatja, mit tartalmaz az adatlap.
 
 ## Tanulságok
 

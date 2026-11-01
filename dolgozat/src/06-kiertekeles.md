@@ -23,12 +23,9 @@ lapos üzemen 10 277, 35 603 és 6641; az 1000 lapos üzem betöltése 80,7 s-ig
 
 ## Az első prototípus a kis üzemen
 
-A kis üzem 20 kérdéses fejlesztési halmazán négy iterációt mértünk. Ezek
-hozták az M1 Cypher-szintjének lekérdezési szabályait, az M2 és az M3 válaszszabályát (részválasznál
-a meglévő és a hiányzó rész megnevezése, a dokumentumon túli tanács tilalma) és a Rosemount 3051
-adatlapgráfját; utána a módszereket befagyasztottuk. A kis üzem befagyasztott, 40 kérdéses
-teszthalmazán a legjobb az M2 volt GLM-mel (31 helyes), GLM-mel a gráf nélküli M3 30, az M1 25
-helyes választ adott. A kis üzem méréseit a Függelék G írja le részletesen.
+A kis üzem 20 kérdéses fejlesztési halmazán négy iterációban alakítottuk ki a módszerek első
+változatát; a 40 kérdéses teszthalmazon a legjobb az M2 volt GLM-mel (31 helyes), a gráf nélküli
+M3 30, az M1 25 helyes választ adott. A részleteket a Függelék G írja le.
 
 ## Hangolás a fejlesztési üzemeken
 
@@ -124,8 +121,6 @@ Táblázat: Kérdésenkénti költség a két tesztüzemen (USD)
 | M2 | GPT-6 Luna | 0,00248 | 0,00385 |
 | M3 | GPT-6 Luna | 0,02501 | – |
 
-![Kérdésenkénti költség a 100 és az 1000 lapos tesztüzemen.](../../figures/scale_cost.png)
-
 A gráfos módszereknél a modellhez csak a lekérdezés eredménye jut el, ezért a kérdésenkénti
 költségük sokkal lassabban nő, mint a rajz: a 100 és az 1000 lapos üzem között az M2 GLM-mel
 0,00451-ről 0,00866 USD-re, Lunával 0,00248-ról 0,00385 USD-re, az M1 GLM-mel 0,00416-ról 0,00592
@@ -136,14 +131,6 @@ USD), kevesebb helyes válasszal; a fejlesztési üzemek közül a 30 lapos üze
 0,00731 USD volt, az 1000 lapos rajz pedig már nem fér a modellek kontextusába. A
 késleltetést a tesztüzemeken nem hasonlítjuk össze, mert a válaszok egy része (az M3 válaszai és az
 M2 rajzi hívásainak egy része) a korábbi futások eltárolt válaszaiból jött.
-
-## Útvonalak
-
-Az M1 GLM-mel a 100 lapos tesztüzemen a 60 kérdésből 31-et a Cypher-szinten zárt le, 9-hez az
-ágens is kellett adatlap-hívás nélkül, 20-hoz az ágens és legalább egy adatlap-lekérdezés;
-Lunával 34, 5 és 21. Az 1000 lapos üzemen ugyanez GLM-mel 31, 11 és 18, Lunával 39, 6 és 15. Az M2 nagyjából harmadolta a kérdéseket a csak rajzi, a
-csak adatlapi és a mindkét eszközt hívó útvonal között (a 100 lapos üzemen GLM-mel 19, 17 és 24,
-Lunával 21, 18 és 21; az 1000 lapos üzemen 25, 15 és 20, illetve 21, 19 és 20), ami a kérdéscsaládok megoszlásával egyezik.
 
 ## Több adatlapos kérdések
 
@@ -190,9 +177,7 @@ elcsúszhat (a kis üzemen például szabályozókör helyett a szelepét adta m
 több adatlapos kérdéseknél többször üres választ adott, mielőtt minden elem adatlapját
 lekérdezte volna (lépéskorlát vagy feldolgozási hiba). A hangolás után ezek ritkábbak lettek (a 100 lapos tesztüzemen modellenként 2).
 
-**A referencia és a bírálat korlátja.** A (b)–(d) család referenciaválaszait egy modell írta a
-PDF-ből, és ember nem ellenőrizte őket; a bíráló ugyanazt a referenciát látta minden módszernél,
-ezért az összevetés igazságos, de az abszolút számok a referencia hibáival együtt értendők. Az (e)
-család referenciája óvatos: ha valamelyik elemnek van olyan változata, amelyhez az adatlap nem ad
-számot, a „legkisebb” elem nem dönthető el, és a referencia ezt mondja; a bíráló ilyenkor a
-konkrét elemet megnevező választ is rossznak ítéli.
+**A referencia korlátja.** Az (e) család referenciája óvatos: ha valamelyik elemnek van olyan
+változata, amelyhez az adatlap nem ad számot, a „legkisebb” elem nem dönthető el, és a bíráló
+ilyenkor a konkrét elemet megnevező választ is rossznak ítéli. A referenciák általános korlátait a
+8. fejezet foglalja össze.

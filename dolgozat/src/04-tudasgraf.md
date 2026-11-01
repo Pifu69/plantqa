@@ -69,8 +69,7 @@ RDF-gráfig:
 A lépések felváltva programok és nyelvi modellek; minden nyelvimodell-lépés kimenete csak akkor
 mehet tovább, ha átmegy egy programmal ellenőrzött formai és tartalmi feltételrendszeren. Az
 általunk feldolgozott négy adatlapon minden nyelvimodell-kimenet elsőre átment ezen az
-ellenőrzésen; a POSC Caesar régi lekérdezési végpontja nem volt elérhető, ezért csak az új
-végponttal és a CFIHOS-szal illesztettünk.
+ellenőrzésen.
 
 A célformátumban egy rekord egy tény, nem egy nyomtatott cella; a feltételek elsőrendű elemek,
 a nyomtatott forma megmarad, és minden visszakövethető a PDF-oldalig. Az RDF-modell a plantdocs

@@ -8,6 +8,4 @@ The datasheet side turns the vendor datasheet of a single device (a pump, a valv
 
 Together, the two lines of work examine one question: how structure and context can be preserved when industrial documentation is turned into a graph, and how retrieval strategies should be evaluated when the answer depends on that context. Both use purpose-built, controlled ground truth instead of single-page examples. Linking the per-device datasheet graphs to the equipment on the drawings is a natural extension that would give a single queryable model of the plant.
 
-In this thesis we take that step: we link the drawing graph and the datasheet graphs of seven devices into one knowledge graph by tag, and compare three question-answering methods on a 100-sheet and a 1000-sheet synthetic plant not used during tuning. A router that calls the two systems separately did best with GLM-5.3 Flash (51 and 48 of 60 correct), and the method over the merged graph was not significantly behind it. The graph-free baseline gave fewer correct answers, and the 1000-sheet drawing no longer fits into the models' context, while the per-question cost of the graph-based methods at most doubled on the ten times larger drawing.
-
 Keywords: knowledge graph, GraphRAG, large language models, P&ID, technical datasheets, question answering, industrial documentation.

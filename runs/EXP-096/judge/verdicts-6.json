@@ -1,0 +1,11 @@
+[
+ {"item": "525cb967a3", "verdict": "wrong", "cites_page": false, "reason": "Gives 279/292 mm instead of the gold 368 mm (RF) / 384 mm (RTJ)."},
+ {"item": "ff87c85a86", "verdict": "correct", "cites_page": false, "reason": "Says no, only Plugged Impulse Line diagnostic with low-power output."},
+ {"item": "ed955e56cd", "verdict": "correct", "cites_page": false, "reason": "Correctly says the mounting position relative to taps is not stated."},
+ {"item": "6b0e11e1f6", "verdict": "correct", "cites_page": false, "reason": "Correctly says the cause and check procedure are not given."},
+ {"item": "261156a82d", "verdict": "correct", "cites_page": false, "reason": "Correctly says replacement fit cannot be confirmed from the document."},
+ {"item": "c8a5211267", "verdict": "correct", "cites_page": false, "reason": "Correctly says no inspection or seal-change interval is specified."},
+ {"item": "047fd1522a", "verdict": "correct", "cites_page": false, "reason": "Says only CE is listed and neither drinking-water nor Ex approval is established."},
+ {"item": "bcc88bc3d5", "verdict": "wrong", "cites_page": false, "reason": "Denies it is the valve body and gives no globe-style, cage-guided balanced-plug description."},
+ {"item": "d72e5a0ed7", "verdict": "correct", "cites_page": false, "reason": "Correctly says no pre-bonnet-removal safety procedure is given."}
+]

@@ -1,0 +1,170 @@
+[
+ {
+  "item": "d9fbb60981",
+  "verdict": "partial",
+  "cites_page": true,
+  "reason": "Concludes not decidable as gold does, but gives only the check valve value and misses all others."
+ },
+ {
+  "item": "363f8d89bc",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Says BV-26-1 value not stated and lowest undeterminable; gold says BV-26-1 is lowest."
+ },
+ {
+  "item": "cb289b67a1",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Concludes not established as gold does, but gives only the check valve value."
+ },
+ {
+  "item": "e285959382",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Concludes not established as gold does, but gives only the check valve values."
+ },
+ {
+  "item": "cae4c461c6",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Concludes GV-6-1 (6 bar) is lowest, contradicting gold (not decidable)."
+ },
+ {
+  "item": "d40c313b15",
+  "verdict": "partial",
+  "cites_page": true,
+  "reason": "GV-47-2 lowest is right, but its value given as 80 C (gold 50 C) and the other values are missing."
+ },
+ {
+  "item": "9d9769aa0a",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Says neither temperature is stated (GV-5-1 misattributed to Fisher); gold says GV-5-1 lowest."
+ },
+ {
+  "item": "6505f02a2b",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "No answer (parse failure)."
+ },
+ {
+  "item": "f005d554b8",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Concludes CHV-11-2 lowest (200 psig), contradicting gold (not decidable)."
+ },
+ {
+  "item": "79650254d4",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Concludes E-38-1 (150 psig) lowest, contradicting gold (not decidable)."
+ },
+ {
+  "item": "521a365895",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Concludes E-38-1 (10.3 barg) lowest, contradicting gold (not decidable)."
+ },
+ {
+  "item": "c0c74b2147",
+  "verdict": "wrong",
+  "cites_page": true,
+  "reason": "Concludes CHV-26-1 lowest; gold says BV-26-1."
+ },
+ {
+  "item": "461e7e9147",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Gives neither value, claiming both are not stated although gold has them."
+ },
+ {
+  "item": "6ffd0e63e3",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Says the comparison cannot be made; gold says P-50-1 (71 C) is lowest."
+ },
+ {
+  "item": "0b82316afa",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Says neither pressure is stated; gold says GV-5-1 (6 bar) is lowest."
+ },
+ {
+  "item": "e706615005",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "No answer (step limit)."
+ },
+ {
+  "item": "e613f2d986",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Says lowest cannot be determined (GV-47-2 misattributed to Fisher); gold says GV-47-2."
+ },
+ {
+  "item": "d59421392c",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Does not conclude a lowest item and gives GV-24-4 as 80 C (gold 50 C); FV-17-1 value missing."
+ },
+ {
+  "item": "a3d3cb835e",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Does not conclude; uses wrong datasheet for GV-24-4; gold says GV-24-4 is lowest."
+ },
+ {
+  "item": "7955ff9740",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "No answer (step limit)."
+ },
+ {
+  "item": "b5abb31d9d",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Values mostly right but concludes GV-47-2 (6 bar) is lowest, contradicting gold (not decidable)."
+ },
+ {
+  "item": "5e73b186b8",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Says lowest not identified as gold does, but only the check valve value is given (plus off-path Rosemount values)."
+ },
+ {
+  "item": "58ddff7a67",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "GV-47-2 lowest at 50 C, with CHV-47-1 and E-47-2 values."
+ },
+ {
+  "item": "c9405dd685",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Concludes not determinable as gold does, but gives only the check valve value."
+ },
+ {
+  "item": "71db372464",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Gives no values, claiming none are stated although gold has them."
+ },
+ {
+  "item": "6a46576016",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Says values not stated; gold says E-3-1 is lowest."
+ },
+ {
+  "item": "e15d3e90ee",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "GV-47-2 lowest at +50 C, with CHV-47-1 and E-47-2 values."
+ },
+ {
+  "item": "bb00360c4e",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "No answer (parse failure)."
+ }
+]

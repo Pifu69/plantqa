@@ -1,0 +1,632 @@
+[
+ {
+  "item": "d537d27ffe",
+  "gold": {
+   "answer": "Not in the document (materials are listed, part numbers are not).",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated"
+   ],
+   "question": "Regarding FV-104-2 on the P&ID: What part numbers do I need for a seat ring and plug seal for our valve size?"
+  },
+  "candidate": "The description does not identify the valve size or its selected trim, so it does not provide the seat-ring and plug-seal part numbers for this valve."
+ },
+ {
+  "item": "337c390b63",
+  "gold": {
+   "answer": "Vibration effect: less than +/-0.1% of URL when tested per IEC 60770-1:1999 field or pipeline with high vibration level (10-60 Hz 0.21 mm displacement peak amplitude / 60-2000 Hz 3g).",
+   "answerable": "yes",
+   "category": "value",
+   "must": [
+    "< +/-0.1% of URL",
+    "IEC 60770-1:1999 high vibration level",
+    "10-60 Hz 0.21 mm peak / 60-2000 Hz 3g"
+   ],
+   "question": "Regarding FT-104-2 on the P&ID: It's mounted near a compressor with heavy vibration. What vibration limits is it rated for?"
+  },
+  "candidate": "FT-104-2's vibration rating is less than ±0.1% of URL, tested at 10–60 Hz with 0.21 mm displacement peak amplitude and 60–2000 Hz with 3 g acceleration."
+ },
+ {
+  "item": "7529dd891c",
+  "gold": {
+   "answer": "Not stated (only the 4 in. suction flange is given).",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated"
+   ],
+   "question": "Regarding P-1-1 on the P&ID: How big should the suction pipe be, and does it need a check valve or air release line?"
+  },
+  "candidate": "Not in the documents. The P&ID shows nothing connected to the suction side of P-1-1 — no upstream items, no check valve, no air release line, and no pipe size for the suction line. P-1-1 also has no vendor datasheet available, so the required suction pipe size and whether a check valve or air release line is needed cannot be determined from the documents."
+ },
+ {
+  "item": "67cf154ad0",
+  "gold": {
+   "answer": "Radial bearing: open cylindrical roller; thrust bearing: open double row ball. They are oil-lubricated (SAE 30 non-detergent oil, constant level oiler), not greased; no interval is given.",
+   "answerable": "partial",
+   "category": "value",
+   "must": [
+    "cylindrical roller + double row ball",
+    "oil (SAE 30), not grease",
+    "interval not given"
+   ],
+   "relation": "downstream",
+   "via_tag": "P-103-2",
+   "question": "Consider the item directly downstream of BV-103-1 in the process flow. What bearings are in it, and how often do they need greasing?"
+  },
+  "candidate": "Not in the documents. The item directly downstream of BV-103-1 is pump P-103-2 (centrifugal pump). However, no vendor datasheet is available for P-103-2, so the documents do not state which bearings it contains or its greasing interval."
+ },
+ {
+  "item": "de819127a6",
+  "gold": {
+   "answer": "Bare pump (no motor): length 25.95 in. (659 mm), height 18.88 in. (480 mm), width 14.20 in. (361 mm); net weight 194 lb (88 kg), shipping 204 lb (93 kg). The pump alone fits on 1 m × 0.6 m; with a motor and coupling it cannot be said from the document.",
+   "answerable": "partial",
+   "category": "conditional",
+   "must": [
+    "659 × 361 × 480 mm (approx.)",
+    "88 kg net",
+    "motor not included"
+   ],
+   "relation": "downstream",
+   "via_tag": "P-3-1",
+   "question": "Consider the item directly downstream of BV-1-3 in the process flow. What are the overall dimensions and weight? Will it fit on a 1 m by 0.6 m base?"
+  },
+  "candidate": "The item is P-3-1. Its overall dimensions are not provided. Its net weight is 194 lb (88 kg) and shipping weight is 204 lb (93 kg), so whether it fits on a 1 m by 0.6 m base cannot be determined."
+ },
+ {
+  "item": "de85d3d96f",
+  "gold": {
+   "answer": "Radial bearing: open cylindrical roller; thrust bearing: open double row ball. They are oil-lubricated (SAE 30 non-detergent oil, constant level oiler), not greased; no interval is given.",
+   "answerable": "partial",
+   "category": "value",
+   "must": [
+    "cylindrical roller + double row ball",
+    "oil (SAE 30), not grease",
+    "interval not given"
+   ],
+   "relation": "downstream",
+   "via_tag": "P-103-2",
+   "question": "Consider the item directly downstream of BV-103-1 in the process flow. What bearings are in it, and how often do they need greasing?"
+  },
+  "candidate": "P-103-2 has an open double-row ball bearing and an open cylindrical roller bearing. The datasheet specifies SAE 30 non-detergent oil for lubrication but does not state how often they need greasing."
+ },
+ {
+  "item": "f1d301a552",
+  "gold": {
+   "answer": "Casing ductile iron; impeller gray iron 40 (wear rings gray iron 25, shaft steel 1045, seal faces silicon carbide). Suitability for pH 5 is not stated.",
+   "answerable": "partial",
+   "category": "value",
+   "must": [
+    "casing ductile iron",
+    "impeller gray iron 40",
+    "pH not stated"
+   ],
+   "relation": "downstream",
+   "via_tag": "P-1-2",
+   "question": "Consider the item directly downstream of BV-1-1 in the process flow. What are the casing and impeller made of? Can it take slightly acidic water around pH 5?"
+  },
+  "candidate": "The casing is ductile iron, and the impeller is gray iron 40. The datasheet does not state whether it can handle water at about pH 5."
+ },
+ {
+  "item": "a3488bf5c3",
+  "gold": {
+   "answer": "No. With the low power output code (M), only the Plugged Impulse Line diagnostic is included.",
+   "answerable": "yes",
+   "category": "footnote",
+   "must": [
+    "no",
+    "only Plugged Impulse Line diagnostic"
+   ],
+   "relation": "measured_by",
+   "via_tag": "FT-106-2",
+   "question": "Consider the transmitter that measures E-106-2. If I order the DA1 diagnostics with the low-power 1-5 V output, do I get both Loop Integrity and Plugged Impulse Line diagnostics?"
+  },
+  "candidate": "No. With DA1 and the low-power 1-5 V output, only the Plugged Impulse Line diagnostic is included; Loop Integrity is not."
+ },
+ {
+  "item": "1e80302eda",
+  "gold": {
+   "answer": "368 mm (14.50 in.) for CL300 RF; 384 mm (15.12 in.) for CL300 RTJ (dimension A).",
+   "answerable": "yes",
+   "category": "multi_condition",
+   "must": [
+    "368 mm (RF)",
+    "RTJ differs (384 mm)"
+   ],
+   "relation": "operated_by",
+   "via_tag": "FV-10-2",
+   "question": "Consider the valve operated by control loop FIC-10-2. What's the face-to-face length for a 4 inch Class 300 flanged body?"
+  },
+  "candidate": "(no answer: TIMED_OUT)"
+ },
+ {
+  "item": "6f16943317",
+  "gold": {
+   "answer": "Not in the document (no safety or maintenance procedure).",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated"
+   ],
+   "relation": "operated_by",
+   "via_tag": "TV-362-1",
+   "question": "Consider the valve operated by control loop TIC-362-1. What do I need to do before taking the bonnet off so I don't get hurt by trapped pressure?"
+  },
+  "candidate": "Not in the documents. The documents do not contain the answer. The datasheet for TV-362-1 (the valve operated by TIC-362-1) includes no safety instructions about relieving trapped pressure or precautions before removing the bonnet; it only notes operating limits such as not exceeding the valve's pressure/temperature rating, and that the ETR body interior can be accessed without removing the bonnet or actuator. Any depressurization or trapped-pressure precautions before bonnet removal are not stated in the available documents."
+ },
+ {
+  "item": "89fc313818",
+  "gold": {
+   "answer": "Not stated (only the 4 in. suction flange is given).",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated"
+   ],
+   "question": "Regarding P-1-1 on the P&ID: How big should the suction pipe be, and does it need a check valve or air release line?"
+  },
+  "candidate": "Per the pump datasheet (Gorman-Rupp 0700286), P-1-1 is a 4\" x 2 1/2\" (102 mm x 64 mm) pump, and this size reflects the overall flange dimensions rather than a separately stated required suction pipe size — so the suction piping should match the 4\" suction flange (with an optional 4.00-8 NPT companion flange shown on the outline drawing). The datasheet states no requirement for a check valve or an air release line on the suction or discharge piping; its optional equipment mentions a strainer and NPT flanges, and a bypass flush piping is listed as standard, but nothing about check valves or air release lines."
+ },
+ {
+  "item": "1e6e1e7833",
+  "gold": {
+   "answer": "Radial bearing: open cylindrical roller; thrust bearing: open double row ball. They are oil-lubricated (SAE 30 non-detergent oil, constant level oiler), not greased; no interval is given.",
+   "answerable": "partial",
+   "category": "value",
+   "must": [
+    "cylindrical roller + double row ball",
+    "oil (SAE 30), not grease",
+    "interval not given"
+   ],
+   "relation": "downstream",
+   "via_tag": "P-103-2",
+   "question": "Consider the item directly downstream of BV-103-1 in the process flow. What bearings are in it, and how often do they need greasing?"
+  },
+  "candidate": "It has an open cylindrical roller bearing and an open double-row ball bearing. The datasheet specifies SAE 30 non-detergent oil lubrication, but does not state a greasing interval."
+ },
+ {
+  "item": "a0ddcf0f03",
+  "gold": {
+   "answer": "Vibration effect: less than +/-0.1% of URL when tested per IEC 60770-1:1999 field or pipeline with high vibration level (10-60 Hz 0.21 mm displacement peak amplitude / 60-2000 Hz 3g).",
+   "answerable": "yes",
+   "category": "value",
+   "must": [
+    "< +/-0.1% of URL",
+    "IEC 60770-1:1999 high vibration level",
+    "10-60 Hz 0.21 mm peak / 60-2000 Hz 3g"
+   ],
+   "question": "Regarding FT-104-2 on the P&ID: It's mounted near a compressor with heavy vibration. What vibration limits is it rated for?"
+  },
+  "candidate": "FT-104-2 (a Rosemount 3051) is tested to withstand high vibration levels per IEC 60770-1:1999 for \"field or pipeline with high vibration level\": 0.21 mm displacement peak amplitude at 10–60 Hz and 3 g acceleration at 60–2000 Hz. The vibration effect on measurement is specified as less than ±0.1% of URL. No vibration limits are given for other test standards or conditions."
+ },
+ {
+  "item": "48623a41bf",
+  "gold": {
+   "answer": "A standard centrifugal pump on a basic pedestal (bare shaft), size 4\" x 2 1/2\". The meaning of the model code is not explained.",
+   "answerable": "partial",
+   "category": "value",
+   "must": [
+    "standard centrifugal pump (pedestal)",
+    "4\" x 2 1/2\"",
+    "model code not explained"
+   ],
+   "relation": "upstream",
+   "via_tag": "P-1-1",
+   "question": "Consider the item directly upstream of BV-1-3 in the process flow. What kind of pump is a VGH2 1/2C31-B, and what does the model code tell me?"
+  },
+  "candidate": "The item directly upstream of BV-1-3 is pump P-1-1, a standard centrifugal pump. VGH2 1/2C31-B is its model code, but the datasheet does not explain what the individual parts of the code mean. The pump size is listed as 4 in × 2½ in."
+ },
+ {
+  "item": "27696639e5",
+  "gold": {
+   "answer": "No motor is specified (basic pedestal pump; curves for 1150-3450 rpm). The 50 Hz 1450 rpm curve exists; over its operating range the power stays at or below the 7.5 BHP (5.6 kW) line, so a 7.5 kW 1450 rpm motor is enough for that speed.",
+   "answerable": "partial",
+   "category": "chart",
+   "must": [
+    "no motor specified",
+    "1450 rpm curve exists",
+    "power ≤ ~5.6 kW at 1450 rpm"
+   ],
+   "relation": "upstream",
+   "via_tag": "P-10-1",
+   "question": "Consider the item directly upstream of BV-10-2 in the process flow. What motor size and speed is it meant to run at? We have a 7.5 kW 1450 rpm motor in stock."
+  },
+  "candidate": "Not in the documents. The item directly upstream of BV-10-2 is P-10-1, a centrifugal pump (Gorman-Rupp datasheet 0700286). Its datasheet does not specify a single required motor size or speed: the required brake horsepower and operating speed depend on the operating point and the applicable performance curve. The curves cover power ratings from 3 BHP [2.2 kW] up to 75 BHP [55.9 kW] and speeds from 1150 to 3450 RPM. Your stocked 7.5 kW / 1450 rpm motor corresponds to values that appear in the curves' ranges (10 BHP [7.5 kW] appears as a power rating and 1450 RPM appears as a speed, e.g. on the 50 Hz water curve VGH2 1/2C-B-5), but the datasheet does not state which specific operating point applies, so it cannot be confirmed from the documents whether that motor is the correct one."
+ },
+ {
+  "item": "e8122331cd",
+  "gold": {
+   "answer": "Housing PVC (PVC-U; cover and inserts PVC, coil housing epoxy). Gaskets/diaphragms EPDM or FKM - choose the FKM version.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "PVC body",
+    "EPDM or FKM seals",
+    "choose FKM"
+   ],
+   "relation": "upstream",
+   "via_tag": "GV-103-1",
+   "question": "Consider the item directly upstream of BV-103-1 in the process flow. What is the body made of, and what are the seals made of? Our fluid attacks EPDM."
+  },
+  "candidate": "The body (housing) is PVC. The seals are not specified as one material: the gasket may be EPDM or FKM. Since your fluid attacks EPDM, the document identifies FKM as the option for oxidizing acids and substances, but does not state which gasket is selected for this valve."
+ },
+ {
+  "item": "b23f183ae9",
+  "gold": {
+   "answer": "Not stated in the document",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "says installation position relative to taps is not stated"
+   ],
+   "relation": "measured_by",
+   "via_tag": "PT-548-1",
+   "question": "Consider the transmitter that measures E-548-1. Same question for gas — where do I mount it relative to the orifice taps so liquid doesn't collect?"
+  },
+  "candidate": "Not in the documents. The transmitter associated with E-548-1 is PT-548-1, but it is a pressure transmitter, not a flow transmitter with an orifice. The documents therefore contain no orifice taps for this measurement, so there is no stated tap location or mounting guidance relative to taps for gas service; that part of the question is not present in the documents."
+ },
+ {
+  "item": "25c55dc25f",
+  "gold": {
+   "answer": "3051C: 1/4-18 NPT on 2 1/8-inch centers; 1/2-14 NPT on 2-, 2 1/8- or 2 1/4-inch centers (1/2-14 NPT flange adapters option DF, not valid with S3, S4, S5, S6; RC1/4 flange with RC1/2 adapter option D9). 3051T: 1/2-14 NPT female, G1/2 A DIN 16288 male (ranges 1-4), autoclave F-250-C (ranges 5-6), non-threaded instrument flange (code 61). Yes, manifolds can be factory assembled: 3051C option S5 assemble to Rosemount 305 Integral Manifold, S6 assemble to Rosemount 304 Manifold or Connection System (assemble-to items specified separately with completed model number); 3051T option S5 assemble to Rosemount 306 Integral Manifold.",
+   "answerable": "yes",
+   "category": "conditional",
+   "must": [
+    "1/4-18 NPT on 2 1/8 in centers",
+    "1/2-14 NPT with flange adapters (DF)",
+    "S5 305 integral manifold / S6 304 manifold (3051C); S5 306 (3051T)"
+   ],
+   "relation": "measured_by",
+   "via_tag": "FT-105-2",
+   "question": "Consider the transmitter that measures E-105-2. What's the process connection on the flange — 1/4 NPT? Can I get it with a manifold already fitted?"
+  },
+  "candidate": "The datasheet identifies the flange process connection as being on the low-pressure side, but does not state whether it is 1/4 NPT. It lists manifold assembly options for the Rosemount 3051C, but does not confirm that a manifold can be supplied fitted to this transmitter."
+ },
+ {
+  "item": "e2eb92ea97",
+  "gold": {
+   "answer": "Not stated in the document",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "Not stated in the document"
+   ],
+   "relation": "fed_by_transmitter",
+   "via_tag": "PT-30-1",
+   "question": "Consider the transmitter that feeds controller PIC-30-1. What RTD element type and accuracy class (e.g. Pt100 class A) is used in the 3051CFA integral RTD option?"
+  },
+  "candidate": "Not in the documents. The transmitter feeding PIC-30-1 is PT-30-1 (a Rosemount 3051). Its datasheet confirms only that the 3051CFA integral temperature option is an \"Integral RTD\" (option code T); it does not state the RTD element type (e.g. Pt100) or an accuracy class (e.g. Class A). It also notes the integral RTD is not available with flanged models greater than Class 600, and that option R is a remote thermowell and RTD and option 0 is no temperature sensor."
+ },
+ {
+  "item": "df2be111ec",
+  "gold": {
+   "answer": "Neither is stated: the only approval listed is CE.",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated",
+    "only CE"
+   ],
+   "question": "Regarding GV-1-1 on the P&ID: Is it approved for drinking water, or for use in an explosive (Ex) area?"
+  },
+  "candidate": "The datasheet lists CE approval but does not state whether GV-1-1 is approved for drinking water or for use in an explosive (Ex) area."
+ },
+ {
+  "item": "87b731fdf4",
+  "gold": {
+   "answer": "Not in the datasheet (only: maintenance by authorized specialists per the installation manual; a wear part set exists).",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated in the document"
+   ],
+   "question": "Regarding GV-1-2 on the P&ID: It's letting fluid through when it should be shut. What usually causes that and how do I fix it?"
+  },
+  "candidate": "GV-1-2 is a globe valve in the discharge line from pump P-1-1, upstream of ball valve PV-1-1. A globe valve passing fluid when it should be shut is usually caused by seat or disc damage — wear, erosion, or debris (e.g., a particle or weld slug) lodged on the sealing face — or a stem/disc connection failure that prevents the disc from seating. Fix it by closing upstream and downstream isolation (note PV-1-1 downstream) and depressurizing/draining the line, then inspect: lap or re-seat the disc and seat ring or replace the trim, replace the gasket if the leak is at the bonnet or flanges, and verify the disc is properly attached to the stem and the valve is fully turned to the closed position before returning to service."
+ },
+ {
+  "item": "2d87af4177",
+  "gold": {
+   "answer": "368 mm (14.50 in.) for CL300 RF; 384 mm (15.12 in.) for CL300 RTJ (dimension A).",
+   "answerable": "yes",
+   "category": "multi_condition",
+   "must": [
+    "368 mm (RF)",
+    "RTJ differs (384 mm)"
+   ],
+   "relation": "operated_by",
+   "via_tag": "FV-10-2",
+   "question": "Consider the valve operated by control loop FIC-10-2. What's the face-to-face length for a 4 inch Class 300 flanged body?"
+  },
+  "candidate": "The face-to-face length is not given for a 4-inch Class 300 flanged body."
+ },
+ {
+  "item": "b1a1470653",
+  "gold": {
+   "answer": "368 mm (14.50 in.) for CL300 RF; 384 mm (15.12 in.) for CL300 RTJ (dimension A).",
+   "answerable": "yes",
+   "category": "multi_condition",
+   "must": [
+    "368 mm (RF)",
+    "RTJ differs (384 mm)"
+   ],
+   "relation": "operated_by",
+   "via_tag": "FV-10-2",
+   "question": "Consider the valve operated by control loop FIC-10-2. What's the face-to-face length for a 4 inch Class 300 flanged body?"
+  },
+  "candidate": "Not in the documents. The valve operated by control loop FIC-10-2 is FV-10-2. Its datasheet does not state the face-to-face length for a 4 inch Class 300 flanged body; the captured dimension table (Table 25, page 28) only lists values for valve sizes 1 and 8 (e.g., 7.75 in. / 197 mm at size 1, 568 mm at size 8), so the NPS 4 CL300 value is not stated in the documents."
+ },
+ {
+  "item": "dce90a82ee",
+  "gold": {
+   "answer": "Not in the document (no safety or maintenance procedure).",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated"
+   ],
+   "relation": "operated_by",
+   "via_tag": "TV-362-1",
+   "question": "Consider the valve operated by control loop TIC-362-1. What do I need to do before taking the bonnet off so I don't get hurt by trapped pressure?"
+  },
+  "candidate": "The description does not specify what steps to take before removing the bonnet to avoid trapped pressure."
+ },
+ {
+  "item": "84c5219c8e",
+  "gold": {
+   "answer": "Cv 59.7 at maximum plug travel for the NPS 2 ET with full-sized trim, equal percentage cage, normal flow direction (EAT NPS 2: 48.1 with liner, 47.2 without).",
+   "answerable": "yes",
+   "category": "conditional",
+   "must": [
+    "59.7",
+    "full-sized trim, equal percentage cage, normal flow"
+   ],
+   "question": "Regarding FV-107-3 on the P&ID: What's the Cv at full open for a 2 inch valve?"
+  },
+  "candidate": "The datasheet for FV-107-3 (Fisher ET/D100022x012) does not give a single Cv labelled \"at full open\" for a 2 inch valve, but Table 17 (p. 23) lists maximum flow coefficients (Cv) at maximum valve plug travel (i.e., fully open, full-sized trim, equal percentage cage, normal flow direction) for a 2 inch valve depending on type/trim: EAT with liner 48.1, EAT without liner 47.2, ED 59.7, ETR 59.7. The standard ET variant is not listed for 2 inch in these facts."
+ },
+ {
+  "item": "c82cc46f9c",
+  "gold": {
+   "answer": "Casing ductile iron; impeller gray iron 40 (wear rings gray iron 25, shaft steel 1045, seal faces silicon carbide). Suitability for pH 5 is not stated.",
+   "answerable": "partial",
+   "category": "value",
+   "must": [
+    "casing ductile iron",
+    "impeller gray iron 40",
+    "pH not stated"
+   ],
+   "relation": "downstream",
+   "via_tag": "P-1-2",
+   "question": "Consider the item directly downstream of BV-1-1 in the process flow. What are the casing and impeller made of? Can it take slightly acidic water around pH 5?"
+  },
+  "candidate": "The item directly downstream is P-1-2. Its casing is ductile iron and its impeller is Gray Iron 40. The datasheet does not say whether it can handle water around pH 5, so I can’t confirm its suitability."
+ },
+ {
+  "item": "402e4b0bae",
+  "gold": {
+   "answer": "Cv 59.7 at maximum plug travel for the NPS 2 ET with full-sized trim, equal percentage cage, normal flow direction (EAT NPS 2: 48.1 with liner, 47.2 without).",
+   "answerable": "yes",
+   "category": "conditional",
+   "must": [
+    "59.7",
+    "full-sized trim, equal percentage cage, normal flow"
+   ],
+   "question": "Regarding FV-107-3 on the P&ID: What's the Cv at full open for a 2 inch valve?"
+  },
+  "candidate": "For a 2-inch valve at maximum plug travel (full open), the Cv is 59.7 for ED or ETR, 48.1 for EAT with a liner, and 47.2 for EAT without a liner. These values are for full-sized trim with an equal-percentage cage and normal flow direction."
+ },
+ {
+  "item": "cbed387ddb",
+  "gold": {
+   "answer": "No. With the low power output code (M), only the Plugged Impulse Line diagnostic is included.",
+   "answerable": "yes",
+   "category": "footnote",
+   "must": [
+    "no",
+    "only Plugged Impulse Line diagnostic"
+   ],
+   "relation": "measured_by",
+   "via_tag": "FT-106-2",
+   "question": "Consider the transmitter that measures E-106-2. If I order the DA1 diagnostics with the low-power 1-5 V output, do I get both Loop Integrity and Plugged Impulse Line diagnostics?"
+  },
+  "candidate": "No — with the low-power 1-5 V output (code M), the DA1 option includes only the Plugged Impulse Line Diagnostic; the Loop Integrity Diagnostic is not included. The FT-106-2 datasheet (Rosemount 3051, pp. 10/22) states that with the low-power output code, \"only the Plugged Impulse Line Diagnostic is included\" — Loop Integrity is only available with the 4-20 mA HART output (code A)."
+ },
+ {
+  "item": "ed7f9e3af9",
+  "gold": {
+   "answer": "Cast iron, WCC or LCC carbon steel, WC9 chrome moly steel, CF8M (cast 316 stainless) or CF3M (cast 316L stainless), others on request. Yes, stainless (CF8M / CF3M) is available.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "CF8M / CF3M stainless available",
+    "cast iron, WCC, LCC, WC9"
+   ],
+   "question": "Regarding FV-10-2 on the P&ID: What body materials are available, and can I get stainless for a corrosive service?"
+  },
+  "candidate": "For FV-10-2, the datasheet lists the available body (and bonnet/bonnet spacer/bottom flange) materials as: cast iron, WCC carbon steel, LCC carbon steel, WC9 chrome-moly steel, CF8M (cast 316 stainless steel), CF3M (cast 316L stainless steel), and other materials upon request. Yes, stainless is available — CF8M (316) or CF3M (316L) — though which material is orderable depends on valve size and end connection (e.g., cast iron only with CL125 FF/CL250 RF flanged ends; carbon/alloy/stainless steel with screwed, socket weld, butt weld, and RF/RTJ CL150/300/600 or EN PN16–PN100 flanged ends). The datasheet also covers NACE (MR0175/ISO 15156, MR0103) service options. Note: the datasheet does not explicitly use the phrase 'corrosive service' for body material selection, so it does not state a specific corrosion recommendation — only that stainless bodies and NACE options exist. Also, whichever body material is used, the maximum pressure/temperature limits for that material's pressure rating must not be exceeded."
+ },
+ {
+  "item": "9b579fa376",
+  "gold": {
+   "answer": "HART 4-20 mA: if self-diagnostics detect a sensor or microprocessor failure, the output is driven high or low; the direction is user-selectable with a jumper/switch on the transmitter. Factory default is High alarm unless specified (CT = Rosemount standard low alarm, CN = NAMUR low, C4 = NAMUR high). Levels: default high >= 21.75 mA (>= 22.5 mA with M6, DA1, T9, RK), low <= 3.75 mA; NAMUR >= 22.5 / <= 3.6 mA; custom 20.2-23.0 / 3.6-3.8 mA. Output M: below 0.94 V or above 5.4 V, selectable by internal jumper. F, W, X: failure passed as alert and status.",
+   "answerable": "yes",
+   "category": "conditional",
+   "must": [
+    "high or low, user-selectable by jumper/switch",
+    "default high",
+    "alarm values per standard/NAMUR/custom",
+    "output M internal jumper"
+   ],
+   "relation": "fed_by_transmitter",
+   "via_tag": "FT-10-2",
+   "question": "Consider the transmitter that feeds controller FIC-10-2. When the transmitter fails, does the output go high or low, and how do I change that alarm direction?"
+  },
+  "candidate": "FT-10-2 can drive its HART 4–20 mA output high or low on sensor or microprocessor failure. The direction is user-selectable with a jumper or switch on the transmitter. The documents do not state which direction this unit is currently set to."
+ },
+ {
+  "item": "296f8f6952",
+  "gold": {
+   "answer": "368 mm (14.50 in.) for CL300 RF; 384 mm (15.12 in.) for CL300 RTJ (dimension A).",
+   "answerable": "yes",
+   "category": "multi_condition",
+   "must": [
+    "368 mm (RF)",
+    "RTJ differs (384 mm)"
+   ],
+   "relation": "operated_by",
+   "via_tag": "FV-10-2",
+   "question": "Consider the valve operated by control loop FIC-10-2. What's the face-to-face length for a 4 inch Class 300 flanged body?"
+  },
+  "candidate": "The datasheet does not state the face-to-face length for a 4-inch Class 300 flanged body; the supplied table values do not include the 4-inch size."
+ },
+ {
+  "item": "e93f6bc0f8",
+  "gold": {
+   "answer": "Standard cages (quick-opening, linear, equal percentage), restricted-capacity trims, Whisper Trim I / III, Whisper NXG and WhisperFlo cages for aerodynamic noise in gas service, Cavitrol III one- and two-stage cages against cavitation (liquid, high pressure drop), DST dirty service trim, TSO tight shutoff trim, Trim Cartridge.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "Whisper / WhisperFlo for noise (gas)",
+    "Cavitrol III for cavitation / high ΔP (liquid)"
+   ],
+   "relation": "operated_by",
+   "via_tag": "FV-104-2",
+   "question": "Consider the valve operated by control loop FIC-104-2. What trim options are there, and which one is for high pressure drop or noise?"
+  },
+  "candidate": "FV-104-2 offers standard cages with quick-opening, linear, or equal-percentage characteristics, plus Whisper and Cavitrol cage trims. Whisper Trim/WhisperFlo cages provide noise attenuation; the datasheet does not specify which of the two is specifically intended for high pressure drop or noise."
+ },
+ {
+  "item": "24b6750f84",
+  "gold": {
+   "answer": "Not in the document (no safety instructions).",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated"
+   ],
+   "relation": "downstream",
+   "via_tag": "P-95-3",
+   "question": "Consider the item directly downstream of LV-95-1 in the process flow. Is there anything dangerous about opening the cover if the pump has overheated?"
+  },
+  "candidate": "Not in the documents. The item directly downstream of LV-95-1 is pump P-95-3. Its datasheet (Gorman-Rupp 0700286) contains no safety warning or hazard about opening the cover of an overheated pump — no such warning is stated. The datasheet only provides specification data, including a maximum operating pressure of 250 psi (1723 kPa) at 100 °F (37 °C) and a maximum liquid temperature of 160 °F (71 °C). Whether opening the cover of an overheated pump is dangerous is therefore not stated in the documents."
+ },
+ {
+  "item": "d9ad094bcf",
+  "gold": {
+   "answer": "Suction 4\" (102 mm), discharge 2 1/2\" (64 mm), raised face flanges; so yes, 2 1/2\" is the discharge. Suction flange 8 holes 0.75\" on 7.50\" bolt circle, discharge 4 holes 0.75\" on 5.50\" bolt circle; optional NPT companion flanges.",
+   "answerable": "yes",
+   "category": "value",
+   "must": [
+    "suction 4\"",
+    "discharge 2 1/2\"",
+    "raised face flanges"
+   ],
+   "question": "Regarding P-1-3 on the P&ID: What size are the suction and discharge connections? Is the '2 1/2' the port size?"
+  },
+  "candidate": "The pump size is 4 in × 2½ in, with raised-face flanges; the datasheet’s drawing also lists 4.00-8 NPT for suction and 2.50-8 NPT as an optional discharge companion flange. “2½” is the second dimension in the pump size designation, not a separately identified port size."
+ },
+ {
+  "item": "8beae3e3fe",
+  "gold": {
+   "answer": "Not in the document (materials are listed, part numbers are not).",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated"
+   ],
+   "question": "Regarding FV-104-2 on the P&ID: What part numbers do I need for a seat ring and plug seal for our valve size?"
+  },
+  "candidate": "The datasheet information provided does not state the seat-ring or plug-seal part numbers for FV-104-2’s valve size. It identifies plug-seal components but gives no part numbers, and the seat-ring details shown are materials only."
+ },
+ {
+  "item": "0d43f117a3",
+  "gold": {
+   "answer": "Standard cages (quick-opening, linear, equal percentage), restricted-capacity trims, Whisper Trim I / III, Whisper NXG and WhisperFlo cages for aerodynamic noise in gas service, Cavitrol III one- and two-stage cages against cavitation (liquid, high pressure drop), DST dirty service trim, TSO tight shutoff trim, Trim Cartridge.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "Whisper / WhisperFlo for noise (gas)",
+    "Cavitrol III for cavitation / high ΔP (liquid)"
+   ],
+   "relation": "operated_by",
+   "via_tag": "FV-104-2",
+   "question": "Consider the valve operated by control loop FIC-104-2. What trim options are there, and which one is for high pressure drop or noise?"
+  },
+  "candidate": "The valve operated by control loop FIC-104-2 is control valve FV-104-2 (loop: FT-104-2 → FIC-104-2 → FV-104-2). Its Fisher easy-e valve datasheet lists these trim options: standard trims (e.g. Trims 1, 4, 27, 28, 29, 29C, 37, 37H, 57C, 450, plus NACE trims 85/87), Whisper Trim III, Whisper NXG Trim, WhisperFlo, Cavitrol III cages, and a 'Trim Cartridge' option. For noise, the Whisper trims (Whisper Trim III, Whisper NXG, WhisperFlo) provide aerodynamic noise attenuation; for high pressure drop / cavitation conditions, the Cavitrol III cages provide cavitation protection. The datasheet does not use the exact phrase 'trim for high pressure drop' — it separates the two concerns (Whisper trims for noise, Cavitrol III for cavitation) and gives per-trim pressure-drop limits (e.g. Trims 4/29 up to 99 bar only with clean dry gas, 21 bar for other fluids; Whisper cages up to ΔP/P1 = 0.999)."
+ },
+ {
+  "item": "bfbe07ca4b",
+  "gold": {
+   "answer": "No motor is specified (basic pedestal pump; curves for 1150-3450 rpm). The 50 Hz 1450 rpm curve exists; over its operating range the power stays at or below the 7.5 BHP (5.6 kW) line, so a 7.5 kW 1450 rpm motor is enough for that speed.",
+   "answerable": "partial",
+   "category": "chart",
+   "must": [
+    "no motor specified",
+    "1450 rpm curve exists",
+    "power ≤ ~5.6 kW at 1450 rpm"
+   ],
+   "relation": "upstream",
+   "via_tag": "P-10-1",
+   "question": "Consider the item directly upstream of BV-10-2 in the process flow. What motor size and speed is it meant to run at? We have a 7.5 kW 1450 rpm motor in stock."
+  },
+  "candidate": "The datasheet does not state a motor size. It lists pump operating speeds of 1,450 or 2,900 rpm on the 50 Hz curves, depending on the curve; it does not specify that a 7.5 kW, 1,450 rpm motor is suitable."
+ },
+ {
+  "item": "0e4529ce0d",
+  "gold": {
+   "answer": "Not in the document (only bolting materials and temperature limits).",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated"
+   ],
+   "question": "Regarding FV-10-2 on the P&ID: What torque should the bonnet bolts be tightened to?"
+  },
+  "candidate": "Not in the documents. The datasheet for FV-10-2 (Fisher ET) does not state a tightening torque for the bonnet bolts. It only specifies the bonnet bolting materials and their temperature limits (e.g., studs SA193-B7/NCF2 with nuts SA194-2H/NCF2, or SA-193-B8M Class 2 with SA-194-8M, including NACE-compliant options), but no torque value in N·m or ft·lb is given."
+ },
+ {
+  "item": "eba3cd9dec",
+  "gold": {
+   "answer": "Casing ductile iron; impeller gray iron 40 (wear rings gray iron 25, shaft steel 1045, seal faces silicon carbide). Suitability for pH 5 is not stated.",
+   "answerable": "partial",
+   "category": "value",
+   "must": [
+    "casing ductile iron",
+    "impeller gray iron 40",
+    "pH not stated"
+   ],
+   "relation": "downstream",
+   "via_tag": "P-1-2",
+   "question": "Consider the item directly downstream of BV-1-1 in the process flow. What are the casing and impeller made of? Can it take slightly acidic water around pH 5?"
+  },
+  "candidate": "The item directly downstream of BV-1-1 is the pump P-1-2. Per its datasheet, the casing (volute) is ductile iron and the impeller is enclosed, six-vane Gray Iron 40. Regarding suitability for slightly acidic water around pH 5: this is not stated in the datasheet — it contains no pH range or chemical compatibility information, only pressure limits (max casing pressure 266 psi / 1834 kPa) and temperature limits (max liquid temperature 160°F / 71°C for the seal). That part of the question is not present in the documents."
+ },
+ {
+  "item": "7b5e965e48",
+  "gold": {
+   "answer": "Not stated (only the 4 in. suction flange is given).",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated"
+   ],
+   "question": "Regarding P-1-1 on the P&ID: How big should the suction pipe be, and does it need a check valve or air release line?"
+  },
+  "candidate": "The P&ID and provided datasheet facts do not specify a suction pipe size or say whether a check valve or air release line is required."
+ }
+]

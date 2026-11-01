@@ -1,0 +1,13 @@
+[
+ {"item": "77f939f8e0", "verdict": "partial", "cites_page": false, "reason": "LV-8-1 lowest is right, but it gives single values and omits the construction-dependent ratings for both items."},
+ {"item": "3f99e4bef7", "verdict": "partial", "cites_page": false, "reason": "GV-1-6 lowest at 6 bar is right, but it omits P-9-2's 266 psi casing pressure."},
+ {"item": "7823c82a17", "verdict": "wrong", "cites_page": false, "reason": "Says the lowest cannot be established, but the gold says LV-8-1 is lowest for every construction."},
+ {"item": "7e74db18b4", "verdict": "wrong", "cites_page": false, "reason": "No answer (step limit)."},
+ {"item": "92a3b7f169", "verdict": "partial", "cites_page": false, "reason": "Undecidable conclusion and P-10-3 values are right, but LV-17-1 is given as PN16-PN100 instead of the ASME classes."},
+ {"item": "2a2e71196e", "verdict": "partial", "cites_page": false, "reason": "GV-1-6 lowest at 6 bar is right, but it omits P-9-2's 266 psi casing pressure."},
+ {"item": "befbf27672", "verdict": "correct", "cites_page": false, "reason": "GV-1-2 at 6 bar, E-1-2 at 10.3/16.0 barg, and GV-1-2 lowest."},
+ {"item": "237d5bc315", "verdict": "partial", "cites_page": false, "reason": "Undecidable conclusion and P-10-3 values are right, but it lists no LV-17-1 pressure classes."},
+ {"item": "50746d1b6c", "verdict": "correct", "cites_page": false, "reason": "GV-1-2 at 6 bar is lowest versus E-1-2 at 10.3/16.0 barg."},
+ {"item": "c7256849af", "verdict": "partial", "cites_page": false, "reason": "P-14-2 lowest at 160 °F is right, but TV-14-1 gets only the PEEK 315 °C value, not the other seat ratings."},
+ {"item": "8a5bbd5dae", "verdict": "wrong", "cites_page": false, "reason": "Says the lowest cannot be established, but the gold says P-14-2 is lowest for every construction."}
+]

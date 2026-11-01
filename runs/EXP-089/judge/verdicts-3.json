@@ -1,0 +1,242 @@
+[
+ {
+  "item": "d537d27ffe",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly says the part numbers are not given."
+ },
+ {
+  "item": "337c390b63",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Gives the <0.1% URL value and the test levels but leaves out the IEC 60770-1:1999 high-vibration reference."
+ },
+ {
+  "item": "7529dd891c",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly says suction pipe size and check valve/air release are not stated."
+ },
+ {
+  "item": "67cf154ad0",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Says the information is not in the documents, but the gold has the bearing types and lubrication."
+ },
+ {
+  "item": "de819127a6",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Weight is right, but it says the dimensions are not given and omits that the motor is not included."
+ },
+ {
+  "item": "de85d3d96f",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Bearings, SAE 30 oil lubrication and the missing interval all match the gold."
+ },
+ {
+  "item": "f1d301a552",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Ductile iron casing, Gray Iron 40 impeller, and pH suitability not stated."
+ },
+ {
+  "item": "a3488bf5c3",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "No; only the Plugged Impulse Line diagnostic is included."
+ },
+ {
+  "item": "1e80302eda",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "No answer (timed out)."
+ },
+ {
+  "item": "6f16943317",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly says no bonnet-removal safety procedure is stated."
+ },
+ {
+  "item": "89fc313818",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Notes that no requirement is stated, but adds an unsupported recommendation that the suction pipe should match the 4 in flange."
+ },
+ {
+  "item": "1e6e1e7833",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Both bearings, SAE 30 oil, and no stated interval."
+ },
+ {
+  "item": "a0ddcf0f03",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Gives all elements: <0.1% URL, IEC 60770-1:1999 high vibration, and the test levels."
+ },
+ {
+  "item": "48623a41bf",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Standard centrifugal pump, 4 x 2 1/2 in, model code not explained."
+ },
+ {
+  "item": "27696639e5",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Says no motor is specified and mentions the 1450 rpm curve, but misses that power stays at or below about 5.6 kW, so 7.5 kW is enough."
+ },
+ {
+  "item": "e8122331cd",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "PVC body, EPDM or FKM seals, FKM identified for the EPDM-attacking fluid."
+ },
+ {
+  "item": "b23f183ae9",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly says mounting relative to taps is not stated."
+ },
+ {
+  "item": "25c55dc25f",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Does not give the 1/4-18 NPT connection or the manifold options the gold has."
+ },
+ {
+  "item": "e2eb92ea97",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly says the RTD element type and class are not stated."
+ },
+ {
+  "item": "df2be111ec",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Only CE is listed; neither approval is stated."
+ },
+ {
+  "item": "87b731fdf4",
+  "verdict": "hallucinated",
+  "cites_page": false,
+  "reason": "Invents causes and repair steps that the gold says are not in the document."
+ },
+ {
+  "item": "2d87af4177",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Says the value is not given; the gold has 368 mm RF / 384 mm RTJ."
+ },
+ {
+  "item": "b1a1470653",
+  "verdict": "wrong",
+  "cites_page": true,
+  "reason": "Says the value is not stated; the gold has 368 mm RF / 384 mm RTJ."
+ },
+ {
+  "item": "dce90a82ee",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly says no procedure is stated."
+ },
+ {
+  "item": "84c5219c8e",
+  "verdict": "partial",
+  "cites_page": true,
+  "reason": "Gives 59.7 with the right conditions, but only for ED/ETR, and says the ET value for 2 in is not listed."
+ },
+ {
+  "item": "c82cc46f9c",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Casing, impeller and pH-not-stated all match."
+ },
+ {
+  "item": "402e4b0bae",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "59.7 at full travel with full-sized trim, equal percentage cage and normal flow, plus the EAT values."
+ },
+ {
+  "item": "cbed387ddb",
+  "verdict": "correct",
+  "cites_page": true,
+  "reason": "No; only the Plugged Impulse Line diagnostic with code M."
+ },
+ {
+  "item": "ed7f9e3af9",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Lists all body materials and confirms CF8M/CF3M stainless."
+ },
+ {
+  "item": "9b579fa376",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Has high/low selectable by jumper, but misses default high, the alarm levels and the output M jumper."
+ },
+ {
+  "item": "296f8f6952",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Says the value is not stated; the gold has 368 mm RF / 384 mm RTJ."
+ },
+ {
+  "item": "e93f6bc0f8",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Whisper for noise is given, but Cavitrol III is not identified as the cavitation/high pressure drop trim."
+ },
+ {
+  "item": "24b6750f84",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly says no such warning is stated."
+ },
+ {
+  "item": "d9ad094bcf",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Gives 4 x 2 1/2 and raised face, but denies that 2 1/2 is the discharge size, against the gold."
+ },
+ {
+  "item": "8beae3e3fe",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly says part numbers are not given."
+ },
+ {
+  "item": "0d43f117a3",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Whisper trims for noise and Cavitrol III for cavitation/high pressure drop."
+ },
+ {
+  "item": "bfbe07ca4b",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Says no motor is specified and that a 1450 rpm curve exists, but misses the power at or below 5.6 kW and the conclusion that the motor is enough."
+ },
+ {
+  "item": "0e4529ce0d",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly says no torque is stated."
+ },
+ {
+  "item": "eba3cd9dec",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Casing, impeller and pH-not-stated all match."
+ },
+ {
+  "item": "7b5e965e48",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly says it is not specified."
+ }
+]

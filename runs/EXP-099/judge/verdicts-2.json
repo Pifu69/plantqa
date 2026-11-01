@@ -1,0 +1,170 @@
+[
+ {
+  "item": "6b323afaf3",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Says the values are not provided although the gold gives both datasheets' values."
+ },
+ {
+  "item": "5ddc71333d",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Pump values right, but BV-34-1 given only as the PEEK 315 °C value, and it names a tie winner instead of saying the comparison cannot be decided."
+ },
+ {
+  "item": "ea9c16f465",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Lowest P-11-2 at 160 °F is right, but the CHV-437-1 value (316 °C) is wrong and its construction dependence is missing."
+ },
+ {
+  "item": "987c83a48d",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "P-11-2 160 °F lowest; CHV-437-1 given as construction-dependent (400 °F CH, 250 °F brass)."
+ },
+ {
+  "item": "2269f71a91",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Lowest P-41-2 at 160 °F is right, but CHV-125-1 is given only as 400 °F with no construction dependence."
+ },
+ {
+  "item": "3ed7e76775",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "P-5-1 71 °C lowest; BV-115-1 seat-dependent 80-315 °C, all consistent with gold."
+ },
+ {
+  "item": "252b4ab9e1",
+  "verdict": "hallucinated",
+  "cites_page": false,
+  "reason": "Invents CHV-46-2 limits (300 °F sour gas, 185 °F ECE R110) not in gold and omits E-46-2."
+ },
+ {
+  "item": "b16ee6ac1c",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "P-5-1 71 °C lowest; BV-115-1 seat-dependent from 80 °C, consistent with gold."
+ },
+ {
+  "item": "0c28305676",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Declares the pumps definitively lowest, while the gold says the lowest cannot be decided."
+ },
+ {
+  "item": "0f47de434a",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Declares E-46-2 lowest, while the gold says it cannot be decided (CHV brass is 250 °F)."
+ },
+ {
+  "item": "64b931fecd",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "E-193-1 values correct, but BV-193-1 values are missing and no lowest item is identified."
+ },
+ {
+  "item": "84a3119b7d",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Lowest P-11-2 at 160 °F is right, but CHV-437-1 is given only as 400 °F with no construction dependence."
+ },
+ {
+  "item": "c66913d636",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Claims BV-115-1 (80 °C) is lower than P-5-1 (71 °C), which contradicts the gold."
+ },
+ {
+  "item": "7d49243bb2",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Correctly says it cannot be decided, but CHV-228-3 is given only as 6000 psig, missing its lower construction-dependent ratings."
+ },
+ {
+  "item": "77784ca73f",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "P-41-2 160 °F lowest; CHV-125-1 construction-dependent (400 °F CH, 375 °F or lower)."
+ },
+ {
+  "item": "00bf35ed42",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Lowest E-46-2 with both codes right, but CHV-46-2 is given only as 6000 psig with no construction dependence."
+ },
+ {
+  "item": "73d0e8345e",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Gives 37 °C (100 °F) as the pumps' maximum temperature and names a definite lowest, contradicting the gold."
+ },
+ {
+  "item": "3da8a3f772",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "GV-79-3 at +50 °C is lowest, and every path item's values are consistent with the gold."
+ },
+ {
+  "item": "0ce142e900",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Correctly says it cannot be decided and gives the pump values, but omits BV-34-1's P-T chart values."
+ },
+ {
+  "item": "52a2c5480a",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Correctly says it cannot be decided and gives the pump values, but omits BV-34-1's P-T chart values."
+ },
+ {
+  "item": "0039784eae",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Lowest P-11-2 (160) is right, but there are no units and CHV-437-1 is given only as 400 with no construction dependence."
+ },
+ {
+  "item": "4fb5c6633a",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Says no pressure values are available although the gold gives values and E-193-1 is lowest."
+ },
+ {
+  "item": "df140ae8ce",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Pump values right, but it names the pumps as lowest instead of saying it cannot be decided."
+ },
+ {
+  "item": "f4c5e58880",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Lowest P-5-1 at 71 °C is right, but BV-115-1 is given only as 315 °C without its lower seat values."
+ },
+ {
+  "item": "c3dd3eaef1",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Lowest GV-79-3 at +50 °C is right, but values for the other path items are missing."
+ },
+ {
+  "item": "a1a58184c0",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Declares PT-331-1 lowest, while the gold says it cannot be decided (CHV ratings go down to 1500 psig)."
+ },
+ {
+  "item": "7f6da3d8f2",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Lowest E-46-2 with both codes right, but CHV-46-2 is given only as 6000 psig without the specific lower ratings."
+ },
+ {
+  "item": "14bf4781e1",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Lowest P-41-2 at 160 °F is right, but CHV-125-1 is given only as 400 °F (CH series) with no other constructions."
+ }
+]

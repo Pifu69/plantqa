@@ -1,0 +1,242 @@
+[
+ {
+  "item": "1d7d552a0f",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Suction 4\" and discharge 2 1/2\" correct, but raised face flanges not mentioned."
+ },
+ {
+  "item": "a046bbb014",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "High/low jumper selection and default high given; NAMUR/custom levels and output M jumper missing."
+ },
+ {
+  "item": "13310a04a0",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "High/low jumper selection and alarm levels given; default high and output M jumper missing."
+ },
+ {
+  "item": "1347c86c62",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "266 psi casing pressure correct; 250 psi operating limit up to 37 C missing."
+ },
+ {
+  "item": "5971693d9c",
+  "verdict": "wrong",
+  "cites_page": true,
+  "reason": "Lists 59.7 only for ED/ETR and says no ET full-open Cv is stated, contradicting gold 59.7."
+ },
+ {
+  "item": "1a25a1d284",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "1/4-18 NPT on 2 1/8 in correct; DF adapters and S5/S6 assembled manifolds missing (cites D3/D5 instead)."
+ },
+ {
+  "item": "77648ff81f",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly says altitude is not stated."
+ },
+ {
+  "item": "96a0fec826",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Cv 59.7 with full-sized trim, equal percentage cage, normal flow."
+ },
+ {
+  "item": "47557a915b",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Says no Kv is given although gold has Kv per DN."
+ },
+ {
+  "item": "8d675e7731",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Gives Kv 267 l/min (DN32) and the test condition but not the full per-DN list."
+ },
+ {
+  "item": "82437e26a3",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Globe-style sliding-stem control valve with cage guiding and balanced plug."
+ },
+ {
+  "item": "b9e4aaab49",
+  "verdict": "correct",
+  "cites_page": true,
+  "reason": "Yes, manual override."
+ },
+ {
+  "item": "b963f1d1b8",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Flanged yes, but screwed/butt weld/socket weld availability not explicitly stated."
+ },
+ {
+  "item": "15caa7c7a0",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly says not stated."
+ },
+ {
+  "item": "a499bf6673",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Ductile iron casing, gray iron 40 impeller, pH not stated."
+ },
+ {
+  "item": "83be15a484",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly says the document does not state which component leaks or how to check."
+ },
+ {
+  "item": "5a5b344e6b",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Centrifugal pedestal pump 4\" x 2 1/2\", model code not decoded."
+ },
+ {
+  "item": "c707d3adc7",
+  "verdict": "correct",
+  "cites_page": true,
+  "reason": "Flanged plus screwed, BW and SW available."
+ },
+ {
+  "item": "76dbecc464",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Says linear and quick-opening are not stated, contradicting gold."
+ },
+ {
+  "item": "367cac9a4c",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "No, only Plugged Impulse Line diagnostic with low-power output."
+ },
+ {
+  "item": "1d84ba1721",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Jumper selection, default high, standard/NAMUR levels given; custom values and output M jumper missing."
+ },
+ {
+  "item": "56c1c0c248",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Standard centrifugal pedestal pump and model code not decoded, but 4\" x 2 1/2\" size missing."
+ },
+ {
+  "item": "a365a6e229",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Diagnosis correctly not stated, but claims NPSHr is not given although gold reads it from curves."
+ },
+ {
+  "item": "87d341c10e",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "All three with standard cages; Whisper/WhisperFlo/Cavitrol linear only."
+ },
+ {
+  "item": "9df5dbcc0d",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "<0.1% URL per IEC 60770-1:1999 high vibration, 10-60 Hz 0.21 mm / 60-2000 Hz 3g."
+ },
+ {
+  "item": "3f07321644",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Whisper cages for noise, Cavitrol III for cavitation/high pressure drop."
+ },
+ {
+  "item": "e32bd0304a",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Vibration levels and 0.1% URL correct; IEC 60770-1:1999 reference missing."
+ },
+ {
+  "item": "b056d87a4e",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Says dimensions and weight are not in documents although gold has them."
+ },
+ {
+  "item": "cfff323ca6",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly says mounting position is not stated."
+ },
+ {
+  "item": "e5569ec999",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "1/4-18 NPT correct and manifold yes, but DF adapters and S5/S6 assembled-manifold options missing."
+ },
+ {
+  "item": "36f7f81c87",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly says not stated."
+ },
+ {
+  "item": "8db03ffea8",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "NPS 1-8 listed; 3 in available."
+ },
+ {
+  "item": "8fa1e93cf4",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "All body materials listed; stainless CF8M/CF3M available."
+ },
+ {
+  "item": "9fe02d55c7",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Yes, manual override."
+ },
+ {
+  "item": "9ae3006118",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "PVC body and EPDM/FKM seals given, but does not advise choosing FKM."
+ },
+ {
+  "item": "09928c897a",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Yes, manual override."
+ },
+ {
+  "item": "e89d7eb0fb",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly says torque not stated."
+ },
+ {
+  "item": "26fcc06d7e",
+  "verdict": "correct",
+  "cites_page": true,
+  "reason": "Standard centrifugal pedestal pump 4\" x 2 1/2\", model code not explained."
+ },
+ {
+  "item": "97e7a97299",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "24 V DC and 230 V AC versions, must match type plate."
+ },
+ {
+  "item": "e9bbb04870",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "CF8M/CF3M stainless given; cast iron, WCC, LCC, WC9 missing."
+ }
+]

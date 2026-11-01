@@ -27,9 +27,8 @@ Az oldal két részre oszlik.
 - **Jobb oldal: a kérdés és a válasz.** Egy szövegmezőbe kerül a kérdés; alatta választható a
   módszer (M1, M2 vagy M3, egy rövid leírással), a modell (`z-ai/glm-5.3-flash` vagy
   `openai/gpt-6-luna`) és a válaszalak (az 5. fejezetben felsorolt alakok közül). Az alapértelmezés
-  az M2 GLM-mel, mert ez a párosítás volt a legjobb a kis üzem befagyasztott tesztjén (EXP-020: 31
-  helyes a 40-ből; ezt az oldal ki is írja) és mindkét nagy üzemen is (EXP-060: 51, EXP-070: 49
-  helyes a 60-ból). A
+  az M2 GLM-mel, mert ez a párosítás volt a legjobb a kis üzem tesztjén (EXP-020: 31 helyes a
+  40-ből; ezt az oldal ki is írja) és a 100 lapos tesztüzemen is (EXP-096: 51 helyes a 60-ból). A
   demó a kis üzemen fut, mert annak négy lapja a képernyőn jól áttekinthető.
 
 A válasz alatt a demó megmutatja a válasz nyomait: a módszert, a modellt, a kimenetelt, a
@@ -63,15 +62,15 @@ kérdezte. A válasz így kezdődik: „The transmitter associated with E-2-1 is
 és Celsius-fokban, és hozzáteszi, hogy a BR6 csak bizonyos nyomástartományokkal, kimenettel és
 töltőfolyadékkal rendelhető. Ez a plantdocs válaszírójának szabálya: egy érték a feltételei nélkül
 hibás lehet. A bal oldalon az adatlap azon oldala látszik, amely a hideg
-környezetre vonatkozó opció feltételeit írja le. A router tehát a tagot a rajzból szerzi meg, és
-az adatlapi kérdést már a tagre teszi fel, ahogy a rendszerüzenete előírja; a rajzeszköz
+környezetre vonatkozó opció feltételeit írja le. A router tehát a tag-et a rajzból szerzi meg, és
+az adatlapi kérdést már a tag-re teszi fel, ahogy a rendszerüzenete előírja; a rajzeszköz
 ismételt hívása viszont a késleltetést növeli.
 
 ### Megválaszolhatatlan kérdés és a részletes „nincs benne”
 
 A második kérdés a (d) családból való, amelynek kérdéseire a dokumentumok nem adnak választ:
 „Regarding GV-1-1 on the P&ID: Is it approved for drinking water, or for use in an explosive (Ex)
-area?” A kérdés tagot nevez meg, ezért az M2 routere a rajzeszköz nélkül, közvetlenül a GV-1-1
+area?” A kérdés tag-et nevez meg, ezért az M2 routere a rajzeszköz nélkül, közvetlenül a GV-1-1
 adatlapját kérdezte (útvonal: `datasheet:GV-1-1`).
 
 ![Megválaszolhatatlan kérdés az M2-vel (EXP-040): a router közvetlenül az adatlapot kérdezi, a válasz „nincs benne”, de megnevezi, mit tartalmaz az adatlap; a bal oldalon a GF 165 adatlap egyik forrásoldala.](../../figures/demo/04-d-M2.png)
@@ -83,7 +82,7 @@ az adatlap a tanúsításokról, és ellenőrizheti a forrásoldalon. Ez a megje
 eredménye, amelyet a demó egy korábbi próbája derített ki: a válasz megjelenítése és a bírálónak
 exportált jelölt szöveg a „nincs benne” jelzésnél eredetileg csak a jelzést mutatta, és elnyelte a
 mellette írt magyarázatot. A hibát kijavítottuk, az érintett dev-tételeket a javított szöveggel
-újrabíráltattuk, és a végső teszt exportja már a javított kóddal készült (`docs/dontesek.md`). A
+újrabíráltattuk, és a végső teszt exportja már a javított kóddal készült. A
 demó tehát nemcsak bemutató, hanem ellenőrző eszköz is volt: olyan hibát talált meg, amely a
 pontozást is érintette.
 

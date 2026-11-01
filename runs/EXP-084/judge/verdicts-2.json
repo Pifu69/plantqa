@@ -1,0 +1,80 @@
+[
+ {
+  "item": "cbcdfcc490",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Says not in documents although gold gives values and GV-1-6 as lowest."
+ },
+ {
+  "item": "a1a29c490e",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Ball valve, E-7-4 and not-decidable conclusion right, but CHV-7-1 temperatures wrong (gives exchanger values instead of 190/121/204 C)."
+ },
+ {
+  "item": "5c9af2b509",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "No answer (step limit)."
+ },
+ {
+  "item": "2e2cb5c40a",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Misidentifies the item downstream of CHV-4-2 as P-4-2 and gives no comparison."
+ },
+ {
+  "item": "38d16b58f1",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Says lowest cannot be determined whereas gold says E-7-4 is lowest for every construction."
+ },
+ {
+  "item": "040f670a10",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Pump temperature given as 37 C instead of 71 C, BV-5-2 omitted, and definitive lowest contradicts gold."
+ },
+ {
+  "item": "9c47fcec66",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "GV-2-4 6 bar lowest, P-2-2 250/266 psi, as gold."
+ },
+ {
+  "item": "da6116ab84",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Names E-7-4 lowest, but gold says not decidable (ball valve seats down to 80 C)."
+ },
+ {
+  "item": "a72b5a5499",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "P-14-2 160F and lowest correct, but TV-14-1 lower seat-dependent values (80/90/230 C) omitted."
+ },
+ {
+  "item": "e030f0b94d",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Says only CHV-7-1 stated and lowest not stated; gold has E-7-4 lowest."
+ },
+ {
+  "item": "6117bf6d77",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Says temperatures not stated although gold gives them and P-14-2 as lowest."
+ },
+ {
+  "item": "98a8fefa68",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Says lowest cannot be determined and gives no values; gold has P-14-2 lowest."
+ },
+ {
+  "item": "356c5e46c1",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "No answer (step limit)."
+ }
+]

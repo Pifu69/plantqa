@@ -1,0 +1,104 @@
+[
+ {
+  "item": "54287cc7f9",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Values for all three items and GV-5-1 lowest."
+ },
+ {
+  "item": "727cba0047",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Correct path and undecidable conclusion but claims most values absent; only check valve value given."
+ },
+ {
+  "item": "8f7d51ade4",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "All three values and GV-47-2 lowest."
+ },
+ {
+  "item": "b7112407a9",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Claims values not stated and cites off-path Rosemount data; no per-item values."
+ },
+ {
+  "item": "73d5be3bf8",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "All three values and GV-5-1 lowest."
+ },
+ {
+  "item": "1c19e37c55",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "No answer."
+ },
+ {
+  "item": "e0554f78be",
+  "verdict": "wrong",
+  "cites_page": true,
+  "reason": "Gives GV-47-2 as 80 C (gold 50 C) and claims other values absent."
+ },
+ {
+  "item": "d19334845d",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "No answer."
+ },
+ {
+  "item": "0e7859bb12",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Names CHV-11-2 lowest, contradicting undecidable gold, and misses other values."
+ },
+ {
+  "item": "871c885623",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Names a CHV valve lowest at 254 bar, contradicting gold; values unsupported."
+ },
+ {
+  "item": "7c32e81f7d",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Names E-47-2 lowest and omits GV-47-2."
+ },
+ {
+  "item": "b204039cf6",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Names PV-45-1 lowest, contradicting gold; claims others have no data."
+ },
+ {
+  "item": "65b1fa2881",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Claims no values available although gold lists them all."
+ },
+ {
+  "item": "b8743ebd5e",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "All three values and GV-47-2 lowest."
+ },
+ {
+  "item": "aeac1b68e8",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "No answer."
+ },
+ {
+  "item": "d32a96f245",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Claims values not provided although gold lists them."
+ },
+ {
+  "item": "cc05818aed",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "No answer."
+ }
+]

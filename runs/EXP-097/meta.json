@@ -1,0 +1,58 @@
+{
+  "runs": [
+    {
+      "command": "python -m plantqa.eval.run --exp EXP-097 --method M1 --model glm --split complex --allow-paid",
+      "method": "M1",
+      "model_id": "z-ai/glm-5.3-flash",
+      "split": "complex",
+      "git_commit": "35bcdfe",
+      "started": "2026-11-01T08:42:53+00:00",
+      "spent_before_usd": 16.0379
+    },
+    {
+      "command": "python -m plantqa.eval.run --exp EXP-097 --method M1 --model luna --split complex --allow-paid",
+      "method": "M1",
+      "model_id": "openai/gpt-6-luna",
+      "split": "complex",
+      "git_commit": "35bcdfe",
+      "started": "2026-11-01T08:43:06+00:00",
+      "spent_before_usd": 16.0427
+    },
+    {
+      "command": "python -m plantqa.eval.run --exp EXP-097 --method M2 --model glm --split complex --allow-paid",
+      "method": "M2",
+      "model_id": "z-ai/glm-5.3-flash",
+      "split": "complex",
+      "git_commit": "35bcdfe",
+      "started": "2026-11-01T08:43:17+00:00",
+      "spent_before_usd": 16.0543
+    },
+    {
+      "command": "python -m plantqa.eval.run --exp EXP-097 --method M2 --model luna --split complex --allow-paid",
+      "method": "M2",
+      "model_id": "openai/gpt-6-luna",
+      "split": "complex",
+      "git_commit": "35bcdfe",
+      "started": "2026-11-01T08:43:25+00:00",
+      "spent_before_usd": 16.0607
+    },
+    {
+      "command": "python -m plantqa.eval.run --exp EXP-097 --method M3 --model glm --split complex --allow-paid",
+      "method": "M3",
+      "model_id": "z-ai/glm-5.3-flash",
+      "split": "complex",
+      "git_commit": "35bcdfe",
+      "started": "2026-11-01T08:43:34+00:00",
+      "spent_before_usd": 16.0721
+    },
+    {
+      "command": "python -m plantqa.eval.run --exp EXP-097 --method M3 --model luna --split complex --allow-paid",
+      "method": "M3",
+      "model_id": "openai/gpt-6-luna",
+      "split": "complex",
+      "git_commit": "35bcdfe",
+      "started": "2026-11-01T08:43:42+00:00",
+      "spent_before_usd": 16.0947
+    }
+  ]
+}

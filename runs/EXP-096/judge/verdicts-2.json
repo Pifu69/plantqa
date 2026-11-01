@@ -1,0 +1,242 @@
+[
+ {
+  "item": "36e7ee6588",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Says manual override is not stated for GV-12-2, contradicting gold."
+ },
+ {
+  "item": "17d5226dd8",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Says dimensions and weight are not stated although gold has them."
+ },
+ {
+  "item": "02d54ba2d8",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Jumper selection, default high and standard/NAMUR/custom levels given; output M jumper missing."
+ },
+ {
+  "item": "1e43db029c",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "<0.1% URL per IEC 60770-1:1999 high vibration with test levels."
+ },
+ {
+  "item": "d77ae324ca",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "All body materials listed; stainless available."
+ },
+ {
+  "item": "275ae7c7e1",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Suction 4\" and discharge 2 1/2\" correct; raised face flanges missing."
+ },
+ {
+  "item": "ecf3a4d730",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Gives 59.7 (attributed to ED/ETR) without the trim/cage/flow conditions."
+ },
+ {
+  "item": "9b21fb7fbd",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "No answer (parse failure)."
+ },
+ {
+  "item": "d62bea4221",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "High/low jumper selection given; default high, alarm levels and output M missing."
+ },
+ {
+  "item": "790499b09c",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Whisper/WhisperFlo for noise given, but Cavitrol III for cavitation/high pressure drop not identified."
+ },
+ {
+  "item": "500dd33eee",
+  "verdict": "correct",
+  "cites_page": true,
+  "reason": "Ductile iron casing, gray iron 40 impeller, pH not stated."
+ },
+ {
+  "item": "4622fb0898",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "All three with standard cages; special cages linear only."
+ },
+ {
+  "item": "99103a4cf7",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "59.7 with full-sized trim, but equal percentage cage and normal flow conditions missing."
+ },
+ {
+  "item": "db487312f5",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Vibration levels and 0.1% URL correct; IEC 60770-1:1999 reference missing."
+ },
+ {
+  "item": "3e7ce56aab",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Full Kv per DN list with test condition."
+ },
+ {
+  "item": "3c7077c374",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Says connection sizes are not stated although gold has them."
+ },
+ {
+  "item": "f6c8f9d9fd",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Single-port globe-style sliding-stem control valve, cage guided, balanced plug."
+ },
+ {
+  "item": "1ac7417513",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "No, only Plugged Impulse Line diagnostic."
+ },
+ {
+  "item": "86e472df68",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Ductile iron casing, gray iron 40 impeller, pH not stated."
+ },
+ {
+  "item": "b1e2906a23",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Says end connections are not stated although gold lists them."
+ },
+ {
+  "item": "3cc598d86e",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "88 kg net weight correct, but claims overall dimensions are not stated."
+ },
+ {
+  "item": "46adbcac13",
+  "verdict": "wrong",
+  "cites_page": true,
+  "reason": "Says the ET Cv cannot be determined, contradicting gold 59.7."
+ },
+ {
+  "item": "10d9bfbfa1",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Diagnosis correctly not stated, but gives no NPSHr reading from the curves."
+ },
+ {
+  "item": "c039627875",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly says inspection interval is not stated."
+ },
+ {
+  "item": "8bd61713e4",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Yes, manual override."
+ },
+ {
+  "item": "9bec35fe3d",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Correctly says not stated, but does not note that CE is the only approval."
+ },
+ {
+  "item": "10ffe3499e",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Diagnosis correctly not stated, but gives no NPSHr reading from the curves."
+ },
+ {
+  "item": "a9bd5586a6",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Cavitrol III for cavitation, Whisper cages for noise."
+ },
+ {
+  "item": "87db7648f6",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "24 V DC and 230 V AC versions given; matching type plate/ordering right version not stated."
+ },
+ {
+  "item": "e3389d0000",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "All three with standard cages; special cages linear only."
+ },
+ {
+  "item": "5daf06d879",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly says torque not stated."
+ },
+ {
+  "item": "ef6bca4f63",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "24 V DC, 115/230 V AC options; check type plate."
+ },
+ {
+  "item": "704850b28b",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "<0.1% URL per IEC 60770-1:1999 high vibration with test levels."
+ },
+ {
+  "item": "0c0baff10d",
+  "verdict": "partial",
+  "cites_page": true,
+  "reason": "88 kg net weight correct, but claims overall dimensions are not stated."
+ },
+ {
+  "item": "16392c21fd",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "All body materials listed; stainless available."
+ },
+ {
+  "item": "7f90854528",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "1/4-18 NPT, 1/2-14 NPT, S5 305 / S6 304 manifold options."
+ },
+ {
+  "item": "ac8b6c4fe4",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Uses the wrong (Fisher) datasheet; misses PVC body and EPDM/FKM seals."
+ },
+ {
+  "item": "49c370f6ee",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Says manual override not stated and suggests hand-operated, contradicting gold."
+ },
+ {
+  "item": "8847588ff6",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "PVC body and EPDM/FKM seals given, but does not advise choosing FKM."
+ },
+ {
+  "item": "4377a4a04d",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Flanged plus BW, screwed and SW available."
+ }
+]

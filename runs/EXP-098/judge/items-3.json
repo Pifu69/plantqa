@@ -1,0 +1,49 @@
+[
+ {
+  "item": "4dcbfb6df9",
+  "gold": {
+   "answer": "Cv 59.7 at maximum plug travel for the NPS 2 ET with full-sized trim, equal percentage cage, normal flow direction (EAT NPS 2: 48.1 with liner, 47.2 without).",
+   "answerable": "yes",
+   "category": "conditional",
+   "must": [
+    "59.7",
+    "full-sized trim, equal percentage cage, normal flow"
+   ],
+   "question": "Regarding FV-107-3 on the P&ID: What's the Cv at full open for a 2 inch valve?"
+  },
+  "candidate": "The datasheet for FV-107-3 (Fisher ET/D100022x012) does not give a single Cv labelled \"at full open\" for a 2 inch valve, but Table 17 (p. 23) lists maximum flow coefficients (Cv) at maximum valve plug travel (i.e., fully open, full-sized trim, equal percentage cage, normal flow direction) for a 2 inch valve depending on type/trim: EAT with liner 48.1, EAT without liner 47.2, ED 59.7, ETR 59.7. The standard ET variant is not listed for 2 inch in these facts."
+ },
+ {
+  "item": "4c4f32f14c",
+  "gold": {
+   "answer": "HART 4-20 mA: if self-diagnostics detect a sensor or microprocessor failure, the output is driven high or low; the direction is user-selectable with a jumper/switch on the transmitter. Factory default is High alarm unless specified (CT = Rosemount standard low alarm, CN = NAMUR low, C4 = NAMUR high). Levels: default high >= 21.75 mA (>= 22.5 mA with M6, DA1, T9, RK), low <= 3.75 mA; NAMUR >= 22.5 / <= 3.6 mA; custom 20.2-23.0 / 3.6-3.8 mA. Output M: below 0.94 V or above 5.4 V, selectable by internal jumper. F, W, X: failure passed as alert and status.",
+   "answerable": "yes",
+   "category": "conditional",
+   "must": [
+    "high or low, user-selectable by jumper/switch",
+    "default high",
+    "alarm values per standard/NAMUR/custom",
+    "output M internal jumper"
+   ],
+   "relation": "fed_by_transmitter",
+   "via_tag": "FT-10-2",
+   "question": "Consider the transmitter that feeds controller FIC-10-2. When the transmitter fails, does the output go high or low, and how do I change that alarm direction?"
+  },
+  "candidate": "The transmitter FT-10-2 that feeds FIC-10-2 is a Rosemount 3051-series transmitter. On a detected sensor or microprocessor failure, its analog output is driven either high or low to alert the user; which direction applies is user-selectable with a jumper/switch on the transmitter, and the actual alarm current levels depend on whether the unit is configured for standard (default), NAMUR-compliant, or custom alarm levels (for 4-20 mA HART output, e.g. default high alarm >= 21.75 mA and low alarm <= 3.75 mA). So the failure direction is not fixed: set it via the internal jumper/switch on the transmitter."
+ },
+ {
+  "item": "b137041fd6",
+  "gold": {
+   "answer": "Suction 4\" (102 mm), discharge 2 1/2\" (64 mm), raised face flanges; so yes, 2 1/2\" is the discharge. Suction flange 8 holes 0.75\" on 7.50\" bolt circle, discharge 4 holes 0.75\" on 5.50\" bolt circle; optional NPT companion flanges.",
+   "answerable": "yes",
+   "category": "value",
+   "must": [
+    "suction 4\"",
+    "discharge 2 1/2\"",
+    "raised face flanges"
+   ],
+   "question": "Regarding P-1-3 on the P&ID: What size are the suction and discharge connections? Is the '2 1/2' the port size?"
+  },
+  "candidate": "P-1-3 (Model VGH2 1/2C31-B, Gorman-Rupp datasheet gorman-rupp-0700286) has a pump size of 4\" x 2 1/2\" (102 x 64 mm). The 4-inch side is the suction port (optional 4.00-8 NPT companion flange listed under SUCTION, with an 8-hole raised-face flange, 7.50 in bolt circle), and the 2 1/2-inch side is the discharge port (optional 2.50-8 NPT companion flange listed under DISCHARGE, with a 4-hole flange, 5.50 in bolt circle). So yes, the 2 1/2 is a port size — but it is the discharge port size, not the suction. The P&ID itself does not note connection sizes for P-1-3."
+ }
+]

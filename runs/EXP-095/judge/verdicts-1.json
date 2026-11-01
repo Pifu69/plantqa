@@ -1,0 +1,242 @@
+[
+ {
+  "item": "02998aabfd",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly says it cannot be decided, with construction-dependent values for both ball valves and the check valve."
+ },
+ {
+  "item": "f306cea1bc",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "No answer produced."
+ },
+ {
+  "item": "0f000082e6",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "E-7-1 lowest (177/180 °C), PV-7-2 232-316 °C depending on construction."
+ },
+ {
+  "item": "29948342b9",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Declares the 6 bar solenoid valves the definitive lowest, while gold says it cannot be decided."
+ },
+ {
+  "item": "a4268b99cb",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "GV-2-5 lowest at 50 °C versus 71 °C for P-8-1."
+ },
+ {
+  "item": "67b9de1ce4",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Concludes 0 bar for soft-seat ball valves and omits the GVs and pumps; contradicts gold."
+ },
+ {
+  "item": "d05b568c70",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Values given for all items with a caveat about non-comparable bases, but still names E-13-2 lowest instead of saying undecidable."
+ },
+ {
+  "item": "1d02ceae38",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Gives both values and correctly says the result depends on TV-27-2 seat material."
+ },
+ {
+  "item": "494c967afc",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "No answer produced."
+ },
+ {
+  "item": "6e5e92386e",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Notes the ball/Fisher valves have no single value but singles out the 6 bar GVs; E-2-1 values missing."
+ },
+ {
+  "item": "0c15060b53",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Declares E-13-2 definitively lowest; gold says it cannot be decided."
+ },
+ {
+  "item": "af68b77219",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Correct conclusion and E-24-1 values, but TV-27-2 given only as an 80-315 °C range, missing the UHMWPE/PTFE values."
+ },
+ {
+  "item": "1c6ad99d93",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Says temperatures are not provided; gold has values and E-7-1 is lowest."
+ },
+ {
+  "item": "3cb237bada",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "GV-2-5 lowest at 50 °C versus 71 °C for P-8-1."
+ },
+ {
+  "item": "75b10d0473",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly says it cannot be established, with all PT-5-1 range limits and FV-2-1 configuration-dependent."
+ },
+ {
+  "item": "c434f95691",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Declares CHV-25-1 lowest, contradicting the gold that it depends on the construction."
+ },
+ {
+  "item": "7a679784bd",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Concludes E-7-1 lowest, whereas gold says the comparison depends on PV-7-2 construction."
+ },
+ {
+  "item": "4449b23318",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "E-7-1 lowest with ASME/PED values; PV-7-2 316/260 °C."
+ },
+ {
+  "item": "082ced2969",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Picks the exchangers as lowest and omits the 6 bar solenoid valves; gold says undecidable."
+ },
+ {
+  "item": "c47441613c",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Wrongly claims other items have no pressure data and declares E-13-2 lowest."
+ },
+ {
+  "item": "4f939715c0",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Seat- and seal-dependent values for all three items; correctly says it cannot be determined."
+ },
+ {
+  "item": "f6cd8e4600",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "E-27-1 lowest with both ASME and PED values versus 6000 psig for CHV-27-1."
+ },
+ {
+  "item": "4152aa893f",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Claims no values are provided although gold has them."
+ },
+ {
+  "item": "7b882c45a6",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "E-27-1 correctly lowest, but gives only the ASME value and a single check-valve rating with no construction dependence."
+ },
+ {
+  "item": "540083e07b",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Says no definitive lowest can be established and gives most values, but wrongly claims several items have no data."
+ },
+ {
+  "item": "8f9703ce7a",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Declares E-24-1 lower, contradicting gold that it depends on TV-27-2 seat material (Delrin 80 °C)."
+ },
+ {
+  "item": "37a5334c24",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "E-7-1 correctly lowest at 180 °C, but PV-7-2 maximum of 1500 °F contradicts gold (232-316 °C)."
+ },
+ {
+  "item": "e5dc60f06a",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Gives E-7-1 values, PV-7-2 configuration-dependent, and correctly says it cannot be determined."
+ },
+ {
+  "item": "86e9b26e98",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Claims no maximum temperatures are available although gold has them."
+ },
+ {
+  "item": "3588977278",
+  "verdict": "wrong",
+  "cites_page": true,
+  "reason": "Omits CHV-25-1 and bases its conclusion only on the ball valves."
+ },
+ {
+  "item": "5de35ef8c5",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "E-27-1 lowest with both values; check valve variant-dependent up to 6000 psig."
+ },
+ {
+  "item": "8ab945135b",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "No answer produced."
+ },
+ {
+  "item": "183b06d56f",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Claims no pressure values are available although gold has them."
+ },
+ {
+  "item": "df0990d4b1",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Correctly says it cannot be determined, but gives no ball-valve values and only 6000 psig for the check valve."
+ },
+ {
+  "item": "b3a10cf083",
+  "verdict": "partial",
+  "cites_page": true,
+  "reason": "Correctly says it cannot be identified, but quotes no ball-valve numbers and only the 6000 psig series maximum for the check valve."
+ },
+ {
+  "item": "259b83f1f2",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "E-27-1 lowest with both values versus check-valve ratings from 200 psig to 6000 psig."
+ },
+ {
+  "item": "1be3243f9e",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Names PV-22-1 lowest at 51.8 bar and omits E-13-2 and the pumps; contradicts gold."
+ },
+ {
+  "item": "5d93f87c8f",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "GV-2-5 lowest at 50 °C versus 71 °C for P-8-1."
+ },
+ {
+  "item": "baa52b383d",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Correctly says it cannot be established, but gives no PT-5-1 values."
+ },
+ {
+  "item": "766948a5c0",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Lists values for the path and flags the configuration-dependent valves, but singles out the 6 bar GVs without saying the result is undecidable and omits ball-valve numbers."
+ }
+]

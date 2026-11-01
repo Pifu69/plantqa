@@ -1,0 +1,140 @@
+[
+ {
+  "item": "7feff08210",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Claims it is a manual valve with no coil instead of confirming 100 % ED continuous duty."
+ },
+ {
+  "item": "1cb441580f",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Mentions the manual override but casts doubt on opening without power rather than answering yes."
+ },
+ {
+  "item": "ddc4235324",
+  "verdict": "partial",
+  "cites_page": true,
+  "reason": "Gives 59.7 with the right conditions but wrongly says the ET variant is not listed, leaving no clear answer."
+ },
+ {
+  "item": "13d55c5d93",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Confirms flanged ends but omits screwed, butt weld and socket weld options."
+ },
+ {
+  "item": "55aa7def30",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Mentions 4 in and 2.5 in NPT companion connections but does not confirm port sizes or raised face flanges."
+ },
+ {
+  "item": "239c0a3192",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "States 266 psi casing and 250 psi operating up to 100 F."
+ },
+ {
+  "item": "e7f56269cf",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Gives 59.7 at full travel with full-sized trim, equal percentage cage, normal flow."
+ },
+ {
+  "item": "ab7eabc2ff",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "All three with standard cages; special cages linear only."
+ },
+ {
+  "item": "110c07a368",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Flanged available plus butt weld, socket weld and screwed."
+ },
+ {
+  "item": "f5af6c3657",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Kv per DN with water 20 C, 1 bar inlet, free outlet."
+ },
+ {
+  "item": "2669be9d6b",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "24 V DC and 230 V AC versions, must match type plate."
+ },
+ {
+  "item": "31ac36e8c5",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Standard cages all three; Whisper/WhisperFlo/Cavitrol linear."
+ },
+ {
+  "item": "44e30def3b",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Says not in documents although 71 C (160 F) is stated."
+ },
+ {
+  "item": "bcd6abccbe",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Says connection sizes are not stated, declining to confirm 4 in suction / 2.5 in discharge."
+ },
+ {
+  "item": "af4408e8c2",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Gives 266 psi casing but omits 250 psi operating limit up to 37 C."
+ },
+ {
+  "item": "2e437218f7",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Lists cast iron, WCC, LCC, WC9, CF8M, CF3M."
+ },
+ {
+  "item": "f778e44c9a",
+  "verdict": "correct",
+  "cites_page": true,
+  "reason": "Flanged options plus BW, SW and screwed NPS 1-2."
+ },
+ {
+  "item": "58e8bc6466",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Confirms manual override operable without power."
+ },
+ {
+  "item": "1758e8b05f",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Correctly says diagnosis not determinable but wrongly says NPSHr is not given (curve exists)."
+ },
+ {
+  "item": "b1968792d4",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "24 V DC/230 V AC versions, must match installed coil and type plate."
+ },
+ {
+  "item": "3a0918b84a",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Claims the valve needs no power (manual), contradicting the solenoid answer."
+ },
+ {
+  "item": "a177698353",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Confirms a manual override exists."
+ },
+ {
+  "item": "9807db8713",
+  "verdict": "partial",
+  "cites_page": true,
+  "reason": "Says diagnosis not determinable and points to the curve but gives no NPSHr values."
+ }
+]

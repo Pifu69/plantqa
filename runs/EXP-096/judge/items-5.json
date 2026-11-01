@@ -1,0 +1,233 @@
+[
+ {
+  "item": "99478b3602",
+  "gold": {
+   "answer": "A standard centrifugal pump on a basic pedestal (bare shaft), size 4\" x 2 1/2\". The meaning of the model code is not explained.",
+   "answerable": "partial",
+   "category": "value",
+   "must": [
+    "standard centrifugal pump (pedestal)",
+    "4\" x 2 1/2\"",
+    "model code not explained"
+   ],
+   "relation": "downstream",
+   "via_tag": "P-17-4",
+   "question": "Consider the item directly downstream of BV-17-3 in the process flow. What kind of pump is a VGH2 1/2C31-B, and what does the model code tell me?"
+  },
+  "candidate": "The item directly downstream of BV-17-3 is pump P-17-4. According to its datasheet, the VGH2 1/2C31-B is a Standard Centrifugal Pump, size 4\" x 2 1/2\" (102 x 64 mm). The model code identifies the product variant VGH2 1/2C-B, with performance curves such as VGH2 1/2C-B-1 through -8 giving operating conditions for water (specific gravity 1.0) and petroleum (specific gravity 0.80) at various speeds (3450, 2900, 1750, 1450, 1150 rpm at 50/60 Hz), with a 10.20\" impeller (26821-472), some trimmed, and volute 26821-756. It has a mechanical, self-lubricated seal and an enclosed-type, six-vane impeller."
+ },
+ {
+  "item": "ebdf8d05f6",
+  "gold": {
+   "answer": "Vibration effect: less than +/-0.1% of URL when tested per IEC 60770-1:1999 field or pipeline with high vibration level (10-60 Hz 0.21 mm displacement peak amplitude / 60-2000 Hz 3g).",
+   "answerable": "yes",
+   "category": "value",
+   "must": [
+    "< +/-0.1% of URL",
+    "IEC 60770-1:1999 high vibration level",
+    "10-60 Hz 0.21 mm peak / 60-2000 Hz 3g"
+   ],
+   "question": "Regarding FT-11-1 on the P&ID: It's mounted near a compressor with heavy vibration. What vibration limits is it rated for?"
+  },
+  "candidate": "The vibration test limits are 0.21 mm peak displacement amplitude at 10–60 Hz and 3 g acceleration at 60–2000 Hz. These are test levels under IEC 60770-1:1999; the stated vibration effect is less than ±0.1% of URL."
+ },
+ {
+  "item": "8a19f971ef",
+  "gold": {
+   "answer": "Not stated in the document",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "Not stated in the document"
+   ],
+   "relation": "measured_by",
+   "via_tag": "FT-25-1",
+   "question": "Consider the transmitter that measures E-25-1. What torque should the coplanar flange bolts be tightened to?"
+  },
+  "candidate": "Not in the documents. The transmitter measuring E-25-1 is FT-25-1 (a Rosemount 3051). Its datasheet lists bolt material options and bolt sizes (e.g., 3/8-16 and 5/16-18), but does not state a tightening torque for the coplanar flange bolts, so the torque value is not present in the documents."
+ },
+ {
+  "item": "4150a440c2",
+  "gold": {
+   "answer": "Not stated (only this model's dimensions are given).",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated"
+   ],
+   "question": "Regarding P-1-1 on the P&ID: If we replace it with a newer model, does the same footprint and pipe connections fit?"
+  },
+  "candidate": "Not in the documents. The documents describe the current P-1-1 but cannot confirm whether a newer model would fit — that comparison is not stated anywhere. What is stated: P-1-1 (per its datasheet) has 4\" x 2 1/2\" (102 mm x 64 mm) raised-face flange connections as standard, with optional NPT threaded suction/discharge flanges; the discharge flange has 4 x .75 in holes on a 5.50 in bolt circle (or optional 2.50-8 NPT), the suction flange 8 holes on a 7.50 in bolt circle (or optional 4.00-8 NPT); net weight 194 lbs (88 kg), shipping weight 204 lbs (93 kg); base with 4 x .75 in mounting holes and 2 open-end slots of .55 in width. The exact overall footprint dimensions (length/width/height) are printed on the outline drawing on page 2 of the datasheet but are not given as numeric values in the retrieved text. On the P&ID, P-1-1 is connected to pump P-1-4 and check valve CHV-1-1, but the drawing does not state the pipe sizes at those connections. So: the current unit's connection type/sizes and mounting details are documented, but whether a replacement model matches that footprint and those connections is not stated in the documents."
+ },
+ {
+  "item": "c1c7b83940",
+  "gold": {
+   "answer": "HART 4-20 mA: if self-diagnostics detect a sensor or microprocessor failure, the output is driven high or low; the direction is user-selectable with a jumper/switch on the transmitter. Factory default is High alarm unless specified (CT = Rosemount standard low alarm, CN = NAMUR low, C4 = NAMUR high). Levels: default high >= 21.75 mA (>= 22.5 mA with M6, DA1, T9, RK), low <= 3.75 mA; NAMUR >= 22.5 / <= 3.6 mA; custom 20.2-23.0 / 3.6-3.8 mA. Output M: below 0.94 V or above 5.4 V, selectable by internal jumper. F, W, X: failure passed as alert and status.",
+   "answerable": "yes",
+   "category": "conditional",
+   "must": [
+    "high or low, user-selectable by jumper/switch",
+    "default high",
+    "alarm values per standard/NAMUR/custom",
+    "output M internal jumper"
+   ],
+   "relation": "fed_by_transmitter",
+   "via_tag": "FT-10-1",
+   "question": "Consider the transmitter that feeds controller FIC-10-1. When the transmitter fails, does the output go high or low, and how do I change that alarm direction?"
+  },
+  "candidate": "The description does not say whether this transmitter is configured to fail high or low; either direction can be selected. Change the alarm direction using the transmitter’s jumper or switch."
+ },
+ {
+  "item": "2ee69939ba",
+  "gold": {
+   "answer": "368 mm (14.50 in.) for CL300 RF; 384 mm (15.12 in.) for CL300 RTJ (dimension A).",
+   "answerable": "yes",
+   "category": "multi_condition",
+   "must": [
+    "368 mm (RF)",
+    "RTJ differs (384 mm)"
+   ],
+   "relation": "downstream",
+   "via_tag": "PV-1-3",
+   "question": "Consider the item directly downstream of BV-1-2 in the process flow. What's the face-to-face length for a 4 inch Class 300 flanged body?"
+  },
+  "candidate": "Not in the documents. The item directly downstream of BV-1-2 is PV-1-3 (a Fisher ET control valve). Its datasheet's Table 25 (Fisher ET and ETR Dimensions, page 28) contains the face-to-face ('A') dimensions for Class 300 flanged bodies under the 'CL250 RF or CL300 RF' column, but the extracted facts only include NPS 1 (197 mm / 7.75 in.) and NPS 8 (568 mm); no NPS 4 value is stated. So the face-to-face length for a 4 inch Class 300 flanged body is not stated in the documents."
+ },
+ {
+  "item": "d01bf3d2a8",
+  "gold": {
+   "answer": "Cast iron, WCC or LCC carbon steel, WC9 chrome moly steel, CF8M (cast 316 stainless) or CF3M (cast 316L stainless), others on request. Yes, stainless (CF8M / CF3M) is available.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "CF8M / CF3M stainless available",
+    "cast iron, WCC, LCC, WC9"
+   ],
+   "question": "Regarding FV-10-1 on the P&ID: What body materials are available, and can I get stainless for a corrosive service?"
+  },
+  "candidate": "Available body materials are cast iron, WCC or LCC carbon steel, WC9 chrome-moly steel, CF8M cast 316 stainless steel, and CF3M cast 316L stainless steel. Stainless steel is available, but the datasheet does not specifically confirm its suitability for corrosive service."
+ },
+ {
+  "item": "10fbbc353b",
+  "gold": {
+   "answer": "Yes (solenoid). Versions for 24 V DC, 230 V 50/60 Hz and 115 V 50/60 Hz (ordering tables and coil sets say 110 V); tolerance ±10 %. 24 V DC works if you order the 24 V DC version - the voltage must match the type plate.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "24 V DC version exists",
+    "230 V AC version exists",
+    "must match type plate / order the right version"
+   ],
+   "question": "Regarding GV-12-3 on the P&ID: Does it need power? If so, what voltage, and will 24 V DC work, or do I need 230 V AC?"
+  },
+  "candidate": "GV-12-3 is described as a Type 165 2/2-way solenoid valve, so yes, it needs electrical power to operate. The datasheet lists supply voltages of 24V DC, 230V 50/60Hz and 115V 50/60Hz, so 24 V DC will work and you do not need 230 V AC. Variants are available with EPDM or FKM gaskets for each of the 24V DC, 110V AC and 230V AC coil voltages; use the voltage and current type given on the valve's type plate, with a tolerance of ±10%. Power consumption is low: on AC, 20 VA at inrush and 11 VA in operation (5 W on DC); the electrical connection is a cable plug (appliance plug, IP65)."
+ },
+ {
+  "item": "58577f3674",
+  "gold": {
+   "answer": "Not stated in the document.",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated"
+   ],
+   "relation": "downstream",
+   "via_tag": "P-32-2",
+   "question": "Consider the item directly downstream of CHV-3-5 in the process flow. Do I need to fill the casing with liquid before the first start?"
+  },
+  "candidate": "The description does not specify whether the pump casing must be filled with liquid before the first start."
+ },
+ {
+  "item": "3290c8c891",
+  "gold": {
+   "answer": "No. With the low power output code (M), only the Plugged Impulse Line diagnostic is included.",
+   "answerable": "yes",
+   "category": "footnote",
+   "must": [
+    "no",
+    "only Plugged Impulse Line diagnostic"
+   ],
+   "relation": "measured_by",
+   "via_tag": "PT-17-2",
+   "question": "Consider the transmitter that measures E-17-1. If I order the DA1 diagnostics with the low-power 1-5 V output, do I get both Loop Integrity and Plugged Impulse Line diagnostics?"
+  },
+  "candidate": "No, not both. PT-17-2 (the transmitter measuring E-17-1, a Rosemount 3051) offers DA1, which normally includes Loop Integrity and Plugged Impulse Line diagnostics. However, per the datasheet footnote, with the low-power 1-5 V output (output code M) only the Plugged Impulse Line diagnostic is included — Loop Integrity is not available with that output. Loop Integrity with DA1 requires the 4-20 mA HART output (code A)."
+ },
+ {
+  "item": "38d1e42ea2",
+  "gold": {
+   "answer": "Cast iron, WCC or LCC carbon steel, WC9 chrome moly steel, CF8M (cast 316 stainless) or CF3M (cast 316L stainless), others on request. Yes, stainless (CF8M / CF3M) is available.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "CF8M / CF3M stainless available",
+    "cast iron, WCC, LCC, WC9"
+   ],
+   "question": "Regarding FV-10-1 on the P&ID: What body materials are available, and can I get stainless for a corrosive service?"
+  },
+  "candidate": "FV-10-1 is described by a Fisher ET/EAT/ETR control valve bulletin. The available body materials are cast iron, WCC carbon steel or LCC carbon steel, WC9 chrome moly steel, CF8M (cast 316 stainless steel), and CF3M (cast 316L stainless steel), with other materials available upon request. Yes, stainless steel bodies are available — CF8M (316 SS) and CF3M (316L SS) — which suits corrosive service, and optional sour service (NACE MR0175 / ISO 15156 and MR0103) materials are also offered; hardened stainless steel trim is standard and the valves are offered in steel/stainless screwed, welded or flanged constructions."
+ },
+ {
+  "item": "fb86119ffc",
+  "gold": {
+   "answer": "ET: NPS 1, 1-1/2, 2, 2-1/2, 3, 4, 6 and 8 (DN 25-200). NPS 3 is available.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "NPS 1-8 list",
+    "3 in. available"
+   ],
+   "relation": "operated_by",
+   "via_tag": "FV-12-1",
+   "question": "Consider the valve operated by control loop FIC-12-1. What sizes does it come in? Our line is 3 inch."
+  },
+  "candidate": "The valve operated by control loop FIC-12-1 is FV-12-1, a Fisher ET / EAT / ETR globe control valve. It comes in sizes NPS 1, 1-1/2, 2, 2-1/2, 3, 4, 6 and 8 (DN 25, 40, 50, 65, 80, 100, 150 or 200), with the exact available sizes depending on the product variant and end connection — for example, flanged ET bodies span the full range, while socket-weld ET bodies come only in NPS 1, 1-1/2 or 2. Since NPS 3 (DN 80) is among the available sizes, your 3-inch line can be accommodated. Note that the datasheet does not state a specific line size for this installation; line size and schedule must be specified when ordering."
+ },
+ {
+  "item": "60b4ea1585",
+  "gold": {
+   "answer": "No maintenance interval in the datasheet (maintenance only by authorized specialists, per the installation manual).",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated"
+   ],
+   "question": "Regarding GV-12-2 on the P&ID: How often should it be inspected or have the seals changed?"
+  },
+  "candidate": "The datasheet does not state an inspection or seal-change interval. It says maintenance must follow the installation instructions; the interval is not stated."
+ },
+ {
+  "item": "2dd55be4df",
+  "gold": {
+   "answer": "A sliding-stem, single-port globe-style control valve (body) with cage guiding, balanced valve plug and push-down-to-close plug action, for throttling or on-off control of liquids and gases (part of the easy-e family; EAT = angle version, ETR = push-down-to-open). It is combined with an actuator, e.g. 667.",
+   "answerable": "yes",
+   "category": "value",
+   "must": [
+    "globe-style control valve (sliding stem)",
+    "cage-guided, balanced plug"
+   ],
+   "relation": "upstream",
+   "via_tag": "TV-10-2",
+   "question": "Consider the item directly upstream of BV-10-1 in the process flow. What is a Fisher ET? Is it the valve body, and what kind of valve is it?"
+  },
+  "candidate": "The item directly upstream of BV-10-1 is TV-10-2, a globe-style (operated) valve whose datasheet covers the Fisher ET. A Fisher ET is the valve itself — the valve body and its complete valve assembly including trim — not a separate component. It is a single-port, globe-style control valve with cage guiding, a balanced valve plug, and push-down-to-close plug action, part of the Fisher easy-e valve family, used for throttling or on-off control of liquids and gases. (The bulletin also covers the EAT angle-body version and the ETR push-down-to-open variant.)"
+ },
+ {
+  "item": "58d650453d",
+  "gold": {
+   "answer": "Not stated (only this model's dimensions are given).",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated"
+   ],
+   "question": "Regarding P-1-1 on the P&ID: If we replace it with a newer model, does the same footprint and pipe connections fit?"
+  },
+  "candidate": "P-1-1 is a 4 × 2½ in pump with raised-face flanges. Its datasheet gives some connection details and shows mounting dimensions, but the available information omits the full footprint dimensions and does not say whether a newer model will match its footprint and pipe connections. So compatibility is not established by the datasheet."
+ }
+]

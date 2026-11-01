@@ -20,28 +20,38 @@
   ],
   "test": "EXP-020",
   "complex": "EXP-030",
-  "scale": {
-    "small": {
-      "exp": "EXP-060",
+  "scale": [
+    {
+      "exp": "EXP-096",
       "split": "dev+test",
-      "label": "27 lap"
+      "label": "100 lap"
     },
-    "large": {
-      "exp": "EXP-070",
+    {
+      "exp": "EXP-098",
       "split": "dev+test",
-      "label": "98 lap"
+      "label": "1000 lap"
     }
-  },
+  ],
   "large": [
     {
-      "exp": "EXP-060",
-      "label": "27 lapos üzem",
-      "name": "pqb"
+      "exp": "EXP-096",
+      "label": "100 lapos tesztüzem",
+      "name": "p100"
     },
     {
-      "exp": "EXP-070",
-      "label": "98 lapos üzem",
-      "name": "pqc"
+      "exp": "EXP-098",
+      "label": "1000 lapos tesztüzem",
+      "name": "p1000"
+    }
+  ],
+  "complex_scale": [
+    {
+      "exp": "EXP-097",
+      "label": "100 lap"
+    },
+    {
+      "exp": "EXP-099",
+      "label": "1000 lap"
     }
   ]
 }

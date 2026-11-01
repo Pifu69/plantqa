@@ -1,0 +1,242 @@
+[
+ {
+  "item": "c94e2a2645",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "P-14-2 values right and its analysis shows P-14-2 lowest in both cases, but it hedges that the lowest cannot be stated definitively."
+ },
+ {
+  "item": "f595fd1fd4",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Says no maximum pressure is stated for either item although gold gives 250/266 psi and PN 6 bar."
+ },
+ {
+  "item": "7760b32239",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "GV-1-2 6 bar, E-1-2 10.3/16.0 barg, GV-1-2 lowest, all as gold."
+ },
+ {
+  "item": "f3666bf3aa",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Declares the exchangers definitively lowest whereas gold says the comparison cannot be decided; check valve dependence omitted."
+ },
+ {
+  "item": "225b34b922",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "No answer (step limit)."
+ },
+ {
+  "item": "4aebf263b1",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Declares the exchangers definitively lowest whereas gold says it cannot be decided; ball valve values invented as 19.8 bar."
+ },
+ {
+  "item": "0aae0ca844",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Wrongly identifies both items as LV-17-1 and gives no values."
+ },
+ {
+  "item": "19aaa3f125",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Says pressures not stated although gold gives values and P-14-2 as lowest."
+ },
+ {
+  "item": "fe9816a732",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "P-9-2 250/266 psi, GV-1-6 6 bar, GV-1-6 lowest, as gold."
+ },
+ {
+  "item": "8f7e0b0d11",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Correctly says comparison not possible and LV-17-1 depends on class, but omits P-10-3's 266 psi casing pressure."
+ },
+ {
+  "item": "8267704eda",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "No answer (step limit)."
+ },
+ {
+  "item": "1329c38f11",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "P-14-2 160F and P-14-2 lowest correct, but TV-14-1 lower seat-dependent values (80/90/230 C) omitted."
+ },
+ {
+  "item": "310e25cd35",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Picks GV valves as lowest and claims pump/exchanger ratings not stated; gold says not decidable with stated values."
+ },
+ {
+  "item": "9ca1046130",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Says only CHV-7-1 has a stated value; misses E-7-4 as lowest."
+ },
+ {
+  "item": "581479da9b",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "No answer (step limit)."
+ },
+ {
+  "item": "fd7cd59395",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Says values not stated although gold gives GV-1-2 6 bar and E-1-2 ratings."
+ },
+ {
+  "item": "6fba94d234",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Says not in documents although gold gives values and P-14-2 as lowest."
+ },
+ {
+  "item": "1f1184c761",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Claims all path values not stated; gives none of the gold values."
+ },
+ {
+  "item": "fcdaee4785",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "GV-2-4 6 bar and lowest correct, but omits P-2-2's 266 psi casing pressure."
+ },
+ {
+  "item": "48958f4e0c",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "No answer (step limit)."
+ },
+ {
+  "item": "f92aed7d2a",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Says no temperatures stated although gold gives them."
+ },
+ {
+  "item": "d362476410",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Omits most path items, names P-2-1 lowest, contradicting gold (not decidable)."
+ },
+ {
+  "item": "75d1a425d0",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "GV-2-4 6 bar and lowest correct, but omits P-2-2's 266 psi casing pressure."
+ },
+ {
+  "item": "f434d26cf7",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "LV-8-1 lowest correct, but LV-8-1 Class 150 values and CHV-4-3 construction-dependent values omitted."
+ },
+ {
+  "item": "6c34f79b23",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Says pump rating not stated although gold gives P-10-3 250/266 psi."
+ },
+ {
+  "item": "7982a674bc",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Names pumps (71 C) as definitively lowest and omits BV-5-2, contradicting gold's not-decidable conclusion."
+ },
+ {
+  "item": "19e541294b",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "No answer (step limit)."
+ },
+ {
+  "item": "6c6243fcaa",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "LV-8-1 lowest with 20-52 bar construction-dependent range and CHV-4-3 construction-dependent ratings, matching gold."
+ },
+ {
+  "item": "5be037f7ad",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "P-2-2 250/266 psi, GV-2-4 6 bar lowest, as gold."
+ },
+ {
+  "item": "273644c57f",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Says values not stated although gold gives them and GV-1-6 as lowest."
+ },
+ {
+  "item": "b2122fc3cc",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "No answer (step limit)."
+ },
+ {
+  "item": "bf0912b049",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Names check valves at 6000 psig as lowest and says others not stated; contradicts gold."
+ },
+ {
+  "item": "cd55109238",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Names check valves at 6000 psig as lowest and says others not stated; contradicts gold."
+ },
+ {
+  "item": "ef7c191c02",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "P-14-2 values right and pump identified as lowest firm value, but hedges that lowest cannot be confirmed, whereas gold says P-14-2 lowest for every construction."
+ },
+ {
+  "item": "b5d4522c96",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "No answer (parse failure)."
+ },
+ {
+  "item": "1c38e91172",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "No answer (step limit)."
+ },
+ {
+  "item": "623844bb4b",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Misidentifies GV-2-4 datasheet and says values not stated; gold gives values and GV-2-4 lowest."
+ },
+ {
+  "item": "e4b0675b3f",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Says not in documents although gold gives all temperatures."
+ },
+ {
+  "item": "79fcd9d3f3",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "GV-1-6 6 bar and lowest correct, but omits P-9-2's 266 psi casing pressure."
+ },
+ {
+  "item": "1b19e8b295",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Values largely right and conclusion that Flowserve valves leave it undecided matches gold, but Flowserve chart values and check valve construction dependence omitted."
+ }
+]

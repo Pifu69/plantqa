@@ -16,8 +16,8 @@ import pymupdf
 
 ROOT = Path(__file__).resolve().parents[2]
 LEDGER = ROOT / "logs" / "koltseg.jsonl"
-TOTAL_CAP_USD = 20.0
-NEW_RUN_STOP_USD = 18.0
+TOTAL_CAP_USD = 25.0
+NEW_RUN_STOP_USD = 23.0
 AZURE_LAYOUT_USD_PER_PAGE = 0.01
 """Az Azure DI prebuilt-layout listaára (10 USD / 1000 oldal), ahogy a plantdocs EXP-0038 számol."""
 

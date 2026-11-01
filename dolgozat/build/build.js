@@ -8,7 +8,7 @@ let listInstance = 0;
 const path = require("path");
 const {
   AlignmentType, Document, Footer, HeadingLevel, ImageRun, LevelFormat, Packer,
-  PageBreak, PageNumber, Paragraph, ShadingType, Table, TableCell, TableOfContents, TableRow,
+  PageBreak, PageNumber, Paragraph, ShadingType, Tab, Table, TableCell, TableOfContents, TableRow,
   TextRun, WidthType,
 } = require("docx");
 
@@ -35,20 +35,54 @@ function numbered(level, text) {
   return text;
 }
 
+// Hivatkozások: a szövegben [KULCS] vagy [K1, K2] (egymás után vesszővel is: [K1], [K2]);
+// a kimenetben felső indexes sorszám az Irodalomjegyzék (08-irodalom.md) sorrendje szerint.
+const BIB = new Map(); // kulcs -> sorszám
+const UNKNOWN_KEYS = new Set();
+// Kulcsnak csak betűvel kezdődő, szóköz nélküli azonosító számít (így a [0,133; 0,400]
+// intervallum és a [szöveg](link) markdown-hivatkozás nem cserélődik).
+const KEY = String.raw`[A-Za-z][A-Za-z0-9\-]*`;
+const CITE_GROUP = String.raw`\[(?:${KEY})(?:\s*,\s*(?:${KEY}))*\](?!\()`;
+const CITE_RE = new RegExp(String.raw`\s?${CITE_GROUP}(?:\s*,\s*${CITE_GROUP})*`, "g");
+
+function loadBib() {
+  const md = fs.readFileSync(path.join(SRC, "08-irodalom.md"), "utf8").replace(/\r/g, "");
+  for (const line of md.split("\n")) {
+    const m = line.match(/^- \[([^\]]+)\] /);
+    if (m) BIB.set(m[1], BIB.size + 1);
+  }
+}
+
+function citeRuns(text, base) {
+  // egy kódjelölés nélküli szövegrész futásai, a hivatkozásokat felső indexre cserélve
+  const out = [];
+  let last = 0;
+  for (const m of text.matchAll(CITE_RE)) {
+    const keys = [...m[0].matchAll(/[^\s\[\],]+/g)].map((k) => k[0]);
+    if (!keys.every((k) => BIB.has(k))) { keys.filter((k) => !BIB.has(k)).forEach((k) => UNKNOWN_KEYS.add(k)); continue; }
+    if (m.index > last) out.push(new TextRun({ text: text.slice(last, m.index), ...base }));
+    const nums = [...new Set(keys.map((k) => BIB.get(k)))].sort((a, b) => a - b);
+    out.push(new TextRun({ text: nums.join(","), superScript: true, ...base }));
+    last = m.index + m[0].length;
+  }
+  if (last < text.length) out.push(new TextRun({ text: text.slice(last), ...base }));
+  return out;
+}
+
 function runs(text, base = {}) {
   // **félkövér**, *dőlt*, `kód` beágyazott jelölés futásokra bontva
   const out = [];
   const re = /(\*\*[^*]+\*\*|\*[^*]+\*|`[^`]+`)/g;
   let last = 0;
   for (const m of text.matchAll(re)) {
-    if (m.index > last) out.push(new TextRun({ text: text.slice(last, m.index), ...base }));
+    if (m.index > last) out.push(...citeRuns(text.slice(last, m.index), base));
     const t = m[0];
-    if (t.startsWith("**")) out.push(new TextRun({ text: t.slice(2, -2), bold: true, ...base }));
+    if (t.startsWith("**")) out.push(...citeRuns(t.slice(2, -2), { bold: true, ...base }));
     else if (t.startsWith("`")) out.push(new TextRun({ text: t.slice(1, -1), font: "Consolas", size: 19, ...base }));
-    else out.push(new TextRun({ text: t.slice(1, -1), italics: true, ...base }));
+    else out.push(...citeRuns(t.slice(1, -1), { italics: true, ...base }));
     last = m.index + t.length;
   }
-  if (last < text.length) out.push(new TextRun({ text: text.slice(last), ...base }));
+  if (last < text.length) out.push(...citeRuns(text.slice(last), base));
   return out;
 }
 
@@ -136,6 +170,13 @@ function chapter(md) {
     const img = line.match(/^!\[(.*)\]\((.*)\)\s*$/);
     if (img) { out.push(...image(img[2], img[1])); i += 1; continue; }
     if (line.startsWith("```")) { const [code, next] = codeBlock(lines, i); out.push(...code); i = next; continue; }
+    const bib = line.match(/^- \[([^\]]+)\] (.*)$/);
+    if (bib && BIB.has(bib[1])) {
+      // irodalomjegyzéki tétel: [n] sorszámmal, függő behúzással
+      out.push(new Paragraph({ children: [new TextRun({ children: [`[${BIB.get(bib[1])}]`, new Tab()] }), ...runs(bib[2])],
+        spacing: { after: 60 }, indent: { left: 560, hanging: 560 }, tabStops: [{ type: "left", position: 560 }] }));
+      prevNumbered = false; i += 1; continue;
+    }
     if (/^(- |\d+\. )/.test(line)) {
       // Listaelem: a behúzott folytatósorok ugyanahhoz az elemhez tartoznak.
       let text = line.replace(/^(- |\d+\. )/, "");
@@ -205,6 +246,7 @@ function numbering() {
 
 function main() {
   const meta = JSON.parse(fs.readFileSync(path.join(SRC, "meta.json"), "utf8"));
+  loadBib();
   const chapters = fs.readdirSync(SRC).filter((f) => /^\d\d-.*\.md$/.test(f)).sort();
   const body = chapters.flatMap((f) => chapter(fs.readFileSync(path.join(SRC, f), "utf8")));
   const footer = new Footer({ children: [new Paragraph({ alignment: AlignmentType.CENTER,
@@ -226,7 +268,8 @@ function main() {
   });
   Packer.toBuffer(doc).then((buf) => {
     fs.writeFileSync(OUT, buf);
-    console.log(`written ${OUT}: ${figureNo} figures, ${tableNo} tables`);
+    console.log(`written ${OUT}: ${figureNo} figures, ${tableNo} tables, ${BIB.size} references`);
+    if (UNKNOWN_KEYS.size) console.log(`ismeretlen hivatkozási kulcsok: ${[...UNKNOWN_KEYS].join(", ")}`);
   });
 }
 

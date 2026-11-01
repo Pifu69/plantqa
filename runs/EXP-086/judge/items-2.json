@@ -1,0 +1,617 @@
+[
+ {
+  "item": "9a1e2940b6",
+  "gold": {
+   "answer": "Bare pump (no motor): length 25.95 in. (659 mm), height 18.88 in. (480 mm), width 14.20 in. (361 mm); net weight 194 lb (88 kg), shipping 204 lb (93 kg). The pump alone fits on 1 m × 0.6 m; with a motor and coupling it cannot be said from the document.",
+   "answerable": "partial",
+   "category": "conditional",
+   "must": [
+    "659 × 361 × 480 mm (approx.)",
+    "88 kg net",
+    "motor not included"
+   ],
+   "relation": "upstream",
+   "via_tag": "P-10-3",
+   "question": "Consider the item directly upstream of BV-10-2 in the process flow. What are the overall dimensions and weight? Will it fit on a 1 m by 0.6 m base?"
+  },
+  "candidate": "Not in the documents. The item directly upstream of BV-10-2 is pump P-10-3 (on sheet 4, line PG-261, P-10-3 sends flow to BV-10-2). P-10-3 is a centrifugal pump, which would be covered by the gorman-rupp-0700286 datasheet, but no excerpt from that datasheet is provided in the retrieved documents, so its overall dimensions and weight are not stated. Therefore it cannot be determined from the given documents whether it fits on a 1 m by 0.6 m base."
+ },
+ {
+  "item": "d03d6ffe84",
+  "gold": {
+   "answer": "Standard cages: quick-opening, linear or equal percentage. Whisper Trim, WhisperFlo and Cavitrol cages: linear only.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "all three with standard cage",
+    "special cages linear only"
+   ],
+   "question": "Regarding FV-12-1 on the P&ID: What flow characteristics can I get: equal percentage, linear, quick opening?"
+  },
+  "candidate": "The datasheet says standard cages allow quick-opening, linear, or equal-percentage flow; Whisper Trim, WhisperFlo, and Cavitrol cages are specified as linear. It does not state which cage is installed in FV-12-1."
+ },
+ {
+  "item": "e58502e8bb",
+  "gold": {
+   "answer": "Vibration effect: less than +/-0.1% of URL when tested per IEC 60770-1:1999 field or pipeline with high vibration level (10-60 Hz 0.21 mm displacement peak amplitude / 60-2000 Hz 3g).",
+   "answerable": "yes",
+   "category": "value",
+   "must": [
+    "< +/-0.1% of URL",
+    "IEC 60770-1:1999 high vibration level",
+    "10-60 Hz 0.21 mm peak / 60-2000 Hz 3g"
+   ],
+   "question": "Regarding FT-11-1 on the P&ID: It's mounted near a compressor with heavy vibration. What vibration limits is it rated for?"
+  },
+  "candidate": "FT-11-1 (a Rosemount 3051 flow transmitter) has no stated maximum vibration limit it can withstand. Its datasheet gives only a vibration effect specification: under vibration the measurement shifts by less than ±0.1% of URL when tested per IEC 60770-1:1999 for \"field or pipeline with high vibration level\" — test levels of 0.21 mm displacement peak amplitude (10–60 Hz) and 3 g acceleration (60–2000 Hz). A separate survival/endurance vibration rating is not stated in the datasheet."
+ },
+ {
+  "item": "851612d66e",
+  "gold": {
+   "answer": "Flanged is available (CL125 FF / CL250 RF cast iron; CL150/300/600 RF or RTJ steel; EN PN16-100), as well as screwed (NPS 1-2), butt weld and socket weld.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "flanged yes",
+    "also screwed, BW, SW"
+   ],
+   "question": "Regarding FV-11-1 on the P&ID: Can I get it with flanged ends, or only buttweld or screwed?"
+  },
+  "candidate": "Yes. Flanged ends are available; the options depend on valve type, size, and body material. Buttweld and screwed ends are also available for some configurations."
+ },
+ {
+  "item": "f77ad24605",
+  "gold": {
+   "answer": "Standard cages: quick-opening, linear or equal percentage. Whisper Trim, WhisperFlo and Cavitrol cages: linear only.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "all three with standard cage",
+    "special cages linear only"
+   ],
+   "question": "Regarding FV-12-1 on the P&ID: What flow characteristics can I get: equal percentage, linear, quick opening?"
+  },
+  "candidate": "FV-12-1 is a Fisher ET/EAT/ETR easy-e valve, and all three characteristics are available. With standard cages, the flow characteristics are quick-opening, linear or equal percentage. With Whisper Trim, WhisperFlo and Cavitrol cages, the characteristic is linear. For the ET Trim Cartridge versions (NPS 1-4, bonnet WCC/LCC/CF8M), the characteristic is equal percent or linear."
+ },
+ {
+  "item": "1360bb7fc2",
+  "gold": {
+   "answer": "Flanged is available (CL125 FF / CL250 RF cast iron; CL150/300/600 RF or RTJ steel; EN PN16-100), as well as screwed (NPS 1-2), butt weld and socket weld.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "flanged yes",
+    "also screwed, BW, SW"
+   ],
+   "question": "Regarding FV-11-1 on the P&ID: Can I get it with flanged ends, or only buttweld or screwed?"
+  },
+  "candidate": "Yes — per the description retrieved for FV-11-1 (a Fisher ET/EAT/ETR globe control valve), flanged end connections are available in addition to buttweld and screwed ends. The available-constructions table (Table 3, page 5) lists CL125 FF flanged, CL250 RF flanged, RF or RTJ flanged CL150/300/600, PN16–PN100 EN flanges, as well as screwed, buttweld, and socket weld ends. The description does not, however, state which end connection this specific installed valve actually has."
+ },
+ {
+  "item": "9ab9d23cab",
+  "gold": {
+   "answer": "Bare pump (no motor): length 25.95 in. (659 mm), height 18.88 in. (480 mm), width 14.20 in. (361 mm); net weight 194 lb (88 kg), shipping 204 lb (93 kg). The pump alone fits on 1 m × 0.6 m; with a motor and coupling it cannot be said from the document.",
+   "answerable": "partial",
+   "category": "conditional",
+   "must": [
+    "659 × 361 × 480 mm (approx.)",
+    "88 kg net",
+    "motor not included"
+   ],
+   "relation": "upstream",
+   "via_tag": "P-10-3",
+   "question": "Consider the item directly upstream of BV-10-2 in the process flow. What are the overall dimensions and weight? Will it fit on a 1 m by 0.6 m base?"
+  },
+  "candidate": "The item upstream is P-10-3. The specification lists a net weight of 194 lb (88 kg) and shipping weight of 204 lb (93 kg), but does not provide its overall dimensions, so whether it will fit on a 1 m by 0.6 m base cannot be determined."
+ },
+ {
+  "item": "bf35f0c9e9",
+  "gold": {
+   "answer": "Vibration effect: less than +/-0.1% of URL when tested per IEC 60770-1:1999 field or pipeline with high vibration level (10-60 Hz 0.21 mm displacement peak amplitude / 60-2000 Hz 3g).",
+   "answerable": "yes",
+   "category": "value",
+   "must": [
+    "< +/-0.1% of URL",
+    "IEC 60770-1:1999 high vibration level",
+    "10-60 Hz 0.21 mm peak / 60-2000 Hz 3g"
+   ],
+   "question": "Regarding FT-11-1 on the P&ID: It's mounted near a compressor with heavy vibration. What vibration limits is it rated for?"
+  },
+  "candidate": "The datasheet lists vibration test levels of 0.21 mm peak displacement at 10–60 Hz and 3 g acceleration at 60–2000 Hz. The vibration effect under this test is less than ±0.1% of URL. These are test levels, not a separate rating specifically identified for FT-11-1."
+ },
+ {
+  "item": "b7450771e6",
+  "gold": {
+   "answer": "Suction 4\" (102 mm), discharge 2 1/2\" (64 mm), raised face flanges; so yes, 2 1/2\" is the discharge. Suction flange 8 holes 0.75\" on 7.50\" bolt circle, discharge 4 holes 0.75\" on 5.50\" bolt circle; optional NPT companion flanges.",
+   "answerable": "yes",
+   "category": "value",
+   "must": [
+    "suction 4\"",
+    "discharge 2 1/2\"",
+    "raised face flanges"
+   ],
+   "question": "Regarding P-1-3 on the P&ID: What size are the suction and discharge connections? Is the '2 1/2' the port size?"
+  },
+  "candidate": "P-1-3 is a 4\" x 2 1/2\" (102 x 64 mm) pump with raised face flanges: the suction connection is 4\" and the discharge is 2 1/2\". So yes, the 2 1/2 is the discharge port size only, not the whole pump size — the suction is 4\". Optional NPT companion flanges are available (4.00-8 NPT suction, 2.50-8 NPT discharge)."
+ },
+ {
+  "item": "d69200552d",
+  "gold": {
+   "answer": "Yes (solenoid). Versions for 24 V DC, 230 V 50/60 Hz and 115 V 50/60 Hz (ordering tables and coil sets say 110 V); tolerance ±10 %. 24 V DC works if you order the 24 V DC version - the voltage must match the type plate.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "24 V DC version exists",
+    "230 V AC version exists",
+    "must match type plate / order the right version"
+   ],
+   "question": "Regarding GV-12-3 on the P&ID: Does it need power? If so, what voltage, and will 24 V DC work, or do I need 230 V AC?"
+  },
+  "candidate": "The datasheet lists 24 V DC, 230 V AC (50/60 Hz), and 115 V AC (50/60 Hz) as supply options, with a ±10% voltage tolerance. It does not identify which option applies specifically to GV-12-3; check the voltage and current type on its type plate. So 24 V DC is a listed option, but the documents don’t confirm it is the one for this valve."
+ },
+ {
+  "item": "2dc27e3fdb",
+  "gold": {
+   "answer": "HART 4-20 mA: if self-diagnostics detect a sensor or microprocessor failure, the output is driven high or low; the direction is user-selectable with a jumper/switch on the transmitter. Factory default is High alarm unless specified (CT = Rosemount standard low alarm, CN = NAMUR low, C4 = NAMUR high). Levels: default high >= 21.75 mA (>= 22.5 mA with M6, DA1, T9, RK), low <= 3.75 mA; NAMUR >= 22.5 / <= 3.6 mA; custom 20.2-23.0 / 3.6-3.8 mA. Output M: below 0.94 V or above 5.4 V, selectable by internal jumper. F, W, X: failure passed as alert and status.",
+   "answerable": "yes",
+   "category": "conditional",
+   "must": [
+    "high or low, user-selectable by jumper/switch",
+    "default high",
+    "alarm values per standard/NAMUR/custom",
+    "output M internal jumper"
+   ],
+   "relation": "fed_by_transmitter",
+   "via_tag": "FT-10-1",
+   "question": "Consider the transmitter that feeds controller FIC-10-1. When the transmitter fails, does the output go high or low, and how do I change that alarm direction?"
+  },
+  "candidate": "The configured failure direction is not specified, so it cannot be determined whether this transmitter goes high or low on failure. The direction is selectable using the transmitter’s jumper or switch."
+ },
+ {
+  "item": "f5cab0b2d7",
+  "gold": {
+   "answer": "Diagnosis is not in the document. NPSH required (10.20 in. impeller) from the curves: at 1450 rpm about 1 m at low flow rising to about 2.5 m at the end of the range; at 2900 rpm up to about 3.5-4 m.",
+   "answerable": "partial",
+   "category": "chart",
+   "must": [
+    "diagnosis not stated",
+    "NPSHr from curve (speed dependent)"
+   ],
+   "tolerance": "1450 rpm: 0.5-3 m; 2900 rpm max 3-4.5 m",
+   "question": "Regarding P-1-4 on the P&ID: Flow has dropped off a lot and it's noisy. Could it be cavitation, and what NPSH does it need?"
+  },
+  "candidate": "The P&ID identifies P-1-4 as a centrifugal pump, and the Gorman-Rupp excerpts are pump curve-data pages. They do not state whether P-1-4 is cavitating or give its required NPSH."
+ },
+ {
+  "item": "64d51df980",
+  "gold": {
+   "answer": "Yes (solenoid). Versions for 24 V DC, 230 V 50/60 Hz and 115 V 50/60 Hz (ordering tables and coil sets say 110 V); tolerance ±10 %. 24 V DC works if you order the 24 V DC version - the voltage must match the type plate.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "24 V DC version exists",
+    "230 V AC version exists",
+    "must match type plate / order the right version"
+   ],
+   "question": "Regarding GV-12-3 on the P&ID: Does it need power? If so, what voltage, and will 24 V DC work, or do I need 230 V AC?"
+  },
+  "candidate": "Yes, GV-12-3 is a solenoid valve and needs electrical power for its coil. The datasheet specifies supply voltages of 24 V DC, 115 V AC (50/60 Hz), and 230 V AC (50/60 Hz), with a ±10% voltage tolerance and continuous (100% ED) rating; a DIN EN 175301-803 form A cable plug is included. So 24 V DC will work — 230 V AC is only needed if you choose the 230 V AC coil variant."
+ },
+ {
+  "item": "6d7caaf2c7",
+  "gold": {
+   "answer": "Cv 59.7 at maximum plug travel for the NPS 2 ET with full-sized trim, equal percentage cage, normal flow direction (EAT NPS 2: 48.1 with liner, 47.2 without).",
+   "answerable": "yes",
+   "category": "conditional",
+   "must": [
+    "59.7",
+    "full-sized trim, equal percentage cage, normal flow"
+   ],
+   "question": "Regarding FV-16-2 on the P&ID: What's the Cv at full open for a 2 inch valve?"
+  },
+  "candidate": "For FV-16-2, the Fisher ET datasheet lists a full-open Cv of 59.7 for a 2-inch valve with full-sized trim."
+ },
+ {
+  "item": "a4d27f46f3",
+  "gold": {
+   "answer": "Yes (solenoid). Versions for 24 V DC, 230 V 50/60 Hz and 115 V 50/60 Hz (ordering tables and coil sets say 110 V); tolerance ±10 %. 24 V DC works if you order the 24 V DC version - the voltage must match the type plate.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "24 V DC version exists",
+    "230 V AC version exists",
+    "must match type plate / order the right version"
+   ],
+   "question": "Regarding GV-12-3 on the P&ID: Does it need power? If so, what voltage, and will 24 V DC work, or do I need 230 V AC?"
+  },
+  "candidate": "GV-12-3 is covered by the Georg Fischer Type 165 2/2-way solenoid valve datasheet, so it is an electrically actuated (solenoid) valve and does need power. The datasheet states the valve is available with supply voltages of 24 V DC, 230 V 50/60 Hz, or 115 V 50/60 Hz (voltage tolerance ±10%). Both 24 V DC and 230 V AC are offered variants of the valve, so 24 V DC will work if the 24 V DC version is installed; however, the documents do not state which voltage variant GV-12-3 specifically is, so whether you need 230 V AC or 24 V DC for this particular tag cannot be determined from the provided documents."
+ },
+ {
+  "item": "b52632f72a",
+  "gold": {
+   "answer": "A standard centrifugal pump on a basic pedestal (bare shaft), size 4\" x 2 1/2\". The meaning of the model code is not explained.",
+   "answerable": "partial",
+   "category": "value",
+   "must": [
+    "standard centrifugal pump (pedestal)",
+    "4\" x 2 1/2\"",
+    "model code not explained"
+   ],
+   "relation": "downstream",
+   "via_tag": "P-17-4",
+   "question": "Consider the item directly downstream of BV-17-3 in the process flow. What kind of pump is a VGH2 1/2C31-B, and what does the model code tell me?"
+  },
+  "candidate": "The item directly downstream of BV-17-3 is pump P-17-4, whose datasheet identifies it as a Standard Centrifugal Pump, model VGH2 1/2C31-B, size 4\" x 2 1/2\" — meaning a centrifugal pump with 102 mm (4\") nominal suction and 64 mm (2 1/2\") discharge raised-face flanges. The datasheet does not provide a letter-by-letter breakdown of the model code, so what VGH2, 1/2C, 31 and -B stand for is not stated. What can be inferred from the document: the curves are titled VGH2 1/2C-B and list volute part number 26821-756 and impeller part number 26821-472; the impeller is trimmed (diameters from 10.20\" down to 8.25\") with curves for water and petroleum (specific gravity 0.80) at 50/60 Hz and 1150–3450 RPM. Materials and options given are a ductile iron casing, an enclosed six-vane Gray Iron 40 impeller handling 12 mm spherical solids, Gray Iron 25/Steel 1045/Nitrile Rubber for other parts, open cylindrical roller and double-row ball bearings on SAE 30 non-detergent oil, optional NPT flanges, strainer and seals, standard bypass flush piping and bearing-housing oiler, with maximum casing pressure 266 psi and maximum operating pressure 250 psi at up to 100°F."
+ },
+ {
+  "item": "95ecd1b175",
+  "gold": {
+   "answer": "HART 4-20 mA: if self-diagnostics detect a sensor or microprocessor failure, the output is driven high or low; the direction is user-selectable with a jumper/switch on the transmitter. Factory default is High alarm unless specified (CT = Rosemount standard low alarm, CN = NAMUR low, C4 = NAMUR high). Levels: default high >= 21.75 mA (>= 22.5 mA with M6, DA1, T9, RK), low <= 3.75 mA; NAMUR >= 22.5 / <= 3.6 mA; custom 20.2-23.0 / 3.6-3.8 mA. Output M: below 0.94 V or above 5.4 V, selectable by internal jumper. F, W, X: failure passed as alert and status.",
+   "answerable": "yes",
+   "category": "conditional",
+   "must": [
+    "high or low, user-selectable by jumper/switch",
+    "default high",
+    "alarm values per standard/NAMUR/custom",
+    "output M internal jumper"
+   ],
+   "relation": "fed_by_transmitter",
+   "via_tag": "FT-10-1",
+   "question": "Consider the transmitter that feeds controller FIC-10-1. When the transmitter fails, does the output go high or low, and how do I change that alarm direction?"
+  },
+  "candidate": "The transmitter feeding FIC-10-1 is FT-10-1 (a Rosemount 3051, HART 4-20 mA version). It has no fixed failure direction: on a detected sensor or microprocessor failure the 4-20 mA signal is driven either high or low, and which of the two applies is user-selectable via a jumper/switch on the transmitter [p. 88]. The alarm levels depend on the configuration: standard default is high ≥ 21.75 mA and low ≤ 3.75 mA, NAMUR-compliant (option codes C4/CN) is high ≥ 22.5 mA and low ≤ 3.6 mA, and custom levels (option codes CR/CS, or CT for standard low) can be set at ordering time within 20.2–23.0 mA high and 3.6–3.8 mA low. To change the alarm direction you use that jumper/switch on the transmitter, but the available facts do not describe the step-by-step procedure for doing so."
+ },
+ {
+  "item": "1b54741da2",
+  "gold": {
+   "answer": "Cast iron, WCC or LCC carbon steel, WC9 chrome moly steel, CF8M (cast 316 stainless) or CF3M (cast 316L stainless), others on request. Yes, stainless (CF8M / CF3M) is available.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "CF8M / CF3M stainless available",
+    "cast iron, WCC, LCC, WC9"
+   ],
+   "question": "Regarding FV-10-1 on the P&ID: What body materials are available, and can I get stainless for a corrosive service?"
+  },
+  "candidate": "FV-10-1 is covered by the Fisher ET valve datasheet (fisher-et-d100022x012). Its Table 15 lists the available body/bonnet materials as cast iron, CF3M (316L stainless steel), CF8M (316 stainless steel), LCC steel, WCC steel, and WC9 chrome moly steel. Yes, stainless steel bodies are available: CF8M (316 stainless steel) and CF3M (316L stainless steel), which are suitable choices for corrosive service; the datasheet also notes CF3M/CF8M bodies use SA-193-B7 studs and SA-194-2H nuts as standard bolting."
+ },
+ {
+  "item": "b5fd99695d",
+  "gold": {
+   "answer": "Yes (solenoid). Versions for 24 V DC, 230 V 50/60 Hz and 115 V 50/60 Hz (ordering tables and coil sets say 110 V); tolerance ±10 %. 24 V DC works if you order the 24 V DC version - the voltage must match the type plate.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "24 V DC version exists",
+    "230 V AC version exists",
+    "must match type plate / order the right version"
+   ],
+   "question": "Regarding GV-12-3 on the P&ID: Does it need power? If so, what voltage, and will 24 V DC work, or do I need 230 V AC?"
+  },
+  "candidate": "GV-12-3 is described as a Type 165 2/2-way solenoid valve, so yes, it needs electrical power. The documentation lists available supply voltages of 24V DC, 230V AC 50/60Hz, and 115V AC 50/60Hz, with a voltage tolerance of ±10%. So 24 V DC will work — you do not need 230 V AC; either is acceptable depending on which coil variant is fitted. Note power consumption is 5 W (DC) or about 20 VA inrush / 11 VA (5 W) holding for AC, connection is via a cable plug (IP65), and you should match the voltage/current type marked on the type plate."
+ },
+ {
+  "item": "3cf8967c76",
+  "gold": {
+   "answer": "HART 4-20 mA: if self-diagnostics detect a sensor or microprocessor failure, the output is driven high or low; the direction is user-selectable with a jumper/switch on the transmitter. Factory default is High alarm unless specified (CT = Rosemount standard low alarm, CN = NAMUR low, C4 = NAMUR high). Levels: default high >= 21.75 mA (>= 22.5 mA with M6, DA1, T9, RK), low <= 3.75 mA; NAMUR >= 22.5 / <= 3.6 mA; custom 20.2-23.0 / 3.6-3.8 mA. Output M: below 0.94 V or above 5.4 V, selectable by internal jumper. F, W, X: failure passed as alert and status.",
+   "answerable": "yes",
+   "category": "conditional",
+   "must": [
+    "high or low, user-selectable by jumper/switch",
+    "default high",
+    "alarm values per standard/NAMUR/custom",
+    "output M internal jumper"
+   ],
+   "relation": "fed_by_transmitter",
+   "via_tag": "FT-10-1",
+   "question": "Consider the transmitter that feeds controller FIC-10-1. When the transmitter fails, does the output go high or low, and how do I change that alarm direction?"
+  },
+  "candidate": "The transmitter feeding FIC-10-1 is FT-10-1, which is covered by the Rosemount 3051 datasheet (00813-0100-4001). Per that datasheet, when self-diagnostics detect a sensor or microprocessor failure, the analog signal is driven either high or low to alert the user; the default is a high alarm (≥ 21.75 mA, or ≥ 22.5 mA in the NAMUR-compliant configuration, versus ≤ 3.75 mA / ≤ 3.6 mA for a low alarm). The alarm direction is user-selectable with a jumper/switch on the transmitter, and the alarm levels can be ordered/configured via the alarm-levels option codes: C4 (NAMUR alarm high), CN (NAMUR alarm low), CR/CS (custom high/low alarm and saturation levels, requiring option code C1), or CT (Rosemount standard low alarm). Note the datasheet states the alarm levels option is only available with the HART 4–20 mA output (code A)."
+ },
+ {
+  "item": "ebfc032080",
+  "gold": {
+   "answer": "Yes, a service-friendly, robust manual override (part 10).",
+   "answerable": "yes",
+   "category": "value",
+   "must": [
+    "yes, manual override"
+   ],
+   "question": "Regarding GV-12-2 on the P&ID: Is there a manual override so I can open it without power?"
+  },
+  "candidate": "Yes. GV-12-2 is a globe valve on sheet 58, and its datasheet is the GFPS Type 165 2/2-way solenoid valve datasheet, which lists a manual override as part of the product description (item 10) and describes it as a 'service-friendly, robust manual override.'"
+ },
+ {
+  "item": "5f01d66db8",
+  "gold": {
+   "answer": "Bare pump (no motor): length 25.95 in. (659 mm), height 18.88 in. (480 mm), width 14.20 in. (361 mm); net weight 194 lb (88 kg), shipping 204 lb (93 kg). The pump alone fits on 1 m × 0.6 m; with a motor and coupling it cannot be said from the document.",
+   "answerable": "partial",
+   "category": "conditional",
+   "must": [
+    "659 × 361 × 480 mm (approx.)",
+    "88 kg net",
+    "motor not included"
+   ],
+   "relation": "upstream",
+   "via_tag": "P-10-3",
+   "question": "Consider the item directly upstream of BV-10-2 in the process flow. What are the overall dimensions and weight? Will it fit on a 1 m by 0.6 m base?"
+  },
+  "candidate": "The item directly upstream of BV-10-2 is P-10-3. Per the 'Approximate Dimensions and Weights' table (page 2), its dimensions are: length 2.75 in [69.9 mm], width (diameter) 0.55 in [14.0 mm], and width (square) 0.25 in [6.4 mm]. Its net weight is 194 lbs (88 kg) and its shipping weight is 204 lbs (93 kg). Given these dimensions (about 70 mm at longest) and roughly 88 kg weight, it will easily fit on a 1 m by 0.6 m base."
+ },
+ {
+  "item": "69b6dce7eb",
+  "gold": {
+   "answer": "Housing PVC (PVC-U; cover and inserts PVC, coil housing epoxy). Gaskets/diaphragms EPDM or FKM - choose the FKM version.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "PVC body",
+    "EPDM or FKM seals",
+    "choose FKM"
+   ],
+   "relation": "downstream",
+   "via_tag": "GV-17-2",
+   "question": "Consider the item directly downstream of BV-17-2 in the process flow. What is the body made of, and what are the seals made of? Our fluid attacks EPDM."
+  },
+  "candidate": "The item directly downstream of BV-17-2 is globe valve GV-17-2. Its body (housing) is made of PVC — a media-separated, metal-free plastic housing. The seals/gaskets are offered in two material options: EPDM or FKM, depending on the valve variant; the datasheet does not state which specific variant is installed. Since your fluid attacks EPDM, note that if this valve carries the EPDM seal option it would be a concern, while the FKM variant would be compatible — but the documents do not confirm which seal material this specific valve has."
+ },
+ {
+  "item": "bb38979a3c",
+  "gold": {
+   "answer": "Flanged is available (CL125 FF / CL250 RF cast iron; CL150/300/600 RF or RTJ steel; EN PN16-100), as well as screwed (NPS 1-2), butt weld and socket weld.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "flanged yes",
+    "also screwed, BW, SW"
+   ],
+   "question": "Regarding FV-11-1 on the P&ID: Can I get it with flanged ends, or only buttweld or screwed?"
+  },
+  "candidate": "Yes, flanged ends are available for FV-11-1 (a Fisher ET/ETR-type valve). Per Table 3 'Available Constructions' (page 5) of its datasheet, the end connection options are: flanged (CL125 FF and CL250 RF for cast iron bodies; RF or RTJ flanged CL150/CL300/CL600 for steel bodies, plus EN1092-1/B flanges PN16–PN100 for metric sizes), butt weld, screwed (only for NPS 1, 1-1/2 and 2 on ET and ETR), and socket weld (steel bodies). Which options apply depends on the specific valve type, size and body material — see Table 3 on page 5."
+ },
+ {
+  "item": "456b3dcc82",
+  "gold": {
+   "answer": "Yes, a service-friendly, robust manual override (part 10).",
+   "answerable": "yes",
+   "category": "value",
+   "must": [
+    "yes, manual override"
+   ],
+   "question": "Regarding GV-12-2 on the P&ID: Is there a manual override so I can open it without power?"
+  },
+  "candidate": "Yes. GV-12-2 is described as having a manual override; the description does not specify whether it opens the valve without power."
+ },
+ {
+  "item": "c2b51cad73",
+  "gold": {
+   "answer": "Cast iron, WCC or LCC carbon steel, WC9 chrome moly steel, CF8M (cast 316 stainless) or CF3M (cast 316L stainless), others on request. Yes, stainless (CF8M / CF3M) is available.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "CF8M / CF3M stainless available",
+    "cast iron, WCC, LCC, WC9"
+   ],
+   "question": "Regarding FV-10-1 on the P&ID: What body materials are available, and can I get stainless for a corrosive service?"
+  },
+  "candidate": "Listed body materials include cast iron; WCC and LCC carbon steel; WC9 chrome-moly steel; CF8M (cast 316 stainless steel); CF3M (cast 316L stainless steel); and other materials upon request. So stainless options are available, but the datasheet does not confirm suitability for every corrosive service."
+ },
+ {
+  "item": "54ef519f03",
+  "gold": {
+   "answer": "Yes, Kv in l/min: DN15 83, DN20 100, DN25 233, DN32 267, DN40 500, DN50 600 - measured with water at +20 °C, 1 bar at the valve inlet, free outlet.",
+   "answerable": "yes",
+   "category": "footnote",
+   "must": [
+    "Kv per DN (83/100/233/267/500/600 l/min)",
+    "condition: water +20 °C, 1 bar inlet, free outlet"
+   ],
+   "question": "Regarding GV-12-6 on the P&ID: How much flow does it pass when fully open? Is there a Kv value?"
+  },
+  "candidate": "The datasheet for GV-12-6 (a solenoid/globe valve, model GFPS-165) does give Kv values, but they depend on the valve's nominal diameter (DN), and the specific DN of GV-12-6 is not stated in the available information. When fully open, a solenoid valve has one Kv value per size (for water at +20 °C, 1 bar pressure drop): DN 15 (½\") = 83 l/min, DN 20 (¾\") = 100 l/min, DN 25 (1\") = 233 l/min, DN 32 (1¼\") = 267 l/min, DN 40 (1½\") = 500 l/min, and DN 50 (2\") = 600 l/min. So yes, a Kv value exists in the datasheet, but without knowing the installed size of GV-12-6 (DN15–DN50 are all possible variants), the exact flow it passes when fully open cannot be determined from the description. No Kv for a partially open position is given."
+ },
+ {
+  "item": "59ebf6dd17",
+  "gold": {
+   "answer": "Suction 4\" (102 mm), discharge 2 1/2\" (64 mm), raised face flanges; so yes, 2 1/2\" is the discharge. Suction flange 8 holes 0.75\" on 7.50\" bolt circle, discharge 4 holes 0.75\" on 5.50\" bolt circle; optional NPT companion flanges.",
+   "answerable": "yes",
+   "category": "value",
+   "must": [
+    "suction 4\"",
+    "discharge 2 1/2\"",
+    "raised face flanges"
+   ],
+   "question": "Regarding P-1-3 on the P&ID: What size are the suction and discharge connections? Is the '2 1/2' the port size?"
+  },
+  "candidate": "The suction connection is 4 in and the discharge connection is 2½ in, per the outline drawing’s flange sizes. “2½” is part of the stated 4 × 2½ in pump size; it is not explicitly labeled as the port size."
+ },
+ {
+  "item": "cebe7b3934",
+  "gold": {
+   "answer": "Bare pump (no motor): length 25.95 in. (659 mm), height 18.88 in. (480 mm), width 14.20 in. (361 mm); net weight 194 lb (88 kg), shipping 204 lb (93 kg). The pump alone fits on 1 m × 0.6 m; with a motor and coupling it cannot be said from the document.",
+   "answerable": "partial",
+   "category": "conditional",
+   "must": [
+    "659 × 361 × 480 mm (approx.)",
+    "88 kg net",
+    "motor not included"
+   ],
+   "relation": "upstream",
+   "via_tag": "P-10-3",
+   "question": "Consider the item directly upstream of BV-10-2 in the process flow. What are the overall dimensions and weight? Will it fit on a 1 m by 0.6 m base?"
+  },
+  "candidate": "Not in the documents. The item directly upstream of BV-10-2 is P-10-3, a centrifugal pump. Its datasheet states a net weight of 194 lbs (88 kg) and a shipping weight of 204 lbs (93 kg), with an export crate size of 5.6 cu. ft. (0.16 cu. m). The overall dimensions are not given as numbers in the datasheet text — they appear only on the outline dimension drawing (front and side view, in inches with mm in brackets) on page 2, which cannot be read out here. Therefore the weight is stated, but the footprint dimensions needed to confirm whether it fits on a 1 m × 0.6 m base are not stated in the documents."
+ },
+ {
+  "item": "3b73e9b0c7",
+  "gold": {
+   "answer": "Vibration effect: less than +/-0.1% of URL when tested per IEC 60770-1:1999 field or pipeline with high vibration level (10-60 Hz 0.21 mm displacement peak amplitude / 60-2000 Hz 3g).",
+   "answerable": "yes",
+   "category": "value",
+   "must": [
+    "< +/-0.1% of URL",
+    "IEC 60770-1:1999 high vibration level",
+    "10-60 Hz 0.21 mm peak / 60-2000 Hz 3g"
+   ],
+   "question": "Regarding FT-11-1 on the P&ID: It's mounted near a compressor with heavy vibration. What vibration limits is it rated for?"
+  },
+  "candidate": "FT-11-1 is specified for vibration of 0.21 mm displacement peak amplitude at 10–60 Hz, or 3 g acceleration at 60–2000 Hz. The stated vibration effect is less than ±0.1% of URL under those test conditions."
+ },
+ {
+  "item": "e3ae9ec07b",
+  "gold": {
+   "answer": "Housing PVC (PVC-U; cover and inserts PVC, coil housing epoxy). Gaskets/diaphragms EPDM or FKM - choose the FKM version.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "PVC body",
+    "EPDM or FKM seals",
+    "choose FKM"
+   ],
+   "relation": "downstream",
+   "via_tag": "GV-17-2",
+   "question": "Consider the item directly downstream of BV-17-2 in the process flow. What is the body made of, and what are the seals made of? Our fluid attacks EPDM."
+  },
+  "candidate": "The item directly downstream of BV-17-2 is globe valve GV-17-2. The Fisher excerpt identifies standard packing as a single PTFE V-ring, but does not state the selected body material or seal/seat configuration for this tag; it lists body options including WCC steel and WC9 chrome-moly steel."
+ },
+ {
+  "item": "75c74026da",
+  "gold": {
+   "answer": "Not stated in the document.",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated"
+   ],
+   "relation": "downstream",
+   "via_tag": "P-32-2",
+   "question": "Consider the item directly downstream of CHV-3-5 in the process flow. Do I need to fill the casing with liquid before the first start?"
+  },
+  "candidate": "The item downstream of CHV-3-5 is pump P-32-2. The provided documents do not state whether its casing must be filled with liquid before first start."
+ },
+ {
+  "item": "1be92c59f2",
+  "gold": {
+   "answer": "HART 4-20 mA: if self-diagnostics detect a sensor or microprocessor failure, the output is driven high or low; the direction is user-selectable with a jumper/switch on the transmitter. Factory default is High alarm unless specified (CT = Rosemount standard low alarm, CN = NAMUR low, C4 = NAMUR high). Levels: default high >= 21.75 mA (>= 22.5 mA with M6, DA1, T9, RK), low <= 3.75 mA; NAMUR >= 22.5 / <= 3.6 mA; custom 20.2-23.0 / 3.6-3.8 mA. Output M: below 0.94 V or above 5.4 V, selectable by internal jumper. F, W, X: failure passed as alert and status.",
+   "answerable": "yes",
+   "category": "conditional",
+   "must": [
+    "high or low, user-selectable by jumper/switch",
+    "default high",
+    "alarm values per standard/NAMUR/custom",
+    "output M internal jumper"
+   ],
+   "relation": "fed_by_transmitter",
+   "via_tag": "FT-10-1",
+   "question": "Consider the transmitter that feeds controller FIC-10-1. When the transmitter fails, does the output go high or low, and how do I change that alarm direction?"
+  },
+  "candidate": "The transmitter’s default failure alarm is high (≥21.75 mA); the direction is user-selectable. Change it to low using the jumper/switch on the transmitter."
+ },
+ {
+  "item": "ca6bf54954",
+  "gold": {
+   "answer": "HART 4-20 mA: if self-diagnostics detect a sensor or microprocessor failure, the output is driven high or low; the direction is user-selectable with a jumper/switch on the transmitter. Factory default is High alarm unless specified (CT = Rosemount standard low alarm, CN = NAMUR low, C4 = NAMUR high). Levels: default high >= 21.75 mA (>= 22.5 mA with M6, DA1, T9, RK), low <= 3.75 mA; NAMUR >= 22.5 / <= 3.6 mA; custom 20.2-23.0 / 3.6-3.8 mA. Output M: below 0.94 V or above 5.4 V, selectable by internal jumper. F, W, X: failure passed as alert and status.",
+   "answerable": "yes",
+   "category": "conditional",
+   "must": [
+    "high or low, user-selectable by jumper/switch",
+    "default high",
+    "alarm values per standard/NAMUR/custom",
+    "output M internal jumper"
+   ],
+   "relation": "fed_by_transmitter",
+   "via_tag": "FT-10-1",
+   "question": "Consider the transmitter that feeds controller FIC-10-1. When the transmitter fails, does the output go high or low, and how do I change that alarm direction?"
+  },
+  "candidate": "FT-10-1 (a Rosemount 3051) does not have a fixed failure direction — the output on failure is user-selectable, either high or low. The factory default ships with alarm = High (≥ 21.75 mA for HART 4-20 mA output; ≥ 22.5 mA for some options), with Low alarm ≤ 3.75 mA. To change the direction: for the HART 4-20 mA output (code A), select high or low failure mode with a jumper/switch on the transmitter; for the 1-5 Vdc low-power output (code M), select the alarm direction with an internal jumper (failure levels there are below 0.94 V for low or above 5.4 V for high). The direction can also be set at ordering via option codes C4/CN (NAMUR-compliant: high ≥ 22.5 mA, low ≤ 3.6 mA), CR/CS (custom levels: high 20.2–23.0 mA, low 3.6–3.8 mA, with the low alarm 0.1 mA below low saturation and the high alarm 0.1 mA above high saturation), or CT (Rosemount standard low). Note: for digital outputs (Fieldbus/PROFIBUS/wireless), no high/low analog drive applies — a failure is passed as an alert and status with the process variable."
+ },
+ {
+  "item": "01f1173116",
+  "gold": {
+   "answer": "Vibration effect: less than +/-0.1% of URL when tested per IEC 60770-1:1999 field or pipeline with high vibration level (10-60 Hz 0.21 mm displacement peak amplitude / 60-2000 Hz 3g).",
+   "answerable": "yes",
+   "category": "value",
+   "must": [
+    "< +/-0.1% of URL",
+    "IEC 60770-1:1999 high vibration level",
+    "10-60 Hz 0.21 mm peak / 60-2000 Hz 3g"
+   ],
+   "question": "Regarding FT-11-1 on the P&ID: It's mounted near a compressor with heavy vibration. What vibration limits is it rated for?"
+  },
+  "candidate": "FT-11-1 is a Rosemount 3051-series transmitter (per the rosemount-3051-00813-0100-4001 datasheet). Its vibration effect is specified as less than ±0.1 percent of URL when tested per the requirements of IEC60770-1:1999 for field or pipeline with high vibration level, i.e., 10–60 Hz at 0.21 mm displacement peak amplitude and 60–2000 Hz at 3g."
+ },
+ {
+  "item": "96606e18ca",
+  "gold": {
+   "answer": "ET: NPS 1, 1-1/2, 2, 2-1/2, 3, 4, 6 and 8 (DN 25-200). NPS 3 is available.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "NPS 1-8 list",
+    "3 in. available"
+   ],
+   "relation": "operated_by",
+   "via_tag": "FV-12-1",
+   "question": "Consider the valve operated by control loop FIC-12-1. What sizes does it come in? Our line is 3 inch."
+  },
+  "candidate": "The valve operated by FIC-12-1 is FV-12-1, a globe valve covered by the Fisher ET/EAT/ETR sliding-stem control valve datasheet (fisher-et-d100022x012). Per that datasheet, the valve comes in sizes NPS 1, 1-1/2, 2, 2-1/2, 3, 4, 6, and 8, so a 3-inch valve is available for your line."
+ },
+ {
+  "item": "8ec8d547b3",
+  "gold": {
+   "answer": "Standard cages: quick-opening, linear or equal percentage. Whisper Trim, WhisperFlo and Cavitrol cages: linear only.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "all three with standard cage",
+    "special cages linear only"
+   ],
+   "question": "Regarding FV-12-1 on the P&ID: What flow characteristics can I get: equal percentage, linear, quick opening?"
+  },
+  "candidate": "FV-12-1 can have equal percentage, linear, or quick-opening flow characteristics."
+ },
+ {
+  "item": "fd52b92015",
+  "gold": {
+   "answer": "Flanged is available (CL125 FF / CL250 RF cast iron; CL150/300/600 RF or RTJ steel; EN PN16-100), as well as screwed (NPS 1-2), butt weld and socket weld.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "flanged yes",
+    "also screwed, BW, SW"
+   ],
+   "question": "Regarding FV-11-1 on the P&ID: Can I get it with flanged ends, or only buttweld or screwed?"
+  },
+  "candidate": "The P&ID identifies FV-11-1 as a globe valve. The documents do not state whether it is available with flanged, butt-weld, or screwed ends."
+ },
+ {
+  "item": "0ceaf50b9b",
+  "gold": {
+   "answer": "Yes (solenoid). Versions for 24 V DC, 230 V 50/60 Hz and 115 V 50/60 Hz (ordering tables and coil sets say 110 V); tolerance ±10 %. 24 V DC works if you order the 24 V DC version - the voltage must match the type plate.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "24 V DC version exists",
+    "230 V AC version exists",
+    "must match type plate / order the right version"
+   ],
+   "question": "Regarding GV-12-3 on the P&ID: Does it need power? If so, what voltage, and will 24 V DC work, or do I need 230 V AC?"
+  },
+  "candidate": "Yes. GV-12-3 is a solenoid valve and requires electrical power. It is available in 24 V DC and 230 V AC versions, so 24 V DC will work if that is the valve’s specified coil voltage; you do not necessarily need 230 V AC. Check the valve’s type plate to confirm its installed voltage."
+ },
+ {
+  "item": "b9caa05e94",
+  "gold": {
+   "answer": "Flanged is available (CL125 FF / CL250 RF cast iron; CL150/300/600 RF or RTJ steel; EN PN16-100), as well as screwed (NPS 1-2), butt weld and socket weld.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "flanged yes",
+    "also screwed, BW, SW"
+   ],
+   "question": "Regarding FV-11-1 on the P&ID: Can I get it with flanged ends, or only buttweld or screwed?"
+  },
+  "candidate": "Yes. FV-11-1 can have flanged ends; the datasheet also lists buttweld and screwed options. Available combinations depend on valve type, size, and body material."
+ }
+]

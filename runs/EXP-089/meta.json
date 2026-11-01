@@ -1,0 +1,67 @@
+{
+  "runs": [
+    {
+      "command": "python -m plantqa.eval.run --exp EXP-089 --method M1 --model glm --split test --allow-paid",
+      "method": "M1",
+      "model_id": "z-ai/glm-5.3-flash",
+      "split": "test",
+      "git_commit": "35bcdfe",
+      "started": "2026-11-01T08:02:30+00:00",
+      "spent_before_usd": 12.4679
+    },
+    {
+      "command": "python -m plantqa.eval.run --exp EXP-089 --method M1 --model glm --split dev --allow-paid",
+      "method": "M1",
+      "model_id": "z-ai/glm-5.3-flash",
+      "split": "dev",
+      "git_commit": "35bcdfe",
+      "started": "2026-11-01T08:02:33+00:00",
+      "spent_before_usd": 12.4679
+    },
+    {
+      "command": "python -m plantqa.eval.run --exp EXP-089 --method M1 --model luna --split test --allow-paid",
+      "method": "M1",
+      "model_id": "openai/gpt-6-luna",
+      "split": "test",
+      "git_commit": "35bcdfe",
+      "started": "2026-11-01T08:02:40+00:00",
+      "spent_before_usd": 12.4679
+    },
+    {
+      "command": "python -m plantqa.eval.run --exp EXP-089 --method M1 --model luna --split dev --allow-paid",
+      "method": "M1",
+      "model_id": "openai/gpt-6-luna",
+      "split": "dev",
+      "git_commit": "35bcdfe",
+      "started": "2026-11-01T08:02:44+00:00",
+      "spent_before_usd": 12.4679
+    },
+    {
+      "command": "python -m plantqa.eval.run --exp EXP-089 --method M2 --model glm --split dev --allow-paid",
+      "method": "M2",
+      "model_id": "z-ai/glm-5.3-flash",
+      "split": "dev",
+      "git_commit": "35bcdfe",
+      "started": "2026-11-01T08:02:54+00:00",
+      "spent_before_usd": 12.4809
+    },
+    {
+      "command": "python -m plantqa.eval.run --exp EXP-089 --method M2 --model luna --split test --allow-paid",
+      "method": "M2",
+      "model_id": "openai/gpt-6-luna",
+      "split": "test",
+      "git_commit": "35bcdfe",
+      "started": "2026-11-01T08:03:04+00:00",
+      "spent_before_usd": 12.4993
+    },
+    {
+      "command": "python -m plantqa.eval.run --exp EXP-089 --method M2 --model luna --split dev --allow-paid",
+      "method": "M2",
+      "model_id": "openai/gpt-6-luna",
+      "split": "dev",
+      "git_commit": "35bcdfe",
+      "started": "2026-11-01T08:03:04+00:00",
+      "spent_before_usd": 12.5072
+    }
+  ]
+}

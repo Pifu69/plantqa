@@ -1,0 +1,176 @@
+[
+ {
+  "item": "69da5128cc",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Says not decidable and gives BV-26-1 seat-dependent lows, but omits CHV-26-1 values."
+ },
+ {
+  "item": "816a476ddd",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Correctly picks E-3-1 with 150/232 psig, but omits P-50-4's 266 psi casing pressure."
+ },
+ {
+  "item": "e7ed531655",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Gives a non-gold PT-49-1 value and claims E-21-1's value is missing."
+ },
+ {
+  "item": "cf8d5721f4",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "No answer (parse failure)."
+ },
+ {
+  "item": "dc86f2c2fd",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "GV-24-4 at 50 C is lowest; FV-17-1 seat-dependent from 80 C upward."
+ },
+ {
+  "item": "421d67a20c",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "GV-24-4 50 C lowest; FV-17-1 seat-dependent values given (80 C Delrin upward)."
+ },
+ {
+  "item": "f738573589",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Claims neither value is stated although gold has both."
+ },
+ {
+  "item": "3c7c989d26",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "No answer (step limit)."
+ },
+ {
+  "item": "b2bfd4a9ca",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Notes ratings depend on unspecified construction, but omits low BV-26-1 seat values and leans to CHV-26-1 on highest ratings."
+ },
+ {
+  "item": "e73d72f53b",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Claims the values are not stated although gold has both."
+ },
+ {
+  "item": "30af2b4d80",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "P-50-1 160F lowest is right, but FT-31-1 construction-dependent values are missing (only 401F given)."
+ },
+ {
+  "item": "55a307594c",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "P-50-1 160F lowest is right, but FT-31-1 given as a single assumed configuration instead of construction-dependent values."
+ },
+ {
+  "item": "4ce8554c99",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Says not determinable while gold says BV-26-1 is lowest for every construction."
+ },
+ {
+  "item": "1609b2f61e",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Claims values are not stated although gold has them."
+ },
+ {
+  "item": "5134101a3c",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "P-50-1 160F lowest is right, but FT-31-1 given only as 401F, without the construction-dependent values."
+ },
+ {
+  "item": "f546633494",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "E-21-1 values right and PT-49-1 flagged as range-dependent, but PT-49-1 gold values missing and it leans to E-21-1."
+ },
+ {
+  "item": "2ad92162f0",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "E-3-1 lowest with 150/232 psig is right, but P-50-4's 266 psi casing pressure is omitted."
+ },
+ {
+  "item": "bb742ff446",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "GV-24-4 50 C lowest; FV-17-1 seat-dependent 80-315 C (despite a spurious 'not in documents' prefix)."
+ },
+ {
+  "item": "6545738cbb",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "E-21-1 values and undecidability right, but PT-49-1 Range 0/1 limits (750/2000 psig) are omitted."
+ },
+ {
+  "item": "cf0ef3c80d",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "E-3-1 lowest with 150/232 psig is right, but P-50-4's 266 psi casing pressure is omitted."
+ },
+ {
+  "item": "80a55bb8d1",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Gives GV-24-4 as 80 C (gold 50 C) and no FV-17-1 value."
+ },
+ {
+  "item": "2d90100172",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "GV-24-4 50 C lowest is right, but FV-17-1 given only as 315 C max, without the lower seat values."
+ },
+ {
+  "item": "185e6eb57b",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Says not determinable while gold says BV-26-1 is lowest."
+ },
+ {
+  "item": "fedabd66ba",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Claims no P-50-1 value and no conclusion; gold has P-50-1 160F lowest."
+ },
+ {
+  "item": "596113933f",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Asserts PT-49-1 is Range 3 and E-21-1 is lowest, while gold says it cannot be decided."
+ },
+ {
+  "item": "1335cdb65d",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "GV-5-1 50 C lowest and P-12-1 71 C right, but BV-5-2 low seat values (80/90 C) are omitted."
+ },
+ {
+  "item": "d826c94dd1",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Uses a Fisher value for GV-24-4 and gives no comparison."
+ },
+ {
+  "item": "6d9d6c402a",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "P-50-1 160F lowest is right; FT-31-1 dependence noted but its range is incomplete or misstated (misses 185F inert fill and 300F)."
+ },
+ {
+  "item": "270cc04fc9",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "GV-5-1 6 bar lowest and P-12-1 266/250 psi right, but BV-5-2 values are omitted."
+ }
+]

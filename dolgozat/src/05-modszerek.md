@@ -20,14 +20,13 @@ mutatjuk be, végül megfogalmazzuk, mit várunk az egyes módszerektől.
 
 ### A rajzoldali kaszkád
 
-Benedek legutóbb mért szabályozott kaszkádja, a `cascade_v4_iso` (a V2T-A rendszer) két szintből
-áll. A kaszkádot Benedek a valósághűbb v2 üzemeken hangolta egy külön megjelölt rendszerként
-(V2T, ADR-0061), a pontosságot helyezve előtérbe. A hangolás többek között a jelöletlen
+Benedek legutóbb mért kaszkádja két szintből áll. A kaszkádot Benedek a generátor valósághűbb,
+későbbi változatának üzemein hangolta egy külön rendszerként, a pontosságot helyezve előtérbe. A hangolás többek között a jelöletlen
 idomokat (ehhez készült a 4. fejezetben leírt vonalnézet, mindkét szintre ugyanazzal a
 szabállyal), a Cypher-lekérdezések szintaktikai hibáit és a korlátlan útkereséstől lejáró
-lekérdezéseket kezelte. A kaszkád két változata közül a `cascade_v4_iso`-t egy előre rögzített szabály
-választotta: akkor lép a `cascade_v4` helyébe, ha a hangolókészleten legalább olyan pontos
-(`docs/felmeres.md`).
+lekérdezéseket kezelte. A kaszkádnak két változata volt (az egyik az alább leírt címke szerinti indítással); a
+használtat egy előre rögzített szabály választotta: a címke szerinti indítású változat akkor lép a
+másik helyébe, ha a hangolókészleten legalább olyan pontos.
 
 **Első szint: egy Cypher-lekérdezés.** Egy LLM egyetlen Cypher-lekérdezést ír a Neo4j-ben tárolt
 üzemi rétegre (`cypher_rag_lines`). A prompt Benedek sémaszövegét (a csúcscímkéket, a
@@ -37,7 +36,7 @@ halmazhoz különböző végpontokat kell kérni, útvonalhoz a legrövidebb uta
 létezésvizsgálatot a `line_to` mentén. A lekérdezés csak olvashat, 30 s időkorláttal és
 legfeljebb 1000 sorral fut. Ha a lekérdezés hibát ad, egy javítókörben a modell megkapja az
 adatbázis hibaüzenetét, és újraírhatja. Egy programozott ellenőrzés emellett azt is megnézi, hogy
-a kérdésben szereplő tagek léteznek-e. A sorokból a közös válaszlépés fogalmaz.
+a kérdésben szereplő tag-ek léteznek-e. A sorokból a közös válaszlépés fogalmaz.
 
 **Az elfogadási szabály.** A Cypher-szint válaszát a kaszkád akkor fogadja el, ha az önjelzések
 mind rendben vannak: a lépés válaszolt, nem tartózkodott („nincs benne” válasz helyett érdemben
@@ -49,11 +48,11 @@ illesztett paramétere. Ha bármelyik jel hiányzik, a kérdés a második szint
 lépésenként, legfeljebb 40-szer. Minden lépésben egy JSON-akciót ír (egy primitív hívását az
 argumentumaival, vagy a befejezést), a primitív eredményét szövegesen kapja vissza, és a
 végén az összegyűjtött megfigyelésekből ugyanaz a közös válaszlépés fogalmaz, amely a Cypher-szint
-válaszát is írja. A közös válaszlépés szabályai a V2T-ben szigorodtak: egy berendezés- és
+válaszát is írja. A közös válaszlépés szabályai a hangoláskor szigorodtak: egy berendezés- és
 szeleplistában csak ezek szerepelhetnek, a kiinduló elem nem kerül a listába, és ha egy kérdezett
 tag nem létezik, a válasz „nincs benne”.
 
-**Címke szerinti indítás.** A `cascade_v4_iso` egyetlen kivételt tesz: az „első szelep” típusú
+**Címke szerinti indítás.** A használt kaszkád egyetlen kivételt tesz: az „első szelep” típusú
 kérdések (a felfelé vagy lefelé eső első szelep, `UPSTREAM_TO_FIRST_VALVE`,
 `DOWNSTREAM_TO_FIRST_VALVE`) rögtön az ágensnél indulnak. Ennek oka Benedek elemzése szerint az,
 hogy az ilyen kérdésekre írt Cypher-lekérdezések jellemzően az összes felfelé eső szelepet kérik
@@ -64,13 +63,13 @@ kérdéscsalád címkéje alapján választunk köztük. A Cypher-szint és a v�
 ágens magas gondolkodási szinttel fut (a GLM-hez Benedek alacsony pinjének magas szintű másolatát
 használjuk, mert magas GLM-pinje nincs).
 
-A kaszkád elfogadási szabályait, paramétereit és promptjait változatlanul vettük át. A tiereket a
+A kaszkád elfogadási szabályait, paramétereit és promptjait változatlanul vettük át; kivétel a kérdésenkénti időkorlát, amelyet a hangoláskor növeltünk (lásd alább). A tiereket a
 plantqa mérő kliensével raktuk össze Benedek stratégiaépítőjével, mert az ő élő kaszkádja a
 tokenhasználatot nem méri; a stratégiák és a promptok ugyanazok.
 
 ### Az ágens primitívjei
 
-Benedek ágense hat általános, egymással komponálható primitívet hív (ADR-0034): a szűrőnek
+Benedek ágense hat általános, egymással komponálható primitívet hív: a szűrőnek
 megfelelő elemek keresését (`find`), a szomszédokat (`neighbours`), a bejárást (`traverse`), az
 utat két elem között (`path`), egy korábbi eredmény szűkítését (`filter`) és összesítését
 (`aggregate`). A primitívek a feloldó kimenetéből a memóriában épített, a betöltött üzemi
@@ -105,7 +104,7 @@ gráfot tönkretenné, és az M1 számára értelmetlenné tenné az egész öss
 
 Az M1 Benedek kaszkádja az összevont gráfon, két kiegészítéssel. A Cypher-szint sémaleírása az
 üzemi réteg mellett az adatlapréteget is tartalmazza: a `DESCRIBED_BY` kapcsolatot, a plantdocs
-A2-promptjának gráfmodelljét és lekérdezési szabályait, valamint a tagek dokumentumonkénti
+A2-promptjának gráfmodelljét és lekérdezési szabályait, valamint a tag-ek dokumentumonkénti
 listáját. Így egyetlen lekérdezés követheti a rajzot és olvashatja az adatlapot, például:
 
 ```
@@ -118,28 +117,30 @@ RETURN d.plm__PCA_100029521 AS label, d.plm__PCA_100029522 AS value, d.schema__p
 A sémakiegészítés felépítését a Függelék E, elejét a Függelék C mutatja; a plantdocs lekérdezési
 szabályai a második fejlesztési iterációban kerültek be (EXP-011).
 
-Az ágens egy új primitívet kap: a `datasheet_fact(tag, question)` a tagből feloldja az eszközt,
+Az ágens egy új primitívet kap: a `datasheet_fact(tag, question)` a tag-ből feloldja az eszközt,
 és a plantdocs A2-logikájával kérdezi meg az adatlapját. A primitív Benedek eszközregiszterébe
 kerül, ezért az ágens promptjában ugyanúgy jelenik meg, mint a többi primitív. A regisztráció csak
 az ágens felépítésének és a kérdés megválaszolásának idejére szól, így Benedek kódja és a többi
 futás eszközkészlete nem változik. Az eredmény Benedek eredményosztályainak felületét követi
-(szöveges megjelenítés hosszkorláttal), és tartalmazza a dokumentum azonosítóját, a tagot, az
-első forrásoldalakat és az A2 válaszát. Ismeretlen vagy adatlap nélküli tagre a primitív nem hibát
-dob, hanem szövegesen közli, hogy a taghez nem tartozik adatlap, így az ágens folytathatja a
+(szöveges megjelenítés hosszkorláttal), és tartalmazza a dokumentum azonosítóját, a tag-et, az
+első forrásoldalakat és az A2 válaszát. Ismeretlen vagy adatlap nélküli tag-re a primitív nem hibát
+dob, hanem szövegesen közli, hogy a tag-hez nem tartozik adatlap, így az ágens folytathatja a
 munkát. Az eszköz leírása arra kéri az ágenst, hogy a rajzon nem látható tulajdonságokhoz ezt
-használja, és előbb a rajzon keresse meg a tagot.
+használja, és előbb a rajzon keresse meg a tag-et.
 
-Az M1 útvonala a lefutott tierekből és az adatlapi hívásokból áll (például `cypher-v2t`, vagy
-`cypher-v2t`, `agent-v2t` és `datasheet_fact:FT-2-2`). A válaszlépés Benedek változatlan
+Az M1 útvonala a lefutott szintekből és az adatlapi hívásokból áll (például csak a Cypher-szint,
+vagy a Cypher-szint, az ágens és egy `datasheet_fact:FT-2-2` hívás). A válaszlépés Benedek változatlan
 válaszpromptja; az M2-ben és az M3-ban bevezetett válaszszabályt (részválasz, a dokumentumon túli
 tanács tilalma) az M1 ezért nem kapta meg, mert az a kaszkád része, amelyet nem módosítunk.
 
 ## M2 — router
 
 Az M2 egy ágens két eszközzel: a `drawing(question)` Benedek kaszkádját hívja a rajzra (változtatás
-nélkül), a `datasheet(tag, question)` a tagből feloldott eszköz A2-jét. Az ágens minden lépésben
-egy JSON-objektumot ír (eszközhívást vagy végső választ), legfeljebb hat eszközhívással. Ha a
-kérdés egy elemet a helyével vagy szerepével nevez meg, előbb a rajzeszközt kérdezi meg a tagről,
+nélkül), a `datasheet(tag, question)` a tag-ből feloldott eszköz A2-jét. Az ágens minden lépésben
+egy JSON-objektumot ír (eszközhívást vagy végső választ), legfeljebb 16 lépésben; ha a keret
+elfogy, a router egy utolsó hívásban köteles végső választ adni a már összegyűjtött eredményekből
+(lásd alább, a hangolásnál). Ha a
+kérdés egy elemet a helyével vagy szerepével nevez meg, előbb a rajzeszközt kérdezi meg a tag-ről,
 utána az adatlapot.
 
 **A protokoll.** A router minden lépésben pontosan egy JSON-objektumot ír (rajzeszköz-hívás,
@@ -172,7 +173,7 @@ plantdocs is használ (`qwen/qwen3-embedding-8b`, 512 dimenzió). A válasz egye
 gondolkodási szinttel, ahogy Benedek ContextRAG-karja is fut.
 
 A szerializált rajz a rajzolt előfordulások gráfja: lapról lapra minden szimbólum egy csúcs a
-tagjével és az osztályával, az élek a csövek és a jelek, a lapokat a lapközi csatlakozók kötik
+tag-jével és az osztályával, az élek a csövek és a jelek, a lapokat a lapközi csatlakozók kötik
 össze. Az M3 modellje tehát maga követi a csatlakozókat a laphatáron át; az összevont üzemi
 réteget nem látja. Az adatlap-darabok a PDF-ek szövegrétegéből készülnek oldalanként,
 bekezdéshatáron vágva, korlátozott hosszúságú darabokra; minden darab a dokumentum azonosítóját és
@@ -180,12 +181,30 @@ az oldalszámot hordozza. A prompt tartalmazza a tag → adatlap táblát is, ho
 melyik darab melyik elemhez tartozik. Az Azure-kimenet szövegét azért nem használtuk, mert a
 plantqa-ban nem minden dokumentumhoz volt meg.
 
-A baseline-t szándékosan erősnek választottuk: a négylapos példaüzem rajza kicsi, így a teljes
-rajz elfér a promptban, és a ChatP&ID mérése szerint egyetlen lapon éppen ez a módszer nyert
+A baseline-t szándékosan erősnek választottuk: a négylapos prototípus-üzem rajza kicsi, így a
+teljes rajz elfér a promptban, és a ChatP&ID mérése szerint egyetlen lapon éppen ez a módszer nyert
 [Alimin2026]. Az adatlapoldalon a szövegdarabok vektoros keresése a legegyszerűbb, gráf nélküli
 visszakeresés; ha az M3 felveszi a versenyt a két gráfos módszerrel, az arra utal, hogy ezen a
 méreten a gráf előnye nem a visszakeresésben, hanem legfeljebb a feltételek megőrzésében
 jelentkezhet.
+
+## Hangolás a fejlesztési üzemeken
+
+Az első prototípust a négylapos üzemen fejlesztettük (Függelék G). A 30 és 50 lapos fejlesztési
+üzemen három változtatásra volt szükség (EXP-095); az M3-at nem hangoltuk.
+
+- **M2: nagyobb lépéskeret és kötelező végső válasz.** A router eszközkerete 6-ról 16 lépésre
+  nőtt, és ha a keret elfogy, a router egy utolsó hívásban köteles végső választ adni. A 30 lapos
+  üzemen ugyanis a 24 több adatlapos válaszból 10 azért maradt üres, mert a router elérte a
+  lépéskorlátot.
+- **M1: egy új sémaszabály.** Sok M1-válasz csak részleges volt, ezért a Cypher-szint
+  sémaleírása egy szabállyal bővült: az adatlapi tényeket tágan kell szűrni, és minden értéket a
+  feltételével és az oldalszámával együtt kell visszaadni.
+- **Kaszkád: hosszabb időkorlát.** A kaszkád kérdésenkénti időkorlátja 120 s-ről 240 s-re nőtt,
+  mert egy kérdés túllépte a korábbit.
+
+A hangolás után a módszereket befagyasztottuk, és a 100 és 1000 lapos tesztüzemen ezen a
+változaton nem változtattunk.
 
 ## A módszerek várható erősségei és gyengeségei
 

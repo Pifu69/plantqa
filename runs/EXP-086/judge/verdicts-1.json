@@ -1,0 +1,38 @@
+[
+ {
+  "item": "e328b0256e",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Correctly says diagnosis not stated but claims NPSHr is not in the documents although the curves give it."
+ },
+ {
+  "item": "de1ecd70ce",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "All three characteristics with standard cages and linear-only special cages."
+ },
+ {
+  "item": "df2b75a399",
+  "verdict": "correct",
+  "cites_page": true,
+  "reason": "Gives Cv 59.7 with full-sized trim, equal percentage cage, normal flow."
+ },
+ {
+  "item": "f8278418ca",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Lists 59.7 among variants without committing and omits the trim/cage/flow conditions."
+ },
+ {
+  "item": "0ae5bb0681",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Confirms the manual override."
+ },
+ {
+  "item": "dd56b0d6f3",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Gives <0.1% URL, IEC 60770-1 high vibration level and the test levels."
+ }
+]

@@ -1,0 +1,20 @@
+[
+ {
+  "item": "4dcbfb6df9",
+  "verdict": "partial",
+  "cites_page": true,
+  "reason": "Gives 59.7 with conditions but wrongly says the ET variant is not listed, leaving no clear answer."
+ },
+ {
+  "item": "4c4f32f14c",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Jumper/switch selection and alarm levels given, but default high and output M internal jumper missing."
+ },
+ {
+  "item": "b137041fd6",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Suction 4 in, discharge 2.5 in, raised-face flanges."
+ }
+]

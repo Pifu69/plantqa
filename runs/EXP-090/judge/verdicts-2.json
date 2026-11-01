@@ -1,0 +1,110 @@
+[
+ {
+  "item": "b4c13afd1f",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "P-5-1 at 71 C lowest, BV-115-1 seat-dependent 80-315 C."
+ },
+ {
+  "item": "464b78695b",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "No answer (timed out)."
+ },
+ {
+  "item": "6a9bc8df81",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Gives a pressure figure as CHV temperature and names E-46-2 lowest; gold says not decidable."
+ },
+ {
+  "item": "11cfca2a8f",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Claims values are not provided; gold lowest GV-79-3."
+ },
+ {
+  "item": "0a4dd34c8f",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Claims CHV pressure not provided and lowest undeterminable; gold lowest E-46-2."
+ },
+ {
+  "item": "9ea68119fe",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Names E-46-2 lowest under either rating; gold says not decidable."
+ },
+ {
+  "item": "f959796da8",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Says lowest cannot be determined; gold says E-193-1 lowest for every construction."
+ },
+ {
+  "item": "59a0cca7dc",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Concludes the pumps are lowest; gold says not decidable."
+ },
+ {
+  "item": "33eea5819c",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "P-41-2 at 71 C lowest is right, but CHV-125-1 given only as 400 F without the construction-dependent lower values."
+ },
+ {
+  "item": "64153b22ca",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Says the comparison cannot be decided, but CHV values are given only as the 6000 psig series maximum."
+ },
+ {
+  "item": "21a4d4279f",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "No answer (step limit)."
+ },
+ {
+  "item": "aae77f1462",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "E-46-2 lowest with correct values, but CHV-46-2 given as a flat 6000 psig without construction dependence."
+ },
+ {
+  "item": "746a31bbc6",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Concludes the pumps are lowest at 71 C; gold says not decidable."
+ },
+ {
+  "item": "7318df7f00",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Concludes the pumps are lowest and gives no BV values; gold says not decidable."
+ },
+ {
+  "item": "dbdf5178ca",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Claims values are not provided; gold lowest E-193-1."
+ },
+ {
+  "item": "17c49c6daf",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Concludes the pumps are lowest at 71 C; gold says not decidable."
+ },
+ {
+  "item": "84567c5115",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "P-41-2 lowest is right, but CHV-125-1 brass 250 F value missing."
+ },
+ {
+  "item": "37a88b0eb7",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Claims BV-34-1 pressure not provided and lowest undeterminable; omits pumps."
+ }
+]

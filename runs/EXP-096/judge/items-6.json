@@ -1,0 +1,139 @@
+[
+ {
+  "item": "525cb967a3",
+  "gold": {
+   "answer": "368 mm (14.50 in.) for CL300 RF; 384 mm (15.12 in.) for CL300 RTJ (dimension A).",
+   "answerable": "yes",
+   "category": "multi_condition",
+   "must": [
+    "368 mm (RF)",
+    "RTJ differs (384 mm)"
+   ],
+   "relation": "downstream",
+   "via_tag": "PV-1-3",
+   "question": "Consider the item directly downstream of BV-1-2 in the process flow. What's the face-to-face length for a 4 inch Class 300 flanged body?"
+  },
+  "candidate": "The item directly downstream of BV-1-2 is PV-1-3. Its face-to-face length is 11.00 in. (279 mm) for raised-face ends, or 11.50 in. (292 mm) for ring-type-joint ends."
+ },
+ {
+  "item": "ff87c85a86",
+  "gold": {
+   "answer": "No. With the low power output code (M), only the Plugged Impulse Line diagnostic is included.",
+   "answerable": "yes",
+   "category": "footnote",
+   "must": [
+    "no",
+    "only Plugged Impulse Line diagnostic"
+   ],
+   "relation": "measured_by",
+   "via_tag": "PT-17-2",
+   "question": "Consider the transmitter that measures E-17-1. If I order the DA1 diagnostics with the low-power 1-5 V output, do I get both Loop Integrity and Plugged Impulse Line diagnostics?"
+  },
+  "candidate": "No. The DA1 diagnostics with low-power 1–5 V output include Plugged Impulse Line diagnostics only, not Loop Integrity."
+ },
+ {
+  "item": "ed955e56cd",
+  "gold": {
+   "answer": "Not stated in the document",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "says installation position relative to taps is not stated"
+   ],
+   "relation": "fed_by_transmitter",
+   "via_tag": "PT-22-1",
+   "question": "Consider the transmitter that feeds controller PIC-22-1. Same question for gas — where do I mount it relative to the orifice taps so liquid doesn't collect?"
+  },
+  "candidate": "The description does not state where to mount the gas transmitter relative to the orifice taps."
+ },
+ {
+  "item": "6b0e11e1f6",
+  "gold": {
+   "answer": "Not in the document (no troubleshooting).",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated"
+   ],
+   "question": "Regarding FV-11-1 on the P&ID: The valve leaks through when shut. Is it the seat ring or the plug seal, and how do I check?"
+  },
+  "candidate": "The available information does not identify whether leakage is past the seat ring or the plug seal, and it gives no procedure for checking either. FV-11-1 is present, but the cause and inspection method cannot be determined from the provided description."
+ },
+ {
+  "item": "261156a82d",
+  "gold": {
+   "answer": "Not stated (only this model's dimensions are given).",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated"
+   ],
+   "question": "Regarding P-1-1 on the P&ID: If we replace it with a newer model, does the same footprint and pipe connections fit?"
+  },
+  "candidate": "The description does not provide enough information to confirm a fit. It gives the pump’s suction and discharge connection size as 4 in × 2½ in with raised-face flanges, but does not provide the overall dimensions or mounting-footprint measurements needed to check the replacement."
+ },
+ {
+  "item": "c8a5211267",
+  "gold": {
+   "answer": "No maintenance interval in the datasheet (maintenance only by authorized specialists, per the installation manual).",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated"
+   ],
+   "question": "Regarding GV-12-2 on the P&ID: How often should it be inspected or have the seals changed?"
+  },
+  "candidate": "The description does not specify an inspection frequency or how often the seals should be changed. It says maintenance must follow the installation instructions."
+ },
+ {
+  "item": "047fd1522a",
+  "gold": {
+   "answer": "Neither is stated: the only approval listed is CE.",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated",
+    "only CE"
+   ],
+   "question": "Regarding GV-10-1 on the P&ID: Is it approved for drinking water, or for use in an explosive (Ex) area?"
+  },
+  "candidate": "The datasheet lists CE approval but does not establish approval for drinking water or for use in an explosive (Ex) area."
+ },
+ {
+  "item": "bcc88bc3d5",
+  "gold": {
+   "answer": "A sliding-stem, single-port globe-style control valve (body) with cage guiding, balanced valve plug and push-down-to-close plug action, for throttling or on-off control of liquids and gases (part of the easy-e family; EAT = angle version, ETR = push-down-to-open). It is combined with an actuator, e.g. 667.",
+   "answerable": "yes",
+   "category": "value",
+   "must": [
+    "globe-style control valve (sliding stem)",
+    "cage-guided, balanced plug"
+   ],
+   "relation": "upstream",
+   "via_tag": "TV-10-2",
+   "question": "Consider the item directly upstream of BV-10-1 in the process flow. What is a Fisher ET? Is it the valve body, and what kind of valve is it?"
+  },
+  "candidate": "A Fisher ET is a valve model, not the valve body itself. The description identifies ET valves and lists globe and angle body designs, so it does not establish a single valve type for this item."
+ },
+ {
+  "item": "d72e5a0ed7",
+  "gold": {
+   "answer": "Not in the document (no safety or maintenance procedure).",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated"
+   ],
+   "relation": "operated_by",
+   "via_tag": "TV-43-2",
+   "question": "Consider the valve operated by control loop TIC-43-2. What do I need to do before taking the bonnet off so I don't get hurt by trapped pressure?"
+  },
+  "candidate": "The description lists bonnet types for valve TV-43-2, but does not say what to do before removing the bonnet to avoid trapped pressure."
+ }
+]

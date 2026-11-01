@@ -1,0 +1,38 @@
+[
+ {
+  "item": "c4dfa83f69",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Declares E-21-1 lowest at 10.3 barg, ignoring the 6 bar GVs; gold says undecidable."
+ },
+ {
+  "item": "d0a42547a3",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly says it cannot be decided, with PT-5-1 range limits (750-3626 psig) and FV-2-1 class ratings."
+ },
+ {
+  "item": "564a40f6e6",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Concludes E-7-1 lowest, whereas gold says the comparison depends on construction."
+ },
+ {
+  "item": "429c297030",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "No answer produced."
+ },
+ {
+  "item": "8ab8873bdb",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Claims E-7-1 has no stated pressure although gold gives 10.3/16.0 barg; no comparison."
+ },
+ {
+  "item": "1d53b58034",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "GV-2-5 lowest at 50 °C versus 71 °C for P-8-1."
+ }
+]

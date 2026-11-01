@@ -2,8 +2,7 @@
 
 Ebben a fejezetben összefoglaljuk a dokumentumokat, a szabványokat és a nyelvimodell-alapú
 kérdezési módszereket, amelyekre a dolgozat épül, majd egy táblázatban vetjük össze a kapcsolódó
-munkákat. Az irodalmat a két forrásrepó irodalmi jegyzeteiből válogattuk; csak olyan forrást
-idézünk, amelyet a jegyzet szerint ténylegesen elolvastak.
+munkákat.
 
 ## P&ID-k és gyártói adatlapok
 
@@ -16,10 +15,15 @@ berendezések, szelepek és műszerek vannak az üzemben, és hogyan kapcsolódn
 A rajzi elemeket a tag azonosítja (pl. P-101, FT-202). A tag betűi az elem fajtáját és szerepét
 jelölik, a műszereknél az első betű a mért változót (F áramlás, P nyomás, L szint, T hőmérséklet),
 a további betűk a funkciót (például T távadó, IC szabályozó); a betűk a hurokszámmal együtt adnak
-egyedi azonosítót [AIChE2010a]. A csővezetékek azonosítója, a vezetékszám szokás szerint
-névleges átmérőből, közegkódból, sorszámból, csőosztályból és szigetelésből áll [AIChE2010b]. A
-példaüzem tagjei egyszerűsített mintát követnek: a `P-1-3` az 1. egység harmadik szivattyúja, az
-`FT-2-2` a 2. egység második szabályozókörének áramlástávadója.
+egyedi azonosítót [AIChE2010a]. Az `FT-202` például így olvasható: F = a mért változó az áramlás,
+T = a műszer funkciója távadó, 202 = a szabályozókör (hurok) száma; ugyanennek a körnek a
+szabályozója `FIC-202`. A csővezetékek azonosítója, a vezetékszám szokás szerint névleges
+átmérőből, közegkódból, sorszámból, csőosztályból és szigetelésből áll [AIChE2010b]. Egy ilyen
+vezetékszám lehet például (csak szemléltető, kitalált példa) a `3"-CW-1012-CS1-N`: 3 hüvelyk
+névleges átmérő, CW (hűtővíz) közegkód, 1012-es sorszám, CS1 csőosztály, N (szigetelés nélkül).
+A példaüzemek tag-jei ugyanezt a betűrendszert követik, de a hurokszám helyett az egység és a
+sorszám áll bennük: a `P-1-3` az 1. egység harmadik szivattyúja (P = szivattyú), az `FT-2-2` a 2.
+egység második szabályozókörének áramlástávadója (F = áramlás, T = távadó).
 
 Egy valódi üzem rajza sok lapra tagolódik. A laphatáron átmenő vezetéket lapközi csatlakozó
 (off-page connector) folytatja egy másik lapon: a lap szélén álló, feliratozott jel, amely
@@ -28,9 +32,16 @@ a többlapos rajzok vezetékvégei kölcsönösen hivatkoznak egymásra [ISO1062
 hivatkozó jelek jól strukturált rajzszámot hordoznak, amely akár reguláris kifejezésekkel is
 összeköthető [Mani2020]. A laphatár két különböző kapcsolatot vághat el. Az egyik egy cső: ekkor
 két csatlakozó jelzi, hogy a vezeték a másik lapon folytatódik. A másik egy elem: ugyanaz a
-berendezés több lapon is megjelenik, egyszer teljes adatokkal, máshol csak a tagjével. Az első
-esetben a hiba látható (a gráf szétesik), a másodikban nem: a gráf épnek látszik, de a válaszok
-hiányosak.
+berendezés több lapon is megjelenik, az egyik lapon teljes adataival, a többin csak a tag-jével.
+Mindkét esetben a gráf építőjének kell a két lap darabjait összekötnie, és ha ez elmarad, más-más
+hiba keletkezik. Ha a csatlakozópár nincs összekötve, a cső két fele nem kapcsolódik: az út
+megszakad, a csatlakozó párja nélkül marad, és ez egy egyszerű ellenőrzéssel észrevehető. Ha
+viszont a berendezés előfordulásait nem vonja össze egy elemmé, ugyanaz a berendezés két külön
+csúcsként kerül a gráfba: az egyik lapon bekötött csövek az egyik csúcshoz, a másikon bekötöttek a
+másikhoz tartoznak. Mindkét csúcsnak vannak kapcsolatai, ezért a gráf épnek látszik, nincs
+párosítatlan jel, amely a hibát elárulná. Egy, a berendezésről szóló kérdés (például „mi táplálja
+ezt a hőcserélőt?”) azonban csak az egyik csúcs kapcsolatait látja, így a válasz hiányos lesz,
+és ezt semmi nem jelzi.
 
 ### A DEXPI és a pyDEXPI
 
@@ -60,7 +71,7 @@ teszi a gráfcsúcsok címkéjébe [Alimin2026], [Alimin2025]; Benedek generáto
 A rajz csak a kapcsolatokat mutatja; az egyes eszközök műszaki jellemzőit (nyomás- és
 hőmérséklethatár, anyag, méret, opciók) a gyártói adatlapok tartalmazzák. Egy adatlap néhány
 oldalastól több mint száz oldalasig terjedő PDF táblázatokkal, lábjegyzetekkel, feltételekhez
-kötött értékekkel és diagramokkal; a példaüzem adatlapjai 2 és 114 oldal közöttiek (EXP-007).
+kötött értékekkel és diagramokkal.
 
 Az adatlapi tény ritkán egyetlen szám. Egy szabályozószelep adatlapján egy hőmérsékleti határ
 csak egy adott testanyagra és csatlakozóméret-tartományra érvényes, egy lábjegyzet tovább
@@ -68,29 +79,28 @@ szűkíti, és ugyanaz az érték két mértékegységben is ki van nyomtatva. H
 a számot és az egységet őrzi meg, a válasza nem hiányos, hanem hibás lehet. A plantdocs végső
 mérésén éppen a feltételes kérdéseken volt nagy a két lekérdezési módszer különbsége: a 31
 feltételes kérdésből az A1 21-re, az A2 28-ra, a 17 több feltételt kombináló kérdésből 7-re,
-illetve 15-re adott helyes választ (a plantdocs `_results.md` szerint, EXP-0041).
+illetve 15-re adott helyes választ.
 
 ### Szabványok az adatlapi tények ábrázolására
 
-Az adatlapi tények szemantikus ábrázolására több, egymásra épülő szabvány áll rendelkezésre.
+Az adatlapi tények gépileg értelmezhető leírására több, egymásra épülő szabvány létezik. A
+fontosabbak:
 
-- Az **Industrial Data Ontology (IDO)** W3C OWL 2 felső ontológia ipari eszköz- és
-  folyamatadatokhoz; korábban ISO/TR 15926-14 volt, ma ISO 23726-3 néven szabványosítják [IDO]. Ez
-  adja a nyelvtant: fizikai tárgy, rész–egész viszony, információs tárgy, érték és mértékegység.
-- A **POSC Caesar referenciakönyvtára (PCA RDL)** a konkrét berendezés-, cső- és
-  műszerosztályok és tulajdonságok gyűjteménye; a régi azonosítói ma is feloldhatók, az új,
-  gépileg olvasható forma hitelesítéshez kötött [PCARDL].
-- A **CFIHOS** az üzemátadáskor elvárt adatokat írja le (tag- és berendezésosztály-attribútumok,
-  dokumentum-metaadatok); referenciaadatai Excelben és CSV-ben érhetők el [CFIHOS].
-- A **QUDT** a mértékegységek, mennyiségfajták és dimenziók szemantikus leírása; berendezést és
-  topológiát nem modellez [QUDT].
+- Az **IDO** (Industrial Data Ontology) az alapfogalmakat adja: fizikai tárgy, rész és egész,
+  információ, érték és mértékegység. OWL 2 nyelven írt ontológia; korábban ISO/TR 15926-14 volt,
+  ma ISO 23726-3 néven szabványosítják [IDO].
+- A **PCA RDL** (a POSC Caesar szervezet referenciakönyvtára) a konkrét berendezés-, cső- és
+  műszerosztályok és tulajdonságok listája [PCARDL].
+- A **CFIHOS** azt írja le, milyen adatokat kell átadni egy üzem átadásakor (tag-ek,
+  berendezésosztályok jellemzői, dokumentumadatok) [CFIHOS].
+- A **QUDT** a mértékegységeket és a mennyiségfajtákat írja le; berendezést nem [QUDT].
 
-Mérlegelhető, de a célra nem alkalmas szókészlet az OntoCAPE, amely hosszú ideje nem frissül
-[OntoCAPE], a berendezést és topológiát nem modellező SOSA/SSN [SOSASSN2017], a folyamatüzemi modul
-nélküli IOF [IOF] és a szivattyú- vagy szeleposztályt nem ismerő schema.org [SchemaOrg]. A plantdocs ezért az ISO 15926 vonalat
-választotta (4. fejezet). Ugyanerre a vonalra épít a szelepspecifikációs tervezési szabványok
-(például az ASME B16.34) IDO-alapú, moduláris OWL-ontológiává alakítása is [Gjerver2025]; mivel a DEXPI osztálydefiníciói is innen származnak, a rajzi és az
-adatlapi oldalnak közös a szemantikai gyökere.
+Más szókészletek (OntoCAPE [OntoCAPE], SOSA/SSN [SOSASSN2017], IOF [IOF], schema.org [SchemaOrg])
+erre a célra nem alkalmasak: vagy régóta nem frissülnek, vagy nem írják le a folyamatüzemi
+berendezéseket. A plantdocs ezért az ISO 15926 vonalat választotta (4. fejezet). Ugyanerre épül
+egy friss munka is, amely a szelepek tervezési szabványait (például az ASME B16.34-et) IDO-alapú
+ontológiává alakítja [Gjerver2025]. Mivel a DEXPI osztályai is az ISO 15926-ból származnak, a
+rajzi és az adatlapi oldal ugyanarra a szemantikai alapra épül.
 
 ### Tulajdonsággráf és RDF
 
@@ -108,10 +118,12 @@ Az adatlapi tények jelentős része n-áris: egy érték egy alanyról, egy tul
 feltételről egyszerre szól. Az ilyen tények bináris hármasokra bontása elveszíti a feltételt, és
 szemantikai széttöredezéshez vezet [HyperRAG2026]. Erre a hiper-relációs tudásgráfok és a
 hipergráfos RAG ad ábrázolást. A minősítők (qualifiers) javítják a linkpredikciót
-[StarE2020], a HyperGraphRAG pedig az n-áris tényeket hiperélekként tárolja [HyperGraphRAG2025]. A plantdocs jegyzetei szerint az ábrázolás tehát elvben megoldott; ami
-nehéz, az a dokumentum szerkezetében (táblázatfejlécben, lábjegyzetben, diagramtartományban)
-kódolt feltételek kinyerése. A plantdocs a feltételeket a POSC Caesar adatlap-mintájának
-esetcsúcsaival ábrázolja; ezt a 4. fejezetben mutatjuk be.
+[StarE2020], a HyperGraphRAG pedig az n-áris tényeket hiperélekként tárolja [HyperGraphRAG2025].
+A tárolás kérdése tehát elvben megoldott: ismert, hogyan lehet egy értéket a mértékegységével és a
+feltételeivel együtt egy gráfban rögzíteni. A nehézség a kiolvasás: a PDF a feltételt gyakran csak
+az elrendezésével fejezi ki, például egy táblázat fejlécével, egy lábjegyzettel vagy azzal, hogy
+egy érték egy diagram melyik tartományába esik, és ezt kell helyesen felismerni. Hogy a mi
+adatlapgráfunk hogyan tárolja a feltételeket, azt a 4. fejezet mutatja be.
 
 ## Kérdés-válaszolás P&ID-ken
 
@@ -159,31 +171,52 @@ rajzsorozatból kevés van; az OPEN100 sorozat 12 lapja ezek közé tartozik [OP
 ### Üzemi méret
 
 A fenti munkák közös vonása, hogy egy-egy rajzlapot vizsgálnak, és a rajzon kívüli
-dokumentumokat (adatlapokat) nem kapcsolják be. Kiszely Benedek egyéni munkája a P&ID-QA-t üzemi
-méretben vizsgálja: seedelt, többlapos szintetikus üzemeken, ahol a lapokra bontás a
-megoldókulcs, mert nyilvános, lapközi megoldókulccsal ellátott többlapos rajzkészlet nincs. Az ott
-mért kaszkád a README szerint a lezárt teszten (460 kérdés, a fejlesztés során nem látott
-üzemeken) 100 lapos üzemen 0,937, 1000 lapos üzemen 0,917 pontosságot ért el. A ContextRAG
-pontossága 1-ről 30 lapra 0,824-ről 0,658-ra csökkent, miközben a kaszkádé 0,941-ről 0,947-re
-változott, a ContextRAG relatív költsége a kaszkádéhoz képest 1,8-szorosról 41,5-szeresre nőtt, és a
-szerializált rajz körülbelül 143 lap fölött már nem fér el a promptban (Kiszely, plantgraph README).
+dokumentumokat (adatlapokat) nem kapcsolják be. Kiszely Benedek egyéni munkája (plantgraph) a
+rajzi kérdés-válaszolást üzemi méretben vizsgálja, véletlenszerűen generált, többlapos szintetikus
+üzemeken (a generátor véletlenszám-generátorának kezdőértéke, a seed, meghatározza az üzemet: ugyanaz
+a seed mindig ugyanazt az üzemet adja), mert
+nyilvános, a lapok közötti kapcsolatok megoldókulcsával ellátott többlapos rajzkészlet nincs. A
+kérdéseket és a referenciaválaszokat program állítja elő a generátor megoldókulcsként szolgáló
+üzemgráfjából, és a válaszokat is program pontozza (ugyanezt a pontozót használjuk mi is, 3.
+fejezet); a pontosság a helyesen megválaszolt kérdések aránya. A generátornak két változata van:
+egy egyszerűbb, első változat, és egy valósághűbb, későbbi változat, amelynek üzemeiben oszlopok,
+reaktorok, biztonsági szelepek és a berendezések között sok jelöletlen idom is van. Az alábbiakban
+minden számnál megadjuk, melyik változat üzemein mérték.
 
-A valósághűbb v2 generátor üzemein a befagyasztott v1 rendszer gyengébb, ezért Benedek egy külön
-megjelölt, hangolt rendszert (V2T) épített és fagyasztott be. Két, a hangolás során nem látott v2
-üzemen (kb. 100 és kb. 1000 lap, egyenként 163 kérdés) a V2T kaszkádja 154, illetve 156 helyes
-választ adott, a v1 rendszer 145, illetve 144-et (plantgraph EXP-0007-V2T-VAL). A létramérésen
-(R4, regisztrált tesztseedek) a kaszkád pontossága 1, 3, 11 és 30 lapon 0,957 / 0,885 / 0,909 /
-0,924 volt, a ContextRAG-é 1, 3 és 11 lapon 0,686 / 0,654 / 0,614. A ContextRAG kérdésenkénti
-költsége 1 lapon a kaszkád 3,79-szerese, 11 lapon 21,57-szerese, és a szerializált rajz kb. 62 lap
-fölött már nem fér el a promptban (plantgraph EXP-0007-R4). A lezárt v2-teszten (R5, regisztrált
-tesztseedek, 440 kérdés üzemenként) a V2T kaszkádja kb. 100 lapon 401 (0,911), kb. 1000 lapon 392
-(0,891) helyes választ adott; a változás (−0,020, 95% CI −0,059 és +0,018 között) nem szignifikáns,
-a kérdésenkénti költség 0,00137, illetve 0,00148 USD, a medián késleltetés 7,1, illetve 7,5 s. A
-hangolás során nem látott kérdéscsaládokon (100 kérdés) a pontosság 0,770, illetve 0,740, a
-különbség szinte teljesen a lefelé izolációs (DOWNSTREAM_ISOLATION) kérdésekből jön, ahol a 20-ból
-mindkét méretnél 2 volt helyes (plantgraph EXP-0007-R5).
-Ezek a számok háttérként szerepelnek; jelen munka nem méri őket újra, de a 6. fejezetben ezekre
-támaszkodunk, amikor a gráf nélküli módszer skálázódásáról beszélünk.
+**A gráf nélküli alapmódszer.** A ContextRAG a teljes rajzot szövegként a promptba teszi. Az
+egyszerűbb generátor üzemein a pontossága 1-ről 30 lapra 0,824-ről 0,658-ra csökkent, miközben a
+kaszkádé 0,941-ről 0,947-re változott. A valósághűbb generátor üzemein, egy 1, 3 és 11 lapos
+rajzokon végzett mérés-sorozatban a kaszkád pontossága 0,957 / 0,885 / 0,909, a ContextRAG-é
+0,686 / 0,654 / 0,614 volt. A ContextRAG költségét a forrás a kaszkád költségéhez viszonyítva
+közli: kérdésenként az egyszerűbb üzemeken 1 lapon 1,8-szer, 30 lapon 41,5-ször, a valósághűbb
+üzemeken 1 lapon 3,79-szer, 11 lapon 21,57-szer annyiba kerül, mint a kaszkád. A szövegként leírt
+rajz egy bizonyos méret fölött már nem fér el a modell promptjában: az egyszerűbb generátor
+üzemein ez körülbelül 143, a valósághűbbén körülbelül 62 lap; a két szám tehát a két
+generátorváltozathoz tartozik.
+
+**A kaszkád 100 és 1000 lapos üzemen.** Az egyszerűbb generátor üzemein a kaszkád a lezárt
+teszten 100 lapos üzemen 0,937, 1000 lapos üzemen 0,917 pontosságot ért el. A lezárt teszt 460
+kérdése olyan üzemekre vonatkozott, amelyeket a fejlesztés során egyszer sem használtak: a
+generátor új seedekkel állította elő őket, a kérdéseket és a referenciaválaszokat pedig program
+készítette ezeknek az üzemeknek a megoldókulcsából, így a rendszer ezeket a rajzokat korábban nem
+láthatta. A valósághűbb generátor üzemein az egyszerűbb üzemekre fejlesztett rendszer gyengébb,
+ezért Benedek ezekre az üzemekre külön hangolt és befagyasztott egy kaszkádot; ezt használjuk mi
+is (5. fejezet). Két, a hangolás során nem használt üzemen (kb. 100 és kb. 1000 lap, egyenként 163
+kérdés) a hangolt kaszkád 154, illetve 156, a hangolás előtti 145, illetve 144 helyes választ adott.
+A lezárt teszten (üzemenként 440 kérdés) a hangolt kaszkád kb. 100 lapon 401 (0,911), kb. 1000
+lapon 392 (0,891) helyes választ adott. A −0,020-es különbség nem szignifikáns (a 95%-os
+konfidenciaintervallum −0,059 és +0,018 között van, tehát a nullát is tartalmazza), vagyis a
+tízszer nagyobb üzemen a pontosság nem romlott mérhetően. A kérdésenkénti költség 0,00137, illetve
+0,00148 USD volt, a medián késleltetés 7,1, illetve 7,5 s; a medián késleltetés a kérdésenkénti
+válaszidő tipikus értéke (a kérdések felére ennél gyorsabban, felére lassabban érkezett válasz).
+
+**Új kérdéstípusok.** Benedek a rendszert olyan kérdéstípusokon is megmérte, amelyeket a
+hangolás során nem használt (100 kérdés). Ezeken a hangolt kaszkád pontossága kb. 100 lapon 0,770,
+kb. 1000 lapon 0,740 volt. Az elmaradás szinte teljesen a lefelé eső elzáró
+szelepeket kereső kérdésekből jön: ezek közül a 20-ból mindkét méretnél csak 2 volt helyes.
+
+Ezeket a számokat jelen munka nem méri újra; a 6. fejezetben a gráf nélküli módszer
+skálázódásának hátteréül szolgálnak.
 
 ## Kérdés-válaszolás műszaki dokumentumokon
 
@@ -203,9 +236,8 @@ szabad szöveges válaszokat mi is bírálóval pontozzuk (3. fejezet).
 Szabó Zsombor egyéni munkája (plantdocs) egyetlen eszköz adatlapjából épít ISO 15926 / QUDT
 szerinti tudásgráfot, amelyben a feltételek és a kereszthivatkozások külön elemek maradnak. Két lekérdezési
 módszert hasonlít össze: A1 (RDF + SPARQL) és A2 (Neo4j + Cypher, vektoros kereséssel). A
-plantdocs végső mérésén (EXP-0041, a Rosemount 3051 adatlap 200 befagyasztott kérdésén, GLM-mel,
-vak bírálóval) az A1 141, az A2 172 kérdésre adott helyes választ (a plantdocs `_results.md`
-szerint). Ebben a munkában az A2 az adatlapoldal alapja.
+plantdocs végső mérésén (a Rosemount 3051 adatlap 200 befagyasztott kérdésén, GLM-mel, vak
+bírálóval) az A1 141, az A2 172 kérdésre adott helyes választ. Ebben a munkában az A2 az adatlapoldal alapja.
 
 ## GraphRAG és visszakeresési stratégiák
 
@@ -214,8 +246,8 @@ szerint). Ebben a munkában az A2 az adatlapoldal alapja.
 A gráfalapú RAG nem mindig jobb a szövegalapúnál. Egy benchmark szöveges korpuszon méretfüggő
 keresztezést mutatott ki a sima RAG és egy gráfalapú módszer között: kis korpuszon a sima RAG nyer,
 és a gráf előnye a korpusz méretével jelenik meg [Xiang2025]. A ChatP&ID egylapos eredménye
-és Benedek üzemi méretű mérései ugyanezt a mintát mutatják a rajzokon; a mi négylapos
-példaüzemünkön ezért a gráf nélküli módszer erős ellenfél.
+és Benedek üzemi méretű mérései ugyanezt a mintát mutatják a rajzokon; kis üzemen (például a mi
+négylapos prototípus-üzemünkön) ezért a gráf nélküli módszer erős ellenfél.
 
 Ha több visszakeresési stratégia áll rendelkezésre, kérdésenként lehet közöttük választani. A
 GraphRAG-Router megerősítéses tanulással tanított útválasztója kérdésenként választ GraphRAG-módszer
@@ -227,14 +259,16 @@ melyik meglévő rendszert hívja.
 
 A tudásgráf-kérdés-válaszolás bevett mintája az ágens, amely lépésenként eszközöket hív a gráfon,
 és az eredményekből állítja össze a választ. A KBQA-Agent hét tudásbázis-eszközt ad (relációk,
-szomszédok, attribútumok, legnagyobb és legkisebb érték, metszet, darabszám), amelyek a korábbi
-lépések eredményeit megnevező változókon dolgoznak [KBQAAgent2024]. Hasonló mintát követ a KG-Agent
+szomszédok, attribútumok, legnagyobb és legkisebb érték, metszet, darabszám); minden lépés
+eredménye nevet kap, így egy későbbi lépés név szerint visszautalhat rá, és azon dolgozhat tovább
+(például előbb a szomszédokat kéri le, majd ezek közül választja ki a legnagyobb értékűt)
+[KBQAAgent2024]. Hasonló mintát követ a KG-Agent
 [KGAgent2024] és a Graph-CoT [GraphCoT2024]. A skála másik végén a szabad
 Cypher áll: a Neo4j MCP-szervere mindössze sémalekérdező, olvasó és író Cypher-eszközt ad, a
 lekérdezést a modell írja [MCPNeo4j].
 
 Benedek ágense a KBQA-Agent családjába tartozik: hat általános, egymással komponálható üzemi
-primitívet hív, az eredményeket hivatkozással adja tovább (plantgraph README, ADR-0034); a mi
+primitívet hív, az eredményeket hivatkozással adja tovább; a mi
 `datasheet_fact` primitívünk ezt a készletet bővíti (5. fejezet).
 
 ### Kaszkád és önjelzés
@@ -243,15 +277,15 @@ A kaszkád (lépcsős módszer) a kérdést előbb a legolcsóbb módszernek adj
 tovább, ha az olcsó válasz gyanús. A gyanú forrása önjelzés: olyan jel, amelyet a lépcső maga ad
 a válaszáról, a helyes válasz ismerete nélkül, például a hibát dobó vagy üres lekérdezés. Az ilyen
 szabály nem illeszt paramétert a mért adatra, ezért kevésbé hajlamos a túlillesztésre, mint a
-kérdéstípus szerinti útválasztás (Benedek tanulási jegyzete a kaszkádról). Benedek kaszkádja is
+kérdéstípus szerinti útválasztás. Benedek kaszkádja is
 ilyen szabállyal dönt; az 5. fejezetben részletezzük.
 
 ## Összevetés
 
 Az alábbi táblázat azt foglalja össze, hogy a kapcsolódó munkák a probléma mely részeit fedik le;
-a kiértékelés méretét a forrás jegyzete vagy README-je szerint adjuk meg.
+a kiértékelés méretét a forrás szerint adjuk meg.
 
-Táblázat: A kapcsolódó munkák összevetése (a két forrásrepó irodalmi jegyzetei, a két forrásrepó README-je és `_results.md`-je, valamint EXP-004 és EXP-009 alapján)
+Táblázat: A kapcsolódó munkák összevetése
 | Munka | Rajz | Adatlap | Több lap | Gráf | Kiértékelés mérete |
 |---|---|---|---|---|---|
 | ChatP&ID [Alimin2026] | igen (DEXPI) | nem | nem, egy lap | Neo4j, tulajdonsággráf | 19 kérdés |
@@ -260,12 +294,12 @@ Táblázat: A kapcsolódó munkák összevetése (a két forrásrepó irodalmi j
 | Gadekar és társai [Gadekar2026] | igen (raszteres) | nem | nem | visszanyert folyamatgráf, 7 operátor | 3000 kérdés, szintetikus lapok |
 | pid-graph-agent [PidGraphAgent2026] | igen (DEXPI) | nem | nem, kérdésenként egy fájl | gráfeszközös ágens | 15 + 37 saját kérdés |
 | Everllence-esettanulmány [Kochanski2026] | igen | nem | igen | Neo4j, ágens | nem közöl |
-| Lopomo és társai [Lopomo2026] | igen (126 rajz) | nem | a jegyzet nem rögzíti | automatikusan épített tudásgráf | gráfépítés, nem kérdés-válaszolás |
-| Document GraphRAG [Knollmeyer2025] | nem | gyártási dokumentumok | – | dokumentumszerkezet és példánygráf | a jegyzet nem rögzíti |
+| Lopomo és társai [Lopomo2026] | igen (126 rajz) | nem | nincs adat | automatikusan épített tudásgráf | gráfépítés, nem kérdés-válaszolás |
+| Document GraphRAG [Knollmeyer2025] | nem | gyártási dokumentumok | – | dokumentumszerkezet és példánygráf | nincs adat |
 | Enginuity [Kumar2026] | mérnöki rajzok | kézikönyvek, alkatrésztáblák | – | nincs | 6940 oldal |
 | plantgraph (Kiszely) | igen (szintetikus) | nem | igen, kb. 100 és 1000 lap | Neo4j, üzemi réteg | 460 kérdés a lezárt teszten |
 | plantdocs (Szabó) | nem | igen, egy eszköz | – | ISO 15926 / QUDT, RDF és Neo4j | 200 kérdés |
-| Jelen munka | igen (4 lap) | igen, 7 adatlap | igen | összevont Neo4j-gráf | 20 dev + 40 teszt kérdés, 12 (e) kérdés |
+| Jelen munka | igen (30 és 50 lapos fejlesztési, 100 és 1000 lapos tesztüzem) | igen, 7 adatlap | igen | összevont Neo4j-gráf | üzemenként 60 kérdés + 12 (e) kérdés |
 
 A rajzoldali munkák szinte mind egylaposak, és egyikük sem kapcsolja be az eszközök adatlapjait;
 az egyetlen többlapos ipari példa kiértékelést nem közöl. A dokumentumoldali munkák pedig nem
@@ -276,6 +310,6 @@ használják a rajz topológiáját.
 A két egyéni munka ugyanannak az üzemi dokumentációnak két oldalát dolgozza fel. A rajzon
 látszik, hogy mi mivel áll kapcsolatban, az adatlapon, hogy egy eszköz mire képes. Egy mérnöki
 kérdés gyakran mindkettőt igényli („mekkora a maximális nyomás azon a szelepen, amely a P-101
-nyomóoldalát elzárja?”). Nem találtunk olyan munkát a két repó irodalmi jegyzeteiben, amely a
+nyomóoldalát elzárja?”). Az általunk áttekintett irodalomban nem találtunk olyan munkát, amely a
 rajzi gráfot és az eszközönkénti adatlapgráfokat egy lekérdezhető modellben kötné össze, és ezt
 mérné. Ez a dolgozat tárgya.

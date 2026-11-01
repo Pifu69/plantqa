@@ -1,0 +1,92 @@
+[
+ {
+  "item": "59e23e56f9",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Picks one construction for each item and names PT-331-1 lowest; the gold says the comparison cannot be decided."
+ },
+ {
+  "item": "cbd7d7e3d2",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "P-11-2 160 F is correctly the lowest, but only one CHV construction (400 F) is given, not the construction-dependent values."
+ },
+ {
+  "item": "ea06eda3ca",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "P-41-2 160 F is correctly the lowest, but only one CHV value (400 F) is given."
+ },
+ {
+  "item": "b47a5a0d05",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Does not find P-41-2's value and reaches no conclusion."
+ },
+ {
+  "item": "fe021264d8",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "P-5-1 71 C is correctly the lowest, but only the 315 C BV seat value is given, not the other seat limits."
+ },
+ {
+  "item": "ba0ffcb7ef",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "P-11-2 160 F is correctly the lowest, but the CHV value (180 C, FG frame/PED) is unsupported by the gold."
+ },
+ {
+  "item": "35a4cb4cea",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "P-11-2 is correctly the lowest, but only one CHV value (400 F) is given."
+ },
+ {
+  "item": "a3d4eb3786",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "P-11-2 is correctly the lowest; CHV 400/375 F are given but the brass 250 F construction is missing."
+ },
+ {
+  "item": "d44b4c01da",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Names PT-331-1 lowest at 2000 psig; the gold says it cannot be decided."
+ },
+ {
+  "item": "77e98cd8da",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Correctly says it cannot be decided, but gives no PT-331-1 values and only the 6000 psig CHV maximum."
+ },
+ {
+  "item": "d304343c7e",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Pump values are right, but only one BV seat value is given, and it names the pumps lowest instead of saying it cannot be decided."
+ },
+ {
+  "item": "44a489dc55",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Pump 250 psi and the cannot-be-determined conclusion match, but the BV chart values and the 266 psi casing limit are missing."
+ },
+ {
+  "item": "a68cab4775",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "P-5-1 160 F is lowest; the BV seat-dependent range of 80-315 C is given, and the pump is lowest even against the lowest seat."
+ },
+ {
+  "item": "eaf9daabe6",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "P-5-1 is correctly the lowest, but only the highest BV value (315 C) is given."
+ },
+ {
+  "item": "7c04b41318",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "All values are right, but it names the pumps lowest instead of saying the comparison cannot be decided."
+ }
+]

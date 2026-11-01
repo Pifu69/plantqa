@@ -1,0 +1,87 @@
+[
+ {
+  "item": "e328b0256e",
+  "gold": {
+   "answer": "Diagnosis is not in the document. NPSH required (10.20 in. impeller) from the curves: at 1450 rpm about 1 m at low flow rising to about 2.5 m at the end of the range; at 2900 rpm up to about 3.5-4 m.",
+   "answerable": "partial",
+   "category": "chart",
+   "must": [
+    "diagnosis not stated",
+    "NPSHr from curve (speed dependent)"
+   ],
+   "tolerance": "1450 rpm: 0.5-3 m; 2900 rpm max 3-4.5 m",
+   "question": "Regarding P-1-4 on the P&ID: Flow has dropped off a lot and it's noisy. Could it be cavitation, and what NPSH does it need?"
+  },
+  "candidate": "Not in the documents. The datasheet for P-1-4 (Gorman-Rupp) does not state any NPSH-required value, so the required NPSH cannot be determined from the plant documents; that figure would have to come from the manufacturer. The datasheet does give related operating limits: maximum operating pressure 250 psi (1723 kPa) at up to 100 °F, maximum casing pressure 266 psi, maximum pumped-liquid temperature 160 °F (seal limit), and performance curves for water and petroleum covering roughly 0–560/600 US gal/min at 1150–3450 RPM. No statement about cavitation (whether the reported low flow and noise indicate cavitation) appears in the documents."
+ },
+ {
+  "item": "de1ecd70ce",
+  "gold": {
+   "answer": "Standard cages: quick-opening, linear or equal percentage. Whisper Trim, WhisperFlo and Cavitrol cages: linear only.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "all three with standard cage",
+    "special cages linear only"
+   ],
+   "question": "Regarding FV-12-1 on the P&ID: What flow characteristics can I get: equal percentage, linear, quick opening?"
+  },
+  "candidate": "According to the datasheet for FV-12-1, the valve is available in all three flow characteristics — equal percentage, linear, and quick-opening — depending on the cage used. With the standard cages, all three are offered; however, the Whisper Trim, WhisperFlo and Cavitrol cages are available with a linear characteristic only. (The optional Trim Cartridge for the ET variant is offered only in equal percentage or linear, without quick-opening.)"
+ },
+ {
+  "item": "df2b75a399",
+  "gold": {
+   "answer": "Cv 59.7 at maximum plug travel for the NPS 2 ET with full-sized trim, equal percentage cage, normal flow direction (EAT NPS 2: 48.1 with liner, 47.2 without).",
+   "answerable": "yes",
+   "category": "conditional",
+   "must": [
+    "59.7",
+    "full-sized trim, equal percentage cage, normal flow"
+   ],
+   "question": "Regarding FV-16-2 on the P&ID: What's the Cv at full open for a 2 inch valve?"
+  },
+  "candidate": "For a 2 inch valve, the datasheet for FV-16-2 (Fisher ET/EWT type, datasheet fisher-et-d100022x012) gives the maximum flow coefficient (Cv) at full open (maximum valve plug travel) as depending on the valve variant: 48.1 for the EAT with liner, 47.2 for the EAT without liner, and 59.7 for the ED and ETR variants. These values apply with full-sized trim, equal percentage cage, and normal flow direction (p. 23, Table 17)."
+ },
+ {
+  "item": "f8278418ca",
+  "gold": {
+   "answer": "Cv 59.7 at maximum plug travel for the NPS 2 ET with full-sized trim, equal percentage cage, normal flow direction (EAT NPS 2: 48.1 with liner, 47.2 without).",
+   "answerable": "yes",
+   "category": "conditional",
+   "must": [
+    "59.7",
+    "full-sized trim, equal percentage cage, normal flow"
+   ],
+   "question": "Regarding FV-16-2 on the P&ID: What's the Cv at full open for a 2 inch valve?"
+  },
+  "candidate": "The full-open Cv depends on valve type: 48.1 for EAT with liner, 47.2 for EAT without liner, and 59.7 for ED or ETR. The description does not identify which type applies to FV-16-2."
+ },
+ {
+  "item": "0ae5bb0681",
+  "gold": {
+   "answer": "Yes, a service-friendly, robust manual override (part 10).",
+   "answerable": "yes",
+   "category": "value",
+   "must": [
+    "yes, manual override"
+   ],
+   "question": "Regarding GV-12-2 on the P&ID: Is there a manual override so I can open it without power?"
+  },
+  "candidate": "Yes. GV-12-2 is described as a Type 165 2/2-way solenoid valve, and the documentation for it explicitly lists a manual override among its features ('Service-friendly, robust manual override'), so the valve can be operated manually without power. Note it is a servo-controlled diaphragm valve requiring a minimum differential pressure of about 0.5 bar."
+ },
+ {
+  "item": "dd56b0d6f3",
+  "gold": {
+   "answer": "Vibration effect: less than +/-0.1% of URL when tested per IEC 60770-1:1999 field or pipeline with high vibration level (10-60 Hz 0.21 mm displacement peak amplitude / 60-2000 Hz 3g).",
+   "answerable": "yes",
+   "category": "value",
+   "must": [
+    "< +/-0.1% of URL",
+    "IEC 60770-1:1999 high vibration level",
+    "10-60 Hz 0.21 mm peak / 60-2000 Hz 3g"
+   ],
+   "question": "Regarding FT-11-1 on the P&ID: It's mounted near a compressor with heavy vibration. What vibration limits is it rated for?"
+  },
+  "candidate": "FT-11-1 (a Rosemount 3051 flow transmitter) is tested per IEC 60770-1:1999 for the 'field or pipeline with high vibration level' condition: 0.21 mm peak displacement from 10-60 Hz and 3 g acceleration from 60-2000 Hz. Under that test, the effect on the reading is less than ±0.1 percent of URL (the top of the calibrated span). Note these are test levels and their effect on measurement error; no separate general vibration endurance or shipping vibration rating is given."
+ }
+]

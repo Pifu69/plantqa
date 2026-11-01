@@ -1,0 +1,58 @@
+{
+  "runs": [
+    {
+      "command": "python -m plantqa.eval.run --exp EXP-084 --method M1 --model glm --split complex --allow-paid",
+      "method": "M1",
+      "model_id": "z-ai/glm-5.3-flash",
+      "split": "complex",
+      "git_commit": "35bcdfe",
+      "started": "2026-11-01T07:33:18+00:00",
+      "spent_before_usd": 6.8879
+    },
+    {
+      "command": "python -m plantqa.eval.run --exp EXP-084 --method M1 --model luna --split complex --allow-paid",
+      "method": "M1",
+      "model_id": "openai/gpt-6-luna",
+      "split": "complex",
+      "git_commit": "35bcdfe",
+      "started": "2026-11-01T07:33:31+00:00",
+      "spent_before_usd": 6.8901
+    },
+    {
+      "command": "python -m plantqa.eval.run --exp EXP-084 --method M2 --model glm --split complex --allow-paid",
+      "method": "M2",
+      "model_id": "z-ai/glm-5.3-flash",
+      "split": "complex",
+      "git_commit": "35bcdfe",
+      "started": "2026-11-01T07:33:40+00:00",
+      "spent_before_usd": 6.8959
+    },
+    {
+      "command": "python -m plantqa.eval.run --exp EXP-084 --method M2 --model luna --split complex --allow-paid",
+      "method": "M2",
+      "model_id": "openai/gpt-6-luna",
+      "split": "complex",
+      "git_commit": "35bcdfe",
+      "started": "2026-11-01T07:33:52+00:00",
+      "spent_before_usd": 6.9113
+    },
+    {
+      "command": "python -m plantqa.eval.run --exp EXP-084 --method M3 --model glm --split complex --allow-paid",
+      "method": "M3",
+      "model_id": "z-ai/glm-5.3-flash",
+      "split": "complex",
+      "git_commit": "35bcdfe",
+      "started": "2026-11-01T07:33:58+00:00",
+      "spent_before_usd": 6.9186
+    },
+    {
+      "command": "python -m plantqa.eval.run --exp EXP-084 --method M3 --model luna --split complex --allow-paid",
+      "method": "M3",
+      "model_id": "openai/gpt-6-luna",
+      "split": "complex",
+      "git_commit": "35bcdfe",
+      "started": "2026-11-01T07:34:07+00:00",
+      "spent_before_usd": 6.9489
+    }
+  ]
+}

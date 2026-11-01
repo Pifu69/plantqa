@@ -1,0 +1,77 @@
+[
+ {
+  "item": "95fa1a4975",
+  "gold": {
+   "answer": "Not in the document (materials are listed, part numbers are not).",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated"
+   ],
+   "question": "Regarding FV-10-1 on the P&ID: What part numbers do I need for a seat ring and plug seal for our valve size?"
+  },
+  "candidate": "The P&ID identifies FV-10-1 as a globe valve, but the documents do not state its size or the part numbers for its seat ring and plug seal."
+ },
+ {
+  "item": "b6d5c80128",
+  "gold": {
+   "answer": "Diagnosis is not in the document. NPSH required (10.20 in. impeller) from the curves: at 1450 rpm about 1 m at low flow rising to about 2.5 m at the end of the range; at 2900 rpm up to about 3.5-4 m.",
+   "answerable": "partial",
+   "category": "chart",
+   "must": [
+    "diagnosis not stated",
+    "NPSHr from curve (speed dependent)"
+   ],
+   "tolerance": "1450 rpm: 0.5-3 m; 2900 rpm max 3-4.5 m",
+   "question": "Regarding P-1-4 on the P&ID: Flow has dropped off a lot and it's noisy. Could it be cavitation, and what NPSH does it need?"
+  },
+  "candidate": "Not in the documents. The documents don't support a definitive cavitation diagnosis. On the P&ID, P-1-4 is a centrifugal pump whose suction comes from the discharge of pump P-1-1 (there are no level or pressure instruments shown on P-1-4's suction side to check suction conditions). The datasheet for P-1-4 (Gorman-Rupp, water service, SG 1.0) gives no NPSH-required value — no NPSH parameter, table, or curve is included, so the required NPSH cannot be determined from the documents. What the datasheet does state: max operating pressure 250 psi (1723 kPa) up to 100 °F (37 °C), max casing pressure 266 psi (1834 kPa), max liquid temperature 160 °F (71 °C) per the seal limit, and performance curves only (VGH2 1/2C-B-1, 10.20\" impeller, 1150–3450 RPM) with no single rated design point. Not stated in the documents: whether the noise/flow drop is cavitation and the pump's NPSH-required value."
+ },
+ {
+  "item": "96cb2a697b",
+  "gold": {
+   "answer": "Yes (solenoid). Versions for 24 V DC, 230 V 50/60 Hz and 115 V 50/60 Hz (ordering tables and coil sets say 110 V); tolerance ±10 %. 24 V DC works if you order the 24 V DC version - the voltage must match the type plate.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "24 V DC version exists",
+    "230 V AC version exists",
+    "must match type plate / order the right version"
+   ],
+   "question": "Regarding GV-12-3 on the P&ID: Does it need power? If so, what voltage, and will 24 V DC work, or do I need 230 V AC?"
+  },
+  "candidate": "GV-12-3 is covered by the Georg Fischer Type 165 2/2-way solenoid valve datasheet, so it is an electrically actuated (solenoid) valve and does need power. The datasheet states the valve is available with supply voltages of 24 V DC, 230 V 50/60 Hz, or 115 V 50/60 Hz (voltage tolerance ±10%). Both 24 V DC and 230 V AC are offered variants of the valve, so 24 V DC will work if the 24 V DC version is installed; however, the documents do not state which voltage variant GV-12-3 specifically is, so whether you need 230 V AC or 24 V DC for this particular tag cannot be determined from the provided documents."
+ },
+ {
+  "item": "16e95a8aa6",
+  "gold": {
+   "answer": "Cv 59.7 at maximum plug travel for the NPS 2 ET with full-sized trim, equal percentage cage, normal flow direction (EAT NPS 2: 48.1 with liner, 47.2 without).",
+   "answerable": "yes",
+   "category": "conditional",
+   "must": [
+    "59.7",
+    "full-sized trim, equal percentage cage, normal flow"
+   ],
+   "question": "Regarding FV-16-2 on the P&ID: What's the Cv at full open for a 2 inch valve?"
+  },
+  "candidate": "For a 2-inch ED or ETR valve with full-sized trim, an equal-percentage cage, normal flow direction, and maximum plug travel, the full-open Cv is 59.7. The datasheet does not specify the Cv for every other valve type or trim configuration."
+ },
+ {
+  "item": "6f1c47ebb2",
+  "gold": {
+   "answer": "A standard centrifugal pump on a basic pedestal (bare shaft), size 4\" x 2 1/2\". The meaning of the model code is not explained.",
+   "answerable": "partial",
+   "category": "value",
+   "must": [
+    "standard centrifugal pump (pedestal)",
+    "4\" x 2 1/2\"",
+    "model code not explained"
+   ],
+   "relation": "downstream",
+   "via_tag": "P-17-4",
+   "question": "Consider the item directly downstream of BV-17-3 in the process flow. What kind of pump is a VGH2 1/2C31-B, and what does the model code tell me?"
+  },
+  "candidate": "P-17-4 is identified as a standard centrifugal pump, with a nominal size of 4 in × 2½ in. The datasheet lists VGH2 1/2C31-B as the model but does not explain the individual characters or numbers in the code."
+ }
+]

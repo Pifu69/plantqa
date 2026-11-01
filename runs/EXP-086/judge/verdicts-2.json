@@ -1,0 +1,242 @@
+[
+ {
+  "item": "9a1e2940b6",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Says dimensions and weight are not in the documents although gold has them."
+ },
+ {
+  "item": "d03d6ffe84",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Standard cages all three, special cages linear."
+ },
+ {
+  "item": "e58502e8bb",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "All vibration elements present."
+ },
+ {
+  "item": "851612d66e",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Flanged yes and BW/screwed, but socket weld omitted."
+ },
+ {
+  "item": "f77ad24605",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "All three with standard cages, special cages linear."
+ },
+ {
+  "item": "1360bb7fc2",
+  "verdict": "correct",
+  "cites_page": true,
+  "reason": "Flanged options plus screwed, BW and SW listed."
+ },
+ {
+  "item": "9ab9d23cab",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Weight correct but dimensions claimed not given and motor caveat missing."
+ },
+ {
+  "item": "bf35f0c9e9",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Effect and test levels right but IEC 60770-1 standard not mentioned."
+ },
+ {
+  "item": "b7450771e6",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Suction 4 in, discharge 2 1/2 in, raised face flanges."
+ },
+ {
+  "item": "d69200552d",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "24 V DC and 230 V AC versions and type plate check stated."
+ },
+ {
+  "item": "2dc27e3fdb",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Jumper/switch selection right but default high and alarm levels missing."
+ },
+ {
+  "item": "f5cab0b2d7",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Says diagnosis not stated but misses the NPSHr available from the curves."
+ },
+ {
+  "item": "64d51df980",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Solenoid needs power; 24 V DC and 230 V AC variants; depends on coil variant."
+ },
+ {
+  "item": "6d7caaf2c7",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "59.7 with full-sized trim but equal percentage cage and normal flow conditions missing."
+ },
+ {
+  "item": "a4d27f46f3",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Both versions exist; 24 V DC works if that version is installed."
+ },
+ {
+  "item": "b52632f72a",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Standard centrifugal pump, 4x2 1/2, model code not explained."
+ },
+ {
+  "item": "95ecd1b175",
+  "verdict": "partial",
+  "cites_page": true,
+  "reason": "Jumper/switch and alarm levels right but default high and output M jumper missing."
+ },
+ {
+  "item": "1b54741da2",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "All materials listed and stainless available."
+ },
+ {
+  "item": "b5fd99695d",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Voltage options and type plate matching stated."
+ },
+ {
+  "item": "3cf8967c76",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Default high, levels and jumper given but output M internal jumper omitted."
+ },
+ {
+  "item": "ebfc032080",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Confirms manual override."
+ },
+ {
+  "item": "5f01d66db8",
+  "verdict": "wrong",
+  "cites_page": true,
+  "reason": "Weight right but dimensions are wrong (about 70 mm) and fit conclusion rests on them."
+ },
+ {
+  "item": "69b6dce7eb",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "PVC body, EPDM or FKM seals, FKM compatible."
+ },
+ {
+  "item": "bb38979a3c",
+  "verdict": "correct",
+  "cites_page": true,
+  "reason": "Flanged, BW, screwed and SW listed."
+ },
+ {
+  "item": "456b3dcc82",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Confirms manual override."
+ },
+ {
+  "item": "c2b51cad73",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "All body materials and stainless available."
+ },
+ {
+  "item": "54ef519f03",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Kv per DN with water 20 C, 1 bar condition."
+ },
+ {
+  "item": "59ebf6dd17",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Port sizes right but raised face flanges not mentioned."
+ },
+ {
+  "item": "cebe7b3934",
+  "verdict": "partial",
+  "cites_page": true,
+  "reason": "Weight correct but dimensions claimed not given and motor caveat missing."
+ },
+ {
+  "item": "3b73e9b0c7",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Effect and test levels right but IEC 60770-1 not mentioned."
+ },
+ {
+  "item": "e3ae9ec07b",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Describes a Fisher valve with steel body options instead of PVC body and EPDM/FKM seals."
+ },
+ {
+  "item": "75c74026da",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly says not stated."
+ },
+ {
+  "item": "1be92c59f2",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Default high and jumper right but NAMUR/custom levels and output M missing."
+ },
+ {
+  "item": "ca6bf54954",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "All required elements present."
+ },
+ {
+  "item": "01f1173116",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "All vibration elements present."
+ },
+ {
+  "item": "96606e18ca",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "NPS 1-8 listed, 3 in available."
+ },
+ {
+  "item": "8ec8d547b3",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "All three characteristics but special cages linear-only omitted."
+ },
+ {
+  "item": "fd52b92015",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Says end connections not stated although gold lists them."
+ },
+ {
+  "item": "0ceaf50b9b",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "24 V DC and 230 V AC versions, check type plate."
+ },
+ {
+  "item": "b9caa05e94",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Flanged yes, BW and screwed, but socket weld omitted."
+ }
+]

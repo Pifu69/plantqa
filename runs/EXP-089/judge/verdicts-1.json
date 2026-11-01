@@ -1,0 +1,110 @@
+[
+ {
+  "item": "304a571289",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Flanged confirmed, but screwed, butt weld and socket weld options are not mentioned."
+ },
+ {
+  "item": "ff9eece94f",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "24 V DC and 230 V AC versions given, but the need to order the matching version / check the type plate is missing."
+ },
+ {
+  "item": "1bb28e7ba5",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Says the 4 in x 2 1/2 in sizes are not mapped to suction/discharge and 2 1/2 is not established as port size; raised face missing."
+ },
+ {
+  "item": "4abce07db7",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "All three characteristics with standard cages and linear-only for special cages are stated."
+ },
+ {
+  "item": "6ca497b74f",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Suction 4 in and discharge 2 1/2 in correct, but calls them NPT flanges instead of raised face."
+ },
+ {
+  "item": "6e4bdf4174",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Solenoid needs power, 24 V DC and 230 V AC variants exist, check type plate."
+ },
+ {
+  "item": "994af487e1",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Lists all three characteristics but omits that special cages are linear only."
+ },
+ {
+  "item": "2c36b69833",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "No; with output M only Plugged Impulse Line diagnostic is included."
+ },
+ {
+  "item": "d1c1dbcc69",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Flanged confirmed but screwed/BW/SW alternatives not listed."
+ },
+ {
+  "item": "991ab34faf",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Claims not in the documents although gold gives 71 C (160 F)."
+ },
+ {
+  "item": "cf27795e77",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Confirms manual override for operation without power."
+ },
+ {
+  "item": "ee495876e4",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Claims it is a hand valve with no coil; gold says rated 100 % ED continuous."
+ },
+ {
+  "item": "e079eeccc6",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Flanged options plus BW, SW and screwed stated."
+ },
+ {
+  "item": "9be7b88edd",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "All body materials listed and CF8M/CF3M stainless available."
+ },
+ {
+  "item": "80173b3a55",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Confirms manual override."
+ },
+ {
+  "item": "08906693e0",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "266 psi casing pressure correct but 250 psi operating limit up to 37 C missing."
+ },
+ {
+  "item": "387a66c2fc",
+  "verdict": "partial",
+  "cites_page": true,
+  "reason": "Gives 59.7 and the conditions but attributes it to ED/ETR and says ET is not listed, not committing to the answer."
+ },
+ {
+  "item": "c1f5a75ec9",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Kv per DN and test condition given correctly."
+ }
+]

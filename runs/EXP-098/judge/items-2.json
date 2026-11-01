@@ -1,0 +1,620 @@
+[
+ {
+  "item": "43b8f46e62",
+  "gold": {
+   "answer": "Diagnosis is not in the document. NPSH required (10.20 in. impeller) from the curves: at 1450 rpm about 1 m at low flow rising to about 2.5 m at the end of the range; at 2900 rpm up to about 3.5-4 m.",
+   "answerable": "partial",
+   "category": "chart",
+   "must": [
+    "diagnosis not stated",
+    "NPSHr from curve (speed dependent)"
+   ],
+   "tolerance": "1450 rpm: 0.5-3 m; 2900 rpm max 3-4.5 m",
+   "question": "Regarding P-10-1 on the P&ID: Flow has dropped off a lot and it's noisy. Could it be cavitation, and what NPSH does it need?"
+  },
+  "candidate": "The description provides no cavitation or NPSH information for P-10-1, so I can't determine whether it is cavitating or what NPSH it requires."
+ },
+ {
+  "item": "adbac38e90",
+  "gold": {
+   "answer": "Yes (solenoid). Versions for 24 V DC, 230 V 50/60 Hz and 115 V 50/60 Hz (ordering tables and coil sets say 110 V); tolerance ±10 %. 24 V DC works if you order the 24 V DC version - the voltage must match the type plate.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "24 V DC version exists",
+    "230 V AC version exists",
+    "must match type plate / order the right version"
+   ],
+   "question": "Regarding GV-10-1 on the P&ID: Does it need power? If so, what voltage, and will 24 V DC work, or do I need 230 V AC?"
+  },
+  "candidate": "Yes. GV-10-1 is a solenoid valve and needs electrical power. The description lists 24 V DC and 230 V AC as supported supply options, so 24 V DC will work; 230 V AC is not required."
+ },
+ {
+  "item": "ca4a61476b",
+  "gold": {
+   "answer": "Yes, a service-friendly, robust manual override (part 10).",
+   "answerable": "yes",
+   "category": "value",
+   "must": [
+    "yes, manual override"
+   ],
+   "question": "Regarding GV-1-2 on the P&ID: Is there a manual override so I can open it without power?"
+  },
+  "candidate": "Yes. GV-1-2 has a service-friendly, robust manual override, so it can be opened without power."
+ },
+ {
+  "item": "d88c3b1168",
+  "gold": {
+   "answer": "Vibration effect: less than +/-0.1% of URL when tested per IEC 60770-1:1999 field or pipeline with high vibration level (10-60 Hz 0.21 mm displacement peak amplitude / 60-2000 Hz 3g).",
+   "answerable": "yes",
+   "category": "value",
+   "must": [
+    "< +/-0.1% of URL",
+    "IEC 60770-1:1999 high vibration level",
+    "10-60 Hz 0.21 mm peak / 60-2000 Hz 3g"
+   ],
+   "question": "Regarding FT-104-2 on the P&ID: It's mounted near a compressor with heavy vibration. What vibration limits is it rated for?"
+  },
+  "candidate": "The FT-104-2 datasheet specifies a vibration test level of 0.21 mm peak displacement amplitude at 10–60 Hz and 3 g at 60–2000 Hz. Under those test conditions, the vibration effect is less than ±0.1% of URL. Testing is per IEC 60770-1:1999 for a field or pipeline with a high vibration level."
+ },
+ {
+  "item": "7ef2790f02",
+  "gold": {
+   "answer": "Not in the document (materials are listed, part numbers are not).",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated"
+   ],
+   "question": "Regarding FV-104-2 on the P&ID: What part numbers do I need for a seat ring and plug seal for our valve size?"
+  },
+  "candidate": "The datasheet does not state part numbers for the seat ring or plug seal, and it does not give FV-104-2’s valve size. It shows different plug-seal constructions by size, but no size-specific part numbers."
+ },
+ {
+  "item": "03c7d58fc1",
+  "gold": {
+   "answer": "3051C: 1/4-18 NPT on 2 1/8-inch centers; 1/2-14 NPT on 2-, 2 1/8- or 2 1/4-inch centers (1/2-14 NPT flange adapters option DF, not valid with S3, S4, S5, S6; RC1/4 flange with RC1/2 adapter option D9). 3051T: 1/2-14 NPT female, G1/2 A DIN 16288 male (ranges 1-4), autoclave F-250-C (ranges 5-6), non-threaded instrument flange (code 61). Yes, manifolds can be factory assembled: 3051C option S5 assemble to Rosemount 305 Integral Manifold, S6 assemble to Rosemount 304 Manifold or Connection System (assemble-to items specified separately with completed model number); 3051T option S5 assemble to Rosemount 306 Integral Manifold.",
+   "answerable": "yes",
+   "category": "conditional",
+   "must": [
+    "1/4-18 NPT on 2 1/8 in centers",
+    "1/2-14 NPT with flange adapters (DF)",
+    "S5 305 integral manifold / S6 304 manifold (3051C); S5 306 (3051T)"
+   ],
+   "relation": "measured_by",
+   "via_tag": "FT-105-2",
+   "question": "Consider the transmitter that measures E-105-2. What's the process connection on the flange — 1/4 NPT? Can I get it with a manifold already fitted?"
+  },
+  "candidate": "FT-105-2 has a mounting-flange process connection. The datasheet does not state that it is 1/4 NPT. Yes, it shows flanged models with an integral manifold already fitted, including a 3-valve Coplanar manifold; whether that option applies to this specific transmitter model is not stated."
+ },
+ {
+  "item": "1594ebb8f3",
+  "gold": {
+   "answer": "Not stated in the document",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "Not stated in the document"
+   ],
+   "question": "Regarding FT-10-2 on the P&ID: What mechanical shock (g level) is the transmitter rated to withstand?"
+  },
+  "candidate": "The datasheet lists 3 g as the vibration test level for 60–2000 Hz, but does not state a separate mechanical shock rating."
+ },
+ {
+  "item": "206f22f0ac",
+  "gold": {
+   "answer": "Vibration effect: less than +/-0.1% of URL when tested per IEC 60770-1:1999 field or pipeline with high vibration level (10-60 Hz 0.21 mm displacement peak amplitude / 60-2000 Hz 3g).",
+   "answerable": "yes",
+   "category": "value",
+   "must": [
+    "< +/-0.1% of URL",
+    "IEC 60770-1:1999 high vibration level",
+    "10-60 Hz 0.21 mm peak / 60-2000 Hz 3g"
+   ],
+   "question": "Regarding FT-104-2 on the P&ID: It's mounted near a compressor with heavy vibration. What vibration limits is it rated for?"
+  },
+  "candidate": "FT-104-2 (a Rosemount 3051 transmitter) is rated for a high-vibration environment per IEC 60770-1:1999: 0.21 mm displacement peak amplitude at 10–60 Hz and 3 g acceleration at 60–2000 Hz. Under these conditions the vibration effect on the reading is less than ±0.1% of URL (upper range limit)."
+ },
+ {
+  "item": "7f2c3ad3e5",
+  "gold": {
+   "answer": "368 mm (14.50 in.) for CL300 RF; 384 mm (15.12 in.) for CL300 RTJ (dimension A).",
+   "answerable": "yes",
+   "category": "multi_condition",
+   "must": [
+    "368 mm (RF)",
+    "RTJ differs (384 mm)"
+   ],
+   "relation": "operated_by",
+   "via_tag": "FV-10-2",
+   "question": "Consider the valve operated by control loop FIC-10-2. What's the face-to-face length for a 4 inch Class 300 flanged body?"
+  },
+  "candidate": "The face-to-face length is 343 mm (13.5 in.) for a 4-inch Class 300 RF flanged body."
+ },
+ {
+  "item": "a41081eabf",
+  "gold": {
+   "answer": "Not in the document (no safety instructions).",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated"
+   ],
+   "relation": "downstream",
+   "via_tag": "P-95-3",
+   "question": "Consider the item directly downstream of LV-95-1 in the process flow. Is there anything dangerous about opening the cover if the pump has overheated?"
+  },
+  "candidate": "The datasheet does not state whether opening the cover is dangerous after the pump has overheated; it provides operating temperature limits but no cover-opening warning."
+ },
+ {
+  "item": "d27e8250fe",
+  "gold": {
+   "answer": "No. With the low power output code (M), only the Plugged Impulse Line diagnostic is included.",
+   "answerable": "yes",
+   "category": "footnote",
+   "must": [
+    "no",
+    "only Plugged Impulse Line diagnostic"
+   ],
+   "relation": "measured_by",
+   "via_tag": "FT-106-2",
+   "question": "Consider the transmitter that measures E-106-2. If I order the DA1 diagnostics with the low-power 1-5 V output, do I get both Loop Integrity and Plugged Impulse Line diagnostics?"
+  },
+  "candidate": "No. With the low-power 1–5 V output (code M), DA1 includes Plugged Impulse Line diagnostics, but not Loop Integrity diagnostics."
+ },
+ {
+  "item": "f99b21cd3f",
+  "gold": {
+   "answer": "3051C: 1/4-18 NPT on 2 1/8-inch centers; 1/2-14 NPT on 2-, 2 1/8- or 2 1/4-inch centers (1/2-14 NPT flange adapters option DF, not valid with S3, S4, S5, S6; RC1/4 flange with RC1/2 adapter option D9). 3051T: 1/2-14 NPT female, G1/2 A DIN 16288 male (ranges 1-4), autoclave F-250-C (ranges 5-6), non-threaded instrument flange (code 61). Yes, manifolds can be factory assembled: 3051C option S5 assemble to Rosemount 305 Integral Manifold, S6 assemble to Rosemount 304 Manifold or Connection System (assemble-to items specified separately with completed model number); 3051T option S5 assemble to Rosemount 306 Integral Manifold.",
+   "answerable": "yes",
+   "category": "conditional",
+   "must": [
+    "1/4-18 NPT on 2 1/8 in centers",
+    "1/2-14 NPT with flange adapters (DF)",
+    "S5 305 integral manifold / S6 304 manifold (3051C); S5 306 (3051T)"
+   ],
+   "relation": "measured_by",
+   "via_tag": "FT-105-2",
+   "question": "Consider the transmitter that measures E-105-2. What's the process connection on the flange — 1/4 NPT? Can I get it with a manifold already fitted?"
+  },
+  "candidate": "The instrument measuring E-105-2 is FT-105-2, and its datasheet is a Rosemount 3051 ordering guide covering several models (3051C, 3051T, 3051L, 3051CFA/CFC/CFP) rather than one selected unit, so no single confirmed flange connection is specified. That said, 1/4-18 NPT is among the offered process connections: the 3051C offers 1/4-18 NPT on 2 1/8-inch centers, the 3051L low-pressure flange side offers 1/4-18 NPT on flange, and 3051T model code 2B selects a 1/4-18 NPT process connection. Manifolds are available already fitted: factory-assembled integral manifolds (Rosemount 304, 305 or 306, ordering codes S5/S6 on the 3051C) and direct-mount 3- or 5-valve manifold options (e.g. 3051CFA/CFC option 3) can be ordered with the transmitter. To pin down the exact connection for your unit, the specific model number would need to be identified from the ordering tables."
+ },
+ {
+  "item": "f1bde6993b",
+  "gold": {
+   "answer": "No. With the low power output code (M), only the Plugged Impulse Line diagnostic is included.",
+   "answerable": "yes",
+   "category": "footnote",
+   "must": [
+    "no",
+    "only Plugged Impulse Line diagnostic"
+   ],
+   "relation": "measured_by",
+   "via_tag": "FT-106-2",
+   "question": "Consider the transmitter that measures E-106-2. If I order the DA1 diagnostics with the low-power 1-5 V output, do I get both Loop Integrity and Plugged Impulse Line diagnostics?"
+  },
+  "candidate": "FT-106-2 is a Rosemount 3051 flow transmitter, and DA1 is the option code for Loop Integrity and Plugged Impulse Line diagnostics. However, with the low-power 1–5 V output (option code M), only the Plugged Impulse Line Diagnostic is included — Loop Integrity is not available with that output code. To get both diagnostics, you would need the 4-20 mA HART output (code A). So no, ordering DA1 with the low-power 1–5 V output gets you only Plugged Impulse Line, not both. (Whether DA1 costs extra is not stated in the datasheet.)"
+ },
+ {
+  "item": "24e948b3ef",
+  "gold": {
+   "answer": "Not in the datasheet (only: maintenance by authorized specialists per the installation manual; a wear part set exists).",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated in the document"
+   ],
+   "question": "Regarding GV-1-2 on the P&ID: It's letting fluid through when it should be shut. What usually causes that and how do I fix it?"
+  },
+  "candidate": "The documents do not state the usual causes of passing when shut or how to fix it. GV-1-2’s datasheet says the valve requires a minimum differential pressure of 0.5 bar to open and close, but does not link that requirement to leakage or give it as a remedy."
+ },
+ {
+  "item": "b58ddc6c0b",
+  "gold": {
+   "answer": "Suction 4\" (102 mm), discharge 2 1/2\" (64 mm), raised face flanges; so yes, 2 1/2\" is the discharge. Suction flange 8 holes 0.75\" on 7.50\" bolt circle, discharge 4 holes 0.75\" on 5.50\" bolt circle; optional NPT companion flanges.",
+   "answerable": "yes",
+   "category": "value",
+   "must": [
+    "suction 4\"",
+    "discharge 2 1/2\"",
+    "raised face flanges"
+   ],
+   "question": "Regarding P-1-3 on the P&ID: What size are the suction and discharge connections? Is the '2 1/2' the port size?"
+  },
+  "candidate": "The suction connection is 4 in. and the discharge connection is 2½ in. Yes, 2½ in. is the discharge port size."
+ },
+ {
+  "item": "aa03c4c995",
+  "gold": {
+   "answer": "Yes, Kv in l/min: DN15 83, DN20 100, DN25 233, DN32 267, DN40 500, DN50 600 - measured with water at +20 °C, 1 bar at the valve inlet, free outlet.",
+   "answerable": "yes",
+   "category": "footnote",
+   "must": [
+    "Kv per DN (83/100/233/267/500/600 l/min)",
+    "condition: water +20 °C, 1 bar inlet, free outlet"
+   ],
+   "question": "Regarding GV-10-2 on the P&ID: How much flow does it pass when fully open? Is there a Kv value?"
+  },
+  "candidate": "The datasheet for GV-10-2 (a solenoid valve) does give Kv values, but only per nominal diameter, not as a single \"fully open\" figure: DN 15 = 83 l/min, DN 20 = 100 l/min, DN 25 = 233 l/min, DN 32 = 267 l/min, DN 40 = 500 l/min, DN 50 = 600 l/min (water at +20 °C, 1 bar pressure difference). However, the P&ID does not state the nominal diameter (DN) of GV-10-2, so it is not possible to say which of these values applies to this specific valve."
+ },
+ {
+  "item": "98c2d356e5",
+  "gold": {
+   "answer": "±1.95% of flow rate at 8:1 flow turndown.",
+   "answerable": "yes",
+   "category": "multi_condition",
+   "must": [
+    "±1.95% of flow rate",
+    "8:1 flow turndown"
+   ],
+   "question": "Regarding FT-105-2 on the P&ID: What flow accuracy can I expect from a 3051CFC compact orifice meter with conditioning option C, range 2, with a beta ratio of 0.50?"
+  },
+  "candidate": "For a Rosemount 3051CFC Compact Orifice Flow Meter with Conditioning Option C in Ranges 2-3 at 8:1 flow turndown, a beta ratio of 0.50 corresponds to a flow reference accuracy of ±1.95 percent of flow rate (beta ratios of 0.50 and 0.65 share this value)."
+ },
+ {
+  "item": "fa0cdad3a0",
+  "gold": {
+   "answer": "Bare pump (no motor): length 25.95 in. (659 mm), height 18.88 in. (480 mm), width 14.20 in. (361 mm); net weight 194 lb (88 kg), shipping 204 lb (93 kg). The pump alone fits on 1 m × 0.6 m; with a motor and coupling it cannot be said from the document.",
+   "answerable": "partial",
+   "category": "conditional",
+   "must": [
+    "659 × 361 × 480 mm (approx.)",
+    "88 kg net",
+    "motor not included"
+   ],
+   "relation": "downstream",
+   "via_tag": "P-3-1",
+   "question": "Consider the item directly downstream of BV-1-3 in the process flow. What are the overall dimensions and weight? Will it fit on a 1 m by 0.6 m base?"
+  },
+  "candidate": "P-3-1 has a net weight of 194 lb (88 kg) and a shipping weight of 204 lb (93 kg). Its overall dimensions are not stated in the available datasheet facts, so whether it fits on a 1 m × 0.6 m base cannot be determined."
+ },
+ {
+  "item": "a062a87bef",
+  "gold": {
+   "answer": "HART 4-20 mA: if self-diagnostics detect a sensor or microprocessor failure, the output is driven high or low; the direction is user-selectable with a jumper/switch on the transmitter. Factory default is High alarm unless specified (CT = Rosemount standard low alarm, CN = NAMUR low, C4 = NAMUR high). Levels: default high >= 21.75 mA (>= 22.5 mA with M6, DA1, T9, RK), low <= 3.75 mA; NAMUR >= 22.5 / <= 3.6 mA; custom 20.2-23.0 / 3.6-3.8 mA. Output M: below 0.94 V or above 5.4 V, selectable by internal jumper. F, W, X: failure passed as alert and status.",
+   "answerable": "yes",
+   "category": "conditional",
+   "must": [
+    "high or low, user-selectable by jumper/switch",
+    "default high",
+    "alarm values per standard/NAMUR/custom",
+    "output M internal jumper"
+   ],
+   "relation": "fed_by_transmitter",
+   "via_tag": "FT-10-2",
+   "question": "Consider the transmitter that feeds controller FIC-10-2. When the transmitter fails, does the output go high or low, and how do I change that alarm direction?"
+  },
+  "candidate": "It can fail high or low; the direction is user-selectable using a jumper or switch on the transmitter. The datasheet does not specify a more detailed change procedure."
+ },
+ {
+  "item": "8150556528",
+  "gold": {
+   "answer": "Cast iron, WCC or LCC carbon steel, WC9 chrome moly steel, CF8M (cast 316 stainless) or CF3M (cast 316L stainless), others on request. Yes, stainless (CF8M / CF3M) is available.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "CF8M / CF3M stainless available",
+    "cast iron, WCC, LCC, WC9"
+   ],
+   "question": "Regarding FV-10-2 on the P&ID: What body materials are available, and can I get stainless for a corrosive service?"
+  },
+  "candidate": "Per the FV-10-2 datasheet, available body (and bonnet/bonnet spacer) materials are: cast iron, WCC carbon steel, LCC carbon steel, WC9 chrome-moly steel, CF8M (cast 316 stainless steel), CF3M (cast 316L stainless steel), or other materials upon request. Yes, stainless is available — CF8M (316) and CF3M (316L) are standard options, offered with CL150/300/600 flanged, screwed or welded ends and PN16–PN100 EN flanges (cast iron is limited to CL125/CL250). Note the datasheet does not explicitly tie stainless bodies to corrosive-service recommendations; it only lists 316/316L as standard material choices, and pressure/temperature limits must be observed for whichever material is selected."
+ },
+ {
+  "item": "1d89133ffd",
+  "gold": {
+   "answer": "Standard cages: quick-opening, linear or equal percentage. Whisper Trim, WhisperFlo and Cavitrol cages: linear only.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "all three with standard cage",
+    "special cages linear only"
+   ],
+   "question": "Regarding FV-106-2 on the P&ID: What flow characteristics can I get: equal percentage, linear, quick opening?"
+  },
+  "candidate": "Per the FV-106-2 datasheet, all three characteristics are available depending on the trim: with standard cages the valve can be quick-opening, linear, or equal percentage; with Whisper Trim, WhisperFlo, or Cavitrol cages it is linear only; and trim cartridges (ET variant) are offered as equal percent or linear. The datasheet does not state which characteristic is actually fitted to this specific valve."
+ },
+ {
+  "item": "b8b33c9f1f",
+  "gold": {
+   "answer": "HART 4-20 mA: if self-diagnostics detect a sensor or microprocessor failure, the output is driven high or low; the direction is user-selectable with a jumper/switch on the transmitter. Factory default is High alarm unless specified (CT = Rosemount standard low alarm, CN = NAMUR low, C4 = NAMUR high). Levels: default high >= 21.75 mA (>= 22.5 mA with M6, DA1, T9, RK), low <= 3.75 mA; NAMUR >= 22.5 / <= 3.6 mA; custom 20.2-23.0 / 3.6-3.8 mA. Output M: below 0.94 V or above 5.4 V, selectable by internal jumper. F, W, X: failure passed as alert and status.",
+   "answerable": "yes",
+   "category": "conditional",
+   "must": [
+    "high or low, user-selectable by jumper/switch",
+    "default high",
+    "alarm values per standard/NAMUR/custom",
+    "output M internal jumper"
+   ],
+   "relation": "fed_by_transmitter",
+   "via_tag": "FT-10-2",
+   "question": "Consider the transmitter that feeds controller FIC-10-2. When the transmitter fails, does the output go high or low, and how do I change that alarm direction?"
+  },
+  "candidate": "The drawing does not identify which transmitter feeds FIC-10-2, so the specific tag cannot be confirmed. However, the transmitter datasheet (Rosemount 3051) states that on a detected sensor or microprocessor failure the output is driven either high or low — the direction is not fixed but user-selectable. For the HART 4-20 mA output, you change the alarm direction with a jumper/switch on the transmitter (or by ordering the 'Alarm levels' option: high alarm code C4, low alarm code CN, or custom levels CR/CS); default levels are high alarm ≥ 21.75 mA and low alarm ≤ 3.75 mA (NAMUR: ≥ 22.5 mA / ≤ 3.6 mA). For the 1-5 V low-power output, the direction is selected by an internal jumper (high alarm > 5.4 V, low alarm < 0.94 V). Digital outputs (Fieldbus etc.) have no high/low analog alarm direction — failure is passed as an alert/status. The factory standard configuration is alarm = High."
+ },
+ {
+  "item": "c132e2153a",
+  "gold": {
+   "answer": "Casing ductile iron; impeller gray iron 40 (wear rings gray iron 25, shaft steel 1045, seal faces silicon carbide). Suitability for pH 5 is not stated.",
+   "answerable": "partial",
+   "category": "value",
+   "must": [
+    "casing ductile iron",
+    "impeller gray iron 40",
+    "pH not stated"
+   ],
+   "relation": "downstream",
+   "via_tag": "P-1-2",
+   "question": "Consider the item directly downstream of BV-1-1 in the process flow. What are the casing and impeller made of? Can it take slightly acidic water around pH 5?"
+  },
+  "candidate": "The casing is ductile iron and the impeller is gray iron 40. The datasheet does not state whether it can handle water around pH 5."
+ },
+ {
+  "item": "dc7055d268",
+  "gold": {
+   "answer": "Standard cages (quick-opening, linear, equal percentage), restricted-capacity trims, Whisper Trim I / III, Whisper NXG and WhisperFlo cages for aerodynamic noise in gas service, Cavitrol III one- and two-stage cages against cavitation (liquid, high pressure drop), DST dirty service trim, TSO tight shutoff trim, Trim Cartridge.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "Whisper / WhisperFlo for noise (gas)",
+    "Cavitrol III for cavitation / high ΔP (liquid)"
+   ],
+   "relation": "operated_by",
+   "via_tag": "FV-104-2",
+   "question": "Consider the valve operated by control loop FIC-104-2. What trim options are there, and which one is for high pressure drop or noise?"
+  },
+  "candidate": "The datasheet lists standard cages, Cavitrol III, Whisper Trim, Whisper Trim III, Whisper NXG Trim and WhisperFlo. Whisper Trim and WhisperFlo are identified for noise attenuation; the datasheet does not specify which trim is for high pressure drop."
+ },
+ {
+  "item": "b582b0fe08",
+  "gold": {
+   "answer": "A standard centrifugal pump on a basic pedestal (bare shaft), size 4\" x 2 1/2\". The meaning of the model code is not explained.",
+   "answerable": "partial",
+   "category": "value",
+   "must": [
+    "standard centrifugal pump (pedestal)",
+    "4\" x 2 1/2\"",
+    "model code not explained"
+   ],
+   "relation": "upstream",
+   "via_tag": "P-1-1",
+   "question": "Consider the item directly upstream of BV-1-3 in the process flow. What kind of pump is a VGH2 1/2C31-B, and what does the model code tell me?"
+  },
+  "candidate": "The VGH2 1/2C31-B is identified as a standard centrifugal pump, nominally 4 in × 2½ in. The datasheet does not explain the meaning of the individual characters or numbers in the model code."
+ },
+ {
+  "item": "a4a917b312",
+  "gold": {
+   "answer": "Yes, Kv in l/min: DN15 83, DN20 100, DN25 233, DN32 267, DN40 500, DN50 600 - measured with water at +20 °C, 1 bar at the valve inlet, free outlet.",
+   "answerable": "yes",
+   "category": "footnote",
+   "must": [
+    "Kv per DN (83/100/233/267/500/600 l/min)",
+    "condition: water +20 °C, 1 bar inlet, free outlet"
+   ],
+   "question": "Regarding GV-10-2 on the P&ID: How much flow does it pass when fully open? Is there a Kv value?"
+  },
+  "candidate": "GV-10-2 is described by a datasheet for a Type 165 2/2-way solenoid valve (used for shut-off, dosing and flow control), and that datasheet gives Kv values of 83 l/min (DN 15), 100 l/min (DN 20), 233 l/min (DN 25), 267 l/min (DN 32), 500 l/min (DN 40) and 600 l/min (DN 50), all at 1 bar differential pressure (water, 20 °C, free outlet). However, the description does not state the nominal diameter of GV-10-2 itself, so a single Kv value / flow capacity for this specific valve cannot be determined from the information given."
+ },
+ {
+  "item": "fcd3743118",
+  "gold": {
+   "answer": "Radial bearing: open cylindrical roller; thrust bearing: open double row ball. They are oil-lubricated (SAE 30 non-detergent oil, constant level oiler), not greased; no interval is given.",
+   "answerable": "partial",
+   "category": "value",
+   "must": [
+    "cylindrical roller + double row ball",
+    "oil (SAE 30), not grease",
+    "interval not given"
+   ],
+   "relation": "downstream",
+   "via_tag": "P-103-2",
+   "question": "Consider the item directly downstream of BV-103-1 in the process flow. What bearings are in it, and how often do they need greasing?"
+  },
+  "candidate": "It has an open cylindrical roller bearing and an open double-row ball bearing. The datasheet specifies SAE 30 non-detergent oil lubrication, but does not state a greasing interval."
+ },
+ {
+  "item": "2a0d0cc5ed",
+  "gold": {
+   "answer": "Neither is stated: the only approval listed is CE.",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated",
+    "only CE"
+   ],
+   "question": "Regarding GV-1-1 on the P&ID: Is it approved for drinking water, or for use in an explosive (Ex) area?"
+  },
+  "candidate": "The datasheet lists CE approval but does not state whether GV-1-1 is approved for drinking water or for use in an explosive (Ex) area."
+ },
+ {
+  "item": "7f3c8b8a6c",
+  "gold": {
+   "answer": "Not in the document (no safety instructions).",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated"
+   ],
+   "relation": "downstream",
+   "via_tag": "P-95-3",
+   "question": "Consider the item directly downstream of LV-95-1 in the process flow. Is there anything dangerous about opening the cover if the pump has overheated?"
+  },
+  "candidate": "The item directly downstream of LV-95-1 is the centrifugal pump P-95-3. Its datasheet (gorman-rupp-0700286) contains no warnings or hazards about opening the pump cover after overheating — nothing about hot surfaces, trapped pressure, or opening a sealed casing. The only related information is that the maximum casing pressure is 266 psi, the maximum operating pressure is 250 psi at up to 100 F, and the maximum liquid temperature is 160 F (a seal limit). So no specific danger or procedure regarding opening the cover is documented in the available description."
+ },
+ {
+  "item": "4860df8b99",
+  "gold": {
+   "answer": "Housing PVC (PVC-U; cover and inserts PVC, coil housing epoxy). Gaskets/diaphragms EPDM or FKM - choose the FKM version.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "PVC body",
+    "EPDM or FKM seals",
+    "choose FKM"
+   ],
+   "relation": "upstream",
+   "via_tag": "GV-103-1",
+   "question": "Consider the item directly upstream of BV-103-1 in the process flow. What is the body made of, and what are the seals made of? Our fluid attacks EPDM."
+  },
+  "candidate": "The body (housing) is PVC. The seals are not specified as one material: the gasket may be EPDM or FKM. Since your fluid attacks EPDM, the document identifies FKM as the option for oxidizing acids and substances, but does not state which gasket is selected for this valve."
+ },
+ {
+  "item": "e7f9110b04",
+  "gold": {
+   "answer": "Maximum casing pressure 266 psi (1834 kPa); maximum operating pressure 250 psi (1723 kPa) at temperatures up to 100 °F (37 °C), based on system component limitations; consult the factory for higher.",
+   "answerable": "yes",
+   "category": "footnote",
+   "must": [
+    "266 psi (1834 kPa) casing",
+    "250 psi operating up to 37 °C"
+   ],
+   "question": "Regarding P-1-1 on the P&ID: What's the max allowable pressure in the casing? We might have a pressurized inlet."
+  },
+  "candidate": "P-1-1’s maximum casing pressure is 1834 kPa (266 psi)."
+ },
+ {
+  "item": "a6fccf5444",
+  "gold": {
+   "answer": "No motor is specified (basic pedestal pump; curves for 1150-3450 rpm). The 50 Hz 1450 rpm curve exists; over its operating range the power stays at or below the 7.5 BHP (5.6 kW) line, so a 7.5 kW 1450 rpm motor is enough for that speed.",
+   "answerable": "partial",
+   "category": "chart",
+   "must": [
+    "no motor specified",
+    "1450 rpm curve exists",
+    "power ≤ ~5.6 kW at 1450 rpm"
+   ],
+   "relation": "upstream",
+   "via_tag": "P-10-1",
+   "question": "Consider the item directly upstream of BV-10-2 in the process flow. What motor size and speed is it meant to run at? We have a 7.5 kW 1450 rpm motor in stock."
+  },
+  "candidate": "The datasheet does not identify one required motor size and speed. Its 50 Hz curves include 2–7.5 BHP at 1,450 rpm, among other options. It does not state whether your 7.5 kW, 1,450 rpm motor is the specified selection."
+ },
+ {
+  "item": "844f86676d",
+  "gold": {
+   "answer": "Not stated in the document",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "Not stated in the document"
+   ],
+   "relation": "fed_by_transmitter",
+   "via_tag": "PT-30-1",
+   "question": "Consider the transmitter that feeds controller PIC-30-1. What RTD element type and accuracy class (e.g. Pt100 class A) is used in the 3051CFA integral RTD option?"
+  },
+  "candidate": "The datasheet identifies the integral RTD option as code T, but does not state the RTD element type or accuracy class."
+ },
+ {
+  "item": "f1980b550c",
+  "gold": {
+   "answer": "–76 °F (–60 °C) cold temperature operation.",
+   "answerable": "yes",
+   "category": "value",
+   "must": [
+    "–60 °C",
+    "–76 °F"
+   ],
+   "relation": "measured_by",
+   "via_tag": "PT-101-1",
+   "question": "Consider the transmitter that measures E-101-1. What is the lowest operating temperature you get with the BR6 cold temperature option?"
+  },
+  "candidate": "The transmitter measuring E-101-1 is PT-101-1 (a Rosemount 3051). With the BR6 cold temperature option, the lowest operating temperature is -76 °F (-60 °C)."
+ },
+ {
+  "item": "2032936b47",
+  "gold": {
+   "answer": "Cast iron, WCC or LCC carbon steel, WC9 chrome moly steel, CF8M (cast 316 stainless) or CF3M (cast 316L stainless), others on request. Yes, stainless (CF8M / CF3M) is available.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "CF8M / CF3M stainless available",
+    "cast iron, WCC, LCC, WC9"
+   ],
+   "question": "Regarding FV-10-2 on the P&ID: What body materials are available, and can I get stainless for a corrosive service?"
+  },
+  "candidate": "For valve FV-10-2, the datasheet lists the available body, bonnet and bonnet spacer/bottom-flange materials as: cast iron, WCC carbon steel, LCC carbon steel, WC9 chrome-moly steel, CF8M (cast 316 stainless steel), CF3M (cast 316L stainless steel), and other materials upon request. Yes, stainless steel is offered — in two grades, CF8M (316) and CF3M (316L) — which would be suitable choices for corrosive service. Note that stainless bodies are available with RF/RTJ flanged CL150/300/600, screwed, butt-weld and socket-weld connections, while cast iron is limited to CL125/CL250 flanged; and in all cases the pressure/temperature rating of the body material must not be exceeded regardless of trim capabilities."
+ },
+ {
+  "item": "0daf88b00b",
+  "gold": {
+   "answer": "The SST sensor module (option WSM) adds 1.0 lb (0.45 kg).",
+   "answerable": "yes",
+   "category": "value",
+   "must": [
+    "1.0 lb",
+    "0.45 kg"
+   ],
+   "relation": "fed_by_transmitter",
+   "via_tag": "FT-105-2",
+   "question": "Consider the transmitter that feeds controller FIC-105-2. How much extra weight does the stainless steel sensor module option (WSM) add to the transmitter?"
+  },
+  "candidate": "The WSM stainless steel sensor module option adds 3.8 kg (8.3 lb) of additional weight to the transmitter FT-105-2."
+ },
+ {
+  "item": "175a813002",
+  "gold": {
+   "answer": "Not stated (only the 4 in. suction flange is given).",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated"
+   ],
+   "question": "Regarding P-1-1 on the P&ID: How big should the suction pipe be, and does it need a check valve or air release line?"
+  },
+  "candidate": "Not in the documents. The suction pipe size is not specified. CHV-1-1 is shown on a line leaving P-1-1, not on its suction side; no air-release line on the suction piping is identified."
+ },
+ {
+  "item": "6a82cd9ce4",
+  "gold": {
+   "answer": "Flanged is available (CL125 FF / CL250 RF cast iron; CL150/300/600 RF or RTJ steel; EN PN16-100), as well as screwed (NPS 1-2), butt weld and socket weld.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "flanged yes",
+    "also screwed, BW, SW"
+   ],
+   "question": "Regarding FV-104-2 on the P&ID: Can I get it with flanged ends, or only buttweld or screwed?"
+  },
+  "candidate": "Yes. Flanged ends are available; the options depend on valve type, size, and body material. Butt-weld and, for some configurations, screwed ends are also available."
+ },
+ {
+  "item": "0230d215f9",
+  "gold": {
+   "answer": "Vibration effect: less than +/-0.1% of URL when tested per IEC 60770-1:1999 field or pipeline with high vibration level (10-60 Hz 0.21 mm displacement peak amplitude / 60-2000 Hz 3g).",
+   "answerable": "yes",
+   "category": "value",
+   "must": [
+    "< +/-0.1% of URL",
+    "IEC 60770-1:1999 high vibration level",
+    "10-60 Hz 0.21 mm peak / 60-2000 Hz 3g"
+   ],
+   "question": "Regarding FT-104-2 on the P&ID: It's mounted near a compressor with heavy vibration. What vibration limits is it rated for?"
+  },
+  "candidate": "FT-104-2 is tested per IEC 60770-1:1999 for field or pipeline installation with a high vibration level. The test conditions are a frequency range of 10-60 Hz with a 0.21 mm peak displacement amplitude, and 60-2000 Hz at 3g. Under these conditions the vibration effect on the instrument is limited to less than ±0.1 percent of URL."
+ },
+ {
+  "item": "6bb2efc220",
+  "gold": {
+   "answer": "No. With the low power output code (M), only the Plugged Impulse Line diagnostic is included.",
+   "answerable": "yes",
+   "category": "footnote",
+   "must": [
+    "no",
+    "only Plugged Impulse Line diagnostic"
+   ],
+   "relation": "measured_by",
+   "via_tag": "FT-106-2",
+   "question": "Consider the transmitter that measures E-106-2. If I order the DA1 diagnostics with the low-power 1-5 V output, do I get both Loop Integrity and Plugged Impulse Line diagnostics?"
+  },
+  "candidate": "No. The transmitter that measures E-106-2 is FT-106-2, a Rosemount 3051. With the DA1 diagnostics option and the low-power 1-5 V output (code M), you get only the Plugged Impulse Line diagnostic; Loop Integrity is not included. Loop Integrity is available only with the 4-20 mA HART output (code A), since DA1 is restricted to those two output codes and the low-power variant explicitly drops Loop Integrity."
+ }
+]

@@ -1,0 +1,15 @@
+[
+ {"item": "22cd829829", "verdict": "wrong", "cites_page": false, "reason": "Says no datasheet and bearings not stated, although gold gives bearing types and oil lubrication."},
+ {"item": "1e9a1356d1", "verdict": "partial", "cites_page": false, "reason": "Bearing types and missing interval correct, but omits that they are oil-lubricated (SAE 30), not greased."},
+ {"item": "3cda8c0142", "verdict": "correct", "cites_page": false, "reason": "Correctly says bonnet bolt torque is not stated."},
+ {"item": "3fa3f41645", "verdict": "correct", "cites_page": false, "reason": "Correctly says bonnet bolt torque is not stated."},
+ {"item": "172040faaf", "verdict": "partial", "cites_page": false, "reason": "PEEK option 316/260 C correct, but the PTFE seal ring limit of 232 C is missing."},
+ {"item": "a87391ad98", "verdict": "correct", "cites_page": false, "reason": "Only CE listed; drinking water and Ex approvals not stated."},
+ {"item": "de2794d701", "verdict": "correct", "cites_page": false, "reason": "Ductile iron casing, gray iron 40 impeller, pH suitability not stated."},
+ {"item": "a642c589ad", "verdict": "partial", "cites_page": false, "reason": "Standard centrifugal pump and size correct, but does not say the model code is unexplained and implies it encodes series/size."},
+ {"item": "9c9f3614d2", "verdict": "wrong", "cites_page": false, "reason": "Says the NPS 4 Class 300 dimension is not in the documents although gold gives 368 mm RF / 384 mm RTJ."},
+ {"item": "fb42c3ad63", "verdict": "partial", "cites_page": false, "reason": "1/4-18 NPT on 2 1/8 in centers and manifold option correct, but misses the DF 1/2 NPT adapters and S5/S6 manifold codes."},
+ {"item": "9a56ce0cfa", "verdict": "wrong", "cites_page": false, "reason": "Says the face-to-face length is not provided although gold has it."},
+ {"item": "f37ebe8722", "verdict": "correct", "cites_page": false, "reason": "No; only the Plugged Impulse Line diagnostic with low-power output."},
+ {"item": "6a20fc8124", "verdict": "correct", "cites_page": false, "reason": "Lists cast iron, WCC, LCC, WC9, CF8M, CF3M and confirms stainless is available."}
+]

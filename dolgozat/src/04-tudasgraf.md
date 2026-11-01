@@ -5,7 +5,7 @@ eszközönként egy-egy adatlapgráfot (plantdocs). Az összevonás célja, hogy
 egyetlen lekérdezés mindkettőt elérje. Ebben a fejezetben előbb röviden összefoglaljuk a két
 forrásfolyamatot és az általuk épített réteget, utána a két réteg közötti kapcsolatot és a
 betöltés mérését. A két folyamat kódját nem módosítottuk; részletes leírásuk, amely a két
-forrásrepó tervezési jegyzeteiből és kódjából származik, a Függelék D-ben található.
+egyéni munka terveiből és kódjából származik, a Függelék D-ben található.
 
 ## A rajzoldali réteg
 
@@ -14,8 +14,8 @@ vágja, a feloldó (resolver) a lapokból megoldókulcs nélkül visszaépíti a
 Neo4j-be tölti (részletesen: Függelék D). A generátor minden véletlen döntést egyetlen seedelt véletlenszám-generátoron át
 hoz meg, ezért ugyanaz a seed ugyanazt az üzemet adja; a kimenet valódi pyDEXPI-modell elágazó
 topológiával, a berendezésekhez tartozó szabályozókörökkel és a szokásos tagbetűkkel. A
-példaüzem a v1 generátorral készült, mert a valósághűbb v2 generátor berendezésosztályai nem
-szűkíthetők az adatlappal rendelkező osztályokra (`docs/felmeres.md`). A bontó minden elvágott
+példaüzemek a generátor egyszerűbb, első változatával készültek, mert a valósághűbb, későbbi
+változat berendezésosztályai nem szűkíthetők az adatlappal rendelkező osztályokra. A bontó minden elvágott
 élre lapközi csatlakozópárt illeszt, a megoldókulcsot pedig külön fájlba írja, amely a vizsgált
 adatbázisba nem kerül be. A feloldó csak a lapokat látja: a csatlakozókat a feliratuk kölcsönös
 hivatkozása alapján párosítja, a több lapon felrajzolt elemeket a (tag, osztály) kulcs szerint
@@ -26,7 +26,7 @@ hibátlan volt (EXP-002).
 
 ### Az üzemi réteg és a vonalnézet
 
-Benedek döntése (ADR-0036) szerint az adatbázisban két réteg lehet: a rajz szerinti
+Benedek döntése szerint az adatbázisban két réteg lehet: a rajz szerinti
 előfordulásréteg (rajzolt szimbólumok, lapközi csonkok, azonossági élek) a nyomon követésre, és az
 összevont üzemi réteg, a tulajdonképpeni tudásgráf, amely kizárólag a feloldó kimenetéből épül.
 Az üzemi rétegben egy laphatár átlépése egyetlen él, az előfordulásrétegben több lépéses minta.
@@ -40,13 +40,13 @@ csőrészenként; a lapot átlépő kapcsolat `crossed_sheets` tulajdonságot ka
 elemek lapjait és egységeit `is_drawn_on` és `is_located_in` kapcsolat köti a szerkezeti
 csúcsokhoz.
 
-A `plant_lines` profil egy vonalnézettel bővíti ezt (ADR-0061). A `line_to` kapcsolat két
+A `plant_lines` profil egy vonalnézettel bővíti ezt. A `line_to` kapcsolat két
 berendezést vagy szelepet köt össze akkor is, ha köztük jelöletlen idomok vagy beépített
 komponensek vannak; az átugrott elemeket a kapcsolat `via_tags` és `n_fittings` tulajdonsága
 őrzi. Minden elem `kind` tulajdonságot kap, a szelepek közös `Valve` címkét, és a be- vagy
 kimenő áram nélküli elemek vonalvégként jelöltek. A `send_to` megmarad, így a csőrészenkénti
-nézet sem vész el. A vonalnézetet Benedek a valósághűbb v2 üzemekhez vezette be, ahol sok
-jelöletlen idom áll az elemek között; a mi v1 példaüzemünkön ilyen idom nincs, de a kaszkád
+nézet sem vész el. A vonalnézetet Benedek a valósághűbb generátorváltozat üzemeihez vezette be, ahol sok
+jelöletlen idom áll az elemek között; a mi példaüzemeinken ilyen idom nincs, de a kaszkád
 promptjai és lekérdezési szabályai erre a profilra készültek, ezért ezt használjuk. A példaüzem
 üzemi rétege 36 csúcsból és 116 kapcsolatból áll (EXP-005).
 
@@ -67,7 +67,7 @@ SPARQL-végpontja HTTP 404-et adott, ezért csak az új végponttal és a CFIHOS
 
 A célformátumban egy rekord egy tény, nem egy nyomtatott cella; a feltételek elsőrendű elemek,
 a nyomtatott forma megmarad, és minden visszakövethető a PDF-oldalig. Az RDF-modell a plantdocs
-ontológiai döntése (ADR-0005) szerint az ISO 15926 vonalat követi: az IDO a felső ontológia, a
+ontológiai döntése szerint az ISO 15926 vonalat követi: az IDO a felső ontológia, a
 POSC Caesar könyvtára az eszköz- és referenciaszótár, a mértékegység QUDT, saját, kézzel írt
 szókészlet pedig nem lehet. Egy mennyiségi tény mennyiségi adatpont (Quantity Datum), a
 feltételek együttese egy esetcsúcs (Case), amelyre a tény és minden egyes feltétel mutat, a forrás

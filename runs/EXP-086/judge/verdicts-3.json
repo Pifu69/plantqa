@@ -1,0 +1,158 @@
+[
+ {
+  "item": "aa510915b1",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Port sizes right but raised face flanges not mentioned."
+ },
+ {
+  "item": "cefb3a0b99",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "266 psi casing and 250 psi operating up to 37 C."
+ },
+ {
+  "item": "c61e653eac",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Effect and test levels right but IEC 60770-1 not mentioned."
+ },
+ {
+  "item": "c584513852",
+  "verdict": "correct",
+  "cites_page": true,
+  "reason": "Ductile iron casing, gray iron 40 impeller, pH not stated."
+ },
+ {
+  "item": "6640b1c38d",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Whisper/WhisperFlo for noise and Cavitrol III for cavitation/high dP."
+ },
+ {
+  "item": "0c05d387b7",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "1/4-18 NPT right but DF adapters and S5/S6 manifold options missing (gives other codes)."
+ },
+ {
+  "item": "db4207cff5",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Says only equal percentage is documented."
+ },
+ {
+  "item": "4b6dca0b4a",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "PVC body, EPDM or FKM, use FKM."
+ },
+ {
+  "item": "d06c7a82f0",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "PVC body, EPDM or FKM, choose FKM."
+ },
+ {
+  "item": "60fdab3c70",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Says diagnosis not stated but misses NPSHr from curves."
+ },
+ {
+  "item": "82df082cd7",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "No answer."
+ },
+ {
+  "item": "6362a31a78",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Says manual override not stated although gold confirms it."
+ },
+ {
+  "item": "94bf523a0a",
+  "verdict": "correct",
+  "cites_page": true,
+  "reason": "Standard centrifugal pump on pedestal, 4x2 1/2, model code not explained."
+ },
+ {
+  "item": "c3d4651dce",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "All materials listed and stainless available."
+ },
+ {
+  "item": "e54efba39e",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "59.7 with all required conditions."
+ },
+ {
+  "item": "28d4871588",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Sliding-stem globe-style control valve, cage guided, balanced plug."
+ },
+ {
+  "item": "90c6d32c1c",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Lists required materials and stainless available."
+ },
+ {
+  "item": "5a73ead11a",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Claims hand-operated and override not stated."
+ },
+ {
+  "item": "d749d5e739",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Says diagnosis not established but gives no NPSHr from curves."
+ },
+ {
+  "item": "41e3fe1901",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "No; only Plugged Impulse Line with output M."
+ },
+ {
+  "item": "7395fbfd53",
+  "verdict": "correct",
+  "cites_page": true,
+  "reason": "Confirms manual override."
+ },
+ {
+  "item": "a58c19f382",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Says dimensions and weight not stated although gold has them."
+ },
+ {
+  "item": "22bb54e93e",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "4 in suction, 2 1/2 in discharge, raised face."
+ },
+ {
+  "item": "c799e88c69",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "1/4-18 NPT right but DF adapters and S5/S6 assemble-to manifold options missing."
+ },
+ {
+  "item": "0be34a3a10",
+  "verdict": "correct",
+  "cites_page": true,
+  "reason": "59.7 with full-sized trim, equal percentage cage, normal flow."
+ },
+ {
+  "item": "62d1772b68",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "59.7 with full-sized trim, equal percentage cage, normal flow."
+ }
+]

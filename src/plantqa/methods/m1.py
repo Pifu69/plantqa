@@ -48,6 +48,9 @@ LINK_TEXT = """DATASHEET LAYER (the same database also holds the datasheet of ea
 - For the facts of a tag: MATCH (p:PlantItem {tag: 'X'})-[:DESCRIBED_BY]->(dev)
   MATCH (d) WHERE d.document_id = dev.document_id AND (d:plm__PCA_100029511 OR
   d:plm__PCA_100029508 OR d:plm__PCA_100029510) ... and filter d by the words of the question.
+- Filter broadly (several keywords joined with OR, synonyms, units) and return every matching
+  fact with its value, unit, condition, footnote and page: a datasheet value is only correct
+  together with its condition, and a question about options or variants needs all of them.
 The datasheet graphs follow this model:"""
 
 

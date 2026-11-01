@@ -47,7 +47,9 @@ AGENT_PARAMS: dict[str, Any] = {
 CYPHER_ACCEPT = ["answered", "not_abstained", "rows", "complete"]
 #: A `cascade_v4_iso` `start_tier_by_label` címkéi: ezek az ágensnél indulnak.
 AGENT_FIRST_LABELS = frozenset({"UPSTREAM_TO_FIRST_VALVE", "DOWNSTREAM_TO_FIRST_VALVE"})
-CUTOFF_S = 120.0
+#: Hangolás (EXP-095): a 30 lapos üzemen egy sok adatlap-hívást igénylő kérdés 120 s-nál
+#: időtúllépéssel válasz nélkül maradt (EXP-083), ezért a keret 240 s.
+CUTOFF_S = 240.0
 PRIMER = True
 
 StrategyFactory = Callable[[str, dict[str, Any], LlmDeps, CypherDeps], Strategy]

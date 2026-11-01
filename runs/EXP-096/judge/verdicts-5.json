@@ -1,0 +1,92 @@
+[
+ {
+  "item": "99478b3602",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Centrifugal pump 4x2 1/2 right, but does not say the model code meaning is not explained."
+ },
+ {
+  "item": "ebdf8d05f6",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "<0.1% URL per IEC 60770-1, 10-60 Hz 0.21 mm / 60-2000 Hz 3g."
+ },
+ {
+  "item": "8a19f971ef",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly says bolt torque is not stated."
+ },
+ {
+  "item": "4150a440c2",
+  "verdict": "correct",
+  "cites_page": true,
+  "reason": "Correctly says replacement compatibility is not stated."
+ },
+ {
+  "item": "c1c7b83940",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "High/low selectable by jumper/switch, but default high, alarm levels and output M jumper missing."
+ },
+ {
+  "item": "2ee69939ba",
+  "verdict": "wrong",
+  "cites_page": true,
+  "reason": "Says the NPS 4 CL300 face-to-face is not stated although gold gives 368 mm."
+ },
+ {
+  "item": "d01bf3d2a8",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "All body materials listed and stainless CF8M/CF3M available."
+ },
+ {
+  "item": "10fbbc353b",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "24 V DC, 230 V AC versions; match type plate."
+ },
+ {
+  "item": "58577f3674",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly says priming is not stated."
+ },
+ {
+  "item": "3290c8c891",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "No; only Plugged Impulse Line diagnostic with output M."
+ },
+ {
+  "item": "38d1e42ea2",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "All body materials listed and stainless CF8M/CF3M available."
+ },
+ {
+  "item": "fb86119ffc",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "NPS 1-8 listed and NPS 3 available."
+ },
+ {
+  "item": "60b4ea1585",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly says no interval is stated."
+ },
+ {
+  "item": "2dd55be4df",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Single-port globe-style control valve, cage-guided, balanced plug."
+ },
+ {
+  "item": "58d650453d",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly says replacement compatibility is not established."
+ }
+]

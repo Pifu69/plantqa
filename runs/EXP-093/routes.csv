@@ -1,0 +1,13 @@
+method,model,route,n
+M1,glm,agent-v2t+cypher-v2t,10
+M1,glm,cypher-v2t,32
+M1,glm,agent-v2t+cypher-v2t+datasheet_fact,18
+M1,luna,cypher-v2t,33
+M1,luna,agent-v2t+cypher-v2t+datasheet_fact,18
+M1,luna,agent-v2t+cypher-v2t,9
+M2,glm,drawing,21
+M2,glm,datasheet,21
+M2,glm,datasheet+drawing,18
+M2,luna,drawing,20
+M2,luna,datasheet,21
+M2,luna,datasheet+drawing,19

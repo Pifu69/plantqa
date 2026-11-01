@@ -1,0 +1,242 @@
+[
+ {
+  "item": "43b8f46e62",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Says diagnosis cannot be determined but claims no NPSH info although NPSHr is on the curve."
+ },
+ {
+  "item": "adbac38e90",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Lists 24 V DC and 230 V AC but omits that the version must match / be ordered accordingly."
+ },
+ {
+  "item": "ca4a61476b",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Confirms manual override to open without power."
+ },
+ {
+  "item": "d88c3b1168",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Gives <0.1 % URL, IEC 60770-1 high vibration, 10-60 Hz 0.21 mm / 60-2000 Hz 3g."
+ },
+ {
+  "item": "7ef2790f02",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly says part numbers are not stated."
+ },
+ {
+  "item": "03c7d58fc1",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Says 1/4 NPT is not stated and gives no connection or manifold option details."
+ },
+ {
+  "item": "1594ebb8f3",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly says no shock rating is stated."
+ },
+ {
+  "item": "206f22f0ac",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "All vibration elements present."
+ },
+ {
+  "item": "7f2c3ad3e5",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Gives 343 mm instead of 368 mm RF (384 mm RTJ)."
+ },
+ {
+  "item": "a41081eabf",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly says no cover-opening hazard is stated."
+ },
+ {
+  "item": "d27e8250fe",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "No; only Plugged Impulse Line with output M."
+ },
+ {
+  "item": "f99b21cd3f",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Gives 1/4-18 NPT on 2 1/8 in centers and S5/S6 manifolds but omits 1/2-14 NPT flange adapters (DF)."
+ },
+ {
+  "item": "f1bde6993b",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "No; only Plugged Impulse Line with code M."
+ },
+ {
+  "item": "24e948b3ef",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly says causes and fixes are not stated."
+ },
+ {
+  "item": "b58ddc6c0b",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Suction 4 in and discharge 2.5 in correct but raised face flanges missing."
+ },
+ {
+  "item": "aa03c4c995",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Kv per DN with water 20 C, 1 bar differential condition."
+ },
+ {
+  "item": "98c2d356e5",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Gives +/-1.95 % of flow rate at 8:1 turndown."
+ },
+ {
+  "item": "fa0cdad3a0",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Weight correct but says dimensions are not stated and does not note motor excluded."
+ },
+ {
+  "item": "a062a87bef",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "High/low selectable by jumper but omits default high, alarm levels and output M."
+ },
+ {
+  "item": "8150556528",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Full material list with CF8M/CF3M stainless."
+ },
+ {
+  "item": "1d89133ffd",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Standard cages all three; special cages linear."
+ },
+ {
+  "item": "b8b33c9f1f",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Jumper/switch selection, default high, alarm levels and output M internal jumper all given."
+ },
+ {
+  "item": "c132e2153a",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Ductile iron casing, gray iron 40 impeller, pH 5 not stated."
+ },
+ {
+  "item": "dc7055d268",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Identifies Whisper/WhisperFlo for noise but not Cavitrol III for cavitation/high pressure drop."
+ },
+ {
+  "item": "b582b0fe08",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Standard centrifugal pump 4 x 2.5 in; model code not explained."
+ },
+ {
+  "item": "a4a917b312",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Kv per DN with water 20 C, 1 bar, free outlet."
+ },
+ {
+  "item": "fcd3743118",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Cylindrical roller and double-row ball; SAE 30 oil; no interval stated."
+ },
+ {
+  "item": "2a0d0cc5ed",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Only CE listed; drinking water and Ex not stated."
+ },
+ {
+  "item": "7f3c8b8a6c",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly says no cover-opening hazard is documented."
+ },
+ {
+  "item": "4860df8b99",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "PVC body, EPDM or FKM gaskets, FKM as the option."
+ },
+ {
+  "item": "e7f9110b04",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Gives 266 psi casing but omits 250 psi operating limit up to 37 C."
+ },
+ {
+  "item": "a6fccf5444",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "No motor specified and 1450 rpm curve noted, but does not conclude power stays within ~5.6 kW."
+ },
+ {
+  "item": "844f86676d",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly says RTD type and class are not stated."
+ },
+ {
+  "item": "f1980b550c",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "-76 F (-60 C)."
+ },
+ {
+  "item": "2032936b47",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Full material list with CF8M/CF3M stainless available."
+ },
+ {
+  "item": "0daf88b00b",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Gives 3.8 kg (8.3 lb) instead of 0.45 kg (1.0 lb)."
+ },
+ {
+  "item": "175a813002",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly says suction pipe size and accessories are not stated."
+ },
+ {
+  "item": "6a82cd9ce4",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Flanged yes with butt weld and screwed, but socket weld missing."
+ },
+ {
+  "item": "0230d215f9",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "All vibration elements present."
+ },
+ {
+  "item": "6bb2efc220",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "No; only Plugged Impulse Line with code M."
+ }
+]

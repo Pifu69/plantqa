@@ -1,0 +1,1636 @@
+[
+ {
+  "item": "cbcdfcc490",
+  "gold": {
+   "answer": "P-9-2 (gorman-rupp-0700286): depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa)) (p. 1) GV-1-6 (gfps-165-solenoid-valve): PN 6 bar (pressure range 0.5 - 6 bar) (p. 2) Lowest: GV-1-6 (for every listed construction).",
+   "answerable": "yes",
+   "must": [
+    "P-9-2: depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa))",
+    "GV-1-6: PN 6 bar (pressure range 0.5 - 6 bar)",
+    "lowest: GV-1-6"
+   ],
+   "per_tag": {
+    "GV-1-6": {
+     "note": "Same for all sizes DN15-DN50 (PN 6 on p5); p3 P-T diagram derates above 40 °C to about 3.6 bar at 50 °C; minimum differential pressure 0.5 bar required to operate.",
+     "page": 2,
+     "single_value": true,
+     "unit": "bar",
+     "value": 6,
+     "value_text": "PN 6 bar (pressure range 0.5 - 6 bar)"
+    },
+    "P-9-2": {
+     "note": "Two distinct limits printed for the single model (casing vs. operating/system); consult factory for applications exceeding them.",
+     "page": 1,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Maximum casing pressure",
+       "unit": "psi",
+       "value": 266,
+       "value_text": "266 psi (1834 kPa)"
+      },
+      {
+       "condition": "Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations",
+       "unit": "psi",
+       "value": 250,
+       "value_text": "250 psi (1723 kPa)"
+      }
+     ]
+    }
+   },
+   "question": "Compare the item directly downstream of TV-9-1 in the process flow and the item directly downstream of GV-1-5 in the process flow: which of the two has the lowest maximum allowable pressure according to its datasheet, and what are the two values?"
+  },
+  "candidate": "Not in the documents. In the P&ID, the item directly downstream of TV-9-1 is pump P-9-2 (Gorman-Rupp datasheet), and the item directly downstream of GV-1-5 is globe valve GV-1-6 (GFPS Type 165 solenoid valve datasheet). However, the provided excerpts do not state a maximum allowable pressure for either item: no Gorman-Rupp datasheet excerpt is included, and the GFPS excerpt only shows a pressure-temperature diagram axis without a stated numeric maximum pressure. Therefore the two maximum allowable pressure values and the comparison cannot be determined from the documents."
+ },
+ {
+  "item": "a1a29c490e",
+  "gold": {
+   "answer": "BV-7-1 (flowserve-worcester-f51-f52): depends on the construction (Delrin seat: 80°C (180°F); UHMWPE seat: 90°C (200°F); Virgin PTFE seat: 230°C (450°F); Reinforced PTFE seat: 230°C (450°F)) (p. 7) BV-7-2 (flowserve-worcester-f51-f52): depends on the construction (Delrin seat: 80°C (180°F); UHMWPE seat: 90°C (200°F); Virgin PTFE seat: 230°C (450°F); Reinforced PTFE seat: 230°C (450°F)) (p. 7) CHV-7-1 (swagelok-ms-01-176): depends on the construction (316 SS valves, C/CA/CP/CPA series (FKM O-rings): 375 °F (190 °C); Brass valves (Buna N O-rings): 250 °F (121 °C); CH series, 316 SS (FKM seals): 400 °F (204 °C)) (p. 3) E-7-4 (alfalaval-m3): depends on the construction (Frame FG, ASME: 177 °C / 350 °F; Frame FG, PED: 180 °C / 356 °F) (p. 2) Which one is the lowest cannot be decided from the datasheets alone.",
+   "answerable": "yes",
+   "must": [
+    "BV-7-1: depends on the construction (Delrin seat: 80°C (180°F); UHMWPE seat: 90°C (200°F); Virgin PTFE seat: 230°C (450°F); Reinforced PTFE seat: 230°C (450°F))",
+    "BV-7-2: depends on the construction (Delrin seat: 80°C (180°F); UHMWPE seat: 90°C (200°F); Virgin PTFE seat: 230°C (450°F); Reinforced PTFE seat: 230°C (450°F))",
+    "CHV-7-1: depends on the construction (316 SS valves, C/CA/CP/CPA series (FKM O-rings): 375 °F (190 °C); Brass valves (Buna N O-rings): 250 °F (121 °C); CH series, 316 SS (FKM seals): 400 °F (204 °C))",
+    "E-7-4: depends on the construction (Frame FG, ASME: 177 °C / 350 °F; Frame FG, PED: 180 °C / 356 °F)",
+    "says the comparison depends on the construction (not decidable as asked)"
+   ],
+   "per_tag": {
+    "BV-7-1": {
+     "note": "Maximum seat temperature ratings; the p6 P-T chart axis only extends to 300 °C (572 °F).",
+     "page": 7,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Delrin seat",
+       "unit": "°C",
+       "value": 80,
+       "value_text": "80°C (180°F)"
+      },
+      {
+       "condition": "UHMWPE seat",
+       "unit": "°C",
+       "value": 90,
+       "value_text": "90°C (200°F)"
+      },
+      {
+       "condition": "Virgin PTFE seat",
+       "unit": "°C",
+       "value": 230,
+       "value_text": "230°C (450°F)"
+      },
+      {
+       "condition": "Reinforced PTFE seat",
+       "unit": "°C",
+       "value": 230,
+       "value_text": "230°C (450°F)"
+      },
+      {
+       "condition": "Fluorofill/Polyfill seat",
+       "unit": "°C",
+       "value": 260,
+       "value_text": "260°C (500°F)"
+      },
+      {
+       "condition": "PEEK seat",
+       "unit": "°C",
+       "value": 315,
+       "value_text": "315°C (600°F)"
+      },
+      {
+       "condition": "Metal seat (A or G)",
+       "unit": "°C",
+       "value": 315,
+       "value_text": "315°C (600°F)"
+      }
+     ]
+    },
+    "BV-7-2": {
+     "note": "Maximum seat temperature ratings; the p6 P-T chart axis only extends to 300 °C (572 °F).",
+     "page": 7,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Delrin seat",
+       "unit": "°C",
+       "value": 80,
+       "value_text": "80°C (180°F)"
+      },
+      {
+       "condition": "UHMWPE seat",
+       "unit": "°C",
+       "value": 90,
+       "value_text": "90°C (200°F)"
+      },
+      {
+       "condition": "Virgin PTFE seat",
+       "unit": "°C",
+       "value": 230,
+       "value_text": "230°C (450°F)"
+      },
+      {
+       "condition": "Reinforced PTFE seat",
+       "unit": "°C",
+       "value": 230,
+       "value_text": "230°C (450°F)"
+      },
+      {
+       "condition": "Fluorofill/Polyfill seat",
+       "unit": "°C",
+       "value": 260,
+       "value_text": "260°C (500°F)"
+      },
+      {
+       "condition": "PEEK seat",
+       "unit": "°C",
+       "value": 315,
+       "value_text": "315°C (600°F)"
+      },
+      {
+       "condition": "Metal seat (A or G)",
+       "unit": "°C",
+       "value": 315,
+       "value_text": "315°C (600°F)"
+      }
+     ]
+    },
+    "CHV-7-1": {
+     "note": "Seal-dependent; p14 seal table: Buna N to 250 °F, EP to 300 °F, FKM to 375 °F (400 °F for CH), neoprene to 250 °F.",
+     "page": 3,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "316 SS valves, C/CA/CP/CPA series (FKM O-rings)",
+       "unit": "°F",
+       "value": 375,
+       "value_text": "375 °F (190 °C)"
+      },
+      {
+       "condition": "Brass valves (Buna N O-rings)",
+       "unit": "°F",
+       "value": 250,
+       "value_text": "250 °F (121 °C)"
+      },
+      {
+       "condition": "CH series, 316 SS (FKM seals)",
+       "unit": "°F",
+       "value": 400,
+       "value_text": "400 °F (204 °C)"
+      }
+     ]
+    },
+    "E-7-4": {
+     "note": "Max. design temperature; actual limit also depends on gasket material (not tabulated).",
+     "page": 2,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Frame FG, ASME",
+       "unit": "°C",
+       "value": 177,
+       "value_text": "177 °C / 350 °F"
+      },
+      {
+       "condition": "Frame FG, PED",
+       "unit": "°C",
+       "value": 180,
+       "value_text": "180 °C / 356 °F"
+      }
+     ]
+    }
+   },
+   "question": "For each item that receives flow directly from P-7-1, what is its maximum fluid temperature according to its datasheet, and which of them has the lowest?"
+  },
+  "candidate": "BV-7-1 and BV-7-2: up to 315 °C with PEEK or metal seats; the rating is lower with other seat materials (down to 80 °C). CHV-7-1: 180 °C under PED or 177 °C under ASME. E-7-4: 180 °C under PED or 177 °C under ASME. The lowest cannot be determined without the ball-valve seat materials and applicable codes; CHV-7-1 and E-7-4 tie at 177 °C under ASME, but a ball valve with a lower-rated seat could be lower."
+ },
+ {
+  "item": "5c9af2b509",
+  "gold": {
+   "answer": "BV-1-1 (flowserve-worcester-f51-f52): depends on the construction (F52 (Class 300), Group 1.2 body (WCB/WCC, LCB/LCC), at low temperature: approx. 52 bar (read from P-T chart); F52 (Class 300), Group 2.2 body (CF8M), at low temperature: approx. 50 bar (read from P-T chart); F51 (Class 150), Group 1.2 body, at low temperature: approx. 20 bar (read from P-T chart); F51 (Class 150), Group 2.2 body (CF8M), at low temperature: approx. 19 bar (read from P-T chart)) (p. 6) BV-1-2 (flowserve-worcester-f51-f52): depends on the construction (F52 (Class 300), Group 1.2 body (WCB/WCC, LCB/LCC), at low temperature: approx. 52 bar (read from P-T chart); F52 (Class 300), Group 2.2 body (CF8M), at low temperature: approx. 50 bar (read from P-T chart); F51 (Class 150), Group 1.2 body, at low temperature: approx. 20 bar (read from P-T chart); F51 (Class 150), Group 2.2 body (CF8M), at low temperature: approx. 19 bar (read from P-T chart)) (p. 6) P-2-1 (gorman-rupp-0700286): depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa)) (p. 1) CHV-2-3 (swagelok-ms-01-176): depends on the construction (C (2C, 4C, 6C, 8C), CA, CP, CPA series, 316 SS or brass, -10 to 100 °F: 3000 psig (206 bar); C series 12C and 16C, 316 SS, -10 to 100 °F: 2000 psig (137 bar); C series 12C and 16C, brass, -10 to 100 °F: 1500 psig (103 bar); CH4, CH8 series, 316 SS, 10 to 100 °F: 6000 psig (413 bar)) (p. 3) E-5-1 (alfalaval-m3): depends on the construction (Frame FG, ASME pressure vessel code: 10.3 barg / 150 psig; Frame FG, PED pressure vessel code: 16.0 barg / 232 psig) (p. 2) FV-5-1 (flowserve-worcester-f51-f52): depends on the construction (F52 (Class 300), Group 1.2 body (WCB/WCC, LCB/LCC), at low temperature: approx. 52 bar (read from P-T chart); F52 (Class 300), Group 2.2 body (CF8M), at low temperature: approx. 50 bar (read from P-T chart); F51 (Class 150), Group 1.2 body, at low temperature: approx. 20 bar (read from P-T chart); F51 (Class 150), Group 2.2 body (CF8M), at low temperature: approx. 19 bar (read from P-T chart)) (p. 6) E-5-2 (alfalaval-m3): depends on the construction (Frame FG, ASME pressure vessel code: 10.3 barg / 150 psig; Frame FG, PED pressure vessel code: 16.0 barg / 232 psig) (p. 2) P-5-1 (gorman-rupp-0700286): depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa)) (p. 1) BV-5-2 (flowserve-worcester-f51-f52): depends on the construction (F52 (Class 300), Group 1.2 body (WCB/WCC, LCB/LCC), at low temperature: approx. 52 bar (read from P-T chart); F52 (Class 300), Group 2.2 body (CF8M), at low temperature: approx. 50 bar (read from P-T chart); F51 (Class 150), Group 1.2 body, at low temperature: approx. 20 bar (read from P-T chart); F51 (Class 150), Group 2.2 body (CF8M), at low temperature: approx. 19 bar (read from P-T chart)) (p. 6) P-11-1 (gorman-rupp-0700286): depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa)) (p. 1) P-11-2 (gorman-rupp-0700286): depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa)) (p. 1) E-11-1 (alfalaval-m3): depends on the construction (Frame FG, ASME pressure vessel code: 10.3 barg / 150 psig; Frame FG, PED pressure vessel code: 16.0 barg / 232 psig) (p. 2) P-11-4 (gorman-rupp-0700286): depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa)) (p. 1) P-12-1 (gorman-rupp-0700286): depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa)) (p. 1) GV-12-1 (gfps-165-solenoid-valve): PN 6 bar (pressure range 0.5 - 6 bar) (p. 2) GV-12-2 (gfps-165-solenoid-valve): PN 6 bar (pressure range 0.5 - 6 bar) (p. 2) P-12-2 (gorman-rupp-0700286): depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa)) (p. 1) Which one is the lowest cannot be decided from the datasheets alone.",
+   "answerable": "yes",
+   "must": [
+    "BV-1-1: depends on the construction (F52 (Class 300), Group 1.2 body (WCB/WCC, LCB/LCC), at low temperature: approx. 52 bar (read from P-T chart); F52 (Class 300), Group 2.2 body (CF8M), at low temperature: approx. 50 bar (read from P-T chart); F51 (Class 150), Group 1.2 body, at low temperature: approx. 20 bar (read from P-T chart); F51 (Class 150), Group 2.2 body (CF8M), at low temperature: approx. 19 bar (read from P-T chart))",
+    "BV-1-2: depends on the construction (F52 (Class 300), Group 1.2 body (WCB/WCC, LCB/LCC), at low temperature: approx. 52 bar (read from P-T chart); F52 (Class 300), Group 2.2 body (CF8M), at low temperature: approx. 50 bar (read from P-T chart); F51 (Class 150), Group 1.2 body, at low temperature: approx. 20 bar (read from P-T chart); F51 (Class 150), Group 2.2 body (CF8M), at low temperature: approx. 19 bar (read from P-T chart))",
+    "P-2-1: depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa))",
+    "CHV-2-3: depends on the construction (C (2C, 4C, 6C, 8C), CA, CP, CPA series, 316 SS or brass, -10 to 100 °F: 3000 psig (206 bar); C series 12C and 16C, 316 SS, -10 to 100 °F: 2000 psig (137 bar); C series 12C and 16C, brass, -10 to 100 °F: 1500 psig (103 bar); CH4, CH8 series, 316 SS, 10 to 100 °F: 6000 psig (413 bar))",
+    "E-5-1: depends on the construction (Frame FG, ASME pressure vessel code: 10.3 barg / 150 psig; Frame FG, PED pressure vessel code: 16.0 barg / 232 psig)",
+    "FV-5-1: depends on the construction (F52 (Class 300), Group 1.2 body (WCB/WCC, LCB/LCC), at low temperature: approx. 52 bar (read from P-T chart); F52 (Class 300), Group 2.2 body (CF8M), at low temperature: approx. 50 bar (read from P-T chart); F51 (Class 150), Group 1.2 body, at low temperature: approx. 20 bar (read from P-T chart); F51 (Class 150), Group 2.2 body (CF8M), at low temperature: approx. 19 bar (read from P-T chart))",
+    "E-5-2: depends on the construction (Frame FG, ASME pressure vessel code: 10.3 barg / 150 psig; Frame FG, PED pressure vessel code: 16.0 barg / 232 psig)",
+    "P-5-1: depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa))",
+    "BV-5-2: depends on the construction (F52 (Class 300), Group 1.2 body (WCB/WCC, LCB/LCC), at low temperature: approx. 52 bar (read from P-T chart); F52 (Class 300), Group 2.2 body (CF8M), at low temperature: approx. 50 bar (read from P-T chart); F51 (Class 150), Group 1.2 body, at low temperature: approx. 20 bar (read from P-T chart); F51 (Class 150), Group 2.2 body (CF8M), at low temperature: approx. 19 bar (read from P-T chart))",
+    "P-11-1: depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa))",
+    "P-11-2: depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa))",
+    "E-11-1: depends on the construction (Frame FG, ASME pressure vessel code: 10.3 barg / 150 psig; Frame FG, PED pressure vessel code: 16.0 barg / 232 psig)",
+    "P-11-4: depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa))",
+    "P-12-1: depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa))",
+    "GV-12-1: PN 6 bar (pressure range 0.5 - 6 bar)",
+    "GV-12-2: PN 6 bar (pressure range 0.5 - 6 bar)",
+    "P-12-2: depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa))",
+    "says the comparison depends on the construction (not decidable as asked)"
+   ],
+   "per_tag": {
+    "BV-1-1": {
+     "note": "No numeric pressure is printed; ratings are ASME B16.34 curves shown only graphically, decreasing with temperature and further limited by seat material.",
+     "page": 6,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "F52 (Class 300), Group 1.2 body (WCB/WCC, LCB/LCC), at low temperature",
+       "unit": "bar",
+       "value": 52,
+       "value_text": "approx. 52 bar (read from P-T chart)"
+      },
+      {
+       "condition": "F52 (Class 300), Group 2.2 body (CF8M), at low temperature",
+       "unit": "bar",
+       "value": 50,
+       "value_text": "approx. 50 bar (read from P-T chart)"
+      },
+      {
+       "condition": "F51 (Class 150), Group 1.2 body, at low temperature",
+       "unit": "bar",
+       "value": 20,
+       "value_text": "approx. 20 bar (read from P-T chart)"
+      },
+      {
+       "condition": "F51 (Class 150), Group 2.2 body (CF8M), at low temperature",
+       "unit": "bar",
+       "value": 19,
+       "value_text": "approx. 19 bar (read from P-T chart)"
+      }
+     ]
+    },
+    "BV-1-2": {
+     "note": "No numeric pressure is printed; ratings are ASME B16.34 curves shown only graphically, decreasing with temperature and further limited by seat material.",
+     "page": 6,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "F52 (Class 300), Group 1.2 body (WCB/WCC, LCB/LCC), at low temperature",
+       "unit": "bar",
+       "value": 52,
+       "value_text": "approx. 52 bar (read from P-T chart)"
+      },
+      {
+       "condition": "F52 (Class 300), Group 2.2 body (CF8M), at low temperature",
+       "unit": "bar",
+       "value": 50,
+       "value_text": "approx. 50 bar (read from P-T chart)"
+      },
+      {
+       "condition": "F51 (Class 150), Group 1.2 body, at low temperature",
+       "unit": "bar",
+       "value": 20,
+       "value_text": "approx. 20 bar (read from P-T chart)"
+      },
+      {
+       "condition": "F51 (Class 150), Group 2.2 body (CF8M), at low temperature",
+       "unit": "bar",
+       "value": 19,
+       "value_text": "approx. 19 bar (read from P-T chart)"
+      }
+     ]
+    },
+    "BV-5-2": {
+     "note": "No numeric pressure is printed; ratings are ASME B16.34 curves shown only graphically, decreasing with temperature and further limited by seat material.",
+     "page": 6,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "F52 (Class 300), Group 1.2 body (WCB/WCC, LCB/LCC), at low temperature",
+       "unit": "bar",
+       "value": 52,
+       "value_text": "approx. 52 bar (read from P-T chart)"
+      },
+      {
+       "condition": "F52 (Class 300), Group 2.2 body (CF8M), at low temperature",
+       "unit": "bar",
+       "value": 50,
+       "value_text": "approx. 50 bar (read from P-T chart)"
+      },
+      {
+       "condition": "F51 (Class 150), Group 1.2 body, at low temperature",
+       "unit": "bar",
+       "value": 20,
+       "value_text": "approx. 20 bar (read from P-T chart)"
+      },
+      {
+       "condition": "F51 (Class 150), Group 2.2 body (CF8M), at low temperature",
+       "unit": "bar",
+       "value": 19,
+       "value_text": "approx. 19 bar (read from P-T chart)"
+      }
+     ]
+    },
+    "CHV-2-3": {
+     "note": "Cover (p1) summarizes 'working pressures up to 6000 psig (413 bar)'; ratings decrease with temperature and may be limited by the end connection (CH ratings per connection on p12).",
+     "page": 3,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "C (2C, 4C, 6C, 8C), CA, CP, CPA series, 316 SS or brass, -10 to 100 °F",
+       "unit": "psig",
+       "value": 3000,
+       "value_text": "3000 psig (206 bar)"
+      },
+      {
+       "condition": "C series 12C and 16C, 316 SS, -10 to 100 °F",
+       "unit": "psig",
+       "value": 2000,
+       "value_text": "2000 psig (137 bar)"
+      },
+      {
+       "condition": "C series 12C and 16C, brass, -10 to 100 °F",
+       "unit": "psig",
+       "value": 1500,
+       "value_text": "1500 psig (103 bar)"
+      },
+      {
+       "condition": "CH4, CH8 series, 316 SS, 10 to 100 °F",
+       "unit": "psig",
+       "value": 6000,
+       "value_text": "6000 psig (413 bar)"
+      },
+      {
+       "condition": "CH16 series, 316 SS, 10 to 100 °F",
+       "unit": "psig",
+       "value": 5000,
+       "value_text": "5000 psig (344 bar)"
+      }
+     ]
+    },
+    "E-11-1": {
+     "note": "Max. design pressure; extended pressure and temperature rating may be available on request.",
+     "page": 2,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Frame FG, ASME pressure vessel code",
+       "unit": "barg",
+       "value": 10.3,
+       "value_text": "10.3 barg / 150 psig"
+      },
+      {
+       "condition": "Frame FG, PED pressure vessel code",
+       "unit": "barg",
+       "value": 16.0,
+       "value_text": "16.0 barg / 232 psig"
+      }
+     ]
+    },
+    "E-5-1": {
+     "note": "Max. design pressure; extended pressure and temperature rating may be available on request.",
+     "page": 2,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Frame FG, ASME pressure vessel code",
+       "unit": "barg",
+       "value": 10.3,
+       "value_text": "10.3 barg / 150 psig"
+      },
+      {
+       "condition": "Frame FG, PED pressure vessel code",
+       "unit": "barg",
+       "value": 16.0,
+       "value_text": "16.0 barg / 232 psig"
+      }
+     ]
+    },
+    "E-5-2": {
+     "note": "Max. design pressure; extended pressure and temperature rating may be available on request.",
+     "page": 2,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Frame FG, ASME pressure vessel code",
+       "unit": "barg",
+       "value": 10.3,
+       "value_text": "10.3 barg / 150 psig"
+      },
+      {
+       "condition": "Frame FG, PED pressure vessel code",
+       "unit": "barg",
+       "value": 16.0,
+       "value_text": "16.0 barg / 232 psig"
+      }
+     ]
+    },
+    "FV-5-1": {
+     "note": "No numeric pressure is printed; ratings are ASME B16.34 curves shown only graphically, decreasing with temperature and further limited by seat material.",
+     "page": 6,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "F52 (Class 300), Group 1.2 body (WCB/WCC, LCB/LCC), at low temperature",
+       "unit": "bar",
+       "value": 52,
+       "value_text": "approx. 52 bar (read from P-T chart)"
+      },
+      {
+       "condition": "F52 (Class 300), Group 2.2 body (CF8M), at low temperature",
+       "unit": "bar",
+       "value": 50,
+       "value_text": "approx. 50 bar (read from P-T chart)"
+      },
+      {
+       "condition": "F51 (Class 150), Group 1.2 body, at low temperature",
+       "unit": "bar",
+       "value": 20,
+       "value_text": "approx. 20 bar (read from P-T chart)"
+      },
+      {
+       "condition": "F51 (Class 150), Group 2.2 body (CF8M), at low temperature",
+       "unit": "bar",
+       "value": 19,
+       "value_text": "approx. 19 bar (read from P-T chart)"
+      }
+     ]
+    },
+    "GV-12-1": {
+     "note": "Same for all sizes DN15-DN50 (PN 6 on p5); p3 P-T diagram derates above 40 °C to about 3.6 bar at 50 °C; minimum differential pressure 0.5 bar required to operate.",
+     "page": 2,
+     "single_value": true,
+     "unit": "bar",
+     "value": 6,
+     "value_text": "PN 6 bar (pressure range 0.5 - 6 bar)"
+    },
+    "GV-12-2": {
+     "note": "Same for all sizes DN15-DN50 (PN 6 on p5); p3 P-T diagram derates above 40 °C to about 3.6 bar at 50 °C; minimum differential pressure 0.5 bar required to operate.",
+     "page": 2,
+     "single_value": true,
+     "unit": "bar",
+     "value": 6,
+     "value_text": "PN 6 bar (pressure range 0.5 - 6 bar)"
+    },
+    "P-11-1": {
+     "note": "Two distinct limits printed for the single model (casing vs. operating/system); consult factory for applications exceeding them.",
+     "page": 1,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Maximum casing pressure",
+       "unit": "psi",
+       "value": 266,
+       "value_text": "266 psi (1834 kPa)"
+      },
+      {
+       "condition": "Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations",
+       "unit": "psi",
+       "value": 250,
+       "value_text": "250 psi (1723 kPa)"
+      }
+     ]
+    },
+    "P-11-2": {
+     "note": "Two distinct limits printed for the single model (casing vs. operating/system); consult factory for applications exceeding them.",
+     "page": 1,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Maximum casing pressure",
+       "unit": "psi",
+       "value": 266,
+       "value_text": "266 psi (1834 kPa)"
+      },
+      {
+       "condition": "Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations",
+       "unit": "psi",
+       "value": 250,
+       "value_text": "250 psi (1723 kPa)"
+      }
+     ]
+    },
+    "P-11-4": {
+     "note": "Two distinct limits printed for the single model (casing vs. operating/system); consult factory for applications exceeding them.",
+     "page": 1,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Maximum casing pressure",
+       "unit": "psi",
+       "value": 266,
+       "value_text": "266 psi (1834 kPa)"
+      },
+      {
+       "condition": "Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations",
+       "unit": "psi",
+       "value": 250,
+       "value_text": "250 psi (1723 kPa)"
+      }
+     ]
+    },
+    "P-12-1": {
+     "note": "Two distinct limits printed for the single model (casing vs. operating/system); consult factory for applications exceeding them.",
+     "page": 1,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Maximum casing pressure",
+       "unit": "psi",
+       "value": 266,
+       "value_text": "266 psi (1834 kPa)"
+      },
+      {
+       "condition": "Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations",
+       "unit": "psi",
+       "value": 250,
+       "value_text": "250 psi (1723 kPa)"
+      }
+     ]
+    },
+    "P-12-2": {
+     "note": "Two distinct limits printed for the single model (casing vs. operating/system); consult factory for applications exceeding them.",
+     "page": 1,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Maximum casing pressure",
+       "unit": "psi",
+       "value": 266,
+       "value_text": "266 psi (1834 kPa)"
+      },
+      {
+       "condition": "Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations",
+       "unit": "psi",
+       "value": 250,
+       "value_text": "250 psi (1723 kPa)"
+      }
+     ]
+    },
+    "P-2-1": {
+     "note": "Two distinct limits printed for the single model (casing vs. operating/system); consult factory for applications exceeding them.",
+     "page": 1,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Maximum casing pressure",
+       "unit": "psi",
+       "value": 266,
+       "value_text": "266 psi (1834 kPa)"
+      },
+      {
+       "condition": "Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations",
+       "unit": "psi",
+       "value": 250,
+       "value_text": "250 psi (1723 kPa)"
+      }
+     ]
+    },
+    "P-5-1": {
+     "note": "Two distinct limits printed for the single model (casing vs. operating/system); consult factory for applications exceeding them.",
+     "page": 1,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Maximum casing pressure",
+       "unit": "psi",
+       "value": 266,
+       "value_text": "266 psi (1834 kPa)"
+      },
+      {
+       "condition": "Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations",
+       "unit": "psi",
+       "value": 250,
+       "value_text": "250 psi (1723 kPa)"
+      }
+     ]
+    }
+   },
+   "question": "Along the process flow path from BV-1-1 to P-12-2, which item has the lowest maximum allowable pressure according to its datasheet? Give the value for every item on the path that has a datasheet."
+  },
+  "candidate": "(no answer: STEP_LIMIT)"
+ },
+ {
+  "item": "2e2cb5c40a",
+  "gold": {
+   "answer": "LV-8-1 (flowserve-worcester-f51-f52): depends on the construction (F52 (Class 300), Group 1.2 body (WCB/WCC, LCB/LCC), at low temperature: approx. 52 bar (read from P-T chart); F52 (Class 300), Group 2.2 body (CF8M), at low temperature: approx. 50 bar (read from P-T chart); F51 (Class 150), Group 1.2 body, at low temperature: approx. 20 bar (read from P-T chart); F51 (Class 150), Group 2.2 body (CF8M), at low temperature: approx. 19 bar (read from P-T chart)) (p. 6) CHV-4-3 (swagelok-ms-01-176): depends on the construction (C (2C, 4C, 6C, 8C), CA, CP, CPA series, 316 SS or brass, -10 to 100 °F: 3000 psig (206 bar); C series 12C and 16C, 316 SS, -10 to 100 °F: 2000 psig (137 bar); C series 12C and 16C, brass, -10 to 100 °F: 1500 psig (103 bar); CH4, CH8 series, 316 SS, 10 to 100 °F: 6000 psig (413 bar)) (p. 3) Lowest: LV-8-1 (for every listed construction).",
+   "answerable": "yes",
+   "must": [
+    "LV-8-1: depends on the construction (F52 (Class 300), Group 1.2 body (WCB/WCC, LCB/LCC), at low temperature: approx. 52 bar (read from P-T chart); F52 (Class 300), Group 2.2 body (CF8M), at low temperature: approx. 50 bar (read from P-T chart); F51 (Class 150), Group 1.2 body, at low temperature: approx. 20 bar (read from P-T chart); F51 (Class 150), Group 2.2 body (CF8M), at low temperature: approx. 19 bar (read from P-T chart))",
+    "CHV-4-3: depends on the construction (C (2C, 4C, 6C, 8C), CA, CP, CPA series, 316 SS or brass, -10 to 100 °F: 3000 psig (206 bar); C series 12C and 16C, 316 SS, -10 to 100 °F: 2000 psig (137 bar); C series 12C and 16C, brass, -10 to 100 °F: 1500 psig (103 bar); CH4, CH8 series, 316 SS, 10 to 100 °F: 6000 psig (413 bar))",
+    "lowest: LV-8-1"
+   ],
+   "per_tag": {
+    "CHV-4-3": {
+     "note": "Cover (p1) summarizes 'working pressures up to 6000 psig (413 bar)'; ratings decrease with temperature and may be limited by the end connection (CH ratings per connection on p12).",
+     "page": 3,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "C (2C, 4C, 6C, 8C), CA, CP, CPA series, 316 SS or brass, -10 to 100 °F",
+       "unit": "psig",
+       "value": 3000,
+       "value_text": "3000 psig (206 bar)"
+      },
+      {
+       "condition": "C series 12C and 16C, 316 SS, -10 to 100 °F",
+       "unit": "psig",
+       "value": 2000,
+       "value_text": "2000 psig (137 bar)"
+      },
+      {
+       "condition": "C series 12C and 16C, brass, -10 to 100 °F",
+       "unit": "psig",
+       "value": 1500,
+       "value_text": "1500 psig (103 bar)"
+      },
+      {
+       "condition": "CH4, CH8 series, 316 SS, 10 to 100 °F",
+       "unit": "psig",
+       "value": 6000,
+       "value_text": "6000 psig (413 bar)"
+      },
+      {
+       "condition": "CH16 series, 316 SS, 10 to 100 °F",
+       "unit": "psig",
+       "value": 5000,
+       "value_text": "5000 psig (344 bar)"
+      }
+     ]
+    },
+    "LV-8-1": {
+     "note": "No numeric pressure is printed; ratings are ASME B16.34 curves shown only graphically, decreasing with temperature and further limited by seat material.",
+     "page": 6,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "F52 (Class 300), Group 1.2 body (WCB/WCC, LCB/LCC), at low temperature",
+       "unit": "bar",
+       "value": 52,
+       "value_text": "approx. 52 bar (read from P-T chart)"
+      },
+      {
+       "condition": "F52 (Class 300), Group 2.2 body (CF8M), at low temperature",
+       "unit": "bar",
+       "value": 50,
+       "value_text": "approx. 50 bar (read from P-T chart)"
+      },
+      {
+       "condition": "F51 (Class 150), Group 1.2 body, at low temperature",
+       "unit": "bar",
+       "value": 20,
+       "value_text": "approx. 20 bar (read from P-T chart)"
+      },
+      {
+       "condition": "F51 (Class 150), Group 2.2 body (CF8M), at low temperature",
+       "unit": "bar",
+       "value": 19,
+       "value_text": "approx. 19 bar (read from P-T chart)"
+      }
+     ]
+    }
+   },
+   "question": "Compare the item directly upstream of E-8-1 in the process flow and the item directly downstream of CHV-4-2 in the process flow: which of the two has the lowest maximum allowable pressure according to its datasheet, and what are the two values?"
+  },
+  "candidate": "The item directly upstream of E-8-1 is LV-8-1, and the item directly downstream of CHV-4-2 is P-4-2. The Swagelok datasheet gives check valves working pressures up to 6,000 psig (413 bar), but the excerpts do not state P-4-2’s pressure rating, so the two values and which is lower cannot be determined."
+ },
+ {
+  "item": "38d16b58f1",
+  "gold": {
+   "answer": "BV-7-1 (flowserve-worcester-f51-f52): depends on the construction (F52 (Class 300), Group 1.2 body (WCB/WCC, LCB/LCC), at low temperature: approx. 52 bar (read from P-T chart); F52 (Class 300), Group 2.2 body (CF8M), at low temperature: approx. 50 bar (read from P-T chart); F51 (Class 150), Group 1.2 body, at low temperature: approx. 20 bar (read from P-T chart); F51 (Class 150), Group 2.2 body (CF8M), at low temperature: approx. 19 bar (read from P-T chart)) (p. 6) BV-7-2 (flowserve-worcester-f51-f52): depends on the construction (F52 (Class 300), Group 1.2 body (WCB/WCC, LCB/LCC), at low temperature: approx. 52 bar (read from P-T chart); F52 (Class 300), Group 2.2 body (CF8M), at low temperature: approx. 50 bar (read from P-T chart); F51 (Class 150), Group 1.2 body, at low temperature: approx. 20 bar (read from P-T chart); F51 (Class 150), Group 2.2 body (CF8M), at low temperature: approx. 19 bar (read from P-T chart)) (p. 6) CHV-7-1 (swagelok-ms-01-176): depends on the construction (C (2C, 4C, 6C, 8C), CA, CP, CPA series, 316 SS or brass, -10 to 100 °F: 3000 psig (206 bar); C series 12C and 16C, 316 SS, -10 to 100 °F: 2000 psig (137 bar); C series 12C and 16C, brass, -10 to 100 °F: 1500 psig (103 bar); CH4, CH8 series, 316 SS, 10 to 100 °F: 6000 psig (413 bar)) (p. 3) E-7-4 (alfalaval-m3): depends on the construction (Frame FG, ASME pressure vessel code: 10.3 barg / 150 psig; Frame FG, PED pressure vessel code: 16.0 barg / 232 psig) (p. 2) Lowest: E-7-4 (for every listed construction).",
+   "answerable": "yes",
+   "must": [
+    "BV-7-1: depends on the construction (F52 (Class 300), Group 1.2 body (WCB/WCC, LCB/LCC), at low temperature: approx. 52 bar (read from P-T chart); F52 (Class 300), Group 2.2 body (CF8M), at low temperature: approx. 50 bar (read from P-T chart); F51 (Class 150), Group 1.2 body, at low temperature: approx. 20 bar (read from P-T chart); F51 (Class 150), Group 2.2 body (CF8M), at low temperature: approx. 19 bar (read from P-T chart))",
+    "BV-7-2: depends on the construction (F52 (Class 300), Group 1.2 body (WCB/WCC, LCB/LCC), at low temperature: approx. 52 bar (read from P-T chart); F52 (Class 300), Group 2.2 body (CF8M), at low temperature: approx. 50 bar (read from P-T chart); F51 (Class 150), Group 1.2 body, at low temperature: approx. 20 bar (read from P-T chart); F51 (Class 150), Group 2.2 body (CF8M), at low temperature: approx. 19 bar (read from P-T chart))",
+    "CHV-7-1: depends on the construction (C (2C, 4C, 6C, 8C), CA, CP, CPA series, 316 SS or brass, -10 to 100 °F: 3000 psig (206 bar); C series 12C and 16C, 316 SS, -10 to 100 °F: 2000 psig (137 bar); C series 12C and 16C, brass, -10 to 100 °F: 1500 psig (103 bar); CH4, CH8 series, 316 SS, 10 to 100 °F: 6000 psig (413 bar))",
+    "E-7-4: depends on the construction (Frame FG, ASME pressure vessel code: 10.3 barg / 150 psig; Frame FG, PED pressure vessel code: 16.0 barg / 232 psig)",
+    "lowest: E-7-4"
+   ],
+   "per_tag": {
+    "BV-7-1": {
+     "note": "No numeric pressure is printed; ratings are ASME B16.34 curves shown only graphically, decreasing with temperature and further limited by seat material.",
+     "page": 6,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "F52 (Class 300), Group 1.2 body (WCB/WCC, LCB/LCC), at low temperature",
+       "unit": "bar",
+       "value": 52,
+       "value_text": "approx. 52 bar (read from P-T chart)"
+      },
+      {
+       "condition": "F52 (Class 300), Group 2.2 body (CF8M), at low temperature",
+       "unit": "bar",
+       "value": 50,
+       "value_text": "approx. 50 bar (read from P-T chart)"
+      },
+      {
+       "condition": "F51 (Class 150), Group 1.2 body, at low temperature",
+       "unit": "bar",
+       "value": 20,
+       "value_text": "approx. 20 bar (read from P-T chart)"
+      },
+      {
+       "condition": "F51 (Class 150), Group 2.2 body (CF8M), at low temperature",
+       "unit": "bar",
+       "value": 19,
+       "value_text": "approx. 19 bar (read from P-T chart)"
+      }
+     ]
+    },
+    "BV-7-2": {
+     "note": "No numeric pressure is printed; ratings are ASME B16.34 curves shown only graphically, decreasing with temperature and further limited by seat material.",
+     "page": 6,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "F52 (Class 300), Group 1.2 body (WCB/WCC, LCB/LCC), at low temperature",
+       "unit": "bar",
+       "value": 52,
+       "value_text": "approx. 52 bar (read from P-T chart)"
+      },
+      {
+       "condition": "F52 (Class 300), Group 2.2 body (CF8M), at low temperature",
+       "unit": "bar",
+       "value": 50,
+       "value_text": "approx. 50 bar (read from P-T chart)"
+      },
+      {
+       "condition": "F51 (Class 150), Group 1.2 body, at low temperature",
+       "unit": "bar",
+       "value": 20,
+       "value_text": "approx. 20 bar (read from P-T chart)"
+      },
+      {
+       "condition": "F51 (Class 150), Group 2.2 body (CF8M), at low temperature",
+       "unit": "bar",
+       "value": 19,
+       "value_text": "approx. 19 bar (read from P-T chart)"
+      }
+     ]
+    },
+    "CHV-7-1": {
+     "note": "Cover (p1) summarizes 'working pressures up to 6000 psig (413 bar)'; ratings decrease with temperature and may be limited by the end connection (CH ratings per connection on p12).",
+     "page": 3,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "C (2C, 4C, 6C, 8C), CA, CP, CPA series, 316 SS or brass, -10 to 100 °F",
+       "unit": "psig",
+       "value": 3000,
+       "value_text": "3000 psig (206 bar)"
+      },
+      {
+       "condition": "C series 12C and 16C, 316 SS, -10 to 100 °F",
+       "unit": "psig",
+       "value": 2000,
+       "value_text": "2000 psig (137 bar)"
+      },
+      {
+       "condition": "C series 12C and 16C, brass, -10 to 100 °F",
+       "unit": "psig",
+       "value": 1500,
+       "value_text": "1500 psig (103 bar)"
+      },
+      {
+       "condition": "CH4, CH8 series, 316 SS, 10 to 100 °F",
+       "unit": "psig",
+       "value": 6000,
+       "value_text": "6000 psig (413 bar)"
+      },
+      {
+       "condition": "CH16 series, 316 SS, 10 to 100 °F",
+       "unit": "psig",
+       "value": 5000,
+       "value_text": "5000 psig (344 bar)"
+      }
+     ]
+    },
+    "E-7-4": {
+     "note": "Max. design pressure; extended pressure and temperature rating may be available on request.",
+     "page": 2,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Frame FG, ASME pressure vessel code",
+       "unit": "barg",
+       "value": 10.3,
+       "value_text": "10.3 barg / 150 psig"
+      },
+      {
+       "condition": "Frame FG, PED pressure vessel code",
+       "unit": "barg",
+       "value": 16.0,
+       "value_text": "16.0 barg / 232 psig"
+      }
+     ]
+    }
+   },
+   "question": "For each item that receives flow directly from P-7-1, what is its maximum allowable pressure according to its datasheet, and which of them has the lowest?"
+  },
+  "candidate": "BV-7-1 and BV-7-2 have no single stated maximum allowable pressure; it depends on material group, class, seat material and temperature. CHV-7-1 is listed at a maximum working pressure of 6000 psig (413 bar), subject to its pressure-temperature rating. E-7-4 is rated at 16.0 barg under PED or 10.3 barg under ASME. The lowest cannot be determined because the ball-valve ratings are unspecified."
+ },
+ {
+  "item": "040f670a10",
+  "gold": {
+   "answer": "E-5-2 (alfalaval-m3): depends on the construction (Frame FG, ASME: 177 °C / 350 °F; Frame FG, PED: 180 °C / 356 °F) (p. 2) P-5-1 (gorman-rupp-0700286): 160F (71C) (p. 1) BV-5-2 (flowserve-worcester-f51-f52): depends on the construction (Delrin seat: 80°C (180°F); UHMWPE seat: 90°C (200°F); Virgin PTFE seat: 230°C (450°F); Reinforced PTFE seat: 230°C (450°F)) (p. 7) P-11-1 (gorman-rupp-0700286): 160F (71C) (p. 1) P-11-2 (gorman-rupp-0700286): 160F (71C) (p. 1) E-11-1 (alfalaval-m3): depends on the construction (Frame FG, ASME: 177 °C / 350 °F; Frame FG, PED: 180 °C / 356 °F) (p. 2) Which one is the lowest cannot be decided from the datasheets alone.",
+   "answerable": "yes",
+   "must": [
+    "E-5-2: depends on the construction (Frame FG, ASME: 177 °C / 350 °F; Frame FG, PED: 180 °C / 356 °F)",
+    "P-5-1: 160F (71C)",
+    "BV-5-2: depends on the construction (Delrin seat: 80°C (180°F); UHMWPE seat: 90°C (200°F); Virgin PTFE seat: 230°C (450°F); Reinforced PTFE seat: 230°C (450°F))",
+    "P-11-1: 160F (71C)",
+    "P-11-2: 160F (71C)",
+    "E-11-1: depends on the construction (Frame FG, ASME: 177 °C / 350 °F; Frame FG, PED: 180 °C / 356 °F)",
+    "says the comparison depends on the construction (not decidable as asked)"
+   ],
+   "per_tag": {
+    "BV-5-2": {
+     "note": "Maximum seat temperature ratings; the p6 P-T chart axis only extends to 300 °C (572 °F).",
+     "page": 7,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Delrin seat",
+       "unit": "°C",
+       "value": 80,
+       "value_text": "80°C (180°F)"
+      },
+      {
+       "condition": "UHMWPE seat",
+       "unit": "°C",
+       "value": 90,
+       "value_text": "90°C (200°F)"
+      },
+      {
+       "condition": "Virgin PTFE seat",
+       "unit": "°C",
+       "value": 230,
+       "value_text": "230°C (450°F)"
+      },
+      {
+       "condition": "Reinforced PTFE seat",
+       "unit": "°C",
+       "value": 230,
+       "value_text": "230°C (450°F)"
+      },
+      {
+       "condition": "Fluorofill/Polyfill seat",
+       "unit": "°C",
+       "value": 260,
+       "value_text": "260°C (500°F)"
+      },
+      {
+       "condition": "PEEK seat",
+       "unit": "°C",
+       "value": 315,
+       "value_text": "315°C (600°F)"
+      },
+      {
+       "condition": "Metal seat (A or G)",
+       "unit": "°C",
+       "value": 315,
+       "value_text": "315°C (600°F)"
+      }
+     ]
+    },
+    "E-11-1": {
+     "note": "Max. design temperature; actual limit also depends on gasket material (not tabulated).",
+     "page": 2,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Frame FG, ASME",
+       "unit": "°C",
+       "value": 177,
+       "value_text": "177 °C / 350 °F"
+      },
+      {
+       "condition": "Frame FG, PED",
+       "unit": "°C",
+       "value": 180,
+       "value_text": "180 °C / 356 °F"
+      }
+     ]
+    },
+    "E-5-2": {
+     "note": "Max. design temperature; actual limit also depends on gasket material (not tabulated).",
+     "page": 2,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Frame FG, ASME",
+       "unit": "°C",
+       "value": 177,
+       "value_text": "177 °C / 350 °F"
+      },
+      {
+       "condition": "Frame FG, PED",
+       "unit": "°C",
+       "value": 180,
+       "value_text": "180 °C / 356 °F"
+      }
+     ]
+    },
+    "P-11-1": {
+     "note": "Stated as 'Maximum Temperature of Liquid Pumped' in the seal detail (seal-limited); 250 psi operating pressure is only rated up to 100F (37C); consult factory above.",
+     "page": 1,
+     "single_value": true,
+     "unit": "°F",
+     "value": 160,
+     "value_text": "160F (71C)"
+    },
+    "P-11-2": {
+     "note": "Stated as 'Maximum Temperature of Liquid Pumped' in the seal detail (seal-limited); 250 psi operating pressure is only rated up to 100F (37C); consult factory above.",
+     "page": 1,
+     "single_value": true,
+     "unit": "°F",
+     "value": 160,
+     "value_text": "160F (71C)"
+    },
+    "P-5-1": {
+     "note": "Stated as 'Maximum Temperature of Liquid Pumped' in the seal detail (seal-limited); 250 psi operating pressure is only rated up to 100F (37C); consult factory above.",
+     "page": 1,
+     "single_value": true,
+     "unit": "°F",
+     "value": 160,
+     "value_text": "160F (71C)"
+    }
+   },
+   "question": "Along the process flow path from E-5-2 to E-11-1, which item has the lowest maximum fluid temperature according to its datasheet? Give the value for every item on the path that has a datasheet."
+  },
+  "candidate": "The items on the process flow path from E-5-2 to E-11-1 that have datasheets and their maximum fluid temperatures are E-5-2 (177 °C), P-11-1 (37 °C), P-11-2 (37 °C), P-5-1 (37 °C), and E-11-1 (177 °C). The items with the lowest maximum fluid temperature are P-11-1, P-11-2, and P-5-1, with a temperature of 37 °C."
+ },
+ {
+  "item": "9c47fcec66",
+  "gold": {
+   "answer": "P-2-2 (gorman-rupp-0700286): depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa)) (p. 1) GV-2-4 (gfps-165-solenoid-valve): PN 6 bar (pressure range 0.5 - 6 bar) (p. 2) Lowest: GV-2-4 (for every listed construction).",
+   "answerable": "yes",
+   "must": [
+    "P-2-2: depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa))",
+    "GV-2-4: PN 6 bar (pressure range 0.5 - 6 bar)",
+    "lowest: GV-2-4"
+   ],
+   "per_tag": {
+    "GV-2-4": {
+     "note": "Same for all sizes DN15-DN50 (PN 6 on p5); p3 P-T diagram derates above 40 °C to about 3.6 bar at 50 °C; minimum differential pressure 0.5 bar required to operate.",
+     "page": 2,
+     "single_value": true,
+     "unit": "bar",
+     "value": 6,
+     "value_text": "PN 6 bar (pressure range 0.5 - 6 bar)"
+    },
+    "P-2-2": {
+     "note": "Two distinct limits printed for the single model (casing vs. operating/system); consult factory for applications exceeding them.",
+     "page": 1,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Maximum casing pressure",
+       "unit": "psi",
+       "value": 266,
+       "value_text": "266 psi (1834 kPa)"
+      },
+      {
+       "condition": "Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations",
+       "unit": "psi",
+       "value": 250,
+       "value_text": "250 psi (1723 kPa)"
+      }
+     ]
+    }
+   },
+   "question": "Along the process flow path from P-2-2 to GV-2-4, which item has the lowest maximum allowable pressure according to its datasheet? Give the value for every item on the path that has a datasheet."
+  },
+  "candidate": "GV-2-4 has the lowest stated maximum pressure: 6 bar (PVC version, at 0–40 °C). P-2-2: maximum operating pressure 250 psi (1723 kPa), and maximum casing pressure 266 psi (1834 kPa)."
+ },
+ {
+  "item": "da6116ab84",
+  "gold": {
+   "answer": "BV-7-1 (flowserve-worcester-f51-f52): depends on the construction (Delrin seat: 80°C (180°F); UHMWPE seat: 90°C (200°F); Virgin PTFE seat: 230°C (450°F); Reinforced PTFE seat: 230°C (450°F)) (p. 7) BV-7-2 (flowserve-worcester-f51-f52): depends on the construction (Delrin seat: 80°C (180°F); UHMWPE seat: 90°C (200°F); Virgin PTFE seat: 230°C (450°F); Reinforced PTFE seat: 230°C (450°F)) (p. 7) CHV-7-1 (swagelok-ms-01-176): depends on the construction (316 SS valves, C/CA/CP/CPA series (FKM O-rings): 375 °F (190 °C); Brass valves (Buna N O-rings): 250 °F (121 °C); CH series, 316 SS (FKM seals): 400 °F (204 °C)) (p. 3) E-7-4 (alfalaval-m3): depends on the construction (Frame FG, ASME: 177 °C / 350 °F; Frame FG, PED: 180 °C / 356 °F) (p. 2) Which one is the lowest cannot be decided from the datasheets alone.",
+   "answerable": "yes",
+   "must": [
+    "BV-7-1: depends on the construction (Delrin seat: 80°C (180°F); UHMWPE seat: 90°C (200°F); Virgin PTFE seat: 230°C (450°F); Reinforced PTFE seat: 230°C (450°F))",
+    "BV-7-2: depends on the construction (Delrin seat: 80°C (180°F); UHMWPE seat: 90°C (200°F); Virgin PTFE seat: 230°C (450°F); Reinforced PTFE seat: 230°C (450°F))",
+    "CHV-7-1: depends on the construction (316 SS valves, C/CA/CP/CPA series (FKM O-rings): 375 °F (190 °C); Brass valves (Buna N O-rings): 250 °F (121 °C); CH series, 316 SS (FKM seals): 400 °F (204 °C))",
+    "E-7-4: depends on the construction (Frame FG, ASME: 177 °C / 350 °F; Frame FG, PED: 180 °C / 356 °F)",
+    "says the comparison depends on the construction (not decidable as asked)"
+   ],
+   "per_tag": {
+    "BV-7-1": {
+     "note": "Maximum seat temperature ratings; the p6 P-T chart axis only extends to 300 °C (572 °F).",
+     "page": 7,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Delrin seat",
+       "unit": "°C",
+       "value": 80,
+       "value_text": "80°C (180°F)"
+      },
+      {
+       "condition": "UHMWPE seat",
+       "unit": "°C",
+       "value": 90,
+       "value_text": "90°C (200°F)"
+      },
+      {
+       "condition": "Virgin PTFE seat",
+       "unit": "°C",
+       "value": 230,
+       "value_text": "230°C (450°F)"
+      },
+      {
+       "condition": "Reinforced PTFE seat",
+       "unit": "°C",
+       "value": 230,
+       "value_text": "230°C (450°F)"
+      },
+      {
+       "condition": "Fluorofill/Polyfill seat",
+       "unit": "°C",
+       "value": 260,
+       "value_text": "260°C (500°F)"
+      },
+      {
+       "condition": "PEEK seat",
+       "unit": "°C",
+       "value": 315,
+       "value_text": "315°C (600°F)"
+      },
+      {
+       "condition": "Metal seat (A or G)",
+       "unit": "°C",
+       "value": 315,
+       "value_text": "315°C (600°F)"
+      }
+     ]
+    },
+    "BV-7-2": {
+     "note": "Maximum seat temperature ratings; the p6 P-T chart axis only extends to 300 °C (572 °F).",
+     "page": 7,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Delrin seat",
+       "unit": "°C",
+       "value": 80,
+       "value_text": "80°C (180°F)"
+      },
+      {
+       "condition": "UHMWPE seat",
+       "unit": "°C",
+       "value": 90,
+       "value_text": "90°C (200°F)"
+      },
+      {
+       "condition": "Virgin PTFE seat",
+       "unit": "°C",
+       "value": 230,
+       "value_text": "230°C (450°F)"
+      },
+      {
+       "condition": "Reinforced PTFE seat",
+       "unit": "°C",
+       "value": 230,
+       "value_text": "230°C (450°F)"
+      },
+      {
+       "condition": "Fluorofill/Polyfill seat",
+       "unit": "°C",
+       "value": 260,
+       "value_text": "260°C (500°F)"
+      },
+      {
+       "condition": "PEEK seat",
+       "unit": "°C",
+       "value": 315,
+       "value_text": "315°C (600°F)"
+      },
+      {
+       "condition": "Metal seat (A or G)",
+       "unit": "°C",
+       "value": 315,
+       "value_text": "315°C (600°F)"
+      }
+     ]
+    },
+    "CHV-7-1": {
+     "note": "Seal-dependent; p14 seal table: Buna N to 250 °F, EP to 300 °F, FKM to 375 °F (400 °F for CH), neoprene to 250 °F.",
+     "page": 3,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "316 SS valves, C/CA/CP/CPA series (FKM O-rings)",
+       "unit": "°F",
+       "value": 375,
+       "value_text": "375 °F (190 °C)"
+      },
+      {
+       "condition": "Brass valves (Buna N O-rings)",
+       "unit": "°F",
+       "value": 250,
+       "value_text": "250 °F (121 °C)"
+      },
+      {
+       "condition": "CH series, 316 SS (FKM seals)",
+       "unit": "°F",
+       "value": 400,
+       "value_text": "400 °F (204 °C)"
+      }
+     ]
+    },
+    "E-7-4": {
+     "note": "Max. design temperature; actual limit also depends on gasket material (not tabulated).",
+     "page": 2,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Frame FG, ASME",
+       "unit": "°C",
+       "value": 177,
+       "value_text": "177 °C / 350 °F"
+      },
+      {
+       "condition": "Frame FG, PED",
+       "unit": "°C",
+       "value": 180,
+       "value_text": "180 °C / 356 °F"
+      }
+     ]
+    }
+   },
+   "question": "For each item that receives flow directly from P-7-1, what is its maximum fluid temperature according to its datasheet, and which of them has the lowest?"
+  },
+  "candidate": "The items directly downstream of P-7-1 are E-7-4, CHV-7-1, BV-7-1 and BV-7-2. Their maximum temperatures per datasheet are: E-7-4: 356 °F (about 177–180 °C); CHV-7-1: 400 °F (204 °C); BV-7-1: 600 °F (315 °C); BV-7-2: 600 °F (315 °C). The lowest maximum is E-7-4 at 356 °F."
+ },
+ {
+  "item": "a72b5a5499",
+  "gold": {
+   "answer": "P-14-2 (gorman-rupp-0700286): 160F (71C) (p. 1) TV-14-1 (flowserve-worcester-f51-f52): depends on the construction (Delrin seat: 80°C (180°F); UHMWPE seat: 90°C (200°F); Virgin PTFE seat: 230°C (450°F); Reinforced PTFE seat: 230°C (450°F)) (p. 7) Lowest: P-14-2 (for every listed construction).",
+   "answerable": "yes",
+   "must": [
+    "P-14-2: 160F (71C)",
+    "TV-14-1: depends on the construction (Delrin seat: 80°C (180°F); UHMWPE seat: 90°C (200°F); Virgin PTFE seat: 230°C (450°F); Reinforced PTFE seat: 230°C (450°F))",
+    "lowest: P-14-2"
+   ],
+   "per_tag": {
+    "P-14-2": {
+     "note": "Stated as 'Maximum Temperature of Liquid Pumped' in the seal detail (seal-limited); 250 psi operating pressure is only rated up to 100F (37C); consult factory above.",
+     "page": 1,
+     "single_value": true,
+     "unit": "°F",
+     "value": 160,
+     "value_text": "160F (71C)"
+    },
+    "TV-14-1": {
+     "note": "Maximum seat temperature ratings; the p6 P-T chart axis only extends to 300 °C (572 °F).",
+     "page": 7,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Delrin seat",
+       "unit": "°C",
+       "value": 80,
+       "value_text": "80°C (180°F)"
+      },
+      {
+       "condition": "UHMWPE seat",
+       "unit": "°C",
+       "value": 90,
+       "value_text": "90°C (200°F)"
+      },
+      {
+       "condition": "Virgin PTFE seat",
+       "unit": "°C",
+       "value": 230,
+       "value_text": "230°C (450°F)"
+      },
+      {
+       "condition": "Reinforced PTFE seat",
+       "unit": "°C",
+       "value": 230,
+       "value_text": "230°C (450°F)"
+      },
+      {
+       "condition": "Fluorofill/Polyfill seat",
+       "unit": "°C",
+       "value": 260,
+       "value_text": "260°C (500°F)"
+      },
+      {
+       "condition": "PEEK seat",
+       "unit": "°C",
+       "value": 315,
+       "value_text": "315°C (600°F)"
+      },
+      {
+       "condition": "Metal seat (A or G)",
+       "unit": "°C",
+       "value": 315,
+       "value_text": "315°C (600°F)"
+      }
+     ]
+    }
+   },
+   "question": "For each item that receives flow directly from E-14-1, what is its maximum fluid temperature according to its datasheet, and which of them has the lowest?"
+  },
+  "candidate": "E-14-1 feeds two items directly: P-14-2 and TV-14-1. Per its datasheet, pump P-14-2 has a maximum liquid temperature of 160 °F (71 °C) (the seal's liquid temperature limit; its 250 psi max operating pressure applies only up to 100 °F). The ball valve TV-14-1 (Flowserve Worcester F51/F52) has a maximum fluid temperature of 315 °C (600 °F) for PEEK or metal seats (lower for other seat materials). Of the two, P-14-2 has the lowest maximum fluid temperature at 71 °C."
+ },
+ {
+  "item": "e030f0b94d",
+  "gold": {
+   "answer": "BV-7-1 (flowserve-worcester-f51-f52): depends on the construction (F52 (Class 300), Group 1.2 body (WCB/WCC, LCB/LCC), at low temperature: approx. 52 bar (read from P-T chart); F52 (Class 300), Group 2.2 body (CF8M), at low temperature: approx. 50 bar (read from P-T chart); F51 (Class 150), Group 1.2 body, at low temperature: approx. 20 bar (read from P-T chart); F51 (Class 150), Group 2.2 body (CF8M), at low temperature: approx. 19 bar (read from P-T chart)) (p. 6) BV-7-2 (flowserve-worcester-f51-f52): depends on the construction (F52 (Class 300), Group 1.2 body (WCB/WCC, LCB/LCC), at low temperature: approx. 52 bar (read from P-T chart); F52 (Class 300), Group 2.2 body (CF8M), at low temperature: approx. 50 bar (read from P-T chart); F51 (Class 150), Group 1.2 body, at low temperature: approx. 20 bar (read from P-T chart); F51 (Class 150), Group 2.2 body (CF8M), at low temperature: approx. 19 bar (read from P-T chart)) (p. 6) CHV-7-1 (swagelok-ms-01-176): depends on the construction (C (2C, 4C, 6C, 8C), CA, CP, CPA series, 316 SS or brass, -10 to 100 °F: 3000 psig (206 bar); C series 12C and 16C, 316 SS, -10 to 100 °F: 2000 psig (137 bar); C series 12C and 16C, brass, -10 to 100 °F: 1500 psig (103 bar); CH4, CH8 series, 316 SS, 10 to 100 °F: 6000 psig (413 bar)) (p. 3) E-7-4 (alfalaval-m3): depends on the construction (Frame FG, ASME pressure vessel code: 10.3 barg / 150 psig; Frame FG, PED pressure vessel code: 16.0 barg / 232 psig) (p. 2) Lowest: E-7-4 (for every listed construction).",
+   "answerable": "yes",
+   "must": [
+    "BV-7-1: depends on the construction (F52 (Class 300), Group 1.2 body (WCB/WCC, LCB/LCC), at low temperature: approx. 52 bar (read from P-T chart); F52 (Class 300), Group 2.2 body (CF8M), at low temperature: approx. 50 bar (read from P-T chart); F51 (Class 150), Group 1.2 body, at low temperature: approx. 20 bar (read from P-T chart); F51 (Class 150), Group 2.2 body (CF8M), at low temperature: approx. 19 bar (read from P-T chart))",
+    "BV-7-2: depends on the construction (F52 (Class 300), Group 1.2 body (WCB/WCC, LCB/LCC), at low temperature: approx. 52 bar (read from P-T chart); F52 (Class 300), Group 2.2 body (CF8M), at low temperature: approx. 50 bar (read from P-T chart); F51 (Class 150), Group 1.2 body, at low temperature: approx. 20 bar (read from P-T chart); F51 (Class 150), Group 2.2 body (CF8M), at low temperature: approx. 19 bar (read from P-T chart))",
+    "CHV-7-1: depends on the construction (C (2C, 4C, 6C, 8C), CA, CP, CPA series, 316 SS or brass, -10 to 100 °F: 3000 psig (206 bar); C series 12C and 16C, 316 SS, -10 to 100 °F: 2000 psig (137 bar); C series 12C and 16C, brass, -10 to 100 °F: 1500 psig (103 bar); CH4, CH8 series, 316 SS, 10 to 100 °F: 6000 psig (413 bar))",
+    "E-7-4: depends on the construction (Frame FG, ASME pressure vessel code: 10.3 barg / 150 psig; Frame FG, PED pressure vessel code: 16.0 barg / 232 psig)",
+    "lowest: E-7-4"
+   ],
+   "per_tag": {
+    "BV-7-1": {
+     "note": "No numeric pressure is printed; ratings are ASME B16.34 curves shown only graphically, decreasing with temperature and further limited by seat material.",
+     "page": 6,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "F52 (Class 300), Group 1.2 body (WCB/WCC, LCB/LCC), at low temperature",
+       "unit": "bar",
+       "value": 52,
+       "value_text": "approx. 52 bar (read from P-T chart)"
+      },
+      {
+       "condition": "F52 (Class 300), Group 2.2 body (CF8M), at low temperature",
+       "unit": "bar",
+       "value": 50,
+       "value_text": "approx. 50 bar (read from P-T chart)"
+      },
+      {
+       "condition": "F51 (Class 150), Group 1.2 body, at low temperature",
+       "unit": "bar",
+       "value": 20,
+       "value_text": "approx. 20 bar (read from P-T chart)"
+      },
+      {
+       "condition": "F51 (Class 150), Group 2.2 body (CF8M), at low temperature",
+       "unit": "bar",
+       "value": 19,
+       "value_text": "approx. 19 bar (read from P-T chart)"
+      }
+     ]
+    },
+    "BV-7-2": {
+     "note": "No numeric pressure is printed; ratings are ASME B16.34 curves shown only graphically, decreasing with temperature and further limited by seat material.",
+     "page": 6,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "F52 (Class 300), Group 1.2 body (WCB/WCC, LCB/LCC), at low temperature",
+       "unit": "bar",
+       "value": 52,
+       "value_text": "approx. 52 bar (read from P-T chart)"
+      },
+      {
+       "condition": "F52 (Class 300), Group 2.2 body (CF8M), at low temperature",
+       "unit": "bar",
+       "value": 50,
+       "value_text": "approx. 50 bar (read from P-T chart)"
+      },
+      {
+       "condition": "F51 (Class 150), Group 1.2 body, at low temperature",
+       "unit": "bar",
+       "value": 20,
+       "value_text": "approx. 20 bar (read from P-T chart)"
+      },
+      {
+       "condition": "F51 (Class 150), Group 2.2 body (CF8M), at low temperature",
+       "unit": "bar",
+       "value": 19,
+       "value_text": "approx. 19 bar (read from P-T chart)"
+      }
+     ]
+    },
+    "CHV-7-1": {
+     "note": "Cover (p1) summarizes 'working pressures up to 6000 psig (413 bar)'; ratings decrease with temperature and may be limited by the end connection (CH ratings per connection on p12).",
+     "page": 3,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "C (2C, 4C, 6C, 8C), CA, CP, CPA series, 316 SS or brass, -10 to 100 °F",
+       "unit": "psig",
+       "value": 3000,
+       "value_text": "3000 psig (206 bar)"
+      },
+      {
+       "condition": "C series 12C and 16C, 316 SS, -10 to 100 °F",
+       "unit": "psig",
+       "value": 2000,
+       "value_text": "2000 psig (137 bar)"
+      },
+      {
+       "condition": "C series 12C and 16C, brass, -10 to 100 °F",
+       "unit": "psig",
+       "value": 1500,
+       "value_text": "1500 psig (103 bar)"
+      },
+      {
+       "condition": "CH4, CH8 series, 316 SS, 10 to 100 °F",
+       "unit": "psig",
+       "value": 6000,
+       "value_text": "6000 psig (413 bar)"
+      },
+      {
+       "condition": "CH16 series, 316 SS, 10 to 100 °F",
+       "unit": "psig",
+       "value": 5000,
+       "value_text": "5000 psig (344 bar)"
+      }
+     ]
+    },
+    "E-7-4": {
+     "note": "Max. design pressure; extended pressure and temperature rating may be available on request.",
+     "page": 2,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Frame FG, ASME pressure vessel code",
+       "unit": "barg",
+       "value": 10.3,
+       "value_text": "10.3 barg / 150 psig"
+      },
+      {
+       "condition": "Frame FG, PED pressure vessel code",
+       "unit": "barg",
+       "value": 16.0,
+       "value_text": "16.0 barg / 232 psig"
+      }
+     ]
+    }
+   },
+   "question": "For each item that receives flow directly from P-7-1, what is its maximum allowable pressure according to its datasheet, and which of them has the lowest?"
+  },
+  "candidate": "P-7-1 directly feeds BV-7-1, BV-7-2, CHV-7-1 and E-7-4. The datasheet states working pressures up to 6,000 psig for CHV-7-1. Maximum pressures for BV-7-1, BV-7-2 and E-7-4 are not stated in the provided excerpts, so which item has the lowest pressure is not stated."
+ },
+ {
+  "item": "6117bf6d77",
+  "gold": {
+   "answer": "P-14-2 (gorman-rupp-0700286): 160F (71C) (p. 1) TV-14-1 (flowserve-worcester-f51-f52): depends on the construction (Delrin seat: 80°C (180°F); UHMWPE seat: 90°C (200°F); Virgin PTFE seat: 230°C (450°F); Reinforced PTFE seat: 230°C (450°F)) (p. 7) Lowest: P-14-2 (for every listed construction).",
+   "answerable": "yes",
+   "must": [
+    "P-14-2: 160F (71C)",
+    "TV-14-1: depends on the construction (Delrin seat: 80°C (180°F); UHMWPE seat: 90°C (200°F); Virgin PTFE seat: 230°C (450°F); Reinforced PTFE seat: 230°C (450°F))",
+    "lowest: P-14-2"
+   ],
+   "per_tag": {
+    "P-14-2": {
+     "note": "Stated as 'Maximum Temperature of Liquid Pumped' in the seal detail (seal-limited); 250 psi operating pressure is only rated up to 100F (37C); consult factory above.",
+     "page": 1,
+     "single_value": true,
+     "unit": "°F",
+     "value": 160,
+     "value_text": "160F (71C)"
+    },
+    "TV-14-1": {
+     "note": "Maximum seat temperature ratings; the p6 P-T chart axis only extends to 300 °C (572 °F).",
+     "page": 7,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Delrin seat",
+       "unit": "°C",
+       "value": 80,
+       "value_text": "80°C (180°F)"
+      },
+      {
+       "condition": "UHMWPE seat",
+       "unit": "°C",
+       "value": 90,
+       "value_text": "90°C (200°F)"
+      },
+      {
+       "condition": "Virgin PTFE seat",
+       "unit": "°C",
+       "value": 230,
+       "value_text": "230°C (450°F)"
+      },
+      {
+       "condition": "Reinforced PTFE seat",
+       "unit": "°C",
+       "value": 230,
+       "value_text": "230°C (450°F)"
+      },
+      {
+       "condition": "Fluorofill/Polyfill seat",
+       "unit": "°C",
+       "value": 260,
+       "value_text": "260°C (500°F)"
+      },
+      {
+       "condition": "PEEK seat",
+       "unit": "°C",
+       "value": 315,
+       "value_text": "315°C (600°F)"
+      },
+      {
+       "condition": "Metal seat (A or G)",
+       "unit": "°C",
+       "value": 315,
+       "value_text": "315°C (600°F)"
+      }
+     ]
+    }
+   },
+   "question": "For each item that receives flow directly from E-14-1, what is its maximum fluid temperature according to its datasheet, and which of them has the lowest?"
+  },
+  "candidate": "E-14-1 directly sends flow to P-14-2 and TV-14-1. The provided datasheet excerpts do not state either item’s maximum fluid temperature, so the lowest cannot be determined."
+ },
+ {
+  "item": "98a8fefa68",
+  "gold": {
+   "answer": "P-14-2 (gorman-rupp-0700286): depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa)) (p. 1) TV-14-1 (flowserve-worcester-f51-f52): depends on the construction (F52 (Class 300), Group 1.2 body (WCB/WCC, LCB/LCC), at low temperature: approx. 52 bar (read from P-T chart); F52 (Class 300), Group 2.2 body (CF8M), at low temperature: approx. 50 bar (read from P-T chart); F51 (Class 150), Group 1.2 body, at low temperature: approx. 20 bar (read from P-T chart); F51 (Class 150), Group 2.2 body (CF8M), at low temperature: approx. 19 bar (read from P-T chart)) (p. 6) Lowest: P-14-2 (for every listed construction).",
+   "answerable": "yes",
+   "must": [
+    "P-14-2: depends on the construction (Maximum casing pressure: 266 psi (1834 kPa); Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations: 250 psi (1723 kPa))",
+    "TV-14-1: depends on the construction (F52 (Class 300), Group 1.2 body (WCB/WCC, LCB/LCC), at low temperature: approx. 52 bar (read from P-T chart); F52 (Class 300), Group 2.2 body (CF8M), at low temperature: approx. 50 bar (read from P-T chart); F51 (Class 150), Group 1.2 body, at low temperature: approx. 20 bar (read from P-T chart); F51 (Class 150), Group 2.2 body (CF8M), at low temperature: approx. 19 bar (read from P-T chart))",
+    "lowest: P-14-2"
+   ],
+   "per_tag": {
+    "P-14-2": {
+     "note": "Two distinct limits printed for the single model (casing vs. operating/system); consult factory for applications exceeding them.",
+     "page": 1,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Maximum casing pressure",
+       "unit": "psi",
+       "value": 266,
+       "value_text": "266 psi (1834 kPa)"
+      },
+      {
+       "condition": "Maximum operating pressure, at temperatures up to 100F (37C), based on system component limitations",
+       "unit": "psi",
+       "value": 250,
+       "value_text": "250 psi (1723 kPa)"
+      }
+     ]
+    },
+    "TV-14-1": {
+     "note": "No numeric pressure is printed; ratings are ASME B16.34 curves shown only graphically, decreasing with temperature and further limited by seat material.",
+     "page": 6,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "F52 (Class 300), Group 1.2 body (WCB/WCC, LCB/LCC), at low temperature",
+       "unit": "bar",
+       "value": 52,
+       "value_text": "approx. 52 bar (read from P-T chart)"
+      },
+      {
+       "condition": "F52 (Class 300), Group 2.2 body (CF8M), at low temperature",
+       "unit": "bar",
+       "value": 50,
+       "value_text": "approx. 50 bar (read from P-T chart)"
+      },
+      {
+       "condition": "F51 (Class 150), Group 1.2 body, at low temperature",
+       "unit": "bar",
+       "value": 20,
+       "value_text": "approx. 20 bar (read from P-T chart)"
+      },
+      {
+       "condition": "F51 (Class 150), Group 2.2 body (CF8M), at low temperature",
+       "unit": "bar",
+       "value": 19,
+       "value_text": "approx. 19 bar (read from P-T chart)"
+      }
+     ]
+    }
+   },
+   "question": "For each item that receives flow directly from E-14-1, what is its maximum allowable pressure according to its datasheet, and which of them has the lowest?"
+  },
+  "candidate": "The description does not identify a single maximum allowable pressure for the item receiving flow directly from E-14-1; the datasheet ratings vary by material group, class, temperature, and seat material, so the lowest cannot be determined."
+ },
+ {
+  "item": "356c5e46c1",
+  "gold": {
+   "answer": "E-5-2 (alfalaval-m3): depends on the construction (Frame FG, ASME: 177 °C / 350 °F; Frame FG, PED: 180 °C / 356 °F) (p. 2) P-5-1 (gorman-rupp-0700286): 160F (71C) (p. 1) BV-5-2 (flowserve-worcester-f51-f52): depends on the construction (Delrin seat: 80°C (180°F); UHMWPE seat: 90°C (200°F); Virgin PTFE seat: 230°C (450°F); Reinforced PTFE seat: 230°C (450°F)) (p. 7) P-11-1 (gorman-rupp-0700286): 160F (71C) (p. 1) P-11-2 (gorman-rupp-0700286): 160F (71C) (p. 1) E-11-1 (alfalaval-m3): depends on the construction (Frame FG, ASME: 177 °C / 350 °F; Frame FG, PED: 180 °C / 356 °F) (p. 2) Which one is the lowest cannot be decided from the datasheets alone.",
+   "answerable": "yes",
+   "must": [
+    "E-5-2: depends on the construction (Frame FG, ASME: 177 °C / 350 °F; Frame FG, PED: 180 °C / 356 °F)",
+    "P-5-1: 160F (71C)",
+    "BV-5-2: depends on the construction (Delrin seat: 80°C (180°F); UHMWPE seat: 90°C (200°F); Virgin PTFE seat: 230°C (450°F); Reinforced PTFE seat: 230°C (450°F))",
+    "P-11-1: 160F (71C)",
+    "P-11-2: 160F (71C)",
+    "E-11-1: depends on the construction (Frame FG, ASME: 177 °C / 350 °F; Frame FG, PED: 180 °C / 356 °F)",
+    "says the comparison depends on the construction (not decidable as asked)"
+   ],
+   "per_tag": {
+    "BV-5-2": {
+     "note": "Maximum seat temperature ratings; the p6 P-T chart axis only extends to 300 °C (572 °F).",
+     "page": 7,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Delrin seat",
+       "unit": "°C",
+       "value": 80,
+       "value_text": "80°C (180°F)"
+      },
+      {
+       "condition": "UHMWPE seat",
+       "unit": "°C",
+       "value": 90,
+       "value_text": "90°C (200°F)"
+      },
+      {
+       "condition": "Virgin PTFE seat",
+       "unit": "°C",
+       "value": 230,
+       "value_text": "230°C (450°F)"
+      },
+      {
+       "condition": "Reinforced PTFE seat",
+       "unit": "°C",
+       "value": 230,
+       "value_text": "230°C (450°F)"
+      },
+      {
+       "condition": "Fluorofill/Polyfill seat",
+       "unit": "°C",
+       "value": 260,
+       "value_text": "260°C (500°F)"
+      },
+      {
+       "condition": "PEEK seat",
+       "unit": "°C",
+       "value": 315,
+       "value_text": "315°C (600°F)"
+      },
+      {
+       "condition": "Metal seat (A or G)",
+       "unit": "°C",
+       "value": 315,
+       "value_text": "315°C (600°F)"
+      }
+     ]
+    },
+    "E-11-1": {
+     "note": "Max. design temperature; actual limit also depends on gasket material (not tabulated).",
+     "page": 2,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Frame FG, ASME",
+       "unit": "°C",
+       "value": 177,
+       "value_text": "177 °C / 350 °F"
+      },
+      {
+       "condition": "Frame FG, PED",
+       "unit": "°C",
+       "value": 180,
+       "value_text": "180 °C / 356 °F"
+      }
+     ]
+    },
+    "E-5-2": {
+     "note": "Max. design temperature; actual limit also depends on gasket material (not tabulated).",
+     "page": 2,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Frame FG, ASME",
+       "unit": "°C",
+       "value": 177,
+       "value_text": "177 °C / 350 °F"
+      },
+      {
+       "condition": "Frame FG, PED",
+       "unit": "°C",
+       "value": 180,
+       "value_text": "180 °C / 356 °F"
+      }
+     ]
+    },
+    "P-11-1": {
+     "note": "Stated as 'Maximum Temperature of Liquid Pumped' in the seal detail (seal-limited); 250 psi operating pressure is only rated up to 100F (37C); consult factory above.",
+     "page": 1,
+     "single_value": true,
+     "unit": "°F",
+     "value": 160,
+     "value_text": "160F (71C)"
+    },
+    "P-11-2": {
+     "note": "Stated as 'Maximum Temperature of Liquid Pumped' in the seal detail (seal-limited); 250 psi operating pressure is only rated up to 100F (37C); consult factory above.",
+     "page": 1,
+     "single_value": true,
+     "unit": "°F",
+     "value": 160,
+     "value_text": "160F (71C)"
+    },
+    "P-5-1": {
+     "note": "Stated as 'Maximum Temperature of Liquid Pumped' in the seal detail (seal-limited); 250 psi operating pressure is only rated up to 100F (37C); consult factory above.",
+     "page": 1,
+     "single_value": true,
+     "unit": "°F",
+     "value": 160,
+     "value_text": "160F (71C)"
+    }
+   },
+   "question": "Along the process flow path from E-5-2 to E-11-1, which item has the lowest maximum fluid temperature according to its datasheet? Give the value for every item on the path that has a datasheet."
+  },
+  "candidate": "(no answer: STEP_LIMIT)"
+ }
+]

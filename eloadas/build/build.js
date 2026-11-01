@@ -26,7 +26,7 @@ const plan = JSON.parse(fs.readFileSync(path.join(FIG, "plan.json"), "utf8"));
 // A közös mérés a két nagy üzemen (plan.large); a kis üzem (plan.test) a fejlesztés terepe.
 const LARGE = plan.large.map((item) => {
   const rows = csv(path.join(ROOT, "runs", item.exp, "summary.csv")).filter((r) => r.split === "dev+test");
-  const plant = item.name === "pqb" ? "plant-pqb" : "plant-pqc";
+  const plant = `plant-${item.name}`;
   return { ...item, rows, all: rows.filter((r) => r.family === "all"),
     pairs: csv(path.join(ROOT, "runs", item.exp, "pairs.csv")),
     load: JSON.parse(fs.readFileSync(path.join(ROOT, "data", plant, "load_report.json"), "utf8")),
@@ -85,7 +85,7 @@ function titleSlide() {
   const s = pres.addSlide({ masterName: "DARK" });
   s.addText("Tudásgráf-építés műszaki rajzokból és adatlapokból skálázható Q&A rendszerhez", { x: 0.6, y: 1.2, w: 8.8, h: 1.6, fontFace: "Cambria", fontSize: 32, bold: true, color: WHITE, isTextBox: true });
   s.addText("Szabó Zsombor István · Kiszely Benedek", { x: 0.6, y: 3.1, w: 8.8, h: 0.4, fontSize: 18, color: WHITE, isTextBox: true });
-  s.addText("Témavezető: [TÉMAVEZETŐ] · BME VIK TMIT · TDK 2026", { x: 0.6, y: 3.55, w: 8.8, h: 0.4, fontSize: 14, color: "CADCFC", isTextBox: true });
+  s.addText("Témavezető: Dr. Hollósi Gergely László · BME VIK TMIT · TDK 2026", { x: 0.6, y: 3.55, w: 8.8, h: 0.4, fontSize: 14, color: "CADCFC", isTextBox: true });
   s.addNotes("Jó napot kívánunk. Szabó Zsombor és Kiszely Benedek vagyunk. A munkánk két részből áll: Benedek a rajzokból épít az egész üzemet leíró tudásgráfot, én a gyártói adatlapokból eszközönként. A dolgozatban a kettőt összekötjük, és megmérjük, hogyan lehet a kettőn együtt kérdezni egyre nagyobb üzemeken.");
 }
 
@@ -107,7 +107,7 @@ function questions() {
   const s = content("Három kérdést tettünk fel. Először: megválaszolhatók-e az ilyen kérdések egyetlen összevont gráfon, és ez hogyan viszonyul egy irányítóhoz, illetve egy gráf nélküli alapmódszerhez. Másodszor: hogyan változik a pontosság és a költség, ha nő az üzem, a módszerek változtatása nélkül. Harmadszor: melyik kérdéstípuson segít a gráf, és hol hibáznak a módszerek.");
   title(s, "Kutatási kérdések");
   const rq = [["RQ1", "Egy összevont gráf (M1) vs. router (M2) vs. gráf nélküli baseline (M3): pontosság"],
-    ["RQ2", "Skálázódás: pontosság és költség 27 és 98 lapos üzemen, változatlan módszerekkel"], ["RQ3", "Mely kérdéscsaládokon segít a gráf, és milyen hibák jellemzők?"]];
+    ["RQ2", "Skálázódás: pontosság és költség a 100 és 1000 lapos tesztüzemen"], ["RQ3", "Mely kérdéscsaládokon segít a gráf, és milyen hibák jellemzők?"]];
   rq.forEach(([k, t], i) => {
     s.addShape(pres.shapes.OVAL, { x: 0.6, y: 1.25 + i * 1.2, w: 0.8, h: 0.8, fill: { color: NAVY }, line: { color: NAVY } });
     s.addText(k, { x: 0.6, y: 1.25 + i * 1.2, w: 0.8, h: 0.8, fontSize: 14, bold: true, color: WHITE, align: "center", isTextBox: true });
@@ -116,16 +116,16 @@ function questions() {
 }
 
 function graphSlide() {
-  const [b, c] = LARGE;
-  const s = content(`Három üzemet generáltunk Benedek generátorával: egy négylaposat a fejlesztéshez, és két nagyot a méréshez, ${b.tags} és ${c.tags} tagelt elemmel. Mindegyikhez ugyanaz a hét gyártói adatlap tartozik, a hozzárendelést program végzi. A nagyobbik üzemen ${c.load.counts.described_by} DESCRIBED_BY él köti össze a rajz elemeit az adatlapgráfokkal.`);
-  title(s, "Egy adatbázis, két réteg, három üzem");
-  stat(s, 0.5, "4 · 27 · 98", "lap (fejlesztés · mérés · mérés)");
-  stat(s, 2.8, `${b.tags} · ${c.tags}`, "tagelt elem a két nagy üzemen");
-  stat(s, 5.1, c.load.counts.device_nodes.toLocaleString("hu-HU"), "adatlapcsúcs (7 adatlap)");
-  stat(s, 7.4, String(c.load.counts.described_by), "DESCRIBED_BY él (98 lap)");
+  const [c, d] = LARGE;
+  const s = content(`Öt üzemet generáltunk Benedek generátorával: egy négylapos prototípust, két fejlesztési üzemet pontosan 30 és 50 lappal, amelyeken a rendszert hangoltuk, és két tesztüzemet pontosan 100 és 1000 lappal, ${c.tags} és ${d.tags} tagelt elemmel, amelyeket a hangolás során nem használtunk. Mindegyikhez ugyanaz a hét gyártói adatlap tartozik; egy adatlap egy eszköztípust ír le, amely sok helyen beépül.`);
+  title(s, "Egy adatbázis, két réteg, öt üzem");
+  stat(s, 0.5, "30 · 50", "lap: fejlesztési (hangolási) üzemek");
+  stat(s, 2.8, "100 · 1000", "lap: tesztüzemek");
+  stat(s, 5.1, `${c.tags} · ${d.tags}`, "tagelt elem a tesztüzemeken");
+  stat(s, 7.4, d.load.counts.described_by.toLocaleString("hu-HU"), "DESCRIBED_BY él (1000 lap)");
   s.addText("(:PlantItem {tag:'P-1-3'}) -[:DESCRIBED_BY]-> (eszköz) <-[alany]- (adatpont: érték, feltétel, oldal)", { x: 0.5, y: 3.0, w: 9, h: 0.5, fontSize: 13, fontFace: "Consolas", color: NAVY, isTextBox: true });
-  body(s, ["Rajz: Benedek generátora és betöltője (változtatás nélkül)", "Adatlap: plantdocs ISO 15926 / QUDT gráf, tag szerint összekötve"], { x: 0.5, y: 3.6, w: 9, h: 1.3 });
-  s.addText("Forrás: EXP-053, EXP-066", { x: 6.5, y: 5.0, w: 3.2, h: 0.25, fontSize: 9, color: MUTED, align: "right", isTextBox: true });
+  body(s, ["Rajz: Benedek generátora és betöltője (változtatás nélkül), szintetikus üzemek", "Adatlap: hét valódi gyártói PDF ISO 15926 / QUDT gráfja, tag szerint összekötve"], { x: 0.5, y: 3.6, w: 9, h: 1.3 });
+  s.addText("Forrás: EXP-080, EXP-092, EXP-085, EXP-088", { x: 5.5, y: 5.0, w: 4.2, h: 0.25, fontSize: 9, color: MUTED, align: "right", isTextBox: true });
 }
 
 function methodsSlide() {
@@ -152,7 +152,7 @@ function evalSlide() {
     ["(d) nincs benne", "Regarding PV-2-1: how to take the bonnet off safely?", "„Not in the documents”"]];
   s.addTable(rows.map((r, i) => r.map((t) => ({ text: t, options: { bold: i === 0, fill: { color: i === 0 ? LIGHT : WHITE }, fontSize: 12, color: INK } }))),
     { x: 0.5, y: 1.1, w: 9, colW: [1.7, 4.6, 2.7], border: { type: "solid", color: "D5DDE6", pt: 0.75 } });
-  body(s, ["Fejlesztés a 4 lapos üzemen, mérés a 27 és 98 lapos üzemen (befagyasztott módszerek)", "Programos pontozás + vak bíráló (plantdocs EXP-0029 prompt)"], { x: 0.5, y: 3.75, w: 9, h: 1.2 });
+  body(s, ["Hangolás a 30 és 50 lapos üzemen, teszt a 100 és 1000 lapos üzemen (befagyasztott módszerek)", "Programos pontozás + vak bíráló (plantdocs EXP-0029 prompt)"], { x: 0.5, y: 3.75, w: 9, h: 1.2 });
 }
 
 function chartAxes() {
@@ -163,25 +163,24 @@ function chartAxes() {
 function resultSlide() {
   const labels = KEYS.map(([m, mo]) => `${m} ${mo === "glm" ? "GLM" : "Luna"}`);
   const data = LARGE.map((l) => ({ name: l.label, labels, values: KEYS.map(([m, mo]) => Number(rowOf(l, m, mo).accuracy || 0)) }));
-  const [b, c] = LARGE;
-  const s = content(`Mindkét nagy üzemen az irányító volt a legjobb a GLM modellel: ${rowOf(b, "M2", "glm").correct}, illetve ${rowOf(c, "M2", "glm").correct} helyes válasz a 60-ból. A gráfos módszerek pontossága a két méret között kevéssé változott, a gráf nélküli módszeré modellenként ellentétes irányba mozdult.`);
-  title(s, `Pontosság a két nagy üzemen — ${TEST}`);
+  const best = LARGE.map((l) => `${l.label}: ${rowOf(l, "M2", "glm").correct}`).join(", ");
+  const s = content(`A pontosság a két tesztüzemen. Az irányító GLM-mel helyes válaszainak száma a 60-ból: ${best}. Az 1000 lapos üzemen a gráf nélküli módszer nem futtatható, mert a teljes rajz nem fér a modellek kontextusába, ezért ott nincs oszlopa.`);
+  title(s, `Pontosság a két tesztüzemen — ${TEST}`);
   s.addChart(pres.charts.BAR, data, { x: 0.4, y: 1.0, w: 9.2, h: 4.1, barDir: "col", barGrouping: "clustered",
-    chartColors: ["9FB6D0", NAVY], showValue: true, dataLabelPosition: "outEnd", dataLabelFormatCode: "0%", dataLabelFontSize: 9,
+    chartColors: ["9FB6D0", NAVY], showValue: true, dataLabelPosition: "outEnd", dataLabelFormatCode: "0%", dataLabelFontSize: 8,
     dataLabelColor: INK, valAxisMinVal: 0, valAxisMaxVal: 1, valAxisLabelFormatCode: "0%", showLegend: true, legendPos: "b",
     legendFontSize: 10, legendFontFace: "+mn-lt", catAxisLabelFontSize: 11, valAxisLabelFontSize: 10, ...chartAxes() });
 }
 
 function costSlide() {
   const labels = KEYS.map(([m, mo]) => `${m} ${mo === "glm" ? "GLM" : "Luna"}`);
-  const data = LARGE.map((l) => ({ name: l.label, labels,
-    values: KEYS.map(([m, mo]) => { const r = rowOf(l, m, mo); return Number(r.cost_usd) / Number(r.n); }) }));
-  const [b, c] = LARGE;
-  const m3 = (l) => Number(rowOf(l, "M3", "luna").cost_usd) / Number(rowOf(l, "M3", "luna").n);
-  const s = content(`A kérdésenkénti költség. A gráfos módszereké a két méret között nem nő, mert a modellhez csak a lekérdezés eredménye jut el. A gráf nélküli módszer viszont az egész rajzot viszi magával: Lunával ${hu(m3(b), 5)}-ról ${hu(m3(c), 5)} dollárra nőtt a költsége kérdésenként.`);
-  title(s, "Költség / kérdés: a gráf nélküli módszer drágul");
+  const per = (l, m, mo) => { const r = rowOf(l, m, mo); return r.n ? Number(r.cost_usd) / Number(r.n) : 0; };
+  const data = LARGE.map((l) => ({ name: l.label, labels, values: KEYS.map(([m, mo]) => per(l, m, mo)) }));
+  const [c, d] = LARGE;
+  const s = content(`A kérdésenkénti költség. A gráfos módszereknél a modellhez csak a lekérdezés eredménye jut el; az irányító GLM-mel ${hu(per(c, "M2", "glm"), 5)} és ${hu(per(d, "M2", "glm"), 5)} dollárba került kérdésenként a 100 és az 1000 lapos üzemen. A gráf nélküli módszer az egész rajzot viszi magával: Lunával a 100 lapos üzemen ${hu(per(c, "M3", "luna"), 5)} dollár kérdésenként, az 1000 lapos rajz pedig már nem fér a kontextusba.`);
+  title(s, "Költség / kérdés");
   s.addChart(pres.charts.BAR, data, { x: 0.4, y: 1.0, w: 9.2, h: 4.1, barDir: "col", barGrouping: "clustered",
-    chartColors: ["9FB6D0", NAVY], showValue: true, dataLabelPosition: "outEnd", dataLabelFormatCode: "0.000", dataLabelFontSize: 9,
+    chartColors: ["9FB6D0", NAVY], showValue: true, dataLabelPosition: "outEnd", dataLabelFormatCode: "0.000", dataLabelFontSize: 8,
     dataLabelColor: INK, showLegend: true, legendPos: "b", legendFontSize: 10, legendFontFace: "+mn-lt",
     catAxisLabelFontSize: 11, valAxisLabelFontSize: 10, valAxisLabelFormatCode: "0.000", ...chartAxes() });
 }

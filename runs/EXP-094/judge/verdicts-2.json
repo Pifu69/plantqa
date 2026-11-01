@@ -1,0 +1,44 @@
+[
+ {
+  "item": "e047630ae6",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Correctly says it cannot be determined but gives no per-item values."
+ },
+ {
+  "item": "3aef289949",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Declares E-21-1 lowest at 10.3 barg, ignoring the 6 bar GVs; gold says undecidable."
+ },
+ {
+  "item": "751ca0e752",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Correct conclusion and E-24-1 values, but TV-27-2 given only as an 80-315 °C range, missing the UHMWPE/PTFE values."
+ },
+ {
+  "item": "db52ee7c0e",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Concludes E-7-1 lowest, whereas gold says the comparison depends on construction."
+ },
+ {
+  "item": "b0c0e72a4e",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "No answer produced."
+ },
+ {
+  "item": "6522cfbfd1",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Declares E-13-2 lowest and omits TV-13-2/PV-22-1; gold says undecidable."
+ },
+ {
+  "item": "7f92b874f3",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Gives wrong CHV-25-1 temperatures (exchanger values) and names it lowest; gold says undecidable."
+ }
+]

@@ -1,0 +1,395 @@
+[
+ {
+  "item": "aa510915b1",
+  "gold": {
+   "answer": "Suction 4\" (102 mm), discharge 2 1/2\" (64 mm), raised face flanges; so yes, 2 1/2\" is the discharge. Suction flange 8 holes 0.75\" on 7.50\" bolt circle, discharge 4 holes 0.75\" on 5.50\" bolt circle; optional NPT companion flanges.",
+   "answerable": "yes",
+   "category": "value",
+   "must": [
+    "suction 4\"",
+    "discharge 2 1/2\"",
+    "raised face flanges"
+   ],
+   "question": "Regarding P-1-3 on the P&ID: What size are the suction and discharge connections? Is the '2 1/2' the port size?"
+  },
+  "candidate": "The standard suction and discharge connection sizes are 4 in × 2½ in: the suction connection is 4 in and the discharge is 2½ in. So 2½ in is the discharge size, not the size of both ports."
+ },
+ {
+  "item": "cefb3a0b99",
+  "gold": {
+   "answer": "Maximum casing pressure 266 psi (1834 kPa); maximum operating pressure 250 psi (1723 kPa) at temperatures up to 100 °F (37 °C), based on system component limitations; consult the factory for higher.",
+   "answerable": "yes",
+   "category": "footnote",
+   "must": [
+    "266 psi (1834 kPa) casing",
+    "250 psi operating up to 37 °C"
+   ],
+   "question": "Regarding P-1-1 on the P&ID: What's the max allowable pressure in the casing? We might have a pressurized inlet."
+  },
+  "candidate": "For pump P-1-1, the pump specifications give a maximum casing pressure of 266 psi (1834 kPa). Note that the maximum operating pressure is 250 psi (1723 kPa) at 100 F (37 C), based on system component limitations, and the manufacturer's footnote advises consulting the factory for applications exceeding the maximum pressure and/or temperature. This is relevant if the pump inlet could be pressurized."
+ },
+ {
+  "item": "c61e653eac",
+  "gold": {
+   "answer": "Vibration effect: less than +/-0.1% of URL when tested per IEC 60770-1:1999 field or pipeline with high vibration level (10-60 Hz 0.21 mm displacement peak amplitude / 60-2000 Hz 3g).",
+   "answerable": "yes",
+   "category": "value",
+   "must": [
+    "< +/-0.1% of URL",
+    "IEC 60770-1:1999 high vibration level",
+    "10-60 Hz 0.21 mm peak / 60-2000 Hz 3g"
+   ],
+   "question": "Regarding FT-11-1 on the P&ID: It's mounted near a compressor with heavy vibration. What vibration limits is it rated for?"
+  },
+  "candidate": "The Rosemount 3051 datasheet states vibration effect is less than ±0.1% of URL when tested at a high vibration level: 10–60 Hz at 0.21 mm peak displacement amplitude and 60–2000 Hz at 3 g."
+ },
+ {
+  "item": "c584513852",
+  "gold": {
+   "answer": "Casing ductile iron; impeller gray iron 40 (wear rings gray iron 25, shaft steel 1045, seal faces silicon carbide). Suitability for pH 5 is not stated.",
+   "answerable": "partial",
+   "category": "value",
+   "must": [
+    "casing ductile iron",
+    "impeller gray iron 40",
+    "pH not stated"
+   ],
+   "relation": "upstream",
+   "via_tag": "P-1-4",
+   "question": "Consider the item directly upstream of BV-1-2 in the process flow. What are the casing and impeller made of? Can it take slightly acidic water around pH 5?"
+  },
+  "candidate": "The item directly upstream of BV-1-2 is pump P-1-4 (a centrifugal pump, per the P&ID edge P-1-4 → BV-1-2 on sheet 1). Its Gorman-Rupp datasheet (gorman-rupp-0700286, p. 1) states the casing is Ductile Iron and the impeller is Enclosed Type, Six Vane, made of Gray Iron 40. The datasheet does not state any chemical compatibility or pH limits for the pumped liquid, so whether it can handle slightly acidic water around pH 5 is not stated in the documents."
+ },
+ {
+  "item": "6640b1c38d",
+  "gold": {
+   "answer": "Standard cages (quick-opening, linear, equal percentage), restricted-capacity trims, Whisper Trim I / III, Whisper NXG and WhisperFlo cages for aerodynamic noise in gas service, Cavitrol III one- and two-stage cages against cavitation (liquid, high pressure drop), DST dirty service trim, TSO tight shutoff trim, Trim Cartridge.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "Whisper / WhisperFlo for noise (gas)",
+    "Cavitrol III for cavitation / high ΔP (liquid)"
+   ],
+   "relation": "operated_by",
+   "via_tag": "FV-10-1",
+   "question": "Consider the valve operated by control loop FIC-10-1. What trim options are there, and which one is for high pressure drop or noise?"
+  },
+  "candidate": "The valve operated by FIC-10-1 is FV-10-1, a Fisher ET globe-style control valve (per the Fisher ET/EAT/ETR product bulletin D100022X012). Its trim options include standard trims (e.g., trims 1, 4, 27, 29, 37, 37H, 57, 85, 87 per the trim capability figures), Cavitrol III cages (available as a standard-travel one-stage cage and a long-travel two-stage cage), and noise-attenuating cages: Whisper Trim I, Whisper Trim III, Whisper NXG Trim and WhisperFlo cages. For high pressure drop / cavitation duty, the Cavitrol III cage is the option intended to help eliminate cavitation damage in a properly sized valve; for aerodynamic noise in gaseous service, the Whisper Trim I/III, Whisper NXG and WhisperFlo cages are the options that attenuate noise."
+ },
+ {
+  "item": "0c05d387b7",
+  "gold": {
+   "answer": "3051C: 1/4-18 NPT on 2 1/8-inch centers; 1/2-14 NPT on 2-, 2 1/8- or 2 1/4-inch centers (1/2-14 NPT flange adapters option DF, not valid with S3, S4, S5, S6; RC1/4 flange with RC1/2 adapter option D9). 3051T: 1/2-14 NPT female, G1/2 A DIN 16288 male (ranges 1-4), autoclave F-250-C (ranges 5-6), non-threaded instrument flange (code 61). Yes, manifolds can be factory assembled: 3051C option S5 assemble to Rosemount 305 Integral Manifold, S6 assemble to Rosemount 304 Manifold or Connection System (assemble-to items specified separately with completed model number); 3051T option S5 assemble to Rosemount 306 Integral Manifold.",
+   "answerable": "yes",
+   "category": "conditional",
+   "must": [
+    "1/4-18 NPT on 2 1/8 in centers",
+    "1/2-14 NPT with flange adapters (DF)",
+    "S5 305 integral manifold / S6 304 manifold (3051C); S5 306 (3051T)"
+   ],
+   "relation": "measured_by",
+   "via_tag": "FT-16-2",
+   "question": "Consider the transmitter that measures E-16-1. What's the process connection on the flange — 1/4 NPT? Can I get it with a manifold already fitted?"
+  },
+  "candidate": "The datasheet lists a Rosemount 3051C flange connection of ¼–18 NPT on 2⅛-inch centers. It also offers direct-mount integral 3- or 5-valve manifolds (SST options D3 and D5). The specific connection and manifold configuration for FT-16-2 is not stated."
+ },
+ {
+  "item": "db4207cff5",
+  "gold": {
+   "answer": "Standard cages: quick-opening, linear or equal percentage. Whisper Trim, WhisperFlo and Cavitrol cages: linear only.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "all three with standard cage",
+    "special cages linear only"
+   ],
+   "question": "Regarding FV-12-1 on the P&ID: What flow characteristics can I get: equal percentage, linear, quick opening?"
+  },
+  "candidate": "The datasheet documents equal-percentage trim. Linear and quick-opening characteristics are not stated."
+ },
+ {
+  "item": "4b6dca0b4a",
+  "gold": {
+   "answer": "Housing PVC (PVC-U; cover and inserts PVC, coil housing epoxy). Gaskets/diaphragms EPDM or FKM - choose the FKM version.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "PVC body",
+    "EPDM or FKM seals",
+    "choose FKM"
+   ],
+   "relation": "downstream",
+   "via_tag": "GV-17-2",
+   "question": "Consider the item directly downstream of BV-17-2 in the process flow. What is the body made of, and what are the seals made of? Our fluid attacks EPDM."
+  },
+  "candidate": "The downstream item has a PVC body. Its seals can be EPDM or FKM; since your fluid attacks EPDM, use FKM."
+ },
+ {
+  "item": "d06c7a82f0",
+  "gold": {
+   "answer": "Housing PVC (PVC-U; cover and inserts PVC, coil housing epoxy). Gaskets/diaphragms EPDM or FKM - choose the FKM version.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "PVC body",
+    "EPDM or FKM seals",
+    "choose FKM"
+   ],
+   "relation": "downstream",
+   "via_tag": "GV-17-2",
+   "question": "Consider the item directly downstream of BV-17-2 in the process flow. What is the body made of, and what are the seals made of? Our fluid attacks EPDM."
+  },
+  "candidate": "The item directly downstream of BV-17-2 is GV-17-2, a Type 165 2/2-way solenoid valve. Its body/housing is made of PVC, and the gaskets/seals are available in either EPDM or FKM depending on the variant. Since your fluid attacks EPDM, the FKM-sealed version should be selected."
+ },
+ {
+  "item": "60fdab3c70",
+  "gold": {
+   "answer": "Diagnosis is not in the document. NPSH required (10.20 in. impeller) from the curves: at 1450 rpm about 1 m at low flow rising to about 2.5 m at the end of the range; at 2900 rpm up to about 3.5-4 m.",
+   "answerable": "partial",
+   "category": "chart",
+   "must": [
+    "diagnosis not stated",
+    "NPSHr from curve (speed dependent)"
+   ],
+   "tolerance": "1450 rpm: 0.5-3 m; 2900 rpm max 3-4.5 m",
+   "question": "Regarding P-1-4 on the P&ID: Flow has dropped off a lot and it's noisy. Could it be cavitation, and what NPSH does it need?"
+  },
+  "candidate": "The datasheet does not state whether the reported low flow and noise indicate cavitation, so that cannot be determined from the documents. It includes NPSH curves, but no specific required NPSH value and units are provided."
+ },
+ {
+  "item": "82df082cd7",
+  "gold": {
+   "answer": "Yes, Kv in l/min: DN15 83, DN20 100, DN25 233, DN32 267, DN40 500, DN50 600 - measured with water at +20 °C, 1 bar at the valve inlet, free outlet.",
+   "answerable": "yes",
+   "category": "footnote",
+   "must": [
+    "Kv per DN (83/100/233/267/500/600 l/min)",
+    "condition: water +20 °C, 1 bar inlet, free outlet"
+   ],
+   "question": "Regarding GV-12-6 on the P&ID: How much flow does it pass when fully open? Is there a Kv value?"
+  },
+  "candidate": "(no answer: PARSE_FAILURE)"
+ },
+ {
+  "item": "6362a31a78",
+  "gold": {
+   "answer": "Yes, a service-friendly, robust manual override (part 10).",
+   "answerable": "yes",
+   "category": "value",
+   "must": [
+    "yes, manual override"
+   ],
+   "question": "Regarding GV-12-2 on the P&ID: Is there a manual override so I can open it without power?"
+  },
+  "candidate": "GV-12-2 is shown as a GlobeValve. The Fisher ET datasheet does not state whether it has a manual override or can be opened without power. The GF Piping Systems Type 165 datasheet mentions a manual override, but the documents do not identify GV-12-2 as that valve type; whether GV-12-2 has one is not stated."
+ },
+ {
+  "item": "94bf523a0a",
+  "gold": {
+   "answer": "A standard centrifugal pump on a basic pedestal (bare shaft), size 4\" x 2 1/2\". The meaning of the model code is not explained.",
+   "answerable": "partial",
+   "category": "value",
+   "must": [
+    "standard centrifugal pump (pedestal)",
+    "4\" x 2 1/2\"",
+    "model code not explained"
+   ],
+   "relation": "downstream",
+   "via_tag": "P-17-4",
+   "question": "Consider the item directly downstream of BV-17-3 in the process flow. What kind of pump is a VGH2 1/2C31-B, and what does the model code tell me?"
+  },
+  "candidate": "The item directly downstream of BV-17-3 is pump P-17-4 (BV-17-3 sends flow via line PG-71 to P-17-4 on sheet 11). The Gorman-Rupp datasheet (gorman-rupp-0700286, p. 1) identifies the VGH2 1/2C31-B as a Standard Centrifugal Pump with a Basic Pedestal, size 4\" x 2 1/2\" (102 mm x 64 mm) raised-face flanges, with a ductile iron casing, enclosed six-vane gray iron 40 impeller handling 15/32\" spherical solids, steel 1045 impeller shaft, two replaceable gray iron 25 wear rings, mechanical self-lubricated seal with silicon carbide faces and 316 stainless steel shaft sleeve/spring, and a gray iron 25 bearing housing with open cylindrical roller radial and double-row ball thrust bearings. The datasheet does not provide a breakdown or explanation of what each part of the model code VGH2 1/2C31-B means, so that part of the question is not stated in the documents."
+ },
+ {
+  "item": "c3d4651dce",
+  "gold": {
+   "answer": "Cast iron, WCC or LCC carbon steel, WC9 chrome moly steel, CF8M (cast 316 stainless) or CF3M (cast 316L stainless), others on request. Yes, stainless (CF8M / CF3M) is available.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "CF8M / CF3M stainless available",
+    "cast iron, WCC, LCC, WC9"
+   ],
+   "question": "Regarding FV-10-1 on the P&ID: What body materials are available, and can I get stainless for a corrosive service?"
+  },
+  "candidate": "For FV-10-1, the datasheet lists body/bonnet/bonnet spacer materials of cast iron, WCC carbon steel, LCC carbon steel, WC9 chrome moly steel, CF8M (cast 316 stainless), CF3M (cast 316L stainless), or other materials on request. Yes, stainless is available — CF8M (316) or CF3M (316L) — suitable for corrosive service. Note temperature limits apply depending on material (e.g., CF3M bodies are rated to 149 °C / 300 °F, or 232 °C / 450 °F for lubricating service), and the available material/pressure-class/end-connection combinations are shown in Table 3 'Available Constructions' (Cast Iron, or Carbon/Alloy/Stainless Steel)."
+ },
+ {
+  "item": "e54efba39e",
+  "gold": {
+   "answer": "Cv 59.7 at maximum plug travel for the NPS 2 ET with full-sized trim, equal percentage cage, normal flow direction (EAT NPS 2: 48.1 with liner, 47.2 without).",
+   "answerable": "yes",
+   "category": "conditional",
+   "must": [
+    "59.7",
+    "full-sized trim, equal percentage cage, normal flow"
+   ],
+   "question": "Regarding FV-16-2 on the P&ID: What's the Cv at full open for a 2 inch valve?"
+  },
+  "candidate": "FV-16-2 is a globe valve covered by the Fisher ET valve datasheet (fisher-et-d100022x012). Per Table 17 of that datasheet, the maximum flow coefficient for full-sized trim with equal percentage cage and normal flow direction for a 2-inch (NPS 2) ET valve is Cv = 59.7 at maximum valve plug travel."
+ },
+ {
+  "item": "28d4871588",
+  "gold": {
+   "answer": "A sliding-stem, single-port globe-style control valve (body) with cage guiding, balanced valve plug and push-down-to-close plug action, for throttling or on-off control of liquids and gases (part of the easy-e family; EAT = angle version, ETR = push-down-to-open). It is combined with an actuator, e.g. 667.",
+   "answerable": "yes",
+   "category": "value",
+   "must": [
+    "globe-style control valve (sliding stem)",
+    "cage-guided, balanced plug"
+   ],
+   "relation": "upstream",
+   "via_tag": "TV-10-2",
+   "question": "Consider the item directly upstream of BV-10-1 in the process flow. What is a Fisher ET? Is it the valve body, and what kind of valve is it?"
+  },
+  "candidate": "Tracing the flow, BV-10-1 on sheet 3 is fed by the PL-40 off-page connector, which continues from sheet 4 where the upstream item is TV-10-2 (a globe valve). TV-10-2 is covered by the Fisher ET datasheet (fisher-et-d100022x012). Per that datasheet, the Fisher ET is a single-port, globe-style control valve with cage guiding, a balanced valve plug, and push-down-to-close valve plug action; it is a sliding-stem control valve (part of the Fisher easy-e family, used for throttling or on-off control of liquids and gases). So yes, it is a globe-style control valve body/valve, not merely a trim component."
+ },
+ {
+  "item": "90c6d32c1c",
+  "gold": {
+   "answer": "Cast iron, WCC or LCC carbon steel, WC9 chrome moly steel, CF8M (cast 316 stainless) or CF3M (cast 316L stainless), others on request. Yes, stainless (CF8M / CF3M) is available.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "CF8M / CF3M stainless available",
+    "cast iron, WCC, LCC, WC9"
+   ],
+   "question": "Regarding FV-10-1 on the P&ID: What body materials are available, and can I get stainless for a corrosive service?"
+  },
+  "candidate": "For the Fisher ET/EAT/ETR valve associated with FV-10-1, several body materials are available: WCC, LCC, WC9 chrome-moly steel, cast iron (CL250B), and stainless steel — CF8M (316 SST) and CF3M (316L). Yes, stainless is available for corrosive service: you can specify a CF8M (316 stainless) or CF3M (316L stainless) body, and carbon/alloy/stainless steel body material is also offered as a body material option on the ET variant with flanged (CL300 RF/RTJ) or butt-weld end connections."
+ },
+ {
+  "item": "5a73ead11a",
+  "gold": {
+   "answer": "Yes, a service-friendly, robust manual override (part 10).",
+   "answerable": "yes",
+   "category": "value",
+   "must": [
+    "yes, manual override"
+   ],
+   "question": "Regarding GV-12-2 on the P&ID: Is there a manual override so I can open it without power?"
+  },
+  "candidate": "GV-12-2 appears to be hand-operated: the P&ID shows no actuator connected. It does not specifically state whether a manual override is provided."
+ },
+ {
+  "item": "d749d5e739",
+  "gold": {
+   "answer": "Diagnosis is not in the document. NPSH required (10.20 in. impeller) from the curves: at 1450 rpm about 1 m at low flow rising to about 2.5 m at the end of the range; at 2900 rpm up to about 3.5-4 m.",
+   "answerable": "partial",
+   "category": "chart",
+   "must": [
+    "diagnosis not stated",
+    "NPSHr from curve (speed dependent)"
+   ],
+   "tolerance": "1450 rpm: 0.5-3 m; 2900 rpm max 3-4.5 m",
+   "question": "Regarding P-1-4 on the P&ID: Flow has dropped off a lot and it's noisy. Could it be cavitation, and what NPSH does it need?"
+  },
+  "candidate": "The supplied information does not establish whether P-1-4 is cavitating. Its NPSHr varies with operating point, and no curve readings are provided to state the required NPSH at a particular flow rate."
+ },
+ {
+  "item": "41e3fe1901",
+  "gold": {
+   "answer": "No. With the low power output code (M), only the Plugged Impulse Line diagnostic is included.",
+   "answerable": "yes",
+   "category": "footnote",
+   "must": [
+    "no",
+    "only Plugged Impulse Line diagnostic"
+   ],
+   "relation": "measured_by",
+   "via_tag": "PT-17-2",
+   "question": "Consider the transmitter that measures E-17-1. If I order the DA1 diagnostics with the low-power 1-5 V output, do I get both Loop Integrity and Plugged Impulse Line diagnostics?"
+  },
+  "candidate": "The transmitter measuring E-17-1 is PT-17-2 (the Rosemount 3051 pressure transmitter in the PIC-17-2 loop). No: per the Rosemount 3051 datasheet, option DA1 is 'Loop Integrity and Plugged Impulse Line diagnostics', but it is only available with the 4–20 mA HART (code A) and low power (code M) output codes, and with the low power output code only the Plugged Impulse Line Diagnostic is included. So with the low-power 1-5 V output you would get only the Plugged Impulse Line diagnostic, not Loop Integrity."
+ },
+ {
+  "item": "7395fbfd53",
+  "gold": {
+   "answer": "Yes, a service-friendly, robust manual override (part 10).",
+   "answerable": "yes",
+   "category": "value",
+   "must": [
+    "yes, manual override"
+   ],
+   "question": "Regarding GV-12-2 on the P&ID: Is there a manual override so I can open it without power?"
+  },
+  "candidate": "Yes. The datasheet for GV-12-2 (a Type 165 2/2-way solenoid valve) lists a 'service-friendly, robust manual override' among its product features (p. 1). However, the datasheet does not describe how the override is operated or confirm that it opens the valve fully without power. Note that the valve also requires a minimum differential pressure of 0.5 bar to open and close."
+ },
+ {
+  "item": "a58c19f382",
+  "gold": {
+   "answer": "Bare pump (no motor): length 25.95 in. (659 mm), height 18.88 in. (480 mm), width 14.20 in. (361 mm); net weight 194 lb (88 kg), shipping 204 lb (93 kg). The pump alone fits on 1 m × 0.6 m; with a motor and coupling it cannot be said from the document.",
+   "answerable": "partial",
+   "category": "conditional",
+   "must": [
+    "659 × 361 × 480 mm (approx.)",
+    "88 kg net",
+    "motor not included"
+   ],
+   "relation": "upstream",
+   "via_tag": "P-10-3",
+   "question": "Consider the item directly upstream of BV-10-2 in the process flow. What are the overall dimensions and weight? Will it fit on a 1 m by 0.6 m base?"
+  },
+  "candidate": "The item directly upstream of BV-10-2 is pump P-10-3. Its overall dimensions and weight are not stated in the provided excerpts, so whether it fits on a 1 m by 0.6 m base is also not stated."
+ },
+ {
+  "item": "22bb54e93e",
+  "gold": {
+   "answer": "Suction 4\" (102 mm), discharge 2 1/2\" (64 mm), raised face flanges; so yes, 2 1/2\" is the discharge. Suction flange 8 holes 0.75\" on 7.50\" bolt circle, discharge 4 holes 0.75\" on 5.50\" bolt circle; optional NPT companion flanges.",
+   "answerable": "yes",
+   "category": "value",
+   "must": [
+    "suction 4\"",
+    "discharge 2 1/2\"",
+    "raised face flanges"
+   ],
+   "question": "Regarding P-1-3 on the P&ID: What size are the suction and discharge connections? Is the '2 1/2' the port size?"
+  },
+  "candidate": "The pump described for tag P-1-3 is a Gorman-Rupp VGH2 1/2C31-B standard centrifugal pump with size 4\" x 2 1/2\" (102 x 64 mm), i.e. 4\" suction and 2 1/2\" discharge raised-face NPT flanges. Yes — the '2 1/2' refers to the 2 1/2-inch port (discharge flange) size, as also confirmed by the model designation VGH2 1/2C."
+ },
+ {
+  "item": "c799e88c69",
+  "gold": {
+   "answer": "3051C: 1/4-18 NPT on 2 1/8-inch centers; 1/2-14 NPT on 2-, 2 1/8- or 2 1/4-inch centers (1/2-14 NPT flange adapters option DF, not valid with S3, S4, S5, S6; RC1/4 flange with RC1/2 adapter option D9). 3051T: 1/2-14 NPT female, G1/2 A DIN 16288 male (ranges 1-4), autoclave F-250-C (ranges 5-6), non-threaded instrument flange (code 61). Yes, manifolds can be factory assembled: 3051C option S5 assemble to Rosemount 305 Integral Manifold, S6 assemble to Rosemount 304 Manifold or Connection System (assemble-to items specified separately with completed model number); 3051T option S5 assemble to Rosemount 306 Integral Manifold.",
+   "answerable": "yes",
+   "category": "conditional",
+   "must": [
+    "1/4-18 NPT on 2 1/8 in centers",
+    "1/2-14 NPT with flange adapters (DF)",
+    "S5 305 integral manifold / S6 304 manifold (3051C); S5 306 (3051T)"
+   ],
+   "relation": "measured_by",
+   "via_tag": "FT-16-2",
+   "question": "Consider the transmitter that measures E-16-1. What's the process connection on the flange — 1/4 NPT? Can I get it with a manifold already fitted?"
+  },
+  "candidate": "The transmitter measuring E-16-1 is FT-16-2 (a Rosemount 3051 per the datasheet). The datasheet lists ¼–18 NPT on 2⅛-inch centers as a process connection for the Rosemount 3051C, so a 1/4 NPT-type connection is available. Yes, a manifold can be supplied already fitted: the datasheet offers direct-mount 3-valve (D3) or 5-valve (D5) manifolds in stainless steel (or alloy C-276, D4/D6), as well as remote-mount 3-valve (R3) and 5-valve (R5) manifolds. Note that the excerpts do not state the specific as-ordered configuration of FT-16-2 itself, only the available options."
+ },
+ {
+  "item": "0be34a3a10",
+  "gold": {
+   "answer": "Cv 59.7 at maximum plug travel for the NPS 2 ET with full-sized trim, equal percentage cage, normal flow direction (EAT NPS 2: 48.1 with liner, 47.2 without).",
+   "answerable": "yes",
+   "category": "conditional",
+   "must": [
+    "59.7",
+    "full-sized trim, equal percentage cage, normal flow"
+   ],
+   "question": "Regarding FV-16-2 on the P&ID: What's the Cv at full open for a 2 inch valve?"
+  },
+  "candidate": "For FV-16-2 (Fisher ET valve), the Cv at full open for a 2 inch valve depends on the variant: 48.1 for the EAT with liner, 47.2 for EAT without liner, and 59.7 for the ED and ETR variants (maximum Cv at maximum plug travel, full-sized trim, equal percentage cage, normal flow direction, per Table 17, p. 23). The datasheet does not state which variant applies to this specific valve."
+ },
+ {
+  "item": "62d1772b68",
+  "gold": {
+   "answer": "Cv 59.7 at maximum plug travel for the NPS 2 ET with full-sized trim, equal percentage cage, normal flow direction (EAT NPS 2: 48.1 with liner, 47.2 without).",
+   "answerable": "yes",
+   "category": "conditional",
+   "must": [
+    "59.7",
+    "full-sized trim, equal percentage cage, normal flow"
+   ],
+   "question": "Regarding FV-16-2 on the P&ID: What's the Cv at full open for a 2 inch valve?"
+  },
+  "candidate": "At full open, the 2-inch valve’s Cv is 59.7 for ED or ETR, 48.1 for EAT with liner, or 47.2 for EAT without liner. These values are for full-sized trim, an equal-percentage cage, and normal flow direction."
+ }
+]

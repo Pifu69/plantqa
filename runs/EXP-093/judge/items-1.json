@@ -1,0 +1,631 @@
+[
+ {
+  "item": "8e058a501d",
+  "gold": {
+   "answer": "Neither is stated: the only approval listed is CE.",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated",
+    "only CE"
+   ],
+   "question": "Regarding GV-10-1 on the P&ID: Is it approved for drinking water, or for use in an explosive (Ex) area?"
+  },
+  "candidate": "The datasheet lists CE approval but does not state approval for drinking water or suitability for an explosive (Ex) area."
+ },
+ {
+  "item": "a70a268f7e",
+  "gold": {
+   "answer": "Cast iron, WCC or LCC carbon steel, WC9 chrome moly steel, CF8M (cast 316 stainless) or CF3M (cast 316L stainless), others on request. Yes, stainless (CF8M / CF3M) is available.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "CF8M / CF3M stainless available",
+    "cast iron, WCC, LCC, WC9"
+   ],
+   "question": "Regarding FV-12-2 on the P&ID: What body materials are available, and can I get stainless for a corrosive service?"
+  },
+  "candidate": "Available body materials are cast iron; WCC or LCC carbon steel; WC9 chrome-moly steel; CF8M (cast 316 stainless steel); and CF3M (cast 316L stainless steel). Other materials are available on request. Stainless steel is available, but the datasheet does not confirm its suitability for corrosive service."
+ },
+ {
+  "item": "d7f6d3e131",
+  "gold": {
+   "answer": "Not stated in the document",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "Not stated in the document"
+   ],
+   "relation": "measured_by",
+   "via_tag": "PT-5-1",
+   "question": "Consider the transmitter that measures P-5-1. What torque should the coplanar flange bolts be tightened to?"
+  },
+  "candidate": "Not in the documents. The datasheet for PT-5-1 (Rosemount 3051) does not state a tightening torque for the coplanar flange bolts. It only lists bolt materials (plated carbon steel per ASTM A449 Type 1, with optional 316 SST, A193 B7M, or alloy K-500) and shows the coplanar flange mounting with 3/8-16 and 5/16-18 bolts, but no torque value is given."
+ },
+ {
+  "item": "dad9ee7e9f",
+  "gold": {
+   "answer": "Not stated in the document",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "says installation position relative to taps is not stated"
+   ],
+   "relation": "fed_by_transmitter",
+   "via_tag": "PT-20-1",
+   "question": "Consider the transmitter that feeds controller PIC-20-1. Same question for gas — where do I mount it relative to the orifice taps so liquid doesn't collect?"
+  },
+  "candidate": "Not in the documents. The description does not contain an answer to this. The transmitter feeding PIC-20-1 is PT-20-1, and it measures the pressure of pump P-20-1 — it is a pressure transmitter, not a differential-pressure flow transmitter associated with an orifice. No orifice plates, flow elements, or pressure-tap locations are shown in relation to PT-20-1, and the datasheet explicitly contains no note about tap placement or mounting position relative to taps (it only notes a small, calibratable zero shift from mounting position). So there is no basis in the provided description for guidance on mounting relative to orifice taps for gas service."
+ },
+ {
+  "item": "b19c9dd5bc",
+  "gold": {
+   "answer": "Bare pump (no motor): length 25.95 in. (659 mm), height 18.88 in. (480 mm), width 14.20 in. (361 mm); net weight 194 lb (88 kg), shipping 204 lb (93 kg). The pump alone fits on 1 m × 0.6 m; with a motor and coupling it cannot be said from the document.",
+   "answerable": "partial",
+   "category": "conditional",
+   "must": [
+    "659 × 361 × 480 mm (approx.)",
+    "88 kg net",
+    "motor not included"
+   ],
+   "relation": "downstream",
+   "via_tag": "P-10-4",
+   "question": "Consider the item directly downstream of BV-10-1 in the process flow. What are the overall dimensions and weight? Will it fit on a 1 m by 0.6 m base?"
+  },
+  "candidate": "The item directly downstream of BV-10-1 is pump P-10-4. Its specification data give a net weight of 194 lbs (88 kg) and a shipping weight of 204 lbs (93 kg), but no complete set of overall length, width and height dimensions is shown (only fragmentary dimension-sheet values such as a bolt circle of 139.7/190.5 mm and a length of 69.9 mm appear, which are not overall pump dimensions). Based on the weight alone (88 kg) it is far light enough for a 1 m × 0.6 m base, but since the overall footprint dimensions are not stated in the description, it cannot be confirmed whether it will fit."
+ },
+ {
+  "item": "f82e34ad39",
+  "gold": {
+   "answer": "A standard centrifugal pump on a basic pedestal (bare shaft), size 4\" x 2 1/2\". The meaning of the model code is not explained.",
+   "answerable": "partial",
+   "category": "value",
+   "must": [
+    "standard centrifugal pump (pedestal)",
+    "4\" x 2 1/2\"",
+    "model code not explained"
+   ],
+   "relation": "upstream",
+   "via_tag": "P-1-3",
+   "question": "Consider the item directly upstream of BV-1-1 in the process flow. What kind of pump is a VGH2 1/2C31-B, and what does the model code tell me?"
+  },
+  "candidate": "Not in the documents. The item directly upstream of BV-1-1 is pump P-1-3, a Gorman-Rupp standard centrifugal pump, model VGH2 1/2C31-B, size 4\" x 2 1/2\". The datasheet does not provide a breakdown or interpretation of what each part of the model code (VGH2, 1/2C31, B) means — that information is not stated in the documents."
+ },
+ {
+  "item": "017bef2498",
+  "gold": {
+   "answer": "No motor is specified (basic pedestal pump; curves for 1150-3450 rpm). The 50 Hz 1450 rpm curve exists; over its operating range the power stays at or below the 7.5 BHP (5.6 kW) line, so a 7.5 kW 1450 rpm motor is enough for that speed.",
+   "answerable": "partial",
+   "category": "chart",
+   "must": [
+    "no motor specified",
+    "1450 rpm curve exists",
+    "power ≤ ~5.6 kW at 1450 rpm"
+   ],
+   "relation": "downstream",
+   "via_tag": "P-19-1",
+   "question": "Consider the item directly downstream of BV-11-1 in the process flow. What motor size and speed is it meant to run at? We have a 7.5 kW 1450 rpm motor in stock."
+  },
+  "candidate": "The description does not specify the intended motor size or speed for the item downstream of BV-11-1, so I can’t determine whether the 7.5 kW, 1450 rpm motor is suitable."
+ },
+ {
+  "item": "e0525cc8c4",
+  "gold": {
+   "answer": "Not in the document (no troubleshooting).",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated"
+   ],
+   "question": "Regarding FV-14-1 on the P&ID: The valve leaks through when shut. Is it the seat ring or the plug seal, and how do I check?"
+  },
+  "candidate": "Not in the documents. The documents cannot tell you which part is leaking in your specific valve. The FV-14-1 datasheet (Fisher ET) describes the seating construction — standard metal-to-PTFE seating with a valve plug seal ring forced against the cage by a backup ring or spring-loading, plus a seat ring gasket — and lists shutoff classes (Class IV standard metal seat, Class V optional, Class VI with PTFE seating, or TSO trim factory-tested to no leakage). However, it does not state which component would be at fault for through-leakage when shut, and it contains no field procedure for checking seat leakage; the only testing mentioned is factory testing (optional air test for Class V with PTFE seating, water test for TSO trim). So neither the seat-ring-vs-plug-seal diagnosis nor a check procedure is stated in the documents."
+ },
+ {
+  "item": "a0f9439bc1",
+  "gold": {
+   "answer": "Yes (solenoid). Versions for 24 V DC, 230 V 50/60 Hz and 115 V 50/60 Hz (ordering tables and coil sets say 110 V); tolerance ±10 %. 24 V DC works if you order the 24 V DC version - the voltage must match the type plate.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "24 V DC version exists",
+    "230 V AC version exists",
+    "must match type plate / order the right version"
+   ],
+   "question": "Regarding GV-11-2 on the P&ID: Does it need power? If so, what voltage, and will 24 V DC work, or do I need 230 V AC?"
+  },
+  "candidate": "Yes. GV-11-2 is an electrically operated solenoid valve; its listed supply voltages include 24 V DC and 230 V AC, so 24 V DC will work and 230 V AC is not required if using the 24 V DC version."
+ },
+ {
+  "item": "045a6f226c",
+  "gold": {
+   "answer": "368 mm (14.50 in.) for CL300 RF; 384 mm (15.12 in.) for CL300 RTJ (dimension A).",
+   "answerable": "yes",
+   "category": "multi_condition",
+   "must": [
+    "368 mm (RF)",
+    "RTJ differs (384 mm)"
+   ],
+   "relation": "operated_by",
+   "via_tag": "FV-12-2",
+   "question": "Consider the valve operated by control loop FIC-12-2. What's the face-to-face length for a 4 inch Class 300 flanged body?"
+  },
+  "candidate": "The face-to-face length is 568 mm (22.38 in.) for a 4-inch Class 300 raised-face flanged body."
+ },
+ {
+  "item": "524b38b508",
+  "gold": {
+   "answer": "Maximum casing pressure 266 psi (1834 kPa); maximum operating pressure 250 psi (1723 kPa) at temperatures up to 100 °F (37 °C), based on system component limitations; consult the factory for higher.",
+   "answerable": "yes",
+   "category": "footnote",
+   "must": [
+    "266 psi (1834 kPa) casing",
+    "250 psi operating up to 37 °C"
+   ],
+   "question": "Regarding P-1-1 on the P&ID: What's the max allowable pressure in the casing? We might have a pressurized inlet."
+  },
+  "candidate": "The maximum allowable casing pressure for P-1-1 is 266 psi (1,834 kPa)."
+ },
+ {
+  "item": "01d781e2ed",
+  "gold": {
+   "answer": "Bare pump (no motor): length 25.95 in. (659 mm), height 18.88 in. (480 mm), width 14.20 in. (361 mm); net weight 194 lb (88 kg), shipping 204 lb (93 kg). The pump alone fits on 1 m × 0.6 m; with a motor and coupling it cannot be said from the document.",
+   "answerable": "partial",
+   "category": "conditional",
+   "must": [
+    "659 × 361 × 480 mm (approx.)",
+    "88 kg net",
+    "motor not included"
+   ],
+   "relation": "downstream",
+   "via_tag": "P-10-4",
+   "question": "Consider the item directly downstream of BV-10-1 in the process flow. What are the overall dimensions and weight? Will it fit on a 1 m by 0.6 m base?"
+  },
+  "candidate": "Not in the documents. The item directly downstream of BV-10-1 is pump P-10-4. Its datasheet gives the net weight as 194 lbs (88 kg) and shipping weight as 204 lbs (93 kg). However, the overall dimensions (length x width x height) are not stated as values in the datasheet text — they appear only on an outline dimension drawing on page 2, whose specific figures are not provided here. Because the overall dimensions are not stated, it cannot be confirmed from the documents whether the pump fits on a 1 m x 0.6 m base; only its weight (88 kg) is known."
+ },
+ {
+  "item": "f5fff5a173",
+  "gold": {
+   "answer": "HART 4-20 mA: if self-diagnostics detect a sensor or microprocessor failure, the output is driven high or low; the direction is user-selectable with a jumper/switch on the transmitter. Factory default is High alarm unless specified (CT = Rosemount standard low alarm, CN = NAMUR low, C4 = NAMUR high). Levels: default high >= 21.75 mA (>= 22.5 mA with M6, DA1, T9, RK), low <= 3.75 mA; NAMUR >= 22.5 / <= 3.6 mA; custom 20.2-23.0 / 3.6-3.8 mA. Output M: below 0.94 V or above 5.4 V, selectable by internal jumper. F, W, X: failure passed as alert and status.",
+   "answerable": "yes",
+   "category": "conditional",
+   "must": [
+    "high or low, user-selectable by jumper/switch",
+    "default high",
+    "alarm values per standard/NAMUR/custom",
+    "output M internal jumper"
+   ],
+   "relation": "fed_by_transmitter",
+   "via_tag": "FT-12-2",
+   "question": "Consider the transmitter that feeds controller FIC-12-2. When the transmitter fails, does the output go high or low, and how do I change that alarm direction?"
+  },
+  "candidate": "The datasheet does not say whether FT-12-2 is configured to fail high or low. For its 4–20 mA HART output, the failure direction is selectable using a jumper or switch on the transmitter. The current configuration is not stated."
+ },
+ {
+  "item": "e66f0a972e",
+  "gold": {
+   "answer": "Yes (solenoid). Versions for 24 V DC, 230 V 50/60 Hz and 115 V 50/60 Hz (ordering tables and coil sets say 110 V); tolerance ±10 %. 24 V DC works if you order the 24 V DC version - the voltage must match the type plate.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "24 V DC version exists",
+    "230 V AC version exists",
+    "must match type plate / order the right version"
+   ],
+   "question": "Regarding GV-11-2 on the P&ID: Does it need power? If so, what voltage, and will 24 V DC work, or do I need 230 V AC?"
+  },
+  "candidate": "GV-11-2 is a solenoid valve (a Type 165 2/2-way servo-controlled diaphragm solenoid valve), so yes, it needs electrical power to operate. The documentation for it lists available supply voltage options of 24V DC, 230V AC (50/60 Hz) and 115V AC (50/60 Hz), with matching coil-set order codes for each, so the valve is offered in multiple voltage variants. The description does not record which voltage variant this specific valve instance was ordered with, but both 24 V DC and 230 V AC are supported variants, so 24 V DC will work if the valve is fitted with the 24V DC coil; otherwise you would need the 230V AC coil version. Also note it runs on AC or DC depending on variant, with power consumption of about 5 W (DC) or 11 VA operation / 20 VA inrush (AC)."
+ },
+ {
+  "item": "cf164c44ea",
+  "gold": {
+   "answer": "Standard cages: quick-opening, linear or equal percentage. Whisper Trim, WhisperFlo and Cavitrol cages: linear only.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "all three with standard cage",
+    "special cages linear only"
+   ],
+   "question": "Regarding FV-2-1 on the P&ID: What flow characteristics can I get: equal percentage, linear, quick opening?"
+  },
+  "candidate": "For FV-2-1 (an easy-e ET-type valve), the available flow characteristics are quick-opening, linear, and equal percentage. The specification table lists quick-opening, linear or equal percentage as standard cage flow characteristics, and the characteristic options are given as Equal Percent or Linear (e.g., in the trim/characteristic tables)."
+ },
+ {
+  "item": "e511ea56ff",
+  "gold": {
+   "answer": "Both exist as spare parts: coil set (1) per voltage and seal material (e.g. 230 V AC EPDM 198 808 030) and wear part set (2) per size and seal material (e.g. DN 15-20 EPDM 198 808 035).",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "yes: coil set and wear part set",
+    "codes on page 6"
+   ],
+   "relation": "upstream",
+   "via_tag": "GV-11-5",
+   "question": "Consider the item directly upstream of BV-11-1 in the process flow. Can I buy a seal kit or a spare coil on its own, or do I have to replace the whole unit?"
+  },
+  "candidate": "The item directly upstream of BV-11-1 is GV-11-5, a globe (solenoid) valve of type 165. You do not have to replace the whole unit: the datasheet lists two separately orderable spare-part sets — set 1 is the coil assembly with its screws (order codes depend on voltage and gasket material: 24V DC 198 808 029 EPDM / 198 808 032 FKM; 110V AC 198 808 031 / 198 808 034; 230V AC 198 808 030 / 198 808 033), and set 2 is the wear-part set containing the diaphragms, O-rings and body-side small parts, which serves as the seal set (order codes depend on gasket material and DN size: DN 15-20: 198 808 035 EPDM / 198 808 038 FKM; DN 25-32: 198 808 036 / 198 808 039; DN 40-50: 198 808 037 / 198 808 040). Note that no separately orderable item is explicitly named a 'seal kit' — the closest equivalent is the wear-part set 2."
+ },
+ {
+  "item": "091c14bb54",
+  "gold": {
+   "answer": "3051C: 1/4-18 NPT on 2 1/8-inch centers; 1/2-14 NPT on 2-, 2 1/8- or 2 1/4-inch centers (1/2-14 NPT flange adapters option DF, not valid with S3, S4, S5, S6; RC1/4 flange with RC1/2 adapter option D9). 3051T: 1/2-14 NPT female, G1/2 A DIN 16288 male (ranges 1-4), autoclave F-250-C (ranges 5-6), non-threaded instrument flange (code 61). Yes, manifolds can be factory assembled: 3051C option S5 assemble to Rosemount 305 Integral Manifold, S6 assemble to Rosemount 304 Manifold or Connection System (assemble-to items specified separately with completed model number); 3051T option S5 assemble to Rosemount 306 Integral Manifold.",
+   "answerable": "yes",
+   "category": "conditional",
+   "must": [
+    "1/4-18 NPT on 2 1/8 in centers",
+    "1/2-14 NPT with flange adapters (DF)",
+    "S5 305 integral manifold / S6 304 manifold (3051C); S5 306 (3051T)"
+   ],
+   "relation": "measured_by",
+   "via_tag": "PT-17-2",
+   "question": "Consider the transmitter that measures E-17-1. What's the process connection on the flange — 1/4 NPT? Can I get it with a manifold already fitted?"
+  },
+  "candidate": "The flange connection can be 1/4-18 NPT or 1/2-14 NPT, depending on the selected option. Yes, a manifold can be ordered already assembled: S5 for a Rosemount 305 Integral Manifold or S6 for a Rosemount 304 Manifold or Connection System."
+ },
+ {
+  "item": "cd6f9c923a",
+  "gold": {
+   "answer": "No. With the low power output code (M), only the Plugged Impulse Line diagnostic is included.",
+   "answerable": "yes",
+   "category": "footnote",
+   "must": [
+    "no",
+    "only Plugged Impulse Line diagnostic"
+   ],
+   "relation": "measured_by",
+   "via_tag": "PT-23-2",
+   "question": "Consider the transmitter that measures E-23-2. If I order the DA1 diagnostics with the low-power 1-5 V output, do I get both Loop Integrity and Plugged Impulse Line diagnostics?"
+  },
+  "candidate": "The transmitter that measures E-23-2 is PT-23-2. According to its Rosemount 3051 datasheet, if you order option DA1 (Loop Integrity and Plugged Impulse Line diagnostics) with the low-power output code (code M, which covers the 1-5 V output), only the Plugged Impulse Line Diagnostic is included — the Loop Integrity Diagnostic is not available in that configuration. So no, you do not get both diagnostics with that option combination."
+ },
+ {
+  "item": "4132d8eaf9",
+  "gold": {
+   "answer": "Neither is stated: the only approval listed is CE.",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated",
+    "only CE"
+   ],
+   "question": "Regarding GV-10-1 on the P&ID: Is it approved for drinking water, or for use in an explosive (Ex) area?"
+  },
+  "candidate": "Not in the documents. The datasheet for GV-10-1 lists only a CE approval. No drinking water approval (e.g., KTW, DVGW, NSF, WRAS) and no Ex/ATEX explosion protection approval are stated, so the documents do not confirm approval for either use."
+ },
+ {
+  "item": "d5b3698487",
+  "gold": {
+   "answer": "Diagnosis is not in the document. NPSH required (10.20 in. impeller) from the curves: at 1450 rpm about 1 m at low flow rising to about 2.5 m at the end of the range; at 2900 rpm up to about 3.5-4 m.",
+   "answerable": "partial",
+   "category": "chart",
+   "must": [
+    "diagnosis not stated",
+    "NPSHr from curve (speed dependent)"
+   ],
+   "tolerance": "1450 rpm: 0.5-3 m; 2900 rpm max 3-4.5 m",
+   "question": "Regarding P-1-4 on the P&ID: Flow has dropped off a lot and it's noisy. Could it be cavitation, and what NPSH does it need?"
+  },
+  "candidate": "Cavitation is possible because reduced flow and noise can be consistent with it, but the P&ID and available datasheet information cannot confirm the cause. No single NPSHr or operating flow is specified, so the required NPSH cannot be stated; it depends on the pump’s NPSH curve at the actual operating flow, which is not provided."
+ },
+ {
+  "item": "758532b245",
+  "gold": {
+   "answer": "A standard centrifugal pump on a basic pedestal (bare shaft), size 4\" x 2 1/2\". The meaning of the model code is not explained.",
+   "answerable": "partial",
+   "category": "value",
+   "must": [
+    "standard centrifugal pump (pedestal)",
+    "4\" x 2 1/2\"",
+    "model code not explained"
+   ],
+   "relation": "upstream",
+   "via_tag": "P-1-3",
+   "question": "Consider the item directly upstream of BV-1-1 in the process flow. What kind of pump is a VGH2 1/2C31-B, and what does the model code tell me?"
+  },
+  "candidate": "P-1-3 is a standard centrifugal pump. The datasheet gives the pump size as 4 in × 2½ in, but does not explain the individual parts of the model code VGH2 1/2C31-B."
+ },
+ {
+  "item": "a7d921be89",
+  "gold": {
+   "answer": "Yes (solenoid). Versions for 24 V DC, 230 V 50/60 Hz and 115 V 50/60 Hz (ordering tables and coil sets say 110 V); tolerance ±10 %. 24 V DC works if you order the 24 V DC version - the voltage must match the type plate.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "24 V DC version exists",
+    "230 V AC version exists",
+    "must match type plate / order the right version"
+   ],
+   "question": "Regarding GV-11-2 on the P&ID: Does it need power? If so, what voltage, and will 24 V DC work, or do I need 230 V AC?"
+  },
+  "candidate": "Yes, GV-11-2 needs electrical power: it is an electrically operated 2/2-way solenoid valve, so power is always required to open/close it. The datasheet lists supply voltage options of 24 V DC, 230 V 50/60 Hz and 115 V 50/60 Hz (tolerance ±10 %), in AC or DC variants depending on the specific valve/order variant. So 24 V DC will work if your unit is the DC variant; 230 V AC will work if it is the AC variant. The datasheet does not state which variant GV-11-2 itself is — it says to observe the voltage and current type given on the valve's type plate. Power consumption is 5 W (DC) or 11 VA (AC, with 20 VA inrush)."
+ },
+ {
+  "item": "5c9cce9e03",
+  "gold": {
+   "answer": "Casing ductile iron; impeller gray iron 40 (wear rings gray iron 25, shaft steel 1045, seal faces silicon carbide). Suitability for pH 5 is not stated.",
+   "answerable": "partial",
+   "category": "value",
+   "must": [
+    "casing ductile iron",
+    "impeller gray iron 40",
+    "pH not stated"
+   ],
+   "relation": "downstream",
+   "via_tag": "P-1-4",
+   "question": "Consider the item directly downstream of BV-1-2 in the process flow. What are the casing and impeller made of? Can it take slightly acidic water around pH 5?"
+  },
+  "candidate": "The downstream item is pump P-1-4. Its casing is ductile iron and its impeller is gray iron 40. The description does not say whether it can handle water at about pH 5."
+ },
+ {
+  "item": "df9408fe52",
+  "gold": {
+   "answer": "Not stated in the document.",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated"
+   ],
+   "relation": "downstream",
+   "via_tag": "P-6-1",
+   "question": "Consider the item directly downstream of CHV-3-1 in the process flow. Do I need to fill the casing with liquid before the first start?"
+  },
+  "candidate": "Not in the documents. The item directly downstream of CHV-3-1 is the centrifugal pump P-6-1. Its datasheet does not state whether the casing must be filled with liquid (primed) before the first start — it contains no information on priming or dry-run requirements, so this cannot be confirmed from the available documents."
+ },
+ {
+  "item": "fd84157b0e",
+  "gold": {
+   "answer": "Casing ductile iron; impeller gray iron 40 (wear rings gray iron 25, shaft steel 1045, seal faces silicon carbide). Suitability for pH 5 is not stated.",
+   "answerable": "partial",
+   "category": "value",
+   "must": [
+    "casing ductile iron",
+    "impeller gray iron 40",
+    "pH not stated"
+   ],
+   "relation": "downstream",
+   "via_tag": "P-1-4",
+   "question": "Consider the item directly downstream of BV-1-2 in the process flow. What are the casing and impeller made of? Can it take slightly acidic water around pH 5?"
+  },
+  "candidate": "Not in the documents. The item directly downstream of BV-1-2 is pump P-1-4. Per its datasheet, the casing is ductile iron and the impeller is an enclosed, six-vane type made of Gray Iron 40. The datasheet does not state any pH range or pH rating, so it cannot be confirmed from the documents whether the pump can handle slightly acidic water around pH 5 (not_present for that part). The only related limits given are a maximum seal liquid temperature of 160 °F (71 °C) and a maximum operating pressure of 250 psi (1723 kPa) up to 100 °F / 37 °C, with 'Consult Factory' for exceeding those limits."
+ },
+ {
+  "item": "198cf2ec30",
+  "gold": {
+   "answer": "–76 °F (–60 °C) cold temperature operation.",
+   "answerable": "yes",
+   "category": "value",
+   "must": [
+    "–60 °C",
+    "–76 °F"
+   ],
+   "relation": "measured_by",
+   "via_tag": "FT-12-2",
+   "question": "Consider the transmitter that measures E-12-1. What is the lowest operating temperature you get with the BR6 cold temperature option?"
+  },
+  "candidate": "The transmitter that measures E-12-1 is FT-12-2 (a Rosemount 3051T). With the BR6 option, the cold temperature operation limit is -60 °C (-76 °F), which is the lowest operating temperature for that configuration."
+ },
+ {
+  "item": "ded89be01f",
+  "gold": {
+   "answer": "Not in the document (no troubleshooting).",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated"
+   ],
+   "question": "Regarding FV-14-1 on the P&ID: The valve leaks through when shut. Is it the seat ring or the plug seal, and how do I check?"
+  },
+  "candidate": "The datasheet describes a plug seal ring pressed against the cage, and shows the plug seal and protected soft seat. It does not identify which is causing the shutoff leakage or state how to distinguish between them."
+ },
+ {
+  "item": "c2d5d210e4",
+  "gold": {
+   "answer": "Casing ductile iron; impeller gray iron 40 (wear rings gray iron 25, shaft steel 1045, seal faces silicon carbide). Suitability for pH 5 is not stated.",
+   "answerable": "partial",
+   "category": "value",
+   "must": [
+    "casing ductile iron",
+    "impeller gray iron 40",
+    "pH not stated"
+   ],
+   "relation": "downstream",
+   "via_tag": "P-1-4",
+   "question": "Consider the item directly downstream of BV-1-2 in the process flow. What are the casing and impeller made of? Can it take slightly acidic water around pH 5?"
+  },
+  "candidate": "The item directly downstream of BV-1-2 is pump P-1-4. Its specification list states that the casing is ductile iron and the impeller is enclosed, six-vane gray iron 40. The description gives no information about resistance to acidic water such as pH 5, so whether it can handle slightly acidic water cannot be determined from the available data."
+ },
+ {
+  "item": "e921b8c23f",
+  "gold": {
+   "answer": "No motor is specified (basic pedestal pump; curves for 1150-3450 rpm). The 50 Hz 1450 rpm curve exists; over its operating range the power stays at or below the 7.5 BHP (5.6 kW) line, so a 7.5 kW 1450 rpm motor is enough for that speed.",
+   "answerable": "partial",
+   "category": "chart",
+   "must": [
+    "no motor specified",
+    "1450 rpm curve exists",
+    "power ≤ ~5.6 kW at 1450 rpm"
+   ],
+   "relation": "downstream",
+   "via_tag": "P-19-1",
+   "question": "Consider the item directly downstream of BV-11-1 in the process flow. What motor size and speed is it meant to run at? We have a 7.5 kW 1450 rpm motor in stock."
+  },
+  "candidate": "The datasheet does not specify one motor size and speed for P-19-1. Its 60 Hz water performance curve lists speeds from 1,150 to 3,450 rpm and power lines from 3 to 75 BHP, rather than a single motor rating. It does not state whether your 7.5 kW, 1,450 rpm motor is suitable."
+ },
+ {
+  "item": "ec5bee1bb1",
+  "gold": {
+   "answer": "No. With the low power output code (M), only the Plugged Impulse Line diagnostic is included.",
+   "answerable": "yes",
+   "category": "footnote",
+   "must": [
+    "no",
+    "only Plugged Impulse Line diagnostic"
+   ],
+   "relation": "measured_by",
+   "via_tag": "PT-23-2",
+   "question": "Consider the transmitter that measures E-23-2. If I order the DA1 diagnostics with the low-power 1-5 V output, do I get both Loop Integrity and Plugged Impulse Line diagnostics?"
+  },
+  "candidate": "The transmitter measuring E-23-2 is PT-23-2 (a Rosemount 3051 per its datasheet). DA1 is the option code for Loop Integrity and Plugged Impulse Line diagnostics, and it is available with both the 4-20 mA HART output (code A) and the low-power 1-5 V output (code M). However, per the datasheet footnote, with the low-power output code only the Plugged Impulse Line diagnostic is included — the Loop Integrity diagnostic is not; Loop Integrity requires the 4-20 mA HART output. So with the low-power 1-5 V option you do not get both diagnostics."
+ },
+ {
+  "item": "a105d5bfe8",
+  "gold": {
+   "answer": "Suction 4\" (102 mm), discharge 2 1/2\" (64 mm), raised face flanges; so yes, 2 1/2\" is the discharge. Suction flange 8 holes 0.75\" on 7.50\" bolt circle, discharge 4 holes 0.75\" on 5.50\" bolt circle; optional NPT companion flanges.",
+   "answerable": "yes",
+   "category": "value",
+   "must": [
+    "suction 4\"",
+    "discharge 2 1/2\"",
+    "raised face flanges"
+   ],
+   "question": "Regarding P-1-3 on the P&ID: What size are the suction and discharge connections? Is the '2 1/2' the port size?"
+  },
+  "candidate": "The suction connection is 4 in and the discharge connection is 2½ in. Yes, 2½ in is the discharge connection size, not the suction size."
+ },
+ {
+  "item": "1139213e01",
+  "gold": {
+   "answer": "3051C: 1/4-18 NPT on 2 1/8-inch centers; 1/2-14 NPT on 2-, 2 1/8- or 2 1/4-inch centers (1/2-14 NPT flange adapters option DF, not valid with S3, S4, S5, S6; RC1/4 flange with RC1/2 adapter option D9). 3051T: 1/2-14 NPT female, G1/2 A DIN 16288 male (ranges 1-4), autoclave F-250-C (ranges 5-6), non-threaded instrument flange (code 61). Yes, manifolds can be factory assembled: 3051C option S5 assemble to Rosemount 305 Integral Manifold, S6 assemble to Rosemount 304 Manifold or Connection System (assemble-to items specified separately with completed model number); 3051T option S5 assemble to Rosemount 306 Integral Manifold.",
+   "answerable": "yes",
+   "category": "conditional",
+   "must": [
+    "1/4-18 NPT on 2 1/8 in centers",
+    "1/2-14 NPT with flange adapters (DF)",
+    "S5 305 integral manifold / S6 304 manifold (3051C); S5 306 (3051T)"
+   ],
+   "relation": "measured_by",
+   "via_tag": "PT-17-2",
+   "question": "Consider the transmitter that measures E-17-1. What's the process connection on the flange — 1/4 NPT? Can I get it with a manifold already fitted?"
+  },
+  "candidate": "The datasheet lists 1/4-18 NPT as a process-connection option, but does not specify which connection is configured for PT-17-2. Yes, a manifold can be specified for assembly to the transmitter: S5 for a Rosemount 305 Integral Manifold or S6 for a Rosemount 304 Manifold or Connection System."
+ },
+ {
+  "item": "181b1ba0e2",
+  "gold": {
+   "answer": "Not in the document (materials are listed, part numbers are not).",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated"
+   ],
+   "question": "Regarding FV-12-2 on the P&ID: What part numbers do I need for a seat ring and plug seal for our valve size?"
+  },
+  "candidate": "Not in the documents. The datasheet for FV-12-2 (a Fisher ET/EAT/ETR valve) does not provide ordering part numbers for the seat ring or plug seal, so the specific part numbers you need cannot be determined from the documents. It does describe the parts by type and material: a 2-piece valve plug seal is standard for NPS 1–6 valves (except with Cavitrol III cage), available in materials such as carbon-filled PTFE, ethylene-propylene, fluorocarbon, and nitrile (Table 14, p. 20); a spring-loaded plug seal is standard for NPS 8 and for NPS 1–6 with Cavitrol III cages. Seat ring materials per trim number are listed in Table 8 (p. 10–11), e.g. S41600 HT, CA15 HT, S31600, S31603, or R30006. Also, the datasheet does not state the specific valve size of FV-12-2 itself. For actual part numbers, consult your Emerson sales office or the valve's nameplate/order documents."
+ },
+ {
+  "item": "f1471cda84",
+  "gold": {
+   "answer": "Not stated in the document",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "says installation position relative to taps is not stated"
+   ],
+   "relation": "fed_by_transmitter",
+   "via_tag": "PT-20-1",
+   "question": "Consider the transmitter that feeds controller PIC-20-1. Same question for gas — where do I mount it relative to the orifice taps so liquid doesn't collect?"
+  },
+  "candidate": "Not in the documents. The transmitter feeding PIC-20-1 is PT-20-1, but it is not a flow transmitter — it measures the pressure at pump P-20-1, so this is a pressure control loop with no orifice or flow element (and thus no orifice taps) associated with it. The documents therefore contain no tap locations or mounting guidance relative to taps for this transmitter; the premise of the question (a gas flow orifice installation) does not apply to this loop."
+ },
+ {
+  "item": "b4288558da",
+  "gold": {
+   "answer": "Not stated (only this model's dimensions are given).",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated"
+   ],
+   "question": "Regarding P-1-1 on the P&ID: If we replace it with a newer model, does the same footprint and pipe connections fit?"
+  },
+  "candidate": "The datasheet specifies the existing pump’s raised-face flange sizes and bolt patterns, plus mounting details, but does not confirm that a newer model will have the same footprint or pipe connections. It also does not state all overall dimensions, so compatibility cannot be determined from the available information."
+ },
+ {
+  "item": "987c40c202",
+  "gold": {
+   "answer": "Neither is stated: the only approval listed is CE.",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated",
+    "only CE"
+   ],
+   "question": "Regarding GV-10-1 on the P&ID: Is it approved for drinking water, or for use in an explosive (Ex) area?"
+  },
+  "candidate": "The description for GV-10-1 (a Type 165 2/2-way solenoid valve datasheet) lists only one approval: CE. It contains no drinking-water approval and no ATEX/explosion-protection approval or Ex rating, so based on the available data the valve is not shown as approved for drinking water or for use in an explosive area."
+ },
+ {
+  "item": "fd597c29ba",
+  "gold": {
+   "answer": "Housing PVC (PVC-U; cover and inserts PVC, coil housing epoxy). Gaskets/diaphragms EPDM or FKM - choose the FKM version.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "PVC body",
+    "EPDM or FKM seals",
+    "choose FKM"
+   ],
+   "relation": "upstream",
+   "via_tag": "GV-10-3",
+   "question": "Consider the item directly upstream of BV-10-1 in the process flow. What is the body made of, and what are the seals made of? Our fluid attacks EPDM."
+  },
+  "candidate": "The body is PVC, and the seals are EPDM or FKM; since the fluid attacks EPDM, use FKM seals."
+ },
+ {
+  "item": "c7d03fee3f",
+  "gold": {
+   "answer": "368 mm (14.50 in.) for CL300 RF; 384 mm (15.12 in.) for CL300 RTJ (dimension A).",
+   "answerable": "yes",
+   "category": "multi_condition",
+   "must": [
+    "368 mm (RF)",
+    "RTJ differs (384 mm)"
+   ],
+   "relation": "operated_by",
+   "via_tag": "FV-12-2",
+   "question": "Consider the valve operated by control loop FIC-12-2. What's the face-to-face length for a 4 inch Class 300 flanged body?"
+  },
+  "candidate": "Not in the documents. The valve operated by FIC-12-2 is FV-12-2. Its datasheet (Fisher ET, Table 25 on page 28) lists the face-to-face dimension 'A' by valve size and pressure class, but the extracted values only include size 1 (197 mm / 7.75 in.) and size 8 (568 mm) for CL250/CL300 RF. The specific face-to-face length for a 4 inch Class 300 flanged body is not stated in the available data; it would need to be read from Table 25 on page 28 of the datasheet."
+ },
+ {
+  "item": "f1755e337a",
+  "gold": {
+   "answer": "Not stated in the document",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "Not stated in the document"
+   ],
+   "relation": "measured_by",
+   "via_tag": "PT-5-1",
+   "question": "Consider the transmitter that measures P-5-1. What torque should the coplanar flange bolts be tightened to?"
+  },
+  "candidate": "The bolt-tightening torque is not specified in the provided description."
+ },
+ {
+  "item": "6018b02929",
+  "gold": {
+   "answer": "Yes, a service-friendly, robust manual override (part 10).",
+   "answerable": "yes",
+   "category": "value",
+   "must": [
+    "yes, manual override"
+   ],
+   "question": "Regarding GV-10-3 on the P&ID: Is there a manual override so I can open it without power?"
+  },
+  "candidate": "The available description says GV-10-3 has a service-friendly, robust manual override, but it does not say whether this allows opening the valve without power."
+ }
+]

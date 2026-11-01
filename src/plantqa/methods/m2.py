@@ -3,6 +3,11 @@
 Eszközök: `drawing(question)` → Benedek `cascade_v4_iso`-ja a rajzon (változtatás nélkül),
 `datasheet(tag, question)` → a tagből feloldott eszköz plantdocs A2-je. A router minden
 lépésben egy JSON-objektumot ír; legfeljebb `MAX_STEPS` eszközhívás után válaszolnia kell.
+
+Hangolás a 30 és 50 lapos fejlesztési üzemen (EXP-095): a több adatlapos kérdéseknél minden
+érintett elem adatlapját külön kell lekérdezni, és a 6 lépéses keret a 30 lapos üzemen a (e)
+válaszok 10/24-ét üresen hagyta (EXP-084). Ezért a keret 16 lépés, és ha mégis elfogy, a router
+egy utolsó hívásban a már összegyűjtött eredményekből köteles válaszolni (`FORCE_FINAL`).
 """
 
 from __future__ import annotations
@@ -29,7 +34,11 @@ from plantqa.methods.base import (
 from plantqa.methods.cascade import DrawingCascade
 from plantqa.methods.datasheet import DatasheetQA
 
-MAX_STEPS = 6
+MAX_STEPS = 16
+FORCE_FINAL = (
+    "The tool budget is used up. Reply now with the final JSON object, answering from the tool "
+    "results so far; name what is missing."
+)
 SYSTEM = """You answer questions about one industrial plant. You cannot see the documents
 yourself; you have two tools:
 - drawing(question): answers a question about the plant's P&ID drawing (which items exist and
@@ -119,6 +128,17 @@ class M2:
             return self._datasheet(tag, text, log)
         return "Unknown action. Reply with one JSON object as described."
 
+    def _forced_final(
+        self, messages: list[ChatMessage], qid: str
+    ) -> tuple[dict[str, Any] | None, str]:
+        """A kimerült keret utáni kötelező válasz; ha ez sem válasz, `STEP_LIMIT` marad."""
+        reply = _forced_final_reply(self.router, messages, qid)
+        action = _action(reply) if reply is not None else {}
+        if "final" not in action:
+            return None, "STEP_LIMIT"
+        final = parse_final(json.dumps({"answer": None, **_as_dict(action["final"])}))
+        return final, ("ANSWERED" if final else "PARSE_FAILURE")
+
     def _messages(self, question: Question) -> list[ChatMessage]:
         tags = ", ".join(sorted(self.mapping))
         system = SYSTEM.format(
@@ -165,6 +185,14 @@ class M2:
             usage=usage.as_dict(),
             trace=[m.model_dump() for m in messages[1:]],
         )
+
+
+def _forced_final_reply(router: Router, messages: list[ChatMessage], qid: str) -> str | None:
+    """Az utolsó, kötelezően válaszoló hívás szövege (szolgáltatói hibánál `None`)."""
+    try:
+        return router.step([*messages, ChatMessage(role="user", content=FORCE_FINAL)], qid)
+    except ProviderError:
+        return None
 
 
 def _as_dict(value: Any) -> dict[str, Any]:

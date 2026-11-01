@@ -1,0 +1,326 @@
+[
+ {
+  "item": "7feff08210",
+  "gold": {
+   "answer": "Yes, rated for continuous operation, 100 % ED (insulation class H).",
+   "answerable": "yes",
+   "category": "value",
+   "must": [
+    "yes, 100 % ED continuous"
+   ],
+   "question": "Regarding GV-1-1 on the P&ID: Can it be switched on continuously all shift, or will the coil overheat?"
+  },
+  "candidate": "GV-1-1 is a hand-operated globe valve with no actuator or coil shown on the P&ID (sheet 0). Since it has no coil, there is no coil-overheating concern; the question of continuous energization does not apply. The drawing provides no further details such as ratings or duty information."
+ },
+ {
+  "item": "1cb441580f",
+  "gold": {
+   "answer": "Yes, a service-friendly, robust manual override (part 10).",
+   "answerable": "yes",
+   "category": "value",
+   "must": [
+    "yes, manual override"
+   ],
+   "question": "Regarding GV-1-2 on the P&ID: Is there a manual override so I can open it without power?"
+  },
+  "candidate": "The datasheet specifies a manual override, but does not state whether it can open the valve without power."
+ },
+ {
+  "item": "ddc4235324",
+  "gold": {
+   "answer": "Cv 59.7 at maximum plug travel for the NPS 2 ET with full-sized trim, equal percentage cage, normal flow direction (EAT NPS 2: 48.1 with liner, 47.2 without).",
+   "answerable": "yes",
+   "category": "conditional",
+   "must": [
+    "59.7",
+    "full-sized trim, equal percentage cage, normal flow"
+   ],
+   "question": "Regarding FV-107-3 on the P&ID: What's the Cv at full open for a 2 inch valve?"
+  },
+  "candidate": "The datasheet for FV-107-3 (Fisher ET/D100022x012) does not give a single Cv at full open for a 2 inch valve; instead, Table 17 on page 23 lists maximum flow coefficients (Cv) at maximum valve plug travel — i.e. fully open, full-sized trim, equal percentage cage, normal flow direction — which depend on the valve type/trim: EAT with liner 48.1, EAT without liner 47.2, ED 59.7, and ETR 59.7. The standard 'ET' variant is not listed in Table 17 for the 2 inch size in these facts, and no Cv values specifically labelled 'at full open' were found beyond these maximum-travel values."
+ },
+ {
+  "item": "13d55c5d93",
+  "gold": {
+   "answer": "Flanged is available (CL125 FF / CL250 RF cast iron; CL150/300/600 RF or RTJ steel; EN PN16-100), as well as screwed (NPS 1-2), butt weld and socket weld.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "flanged yes",
+    "also screwed, BW, SW"
+   ],
+   "question": "Regarding FV-104-2 on the P&ID: Can I get it with flanged ends, or only buttweld or screwed?"
+  },
+  "candidate": "Yes. Flanged ends are available for FV-104-2; options include RF or RTJ flanges in CL150, CL300 and CL600 for carbon, alloy, or stainless-steel bodies, and other flange constructions depending on valve type, size, and body material."
+ },
+ {
+  "item": "55aa7def30",
+  "gold": {
+   "answer": "Suction 4\" (102 mm), discharge 2 1/2\" (64 mm), raised face flanges; so yes, 2 1/2\" is the discharge. Suction flange 8 holes 0.75\" on 7.50\" bolt circle, discharge 4 holes 0.75\" on 5.50\" bolt circle; optional NPT companion flanges.",
+   "answerable": "yes",
+   "category": "value",
+   "must": [
+    "suction 4\"",
+    "discharge 2 1/2\"",
+    "raised face flanges"
+   ],
+   "question": "Regarding P-1-3 on the P&ID: What size are the suction and discharge connections? Is the '2 1/2' the port size?"
+  },
+  "candidate": "The datasheet shows an optional 4.00-8 NPT suction connection and an optional 2.50-8 NPT discharge companion flange. It lists the pump size as 4 × 2½ in, but does not separately identify 2½ in as the port size; the 2.50-8 NPT discharge flange detail is stated separately."
+ },
+ {
+  "item": "239c0a3192",
+  "gold": {
+   "answer": "Maximum casing pressure 266 psi (1834 kPa); maximum operating pressure 250 psi (1723 kPa) at temperatures up to 100 °F (37 °C), based on system component limitations; consult the factory for higher.",
+   "answerable": "yes",
+   "category": "footnote",
+   "must": [
+    "266 psi (1834 kPa) casing",
+    "250 psi operating up to 37 °C"
+   ],
+   "question": "Regarding P-1-1 on the P&ID: What's the max allowable pressure in the casing? We might have a pressurized inlet."
+  },
+  "candidate": "The datasheet for P-1-1 (Gorman-Rupp) states a Maximum Casing Pressure of 266 psi (1834 kPa), and also a Maximum Operating Pressure of 250 psi (1723 kPa) up to 100 °F, based on system component limitations. For a pressurized inlet, the total casing pressure would be suction pressure plus pump differential pressure, but the datasheet itself does not contain any specific 'pressurized inlet' or separate casing design pressure parameter — only the limits above, with a note to consult the factory for applications exceeding maximum pressure and/or temperature."
+ },
+ {
+  "item": "e7f56269cf",
+  "gold": {
+   "answer": "Cv 59.7 at maximum plug travel for the NPS 2 ET with full-sized trim, equal percentage cage, normal flow direction (EAT NPS 2: 48.1 with liner, 47.2 without).",
+   "answerable": "yes",
+   "category": "conditional",
+   "must": [
+    "59.7",
+    "full-sized trim, equal percentage cage, normal flow"
+   ],
+   "question": "Regarding FV-107-3 on the P&ID: What's the Cv at full open for a 2 inch valve?"
+  },
+  "candidate": "For a 2-inch valve at maximum plug travel (full open), the Cv is 59.7 for ED or ETR, 48.1 for EAT with a liner, and 47.2 for EAT without a liner. These values are for full-sized trim with an equal-percentage cage and normal flow direction."
+ },
+ {
+  "item": "ab7eabc2ff",
+  "gold": {
+   "answer": "Standard cages: quick-opening, linear or equal percentage. Whisper Trim, WhisperFlo and Cavitrol cages: linear only.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "all three with standard cage",
+    "special cages linear only"
+   ],
+   "question": "Regarding FV-106-2 on the P&ID: What flow characteristics can I get: equal percentage, linear, quick opening?"
+  },
+  "candidate": "FV-106-2 is a Fisher easy-e globe control valve, and per its datasheet the flow characteristic depends on the cage chosen. With standard cages you can get quick-opening, linear, or equal percentage. With Whisper Trim, WhisperFlo, or Cavitrol cages the characteristic is linear only. The ET trim cartridge option offers equal percentage or linear. So all three characteristics you ask about — equal percentage, linear, and quick opening — are available, with the choice made through the trim/cage selection at ordering or configuration."
+ },
+ {
+  "item": "110c07a368",
+  "gold": {
+   "answer": "Flanged is available (CL125 FF / CL250 RF cast iron; CL150/300/600 RF or RTJ steel; EN PN16-100), as well as screwed (NPS 1-2), butt weld and socket weld.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "flanged yes",
+    "also screwed, BW, SW"
+   ],
+   "question": "Regarding FV-104-2 on the P&ID: Can I get it with flanged ends, or only buttweld or screwed?"
+  },
+  "candidate": "Yes — FV-104-2 (an easy-e valve, variants ET/EAT/ETR) can be supplied with flanged ends, not just buttweld or screwed. Available end connections include RF or RTJ flanged CL150, CL300 and CL600, CL125 FF and CL250 RF flanged (cast iron), and PN16–40 / PN63–100 flanges, in addition to butt weld, socket weld and screwed ends. Note that flanged valves meeting EN 1092 with EN face-to-face dimensions are available only from Europe."
+ },
+ {
+  "item": "f5af6c3657",
+  "gold": {
+   "answer": "Yes, Kv in l/min: DN15 83, DN20 100, DN25 233, DN32 267, DN40 500, DN50 600 - measured with water at +20 °C, 1 bar at the valve inlet, free outlet.",
+   "answerable": "yes",
+   "category": "footnote",
+   "must": [
+    "Kv per DN (83/100/233/267/500/600 l/min)",
+    "condition: water +20 °C, 1 bar inlet, free outlet"
+   ],
+   "question": "Regarding GV-10-2 on the P&ID: How much flow does it pass when fully open? Is there a Kv value?"
+  },
+  "candidate": "The datasheet lists Kv values as flow rates for water at 20 °C, with 1 bar at the inlet and a free outlet: DN 15—83 l/min; DN 20—100 l/min; DN 25—233 l/min; DN 32—267 l/min; DN 40—500 l/min; DN 50—600 l/min. It does not state which DN applies to GV-10-2, so its specific fully open flow is not identified."
+ },
+ {
+  "item": "2669be9d6b",
+  "gold": {
+   "answer": "Yes (solenoid). Versions for 24 V DC, 230 V 50/60 Hz and 115 V 50/60 Hz (ordering tables and coil sets say 110 V); tolerance ±10 %. 24 V DC works if you order the 24 V DC version - the voltage must match the type plate.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "24 V DC version exists",
+    "230 V AC version exists",
+    "must match type plate / order the right version"
+   ],
+   "question": "Regarding GV-10-1 on the P&ID: Does it need power? If so, what voltage, and will 24 V DC work, or do I need 230 V AC?"
+  },
+  "candidate": "Yes. The datasheet lists 24 V DC and 230 V AC (50/60 Hz) as supply options, so either is supported. Use the voltage and current type shown on the valve’s type plate; the stated voltage tolerance is ±10%."
+ },
+ {
+  "item": "31ac36e8c5",
+  "gold": {
+   "answer": "Standard cages: quick-opening, linear or equal percentage. Whisper Trim, WhisperFlo and Cavitrol cages: linear only.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "all three with standard cage",
+    "special cages linear only"
+   ],
+   "question": "Regarding FV-106-2 on the P&ID: What flow characteristics can I get: equal percentage, linear, quick opening?"
+  },
+  "candidate": "It depends on the cage: standard cages are available with quick-opening, linear, or equal-percentage characteristics. Whisper Trim, WhisperFlo, and Cavitrol cages are specified as linear. The datasheet does not identify which cage is fitted to FV-106-2."
+ },
+ {
+  "item": "44e30def3b",
+  "gold": {
+   "answer": "160 °F (71 °C) maximum liquid temperature (seal limit); the 250 psi max operating pressure applies only up to 100 °F (37 °C); consult the factory beyond.",
+   "answerable": "yes",
+   "category": "footnote",
+   "must": [
+    "71 °C (160 °F)"
+   ],
+   "question": "Regarding P-1-2 on the P&ID: What's the hottest liquid I can put through it?"
+  },
+  "candidate": "Not in the documents. The documents do not state a maximum allowable fluid temperature for P-1-2. The pump's tag is not covered by any vendor datasheet in the available documents, so no temperature rating, design temperature, or service/fluid specification is given for it. (The P&ID only shows temperature transmitters such as TT-147-1, TT-158-2, etc. on its outlet, but no temperature limit for the pump is stated.) Therefore the hottest liquid that can be put through P-1-2 cannot be determined from these documents."
+ },
+ {
+  "item": "bcd6abccbe",
+  "gold": {
+   "answer": "Suction 4\" (102 mm), discharge 2 1/2\" (64 mm), raised face flanges; so yes, 2 1/2\" is the discharge. Suction flange 8 holes 0.75\" on 7.50\" bolt circle, discharge 4 holes 0.75\" on 5.50\" bolt circle; optional NPT companion flanges.",
+   "answerable": "yes",
+   "category": "value",
+   "must": [
+    "suction 4\"",
+    "discharge 2 1/2\"",
+    "raised face flanges"
+   ],
+   "question": "Regarding P-1-3 on the P&ID: What size are the suction and discharge connections? Is the '2 1/2' the port size?"
+  },
+  "candidate": "The documents for P-1-3 do not explicitly state the suction and discharge connection sizes. The only size given is a nominal pump size of 4\" x 2.5\" (product variant VGH2 1/2C-B), and the string '2 1/2' appears in the curve/product designation 'VGH2 1/2C' rather than as a labelled port size. So while a 4\" x 2.5\" pump size is consistent with suction and discharge connections of those sizes, the description does not confirm the individual connection sizes or that '2 1/2' is a port size."
+ },
+ {
+  "item": "af4408e8c2",
+  "gold": {
+   "answer": "Maximum casing pressure 266 psi (1834 kPa); maximum operating pressure 250 psi (1723 kPa) at temperatures up to 100 °F (37 °C), based on system component limitations; consult the factory for higher.",
+   "answerable": "yes",
+   "category": "footnote",
+   "must": [
+    "266 psi (1834 kPa) casing",
+    "250 psi operating up to 37 °C"
+   ],
+   "question": "Regarding P-1-1 on the P&ID: What's the max allowable pressure in the casing? We might have a pressurized inlet."
+  },
+  "candidate": "The maximum allowable pressure in the P-1-1 casing is 266 psi (1834 kPa)."
+ },
+ {
+  "item": "2e437218f7",
+  "gold": {
+   "answer": "Cast iron, WCC or LCC carbon steel, WC9 chrome moly steel, CF8M (cast 316 stainless) or CF3M (cast 316L stainless), others on request. Yes, stainless (CF8M / CF3M) is available.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "CF8M / CF3M stainless available",
+    "cast iron, WCC, LCC, WC9"
+   ],
+   "question": "Regarding FV-10-2 on the P&ID: What body materials are available, and can I get stainless for a corrosive service?"
+  },
+  "candidate": "Available body materials are cast iron; WCC or LCC carbon steel; WC9 chrome-moly steel; CF8M (cast 316 stainless steel); and CF3M (cast 316L stainless steel). Stainless options are listed, but the datasheet does not state whether they are suitable for your corrosive service conditions."
+ },
+ {
+  "item": "f778e44c9a",
+  "gold": {
+   "answer": "Flanged is available (CL125 FF / CL250 RF cast iron; CL150/300/600 RF or RTJ steel; EN PN16-100), as well as screwed (NPS 1-2), butt weld and socket weld.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "flanged yes",
+    "also screwed, BW, SW"
+   ],
+   "question": "Regarding FV-104-2 on the P&ID: Can I get it with flanged ends, or only buttweld or screwed?"
+  },
+  "candidate": "Yes — per the datasheet for FV-104-2 (Fisher ET), the valve is available with flanged ends, not only buttweld or screwed. Flanged options include cast iron bodies with CL125 FF or CL250 RF flanges, steel bodies with RF or RTJ flanges in CL150/CL300/CL600, and EN flanges (EN1092-1/B, PN16–PN100) on raised-face steel bodies. Butt weld and socket weld are steel-body options, and screwed ends are only offered in NPS 1, 1-1/2 or 2. Exact availability depends on the valve variant, size and body material (Table 3, page 5)."
+ },
+ {
+  "item": "58e8bc6466",
+  "gold": {
+   "answer": "Yes, a service-friendly, robust manual override (part 10).",
+   "answerable": "yes",
+   "category": "value",
+   "must": [
+    "yes, manual override"
+   ],
+   "question": "Regarding GV-1-2 on the P&ID: Is there a manual override so I can open it without power?"
+  },
+  "candidate": "Yes. GV-1-2 is a Type 165 2/2-way solenoid valve, and the documentation states it has a 'service-friendly, robust manual override', so it can be operated manually without power. Detailed installation/maintenance information is available in the manual included with the product (also at www.gfps.com/is-manuals-valves)."
+ },
+ {
+  "item": "1758e8b05f",
+  "gold": {
+   "answer": "Diagnosis is not in the document. NPSH required (10.20 in. impeller) from the curves: at 1450 rpm about 1 m at low flow rising to about 2.5 m at the end of the range; at 2900 rpm up to about 3.5-4 m.",
+   "answerable": "partial",
+   "category": "chart",
+   "must": [
+    "diagnosis not stated",
+    "NPSHr from curve (speed dependent)"
+   ],
+   "tolerance": "1450 rpm: 0.5-3 m; 2900 rpm max 3-4.5 m",
+   "question": "Regarding P-10-1 on the P&ID: Flow has dropped off a lot and it's noisy. Could it be cavitation, and what NPSH does it need?"
+  },
+  "candidate": "The datasheet does not state the required NPSH (NPSHr) or provide information to determine whether the low flow and noise are due to cavitation."
+ },
+ {
+  "item": "b1968792d4",
+  "gold": {
+   "answer": "Yes (solenoid). Versions for 24 V DC, 230 V 50/60 Hz and 115 V 50/60 Hz (ordering tables and coil sets say 110 V); tolerance ±10 %. 24 V DC works if you order the 24 V DC version - the voltage must match the type plate.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "24 V DC version exists",
+    "230 V AC version exists",
+    "must match type plate / order the right version"
+   ],
+   "question": "Regarding GV-10-1 on the P&ID: Does it need power? If so, what voltage, and will 24 V DC work, or do I need 230 V AC?"
+  },
+  "candidate": "Yes — GV-10-1 is a solenoid valve (type 165, 2/2-way, PVC-U) and its coil needs electrical power. The valve is available with supply voltages of 24V DC, 230V AC (50/60 Hz) and 110V AC, with a voltage tolerance of ±10%. So either 24 V DC or 230 V AC will work, but only if the matching coil is fitted: which one is correct is decided by the coil actually installed on the valve, and the manufacturer's instruction is to use the voltage and current type given on the type plate (AC coils also carry a risk-of-injury warning). If you need to change voltage, separate coil sets (spare parts) are offered for each of the three voltages."
+ },
+ {
+  "item": "3a0918b84a",
+  "gold": {
+   "answer": "Yes (solenoid). Versions for 24 V DC, 230 V 50/60 Hz and 115 V 50/60 Hz (ordering tables and coil sets say 110 V); tolerance ±10 %. 24 V DC works if you order the 24 V DC version - the voltage must match the type plate.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "24 V DC version exists",
+    "230 V AC version exists",
+    "must match type plate / order the right version"
+   ],
+   "question": "Regarding GV-10-1 on the P&ID: Does it need power? If so, what voltage, and will 24 V DC work, or do I need 230 V AC?"
+  },
+  "candidate": "GV-10-1 does not need power. On the P&ID it is a globe valve with no actuator or operator shown, so it is a hand-operated (manual) valve. Note: the datasheet found for this tag is for a GF Type 165 solenoid valve, which does come in 24 V DC, 115 V AC, and 230 V AC coil versions (±10% tolerance, 5 W DC / 20 VA inrush and 11 VA operating AC), but that does not apply to the valve as drawn, since no electrical operator is shown on GV-10-1."
+ },
+ {
+  "item": "a177698353",
+  "gold": {
+   "answer": "Yes, a service-friendly, robust manual override (part 10).",
+   "answerable": "yes",
+   "category": "value",
+   "must": [
+    "yes, manual override"
+   ],
+   "question": "Regarding GV-1-2 on the P&ID: Is there a manual override so I can open it without power?"
+  },
+  "candidate": "Yes. The datasheet for GV-1-2 lists a manual override as a feature, described as a 'service-friendly, robust manual override.' The datasheet does not describe how it works or whether a handwheel specifically is fitted."
+ },
+ {
+  "item": "9807db8713",
+  "gold": {
+   "answer": "Diagnosis is not in the document. NPSH required (10.20 in. impeller) from the curves: at 1450 rpm about 1 m at low flow rising to about 2.5 m at the end of the range; at 2900 rpm up to about 3.5-4 m.",
+   "answerable": "partial",
+   "category": "chart",
+   "must": [
+    "diagnosis not stated",
+    "NPSHr from curve (speed dependent)"
+   ],
+   "tolerance": "1450 rpm: 0.5-3 m; 2900 rpm max 3-4.5 m",
+   "question": "Regarding P-10-1 on the P&ID: Flow has dropped off a lot and it's noisy. Could it be cavitation, and what NPSH does it need?"
+  },
+  "candidate": "Not in the documents. The datasheet for P-10-1 (Gorman-Rupp VGH2 1/2C-B, Curve VGH2 1/2C-B-2, 60 Hz, trimmed impeller 10.20\" down to 8.25\", 3450 RPM) does not state a numeric NPSH required value or any cavitation specification. The only cavitation-related information is that an NPSH curve is printed on the page 3 performance chart, so the required NPSH would have to be read off that curve for your operating flow rate. The documents therefore do not contain a specific NPSH figure, and they do not provide any basis to confirm or rule out cavitation as the cause of the low, noisy flow."
+ }
+]

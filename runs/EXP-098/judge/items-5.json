@@ -1,0 +1,208 @@
+[
+ {
+  "item": "22cd829829",
+  "gold": {
+   "answer": "Radial bearing: open cylindrical roller; thrust bearing: open double row ball. They are oil-lubricated (SAE 30 non-detergent oil, constant level oiler), not greased; no interval is given.",
+   "answerable": "partial",
+   "category": "value",
+   "must": [
+    "cylindrical roller + double row ball",
+    "oil (SAE 30), not grease",
+    "interval not given"
+   ],
+   "relation": "downstream",
+   "via_tag": "P-103-2",
+   "question": "Consider the item directly downstream of BV-103-1 in the process flow. What bearings are in it, and how often do they need greasing?"
+  },
+  "candidate": "Not in the documents. The item directly downstream of BV-103-1 is pump P-103-2 (centrifugal pump). However, no vendor datasheet is available for P-103-2, so the documents do not state which bearings it contains or its greasing interval."
+ },
+ {
+  "item": "1e9a1356d1",
+  "gold": {
+   "answer": "Radial bearing: open cylindrical roller; thrust bearing: open double row ball. They are oil-lubricated (SAE 30 non-detergent oil, constant level oiler), not greased; no interval is given.",
+   "answerable": "partial",
+   "category": "value",
+   "must": [
+    "cylindrical roller + double row ball",
+    "oil (SAE 30), not grease",
+    "interval not given"
+   ],
+   "relation": "downstream",
+   "via_tag": "P-103-2",
+   "question": "Consider the item directly downstream of BV-103-1 in the process flow. What bearings are in it, and how often do they need greasing?"
+  },
+  "candidate": "It has an open double-row ball bearing and an open cylindrical roller bearing. The datasheet does not state how often they need greasing."
+ },
+ {
+  "item": "3cda8c0142",
+  "gold": {
+   "answer": "Not in the document (only bolting materials and temperature limits).",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated"
+   ],
+   "question": "Regarding FV-10-2 on the P&ID: What torque should the bonnet bolts be tightened to?"
+  },
+  "candidate": "Not in the documents. The datasheet for FV-10-2 does not state a tightening torque for the bonnet bolts. It only covers bolting materials and their temperature limits (e.g., stud/nut material combinations such as SA-193-B7 with SA-194-2H), not torque values. The torque specification is not present in the available documents."
+ },
+ {
+  "item": "3fa3f41645",
+  "gold": {
+   "answer": "Not in the document (only bolting materials and temperature limits).",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated"
+   ],
+   "question": "Regarding FV-10-2 on the P&ID: What torque should the bonnet bolts be tightened to?"
+  },
+  "candidate": "Not in the documents. The available documentation does not specify a torque value for FV-10-2's bonnet bolts. The datasheet excerpt (Fisher ET, tag FV-10-2) only lists the bonnet bolting materials — e.g., Studs SA193-B7/NCF2 with nuts SA194-2H/NCF2 for WCC and LCC bodies, and Studs SA-193-B8M Class 2 with nuts SA-194-8M for some CF8M designs — and contains no tightening torque, torque sequence, or torque table. That information is not present in the description."
+ },
+ {
+  "item": "172040faaf",
+  "gold": {
+   "answer": "Valve plug seal ring: carbon-filled PTFE -73 to 232 °C (2-piece seal with backup ring: fluorocarbon -18 to 204 °C, ethylene-propylene -40 to 232 °C, nitrile -40 to 71/82 °C); spring-loaded PTFE seal ring -73 to 232 °C; with PEEK anti-extrusion rings PTFE/graphite seal ring -73 to 316 °C (260 °C oxidizing). Class VI: UHMWPE seal ring -198/-29 to 66 °C.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "PTFE seal ring to 232 °C",
+    "PEEK option to 316 °C (260 °C oxidizing)"
+   ],
+   "relation": "operated_by",
+   "via_tag": "FV-106-2",
+   "question": "Consider the valve operated by control loop FIC-106-2. Which seal or piston ring materials are available, and what temperatures are they good for?"
+  },
+  "candidate": "The description identifies carbon-filled PTFE, fluorocarbon, nitrile, and PTFE/graphite seal materials. It gives fluorocarbon a minimum of −18 °C (0 °F) and nitrile a maximum of 71 °C (160 °F). A PTFE/carbon seal ring with PEEK anti-extrusion rings is stated to be usable up to 316 °C (600 °F) in non-oxidizing service or 260 °C (500 °F) in oxidizing service; PTFE/graphite with a spring-loaded seal has the same stated upper limits. Other temperature limits are not provided in the description."
+ },
+ {
+  "item": "a87391ad98",
+  "gold": {
+   "answer": "Neither is stated: the only approval listed is CE.",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated",
+    "only CE"
+   ],
+   "question": "Regarding GV-1-1 on the P&ID: Is it approved for drinking water, or for use in an explosive (Ex) area?"
+  },
+  "candidate": "The description lists CE approval, but does not state whether GV-1-1 is approved for drinking water or for use in an explosive (Ex) area."
+ },
+ {
+  "item": "de2794d701",
+  "gold": {
+   "answer": "Casing ductile iron; impeller gray iron 40 (wear rings gray iron 25, shaft steel 1045, seal faces silicon carbide). Suitability for pH 5 is not stated.",
+   "answerable": "partial",
+   "category": "value",
+   "must": [
+    "casing ductile iron",
+    "impeller gray iron 40",
+    "pH not stated"
+   ],
+   "relation": "downstream",
+   "via_tag": "P-1-2",
+   "question": "Consider the item directly downstream of BV-1-1 in the process flow. What are the casing and impeller made of? Can it take slightly acidic water around pH 5?"
+  },
+  "candidate": "Not in the documents. The item directly downstream of BV-1-1 is the pump P-1-2. Its casing is made of ductile iron, and its impeller is an enclosed, six-vane gray iron 40 impeller (other wetted parts: Steel 1045 shaft, Gray Iron 25 wear rings/bearing housing, nitrile rubber gaskets, silicon carbide seal faces with 316 SS and fluorocarbon elastomers). The datasheet does not state a pH range or any chemical-compatibility information, so it cannot confirm whether the pump can handle slightly acidic water around pH 5 — that part is not covered by the documents; the only liquid-related limits given are 250 psi max operating pressure up to 100°F and a 160°F/71°C seal temperature limit."
+ },
+ {
+  "item": "a642c589ad",
+  "gold": {
+   "answer": "A standard centrifugal pump on a basic pedestal (bare shaft), size 4\" x 2 1/2\". The meaning of the model code is not explained.",
+   "answerable": "partial",
+   "category": "value",
+   "must": [
+    "standard centrifugal pump (pedestal)",
+    "4\" x 2 1/2\"",
+    "model code not explained"
+   ],
+   "relation": "upstream",
+   "via_tag": "P-1-1",
+   "question": "Consider the item directly upstream of BV-1-3 in the process flow. What kind of pump is a VGH2 1/2C31-B, and what does the model code tell me?"
+  },
+  "candidate": "The item directly upstream of BV-1-3 is P-1-1, which is a Standard Centrifugal Pump, model VGH2 1/2C31-B, size 4\" x 2 1/2\" (102 mm x 64 mm). The model code identifies the pump's series and size on its datasheet and performance curves (curves VGH2 1/2C-B-1 through -8, e.g. with impeller 26821-472 and volute 26821-756, for water or petroleum service at various speeds and 50/60 Hz), while the pump itself has a ductile iron casing with an enclosed six-vane gray iron 40 impeller and a mechanical, self-lubricated seal rated for liquid temperatures up to 160°F (71°C)."
+ },
+ {
+  "item": "9c9f3614d2",
+  "gold": {
+   "answer": "368 mm (14.50 in.) for CL300 RF; 384 mm (15.12 in.) for CL300 RTJ (dimension A).",
+   "answerable": "yes",
+   "category": "multi_condition",
+   "must": [
+    "368 mm (RF)",
+    "RTJ differs (384 mm)"
+   ],
+   "relation": "operated_by",
+   "via_tag": "FV-10-2",
+   "question": "Consider the valve operated by control loop FIC-10-2. What's the face-to-face length for a 4 inch Class 300 flanged body?"
+  },
+  "candidate": "Not in the documents. The datasheet for FV-10-2 (the Fisher ET valve on control loop FIC-10-2) contains Table 25 with face-to-face dimensions, but the extracted facts only include the NPS 1 and NPS 8 rows for Class 300 flanged ends (CL300 RF: 197 mm / 7.75 in. for NPS 1, 568 mm for NPS 8; CL300 RTJ: 210 mm / 8.25 in. for NPS 1, 584 mm for NPS 8). The face-to-face length for a 4 inch Class 300 flanged body is not stated in the available document data, so it cannot be provided."
+ },
+ {
+  "item": "fb42c3ad63",
+  "gold": {
+   "answer": "3051C: 1/4-18 NPT on 2 1/8-inch centers; 1/2-14 NPT on 2-, 2 1/8- or 2 1/4-inch centers (1/2-14 NPT flange adapters option DF, not valid with S3, S4, S5, S6; RC1/4 flange with RC1/2 adapter option D9). 3051T: 1/2-14 NPT female, G1/2 A DIN 16288 male (ranges 1-4), autoclave F-250-C (ranges 5-6), non-threaded instrument flange (code 61). Yes, manifolds can be factory assembled: 3051C option S5 assemble to Rosemount 305 Integral Manifold, S6 assemble to Rosemount 304 Manifold or Connection System (assemble-to items specified separately with completed model number); 3051T option S5 assemble to Rosemount 306 Integral Manifold.",
+   "answerable": "yes",
+   "category": "conditional",
+   "must": [
+    "1/4-18 NPT on 2 1/8 in centers",
+    "1/2-14 NPT with flange adapters (DF)",
+    "S5 305 integral manifold / S6 304 manifold (3051C); S5 306 (3051T)"
+   ],
+   "relation": "measured_by",
+   "via_tag": "FT-105-2",
+   "question": "Consider the transmitter that measures E-105-2. What's the process connection on the flange — 1/4 NPT? Can I get it with a manifold already fitted?"
+  },
+  "candidate": "The transmitter’s flange process connection is 1/4-18 NPT on 2 1/8-inch centers. Yes, it can be supplied with an integral manifold factory assembled."
+ },
+ {
+  "item": "9a56ce0cfa",
+  "gold": {
+   "answer": "368 mm (14.50 in.) for CL300 RF; 384 mm (15.12 in.) for CL300 RTJ (dimension A).",
+   "answerable": "yes",
+   "category": "multi_condition",
+   "must": [
+    "368 mm (RF)",
+    "RTJ differs (384 mm)"
+   ],
+   "relation": "operated_by",
+   "via_tag": "FV-10-2",
+   "question": "Consider the valve operated by control loop FIC-10-2. What's the face-to-face length for a 4 inch Class 300 flanged body?"
+  },
+  "candidate": "The description does not provide the face-to-face length for a 4-inch Class 300 flanged body."
+ },
+ {
+  "item": "f37ebe8722",
+  "gold": {
+   "answer": "No. With the low power output code (M), only the Plugged Impulse Line diagnostic is included.",
+   "answerable": "yes",
+   "category": "footnote",
+   "must": [
+    "no",
+    "only Plugged Impulse Line diagnostic"
+   ],
+   "relation": "measured_by",
+   "via_tag": "FT-106-2",
+   "question": "Consider the transmitter that measures E-106-2. If I order the DA1 diagnostics with the low-power 1-5 V output, do I get both Loop Integrity and Plugged Impulse Line diagnostics?"
+  },
+  "candidate": "No. With the low-power 1–5 V output, DA1 includes only the Plugged Impulse Line diagnostic, not Loop Integrity."
+ },
+ {
+  "item": "6a20fc8124",
+  "gold": {
+   "answer": "Cast iron, WCC or LCC carbon steel, WC9 chrome moly steel, CF8M (cast 316 stainless) or CF3M (cast 316L stainless), others on request. Yes, stainless (CF8M / CF3M) is available.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "CF8M / CF3M stainless available",
+    "cast iron, WCC, LCC, WC9"
+   ],
+   "question": "Regarding FV-10-2 on the P&ID: What body materials are available, and can I get stainless for a corrosive service?"
+  },
+  "candidate": "Available body materials include cast iron, WCC and LCC carbon steel, WC9 chrome-moly steel, CF8M cast 316 stainless steel, and CF3M cast 316L stainless steel; other materials are available on request. Stainless steel is available, but the information does not confirm suitability for a particular corrosive service. Optional materials to meet NACE MR0103 or NACE MR0175 / ISO 15156 are available when specified."
+ }
+]

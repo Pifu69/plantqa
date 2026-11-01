@@ -1,0 +1,544 @@
+[
+ {
+  "item": "992c10d90f",
+  "gold": {
+   "answer": "Radial bearing: open cylindrical roller; thrust bearing: open double row ball. They are oil-lubricated (SAE 30 non-detergent oil, constant level oiler), not greased; no interval is given.",
+   "answerable": "partial",
+   "category": "value",
+   "must": [
+    "cylindrical roller + double row ball",
+    "oil (SAE 30), not grease",
+    "interval not given"
+   ],
+   "relation": "downstream",
+   "via_tag": "P-11-3",
+   "question": "Consider the item directly downstream of BV-11-1 in the process flow. What bearings are in it, and how often do they need greasing?"
+  },
+  "candidate": "P-11-3 has an open cylindrical roller bearing and an open double-row ball bearing. The datasheet specifies SAE 30 non-detergent oil for lubrication but does not state how often they need greasing."
+ },
+ {
+  "item": "d4b4a1d49c",
+  "gold": {
+   "answer": "Not in the document. This pump has two replaceable wear rings (gray iron 25), no wear plate is mentioned; no clearance values.",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated",
+    "(wear rings, not a wear plate)"
+   ],
+   "question": "Regarding P-1-1 on the P&ID: How do I set the impeller-to-wear-plate clearance, and what should it be?"
+  },
+  "candidate": "Not in the documents. The P-1-1 datasheet (Gorman-Rupp 0700286) does not contain any information on how to set the impeller-to-wear-plate clearance or a specified clearance value. It covers pump specifications, materials, pressures, bearings, and performance curves only. That information is not present in the available documents."
+ },
+ {
+  "item": "97eddf650b",
+  "gold": {
+   "answer": "–76 °F (–60 °C) cold temperature operation.",
+   "answerable": "yes",
+   "category": "value",
+   "must": [
+    "–60 °C",
+    "–76 °F"
+   ],
+   "relation": "measured_by",
+   "via_tag": "FT-11-1",
+   "question": "Consider the transmitter that measures E-11-1. What is the lowest operating temperature you get with the BR6 cold temperature option?"
+  },
+  "candidate": "The transmitter measuring E-11-1 is FT-11-1 (a Rosemount 3051). With the BR6 cold temperature option, the lowest operating (ambient) temperature is -76 °F (-60 °C). This applies to pressure ranges 1–5 with 4–20 mA HART or FOUNDATION Fieldbus and silicone fill, and is subject to certain approval-code and option restrictions."
+ },
+ {
+  "item": "2c85e3d0d9",
+  "gold": {
+   "answer": "No troubleshooting in the datasheet. Related facts only: it needs at least 0.5 bar differential pressure to open; voltage must match the type plate (±10 %). The installation manual (www.gfps.com/is-manuals-valves) is referred to.",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "no troubleshooting information in the document"
+   ],
+   "question": "Regarding GV-1-2 on the P&ID: It hums but won't open. What could be wrong?"
+  },
+  "candidate": "The datasheet does not confirm that GV-1-2 is this Type 165 valve, so it cannot identify the fault. If it is, the valve is solenoid-actuated and requires at least 0.5 bar differential pressure to open; insufficient differential pressure could prevent opening. The documents provide no specific troubleshooting information."
+ },
+ {
+  "item": "f37c02dbb7",
+  "gold": {
+   "answer": "Not stated in the document",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "Not stated in the document"
+   ],
+   "relation": "measured_by",
+   "via_tag": "FT-5-1",
+   "question": "Consider the transmitter that measures E-5-1. What recalibration interval does Emerson recommend for the 3051?"
+  },
+  "candidate": "Not in the documents. The datasheet does not state a recommended recalibration interval. It lists 5-year stability, but not as a recalibration recommendation."
+ },
+ {
+  "item": "e5f359ccc8",
+  "gold": {
+   "answer": "Not in the document (no troubleshooting).",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated"
+   ],
+   "question": "Regarding FV-15-3 on the P&ID: The valve leaks through when shut. Is it the seat ring or the plug seal, and how do I check?"
+  },
+  "candidate": "The FV-15-3 datasheet lists a seat ring and plug-seal components, but the exact parts depend on the valve’s trim and construction. It does not identify which component causes shutoff leakage or specify a check to distinguish them."
+ },
+ {
+  "item": "5802a5286d",
+  "gold": {
+   "answer": "–76 °F (–60 °C) cold temperature operation.",
+   "answerable": "yes",
+   "category": "value",
+   "must": [
+    "–60 °C",
+    "–76 °F"
+   ],
+   "relation": "measured_by",
+   "via_tag": "FT-11-1",
+   "question": "Consider the transmitter that measures E-11-1. What is the lowest operating temperature you get with the BR6 cold temperature option?"
+  },
+  "candidate": "The transmitter that measures E-11-1 is FT-11-1, a Rosemount 3051 per its datasheet. With the BR6 cold temperature option, the lowest operating (ambient) temperature is -76 °F (-60 °C), with the option covering -60 to +85 °C (-76 to +185 °F)."
+ },
+ {
+  "item": "90bf869556",
+  "gold": {
+   "answer": "Not in the datasheet (only: maintenance by authorized specialists per the installation manual; a wear part set exists).",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated in the document"
+   ],
+   "question": "Regarding GV-1-1 on the P&ID: It's letting fluid through when it should be shut. What usually causes that and how do I fix it?"
+  },
+  "candidate": "The available description does not identify causes of leakage or provide troubleshooting or repair steps for GV-1-1. It only identifies it as a fail-safe-to-close solenoid valve; consult the valve manufacturer or a qualified technician for diagnosis."
+ },
+ {
+  "item": "4f4ff85eda",
+  "gold": {
+   "answer": "Not stated in the document",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "Not stated in the document"
+   ],
+   "relation": "measured_by",
+   "via_tag": "FT-5-1",
+   "question": "Consider the transmitter that measures E-5-1. What recalibration interval does Emerson recommend for the 3051?"
+  },
+  "candidate": "Not in the documents. The datasheet for FT-5-1 (Rosemount 3051) does not state a recommended recalibration interval from Emerson. It only mentions calibration-related ordering options (e.g., calibration certificate option Q4, certificate with tamper-evident seal QP, flow calibration for the 3051CFC, gauge calibration for the 3051CA) and a 5-year stability option, which is a stability specification, not a recalibration interval."
+ },
+ {
+  "item": "079cf3d5e5",
+  "gold": {
+   "answer": "Not stated (no spare parts recommendation; the sectional drawing only names the parts).",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated"
+   ],
+   "relation": "downstream",
+   "via_tag": "P-2-5",
+   "question": "Consider the item directly downstream of GV-2-4 in the process flow. Which spare parts should I keep on the shelf for this pump?"
+  },
+  "candidate": "The datasheet does not specify which spare parts to keep on the shelf. It identifies a component as replaceable (quantity two), but does not state whether it should be stocked."
+ },
+ {
+  "item": "9ad0eb7171",
+  "gold": {
+   "answer": "Mechanical, self-lubricated seal: silicon carbide rotating and stationary faces, fluorocarbon (Viton or equivalent) elastomers, 316 stainless shaft sleeve and spring. No part number is given.",
+   "answerable": "partial",
+   "category": "value",
+   "must": [
+    "mechanical self-lubricated seal",
+    "part number not given"
+   ],
+   "relation": "upstream",
+   "via_tag": "P-15-1",
+   "question": "Consider the item directly upstream of BV-15-1 in the process flow. What kind of shaft seal does it have, and what's the part number for a replacement seal?"
+  },
+  "candidate": "The item directly upstream of BV-15-1 is pump P-15-1. It has a mechanical, self-lubricated shaft seal, with silicon carbide rotating and stationary faces, a stainless steel 316 shaft sleeve and spring, and fluorocarbon elastomers (DuPont Viton or equivalent). The datasheet does not provide a part number for a replacement seal; for optional (non-standard) seals it says only 'Consult Factory'."
+ },
+ {
+  "item": "d1d279d836",
+  "gold": {
+   "answer": "Not stated in the document",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "Not stated in the document"
+   ],
+   "question": "Regarding FT-11-1 on the P&ID: What torque should the coplanar flange bolts be tightened to?"
+  },
+  "candidate": "Not in the documents. The provided datasheet does not contain a specific torque value for the coplanar flange bolts. While the document lists various bolt material options and sizes, no tightening torque is given."
+ },
+ {
+  "item": "b36f0d7ae3",
+  "gold": {
+   "answer": "Not in the document (only bolting materials and temperature limits).",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated"
+   ],
+   "relation": "operated_by",
+   "via_tag": "LV-17-1",
+   "question": "Consider the valve operated by control loop LIC-17-1. What torque should the bonnet bolts be tightened to?"
+  },
+  "candidate": "Not in the documents. The valve operated by control loop LIC-17-1 is LV-17-1 (a globe valve driven via an actuator that LIC-17-1 signals). Its datasheet does not contain any tightening torque specification for the bonnet bolts, so the required torque cannot be determined from the available information."
+ },
+ {
+  "item": "8f24b858fb",
+  "gold": {
+   "answer": "3051C: 1/4-18 NPT on 2 1/8-inch centers; 1/2-14 NPT on 2-, 2 1/8- or 2 1/4-inch centers (1/2-14 NPT flange adapters option DF, not valid with S3, S4, S5, S6; RC1/4 flange with RC1/2 adapter option D9). 3051T: 1/2-14 NPT female, G1/2 A DIN 16288 male (ranges 1-4), autoclave F-250-C (ranges 5-6), non-threaded instrument flange (code 61). Yes, manifolds can be factory assembled: 3051C option S5 assemble to Rosemount 305 Integral Manifold, S6 assemble to Rosemount 304 Manifold or Connection System (assemble-to items specified separately with completed model number); 3051T option S5 assemble to Rosemount 306 Integral Manifold.",
+   "answerable": "yes",
+   "category": "conditional",
+   "must": [
+    "1/4-18 NPT on 2 1/8 in centers",
+    "1/2-14 NPT with flange adapters (DF)",
+    "S5 305 integral manifold / S6 304 manifold (3051C); S5 306 (3051T)"
+   ],
+   "relation": "measured_by",
+   "via_tag": "FT-3-2",
+   "question": "Consider the transmitter that measures E-3-1. What's the process connection on the flange — 1/4 NPT? Can I get it with a manifold already fitted?"
+  },
+  "candidate": "The FT-3-2 flange connection can be 1/4-18 NPT on 2⅛-inch centers, or 1/2-14 NPT on 2-, 2⅛-, or 2¼-inch centers. It can be factory assembled with an optional Rosemount 304, 305, or 306 integral manifold. The datasheet does not state which connection or manifold option is fitted to this specific transmitter."
+ },
+ {
+  "item": "2934b242bb",
+  "gold": {
+   "answer": "A standard centrifugal pump on a basic pedestal (bare shaft), size 4\" x 2 1/2\". The meaning of the model code is not explained.",
+   "answerable": "partial",
+   "category": "value",
+   "must": [
+    "standard centrifugal pump (pedestal)",
+    "4\" x 2 1/2\"",
+    "model code not explained"
+   ],
+   "relation": "upstream",
+   "via_tag": "P-1-1",
+   "question": "Consider the item directly upstream of BV-1-1 in the process flow. What kind of pump is a VGH2 1/2C31-B, and what does the model code tell me?"
+  },
+  "candidate": "P-1-1 is a standard centrifugal pump, listed as size 4 in × 2½ in. The datasheet identifies its model as VGH2 1/2C31-B but does not explain the individual parts of the model code."
+ },
+ {
+  "item": "9817005349",
+  "gold": {
+   "answer": "Not in the document. This pump has two replaceable wear rings (gray iron 25), no wear plate is mentioned; no clearance values.",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated",
+    "(wear rings, not a wear plate)"
+   ],
+   "question": "Regarding P-1-1 on the P&ID: How do I set the impeller-to-wear-plate clearance, and what should it be?"
+  },
+  "candidate": "The provided information does not specify how to adjust the impeller-to-wear-plate clearance or what the clearance should be."
+ },
+ {
+  "item": "a3ec25e0d2",
+  "gold": {
+   "answer": "Not in the datasheet (only: maintenance by authorized specialists per the installation manual; a wear part set exists).",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated in the document"
+   ],
+   "question": "Regarding GV-1-1 on the P&ID: It's letting fluid through when it should be shut. What usually causes that and how do I fix it?"
+  },
+  "candidate": "Not in the documents. The documents don't say what causes a GV-1-1 leak-through or how to fix it — the datasheet contains no troubleshooting or failure-mode information. What it does show is that GV-1-1 is a GF Type 165 servo-controlled 2/2-way solenoid diaphragm valve, fail-safe to close, with a minimum differential pressure of 0.5 bar needed to open and close it, pressure range 0.5–6 bar, and closing times of 1,000–4,000 ms. The only maintenance guidance given is general: service only by authorized specialists with proper tools, secure the system against unintentional operation, ensure a controlled restart, and follow the installation manual (included and at www.gfps.com/is-manuals-valves). A wear part set and a coil set are listed as spare parts. The causes and repair steps for leakage in the closed state are not stated in the available documents."
+ },
+ {
+  "item": "defade2955",
+  "gold": {
+   "answer": "Not stated in the document",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "Not stated in the document"
+   ],
+   "relation": "fed_by_transmitter",
+   "via_tag": "FT-15-3",
+   "question": "Consider the transmitter that feeds controller FIC-15-3. What is the MTBF of the 3051CFC compact flow meter?"
+  },
+  "candidate": "The datasheet does not provide an MTBF value for the 3051CFC compact flow meter."
+ },
+ {
+  "item": "eb375ddeb7",
+  "gold": {
+   "answer": "Casing ductile iron; impeller gray iron 40 (wear rings gray iron 25, shaft steel 1045, seal faces silicon carbide). Suitability for pH 5 is not stated.",
+   "answerable": "partial",
+   "category": "value",
+   "must": [
+    "casing ductile iron",
+    "impeller gray iron 40",
+    "pH not stated"
+   ],
+   "relation": "downstream",
+   "via_tag": "P-2-1",
+   "question": "Consider the item directly downstream of BV-1-2 in the process flow. What are the casing and impeller made of? Can it take slightly acidic water around pH 5?"
+  },
+  "candidate": "The item directly downstream of BV-1-2 is pump P-2-1, a centrifugal pump. Its datasheet states that the casing is made of ductile iron and the impeller is made of Gray Iron 40 (an enclosed, six-vane impeller). The datasheet does not specify any pH range or chemical compatibility data, so suitability for slightly acidic water around pH 5 cannot be confirmed from the available information; it only covers water and petroleum service, with materials such as ductile iron, gray iron, stainless steel 316, silicon carbide, Viton and nitrile in contact with the liquid, and any definite answer on pH 5 water would need to come from the manufacturer."
+ },
+ {
+  "item": "06bd9f34c4",
+  "gold": {
+   "answer": "Not in the datasheet (only: maintenance by authorized specialists per the installation manual; a wear part set exists).",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated in the document"
+   ],
+   "question": "Regarding GV-1-1 on the P&ID: It's letting fluid through when it should be shut. What usually causes that and how do I fix it?"
+  },
+  "candidate": "The datasheet does not state what usually causes GV-1-1 to pass fluid when shut or how to fix that specific problem. It says maintenance must be performed by authorized specialists using appropriate tools and following the installation instructions."
+ },
+ {
+  "item": "a74258f3ab",
+  "gold": {
+   "answer": "–76 °F (–60 °C) cold temperature operation.",
+   "answerable": "yes",
+   "category": "value",
+   "must": [
+    "–60 °C",
+    "–76 °F"
+   ],
+   "relation": "measured_by",
+   "via_tag": "FT-11-1",
+   "question": "Consider the transmitter that measures E-11-1. What is the lowest operating temperature you get with the BR6 cold temperature option?"
+  },
+  "candidate": "The BR6 option provides cold-temperature operation down to -76 °F (-60 °C)."
+ },
+ {
+  "item": "e3ed2fd15b",
+  "gold": {
+   "answer": "Standard cages (quick-opening, linear, equal percentage), restricted-capacity trims, Whisper Trim I / III, Whisper NXG and WhisperFlo cages for aerodynamic noise in gas service, Cavitrol III one- and two-stage cages against cavitation (liquid, high pressure drop), DST dirty service trim, TSO tight shutoff trim, Trim Cartridge.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "Whisper / WhisperFlo for noise (gas)",
+    "Cavitrol III for cavitation / high ΔP (liquid)"
+   ],
+   "relation": "operated_by",
+   "via_tag": "FV-15-3",
+   "question": "Consider the valve operated by control loop FIC-15-3. What trim options are there, and which one is for high pressure drop or noise?"
+  },
+  "candidate": "The valve operated by control loop FIC-15-3 is TV-15-2, a Fisher easy-e (ET/EAT/ETR) globe control valve. Its documentation offers a wide range of trim options: standard metal trims (numbers 1, 3, 4, 5, 6, 27, 28, 29, 37/37H, 57, 316L, 316L HF), PTFE-seat trims (4C/29C, 29C or 57C), the Trim Cartridge trims (1TC, 27TC, 29TC, 85TC, 87TC NACE), TSO (Tight Shutoff) trim, NACE sour-service trims (85, 85C, 86, 87, 87C), Cavitrol III trim (trim 76, for cavitation protection), and the Whisper Trim III / Whisper NXG and WhisperFlo trims. For high pressure drop and noise service, the Whisper Trim III, Whisper NXG and WhisperFlo aerodynamic cages are the noise-attenuating options, and the Cavitrol III cage (trim 76) is the option for high pressure drop / cavitation protection."
+ },
+ {
+  "item": "d650d01a60",
+  "gold": {
+   "answer": "No troubleshooting in the datasheet. Related facts only: it needs at least 0.5 bar differential pressure to open; voltage must match the type plate (±10 %). The installation manual (www.gfps.com/is-manuals-valves) is referred to.",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "no troubleshooting information in the document"
+   ],
+   "question": "Regarding GV-1-2 on the P&ID: It hums but won't open. What could be wrong?"
+  },
+  "candidate": "GV-1-2 is described as a GF Piping Systems Type 165 2/2-way solenoid valve. A humming coil that fails to open suggests an electrical or differential-pressure problem: the valve needs a minimum differential pressure of 0.5 bar to open and close (and its operating pressure range is 0.5–6 bar, with Δp = 1 bar listed as the test condition), so if the differential pressure across the valve is below 0.5 bar it will hum but not open. Also check the coil supply: the valve is rated for 24V DC, 230V 50/60 Hz or 115V 50/60 Hz with a voltage tolerance of ±10 %, and the type plate's voltage and current type must be observed — a wrong or out-of-tolerance supply voltage (or a coil set mismatched to the supply, e.g. the 110V AC vs 230V AC vs 24V DC coil sets) could cause hum without opening. If the valve still fails, consult the maintenance notes: maintenance must be done only by authorized specialists, the valve secured against unintentional operation, and a controlled restart performed afterwards, following the installation manual (available with the product and at www.gfps.com/is-manuals-valves)."
+ },
+ {
+  "item": "40d93a1dea",
+  "gold": {
+   "answer": "Not in the document (only bolting materials and temperature limits).",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated"
+   ],
+   "relation": "operated_by",
+   "via_tag": "LV-17-1",
+   "question": "Consider the valve operated by control loop LIC-17-1. What torque should the bonnet bolts be tightened to?"
+  },
+  "candidate": "The description does not specify a bonnet-bolt tightening torque."
+ },
+ {
+  "item": "f22a679202",
+  "gold": {
+   "answer": "No troubleshooting in the datasheet. Related facts only: it needs at least 0.5 bar differential pressure to open; voltage must match the type plate (±10 %). The installation manual (www.gfps.com/is-manuals-valves) is referred to.",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "no troubleshooting information in the document"
+   ],
+   "question": "Regarding GV-1-2 on the P&ID: It hums but won't open. What could be wrong?"
+  },
+  "candidate": "GV-1-2 is a Type 165 servo-controlled 2/2-way solenoid diaphragm valve (fail-safe to close). The datasheet has no troubleshooting section, but the specs most relevant to 'hums but won't open' are: (1) a minimum differential pressure of 0.5 bar is required to open the valve — since it is servo-operated, the pressure difference does the opening work, so if Δp is below 0.5 bar the coil can hum while the diaphragm never lifts; (2) the supply voltage must match the type plate (24V DC, 230V or 115V AC, tolerance ±10 %) — under-voltage or a wrong voltage/current type could also cause humming without opening, though the datasheet does not explicitly state this as a fault cause. Other limits worth checking: media must be clean liquids without solid particles, viscosity max 21 mm²/s, media temperature 0 to +50 °C (PVC housing), operating pressure range 0.5–6 bar (PN 6). The datasheet lists these limits but does not link them to the fault."
+ },
+ {
+  "item": "74940cd0a0",
+  "gold": {
+   "answer": "Not stated in the document",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "Not stated in the document"
+   ],
+   "relation": "measured_by",
+   "via_tag": "FT-5-1",
+   "question": "Consider the transmitter that measures E-5-1. What recalibration interval does Emerson recommend for the 3051?"
+  },
+  "candidate": "The provided datasheet facts do not state an Emerson-recommended recalibration interval for the 3051."
+ },
+ {
+  "item": "b1bd56c790",
+  "gold": {
+   "answer": "Not stated (no spare parts recommendation; the sectional drawing only names the parts).",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated"
+   ],
+   "relation": "downstream",
+   "via_tag": "P-2-5",
+   "question": "Consider the item directly downstream of GV-2-4 in the process flow. Which spare parts should I keep on the shelf for this pump?"
+  },
+  "candidate": "Not in the documents. The item directly downstream of GV-2-4 is centrifugal pump P-2-5 (Gorman-Rupp, datasheet gorman-rupp-0700286). Its datasheet does not contain a recommended spare parts list — no part numbers or quantities of spares to keep on hand are stated. The closest relevant information is the pump specifications listing replaceable/service-related items: replaceable wear rings (Gray Iron 25), a ductile iron seal plate, nitrile rubber gaskets, open cylindrical roller and open double row ball bearings (SAE 30 non-detergent oil), and a mechanical shaft seal with silicon carbide faces, Viton elastomers, and a stainless steel 316 shaft sleeve and spring. A formal spare-parts recommendation is not stated in the documents."
+ },
+ {
+  "item": "1c9d5364d3",
+  "gold": {
+   "answer": "Casing ductile iron; impeller gray iron 40 (wear rings gray iron 25, shaft steel 1045, seal faces silicon carbide). Suitability for pH 5 is not stated.",
+   "answerable": "partial",
+   "category": "value",
+   "must": [
+    "casing ductile iron",
+    "impeller gray iron 40",
+    "pH not stated"
+   ],
+   "relation": "downstream",
+   "via_tag": "P-2-1",
+   "question": "Consider the item directly downstream of BV-1-2 in the process flow. What are the casing and impeller made of? Can it take slightly acidic water around pH 5?"
+  },
+  "candidate": "The casing is ductile iron and the impeller is gray iron 40. The datasheet does not specify whether it can handle slightly acidic water around pH 5."
+ },
+ {
+  "item": "790b1feaea",
+  "gold": {
+   "answer": "Not in the document (no troubleshooting).",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated"
+   ],
+   "question": "Regarding FV-15-3 on the P&ID: The valve leaks through when shut. Is it the seat ring or the plug seal, and how do I check?"
+  },
+  "candidate": "The available information does not identify whether the leak is at the seat ring or plug seal, and it gives no procedure for checking which one is leaking."
+ },
+ {
+  "item": "31d52f1a3b",
+  "gold": {
+   "answer": "No motor is specified (basic pedestal pump; curves for 1150-3450 rpm). The 50 Hz 1450 rpm curve exists; over its operating range the power stays at or below the 7.5 BHP (5.6 kW) line, so a 7.5 kW 1450 rpm motor is enough for that speed.",
+   "answerable": "partial",
+   "category": "chart",
+   "must": [
+    "no motor specified",
+    "1450 rpm curve exists",
+    "power ≤ ~5.6 kW at 1450 rpm"
+   ],
+   "relation": "upstream",
+   "via_tag": "P-11-2",
+   "question": "Consider the item directly upstream of BV-11-1 in the process flow. What motor size and speed is it meant to run at? We have a 7.5 kW 1450 rpm motor in stock."
+  },
+  "candidate": "The datasheet does not specify a single intended motor size and speed. Its 60 Hz performance curve lists speeds from 1,150 to 3,450 rpm and power from 3 to 75 BHP, so it does not establish whether your 7.5 kW, 1,450 rpm motor matches."
+ },
+ {
+  "item": "4c531317e2",
+  "gold": {
+   "answer": "Casing ductile iron; impeller gray iron 40 (wear rings gray iron 25, shaft steel 1045, seal faces silicon carbide). Suitability for pH 5 is not stated.",
+   "answerable": "partial",
+   "category": "value",
+   "must": [
+    "casing ductile iron",
+    "impeller gray iron 40",
+    "pH not stated"
+   ],
+   "relation": "downstream",
+   "via_tag": "P-2-1",
+   "question": "Consider the item directly downstream of BV-1-2 in the process flow. What are the casing and impeller made of? Can it take slightly acidic water around pH 5?"
+  },
+  "candidate": "The casing is ductile iron and the impeller is gray iron 40. The datasheet does not state whether it can handle water around pH 5."
+ },
+ {
+  "item": "ecbc35c067",
+  "gold": {
+   "answer": "Not stated in the document",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "Not stated in the document"
+   ],
+   "question": "Regarding FT-11-1 on the P&ID: What torque should the coplanar flange bolts be tightened to?"
+  },
+  "candidate": "The datasheet does not state a tightening torque for the coplanar flange bolts. It gives the bolt size (3/8-16) for callouts B and D."
+ },
+ {
+  "item": "ae671ed0c6",
+  "gold": {
+   "answer": "Radial bearing: open cylindrical roller; thrust bearing: open double row ball. They are oil-lubricated (SAE 30 non-detergent oil, constant level oiler), not greased; no interval is given.",
+   "answerable": "partial",
+   "category": "value",
+   "must": [
+    "cylindrical roller + double row ball",
+    "oil (SAE 30), not grease",
+    "interval not given"
+   ],
+   "relation": "downstream",
+   "via_tag": "P-11-3",
+   "question": "Consider the item directly downstream of BV-11-1 in the process flow. What bearings are in it, and how often do they need greasing?"
+  },
+  "candidate": "It has open cylindrical roller and open double-row ball bearings. The description specifies SAE 30 non-detergent oil for bearing lubrication, but does not state a greasing frequency."
+ },
+ {
+  "item": "b743307414",
+  "gold": {
+   "answer": "No troubleshooting in the datasheet. Related facts only: it needs at least 0.5 bar differential pressure to open; voltage must match the type plate (±10 %). The installation manual (www.gfps.com/is-manuals-valves) is referred to.",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "no troubleshooting information in the document"
+   ],
+   "question": "Regarding GV-1-2 on the P&ID: It hums but won't open. What could be wrong?"
+  },
+  "candidate": "The description does not provide troubleshooting information for a valve that hums but will not open, so the cause cannot be determined."
+ },
+ {
+  "item": "633c2c1fc6",
+  "gold": {
+   "answer": "Not in the document (no troubleshooting).",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated"
+   ],
+   "question": "Regarding FV-15-3 on the P&ID: The valve leaks through when shut. Is it the seat ring or the plug seal, and how do I check?"
+  },
+  "candidate": "Not in the documents. The documents do not identify the specific size, trim number or shutoff leakage class for FV-15-3, and they contain no troubleshooting or inspection procedure, so I cannot tell you whether the leak is from the seat ring or the plug seal or how to check it. What the datasheet does state about this valve's construction: it is a Fisher ET single-port globe valve with cage guiding and a balanced plug, push-down-to-close. Its shutoff class is per ANSI/FCI 70-2 / IEC 60534-4: Class IV is standard with metal seating; Class V requires a spring-loaded seal ring, radius-seat plug and wide-bevel seat ring; Class VI uses a UHMWPE seal ring with S31600/PTFE or wide-beveled S31600 seat rings; TSO trim is a replaceable, protected soft seat, factory tested to no leakage at shipment (water medium), classified Class V. The trim actually fitted to your valve must be read from the valve nameplate or order documents, which are not available here."
+ }
+]

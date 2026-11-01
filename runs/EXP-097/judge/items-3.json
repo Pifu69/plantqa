@@ -1,0 +1,165 @@
+[
+ {
+  "item": "cced230587",
+  "gold": {
+   "answer": "E-21-1 (alfalaval-m3): depends on the construction (Frame FG, ASME pressure vessel code: 10.3 barg / 150 psig; Frame FG, PED pressure vessel code: 16.0 barg / 232 psig) (p. 2) PT-49-1 (rosemount-3051-00813-0100-4001): depends on the construction (3051CD static pressure limit (ranges 2-5): 3,626 psig (4,500 psig (310.26 bar) with option P9); 3051CD static pressure limit, Range 0: 750 psig (51.71 bar); 3051CD static pressure limit, Range 1: 2,000 psig (137.90 bar); 3051CD/CG/CF overpressure limit, Ranges 2-5: 3,626 psig (250.00 bar), 4500 psig (310.26 bar) for option P9) (p. 88) Which one is the lowest cannot be decided from the datasheets alone.",
+   "answerable": "yes",
+   "must": [
+    "E-21-1: depends on the construction (Frame FG, ASME pressure vessel code: 10.3 barg / 150 psig; Frame FG, PED pressure vessel code: 16.0 barg / 232 psig)",
+    "PT-49-1: depends on the construction (3051CD static pressure limit (ranges 2-5): 3,626 psig (4,500 psig (310.26 bar) with option P9); 3051CD static pressure limit, Range 0: 750 psig (51.71 bar); 3051CD static pressure limit, Range 1: 2,000 psig (137.90 bar); 3051CD/CG/CF overpressure limit, Ranges 2-5: 3,626 psig (250.00 bar), 4500 psig (310.26 bar) for option P9)",
+    "says the comparison depends on the construction (not decidable as asked)"
+   ],
+   "per_tag": {
+    "E-21-1": {
+     "note": "Max. design pressure; extended pressure and temperature rating may be available on request.",
+     "page": 2,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Frame FG, ASME pressure vessel code",
+       "unit": "barg",
+       "value": 10.3,
+       "value_text": "10.3 barg / 150 psig"
+      },
+      {
+       "condition": "Frame FG, PED pressure vessel code",
+       "unit": "barg",
+       "value": 16.0,
+       "value_text": "16.0 barg / 232 psig"
+      }
+     ]
+    },
+    "PT-49-1": {
+     "note": "No single 'maximum working pressure'; static pressure limit (3051CD) and burst limits on p88, overpressure limits per model/range and 3051L flange ratings (Table 4) on p87; the 3051CD static limit is the DP working-pressure value.",
+     "page": 88,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "3051CD static pressure limit (ranges 2-5)",
+       "unit": "psig",
+       "value": 3626,
+       "value_text": "3,626 psig (4,500 psig (310.26 bar) with option P9)"
+      },
+      {
+       "condition": "3051CD static pressure limit, Range 0",
+       "unit": "psig",
+       "value": 750,
+       "value_text": "750 psig (51.71 bar)"
+      },
+      {
+       "condition": "3051CD static pressure limit, Range 1",
+       "unit": "psig",
+       "value": 2000,
+       "value_text": "2,000 psig (137.90 bar)"
+      },
+      {
+       "condition": "3051CD/CG/CF overpressure limit, Ranges 2-5",
+       "unit": "psig",
+       "value": 3626,
+       "value_text": "3,626 psig (250.00 bar), 4500 psig (310.26 bar) for option P9"
+      },
+      {
+       "condition": "3051CA overpressure limit, Range 4",
+       "unit": "psia",
+       "value": 6000,
+       "value_text": "6,000 psia (413.69 bar)"
+      },
+      {
+       "condition": "3051TG/TA overpressure limit, Range 6",
+       "unit": "psi",
+       "value": 24000,
+       "value_text": "24,000 psi (1654.74 bar)"
+      },
+      {
+       "condition": "3051L / level flange, ANSI Class 600 CS (SST 1,440 psig), at 100 °F",
+       "unit": "psig",
+       "value": 1480,
+       "value_text": "1,480 psig"
+      },
+      {
+       "condition": "Burst pressure, 3051C/3051CF coplanar or traditional flange",
+       "unit": "psig",
+       "value": 10081,
+       "value_text": "10,081 psig (695,06 bar)"
+      }
+     ]
+    }
+   },
+   "question": "Compare the item directly downstream of GV-21-1 in the process flow and the transmitter that measures P-49-3: which of the two has the lowest maximum allowable pressure according to its datasheet, and what are the two values?"
+  },
+  "candidate": "E-21-1 has a maximum design pressure of 16.0 barg (PED) or 10.3 barg (ASME). PT-49-1’s maximum allowable pressure cannot be determined without its model and range; its datasheet lists different limits depending on those details, so which item has the lower value is not stated."
+ },
+ {
+  "item": "b697ffb0cc",
+  "gold": {
+   "answer": "GV-24-4 (gfps-165-solenoid-valve): +50 °C (media temperature, PVC housing 0 to +50 °C) (p. 2) FV-17-1 (flowserve-worcester-f51-f52): depends on the construction (Delrin seat: 80°C (180°F); UHMWPE seat: 90°C (200°F); Virgin PTFE seat: 230°C (450°F); Reinforced PTFE seat: 230°C (450°F)) (p. 7) Lowest: GV-24-4 (for every listed construction).",
+   "answerable": "yes",
+   "must": [
+    "GV-24-4: +50 °C (media temperature, PVC housing 0 to +50 °C)",
+    "FV-17-1: depends on the construction (Delrin seat: 80°C (180°F); UHMWPE seat: 90°C (200°F); Virgin PTFE seat: 230°C (450°F); Reinforced PTFE seat: 230°C (450°F))",
+    "lowest: GV-24-4"
+   ],
+   "per_tag": {
+    "FV-17-1": {
+     "note": "Maximum seat temperature ratings; the p6 P-T chart axis only extends to 300 °C (572 °F).",
+     "page": 7,
+     "single_value": false,
+     "values": [
+      {
+       "condition": "Delrin seat",
+       "unit": "°C",
+       "value": 80,
+       "value_text": "80°C (180°F)"
+      },
+      {
+       "condition": "UHMWPE seat",
+       "unit": "°C",
+       "value": 90,
+       "value_text": "90°C (200°F)"
+      },
+      {
+       "condition": "Virgin PTFE seat",
+       "unit": "°C",
+       "value": 230,
+       "value_text": "230°C (450°F)"
+      },
+      {
+       "condition": "Reinforced PTFE seat",
+       "unit": "°C",
+       "value": 230,
+       "value_text": "230°C (450°F)"
+      },
+      {
+       "condition": "Fluorofill/Polyfill seat",
+       "unit": "°C",
+       "value": 260,
+       "value_text": "260°C (500°F)"
+      },
+      {
+       "condition": "PEEK seat",
+       "unit": "°C",
+       "value": 315,
+       "value_text": "315°C (600°F)"
+      },
+      {
+       "condition": "Metal seat (A or G)",
+       "unit": "°C",
+       "value": 315,
+       "value_text": "315°C (600°F)"
+      }
+     ]
+    },
+    "GV-24-4": {
+     "note": "Ambient limit is separately 0 to +40 °C.",
+     "page": 2,
+     "single_value": true,
+     "unit": "°C",
+     "value": 50,
+     "value_text": "+50 °C (media temperature, PVC housing 0 to +50 °C)"
+    }
+   },
+   "question": "Compare the item directly downstream of TV-24-3 in the process flow and the valve operated by control loop FIC-17-1: which of the two has the lowest maximum fluid temperature according to its datasheet, and what are the two values?"
+  },
+  "candidate": "GV-24-4 has the lower maximum fluid temperature: 50 °C, compared with FV-17-1’s highest listed rating of 315 °C (600 °F), which depends on seat material."
+ }
+]

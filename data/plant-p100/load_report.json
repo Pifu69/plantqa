@@ -1,0 +1,105 @@
+{
+  "documents_loaded": [
+    "alfalaval-m3",
+    "fisher-et-d100022x012",
+    "flowserve-worcester-f51-f52",
+    "gfps-165-solenoid-valve",
+    "gorman-rupp-0700286",
+    "rosemount-3051-00813-0100-4001",
+    "swagelok-ms-01-176"
+  ],
+  "documents_missing_graph": [],
+  "described_by_edges": 644,
+  "vectors": {
+    "alfalaval-m3": 109,
+    "fisher-et-d100022x012": 1704,
+    "flowserve-worcester-f51-f52": 1221,
+    "gfps-165-solenoid-valve": 329,
+    "gorman-rupp-0700286": 1689,
+    "rosemount-3051-00813-0100-4001": 4684,
+    "swagelok-ms-01-176": 4753
+  },
+  "seconds": {
+    "reset": 10.656949599971995,
+    "plant_layer": 3.4276694000000134,
+    "vectors": 43.94776400004048,
+    "total": 68.16762030008249
+  },
+  "device_seconds": {
+    "alfalaval-m3": {
+      "seconds": 0.3807690000394359,
+      "nodes": 135
+    },
+    "fisher-et-d100022x012": {
+      "seconds": 2.0668786999303848,
+      "nodes": 3324
+    },
+    "flowserve-worcester-f51-f52": {
+      "seconds": 0.5641091000288725,
+      "nodes": 1627
+    },
+    "gfps-165-solenoid-valve": {
+      "seconds": 0.1690691999392584,
+      "nodes": 599
+    },
+    "gorman-rupp-0700286": {
+      "seconds": 0.8910659999819472,
+      "nodes": 2629
+    },
+    "rosemount-3051-00813-0100-4001": {
+      "seconds": 2.4694761000573635,
+      "nodes": 10928
+    },
+    "swagelok-ms-01-176": {
+      "seconds": 1.6003592999186367,
+      "nodes": 8373
+    }
+  },
+  "counts": {
+    "plant_nodes": 1018,
+    "plant_relationships": 3515,
+    "device_nodes": 27615,
+    "shared_vocabulary_nodes": 221,
+    "device_relationships": 103366,
+    "described_by": 644,
+    "all_nodes": 28856,
+    "all_relationships": 107525,
+    "per_document": [
+      {
+        "doc": "alfalaval-m3",
+        "nodes": 135,
+        "relationships": 401
+      },
+      {
+        "doc": "fisher-et-d100022x012",
+        "nodes": 3324,
+        "relationships": 13932
+      },
+      {
+        "doc": "flowserve-worcester-f51-f52",
+        "nodes": 1627,
+        "relationships": 7704
+      },
+      {
+        "doc": "gfps-165-solenoid-valve",
+        "nodes": 599,
+        "relationships": 2278
+      },
+      {
+        "doc": "gorman-rupp-0700286",
+        "nodes": 2629,
+        "relationships": 9029
+      },
+      {
+        "doc": "rosemount-3051-00813-0100-4001",
+        "nodes": 10928,
+        "relationships": 39412
+      },
+      {
+        "doc": "swagelok-ms-01-176",
+        "nodes": 8373,
+        "relationships": 30573
+      }
+    ]
+  }
+}

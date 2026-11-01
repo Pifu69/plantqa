@@ -1,0 +1,103 @@
+{
+  "runs": [
+    {
+      "command": "python -m plantqa.eval.run --exp EXP-096 --method M1 --model glm --split test --allow-paid",
+      "method": "M1",
+      "model_id": "z-ai/glm-5.3-flash",
+      "split": "test",
+      "git_commit": "35bcdfe",
+      "started": "2026-11-01T08:42:48+00:00",
+      "spent_before_usd": 16.0379
+    },
+    {
+      "command": "python -m plantqa.eval.run --exp EXP-096 --method M1 --model glm --split dev --allow-paid",
+      "method": "M1",
+      "model_id": "z-ai/glm-5.3-flash",
+      "split": "dev",
+      "git_commit": "35bcdfe",
+      "started": "2026-11-01T08:42:49+00:00",
+      "spent_before_usd": 16.0379
+    },
+    {
+      "command": "python -m plantqa.eval.run --exp EXP-096 --method M1 --model luna --split test --allow-paid",
+      "method": "M1",
+      "model_id": "openai/gpt-6-luna",
+      "split": "test",
+      "git_commit": "35bcdfe",
+      "started": "2026-11-01T08:42:58+00:00",
+      "spent_before_usd": 16.0386
+    },
+    {
+      "command": "python -m plantqa.eval.run --exp EXP-096 --method M1 --model luna --split dev --allow-paid",
+      "method": "M1",
+      "model_id": "openai/gpt-6-luna",
+      "split": "dev",
+      "git_commit": "35bcdfe",
+      "started": "2026-11-01T08:43:02+00:00",
+      "spent_before_usd": 16.0411
+    },
+    {
+      "command": "python -m plantqa.eval.run --exp EXP-096 --method M2 --model glm --split dev --allow-paid",
+      "method": "M2",
+      "model_id": "z-ai/glm-5.3-flash",
+      "split": "dev",
+      "git_commit": "35bcdfe",
+      "started": "2026-11-01T08:43:11+00:00",
+      "spent_before_usd": 16.0489
+    },
+    {
+      "command": "python -m plantqa.eval.run --exp EXP-096 --method M2 --model luna --split test --allow-paid",
+      "method": "M2",
+      "model_id": "openai/gpt-6-luna",
+      "split": "test",
+      "git_commit": "35bcdfe",
+      "started": "2026-11-01T08:43:20+00:00",
+      "spent_before_usd": 16.0558
+    },
+    {
+      "command": "python -m plantqa.eval.run --exp EXP-096 --method M2 --model luna --split dev --allow-paid",
+      "method": "M2",
+      "model_id": "openai/gpt-6-luna",
+      "split": "dev",
+      "git_commit": "35bcdfe",
+      "started": "2026-11-01T08:43:24+00:00",
+      "spent_before_usd": 16.0607
+    },
+    {
+      "command": "python -m plantqa.eval.run --exp EXP-096 --method M3 --model glm --split test --allow-paid",
+      "method": "M3",
+      "model_id": "z-ai/glm-5.3-flash",
+      "split": "test",
+      "git_commit": "35bcdfe",
+      "started": "2026-11-01T08:43:27+00:00",
+      "spent_before_usd": 16.0627
+    },
+    {
+      "command": "python -m plantqa.eval.run --exp EXP-096 --method M3 --model glm --split dev --allow-paid",
+      "method": "M3",
+      "model_id": "z-ai/glm-5.3-flash",
+      "split": "dev",
+      "git_commit": "35bcdfe",
+      "started": "2026-11-01T08:43:30+00:00",
+      "spent_before_usd": 16.0655
+    },
+    {
+      "command": "python -m plantqa.eval.run --exp EXP-096 --method M3 --model luna --split test --allow-paid",
+      "method": "M3",
+      "model_id": "openai/gpt-6-luna",
+      "split": "test",
+      "git_commit": "35bcdfe",
+      "started": "2026-11-01T08:43:36+00:00",
+      "spent_before_usd": 16.0855
+    },
+    {
+      "command": "python -m plantqa.eval.run --exp EXP-096 --method M3 --model luna --split dev --allow-paid",
+      "method": "M3",
+      "model_id": "openai/gpt-6-luna",
+      "split": "dev",
+      "git_commit": "35bcdfe",
+      "started": "2026-11-01T08:43:39+00:00",
+      "spent_before_usd": 16.0918
+    }
+  ]
+}

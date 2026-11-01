@@ -1,0 +1,224 @@
+[
+ {
+  "item": "30706edd16",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Omits CHV-26-1 and picks BV-26-1 Delrin as lowest instead of not decidable."
+ },
+ {
+  "item": "dd795ad9e1",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Gives single values and picks CHV-26-1 as lowest; gold says not decidable."
+ },
+ {
+  "item": "1e01303e16",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Says pressures cannot be identified; gold has BV-26-1 lowest."
+ },
+ {
+  "item": "e56cded155",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "GV-24-4 50 C lowest right, but FV-17-1 given as 260 C instead of seat-dependent range from 80 C."
+ },
+ {
+  "item": "a1dc31545c",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Claims no comparison possible; gold has P-50-1 160 F lowest."
+ },
+ {
+  "item": "497a19cab3",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "GV-24-4 50 C lowest; FV-17-1 depends on seat (80-315 C)."
+ },
+ {
+  "item": "4b149157d9",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "GV-5-1 6 bar lowest and P-12-1 values right, but BV-5-2 chart values missing."
+ },
+ {
+  "item": "4d69b1a7af",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "P-50-1 71 C lowest; FT-31-1 configuration-dependent from 85 C."
+ },
+ {
+  "item": "5c3af1f033",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "P-50-1 160 F lowest; FT-31-1 configuration-dependent from 185 F."
+ },
+ {
+  "item": "763ae23e37",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Picks E-21-1 as lowest; gold says comparison not decidable."
+ },
+ {
+  "item": "b047e255a8",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Says BV-5-2 pressure unavailable and gives no comparison; gold has GV-5-1 6 bar lowest."
+ },
+ {
+  "item": "3d12a07fad",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Gives only maximum ratings and picks CHV-26-1 as lowest; gold says not decidable."
+ },
+ {
+  "item": "ed249d13bf",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "E-3-1 lowest with both codes right, but P-50-4 266 psi casing pressure missing."
+ },
+ {
+  "item": "d9645ed762",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "GV-5-1 50 C lowest; BV-5-2 seat-dependent 80-315 C; P-12-1 71 C."
+ },
+ {
+  "item": "60a9bfefb6",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "GV-47-2 50 C lowest, but CHV-47-1 given as single 204 C instead of construction-dependent values."
+ },
+ {
+  "item": "c23eb0c035",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Says values not provided; gold has E-3-1 lowest."
+ },
+ {
+  "item": "863bc04c18",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Full ranges and caveat that it depends on material, but still names CHV-26-1 lowest instead of undecidable."
+ },
+ {
+  "item": "bdb411962e",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Says lowest cannot be determined; gold has BV-26-1 lowest."
+ },
+ {
+  "item": "a122b9d2a8",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "P-50-1 lowest right, but FT-31-1 given only by its 401 F maximum, not the construction values."
+ },
+ {
+  "item": "e2cbea9882",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "GV-5-1 lowest right, but BV-5-2 given only as up to 315 C."
+ },
+ {
+  "item": "a3a54298a8",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Says not decidable with E-21-1 values right, but gives no PT-49-1 values."
+ },
+ {
+  "item": "8024d57c9a",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Picks E-21-1 as lowest; gold says comparison not decidable."
+ },
+ {
+  "item": "ee87cfd532",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "E-3-1 lowest with both codes right, but P-50-4 266 psi casing pressure missing."
+ },
+ {
+  "item": "53273b5e67",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "GV-5-1 lowest right, but BV-5-2 given only as 315 C max."
+ },
+ {
+  "item": "db5bcb73f7",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Only identifies P-12-1 and gives no comparison; gold has GV-5-1 lowest."
+ },
+ {
+  "item": "5633589210",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "No answer (step limit)."
+ },
+ {
+  "item": "fba2b68937",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "No answer (step limit)."
+ },
+ {
+  "item": "f968e26ff8",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "BV-26-1 lowest; BV chart values and all CHV-26-1 series ratings given."
+ },
+ {
+  "item": "dd1156bc3c",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "GV-24-4 50 C lowest; FV-17-1 lowest rating 80 C Delrin noted."
+ },
+ {
+  "item": "35d212aaf1",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "GV-5-1 lowest and P-12-1 values right, but BV-5-2 chart values not given."
+ },
+ {
+  "item": "9f94185040",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "GV-47-2 50 C lowest, but CHV-47-1 given as unsupported 316 C."
+ },
+ {
+  "item": "45ae31865e",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Says no item pressures available; gold has values for all items."
+ },
+ {
+  "item": "79116269f6",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Concludes no unconditional lowest (matches gold), but valve chart values and CHV series ranges missing."
+ },
+ {
+  "item": "17dabce46c",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "E-3-1 lowest with both codes right, but P-50-4 266 psi casing pressure missing."
+ },
+ {
+  "item": "eee70548f7",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "GV-5-1 6 bar lowest; BV-5-2 class values and P-12-1 250/266 psi given."
+ },
+ {
+  "item": "351788bcd5",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "BV-26-1 lowest correct, but CHV-26-1 3000 psig and brass 1500 psig ratings missing."
+ },
+ {
+  "item": "6f0374b420",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Names GV-6-1 as lowest; gold says not decidable."
+ }
+]

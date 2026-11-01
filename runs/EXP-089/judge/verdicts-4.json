@@ -1,0 +1,188 @@
+[
+ {
+  "item": "bb0ee47794",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Says causes and fix are not stated; only refers to authorized maintenance per the manual."
+ },
+ {
+  "item": "72b96c2002",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly says the RTD type and class are not stated."
+ },
+ {
+  "item": "93d9ab5da4",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Has the direction, default high and alarm levels, but misses the output M internal jumper."
+ },
+ {
+  "item": "a229299be6",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "PVC body; seals can be FKM instead of EPDM."
+ },
+ {
+  "item": "6c08e2d096",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Kv per DN with the measurement conditions."
+ },
+ {
+  "item": "6fe9c7b96b",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Gives the value and the test levels but leaves out the IEC 60770-1:1999 high-vibration reference."
+ },
+ {
+  "item": "94c1a57821",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Standard centrifugal pump, 4 x 2 1/2 in, model code not explained."
+ },
+ {
+  "item": "3546c56d22",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Kv per DN with the measurement conditions."
+ },
+ {
+  "item": "90715dd2b0",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly says it is not specified."
+ },
+ {
+  "item": "78868981ce",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly says causes and fix are not stated."
+ },
+ {
+  "item": "2e4f1db672",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Has the 1450 rpm curve and no motor specified, but misses the power at or below 5.6 kW and the conclusion that the motor is enough."
+ },
+ {
+  "item": "196f003d90",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly says part numbers are not given."
+ },
+ {
+  "item": "a8771602d6",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly says causes and fix are not stated."
+ },
+ {
+  "item": "8ece087030",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Weight is right, but it says the dimensions are not stated and omits that the motor is not included."
+ },
+ {
+  "item": "84151be21d",
+  "verdict": "partial",
+  "cites_page": true,
+  "reason": "Weight is right, but it says the dimensions are not stated and omits that the motor is not included."
+ },
+ {
+  "item": "4f94975898",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly says no shock rating is stated."
+ },
+ {
+  "item": "ced7c802de",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Has high/low by jumper, but misses default high, the alarm levels and output M."
+ },
+ {
+  "item": "94efaa0f2e",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Standard centrifugal pump, 4 x 2 1/2 in, model code not explained."
+ },
+ {
+  "item": "ad3658d541",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly says the RTD type and class are not stated."
+ },
+ {
+  "item": "cdee04e0cf",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "PVC body, EPDM or FKM seals, FKM as the compatible choice."
+ },
+ {
+  "item": "b9ba494e69",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Lists all body materials including CF8M/CF3M stainless."
+ },
+ {
+  "item": "c310676284",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Gives the 1450 rpm curve up to 5.6 kW, but does not conclude that the 7.5 kW motor is enough."
+ },
+ {
+  "item": "e2279c69ce",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly says no shock rating is stated."
+ },
+ {
+  "item": "b07f797d63",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Gives 1/4-18 NPT on 2 1/8 in centers and that an integral manifold is available, but not the DF adapters or the S5/S6 options."
+ },
+ {
+  "item": "4422bbfab2",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Only CE is listed; neither approval is stated."
+ },
+ {
+  "item": "6e31b69811",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Says neither is confirmed, but does not say that CE is the only approval listed."
+ },
+ {
+  "item": "1dc31818c5",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly says no shock rating is stated."
+ },
+ {
+  "item": "fbdd5f3e97",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly says no such warning is stated."
+ },
+ {
+  "item": "40ab881ea5",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Gets the three standard cage characteristics, but misses that the special cages are linear only."
+ },
+ {
+  "item": "401b78a4b9",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly says it is not stated."
+ },
+ {
+  "item": "594e136d2f",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Whisper trims for noise and Cavitrol III for cavitation."
+ }
+]

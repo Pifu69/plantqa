@@ -1,46 +1,67 @@
 # Adatok és feladat
 
-Ebben a fejezetben bemutatjuk a mérés tárgyát: a három példaüzem rajzát, a tagelt elemeikhez
-tartozó gyártói adatlapokat és az üzemenként 60 kérdésből álló kérdéssort. A kis üzemen
-fejlesztettük a módszereket, a két nagy üzemen változtatás nélkül mértük meg őket. Minden számot a mellette megadott mérés
-(EXP-azonosító) rögzít; a mérések listája a `docs/eredmenyek.md` fájlban található.
+Ebben a fejezetben bemutatjuk a mérés tárgyát: a példaüzemek rajzát, a tagelt elemeikhez
+tartozó gyártói adatlapokat és az üzemenként 60 kérdésből álló kérdéssort. Az első prototípus egy
+kis, négylapos üzemen készült. A közös rendszert ezután két fejlesztési üzemen (30 és 50 lap)
+hangoltuk, a hangolt és befagyasztott rendszert pedig két tesztüzemen (100 és 1000 lap) mértük
+meg, amelyeket a hangolás során nem használtunk.
 
-## A kis példaüzem
+## A kis példaüzem (az első prototípus)
 
-Egy közepesen bonyolult, többlapos P&ID-t generáltunk Kiszely Benedek seedelt generátorával
-(plantgraph, v1). A generátor pyDEXPI-modellt épít, a lapokra bontó a vágott vezetékekből
+Az első prototípushoz egy közepesen bonyolult, többlapos P&ID-t generáltunk Kiszely Benedek
+generátorával (plantgraph), annak egyszerűbb, első változatával. A generátor véletlenszerűen
+dönt; a seed a véletlenszám-generátorának kezdőértéke, és ugyanaz a seed mindig ugyanazt az üzemet
+adja, így az üzem pontosan újra előállítható. A valósághűbb, későbbi
+változatot azért nem használhattuk, mert csak az első változatban lehet a generált
+berendezésosztályokat (a berendezéssúlyokkal) azokra szűkíteni, amelyekhez van gyártói
+adatlapunk, és ez az adatlapok hozzárendeléséhez szükséges; a későbbi változat olyan
+berendezésosztályokat is generál, amelyekhez nincs adatlapunk. A generátor pyDEXPI-modellt épít, a lapokra bontó a vágott vezetékekből
 lapok közötti csatlakozópárokat (off-page connector) képez, és maga a bontás a megoldókulcs. A
-generátort nem módosítottuk. Két eszközzel szűkítettünk: a berendezéssúlyok csak olyan
-osztályokat engednek, amelyekhez van adatlap (centrifugálszivattyú, hőcserélő), a
-szabályozókörök változóját (áramlás, szint, nyomás, hőmérséklet) pedig seedkereséssel
-szűrtük. Az 1-es seedtől indulva az első olyan seedet fogadtuk el, amelynek üzemében csak
-áramlás- és nyomásszabályozó kör van (a nyomástávadó adatlapja mindkettőt lefedi), a tagelt
-elemek száma 20 és 40 közé, a lapoké 2 és 4 közé esik, és minden adatlaptípus szerepel. Ez a
-6-os seed lett: 26 tagelt elem, 4 lap, 4 lapközi csatlakozópár, 36 csúcs és 116 kapcsolat a
-Neo4j-ben tárolt üzemi rétegben (EXP-002). A visszaépítési ellenőrzés (a lapokból feloldott
+generátort nem módosítottuk, két ponton szűkítettünk. Először a berendezéssúlyokkal csak olyan
+berendezésosztályokat engedtünk meg, amelyekhez van adatlap (centrifugálszivattyú, hőcserélő).
+Másodszor a szabályozóköröket szűrtük. A generátor szabályozóköröket is tesz az üzembe, és
+mindegyik kör egy változót szabályoz: áramlást, szintet, nyomást vagy hőmérsékletet. A kör
+távadójához adatlap kell, a gyűjteményünk egyetlen távadó-adatlapja (Rosemount 3051) viszont
+nyomás- és nyomáskülönbség-távadóé, amely a nyomás és az áramlás mérését lefedi, a szintét és a
+hőmérsékletét nem. A kis prototípus-üzemhez ezért csak olyan üzemet fogadtunk el, amelynek minden
+köre áramlás- vagy nyomásszabályozó kör. A seedeket sorban (1, 2, 3, …) kipróbáltuk, és az első
+olyan üzemet fogadtuk el, amely ezen felül 20–40 tagelt elemet és 2–4 lapot tartalmaz, és
+amelyben minden adatlaptípus szerepel (ez a 6-os seed volt). Az üzem 26 tagelt elemből és 4
+lapból áll, 4 lapközi csatlakozópárral; a Neo4j-ben tárolt üzemi rétege 36 csúcs és 116
+kapcsolat (EXP-002). A visszaépítési ellenőrzés (a lapokból feloldott
 üzem azonos-e a generálttal) hibátlan volt.
 
-![A kis példaüzem egyik lapja (Benedek rajzexportja, EXP-003). A jobb szélen a lapközi csatlakozó.](../../figures/pid_sheet0.png)
+![A kis példaüzem egyik lapja. A jobb szélen a lapközi csatlakozó.](../../figures/pid_sheet0.png)
 
-## A két nagy példaüzem
+## A fejlesztési és a tesztüzemek
 
-A kis üzem négy lapja egy valódi üzemnél nagyságrendekkel kisebb, ezért a közös mérést egy
-nagyobb üzemen is elvégeztük. Ugyanazzal a generátorral, ugyanazokkal a berendezéssúlyokkal és
-ugyanazzal a hét adatlappal 15 egységes üzemet generáltunk; az elfogadási határ 120–400 tagelt
-elem és 24–40 lap volt. A szabályozókörök változóját itt nem szűrtük, mert ennyi körnél szinte
-minden seedben van szint- és hőmérséklet-szabályozás is. Ezek távadójához nem rendeltünk
-adatlapot, mert a gyűjtemény nyomástávadója (Rosemount 3051) ezeket nem méri; egy valódi
-üzemben sem tartozik minden elemhez adatlap a rendelkezésre álló dokumentumok között. Az első
-elfogadott seed (1) üzeme 27 lapos, 190 tagelt elemmel, amelyek közül 164-hez tartozik adatlap;
-adatlap nélkül marad 18 szabályozófunkció és 8 szint- vagy hőmérséklet-távadó (EXP-051). Egy
-adatlap így több tagot is leír: például 58 szivattyú ugyanazt a Gorman-Rupp adatlapot kapja,
-ahogy egy valódi üzemben is ugyanaz a típus több helyen beépül.
+A kis üzem négy lapja egy valódi üzemnél nagyságrendekkel kisebb, ezért a közös rendszert négy
+nagyobb üzemen hangoltuk és mértük. A két fejlesztési üzem pontosan 30 és 50 lapos; ezeken
+hangoltuk a módszereket. A két tesztüzem pontosan 100 és 1000 lapos; ezeket a hangolás során nem
+használtuk, és a hangolt, befagyasztott módszereket ezeken mértük meg. Mind a négyet ugyanazzal a
+generátorral, ugyanazokkal a berendezéssúlyokkal és ugyanazzal a hét adatlappal generáltuk; az
+egységszámot (17, 28, 57, illetve 600) úgy választottuk, hogy a lapszám pontosan elérhető legyen,
+és az elfogadási feltétel a pontos lapszám volt (az első elfogadott seed: 13, 5, 12, illetve 1;
+EXP-080, EXP-092). A nagyobb üzemeknél nem követeltük meg, hogy minden kör áramlás- vagy
+nyomásszabályozó legyen, mert ennyi körnél szinte minden üzemben van szint- és
+hőmérséklet-szabályozó kör is, így egyetlen seed sem felelt volna meg. Ehelyett a szint- és
+hőmérséklet-távadók egyszerűen nem kapnak adatlapot, ahogy egy valódi üzemben sincs minden elem
+adatlapja kéznél.
 
-Ugyanígy, 55 egységgel egy kb. 100 lapos üzemet is generáltunk (elfogadási határ 500–1500 tagelt
-elem és 90–115 lap). Az első elfogadott seed (1) üzeme 98 lapos, 765 tagelt elemmel, amelyek közül
-640-hez tartozik adatlap; adatlap nélkül marad 83 szabályozófunkció és 42 szint- vagy
-hőmérséklet-távadó (EXP-064). A két nagy üzem így lapszámban körülbelül 7-szer, illetve 25-ször, a
-tagelt elemek számában 7-szer, illetve 29-szer nagyobb a kis üzemnél.
+Táblázat: A fejlesztési és a tesztüzemek (EXP-080, EXP-092)
+| Szerep | Lap | Egység | Tagelt elem | Adatlappal | Szabályozófunkció adatlap nélkül | Szint- vagy hőmérséklet-távadó adatlap nélkül |
+|---|---|---|---|---|---|---|
+| fejlesztési | 30 | 17 | 206 | 174 | 19 | 13 |
+| fejlesztési | 50 | 28 | 378 | 324 | 40 | 14 |
+| teszt | 100 | 57 | 772 | 644 | 87 | 41 |
+| teszt | 1000 | 600 | 7854 | 6641 | 821 | 392 |
+
+Egy adatlap így több tag-et is leír: a 30 lapos üzemen például 53 szivattyú ugyanazt a Gorman-Rupp
+adatlapot kapja, ahogy egy valódi üzemben is ugyanaz a típus több helyen beépül. A 30, 100 és
+1000 lapos üzem lapszámban 7,5-szer, 25-ször, illetve 250-szer, a tagelt elemek számában
+körülbelül 8-szor, 30-szor, illetve 300-szor nagyobb a kis üzemnél. A generátor szabályokra épül
+(egységek, berendezések, csővezetékek, ISA-szerű tag-ek, szabályozókörök, lapközi csatlakozók), de
+az üzemek nem létező üzemek rajzai: a kapcsolások véletlenszerűek, a technológia nincs méretezve.
 
 ## Adatlapok
 
@@ -52,7 +73,7 @@ szabályozófunkcióhoz (FIC, PIC) nem rendeltünk adatlapot, mert ezek a folyam
 rendszer funkciói, gyártói adatlapjuk nincs.
 
 Táblázat: Elemosztályok és adatlapok a példaüzemben (EXP-002, EXP-006, EXP-007)
-| DEXPI-osztály (szerep) | Tagek | Adatlap | Oldal |
+| DEXPI-osztály (szerep) | Tag-ek | Adatlap | Oldal |
 |---|---|---|---|
 | CentrifugalPump | P-1-1 … P-2-3 (8 db) | Gorman-Rupp VGH (0700286) | 6 |
 | HeatExchanger | E-1-1, E-2-1, E-2-2, E-2-3 | Alfa Laval M3 | 2 |
@@ -65,29 +86,29 @@ Táblázat: Elemosztályok és adatlapok a példaüzemben (EXP-002, EXP-006, EXP
 Az adatlapokból a plantdocs tíz lépéses folyamata épít ISO 15926 / QUDT szerinti tudásgráfot
 (Azure Document Intelligence, rekordok, ábrák, diagramok, célformátum, forrásleírások,
 szókészlet, RDF). A korábban feldolgozott négy eszköz közül a Fisher, a GF 165 és a
-Gorman-Rupp gráfja a plantdocs Opusszal épített változata (a plantdocs EXP-0030-ja szerint). A
+Gorman-Rupp gráfja a plantdocs Opusszal épített változata. A
 Rosemount 3051-et és a három új adatlapot most dolgoztuk fel: a folyamat programlépései
 változatlanok, az LLM-lépéseket a claude-opus-5-5 modell végezte (EXP-006). A Rosemount 3051
 Opus-gráfja 91 202 tripletből és 3538, az eszközről szóló tényből áll, szemben ugyanennek a
-dokumentumnak a plantdocs EXP-0038-ban GLM-mel épített gráfjával (20 973 triplet, 626 tény, a
-plantdocs saját jelentése szerint). A három új adatlap gráfja 1102, 16 281 és 66 747 tripletes
+dokumentumnak a plantdocs korábbi, GLM-mel épített gráfjával (20 973 triplet, 626 tény). A három új adatlap gráfja 1102, 16 281 és 66 747 tripletes
 (Alfa Laval M3, Worcester F51/F52, Swagelok MS-01-176; EXP-006).
 
 ## A kérdéssor
 
-A kis üzem kérdéssora 60 kérdésből áll, négy családban (lásd a második táblázatot ebben a fejezetben). Családonként 5 kérdés a fejlesztési
-(dev) halmazba, 10 a teszthalmazba került; a teszthalmazt a módszerek fejlesztése előtt
-befagyasztottuk (sha256-tal rögzítve, EXP-004), és csak a végső mérésnél futtattuk. A nagy üzem
-kérdéssorát ugyanaz a program, ugyanazzal a seeddel állította elő (27 lap: EXP-052, 98 lap:
-EXP-065); mivel a módszereket a nagy üzemeken nem fejlesztettük, ott mind a 60 kérdés
-tesztkérdés. Mindhárom üzemhez tartozik 12 további, több adatlapot összevető kérdés is (az (e)
-család, EXP-009, EXP-052, EXP-065).
+A kis üzem kérdéssora 60 kérdésből áll, négy családban (lásd a második táblázatot ebben a
+fejezetben). Családonként 5 kérdés a fejlesztési (dev) halmazba, 10 a teszthalmazba került; a
+teszthalmazt az első prototípus fejlesztése előtt befagyasztottuk (sha256-tal rögzítve, EXP-004),
+és csak a prototípus végső mérésénél futtattuk. A két fejlesztési és a két tesztüzem kérdéssorát
+ugyanaz a program, ugyanazzal a seeddel állította elő (EXP-081, EXP-092). A fejlesztési üzemek
+kérdéseit a hangoláshoz használtuk; a tesztüzemek kérdéseit a hangolás alatt nem futtattuk, ott
+mind a 60 kérdés tesztkérdés. Minden üzemhez tartozik 12 további, több adatlapot összevető kérdés
+is (az (e) család, EXP-009, EXP-081, EXP-092).
 
 Táblázat: A kérdéscsaládok (EXP-004)
 | Család | Mit kérdez | Referenciaválasz forrása | Dev / teszt |
 |---|---|---|---|
 | (a) csak rajz | kapcsolat, áramlási út, felső források, műszerek, típus, egység, lapok | Benedek kérdésgenerátora a gold gráfból | 5 / 10 |
-| (b) csak adatlap, tagen át | „Regarding P-1-3 on the P&ID: …” | a plantdocs EXP-0026 / EXP-0039 gold párjai | 5 / 10 |
+| (b) csak adatlap, tag-en át | „Regarding P-1-3 on the P&ID: …” | Szabó Zsombor egyéni munkájának kérdés–válasz párjai | 5 / 10 |
 | (c) összetett | egy topológiai lépés és egy adatlapi tény | programmal összerakva (a) és (b) goldjából | 5 / 10 |
 | (d) megválaszolhatatlan | nem létező tag, a dokumentumban nem szereplő tény | Benedek generátora, plantdocs „not in document” párok | 5 / 10 |
 
@@ -95,19 +116,19 @@ Az összetett kérdések topológiai lépését a gold üzemgráfból program sz
 lépés marad (pl. „a P-1-1 előtt közvetlenül álló elem”, „az E-2-1-et mérő távadó”, „a PIC-2-1
 kör által működtetett szelep”), és csak olyan, amelynek cél-eleméhez van gold kérdés. A
 kérdés szövege a lépés és az eredeti adatlapi kérdés összefűzése. A (b)–(d) családok
-referenciaválaszai modellkészítésűek: a plantdocs EXP-0026 és EXP-0039 válaszait egy Opus-modell
-írta a PDF-ből, és azokat ember nem ellenőrizte. Ezt a korlátot a kiértékelésnél figyelembe
+referenciaválaszai modellkészítésűek: az adatlapi válaszokat (Szabó Zsombor egyéni munkájából) egy
+Opus-modell írta a PDF-ből, és azokat ember nem ellenőrizte. Ezt a korlátot a kiértékelésnél figyelembe
 vesszük.
 
 ## Pontozás
 
 Ahol a válasz programmal ellenőrizhető, programmal pontozunk. Az (a) család és a rajzos
-megválaszolhatatlan kérdések Benedek pontozóját használják (tagek halmaza, rendezett út, szám,
+megválaszolhatatlan kérdések Benedek pontozóját használják (tag-ek halmaza, rendezett út, szám,
 igen/nem, tartózkodás). A szabad szöveges kérdéseknél programmal helyes a válasz, ha a gold
 minden kötelező eleme számot tartalmaz, és minden szám a mértékegységével együtt megjelenik a
 válaszban; programmal rossz a megválaszolható kérdésre adott „nincs benne”, programmal helyes a
 megválaszolhatatlanra adott „nincs benne”. Minden más tételt vak bíráló pontoz: a claude-opus-5-5 modell
-(vak bírálóként), a plantdocs EXP-0029 bírálati promptjával szó szerint (helyes, részben helyes, rossz,
+(vak bírálóként), Szabó Zsombor egyéni munkájának bírálati promptjával szó szerint (helyes, részben helyes, rossz,
 hallucinált). A bíráló csak a kérdést, a gold választ és a jelölt választ látja; a tételek
 sorrendje kevert, az azonosítójuk nem árulja el, melyik módszer és melyik modell válaszolt.
 Pontosságnak a helyes válaszok arányát tekintjük.

@@ -1,0 +1,48 @@
+[
+ {
+  "item": "ce7ba84c93",
+  "gold": {
+   "answer": "Maximum casing pressure 266 psi (1834 kPa); maximum operating pressure 250 psi (1723 kPa) at temperatures up to 100 °F (37 °C), based on system component limitations; consult the factory for higher.",
+   "answerable": "yes",
+   "category": "footnote",
+   "must": [
+    "266 psi (1834 kPa) casing",
+    "250 psi operating up to 37 °C"
+   ],
+   "question": "Regarding P-1-1 on the P&ID: What's the max allowable pressure in the casing? We might have a pressurized inlet."
+  },
+  "candidate": "The maximum allowable casing pressure for P-1-1 is 266 psi (1834 kPa)."
+ },
+ {
+  "item": "bf2ecc7b1b",
+  "gold": {
+   "answer": "A sliding-stem, single-port globe-style control valve (body) with cage guiding, balanced valve plug and push-down-to-close plug action, for throttling or on-off control of liquids and gases (part of the easy-e family; EAT = angle version, ETR = push-down-to-open). It is combined with an actuator, e.g. 667.",
+   "answerable": "yes",
+   "category": "value",
+   "must": [
+    "globe-style control valve (sliding stem)",
+    "cage-guided, balanced plug"
+   ],
+   "relation": "upstream",
+   "via_tag": "TV-10-2",
+   "question": "Consider the item directly upstream of BV-10-1 in the process flow. What is a Fisher ET? Is it the valve body, and what kind of valve is it?"
+  },
+  "candidate": "The item directly upstream of BV-10-1 is TV-10-2, a globe valve whose datasheet is a Fisher ET. A Fisher ET is a complete control valve, not just the valve body — the datasheet describes it as a single-port, globe-style control valve with cage guiding, a balanced valve plug, and push-down-to-close action, consisting of the body plus trim, bonnet and other parts. It is a globe-style (globe-type) control valve, used for throttling or on-off control of a wide variety of liquids and gases. (Its related variants are the EAT angle-body version and the ETR push-down-to-open version.)"
+ },
+ {
+  "item": "a93a8d0fbd",
+  "gold": {
+   "answer": "Not in the document (no safety or maintenance procedure).",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated"
+   ],
+   "relation": "operated_by",
+   "via_tag": "TV-43-2",
+   "question": "Consider the valve operated by control loop TIC-43-2. What do I need to do before taking the bonnet off so I don't get hurt by trapped pressure?"
+  },
+  "candidate": "Not in the documents. The valve operated by TIC-43-2 is TV-43-2, a globe control valve. However, its datasheet (Fisher ET/D100022X012) does not contain any instructions or precautions for removing the bonnet or relieving trapped pressure before removal — no depressurizing, venting, or safety procedure is described. The only pressure-related warnings given are general: do not exceed the pressure/temperature rating of the valve or the maximum pressure and temperature for the pressure rating of the body material. The datasheet also notes the body can stay in the pipeline during trim removal and that the ETR body interior can be accessed without removing the bonnet or actuator, but no bonnet-removal safety steps are stated. The specific precautions you ask about are not present in the documents."
+ }
+]

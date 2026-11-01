@@ -1,0 +1,122 @@
+[
+ {
+  "item": "d86fb04cb2",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "No answer."
+ },
+ {
+  "item": "147572b2c5",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Values mostly right but asserts GV-6-1 lowest whereas gold says not decidable."
+ },
+ {
+  "item": "bb17cf7f6f",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Claims no values for GV, FV and pumps (wrong datasheet) although gold has them."
+ },
+ {
+  "item": "22a288f37d",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Names P-12-1 lowest and omits GV-5-1."
+ },
+ {
+  "item": "032a967dc8",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Gives construction-dependent values for both and says comparison depends on materials."
+ },
+ {
+  "item": "a6579cb253",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Misses P-12-1, claims no values, no conclusion; gold says GV-5-1."
+ },
+ {
+  "item": "c62ec39f15",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Does not conclude GV-5-1 lowest; says BV-5-2 cannot be ranked."
+ },
+ {
+  "item": "53160a7225",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Correct path and undecidable conclusion but claims most values absent; only check valve value."
+ },
+ {
+  "item": "cad05facc4",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Says undeterminable; gold says BV-26-1 lowest."
+ },
+ {
+  "item": "3bd421f788",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Claims values not stated; only check valve value given."
+ },
+ {
+  "item": "ae21a1d268",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "No answer."
+ },
+ {
+  "item": "980dd67200",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "GV-5-1 lowest with GV and pump values, but BV-5-2 values omitted."
+ },
+ {
+  "item": "60fd27a4e5",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "BV-26-1 lowest with chart values and check valve ratings."
+ },
+ {
+  "item": "2503c8ad22",
+  "verdict": "wrong",
+  "cites_page": true,
+  "reason": "Names CHV-26-1 lowest, contradicting gold BV-26-1."
+ },
+ {
+  "item": "195b44985d",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Wrong datasheet for GV-5-1, no values, no conclusion."
+ },
+ {
+  "item": "a6677b0eb4",
+  "verdict": "wrong",
+  "cites_page": true,
+  "reason": "Names CHV-26-1 lowest by assuming a seat; gold says not decidable."
+ },
+ {
+  "item": "09ff2e30ac",
+  "verdict": "correct",
+  "cites_page": true,
+  "reason": "BV-26-1 lowest under any configuration with values for both."
+ },
+ {
+  "item": "ec0f9c8675",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Uses wrong datasheet for GV-47-2 and says undeterminable."
+ },
+ {
+  "item": "8ad9f06dc8",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Values for all three and GV-47-2 lowest."
+ },
+ {
+  "item": "b76ad014d1",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "All three values and GV-5-1 lowest."
+ }
+]

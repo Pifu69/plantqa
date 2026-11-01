@@ -1,0 +1,32 @@
+[
+ {
+  "item": "95fa1a4975",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly says part numbers are not stated."
+ },
+ {
+  "item": "b6d5c80128",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Diagnosis correctly not stated, but claims no NPSH curve exists although gold reads NPSHr from curves."
+ },
+ {
+  "item": "96cb2a697b",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Solenoid, 24 V DC and 230 V AC versions; 24 V DC works if that version is installed."
+ },
+ {
+  "item": "16e95a8aa6",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Cv 59.7 with full-sized trim, equal percentage cage, normal flow."
+ },
+ {
+  "item": "6f1c47ebb2",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Standard centrifugal pump 4\" x 2 1/2\", model code not explained."
+ }
+]

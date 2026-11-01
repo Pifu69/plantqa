@@ -1,0 +1,20 @@
+[
+ {
+  "item": "aea77707bd",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Gives 184/197 mm instead of 368 mm RF / 384 mm RTJ."
+ },
+ {
+  "item": "535e7ff017",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Casing 266 psi correct but the 250 psi operating limit up to 37 C is missing."
+ },
+ {
+  "item": "9ee5ffb09e",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "User-selectable high/low by jumper/switch, default high, standard/NAMUR/custom levels, and output M internal jumper."
+ }
+]

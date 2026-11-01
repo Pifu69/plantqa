@@ -1,0 +1,50 @@
+[
+ {
+  "item": "aea77707bd",
+  "gold": {
+   "answer": "368 mm (14.50 in.) for CL300 RF; 384 mm (15.12 in.) for CL300 RTJ (dimension A).",
+   "answerable": "yes",
+   "category": "multi_condition",
+   "must": [
+    "368 mm (RF)",
+    "RTJ differs (384 mm)"
+   ],
+   "relation": "operated_by",
+   "via_tag": "FV-12-1",
+   "question": "Consider the valve operated by control loop FIC-12-1. What's the face-to-face length for a 4 inch Class 300 flanged body?"
+  },
+  "candidate": "FIC-12-1 controls FV-12-1. The Fisher EAT dimensions list the 4-inch Class 300 face-to-face length as 184 mm (7.25 in) for RF flanges and 197 mm for RTJ flanges; the flange facing is not specified."
+ },
+ {
+  "item": "535e7ff017",
+  "gold": {
+   "answer": "Maximum casing pressure 266 psi (1834 kPa); maximum operating pressure 250 psi (1723 kPa) at temperatures up to 100 °F (37 °C), based on system component limitations; consult the factory for higher.",
+   "answerable": "yes",
+   "category": "footnote",
+   "must": [
+    "266 psi (1834 kPa) casing",
+    "250 psi operating up to 37 °C"
+   ],
+   "question": "Regarding P-1-1 on the P&ID: What's the max allowable pressure in the casing? We might have a pressurized inlet."
+  },
+  "candidate": "The maximum casing pressure for P-1-1 is 266 psi (1834 kPa)."
+ },
+ {
+  "item": "9ee5ffb09e",
+  "gold": {
+   "answer": "HART 4-20 mA: if self-diagnostics detect a sensor or microprocessor failure, the output is driven high or low; the direction is user-selectable with a jumper/switch on the transmitter. Factory default is High alarm unless specified (CT = Rosemount standard low alarm, CN = NAMUR low, C4 = NAMUR high). Levels: default high >= 21.75 mA (>= 22.5 mA with M6, DA1, T9, RK), low <= 3.75 mA; NAMUR >= 22.5 / <= 3.6 mA; custom 20.2-23.0 / 3.6-3.8 mA. Output M: below 0.94 V or above 5.4 V, selectable by internal jumper. F, W, X: failure passed as alert and status.",
+   "answerable": "yes",
+   "category": "conditional",
+   "must": [
+    "high or low, user-selectable by jumper/switch",
+    "default high",
+    "alarm values per standard/NAMUR/custom",
+    "output M internal jumper"
+   ],
+   "relation": "fed_by_transmitter",
+   "via_tag": "FT-11-1",
+   "question": "Consider the transmitter that feeds controller FIC-11-1. When the transmitter fails, does the output go high or low, and how do I change that alarm direction?"
+  },
+  "candidate": "The transmitter feeding FIC-11-1 is a Rosemount 3051 (FT-11-1). Its failure direction is not fixed — it is user-selectable. The factory default is a HIGH alarm (HART 4-20 mA output driven to ≥21.75 mA, or ≥22.5 mA for NAMUR/some option codes). To change it, you set the alarm direction with a jumper/switch on the transmitter (for output code A, HART 4-20 mA) or with an internal jumper (for the low-power output code M, which drives below 0.94 V for low alarm or above 5.4 V for high alarm). It can also be specified at ordering via alarm-level option codes: C4 (NAMUR, alarm high), CN (NAMUR, alarm low), CR/CS (custom high/low), CT (Rosemount standard low). Note: the datasheet describes only the jumper/switch method for changing the fail direction; software-menu configuration is not stated. Alarm current levels: default high ≥21.75 mA / low ≤3.75 mA; NAMUR high ≥22.5 mA / low ≤3.6 mA; custom high 20.2–23.0 mA, low 3.6–3.8 mA."
+ }
+]

@@ -1,0 +1,92 @@
+[
+ {
+  "item": "bdb880355f",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "No answer (step limit)."
+ },
+ {
+  "item": "8e0cae5fad",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "No answer (step limit)."
+ },
+ {
+  "item": "2873c7b68b",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Claims only PV-200-1 has data and reports a minimum temperature; gold lowest is GV-79-3."
+ },
+ {
+  "item": "d7ab1a8480",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Concludes E-46-2 is lowest; gold says not decidable since brass CHV is rated 250 F."
+ },
+ {
+  "item": "6ba4e14a57",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Claims no item on the path has a datasheet."
+ },
+ {
+  "item": "b894e882b1",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Correctly names E-193-1 at 10.3/16.0 barg but says BV-193-1 has no datasheet values."
+ },
+ {
+  "item": "bf4d7f1bfa",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "No answer (step limit)."
+ },
+ {
+  "item": "12f5787480",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Concludes GV valves at 6 bar are lowest; gold says the comparison cannot be decided."
+ },
+ {
+  "item": "962425cc4d",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "No answer (step limit)."
+ },
+ {
+  "item": "a47bd5d21f",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Names LV-74-3/PV-534-2 at PN16 as lowest and omits most items; contradicts gold."
+ },
+ {
+  "item": "dde536ee46",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Names ball valves at a unitless 6 as lowest; contradicts gold."
+ },
+ {
+  "item": "bf4114b053",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "E-46-2 lowest with correct values, but brass 12C/16C CHV rating given as 1300 psig instead of 1500 psig."
+ },
+ {
+  "item": "8cb074ec73",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Concludes E-46-2 is lowest although CHV brass versions go down to 250 F; gold says not decidable."
+ },
+ {
+  "item": "0f2a361394",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Values for both items given and leans to E-193-1, but says a definitive lowest cannot be fixed."
+ },
+ {
+  "item": "b827c223fc",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Both items with construction-dependent CHV values and E-46-2 lowest."
+ }
+]

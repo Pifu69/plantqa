@@ -1,0 +1,4762 @@
+[
+  {
+    "tag": "BV-1-2",
+    "node_class": "BallValve",
+    "node_id": "p100-u1-va5",
+    "document_id": "flowserve-worcester-f51-f52"
+  },
+  {
+    "tag": "BV-10-1",
+    "node_class": "BallValve",
+    "node_id": "p100-u10-va6",
+    "document_id": "flowserve-worcester-f51-f52"
+  },
+  {
+    "tag": "BV-10-2",
+    "node_class": "BallValve",
+    "node_id": "p100-u10-va7",
+    "document_id": "flowserve-worcester-f51-f52"
+  },
+  {
+    "tag": "BV-13-2",
+    "node_class": "BallValve",
+    "node_id": "p100-u13-va2",
+    "document_id": "flowserve-worcester-f51-f52"
+  },
+  {
+    "tag": "BV-13-3",
+    "node_class": "BallValve",
+    "node_id": "p100-u13-va3",
+    "document_id": "flowserve-worcester-f51-f52"
+  },
+  {
+    "tag": "BV-17-1",
+    "node_class": "BallValve",
+    "node_id": "p100-u17-va1",
+    "document_id": "flowserve-worcester-f51-f52"
+  },
+  {
+    "tag": "BV-17-2",
+    "node_class": "BallValve",
+    "node_id": "p100-u17-va4",
+    "document_id": "flowserve-worcester-f51-f52"
+  },
+  {
+    "tag": "BV-17-3",
+    "node_class": "BallValve",
+    "node_id": "p100-u17-va7",
+    "document_id": "flowserve-worcester-f51-f52"
+  },
+  {
+    "tag": "BV-17-5",
+    "node_class": "BallValve",
+    "node_id": "p100-u17-va9",
+    "document_id": "flowserve-worcester-f51-f52"
+  },
+  {
+    "tag": "BV-19-1",
+    "node_class": "BallValve",
+    "node_id": "p100-u19-va3",
+    "document_id": "flowserve-worcester-f51-f52"
+  },
+  {
+    "tag": "BV-2-1",
+    "node_class": "BallValve",
+    "node_id": "p100-u2-va2",
+    "document_id": "flowserve-worcester-f51-f52"
+  },
+  {
+    "tag": "BV-20-1",
+    "node_class": "BallValve",
+    "node_id": "p100-u20-va3",
+    "document_id": "flowserve-worcester-f51-f52"
+  },
+  {
+    "tag": "BV-22-1",
+    "node_class": "BallValve",
+    "node_id": "p100-u22-va3",
+    "document_id": "flowserve-worcester-f51-f52"
+  },
+  {
+    "tag": "BV-23-1",
+    "node_class": "BallValve",
+    "node_id": "p100-u23-va3",
+    "document_id": "flowserve-worcester-f51-f52"
+  },
+  {
+    "tag": "BV-23-3",
+    "node_class": "BallValve",
+    "node_id": "p100-u23-va7",
+    "document_id": "flowserve-worcester-f51-f52"
+  },
+  {
+    "tag": "BV-26-1",
+    "node_class": "BallValve",
+    "node_id": "p100-u26-va1",
+    "document_id": "flowserve-worcester-f51-f52"
+  },
+  {
+    "tag": "BV-3-1",
+    "node_class": "BallValve",
+    "node_id": "p100-u3-va7",
+    "document_id": "flowserve-worcester-f51-f52"
+  },
+  {
+    "tag": "BV-30-1",
+    "node_class": "BallValve",
+    "node_id": "p100-u30-va2",
+    "document_id": "flowserve-worcester-f51-f52"
+  },
+  {
+    "tag": "BV-31-1",
+    "node_class": "BallValve",
+    "node_id": "p100-u31-va1",
+    "document_id": "flowserve-worcester-f51-f52"
+  },
+  {
+    "tag": "BV-31-2",
+    "node_class": "BallValve",
+    "node_id": "p100-u31-va3",
+    "document_id": "flowserve-worcester-f51-f52"
+  },
+  {
+    "tag": "BV-36-1",
+    "node_class": "BallValve",
+    "node_id": "p100-u36-va1",
+    "document_id": "flowserve-worcester-f51-f52"
+  },
+  {
+    "tag": "BV-4-1",
+    "node_class": "BallValve",
+    "node_id": "p100-u4-va2",
+    "document_id": "flowserve-worcester-f51-f52"
+  },
+  {
+    "tag": "BV-40-2",
+    "node_class": "BallValve",
+    "node_id": "p100-u40-va2",
+    "document_id": "flowserve-worcester-f51-f52"
+  },
+  {
+    "tag": "BV-42-1",
+    "node_class": "BallValve",
+    "node_id": "p100-u42-va1",
+    "document_id": "flowserve-worcester-f51-f52"
+  },
+  {
+    "tag": "BV-42-2",
+    "node_class": "BallValve",
+    "node_id": "p100-u42-va2",
+    "document_id": "flowserve-worcester-f51-f52"
+  },
+  {
+    "tag": "BV-42-4",
+    "node_class": "BallValve",
+    "node_id": "p100-u42-va6",
+    "document_id": "flowserve-worcester-f51-f52"
+  },
+  {
+    "tag": "BV-43-2",
+    "node_class": "BallValve",
+    "node_id": "p100-u43-va3",
+    "document_id": "flowserve-worcester-f51-f52"
+  },
+  {
+    "tag": "BV-44-1",
+    "node_class": "BallValve",
+    "node_id": "p100-u44-va3",
+    "document_id": "flowserve-worcester-f51-f52"
+  },
+  {
+    "tag": "BV-45-1",
+    "node_class": "BallValve",
+    "node_id": "p100-u45-va5",
+    "document_id": "flowserve-worcester-f51-f52"
+  },
+  {
+    "tag": "BV-49-1",
+    "node_class": "BallValve",
+    "node_id": "p100-u49-va2",
+    "document_id": "flowserve-worcester-f51-f52"
+  },
+  {
+    "tag": "BV-5-1",
+    "node_class": "BallValve",
+    "node_id": "p100-u5-va2",
+    "document_id": "flowserve-worcester-f51-f52"
+  },
+  {
+    "tag": "BV-5-2",
+    "node_class": "BallValve",
+    "node_id": "p100-u5-va3",
+    "document_id": "flowserve-worcester-f51-f52"
+  },
+  {
+    "tag": "BV-50-1",
+    "node_class": "BallValve",
+    "node_id": "p100-u50-va7",
+    "document_id": "flowserve-worcester-f51-f52"
+  },
+  {
+    "tag": "BV-50-3",
+    "node_class": "BallValve",
+    "node_id": "p100-u50-va10",
+    "document_id": "flowserve-worcester-f51-f52"
+  },
+  {
+    "tag": "BV-53-2",
+    "node_class": "BallValve",
+    "node_id": "p100-u53-va4",
+    "document_id": "flowserve-worcester-f51-f52"
+  },
+  {
+    "tag": "BV-55-1",
+    "node_class": "BallValve",
+    "node_id": "p100-u55-va7",
+    "document_id": "flowserve-worcester-f51-f52"
+  },
+  {
+    "tag": "BV-57-1",
+    "node_class": "BallValve",
+    "node_id": "p100-u57-va3",
+    "document_id": "flowserve-worcester-f51-f52"
+  },
+  {
+    "tag": "BV-6-1",
+    "node_class": "BallValve",
+    "node_id": "p100-u6-va1",
+    "document_id": "flowserve-worcester-f51-f52"
+  },
+  {
+    "tag": "BV-6-2",
+    "node_class": "BallValve",
+    "node_id": "p100-u6-va2",
+    "document_id": "flowserve-worcester-f51-f52"
+  },
+  {
+    "tag": "BV-6-3",
+    "node_class": "BallValve",
+    "node_id": "p100-u6-va3",
+    "document_id": "flowserve-worcester-f51-f52"
+  },
+  {
+    "tag": "BV-6-4",
+    "node_class": "BallValve",
+    "node_id": "p100-u6-va6",
+    "document_id": "flowserve-worcester-f51-f52"
+  },
+  {
+    "tag": "BV-6-5",
+    "node_class": "BallValve",
+    "node_id": "p100-u6-va7",
+    "document_id": "flowserve-worcester-f51-f52"
+  },
+  {
+    "tag": "BV-7-2",
+    "node_class": "BallValve",
+    "node_id": "p100-u7-va7",
+    "document_id": "flowserve-worcester-f51-f52"
+  },
+  {
+    "tag": "BV-9-1",
+    "node_class": "BallValve",
+    "node_id": "p100-u9-va2",
+    "document_id": "flowserve-worcester-f51-f52"
+  },
+  {
+    "tag": "BV-9-2",
+    "node_class": "BallValve",
+    "node_id": "p100-u9-va3",
+    "document_id": "flowserve-worcester-f51-f52"
+  },
+  {
+    "tag": "BV-9-3",
+    "node_class": "BallValve",
+    "node_id": "p100-u9-va4",
+    "document_id": "flowserve-worcester-f51-f52"
+  },
+  {
+    "tag": "CHV-1-1",
+    "node_class": "CheckValve",
+    "node_id": "p100-u1-va1",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-1-2",
+    "node_class": "CheckValve",
+    "node_id": "p100-u1-va4",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-1-3",
+    "node_class": "CheckValve",
+    "node_id": "p100-u1-va7",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-1-4",
+    "node_class": "CheckValve",
+    "node_id": "p100-u1-va8",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-10-1",
+    "node_class": "CheckValve",
+    "node_id": "p100-u10-va1",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-10-2",
+    "node_class": "CheckValve",
+    "node_id": "p100-u10-va4",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-10-3",
+    "node_class": "CheckValve",
+    "node_id": "p100-u10-va8",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-11-1",
+    "node_class": "CheckValve",
+    "node_id": "p100-u11-va1",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-11-2",
+    "node_class": "CheckValve",
+    "node_id": "p100-u11-va3",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-11-3",
+    "node_class": "CheckValve",
+    "node_id": "p100-u11-va4",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-11-4",
+    "node_class": "CheckValve",
+    "node_id": "p100-u11-va5",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-11-5",
+    "node_class": "CheckValve",
+    "node_id": "p100-u11-va6",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-11-6",
+    "node_class": "CheckValve",
+    "node_id": "p100-u11-va7",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-13-1",
+    "node_class": "CheckValve",
+    "node_id": "p100-u13-va4",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-13-2",
+    "node_class": "CheckValve",
+    "node_id": "p100-u13-va7",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-14-1",
+    "node_class": "CheckValve",
+    "node_id": "p100-u14-va1",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-14-2",
+    "node_class": "CheckValve",
+    "node_id": "p100-u14-va2",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-14-3",
+    "node_class": "CheckValve",
+    "node_id": "p100-u14-va3",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-14-4",
+    "node_class": "CheckValve",
+    "node_id": "p100-u14-va4",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-15-1",
+    "node_class": "CheckValve",
+    "node_id": "p100-u15-va1",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-15-2",
+    "node_class": "CheckValve",
+    "node_id": "p100-u15-va4",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-15-3",
+    "node_class": "CheckValve",
+    "node_id": "p100-u15-va6",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-16-1",
+    "node_class": "CheckValve",
+    "node_id": "p100-u16-va1",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-16-2",
+    "node_class": "CheckValve",
+    "node_id": "p100-u16-va3",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-16-3",
+    "node_class": "CheckValve",
+    "node_id": "p100-u16-va4",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-17-1",
+    "node_class": "CheckValve",
+    "node_id": "p100-u17-va2",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-17-2",
+    "node_class": "CheckValve",
+    "node_id": "p100-u17-va6",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-17-3",
+    "node_class": "CheckValve",
+    "node_id": "p100-u17-va12",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-18-1",
+    "node_class": "CheckValve",
+    "node_id": "p100-u18-va1",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-19-1",
+    "node_class": "CheckValve",
+    "node_id": "p100-u19-va7",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-19-2",
+    "node_class": "CheckValve",
+    "node_id": "p100-u19-va8",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-2-1",
+    "node_class": "CheckValve",
+    "node_id": "p100-u2-va1",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-2-2",
+    "node_class": "CheckValve",
+    "node_id": "p100-u2-va3",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-20-1",
+    "node_class": "CheckValve",
+    "node_id": "p100-u20-va2",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-20-2",
+    "node_class": "CheckValve",
+    "node_id": "p100-u20-va5",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-21-1",
+    "node_class": "CheckValve",
+    "node_id": "p100-u21-va3",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-23-1",
+    "node_class": "CheckValve",
+    "node_id": "p100-u23-va4",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-23-2",
+    "node_class": "CheckValve",
+    "node_id": "p100-u23-va5",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-24-1",
+    "node_class": "CheckValve",
+    "node_id": "p100-u24-va1",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-24-2",
+    "node_class": "CheckValve",
+    "node_id": "p100-u24-va4",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-25-1",
+    "node_class": "CheckValve",
+    "node_id": "p100-u25-va1",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-25-2",
+    "node_class": "CheckValve",
+    "node_id": "p100-u25-va3",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-25-3",
+    "node_class": "CheckValve",
+    "node_id": "p100-u25-va5",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-26-1",
+    "node_class": "CheckValve",
+    "node_id": "p100-u26-va2",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-26-2",
+    "node_class": "CheckValve",
+    "node_id": "p100-u26-va3",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-26-3",
+    "node_class": "CheckValve",
+    "node_id": "p100-u26-va5",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-27-1",
+    "node_class": "CheckValve",
+    "node_id": "p100-u27-va2",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-28-1",
+    "node_class": "CheckValve",
+    "node_id": "p100-u28-va2",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-28-2",
+    "node_class": "CheckValve",
+    "node_id": "p100-u28-va4",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-29-1",
+    "node_class": "CheckValve",
+    "node_id": "p100-u29-va2",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-29-2",
+    "node_class": "CheckValve",
+    "node_id": "p100-u29-va4",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-3-1",
+    "node_class": "CheckValve",
+    "node_id": "p100-u3-va1",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-3-2",
+    "node_class": "CheckValve",
+    "node_id": "p100-u3-va2",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-3-3",
+    "node_class": "CheckValve",
+    "node_id": "p100-u3-va5",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-3-4",
+    "node_class": "CheckValve",
+    "node_id": "p100-u3-va6",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-3-5",
+    "node_class": "CheckValve",
+    "node_id": "p100-u3-va8",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-30-1",
+    "node_class": "CheckValve",
+    "node_id": "p100-u30-va1",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-30-2",
+    "node_class": "CheckValve",
+    "node_id": "p100-u30-va3",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-31-1",
+    "node_class": "CheckValve",
+    "node_id": "p100-u31-va4",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-31-2",
+    "node_class": "CheckValve",
+    "node_id": "p100-u31-va6",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-33-1",
+    "node_class": "CheckValve",
+    "node_id": "p100-u33-va1",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-33-2",
+    "node_class": "CheckValve",
+    "node_id": "p100-u33-va2",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-33-3",
+    "node_class": "CheckValve",
+    "node_id": "p100-u33-va4",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-33-4",
+    "node_class": "CheckValve",
+    "node_id": "p100-u33-va6",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-37-1",
+    "node_class": "CheckValve",
+    "node_id": "p100-u37-va1",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-37-2",
+    "node_class": "CheckValve",
+    "node_id": "p100-u37-va2",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-38-1",
+    "node_class": "CheckValve",
+    "node_id": "p100-u38-va1",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-38-2",
+    "node_class": "CheckValve",
+    "node_id": "p100-u38-va2",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-38-3",
+    "node_class": "CheckValve",
+    "node_id": "p100-u38-va3",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-38-4",
+    "node_class": "CheckValve",
+    "node_id": "p100-u38-va5",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-4-1",
+    "node_class": "CheckValve",
+    "node_id": "p100-u4-va1",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-4-2",
+    "node_class": "CheckValve",
+    "node_id": "p100-u4-va3",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-4-3",
+    "node_class": "CheckValve",
+    "node_id": "p100-u4-va4",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-4-4",
+    "node_class": "CheckValve",
+    "node_id": "p100-u4-va6",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-41-1",
+    "node_class": "CheckValve",
+    "node_id": "p100-u41-va1",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-41-2",
+    "node_class": "CheckValve",
+    "node_id": "p100-u41-va3",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-41-3",
+    "node_class": "CheckValve",
+    "node_id": "p100-u41-va4",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-42-1",
+    "node_class": "CheckValve",
+    "node_id": "p100-u42-va3",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-43-1",
+    "node_class": "CheckValve",
+    "node_id": "p100-u43-va4",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-43-2",
+    "node_class": "CheckValve",
+    "node_id": "p100-u43-va5",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-44-1",
+    "node_class": "CheckValve",
+    "node_id": "p100-u44-va1",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-45-1",
+    "node_class": "CheckValve",
+    "node_id": "p100-u45-va2",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-46-1",
+    "node_class": "CheckValve",
+    "node_id": "p100-u46-va3",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-47-1",
+    "node_class": "CheckValve",
+    "node_id": "p100-u47-va2",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-48-1",
+    "node_class": "CheckValve",
+    "node_id": "p100-u48-va1",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-49-1",
+    "node_class": "CheckValve",
+    "node_id": "p100-u49-va1",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-49-2",
+    "node_class": "CheckValve",
+    "node_id": "p100-u49-va3",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-49-3",
+    "node_class": "CheckValve",
+    "node_id": "p100-u49-va5",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-50-1",
+    "node_class": "CheckValve",
+    "node_id": "p100-u50-va2",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-50-2",
+    "node_class": "CheckValve",
+    "node_id": "p100-u50-va3",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-50-3",
+    "node_class": "CheckValve",
+    "node_id": "p100-u50-va5",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-50-4",
+    "node_class": "CheckValve",
+    "node_id": "p100-u50-va6",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-52-1",
+    "node_class": "CheckValve",
+    "node_id": "p100-u52-va1",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-52-2",
+    "node_class": "CheckValve",
+    "node_id": "p100-u52-va2",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-52-3",
+    "node_class": "CheckValve",
+    "node_id": "p100-u52-va3",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-52-4",
+    "node_class": "CheckValve",
+    "node_id": "p100-u52-va4",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-52-5",
+    "node_class": "CheckValve",
+    "node_id": "p100-u52-va7",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-53-1",
+    "node_class": "CheckValve",
+    "node_id": "p100-u53-va2",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-55-1",
+    "node_class": "CheckValve",
+    "node_id": "p100-u55-va4",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-55-2",
+    "node_class": "CheckValve",
+    "node_id": "p100-u55-va5",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-55-3",
+    "node_class": "CheckValve",
+    "node_id": "p100-u55-va8",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-55-4",
+    "node_class": "CheckValve",
+    "node_id": "p100-u55-va10",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-55-5",
+    "node_class": "CheckValve",
+    "node_id": "p100-u55-va11",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-56-1",
+    "node_class": "CheckValve",
+    "node_id": "p100-u56-va2",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-56-2",
+    "node_class": "CheckValve",
+    "node_id": "p100-u56-va3",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-56-3",
+    "node_class": "CheckValve",
+    "node_id": "p100-u56-va4",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-57-1",
+    "node_class": "CheckValve",
+    "node_id": "p100-u57-va2",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-57-2",
+    "node_class": "CheckValve",
+    "node_id": "p100-u57-va5",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-7-1",
+    "node_class": "CheckValve",
+    "node_id": "p100-u7-va1",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-7-2",
+    "node_class": "CheckValve",
+    "node_id": "p100-u7-va2",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-7-3",
+    "node_class": "CheckValve",
+    "node_id": "p100-u7-va3",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-7-4",
+    "node_class": "CheckValve",
+    "node_id": "p100-u7-va4",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-7-5",
+    "node_class": "CheckValve",
+    "node_id": "p100-u7-va5",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-8-1",
+    "node_class": "CheckValve",
+    "node_id": "p100-u8-va3",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-8-2",
+    "node_class": "CheckValve",
+    "node_id": "p100-u8-va4",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-8-3",
+    "node_class": "CheckValve",
+    "node_id": "p100-u8-va5",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-8-4",
+    "node_class": "CheckValve",
+    "node_id": "p100-u8-va6",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-8-5",
+    "node_class": "CheckValve",
+    "node_id": "p100-u8-va7",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-9-1",
+    "node_class": "CheckValve",
+    "node_id": "p100-u9-va1",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "CHV-9-2",
+    "node_class": "CheckValve",
+    "node_id": "p100-u9-va5",
+    "document_id": "swagelok-ms-01-176"
+  },
+  {
+    "tag": "E-1-1",
+    "node_class": "HeatExchanger",
+    "node_id": "p100-u1-eq5",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-10-1",
+    "node_class": "HeatExchanger",
+    "node_id": "p100-u10-eq2",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-10-2",
+    "node_class": "HeatExchanger",
+    "node_id": "p100-u10-eq3",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-11-1",
+    "node_class": "HeatExchanger",
+    "node_id": "p100-u11-eq3",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-12-1",
+    "node_class": "HeatExchanger",
+    "node_id": "p100-u12-eq3",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-13-1",
+    "node_class": "HeatExchanger",
+    "node_id": "p100-u13-eq4",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-14-1",
+    "node_class": "HeatExchanger",
+    "node_id": "p100-u14-eq2",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-15-1",
+    "node_class": "HeatExchanger",
+    "node_id": "p100-u15-eq2",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-15-2",
+    "node_class": "HeatExchanger",
+    "node_id": "p100-u15-eq4",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-16-1",
+    "node_class": "HeatExchanger",
+    "node_id": "p100-u16-eq3",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-16-2",
+    "node_class": "HeatExchanger",
+    "node_id": "p100-u16-eq4",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-17-1",
+    "node_class": "HeatExchanger",
+    "node_id": "p100-u17-eq2",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-18-1",
+    "node_class": "HeatExchanger",
+    "node_id": "p100-u18-eq1",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-18-2",
+    "node_class": "HeatExchanger",
+    "node_id": "p100-u18-eq5",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-2-1",
+    "node_class": "HeatExchanger",
+    "node_id": "p100-u2-eq2",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-2-2",
+    "node_class": "HeatExchanger",
+    "node_id": "p100-u2-eq3",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-20-1",
+    "node_class": "HeatExchanger",
+    "node_id": "p100-u20-eq1",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-20-2",
+    "node_class": "HeatExchanger",
+    "node_id": "p100-u20-eq3",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-21-1",
+    "node_class": "HeatExchanger",
+    "node_id": "p100-u21-eq2",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-21-2",
+    "node_class": "HeatExchanger",
+    "node_id": "p100-u21-eq4",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-22-1",
+    "node_class": "HeatExchanger",
+    "node_id": "p100-u22-eq1",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-22-2",
+    "node_class": "HeatExchanger",
+    "node_id": "p100-u22-eq2",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-23-1",
+    "node_class": "HeatExchanger",
+    "node_id": "p100-u23-eq1",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-23-2",
+    "node_class": "HeatExchanger",
+    "node_id": "p100-u23-eq5",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-24-1",
+    "node_class": "HeatExchanger",
+    "node_id": "p100-u24-eq1",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-24-2",
+    "node_class": "HeatExchanger",
+    "node_id": "p100-u24-eq2",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-25-1",
+    "node_class": "HeatExchanger",
+    "node_id": "p100-u25-eq1",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-25-2",
+    "node_class": "HeatExchanger",
+    "node_id": "p100-u25-eq5",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-26-1",
+    "node_class": "HeatExchanger",
+    "node_id": "p100-u26-eq2",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-27-1",
+    "node_class": "HeatExchanger",
+    "node_id": "p100-u27-eq2",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-28-1",
+    "node_class": "HeatExchanger",
+    "node_id": "p100-u28-eq2",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-28-2",
+    "node_class": "HeatExchanger",
+    "node_id": "p100-u28-eq3",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-29-1",
+    "node_class": "HeatExchanger",
+    "node_id": "p100-u29-eq2",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-3-1",
+    "node_class": "HeatExchanger",
+    "node_id": "p100-u3-eq2",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-30-1",
+    "node_class": "HeatExchanger",
+    "node_id": "p100-u30-eq4",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-30-2",
+    "node_class": "HeatExchanger",
+    "node_id": "p100-u30-eq5",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-31-1",
+    "node_class": "HeatExchanger",
+    "node_id": "p100-u31-eq1",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-31-2",
+    "node_class": "HeatExchanger",
+    "node_id": "p100-u31-eq2",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-31-3",
+    "node_class": "HeatExchanger",
+    "node_id": "p100-u31-eq4",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-33-1",
+    "node_class": "HeatExchanger",
+    "node_id": "p100-u33-eq4",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-34-1",
+    "node_class": "HeatExchanger",
+    "node_id": "p100-u34-eq1",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-34-2",
+    "node_class": "HeatExchanger",
+    "node_id": "p100-u34-eq2",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-35-1",
+    "node_class": "HeatExchanger",
+    "node_id": "p100-u35-eq5",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-36-1",
+    "node_class": "HeatExchanger",
+    "node_id": "p100-u36-eq1",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-36-2",
+    "node_class": "HeatExchanger",
+    "node_id": "p100-u36-eq4",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-38-1",
+    "node_class": "HeatExchanger",
+    "node_id": "p100-u38-eq2",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-39-1",
+    "node_class": "HeatExchanger",
+    "node_id": "p100-u39-eq3",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-4-1",
+    "node_class": "HeatExchanger",
+    "node_id": "p100-u4-eq2",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-40-1",
+    "node_class": "HeatExchanger",
+    "node_id": "p100-u40-eq1",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-40-2",
+    "node_class": "HeatExchanger",
+    "node_id": "p100-u40-eq3",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-41-1",
+    "node_class": "HeatExchanger",
+    "node_id": "p100-u41-eq4",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-41-2",
+    "node_class": "HeatExchanger",
+    "node_id": "p100-u41-eq6",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-42-1",
+    "node_class": "HeatExchanger",
+    "node_id": "p100-u42-eq4",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-43-1",
+    "node_class": "HeatExchanger",
+    "node_id": "p100-u43-eq1",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-43-2",
+    "node_class": "HeatExchanger",
+    "node_id": "p100-u43-eq3",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-43-3",
+    "node_class": "HeatExchanger",
+    "node_id": "p100-u43-eq4",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-44-1",
+    "node_class": "HeatExchanger",
+    "node_id": "p100-u44-eq3",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-44-2",
+    "node_class": "HeatExchanger",
+    "node_id": "p100-u44-eq4",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-44-3",
+    "node_class": "HeatExchanger",
+    "node_id": "p100-u44-eq5",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-45-1",
+    "node_class": "HeatExchanger",
+    "node_id": "p100-u45-eq1",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-45-2",
+    "node_class": "HeatExchanger",
+    "node_id": "p100-u45-eq2",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-45-3",
+    "node_class": "HeatExchanger",
+    "node_id": "p100-u45-eq3",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-45-4",
+    "node_class": "HeatExchanger",
+    "node_id": "p100-u45-eq4",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-46-1",
+    "node_class": "HeatExchanger",
+    "node_id": "p100-u46-eq1",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-46-2",
+    "node_class": "HeatExchanger",
+    "node_id": "p100-u46-eq2",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-47-1",
+    "node_class": "HeatExchanger",
+    "node_id": "p100-u47-eq3",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-47-2",
+    "node_class": "HeatExchanger",
+    "node_id": "p100-u47-eq4",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-48-1",
+    "node_class": "HeatExchanger",
+    "node_id": "p100-u48-eq1",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-48-2",
+    "node_class": "HeatExchanger",
+    "node_id": "p100-u48-eq4",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-49-1",
+    "node_class": "HeatExchanger",
+    "node_id": "p100-u49-eq1",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-5-1",
+    "node_class": "HeatExchanger",
+    "node_id": "p100-u5-eq3",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-51-1",
+    "node_class": "HeatExchanger",
+    "node_id": "p100-u51-eq1",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-51-2",
+    "node_class": "HeatExchanger",
+    "node_id": "p100-u51-eq3",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-52-1",
+    "node_class": "HeatExchanger",
+    "node_id": "p100-u52-eq1",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-52-2",
+    "node_class": "HeatExchanger",
+    "node_id": "p100-u52-eq2",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-52-3",
+    "node_class": "HeatExchanger",
+    "node_id": "p100-u52-eq3",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-53-1",
+    "node_class": "HeatExchanger",
+    "node_id": "p100-u53-eq3",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-54-1",
+    "node_class": "HeatExchanger",
+    "node_id": "p100-u54-eq1",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-54-2",
+    "node_class": "HeatExchanger",
+    "node_id": "p100-u54-eq2",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-54-3",
+    "node_class": "HeatExchanger",
+    "node_id": "p100-u54-eq4",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-55-1",
+    "node_class": "HeatExchanger",
+    "node_id": "p100-u55-eq2",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-55-2",
+    "node_class": "HeatExchanger",
+    "node_id": "p100-u55-eq3",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-55-3",
+    "node_class": "HeatExchanger",
+    "node_id": "p100-u55-eq4",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-55-4",
+    "node_class": "HeatExchanger",
+    "node_id": "p100-u55-eq5",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-56-1",
+    "node_class": "HeatExchanger",
+    "node_id": "p100-u56-eq2",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-6-1",
+    "node_class": "HeatExchanger",
+    "node_id": "p100-u6-eq1",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-7-1",
+    "node_class": "HeatExchanger",
+    "node_id": "p100-u7-eq2",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-7-2",
+    "node_class": "HeatExchanger",
+    "node_id": "p100-u7-eq4",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-9-1",
+    "node_class": "HeatExchanger",
+    "node_id": "p100-u9-eq5",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "E-9-2",
+    "node_class": "HeatExchanger",
+    "node_id": "p100-u9-eq6",
+    "document_id": "alfalaval-m3"
+  },
+  {
+    "tag": "FIC-10-1",
+    "node_class": "ProcessInstrumentationFunction",
+    "node_id": "p100-u10-in2",
+    "document_id": null,
+    "no_datasheet_reason": "control function in the DCS (shared display/control); no vendor datasheet exists for it"
+  },
+  {
+    "tag": "FIC-11-1",
+    "node_class": "ProcessInstrumentationFunction",
+    "node_id": "p100-u11-in2",
+    "document_id": null,
+    "no_datasheet_reason": "control function in the DCS (shared display/control); no vendor datasheet exists for it"
+  },
+  {
+    "tag": "FIC-12-1",
+    "node_class": "ProcessInstrumentationFunction",
+    "node_id": "p100-u12-in2",
+    "document_id": null,
+    "no_datasheet_reason": "control function in the DCS (shared display/control); no vendor datasheet exists for it"
+  },
+  {
+    "tag": "FIC-15-1",
+    "node_class": "ProcessInstrumentationFunction",
+    "node_id": "p100-u15-in2",
+    "document_id": null,
+    "no_datasheet_reason": "control function in the DCS (shared display/control); no vendor datasheet exists for it"
+  },
+  {
+    "tag": "FIC-16-2",
+    "node_class": "ProcessInstrumentationFunction",
+    "node_id": "p100-u16-in5",
+    "document_id": null,
+    "no_datasheet_reason": "control function in the DCS (shared display/control); no vendor datasheet exists for it"
+  },
+  {
+    "tag": "FIC-17-1",
+    "node_class": "ProcessInstrumentationFunction",
+    "node_id": "p100-u17-in2",
+    "document_id": null,
+    "no_datasheet_reason": "control function in the DCS (shared display/control); no vendor datasheet exists for it"
+  },
+  {
+    "tag": "FIC-20-2",
+    "node_class": "ProcessInstrumentationFunction",
+    "node_id": "p100-u20-in5",
+    "document_id": null,
+    "no_datasheet_reason": "control function in the DCS (shared display/control); no vendor datasheet exists for it"
+  },
+  {
+    "tag": "FIC-21-1",
+    "node_class": "ProcessInstrumentationFunction",
+    "node_id": "p100-u21-in2",
+    "document_id": null,
+    "no_datasheet_reason": "control function in the DCS (shared display/control); no vendor datasheet exists for it"
+  },
+  {
+    "tag": "FIC-25-1",
+    "node_class": "ProcessInstrumentationFunction",
+    "node_id": "p100-u25-in2",
+    "document_id": null,
+    "no_datasheet_reason": "control function in the DCS (shared display/control); no vendor datasheet exists for it"
+  },
+  {
+    "tag": "FIC-29-1",
+    "node_class": "ProcessInstrumentationFunction",
+    "node_id": "p100-u29-in2",
+    "document_id": null,
+    "no_datasheet_reason": "control function in the DCS (shared display/control); no vendor datasheet exists for it"
+  },
+  {
+    "tag": "FIC-31-1",
+    "node_class": "ProcessInstrumentationFunction",
+    "node_id": "p100-u31-in2",
+    "document_id": null,
+    "no_datasheet_reason": "control function in the DCS (shared display/control); no vendor datasheet exists for it"
+  },
+  {
+    "tag": "FIC-35-2",
+    "node_class": "ProcessInstrumentationFunction",
+    "node_id": "p100-u35-in5",
+    "document_id": null,
+    "no_datasheet_reason": "control function in the DCS (shared display/control); no vendor datasheet exists for it"
+  },
+  {
+    "tag": "FIC-38-1",
+    "node_class": "ProcessInstrumentationFunction",
+    "node_id": "p100-u38-in2",
+    "document_id": null,
+    "no_datasheet_reason": "control function in the DCS (shared display/control); no vendor datasheet exists for it"
+  },
+  {
+    "tag": "FIC-40-1",
+    "node_class": "ProcessInstrumentationFunction",
+    "node_id": "p100-u40-in2",
+    "document_id": null,
+    "no_datasheet_reason": "control function in the DCS (shared display/control); no vendor datasheet exists for it"
+  },
+  {
+    "tag": "FIC-41-2",
+    "node_class": "ProcessInstrumentationFunction",
+    "node_id": "p100-u41-in5",
+    "document_id": null,
+    "no_datasheet_reason": "control function in the DCS (shared display/control); no vendor datasheet exists for it"
+  },
+  {
+    "tag": "FIC-42-1",
+    "node_class": "ProcessInstrumentationFunction",
+    "node_id": "p100-u42-in2",
+    "document_id": null,
+    "no_datasheet_reason": "control function in the DCS (shared display/control); no vendor datasheet exists for it"
+  },
+  {
+    "tag": "FIC-43-4",
+    "node_class": "ProcessInstrumentationFunction",
+    "node_id": "p100-u43-in11",
+    "document_id": null,
+    "no_datasheet_reason": "control function in the DCS (shared display/control); no vendor datasheet exists for it"
+  },
+  {
+    "tag": "FIC-44-1",
+    "node_class": "ProcessInstrumentationFunction",
+    "node_id": "p100-u44-in2",
+    "document_id": null,
+    "no_datasheet_reason": "control function in the DCS (shared display/control); no vendor datasheet exists for it"
+  },
+  {
+    "tag": "FIC-46-1",
+    "node_class": "ProcessInstrumentationFunction",
+    "node_id": "p100-u46-in2",
+    "document_id": null,
+    "no_datasheet_reason": "control function in the DCS (shared display/control); no vendor datasheet exists for it"
+  },
+  {
+    "tag": "FIC-50-3",
+    "node_class": "ProcessInstrumentationFunction",
+    "node_id": "p100-u50-in8",
+    "document_id": null,
+    "no_datasheet_reason": "control function in the DCS (shared display/control); no vendor datasheet exists for it"
+  },
+  {
+    "tag": "FIC-50-4",
+    "node_class": "ProcessInstrumentationFunction",
+    "node_id": "p100-u50-in11",
+    "document_id": null,
+    "no_datasheet_reason": "control function in the DCS (shared display/control); no vendor datasheet exists for it"
+  },
+  {
+    "tag": "FIC-53-2",
+    "node_class": "ProcessInstrumentationFunction",
+    "node_id": "p100-u53-in5",
+    "document_id": null,
+    "no_datasheet_reason": "control function in the DCS (shared display/control); no vendor datasheet exists for it"
+  },
+  {
+    "tag": "FT-10-1",
+    "node_class": "ProcessSignalGeneratingFunction",
+    "node_id": "p100-u10-in1",
+    "document_id": "rosemount-3051-00813-0100-4001"
+  },
+  {
+    "tag": "FT-11-1",
+    "node_class": "ProcessSignalGeneratingFunction",
+    "node_id": "p100-u11-in1",
+    "document_id": "rosemount-3051-00813-0100-4001"
+  },
+  {
+    "tag": "FT-12-1",
+    "node_class": "ProcessSignalGeneratingFunction",
+    "node_id": "p100-u12-in1",
+    "document_id": "rosemount-3051-00813-0100-4001"
+  },
+  {
+    "tag": "FT-15-1",
+    "node_class": "ProcessSignalGeneratingFunction",
+    "node_id": "p100-u15-in1",
+    "document_id": "rosemount-3051-00813-0100-4001"
+  },
+  {
+    "tag": "FT-16-2",
+    "node_class": "ProcessSignalGeneratingFunction",
+    "node_id": "p100-u16-in4",
+    "document_id": "rosemount-3051-00813-0100-4001"
+  },
+  {
+    "tag": "FT-17-1",
+    "node_class": "ProcessSignalGeneratingFunction",
+    "node_id": "p100-u17-in1",
+    "document_id": "rosemount-3051-00813-0100-4001"
+  },
+  {
+    "tag": "FT-20-2",
+    "node_class": "ProcessSignalGeneratingFunction",
+    "node_id": "p100-u20-in4",
+    "document_id": "rosemount-3051-00813-0100-4001"
+  },
+  {
+    "tag": "FT-21-1",
+    "node_class": "ProcessSignalGeneratingFunction",
+    "node_id": "p100-u21-in1",
+    "document_id": "rosemount-3051-00813-0100-4001"
+  },
+  {
+    "tag": "FT-25-1",
+    "node_class": "ProcessSignalGeneratingFunction",
+    "node_id": "p100-u25-in1",
+    "document_id": "rosemount-3051-00813-0100-4001"
+  },
+  {
+    "tag": "FT-29-1",
+    "node_class": "ProcessSignalGeneratingFunction",
+    "node_id": "p100-u29-in1",
+    "document_id": "rosemount-3051-00813-0100-4001"
+  },
+  {
+    "tag": "FT-31-1",
+    "node_class": "ProcessSignalGeneratingFunction",
+    "node_id": "p100-u31-in1",
+    "document_id": "rosemount-3051-00813-0100-4001"
+  },
+  {
+    "tag": "FT-35-2",
+    "node_class": "ProcessSignalGeneratingFunction",
+    "node_id": "p100-u35-in4",
+    "document_id": "rosemount-3051-00813-0100-4001"
+  },
+  {
+    "tag": "FT-38-1",
+    "node_class": "ProcessSignalGeneratingFunction",
+    "node_id": "p100-u38-in1",
+    "document_id": "rosemount-3051-00813-0100-4001"
+  },
+  {
+    "tag": "FT-40-1",
+    "node_class": "ProcessSignalGeneratingFunction",
+    "node_id": "p100-u40-in1",
+    "document_id": "rosemount-3051-00813-0100-4001"
+  },
+  {
+    "tag": "FT-41-2",
+    "node_class": "ProcessSignalGeneratingFunction",
+    "node_id": "p100-u41-in4",
+    "document_id": "rosemount-3051-00813-0100-4001"
+  },
+  {
+    "tag": "FT-42-1",
+    "node_class": "ProcessSignalGeneratingFunction",
+    "node_id": "p100-u42-in1",
+    "document_id": "rosemount-3051-00813-0100-4001"
+  },
+  {
+    "tag": "FT-43-4",
+    "node_class": "ProcessSignalGeneratingFunction",
+    "node_id": "p100-u43-in10",
+    "document_id": "rosemount-3051-00813-0100-4001"
+  },
+  {
+    "tag": "FT-44-1",
+    "node_class": "ProcessSignalGeneratingFunction",
+    "node_id": "p100-u44-in1",
+    "document_id": "rosemount-3051-00813-0100-4001"
+  },
+  {
+    "tag": "FT-46-1",
+    "node_class": "ProcessSignalGeneratingFunction",
+    "node_id": "p100-u46-in1",
+    "document_id": "rosemount-3051-00813-0100-4001"
+  },
+  {
+    "tag": "FT-50-3",
+    "node_class": "ProcessSignalGeneratingFunction",
+    "node_id": "p100-u50-in7",
+    "document_id": "rosemount-3051-00813-0100-4001"
+  },
+  {
+    "tag": "FT-50-4",
+    "node_class": "ProcessSignalGeneratingFunction",
+    "node_id": "p100-u50-in10",
+    "document_id": "rosemount-3051-00813-0100-4001"
+  },
+  {
+    "tag": "FT-53-2",
+    "node_class": "ProcessSignalGeneratingFunction",
+    "node_id": "p100-u53-in4",
+    "document_id": "rosemount-3051-00813-0100-4001"
+  },
+  {
+    "tag": "FV-10-1",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u10-va3",
+    "document_id": "fisher-et-d100022x012"
+  },
+  {
+    "tag": "FV-11-1",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u11-va2",
+    "document_id": "fisher-et-d100022x012"
+  },
+  {
+    "tag": "FV-12-1",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u12-va6",
+    "document_id": "fisher-et-d100022x012"
+  },
+  {
+    "tag": "FV-15-1",
+    "node_class": "BallValve",
+    "node_id": "p100-u15-va5",
+    "document_id": "flowserve-worcester-f51-f52"
+  },
+  {
+    "tag": "FV-16-2",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u16-va5",
+    "document_id": "fisher-et-d100022x012"
+  },
+  {
+    "tag": "FV-17-1",
+    "node_class": "BallValve",
+    "node_id": "p100-u17-va8",
+    "document_id": "flowserve-worcester-f51-f52"
+  },
+  {
+    "tag": "FV-20-2",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u20-va4",
+    "document_id": "fisher-et-d100022x012"
+  },
+  {
+    "tag": "FV-21-1",
+    "node_class": "BallValve",
+    "node_id": "p100-u21-va1",
+    "document_id": "flowserve-worcester-f51-f52"
+  },
+  {
+    "tag": "FV-25-1",
+    "node_class": "BallValve",
+    "node_id": "p100-u25-va2",
+    "document_id": "flowserve-worcester-f51-f52"
+  },
+  {
+    "tag": "FV-29-1",
+    "node_class": "BallValve",
+    "node_id": "p100-u29-va1",
+    "document_id": "flowserve-worcester-f51-f52"
+  },
+  {
+    "tag": "FV-31-1",
+    "node_class": "BallValve",
+    "node_id": "p100-u31-va5",
+    "document_id": "flowserve-worcester-f51-f52"
+  },
+  {
+    "tag": "FV-35-2",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u35-va1",
+    "document_id": "fisher-et-d100022x012"
+  },
+  {
+    "tag": "FV-38-1",
+    "node_class": "BallValve",
+    "node_id": "p100-u38-va4",
+    "document_id": "flowserve-worcester-f51-f52"
+  },
+  {
+    "tag": "FV-40-1",
+    "node_class": "BallValve",
+    "node_id": "p100-u40-va1",
+    "document_id": "flowserve-worcester-f51-f52"
+  },
+  {
+    "tag": "FV-41-2",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u41-va2",
+    "document_id": "fisher-et-d100022x012"
+  },
+  {
+    "tag": "FV-42-1",
+    "node_class": "BallValve",
+    "node_id": "p100-u42-va4",
+    "document_id": "flowserve-worcester-f51-f52"
+  },
+  {
+    "tag": "FV-43-4",
+    "node_class": "BallValve",
+    "node_id": "p100-u43-va7",
+    "document_id": "flowserve-worcester-f51-f52"
+  },
+  {
+    "tag": "FV-44-1",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u44-va4",
+    "document_id": "fisher-et-d100022x012"
+  },
+  {
+    "tag": "FV-46-1",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u46-va1",
+    "document_id": "fisher-et-d100022x012"
+  },
+  {
+    "tag": "FV-50-3",
+    "node_class": "BallValve",
+    "node_id": "p100-u50-va8",
+    "document_id": "flowserve-worcester-f51-f52"
+  },
+  {
+    "tag": "FV-50-4",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u50-va9",
+    "document_id": "fisher-et-d100022x012"
+  },
+  {
+    "tag": "FV-53-2",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u53-va3",
+    "document_id": "fisher-et-d100022x012"
+  },
+  {
+    "tag": "GV-10-1",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u10-va2",
+    "document_id": "gfps-165-solenoid-valve"
+  },
+  {
+    "tag": "GV-12-2",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u12-va2",
+    "document_id": "gfps-165-solenoid-valve"
+  },
+  {
+    "tag": "GV-12-3",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u12-va4",
+    "document_id": "gfps-165-solenoid-valve"
+  },
+  {
+    "tag": "GV-12-6",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u12-va7",
+    "document_id": "gfps-165-solenoid-valve"
+  },
+  {
+    "tag": "GV-14-1",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u14-va5",
+    "document_id": "gfps-165-solenoid-valve"
+  },
+  {
+    "tag": "GV-15-1",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u15-va2",
+    "document_id": "gfps-165-solenoid-valve"
+  },
+  {
+    "tag": "GV-15-2",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u15-va3",
+    "document_id": "gfps-165-solenoid-valve"
+  },
+  {
+    "tag": "GV-15-3",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u15-va7",
+    "document_id": "gfps-165-solenoid-valve"
+  },
+  {
+    "tag": "GV-17-1",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u17-va3",
+    "document_id": "gfps-165-solenoid-valve"
+  },
+  {
+    "tag": "GV-17-2",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u17-va5",
+    "document_id": "gfps-165-solenoid-valve"
+  },
+  {
+    "tag": "GV-17-3",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u17-va10",
+    "document_id": "gfps-165-solenoid-valve"
+  },
+  {
+    "tag": "GV-19-2",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u19-va2",
+    "document_id": "gfps-165-solenoid-valve"
+  },
+  {
+    "tag": "GV-19-3",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u19-va5",
+    "document_id": "gfps-165-solenoid-valve"
+  },
+  {
+    "tag": "GV-19-4",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u19-va6",
+    "document_id": "gfps-165-solenoid-valve"
+  },
+  {
+    "tag": "GV-2-2",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u2-va5",
+    "document_id": "gfps-165-solenoid-valve"
+  },
+  {
+    "tag": "GV-2-4",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u2-va7",
+    "document_id": "gfps-165-solenoid-valve"
+  },
+  {
+    "tag": "GV-20-1",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u20-va1",
+    "document_id": "gfps-165-solenoid-valve"
+  },
+  {
+    "tag": "GV-21-1",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u21-va2",
+    "document_id": "gfps-165-solenoid-valve"
+  },
+  {
+    "tag": "GV-22-1",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u22-va1",
+    "document_id": "gfps-165-solenoid-valve"
+  },
+  {
+    "tag": "GV-22-2",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u22-va2",
+    "document_id": "gfps-165-solenoid-valve"
+  },
+  {
+    "tag": "GV-23-1",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u23-va1",
+    "document_id": "gfps-165-solenoid-valve"
+  },
+  {
+    "tag": "GV-23-2",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u23-va2",
+    "document_id": "gfps-165-solenoid-valve"
+  },
+  {
+    "tag": "GV-24-2",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u24-va3",
+    "document_id": "gfps-165-solenoid-valve"
+  },
+  {
+    "tag": "GV-24-4",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u24-va7",
+    "document_id": "gfps-165-solenoid-valve"
+  },
+  {
+    "tag": "GV-25-1",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u25-va4",
+    "document_id": "gfps-165-solenoid-valve"
+  },
+  {
+    "tag": "GV-25-2",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u25-va6",
+    "document_id": "gfps-165-solenoid-valve"
+  },
+  {
+    "tag": "GV-25-3",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u25-va7",
+    "document_id": "gfps-165-solenoid-valve"
+  },
+  {
+    "tag": "GV-27-1",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u27-va3",
+    "document_id": "gfps-165-solenoid-valve"
+  },
+  {
+    "tag": "GV-28-1",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u28-va3",
+    "document_id": "gfps-165-solenoid-valve"
+  },
+  {
+    "tag": "GV-3-2",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u3-va4",
+    "document_id": "gfps-165-solenoid-valve"
+  },
+  {
+    "tag": "GV-31-1",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u31-va2",
+    "document_id": "gfps-165-solenoid-valve"
+  },
+  {
+    "tag": "GV-34-1",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u34-va1",
+    "document_id": "gfps-165-solenoid-valve"
+  },
+  {
+    "tag": "GV-34-2",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u34-va2",
+    "document_id": "gfps-165-solenoid-valve"
+  },
+  {
+    "tag": "GV-36-1",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u36-va2",
+    "document_id": "gfps-165-solenoid-valve"
+  },
+  {
+    "tag": "GV-4-1",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u4-va5",
+    "document_id": "gfps-165-solenoid-valve"
+  },
+  {
+    "tag": "GV-4-2",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u4-va7",
+    "document_id": "gfps-165-solenoid-valve"
+  },
+  {
+    "tag": "GV-40-1",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u40-va3",
+    "document_id": "gfps-165-solenoid-valve"
+  },
+  {
+    "tag": "GV-42-1",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u42-va5",
+    "document_id": "gfps-165-solenoid-valve"
+  },
+  {
+    "tag": "GV-43-2",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u43-va6",
+    "document_id": "gfps-165-solenoid-valve"
+  },
+  {
+    "tag": "GV-43-3",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u43-va8",
+    "document_id": "gfps-165-solenoid-valve"
+  },
+  {
+    "tag": "GV-44-1",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u44-va2",
+    "document_id": "gfps-165-solenoid-valve"
+  },
+  {
+    "tag": "GV-45-3",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u45-va4",
+    "document_id": "gfps-165-solenoid-valve"
+  },
+  {
+    "tag": "GV-47-1",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u47-va1",
+    "document_id": "gfps-165-solenoid-valve"
+  },
+  {
+    "tag": "GV-47-2",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u47-va3",
+    "document_id": "gfps-165-solenoid-valve"
+  },
+  {
+    "tag": "GV-48-1",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u48-va3",
+    "document_id": "gfps-165-solenoid-valve"
+  },
+  {
+    "tag": "GV-5-1",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u5-va1",
+    "document_id": "gfps-165-solenoid-valve"
+  },
+  {
+    "tag": "GV-51-1",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u51-va1",
+    "document_id": "gfps-165-solenoid-valve"
+  },
+  {
+    "tag": "GV-51-2",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u51-va2",
+    "document_id": "gfps-165-solenoid-valve"
+  },
+  {
+    "tag": "GV-51-4",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u51-va5",
+    "document_id": "gfps-165-solenoid-valve"
+  },
+  {
+    "tag": "GV-52-1",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u52-va6",
+    "document_id": "gfps-165-solenoid-valve"
+  },
+  {
+    "tag": "GV-55-1",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u55-va1",
+    "document_id": "gfps-165-solenoid-valve"
+  },
+  {
+    "tag": "GV-55-2",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u55-va2",
+    "document_id": "gfps-165-solenoid-valve"
+  },
+  {
+    "tag": "GV-55-3",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u55-va3",
+    "document_id": "gfps-165-solenoid-valve"
+  },
+  {
+    "tag": "GV-55-4",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u55-va6",
+    "document_id": "gfps-165-solenoid-valve"
+  },
+  {
+    "tag": "GV-56-1",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u56-va1",
+    "document_id": "gfps-165-solenoid-valve"
+  },
+  {
+    "tag": "GV-56-2",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u56-va5",
+    "document_id": "gfps-165-solenoid-valve"
+  },
+  {
+    "tag": "GV-6-1",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u6-va4",
+    "document_id": "gfps-165-solenoid-valve"
+  },
+  {
+    "tag": "GV-6-2",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u6-va5",
+    "document_id": "gfps-165-solenoid-valve"
+  },
+  {
+    "tag": "GV-8-2",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u8-va2",
+    "document_id": "gfps-165-solenoid-valve"
+  },
+  {
+    "tag": "GV-9-2",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u9-va7",
+    "document_id": "gfps-165-solenoid-valve"
+  },
+  {
+    "tag": "LIC-12-4",
+    "node_class": "ProcessInstrumentationFunction",
+    "node_id": "p100-u12-in11",
+    "document_id": null,
+    "no_datasheet_reason": "control function in the DCS (shared display/control); no vendor datasheet exists for it"
+  },
+  {
+    "tag": "LIC-13-2",
+    "node_class": "ProcessInstrumentationFunction",
+    "node_id": "p100-u13-in5",
+    "document_id": null,
+    "no_datasheet_reason": "control function in the DCS (shared display/control); no vendor datasheet exists for it"
+  },
+  {
+    "tag": "LIC-13-3",
+    "node_class": "ProcessInstrumentationFunction",
+    "node_id": "p100-u13-in8",
+    "document_id": null,
+    "no_datasheet_reason": "control function in the DCS (shared display/control); no vendor datasheet exists for it"
+  },
+  {
+    "tag": "LIC-16-1",
+    "node_class": "ProcessInstrumentationFunction",
+    "node_id": "p100-u16-in2",
+    "document_id": null,
+    "no_datasheet_reason": "control function in the DCS (shared display/control); no vendor datasheet exists for it"
+  },
+  {
+    "tag": "LIC-18-1",
+    "node_class": "ProcessInstrumentationFunction",
+    "node_id": "p100-u18-in2",
+    "document_id": null,
+    "no_datasheet_reason": "control function in the DCS (shared display/control); no vendor datasheet exists for it"
+  },
+  {
+    "tag": "LIC-20-1",
+    "node_class": "ProcessInstrumentationFunction",
+    "node_id": "p100-u20-in2",
+    "document_id": null,
+    "no_datasheet_reason": "control function in the DCS (shared display/control); no vendor datasheet exists for it"
+  },
+  {
+    "tag": "LIC-24-1",
+    "node_class": "ProcessInstrumentationFunction",
+    "node_id": "p100-u24-in2",
+    "document_id": null,
+    "no_datasheet_reason": "control function in the DCS (shared display/control); no vendor datasheet exists for it"
+  },
+  {
+    "tag": "LIC-26-1",
+    "node_class": "ProcessInstrumentationFunction",
+    "node_id": "p100-u26-in2",
+    "document_id": null,
+    "no_datasheet_reason": "control function in the DCS (shared display/control); no vendor datasheet exists for it"
+  },
+  {
+    "tag": "LIC-26-2",
+    "node_class": "ProcessInstrumentationFunction",
+    "node_id": "p100-u26-in5",
+    "document_id": null,
+    "no_datasheet_reason": "control function in the DCS (shared display/control); no vendor datasheet exists for it"
+  },
+  {
+    "tag": "LIC-28-1",
+    "node_class": "ProcessInstrumentationFunction",
+    "node_id": "p100-u28-in2",
+    "document_id": null,
+    "no_datasheet_reason": "control function in the DCS (shared display/control); no vendor datasheet exists for it"
+  },
+  {
+    "tag": "LIC-30-1",
+    "node_class": "ProcessInstrumentationFunction",
+    "node_id": "p100-u30-in2",
+    "document_id": null,
+    "no_datasheet_reason": "control function in the DCS (shared display/control); no vendor datasheet exists for it"
+  },
+  {
+    "tag": "LIC-35-1",
+    "node_class": "ProcessInstrumentationFunction",
+    "node_id": "p100-u35-in2",
+    "document_id": null,
+    "no_datasheet_reason": "control function in the DCS (shared display/control); no vendor datasheet exists for it"
+  },
+  {
+    "tag": "LIC-42-2",
+    "node_class": "ProcessInstrumentationFunction",
+    "node_id": "p100-u42-in5",
+    "document_id": null,
+    "no_datasheet_reason": "control function in the DCS (shared display/control); no vendor datasheet exists for it"
+  },
+  {
+    "tag": "LIC-45-2",
+    "node_class": "ProcessInstrumentationFunction",
+    "node_id": "p100-u45-in5",
+    "document_id": null,
+    "no_datasheet_reason": "control function in the DCS (shared display/control); no vendor datasheet exists for it"
+  },
+  {
+    "tag": "LIC-48-1",
+    "node_class": "ProcessInstrumentationFunction",
+    "node_id": "p100-u48-in2",
+    "document_id": null,
+    "no_datasheet_reason": "control function in the DCS (shared display/control); no vendor datasheet exists for it"
+  },
+  {
+    "tag": "LIC-51-1",
+    "node_class": "ProcessInstrumentationFunction",
+    "node_id": "p100-u51-in2",
+    "document_id": null,
+    "no_datasheet_reason": "control function in the DCS (shared display/control); no vendor datasheet exists for it"
+  },
+  {
+    "tag": "LIC-52-1",
+    "node_class": "ProcessInstrumentationFunction",
+    "node_id": "p100-u52-in2",
+    "document_id": null,
+    "no_datasheet_reason": "control function in the DCS (shared display/control); no vendor datasheet exists for it"
+  },
+  {
+    "tag": "LIC-7-1",
+    "node_class": "ProcessInstrumentationFunction",
+    "node_id": "p100-u7-in2",
+    "document_id": null,
+    "no_datasheet_reason": "control function in the DCS (shared display/control); no vendor datasheet exists for it"
+  },
+  {
+    "tag": "LIC-8-1",
+    "node_class": "ProcessInstrumentationFunction",
+    "node_id": "p100-u8-in2",
+    "document_id": null,
+    "no_datasheet_reason": "control function in the DCS (shared display/control); no vendor datasheet exists for it"
+  },
+  {
+    "tag": "LT-12-4",
+    "node_class": "ProcessSignalGeneratingFunction",
+    "node_id": "p100-u12-in10",
+    "document_id": null,
+    "no_datasheet_reason": "level or temperature transmitter; the corpus has no datasheet for it (the Rosemount 3051 measures pressure and differential-pressure flow)"
+  },
+  {
+    "tag": "LT-13-2",
+    "node_class": "ProcessSignalGeneratingFunction",
+    "node_id": "p100-u13-in4",
+    "document_id": null,
+    "no_datasheet_reason": "level or temperature transmitter; the corpus has no datasheet for it (the Rosemount 3051 measures pressure and differential-pressure flow)"
+  },
+  {
+    "tag": "LT-13-3",
+    "node_class": "ProcessSignalGeneratingFunction",
+    "node_id": "p100-u13-in7",
+    "document_id": null,
+    "no_datasheet_reason": "level or temperature transmitter; the corpus has no datasheet for it (the Rosemount 3051 measures pressure and differential-pressure flow)"
+  },
+  {
+    "tag": "LT-16-1",
+    "node_class": "ProcessSignalGeneratingFunction",
+    "node_id": "p100-u16-in1",
+    "document_id": null,
+    "no_datasheet_reason": "level or temperature transmitter; the corpus has no datasheet for it (the Rosemount 3051 measures pressure and differential-pressure flow)"
+  },
+  {
+    "tag": "LT-18-1",
+    "node_class": "ProcessSignalGeneratingFunction",
+    "node_id": "p100-u18-in1",
+    "document_id": null,
+    "no_datasheet_reason": "level or temperature transmitter; the corpus has no datasheet for it (the Rosemount 3051 measures pressure and differential-pressure flow)"
+  },
+  {
+    "tag": "LT-20-1",
+    "node_class": "ProcessSignalGeneratingFunction",
+    "node_id": "p100-u20-in1",
+    "document_id": null,
+    "no_datasheet_reason": "level or temperature transmitter; the corpus has no datasheet for it (the Rosemount 3051 measures pressure and differential-pressure flow)"
+  },
+  {
+    "tag": "LT-24-1",
+    "node_class": "ProcessSignalGeneratingFunction",
+    "node_id": "p100-u24-in1",
+    "document_id": null,
+    "no_datasheet_reason": "level or temperature transmitter; the corpus has no datasheet for it (the Rosemount 3051 measures pressure and differential-pressure flow)"
+  },
+  {
+    "tag": "LT-26-1",
+    "node_class": "ProcessSignalGeneratingFunction",
+    "node_id": "p100-u26-in1",
+    "document_id": null,
+    "no_datasheet_reason": "level or temperature transmitter; the corpus has no datasheet for it (the Rosemount 3051 measures pressure and differential-pressure flow)"
+  },
+  {
+    "tag": "LT-26-2",
+    "node_class": "ProcessSignalGeneratingFunction",
+    "node_id": "p100-u26-in4",
+    "document_id": null,
+    "no_datasheet_reason": "level or temperature transmitter; the corpus has no datasheet for it (the Rosemount 3051 measures pressure and differential-pressure flow)"
+  },
+  {
+    "tag": "LT-28-1",
+    "node_class": "ProcessSignalGeneratingFunction",
+    "node_id": "p100-u28-in1",
+    "document_id": null,
+    "no_datasheet_reason": "level or temperature transmitter; the corpus has no datasheet for it (the Rosemount 3051 measures pressure and differential-pressure flow)"
+  },
+  {
+    "tag": "LT-30-1",
+    "node_class": "ProcessSignalGeneratingFunction",
+    "node_id": "p100-u30-in1",
+    "document_id": null,
+    "no_datasheet_reason": "level or temperature transmitter; the corpus has no datasheet for it (the Rosemount 3051 measures pressure and differential-pressure flow)"
+  },
+  {
+    "tag": "LT-35-1",
+    "node_class": "ProcessSignalGeneratingFunction",
+    "node_id": "p100-u35-in1",
+    "document_id": null,
+    "no_datasheet_reason": "level or temperature transmitter; the corpus has no datasheet for it (the Rosemount 3051 measures pressure and differential-pressure flow)"
+  },
+  {
+    "tag": "LT-42-2",
+    "node_class": "ProcessSignalGeneratingFunction",
+    "node_id": "p100-u42-in4",
+    "document_id": null,
+    "no_datasheet_reason": "level or temperature transmitter; the corpus has no datasheet for it (the Rosemount 3051 measures pressure and differential-pressure flow)"
+  },
+  {
+    "tag": "LT-45-2",
+    "node_class": "ProcessSignalGeneratingFunction",
+    "node_id": "p100-u45-in4",
+    "document_id": null,
+    "no_datasheet_reason": "level or temperature transmitter; the corpus has no datasheet for it (the Rosemount 3051 measures pressure and differential-pressure flow)"
+  },
+  {
+    "tag": "LT-48-1",
+    "node_class": "ProcessSignalGeneratingFunction",
+    "node_id": "p100-u48-in1",
+    "document_id": null,
+    "no_datasheet_reason": "level or temperature transmitter; the corpus has no datasheet for it (the Rosemount 3051 measures pressure and differential-pressure flow)"
+  },
+  {
+    "tag": "LT-51-1",
+    "node_class": "ProcessSignalGeneratingFunction",
+    "node_id": "p100-u51-in1",
+    "document_id": null,
+    "no_datasheet_reason": "level or temperature transmitter; the corpus has no datasheet for it (the Rosemount 3051 measures pressure and differential-pressure flow)"
+  },
+  {
+    "tag": "LT-52-1",
+    "node_class": "ProcessSignalGeneratingFunction",
+    "node_id": "p100-u52-in1",
+    "document_id": null,
+    "no_datasheet_reason": "level or temperature transmitter; the corpus has no datasheet for it (the Rosemount 3051 measures pressure and differential-pressure flow)"
+  },
+  {
+    "tag": "LT-7-1",
+    "node_class": "ProcessSignalGeneratingFunction",
+    "node_id": "p100-u7-in1",
+    "document_id": null,
+    "no_datasheet_reason": "level or temperature transmitter; the corpus has no datasheet for it (the Rosemount 3051 measures pressure and differential-pressure flow)"
+  },
+  {
+    "tag": "LT-8-1",
+    "node_class": "ProcessSignalGeneratingFunction",
+    "node_id": "p100-u8-in1",
+    "document_id": null,
+    "no_datasheet_reason": "level or temperature transmitter; the corpus has no datasheet for it (the Rosemount 3051 measures pressure and differential-pressure flow)"
+  },
+  {
+    "tag": "LV-12-4",
+    "node_class": "BallValve",
+    "node_id": "p100-u12-va3",
+    "document_id": "flowserve-worcester-f51-f52"
+  },
+  {
+    "tag": "LV-13-2",
+    "node_class": "BallValve",
+    "node_id": "p100-u13-va5",
+    "document_id": "flowserve-worcester-f51-f52"
+  },
+  {
+    "tag": "LV-13-3",
+    "node_class": "BallValve",
+    "node_id": "p100-u13-va6",
+    "document_id": "flowserve-worcester-f51-f52"
+  },
+  {
+    "tag": "LV-16-1",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u16-va2",
+    "document_id": "fisher-et-d100022x012"
+  },
+  {
+    "tag": "LV-18-1",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u18-va2",
+    "document_id": "fisher-et-d100022x012"
+  },
+  {
+    "tag": "LV-20-1",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u20-va6",
+    "document_id": "fisher-et-d100022x012"
+  },
+  {
+    "tag": "LV-24-1",
+    "node_class": "BallValve",
+    "node_id": "p100-u24-va5",
+    "document_id": "flowserve-worcester-f51-f52"
+  },
+  {
+    "tag": "LV-26-1",
+    "node_class": "BallValve",
+    "node_id": "p100-u26-va4",
+    "document_id": "flowserve-worcester-f51-f52"
+  },
+  {
+    "tag": "LV-26-2",
+    "node_class": "BallValve",
+    "node_id": "p100-u26-va6",
+    "document_id": "flowserve-worcester-f51-f52"
+  },
+  {
+    "tag": "LV-28-1",
+    "node_class": "BallValve",
+    "node_id": "p100-u28-va1",
+    "document_id": "flowserve-worcester-f51-f52"
+  },
+  {
+    "tag": "LV-30-1",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u30-va4",
+    "document_id": "fisher-et-d100022x012"
+  },
+  {
+    "tag": "LV-35-1",
+    "node_class": "BallValve",
+    "node_id": "p100-u35-va2",
+    "document_id": "flowserve-worcester-f51-f52"
+  },
+  {
+    "tag": "LV-42-2",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u42-va7",
+    "document_id": "fisher-et-d100022x012"
+  },
+  {
+    "tag": "LV-45-2",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u45-va3",
+    "document_id": "fisher-et-d100022x012"
+  },
+  {
+    "tag": "LV-48-1",
+    "node_class": "BallValve",
+    "node_id": "p100-u48-va2",
+    "document_id": "flowserve-worcester-f51-f52"
+  },
+  {
+    "tag": "LV-51-1",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u51-va3",
+    "document_id": "fisher-et-d100022x012"
+  },
+  {
+    "tag": "LV-52-1",
+    "node_class": "BallValve",
+    "node_id": "p100-u52-va5",
+    "document_id": "flowserve-worcester-f51-f52"
+  },
+  {
+    "tag": "LV-7-1",
+    "node_class": "BallValve",
+    "node_id": "p100-u7-va6",
+    "document_id": "flowserve-worcester-f51-f52"
+  },
+  {
+    "tag": "LV-8-1",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u8-va1",
+    "document_id": "fisher-et-d100022x012"
+  },
+  {
+    "tag": "P-1-1",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u1-eq1",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-1-2",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u1-eq2",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-1-3",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u1-eq3",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-1-4",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u1-eq4",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-10-1",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u10-eq1",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-10-2",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u10-eq4",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-10-3",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u10-eq5",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-10-4",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u10-eq6",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-11-1",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u11-eq1",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-11-2",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u11-eq2",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-11-3",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u11-eq4",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-11-4",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u11-eq5",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-12-1",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u12-eq1",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-12-2",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u12-eq2",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-12-3",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u12-eq4",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-12-4",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u12-eq5",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-13-1",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u13-eq1",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-13-2",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u13-eq2",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-13-3",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u13-eq3",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-13-4",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u13-eq5",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-13-5",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u13-eq6",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-14-1",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u14-eq1",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-14-2",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u14-eq3",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-14-3",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u14-eq4",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-14-4",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u14-eq5",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-15-1",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u15-eq1",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-15-2",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u15-eq3",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-15-3",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u15-eq5",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-16-1",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u16-eq1",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-16-2",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u16-eq2",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-16-3",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u16-eq5",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-16-4",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u16-eq6",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-17-1",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u17-eq1",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-17-2",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u17-eq3",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-17-3",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u17-eq4",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-17-4",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u17-eq5",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-18-1",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u18-eq2",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-18-2",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u18-eq3",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-18-3",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u18-eq4",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-19-1",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u19-eq1",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-19-2",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u19-eq2",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-19-3",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u19-eq3",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-19-4",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u19-eq4",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-19-5",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u19-eq5",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-2-1",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u2-eq1",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-2-2",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u2-eq4",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-2-3",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u2-eq5",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-20-1",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u20-eq2",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-20-2",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u20-eq4",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-20-3",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u20-eq5",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-21-1",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u21-eq1",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-21-2",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u21-eq3",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-22-1",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u22-eq3",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-22-2",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u22-eq4",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-22-3",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u22-eq5",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-22-4",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u22-eq6",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-23-1",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u23-eq2",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-23-2",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u23-eq3",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-23-3",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u23-eq4",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-23-4",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u23-eq6",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-24-1",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u24-eq3",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-24-2",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u24-eq4",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-24-3",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u24-eq5",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-24-4",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u24-eq6",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-25-1",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u25-eq2",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-25-2",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u25-eq3",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-25-3",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u25-eq4",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-26-1",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u26-eq1",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-26-2",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u26-eq3",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-26-3",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u26-eq4",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-26-4",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u26-eq5",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-26-5",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u26-eq6",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-27-1",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u27-eq1",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-27-2",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u27-eq3",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-27-3",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u27-eq4",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-27-4",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u27-eq5",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-28-1",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u28-eq1",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-28-2",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u28-eq4",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-28-3",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u28-eq5",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-29-1",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u29-eq1",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-29-2",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u29-eq3",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-29-3",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u29-eq4",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-3-1",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u3-eq1",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-3-2",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u3-eq3",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-3-3",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u3-eq4",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-3-4",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u3-eq5",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-3-5",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u3-eq6",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-30-1",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u30-eq1",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-30-2",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u30-eq2",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-30-3",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u30-eq3",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-31-1",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u31-eq3",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-31-2",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u31-eq5",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-32-1",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u32-eq1",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-32-2",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u32-eq2",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-32-3",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u32-eq3",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-32-4",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u32-eq4",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-33-1",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u33-eq1",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-33-2",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u33-eq2",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-33-3",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u33-eq3",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-33-4",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u33-eq5",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-33-5",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u33-eq6",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-34-1",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u34-eq3",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-34-2",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u34-eq4",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-34-3",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u34-eq5",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-35-1",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u35-eq1",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-35-2",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u35-eq2",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-35-3",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u35-eq3",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-35-4",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u35-eq4",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-35-5",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u35-eq6",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-36-1",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u36-eq2",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-36-2",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u36-eq3",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-37-1",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u37-eq1",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-37-2",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u37-eq2",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-37-3",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u37-eq3",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-37-4",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u37-eq4",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-37-5",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u37-eq5",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-38-1",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u38-eq1",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-38-2",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u38-eq3",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-38-3",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u38-eq4",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-38-4",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u38-eq5",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-39-1",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u39-eq1",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-39-2",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u39-eq2",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-39-3",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u39-eq4",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-39-4",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u39-eq5",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-4-1",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u4-eq1",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-4-2",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u4-eq3",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-4-3",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u4-eq4",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-40-1",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u40-eq2",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-40-2",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u40-eq4",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-40-3",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u40-eq5",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-41-1",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u41-eq1",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-41-2",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u41-eq2",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-41-3",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u41-eq3",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-41-4",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u41-eq5",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-42-1",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u42-eq1",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-42-2",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u42-eq2",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-42-3",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u42-eq3",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-42-4",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u42-eq5",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-43-1",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u43-eq2",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-43-2",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u43-eq5",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-44-1",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u44-eq1",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-44-2",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u44-eq2",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-45-1",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u45-eq5",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-46-1",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u46-eq3",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-46-2",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u46-eq4",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-47-1",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u47-eq1",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-47-2",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u47-eq2",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-48-1",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u48-eq2",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-48-2",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u48-eq3",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-49-1",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u49-eq2",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-49-2",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u49-eq3",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-49-3",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u49-eq4",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-49-4",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u49-eq5",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-5-1",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u5-eq1",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-5-2",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u5-eq2",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-5-3",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u5-eq4",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-50-1",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u50-eq1",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-50-2",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u50-eq2",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-50-3",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u50-eq3",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-50-4",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u50-eq4",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-50-5",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u50-eq5",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-51-1",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u51-eq2",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-51-2",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u51-eq4",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-51-3",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u51-eq5",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-52-1",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u52-eq4",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-52-2",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u52-eq5",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-53-1",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u53-eq1",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-53-2",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u53-eq2",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-53-3",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u53-eq4",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-53-4",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u53-eq5",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-53-5",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u53-eq6",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-54-1",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u54-eq3",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-55-1",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u55-eq1",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-55-2",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u55-eq6",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-56-1",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u56-eq1",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-56-2",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u56-eq3",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-56-3",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u56-eq4",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-57-1",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u57-eq1",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-57-2",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u57-eq2",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-57-3",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u57-eq3",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-57-4",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u57-eq4",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-57-5",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u57-eq5",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-6-1",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u6-eq2",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-6-2",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u6-eq3",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-6-3",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u6-eq4",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-7-1",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u7-eq1",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-7-2",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u7-eq3",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-8-1",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u8-eq1",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-8-2",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u8-eq2",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-8-3",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u8-eq3",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-8-4",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u8-eq4",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-9-1",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u9-eq1",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-9-2",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u9-eq2",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-9-3",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u9-eq3",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "P-9-4",
+    "node_class": "CentrifugalPump",
+    "node_id": "p100-u9-eq4",
+    "document_id": "gorman-rupp-0700286"
+  },
+  {
+    "tag": "PIC-1-2",
+    "node_class": "ProcessInstrumentationFunction",
+    "node_id": "p100-u1-in5",
+    "document_id": null,
+    "no_datasheet_reason": "control function in the DCS (shared display/control); no vendor datasheet exists for it"
+  },
+  {
+    "tag": "PIC-1-3",
+    "node_class": "ProcessInstrumentationFunction",
+    "node_id": "p100-u1-in8",
+    "document_id": null,
+    "no_datasheet_reason": "control function in the DCS (shared display/control); no vendor datasheet exists for it"
+  },
+  {
+    "tag": "PIC-12-2",
+    "node_class": "ProcessInstrumentationFunction",
+    "node_id": "p100-u12-in5",
+    "document_id": null,
+    "no_datasheet_reason": "control function in the DCS (shared display/control); no vendor datasheet exists for it"
+  },
+  {
+    "tag": "PIC-17-2",
+    "node_class": "ProcessInstrumentationFunction",
+    "node_id": "p100-u17-in5",
+    "document_id": null,
+    "no_datasheet_reason": "control function in the DCS (shared display/control); no vendor datasheet exists for it"
+  },
+  {
+    "tag": "PIC-22-1",
+    "node_class": "ProcessInstrumentationFunction",
+    "node_id": "p100-u22-in2",
+    "document_id": null,
+    "no_datasheet_reason": "control function in the DCS (shared display/control); no vendor datasheet exists for it"
+  },
+  {
+    "tag": "PIC-23-1",
+    "node_class": "ProcessInstrumentationFunction",
+    "node_id": "p100-u23-in2",
+    "document_id": null,
+    "no_datasheet_reason": "control function in the DCS (shared display/control); no vendor datasheet exists for it"
+  },
+  {
+    "tag": "PIC-27-1",
+    "node_class": "ProcessInstrumentationFunction",
+    "node_id": "p100-u27-in2",
+    "document_id": null,
+    "no_datasheet_reason": "control function in the DCS (shared display/control); no vendor datasheet exists for it"
+  },
+  {
+    "tag": "PIC-27-2",
+    "node_class": "ProcessInstrumentationFunction",
+    "node_id": "p100-u27-in5",
+    "document_id": null,
+    "no_datasheet_reason": "control function in the DCS (shared display/control); no vendor datasheet exists for it"
+  },
+  {
+    "tag": "PIC-29-2",
+    "node_class": "ProcessInstrumentationFunction",
+    "node_id": "p100-u29-in5",
+    "document_id": null,
+    "no_datasheet_reason": "control function in the DCS (shared display/control); no vendor datasheet exists for it"
+  },
+  {
+    "tag": "PIC-3-1",
+    "node_class": "ProcessInstrumentationFunction",
+    "node_id": "p100-u3-in2",
+    "document_id": null,
+    "no_datasheet_reason": "control function in the DCS (shared display/control); no vendor datasheet exists for it"
+  },
+  {
+    "tag": "PIC-33-1",
+    "node_class": "ProcessInstrumentationFunction",
+    "node_id": "p100-u33-in2",
+    "document_id": null,
+    "no_datasheet_reason": "control function in the DCS (shared display/control); no vendor datasheet exists for it"
+  },
+  {
+    "tag": "PIC-33-2",
+    "node_class": "ProcessInstrumentationFunction",
+    "node_id": "p100-u33-in5",
+    "document_id": null,
+    "no_datasheet_reason": "control function in the DCS (shared display/control); no vendor datasheet exists for it"
+  },
+  {
+    "tag": "PIC-34-1",
+    "node_class": "ProcessInstrumentationFunction",
+    "node_id": "p100-u34-in2",
+    "document_id": null,
+    "no_datasheet_reason": "control function in the DCS (shared display/control); no vendor datasheet exists for it"
+  },
+  {
+    "tag": "PIC-36-1",
+    "node_class": "ProcessInstrumentationFunction",
+    "node_id": "p100-u36-in2",
+    "document_id": null,
+    "no_datasheet_reason": "control function in the DCS (shared display/control); no vendor datasheet exists for it"
+  },
+  {
+    "tag": "PIC-4-1",
+    "node_class": "ProcessInstrumentationFunction",
+    "node_id": "p100-u4-in2",
+    "document_id": null,
+    "no_datasheet_reason": "control function in the DCS (shared display/control); no vendor datasheet exists for it"
+  },
+  {
+    "tag": "PIC-43-1",
+    "node_class": "ProcessInstrumentationFunction",
+    "node_id": "p100-u43-in2",
+    "document_id": null,
+    "no_datasheet_reason": "control function in the DCS (shared display/control); no vendor datasheet exists for it"
+  },
+  {
+    "tag": "PIC-43-3",
+    "node_class": "ProcessInstrumentationFunction",
+    "node_id": "p100-u43-in8",
+    "document_id": null,
+    "no_datasheet_reason": "control function in the DCS (shared display/control); no vendor datasheet exists for it"
+  },
+  {
+    "tag": "PIC-45-1",
+    "node_class": "ProcessInstrumentationFunction",
+    "node_id": "p100-u45-in2",
+    "document_id": null,
+    "no_datasheet_reason": "control function in the DCS (shared display/control); no vendor datasheet exists for it"
+  },
+  {
+    "tag": "PIC-46-2",
+    "node_class": "ProcessInstrumentationFunction",
+    "node_id": "p100-u46-in5",
+    "document_id": null,
+    "no_datasheet_reason": "control function in the DCS (shared display/control); no vendor datasheet exists for it"
+  },
+  {
+    "tag": "PIC-49-1",
+    "node_class": "ProcessInstrumentationFunction",
+    "node_id": "p100-u49-in2",
+    "document_id": null,
+    "no_datasheet_reason": "control function in the DCS (shared display/control); no vendor datasheet exists for it"
+  },
+  {
+    "tag": "PIC-53-1",
+    "node_class": "ProcessInstrumentationFunction",
+    "node_id": "p100-u53-in2",
+    "document_id": null,
+    "no_datasheet_reason": "control function in the DCS (shared display/control); no vendor datasheet exists for it"
+  },
+  {
+    "tag": "PIC-57-1",
+    "node_class": "ProcessInstrumentationFunction",
+    "node_id": "p100-u57-in2",
+    "document_id": null,
+    "no_datasheet_reason": "control function in the DCS (shared display/control); no vendor datasheet exists for it"
+  },
+  {
+    "tag": "PIC-6-1",
+    "node_class": "ProcessInstrumentationFunction",
+    "node_id": "p100-u6-in2",
+    "document_id": null,
+    "no_datasheet_reason": "control function in the DCS (shared display/control); no vendor datasheet exists for it"
+  },
+  {
+    "tag": "PIC-9-1",
+    "node_class": "ProcessInstrumentationFunction",
+    "node_id": "p100-u9-in2",
+    "document_id": null,
+    "no_datasheet_reason": "control function in the DCS (shared display/control); no vendor datasheet exists for it"
+  },
+  {
+    "tag": "PT-1-2",
+    "node_class": "ProcessSignalGeneratingFunction",
+    "node_id": "p100-u1-in4",
+    "document_id": "rosemount-3051-00813-0100-4001"
+  },
+  {
+    "tag": "PT-1-3",
+    "node_class": "ProcessSignalGeneratingFunction",
+    "node_id": "p100-u1-in7",
+    "document_id": "rosemount-3051-00813-0100-4001"
+  },
+  {
+    "tag": "PT-12-2",
+    "node_class": "ProcessSignalGeneratingFunction",
+    "node_id": "p100-u12-in4",
+    "document_id": "rosemount-3051-00813-0100-4001"
+  },
+  {
+    "tag": "PT-17-2",
+    "node_class": "ProcessSignalGeneratingFunction",
+    "node_id": "p100-u17-in4",
+    "document_id": "rosemount-3051-00813-0100-4001"
+  },
+  {
+    "tag": "PT-22-1",
+    "node_class": "ProcessSignalGeneratingFunction",
+    "node_id": "p100-u22-in1",
+    "document_id": "rosemount-3051-00813-0100-4001"
+  },
+  {
+    "tag": "PT-23-1",
+    "node_class": "ProcessSignalGeneratingFunction",
+    "node_id": "p100-u23-in1",
+    "document_id": "rosemount-3051-00813-0100-4001"
+  },
+  {
+    "tag": "PT-27-1",
+    "node_class": "ProcessSignalGeneratingFunction",
+    "node_id": "p100-u27-in1",
+    "document_id": "rosemount-3051-00813-0100-4001"
+  },
+  {
+    "tag": "PT-27-2",
+    "node_class": "ProcessSignalGeneratingFunction",
+    "node_id": "p100-u27-in4",
+    "document_id": "rosemount-3051-00813-0100-4001"
+  },
+  {
+    "tag": "PT-29-2",
+    "node_class": "ProcessSignalGeneratingFunction",
+    "node_id": "p100-u29-in4",
+    "document_id": "rosemount-3051-00813-0100-4001"
+  },
+  {
+    "tag": "PT-3-1",
+    "node_class": "ProcessSignalGeneratingFunction",
+    "node_id": "p100-u3-in1",
+    "document_id": "rosemount-3051-00813-0100-4001"
+  },
+  {
+    "tag": "PT-33-1",
+    "node_class": "ProcessSignalGeneratingFunction",
+    "node_id": "p100-u33-in1",
+    "document_id": "rosemount-3051-00813-0100-4001"
+  },
+  {
+    "tag": "PT-33-2",
+    "node_class": "ProcessSignalGeneratingFunction",
+    "node_id": "p100-u33-in4",
+    "document_id": "rosemount-3051-00813-0100-4001"
+  },
+  {
+    "tag": "PT-34-1",
+    "node_class": "ProcessSignalGeneratingFunction",
+    "node_id": "p100-u34-in1",
+    "document_id": "rosemount-3051-00813-0100-4001"
+  },
+  {
+    "tag": "PT-36-1",
+    "node_class": "ProcessSignalGeneratingFunction",
+    "node_id": "p100-u36-in1",
+    "document_id": "rosemount-3051-00813-0100-4001"
+  },
+  {
+    "tag": "PT-4-1",
+    "node_class": "ProcessSignalGeneratingFunction",
+    "node_id": "p100-u4-in1",
+    "document_id": "rosemount-3051-00813-0100-4001"
+  },
+  {
+    "tag": "PT-43-1",
+    "node_class": "ProcessSignalGeneratingFunction",
+    "node_id": "p100-u43-in1",
+    "document_id": "rosemount-3051-00813-0100-4001"
+  },
+  {
+    "tag": "PT-43-3",
+    "node_class": "ProcessSignalGeneratingFunction",
+    "node_id": "p100-u43-in7",
+    "document_id": "rosemount-3051-00813-0100-4001"
+  },
+  {
+    "tag": "PT-45-1",
+    "node_class": "ProcessSignalGeneratingFunction",
+    "node_id": "p100-u45-in1",
+    "document_id": "rosemount-3051-00813-0100-4001"
+  },
+  {
+    "tag": "PT-46-2",
+    "node_class": "ProcessSignalGeneratingFunction",
+    "node_id": "p100-u46-in4",
+    "document_id": "rosemount-3051-00813-0100-4001"
+  },
+  {
+    "tag": "PT-49-1",
+    "node_class": "ProcessSignalGeneratingFunction",
+    "node_id": "p100-u49-in1",
+    "document_id": "rosemount-3051-00813-0100-4001"
+  },
+  {
+    "tag": "PT-53-1",
+    "node_class": "ProcessSignalGeneratingFunction",
+    "node_id": "p100-u53-in1",
+    "document_id": "rosemount-3051-00813-0100-4001"
+  },
+  {
+    "tag": "PT-57-1",
+    "node_class": "ProcessSignalGeneratingFunction",
+    "node_id": "p100-u57-in1",
+    "document_id": "rosemount-3051-00813-0100-4001"
+  },
+  {
+    "tag": "PT-6-1",
+    "node_class": "ProcessSignalGeneratingFunction",
+    "node_id": "p100-u6-in1",
+    "document_id": "rosemount-3051-00813-0100-4001"
+  },
+  {
+    "tag": "PT-9-1",
+    "node_class": "ProcessSignalGeneratingFunction",
+    "node_id": "p100-u9-in1",
+    "document_id": "rosemount-3051-00813-0100-4001"
+  },
+  {
+    "tag": "PV-1-2",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u1-va3",
+    "document_id": "fisher-et-d100022x012"
+  },
+  {
+    "tag": "PV-1-3",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u1-va6",
+    "document_id": "fisher-et-d100022x012"
+  },
+  {
+    "tag": "PV-12-2",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u12-va1",
+    "document_id": "fisher-et-d100022x012"
+  },
+  {
+    "tag": "PV-17-2",
+    "node_class": "BallValve",
+    "node_id": "p100-u17-va11",
+    "document_id": "flowserve-worcester-f51-f52"
+  },
+  {
+    "tag": "PV-22-1",
+    "node_class": "BallValve",
+    "node_id": "p100-u22-va4",
+    "document_id": "flowserve-worcester-f51-f52"
+  },
+  {
+    "tag": "PV-23-1",
+    "node_class": "BallValve",
+    "node_id": "p100-u23-va6",
+    "document_id": "flowserve-worcester-f51-f52"
+  },
+  {
+    "tag": "PV-27-1",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u27-va4",
+    "document_id": "fisher-et-d100022x012"
+  },
+  {
+    "tag": "PV-27-2",
+    "node_class": "BallValve",
+    "node_id": "p100-u27-va1",
+    "document_id": "flowserve-worcester-f51-f52"
+  },
+  {
+    "tag": "PV-29-2",
+    "node_class": "BallValve",
+    "node_id": "p100-u29-va3",
+    "document_id": "flowserve-worcester-f51-f52"
+  },
+  {
+    "tag": "PV-3-1",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u3-va3",
+    "document_id": "fisher-et-d100022x012"
+  },
+  {
+    "tag": "PV-33-1",
+    "node_class": "BallValve",
+    "node_id": "p100-u33-va3",
+    "document_id": "flowserve-worcester-f51-f52"
+  },
+  {
+    "tag": "PV-33-2",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u33-va5",
+    "document_id": "fisher-et-d100022x012"
+  },
+  {
+    "tag": "PV-34-1",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u34-va3",
+    "document_id": "fisher-et-d100022x012"
+  },
+  {
+    "tag": "PV-36-1",
+    "node_class": "BallValve",
+    "node_id": "p100-u36-va3",
+    "document_id": "flowserve-worcester-f51-f52"
+  },
+  {
+    "tag": "PV-4-1",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u4-va8",
+    "document_id": "fisher-et-d100022x012"
+  },
+  {
+    "tag": "PV-43-1",
+    "node_class": "BallValve",
+    "node_id": "p100-u43-va1",
+    "document_id": "flowserve-worcester-f51-f52"
+  },
+  {
+    "tag": "PV-43-3",
+    "node_class": "BallValve",
+    "node_id": "p100-u43-va9",
+    "document_id": "flowserve-worcester-f51-f52"
+  },
+  {
+    "tag": "PV-45-1",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u45-va1",
+    "document_id": "fisher-et-d100022x012"
+  },
+  {
+    "tag": "PV-46-2",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u46-va2",
+    "document_id": "fisher-et-d100022x012"
+  },
+  {
+    "tag": "PV-49-1",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u49-va4",
+    "document_id": "fisher-et-d100022x012"
+  },
+  {
+    "tag": "PV-53-1",
+    "node_class": "BallValve",
+    "node_id": "p100-u53-va1",
+    "document_id": "flowserve-worcester-f51-f52"
+  },
+  {
+    "tag": "PV-57-1",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u57-va1",
+    "document_id": "fisher-et-d100022x012"
+  },
+  {
+    "tag": "PV-6-1",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u6-va8",
+    "document_id": "fisher-et-d100022x012"
+  },
+  {
+    "tag": "PV-9-1",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u9-va6",
+    "document_id": "fisher-et-d100022x012"
+  },
+  {
+    "tag": "TIC-1-1",
+    "node_class": "ProcessInstrumentationFunction",
+    "node_id": "p100-u1-in2",
+    "document_id": null,
+    "no_datasheet_reason": "control function in the DCS (shared display/control); no vendor datasheet exists for it"
+  },
+  {
+    "tag": "TIC-1-4",
+    "node_class": "ProcessInstrumentationFunction",
+    "node_id": "p100-u1-in11",
+    "document_id": null,
+    "no_datasheet_reason": "control function in the DCS (shared display/control); no vendor datasheet exists for it"
+  },
+  {
+    "tag": "TIC-10-2",
+    "node_class": "ProcessInstrumentationFunction",
+    "node_id": "p100-u10-in5",
+    "document_id": null,
+    "no_datasheet_reason": "control function in the DCS (shared display/control); no vendor datasheet exists for it"
+  },
+  {
+    "tag": "TIC-12-3",
+    "node_class": "ProcessInstrumentationFunction",
+    "node_id": "p100-u12-in8",
+    "document_id": null,
+    "no_datasheet_reason": "control function in the DCS (shared display/control); no vendor datasheet exists for it"
+  },
+  {
+    "tag": "TIC-13-1",
+    "node_class": "ProcessInstrumentationFunction",
+    "node_id": "p100-u13-in2",
+    "document_id": null,
+    "no_datasheet_reason": "control function in the DCS (shared display/control); no vendor datasheet exists for it"
+  },
+  {
+    "tag": "TIC-19-1",
+    "node_class": "ProcessInstrumentationFunction",
+    "node_id": "p100-u19-in2",
+    "document_id": null,
+    "no_datasheet_reason": "control function in the DCS (shared display/control); no vendor datasheet exists for it"
+  },
+  {
+    "tag": "TIC-19-2",
+    "node_class": "ProcessInstrumentationFunction",
+    "node_id": "p100-u19-in5",
+    "document_id": null,
+    "no_datasheet_reason": "control function in the DCS (shared display/control); no vendor datasheet exists for it"
+  },
+  {
+    "tag": "TIC-2-1",
+    "node_class": "ProcessInstrumentationFunction",
+    "node_id": "p100-u2-in2",
+    "document_id": null,
+    "no_datasheet_reason": "control function in the DCS (shared display/control); no vendor datasheet exists for it"
+  },
+  {
+    "tag": "TIC-2-2",
+    "node_class": "ProcessInstrumentationFunction",
+    "node_id": "p100-u2-in5",
+    "document_id": null,
+    "no_datasheet_reason": "control function in the DCS (shared display/control); no vendor datasheet exists for it"
+  },
+  {
+    "tag": "TIC-24-2",
+    "node_class": "ProcessInstrumentationFunction",
+    "node_id": "p100-u24-in5",
+    "document_id": null,
+    "no_datasheet_reason": "control function in the DCS (shared display/control); no vendor datasheet exists for it"
+  },
+  {
+    "tag": "TIC-24-3",
+    "node_class": "ProcessInstrumentationFunction",
+    "node_id": "p100-u24-in8",
+    "document_id": null,
+    "no_datasheet_reason": "control function in the DCS (shared display/control); no vendor datasheet exists for it"
+  },
+  {
+    "tag": "TIC-37-1",
+    "node_class": "ProcessInstrumentationFunction",
+    "node_id": "p100-u37-in2",
+    "document_id": null,
+    "no_datasheet_reason": "control function in the DCS (shared display/control); no vendor datasheet exists for it"
+  },
+  {
+    "tag": "TIC-39-1",
+    "node_class": "ProcessInstrumentationFunction",
+    "node_id": "p100-u39-in2",
+    "document_id": null,
+    "no_datasheet_reason": "control function in the DCS (shared display/control); no vendor datasheet exists for it"
+  },
+  {
+    "tag": "TIC-41-1",
+    "node_class": "ProcessInstrumentationFunction",
+    "node_id": "p100-u41-in2",
+    "document_id": null,
+    "no_datasheet_reason": "control function in the DCS (shared display/control); no vendor datasheet exists for it"
+  },
+  {
+    "tag": "TIC-43-2",
+    "node_class": "ProcessInstrumentationFunction",
+    "node_id": "p100-u43-in5",
+    "document_id": null,
+    "no_datasheet_reason": "control function in the DCS (shared display/control); no vendor datasheet exists for it"
+  },
+  {
+    "tag": "TIC-50-1",
+    "node_class": "ProcessInstrumentationFunction",
+    "node_id": "p100-u50-in2",
+    "document_id": null,
+    "no_datasheet_reason": "control function in the DCS (shared display/control); no vendor datasheet exists for it"
+  },
+  {
+    "tag": "TIC-50-2",
+    "node_class": "ProcessInstrumentationFunction",
+    "node_id": "p100-u50-in5",
+    "document_id": null,
+    "no_datasheet_reason": "control function in the DCS (shared display/control); no vendor datasheet exists for it"
+  },
+  {
+    "tag": "TIC-51-2",
+    "node_class": "ProcessInstrumentationFunction",
+    "node_id": "p100-u51-in5",
+    "document_id": null,
+    "no_datasheet_reason": "control function in the DCS (shared display/control); no vendor datasheet exists for it"
+  },
+  {
+    "tag": "TIC-54-1",
+    "node_class": "ProcessInstrumentationFunction",
+    "node_id": "p100-u54-in2",
+    "document_id": null,
+    "no_datasheet_reason": "control function in the DCS (shared display/control); no vendor datasheet exists for it"
+  },
+  {
+    "tag": "TIC-55-1",
+    "node_class": "ProcessInstrumentationFunction",
+    "node_id": "p100-u55-in2",
+    "document_id": null,
+    "no_datasheet_reason": "control function in the DCS (shared display/control); no vendor datasheet exists for it"
+  },
+  {
+    "tag": "TIC-57-2",
+    "node_class": "ProcessInstrumentationFunction",
+    "node_id": "p100-u57-in5",
+    "document_id": null,
+    "no_datasheet_reason": "control function in the DCS (shared display/control); no vendor datasheet exists for it"
+  },
+  {
+    "tag": "TIC-57-3",
+    "node_class": "ProcessInstrumentationFunction",
+    "node_id": "p100-u57-in8",
+    "document_id": null,
+    "no_datasheet_reason": "control function in the DCS (shared display/control); no vendor datasheet exists for it"
+  },
+  {
+    "tag": "TT-1-1",
+    "node_class": "ProcessSignalGeneratingFunction",
+    "node_id": "p100-u1-in1",
+    "document_id": null,
+    "no_datasheet_reason": "level or temperature transmitter; the corpus has no datasheet for it (the Rosemount 3051 measures pressure and differential-pressure flow)"
+  },
+  {
+    "tag": "TT-1-4",
+    "node_class": "ProcessSignalGeneratingFunction",
+    "node_id": "p100-u1-in10",
+    "document_id": null,
+    "no_datasheet_reason": "level or temperature transmitter; the corpus has no datasheet for it (the Rosemount 3051 measures pressure and differential-pressure flow)"
+  },
+  {
+    "tag": "TT-10-2",
+    "node_class": "ProcessSignalGeneratingFunction",
+    "node_id": "p100-u10-in4",
+    "document_id": null,
+    "no_datasheet_reason": "level or temperature transmitter; the corpus has no datasheet for it (the Rosemount 3051 measures pressure and differential-pressure flow)"
+  },
+  {
+    "tag": "TT-12-3",
+    "node_class": "ProcessSignalGeneratingFunction",
+    "node_id": "p100-u12-in7",
+    "document_id": null,
+    "no_datasheet_reason": "level or temperature transmitter; the corpus has no datasheet for it (the Rosemount 3051 measures pressure and differential-pressure flow)"
+  },
+  {
+    "tag": "TT-13-1",
+    "node_class": "ProcessSignalGeneratingFunction",
+    "node_id": "p100-u13-in1",
+    "document_id": null,
+    "no_datasheet_reason": "level or temperature transmitter; the corpus has no datasheet for it (the Rosemount 3051 measures pressure and differential-pressure flow)"
+  },
+  {
+    "tag": "TT-19-1",
+    "node_class": "ProcessSignalGeneratingFunction",
+    "node_id": "p100-u19-in1",
+    "document_id": null,
+    "no_datasheet_reason": "level or temperature transmitter; the corpus has no datasheet for it (the Rosemount 3051 measures pressure and differential-pressure flow)"
+  },
+  {
+    "tag": "TT-19-2",
+    "node_class": "ProcessSignalGeneratingFunction",
+    "node_id": "p100-u19-in4",
+    "document_id": null,
+    "no_datasheet_reason": "level or temperature transmitter; the corpus has no datasheet for it (the Rosemount 3051 measures pressure and differential-pressure flow)"
+  },
+  {
+    "tag": "TT-2-1",
+    "node_class": "ProcessSignalGeneratingFunction",
+    "node_id": "p100-u2-in1",
+    "document_id": null,
+    "no_datasheet_reason": "level or temperature transmitter; the corpus has no datasheet for it (the Rosemount 3051 measures pressure and differential-pressure flow)"
+  },
+  {
+    "tag": "TT-2-2",
+    "node_class": "ProcessSignalGeneratingFunction",
+    "node_id": "p100-u2-in4",
+    "document_id": null,
+    "no_datasheet_reason": "level or temperature transmitter; the corpus has no datasheet for it (the Rosemount 3051 measures pressure and differential-pressure flow)"
+  },
+  {
+    "tag": "TT-24-2",
+    "node_class": "ProcessSignalGeneratingFunction",
+    "node_id": "p100-u24-in4",
+    "document_id": null,
+    "no_datasheet_reason": "level or temperature transmitter; the corpus has no datasheet for it (the Rosemount 3051 measures pressure and differential-pressure flow)"
+  },
+  {
+    "tag": "TT-24-3",
+    "node_class": "ProcessSignalGeneratingFunction",
+    "node_id": "p100-u24-in7",
+    "document_id": null,
+    "no_datasheet_reason": "level or temperature transmitter; the corpus has no datasheet for it (the Rosemount 3051 measures pressure and differential-pressure flow)"
+  },
+  {
+    "tag": "TT-37-1",
+    "node_class": "ProcessSignalGeneratingFunction",
+    "node_id": "p100-u37-in1",
+    "document_id": null,
+    "no_datasheet_reason": "level or temperature transmitter; the corpus has no datasheet for it (the Rosemount 3051 measures pressure and differential-pressure flow)"
+  },
+  {
+    "tag": "TT-39-1",
+    "node_class": "ProcessSignalGeneratingFunction",
+    "node_id": "p100-u39-in1",
+    "document_id": null,
+    "no_datasheet_reason": "level or temperature transmitter; the corpus has no datasheet for it (the Rosemount 3051 measures pressure and differential-pressure flow)"
+  },
+  {
+    "tag": "TT-41-1",
+    "node_class": "ProcessSignalGeneratingFunction",
+    "node_id": "p100-u41-in1",
+    "document_id": null,
+    "no_datasheet_reason": "level or temperature transmitter; the corpus has no datasheet for it (the Rosemount 3051 measures pressure and differential-pressure flow)"
+  },
+  {
+    "tag": "TT-43-2",
+    "node_class": "ProcessSignalGeneratingFunction",
+    "node_id": "p100-u43-in4",
+    "document_id": null,
+    "no_datasheet_reason": "level or temperature transmitter; the corpus has no datasheet for it (the Rosemount 3051 measures pressure and differential-pressure flow)"
+  },
+  {
+    "tag": "TT-50-1",
+    "node_class": "ProcessSignalGeneratingFunction",
+    "node_id": "p100-u50-in1",
+    "document_id": null,
+    "no_datasheet_reason": "level or temperature transmitter; the corpus has no datasheet for it (the Rosemount 3051 measures pressure and differential-pressure flow)"
+  },
+  {
+    "tag": "TT-50-2",
+    "node_class": "ProcessSignalGeneratingFunction",
+    "node_id": "p100-u50-in4",
+    "document_id": null,
+    "no_datasheet_reason": "level or temperature transmitter; the corpus has no datasheet for it (the Rosemount 3051 measures pressure and differential-pressure flow)"
+  },
+  {
+    "tag": "TT-51-2",
+    "node_class": "ProcessSignalGeneratingFunction",
+    "node_id": "p100-u51-in4",
+    "document_id": null,
+    "no_datasheet_reason": "level or temperature transmitter; the corpus has no datasheet for it (the Rosemount 3051 measures pressure and differential-pressure flow)"
+  },
+  {
+    "tag": "TT-54-1",
+    "node_class": "ProcessSignalGeneratingFunction",
+    "node_id": "p100-u54-in1",
+    "document_id": null,
+    "no_datasheet_reason": "level or temperature transmitter; the corpus has no datasheet for it (the Rosemount 3051 measures pressure and differential-pressure flow)"
+  },
+  {
+    "tag": "TT-55-1",
+    "node_class": "ProcessSignalGeneratingFunction",
+    "node_id": "p100-u55-in1",
+    "document_id": null,
+    "no_datasheet_reason": "level or temperature transmitter; the corpus has no datasheet for it (the Rosemount 3051 measures pressure and differential-pressure flow)"
+  },
+  {
+    "tag": "TT-57-2",
+    "node_class": "ProcessSignalGeneratingFunction",
+    "node_id": "p100-u57-in4",
+    "document_id": null,
+    "no_datasheet_reason": "level or temperature transmitter; the corpus has no datasheet for it (the Rosemount 3051 measures pressure and differential-pressure flow)"
+  },
+  {
+    "tag": "TT-57-3",
+    "node_class": "ProcessSignalGeneratingFunction",
+    "node_id": "p100-u57-in7",
+    "document_id": null,
+    "no_datasheet_reason": "level or temperature transmitter; the corpus has no datasheet for it (the Rosemount 3051 measures pressure and differential-pressure flow)"
+  },
+  {
+    "tag": "TV-1-1",
+    "node_class": "BallValve",
+    "node_id": "p100-u1-va2",
+    "document_id": "flowserve-worcester-f51-f52"
+  },
+  {
+    "tag": "TV-1-4",
+    "node_class": "BallValve",
+    "node_id": "p100-u1-va9",
+    "document_id": "flowserve-worcester-f51-f52"
+  },
+  {
+    "tag": "TV-10-2",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u10-va5",
+    "document_id": "fisher-et-d100022x012"
+  },
+  {
+    "tag": "TV-12-3",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u12-va5",
+    "document_id": "fisher-et-d100022x012"
+  },
+  {
+    "tag": "TV-13-1",
+    "node_class": "BallValve",
+    "node_id": "p100-u13-va1",
+    "document_id": "flowserve-worcester-f51-f52"
+  },
+  {
+    "tag": "TV-19-1",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u19-va1",
+    "document_id": "fisher-et-d100022x012"
+  },
+  {
+    "tag": "TV-19-2",
+    "node_class": "BallValve",
+    "node_id": "p100-u19-va4",
+    "document_id": "flowserve-worcester-f51-f52"
+  },
+  {
+    "tag": "TV-2-1",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u2-va4",
+    "document_id": "fisher-et-d100022x012"
+  },
+  {
+    "tag": "TV-2-2",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u2-va6",
+    "document_id": "fisher-et-d100022x012"
+  },
+  {
+    "tag": "TV-24-2",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u24-va2",
+    "document_id": "fisher-et-d100022x012"
+  },
+  {
+    "tag": "TV-24-3",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u24-va6",
+    "document_id": "fisher-et-d100022x012"
+  },
+  {
+    "tag": "TV-37-1",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u37-va3",
+    "document_id": "fisher-et-d100022x012"
+  },
+  {
+    "tag": "TV-39-1",
+    "node_class": "BallValve",
+    "node_id": "p100-u39-va1",
+    "document_id": "flowserve-worcester-f51-f52"
+  },
+  {
+    "tag": "TV-41-1",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u41-va5",
+    "document_id": "fisher-et-d100022x012"
+  },
+  {
+    "tag": "TV-43-2",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u43-va2",
+    "document_id": "fisher-et-d100022x012"
+  },
+  {
+    "tag": "TV-50-1",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u50-va1",
+    "document_id": "fisher-et-d100022x012"
+  },
+  {
+    "tag": "TV-50-2",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u50-va4",
+    "document_id": "fisher-et-d100022x012"
+  },
+  {
+    "tag": "TV-51-2",
+    "node_class": "BallValve",
+    "node_id": "p100-u51-va4",
+    "document_id": "flowserve-worcester-f51-f52"
+  },
+  {
+    "tag": "TV-54-1",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u54-va1",
+    "document_id": "fisher-et-d100022x012"
+  },
+  {
+    "tag": "TV-55-1",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u55-va9",
+    "document_id": "fisher-et-d100022x012"
+  },
+  {
+    "tag": "TV-57-2",
+    "node_class": "BallValve",
+    "node_id": "p100-u57-va4",
+    "document_id": "flowserve-worcester-f51-f52"
+  },
+  {
+    "tag": "TV-57-3",
+    "node_class": "GlobeValve",
+    "node_id": "p100-u57-va6",
+    "document_id": "fisher-et-d100022x012"
+  }
+]

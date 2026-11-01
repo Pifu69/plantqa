@@ -1,0 +1,242 @@
+[
+ {
+  "item": "ec65e96f96",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Gives cylindrical roller and double row ball bearings, SAE 30 oil not grease, and says no interval is given."
+ },
+ {
+  "item": "ddc399e02c",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Names Whisper/WhisperFlo for noise in gas service and Cavitrol III for cavitation."
+ },
+ {
+  "item": "069c4fd196",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "4 in suction, 2 1/2 in discharge, raised face flanges."
+ },
+ {
+  "item": "4bffce99b6",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Gets high/low via jumper/switch but misses default high, NAMUR/custom levels and the output M jumper."
+ },
+ {
+  "item": "81798b3c0c",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "All three characteristics with standard cages; special cages linear only."
+ },
+ {
+  "item": "8c43480e82",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Claims only equal percentage is stated; linear and quick-opening are available."
+ },
+ {
+  "item": "2764a4afaf",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Lists cast iron, WCC, LCC, WC9, CF8M, CF3M and confirms stainless is available."
+ },
+ {
+  "item": "2b079832a3",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "No; only the Plugged Impulse Line diagnostic with low-power output M."
+ },
+ {
+  "item": "df64fca95c",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Correctly says no motor is specified but misses the 1450 rpm curve and the power read-off."
+ },
+ {
+  "item": "8db183a07e",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Values right but the IEC 60770-1:1999 high vibration level reference is missing."
+ },
+ {
+  "item": "a9ba749cbc",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly says the documents do not cover the fault."
+ },
+ {
+  "item": "a180067fc8",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Weight correct but claims the dimensions are not stated, which they are."
+ },
+ {
+  "item": "f809652c5f",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "4 in suction, 2 1/2 in discharge, raised face flanges, plus correct flange details."
+ },
+ {
+  "item": "4b48ef0fce",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "All elements present including IEC standard and test conditions."
+ },
+ {
+  "item": "0ed7a2a778",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly says the document does not cover the leakage diagnosis."
+ },
+ {
+  "item": "0c2058d327",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly says the part numbers are not given."
+ },
+ {
+  "item": "64c7f76e41",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Claims dimensions and weight are not stated, but both are in the document."
+ },
+ {
+  "item": "f82c33c3d1",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Flanged, buttweld and screwed given but socket weld missing."
+ },
+ {
+  "item": "c74741c948",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly says MTBF is not stated."
+ },
+ {
+  "item": "190aed5711",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Full body material list and stainless availability."
+ },
+ {
+  "item": "7452955596",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "All elements present including IEC standard."
+ },
+ {
+  "item": "3865186d00",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Weight correct but claims the dimensions are not given."
+ },
+ {
+  "item": "0b373764a2",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "4 in suction, 2 1/2 in discharge, raised face flanges."
+ },
+ {
+  "item": "d30c27034b",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Full body material list and stainless availability."
+ },
+ {
+  "item": "92a362d568",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Says no diagnosis is stated but wrongly claims there is no NPSH requirement, missing the curve values."
+ },
+ {
+  "item": "36daeb8bb4",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly says the cause and fix are not in the documents."
+ },
+ {
+  "item": "cd4adbe858",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Values right but the IEC 60770-1:1999 reference is missing."
+ },
+ {
+  "item": "2dac347a67",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Correctly says the part numbers are not given."
+ },
+ {
+  "item": "d0431ab523",
+  "verdict": "partial",
+  "cites_page": true,
+  "reason": "Weight correct but no dimension values were extracted, so it does not answer the fit question."
+ },
+ {
+  "item": "d1e6440e15",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Claims the face-to-face length is not provided; gold gives 368 mm RF."
+ },
+ {
+  "item": "6b295779fe",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Gets jumper/switch high/low but labels the default levels wrongly, omits default high, and misses the output M jumper."
+ },
+ {
+  "item": "8015771a96",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Flanged, buttweld and screwed given but socket weld missing."
+ },
+ {
+  "item": "9d401b077a",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "All Kv values per DN and the test conditions are given."
+ },
+ {
+  "item": "578b35bd80",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Stainless CF8M/CF3M available, but WCC, LCC and WC9 are only described generically."
+ },
+ {
+  "item": "65a3de53fc",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Claims no NPSH value is given and speculates about cavitation instead of stating that the diagnosis is not in the document."
+ },
+ {
+  "item": "94ccde4d0d",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Gives 59.7 but attributes it to ED/ETR and omits the trim, cage and flow-direction conditions."
+ },
+ {
+  "item": "3148dd7125",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Whisper for noise given but Cavitrol III for cavitation/high pressure drop missing."
+ },
+ {
+  "item": "c0b14e0c26",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "All elements present including IEC standard."
+ },
+ {
+  "item": "a6f0ffac6b",
+  "verdict": "partial",
+  "cites_page": true,
+  "reason": "Says the diagnosis is not stated but gives no NPSHr value read from the curve."
+ },
+ {
+  "item": "bc7212d5d4",
+  "verdict": "correct",
+  "cites_page": true,
+  "reason": "PTFE seal ring to 232 C and PEEK option to 316 C given."
+ }
+]

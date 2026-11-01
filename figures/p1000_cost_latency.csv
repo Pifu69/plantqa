@@ -1,0 +1,5 @@
+method,model,cost_per_question_usd,latency_median_s,accuracy
+M1,glm,0.005925,4.75,0.7167
+M1,luna,0.012716,15.21,0.6833
+M2,glm,0.008662,2.51,0.8
+M2,luna,0.003852,1.6,0.7667

@@ -1,0 +1,619 @@
+[
+ {
+  "item": "d371fcaf83",
+  "gold": {
+   "answer": "Not in the document (no troubleshooting).",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated"
+   ],
+   "question": "Regarding FV-11-1 on the P&ID: The valve leaks through when shut. Is it the seat ring or the plug seal, and how do I check?"
+  },
+  "candidate": "Not in the documents. The documents do not contain a diagnostic procedure for localizing the leak, so I cannot tell you whether the leak is at the seat ring or the plug seal or how to check it — that part is not stated. What the datasheet (Fisher ET/EAT/ETR family) does say: the valve is a single-port globe-style control valve with cage guiding and a balanced, push-down-to-close plug. Seating is either PTFE (soft) seating or metal seating; constructions include TSO (Tight Shutoff) trim with a replaceable, protected soft seat, and optional Class V or Class VI shutoff (Class V metal seating requires a spring-loaded seal ring, radius-seat plug and wide-bevel seat ring). The only test information given is factory-level: TSO valves are factory tested to no leakage at shipment (water medium), and the optional Trim Cartridge has a Class V seat leak test as shipped. No on-site inspection or troubleshooting steps are provided in the documents."
+ },
+ {
+  "item": "5ffe5cd0eb",
+  "gold": {
+   "answer": "No. With the low power output code (M), only the Plugged Impulse Line diagnostic is included.",
+   "answerable": "yes",
+   "category": "footnote",
+   "must": [
+    "no",
+    "only Plugged Impulse Line diagnostic"
+   ],
+   "relation": "measured_by",
+   "via_tag": "PT-17-2",
+   "question": "Consider the transmitter that measures E-17-1. If I order the DA1 diagnostics with the low-power 1-5 V output, do I get both Loop Integrity and Plugged Impulse Line diagnostics?"
+  },
+  "candidate": "No. With DA1 diagnostics and the low-power 1–5 V output, Plugged Impulse Line is included, but Loop Integrity is not."
+ },
+ {
+  "item": "e75ebc0445",
+  "gold": {
+   "answer": "Not stated in the document",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "Not stated in the document"
+   ],
+   "question": "Regarding FT-10-1 on the P&ID: Up to what altitude above sea level can the transmitter be installed?"
+  },
+  "candidate": "Not in the documents. The datasheet does not state an installation altitude limit above sea level."
+ },
+ {
+  "item": "5c08a2c5e9",
+  "gold": {
+   "answer": "A sliding-stem, single-port globe-style control valve (body) with cage guiding, balanced valve plug and push-down-to-close plug action, for throttling or on-off control of liquids and gases (part of the easy-e family; EAT = angle version, ETR = push-down-to-open). It is combined with an actuator, e.g. 667.",
+   "answerable": "yes",
+   "category": "value",
+   "must": [
+    "globe-style control valve (sliding stem)",
+    "cage-guided, balanced plug"
+   ],
+   "relation": "upstream",
+   "via_tag": "TV-10-2",
+   "question": "Consider the item directly upstream of BV-10-1 in the process flow. What is a Fisher ET? Is it the valve body, and what kind of valve is it?"
+  },
+  "candidate": "The item directly upstream of BV-10-1 is TV-10-2, a globe-style (operated) control valve whose datasheet is for a Fisher ET. According to the datasheet, the Fisher ET is not just a valve body — it is a complete control valve (the whole valve product, including actuator) from the easy-e family. It is a single-port, globe-style control valve with cage guiding, a balanced valve plug, and push-down-to-close action, used for throttling or on-off control of liquids and gases. Related variants are the EAT (angle version) and ETR (push-down-to-open). The valve body is only one part of the valve; body/bonnet materials include cast iron, WCC/LCC carbon steel, WC9 chrome-moly, CF8M/CF3M stainless, etc. The datasheet does not state what 'ET' stands for."
+ },
+ {
+  "item": "c8ddc814d4",
+  "gold": {
+   "answer": "Housing PVC (PVC-U; cover and inserts PVC, coil housing epoxy). Gaskets/diaphragms EPDM or FKM - choose the FKM version.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "PVC body",
+    "EPDM or FKM seals",
+    "choose FKM"
+   ],
+   "relation": "downstream",
+   "via_tag": "GV-17-2",
+   "question": "Consider the item directly downstream of BV-17-2 in the process flow. What is the body made of, and what are the seals made of? Our fluid attacks EPDM."
+  },
+  "candidate": "The GV-17-2 body is PVC. Its seals are EPDM or FKM, depending on the selected version; the datasheet does not identify which version is installed. It lists FKM for oxidizing acids and substances."
+ },
+ {
+  "item": "77efb92aea",
+  "gold": {
+   "answer": "Not stated in the document",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "says installation position relative to taps is not stated"
+   ],
+   "relation": "fed_by_transmitter",
+   "via_tag": "PT-22-1",
+   "question": "Consider the transmitter that feeds controller PIC-22-1. Same question for gas — where do I mount it relative to the orifice taps so liquid doesn't collect?"
+  },
+  "candidate": "Not in the documents. The documents do not contain the answer. The drawing identifies PT-22-1 as the transmitter feeding controller PIC-22-1 (it measures the pressure of E-22-1), but no orifice taps or tapping-point locations are shown for it, and its datasheet (Rosemount 3051) contains no installation guidance on where to mount the transmitter relative to the taps for gas service — it only covers zero-shift effects of mounting orientation, mounting brackets, and a plugged-impulse-line diagnostic. Therefore the recommended mounting position relative to the orifice taps so liquid does not collect is not stated in the available documents."
+ },
+ {
+  "item": "e0e12fe7dc",
+  "gold": {
+   "answer": "Cast iron, WCC or LCC carbon steel, WC9 chrome moly steel, CF8M (cast 316 stainless) or CF3M (cast 316L stainless), others on request. Yes, stainless (CF8M / CF3M) is available.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "CF8M / CF3M stainless available",
+    "cast iron, WCC, LCC, WC9"
+   ],
+   "question": "Regarding FV-10-1 on the P&ID: What body materials are available, and can I get stainless for a corrosive service?"
+  },
+  "candidate": "Available body materials include cast iron; WCC and LCC carbon steel; WC9 chrome-moly steel; and stainless steel options CF8M (cast 316) and CF3M (cast 316L), with other materials available on request. Stainless is available, but the datasheet does not confirm its suitability for every corrosive service."
+ },
+ {
+  "item": "10211436b6",
+  "gold": {
+   "answer": "368 mm (14.50 in.) for CL300 RF; 384 mm (15.12 in.) for CL300 RTJ (dimension A).",
+   "answerable": "yes",
+   "category": "multi_condition",
+   "must": [
+    "368 mm (RF)",
+    "RTJ differs (384 mm)"
+   ],
+   "relation": "downstream",
+   "via_tag": "PV-1-3",
+   "question": "Consider the item directly downstream of BV-1-2 in the process flow. What's the face-to-face length for a 4 inch Class 300 flanged body?"
+  },
+  "candidate": "The provided datasheet results conflict: they give 368 mm, 197 mm, and 568 mm, so the face-to-face length cannot be determined reliably."
+ },
+ {
+  "item": "998cc67bc5",
+  "gold": {
+   "answer": "Casing ductile iron; impeller gray iron 40 (wear rings gray iron 25, shaft steel 1045, seal faces silicon carbide). Suitability for pH 5 is not stated.",
+   "answerable": "partial",
+   "category": "value",
+   "must": [
+    "casing ductile iron",
+    "impeller gray iron 40",
+    "pH not stated"
+   ],
+   "relation": "upstream",
+   "via_tag": "P-1-4",
+   "question": "Consider the item directly upstream of BV-1-2 in the process flow. What are the casing and impeller made of? Can it take slightly acidic water around pH 5?"
+  },
+  "candidate": "The upstream item is pump P-1-4. Its casing is ductile iron and its impeller is gray iron 40. The description does not establish whether it can handle slightly acidic water at about pH 5."
+ },
+ {
+  "item": "4700278582",
+  "gold": {
+   "answer": "ET: NPS 1, 1-1/2, 2, 2-1/2, 3, 4, 6 and 8 (DN 25-200). NPS 3 is available.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "NPS 1-8 list",
+    "3 in. available"
+   ],
+   "relation": "operated_by",
+   "via_tag": "FV-12-1",
+   "question": "Consider the valve operated by control loop FIC-12-1. What sizes does it come in? Our line is 3 inch."
+  },
+  "candidate": "FIC-12-1 operates globe control valve FV-12-1. Per its datasheet (Fisher ET family, Table 3 \"Available Constructions\"), 3 inch (NPS 3 / DN 80) is available for every version, so it fits your 3-inch line. Available sizes: ET (standard): NPS 1, 1-1/2, 2 and 2-1/2, 3, 4, 6, 8; ETR (push-down-to-open): NPS 1, 1-1/2, 2 and 2-1/2, 3, 4; EAT (angle): NPS 1, 2 and 3, 4, 6. Within NPS 3 there are full-sized and restricted-capacity trim options. The datasheet excerpt does not state which DN sizes pair with each PN pressure rating for the EN-flange constructions."
+ },
+ {
+  "item": "b933b3cdb2",
+  "gold": {
+   "answer": "No. With the low power output code (M), only the Plugged Impulse Line diagnostic is included.",
+   "answerable": "yes",
+   "category": "footnote",
+   "must": [
+    "no",
+    "only Plugged Impulse Line diagnostic"
+   ],
+   "relation": "measured_by",
+   "via_tag": "PT-17-2",
+   "question": "Consider the transmitter that measures E-17-1. If I order the DA1 diagnostics with the low-power 1-5 V output, do I get both Loop Integrity and Plugged Impulse Line diagnostics?"
+  },
+  "candidate": "No. For PT-17-2 (the Rosemount 3051 transmitter measuring E-17-1), option code DA1 is listed as 'Loop Integrity and Plugged Impulse Line diagnostics', but the datasheet footnote states that with the low-power 1-5 V output (code M), only the Plugged Impulse Line diagnostic is included. Loop Integrity is only available with the 4-20 mA HART output (code A)."
+ },
+ {
+  "item": "4b56f3290a",
+  "gold": {
+   "answer": "Bare pump (no motor): length 25.95 in. (659 mm), height 18.88 in. (480 mm), width 14.20 in. (361 mm); net weight 194 lb (88 kg), shipping 204 lb (93 kg). The pump alone fits on 1 m × 0.6 m; with a motor and coupling it cannot be said from the document.",
+   "answerable": "partial",
+   "category": "conditional",
+   "must": [
+    "659 × 361 × 480 mm (approx.)",
+    "88 kg net",
+    "motor not included"
+   ],
+   "relation": "upstream",
+   "via_tag": "P-10-3",
+   "question": "Consider the item directly upstream of BV-10-2 in the process flow. What are the overall dimensions and weight? Will it fit on a 1 m by 0.6 m base?"
+  },
+  "candidate": "P-10-3 weighs 88 kg net (93 kg shipping). Its overall dimensions are not stated in the available datasheet information, so whether it will fit on a 1 m × 0.6 m base cannot be determined. The stated crate volume is not the pump’s footprint dimensions."
+ },
+ {
+  "item": "0353ed77f5",
+  "gold": {
+   "answer": "Neither is stated: the only approval listed is CE.",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated",
+    "only CE"
+   ],
+   "question": "Regarding GV-10-1 on the P&ID: Is it approved for drinking water, or for use in an explosive (Ex) area?"
+  },
+  "candidate": "The datasheet lists CE approval but does not state whether GV-10-1 is approved for drinking water or use in an Ex area."
+ },
+ {
+  "item": "fc2ff60bba",
+  "gold": {
+   "answer": "Not in the document (materials are listed, part numbers are not).",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated"
+   ],
+   "question": "Regarding FV-10-1 on the P&ID: What part numbers do I need for a seat ring and plug seal for our valve size?"
+  },
+  "candidate": "The P&ID identifies FV-10-1 as a globe valve, but the documents do not state its size or the part numbers for its seat ring and plug seal."
+ },
+ {
+  "item": "a063bdeb09",
+  "gold": {
+   "answer": "Not stated (only this model's dimensions are given).",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated"
+   ],
+   "question": "Regarding P-1-1 on the P&ID: If we replace it with a newer model, does the same footprint and pipe connections fit?"
+  },
+  "candidate": "Not in the documents. The documents do not contain any information about a newer replacement model, so compatibility cannot be confirmed. What the datasheet does state for the existing P-1-1 (Gorman-Rupp 0700286): it is a 4\" x 2 1/2\" (102 x 64 mm) pump with raised face flanges — discharge flange with 4 x .75 in bolt holes on a 5.50 in bolt circle (optional 2.50-8 NPT companion flange) and suction flange with 8 x .75 in bolt holes on a 7.50 in bolt circle (optional 4.00-8 NPT companion flange), net weight 194 lbs (88 kg), and 4 base mounting holes of .75 in diameter. The exact overall length/width/height footprint figures appear only on the outline dimension drawing (page 2), not as listed numbers. Any comparison with a newer model's footprint and connections is not stated in the documents."
+ },
+ {
+  "item": "a7ecc53dbe",
+  "gold": {
+   "answer": "Not in the document (materials are listed, part numbers are not).",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated"
+   ],
+   "question": "Regarding FV-10-1 on the P&ID: What part numbers do I need for a seat ring and plug seal for our valve size?"
+  },
+  "candidate": "The datasheet does not identify the specific valve size or provide part numbers for the seat ring or plug seal. It lists sizes NPS 1 through NPS 8, but the plug-seal drawings do not show part numbers, so I can’t determine the parts for your valve size."
+ },
+ {
+  "item": "826db07587",
+  "gold": {
+   "answer": "Cast iron, WCC or LCC carbon steel, WC9 chrome moly steel, CF8M (cast 316 stainless) or CF3M (cast 316L stainless), others on request. Yes, stainless (CF8M / CF3M) is available.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "CF8M / CF3M stainless available",
+    "cast iron, WCC, LCC, WC9"
+   ],
+   "question": "Regarding FV-10-1 on the P&ID: What body materials are available, and can I get stainless for a corrosive service?"
+  },
+  "candidate": "The Fisher ET datasheet lists CF3M (316L stainless steel) and CF8M (316 stainless steel) body/bonnet materials. Stainless options are available, but the excerpts do not state whether they are suitable for corrosive service."
+ },
+ {
+  "item": "bf67477023",
+  "gold": {
+   "answer": "Not stated in the document",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "Not stated in the document"
+   ],
+   "relation": "measured_by",
+   "via_tag": "FT-25-1",
+   "question": "Consider the transmitter that measures E-25-1. What torque should the coplanar flange bolts be tightened to?"
+  },
+  "candidate": "Not in the documents. The datasheet does not state a tightening torque for the coplanar flange bolts."
+ },
+ {
+  "item": "9be211e857",
+  "gold": {
+   "answer": "No maintenance interval in the datasheet (maintenance only by authorized specialists, per the installation manual).",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated"
+   ],
+   "question": "Regarding GV-12-2 on the P&ID: How often should it be inspected or have the seals changed?"
+  },
+  "candidate": "The datasheet does not specify an inspection or seal-change interval. It says maintenance must follow the installation instructions."
+ },
+ {
+  "item": "a81ca42246",
+  "gold": {
+   "answer": "368 mm (14.50 in.) for CL300 RF; 384 mm (15.12 in.) for CL300 RTJ (dimension A).",
+   "answerable": "yes",
+   "category": "multi_condition",
+   "must": [
+    "368 mm (RF)",
+    "RTJ differs (384 mm)"
+   ],
+   "relation": "downstream",
+   "via_tag": "PV-1-3",
+   "question": "Consider the item directly downstream of BV-1-2 in the process flow. What's the face-to-face length for a 4 inch Class 300 flanged body?"
+  },
+  "candidate": "The face-to-face length is 368 mm (14.5 in.) for a 4-inch Class 300 RF-flanged body. The datasheet does not state whether this applies to other flange-face types."
+ },
+ {
+  "item": "0f35b0c88e",
+  "gold": {
+   "answer": "Standard cages (quick-opening, linear, equal percentage), restricted-capacity trims, Whisper Trim I / III, Whisper NXG and WhisperFlo cages for aerodynamic noise in gas service, Cavitrol III one- and two-stage cages against cavitation (liquid, high pressure drop), DST dirty service trim, TSO tight shutoff trim, Trim Cartridge.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "Whisper / WhisperFlo for noise (gas)",
+    "Cavitrol III for cavitation / high ΔP (liquid)"
+   ],
+   "relation": "operated_by",
+   "via_tag": "FV-10-1",
+   "question": "Consider the valve operated by control loop FIC-10-1. What trim options are there, and which one is for high pressure drop or noise?"
+  },
+  "candidate": "The valve operated by control loop FIC-10-1 (its valve TV-10-2 is described in the retrieved Fisher control-valve documentation) offers several trim options, including Cavitrol III trim, Whisper Trim I, Whisper Trim III, Whisper NXG trim, and metal trims such as Trim 27, Trim 29 and Trim 85, in soft (PTFE) and metal seat constructions. The option intended for high pressure drop and noise service is the Cavitrol III trim (the noise-attenuating Whisper Trim I/III and NXG cages and Trim 85, used up to 1440 psi / 99 bar in clean dry gas, serve the same anti-noise/high pressure drop purpose)."
+ },
+ {
+  "item": "38190700eb",
+  "gold": {
+   "answer": "3051C: 1/4-18 NPT on 2 1/8-inch centers; 1/2-14 NPT on 2-, 2 1/8- or 2 1/4-inch centers (1/2-14 NPT flange adapters option DF, not valid with S3, S4, S5, S6; RC1/4 flange with RC1/2 adapter option D9). 3051T: 1/2-14 NPT female, G1/2 A DIN 16288 male (ranges 1-4), autoclave F-250-C (ranges 5-6), non-threaded instrument flange (code 61). Yes, manifolds can be factory assembled: 3051C option S5 assemble to Rosemount 305 Integral Manifold, S6 assemble to Rosemount 304 Manifold or Connection System (assemble-to items specified separately with completed model number); 3051T option S5 assemble to Rosemount 306 Integral Manifold.",
+   "answerable": "yes",
+   "category": "conditional",
+   "must": [
+    "1/4-18 NPT on 2 1/8 in centers",
+    "1/2-14 NPT with flange adapters (DF)",
+    "S5 305 integral manifold / S6 304 manifold (3051C); S5 306 (3051T)"
+   ],
+   "relation": "measured_by",
+   "via_tag": "FT-16-2",
+   "question": "Consider the transmitter that measures E-16-1. What's the process connection on the flange — 1/4 NPT? Can I get it with a manifold already fitted?"
+  },
+  "candidate": "FT-16-2 has a 1/4-18 NPT flange process connection, with 2⅛-inch center spacing. Yes, the 3051C can be ordered assembled to a manifold (options S5 or S6)."
+ },
+ {
+  "item": "fd2f48d750",
+  "gold": {
+   "answer": "A sliding-stem, single-port globe-style control valve (body) with cage guiding, balanced valve plug and push-down-to-close plug action, for throttling or on-off control of liquids and gases (part of the easy-e family; EAT = angle version, ETR = push-down-to-open). It is combined with an actuator, e.g. 667.",
+   "answerable": "yes",
+   "category": "value",
+   "must": [
+    "globe-style control valve (sliding stem)",
+    "cage-guided, balanced plug"
+   ],
+   "relation": "upstream",
+   "via_tag": "TV-10-2",
+   "question": "Consider the item directly upstream of BV-10-1 in the process flow. What is a Fisher ET? Is it the valve body, and what kind of valve is it?"
+  },
+  "candidate": "A Fisher ET is a sliding-stem control valve design, not just the valve body. It is a single-port, globe-style control valve with cage guidance and a balanced valve plug."
+ },
+ {
+  "item": "8128e65019",
+  "gold": {
+   "answer": "Casing ductile iron; impeller gray iron 40 (wear rings gray iron 25, shaft steel 1045, seal faces silicon carbide). Suitability for pH 5 is not stated.",
+   "answerable": "partial",
+   "category": "value",
+   "must": [
+    "casing ductile iron",
+    "impeller gray iron 40",
+    "pH not stated"
+   ],
+   "relation": "upstream",
+   "via_tag": "P-1-4",
+   "question": "Consider the item directly upstream of BV-1-2 in the process flow. What are the casing and impeller made of? Can it take slightly acidic water around pH 5?"
+  },
+  "candidate": "The casing is ductile iron and the impeller is gray iron 40. The datasheet does not state whether it can handle water around pH 5."
+ },
+ {
+  "item": "13c095880c",
+  "gold": {
+   "answer": "Not stated in the document.",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated"
+   ],
+   "relation": "downstream",
+   "via_tag": "P-32-2",
+   "question": "Consider the item directly downstream of CHV-3-5 in the process flow. Do I need to fill the casing with liquid before the first start?"
+  },
+  "candidate": "The datasheet does not state whether the pump casing needs to be filled with liquid before the first start."
+ },
+ {
+  "item": "e1110ca975",
+  "gold": {
+   "answer": "Standard cages (quick-opening, linear, equal percentage), restricted-capacity trims, Whisper Trim I / III, Whisper NXG and WhisperFlo cages for aerodynamic noise in gas service, Cavitrol III one- and two-stage cages against cavitation (liquid, high pressure drop), DST dirty service trim, TSO tight shutoff trim, Trim Cartridge.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "Whisper / WhisperFlo for noise (gas)",
+    "Cavitrol III for cavitation / high ΔP (liquid)"
+   ],
+   "relation": "operated_by",
+   "via_tag": "FV-10-1",
+   "question": "Consider the valve operated by control loop FIC-10-1. What trim options are there, and which one is for high pressure drop or noise?"
+  },
+  "candidate": "Options include standard and restricted-capacity trims, plus Whisper Trim/WhisperFlo and Cavitrol III cage options. Whisper Trim and WhisperFlo are for noise attenuation; the datasheet does not specify which option is for high pressure drop."
+ },
+ {
+  "item": "1f380962f8",
+  "gold": {
+   "answer": "Yes, Kv in l/min: DN15 83, DN20 100, DN25 233, DN32 267, DN40 500, DN50 600 - measured with water at +20 °C, 1 bar at the valve inlet, free outlet.",
+   "answerable": "yes",
+   "category": "footnote",
+   "must": [
+    "Kv per DN (83/100/233/267/500/600 l/min)",
+    "condition: water +20 °C, 1 bar inlet, free outlet"
+   ],
+   "question": "Regarding GV-12-6 on the P&ID: How much flow does it pass when fully open? Is there a Kv value?"
+  },
+  "candidate": "Yes. The fully open Kv values for water are: DN 15, 83 l/min; DN 20, 100 l/min; DN 25, 233 l/min; DN 32, 267 l/min; DN 40, 500 l/min; DN 50, 600 l/min. The tag’s nominal diameter is not specified, so a single value cannot be selected."
+ },
+ {
+  "item": "376379077e",
+  "gold": {
+   "answer": "A sliding-stem, single-port globe-style control valve (body) with cage guiding, balanced valve plug and push-down-to-close plug action, for throttling or on-off control of liquids and gases (part of the easy-e family; EAT = angle version, ETR = push-down-to-open). It is combined with an actuator, e.g. 667.",
+   "answerable": "yes",
+   "category": "value",
+   "must": [
+    "globe-style control valve (sliding stem)",
+    "cage-guided, balanced plug"
+   ],
+   "relation": "upstream",
+   "via_tag": "TV-10-2",
+   "question": "Consider the item directly upstream of BV-10-1 in the process flow. What is a Fisher ET? Is it the valve body, and what kind of valve is it?"
+  },
+  "candidate": "The item directly upstream of BV-10-1 is TV-10-2. Its datasheet identifies Fisher ET as a control-valve model, not the valve body. The ET is a single-port, globe-style control valve with cage guiding and a balanced plug; the ET body is one component of the valve."
+ },
+ {
+  "item": "d86d46984b",
+  "gold": {
+   "answer": "Neither is stated: the only approval listed is CE.",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated",
+    "only CE"
+   ],
+   "question": "Regarding GV-10-1 on the P&ID: Is it approved for drinking water, or for use in an explosive (Ex) area?"
+  },
+  "candidate": "No. The datasheet for GV-10-1 lists only a CE approval; it contains no drinking-water approval (e.g., KTW, DVGW, NSF, WRAS) and no Ex/ATEX certification for use in explosive areas."
+ },
+ {
+  "item": "70558641e1",
+  "gold": {
+   "answer": "Not stated in the document.",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated"
+   ],
+   "relation": "downstream",
+   "via_tag": "P-32-2",
+   "question": "Consider the item directly downstream of CHV-3-5 in the process flow. Do I need to fill the casing with liquid before the first start?"
+  },
+  "candidate": "Not in the documents. The item directly downstream of CHV-3-5 is pump P-32-2. However, its datasheet (gorman-rupp-0700286) contains no information about priming or filling the casing with liquid before the first start — it only covers specifications such as maximum casing pressure (266 psi / 1834 kPa) and operating pressure (250 psi / 1723 kPa), so the priming question cannot be answered from the available documents."
+ },
+ {
+  "item": "936aa56a26",
+  "gold": {
+   "answer": "Not in the document (materials are listed, part numbers are not).",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated"
+   ],
+   "question": "Regarding FV-10-1 on the P&ID: What part numbers do I need for a seat ring and plug seal for our valve size?"
+  },
+  "candidate": "Not in the documents. The documents do not contain the part numbers you need. The P&ID identifies FV-10-1 only as a globe valve in unit 10 (fed from E-10-2, discharging through CHV-10-2) and does not state its size or cage/trim type. The vendor datasheet (Fisher ET/EAT/ETR) covers many sizes (NPS 1 through 8) and does not give a single size for this valve, nor does it list ordering part numbers for a seat ring or plug seal. It only states that a 2-piece valve plug seal is standard for NPS 1 thru 6 valves except those with a Cavitrol III cage, and that seat ring material depends on the trim number. The specific part numbers for your valve size are not stated in the documents."
+ },
+ {
+  "item": "a706503573",
+  "gold": {
+   "answer": "Standard cages (quick-opening, linear, equal percentage), restricted-capacity trims, Whisper Trim I / III, Whisper NXG and WhisperFlo cages for aerodynamic noise in gas service, Cavitrol III one- and two-stage cages against cavitation (liquid, high pressure drop), DST dirty service trim, TSO tight shutoff trim, Trim Cartridge.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "Whisper / WhisperFlo for noise (gas)",
+    "Cavitrol III for cavitation / high ΔP (liquid)"
+   ],
+   "relation": "operated_by",
+   "via_tag": "FV-10-1",
+   "question": "Consider the valve operated by control loop FIC-10-1. What trim options are there, and which one is for high pressure drop or noise?"
+  },
+  "candidate": "Available trims include standard, Cavitrol III, Whisper Trim/WhisperFlo, and Whisper Trim III/Whisper NXG. Whisper trims and WhisperFlo provide noise attenuation (Whisper NXG is also identified for noise attenuation); the datasheet does not specify a trim for high pressure drop. Cavitrol III is for cavitation protection."
+ },
+ {
+  "item": "04e05b7466",
+  "gold": {
+   "answer": "No maintenance interval in the datasheet (maintenance only by authorized specialists, per the installation manual).",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated"
+   ],
+   "question": "Regarding GV-12-2 on the P&ID: How often should it be inspected or have the seals changed?"
+  },
+  "candidate": "Not in the documents. The datasheet for GV-12-2 does not state an inspection or seal-change interval — no schedule in months, hours, or cycles is given. It only says maintenance must be performed by authorized specialists according to the installation instructions that come with the product (also available at www.gfps.com/is-manuals-valves). It lists replacement gasket (wear part) sets by material and valve size, but not when to replace them."
+ },
+ {
+  "item": "c0efe80a7d",
+  "gold": {
+   "answer": "No maintenance interval in the datasheet (maintenance only by authorized specialists, per the installation manual).",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated"
+   ],
+   "question": "Regarding GV-12-2 on the P&ID: How often should it be inspected or have the seals changed?"
+  },
+  "candidate": "Not in the documents. The documents do not state an inspection or seal-change interval for GV-12-2. Its datasheet (solenoid valve type 165) contains no recommended inspection frequency or seal replacement interval; it only notes that maintenance must be done by authorized specialists per the installation instructions, and lists a wear-part seal set (EPDM or FKM, ordered by DN size) as a spare part. Any concrete interval would be in the installation manual, which is not part of these documents."
+ },
+ {
+  "item": "23ea499486",
+  "gold": {
+   "answer": "Not in the document (no safety or maintenance procedure).",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated"
+   ],
+   "relation": "operated_by",
+   "via_tag": "TV-43-2",
+   "question": "Consider the valve operated by control loop TIC-43-2. What do I need to do before taking the bonnet off so I don't get hurt by trapped pressure?"
+  },
+  "candidate": "The excerpts do not state what to do before removing the bonnet to avoid trapped pressure."
+ },
+ {
+  "item": "1fed8bf3c6",
+  "gold": {
+   "answer": "Not stated in the document.",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated"
+   ],
+   "relation": "downstream",
+   "via_tag": "P-32-2",
+   "question": "Consider the item directly downstream of CHV-3-5 in the process flow. Do I need to fill the casing with liquid before the first start?"
+  },
+  "candidate": "The datasheet identifies a ductile-iron casing but does not state whether it must be filled with liquid before the first start."
+ },
+ {
+  "item": "e7261dd169",
+  "gold": {
+   "answer": "Not stated in the document.",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated"
+   ],
+   "relation": "downstream",
+   "via_tag": "P-32-2",
+   "question": "Consider the item directly downstream of CHV-3-5 in the process flow. Do I need to fill the casing with liquid before the first start?"
+  },
+  "candidate": "The item directly downstream of CHV-3-5 is pump P-32-2, a standard centrifugal pump (Gorman-Rupp Model VGH2 1/2C31-B, 4\" x 2 1/2\"). The datasheet identifies it as a standard centrifugal pump, not a self-priming pump, so yes — as a pump of this type you would need to fill (prime) the casing with liquid before the first start. Note, however, that the datasheet itself contains no explicit statement about priming requirements, so this follows from the pump type rather than from an explicit instruction in the document."
+ },
+ {
+  "item": "0e27c5c073",
+  "gold": {
+   "answer": "ET: NPS 1, 1-1/2, 2, 2-1/2, 3, 4, 6 and 8 (DN 25-200). NPS 3 is available.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "NPS 1-8 list",
+    "3 in. available"
+   ],
+   "relation": "operated_by",
+   "via_tag": "FV-12-1",
+   "question": "Consider the valve operated by control loop FIC-12-1. What sizes does it come in? Our line is 3 inch."
+  },
+  "candidate": "The valve operated by loop FIC-12-1 is control valve FV-12-1, which per the referenced specification document comes in sizes NPS 1, 1-1/2, 2, 2-1/2, 3, 4, 6 and 8 (e.g., ET/ETR in NPS 1 to 4 full and reduced ports, EAT up to NPS 6, and NPS 8 variants). So yes, it is available in a 3 inch size (NPS 3, offered e.g. as Globe Long Neck 3-Stage or Globe Short Neck 2-Stage/3-Stage in CF8M)."
+ },
+ {
+  "item": "b318b42a48",
+  "gold": {
+   "answer": "No. With the low power output code (M), only the Plugged Impulse Line diagnostic is included.",
+   "answerable": "yes",
+   "category": "footnote",
+   "must": [
+    "no",
+    "only Plugged Impulse Line diagnostic"
+   ],
+   "relation": "measured_by",
+   "via_tag": "PT-17-2",
+   "question": "Consider the transmitter that measures E-17-1. If I order the DA1 diagnostics with the low-power 1-5 V output, do I get both Loop Integrity and Plugged Impulse Line diagnostics?"
+  },
+  "candidate": "No. The datasheet states that with the low-power output, DA1 includes only the Plugged Impulse Line diagnostic, not both diagnostics."
+ },
+ {
+  "item": "f9443deeca",
+  "gold": {
+   "answer": "Maximum casing pressure 266 psi (1834 kPa); maximum operating pressure 250 psi (1723 kPa) at temperatures up to 100 °F (37 °C), based on system component limitations; consult the factory for higher.",
+   "answerable": "yes",
+   "category": "footnote",
+   "must": [
+    "266 psi (1834 kPa) casing",
+    "250 psi operating up to 37 °C"
+   ],
+   "question": "Regarding P-1-1 on the P&ID: What's the max allowable pressure in the casing? We might have a pressurized inlet."
+  },
+  "candidate": "The maximum allowable casing pressure for P-1-1 is 266 psi (1834 kPa)."
+ }
+]

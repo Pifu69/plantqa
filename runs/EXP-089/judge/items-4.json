@@ -1,0 +1,484 @@
+[
+ {
+  "item": "bb0ee47794",
+  "gold": {
+   "answer": "Not in the datasheet (only: maintenance by authorized specialists per the installation manual; a wear part set exists).",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated in the document"
+   ],
+   "question": "Regarding GV-1-2 on the P&ID: It's letting fluid through when it should be shut. What usually causes that and how do I fix it?"
+  },
+  "candidate": "The datasheet does not identify the usual causes of leakage when GV-1-2 is closed or specify a repair. It lists diaphragms, O-rings and body-side parts in a wear-part set but does not say they cause the leak. Have an authorized specialist inspect and maintain it using the supplied installation instructions, secure the system against unintended operation, and ensure a controlled restart."
+ },
+ {
+  "item": "72b96c2002",
+  "gold": {
+   "answer": "Not stated in the document",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "Not stated in the document"
+   ],
+   "relation": "fed_by_transmitter",
+   "via_tag": "PT-30-1",
+   "question": "Consider the transmitter that feeds controller PIC-30-1. What RTD element type and accuracy class (e.g. Pt100 class A) is used in the 3051CFA integral RTD option?"
+  },
+  "candidate": "PT-30-1 feeds PIC-30-1. The available information identifies option T as an integral RTD but does not specify its element type or accuracy class."
+ },
+ {
+  "item": "93d9ab5da4",
+  "gold": {
+   "answer": "HART 4-20 mA: if self-diagnostics detect a sensor or microprocessor failure, the output is driven high or low; the direction is user-selectable with a jumper/switch on the transmitter. Factory default is High alarm unless specified (CT = Rosemount standard low alarm, CN = NAMUR low, C4 = NAMUR high). Levels: default high >= 21.75 mA (>= 22.5 mA with M6, DA1, T9, RK), low <= 3.75 mA; NAMUR >= 22.5 / <= 3.6 mA; custom 20.2-23.0 / 3.6-3.8 mA. Output M: below 0.94 V or above 5.4 V, selectable by internal jumper. F, W, X: failure passed as alert and status.",
+   "answerable": "yes",
+   "category": "conditional",
+   "must": [
+    "high or low, user-selectable by jumper/switch",
+    "default high",
+    "alarm values per standard/NAMUR/custom",
+    "output M internal jumper"
+   ],
+   "relation": "fed_by_transmitter",
+   "via_tag": "FT-10-2",
+   "question": "Consider the transmitter that feeds controller FIC-10-2. When the transmitter fails, does the output go high or low, and how do I change that alarm direction?"
+  },
+  "candidate": "The transmitter feeding FIC-10-2 is FT-10-2 (a Rosemount 3051 measuring flow from pump P-10-1). Its failure direction is not fixed — it is user-selectable. On a detected sensor or microprocessor failure, the 4-20 mA output is driven either high or low depending on a jumper/switch setting on the transmitter; the standard configuration default is Alarm = High (≥ 21.75 mA, or ≥ 22.5 mA in the NAMUR-compliant setting; low alarm ≤ 3.75 mA, or ≤ 3.6 mA NAMUR; custom levels 20.2–23.0 mA high / 3.6–3.8 mA low). To change the direction, set the internal jumper/switch on the transmitter, or specify it at ordering time via option codes (C4 = NAMUR high, CN = NAMUR low, CR = custom high, CS = custom low, CT = Rosemount standard low; alarm-level options apply only to the HART 4-20 mA output code A). The datasheet does not contain the step-by-step procedure for changing the jumper on the unit itself."
+ },
+ {
+  "item": "a229299be6",
+  "gold": {
+   "answer": "Housing PVC (PVC-U; cover and inserts PVC, coil housing epoxy). Gaskets/diaphragms EPDM or FKM - choose the FKM version.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "PVC body",
+    "EPDM or FKM seals",
+    "choose FKM"
+   ],
+   "relation": "upstream",
+   "via_tag": "GV-103-1",
+   "question": "Consider the item directly upstream of BV-103-1 in the process flow. What is the body made of, and what are the seals made of? Our fluid attacks EPDM."
+  },
+  "candidate": "The body is PVC. The seals can be FKM rather than EPDM, which your fluid attacks."
+ },
+ {
+  "item": "6c08e2d096",
+  "gold": {
+   "answer": "Yes, Kv in l/min: DN15 83, DN20 100, DN25 233, DN32 267, DN40 500, DN50 600 - measured with water at +20 °C, 1 bar at the valve inlet, free outlet.",
+   "answerable": "yes",
+   "category": "footnote",
+   "must": [
+    "Kv per DN (83/100/233/267/500/600 l/min)",
+    "condition: water +20 °C, 1 bar inlet, free outlet"
+   ],
+   "question": "Regarding GV-10-2 on the P&ID: How much flow does it pass when fully open? Is there a Kv value?"
+  },
+  "candidate": "The datasheet for GV-10-2 (a type 165 PVC-U solenoid/globe valve) does give Kv values, but only per valve size (DN), not a single value for this specific valve: DN 15 = 83 l/min, DN 20 = 100 l/min, DN 25 = 233 l/min, DN 32 = 267 l/min, DN 40 = 500 l/min, DN 50 = 600 l/min (water at +20 °C, 1 bar at the valve inlet, free outlet). The P&ID does not state GV-10-2's nominal diameter, so the applicable Kv for this particular valve cannot be determined from the documents. Also, the datasheet does not label these as 'fully open' values — Kv is simply given per DN in the 'Kv 100 values' table (the '100' is the model name, not a fully-open rating)."
+ },
+ {
+  "item": "6fe9c7b96b",
+  "gold": {
+   "answer": "Vibration effect: less than +/-0.1% of URL when tested per IEC 60770-1:1999 field or pipeline with high vibration level (10-60 Hz 0.21 mm displacement peak amplitude / 60-2000 Hz 3g).",
+   "answerable": "yes",
+   "category": "value",
+   "must": [
+    "< +/-0.1% of URL",
+    "IEC 60770-1:1999 high vibration level",
+    "10-60 Hz 0.21 mm peak / 60-2000 Hz 3g"
+   ],
+   "question": "Regarding FT-104-2 on the P&ID: It's mounted near a compressor with heavy vibration. What vibration limits is it rated for?"
+  },
+  "candidate": "The datasheet reports vibration testing at 0.21 mm peak displacement amplitude from 10–60 Hz and 3 g acceleration from 60–2000 Hz, with an effect below ±0.1% of URL. These are test levels; a maximum operating vibration limit is not stated."
+ },
+ {
+  "item": "94c1a57821",
+  "gold": {
+   "answer": "A standard centrifugal pump on a basic pedestal (bare shaft), size 4\" x 2 1/2\". The meaning of the model code is not explained.",
+   "answerable": "partial",
+   "category": "value",
+   "must": [
+    "standard centrifugal pump (pedestal)",
+    "4\" x 2 1/2\"",
+    "model code not explained"
+   ],
+   "relation": "upstream",
+   "via_tag": "P-1-1",
+   "question": "Consider the item directly upstream of BV-1-3 in the process flow. What kind of pump is a VGH2 1/2C31-B, and what does the model code tell me?"
+  },
+  "candidate": "P-1-1 is a standard centrifugal pump, model VGH2 1/2C31-B. The datasheet gives its nominal size as 4 in × 2½ in, but does not explain the meaning of the individual characters in the model code."
+ },
+ {
+  "item": "3546c56d22",
+  "gold": {
+   "answer": "Yes, Kv in l/min: DN15 83, DN20 100, DN25 233, DN32 267, DN40 500, DN50 600 - measured with water at +20 °C, 1 bar at the valve inlet, free outlet.",
+   "answerable": "yes",
+   "category": "footnote",
+   "must": [
+    "Kv per DN (83/100/233/267/500/600 l/min)",
+    "condition: water +20 °C, 1 bar inlet, free outlet"
+   ],
+   "question": "Regarding GV-10-2 on the P&ID: How much flow does it pass when fully open? Is there a Kv value?"
+  },
+  "candidate": "The datasheet specifies a Kv value, but the value for GV-10-2 depends on its nominal diameter, which is not stated in the result. For water at +20 °C, 1 bar inlet pressure and a free outlet, the listed flows are: DN 15—83 l/min; DN 20—100 l/min; DN 25—233 l/min; DN 32—267 l/min; DN 40—500 l/min; DN 50—600 l/min."
+ },
+ {
+  "item": "90715dd2b0",
+  "gold": {
+   "answer": "Not stated (only the 4 in. suction flange is given).",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated"
+   ],
+   "question": "Regarding P-1-1 on the P&ID: How big should the suction pipe be, and does it need a check valve or air release line?"
+  },
+  "candidate": "Not in the documents. The suction pipe size is not specified. CHV-1-1 is shown on a line leaving P-1-1, not on its suction side; no air-release line on the suction piping is identified."
+ },
+ {
+  "item": "78868981ce",
+  "gold": {
+   "answer": "Not in the datasheet (only: maintenance by authorized specialists per the installation manual; a wear part set exists).",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated in the document"
+   ],
+   "question": "Regarding GV-1-2 on the P&ID: It's letting fluid through when it should be shut. What usually causes that and how do I fix it?"
+  },
+  "candidate": "Not in the documents. The documents don't contain an answer to the causes or the fix. GV-1-2 is a servo-controlled 2/2-way diaphragm solenoid valve (GFP Type 165, fail-safe-to-close), but its datasheet states nothing about what causes leakage in the closed position and gives no troubleshooting or repair steps. It only notes that maintenance must be done by authorized specialists per the installation instructions (available at www.gfps.com/is-manuals-valves), and lists a \"Wear part set\" and \"Coil set\" as available spare parts. The datasheet does not state the cause of the leak or how to fix it."
+ },
+ {
+  "item": "2e4f1db672",
+  "gold": {
+   "answer": "No motor is specified (basic pedestal pump; curves for 1150-3450 rpm). The 50 Hz 1450 rpm curve exists; over its operating range the power stays at or below the 7.5 BHP (5.6 kW) line, so a 7.5 kW 1450 rpm motor is enough for that speed.",
+   "answerable": "partial",
+   "category": "chart",
+   "must": [
+    "no motor specified",
+    "1450 rpm curve exists",
+    "power ≤ ~5.6 kW at 1450 rpm"
+   ],
+   "relation": "upstream",
+   "via_tag": "P-10-1",
+   "question": "Consider the item directly upstream of BV-10-2 in the process flow. What motor size and speed is it meant to run at? We have a 7.5 kW 1450 rpm motor in stock."
+  },
+  "candidate": "The item is P-10-1. The description shows a 1450 RPM performance curve, but does not specify the motor size, so I can’t confirm whether the 7.5 kW motor is suitable."
+ },
+ {
+  "item": "196f003d90",
+  "gold": {
+   "answer": "Not in the document (materials are listed, part numbers are not).",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated"
+   ],
+   "question": "Regarding FV-104-2 on the P&ID: What part numbers do I need for a seat ring and plug seal for our valve size?"
+  },
+  "candidate": "Not in the documents. The documents do not contain the part numbers you need. The P&ID shows FV-104-2 as a globe valve (sheet 319, unit 104) but does not state its valve size, and the vendor datasheet (Fisher ET/EAT) lists seat ring and plug seal materials and which seal type is standard for which size range (e.g. 2-piece plug seal standard for NPS 1–6, spring-loaded seal standard for NPS 8), but gives no catalogue part numbers for the seat ring or plug seal for any size. So neither the valve size nor the required part numbers can be determined from the available documents."
+ },
+ {
+  "item": "a8771602d6",
+  "gold": {
+   "answer": "Not in the datasheet (only: maintenance by authorized specialists per the installation manual; a wear part set exists).",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated in the document"
+   ],
+   "question": "Regarding GV-1-2 on the P&ID: It's letting fluid through when it should be shut. What usually causes that and how do I fix it?"
+  },
+  "candidate": "The documents do not state the usual causes of passing when shut or how to fix it. GV-1-2’s datasheet says the valve requires a minimum differential pressure of 0.5 bar to open and close, but does not link that requirement to leakage or give it as a remedy."
+ },
+ {
+  "item": "8ece087030",
+  "gold": {
+   "answer": "Bare pump (no motor): length 25.95 in. (659 mm), height 18.88 in. (480 mm), width 14.20 in. (361 mm); net weight 194 lb (88 kg), shipping 204 lb (93 kg). The pump alone fits on 1 m × 0.6 m; with a motor and coupling it cannot be said from the document.",
+   "answerable": "partial",
+   "category": "conditional",
+   "must": [
+    "659 × 361 × 480 mm (approx.)",
+    "88 kg net",
+    "motor not included"
+   ],
+   "relation": "downstream",
+   "via_tag": "P-3-1",
+   "question": "Consider the item directly downstream of BV-1-3 in the process flow. What are the overall dimensions and weight? Will it fit on a 1 m by 0.6 m base?"
+  },
+  "candidate": "P-3-1 weighs 194 lb (88 kg) net and 204 lb (93 kg) shipping. The datasheet does not state its overall dimension values, so whether it will fit on a 1 m × 0.6 m base is not stated."
+ },
+ {
+  "item": "84151be21d",
+  "gold": {
+   "answer": "Bare pump (no motor): length 25.95 in. (659 mm), height 18.88 in. (480 mm), width 14.20 in. (361 mm); net weight 194 lb (88 kg), shipping 204 lb (93 kg). The pump alone fits on 1 m × 0.6 m; with a motor and coupling it cannot be said from the document.",
+   "answerable": "partial",
+   "category": "conditional",
+   "must": [
+    "659 × 361 × 480 mm (approx.)",
+    "88 kg net",
+    "motor not included"
+   ],
+   "relation": "downstream",
+   "via_tag": "P-3-1",
+   "question": "Consider the item directly downstream of BV-1-3 in the process flow. What are the overall dimensions and weight? Will it fit on a 1 m by 0.6 m base?"
+  },
+  "candidate": "Not in the documents. The item directly downstream of BV-1-3 is P-3-1, a centrifugal pump (Gorman-Rupp). Its datasheet gives the net weight as 194 lbs (88 kg) and shipping weight as 204 lbs (93 kg). However, the datasheet does not state the overall length, width, and height as explicit values — it only refers to an outline dimension drawing on page 2 for those. Because the footprint dimensions are not stated in the documents, whether it will fit on a 1 m × 0.6 m base cannot be confirmed."
+ },
+ {
+  "item": "4f94975898",
+  "gold": {
+   "answer": "Not stated in the document",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "Not stated in the document"
+   ],
+   "question": "Regarding FT-10-2 on the P&ID: What mechanical shock (g level) is the transmitter rated to withstand?"
+  },
+  "candidate": "The datasheet lists 3 g as the vibration test level for 60–2000 Hz, but does not state a separate mechanical shock rating."
+ },
+ {
+  "item": "ced7c802de",
+  "gold": {
+   "answer": "HART 4-20 mA: if self-diagnostics detect a sensor or microprocessor failure, the output is driven high or low; the direction is user-selectable with a jumper/switch on the transmitter. Factory default is High alarm unless specified (CT = Rosemount standard low alarm, CN = NAMUR low, C4 = NAMUR high). Levels: default high >= 21.75 mA (>= 22.5 mA with M6, DA1, T9, RK), low <= 3.75 mA; NAMUR >= 22.5 / <= 3.6 mA; custom 20.2-23.0 / 3.6-3.8 mA. Output M: below 0.94 V or above 5.4 V, selectable by internal jumper. F, W, X: failure passed as alert and status.",
+   "answerable": "yes",
+   "category": "conditional",
+   "must": [
+    "high or low, user-selectable by jumper/switch",
+    "default high",
+    "alarm values per standard/NAMUR/custom",
+    "output M internal jumper"
+   ],
+   "relation": "fed_by_transmitter",
+   "via_tag": "FT-10-2",
+   "question": "Consider the transmitter that feeds controller FIC-10-2. When the transmitter fails, does the output go high or low, and how do I change that alarm direction?"
+  },
+  "candidate": "The output can be set either high or low on transmitter failure; the description does not specify which direction is currently selected. Change it using the transmitter’s jumper/switch."
+ },
+ {
+  "item": "94efaa0f2e",
+  "gold": {
+   "answer": "A standard centrifugal pump on a basic pedestal (bare shaft), size 4\" x 2 1/2\". The meaning of the model code is not explained.",
+   "answerable": "partial",
+   "category": "value",
+   "must": [
+    "standard centrifugal pump (pedestal)",
+    "4\" x 2 1/2\"",
+    "model code not explained"
+   ],
+   "relation": "upstream",
+   "via_tag": "P-1-1",
+   "question": "Consider the item directly upstream of BV-1-3 in the process flow. What kind of pump is a VGH2 1/2C31-B, and what does the model code tell me?"
+  },
+  "candidate": "The item directly upstream of BV-1-3 is P-1-1, a Gorman-Rupp standard centrifugal pump, model VGH2 1/2C31-B, size 4\" x 2 1/2\". Per its datasheet: it has an enclosed, six-vane Gray Iron 40 impeller that handles spherical solids up to 15/32 in (12 mm); ductile iron casing; Gray Iron 25 and Steel 1045 for parts such as shaft and wear rings; Nitrile Rubber for a sealing/gasket part; replaceable wear rings; raised face flanges; and standard plated steel hardware. Some performance curves are for a trimmed (cut-down) impeller (curves VGH2 1/2C-B-2 through -8), with the untrimmed curve being VGH2 1/2C-B-1. Note: the datasheet does not provide a letter-by-letter breakdown of what each part of the model code \"VGH2 1/2C31-B\" stands for (e.g., what \"31\" or \"B\" mean) — that part of the question is not stated in the documents."
+ },
+ {
+  "item": "ad3658d541",
+  "gold": {
+   "answer": "Not stated in the document",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "Not stated in the document"
+   ],
+   "relation": "fed_by_transmitter",
+   "via_tag": "PT-30-1",
+   "question": "Consider the transmitter that feeds controller PIC-30-1. What RTD element type and accuracy class (e.g. Pt100 class A) is used in the 3051CFA integral RTD option?"
+  },
+  "candidate": "The datasheet identifies the integral RTD option as code T, but does not state the RTD element type or accuracy class."
+ },
+ {
+  "item": "cdee04e0cf",
+  "gold": {
+   "answer": "Housing PVC (PVC-U; cover and inserts PVC, coil housing epoxy). Gaskets/diaphragms EPDM or FKM - choose the FKM version.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "PVC body",
+    "EPDM or FKM seals",
+    "choose FKM"
+   ],
+   "relation": "upstream",
+   "via_tag": "GV-103-1",
+   "question": "Consider the item directly upstream of BV-103-1 in the process flow. What is the body made of, and what are the seals made of? Our fluid attacks EPDM."
+  },
+  "candidate": "The item directly upstream of BV-103-1 is GV-103-1, a globe (solenoid) valve. Its datasheet states the valve body/housing is made of PVC (a media-separated, metal-free PVC housing). The seal (gasket) material is either EPDM or FKM, depending on the valve variant — the datasheet lists both options but does not state which specific variant GV-103-1 has, so the exact seal material is not determined in the documents. Since your fluid attacks EPDM, note that if this valve is the EPDM variant its seals would be affected; the FKM variant would be the compatible choice, but the documents do not confirm which one is installed."
+ },
+ {
+  "item": "b9ba494e69",
+  "gold": {
+   "answer": "Cast iron, WCC or LCC carbon steel, WC9 chrome moly steel, CF8M (cast 316 stainless) or CF3M (cast 316L stainless), others on request. Yes, stainless (CF8M / CF3M) is available.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "CF8M / CF3M stainless available",
+    "cast iron, WCC, LCC, WC9"
+   ],
+   "question": "Regarding FV-10-2 on the P&ID: What body materials are available, and can I get stainless for a corrosive service?"
+  },
+  "candidate": "Listed body materials are cast iron; WCC or LCC carbon steel; WC9 chrome-moly steel; CF8M (cast 316 stainless steel); and CF3M (cast 316L stainless steel). Other materials are available upon request. So stainless-steel options are listed, but the datasheet does not state that they are suitable for corrosive service. Availability varies by valve type, size, end connection, and pressure class."
+ },
+ {
+  "item": "c310676284",
+  "gold": {
+   "answer": "No motor is specified (basic pedestal pump; curves for 1150-3450 rpm). The 50 Hz 1450 rpm curve exists; over its operating range the power stays at or below the 7.5 BHP (5.6 kW) line, so a 7.5 kW 1450 rpm motor is enough for that speed.",
+   "answerable": "partial",
+   "category": "chart",
+   "must": [
+    "no motor specified",
+    "1450 rpm curve exists",
+    "power ≤ ~5.6 kW at 1450 rpm"
+   ],
+   "relation": "upstream",
+   "via_tag": "P-10-1",
+   "question": "Consider the item directly upstream of BV-10-2 in the process flow. What motor size and speed is it meant to run at? We have a 7.5 kW 1450 rpm motor in stock."
+  },
+  "candidate": "The item directly upstream of BV-10-2 is the pump P-10-1 (model VGH2 1/2C-B). Its curve data covers several speed/power combinations: at 1450 RPM (50 Hz, water), the available power curves run from 2 BHP [1.5 kW] up to 7.5 BHP [5.6 kW]. So a 1450 RPM motor fits the curve set, but the highest power noted at that speed is 5.6 kW, not 7.5 kW; the 7.5 kW rating is not shown as a documented condition for this pump at 1450 RPM. If 7.5 kW must be used, the data does not indicate it as a listed curve point — the description does not contain a 7.5 kW / 1450 RPM operating point, so that specific combination cannot be confirmed from the available documentation."
+ },
+ {
+  "item": "e2279c69ce",
+  "gold": {
+   "answer": "Not stated in the document",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "Not stated in the document"
+   ],
+   "question": "Regarding FT-10-2 on the P&ID: What mechanical shock (g level) is the transmitter rated to withstand?"
+  },
+  "candidate": "Not in the documents. The datasheet for FT-10-2 (Rosemount 3051) does not state a mechanical shock rating. The only g-level given is a vibration test level of 3 g (60–2000 Hz, with 0.21 mm displacement peak amplitude for 10–60 Hz), under which the vibration effect is less than ±0.1% of URL per IEC 60770-1:1999. A separate shock (g) rating is not stated in the documents."
+ },
+ {
+  "item": "b07f797d63",
+  "gold": {
+   "answer": "3051C: 1/4-18 NPT on 2 1/8-inch centers; 1/2-14 NPT on 2-, 2 1/8- or 2 1/4-inch centers (1/2-14 NPT flange adapters option DF, not valid with S3, S4, S5, S6; RC1/4 flange with RC1/2 adapter option D9). 3051T: 1/2-14 NPT female, G1/2 A DIN 16288 male (ranges 1-4), autoclave F-250-C (ranges 5-6), non-threaded instrument flange (code 61). Yes, manifolds can be factory assembled: 3051C option S5 assemble to Rosemount 305 Integral Manifold, S6 assemble to Rosemount 304 Manifold or Connection System (assemble-to items specified separately with completed model number); 3051T option S5 assemble to Rosemount 306 Integral Manifold.",
+   "answerable": "yes",
+   "category": "conditional",
+   "must": [
+    "1/4-18 NPT on 2 1/8 in centers",
+    "1/2-14 NPT with flange adapters (DF)",
+    "S5 305 integral manifold / S6 304 manifold (3051C); S5 306 (3051T)"
+   ],
+   "relation": "measured_by",
+   "via_tag": "FT-105-2",
+   "question": "Consider the transmitter that measures E-105-2. What's the process connection on the flange — 1/4 NPT? Can I get it with a manifold already fitted?"
+  },
+  "candidate": "Yes. The FT-105-2 flange is available with a 1/4-18 NPT process connection on 2 1/8-in. centers (or with the listed 1/2-14 NPT options). It can be factory supplied with an integral manifold fitted."
+ },
+ {
+  "item": "4422bbfab2",
+  "gold": {
+   "answer": "Neither is stated: the only approval listed is CE.",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated",
+    "only CE"
+   ],
+   "question": "Regarding GV-1-1 on the P&ID: Is it approved for drinking water, or for use in an explosive (Ex) area?"
+  },
+  "candidate": "According to the datasheet, GV-1-1 (a Type 165 solenoid valve) lists only a CE approval. No drinking water approval (e.g., KTW, DVGW, WRAS) and no Ex/ATEX approval for explosive areas is documented, so neither approval is stated in the documents."
+ },
+ {
+  "item": "6e31b69811",
+  "gold": {
+   "answer": "Neither is stated: the only approval listed is CE.",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated",
+    "only CE"
+   ],
+   "question": "Regarding GV-1-1 on the P&ID: Is it approved for drinking water, or for use in an explosive (Ex) area?"
+  },
+  "candidate": "The datasheet does not confirm approval for drinking water or for use in an explosive (Ex) area."
+ },
+ {
+  "item": "1dc31818c5",
+  "gold": {
+   "answer": "Not stated in the document",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "Not stated in the document"
+   ],
+   "question": "Regarding FT-10-2 on the P&ID: What mechanical shock (g level) is the transmitter rated to withstand?"
+  },
+  "candidate": "The mechanical shock rating is not specified; the 3 g figure is a vibration test level, not a shock rating."
+ },
+ {
+  "item": "fbdd5f3e97",
+  "gold": {
+   "answer": "Not in the document (no safety instructions).",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated"
+   ],
+   "relation": "downstream",
+   "via_tag": "P-95-3",
+   "question": "Consider the item directly downstream of LV-95-1 in the process flow. Is there anything dangerous about opening the cover if the pump has overheated?"
+  },
+  "candidate": "The datasheet does not state whether opening the cover is dangerous after the pump has overheated; it provides operating temperature limits but no cover-opening warning."
+ },
+ {
+  "item": "40ab881ea5",
+  "gold": {
+   "answer": "Standard cages: quick-opening, linear or equal percentage. Whisper Trim, WhisperFlo and Cavitrol cages: linear only.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "all three with standard cage",
+    "special cages linear only"
+   ],
+   "question": "Regarding FV-106-2 on the P&ID: What flow characteristics can I get: equal percentage, linear, quick opening?"
+  },
+  "candidate": "The datasheet says standard cages allow quick-opening, linear, or equal-percentage characteristics. For ET trim cartridges, it lists equal-percentage or linear. The installed cage or trim type for FV-106-2 is not stated."
+ },
+ {
+  "item": "401b78a4b9",
+  "gold": {
+   "answer": "Not in the document (no safety instructions).",
+   "answerable": "no",
+   "category": "not_in_document",
+   "expected": "Not in the documents.",
+   "must": [
+    "not stated"
+   ],
+   "relation": "downstream",
+   "via_tag": "P-95-3",
+   "question": "Consider the item directly downstream of LV-95-1 in the process flow. Is there anything dangerous about opening the cover if the pump has overheated?"
+  },
+  "candidate": "The description does not state whether opening the cover is dangerous after the pump overheats."
+ },
+ {
+  "item": "594e136d2f",
+  "gold": {
+   "answer": "Standard cages (quick-opening, linear, equal percentage), restricted-capacity trims, Whisper Trim I / III, Whisper NXG and WhisperFlo cages for aerodynamic noise in gas service, Cavitrol III one- and two-stage cages against cavitation (liquid, high pressure drop), DST dirty service trim, TSO tight shutoff trim, Trim Cartridge.",
+   "answerable": "yes",
+   "category": "list",
+   "must": [
+    "Whisper / WhisperFlo for noise (gas)",
+    "Cavitrol III for cavitation / high ΔP (liquid)"
+   ],
+   "relation": "operated_by",
+   "via_tag": "FV-104-2",
+   "question": "Consider the valve operated by control loop FIC-104-2. What trim options are there, and which one is for high pressure drop or noise?"
+  },
+  "candidate": "Available trims include standard, Cavitrol III, Whisper Trim/Whisper Trim III, Whisper NXG, and WhisperFlo. Whisper trims are for noise attenuation; Cavitrol III provides cavitation protection, but the datasheet does not specify a trim specifically for high pressure drop."
+ }
+]

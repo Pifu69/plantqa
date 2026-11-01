@@ -1,0 +1,158 @@
+[
+ {
+  "item": "87d0b2f577",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "266 psi casing correct but 250 psi operating limit missing."
+ },
+ {
+  "item": "686273a6b6",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Cylindrical roller + double row ball, SAE 30 oil not grease, interval not given."
+ },
+ {
+  "item": "732793055c",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "59.7 given (for ED/ETR) but the full-sized trim / equal percentage / normal flow conditions are missing."
+ },
+ {
+  "item": "fa58cdd785",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Says diagnosis not established but fails to give NPSHr from the curves."
+ },
+ {
+  "item": "112b94d4c5",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Kv per DN correct; 1 bar differential with water at 20 C is equivalent to the stated condition."
+ },
+ {
+  "item": "410c6f41f2",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "PVC body, EPDM or FKM seals, choose FKM."
+ },
+ {
+  "item": "949921f833",
+  "verdict": "wrong",
+  "cites_page": false,
+  "reason": "Claims hand valve without coil; gold says 100 % ED continuous rating."
+ },
+ {
+  "item": "1f438d8f68",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "24 V DC and 230 V AC versions, check type plate / ordered version."
+ },
+ {
+  "item": "5e74553e3e",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Mentions manual override but doubts whether it opens the valve without power."
+ },
+ {
+  "item": "bcd69de273",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Diagnosis not stated is right but wrongly says NPSHr is not given (curve values exist)."
+ },
+ {
+  "item": "032112b8b3",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "All three with standard cages, special cages linear only."
+ },
+ {
+  "item": "755ff63f06",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "High/low jumper, default high and alarm levels given, but output M internal jumper detail missing."
+ },
+ {
+  "item": "5632b0314c",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "All body materials listed and stainless CF8M/CF3M available."
+ },
+ {
+  "item": "62c47085e6",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "24 V DC and 230 V AC options, use type plate voltage."
+ },
+ {
+  "item": "ec555316da",
+  "verdict": "correct",
+  "cites_page": true,
+  "reason": "Less than +/-0.1 % URL per IEC 60770-1 with 0.21 mm / 3 g limits."
+ },
+ {
+  "item": "470c7853d0",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "-76 F (-60 C) for BR6."
+ },
+ {
+  "item": "3585f3ee13",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Suction 4 in, discharge 2 1/2 in, raised face flanges."
+ },
+ {
+  "item": "8822142d2e",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "Standard centrifugal pump 4 in x 2.5 in correct, but does not say the model code is not explained."
+ },
+ {
+  "item": "dc62917fc8",
+  "verdict": "correct",
+  "cites_page": true,
+  "reason": "Flanged options plus screwed, BW and SW stated."
+ },
+ {
+  "item": "526630d58e",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "266 psi casing and 250 psi operating up to 100 F given."
+ },
+ {
+  "item": "8e4a24f747",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Ductile iron casing, gray iron 40 impeller, pH suitability not stated."
+ },
+ {
+  "item": "0168ed2de4",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Confirms manual override."
+ },
+ {
+  "item": "0437c58a22",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "No; only Plugged Impulse Line with low-power output."
+ },
+ {
+  "item": "239da49cb7",
+  "verdict": "correct",
+  "cites_page": false,
+  "reason": "Whisper/WhisperFlo for noise and Cavitrol III for cavitation/high dP."
+ },
+ {
+  "item": "be67658a64",
+  "verdict": "partial",
+  "cites_page": true,
+  "reason": "Says diagnosis not possible and points to the NPSH curve but gives no NPSHr values."
+ },
+ {
+  "item": "d789ecbde8",
+  "verdict": "partial",
+  "cites_page": false,
+  "reason": "88 kg weight correct but claims overall dimensions are not given."
+ }
+]

@@ -1,25 +1,26 @@
 # Kiértékelés
 
-Ebben a fejezetben a három módszer mérését mutatjuk be. Az első prototípust a négylapos kis
-üzemen építettük fel; a közös rendszert ezután két fejlesztési üzemen, a pontosan 30 és 50 lapos
-üzemen hangoltuk, majd befagyasztottuk, és két olyan üzemen mértük meg, amelyet a hangolás során
-nem használtunk: a pontosan 100 és 1000 lapos tesztüzemen. A tesztüzemeken minden kérdés
-tesztkérdés.
+Az előző két fejezetben felépített gráfot és módszereket most a 3. fejezetben leírt kérdéseken
+mérjük meg. A fejezet a kutatási kérdések sorrendjét követi: előbb azt mutatjuk be, hogy az
+összevont gráf a nagy üzemeken is felépíthető, majd azt, hogyan teljesítenek rajta a módszerek a
+két tesztüzemen, végül azt, hogyan változik a pontosság és a költség az üzem méretével, és milyen
+hibák jellemzők az egyes módszerekre.
 
 ## Beállítás
 
-Mindhárom módszert mindkét kérdés-válaszoló modellel futtattuk: `z-ai/glm-5.3-flash` (a
-továbbiakban GLM) és `openai/gpt-6-luna` (Luna), OpenRouteren át, a rajzoldali rendszer rögzített
-beállításaival (a GLM-et alacsony és magas gondolkodású változatban). A pontosság a
-helyes válaszok aránya; a konfidenciaintervallum 10 000 ismétléses, seedelt percentilis-bootstrap,
-a módszerpárok különbségét ugyanazokon a kérdéseken, párosítva számoltuk. A teljes projekt fizetős költése 18,8923 USD volt; ebből a
-fejlesztési üzemek mérése és a hangolás az 50 lapos üzemen 1,2599 USD, a két tesztüzem mérése
-2,8544 USD.
+Mindhárom módszert mindkét modellel futtattuk: a GLM-5.3 Flash (a továbbiakban GLM) és a GPT-6
+Luna (a továbbiakban Luna) modellt az OpenRouter szolgáltatón át értük el, a rajzoldali rendszer
+rögzített beállításaival. A pontosság a helyes válaszok aránya. A konfidenciaintervallumokat
+bootstrap-módszerrel számoltuk: a kérdéseket 10 000-szer újramintavételeztük visszatevéssel, és az
+így kapott pontosságok középső 95%-a adja az intervallumot. Két módszer különbségét ugyanazokon a
+kérdéseken, párosítva számoltuk; ha a különbség intervalluma tartalmazza a nullát, a különbség nem
+szignifikáns. A teljes projekt fizetős költése 18,8923 USD volt; ebből a fejlesztési üzemek mérése
+és a hangolás az 50 lapos üzemen 1,2599 USD, a két tesztüzem mérése 2,8544 USD.
 
-Az összevont gráf mérete az üzemmel nő, az adatlapréteg változatlan (27 615 csúcs, 103 366 él): a
-30 lapos üzemen 274 üzemi csúcs, 931 üzemi él és 174 `DESCRIBED_BY` kapcsolat, az 50
-lapos üzemen 498, 1713 és 324, a 100 lapos üzemen 1018, 3515 és 644, az 1000
-lapos üzemen 10 277, 35 603 és 6641; az 1000 lapos üzem betöltése 80,7 s-ig tartott.
+Az összevont gráf a nagy üzemeken is gond nélkül felépült. Mérete az üzemmel nő, az adatlapi réteg
+változatlan (27 615 csúcs, 103 366 él): a 30 lapos üzemen 274 rajzi csúcs, 931 rajzi él és 174
+összekötő él jött létre, az 50 lapos üzemen 498, 1713 és 324, a 100 lapos üzemen 1018, 3515 és 644,
+az 1000 lapos üzemen 10 277, 35 603 és 6641. Az 1000 lapos üzem betöltése 80,7 másodpercig tartott.
 
 ## Az első prototípus a kis üzemen
 
@@ -44,22 +45,19 @@ Táblázat: A fejlesztési üzemek eredménye a hangolás előtt (helyes válasz
 | M2 | GPT-6 Luna | 46 | 43 | 2 | 4 |
 | M3 | GPT-6 Luna | 38 | – | 0 | – |
 
-A hibák elemzése három javítást hozott (az 5. fejezet írja le őket). Az M2 a több adatlapos
-kérdéseknél minden elem adatlapját külön lekérdezi, és a hatlépéses eszközkeret a 30 lapos
-üzemen a 24 ilyen válaszból 10-et, az 50 lapos üzemen 8-at üresen hagyott; a
-keret ezért 16 lépés lett, és ha mégis elfogy, a módszer egy utolsó hívásban köteles a már
-összegyűjtött eredményekből válaszolni. Az M1 hibáinak nagy része hiányos feltételű részválasz
-volt, ezért a Cypher-szint sémaleírása egy szabállyal bővült (adatlapi tényeknél tág szűrés,
-minden érték a feltételével és az oldalával). Végül egy sok adatlap-hívást igénylő kérdés a
-120 s-os időkeretben válasz nélkül maradt, ezért a keret 240 s lett. A javítást az 50
-lapos üzem több adatlapos kérdésein ellenőriztük: az M2 üres válaszai modellenként 4-ről 2-re
+A hibák elemzése az 5. fejezetben leírt három javítást hozta. Az M2 a több adatlapos kérdéseknél
+minden elem adatlapját külön lekérdezi, és a hatlépéses keret a 30 lapos üzemen a 24 ilyen
+válaszból 10-et, az 50 lapos üzemen 8-at üresen hagyott; ezért nőtt a keret 16 lépésre, és került
+be a kötelező végső válasz. Az M1 hibáinak nagy része hiányos feltételű részválasz volt, ezért
+bővültek a lekérdezési szabályai, és egy sok adatlap-hívást igénylő kérdés miatt nőtt a kaszkád
+időkorlátja. A javítást az 50 lapos üzem több adatlapos kérdésein ellenőriztük: az M2 üres válaszai modellenként 4-ről 2-re
 csökkentek, a teljesen helyes válaszok száma az M2-nél GLM-mel 5-ről 6-ra nőtt, Lunával 4 maradt,
 az M1-nél GLM-mel 3 maradt, Lunával 0-ról 2-re nőtt. Ezután a módszereket
 befagyasztottuk.
 
 ## A gráf nélküli módszer az 1000 lapos üzemen
 
-Az M3 a teljes rajzot szövegként, Benedek szerializálásával kapja meg a promptban. Ez a szöveg a
+Az M3 a teljes rajzot szövegként kapja meg a promptban. Ez a szöveg a
 100 lapos üzemen 474 716, az 1000 lapos üzemen 4 793 987 karakter. Egy korábbi, 98 lapos próbaüzemen végzett mérésben
 egy ekkora rajz kérdésenként átlagosan kb. 194 ezer prompttokent jelentett, ezzel az aránnyal az
 1000 lapos rajz kérdésenként kb. 1,96 millió token lenne. Ez meghaladja mindkét modell kontextusát
@@ -166,14 +164,14 @@ esetben állította, hogy a dokumentum nem tartalmazza a választ. Ez veszélyes
 megválaszolhatatlan kérdéseken helyes, így a (d) családon az M3 jól szerepel, miközben a
 megválaszolható kérdéseken elbukik.
 
-**Az M1 egyetlen lekérdezése.** Az M1 hibáinak nagy része „részben helyes” válasz: a Cypher-szint
-egy szűk lekérdezéssel talál egy releváns adatpontot, a kaszkád elfogadja a nem üres eredményt,
+**Az M1 egyetlen lekérdezése.** Az M1 hibáinak nagy része „részben helyes” válasz: a kaszkád első
+szintje egy szűk lekérdezéssel talál egy releváns adatpontot, a kaszkád elfogadja a nem üres eredményt,
 és a válaszból kimarad egy feltétel vagy egy második érték (példa a Függelék G-ben). Az elfogadási
 szabály a rajzi kérdésekre készült, ahol a nem üres sorhalmaz jó jelzés; adatlapi kérdésnél a
 hiányos sor is nem üres.
 
 **Az M2 eszközhívásai.** Az M2 a rajzeszköznek szabad szöveges kérdést ad, ezért a válasz alakja
-elcsúszhat (a kis üzemen például szabályozókör helyett a szelepét adta meg, Függelék G), és a
+elcsúszhat (a kis üzemen például a szabályozókör helyett a szelepét adta meg, Függelék G), és a
 több adatlapos kérdéseknél többször üres választ adott, mielőtt minden elem adatlapját
 lekérdezte volna (lépéskorlát vagy feldolgozási hiba). A hangolás után ezek ritkábbak lettek (a 100 lapos tesztüzemen modellenként 2).
 

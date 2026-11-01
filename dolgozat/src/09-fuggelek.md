@@ -1,8 +1,8 @@
 # Függelék
 
-## A. Példakérdések családonként (dev halmaz)
+## A. Példakérdések családonként (fejlesztési halmaz)
 
-Táblázat: Két példakérdés családonként a dev halmazból, a referenciaválasz rövidítve
+Táblázat: Két példakérdés családonként a fejlesztési halmazból, a referenciaválasz rövidítve
 | Család | Kérdés | Referenciaválasz (rövidítve) |
 |---|---|---|
 | (a) | Can process flow reach P-2-2 from P-1-1? | no |
@@ -14,7 +14,7 @@ Táblázat: Két példakérdés családonként a dev halmazból, a referenciavá
 | (d) | Regarding GV-1-2 on the P&ID: It hums but won't open. What could be wrong? | No troubleshooting in the datasheet. Related facts only: it needs at least 0.5 bar differential pressure to open; voltage must match the type plate (±10 %). The |
 | (d) | Regarding PV-2-1 on the P&ID: The valve leaks through when shut. Is it the seat ring or the plug seal, and how do I check? | Not in the document (no troubleshooting). |
 
-## B. Az M2 router rendszerüzenete
+## B. Az M2 irányító rendszerüzenete
 
 ```
 You answer questions about one industrial plant. You cannot see the documents
@@ -33,10 +33,13 @@ Each turn, reply with exactly one JSON object and nothing else:
 {"final": {"answer": <answer or null>, "not_present": <true if the documents do not contain
 the answer, else false>}}
 Answer only from the tool results. If the documents give only part of what is asked, answer with that part and say which part is not stated; set not_present to true only when they contain nothing relevant. Never add advice, procedures, causes or values that the documents do not state.
-Answer format: <Benedek answer-format sentence>
+Answer format: <a válaszalakot leíró mondat>
 ```
 
-## C. Az M1 Cypher-szintjének sémakiegészítése (eleje) és az új primitív leírása
+## C. Az M1 sémakiegészítésének eleje és az adatlap-eszköz leírása
+
+Az M1 lekérdezést író lépése a rajzi réteg leírása után a következő szöveggel kezdődő
+kiegészítést kapja:
 
 ```
 DATASHEET LAYER (the same database also holds the datasheet of each tagged item)
@@ -49,20 +52,26 @@ DATASHEET LAYER (the same database also holds the datasheet of each tagged item)
   MATCH (d) WHERE d.document_id = dev.document_id AND (d:plm__PCA_100029511 OR
   d:plm__PCA_100029508 OR d:plm__PCA_100029510) ... and filter d by the words of the question.
 The datasheet graphs follow this model:
-Ask the vendor datasheet of the item with this tag (pump, valve, transmitter, heat exchanger, ...) one question about its specification, e.g. a pressure or temperature limit, a material, a size or an option; returns the datasheet's answer with its PDF pages. Use it for every property the drawing does not show; first find the tag on the drawing.
 ```
 
-A sémakiegészítés ezután a plantdocs A2 `qa-cypher` promptjának GRAPH MODEL és RULES részét és a tag-ek dokumentumonkénti listáját tartalmazza.
+Ezt követi az A2 lekérdezésíró promptjának gráfleírása és szabályai, végül a tag-ek
+dokumentumonkénti listája. Az ágens adatlap-eszközének leírása, ahogy az ágens látja:
+
+```
+Ask the vendor datasheet of the item with this tag (pump, valve, transmitter, heat exchanger, ...)
+one question about its specification, e.g. a pressure or temperature limit, a material, a size or
+an option; returns the datasheet's answer with its PDF pages. Use it for every property the
+drawing does not show; first find the tag on the drawing.
+```
 
 ## D. A két forrásfolyamat részletei
 
 Ez a függelék a 4. fejezetben összefoglalt két forrásfolyamatot írja le olyan részletességgel,
-amennyi a gráfok szerkezetének megértéséhez kell. A két folyamat kódját nem módosítottuk; amit
-leírunk, az a két egyéni munka terveiből és kódjából származik.
+amennyi a gráfok szerkezetének megértéséhez kell. A két folyamatot nem módosítottuk.
 
 ### A plantgraph üzemgenerátora
 
-Benedek rendszerében a generátor egy teljes üzemet épít, a lapokra bontó (splitter) lapokra
+A plantgraph generátora egy teljes üzemet épít, a lapokra bontó (splitter) lapokra
 vágja, a feloldó (resolver) a lapokból megoldókulcs nélkül visszaépíti az üzemet, végül a betöltő
 Neo4j-be tölti. Mivel a bontást a rendszer maga végzi, pontosan tudható, melyik lapközi csatlakozó
 melyikkel alkot párt, és ehhez mérhető a feloldó.
@@ -78,12 +87,12 @@ korábbi egységből kereszt-kapcsolat is futhat egy későbbi egység belsejéb
 
 Az áramokra szelepek kerülnek, a berendezésekhez pedig adott valószínűséggel szabályozókör
 tartozik: mérő (távadó), szabályozó, működtető és a szabályozott szelep. A tag-ek a szokásos
-betűket követik: a kör változója F, L, P vagy T, a távadó `FT-…`, a szabályozó `FIC-…`, a
-szabályozott szelep `FV-…`. A generátor terve kifejezetten elveti a véletlen címkéjű véletlen
+betűket követik: a kör változója F, L, P vagy T, a távadó FT-…, a szabályozó FIC-…, a
+szabályozott szelep FV-…. A generátor terve kifejezetten elveti a véletlen címkéjű véletlen
 gráfot: a berendezések az áramok végén állnak, a szelepek az áramokon ülnek, a szabályozókörök a
 berendezésekhez tartoznak, és csak ettől lesz értelme egy „mi táplálja ezt a szivattyút?”
-kérdésnek. Benedek két generátort készített; a mi példaüzemeink az egyszerűbb, első generátorral készültek,
-mert a valósághűbb folyamatmintákat (oszlop, reaktor, biztonsági szelep) adó későbbi generátor
+kérdésnek. A generátornak két változata van; a mi példaüzemeink az egyszerűbb, első változattal készültek,
+mert a valósághűbb folyamatmintákat (oszlop, reaktor, biztonsági szelep) adó későbbi változat
 berendezésosztályai nem szűkíthetők az adatlappal rendelkező osztályokra.
 
 A generátor minden mezőt megjelöl aszerint, hogy látható-e a vizsgált rendszer számára: látható a
@@ -139,9 +148,7 @@ példaüzemen a visszaépítési ellenőrzés hibátlan volt.
 
 A hét adatlap valódi, a gyártók által nyilvánosan közzétett PDF: Gorman-Rupp VGH (0700286),
 Alfa Laval M3, Fisher ET (D100022X012), GF Type 165, Flowserve Worcester F51/F52, Swagelok
-MS-01-176 és Rosemount 3051 (00813-0100-4001). A négy általunk feldolgozott adatlap PDF-je a jelen
-munka kódtárában, a másik három Szabó Zsombor egyéni munkájának kódtárában található. A
-forrásoldal-hivatkozások ezeknek a PDF-eknek az oldalszámaira mutatnak.
+MS-01-176 és Rosemount 3051 (00813-0100-4001). A forrásoldal-hivatkozások ezeknek a PDF-eknek az oldalszámaira mutatnak.
 
 ### A plantdocs folyamatának lépései
 
@@ -191,9 +198,9 @@ feltétel-dimenzióhoz szabványos fogalmat keres, a program minden javasolt azo
 lekérdez a hálózaton, és csak az ellenőrzött illesztés kerül a szókészlet-térképbe. A sorrend
 rögzített: előbb a POSC Caesar könyvtár pontos vagy tágabb fogalma, ha nincs, a CFIHOS-é; modell-
 vagy változatkódnál a könyvtár azonosítási osztálya; különben az IDO legáltalánosabb
-tulajdonság-osztálya (`Quality`) mint gyűjtő, ahol a pontos jelentést a nyomtatott címke
+tulajdonság-osztálya (Quality) mint gyűjtő, ahol a pontos jelentést a nyomtatott címke
 hordozza. A gyűjtőbe kerülő tények aránya az illesztés minőségének jelzője. Az illesztés
-lefedettségét Szabó Zsombor egyéni munkájában egy előzetes mérés vizsgálta: négy dokumentum
+lefedettségét a plantdocs egy előzetes mérése vizsgálta: négy dokumentum
 eszköztulajdonságai és feltétel-dimenziói közül 88/133-hoz adott a POSC Caesar könyvtár pontos
 vagy tágabb fogalmat, a CFIHOS-szal együtt 101/133-hoz (előzetes, kézi ellenőrzésre váró
 eredmény). Végül a
@@ -218,21 +225,19 @@ A célformátum a kinyerés és a gráfépítés között álló, ontológiafüg
 5. A mutató nem érték: a kereszthivatkozás és a lábjegyzetjel típusos, hogy a gráfban él
    lehessen belőle.
 
-Egy tényrekord vázlata a következő (a mezőnevek a plantdocs formátumáé, az értékek helyén
-leírás áll):
+Egy tényrekord részeit az alábbi táblázat foglalja össze.
 
-```
-{
-  "subject":    {"label": "<az alany, ahogy nyomtatva van>", "kind": "<alkatrész fajtája>"},
-  "property":   {"label": "<a tulajdonság nyomtatott neve>", "key": "<rövid kulcs>"},
-  "value_type": "quantity | code | text | reference | not_limiting | expression",
-  "values":     [{"value": "<szám>", "unit": "<egység>", "printed": "<ahogy nyomtatva van>"}],
-  "conditions": [{"dimension": "<feltétel-dimenzió>", "any_of": ["<megengedett értékek>"]}],
-  "footnotes":  ["<lábjegyzetrekordok azonosítói>"],
-  "flags":      ["<például gyanús elírás, a mértékegység-pár nem egyezik>"],
-  "source":     {"document": "<dokumentum>", "page": "<PDF-oldal>", "table": "<táblázat>"}
-}
-```
+Táblázat: Egy tényrekord részei a célformátumban
+| Rész | Tartalom |
+|---|---|
+| alany | az alany, ahogy nyomtatva van, és az alkatrész fajtája |
+| tulajdonság | a tulajdonság nyomtatott neve és egy rövid kulcs |
+| értéktípus | mennyiség, kód, szöveg, hivatkozás, „nem korlátozó” vagy képlet |
+| értékek | szám, egység és a nyomtatott forma (több mértékegységnél több érték) |
+| feltételek | feltétel-dimenziónként a megengedett értékek |
+| lábjegyzetek | a kapcsolódó lábjegyzetrekordok |
+| jelzők | például gyanús elírás, vagy hogy a mértékegység-pár nem egyezik |
+| forrás | dokumentum, PDF-oldal, táblázat |
 
 Az értéktípus megkülönbözteti a mennyiséget (erre illeszkedik a QUDT), a kódot (anyagjel,
 nyomásosztály), a szabad szöveget, a hivatkozást (egy másik táblázatra mutat, értéke nincs), a
@@ -256,16 +261,16 @@ szövege hordozza. A rétegeket az alábbi táblázat mutatja.
 Táblázat: Az adatlapgráf rétegei
 | Réteg | Szabvány | Mire |
 |---|---|---|
-| Nyelvtan | IDO, `lis:` előtag | fizikai tárgy, rész–egész, információs tárgy, érték és egység |
+| Alapfogalmak | IDO | fizikai tárgy, rész–egész, információs tárgy, érték és egység |
 | Adatlap-szerkezet | POSC Caesar adatlap-ontológia | adatlap, bejegyzés (datum), alany, attribútum, eset, szakasz |
 | Eszközosztály | POSC Caesar könyvtár | például szolenoidszelep, centrifugálszivattyú |
 | Tulajdonság, feltétel-dimenzió | POSC Caesar könyvtár, ahol nincs: CFIHOS | például névleges átmérő |
 | Mértékegység | POSC Caesar egységmodul és QUDT | azonosító, illetve mennyiségfajta és átváltás |
 | Egyéb | Dublin Core, SKOS, schema.org | leírás, jelölés, oldalszám |
 
-A leképezés a célformátumból a gráfba a következő. Az eszköz egy `lis:PhysicalObject` csúcs a
-POSC Caesar eszközosztályával; az alkatrészek szintén fizikai tárgyak, `lis:partOf` kapcsolattal
-az eszközre. Egy mennyiségi tény mennyiségi adatpont (Quantity Datum) a számmal, a mértékegységgel
+A leképezés a célformátumból a gráfba a következő. Az eszköz az IDO fizikai tárgy osztályának
+példánya a POSC Caesar eszközosztályával; az alkatrészek szintén fizikai tárgyak, rész–egész
+kapcsolattal az eszközre. Egy mennyiségi tény mennyiségi adatpont (Quantity Datum) a számmal, a mértékegységgel
 és tartomány esetén alsó és felső határral; egy szöveges vagy kód jellegű tény attribútum-adatpont
 (Attribute Datum); ha az érték maga szabványos osztály (például egy anyag), osztályozó adatpont
 (Classification Datum). Minden adatpont hordozza a nyomtatott címkét és értéket, a PDF-oldalt,
@@ -292,30 +297,30 @@ helyzetekre használja, a plantdocs pedig termékváltozatokra és üzemi felté
 
 Ez a függelék az 5. fejezetben leírt módszerek egyes lépéseit részletezi.
 
-### Az ágens primitívjei
+### Az ágens gráfműveletei
 
-Benedek ágense hat általános, egymással komponálható primitívet hív. A primitívek a
+Az ágens hat általános, egymással kombinálható gráfműveletet hív. A műveletek a
 feloldó kimenetéből a memóriában épített elemgráfon futnak, amelyben a lapközi csatlakozók és a
 többszörösen felrajzolt elemek már össze vannak vonva; ez a gráf a betöltött üzemi réteggel
 egyezik. Az ágens tehát nem látja a laphatárokat, csak az üzemet.
 
-Táblázat: Az üzemi primitívek
-| Primitív | Mit ad vissza |
+Táblázat: Az ágens gráfműveletei
+| Művelet | Mit ad vissza |
 |---|---|
-| `find` | a szűrőnek megfelelő elemek (osztálycímke, osztály, egység, lap, tag, fajta szerint) |
-| `neighbours` | egy elem közvetlen szomszédai egy relációcsoport mentén |
-| `traverse` | bejárás egy kiinduló elemtől, megállási és szűkítő feltétellel |
-| `path` | út két elem között |
-| `filter` | egy korábbi eredmény szűkítése a közös szűrőnyelvvel |
-| `aggregate` | egy korábbi eredmény csoportosítása vagy összesítése |
+| keresés | a szűrőnek megfelelő elemek (osztálycímke, osztály, egység, lap, tag, fajta szerint) |
+| szomszédok | egy elem közvetlen szomszédai egy relációcsoport mentén |
+| bejárás | bejárás egy kiinduló elemtől, megállási és szűkítő feltétellel |
+| út | út két elem között |
+| szűkítés | egy korábbi eredmény szűkítése a közös szűrőnyelvvel |
+| összesítés | egy korábbi eredmény csoportosítása vagy összesítése |
 
-A primitívek eredményei hivatkozást (handle) kapnak, így egy korábbi lépés eredménye a következő
-bemenete lehet. A szűrőnyelv mind a hat primitívnél ugyanaz, és ugyanazokat a címkeneveket
-használja, mint a Cypher-szint sémaszövege; a hangolt rendszer ezt az elem fajtájával és a vonalnézet
+A műveletek eredményei hivatkozást kapnak, így egy korábbi lépés eredménye a következő
+bemenete lehet. A szűrőnyelv mind a hat műveletnél ugyanaz, és ugyanazokat a típusneveket
+használja, mint a lekérdezést író lépés sémaleírása; a hangolt rendszer ezt az elem fajtájával és a vonalnézet
 relációcsoportjával bővítette. A tervezési döntés lényege, hogy az eszközök száma a gráfsémából következik, nem a
-kérdéstípusokból: a hat primitív a séma szókincsén értelmezett szokásos gráfműveletek
+kérdéstípusokból: a hat művelet a séma szókincsén értelmezett szokásos gráfműveletek
 (kiválasztás, kiterjesztés, lezárás, legrövidebb út, szűkítés, csoportosítás), ezért egy új
-kérdéstípus egy új kompozíció, nem egy új eszköz. Az egyszerű JSON-akciók minden modellen
+kérdéstípus egy új kompozíció, nem egy új eszköz. Az egyszerű, rögzített formájú utasítások minden modellen
 ugyanúgy működnek, és a gyorsítótár változtatás nélkül vissza tudja játszani őket.
 
 ### Az adatlapoldali A2 lépései
@@ -323,7 +328,7 @@ ugyanúgy működnek, és a gyorsítótár változtatás nélkül vissza tudja j
 A plantdocs A2-módszere egy eszköz egy kérdésére a következő lépésekben válaszol.
 
 1. **Kontextus.** A rendszerüzenet a plantdocs gráfmodelljének leírását (a 4. fejezetben bemutatott
-   adatpont-, eset-, szakasz- és lábjegyzetcsúcsokat az előtagos neveikkel), az eszköz gráfjának
+   adatpont-, eset-, szakasz- és lábjegyzetcsúcsokat a szabványos neveikkel), az eszköz gráfjának
    leltárát (az eszköz és alkatrészei, a leggyakoribb adatpontcímkék, a források oldallal) és a forrásszakaszok
    katalógusát tartalmazza; a katalógus soronként egy táblázat, ábra, diagram vagy szövegrész a
    címével, típusával, oldalával, sorainak számával és a 8. lépésben írt leírásával.
@@ -353,23 +358,24 @@ A plantdocs A2-módszere egy eszköz egy kérdésére a következő lépésekben
 
 ### Az M1 sémakiegészítésének felépítése
 
-A sémakiegészítés első része az összekötést írja le (a `DESCRIBED_BY` nélküli elemnek, például
-egy szabályozófunkciónak nincs adatlapja; minden adatlapcsúcsnak van `document_id` tulajdonsága;
-egy tag tényei a fenti mintával érhetők el). Ezt követi a plantdocs A2-promptjának gráfmodell-része
-szó szerint, a dokumentumok és tag-jeik listája, végül a plantdocs lekérdezési szabályai, amelyek a
-második fejlesztési iterációban kerültek be. A sémakiegészítés elejét a Függelék C mutatja.
+A sémakiegészítés első része az összekötést írja le: az összekötő él nélküli elemnek (például egy
+szabályozófunkciónak) nincs adatlapja, minden adatlapcsúcs hordozza a dokumentumazonosítót, és egy
+tag tényei egy rögzített mintával érhetők el. Ezt követi az A2 lekérdezésíró promptjának
+gráfleírása szó szerint, a dokumentumok és tag-jeik listája, végül az A2 lekérdezési szabályai,
+amelyek a prototípus második fejlesztési iterációjában kerültek be. A sémakiegészítés elejét a
+Függelék C mutatja.
 
-### Az M2 router protokollja
+### Az M2 irányító protokollja
 
 A rendszerüzenet leírja a két eszközt, felsorolja az adatlappal rendelkező
 tag-eket, megadja a három megengedett JSON-alakot (rajzeszköz-hívás, adatlap-hívás, végső válasz a
-„nincs benne” jelzővel) és a válaszalakot. A router minden lépésben pontosan egy JSON-objektumot
-ír; a program végrehajtja a hívást, és az eredményt egy új üzenetben („Tool result:”) adja vissza.
-Érvénytelen akcióra a router javító üzenetet kap; ha a 16 lépéses keret elfogy, a router egy
+„nincs benne” jelzővel) és a válaszalakot. Az irányító minden lépésben pontosan egy utasítást
+ír; a program végrehajtja a hívást, és az eredményt egy új üzenetben adja vissza.
+Érvénytelen utasításra az irányító javító üzenetet kap; ha a 16 lépéses keret elfogy, egy
 utolsó hívásban köteles végső választ adni a már összegyűjtött eredményekből (a prototípusban
 ilyenkor a kérdés lépéskorlát-eredménnyel zárult). Szolgáltatói hibánál (például
-hálózati hibánál) a hívás egyszer újrapróbálkozik, ahogy Benedek kaszkádja is; ha ez is hibás, a
-kérdés szolgáltatói hibával zárul, és rossznak számít. A router alacsony gondolkodási szinttel
+hálózati hibánál) a hívás egyszer újrapróbálkozik, ahogy a kaszkád is; ha ez is hibás, a
+kérdés szolgáltatói hibával zárul, és rossznak számít. Az irányító alacsony gondolkodási szinttel
 fut. A rendszerüzenet teljes szövegét a Függelék B tartalmazza.
 
 ### A módszerek várható erősségei és gyengeségei
@@ -381,12 +387,13 @@ fejezet eredményeit ezek fényében érdemes olvasni.
 
 Az M1 erőssége, hogy egy összetett kérdés elvben egyetlen lekérdezéssel megválaszolható: a
 rajzi lépés és az adatlapi tény ugyanabban a mintában szerepel, így nincs szöveges átadás két
-rendszer között, és a válasz minden eleme visszakövethető egy csúcsig. Az ágensszint a
-`datasheet_fact` primitívvel ugyanazt az A2-logikát éri el, mint az M2, tehát ahol a
-Cypher-szint elakad, ott az M1-nek az M2-höz hasonló képességei vannak.
+rendszer között, és a válasz minden eleme visszakövethető egy csúcsig. Az ágensszint az
+adatlap-eszközzel ugyanazt az A2-logikát éri el, mint az M2, tehát ahol a
+első szint elakad, ott az M1-nek az M2-höz hasonló képességei vannak.
 
 A gyengeségei ugyanebből fakadnak. A Cypher-író modellnek egyszerre két szókincset kell
-kezelnie: Benedek olvasható osztálycímkéit és a plantdocs előtagos, számkódos szabványos neveit.
+kezelnie: a rajzi réteg olvasható osztályneveit és az adatlapi réteg számkódos szabványos
+neveit.
 A sémaszöveg ettől hosszú, ami minden kérdés költségét növeli, akkor is, ha a kérdés csak a
 rajzról szól. A legnagyobb kockázat az elfogadási szabály: a rajzi kérdéseken a nem üres, nem
 csonka eredmény jó jelzés, egy adatlapi kérdésnél viszont egy szűk lekérdezés is adhat nem üres,
@@ -396,14 +403,14 @@ válaszíró szabályait (feltételek kiírása, oldalhivatkozás).
 
 #### M2
 
-Az M2 erőssége a modularitás: mindkét rendszer abban a beállításban fut, amelyben a szerzője
-mérte, az adatlapi válasz a plantdocs teljes A2-láncán megy át (szakaszválasztás, vektoros
+Az M2 erőssége a modularitás: mindkét rendszer abban a beállításban fut, amelyben korábban
+mérték, az adatlapi válasz a plantdocs teljes A2-láncán megy át (szakaszválasztás, vektoros
 keresés, a feltételeket kiíró válaszíró), és egy új dokumentumtípus egy új eszközzel bővíthető. Az
-útvonal átlátható: a naplóból látszik, melyik eszközt milyen kérdéssel hívta a router.
+útvonal átlátható: a naplóból látszik, melyik eszközt milyen kérdéssel hívta az irányító.
 
 A gyengesége az illesztésben van. A két rendszer szöveggel kommunikál, így a rajzeszköz
-válaszának alakja elcsúszhat, és a router félreértheti; az összetett kérdés helyes felbontása is a
-routeren múlik. Mivel az eszközhívások egymás után futnak, és mindegyik maga is több LLM-hívás, a
+válaszának alakja elcsúszhat, és a irányító félreértheti; az összetett kérdés helyes felbontása is a
+irányítón múlik. Mivel az eszközhívások egymás után futnak, és mindegyik maga is több LLM-hívás, a
 késleltetés a három módszer közül várhatóan itt a legnagyobb.
 
 #### M3
@@ -413,7 +420,7 @@ elfogadási szabály, amely rossz választ engedhet át. Egy kis rajzon a teljes
 promptban, és a modell mindent lát; az adatlapi kérdéseknél a kérdés szavaihoz közeli szövegrészek
 gyakran éppen a keresett táblázatot tartalmazzák.
 
-A gyengesége a méret és a szerkezet. Benedek mérései szerint a teljes rajz promptba tétele a
+A gyengesége a méret és a szerkezet. A plantgraph mérései szerint a teljes rajz promptba tétele a
 lapszámmal romlik és drágul, egy határ fölött pedig nem is fér el (2. fejezet), ezért az M3 előnye
 nagyobb üzemen nem várható. Az adatlap-darabok a táblázatokat szövegként, a fejlécektől
 elszakítva tartalmazhatják, a feltételek és a lábjegyzetek nem explicitek, és a vektoros keresés
@@ -421,27 +428,9 @@ egy több eszközt érintő kérdésnél elhanyagolhatja valamelyik eszköz adat
 forrásoldalakat csak darabszinten tudja megadni.
 
 
-### Az összevont gráf betöltése
-
-A betöltés egy paranccsal újrafuttatható. Sorrendje: az
-adatbázis törlése és a neosemantics beállítása, az eszközgráfok betöltése és névtérbe sorolása,
-az üzemi réteg betöltése Benedek betöltőjével (amely csak a saját korpuszát törli), a
-`DESCRIBED_BY` élek, végül a plantdocs A2 vektoros kereséséhez szükséges beágyazások. A teljes
-betöltés 243,2 s; ennek nagy része (222,4 s) a 14 489 beágyazás előállítása, tárolása és indexelése, az üzemi
-réteg 3,6 s alatt töltődik be. A helyi Neo4j Community kiadás csak egy felhasználói
-adatbázist enged, ezért a betöltő minden futáskor az egész adatbázist újraépíti.
-
-Két illesztési pontra külön figyelni kellett. Benedek tárellenőrzése összeveti az adatbázis
-kapcsolatszámait a betöltési tervvel, és eltérésnél nem indítja el a kaszkádot; ezért a kaszkád egy
-leszármazott nézeten át olvas, amely a `DESCRIBED_BY` kapcsolatot nem számolja a rajzi
-korpuszhoz. A másik pont a plantdocs: az alkalmazása dokumentumonként törli és
-újratölti az adatbázist, ami az összevont gráfot tönkretenné. Ezért az A2-t nem az alkalmazáson
-át hívjuk, hanem közvetlenül a lekérdező függvényét, egy dokumentumra szűkítő lekérdezés-futtatóval
-(5. fejezet).
-
 ### Útvonalak a tesztüzemeken
 
-Az M1 GLM-mel a 100 lapos tesztüzemen a 60 kérdésből 31-et a Cypher-szinten zárt le, 9-hez az
+Az M1 GLM-mel a 100 lapos tesztüzemen a 60 kérdésből 31-et már az első szinten zárt le, 9-hez az
 ágens is kellett adatlap-hívás nélkül, 20-hoz az ágens és legalább egy adatlap-lekérdezés;
 Lunával 34, 5 és 21. Az 1000 lapos üzemen ugyanez GLM-mel 31, 11 és 18, Lunával 39, 6 és 15. Az M2 nagyjából harmadolta a kérdéseket a csak rajzi, a
 csak adatlapi és a mindkét eszközt hívó útvonal között (a 100 lapos üzemen GLM-mel 19, 17 és 24,
@@ -457,15 +446,15 @@ kettőt képernyőkép nélkül követünk végig.
 
 A demó próbájának egy további kérdése a rajzi (a) családból való, rendezett út válaszalakkal: „Trace the process flow
 path from CHV-1-2 to CHV-2-1. List every equipment item and valve in order.” Az M1-gyel feltéve a
-kaszkád a Cypher-szinten zárult, egyetlen lekérdezéssel, és a válasz egy
+kaszkád már az első szinten zárult, egyetlen lekérdezéssel, és a válasz egy
 tagsorozat: „CHV-1-2, P-1-3, P-2-1, P-2-2, CHV-2-1”.
 
-![Rajzi útvonal az M1-gyel: a Cypher-szint egyetlen lekérdezéssel adja a rendezett utat; a bal oldalon a P&ID egyik lapja, a jobb szélén a lapközi csatlakozóval.](../../figures/demo/02-a-M1.png)
+![Rajzi útvonal az M1-gyel: a kaszkád első szintje egyetlen lekérdezéssel adja a rendezett utat; a bal oldalon a P&ID egyik lapja, a jobb szélén a lapközi csatlakozóval.](../../figures/demo/02-a-M1.png)
 
 A bal oldalon a rajz egyik lapja látszik. A CHV-1-2 szelepből induló vezeték a lap jobb szélén egy
 lapközi csatlakozóban végződik, vagyis az út egy másik lapon folytatódik. A rajzon ezt az olvasónak
 kell követnie; az üzemi rétegben viszont a laphatár átlépése egyetlen él (4. fejezet), ezért a
-Cypher-szint egyetlen lekérdezéssel megtalálta a teljes utat, és a kaszkád az
+kaszkád első szintje egyetlen lekérdezéssel megtalálta a teljes utat, és a kaszkád az
 elfogadási szabálya szerint (válaszolt, nem tartózkodott, van sor, nem csonka) elfogadta.
 
 ### Több adatlapos kérdés (M2)
@@ -478,7 +467,7 @@ közvetlenül áramot a P-2-1-ből?), majd a halmaz minden elemére egy adatlapi
 
 ![Több adatlapos kérdés az M2-vel: egy rajzi hívás után három adatlapi hívás; a bal oldalon a Worcester gömbcsap adatlapjának nyomás–hőmérséklet diagramja.](../../figures/demo/05-e-M2.png)
 
-Az M2 útvonala: egy rajzeszköz-hívás, amely a Cypher-szinten zárult, majd három
+Az M2 útvonala: egy rajzeszköz-hívás, amely már az első szinten zárult, majd három
 adatlap-hívás a BV-2-1, a P-2-2 és a PV-2-1 tag-re, vagyis egy gömbcsap, egy szivattyú és egy
 szabályozószelep adatlapjára. A válasz „nincs benne” jelzésű részválasz: „Of the three items fed
 directly from P-2-1 (BV-2-1, P-2-2, PV-2-1), only P-2-2 has a numeric maximum pressure in its
@@ -494,7 +483,7 @@ próba nem pontozta.
 ### Két további kérdés képernyőkép nélkül
 
 Az adatlapi (b) kérdésre („Regarding P-1-3 on
-the P&ID: What's the max allowable pressure in the casing? …”) az M1 a Cypher-szinten, egyetlen
+the P&ID: What's the max allowable pressure in the casing? …”) az M1 már az első szinten, egyetlen
 lekérdezéssel válaszolt; a rajzi (a) kérdésre („Which instruments measure E-2-1?”) az M3 egyetlen
 hívással az FT-2-2 tag-et adta.
 
@@ -504,10 +493,10 @@ Ez a szakasz az első prototípus mérését írja le: a módszerek első válto
 
 ### Fejlesztési iterációk
 
-A dev halmazon (20 kérdés) négy iterációt mértünk (lásd az alábbi ábrát). Az első iterációban
+A fejlesztési halmazon (20 kérdés) négy iterációt mértünk (lásd az alábbi ábrát). Az első iterációban
 a Rosemount 3051 gráfja még nem készült el, ezért a nyomás- és áramlástávadóra
 vonatkozó adatlapi kérdések egyik gráfos módszerrel sem voltak megválaszolhatók. A második
-iterációban az M1 Cypher-szintje megkapta a plantdocs A2 lekérdezési szabályait (széles
+iterációban az M1 lekérdezést író lépése megkapta az A2 lekérdezési szabályait (széles
 keresés, eset, lábjegyzet és oldal visszaadása), az M2 és az M3 pedig egy válaszszabályt
 (részválasznál a meglévő rész és a hiányzó rész megnevezése, a dokumentumon túli tanács
 tilalma); az M2 és az M3 hallucinációi ezzel eltűntek. A harmadik iterációban a
@@ -515,7 +504,7 @@ Rosemount-gráf is bekerült: az M1 pontossága 0,60-ról 0,75-re, az M2-é 0,85
 M3-é nem változott, mert nem használja a gráfot. A negyedik iterációban a befagyasztott
 módszereket GPT-6 Lunával mértük: M1 0,60, M2 0,70, M3 0,60.
 
-![A dev halmazon mért pontosság iterációnként.](../../figures/dev_progress.png)
+![A fejlesztési halmazon mért pontosság iterációnként.](../../figures/dev_progress.png)
 
 ### Végső mérés a teszthalmazon
 
@@ -559,14 +548,14 @@ Táblázat: Költség, késleltetés és tokenhasználat kérdésenként a végs
 A legdrágább az M1: a kaszkád első szintje a teljes kétrétegű sémát kapja promptban, és ha nem
 fogadják el a válaszát, az ágens is lefut, amely tag-enként külön adatlap-hívásokat indít. Az M2 GLM-mel körülbelül feleannyiba kerül (0,00234 vs. 0,00453 USD), Lunával 40%-ába (0,00213 vs. 0,00539 USD), mert csak a szükséges eszközt hívja. Az M3 a legolcsóbb, és
 Lunával a leggyorsabb is: egyetlen hívás, de a teljes rajzot és tizenkét adatlap-darabot viszi
-magával. Ez a példaüzemen olcsó, mert a rajz kicsi (36 csúcs); Benedek mérései szerint a
-ContextRAG költsége a lapszámmal meredeken nő (a valósághűbb generátor üzemein 1 lapon a kaszkád 3,79-szerese, 11 lapon 21,57-szerese, és kb. 62 lap fölött a rajz már nem fér a promptba), ezért az M3
+magával. Ez a példaüzemen olcsó, mert a rajz kicsi (36 csúcs); a plantgraph mérései szerint a
+teljes rajz promptba tételének költsége a lapszámmal meredeken nő (a valósághűbb generátor üzemein 1 lapon a kaszkád 3,79-szerese, 11 lapon 21,57-szerese, és kb. 62 lap fölött a rajz már nem fér a promptba), ezért az M3
 előnye nagyobb üzemen nem várható.
 
 ### Útvonalak
 
 Az M1 GLM-mel a 40 tesztkérdésből 21-et a Cypher-szinten zárt le, 7-hez az ágens is kellett
-adatlap-hívás nélkül, 12-höz az ágens és legalább egy `datasheet_fact` hívás; Lunával ugyanez
+adatlap-hívás nélkül, 12-höz az ágens és legalább egy adatlap-hívás; Lunával ugyanez
 22, 7 és 11. Az M2 GLM-mel 13 kérdésnél csak a rajzot, 14-nél csak az adatlapot, 13-nál
 mindkettőt kérdezte; Lunával 14, 13 és 13.
 
@@ -592,12 +581,12 @@ Táblázat: Az összetett, több adatlapos kérdések eredménye (12 kérdés)
 | M2 | GPT-6 Luna | 1 | 9 | 2 | 0 | 0,1280 | 38,6 |
 | M3 | GPT-6 Luna | 0 | 0 | 12 | 0 | 0,0276 | 13,6 |
 
-Ezek a kérdések mindegyik módszernek nehezek: teljesen helyes választ csak a router adott (GLM-mel
+Ezek a kérdések mindegyik módszernek nehezek: teljesen helyes választ csak az irányító adott (GLM-mel
 3, Lunával 1 kérdésre), a bíráló pedig „részben helyes” ítéletet adott, ha egy elemnél a második
-érték vagy a feltétel hiányzott. Ha a részben helyes válaszokat is számítjuk, a router GLM-mel 9,
+érték vagy a feltétel hiányzott. Ha a részben helyes válaszokat is számítjuk, az irányító GLM-mel 9,
 Lunával 10 kérdésnél adott legalább részben jó választ, az M1 5, illetve 6, a gráf nélküli
-baseline 2, illetve 0 kérdésnél. A különbség itt a legnagyobb: több adatlap összevetéséhez a
-rajzon kell bejárni az elemeket, majd mindegyik adatlapját külön lekérdezni, és ezt a router
+alapmódszer 2, illetve 0 kérdésnél. A különbség itt a legnagyobb: több adatlap összevetéséhez a
+rajzon kell bejárni az elemeket, majd mindegyik adatlapját külön lekérdezni, és ezt az irányító
 eszközhívásai természetesen leképezik, az egyetlen lekérdezés (M1) és az egyetlen prompt (M3)
 viszont nem.
 
@@ -605,7 +594,7 @@ viszont nem.
 
 **Az M1 egyetlen lekérdezése.** Az M1 hibáinak nagy része „részben helyes” válasz: a Cypher-szint
 egy szűk lekérdezéssel talál egy releváns adatpontot, a kaszkád elfogadja a nem üres eredményt,
-és a válaszból kimarad egy feltétel vagy egy második érték. A dev halmazon például a
+és a válaszból kimarad egy feltétel vagy egy második érték. A fejlesztési halmazon például a
 szivattyú 266 psi-s burkolatnyomása megvolt, a 100 °F-ig érvényes 250 psi-s üzemi határ nem. Az
 elfogadási szabály a rajzi kérdésekre készült, ahol a nem üres sorhalmaz jó jelzés; adatlapi
 kérdésnél a hiányos sor is nem üres.
@@ -614,7 +603,7 @@ kérdésnél a hiányos sor is nem üres.
 Az izolációs kérdésnél („To isolate P-1-5 from all upstream equipment, which valves must be
 closed?”) a referenciaválasz egyetlen szelep, a módszerek többsége a felfelé eső összes szelepet
 felsorolta. A szabályozókörös kérdésnél („Which control loops act on valves directly connected to
-P-2-1?”) az M2 mindkét modellel a szelepet (PV-2-1) adta meg a kör (PIC-2-1) helyett: a router a
+P-2-1?”) az M2 mindkét modellel a szelepet (PV-2-1) adta meg a kör (PIC-2-1) helyett: az irányító a
 rajzeszköznek szabad szöveges kérdést ad, és a válasz alakja ott elcsúszott. A P-2-1-ből lefelé
 eső elemek halmazánál az M1 GLM-mel és az M3 Lunával hiányos listát adott.
 

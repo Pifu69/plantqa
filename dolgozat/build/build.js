@@ -36,7 +36,7 @@ function numbered(level, text) {
 }
 
 // Hivatkozások: a szövegben [KULCS] vagy [K1, K2] (egymás után vesszővel is: [K1], [K2]);
-// a kimenetben felső indexes sorszám az Irodalomjegyzék (08-irodalom.md) sorrendje szerint.
+// a kimenetben szögletes zárójeles sorszám (IEEE-stílus, például [3], [5]).
 const BIB = new Map(); // kulcs -> sorszám
 const UNKNOWN_KEYS = new Set();
 // Kulcsnak csak betűvel kezdődő, szóköz nélküli azonosító számít (így a [0,133; 0,400]
@@ -46,27 +46,42 @@ const CITE_GROUP = String.raw`\[(?:${KEY})(?:\s*,\s*(?:${KEY}))*\](?!\()`;
 const CITE_RE = new RegExp(String.raw`\s?${CITE_GROUP}(?:\s*,\s*${CITE_GROUP})*`, "g");
 
 function loadBib() {
+  // IEEE-sorrend: a tételek az első szövegbeli hivatkozásuk sorrendjében kapnak sorszámot;
+  // a sehol nem hivatkozott tételek a lista végére kerülnek.
   const md = fs.readFileSync(path.join(SRC, "08-irodalom.md"), "utf8").replace(/\r/g, "");
+  const keys = [];
   for (const line of md.split("\n")) {
     const m = line.match(/^- \[([^\]]+)\] /);
-    if (m) BIB.set(m[1], BIB.size + 1);
+    if (m) keys.push(m[1]);
   }
+  const known = new Set(keys);
+  const files = fs.readdirSync(SRC).filter((f) => /^\d\d-.*\.md$/.test(f) && f !== "08-irodalom.md").sort();
+  for (const f of files) {
+    const text = fs.readFileSync(path.join(SRC, f), "utf8").replace(/```[\s\S]*?```/g, "");
+    for (const m of text.matchAll(CITE_RE)) {
+      for (const k of m[0].matchAll(/[^\s\[\],]+/g)) {
+        if (known.has(k[0]) && !BIB.has(k[0])) BIB.set(k[0], BIB.size + 1);
+      }
+    }
+  }
+  for (const k of keys) if (!BIB.has(k)) BIB.set(k, BIB.size + 1);
 }
 
 function citeRuns(text, base) {
-  // egy kódjelölés nélküli szövegrész futásai, a hivatkozásokat felső indexre cserélve
+  // egy kódjelölés nélküli szövegrész futásai, a hivatkozásokat [n] sorszámra cserélve
   const out = [];
   let last = 0;
   for (const m of text.matchAll(CITE_RE)) {
     const keys = [...m[0].matchAll(/[^\s\[\],]+/g)].map((k) => k[0]);
     if (!keys.every((k) => BIB.has(k))) { keys.filter((k) => !BIB.has(k)).forEach((k) => UNKNOWN_KEYS.add(k)); continue; }
     if (m.index > last) out.push(...refRuns(text.slice(last, m.index), base));
+    out.push(new TextRun({ text: m.index > 0 ? " " : "", ...base }));
     const nums = [...new Set(keys.map((k) => BIB.get(k)))].sort((a, b) => a - b);
     nums.forEach((n, idx) => {
       // minden sorszám kattintható belső hivatkozás az irodalomjegyzéki tételre
       out.push(new InternalHyperlink({ anchor: `irod_${n}`,
-        children: [new TextRun({ text: String(n), superScript: true, ...base })] }));
-      if (idx < nums.length - 1) out.push(new TextRun({ text: ",", superScript: true, ...base }));
+        children: [new TextRun({ text: `[${n}]`, ...base })] }));
+      if (idx < nums.length - 1) out.push(new TextRun({ text: ", ", ...base }));
     });
     last = m.index + m[0].length;
   }
@@ -200,11 +215,19 @@ function chapter(md) {
     if (line.startsWith("```")) { const [code, next] = codeBlock(lines, i); out.push(...code); i = next; continue; }
     const bib = line.match(/^- \[([^\]]+)\] (.*)$/);
     if (bib && BIB.has(bib[1])) {
-      // irodalomjegyzéki tétel: [n] sorszámmal, függő behúzással
-      const n = BIB.get(bib[1]);
-      out.push(new Paragraph({ children: [new Bookmark({ id: `irod_${n}`, children: [new TextRun({ children: [`[${n}]`, new Tab()] })] }), ...runs(bib[2])],
-        spacing: { after: 60 }, indent: { left: 560, hanging: 560 }, tabStops: [{ type: "left", position: 560 }] }));
-      prevNumbered = false; i += 1; continue;
+      // irodalomjegyzék: az egymás utáni tételek a sorszámuk (első hivatkozás) szerint rendezve
+      const items = [];
+      while (i < lines.length) {
+        const b = lines[i].match(/^- \[([^\]]+)\] (.*)$/);
+        if (!b || !BIB.has(b[1])) break;
+        items.push([BIB.get(b[1]), b[2]]); i += 1;
+      }
+      items.sort((a, b) => a[0] - b[0]);
+      for (const [n, text] of items) {
+        out.push(new Paragraph({ children: [new Bookmark({ id: `irod_${n}`, children: [new TextRun({ children: [`[${n}]`, new Tab()] })] }), ...runs(text)],
+          spacing: { after: 60 }, indent: { left: 560, hanging: 560 }, tabStops: [{ type: "left", position: 560 }] }));
+      }
+      prevNumbered = false; continue;
     }
     if (/^(- |\d+\. )/.test(line)) {
       // Listaelem: a behúzott folytatósorok ugyanahhoz az elemhez tartoznak.

@@ -35,6 +35,15 @@ FAMILY_NAMES = {
     "d": "(d) megválaszolhatatlan",
     "all": "összesen",
 }
+DOC_NAMES = {
+    "alfalaval-m3": "Alfa Laval M3 hőcserélő",
+    "fisher-et-d100022x012": "Fisher ET szabályozószelep",
+    "flowserve-worcester-f51-f52": "Worcester F51/F52 golyóscsap",
+    "gfps-165-solenoid-valve": "GF 165 mágnesszelep",
+    "gorman-rupp-0700286": "Gorman-Rupp VGH szivattyú",
+    "rosemount-3051-00813-0100-4001": "Rosemount 3051 távadó",
+    "swagelok-ms-01-176": "Swagelok MS-01-176 visszacsapó szelep",
+}
 ROUTE_SHADES = ["#2a78d6", "#eb6834", "#1baf7a", "#eda100", "#e87ba4", "#008300", "#6250d6"]
 TEXT = "#0b0b0b"
 MUTED = "#52514e"
@@ -121,10 +130,10 @@ def dev_progress(plan: dict[str, Any]) -> None:
         ax.annotate(label, (xs[-1], ys[-1]), xytext=(8, lift), textcoords="offset points",
                     va="center", fontsize=8, color=TEXT)  # fmt: skip
     ax.set_xticks([i + 1 for i in range(len(plan["dev"]))])
-    ax.set_xticklabels([f"{d['exp']}\n{d['label']}" for d in plan["dev"]], fontsize=7)
+    ax.set_xticklabels([d["label"] for d in plan["dev"]], fontsize=7)
     ax.set_xlim(0.7, len(plan["dev"]) + 1.2)
     ax.set_ylim(0, 1.05)
-    style(ax, "pontosság a dev halmazon (20 kérdés)")
+    style(ax, "pontosság a fejlesztési halmazon (20 kérdés)")
     ax.set_title("Fejlesztési iterációk a kis üzemen", fontsize=10)
     save(fig, "dev_progress")
 
@@ -187,7 +196,7 @@ def test_cost_latency(exp: str, split: str, name: str, title: str) -> None:
         ticks = [f"{d['method']}\n{MODEL_NAMES[str(d['model'])]}" for d in data]
         ax.set_xticklabels(ticks, fontsize=7)
         style(ax, label)
-    fig.suptitle(f"{title} — {exp}", fontsize=10)
+    fig.suptitle(title, fontsize=10)
     save(fig, name)
 
 
@@ -226,9 +235,9 @@ def graph_layers(plan: dict[str, Any]) -> None:
     """Az összevont gráf csúcsai rétegenként és dokumentumonként (betöltési jelentés)."""
     report = json.loads((ROOT / "data/plant/load_report.json").read_text(encoding="utf-8"))
     counts = report["counts"]
-    rows = [{"layer": "plant (PQA)", "nodes": counts["plant_nodes"]}]
-    rows += [{"layer": d["doc"], "nodes": d["nodes"]} for d in counts["per_document"]]
-    rows.append({"layer": "shared vocabulary", "nodes": counts["shared_vocabulary_nodes"]})
+    rows = [{"layer": "rajzi üzemi réteg (4 lapos üzem)", "nodes": counts["plant_nodes"]}]
+    rows += [{"layer": DOC_NAMES[d["doc"]], "nodes": d["nodes"]} for d in counts["per_document"]]
+    rows.append({"layer": "közös szókészlet", "nodes": counts["shared_vocabulary_nodes"]})
     write_csv("graph_layers", rows)
     fig, ax = plt.subplots(figsize=(7.2, 3.6))
     ys = list(range(len(rows)))
@@ -240,7 +249,7 @@ def graph_layers(plan: dict[str, Any]) -> None:
     ax.invert_yaxis()
     style(ax, "")
     ax.set_xlabel("csúcsok száma", color=MUTED)
-    ax.set_title("Az összevont gráf rétegei", fontsize=10)
+    ax.set_title("Az összevont gráf csúcsai forrásonként", fontsize=10)
     save(fig, "graph_layers")
 
 
@@ -266,12 +275,11 @@ def methods_overview() -> None:
     """A három módszer sematikus felépítése (adat nélküli ábra)."""
     fig, ax = plt.subplots(figsize=(8.6, 3.6))
     columns = {
-        "M1": ["kérdés", "Cypher-szint\n(üzem + adatlap séma)", "ágens + datasheet_fact",
-               "összevont Neo4j-gráf"],
-        "M2": ["kérdés", "router-ágens", "drawing: cascade_v4_iso\ndatasheet: plantdocs A2",
-               "összevont Neo4j-gráf"],
-        "M3": ["kérdés", "egy LLM-hívás", "egész rajz (ContextRAG)\n+ 12 adatlap-darab",
-               "PDF-szöveg + vektorok"],
+        "M1": ["kérdés", "Cypher-lekérdezés\n(rajz + adatlap)",
+               "gráfbejáró ágens\n+ adatlap-eszköz", "összevont gráf"],
+        "M2": ["kérdés", "irányító ágens", "rajz: kaszkád\nadatlap: A2", "összevont gráf"],
+        "M3": ["kérdés", "egyetlen modellhívás", "teljes rajz szövegként\n+ 12 adatlaprészlet",
+               "adatlapok PDF-szövege"],
     }  # fmt: skip
     for i, (method, labels) in enumerate(columns.items()):
         x = 1.6 + i * 3.4
@@ -308,6 +316,9 @@ def main() -> None:
             exp, "dev+test", f"{name}_cost_latency", f"{label}: költség és késleltetés"
         )
         routes_figure(exp, f"{name}_routes", f"Útvonalak, {label}")
+    from plantqa.figures_kg import main as kg_main
+
+    kg_main()
     print(f"figures written to {FIGURES}")
 
 

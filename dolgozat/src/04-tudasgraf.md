@@ -1,138 +1,128 @@
 # Az összevont tudásgráf
 
-A két egyéni munka két külön gráfot épít: a rajzból egy üzemi réteget (Benedek), az adatlapokból
-eszközönként egy-egy adatlapgráfot (plantdocs). Az összevonás célja, hogy egyetlen adatbázisban
-egyetlen lekérdezés mindkettőt elérje. Ebben a fejezetben előbb röviden összefoglaljuk a két
-forrásfolyamatot és az általuk épített réteget, utána a két réteg közötti kapcsolatot és a
-betöltés mérését. A két folyamat kódját nem módosítottuk; részletes leírásuk, amely a két
-egyéni munka terveiből és kódjából származik, a Függelék D-ben található.
+Az előző fejezetben leírt kérdések egy része csak úgy válaszolható meg, ha a rajz és az adatlap
+egyszerre elérhető. Ebben a fejezetben bemutatjuk, hogyan épül fel az a tudásgráf, amely mindkettőt
+tartalmazza. A két forrásrendszer két külön gráfot épít: a plantgraph a rajzokból egy üzemi
+réteget, a plantdocs az adatlapokból eszközönként egy-egy adatlapgráfot. Az összevonás célja, hogy
+a kettő egyetlen adatbázisba kerüljön, és egyetlen lekérdezés mindkettőt elérje. A folyamat három
+ágát az alábbi ábra foglalja össze: a felső ág a rajzokból, az alsó az adatlapokból épít gráfot, a
+középső ág pedig összeköti a kettőt. A három ág kimenete ugyanabba a Neo4j-adatbázisba kerül. A
+fejezetben sorra vesszük a három ágat; a két forrásfolyamat részletes leírása a Függelék D-ben
+található.
 
-## A rajzoldali réteg
+![A tudásgráf felépítése. Felül a rajzi, alul az adatlapi folyamat, középen a kettő összekötése; mindhárom ág ugyanabba az adatbázisba tölt.](../../figures/kg_pipeline.png)
 
-Benedek rendszerében a generátor egy teljes üzemet épít, a lapokra bontó (splitter) lapokra
-vágja, a feloldó (resolver) a lapokból megoldókulcs nélkül visszaépíti az üzemet, végül a betöltő
-Neo4j-be tölti (részletesen: Függelék D). A generátor minden véletlen döntést egyetlen seedelt véletlenszám-generátoron át
-hoz meg, ezért ugyanaz a seed ugyanazt az üzemet adja; a kimenet valódi pyDEXPI-modell elágazó
-topológiával, a berendezésekhez tartozó szabályozókörökkel és a szokásos tagbetűkkel. A
-példaüzemek a generátor egyszerűbb, első változatával készültek, mert a valósághűbb, későbbi
-változat berendezésosztályai nem szűkíthetők az adatlappal rendelkező osztályokra. A bontó minden elvágott
-élre lapközi csatlakozópárt illeszt, a megoldókulcsot pedig külön fájlba írja, amely a vizsgált
-adatbázisba nem kerül be. A feloldó csak a lapokat látja: a csatlakozókat a feliratuk kölcsönös
-hivatkozása alapján párosítja, a több lapon felrajzolt elemeket a (tag, osztály) kulcs szerint
-vonja össze, és nem találgat. Mivel a bontást a rendszer maga végzi, a feloldó eredménye a
-megoldókulcshoz mérhető. A példaüzem 4 lapja között 4 lapközi csatlakozópár van; a
-rajzexportban mind a 8 lapközi jel összekötött, a visszaépítési ellenőrzés pedig
-hibátlan volt.
+## A rajzi réteg
 
-### Az üzemi réteg és a vonalnézet
+A rajzi ág négy lépésből áll. Először a generátor szabályok szerint felépít egy teljes üzemet:
+egységeket, bennük berendezéseket, a köztük futó csővezetékeket a szelepekkel, és a
+berendezésekhez tartozó szabályozóköröket. Másodszor egy lapokra bontó program az üzemet rajzlapokra
+vágja, és minden elvágott csőre lapközi csatlakozópárt illeszt, ahogy egy valódi rajzon is
+történik; azt, hogy melyik csatlakozó melyikkel alkot párt, külön megoldókulcsba írja, amely a
+vizsgált adatbázisba nem kerül be. Harmadszor egy visszaépítő program csak a lapokból, a
+megoldókulcs nélkül állítja vissza az üzemet: a csatlakozókat a feliratuk kölcsönös hivatkozása
+alapján párosítja, a több lapon felrajzolt elemeket a tag-jük és az osztályuk alapján egy elemmé
+vonja össze, és bizonytalan esetben nem találgat. Mivel a bontást a rendszer maga végezte, a
+visszaépítés eredménye a megoldókulccsal összevethető; a prototípus-üzemen hibátlan volt.
+Negyedszer a visszaépített üzem bekerül az adatbázisba.
 
-Benedek döntése szerint az adatbázisban két réteg lehet: a rajz szerinti
-előfordulásréteg (rajzolt szimbólumok, lapközi csonkok, azonossági élek) a nyomon követésre, és az
-összevont üzemi réteg, a tulajdonképpeni tudásgráf, amely kizárólag a feloldó kimenetéből épül.
-Az üzemi rétegben egy laphatár átlépése egyetlen él, az előfordulásrétegben több lépéses minta.
+Az adatbázisban minden rajzi elem pontosan egy csúcs lesz, akkor is, ha több lapon is szerepel. A
+csúcs több szinten is hordozza az elem típusát: egy centrifugálszivattyú egyben szivattyú és
+berendezés is, így egy lekérdezés bármelyik szinten rákereshet. Az elemek közötti csöveket az
+áramlás irányába mutató élek írják le, és ha egy cső átlépi a laphatárt, az is egyetlen él, amely
+ezt a tényt megjegyzi. A jelvezetékeknek, a mérésnek (melyik távadó melyik elemet méri) és a
+beavatkozásnak (melyik szabályozó melyik szelepet működteti) külön éltípusa van, és minden elem
+kapcsolatban áll azzal a lappal, amelyen szerepel, és azzal az egységgel, amelyhez tartozik.
 
-A generált üzemet Benedek betöltője tölti a Neo4j-adatbázisba. Minden rajzi elem pontosan egy
-csúcs lesz, akkor is, ha több lapon is szerepel. A csúcs több szinten is hordozza az elem
-típusát: egy centrifugálszivattyú egyben szivattyú és berendezés is, így egy lekérdezés bármelyik
-szinten rákereshet. Az elemek közötti csöveket az áramlás irányába mutató kapcsolatok írják le
-(`send_to`); ha egy ilyen kapcsolat átlépi a laphatárt, ezt a kapcsolat jelölése is rögzíti. A
-jelvezetékeknek, a mérésnek (melyik távadó melyik elemet méri) és a beavatkozásnak (melyik
-szabályozó melyik szelepet működteti) külön kapcsolattípusa van. Végül minden elem kapcsolatban
-áll azzal a lappal, amelyen szerepel, és azzal az egységgel, amelyhez tartozik.
+Erre épül a vonalnézet: egy rövidítő él, amely két berendezést vagy szelepet közvetlenül köt össze,
+és átugorja a köztük lévő kisebb csőidomokat. Így az olyan kérdés, mint „mi a szivattyú utáni
+következő szelep?”, egyetlen lépésben megválaszolható, a csövenkénti élek pedig a részletes
+nézethez megmaradnak. A vonalnézet a generátor valósághűbb változatához készült, ahol sok jelöletlen
+idom áll az elemek között; a mi üzemeinkben ilyen idom nincs, de a kaszkád lekérdezési szabályai
+erre a nézetre épülnek, ezért ezt használjuk. A kis prototípus-üzem rajzi rétege 36 csúcsból és 116
+élből áll.
 
-Erre épül a vonalnézet. Ez egy rövidítő kapcsolat (`line_to`), amely két berendezést vagy szelepet
-közvetlenül köt össze, és átugorja a köztük lévő kisebb csőidomokat. Így az olyan kérdés, mint „mi
-a szivattyú utáni következő szelep?”, egyetlen lépésben megválaszolható; az átugrott elemeket a
-rövidítő kapcsolat megjegyzi. A csövenkénti kapcsolatok is megmaradnak, így a részletes nézet sem
-vész el. A vonalnézetet Benedek a generátor valósághűbb változatának üzemeihez vezette be, ahol
-sok jelöletlen idom áll az elemek között; a mi üzemeinkben ilyen idom nincs, de a kaszkád
-promptjai és lekérdezési szabályai erre a nézetre készültek, ezért ezt használjuk. A kis
-prototípus-üzem üzemi rétege 36 csúcsból és 116 kapcsolatból áll.
+## Az adatlapi réteg
 
-## Az adatlapoldali réteg
-
-A plantdocs egy gyártói adatlap PDF-jéből tíz számozott lépésben jut el az ontológia szerinti
-RDF-gráfig:
+Az adatlapi ágban a plantdocs egy gyártói adatlap PDF-jéből tíz számozott lépésben állítja elő az
+adatlapgráfot. Az ábra négy dobozában ezek a lépések csoportosítva szerepelnek: az első doboz az 1.
+lépés, a második a 2–5., a harmadik a 6–10. lépés, a negyedik a betöltés.
 
 1. elrendezés-elemzés az Azure Document Intelligence szolgáltatással (bekezdések, táblázatok, ábrák);
 2. rekordok: egy nyelvi modell a táblázatokból paraméter–érték–egység rekordokat ír, a
-   táblázatbeli útvonallal;
+   táblázatbeli helyükkel együtt;
 3. ábrák: kivágás, osztályozás és a rajzokon lévő jelek feloldása;
 4. diagramok leolvasása;
 5. ellenőrzés: minden rekord számának megkeresése a PDF szövegében;
-6. célformátum: a rekordokból ontológiafüggetlen tények és feltételek;
+6. célformátum: a rekordokból tények és a hozzájuk tartozó feltételek;
 7. lábjegyzetek: az ábrákhoz tartozó lábjegyzetek bekötése;
 8. forrásleírások: minden forrásról (táblázatról, ábráról, szövegrészről) rövid leírás;
 9. szókészlet-illesztés: a tulajdonságokhoz és feltételekhez szabványos fogalmak rendelése;
-10. RDF: a gráf előállítása.
+10. az RDF-gráf előállítása.
 
-A lépések felváltva programok és nyelvi modellek; minden nyelvimodell-lépés kimenete csak akkor
-mehet tovább, ha átmegy egy programmal ellenőrzött formai és tartalmi feltételrendszeren. Az
-általunk feldolgozott négy adatlapon minden nyelvimodell-kimenet elsőre átment ezen az
-ellenőrzésen.
+A lépések felváltva programok és nyelvi modellek. Egy nyelvimodell-lépés kimenete csak akkor mehet
+tovább, ha átmegy egy programmal ellenőrzött formai és tartalmi feltételrendszeren; az általunk
+feldolgozott négy adatlapon minden ilyen kimenet elsőre átment. A folyamat legfontosabb elve, hogy
+egy rekord egy tény, nem egy nyomtatott cella, és a tény feltételei önálló elemek. A gráf a 2.
+fejezetben bemutatott ISO 15926 vonalat követi: az alapfogalmakat az IDO, az eszköz- és
+tulajdonságosztályokat a POSC Caesar könyvtára, a mértékegységeket a QUDT adja, és saját, kézzel
+írt szókészlet nem lehet benne.
 
-A célformátumban egy rekord egy tény, nem egy nyomtatott cella; a feltételek elsőrendű elemek,
-a nyomtatott forma megmarad, és minden visszakövethető a PDF-oldalig. Az RDF-modell a plantdocs
-ontológiai döntése szerint az ISO 15926 vonalat követi: az IDO a felső ontológia, a
-POSC Caesar könyvtára az eszköz- és referenciaszótár, a mértékegység QUDT, saját, kézzel írt
-szókészlet pedig nem lehet. Egy mennyiségi tény mennyiségi adatpont (Quantity Datum), a
-feltételek együttese egy esetcsúcs (Case), amelyre a tény és minden egyes feltétel mutat, a forrás
-szakaszcsúcs (Section Datum), a lábjegyzet külön adatpont (részletesen: Függelék D).
+Hogy ez a gyakorlatban mit jelent, azt a második ábra alsó fele mutatja. Az adatlap gyökércsúcsa
+maga az eszköz (itt a Gorman-Rupp VGH szivattyú). Egy mennyiségi tény egy adatpont-csúcs, amely a
+nyomtatott címkét és értéket hordozza, és élekkel mutat az alanyára (az eszközre vagy egy
+alkatrészére), a mértékegységére és a forrására, vagyis arra a táblázatra, ábrára vagy
+szövegrészre, ahonnan származik, az oldalszámmal együtt. A feltételek együttese egy külön
+esetcsúcs: a tény erre az esetre mutat, és minden egyes feltétel (például „a hőmérséklet
+legfeljebb 100 °F”) maga is adatpont, amely ugyanerre az esetre mutat. A lábjegyzet szintén külön
+adatpont. Ez a szerkezet őrzi meg, hogy egy érték milyen feltétel mellett és melyik oldalon
+érvényes; a példában a 250 psi-s legnagyobb üzemi nyomás csak 100 °F-ig érvényes, és a gráfból ez
+a feltétel is kiolvasható.
 
-### Az adatlapréteg a Neo4j-ben
-
-Egy adatlapgráf a plantdocs RDF-kimenete, amelyet a neosemantics (n10s) bővítmény tölt be:
-minden csúcs `:Resource {uri}`, az RDF-típusok további címkék (például a mennyiségi adatpont
-címkéje `plm__PCA_100029511`), a szabványos azonosítók rövidített előtagos neveket kapnak. Az
-eszköz gyökércsúcsának URI-ja `urn:plantdocs:<doc>:device`. Az adatpontok az eszközre vagy egy
-alkatrészére mutatnak, a feltételeket esetcsúcs, a lábjegyzeteket külön adatpont, a forrást
-(táblázat, ábra, szakasz) forrásszakasz-csúcs hordozza oldalszámmal. Ez a szerkezet őrzi meg,
-hogy egy érték milyen feltétel mellett és melyik oldalon érvényes. A hét eszközgráf együtt
-27 615 csúcsból és 103 366 kapcsolatból áll; a közös szókészlet-csúcsok (egységek, osztályok,
-szabványos attribútumok) száma 221.
-
-![Az összevont gráf csúcsai rétegenként és adatlaponként.](../../figures/graph_layers.png)
+Az adatlapgráfokat egy bővítmény tölti be a Neo4j-be, amely az RDF-hármasokat csúcsokká és élekké
+alakítja. A hét eszközgráf együtt 27 615 csúcsból és 103 366 élből áll; ehhez jön 221 közös
+szókészlet-csúcs (mértékegységek, eszközosztályok, szabványos tulajdonságok), amelyeken az adatlapok
+osztoznak.
 
 ## Az összekötés
 
-A két réteget egy kapcsolat köti össze: `(:PlantItem {tag})-[:DESCRIBED_BY]->(eszköz)`. A
-kapcsolatot a program által előállított tag → adatlap tábla alapján töltjük be; a 26 tagelt
-elemből 24-nek van adatlapja, ennyi `DESCRIBED_BY` él jön létre. Több tag
-mutathat ugyanarra az eszközgráfra: a nyolc szivattyú ugyanazt a Gorman-Rupp adatlapot kapja,
-mert ugyanaz a típus. A névütközést az URI-k dokumentumonkénti előtagja zárja ki; emellett
-minden adatlapcsúcs `document_id` tulajdonságot kap, amellyel a lekérdezés egy dokumentumra
-szűkíthető. A közös szókészlet-csúcsok (például egy mértékegység) az eszközök között közösek.
+A középső ág köti össze a két réteget. Első lépése egy tábla, amely minden tagelt rajzi elemhez
+megadja az adatlapját. Ezt a táblát program állítja elő a generátor kimenetéből, az elem osztálya és
+szerepe alapján (3. fejezet); valódi üzemben ez az eszközlista vagy az átadási adatbázis dolga
+volna. A tábla alapján minden adatlappal rendelkező rajzi elemtől egy összekötő él fut az
+adatlapgráf gyökércsúcsához. A kis üzem 26 tagelt eleméből 24-nek van adatlapja, ennyi összekötő él
+jön létre. Több tag mutathat ugyanarra az adatlapgráfra: a nyolc szivattyú mind a Gorman-Rupp
+adatlapot kapja, mert ugyanaz a típus. Az adatlapok csúcsai nem keverednek össze, mert minden csúcs
+azonosítója a dokumentum azonosítójával kezdődik, és minden csúcs külön tulajdonságként is hordozza
+a dokumentumazonosítót, így egy lekérdezés egyetlen adatlapra szűkíthető. Az utolsó lépés egy
+vektorindex az adatlapi adatpontokra, amely a jelentés szerinti kereséshez kell: minden adatpont
+szövegéhez egy beágyazásvektor készül, és a kérdéshez legközelebbi vektorok gyorsan
+megkereshetők.
 
-Egy összetett kérdés így egyetlen bejárásként fogalmazható meg: a rajzi rétegben megkeressük a
-kérdéses elemet (például a P-1-1 utáni első szelepet a `line_to` mentén), a `DESCRIBED_BY`
-kapcsolaton átlépünk az adatlapjára, és ott a megfelelő adatpontot olvassuk ki a feltételével és
-az oldalszámával. Az alábbi minta az összevont gráf egy részletét mutatja Cypher-jelöléssel: egy
-szivattyút, a rajzi szomszédját, az adatlapja gyökércsúcsát és egy adatpontot a környezetével.
+![Az összevont gráf szerkezete egy példán. Felül a rajzi réteg (két áramlási él és a lap), középen az összekötő él, alul a szivattyú adatlapgráfjának egy adatpontja a feltételével, mértékegységével és forrásával.](../../figures/kg_example.png)
 
-```
-// rajzi réteg (Benedek, vonalnézet)
-(p:PlantItem:CentrifugalPump {tag: 'P-1-3'})-[:line_to]->(v:PlantItem:Valve)
-(p)-[:is_drawn_on]->(:Sheet)
+Az ábra azt is megmutatja, hogyan válaszolható meg így egy összetett kérdés egyetlen bejárással.
+A „mekkora a CHV-1-2 szelep utáni szivattyú legnagyobb üzemi nyomása?” kérdéshez a rajzi rétegben
+a CHV-1-2-től az áramlás irányában egy lépést teszünk, és megtaláljuk a P-1-3 szivattyút; az
+összekötő élen átlépünk az adatlapjára; ott kiolvassuk az adatpontot a feltételével és a
+forrásoldalával együtt. Nincs szükség arra, hogy a rajzi és az adatlapi rendszer szövegesen adja
+át egymásnak az eredményt.
 
-// az összekötés
-(p)-[:DESCRIBED_BY]->(dev:Resource:lis__PhysicalObject)
+![Az összevont gráf csúcsai forrásonként a négylapos prototípus-üzemen.](../../figures/graph_layers.png)
 
-// adatlapi réteg (plantdocs, egy adatpont a környezetével)
-(d:plm__PCA_100029511)-[:plm__PCA_100029516]->(dev)                 // alany: az eszköz vagy egy alkatrésze
-(d)-[:plm__PCA_100029520]->(c:plm__PCA_100029524)                   // eset: a feltételek együttese
-(cond:plm__PCA_100029508)-[:plm__PCA_100029520]->(c)                // egy feltétel ugyanabban az esetben
-(d)-[:plm__PCA_100029525]->(s:plm__PCA_100029513)                   // forrásszakasz, oldalszámmal
-(d)-[:plm__PCA_100029514]->(f:plm__PCA_100029505)                   // lábjegyzet
-(d)-[:lis__datumUOM]->(u:Resource)                                  // mértékegység, QUDT-megfeleltetéssel
-```
+A fenti oszlopdiagram a prototípus-üzem összevont gráfjának összetételét mutatja. Minden oszlop azt
+adja meg, hány csúcs származik az adott forrásból: az első a rajzból épített üzemi réteg 36
+csúcsa, a következő hét egy-egy adatlap gráfja, az utolsó a közös szókészlet. Az adatlapgráfok
+mérete az adatlap terjedelmét követi: a 114 oldalas Rosemount 3051 adatlapból 10 928, a kétoldalas
+Alfa Laval M3-ból 135 csúcs lesz. Az adatlapi réteg tehát a kis üzemen nagyságrendekkel nagyobb a
+rajzinál, és mérete nem függ az üzemtől; a nagyobb üzemeken csak a rajzi réteg és az összekötő élek
+száma nő (6. fejezet).
 
-Az összekötés módját több alternatívával szemben választottuk. A legegyszerűbb az lett volna, ha
-az adatlapi tényeket tulajdonságként a rajzi csúcsra másoljuk; ez azonban éppen a feltételeket,
-a lábjegyzeteket és az oldalszámot veszítené el, amelyekért a plantdocs gráfja készült. Két
-külön adatbázis között egy lekérdezés nem járhat át (és a helyi Neo4j Community kiadás csak egy
-felhasználói adatbázist enged); az egész gráf RDF-ben pedig Benedek Neo4j-re írt kaszkádjának
-módosítását igényelte volna. A
-tagalapú él a legkisebb beavatkozás: egyik réteg szerkezete sem változik, és a kapcsolat a
-gyakorlatot követi, ahol a tag köti össze a rajzot a többi dokumentummal. Ára, hogy a tag →
-adatlap táblát elő kell állítani; nálunk ezt program végzi a generátor kimenetéből (3. fejezet),
-valódi üzemben ez az eszközlista vagy az átadási adatbázis dolga volna.
+Az összekötés módját több lehetőség közül választottuk. A legegyszerűbb az lett volna, ha az
+adatlapi tényeket tulajdonságként a rajzi csúcsra másoljuk; ez azonban éppen a feltételeket, a
+lábjegyzeteket és az oldalszámot veszítené el, amelyekért az adatlapgráf készült. Két külön
+adatbázis között egy lekérdezés nem járhat át, az egész gráf RDF-formában pedig a Neo4j-re írt
+kaszkád átírását igényelte volna. A tag alapján húzott él a legkisebb beavatkozás: egyik réteg
+szerkezete sem változik, és a kapcsolat a gyakorlatot követi, ahol a tag köti össze a rajzot a
+többi dokumentummal. Az így kapott gráf a kiindulópont; a következő fejezet azt mutatja be, hogyan
+válaszol rajta a három kérdés-válaszoló módszer.

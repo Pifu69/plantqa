@@ -85,7 +85,7 @@ function titleSlide() {
   const s = pres.addSlide({ masterName: "DARK" });
   s.addText("Tudásgráf-építés műszaki rajzokból és adatlapokból skálázható Q&A rendszerhez", { x: 0.6, y: 1.2, w: 8.8, h: 1.6, fontFace: "Cambria", fontSize: 32, bold: true, color: WHITE, isTextBox: true });
   s.addText("Szabó Zsombor István · Kiszely Benedek László", { x: 0.6, y: 3.1, w: 8.8, h: 0.4, fontSize: 18, color: WHITE, isTextBox: true });
-  s.addText("Témavezető: Dr. Hollósi Gergely László · BME VIK TMIT · TDK 2026", { x: 0.6, y: 3.55, w: 8.8, h: 0.4, fontSize: 14, color: "CADCFC", isTextBox: true });
+  s.addText("Témavezető: Hollósi Gergely László · BME VIK TMIT · TDK 2026", { x: 0.6, y: 3.55, w: 8.8, h: 0.4, fontSize: 14, color: "CADCFC", isTextBox: true });
   s.addNotes("Jó napot kívánunk. Szabó Zsombor és Kiszely Benedek vagyunk. A munkánk két részből áll: Benedek a rajzokból épít az egész üzemet leíró tudásgráfot, én a gyártói adatlapokból eszközönként. A dolgozatban a kettőt összekötjük, és megmérjük, hogyan lehet a kettőn együtt kérdezni egyre nagyobb üzemeken.");
 }
 
@@ -104,10 +104,11 @@ function motivation() {
 }
 
 function questions() {
-  const s = content("Három kérdést tettünk fel. Először: megválaszolhatók-e az ilyen kérdések egyetlen összevont gráfon, és ez hogyan viszonyul egy irányítóhoz, illetve egy gráf nélküli alapmódszerhez. Másodszor: hogyan változik a pontosság és a költség, ha nő az üzem, a módszerek változtatása nélkül. Harmadszor: melyik kérdéstípuson segít a gráf, és hol hibáznak a módszerek.");
+  const s = content("Három kérdést tettünk fel. Először: összeköthető-e a rajzokból és az adatlapokból külön épített tudás egyetlen lekérdezhető gráfban úgy, hogy a kapcsolatok és a feltételek is megmaradjanak. Másodszor: megbízhatóan válaszol-e egy ilyen gráf fölötti chatbot a két dokumentumot igénylő kérdésekre, és hogyan viszonyul a két rendszer külön hívásához és a gráf nélküli megoldáshoz. Harmadszor: hogyan változik a pontosság és a költség, ha az üzem egy nagyságrenddel nő.");
   title(s, "Kutatási kérdések");
-  const rq = [["RQ1", "Egy összevont gráf (M1) vs. router (M2) vs. gráf nélküli baseline (M3): pontosság"],
-    ["RQ2", "Skálázódás: pontosság és költség a 100 és 1000 lapos tesztüzemen"], ["RQ3", "Mely kérdéscsaládokon segít a gráf, és milyen hibák jellemzők?"]];
+  const rq = [["RQ1", "Összeköthető-e a rajz és az adatlap egyetlen tudásgráfban, a feltételek megtartásával?"],
+    ["RQ2", "Megbízható-e a gráf fölötti chatbot? M1 (összevont gráf) vs. M2 (irányító) vs. M3 (gráf nélkül)"],
+    ["RQ3", "Skálázódás: pontosság és költség a 100 és az 1000 lapos tesztüzemen"]];
   rq.forEach(([k, t], i) => {
     s.addShape(pres.shapes.OVAL, { x: 0.6, y: 1.25 + i * 1.2, w: 0.8, h: 0.8, fill: { color: NAVY }, line: { color: NAVY } });
     s.addText(k, { x: 0.6, y: 1.25 + i * 1.2, w: 0.8, h: 0.8, fontSize: 14, bold: true, color: WHITE, align: "center", isTextBox: true });
@@ -117,18 +118,18 @@ function questions() {
 
 function graphSlide() {
   const [c, d] = LARGE;
-  const s = content(`Öt üzemet generáltunk Benedek generátorával: egy négylapos prototípust, két fejlesztési üzemet pontosan 30 és 50 lappal, amelyeken a rendszert hangoltuk, és két tesztüzemet pontosan 100 és 1000 lappal, ${c.tags} és ${d.tags} tagelt elemmel, amelyeket a hangolás során nem használtunk. Mindegyikhez ugyanaz a hét gyártói adatlap tartozik; egy adatlap egy eszköztípust ír le, amely sok helyen beépül.`);
+  const s = content(`Öt üzemet generáltunk a plantgraph generátorával: egy négylapos prototípust, két fejlesztési üzemet pontosan 30 és 50 lappal, amelyeken a rendszert hangoltuk, és két tesztüzemet pontosan 100 és 1000 lappal, ${c.tags} és ${d.tags} tagelt elemmel, amelyeket a hangolás során nem használtunk. Mindegyikhez ugyanaz a hét gyártói adatlap tartozik; egy adatlap egy eszköztípust ír le, amely sok helyen beépül.`);
   title(s, "Egy adatbázis, két réteg, öt üzem");
   stat(s, 0.5, "30 · 50", "lap: fejlesztési (hangolási) üzemek");
   stat(s, 2.8, "100 · 1000", "lap: tesztüzemek");
   stat(s, 5.1, `${c.tags} · ${d.tags}`, "tagelt elem a tesztüzemeken");
   stat(s, 7.4, d.load.counts.described_by.toLocaleString("hu-HU"), "DESCRIBED_BY él (1000 lap)");
   s.addText("(:PlantItem {tag:'P-1-3'}) -[:DESCRIBED_BY]-> (eszköz) <-[alany]- (adatpont: érték, feltétel, oldal)", { x: 0.5, y: 3.0, w: 9, h: 0.5, fontSize: 13, fontFace: "Consolas", color: NAVY, isTextBox: true });
-  body(s, ["Rajz: Benedek generátora és betöltője (változtatás nélkül), szintetikus üzemek", "Adatlap: hét valódi gyártói PDF ISO 15926 / QUDT gráfja, tag szerint összekötve"], { x: 0.5, y: 3.6, w: 9, h: 1.3 });
+  body(s, ["Rajz: a plantgraph generátora és betöltője (változtatás nélkül), szintetikus üzemek", "Adatlap: hét valódi gyártói PDF ISO 15926 / QUDT gráfja, tag szerint összekötve"], { x: 0.5, y: 3.6, w: 9, h: 1.3 });
 }
 
 function methodsSlide() {
-  const s = content("Három módszert hasonlítottunk össze. Az M1 Benedek kaszkádja az összevont gráfon: a Cypher-szint mindkét réteg sémáját látja, az ágens pedig új primitívet kapott, amely egy tag adatlapjából kér le tényt. Az M2 egy router, amely a két meglévő rendszert külön hívja. Az M3 gráf nélküli: az egész rajz és a kérdéshez visszakeresett adatlapszöveg egy promptban.");
+  const s = content("Három módszert hasonlítottunk össze. Az M1 a kaszkád az összevont gráfon: a lekérdezést író lépés mindkét réteg leírását látja, az ágens pedig új adatlap-eszközt kapott, amely egy tag adatlapjából kér le tényt. Az M2 egy irányító, amely a két meglévő rendszert külön hívja. Az M3 gráf nélküli: az egész rajz és a kérdéshez visszakeresett adatlapszöveg egy promptban.");
   title(s, "Három módszer");
   image(s, "methods_overview.png", { x: 0.4, y: 1.0, w: 9.2, h: 3.9 });
 }
@@ -145,7 +146,7 @@ function evalSlide() {
   const s = content("Üzemenként 60 kérdés, négy családban: csak rajz, csak adatlap tagen át, összetett, és megválaszolhatatlan, plusz 12 több adatlapot összevető kérdés. A módszereket a kis üzemen fejlesztettük és befagyasztottuk; a két nagy üzemen semmit nem változtattunk, ott minden kérdés teszt. Ahol lehetett, programmal pontoztunk, a többit vak bíráló értékelte.");
   title(s, "Kiértékelés: üzemenként 60 kérdés");
   const rows = [["Család", "Példa", "Referencia"],
-    ["(a) rajz", "Which instruments measure E-2-1?", "Benedek generátora"],
+    ["(a) rajz", "Which instruments measure E-2-1?", "generátor (program)"],
     ["(b) adatlap", "Regarding P-1-3: max casing pressure?", "adatlapi kérdés–válasz párok"],
     ["(c) összetett", "Consider the transmitter that measures E-2-1. …", "programmal (a)+(b)"],
     ["(d) nincs benne", "Regarding PV-2-1: how to take the bonnet off safely?", "„Not in the documents”"]];

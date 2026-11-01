@@ -29,7 +29,7 @@ function complexSlide() {
 }
 
 function errorSlide() {
-  const s = content("Három jellemző hibát láttunk. Az M1 egyetlen lekérdezéssel talál egy releváns adatpontot, a kaszkád elfogadja a nem üres eredményt, és kimarad egy feltétel vagy második érték. A router a rajzeszköznek szabad szöveges kérdést ad, ezért ott a válasz alakja elcsúszhat, például szelepet ad szabályozókör helyett. A gráf nélküli módszer a nagy rajzon gyakran tévesen azt mondja, hogy a dokumentum nem tartalmazza a választ, és a költsége a rajz méretével nő. A hallucinált válasz ritka volt.");
+  const s = content("Három jellemző hibát láttunk. Az M1 egyetlen lekérdezéssel talál egy releváns adatpontot, a kaszkád elfogadja a nem üres eredményt, és kimarad egy feltétel vagy második érték. Az irányító a rajzeszköznek szabad szöveges kérdést ad, ezért ott a válasz alakja elcsúszhat, például szelepet ad szabályozókör helyett. A gráf nélküli módszer a nagy rajzon gyakran tévesen azt mondja, hogy a dokumentum nem tartalmazza a választ, és a költsége a rajz méretével nő. A hallucinált válasz ritka volt.");
   title(s, "Hibaelemzés");
   const cards = [["M1", "Egy szűk lekérdezés, hiányos sor elfogadva: a feltétel vagy a második érték kimarad"],
     ["M2", "Szabad szöveges rajzkérdés: a válasz alakja elcsúszhat; hosszú kérdésnél lépéskorlát"],
@@ -82,11 +82,11 @@ function backupTable() {
 }
 
 function backupLimits() {
-  const s = content("Tartalék: a korlátok. Szintetikus üzemek; modellkészítésű referenciák és modell-bíráló; üzemenként és családonként tizenöt kérdés; a POSC Caesar régi végpontja nem volt elérhető; a kaszkádot Benedek a v2 üzemekre hangolta, mi a v1-et használtuk.");
+  const s = content("Tartalék: a korlátok. Szintetikus üzemek; modellkészítésű referenciák és modell-bíráló; üzemenként és családonként tizenöt kérdés; a kaszkádot a generátor valósághűbb változatára hangolták, mi az egyszerűbbet használtuk.");
   title(s, "Tartalék: korlátok");
   body(s, ["Szintetikus üzemek (4, 30, 50, 100 és 1000 lap), hét adatlap", "Modellkészítésű referencia, vak modell-bíráló (nem ember)",
-    "Üzemenként és családonként 15 kérdés: széles intervallumok", "POSC Caesar régi SPARQL-végpontja nem volt elérhető",
-    "Kaszkád: v2-re hangolva, v1 üzemen futtatva"], { x: 0.5, y: 1.1, w: 9, h: 3.8 });
+    "Üzemenként és családonként 15 kérdés: széles intervallumok",
+    "Kaszkád: a valósághűbb generátorra hangolva, az egyszerűbb üzemein futtatva"], { x: 0.5, y: 1.1, w: 9, h: 3.8 });
 }
 
 function backupWork() {
